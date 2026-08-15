@@ -55,7 +55,7 @@
   };
 
   ui.sampleRibbon = function () {
-    return '<span class="sample-ribbon">Sample record — layout only. This documents nothing.</span>';
+    return '<span class="sample-ribbon">Sample record. Layout only.</span>';
   };
 
   /* --- source lines ------------------------------------------------------ *
@@ -147,8 +147,8 @@
         '<div class="notice-bar"><div class="shell">' +
           '<strong>' + ui.esc(cfg.archiveStage) + '</strong> — ' +
           'no evidence has been published to this archive yet. ' +
-          (cfg.demoMode ? 'Records marked <em>sample</em> exist to show the layout and document nothing. ' : '') +
-          'Every figure below is a real count of a real archive: at present, most of them are zero.' +
+          (cfg.demoMode ? 'Records marked <em>sample</em> show the layout only. ' : '') +
+          'The counts below are real. Most of them are currently zero.' +
         '</div></div>';
     }
 
@@ -206,7 +206,7 @@
             '</ul></div>' +
           '</div>' +
           '<div class="site-footer__legal">' +
-            '<p>Evidence before assertion. Where the record does not answer a question, this site says so.</p>' +
+            '<p>Where the record does not answer a question, this site says so.</p>' +
             '<p style="margin-top:0.5rem">Record last reviewed ' + ui.esc(WGO.config.lastReviewed) + '. ' +
             'Prototype built in the <a href="../">Experiments</a> sandbox.</p>' +
           '</div>' +

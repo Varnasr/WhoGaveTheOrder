@@ -30,23 +30,23 @@
         '<h3>Established facts</h3>' +
         '<p>Statements supported by primary evidence held in this archive, each one click from its source.</p>' +
         (counts.known === 0
-          ? '<p class="small" style="margin-top:0.75rem">Nothing has been established yet. Nothing will appear here until a document does.</p>'
+          ? '<p class="small" style="margin-top:0.75rem">Nothing established yet.</p>'
           : '<a class="small" href="evidence.html">Read the evidence &rarr;</a>') +
       '</div>' +
       '<div class="frame__col">' +
         '<p class="kicker">What we don\'t know</p>' +
         '<span class="frame__count">' + counts.open + '</span>' +
         '<h3>Open questions</h3>' +
-        '<p>Questions the documentary record does not currently answer. Each one is a specific document somebody could find.</p>' +
+        '<p>Questions the documentary record does not answer. Each one names a document somebody could find.</p>' +
         '<a class="small" href="investigations.html">See the open questions &rarr;</a>' +
       '</div>' +
       '<div class="frame__col">' +
         '<p class="kicker">What the government says</p>' +
         '<span class="frame__count">' + counts.responses + '</span>' +
         '<h3>Official responses</h3>' +
-        '<p>Statements, explanations and denials on the record — reproduced in full, including the ones that are inconvenient for us.</p>' +
+        '<p>Statements, explanations and denials on the record, reproduced in full.</p>' +
         (counts.responses === 0
-          ? '<p class="small" style="margin-top:0.75rem">No official statement has been recorded yet. We will publish them as they are made.</p>'
+          ? '<p class="small" style="margin-top:0.75rem">None recorded yet. We will publish them as they are made.</p>'
           : '<a class="small" href="response.html">Compare the accounts &rarr;</a>') +
       '</div>');
 
@@ -127,7 +127,7 @@
           '<strong>' + ui.esc(incident.title) + '</strong><br>' +
           ui.esc(incident.place) + '<br>' +
           (incident.coordsState === 'UNKNOWN'
-            ? '<em>Precise location not yet established — pin shows the state, not the site.</em><br>'
+            ? '<em>Precise location not established. The pin shows the state, not the site.</em><br>'
             : '') +
           '<a href="investigation.html?id=' + ui.esc(incident.slug) + '">Open the investigation</a>');
       });
@@ -181,7 +181,7 @@
           }).join('') + '</ul>'
         : '<div style="margin-top:1.5rem">' + ui.unknownBlock(
             'No verified timeline yet',
-            'A timeline on this site is a chronology of established fact, not a reconstruction. Until dated primary evidence exists — a stamped document, an original recording with intact metadata, a court record — this section stays empty.',
+            'Nothing dated has been established yet. This section fills in when we hold a stamped document, an original recording with intact metadata, or a court record that fixes a time.',
             '<a class="btn btn--small btn--ghost" href="submit.html">Send us dated evidence</a>') + '</div>'));
 
     /* 02 — WHAT EVIDENCE EXISTS */
@@ -210,7 +210,7 @@
           }).join('')
         : ui.unknownBlock(
             'Order not yet located',
-            'No written or oral order authorising the use of force at this location has been located. We are not going to guess at what it said, or who signed it. The absence of a located order is itself a finding — and it is the reason this project exists.',
+            'No order authorising the use of force at this location has been located. We have not described one, because we have not seen one. If you know where it sits, tell us.',
             '<a class="btn btn--small" href="submit.html">Help find the order</a>'));
 
     /* 05 — WHAT REMAINS UNKNOWN */
@@ -227,7 +227,7 @@
       responses.length
         ? responses.map(responseHtml).join('')
         : ui.empty('No official statement recorded',
-            'We have not recorded an official statement on this incident. When one is made — in a press conference, a press note, a court affidavit or a reply in the legislature — it will be reproduced here in full, whether or not it helps our case.'));
+            'We have not recorded an official statement on this incident. When one is made, in a press conference, a press note, a court affidavit or a reply in the legislature, we will reproduce it here in full.'));
 
     /* 07 — HELP FIND THE MISSING EVIDENCE */
     ui.mount('[data-region="missing"]',
@@ -241,7 +241,7 @@
         var items = model.externalFor(incident.id);
         return items.length
           ? '<div class="grid grid--2">' + items.map(externalCard).join('') + '</div>'
-          : ui.empty('Nothing indexed yet', 'Journalists, lawyers and researchers are working on this too. When we index their work it will appear here, credited to them.');
+          : ui.empty('Nothing indexed yet', 'When we index other people\'s work on this incident it will appear here, credited to them.');
       })());
   };
 
@@ -477,7 +477,7 @@
     document.title = item.id + ' — evidence — WhoGaveTheOrder.in';
 
     ui.mount(region,
-      (item.demo ? '<p class="chip chip--sample" style="margin-bottom:0.75rem">Sample record — layout only. This documents nothing.</p>' : '') +
+      (item.demo ? '<p class="chip chip--sample" style="margin-bottom:0.75rem">Sample record. Layout only.</p>' : '') +
       '<div class="row">' + ui.idChip(item.id) + ui.chip(item.verification) + ui.plainChip(model.typeLabel(item.type)) + '</div>' +
       '<h1 style="font-size:clamp(1.5rem,5vw,2.25rem);margin:0.7rem 0 1.1rem">' + ui.esc(item.title) + '</h1>' +
       '<table class="meta-table"><tbody>' +
@@ -549,11 +549,11 @@
             '<div class="compare__col"><h4>Government response</h4>' +
               (responses.length
                 ? responses.map(function (r) {
-                    return (r.demo ? '<p style="margin-bottom:0.5rem">' + ui.plainChip('Sample — documents nothing', 'chip--sample') + '</p>' : '') +
+                    return (r.demo ? '<p style="margin-bottom:0.5rem">' + ui.plainChip('Sample record', 'chip--sample') + '</p>' : '') +
                       '<blockquote class="official">' + ui.esc(r.quote) +
                       '<cite>' + ui.esc(r.respondingOffice) + ' · ' + ui.esc(r.date || 'undated') + '</cite></blockquote>';
                   }).join('')
-                : '<p>' + ui.chip('UNKNOWN') + '</p><p style="margin-top:0.5rem">No official response to this claim has been recorded. If one is made, it will appear here in full.</p>') +
+                : '<p>' + ui.chip('UNKNOWN') + '</p><p style="margin-top:0.5rem">No official response to this claim recorded. If one is made, it will appear here in full.</p>') +
             '</div>' +
             '<div class="compare__col"><h4>What remains unanswered</h4>' +
               '<ul class="stack-sm">' + open.slice(0, 5).map(function (q) {
@@ -570,7 +570,7 @@
       model.responses.length
         ? model.responses.map(responseHtml).join('')
         : ui.empty('No official statement recorded yet',
-            'Nothing has been said on the record that we have been able to source. We are watching press notes, court filings and replies in the legislature, and will publish what we find — including anything that contradicts us.'));
+            'Nothing on the record that we have been able to source. We are watching press notes, court filings and replies in the legislature, and will publish what we find, including anything that contradicts us.'));
   };
 
   /* ======================================================================= *
@@ -593,7 +593,7 @@
       model.external.length
         ? model.external.map(externalCard).join('')
         : ui.empty('Nothing indexed yet',
-            'We have not yet indexed anyone else\'s work on these incidents. If you have published something — a report, a legal analysis, footage, a thread of documents — send us the link and we will index it under your name.'));
+            'We have not yet indexed anyone else\'s work on these incidents. If you have published a report, a legal analysis, footage or a set of documents, send us the link and we will index it under your name.'));
   };
 
   /* ======================================================================= *
@@ -671,15 +671,15 @@
     bindAsyncForm(
       document.getElementById('evidence-form'),
       document.getElementById('form-status'),
-      'Received. Your submission is logged as RECEIVED and is not public. A reviewer will check it ' +
-      'against its original source before anything is published. If you gave us permission to ' +
-      'contact you, we may write to ask how you obtained it.');
+      'Received. Your submission is logged and is not public. A reviewer will check it against its ' +
+      'original source before anything is published. If you gave us permission to contact you, we ' +
+      'may write to ask how you obtained it.');
 
     bindAsyncForm(
       document.getElementById('demand-form'),
       document.getElementById('demand-status'),
-      'Recorded. You are asking for one specific document. We will tell you if it is produced, ' +
-      'refused, or answered by an office on the record.');
+      'Recorded. We will tell you if that document is produced, refused, or answered by an office ' +
+      'on the record.');
 
     bindShare();
   };
@@ -690,7 +690,7 @@
     btn.addEventListener('click', function () {
       var payload = {
         title: 'Who gave the order?',
-        text: 'Police used force against students. Who authorised it? An evidence archive, not a campaign.',
+        text: 'Police used force against students. Who authorised it?',
         url: window.location.origin + window.location.pathname.replace(/submit\.html$/, '')
       };
       if (navigator.share) {
@@ -728,8 +728,8 @@
         .catch(function () {
           status.setAttribute('data-tone', 'error');
           status.textContent =
-            'That did not send. The form posts to Netlify Forms, which only accepts submissions on the deployed site — ' +
-            'if you are viewing this locally, that is the reason. Otherwise, email ' + WGO.config.contact.evidence + '.';
+            'That did not send. The form only accepts submissions on the deployed site, so a local copy will ' +
+            'always fail here. Otherwise, email ' + WGO.config.contact.evidence + '.';
         })
         .then(function () {
           button.disabled = false;
@@ -779,7 +779,7 @@
               }).join('') + '</div></section>';
           }).join('')
         : ui.empty('Nothing found',
-            'No record matches that. The archive is small — that is the honest reason most searches come back empty today.');
+            'No record matches that. The archive is small, so most searches come back empty today.');
     }
 
     input.addEventListener('input', draw);
@@ -816,7 +816,7 @@
             return '<tr><td class="mono">' + ui.esc(p.record) + '</td><td>' + ui.esc(p.message) +
               '</td><td class="mono">' + ui.esc(p.ref) + '</td></tr>';
           }).join('') + '</tbody></table></div>'
-        : '<div class="callout"><p><strong>No dangling references.</strong> Every claim in the store points at a record that exists, and no published evidence item is missing a source.</p></div>');
+        : '<div class="callout"><p><strong>No dangling references.</strong> Every claim in the store points at a record that exists, and every published evidence item has a source.</p></div>');
 
     ui.mount('[data-region="reviewer-actions"]',
       WGO.REVIEWER_ACTIONS.map(function (a) { return '<li>' + ui.plainChip(a) + '</li>'; }).join(''));
@@ -912,7 +912,7 @@
         warnings.push('No source ID given. This record will render with NO SOURCE ON RECORD until one is attached.');
       }
       if (data.state === 'VERIFIED' && (!record.sourceIds || !record.sourceIds.length)) {
-        warnings.push('VERIFIED with no source attached — the integrity check will flag this.');
+        warnings.push('VERIFIED with no source attached. The integrity check will flag this.');
       }
 
       output.value =

@@ -22,8 +22,8 @@
         <h2 style="font-size:clamp(1.75rem,6vw,2.5rem)">Editorial console</h2>
         <p class="lede">
           The state of the archive, the checks it fails, and a composer that writes records in the
-          shape the content model expects. Public, because an accountability archive that hides its
-          own quality checks is asking for trust it has not earned.
+          shape the content model expects. Public, so the archive's own quality checks can be read
+          alongside its claims.
         </p>
       </div>
       <div class="count-strip" data-region="admin-counts"></div>
@@ -37,8 +37,8 @@
         <p class="kicker">Integrity</p>
         <h2>What the archive currently fails</h2>
         <p class="lede">
-          A dangling reference here is not a cosmetic bug. It is a claim pointing at nothing, or a
-          published document with no source behind it.
+          A dangling reference here means a claim pointing at nothing, or a published document with
+          no source behind it.
         </p>
       </div>
       <div data-region="integrity"></div>
@@ -87,9 +87,9 @@
 
       <div class="callout" style="margin-top:1.5rem">
         <p><strong>Where submissions currently land.</strong> The public form posts to Netlify Forms,
-        which holds submissions privately with email notification — deliberately outside this
-        repository, so that unreviewed material never sits in a public place. A reviewer reads them
-        there, and only a reviewed record is written into the archive through the composer below.</p>
+        which holds submissions privately with email notification, outside this repository, so that
+        unreviewed material never sits in a public place. A reviewer reads them there, and only a
+        reviewed record is written into the archive through the composer below.</p>
       </div>
     </div>
   </section>
@@ -101,10 +101,9 @@
         <p class="kicker">Record composer</p>
         <h2>Write a record</h2>
         <p class="lede">
-          Fill this in and the console emits a record in exactly the shape
+          Fill this in and the console emits a record in the shape
           <span class="mono">data/records.js</span> expects. Paste it into the matching array and
-          commit. The commit is the audit trail: who changed it, what changed, and when — in a place
-          that cannot be quietly rewritten.
+          commit. The commit is the audit trail: who changed it, what changed, and when.
         </p>
       </div>
 
@@ -177,7 +176,7 @@
         <label class="field">
           <span>What this does not establish</span>
           <textarea name="rec-not"></textarea>
-          <span class="field__hint">Mandatory in practice. A record without this line has not been thought about properly.</span>
+          <span class="field__hint">Required in practice. Fill it in before publishing the record.</span>
         </label>
 
         <div class="row">
@@ -199,8 +198,8 @@
         <p class="kicker">Beyond the prototype</p>
         <h2>What a full CMS has to add</h2>
         <p class="lede">
-          This console covers the composing and checking. A hosted editorial system for a growing
-          national archive has to add the rest, and these are the requirements it must meet.
+          This console covers composing and checking. A hosted editorial system for a growing
+          national archive has to meet the requirements below.
         </p>
       </div>
       <div class="grid grid--2">
@@ -236,7 +235,7 @@
         <p><strong>Why the audit trail lives in version control for now.</strong> A public git
         history gives the archive an append-only record of every change, attributable and timestamped,
         without a database an administrator could quietly rewrite. Any CMS that replaces it has to be
-        at least as hard to tamper with — that is the bar, not convenience.</p>
+        at least as hard to tamper with.</p>
       </div>
     </div>
   </section>

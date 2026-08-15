@@ -49,15 +49,15 @@ WGO.EVIDENCE_STATES = {
   },
   DISPUTED: {
     label: 'Disputed',
-    definition: 'Credible accounts conflict. Both accounts are shown; neither is presented as settled.'
+    definition: 'Credible accounts conflict. Both are shown and neither is presented as settled.'
   },
   UNVERIFIED: {
     label: 'Unverified',
-    definition: 'Material has been submitted to us but not yet established. It is recorded, not relied upon.'
+    definition: 'Material has been submitted to us but not established. We record it and do not rely on it.'
   },
   UNKNOWN: {
     label: 'Unknown',
-    definition: 'The available evidence does not answer the question. This is a finding, not an omission.'
+    definition: 'The available evidence does not answer the question.'
   }
 };
 
@@ -74,7 +74,7 @@ WGO.QUESTION_STATES = {
   },
   UNANSWERED: {
     label: 'Unanswered',
-    definition: 'Nothing on the public record answers this question. We are looking.'
+    definition: 'Nothing on the public record answers this question.'
   },
   DISPUTED: {
     label: 'Disputed',
@@ -95,7 +95,7 @@ WGO.AUTHORITY_LEVELS = [
 WGO.AUTHORITY_CLAIMS = {
   HAS_AUTHORITY: {
     label: 'Has authority',
-    definition: 'This office is empowered, on the face of the law or the administrative structure, to take or approve decisions of this kind. This says nothing about what it did.'
+    definition: 'This office is empowered, on the face of the law or the administrative structure, to take or approve decisions of this kind. It says nothing about what it did.'
   },
   EVIDENCED_TO_HAVE_AUTHORISED: {
     label: 'Evidenced to have authorised',
