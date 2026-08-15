@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Evidence library — WhoGaveTheOrder.in</title>
+<meta name="description" content="A searchable public archive of orders, statements, court documents, RTI replies, photographs, videos and eyewitness accounts. Every item has an ID and a source.">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body data-page="evidence">
+<a class="skip-link" href="#main">Skip to content</a>
+<div data-chrome="masthead"></div>
+
+<main id="main">
+
+  <!-- LIBRARY ============================================================ -->
+  <div data-region="library">
+    <section style="border-top:0">
+      <div class="shell">
+        <p class="crumb"><a href="index.html">Home</a> / Evidence</p>
+        <div class="section-head" style="margin-top:1rem">
+          <p class="kicker">The archive</p>
+          <h2 style="font-size:clamp(1.75rem,6vw,2.75rem)">Evidence library</h2>
+          <p class="lede">
+            Every item has a permanent ID, a source, and two sentences that matter more than the
+            item itself: what it establishes, and what it does not.
+          </p>
+        </div>
+
+        <div class="toolbar" style="margin-bottom:1rem">
+          <label class="field">
+            <span>Search the archive</span>
+            <input type="search" id="evidence-search" placeholder="Try an evidence ID, a document type, or a keyword such as “pellet”">
+          </label>
+          <div class="row" style="align-items:flex-end;gap:0.6rem">
+            <label class="field">
+              <span>Type</span>
+              <select id="evidence-type"><option value="">All types</option></select>
+            </label>
+            <label class="field">
+              <span>Incident</span>
+              <select id="evidence-incident"><option value="">All incidents</option></select>
+            </label>
+          </div>
+        </div>
+
+        <div class="filter-row" data-region="state-filters" style="margin-bottom:0.85rem"></div>
+        <p class="result-count" data-region="evidence-count" style="margin-bottom:1.1rem"></p>
+
+        <div class="grid grid--3" data-region="evidence-list"></div>
+      </div>
+    </section>
+
+    <section>
+      <div class="shell">
+        <div class="callout">
+          <p><strong>What an evidence ID is for.</strong> Once an item enters this archive it keeps
+          its ID for good. A claim on any page cites the ID rather than restating the document, so a
+          reader is always one click from the thing itself — and so a correction to a document
+          propagates to every claim that rests on it.</p>
+          <p>Missing something you think we should hold? <a href="submit.html">Send it</a>.
+          Think an item is wrong? <a href="about.html#corrections">Report an error</a>.</p>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- SINGLE RECORD ====================================================== -->
+  <div data-region="record" hidden>
+    <section style="border-top:0">
+      <div class="shell shell--narrow">
+        <p class="crumb"><a href="index.html">Home</a> / <a href="evidence.html">Evidence</a> / Record</p>
+        <div style="margin-top:1rem" data-region="evidence-detail"></div>
+      </div>
+    </section>
+  </div>
+
+</main>
+
+<div data-chrome="footer"></div>
+
+<script src="data/taxonomy.js"></script>
+<script src="data/records.js"></script>
+<script src="data/samples.js"></script>
+<script src="assets/model.js"></script>
+<script src="assets/ui.js"></script>
+<script src="assets/pages.js"></script>
+</body>
+</html>

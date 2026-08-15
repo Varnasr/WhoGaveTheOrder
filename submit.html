@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Help find the order — WhoGaveTheOrder.in</title>
+<meta name="description" content="Submit evidence to a public accountability archive. Nothing sent by the public goes live automatically — every submission is reviewed against its original source first.">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body data-page="submit">
+<a class="skip-link" href="#main">Skip to content</a>
+<div data-chrome="masthead"></div>
+
+<main id="main">
+  <section style="border-top:0">
+    <div class="shell">
+      <p class="crumb"><a href="index.html">Home</a> / Submit evidence</p>
+      <div class="section-head" style="margin-top:1rem">
+        <p class="kicker">The whole ask</p>
+        <h2 style="font-size:clamp(1.75rem,6vw,2.75rem)">Help us find the order.</h2>
+        <p class="lede">
+          Orders are written down. They are typed, signed, numbered, copied, filed and circulated.
+          Somebody has seen this one. If that is you — or if you can get a copy lawfully — this is
+          the single most useful thing anyone can do for this investigation.
+        </p>
+      </div>
+      <ul class="pill-list" data-region="wanted" style="margin-bottom:1.5rem"></ul>
+      <div class="hero__actions" style="margin-top:0">
+        <a class="btn" href="#form">Submit evidence</a>
+        <a class="btn btn--ghost" href="#missing">What evidence are we missing?</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHAT HAPPENS TO A SUBMISSION ====================================== -->
+  <section>
+    <div class="shell">
+      <div class="section-head">
+        <p class="kicker">Before you send anything</p>
+        <h2>What happens to what you send</h2>
+        <p class="lede">Nothing submitted by the public goes live automatically. Not once, not ever.</p>
+      </div>
+      <div data-region="workflow" style="margin-bottom:1.25rem"></div>
+      <div data-region="workflow-detail"></div>
+      <div class="callout" style="margin-top:1.5rem">
+        <p><strong>Your safety comes before our archive.</strong> Do not break a law, a service rule
+        or a confidentiality obligation to send us something. Do not photograph a document in a place
+        where you can be identified doing it. If a document can be obtained through an RTI
+        application instead, tell us and we will file it ourselves.</p>
+        <p>Contact details are stored privately and are never published, never shown to a third
+        party, and never attached to a published record. If you ask us not to contact you, we will
+        not — even if it costs us the verification.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FORM ============================================================== -->
+  <section id="form">
+    <div class="shell shell--narrow">
+      <div class="section-head">
+        <p class="kicker">Submission</p>
+        <h2>Send evidence</h2>
+        <p class="lede">Everything except the description is optional. An anonymous submission with no contact details is still worth sending.</p>
+      </div>
+
+      <form id="evidence-form" name="wgo-evidence" method="POST"
+            data-netlify="true" netlify-honeypot="bot-field" enctype="multipart/form-data"
+            class="stack">
+        <input type="hidden" name="form-name" value="wgo-evidence">
+        <p class="hp"><label>Leave this empty <input name="bot-field"></label></p>
+
+        <label class="field">
+          <span>Your name — optional</span>
+          <input type="text" name="name" autocomplete="name">
+          <span class="field__hint">Leave blank to submit anonymously. We will not guess at who you are.</span>
+        </label>
+
+        <label class="field">
+          <span>Contact — private, never published</span>
+          <input type="text" name="contact" autocomplete="email">
+          <span class="field__hint">Email, phone or a Signal number. Used only to ask a clarifying question, and only if you allow it below.</span>
+        </label>
+
+        <div class="grid grid--2">
+          <label class="field">
+            <span>Date of the incident or the document</span>
+            <input type="date" name="date">
+          </label>
+          <label class="field">
+            <span>Incident</span>
+            <select id="submission-incident" name="incident"><option value="">Not sure / not listed</option></select>
+          </label>
+        </div>
+
+        <label class="field">
+          <span>Location</span>
+          <input type="text" name="location" placeholder="City, district, or the specific site">
+        </label>
+
+        <label class="field">
+          <span>Evidence type</span>
+          <select id="submission-type" name="type"><option value="">Not sure</option></select>
+        </label>
+
+        <label class="field">
+          <span>Description — required</span>
+          <textarea name="description" required placeholder="What is this, and what do you think it shows? Plain language is fine. If you are not sure what it proves, say that — it is useful."></textarea>
+        </label>
+
+        <label class="field">
+          <span>Upload</span>
+          <input type="file" name="attachment" multiple>
+          <span class="field__hint">Documents, photographs, video, screenshots. Send the original file rather than a screenshot of it where you can — original files carry metadata that helps establish provenance.</span>
+        </label>
+
+        <label class="field">
+          <span>Original source or link</span>
+          <input type="url" name="source_url" placeholder="https://">
+          <span class="field__hint">If this was published somewhere, link the original. We index other people's work; we do not reproduce it.</span>
+        </label>
+
+        <label class="field">
+          <span>How did you obtain this?</span>
+          <textarea name="provenance" placeholder="Where it came from, and how it reached you. This is what lets us verify it — and it is the question we most often have to come back and ask."></textarea>
+        </label>
+
+        <fieldset style="border:1px solid var(--rule);border-radius:3px;padding:1rem">
+          <legend class="kicker" style="padding:0 0.4rem">Permissions</legend>
+          <label style="display:block;margin-bottom:0.6rem">
+            <input type="checkbox" name="permission_publish" value="yes">
+            You may publish this material in the archive if it is verified.
+          </label>
+          <label style="display:block;margin-bottom:0.6rem">
+            <input type="checkbox" name="permission_contact" value="yes">
+            You may contact me for clarification.
+          </label>
+          <label style="display:block">
+            <input type="checkbox" name="permission_credit" value="yes">
+            You may credit me by name if this is published. Leave unticked to stay anonymous in the record.
+          </label>
+        </fieldset>
+
+        <div>
+          <button class="btn" type="submit">Send to the archive</button>
+          <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- WHAT WE ARE MISSING =============================================== -->
+  <section id="missing">
+    <div class="shell">
+      <div class="section-head">
+        <p class="kicker">The gap list</p>
+        <h2>What evidence are we missing?</h2>
+        <p class="lede">
+          Every unanswered question in this archive, and the document that would answer it. This is
+          the working list — if you can close one line of this table, close it.
+        </p>
+      </div>
+      <div data-region="missing-list"></div>
+    </div>
+  </section>
+
+  <!-- PUBLIC DEMAND ===================================================== -->
+  <section id="demand">
+    <div class="shell shell--narrow">
+      <div class="section-head">
+        <p class="kicker">Accountability</p>
+        <h2>The public deserves to know.</h2>
+        <p class="lede">
+          Not a general petition. A specific demand for a specific document, attached to a specific
+          unanswered question — so that it can actually be answered, and so that answering it is
+          not a matter of opinion.
+        </p>
+      </div>
+
+      <form id="demand-form" name="wgo-demand" method="POST"
+            data-netlify="true" netlify-honeypot="bot-field" data-async-form class="stack">
+        <input type="hidden" name="form-name" value="wgo-demand">
+        <p class="hp"><label>Leave this empty <input name="bot-field"></label></p>
+
+        <label class="field">
+          <span>Which question are you asking to be answered?</span>
+          <select id="demand-question" name="question" required></select>
+        </label>
+
+        <div class="grid grid--2">
+          <label class="field">
+            <span>Name</span>
+            <input type="text" name="name" required autocomplete="name">
+          </label>
+          <label class="field">
+            <span>Email</span>
+            <input type="email" name="email" required autocomplete="email">
+          </label>
+        </div>
+
+        <label class="field">
+          <span>City — optional</span>
+          <input type="text" name="city">
+        </label>
+
+        <div>
+          <button class="btn" type="submit">Ask for the order</button>
+          <p class="form-status" id="demand-status" role="status" aria-live="polite"></p>
+        </div>
+        <p class="small">
+          Your name and city may be shown in a public count of signatories. Your email is never
+          published and is used only to tell you if the question gets answered.
+        </p>
+      </form>
+
+      <div class="hero__actions">
+        <button class="btn btn--ghost" type="button" id="share-btn">Share the investigation</button>
+        <a class="btn btn--ghost" href="about.html#method">How we verify</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<div data-chrome="footer"></div>
+
+<script src="data/taxonomy.js"></script>
+<script src="data/records.js"></script>
+<script src="data/samples.js"></script>
+<script src="assets/model.js"></script>
+<script src="assets/ui.js"></script>
+<script src="assets/pages.js"></script>
+</body>
+</html>

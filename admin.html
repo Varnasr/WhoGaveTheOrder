@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Editorial console — WhoGaveTheOrder.in</title>
+<meta name="description" content="Archive integrity checks, the submission review workflow, and a composer that emits records in the shape the content model expects.">
+<meta name="robots" content="noindex">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body data-page="admin">
+<a class="skip-link" href="#main">Skip to content</a>
+<div data-chrome="masthead"></div>
+
+<main id="main">
+  <section style="border-top:0">
+    <div class="shell">
+      <p class="crumb"><a href="index.html">Home</a> / Editorial console</p>
+      <div class="section-head" style="margin-top:1rem">
+        <p class="kicker">For investigators</p>
+        <h2 style="font-size:clamp(1.75rem,6vw,2.5rem)">Editorial console</h2>
+        <p class="lede">
+          The state of the archive, the checks it fails, and a composer that writes records in the
+          shape the content model expects. Public, because an accountability archive that hides its
+          own quality checks is asking for trust it has not earned.
+        </p>
+      </div>
+      <div class="count-strip" data-region="admin-counts"></div>
+    </div>
+  </section>
+
+  <!-- INTEGRITY ========================================================== -->
+  <section>
+    <div class="shell">
+      <div class="section-head">
+        <p class="kicker">Integrity</p>
+        <h2>What the archive currently fails</h2>
+        <p class="lede">
+          A dangling reference here is not a cosmetic bug. It is a claim pointing at nothing, or a
+          published document with no source behind it.
+        </p>
+      </div>
+      <div data-region="integrity"></div>
+      <div class="prose" style="margin-top:1.25rem">
+        <p class="small">Checks that run on every page load:</p>
+        <ul class="small">
+          <li>Evidence citing a source record that does not exist</li>
+          <li>Evidence linking to a related item that does not exist</li>
+          <li>Claims, questions and offices citing evidence that does not exist</li>
+          <li>Published evidence with no source attached</li>
+          <li>A claim asserting VERIFIED or CORROBORATED with no evidence attached</li>
+          <li>A question marked ANSWERED with no evidence attached</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- REVIEW WORKFLOW ==================================================== -->
+  <section>
+    <div class="shell">
+      <div class="section-head">
+        <p class="kicker">Citizen submissions</p>
+        <h2>Review workflow</h2>
+        <p class="lede">Nothing submitted by the public goes live automatically.</p>
+      </div>
+      <div data-region="admin-workflow" style="margin-bottom:1.5rem"></div>
+
+      <div class="grid grid--2">
+        <div>
+          <p class="kicker" style="margin-bottom:0.5rem">Actions available to a reviewer</p>
+          <ul class="pill-list" data-region="reviewer-actions"></ul>
+        </div>
+        <div>
+          <p class="kicker" style="margin-bottom:0.5rem">What every review must record</p>
+          <div class="prose">
+            <ul>
+              <li>Who reviewed it, and when</li>
+              <li>What the item was checked against</li>
+              <li>Why the verification state it received, rather than a higher one</li>
+              <li>Any redaction applied, and the reason</li>
+              <li>Whether the contributor gave permission to publish, and to credit</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="callout" style="margin-top:1.5rem">
+        <p><strong>Where submissions currently land.</strong> The public form posts to Netlify Forms,
+        which holds submissions privately with email notification — deliberately outside this
+        repository, so that unreviewed material never sits in a public place. A reviewer reads them
+        there, and only a reviewed record is written into the archive through the composer below.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- COMPOSER =========================================================== -->
+  <section>
+    <div class="shell">
+      <div class="section-head">
+        <p class="kicker">Record composer</p>
+        <h2>Write a record</h2>
+        <p class="lede">
+          Fill this in and the console emits a record in exactly the shape
+          <span class="mono">data/records.js</span> expects. Paste it into the matching array and
+          commit. The commit is the audit trail: who changed it, what changed, and when — in a place
+          that cannot be quietly rewritten.
+        </p>
+      </div>
+
+      <form id="composer" class="stack" style="max-width:760px">
+        <div class="grid grid--2">
+          <label class="field">
+            <span>Record kind</span>
+            <select id="composer-kind">
+              <option value="evidence">Evidence (WGO-)</option>
+              <option value="source">Source (SRC-)</option>
+              <option value="event">Timeline event (EVT-)</option>
+              <option value="order">Order (ORD-)</option>
+              <option value="response">Government response (GOV-)</option>
+            </select>
+          </label>
+          <label class="field">
+            <span>ID — leave blank for a placeholder</span>
+            <input type="text" name="rec-id" placeholder="WGO-0001">
+          </label>
+        </div>
+
+        <label class="field">
+          <span>Title, or the quoted statement for a government response</span>
+          <input type="text" name="rec-title">
+        </label>
+
+        <div class="grid grid--2">
+          <label class="field">
+            <span>Type / channel</span>
+            <input type="text" name="rec-type" placeholder="OFFICIAL_ORDER, RTI_RESPONSE, press note…">
+          </label>
+          <label class="field">
+            <span>Verification state</span>
+            <select id="composer-state"></select>
+          </label>
+        </div>
+
+        <div class="grid grid--2">
+          <label class="field">
+            <span>Incident</span>
+            <select id="composer-incident"><option value="">Unassigned</option></select>
+          </label>
+          <label class="field">
+            <span>Date on the item</span>
+            <input type="text" name="rec-date" placeholder="YYYY-MM-DD">
+          </label>
+        </div>
+
+        <label class="field">
+          <span>Source IDs — comma separated</span>
+          <input type="text" name="rec-sources" placeholder="SRC-0001, SRC-0002">
+          <span class="field__hint">Leave this blank and the record renders with NO SOURCE ON RECORD everywhere it appears.</span>
+        </label>
+
+        <label class="field">
+          <span>URL — for a source record</span>
+          <input type="text" name="rec-url" placeholder="https://">
+        </label>
+
+        <label class="field">
+          <span>How we obtained it / who issued it</span>
+          <textarea name="rec-origin"></textarea>
+        </label>
+
+        <label class="field">
+          <span>What this establishes</span>
+          <textarea name="rec-establishes"></textarea>
+        </label>
+
+        <label class="field">
+          <span>What this does not establish</span>
+          <textarea name="rec-not"></textarea>
+          <span class="field__hint">Mandatory in practice. A record without this line has not been thought about properly.</span>
+        </label>
+
+        <div class="row">
+          <button class="btn" type="submit">Generate record</button>
+          <button class="btn btn--ghost" type="button" id="composer-copy">Copy record</button>
+        </div>
+
+        <div id="composer-warnings"></div>
+        <textarea id="composer-output" class="mono" rows="14" hidden
+                  style="width:100%;padding:0.75rem;border:1px solid var(--rule-strong);border-radius:3px;background:var(--paper-2)"></textarea>
+      </form>
+    </div>
+  </section>
+
+  <!-- CMS SPEC =========================================================== -->
+  <section>
+    <div class="shell">
+      <div class="section-head">
+        <p class="kicker">Beyond the prototype</p>
+        <h2>What a full CMS has to add</h2>
+        <p class="lede">
+          This console covers the composing and checking. A hosted editorial system for a growing
+          national archive has to add the rest, and these are the requirements it must meet.
+        </p>
+      </div>
+      <div class="grid grid--2">
+        <div class="prose">
+          <h3>Must have</h3>
+          <ul>
+            <li>Create and edit every entity: incident, event, person, office, order, evidence,
+                source, claim, question, government response, submission.</li>
+            <li>Link evidence to claims and questions, and set an answer state, without touching a
+                file by hand.</li>
+            <li>Review queue for citizen submissions with the seven reviewer actions.</li>
+            <li>Version history on every record, with a readable diff.</li>
+            <li>Audit trail: who changed it, what changed, when — retained permanently, and never
+                editable from inside the application.</li>
+            <li>Corrections as first-class records, shown publicly on the item they correct.</li>
+            <li>Role separation: contributor, reviewer, editor. Only an editor may publish.</li>
+          </ul>
+        </div>
+        <div class="prose">
+          <h3>Must not do</h3>
+          <ul>
+            <li>Publish anything from the public form automatically.</li>
+            <li>Allow a claim to be set VERIFIED without attached evidence.</li>
+            <li>Allow an office to be linked to an order without a document.</li>
+            <li>Store contributor contact details anywhere they are visible to the public site.</li>
+            <li>Permit a silent edit to a published record — every material change is versioned and
+                dated.</li>
+            <li>Delete a record. Withdrawn material is marked withdrawn, with a reason.</li>
+          </ul>
+        </div>
+      </div>
+      <div class="callout" style="margin-top:1.5rem">
+        <p><strong>Why the audit trail lives in version control for now.</strong> A public git
+        history gives the archive an append-only record of every change, attributable and timestamped,
+        without a database an administrator could quietly rewrite. Any CMS that replaces it has to be
+        at least as hard to tamper with — that is the bar, not convenience.</p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<div data-chrome="footer"></div>
+
+<script src="data/taxonomy.js"></script>
+<script src="data/records.js"></script>
+<script src="data/samples.js"></script>
+<script src="assets/model.js"></script>
+<script src="assets/ui.js"></script>
+<script src="assets/pages.js"></script>
+</body>
+</html>

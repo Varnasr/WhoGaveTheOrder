@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Search — WhoGaveTheOrder.in</title>
+<meta name="description" content="Search across people, offices, locations, dates, incidents, evidence IDs, documents and keywords.">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body data-page="search">
+<a class="skip-link" href="#main">Skip to content</a>
+<div data-chrome="masthead"></div>
+
+<main id="main">
+  <section style="border-top:0">
+    <div class="shell shell--narrow">
+      <p class="crumb"><a href="index.html">Home</a> / Search</p>
+      <div class="section-head" style="margin-top:1rem">
+        <p class="kicker">One index, everything in it</p>
+        <h2 style="font-size:clamp(1.75rem,6vw,2.5rem)">Search the archive</h2>
+      </div>
+
+      <label class="field">
+        <span>Search</span>
+        <input type="search" id="site-search" placeholder="A word, an office, a place, or an ID such as WGO-0001">
+      </label>
+
+      <p class="result-count" data-region="search-summary" style="margin-top:1rem"></p>
+      <div data-region="search-results"></div>
+
+      <div class="callout" style="margin-top:2rem">
+        <p><strong>What this searches.</strong> Incidents, evidence records and their IDs, offices
+        and their statutory responsibilities, named persons where any exist, every open question,
+        every claim, every government response on file, located orders, and the index of other
+        people's work. One box, one index.</p>
+        <p>Searching for a term like <em>pellet</em> should return the incidents where it arises,
+        the evidence that mentions it, the questions that turn on it and the official statements
+        that address it — not a list of articles.</p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<div data-chrome="footer"></div>
+
+<script src="data/taxonomy.js"></script>
+<script src="data/records.js"></script>
+<script src="data/samples.js"></script>
+<script src="assets/model.js"></script>
+<script src="assets/ui.js"></script>
+<script src="assets/pages.js"></script>
+</body>
+</html>

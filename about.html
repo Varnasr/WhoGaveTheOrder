@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>About, methodology and corrections — WhoGaveTheOrder.in</title>
+<meta name="description" content="Who runs this project, how it is funded, how it verifies evidence, how it handles corrections, privacy and takedown requests.">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body data-page="about">
+<a class="skip-link" href="#main">Skip to content</a>
+<div data-chrome="masthead"></div>
+
+<main id="main">
+  <section style="border-top:0">
+    <div class="shell shell--narrow">
+      <p class="crumb"><a href="index.html">Home</a> / About</p>
+      <div class="section-head" style="margin-top:1rem">
+        <p class="kicker">Transparency</p>
+        <h2 style="font-size:clamp(1.75rem,6vw,2.75rem)">How this site decides what is credible</h2>
+        <p class="lede">
+          An accountability project that will not explain its own method has no standing to ask
+          anyone else for theirs. Everything below is meant to be read by someone who thinks we are
+          wrong.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHO ================================================================ -->
+  <section id="who">
+    <div class="shell shell--narrow">
+      <h2 style="font-size:1.5rem;margin-bottom:0.75rem">Who runs this project</h2>
+      <div class="empty">
+        <h4>To be completed before launch</h4>
+        <p>
+          This section must name the people or organisation behind the archive, the editorial
+          responsibility each of them holds, and how to reach them. A site that asks who gave an
+          order cannot itself be anonymous. This block stays visible, and stays empty, until it is
+          filled in — an unfinished disclosure is better shown than hidden.
+        </p>
+      </div>
+
+      <h3 style="margin-top:1.75rem">Funding</h3>
+      <div class="empty" style="margin-top:0.5rem">
+        <h4>To be completed before launch</h4>
+        <p>
+          Every source of money behind the project, and the amount, disclosed by name. Any donor
+          with a political affiliation must be described as such. If the project is unfunded and run
+          on volunteer time, that must be stated too — it is a material fact about the archive's
+          capacity, not just its independence.
+        </p>
+      </div>
+
+      <h3 style="margin-top:1.75rem">Editorial independence</h3>
+      <div class="prose" style="margin-top:0.5rem">
+        <p>
+          Three commitments, which are the ones that can actually be tested against the archive:
+        </p>
+        <ul>
+          <li>No funder, party or organisation sees a record before it is published, or is told what
+              is in one.</li>
+          <li>Evidence that cuts against the project's own framing is published at the same
+              prominence as evidence that supports it. The government response page exists for
+              exactly this reason.</li>
+          <li>No claim is upgraded to VERIFIED because it is politically useful, and none is left at
+              UNVERIFIED because it is politically awkward. The state of a claim is a function of the
+              documents attached to it and nothing else.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- METHOD ============================================================= -->
+  <section id="method">
+    <div class="shell shell--narrow">
+      <h2 style="font-size:1.5rem;margin-bottom:0.75rem">Methodology</h2>
+      <div class="prose">
+        <p>The archive is built on a fixed chain, and no page is allowed to skip a link in it:</p>
+        <p class="mono" style="margin:0.75rem 0;padding:0.75rem;border:1px solid var(--rule);border-radius:3px">
+          Incident &rarr; Claim &rarr; Evidence &rarr; Source
+        </p>
+        <p>and, in parallel:</p>
+        <p class="mono" style="margin:0.75rem 0;padding:0.75rem;border:1px solid var(--rule);border-radius:3px">
+          Incident &rarr; Question &rarr; Authority &rarr; Evidence &rarr; Answer state
+        </p>
+
+        <h3>What that means in practice</h3>
+        <ul>
+          <li>A source record is created first. Nothing can cite what does not exist.</li>
+          <li>An evidence record points at that source, and carries two written statements: what it
+              establishes, and what it does not. The second is the harder one and it is mandatory.</li>
+          <li>A claim may only be set to VERIFIED or CORROBORATED once evidence IDs are attached to
+              it. The site's own integrity check flags any claim that breaks this, and that check is
+              visible on the <a href="admin.html">editorial console</a>.</li>
+          <li>A question moves out of UNANSWERED only when a document moves it — never because an
+              inference has become obvious.</li>
+          <li>An office is never linked to an order automatically. <em>Has authority</em> and
+              <em>is evidenced to have authorised this action</em> are stored as two different
+              fields and displayed as two different statements.</li>
+        </ul>
+
+        <h3>Where this archive is weak</h3>
+        <ul>
+          <li>It depends on documents that public offices are not obliged to release quickly, and
+              on RTI timelines that outlast news cycles.</li>
+          <li>Oral orders leave no paper. Where an order was given orally, the honest ceiling on
+              what this archive can establish may be who was present and what was logged.</li>
+          <li>Submitted footage is often a copy of a copy, stripped of the metadata that would fix
+              its time and place. Such material stays UNVERIFIED, sometimes permanently.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- STANDARDS ========================================================== -->
+  <section id="standards">
+    <div class="shell shell--narrow">
+      <h2 style="font-size:1.5rem;margin-bottom:0.75rem">Verification standards</h2>
+      <p class="lede" style="margin-bottom:1.25rem">
+        These six words, and the four question states, are used strictly. They are defined once, in
+        the site's own taxonomy, and this page reads its definitions from the same file the rest of
+        the site does — so a definition here can never drift from a label there.
+      </p>
+      <div class="chip-legend" data-region="glossary"></div>
+
+      <h3 style="margin-top:2rem">Source policy</h3>
+      <div class="prose" style="margin-top:0.5rem">
+        <ul>
+          <li>A primary document beats a report of a document. Where we hold only the report, the
+              state is REPORTED and stays there.</li>
+          <li>A document is checked against its issuing office or registry where that is possible.
+              Where it is not, the record says so.</li>
+          <li>Anonymous sources are used, and are recorded as anonymous. An anonymous account alone
+              never lifts a claim past UNVERIFIED.</li>
+          <li>We do not pay for evidence.</li>
+          <li>We do not publish a contributor's identity, ever, unless they have ticked the box
+              asking us to.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- CORRECTIONS ======================================================== -->
+  <section id="corrections">
+    <div class="shell shell--narrow">
+      <h2 style="font-size:1.5rem;margin-bottom:0.75rem">Corrections</h2>
+      <div class="prose">
+        <p>
+          Every evidence record carries a <strong>Report an error</strong> link. Corrections are not
+          quiet edits: when a record changes materially, the change, its date and its reason are
+          logged, and the record shows that it was corrected.
+        </p>
+        <p>
+          Because this archive is kept in a public version-controlled repository, the full history of
+          every record is public by construction. Who changed what, and when, is not something you
+          have to take our word for.
+        </p>
+        <p>
+          If we get something wrong and you tell us, the fix is not a favour to you. It is the point.
+          Write to <span class="mono">corrections@whogavetheorder.in</span> with the record ID.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRIVACY ============================================================ -->
+  <section id="privacy">
+    <div class="shell shell--narrow">
+      <h2 style="font-size:1.5rem;margin-bottom:0.75rem">Privacy, takedown and risk</h2>
+      <div class="prose">
+        <h3>Contributors</h3>
+        <ul>
+          <li>Contact details are stored privately, are never published, and are never shared.</li>
+          <li>A submission is not public. It becomes public only if it is verified, and only if the
+              contributor gave permission to publish.</li>
+          <li>Contributors may withdraw a submission at any point before publication, and may ask for
+              it to be removed after publication.</li>
+        </ul>
+
+        <h3>People in the material</h3>
+        <ul>
+          <li>Faces of protesters, detainees and bystanders are blurred on request, and by default
+              where a person appears to be a minor or is visibly injured.</li>
+          <li>Medical detail is not published without the consent of the person it concerns.</li>
+          <li>Police personnel acting in a public capacity are treated as public actors. Their
+              families are not.</li>
+        </ul>
+
+        <h3>Takedown</h3>
+        <p>
+          A takedown request may be sent to <span class="mono">legal@whogavetheorder.in</span> by
+          anyone, including a public office. Every request gets a written reply. Where a request is
+          well-founded — a privacy risk, a copyright claim from the creator, a person at risk of
+          harm — the material comes down and the record notes that something was removed and why.
+        </p>
+        <p>
+          Where a request is not well-founded, it is refused in writing, and the request itself is
+          logged. An attempt to remove sourced material from a public archive is a fact about the
+          record too.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT ============================================================ -->
+  <section id="contact">
+    <div class="shell shell--narrow">
+      <h2 style="font-size:1.5rem;margin-bottom:0.75rem">Contact</h2>
+      <table class="meta-table"><tbody>
+        <tr><th scope="row">Evidence and submissions</th><td class="mono">evidence@whogavetheorder.in</td></tr>
+        <tr><th scope="row">Corrections</th><td class="mono">corrections@whogavetheorder.in</td></tr>
+        <tr><th scope="row">Legal and takedown</th><td class="mono">legal@whogavetheorder.in</td></tr>
+      </tbody></table>
+      <p class="small" style="margin-top:1rem">
+        These addresses are placeholders in this prototype and must be provisioned before launch,
+        along with a published postal address for legal service.
+      </p>
+    </div>
+  </section>
+
+  <!-- STATUS OF THIS BUILD =============================================== -->
+  <section id="status">
+    <div class="shell shell--narrow">
+      <h2 style="font-size:1.5rem;margin-bottom:0.75rem">The status of this build</h2>
+      <div class="callout">
+        <p>
+          This is a working prototype of the platform, not a launched archive. It ships deliberately
+          empty of factual assertions: the three investigations exist as shells, the questions are
+          populated, the chain of authority is mapped by statutory role, and every factual field
+          reads UNKNOWN.
+        </p>
+        <p>
+          No date, no injury figure, no named official and no evidence item has been entered,
+          because none has been verified. Records marked <em>sample</em> exist only to show the
+          layout and document nothing; they disappear the moment the archive's demonstration flag is
+          switched off.
+        </p>
+        <p>
+          What is real here is the machinery: the content model, the evidence grammar, the integrity
+          checks, and the refusal to display a claim without a source.
+        </p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<div data-chrome="footer"></div>
+
+<script src="data/taxonomy.js"></script>
+<script src="data/records.js"></script>
+<script src="data/samples.js"></script>
+<script src="assets/model.js"></script>
+<script src="assets/ui.js"></script>
+<script src="assets/pages.js"></script>
+</body>
+</html>

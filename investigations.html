@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Investigations — WhoGaveTheOrder.in</title>
+<meta name="description" content="Documented incidents of the use of state force against citizens, each with its evidence, its chain of authority and its open questions.">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="assets/styles.css">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+</head>
+<body data-page="investigations">
+<a class="skip-link" href="#main">Skip to content</a>
+<div data-chrome="masthead"></div>
+
+<main id="main">
+  <section>
+    <div class="shell">
+      <p class="crumb"><a href="index.html">Home</a> / Investigations</p>
+      <div class="section-head" style="margin-top:1rem">
+        <p class="kicker">Open investigations</p>
+        <h2 style="font-size:clamp(1.75rem,6vw,2.75rem)">Students vs the State</h2>
+        <p class="lede">
+          Three incidents are open. Each one is a live record rather than an article: new evidence
+          updates the investigation it belongs to instead of becoming a new post that buries the old one.
+        </p>
+      </div>
+      <div class="grid grid--3" data-region="incident-cards"></div>
+    </div>
+  </section>
+
+  <section>
+    <div class="shell">
+      <div class="section-head">
+        <p class="kicker">Where</p>
+        <h2>Incident map</h2>
+        <p class="lede">
+          This map plots documented incidents, not allegations. Where a precise location has not
+          been established, the pin sits on the state and says so — it is not a claim about a site.
+        </p>
+      </div>
+      <div class="row" style="margin-bottom:0.75rem" data-region="map-legend"></div>
+      <div id="incident-map"></div>
+      <p class="small" style="margin-top:0.75rem">
+        Basemap © OpenStreetMap contributors © CARTO. Pins carry the incident's evidence state, not its severity.
+      </p>
+    </div>
+  </section>
+
+  <section>
+    <div class="shell">
+      <div class="callout">
+        <p><strong>Why these three.</strong> They were reported within the same period, they involve
+        the same category of state action against the same category of citizen, and the authority
+        structures behind them differ in an instructive way: one sits under a Union-administered
+        police force, two under state governments. Comparing them is part of the investigation.</p>
+        <p>If you know of another incident that belongs in this archive,
+        <a href="submit.html">tell us</a>. It will be assessed on evidence, not on how well it fits.</p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<div data-chrome="footer"></div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="data/taxonomy.js"></script>
+<script src="data/records.js"></script>
+<script src="data/samples.js"></script>
+<script src="assets/model.js"></script>
+<script src="assets/ui.js"></script>
+<script src="assets/pages.js"></script>
+</body>
+</html>
