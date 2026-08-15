@@ -647,13 +647,21 @@
         '<th scope="col">Document we are looking for</th>' +
         '<th scope="col">Question it would answer</th>' +
         '<th scope="col">Incident</th>' +
+        '<th scope="col">Asked for yet?</th>' +
       '</tr></thead><tbody>' +
       missing.map(function (m) {
+        var rtis = model.rtisFor(m.q.id);
         return '<tr>' +
           '<td>' + ui.esc((m.q.wants && m.q.wants.join(', ')) || '—') + '</td>' +
           '<td><a href="investigation.html?id=' + ui.esc(m.inc ? m.inc.slug : '') + '#' + ui.esc(m.q.id) + '">' +
             ui.esc(m.q.text) + '</a></td>' +
           '<td>' + ui.esc(m.inc ? m.inc.state : '—') + '</td>' +
+          '<td>' + (rtis.length
+            ? rtis.map(function (r) {
+                return '<a class="chip chip--plain mono" href="rti.html#' + ui.esc(r.id) + '">' +
+                  ui.esc(r.id) + '</a> ' + ui.rtiClockLine(r);
+              }).join('<br>')
+            : '<span class="chip chip--unknown">Not yet requested</span>') + '</td>' +
         '</tr>';
       }).join('') + '</tbody></table></div>');
 
@@ -791,6 +799,98 @@
   };
 
   /* ======================================================================= *
+     RTI REGISTER
+     ======================================================================= */
+
+  function rtiCard(r) {
+    var clock = model.rtiClock(r);
+    var questions = (r.questionIds || []).map(function (qid) {
+      var q = model.index.question[qid];
+      var inc = q ? model.incident(q.incidentId) : null;
+      return q
+        ? '<li><a href="investigation.html?id=' + ui.esc(inc ? inc.slug : '') + '#' + ui.esc(q.id) + '">' +
+            ui.esc(q.text) + '</a></li>'
+        : '<li class="small">' + ui.esc(qid) + ' — missing question record</li>';
+    }).join('');
+
+    return '<article class="card' + (r.demo ? ' card--sample' : '') + '" id="' + ui.esc(r.id) + '">' +
+      (r.demo ? ui.sampleRibbon() : '') +
+      '<div class="row">' + ui.idChip(r.id) + ui.rtiStatusChip(r.status) + '</div>' +
+      '<h3>' + ui.esc(r.subject) + '</h3>' +
+      '<p class="small">' + ui.esc(r.office) + '</p>' +
+      '<div style="margin-top:0.7rem">' + ui.rtiClockLine(r) + '</div>' +
+      (questions ? '<h4 class="kicker" style="margin-top:0.9rem">Questions this would answer</h4>' +
+                   '<ul class="stack-sm" style="margin-top:0.35rem;font-size:0.875rem">' + questions + '</ul>' : '') +
+      (r.exemptionCited
+        ? '<p class="small" style="margin-top:0.6rem"><strong>Exemption cited:</strong> ' + ui.esc(r.exemptionCited) + '</p>'
+        : '') +
+      (r.outcome ? '<p style="margin-top:0.6rem;font-size:0.875rem">' + ui.esc(r.outcome) + '</p>' : '') +
+      '<div class="card__meta row small">' +
+        '<span>Ref ' + ui.esc(r.referenceNo || 'not recorded') + '</span>' +
+        (clock.known ? '<span aria-hidden="true">·</span><span>' + clock.statutoryDays + '-day period</span>' : '') +
+      '</div>' +
+      ((r.evidenceIds || []).length
+        ? '<div style="margin-top:0.6rem">' + ui.evidenceLinks(r.evidenceIds) + '</div>'
+        : '') +
+    '</article>';
+  }
+
+  pages.rti = function () {
+    var counts = model.counts();
+    var active = [];
+
+    ui.mount('[data-region="rti-counts"]',
+      '<div><b>' + counts.rtis + '</b><span>Applications filed</span></div>' +
+      '<div><b>' + counts.rtiOverdue + '</b><span>Replies overdue</span></div>' +
+      '<div><b>' + counts.rtiOverdueDaysTotal + '</b><span>Days overdue in total</span></div>' +
+      '<div><b>' + counts.open + '</b><span>Questions still open</span></div>');
+
+    var filters = document.querySelector('[data-region="rti-filters"]');
+    filters.innerHTML = Object.keys(WGO.RTI_STATES).map(function (key) {
+      return '<button class="filter-chip" type="button" aria-pressed="false" data-state="' + key + '">' +
+        ui.esc(WGO.RTI_STATES[key].label) + '</button>';
+    }).join('');
+
+    filters.addEventListener('click', function (event) {
+      var btn = event.target.closest('.filter-chip');
+      if (!btn) { return; }
+      var key = btn.getAttribute('data-state');
+      var on = btn.getAttribute('aria-pressed') === 'true';
+      btn.setAttribute('aria-pressed', on ? 'false' : 'true');
+      active = on ? active.filter(function (s) { return s !== key; }) : active.concat(key);
+      draw();
+    });
+
+    function draw() {
+      var rows = model.rtis.filter(function (r) {
+        return !active.length || active.indexOf(r.status) !== -1;
+      }).sort(function (a, b) {
+        /* Overdue first, longest overdue at the top: the register should lead
+           with whoever has kept us waiting longest. */
+        var ca = model.rtiClock(a), cb = model.rtiClock(b);
+        return (cb.overdueDays || 0) - (ca.overdueDays || 0) ||
+               String(b.filedOn).localeCompare(String(a.filedOn));
+      });
+
+      ui.mount('[data-region="rti-count"]',
+        '<strong>' + counts.rtis + '</strong> application' + (counts.rtis === 1 ? '' : 's') +
+        ' in the register' +
+        (counts.rtisShown > counts.rtis
+          ? ' · <strong>' + (counts.rtisShown - counts.rtis) + '</strong> layout samples shown'
+          : '') +
+        ' · showing <strong>' + rows.length + '</strong>');
+
+      ui.mount('[data-region="rti-list"]',
+        rows.length
+          ? rows.map(rtiCard).join('')
+          : ui.empty('No applications match',
+              'Nothing in the register matches this filter. The register fills up as applications are filed.'));
+    }
+
+    draw();
+  };
+
+  /* ======================================================================= *
      EDITORIAL CONSOLE
      ======================================================================= */
 
@@ -805,6 +905,8 @@
       '<div><b>' + counts.open + '</b><span>Unanswered</span></div>' +
       '<div><b>' + counts.orders + '</b><span>Orders</span></div>' +
       '<div><b>' + counts.responses + '</b><span>Govt responses</span></div>' +
+      '<div><b>' + counts.rtis + '</b><span>RTIs filed</span></div>' +
+      '<div><b>' + counts.rtiOverdue + '</b><span>RTIs overdue</span></div>' +
       '<div><b>' + counts.persons + '</b><span>Named persons</span></div>');
 
     var problems = model.integrity();
@@ -841,6 +943,16 @@
     var shapes = {
       source: function (d) {
         return { id: d.id || 'SRC-XXXX', name: d.title, kind: d.type || 'PUBLICATION', url: d.url || null };
+      },
+      /* An RTI is composed on the day it is filed. Status starts at FILED and
+         the reply-due date is computed from filedOn, never stored. */
+      rti: function (d) {
+        return {
+          id: d.id || 'RTI-XXXX', incidentId: d.incidentId || null, questionIds: [],
+          office: d.origin || '', subject: d.title, filedOn: d.date || null,
+          period: 'STANDARD', referenceNo: d.url || '', status: 'FILED',
+          repliedOn: null, exemptionCited: null, outcome: null, evidenceIds: []
+        };
       },
       evidence: function (d) {
         return {

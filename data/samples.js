@@ -139,6 +139,55 @@ WGO.sampleResponses = [
   }
 ];
 
+/* Sample RTI applications. The dates are relative offsets resolved at load
+   time, so the sample register always shows a live clock: one application
+   inside its statutory window, one overdue, one answered with "no record
+   held" — the three states the real register will spend most of its time in. */
+WGO.sampleRtis = (function () {
+  function daysAgo(n) {
+    var d = new Date();
+    d.setDate(d.getDate() - n);
+    return d.toISOString().slice(0, 10);
+  }
+  return [
+    {
+      id: 'RTI-S001', demo: true,
+      incidentId: 'INC-0001',
+      questionIds: ['QST-0001-01'],
+      office: '[Sample] Public Information Officer, district police headquarters',
+      subject: 'Deployment order, force strength and units deployed on the day',
+      filedOn: daysAgo(12), period: 'STANDARD',
+      referenceNo: '[registration number]',
+      status: 'FILED', repliedOn: null, exemptionCited: null,
+      outcome: null, evidenceIds: []
+    },
+    {
+      id: 'RTI-S002', demo: true,
+      incidentId: 'INC-0001',
+      questionIds: ['QST-0001-05', 'QST-0001-07'],
+      office: '[Sample] Public Information Officer, state home department',
+      subject: 'Any written order or instruction issued ahead of the protest',
+      filedOn: daysAgo(47), period: 'STANDARD',
+      referenceNo: '[registration number]',
+      status: 'LAPSED', repliedOn: null, exemptionCited: null,
+      outcome: 'No reply within the statutory period. First appeal being prepared.',
+      evidenceIds: []
+    },
+    {
+      id: 'RTI-S003', demo: true,
+      incidentId: 'INC-0002',
+      questionIds: ['QST-0002-05'],
+      office: '[Sample] Public Information Officer, district police',
+      subject: 'Existence of a written authorisation for the use of force',
+      filedOn: daysAgo(38), period: 'STANDARD',
+      referenceNo: '[registration number]',
+      status: 'NO_RECORD_HELD', repliedOn: daysAgo(9), exemptionCited: null,
+      outcome: 'Office states no such record is held. Filed as evidence of what the office has said about its own files.',
+      evidenceIds: ['WGO-S002']
+    }
+  ];
+})();
+
 WGO.sampleExternal = [
   {
     id: 'EXT-S001',

@@ -133,6 +133,65 @@ WGO.REVIEWER_ACTIONS = [
   'Flag privacy concern', 'Mark disputed', 'Link to existing evidence item'
 ];
 
+/* --- RTI register --------------------------------------------------------- *
+   An RTI application is a record from the day it is filed, not from the day a
+   reply arrives. Filing it puts a clock on a public office, and the clock is
+   the point: an unanswered application that is 40 days overdue says something
+   the archive should show.
+
+   Every state below is an outcome we can publish. A refusal is an outcome. A
+   transfer is an outcome. Silence past the statutory deadline is an outcome,
+   and it has a name in the Act. */
+WGO.RTI_STATES = {
+  FILED: {
+    label: 'Filed — awaiting reply',
+    definition: 'Application filed and within the statutory period for a reply.'
+  },
+  REPLY_RECEIVED: {
+    label: 'Reply received',
+    definition: 'The office replied on the merits. The reply is filed as evidence.'
+  },
+  NO_RECORD_HELD: {
+    label: 'No record held',
+    definition: 'The office states it holds no such record. Filed as primary evidence of what the office has said about its own files. It does not establish that no order was given.'
+  },
+  REFUSED: {
+    label: 'Refused',
+    definition: 'Disclosure refused under a claimed exemption. The exemption cited is recorded alongside.'
+  },
+  TRANSFERRED: {
+    label: 'Transferred',
+    definition: 'Application transferred to another public authority as holding the record. The transfer itself narrows where the record sits.'
+  },
+  LAPSED: {
+    label: 'No reply — deemed refusal',
+    definition: 'The statutory period passed with no reply. Under the Act this is treated as a refusal, and it opens the appeal.'
+  },
+  FIRST_APPEAL: {
+    label: 'First appeal filed',
+    definition: 'Appealed to the First Appellate Authority within the public office.'
+  },
+  SECOND_APPEAL: {
+    label: 'Second appeal filed',
+    definition: 'Appealed to the Information Commission.'
+  },
+  WITHDRAWN: {
+    label: 'Withdrawn',
+    definition: 'Application withdrawn or abandoned. Recorded so the register stays complete.'
+  }
+};
+
+/* Statutory reply periods, in days. The shorter period applies where the
+   information sought concerns the life or liberty of a person — which is
+   arguable for several questions in this archive, and worth claiming
+   explicitly when it applies. Verify the current provision before relying on
+   it in an application. */
+WGO.RTI_PERIODS = [
+  { key: 'STANDARD',      days: 30, label: '30 days — standard' },
+  { key: 'LIFE_LIBERTY',  days: 2,  label: '48 hours — life or liberty' },
+  { key: 'THIRD_PARTY',   days: 40, label: '40 days — third-party information involved' }
+];
+
 /* --- Incident states (used by the map — section 12) ----------------------- */
 WGO.INCIDENT_STATES = {
   VERIFIED:            { label: 'Verified' },

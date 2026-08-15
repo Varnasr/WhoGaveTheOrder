@@ -82,10 +82,13 @@
     /* Display pools — published records, plus layout samples while demoMode is
        on. Counts always come from the published pools above. */
     var demo = isDemo();
+    model.publishedRtis = (WGO.rtis || []).slice();
+
     model.evidence  = model.publishedEvidence.concat(demo ? (WGO.sampleEvidence  || []) : []);
     model.sources   = model.publishedSources.concat(demo ? (WGO.sampleSources   || []) : []);
     model.responses = model.publishedResponses.concat(demo ? (WGO.sampleResponses || []) : []);
     model.external  = model.publishedExternal.concat(demo ? (WGO.sampleExternal  || []) : []);
+    model.rtis      = model.publishedRtis.concat(demo ? (WGO.sampleRtis || []) : []);
 
     model.index = {
       incident: byId(model.incidents),
@@ -98,7 +101,8 @@
       evidence: byId(model.evidence),
       source:   byId(model.sources),
       response: byId(model.responses),
-      external: byId(model.external)
+      external: byId(model.external),
+      rti:      byId(model.rtis)
     };
 
     model.searchDocs = buildSearchDocs();
@@ -184,6 +188,61 @@
     return { established: true, state: 'VERIFIED', links: supported };
   };
 
+  /* --- RTI register ------------------------------------------------------ *
+     The clock is computed from filedOn every time it is read, never stored.
+     A stored deadline goes stale, and a stale deadline in an accountability
+     archive is worse than no deadline at all. */
+
+  var DAY_MS = 86400000;
+
+  function periodDays(key) {
+    var found = (WGO.RTI_PERIODS || []).filter(function (p) { return p.key === key; })[0];
+    return found ? found.days : 30;
+  }
+
+  function midnightUTC(date) {
+    return Date.UTC(date.getUTCFullYear(), date.getUTCMonth(), date.getUTCDate());
+  }
+
+  model.rtiClock = function (rti) {
+    if (!rti || !rti.filedOn) { return { known: false }; }
+
+    var filed = new Date(rti.filedOn + 'T00:00:00Z');
+    if (isNaN(filed.getTime())) { return { known: false }; }
+
+    var days = periodDays(rti.period);
+    var dueMs = filed.getTime() + days * DAY_MS;
+    var todayMs = midnightUTC(new Date());
+
+    var settled = ['REPLY_RECEIVED', 'NO_RECORD_HELD', 'REFUSED', 'TRANSFERRED', 'WITHDRAWN']
+      .indexOf(rti.status) !== -1;
+
+    var overdueDays = Math.floor((todayMs - dueMs) / DAY_MS);
+
+    return {
+      known: true,
+      dueOn: new Date(dueMs).toISOString().slice(0, 10),
+      statutoryDays: days,
+      settled: settled,
+      /* Only an unsettled application can be overdue. Once an office has
+         replied, the clock stops even if the reply came late. */
+      overdue: !settled && overdueDays > 0,
+      overdueDays: overdueDays > 0 ? overdueDays : 0,
+      daysRemaining: overdueDays < 0 ? -overdueDays : 0,
+      elapsedDays: Math.floor((todayMs - filed.getTime()) / DAY_MS)
+    };
+  };
+
+  model.rtisFor = function (questionId) {
+    return model.rtis.filter(function (r) {
+      return (r.questionIds || []).indexOf(questionId) !== -1;
+    });
+  };
+
+  model.rtisForIncident = function (incidentId) {
+    return model.rtis.filter(function (r) { return r.incidentId === incidentId; });
+  };
+
   /* --- counts ------------------------------------------------------------ *
      Published records only. The homepage numbers must never be inflated by
      layout samples, so they are computed from the published pools. */
@@ -199,9 +258,22 @@
       return c.state === 'VERIFIED' || c.state === 'CORROBORATED';
     });
 
+    /* Published applications only. A sample must never make the register look
+       like it is chasing an office it is not. */
+    var rtiOverdue = model.publishedRtis.filter(function (r) {
+      var clock = model.rtiClock(r);
+      return clock.known && clock.overdue;
+    });
+
     return {
       incidents:   model.incidents.length,
       evidence:    model.publishedEvidence.length,
+      rtis:        model.publishedRtis.length,
+      rtisShown:   model.rtis.length,
+      rtiOverdue:  rtiOverdue.length,
+      rtiOverdueDaysTotal: rtiOverdue.reduce(function (sum, r) {
+        return sum + model.rtiClock(r).overdueDays;
+      }, 0),
       sources:     model.publishedSources.length,
       responses:   model.publishedResponses.length,
       external:    model.publishedExternal.length,
@@ -312,6 +384,15 @@
       });
     });
 
+    model.rtis.forEach(function (r) {
+      docs.push({
+        id: r.id, kind: 'RTI application', title: r.subject,
+        subtitle: r.office, demo: r.demo,
+        url: 'rti.html#' + r.id,
+        text: docText(r.id, r.subject, r.office, r.referenceNo, r.outcome, r.status, r.filedOn)
+      });
+    });
+
     docs.forEach(function (d) { d.haystack = d.text.toLowerCase(); });
     return docs;
   }
@@ -388,6 +469,21 @@
     model.questions.forEach(function (q) {
       if (q.state === 'ANSWERED' && !(q.evidenceIds || []).length) {
         problems.push({ record: q.id, field: 'state', ref: q.state, message: 'Question marked answered with no evidence attached' });
+      }
+    });
+
+    checkRefs(model.rtis, 'evidenceIds', model.index.evidence, 'RTI record cites evidence that does not exist');
+    checkRefs(model.rtis, 'questionIds', model.index.question, 'RTI record cites a question that does not exist');
+
+    model.rtis.forEach(function (r) {
+      var settledWithReply = ['REPLY_RECEIVED', 'NO_RECORD_HELD', 'REFUSED'].indexOf(r.status) !== -1;
+      if (settledWithReply && !(r.evidenceIds || []).length) {
+        problems.push({ record: r.id, field: 'evidenceIds', ref: r.status,
+          message: 'RTI reply received but not filed as evidence' });
+      }
+      if (!r.filedOn) {
+        problems.push({ record: r.id, field: 'filedOn', ref: '—',
+          message: 'RTI record with no filing date — the clock cannot be computed' });
       }
     });
 

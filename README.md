@@ -58,6 +58,7 @@ map tiles and the Netlify Forms submission endpoints.
 | `others.html` | Index of other people's investigations, credited to them |
 | `about.html` | Transparency: who runs it, funding, methodology, standards, corrections, privacy, takedown |
 | `search.html` | One index across every entity |
+| `rti.html` | RTI register — every application filed, with a live reply-due clock |
 | `admin.html` | Editorial console — integrity checks, review workflow, record composer, CMS spec |
 
 ---
@@ -79,11 +80,13 @@ Incident → Question → Authority → Evidence → Answer state
 | `OFC-` | Office | `QST-` | Question |
 | `ORD-` | Order | `GOV-` | Government response |
 | `EXT-` | External investigation | `SUB-` | Submission |
+| `RTI-` | RTI application | | |
 
 ### Files
 
 ```
 whogavetheorder/
+├── SOURCING.md        # where the evidence actually comes from. Read this second.
 ├── data/
 │   ├── taxonomy.js    # every controlled vocabulary + site config. Start here.
 │   ├── records.js     # the record store. Add real content here.
@@ -138,9 +141,30 @@ marker — fill the array.
       visible "to be completed" blocks, deliberately: an unfinished disclosure is better shown
       than hidden.
 - [ ] Provision the three contact addresses, plus a postal address for legal service.
-- [ ] Enable the two Netlify forms (`wgo-evidence`, `wgo-demand`) and route notifications to a
-      reviewer. Submissions stay in Netlify — outside this repository — so unreviewed material
+- [x] Netlify forms `wgo-evidence` and `wgo-demand` are registered, with email notifications
+      routed to the project reviewer. The address is held in Netlify's site config and deliberately
+      not in this repository. Submissions stay in Netlify, outside this repo, so unreviewed material
       never sits in a public place.
+
+---
+
+## The RTI register
+
+`rti.html` lists every Right to Information application the project has filed. Add an `RTI-` record
+on the **day you file**, not the day a reply arrives.
+
+The reply-due date and any overdue count are computed from `filedOn` on every page load and are
+never stored — a stored deadline goes stale, and a stale deadline in an accountability archive is
+worse than none. An application that is 40 days late says so by itself, on a public page.
+
+The clock stops when an office replies, even if the reply came late. Outcomes that count as replies
+are `REPLY_RECEIVED`, `NO_RECORD_HELD`, `REFUSED` and `TRANSFERRED`; `LAPSED` means the statutory
+period passed in silence, which the Act treats as a refusal and which opens the appeal.
+
+The gap list on `submit.html#missing` gains a column from this: every open question shows either its
+filed application and clock, or **Not yet requested**.
+
+See [SOURCING.md](SOURCING.md) for what to ask each office for, and where to file.
 
 ---
 

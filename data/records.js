@@ -365,3 +365,30 @@ WGO.external = [];
    Empty. Layout samples live in data/samples.js behind WGO.config.demoMode and
    are never mixed into these arrays. */
 WGO.evidence = [];
+
+/* --- RTI register --------------------------------------------------------- *
+   Add an RTI record on the day you file it, not on the day a reply arrives.
+   The register is what turns the gap list from a wish into a clock, and an
+   application that is weeks overdue is itself worth publishing.
+
+   Shape:
+     {
+       id:            'RTI-0001',
+       incidentId:    'INC-0001',
+       questionIds:   ['QST-0001-01'],      // what this application would answer
+       office:        'Public Information Officer, ...',
+       subject:       'Short description of what was asked for',
+       filedOn:       '2026-08-20',          // YYYY-MM-DD
+       period:        'STANDARD',            // key from WGO.RTI_PERIODS
+       referenceNo:   'registration number, where the portal gives one',
+       status:        'FILED',               // key from WGO.RTI_STATES
+       repliedOn:     null,
+       exemptionCited: null,                 // where status is REFUSED
+       outcome:       null,                  // one line, plain language
+       evidenceIds:   []                     // the reply, once filed as evidence
+     }
+
+   The reply-due date and any overdue count are computed by the model from
+   filedOn and period. Do not store them: a stored deadline goes stale, and a
+   stale deadline in an accountability archive is worse than none. */
+WGO.rtis = [];

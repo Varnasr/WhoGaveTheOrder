@@ -190,6 +190,7 @@
             '</ul></div>' +
             '<div><h4>The archive</h4><ul>' +
               '<li><a href="evidence.html">Evidence library</a></li>' +
+              '<li><a href="rti.html">RTI register</a></li>' +
               '<li><a href="search.html">Search</a></li>' +
               '<li><a href="admin.html">Editorial console</a></li>' +
             '</ul></div>' +
@@ -258,6 +259,56 @@
     '</a>';
   };
 
+  /* --- RTI clock --------------------------------------------------------- *
+     The line that does the work on this site: not "we asked", but "we asked on
+     this date, the reply was due on that date, and it is N days late." */
+
+  ui.rtiClockLine = function (rti) {
+    var clock = WGO.model.rtiClock(rti);
+    if (!clock.known) {
+      return '<span class="chip chip--unknown">Filing date not recorded</span>';
+    }
+    if (clock.settled) {
+      return '<span class="small">Filed ' + ui.esc(rti.filedOn) +
+        (rti.repliedOn ? ', replied ' + ui.esc(rti.repliedOn) : '') + '.</span>';
+    }
+    if (clock.overdue) {
+      return '<span class="chip chip--unknown">Overdue by ' + clock.overdueDays +
+        ' day' + (clock.overdueDays === 1 ? '' : 's') + '</span> ' +
+        '<span class="small">Filed ' + ui.esc(rti.filedOn) + ', reply was due ' + ui.esc(clock.dueOn) + '.</span>';
+    }
+    return '<span class="chip chip--reported">' + clock.daysRemaining + ' day' +
+      (clock.daysRemaining === 1 ? '' : 's') + ' left</span> ' +
+      '<span class="small">Filed ' + ui.esc(rti.filedOn) + ', reply due ' + ui.esc(clock.dueOn) + '.</span>';
+  };
+
+  ui.rtiStatusChip = function (status) {
+    var def = (WGO.RTI_STATES || {})[status];
+    if (!def) { return ui.plainChip(status || 'Unknown'); }
+    var tone = {
+      FILED: 'chip--reported', REPLY_RECEIVED: 'chip--verified',
+      NO_RECORD_HELD: 'chip--corroborated', REFUSED: 'chip--disputed',
+      TRANSFERRED: 'chip--unverified', LAPSED: 'chip--unknown',
+      FIRST_APPEAL: 'chip--reported', SECOND_APPEAL: 'chip--reported',
+      WITHDRAWN: 'chip--unverified'
+    }[status] || 'chip--plain';
+    return '<span class="chip ' + tone + '" title="' + ui.esc(def.definition) + '">' +
+      ui.esc(def.label) + '</span>';
+  };
+
+  /* Compact RTI summary shown under a question. */
+  ui.rtiForQuestion = function (questionId) {
+    var rtis = WGO.model.rtisFor(questionId);
+    if (!rtis.length) { return ''; }
+    return '<div style="margin-top:0.6rem;padding-top:0.55rem;border-top:1px dotted var(--rule)">' +
+      rtis.map(function (r) {
+        return '<div class="row" style="gap:0.4rem;margin-bottom:0.3rem">' +
+          '<a class="chip chip--plain mono" href="rti.html#' + ui.esc(r.id) + '">' + ui.esc(r.id) + '</a>' +
+          ui.rtiStatusChip(r.status) + ui.rtiClockLine(r) +
+        '</div>';
+      }).join('') + '</div>';
+  };
+
   ui.questionCard = function (q) {
     var inc = WGO.model.incident(q.incidentId);
     return '<div class="question" data-state="' + ui.esc(q.state) + '" id="' + ui.esc(q.id) + '">' +
@@ -272,6 +323,7 @@
         ? '<p class="question__note"><strong>What would answer it:</strong> ' + ui.esc(q.wants.join('; ')) + '.</p>'
         : '') +
       ui.evidenceLinks(q.evidenceIds, '') +
+      ui.rtiForQuestion(q.id) +
     '</div>';
   };
 
