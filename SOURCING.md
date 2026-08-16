@@ -8,6 +8,9 @@ we are looking for → question it would answer → incident → whether we have
 
 Sourcing here is not open-ended research. It is that table, one row at a time.
 
+To build this map for a new incident, run [RESEARCH-PROMPT.md](RESEARCH-PROMPT.md) and verify every
+row it returns before committing any of it.
+
 > **Verify the law before you rely on it.** Section numbers move. BNSS replaced the CrPC from
 > mid-2024 and renumbered the assembly-and-dispersal provisions. Nothing in this playbook cites a
 > section number for that reason, and neither does the site: `statutoryBasis` entries render

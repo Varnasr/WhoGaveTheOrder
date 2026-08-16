@@ -48,7 +48,8 @@ map tiles and the Netlify Forms submission endpoints.
 
 | File | What it is |
 |---|---|
-| `index.html` | Homepage — hero, the three-column fact frame, first investigation, chain teaser, evidence legend |
+| `index.html` | Homepage — hero, entry-point picker, "where every claim comes from", fact frame, first investigation |
+| `walkthrough.html` | How to read this archive — nine steps, a short and full track, three audience lanes |
 | `investigations.html` | Investigation index and the incident map |
 | `investigation.html?id=<slug>` | The seven-section investigation page — the heart of the product |
 | `evidence.html` | Evidence library; `?id=WGO-0001` renders a single evidence record |
@@ -87,6 +88,7 @@ Incident → Question → Authority → Evidence → Answer state
 ```
 whogavetheorder/
 ├── SOURCING.md        # where the evidence actually comes from. Read this second.
+├── RESEARCH-PROMPT.md # reusable prompt for building the source map, per incident
 ├── data/
 │   ├── taxonomy.js    # every controlled vocabulary + site config. Start here.
 │   ├── records.js     # the record store. Add real content here.
@@ -98,6 +100,23 @@ whogavetheorder/
 │   └── pages.js       # per-page controllers
 └── *.html
 ```
+
+### Explaining the archive
+
+Comprehension is handled in three layers rather than one tour:
+
+1. **`walkthrough.html`** — nine steps, split into a two-minute track (steps 1–4) and the full one.
+   Three audience lanes (just looking / might have something / journalist or lawyer) dim the steps
+   that are not theirs rather than hiding them, so nothing becomes unreachable.
+2. **Inline explainers** — collapsed `<details>` blocks placed where the confusion actually lands:
+   the UNKNOWN shells on an investigation, the authority split on the chain, the six states in the
+   evidence library, the reply clock on the register and the gap list. Defined once in
+   `ui.EXPLAIN` and read from the same taxonomy the chips do.
+3. **The homepage** — an entry-point picker and a four-step "where every claim comes from" strip,
+   so a first-time visitor gets oriented without needing the tour at all.
+
+The walkthrough explains **how to read the record**. It must never drift into explaining what
+happened — that would break the site's one rule.
 
 If a status label is not defined in `taxonomy.js`, it does not render anywhere. That is what keeps
 the evidence grammar from drifting page to page as the archive grows.
@@ -164,7 +183,9 @@ period passed in silence, which the Act treats as a refusal and which opens the 
 The gap list on `submit.html#missing` gains a column from this: every open question shows either its
 filed application and clock, or **Not yet requested**.
 
-See [SOURCING.md](SOURCING.md) for what to ask each office for, and where to file.
+See [SOURCING.md](SOURCING.md) for what to ask each office for, and where to file, and
+[RESEARCH-PROMPT.md](RESEARCH-PROMPT.md) for the reusable prompt that builds that map for a new
+incident.
 
 ---
 

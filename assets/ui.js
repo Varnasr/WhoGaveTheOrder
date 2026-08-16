@@ -127,6 +127,69 @@
     }).join('') + '</ul>';
   };
 
+  /* --- inline explainers ------------------------------------------------- *
+     Progressive disclosure. The page stays terse for a reader who already knows
+     how to read it, and answers the obvious question for one who does not.
+     Uses <details> so it works without JavaScript and is keyboard-accessible
+     and findable by in-page search. */
+
+  ui.explainer = function (summary, bodyHtml) {
+    return '<details class="explainer">' +
+      '<summary>' + ui.esc(summary) + '</summary>' +
+      '<div class="explainer__body">' + bodyHtml + '</div>' +
+      '</details>';
+  };
+
+  /* The three explainers used in more than one place, defined once. */
+  ui.EXPLAIN = {
+    states: function () {
+      return ui.explainer('What do these labels mean?',
+        '<p>Every statement on this site carries one of six states. A claim cannot appear without ' +
+        'one, and moving a claim between them requires a document.</p>' +
+        '<div class="chip-legend" style="margin-top:0.75rem">' +
+        Object.keys(WGO.EVIDENCE_STATES).map(function (k) {
+          return '<div>' + ui.chip(k) + '<p>' + ui.esc(WGO.EVIDENCE_STATES[k].definition) + '</p></div>';
+        }).join('') +
+        '</div>' +
+        '<p style="margin-top:0.75rem"><a href="walkthrough.html#step-3">More on how to read this archive &rarr;</a></p>');
+    },
+
+    authority: function () {
+      return ui.explainer('Why does every office say "authorisation not established"?',
+        '<p>Because two different claims are being kept apart, and only one of them is established.</p>' +
+        '<div class="authority-split" style="margin-top:0.75rem">' +
+          '<div><h5>' + ui.esc(WGO.AUTHORITY_CLAIMS.HAS_AUTHORITY.label) + '</h5><p>' +
+            ui.esc(WGO.AUTHORITY_CLAIMS.HAS_AUTHORITY.definition) + '</p></div>' +
+          '<div><h5>' + ui.esc(WGO.AUTHORITY_CLAIMS.EVIDENCED_TO_HAVE_AUTHORISED.label) + '</h5><p>' +
+            ui.esc(WGO.AUTHORITY_CLAIMS.EVIDENCED_TO_HAVE_AUTHORISED.definition) + '</p></div>' +
+        '</div>' +
+        '<p style="margin-top:0.75rem">No individual is named in the chain. A person is added to an ' +
+        'office only when a sourced document places them in it at the relevant time. ' +
+        '<a href="walkthrough.html#step-4">More &rarr;</a></p>');
+    },
+
+    unknown: function () {
+      return ui.explainer('Why is so much of this page UNKNOWN?',
+        '<p>Because nothing has been established yet, and the site says so rather than filling the ' +
+        'space with a plausible reconstruction. A claim without a source does not render as a fact ' +
+        'here, including in our own starting data.</p>' +
+        '<p style="margin-top:0.5rem">These fields fill in when a document arrives, not before. ' +
+        'If you hold one, <a href="submit.html">send it</a>. ' +
+        '<a href="walkthrough.html#step-2">More &rarr;</a></p>');
+    },
+
+    clock: function () {
+      return ui.explainer('How does the reply clock work?',
+        '<p>Filing a statutory information request puts a public office on a deadline. The register ' +
+        'computes the reply-due date from the filing date every time the page loads, so it cannot go ' +
+        'stale.</p>' +
+        '<p style="margin-top:0.5rem">The clock stops when an office replies, even if the reply came ' +
+        'late. Silence past the statutory period counts as a refusal and opens an appeal, which is ' +
+        'why an unanswered request is published rather than hidden. ' +
+        '<a href="walkthrough.html#step-7">More &rarr;</a></p>');
+    }
+  };
+
   /* --- chrome ------------------------------------------------------------ */
 
   function navHtml(current) {
@@ -200,6 +263,7 @@
               '<li><a href="about.html#corrections">Report an error</a></li>' +
             '</ul></div>' +
             '<div><h4>How we work</h4><ul>' +
+              '<li><a href="walkthrough.html">How to read this archive</a></li>' +
               '<li><a href="about.html#method">Methodology</a></li>' +
               '<li><a href="about.html#standards">Verification standards</a></li>' +
               '<li><a href="about.html#privacy">Privacy and takedown</a></li>' +

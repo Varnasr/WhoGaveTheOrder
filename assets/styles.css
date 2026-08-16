@@ -536,6 +536,61 @@ blockquote.official cite { display: block; margin-top: 0.4rem; font-family: var(
 }
 .workflow__arrow { color: var(--ink-4); }
 
+/* --- Inline explainers ---------------------------------------------------- *
+   Progressive disclosure. Quiet when closed so a fluent reader is not nagged;
+   plainly available when a first-time reader needs it. */
+
+.explainer {
+  border: 1px solid var(--rule);
+  border-left: 3px solid var(--accent);
+  border-radius: var(--radius);
+  background: var(--paper-2);
+}
+.explainer + * { margin-top: 1rem; }
+.explainer summary {
+  cursor: pointer;
+  padding: 0.6rem 0.85rem;
+  font-size: 0.8125rem;
+  font-weight: 700;
+  color: var(--ink-2);
+  list-style: none;
+  display: flex; align-items: center; gap: 0.5rem;
+}
+.explainer summary::-webkit-details-marker { display: none; }
+.explainer summary::before {
+  content: "?";
+  flex: none;
+  display: grid; place-items: center;
+  width: 1.15rem; height: 1.15rem;
+  border: 1px solid var(--rule-strong); border-radius: 50%;
+  font-family: var(--serif); font-size: 0.75rem; color: var(--ink-3);
+}
+.explainer summary:hover { color: var(--ink); }
+.explainer[open] summary { border-bottom: 1px dotted var(--rule); }
+.explainer[open] summary::before { content: "\2212"; }
+.explainer__body { padding: 0.85rem; }
+.explainer__body p { font-size: 0.875rem; color: var(--ink-2); }
+.explainer__body .chip-legend p { margin-top: 0.25rem; }
+
+/* --- Entry-point picker (homepage) --------------------------------------- */
+
+.entry { display: grid; gap: 0.6rem; }
+@media (min-width: 760px) { .entry { grid-template-columns: repeat(3, 1fr); } }
+.entry a {
+  display: block; text-decoration: none; color: inherit;
+  border: 1px solid var(--rule); border-radius: var(--radius);
+  background: var(--paper-2); padding: 1rem 1.1rem;
+  transition: border-color 0.15s, background 0.15s;
+}
+.entry a:hover { border-color: var(--ink); background: var(--paper-3); }
+.entry h3 { font-size: 1rem; margin-bottom: 0.25rem; }
+.entry p { font-size: 0.8125rem; color: var(--ink-3); }
+.entry .entry__go {
+  display: inline-block; margin-top: 0.6rem;
+  font-size: 0.6875rem; font-weight: 700; letter-spacing: 0.09em;
+  text-transform: uppercase; color: var(--accent);
+}
+
 /* --- Misc ----------------------------------------------------------------- */
 
 .hero { padding: 2.75rem 0 2.25rem; }

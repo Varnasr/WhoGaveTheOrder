@@ -217,6 +217,7 @@ WGO.WANTED = [
 
 /* --- Primary navigation (section 18) — deliberately short ----------------- */
 WGO.NAV = [
+  { href: 'walkthrough.html',    label: 'How to read this' },
   { href: 'investigations.html', label: 'Investigations' },
   { href: 'evidence.html',       label: 'Evidence' },
   { href: 'chain.html',          label: 'Chain of Command' },
