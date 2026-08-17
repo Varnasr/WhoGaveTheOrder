@@ -19,8 +19,10 @@ WGO.config = {
 
   /* demoMode renders the layout-sample records so the interface can be reviewed
      before real evidence exists. Every sample is drawn with a SAMPLE ribbon and
-     is excluded from all published counts. SET THIS TO false BEFORE LAUNCH. */
-  demoMode: true,
+     is excluded from all published counts.
+     Switched off on 17 August 2026: with real records in the archive, samples
+     sitting beside them were more confusing than helpful. */
+  demoMode: false,
 
   contact: {
     evidence: 'evidence@whogavetheorder.in',
