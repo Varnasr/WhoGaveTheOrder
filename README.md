@@ -187,6 +187,12 @@ marker — fill the array.
 - [x] `about.html` — who runs this project, and funding, both written.
 - [ ] Provision `evidence@`, `corrections@` and `legal@whogavetheorder.in`, plus a postal address
       for legal service. **These are printed on the site and do not yet exist.**
+- [ ] Enable **Netlify Analytics** on the site (dashboard only — it is a paid add-on, so the API
+      cannot turn it on). Server-side, read from CDN logs: no cookies, no script, no consent banner,
+      nothing added to the page. The privacy section is already written to describe this accurately.
+      Deliberately not Google Analytics: this archive's likely readers are people who attended the
+      protests it documents, and logging their reading to a third party is the threat model the
+      project exists inside.
 - [ ] Have a lawyer read the licence and privacy sections, and confirm whether accepting public
       submissions brings this within India's intermediary rules and their grievance-officer
       requirement.

@@ -292,9 +292,9 @@
             /* Stated because it is true and checkable, not as a compliance
                gesture. A cookie banner here would imply tracking that does
                not exist. */
-            '<p class="footer-privacy">No cookies. No analytics. No trackers. ' +
-              'Nothing about your visit is stored or shared. ' +
-              '<a href="about.html#privacy">What the map page loads &rarr;</a></p>' +
+            '<p class="footer-privacy">No cookies. No trackers. No scripts that watch you. ' +
+              'Visit counts come from server logs, never from your browser. ' +
+              '<a href="about.html#privacy">Full privacy note &rarr;</a></p>' +
             '<p style="margin-top:0.5rem">Record last reviewed ' + ui.esc(WGO.config.lastReviewed) + '.</p>' +
           '</div>' +
         '</div></footer>';
