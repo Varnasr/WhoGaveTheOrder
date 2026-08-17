@@ -20,10 +20,15 @@
   pages.home = function () {
     var counts = model.counts();
 
-    /* The hero states, in plain language, what this site is about — using the
-       archive's own records rather than a hand-written summary, so the front
-       page cannot drift from what the data actually says. Each line carries the
-       state of the record behind it. */
+    /* Three numbers, at the top, in the order a stranger cares about them.
+       The third one is the point of the project and it is zero. */
+    ui.mount('[data-region="hero-stats"]',
+      '<div class="stat"><b>' + counts.evidence + '</b><span>documents on file</span></div>' +
+      '<div class="stat"><b>' + counts.open + '</b><span>questions unanswered</span></div>' +
+      '<div class="stat stat--zero"><b>' + counts.orders + '</b><span>orders found</span></div>');
+
+    /* What is established, read off the records rather than written by hand, so
+       the front page cannot drift from the data. */
     var lines = model.incidents.map(function (inc) {
       if (inc.dateState === 'UNKNOWN' || !inc.date) { return null; }
       return '<li>' +
@@ -33,58 +38,52 @@
       '</li>';
     }).filter(Boolean);
 
-    var orders = model.orders.length;
+    var held = model.incidents.filter(function (inc) {
+      return inc.dateState === 'UNKNOWN' || !inc.date;
+    });
 
     ui.mount('[data-region="hero-facts"]',
-      '<ul class="hero__list">' +
-        lines.join('') +
-        '<li><span class="hero__fact"><strong>' +
-          (orders ? orders + ' order' + (orders === 1 ? '' : 's') + ' located.' : 'No order authorising it has been located.') +
-        '</strong></span> ' + ui.chip(orders ? 'VERIFIED' : 'UNKNOWN') + '</li>' +
+      '<ul class="hero__list">' + lines.join('') +
+        '<li><span class="hero__fact"><strong>No order authorising it has been found.</strong></span> ' +
+          ui.chip('UNKNOWN') + '</li>' +
       '</ul>' +
-      (lines.length === 0
-        ? '<p class="small" style="margin-top:0.75rem">No incident date has been established yet.</p>'
+      (held.length
+        ? '<p class="small" style="margin-top:0.85rem">' + held.length +
+          ' further incident' + (held.length === 1 ? ' is' : 's are') +
+          ' held open with no date established: ' +
+          held.map(function (i) { return ui.esc(i.state); }).join(', ') + '.</p>'
         : ''));
-
-    ui.mount('[data-region="incident-cards"]',
-      model.incidents.map(ui.incidentCard).join(''));
-
-    ui.mount('[data-region="counts"]',
-      '<div><b>' + counts.evidence + '</b><span>Evidence items</span></div>' +
-      '<div><b>' + counts.sources + '</b><span>Sources</span></div>' +
-      '<div><b>' + counts.open + '</b><span>Open questions</span></div>' +
-      '<div><b>' + counts.orders + '</b><span>Orders located</span></div>' +
-      '<div><b>' + counts.responses + '</b><span>Official responses</span></div>');
 
     ui.mount('[data-region="wanted"]',
       WGO.WANTED.map(function (w) { return '<li>' + ui.plainChip(w) + '</li>'; }).join(''));
 
-    /* These regions only exist on pages that still carry them; ui.mount is a
-       no-op where the node is absent. */
-    ui.mount('[data-region="frame"]',
-      '<div class="frame__col">' +
-        '<p class="kicker">What we know</p>' +
-        '<span class="frame__count">' + counts.known + '</span>' +
-        '<h3>Established facts</h3>' +
-        '<p>Statements supported by primary evidence held in this archive.</p>' +
-      '</div>' +
-      '<div class="frame__col">' +
-        '<p class="kicker">What we don\'t know</p>' +
-        '<span class="frame__count">' + counts.open + '</span>' +
-        '<h3>Open questions</h3>' +
-        '<p>Questions the documentary record does not answer.</p>' +
-      '</div>' +
-      '<div class="frame__col">' +
-        '<p class="kicker">What the government says</p>' +
-        '<span class="frame__count">' + counts.responses + '</span>' +
-        '<h3>Official responses</h3>' +
-        '<p>Statements, explanations and denials on the record, reproduced in full.</p>' +
-      '</div>');
-
-    ui.mount('[data-region="legend"]',
-      Object.keys(WGO.EVIDENCE_STATES).map(function (key) {
-        return '<div>' + ui.chip(key) + '<p>' + ui.esc(WGO.EVIDENCE_STATES[key].definition) + '</p></div>';
-      }).join(''));
+    /* A plainly-named FAQ. These are the five things a stranger actually asks,
+       answered in one short paragraph each. */
+    ui.mount('[data-region="faq"]', [
+      ['Why does so much of this say UNKNOWN?',
+       'Because it has not been established, and the alternative is guessing. A claim without a ' +
+       'source is not shown as a fact here. The blank spaces are the work still to do.'],
+      ['Is this a campaign?',
+       'No. There is no petition, no party, and no ask beyond documents. Official statements are ' +
+       'published in full, including the ones that cut against the project.'],
+      ['Are you accusing anyone?',
+       'No. The chain of command shows which offices are empowered to authorise force. That is a ' +
+       'statement about the law. Whether a particular office did authorise it needs a document, and ' +
+       'until one exists every node reads <em>not established</em>. No individual is named anywhere.'],
+      ['What happens to something I send?',
+       'It is logged privately and checked against its original source before anything is published. ' +
+       'Nothing goes live automatically. Your name is never published unless you tick the box asking ' +
+       'for it, and your contact details never are.'],
+      ['Can I ask for a document myself?',
+       'Yes, and it is the most useful thing anyone can do. Any citizen can request a record from a ' +
+       'public office. Pick a question off the gap list, file it, and send the reference number — the ' +
+       'clock then runs in public.'],
+      ['Who runs this?',
+       'A private, unfunded project on one person\'s unpaid time, not affiliated with any party or ' +
+       'organisation. The operator is not named, for reasons set out on the about page.']
+    ].map(function (row) {
+      return ui.explainer(row[0], '<p>' + row[1] + '</p>');
+    }).join(''));
   };
 
   /* ======================================================================= *

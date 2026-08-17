@@ -216,12 +216,15 @@ WGO.WANTED = [
 ];
 
 /* --- Primary navigation (section 18) — deliberately short ----------------- */
+/* Named for what a stranger is looking for, not for the content model behind
+   it. "Chain of command" is our word; "who had authority" is the question a
+   reader actually arrives with. */
 WGO.NAV = [
-  { href: 'walkthrough.html',    label: 'How to read this' },
-  { href: 'investigations.html', label: 'Investigations' },
-  { href: 'evidence.html',       label: 'Evidence' },
-  { href: 'chain.html',          label: 'Chain of Command' },
-  { href: 'response.html',       label: 'Government Response' },
-  { href: 'submit.html',         label: 'Submit Evidence' },
+  { href: 'investigations.html', label: 'Incidents' },
+  { href: 'evidence.html',       label: 'Documents' },
+  { href: 'chain.html',          label: 'Who had authority' },
+  { href: 'rti.html',            label: 'What we asked' },
+  { href: 'response.html',       label: 'Official replies' },
+  { href: 'submit.html',         label: 'Add a document' },
   { href: 'about.html',          label: 'About' }
 ];

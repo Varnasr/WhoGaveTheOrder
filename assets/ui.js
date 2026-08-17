@@ -231,7 +231,7 @@
           '<div class="masthead__bar">' +
             '<a class="wordmark" href="index.html">Who Gave The Order<span class="dot">.in</span></a>' +
             '<div class="masthead__tools">' +
-              '<a class="cta-persistent" href="submit.html">Help find the order</a>' +
+              '<a class="cta-persistent" href="submit.html">Add a document</a>' +
               '<button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">Menu</button>' +
             '</div>' +
           '</div>' +

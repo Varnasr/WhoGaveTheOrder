@@ -648,3 +648,36 @@ blockquote.official cite { display: block; margin-top: 0.4rem; font-family: var(
   font-size: clamp(1rem, 3.6vw, 1.25rem);
   line-height: 1.35;
 }
+
+/* --- Hero: what this is, and the three numbers --------------------------- *
+   Modelled on the clarity of a good public registry: say what the site is in
+   one line, then show the counts that matter before any explanation. */
+
+.hero__what {
+  margin-top: 1.25rem;
+  max-width: 46ch;
+  font-size: clamp(1rem, 3.4vw, 1.1875rem);
+  line-height: 1.45;
+  color: var(--ink-2);
+}
+.hero__what strong { color: var(--ink); }
+
+.stat-row {
+  display: flex; flex-wrap: wrap; gap: 1.75rem;
+  margin-top: 2rem; padding-top: 1.25rem;
+  border-top: 1px solid var(--rule);
+}
+.stat b {
+  display: block;
+  font-family: var(--serif); font-weight: 700;
+  font-size: clamp(2rem, 7vw, 2.75rem); line-height: 1;
+}
+.stat span {
+  display: block; margin-top: 0.2rem;
+  font-size: 0.75rem; letter-spacing: 0.04em; color: var(--ink-3);
+}
+/* The count that is zero is the point of the project, not a missing value. */
+.stat--zero b { color: var(--ink); }
+.stat--zero span { color: var(--ink-2); font-weight: 700; }
+
+.hero .display { font-size: clamp(1.9rem, 8vw, 4rem); }
