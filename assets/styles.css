@@ -631,3 +631,20 @@ blockquote.official cite { display: block; margin-top: 0.4rem; font-family: var(
   body { background: #fff; color: #000; }
   .card, .node, .question { break-inside: avoid; }
 }
+
+/* --- Hero facts ----------------------------------------------------------- *
+   The front page states what the archive holds, in sourced lines, rather than
+   describing its own methodology. */
+
+.hero__list { list-style: none; margin-top: 1.5rem; max-width: 44ch; }
+.hero__list li {
+  padding: 0.6rem 0;
+  border-top: 1px solid var(--rule);
+  display: flex; flex-wrap: wrap; gap: 0.4rem; align-items: baseline;
+}
+.hero__list li:last-child { border-bottom: 1px solid var(--rule); }
+.hero__fact {
+  font-family: var(--serif);
+  font-size: clamp(1rem, 3.6vw, 1.25rem);
+  line-height: 1.35;
+}

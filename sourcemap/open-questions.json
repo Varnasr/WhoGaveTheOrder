@@ -1,0 +1,379 @@
+[
+  {
+    "id": "OQ-001",
+    "priority": "time_critical",
+    "category": "retention",
+    "jurisdiction": "delhi",
+    "question": "Record retention period for Delhi Police control-room audio, wireless logs and CCTV.",
+    "why_it_matters": "Once destroyed under a lawful schedule the RTI reply is a truthful 'not available'. Filing on day 40 gets nothing that filing on day 25 would have got.",
+    "lawful_route": "RTI for the retention schedule itself, which is a record.",
+    "blocks": [
+      "RET-001",
+      "RET-002"
+    ]
+  },
+  {
+    "id": "OQ-002",
+    "priority": "time_critical",
+    "category": "retention",
+    "jurisdiction": "bihar",
+    "question": "Record retention period for Bihar Police control-room audio, wireless logs and CCTV at Patna, Katihar and Munger.",
+    "why_it_matters": "No preservation order is known for Bihar, so nothing is currently interrupting any schedule.",
+    "lawful_route": "RTI for the retention schedule; and a written preservation representation to SSP Patna, SP Katihar, SP Munger.",
+    "blocks": [
+      "RET-003",
+      "RET-004",
+      "RET-007"
+    ]
+  },
+  {
+    "id": "OQ-003",
+    "priority": "time_critical",
+    "category": "retention",
+    "jurisdiction": "delhi",
+    "question": "What is 'the SOP in place' referred to in the Delhi High Court's preservation direction, and what does it cover?",
+    "why_it_matters": "It determines what was actually required to be preserved.",
+    "lawful_route": "RTI to Delhi Police via rtionline.gov.in; and the order text from the High Court site.",
+    "blocks": [
+      "RET-006"
+    ]
+  },
+  {
+    "id": "OQ-004",
+    "priority": "time_critical",
+    "category": "legal_proceeding",
+    "jurisdiction": "delhi",
+    "question": "The text of the Delhi High Court order in W.P.(CRL.) 2127/2026.",
+    "why_it_matters": "Everything currently held on this proceeding is secondary. The case number and bench composition cannot be cited as VERIFIED without it.",
+    "lawful_route": "delhihighcourt.nic.in case status and orders.",
+    "blocks": [
+      "PROC-DEL-001"
+    ]
+  },
+  {
+    "id": "OQ-005",
+    "priority": "high",
+    "category": "existing_documentation",
+    "jurisdiction": "delhi",
+    "question": "The report published by The Hindu on 20 July 2026 on which the NHRC founded its cognisance.",
+    "why_it_matters": "Three outlets attribute the NHRC's action to it. It is the founding document of the oversight proceeding.",
+    "lawful_route": "Publisher archive or library.",
+    "blocks": [
+      "PUB-DEL-014"
+    ]
+  },
+  {
+    "id": "OQ-006",
+    "priority": "high",
+    "category": "document_custody",
+    "jurisdiction": "all",
+    "question": "PIO designations for every office in the document custody category, in all three jurisdictions.",
+    "why_it_matters": "The entire custody section is UNKNOWN without them. No RTI can be correctly addressed.",
+    "lawful_route": "s.4(1)(b) RTI Act proactive disclosure, which is published and requires no application.",
+    "blocks": [
+      "CUS-001",
+      "CUS-002",
+      "CUS-003",
+      "CUS-004",
+      "CUS-005",
+      "CUS-006",
+      "CUS-007"
+    ]
+  },
+  {
+    "id": "OQ-007",
+    "priority": "high",
+    "category": "rti_mechanics",
+    "jurisdiction": "bihar",
+    "question": "Bihar RTI Rules: application fee, appeal fee, per-page copying charge, inspection charge.",
+    "why_it_matters": "Union and Maharashtra figures must not be carried across.",
+    "lawful_route": "Bihar gazette or the Jaankari portal's rules page.",
+    "blocks": [
+      "RTI-BIH-005"
+    ]
+  },
+  {
+    "id": "OQ-008",
+    "priority": "high",
+    "category": "rti_mechanics",
+    "jurisdiction": "bihar",
+    "question": "Are SP Katihar, SP Munger and the relevant Patna police authority enrolled as PIOs on Jaankari, or is postal filing required?",
+    "why_it_matters": "Determines the filing mechanism for three of the four Bihar incidents.",
+    "lawful_route": "Jaankari portal PIO directory.",
+    "blocks": [
+      "RTI-BIH-006"
+    ]
+  },
+  {
+    "id": "OQ-009",
+    "priority": "high",
+    "category": "guideline",
+    "jurisdiction": "all",
+    "question": "Does any binding Supreme Court or NHRC guideline address the use of force against assemblies specifically, as distinct from custody and encounter deaths?",
+    "why_it_matters": "If none exists, that gap may be the most substantively important thing this archive can document. It is also the claim most likely to be wrong through a failure to search well.",
+    "lawful_route": "Supreme Court judgment search; NHRC guidelines and annual reports.",
+    "blocks": [
+      "GUI-GAP-001"
+    ]
+  },
+  {
+    "id": "OQ-010",
+    "priority": "high",
+    "category": "police_manual",
+    "jurisdiction": "all",
+    "question": "Are the Delhi, Bihar and Maharashtra police manuals published, partially published, or RTI-only?",
+    "why_it_matters": "The manual is where crowd-control procedure actually lives.",
+    "lawful_route": "State police and home department websites; RTI if not published.",
+    "blocks": [
+      "MAN-DEL-001",
+      "MAN-BIH-001",
+      "MAN-MAH-001"
+    ]
+  },
+  {
+    "id": "OQ-011",
+    "priority": "medium",
+    "category": "statute",
+    "jurisdiction": "all",
+    "question": "Full operative text of BNSS ss.148 to 151 compared word for word against the gazette.",
+    "why_it_matters": "Section numbers and headings are verified across three sources; the operative text is not.",
+    "lawful_route": "India Code BNSS PDF, already held.",
+    "blocks": [
+      "LAW-BNSS-001",
+      "LAW-BNSS-004"
+    ]
+  },
+  {
+    "id": "OQ-012",
+    "priority": "medium",
+    "category": "statute",
+    "jurisdiction": "all",
+    "question": "BNSS s.196 verified against India Code rather than secondary sources.",
+    "why_it_matters": "Currently REPORTED only.",
+    "lawful_route": "India Code.",
+    "blocks": [
+      "LAW-BNSS-006"
+    ]
+  },
+  {
+    "id": "OQ-013",
+    "priority": "medium",
+    "category": "statute",
+    "jurisdiction": "bihar",
+    "question": "Is the Bihar Police Act 2007 Bihar Act 1 of 2007 or Bihar Act 7 of 2007?",
+    "why_it_matters": "Two sources conflict. The act number cannot be cited until resolved.",
+    "lawful_route": "Bihar gazette.",
+    "blocks": [
+      "LAW-BIH-002"
+    ]
+  },
+  {
+    "id": "OQ-014",
+    "priority": "medium",
+    "category": "guideline",
+    "jurisdiction": "all",
+    "question": "Correct citations and text of PUCL v. State of Maharashtra and D.K. Basu v. State of West Bengal.",
+    "why_it_matters": "Currently held from a single secondary source and unread.",
+    "lawful_route": "Supreme Court website.",
+    "blocks": [
+      "GUI-SC-001"
+    ]
+  },
+  {
+    "id": "OQ-015",
+    "priority": "medium",
+    "category": "statute",
+    "jurisdiction": "all",
+    "question": "Does any state police statute contain a command responsibility provision?",
+    "why_it_matters": "Chain of authority is the archive's central question and no statutory hook has been found.",
+    "lawful_route": "India Code full-text search of the three acts.",
+    "blocks": [
+      "LAW-CMD-001"
+    ]
+  },
+  {
+    "id": "OQ-016",
+    "priority": "medium",
+    "category": "rti_mechanics",
+    "jurisdiction": "all",
+    "question": "CIC position on OCI cardholders and foreign nationals under s.3 RTI Act.",
+    "why_it_matters": "Determines whether two of the four filer scenarios have any RTI route at all.",
+    "lawful_route": "CIC published decisions.",
+    "blocks": [
+      "RTI-CIT-003",
+      "RTI-CIT-004"
+    ]
+  },
+  {
+    "id": "OQ-017",
+    "priority": "medium",
+    "category": "rti_mechanics",
+    "jurisdiction": "all",
+    "question": "Do any of the three payment gateways accept a foreign-issued card? Does HRCNet OTP accept a foreign mobile number?",
+    "why_it_matters": "Determines whether a non-resident can file without a resident co-filer, and therefore whether the exposure risk at OQ-025 is avoidable.",
+    "lawful_route": "Direct test, or portal helpdesk.",
+    "blocks": [
+      "RTI-CIT-002",
+      "OVR-006"
+    ]
+  },
+  {
+    "id": "OQ-018",
+    "priority": "medium",
+    "category": "court_records",
+    "jurisdiction": "all",
+    "question": "Record access regimes at the Delhi, Patna and Bombay High Courts and the Supreme Court.",
+    "why_it_matters": "Determines cost and method for every court document in the archive.",
+    "lawful_route": "Each court's own rules and Registry pages.",
+    "blocks": [
+      "CRT-008"
+    ]
+  },
+  {
+    "id": "OQ-019",
+    "priority": "medium",
+    "category": "court_records",
+    "jurisdiction": "delhi",
+    "question": "Current official Delhi Police View FIR URL.",
+    "why_it_matters": "Do not construct one by editing a path.",
+    "lawful_route": "delhipolice.gov.in navigation.",
+    "blocks": [
+      "CRT-005"
+    ]
+  },
+  {
+    "id": "OQ-020",
+    "priority": "medium",
+    "category": "court_records",
+    "jurisdiction": "all",
+    "question": "Were FIRs registered against protesters, against police, or both, in any of the four incidents, and what are their numbers?",
+    "why_it_matters": "FIR numbers are the key into the eCourts case search.",
+    "lawful_route": "scrb.bihar.gov.in for Bihar; Delhi Police View FIR once OQ-019 resolves.",
+    "blocks": [
+      "CRT-011"
+    ]
+  },
+  {
+    "id": "OQ-021",
+    "priority": "medium",
+    "category": "oversight",
+    "jurisdiction": "delhi",
+    "question": "NHRC diary or case numbers for the suo motu proceeding and the Vashisht complaint; and whether the Delhi Police report called for on 25 July has been filed.",
+    "why_it_matters": "The Diary or Case Number is the citation handle for a pending case.",
+    "lawful_route": "HRCNet public complaint search.",
+    "blocks": [
+      "OVR-007",
+      "OVR-NHRC-001",
+      "OVR-NHRC-002"
+    ]
+  },
+  {
+    "id": "OQ-022",
+    "priority": "medium",
+    "category": "oversight",
+    "jurisdiction": "all",
+    "question": "Is a report submitted by a police authority to a human rights commission reachable by RTI against the commission, against the force, or neither?",
+    "why_it_matters": "Determines whether the central oversight documents ever become accessible.",
+    "lawful_route": "RTI to both, and CIC decisions on the point.",
+    "blocks": [
+      "OVR-004"
+    ]
+  },
+  {
+    "id": "OQ-023",
+    "priority": "medium",
+    "category": "legislature",
+    "jurisdiction": "all",
+    "question": "Notice periods and tabling procedure for questions in all four houses, and session calendars for the coming year.",
+    "why_it_matters": "Determines whether the legislature route is usable within the archive's timeframe.",
+    "lawful_route": "Each House's Rules of Procedure, linked from its own site.",
+    "blocks": [
+      "LEG-008",
+      "LEG-009"
+    ]
+  },
+  {
+    "id": "OQ-024",
+    "priority": "medium",
+    "category": "incident",
+    "jurisdiction": "maharashtra",
+    "question": "Identity, date and location of the Maharashtra incident.",
+    "why_it_matters": "Determines jurisdiction, public authority, eCourts establishment, and High Court bench.",
+    "lawful_route": "Held at the archive operator's instruction pending their identification.",
+    "blocks": [
+      "INC-MAH-001",
+      "CRT-010",
+      "PUB-MAH-001"
+    ]
+  },
+  {
+    "id": "OQ-025",
+    "priority": "standing",
+    "category": "source_exposure",
+    "jurisdiction": "all",
+    "question": "If a resident co-filer is used to solve a citizenship or payment problem, how is their exposure under s.11 RTI Act managed?",
+    "why_it_matters": "The co-filer's name and address go on the application and may be disclosed to the third party whose records are sought.",
+    "lawful_route": "Not a research task. A decision for the archive operator before any co-filed application.",
+    "blocks": []
+  },
+  {
+    "id": "OQ-026",
+    "priority": "standing",
+    "category": "precedent",
+    "jurisdiction": "all",
+    "question": "Any documented instance of an Indian accountability archive facing a takedown, suit, criminal complaint, or source exposure.",
+    "why_it_matters": "Determines what defensive posture this archive needs.",
+    "lawful_route": "Legal press; digital rights organisations.",
+    "blocks": [
+      "PREC-007"
+    ]
+  },
+  {
+    "id": "OQ-027",
+    "priority": "standing",
+    "category": "existing_documentation",
+    "jurisdiction": "delhi",
+    "question": "Who operates delhi-police-violence.vercel.app, on what verification method, and is it durable?",
+    "why_it_matters": "An anonymous parallel archive is either a collaborator or a liability and cannot be cited until known.",
+    "lawful_route": "Site metadata; direct contact.",
+    "blocks": [
+      "PUB-DEL-013"
+    ]
+  },
+  {
+    "id": "OQ-028",
+    "priority": "standing",
+    "category": "existing_documentation",
+    "jurisdiction": "delhi",
+    "question": "Is 'Cockroach Janta Party' the organisation's actual registered or self-adopted name?",
+    "why_it_matters": "It must not enter the archive as a proper noun on tertiary sourcing alone.",
+    "lawful_route": "Primary court filings, which name parties.",
+    "blocks": [
+      "PUB-DEL-012"
+    ]
+  },
+  {
+    "id": "OQ-029",
+    "priority": "standing",
+    "category": "document_custody",
+    "jurisdiction": "all",
+    "question": "Are armoury issue registers exempt under s.8 RTI Act, and on what ground?",
+    "why_it_matters": "Determines whether the equipment-issue chain is reachable at all.",
+    "lawful_route": "File and see; CIC decisions on analogous records.",
+    "blocks": [
+      "CUS-008"
+    ]
+  },
+  {
+    "id": "OQ-030",
+    "priority": "standing",
+    "category": "document_custody",
+    "jurisdiction": "all",
+    "question": "Was a magisterial inquiry ordered for any of the four incidents?",
+    "why_it_matters": "BNSS s.196 is triggered by death, disappearance or custodial rape only. Do not assume one exists. 'No inquiry ordered' is a finding.",
+    "lawful_route": "RTI to the District Magistrate in each district.",
+    "blocks": [
+      "CUS-010"
+    ]
+  }
+]

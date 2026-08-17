@@ -204,14 +204,23 @@
     var current = window.location.pathname.split('/').pop() || 'index.html';
     var cfg = WGO.config;
 
+    /* The notice reports the archive's actual state rather than a fixed string.
+       An archive that told visitors it was empty after evidence had been
+       published would be making exactly the kind of unchecked claim the rest of
+       the site refuses to make. */
     var notice = '';
+    var counts = WGO.model.counts();
     if (cfg.archiveStage === 'PRE-LAUNCH' || cfg.demoMode) {
       notice =
         '<div class="notice-bar"><div class="shell">' +
           '<strong>' + ui.esc(cfg.archiveStage) + '</strong> — ' +
-          'no evidence has been published to this archive yet. ' +
+          (counts.evidence
+            ? counts.evidence + ' evidence item' + (counts.evidence === 1 ? '' : 's') +
+              ' from ' + counts.sources + ' sources are on the record. ' +
+              counts.open + ' questions remain open. '
+            : 'no evidence has been published to this archive yet. ') +
           (cfg.demoMode ? 'Records marked <em>sample</em> show the layout only. ' : '') +
-          'The counts below are real. Most of them are currently zero.' +
+          'Every count on this site is a count of actual records.' +
         '</div></div>';
     }
 

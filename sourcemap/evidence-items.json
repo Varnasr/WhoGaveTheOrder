@@ -1,0 +1,2095 @@
+[
+  {
+    "id": "INC-DEL-001",
+    "jurisdiction": "delhi",
+    "category": "incident",
+    "claim": "Police action against demonstrators at Jantar Mantar, New Delhi, on 20 July 2026.",
+    "confidence": "CORROBORATED",
+    "sources": [
+      {
+        "url": "https://www.barandbench.com/news/litigation/not-an-isolated-incident-file-your-response-preserve-cctv-footage-delhi-hc-to-police-on-excesses-against-jantar-mantar-protestors",
+        "source_type": "secondary",
+        "publication": "Bar & Bench",
+        "retrieved_on": "2026-08-16"
+      },
+      {
+        "url": "https://www.freepressjournal.in/education/nhrc-takes-cognisance-of-delhi-police-action-during-jantar-mantar-student-protest-seeks-report-within-two-weeks",
+        "source_type": "secondary",
+        "publication": "Free Press Journal",
+        "retrieved_on": "2026-08-16"
+      }
+    ],
+    "notes": "Incident occurrence corroborated. No finding on conduct, cause or proportionality.",
+    "volatility": "low"
+  },
+  {
+    "id": "INC-DEL-002",
+    "jurisdiction": "delhi",
+    "category": "incident",
+    "claim": "Further clashes at Jantar Mantar on 22 July 2026 involving tear gas and lathi charge.",
+    "confidence": "REPORTED",
+    "sources": [
+      {
+        "url": "https://www.deccanherald.com/india/delhi/fresh-chaos-erupts-at-jantar-mantar-as-protestors-police-clash-4083673",
+        "source_type": "secondary",
+        "publication": "Deccan Herald",
+        "retrieved_on": "2026-08-16"
+      }
+    ],
+    "notes": "Single source. Author Ajith Athrady, 22 July 2026.",
+    "volatility": "low"
+  },
+  {
+    "id": "INC-BIH-001",
+    "jurisdiction": "bihar",
+    "category": "incident",
+    "claim": "Police action at JP Golambar, Patna, on 22 July 2026.",
+    "confidence": "REPORTED",
+    "sources": [
+      {
+        "url": "https://www.thequint.com/news/breaking-news/bihar-student-protests-lathi-charge-patna-police-response",
+        "source_type": "secondary",
+        "publication": "The Quint",
+        "retrieved_on": "2026-08-16"
+      }
+    ],
+    "notes": null,
+    "volatility": "low"
+  },
+  {
+    "id": "INC-BIH-002",
+    "jurisdiction": "bihar",
+    "category": "incident",
+    "claim": "Police action at Katihar on 23 July 2026.",
+    "confidence": "REPORTED",
+    "sources": [
+      {
+        "url": "https://www.indiatvnews.com/bihar/news-bihar-students-protest-turns-violent-in-katihar-patna-munger-police-lathicharge-protesters-hurl-stones-latest-updates-2026-07-23-1049145",
+        "source_type": "secondary",
+        "publication": "India TV",
+        "retrieved_on": "2026-08-16"
+      }
+    ],
+    "notes": null,
+    "volatility": "low"
+  },
+  {
+    "id": "INC-BIH-003",
+    "jurisdiction": "bihar",
+    "category": "incident",
+    "claim": "Protest activity at Munger on 23 July 2026. Whether police force was used at Munger is not established by the source.",
+    "confidence": "UNVERIFIED",
+    "sources": [
+      {
+        "url": "https://www.indiatvnews.com/bihar/news-bihar-students-protest-turns-violent-in-katihar-patna-munger-police-lathicharge-protesters-hurl-stones-latest-updates-2026-07-23-1049145",
+        "source_type": "secondary",
+        "publication": "India TV",
+        "retrieved_on": "2026-08-16"
+      }
+    ],
+    "notes": "Source names Munger among protest locations but does not clearly attribute a lathi charge there. Do not promote without a second source.",
+    "volatility": "low"
+  },
+  {
+    "id": "INC-BIH-004",
+    "jurisdiction": "bihar",
+    "category": "incident",
+    "claim": "Police action at Dakbungalow Square, Patna, on 25 July 2026 during a Bihar Bandh; 17 detained.",
+    "confidence": "REPORTED",
+    "sources": [
+      {
+        "url": "https://www.theweek.in/news/india/2026/07/25/bihar-bandh-police-lathi-charge-student-protesters-in-patna-17-detained-as-demonstrators-break-barricades-pelt-stones.html",
+        "source_type": "secondary",
+        "publication": "The Week",
+        "retrieved_on": "2026-08-16"
+      }
+    ],
+    "notes": null,
+    "volatility": "low"
+  },
+  {
+    "id": "INC-MAH-001",
+    "jurisdiction": "maharashtra",
+    "category": "incident",
+    "claim": "Identity, date and location of the Maharashtra incident.",
+    "confidence": "UNKNOWN",
+    "sources": [],
+    "notes": "Held UNKNOWN at archive operator's instruction. A Supreme Court petition records that disturbances spread to Maharashtra without specifying city, date or police action.",
+    "volatility": "low"
+  },
+  {
+    "id": "PROC-DEL-001",
+    "jurisdiction": "delhi",
+    "category": "legal_proceeding",
+    "claim": "Delhi High Court issued notice to Delhi Police and the Union on PILs concerning the 20 and 21 July 2026 police action, directed preservation of records including CCTV footage and videography in accordance with the SOP in place, gave four weeks for a counter affidavit, and listed the matter for 11 September 2026. Cause title Shakeel Abbas v. Union of India and Ors., W.P.(CRL.) 2127/2026, before CJ Devendra Kumar Upadhyaya and Justice Tejas Karia.",
+    "confidence": "CORROBORATED",
+    "sources": [
+      {
+        "url": "https://www.verdictum.in/delhi-high-court/jantar-mantar-seeks-union-delhi-police-reply-on-police-action-against-protesters-1618289",
+        "source_type": "secondary",
+        "publication": "Verdictum",
+        "retrieved_on": "2026-08-16"
+      },
+      {
+        "url": "https://www.barandbench.com/news/litigation/not-an-isolated-incident-file-your-response-preserve-cctv-footage-delhi-hc-to-police-on-excesses-against-jantar-mantar-protestors",
+        "source_type": "secondary",
+        "publication": "Bar & Bench",
+        "retrieved_on": "2026-08-16"
+      },
+      {
+        "url": "https://www.theweek.in/news/india/2026/07/22/why-delhi-hc-asked-police-to-keep-video-evidence-of-cjp-protest-not-isolated-incidents.html",
+        "source_type": "secondary",
+        "publication": "The Week",
+        "retrieved_on": "2026-08-16"
+      }
+    ],
+    "notes": "PROMOTE TO VERIFIED on retrieval of the order from delhihighcourt.nic.in. Case number and bench composition are from secondary reporting only and must not be cited as VERIFIED until the order is held.",
+    "volatility": "high"
+  },
+  {
+    "id": "PROC-SC-001",
+    "jurisdiction": "supreme_court",
+    "category": "legal_proceeding",
+    "claim": "Supreme Court proceedings on petitions concerning police action at Jantar Mantar and elsewhere; petitions allege lathi charge, pellet guns, rubber bullets, tear gas, electronic batons and nail-embedded lathis. Cited as Shailendra Mani Tripathi v. Union of India, 2026 SCC OnLine SC 1409, ordered 28 July 2026, listed for further consideration 3 August 2026.",
+    "confidence": "REPORTED",
+    "sources": [
+      {
+        "url": "https://www.scconline.com/blog/post/2026/07/29/neet-paper-leak-protest-proceedings-sc-interim-directions-police-violence/",
+        "source_type": "secondary",
+        "publication": "SCC Online blog",
+        "retrieved_on": "2026-08-16"
+      }
+    ],
+    "notes": "SCC OnLine citation is a commercial reporter citation, not a primary source. Retrieve the order from the Supreme Court site before use.",
+    "volatility": "high"
+  },
+  {
+    "id": "PROC-BIH-001",
+    "jurisdiction": "bihar",
+    "category": "legal_proceeding",
+    "claim": "Any court proceeding concerning the Patna, Katihar or Munger incidents.",
+    "confidence": "UNKNOWN",
+    "sources": [],
+    "notes": "Searched, none found. Absence of a preservation order in Bihar is why Bihar is the deadline-critical jurisdiction.",
+    "volatility": "low"
+  },
+  {
+    "id": "OVR-NHRC-001",
+    "jurisdiction": "delhi",
+    "category": "oversight",
+    "claim": "NHRC took suo motu cognisance by order dated 25 July 2026 and issued notice to the Commissioner of Police, Delhi, directing a detailed report within two weeks. Cognisance was taken on the basis of a report published by The Hindu on 20 July 2026.",
+    "confidence": "CORROBORATED",
+    "sources": [
+      {
+        "url": "https://www.barandbench.com/news/litigation/nhrc-takes-suo-motu-cognisance-of-delhi-police-excesses-during-jantar-mantar-protests",
+        "source_type": "secondary",
+        "publication": "Bar & Bench",
+        "retrieved_on": "2026-08-16"
+      },
+      {
+        "url": "https://indialegallive.com/constitutional-law-news/courts-news/nhrc-takes-suo-motu-cognisance-of-alleged-police-excess-during-cjp-protest-seeks-report-from-delhi-police/",
+        "source_type": "secondary",
+        "publication": "India Legal",
+        "retrieved_on": "2026-08-16"
+      },
+      {
+        "url": "https://www.freepressjournal.in/education/nhrc-takes-cognisance-of-delhi-police-action-during-jantar-mantar-student-protest-seeks-report-within-two-weeks",
+        "source_type": "secondary",
+        "publication": "Free Press Journal",
+        "retrieved_on": "2026-08-16"
+      }
+    ],
+    "notes": "Two-week deadline expired approximately 8 August 2026. Diary/case number UNKNOWN. NHRC order text not held.",
+    "volatility": "low"
+  },
+  {
+    "id": "OVR-NHRC-002",
+    "jurisdiction": "delhi",
+    "category": "oversight",
+    "claim": "A complaint was filed with the NHRC by Supreme Court advocate Virender Vashisht on or about 22 July 2026 seeking an independent inquiry by the Commission's Investigation Division into the 20 July incident.",
+    "confidence": "REPORTED",
+    "sources": [
+      {
+        "url": "https://www.indiasnews.net/news/279202613/complaint-filed-with-nhrc-seeking-independent-inquiry-into-police-action-at-jantar-mantar",
+        "source_type": "secondary",
+        "publication": "ANI via IndiasNews",
+        "retrieved_on": "2026-08-16"
+      }
+    ],
+    "notes": "Separate proceeding from OVR-NHRC-001. Diary number UNKNOWN.",
+    "volatility": "low"
+  },
+  {
+    "id": "OVR-BIH-001",
+    "jurisdiction": "bihar",
+    "category": "oversight",
+    "claim": "Whether NHRC or Bihar SHRC has taken cognisance of the Bihar incidents.",
+    "confidence": "UNKNOWN",
+    "sources": [],
+    "notes": null,
+    "volatility": "low"
+  },
+  {
+    "id": "RTI-UNION-001",
+    "jurisdiction": "union",
+    "category": "rti_mechanics",
+    "claim": "RTI applications and first appeals for Central Government public authorities are filed at rtionline.gov.in. Delhi Police falls under the Ministry of Home Affairs and therefore uses this route.",
+    "confidence": "VERIFIED",
+    "sources": [
+      {
+        "url": "https://rtionline.gov.in/guidelines.php?request=",
+        "source_type": "primary",
+        "publication": "RTI Online, DoPT",
+        "retrieved_on": "2026-08-16"
+      }
+    ],
+    "notes": "The MHA-parentage inference is structural, not stated on the portal.",
+    "volatility": "medium"
+  },
+  {
+    "id": "RTI-UNION-002",
+    "jurisdiction": "union",
+    "category": "rti_mechanics",
+    "claim": "Union RTI fee is Rs 10. Payment by internet banking via the SBI payment gateway and associated banks, SBI ATM-cum-debit card, Master or Visa credit or debit card, or UPI.",
+    "confidence": "VERIFIED",
+    "sources": [
+      {
+        "url": "https://rtionline.gov.in/faq.php",
+        "source_type": "primary",
+        "publication": "RTI Online, DoPT",
+        "retrieved_on": "2026-08-16"
+      }
+    ],
+    "notes": null,
+    "volatility": "medium"
+  },
+  {
+    "id": "RTI-UNION-003",
+    "jurisdiction": "union",
+    "category": "rti_mechanics",
+    "claim": "No RTI fee is payable by a citizen below the poverty line under the RTI Rules 2012; a copy of the certificate issued by the appropriate government must be attached.",
+    "confidence": "VERIFIED",
+    "sources": [
+      {
+        "url": "https://rtionline.gov.in/guidelines.php?request=",
+        "source_type": "primary",
+        "publication": "RTI Online, DoPT",
+        "retrieved_on": "2026-08-16"
+      }
+    ],
+    "notes": null,
+    "volatility": "low"
+  },
+  {
+    "id": "RTI-UNION-004",
+    "jurisdiction": "union",
+    "category": "rti_mechanics",
+    "claim": "The Union portal restricts filing to Indian citizens.",
+    "confidence": "VERIFIED",
+    "sources": [
+      {
+        "url": "https://rtionline.gov.in/guidelines.php?request=",
+        "source_type": "primary",
+        "publication": "RTI Online, DoPT",
+        "retrieved_on": "2026-08-16"
+      }
+    ],
+    "notes": null,
+    "volatility": "low"
+  },
+  {
+    "id": "RTI-UNION-005",
+    "jurisdiction": "union",
+    "category": "rti_mechanics",
+    "claim": "The application text field on the Union portal is limited to 3000 characters.",
+    "confidence": "VERIFIED",
+    "sources": [
+      {
+        "url": "https://rtionline.gov.in/guidelines.php?request=",
+        "source_type": "primary",
+        "publication": "RTI Online, DoPT",
+        "retrieved_on": "2026-08-16"
+      }
+    ],
+    "notes": null,
+    "volatility": "medium"
+  },
+  {
+    "id": "RTI-SC-001",
+    "jurisdiction": "supreme_court",
+    "category": "rti_mechanics",
+    "claim": "The Supreme Court operates a separate RTI portal at rti.sci.gov.in, for Indian citizens only, fee Rs 10, BPL exempt on production of certificate. Applicants seeking information from authorities other than the Supreme Court are directed to the respective Central or State portal.",
+    "confidence": "VERIFIED",
+    "sources": [
+      {
+        "url": "https://rti.sci.gov.in/",
+        "source_type": "primary",
+        "publication": "Supreme Court of India",
+        "retrieved_on": "2026-08-16"
+      }
+    ],
+    "notes": null,
+    "volatility": "low"
+  },
+  {
+    "id": "RTI-BIH-001",
+    "jurisdiction": "bihar",
+    "category": "rti_mechanics",
+    "claim": "Bihar operates the Jaankari RTI system at jaankari.bihar.gov.in, providing web filing of applications, first appeals and second appeals.",
+    "confidence": "VERIFIED",
+    "sources": [
+      {
+        "url": "https://jaankari.bihar.gov.in/",
+        "source_type": "primary",
+        "publication": "Government of Bihar",
+        "retrieved_on": "2026-08-16"
+      }
+    ],
+    "notes": null,
+    "volatility": "high"
+  },
+  {
+    "id": "RTI-BIH-002",
+    "jurisdiction": "bihar",
+    "category": "rti_mechanics",
+    "claim": "Bihar permits RTI applications by telephone. Premium-rate number 155311 for applications; 155310 as helpline on normal tariff. Established January 2007.",
+    "confidence": "VERIFIED",
+    "sources": [
+      {
+        "url": "https://jaankari.bihar.gov.in/",
+        "source_type": "primary",
+        "publication": "Government of Bihar",
+        "retrieved_on": "2026-08-16"
+      },
+      {
+        "url": "https://negd.gov.in/isl/Directory/statedata/332",
+        "source_type": "primary",
+        "publication": "NeGD",
+        "retrieved_on": "2026-08-16"
+      }
+    ],
+    "notes": null,
+    "volatility": "low"
+  },
+  {
+    "id": "RTI-BIH-003",
+    "jurisdiction": "bihar",
+    "category": "rti_mechanics",
+    "claim": "The Jaankari portal supports online application filing, online payments, status update by department, status checking by applicant, first and second appeal, and email/SMS notification. Rs 10 is deducted from phone balance for a call-based application.",
+    "confidence": "VERIFIED",
+    "sources": [
+      {
+        "url": "https://negd.gov.in/isl/Directory/statedata/332",
+        "source_type": "primary",
+        "publication": "NeGD",
+        "retrieved_on": "2026-08-16"
+      }
+    ],
+    "notes": null,
+    "volatility": "low"
+  },
+  {
+    "id": "RTI-BIH-004",
+    "jurisdiction": "bihar",
+    "category": "rti_mechanics",
+    "claim": "Jaankari 2.0 was launched on 1 October 2025 by Bihar State Electronics Development Corporation.",
+    "confidence": "REPORTED",
+    "sources": [
+      {
+        "url": "https://luminousinfoways.com/blog/bihar-drops-jaankari-2-0-a-whole-new-era-of-rti-transparency/",
+        "source_type": "secondary",
+        "publication": "Luminous Infoways",
+        "retrieved_on": "2026-08-16"
+      }
+    ],
+    "notes": "Vendor blog. Treat as a flag to verify, not authority. Several third-party guides still wrongly assert Bihar has no online RTI facility.",
+    "volatility": "high"
+  },
+  {
+    "id": "RTI-BIH-005",
+    "jurisdiction": "bihar",
+    "category": "rti_mechanics",
+    "claim": "Bihar RTI Rules: application fee, appeal fee, per-page copying charge, inspection charge.",
+    "confidence": "UNKNOWN",
+    "sources": [],
+    "notes": "Rules text not retrieved. Do not carry Union or Maharashtra figures across.",
+    "volatility": "low"
+  },
+  {
+    "id": "RTI-BIH-006",
+    "jurisdiction": "bihar",
+    "category": "rti_mechanics",
+    "claim": "Whether SP Katihar, SP Munger and the relevant Patna police authority are enrolled as PIOs on Jaankari, or whether postal filing is required.",
+    "confidence": "UNKNOWN",
+    "sources": [],
+    "notes": null,
+    "volatility": "low"
+  },
+  {
+    "id": "RTI-MAH-001",
+    "jurisdiction": "maharashtra",
+    "category": "rti_mechanics",
+    "claim": "The Maharashtra Right to Information Rules 2026 were gazetted 7 July 2026 (Maharashtra Government Gazette, Extraordinary Part Four-A, No. 273), made under ss.18(3)(f), 19(10) and 27(2) RTI Act, expressly superseding the Maharashtra Right to Information Rules 2026 published 12 June 2026. Signed Dr Atul Patne, Principal Secretary.",
+    "confidence": "VERIFIED",
+    "sources": [
+      {
+        "url": "https://rtionline.maharashtra.gov.in/webroot/GR/RTI_Rules_2026_NEW.pdf",
+        "source_type": "primary",
+        "publication": "Maharashtra Government Gazette",
+        "retrieved_on": "2026-08-16"
+      }
+    ],
+    "notes": "Two sets of rules bearing the year 2026 exist. Always specify the 7 July 2026 rules.",
+    "volatility": "high"
+  },
+  {
+    "id": "RTI-MAH-002",
+    "jurisdiction": "maharashtra",
+    "category": "rti_mechanics",
+    "claim": "Rule 3(a): application fee Rs 10, by cash against proper receipt, demand draft, banker's cheque payable to the public authority, or by affixing a Rs 10 court fee stamp.",
+    "confidence": "VERIFIED",
+    "sources": [
+      {
+        "url": "https://rtionline.maharashtra.gov.in/webroot/GR/RTI_Rules_2026_NEW.pdf",
+        "source_type": "primary",
+        "publication": "Maharashtra Government Gazette",
+        "retrieved_on": "2026-08-16"
+      }
+    ],
+    "notes": null,
+    "volatility": "low"
+  },
+  {
+    "id": "RTI-MAH-003",
+    "jurisdiction": "maharashtra",
+    "category": "rti_mechanics",
+    "claim": "Rule 3(b): a request shall relate to one subject matter and shall not ordinarily exceed 150 words. Where a request covers more than one subject matter the PIO may respond to the first only and advise separate applications.",
+    "confidence": "VERIFIED",
+    "sources": [
+      {
+        "url": "https://rtionline.maharashtra.gov.in/webroot/GR/RTI_Rules_2026_NEW.pdf",
+        "source_type": "primary",
+        "publication": "Maharashtra Government Gazette",
+        "retrieved_on": "2026-08-16"
+      }
+    ],
+    "notes": "Material divergence from the Union route. Bundled requests are lawfully answerable in part only. Draft Maharashtra applications singly.",
+    "volatility": "low"
+  },
+  {
+    "id": "RTI-MAH-004",
+    "jurisdiction": "maharashtra",
+    "category": "rti_mechanics",
+    "claim": "Rule 4(1)(A): Rs 2 per A-4 or A-3 page plus postal charges; larger paper at actual or cost price plus postage; where a price is already fixed for a document or map, that price plus postage. No postal charge if collected in person.",
+    "confidence": "VERIFIED",
+    "sources": [
+      {
+        "url": "https://rtionline.maharashtra.gov.in/webroot/GR/RTI_Rules_2026_NEW.pdf",
+        "source_type": "primary",
+        "publication": "Maharashtra Government Gazette",
+        "retrieved_on": "2026-08-16"
+      }
+    ],
+    "notes": null,
+    "volatility": "low"
+  },
+  {
+    "id": "RTI-MAH-005",
+    "jurisdiction": "maharashtra",
+    "category": "rti_mechanics",
+    "claim": "Rule 4(1)(B): inspection of records free for the first hour, then Rs 5 per fifteen minutes or part. Rule 3(c): inspection in the presence of the PIO or authorised representative, during office hours, pencil only, other writing instruments to be deposited, no marking on the record.",
+    "confidence": "VERIFIED",
+    "sources": [
+      {
+        "url": "https://rtionline.maharashtra.gov.in/webroot/GR/RTI_Rules_2026_NEW.pdf",
+        "source_type": "primary",
+        "publication": "Maharashtra Government Gazette",
+        "retrieved_on": "2026-08-16"
+      }
+    ],
+    "notes": null,
+    "volatility": "low"
+  },
+  {
+    "id": "RTI-MAH-006",
+    "jurisdiction": "maharashtra",
+    "category": "rti_mechanics",
+    "claim": "Rule 5(1): first appeal within thirty days of receipt of the SPIO's order, Annexure B format, fee Rs 20 or Rs 20 court fee stamp, with a copy of the order appealed against. Rule 5(2): second appeal to the State Information Commission within ninety days of receipt of the appellate authority's order, Annexure C format, fee Rs 20.",
+    "confidence": "VERIFIED",
+    "sources": [
+      {
+        "url": "https://rtionline.maharashtra.gov.in/webroot/GR/RTI_Rules_2026_NEW.pdf",
+        "source_type": "primary",
+        "publication": "Maharashtra Government Gazette",
+        "retrieved_on": "2026-08-16"
+      }
+    ],
+    "notes": null,
+    "volatility": "low"
+  },
+  {
+    "id": "RTI-MAH-007",
+    "jurisdiction": "maharashtra",
+    "category": "rti_mechanics",
+    "claim": "Maharashtra online RTI filing at rtionline.maharashtra.gov.in, version 2.0, an initiative of GAD Mantralaya Mumbai. Indian citizens only, Maharashtra public authorities only. Helpdesk 1800 120 8040 and rti.support@maharashtra.gov.in.",
+    "confidence": "VERIFIED",
+    "sources": [
+      {
+        "url": "https://rtionline.maharashtra.gov.in/",
+        "source_type": "primary",
+        "publication": "Government of Maharashtra",
+        "retrieved_on": "2026-08-16"
+      }
+    ],
+    "notes": null,
+    "volatility": "medium"
+  },
+  {
+    "id": "RTI-ACT-001",
+    "jurisdiction": "all",
+    "category": "rti_mechanics",
+    "claim": "RTI Act 2005 timelines, uniform across jurisdictions: s.7(1) thirty days for the PIO's decision; s.7(1) proviso forty-eight hours where the information concerns the life or liberty of a person; s.7(7) with s.11 forty days where third-party information is involved; s.5(2) proviso thirty-five days where the application is given to an Assistant PIO; s.19(1) thirty days for first appeal; s.19(3) ninety days for second appeal; s.7(2) deemed refusal on expiry of the reply period.",
+    "confidence": "UNVERIFIED",
+    "sources": [
+      {
+        "url": null,
+        "source_type": "primary",
+        "publication": "India Code",
+        "retrieved_on": null
+      }
+    ],
+    "notes": "URL NOT FETCHED in this pass. Provisions are recited from the Act. Verify the URL resolves before treating as VERIFIED; downgrade to UNVERIFIED if it does not.",
+    "volatility": "low"
+  },
+  {
+    "id": "RTI-ACT-002",
+    "jurisdiction": "all",
+    "category": "rti_mechanics",
+    "claim": "Where the reply period expires in silence, s.7(2) deems the request refused and the first appeal clock starts. A dated record of non-response past the statutory period, with the registration number, is itself a documentable event.",
+    "confidence": "UNVERIFIED",
+    "sources": [
+      {
+        "url": null,
+        "source_type": "primary",
+        "publication": "India Code",
+        "retrieved_on": null
+      }
+    ],
+    "notes": "Same URL caveat as RTI-ACT-001. Archive treatment: record non-response as evidence, not as absence.",
+    "volatility": "low"
+  },
+  {
+    "id": "RTI-CIT-001",
+    "jurisdiction": "all",
+    "category": "rti_mechanics",
+    "claim": "Indian citizen resident in India: RTI route open on all three portals.",
+    "confidence": "VERIFIED",
+    "sources": [
+      {
+        "url": "https://rtionline.gov.in/guidelines.php?request=",
+        "source_type": "primary",
+        "publication": "RTI Online, DoPT",
+        "retrieved_on": "2026-08-16"
+      },
+      {
+        "url": "https://rtionline.maharashtra.gov.in/",
+        "source_type": "primary",
+        "publication": "Government of Maharashtra",
+        "retrieved_on": "2026-08-16"
+      }
+    ],
+    "notes": null,
+    "volatility": "low"
+  },
+  {
+    "id": "RTI-CIT-002",
+    "jurisdiction": "all",
+    "category": "rti_mechanics",
+    "claim": "Indian citizen resident abroad: the statutory right attaches to citizenship, not residence. Whether any of the three payment gateways accepts a foreign-issued card is not established.",
+    "confidence": "UNVERIFIED",
+    "sources": [],
+    "notes": "Statutory position is clear; practical position is not. Do not assert either way.",
+    "volatility": "low"
+  },
+  {
+    "id": "RTI-CIT-003",
+    "jurisdiction": "all",
+    "category": "rti_mechanics",
+    "claim": "OCI cardholders: entitlement under s.3 RTI Act.",
+    "confidence": "UNKNOWN",
+    "sources": [],
+    "notes": "An OCI holder is not a citizen. No CIC decision located. Do not reason to a conclusion and publish it.",
+    "volatility": "low"
+  },
+  {
+    "id": "RTI-CIT-004",
+    "jurisdiction": "all",
+    "category": "rti_mechanics",
+    "claim": "Foreign nationals: one secondary guide states non-citizens have no statutory right under the RTI Act.",
+    "confidence": "REPORTED",
+    "sources": [
+      {
+        "url": "https://righttoinformation.wiki/guide/applicant/application/file-online-rtionline-2026",
+        "source_type": "secondary",
+        "publication": "righttoinformation.wiki",
+        "retrieved_on": "2026-08-16"
+      }
+    ],
+    "notes": "Underlying CIC decisions not located.",
+    "volatility": "low"
+  },
+  {
+    "id": "RTI-CIT-005",
+    "jurisdiction": "all",
+    "category": "rti_mechanics",
+    "claim": "Routes with no citizenship gate: court records via eCourts and court portals; legislature questions tabled through a member; complaints to human rights commissions; and proactive disclosure under s.4(1)(b) RTI Act, which is published rather than requested.",
+    "confidence": "VERIFIED",
+    "sources": [
+      {
+        "url": "https://services.ecourts.gov.in/",
+        "source_type": "primary",
+        "publication": "eCourts Services",
+        "retrieved_on": "2026-08-16"
+      },
+      {
+        "url": "https://hrcnet.nic.in/HRCNet/public/webcomplaint.aspx",
+        "source_type": "primary",
+        "publication": "HRCNet",
+        "retrieved_on": "2026-08-16"
+      }
+    ],
+    "notes": "s.4(1)(b) is the correct lawful route to PIO designations, which are otherwise UNKNOWN throughout this archive.",
+    "volatility": "low"
+  },
+  {
+    "id": "LAW-BNSS-001",
+    "jurisdiction": "all",
+    "category": "statute",
+    "claim": "BNSS 2023 Chapter XI Part A, Unlawful Assemblies: s.148 dispersal of assembly by use of civil force; s.149 use of armed forces to disperse assembly; s.150 power of certain armed force officers to disperse assembly; s.151 protection against prosecution for acts done under ss.148, 149 and 150.",
+    "confidence": "VERIFIED",
+    "sources": [
+      {
+        "url": "https://www.indiacode.nic.in/bitstream/123456789/20340/1/bnss,_2023.pdf",
+        "source_type": "primary",
+        "publication": "India Code",
+        "retrieved_on": "2026-08-16"
+      },
+      {
+        "url": "https://bprd.nic.in/uploads/pdf/Comparison%20summary%20BNSS%20to%20CrPC.pdf",
+        "source_type": "primary",
+        "publication": "Bureau of Police Research and Development",
+        "retrieved_on": "2026-08-16"
+      },
+      {
+        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202407031502194192BNSS2023-20-45.pdf",
+        "source_type": "primary",
+        "publication": "Uttar Pradesh Police",
+        "retrieved_on": "2026-08-16"
+      }
+    ],
+    "notes": "Section numbers and headings verified across three sources, two official. Full operative text not compared word for word against the gazette.",
+    "volatility": "low"
+  },
+  {
+    "id": "LAW-BNSS-002",
+    "jurisdiction": "all",
+    "category": "statute",
+    "claim": "CrPC to BNSS mapping: 129 to 148, 130 to 149, 131 to 150, 132 to 151. All incidents in this archive postdate 1 July 2024, so BNSS governs and there is no CrPC overlay. Mapping is recorded only for reading pre-2024 material.",
+    "confidence": "VERIFIED",
+    "sources": [
+      {
+        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202407031502194192BNSS2023-20-45.pdf",
+        "source_type": "primary",
+        "publication": "Uttar Pradesh Police",
+        "retrieved_on": "2026-08-16"
+      },
+      {
+        "url": "https://bprd.nic.in/uploads/pdf/Comparison%20summary%20BNSS%20to%20CrPC.pdf",
+        "source_type": "primary",
+        "publication": "BPRD",
+        "retrieved_on": "2026-08-16"
+      }
+    ],
+    "notes": null,
+    "volatility": "low"
+  },
+  {
+    "id": "LAW-BNSS-003",
+    "jurisdiction": "all",
+    "category": "statute",
+    "claim": "Textual change at s.149: 'any such assembly' replaced by 'any assembly referred to in sub-section (1) of section 148'; 'Executive Magistrate of the highest rank' replaced by 'District Magistrate or any other Executive Magistrate authorised by him'; in sub-section (2) 'Magistrate' replaced by 'Executive Magistrate'. Sections 148 and 150 unchanged from CrPC. In s.151, 'military' replaced by 'army'.",
+    "confidence": "VERIFIED",
+    "sources": [
+      {
+        "url": "https://bprd.nic.in/uploads/pdf/Comparison%20summary%20BNSS%20to%20CrPC.pdf",
+        "source_type": "primary",
+        "publication": "BPRD",
+        "retrieved_on": "2026-08-16"
+      }
+    ],
+    "notes": "ARCHIVE SIGNIFICANCE: the s.149 change relocates requisition authority from whoever was senior on the ground to a named office acting on written authorisation. An authorisation under s.149 is a discrete document and should be requested by name.",
+    "volatility": "low"
+  },
+  {
+    "id": "LAW-BNSS-004",
+    "jurisdiction": "all",
+    "category": "statute",
+    "claim": "BNSS s.149(3) requires the armed forces officer to obey the requisition using as little force, and doing as little injury to person and property, as may be consistent with dispersing the assembly.",
+    "confidence": "REPORTED",
+    "sources": [
+      {
+        "url": "https://onlinelawconnect.com/actsandrules/criminal/bnss/SummaryChapter11.php",
+        "source_type": "secondary",
+        "publication": "onlinelawconnect",
+        "retrieved_on": "2026-08-16"
+      }
+    ],
+    "notes": "Secondary summary. Verify against the gazette before quoting. Minimum-force obligation being statutory rather than guidance matters for framing proportionality.",
+    "volatility": "low"
+  },
+  {
+    "id": "LAW-BNSS-005",
+    "jurisdiction": "all",
+    "category": "statute",
+    "claim": "BNSS s.163 is the provision on urgent cases of nuisance or apprehended danger, replacing CrPC s.144, located in Chapter XI Part C.",
+    "confidence": "VERIFIED",
+    "sources": [
+      {
+        "url": "https://www.indiacode.nic.in/bitstream/123456789/20340/1/bnss,_2023.pdf",
+        "source_type": "primary",
+        "publication": "India Code",
+        "retrieved_on": "2026-08-16"
+      }
+    ],
+    "notes": "Current operational use confirmed by reporting of s.163 restrictions imposed within a 750-metre radius of the Jharkhand Assembly during a comparable march.",
+    "volatility": "low"
+  },
+  {
+    "id": "LAW-BNSS-006",
+    "jurisdiction": "all",
+    "category": "statute",
+    "claim": "BNSS s.196 governs inquiry by a Magistrate into cause of death, replacing CrPC s.176 including s.176(1A). s.196(2) is triggered by death or disappearance, or alleged rape, in police custody or other custody authorised by a Magistrate or Court.",
+    "confidence": "REPORTED",
+    "sources": [
+      {
+        "url": "https://www.lawandjusticewiki.org/wiki/Extra-judicial_killings",
+        "source_type": "secondary",
+        "publication": "Justice Definitions Project",
+        "retrieved_on": "2026-08-16"
+      },
+      {
+        "url": "https://www.apnilaw.com/bare-act/bnss/section-196-bharatiya-nagarik-suraksha-sanhitabnss-inquiry-by-magistrate-into-cause-of-death/",
+        "source_type": "secondary",
+        "publication": "ApniLaw",
+        "retrieved_on": "2026-08-16"
+      }
+    ],
+    "notes": "Not verified against India Code directly. CRITICAL LIMIT: s.196 is triggered by death, disappearance or custodial rape. Injury alone does not engage it. Do not assume a magisterial inquiry exists for any incident in this archive.",
+    "volatility": "low"
+  },
+  {
+    "id": "LAW-DEL-001",
+    "jurisdiction": "delhi",
+    "category": "statute",
+    "claim": "Delhi Police Act 1978 (Act 34 of 1978): s.28 power to make regulations for regulating traffic and preservation of order in public places; s.29 power to give directions to the public; s.30 power to prohibit certain acts for prevention of disorder; s.31 police to provide against disorder at places of public amusement or public assembly or meeting; s.33 issue of order of prevention of riot; s.113 penalties for contravention of orders under ss.29 to 34.",
+    "confidence": "VERIFIED",
+    "sources": [
+      {
+        "url": "https://www.indiacode.nic.in/bitstream/123456789/13669/1/delhi_police_act.pdf",
+        "source_type": "primary",
+        "publication": "India Code",
+        "retrieved_on": "2026-08-16"
+      }
+    ],
+    "notes": null,
+    "volatility": "low"
+  },
+  {
+    "id": "LAW-DEL-002",
+    "jurisdiction": "delhi",
+    "category": "statute",
+    "claim": "Delhi Police Act s.31(3) and (4): the Commissioner of Police may by publicly promulgated notification prohibit any assembly or procession for such time as he considers necessary for preservation of public order; no such notification remains in force more than fifteen days, extendable by the Administrator by gazette order for a further period not exceeding six months.",
+    "confidence": "REPORTED",
+    "sources": [
+      {
+        "url": "https://www.indianemployees.com/acts-rules/details/delhi-police-act-1978",
+        "source_type": "secondary",
+        "publication": "indianemployees.com",
+        "retrieved_on": "2026-08-16"
+      }
+    ],
+    "notes": "Text quoted from a non-official mirror. Check against the India Code PDF at LAW-DEL-001 and promote.",
+    "volatility": "low"
+  },
+  {
+    "id": "LAW-MAH-001",
+    "jurisdiction": "maharashtra",
+    "category": "statute",
+    "claim": "Maharashtra Police Act 1951 (Bombay Act 22 of 1951): s.37 power to prohibit certain acts for prevention of disorder; s.38 music, sound or noise; s.70 enforcement of orders issued under ss.37, 38 or 39; s.71 duty of police to see orders under ss.43, 55, 56, 57 are carried out; s.135 penalty for contravention of directions under ss.37, 39 or 40.",
+    "confidence": "VERIFIED",
+    "sources": [
+      {
+        "url": "https://www.indiacode.nic.in/bitstream/123456789/20371/1/ashtra_police.pdf",
+        "source_type": "primary",
+        "publication": "India Code",
+        "retrieved_on": "2026-08-16"
+      }
+    ],
+    "notes": "India Code text as on 22 November 2024.",
+    "volatility": "low"
+  },
+  {
+    "id": "LAW-MAH-002",
+    "jurisdiction": "maharashtra",
+    "category": "statute",
+    "claim": "Maharashtra Police Act ss.33, 36, 39, 41: s.33 general regulation including processions and assemblies; ss.36 and 37 immediate threats to public peace, with the Commissioner or District Magistrate able to prohibit an assembly or procession for a period; s.39 order on public roads; s.41 stopping and dispersing an assembly or procession that breaches licence conditions under s.33.",
+    "confidence": "REPORTED",
+    "sources": [
+      {
+        "url": "https://blog.gurukulnexus.com/police-regulations-maharashtra-police-act-public-order/",
+        "source_type": "secondary",
+        "publication": "Gurukul Nexus",
+        "retrieved_on": "2026-08-16"
+      }
+    ],
+    "notes": "Verify against the India Code PDF at LAW-MAH-001.",
+    "volatility": "low"
+  },
+  {
+    "id": "LAW-BIH-001",
+    "jurisdiction": "bihar",
+    "category": "statute",
+    "claim": "Bihar Police Act 2007 s.66, regulation of public meetings and processions: the organiser must give written intimation to the Station House Officer of the concerned police station; an officer of at least Assistant or Deputy Superintendent rank may give directions for the conduct of meetings and processions on public roads and decide route and time.",
+    "confidence": "VERIFIED",
+    "sources": [
+      {
+        "url": "https://www.indiacode.nic.in/bitstream/123456789/11209/1/1094_bihar_bihar_police_act_2007.pdf",
+        "source_type": "primary",
+        "publication": "India Code",
+        "retrieved_on": "2026-08-16"
+      }
+    ],
+    "notes": null,
+    "volatility": "low"
+  },
+  {
+    "id": "LAW-BIH-002",
+    "jurisdiction": "bihar",
+    "category": "statute",
+    "claim": "Whether the Bihar Police Act 2007 is Bihar Act 1 of 2007 or Bihar Act 7 of 2007.",
+    "confidence": "DISPUTED",
+    "sources": [
+      {
+        "url": "https://www.indiacode.nic.in/bitstream/123456789/11209/1/1094_bihar_bihar_police_act_2007.pdf",
+        "source_type": "primary",
+        "publication": "India Code",
+        "retrieved_on": "2026-08-16"
+      },
+      {
+        "url": "https://www.legitquest.com/act/the-bihar-police-amendment-act-2014/FBD1",
+        "source_type": "secondary",
+        "publication": "LegitQuest",
+        "retrieved_on": "2026-08-16"
+      }
+    ],
+    "notes": "India Code header reads BIHAR ACT 1, 2007. The Bihar Police (Amendment) Act 2014 refers to Bihar Act 7, 2007. Do not cite the act number until checked against the Bihar gazette.",
+    "volatility": "low"
+  },
+  {
+    "id": "LAW-CMD-001",
+    "jurisdiction": "all",
+    "category": "statute",
+    "claim": "Whether any of the three state police statutes contains a provision on command responsibility, meaning an officer's liability for force used by subordinates under his direction.",
+    "confidence": "UNKNOWN",
+    "sources": [],
+    "notes": "None located. What exists is the reverse: BNSS s.151 protects officers acting in good faith under ss.148 to 150. Command responsibility in Indian police accountability appears to be constructed from BNS abetment and common intention provisions, departmental rules and Supreme Court directions rather than from a police act. That is an analytical view, not a sourced claim.",
+    "volatility": "low"
+  },
+  {
+    "id": "MAN-DEL-001",
+    "jurisdiction": "delhi",
+    "category": "police_manual",
+    "claim": "Whether Delhi Police standing orders on crowd control exist as a discrete document, under what title, and whether they are published.",
+    "confidence": "UNKNOWN",
+    "sources": [],
+    "notes": null,
+    "volatility": "low"
+  },
+  {
+    "id": "MAN-BIH-001",
+    "jurisdiction": "bihar",
+    "category": "police_manual",
+    "claim": "The Bihar Police Manual exists and has been judicially discussed, including whether it has statutory character, its preface indicating issue by and with the authority of the State Government under ss.7 and 12 of the Police Act 1861, with specific rules including 1185A and 1186 referred to in litigation.",
+    "confidence": "UNVERIFIED",
+    "sources": [
+      {
+        "url": null,
+        "source_type": "secondary",
+        "publication": "CaseMine",
+        "retrieved_on": null
+      }
+    ],
+    "notes": "Whether the full text is published online is UNKNOWN. ARCHIVE SIGNIFICANCE: if the manual is issued under statutory power, a departure from it is a breach of a rule rather than of internal guidance.",
+    "volatility": "low"
+  },
+  {
+    "id": "MAN-MAH-001",
+    "jurisdiction": "maharashtra",
+    "category": "police_manual",
+    "claim": "Whether the Maharashtra Police Manual is published, partially published, or obtainable only by RTI.",
+    "confidence": "UNKNOWN",
+    "sources": [],
+    "notes": null,
+    "volatility": "low"
+  },
+  {
+    "id": "GUI-NHRC-001",
+    "jurisdiction": "all",
+    "category": "guideline",
+    "claim": "NHRC 1993 instruction, letter from the Secretary General to Chief Secretaries of all States and Union Territories, directing District Magistrates and Superintendents of Police of every district to report custodial deaths and rapes to the Secretary General within 24 hours of occurrence or of coming to know of them.",
+    "confidence": "VERIFIED",
+    "sources": [
+      {
+        "url": "https://www.mha.gov.in/sites/default/files/2025-04/NHRCselectedlettersandguidelinesondeathsincustody_09042019_0[1]_4.pdf",
+        "source_type": "primary",
+        "publication": "Ministry of Home Affairs",
+        "retrieved_on": "2026-08-16"
+      }
+    ],
+    "notes": null,
+    "volatility": "low"
+  },
+  {
+    "id": "GUI-NHRC-002",
+    "jurisdiction": "all",
+    "category": "guideline",
+    "claim": "NHRC fresh guidelines requiring all reports including post-mortem, videograph and magisterial inquiry report to be sent within two months of the incident, with post-mortem reports in a proforma designed by the Commission.",
+    "confidence": "VERIFIED",
+    "sources": [
+      {
+        "url": "https://nhrc.nic.in/press-release/nhrc-issues-fresh-guidelines-regarding-intimation-custodial-death",
+        "source_type": "primary",
+        "publication": "NHRC",
+        "retrieved_on": "2026-08-16"
+      }
+    ],
+    "notes": null,
+    "volatility": "low"
+  },
+  {
+    "id": "GUI-NHRC-003",
+    "jurisdiction": "all",
+    "category": "guideline",
+    "claim": "NHRC mandates that all deaths during police action, including encounters, be reported within 48 hours.",
+    "confidence": "VERIFIED",
+    "sources": [
+      {
+        "url": "https://nhrc.nic.in/investigation-division",
+        "source_type": "primary",
+        "publication": "NHRC",
+        "retrieved_on": "2026-08-16"
+      }
+    ],
+    "notes": null,
+    "volatility": "low"
+  },
+  {
+    "id": "GUI-NHRC-004",
+    "jurisdiction": "all",
+    "category": "guideline",
+    "claim": "Following complaint 234 (1 to 6)/93-94, Justice M.N. Venkatachaliah as NHRC Chairperson wrote to all Chief Ministers on 29 March 1997 recommending the procedure to be followed in cases of encounter deaths.",
+    "confidence": "VERIFIED",
+    "sources": [
+      {
+        "url": "https://www.mha.gov.in/sites/default/files/2025-04/NHRCselectedlettersandguidelinesondeathsincustody_09042019_0[1]_4.pdf",
+        "source_type": "primary",
+        "publication": "Ministry of Home Affairs",
+        "retrieved_on": "2026-08-16"
+      }
+    ],
+    "notes": null,
+    "volatility": "low"
+  },
+  {
+    "id": "GUI-SC-001",
+    "jurisdiction": "all",
+    "category": "guideline",
+    "claim": "PUCL v. State of Maharashtra, cited as (2014) 10 SCC 635, is said to lay down a 16-point protocol for police encounter deaths covering FIR registration, magisterial inquiry and forensic preservation. D.K. Basu v. State of West Bengal, cited as (1997) 1 SCC 416, custodial rights guidelines.",
+    "confidence": "REPORTED",
+    "sources": [
+      {
+        "url": "https://commoner-law.com/india/police-encounters/encounter-killings-and-custodial-deaths",
+        "source_type": "secondary",
+        "publication": "commoner-law.com",
+        "retrieved_on": "2026-08-16"
+      }
+    ],
+    "notes": "Judgments not read. Citations not verified. Obtain from the Supreme Court site before any use.",
+    "volatility": "low"
+  },
+  {
+    "id": "GUI-GAP-001",
+    "jurisdiction": "all",
+    "category": "guideline",
+    "claim": "Whether any binding Supreme Court or NHRC guideline addresses the use of force against assemblies specifically, as distinct from custody and encounter deaths.",
+    "confidence": "UNVERIFIED",
+    "sources": [],
+    "notes": "Searched, none found. TENTATIVE FINDING, HELD LOOSELY: the Indian accountability architecture is built around deaths. A lathi charge that injures without killing sits in thinner regulatory space, and BNSS s.151 protects officers acting in good faith. This may be the most substantively important thing the archive has to say, and it is also the claim most likely to be wrong through my failure to search well. Treat as an open question, not a settled absence.",
+    "volatility": "low"
+  },
+  {
+    "id": "CRT-001",
+    "jurisdiction": "all",
+    "category": "court_records",
+    "claim": "District court case search at services.ecourts.gov.in. Cases are searchable by CNR (a unique 16-character number assigned to each case in a district or taluka court), party name, advocate name, FIR number, case type, or relevant Act.",
+    "confidence": "VERIFIED",
+    "sources": [
+      {
+        "url": "https://services.ecourts.gov.in/",
+        "source_type": "primary",
+        "publication": "eCourts Services",
+        "retrieved_on": "2026-08-16"
+      },
+      {
+        "url": "https://ecommitteesci.gov.in/service/ecourts-services-mobile-application/",
+        "source_type": "primary",
+        "publication": "e-Committee, Supreme Court of India",
+        "retrieved_on": "2026-08-16"
+      }
+    ],
+    "notes": null,
+    "volatility": "low"
+  },
+  {
+    "id": "CRT-002",
+    "jurisdiction": "all",
+    "category": "court_records",
+    "claim": "eCourts party-name search caveats: party names are anonymised in certain matrimonial and sexual-offence matters and will not surface; the year filter is the case registration year, which can differ from the FIR year in criminal matters.",
+    "confidence": "REPORTED",
+    "sources": [
+      {
+        "url": "https://indiacasestatus.com/blog/court-case-status-by-party-name",
+        "source_type": "secondary",
+        "publication": "India Case Status",
+        "retrieved_on": "2026-08-16"
+      }
+    ],
+    "notes": "Combine with the transliteration-variance problem at PREC-003. Party-name searches will produce false negatives, especially in Bihar.",
+    "volatility": "low"
+  },
+  {
+    "id": "CRT-003",
+    "jurisdiction": "bihar",
+    "category": "fir_publication",
+    "claim": "Bihar Police publish FIRs at scrb.bihar.gov.in. The SCRB states that as per Supreme Court and High Court orders all FIRs are uploaded except those debarred from disclosure by court orders and law, and that FIRs related to national security, or whose disclosure may have adverse bearing on law and order or the communal situation, are not uploaded. The site further disclaims that the data is sourced from districts and units and is not for legal use, and that certified data must be obtained from the districts or units.",
+    "confidence": "VERIFIED",
+    "sources": [
+      {
+        "url": "https://scrb.bihar.gov.in/View_FIR.aspx",
+        "source_type": "primary",
+        "publication": "State Crime Records Bureau, Bihar",
+        "retrieved_on": "2026-08-16"
+      }
+    ],
+    "notes": "ARCHIVE RULE: a downloaded FIR from this portal is REPORTED, not VERIFIED, until a certified copy is held from the district or unit. The portal says so itself.",
+    "volatility": "low"
+  },
+  {
+    "id": "CRT-004",
+    "jurisdiction": "maharashtra",
+    "category": "fir_publication",
+    "claim": "Maharashtra Police operate a Search and View Published FIR facility.",
+    "confidence": "VERIFIED",
+    "sources": [
+      {
+        "url": "https://citizen.mahapolice.gov.in/citizen/mh/PublishedFIRs.aspx",
+        "source_type": "primary",
+        "publication": "Government of Maharashtra",
+        "retrieved_on": "2026-08-16"
+      }
+    ],
+    "notes": "Page existence verified. A search has not been executed.",
+    "volatility": "low"
+  },
+  {
+    "id": "CRT-005",
+    "jurisdiction": "delhi",
+    "category": "fir_publication",
+    "claim": "The current official Delhi Police View FIR URL.",
+    "confidence": "UNKNOWN",
+    "sources": [
+      {
+        "url": "https://delhipolice.gov.in",
+        "source_type": "primary",
+        "publication": "Delhi Police",
+        "retrieved_on": "2026-08-16"
+      }
+    ],
+    "notes": "A View FIR facility is reported to exist but the official deep link was not confirmed. Do not construct one. Start from the homepage.",
+    "volatility": "low"
+  },
+  {
+    "id": "CRT-006",
+    "jurisdiction": "all",
+    "category": "court_records",
+    "claim": "Youth Bar Association of India v. Union of India (2016) is said to have directed that FIR copies be uploaded online within 24 hours of registration, with exceptions for sensitive offences.",
+    "confidence": "REPORTED",
+    "sources": [
+      {
+        "url": "https://indiacasestatus.com/blog/find-court-case-by-fir-number",
+        "source_type": "secondary",
+        "publication": "India Case Status",
+        "retrieved_on": "2026-08-16"
+      }
+    ],
+    "notes": "Judgment not read, citation not verified.",
+    "volatility": "low"
+  },
+  {
+    "id": "CRT-007",
+    "jurisdiction": "all",
+    "category": "court_records",
+    "claim": "Online RTI filing is not available for any High Court Registry in India as of 2026; a High Court RTI must go by post or by hand at the Registry.",
+    "confidence": "REPORTED",
+    "sources": [
+      {
+        "url": "https://righttoinformation.wiki/guide/applicant/application/file-online-rtionline-2026",
+        "source_type": "secondary",
+        "publication": "righttoinformation.wiki",
+        "retrieved_on": "2026-08-16"
+      }
+    ],
+    "notes": null,
+    "volatility": "medium"
+  },
+  {
+    "id": "CRT-008",
+    "jurisdiction": "all",
+    "category": "court_records",
+    "claim": "Record access regimes at the Delhi, Patna and Bombay High Courts and the Supreme Court: what is free, what is chargeable, what requires a Registry visit, and the certified-copy per-page fee.",
+    "confidence": "UNKNOWN",
+    "sources": [],
+    "notes": "Not researched. Do not describe these from memory.",
+    "volatility": "low"
+  },
+  {
+    "id": "CRT-009",
+    "jurisdiction": "all",
+    "category": "court_records",
+    "claim": "Routes to a State's counter-affidavit in a pending writ or PIL: inspection of the court file through an advocate on record or by application to the Registry; a certified copy on application to the Registry, chargeable per page; and whatever the court itself uploads once the affidavit is taken on record. Which applies at the Delhi High Court specifically is not established.",
+    "confidence": "UNVERIFIED",
+    "sources": [],
+    "notes": "For PROC-DEL-001 the counter affidavit was due four weeks from the order in late July, placing the filing in late August 2026, with the matter listed 11 September. The window for an inspection or certified-copy application is between those dates.",
+    "volatility": "low"
+  },
+  {
+    "id": "CRT-010",
+    "jurisdiction": "maharashtra",
+    "category": "court_records",
+    "claim": "Which Bombay High Court seat or bench would have jurisdiction.",
+    "confidence": "UNKNOWN",
+    "sources": [],
+    "notes": "Depends on the Maharashtra incident location, which is UNKNOWN.",
+    "volatility": "low"
+  },
+  {
+    "id": "CRT-011",
+    "jurisdiction": "all",
+    "category": "court_records",
+    "claim": "Whether FIRs were registered against protesters, against police, or both, in any of the four incidents, and their numbers.",
+    "confidence": "UNKNOWN",
+    "sources": [],
+    "notes": null,
+    "volatility": "low"
+  },
+  {
+    "id": "LEG-001",
+    "jurisdiction": "union",
+    "category": "legislature",
+    "claim": "Lok Sabha questions and answers are published at sansad.in/ls/questions/questions-and-answers, with categories All Questions, Questions List, Pending Questions for Uploading, and Supplementary Questions.",
+    "confidence": "VERIFIED",
+    "sources": [
+      {
+        "url": "https://sansad.in/ls/questions/questions-and-answers",
+        "source_type": "primary",
+        "publication": "Digital Sansad",
+        "retrieved_on": "2026-08-16"
+      }
+    ],
+    "notes": null,
+    "volatility": "low"
+  },
+  {
+    "id": "LEG-002",
+    "jurisdiction": "union",
+    "category": "legislature",
+    "claim": "Rajya Sabha questions and answers are published at sansad.in/rs/questions/questions-and-answers with faceted search on title, session range, answer date range, member name, ministry name, question type and question number. At least one condition must be selected.",
+    "confidence": "VERIFIED",
+    "sources": [
+      {
+        "url": "https://sansad.in/rs/questions/questions-and-answers",
+        "source_type": "primary",
+        "publication": "Digital Sansad",
+        "retrieved_on": "2026-08-16"
+      }
+    ],
+    "notes": null,
+    "volatility": "low"
+  },
+  {
+    "id": "LEG-003",
+    "jurisdiction": "union",
+    "category": "legislature",
+    "claim": "Rajya Sabha ministries are divided into five groups allotted Monday to Friday, so each Minister has one fixed day per week for Rajya Sabha questions and another for Lok Sabha. Grouping changes with ministry restructuring or portfolio reshuffles.",
+    "confidence": "VERIFIED",
+    "sources": [
+      {
+        "url": "https://sansad.in/rs/questions/general-information",
+        "source_type": "primary",
+        "publication": "Digital Sansad",
+        "retrieved_on": "2026-08-16"
+      }
+    ],
+    "notes": "Retrieved via a translation proxy; confirm the direct URL resolves.",
+    "volatility": "medium"
+  },
+  {
+    "id": "LEG-004",
+    "jurisdiction": "bihar",
+    "category": "legislature",
+    "claim": "Bihar Vidhan Sabha publishes starred questions and operates an Online Question Reply Management System, rules of procedure, a session-wise list of sittings since 1937, and live webcast.",
+    "confidence": "VERIFIED",
+    "sources": [
+      {
+        "url": "https://www.vidhansabha.bih.nic.in/",
+        "source_type": "primary",
+        "publication": "Bihar Vidhan Sabha",
+        "retrieved_on": "2026-08-16"
+      },
+      {
+        "url": "https://vidhansabha.bihar.gov.in/starred_question.html",
+        "source_type": "primary",
+        "publication": "Bihar Vidhan Sabha",
+        "retrieved_on": "2026-08-16"
+      }
+    ],
+    "notes": null,
+    "volatility": "low"
+  },
+  {
+    "id": "LEG-005",
+    "jurisdiction": "bihar",
+    "category": "legislature",
+    "claim": "Bihar Vidhan Sabha proceedings are also carried on the National eVidhan Application at bla.neva.gov.in.",
+    "confidence": "VERIFIED",
+    "sources": [
+      {
+        "url": "https://bla.neva.gov.in/",
+        "source_type": "primary",
+        "publication": "National eVidhan Application",
+        "retrieved_on": "2026-08-16"
+      }
+    ],
+    "notes": null,
+    "volatility": "low"
+  },
+  {
+    "id": "LEG-006",
+    "jurisdiction": "maharashtra",
+    "category": "legislature",
+    "claim": "Maharashtra Vidhan Sabha proceedings are carried on the National eVidhan Application at mhla.neva.gov.in.",
+    "confidence": "VERIFIED",
+    "sources": [
+      {
+        "url": "https://mhla.neva.gov.in/",
+        "source_type": "primary",
+        "publication": "National eVidhan Application",
+        "retrieved_on": "2026-08-16"
+      }
+    ],
+    "notes": null,
+    "volatility": "low"
+  },
+  {
+    "id": "LEG-007",
+    "jurisdiction": "bihar",
+    "category": "legislature",
+    "claim": "The Bihar Legislative Assembly Monsoon Session opened with argument over the police action against students in Patna, with a BJP MLA raising the matter before Question Hour.",
+    "confidence": "REPORTED",
+    "sources": [
+      {
+        "url": "https://www.thestatesman.com/cities/bihar-assembly-uproar-patna-student-protest-police-lathi-charge-paper-leak-1503619829.html",
+        "source_type": "secondary",
+        "publication": "The Statesman",
+        "retrieved_on": "2026-08-16"
+      }
+    ],
+    "notes": "ARCHIVE SIGNIFICANCE: an Assembly proceedings record for late July 2026 exists and should be held. A question on the same subject is within the House's existing business rather than novel.",
+    "volatility": "low"
+  },
+  {
+    "id": "LEG-008",
+    "jurisdiction": "all",
+    "category": "legislature",
+    "claim": "Notice periods and tabling procedure for questions in Lok Sabha, Rajya Sabha, Bihar Vidhan Sabha and Maharashtra Vidhan Sabha.",
+    "confidence": "UNKNOWN",
+    "sources": [],
+    "notes": "Generally, short notice questions are those on matters of urgent public importance asked on less than ten days notice, and a member may give a maximum of ten questions per day, but that is Lok Sabha practice from a tertiary source. Each House's own Rules of Procedure are the authority.",
+    "volatility": "low"
+  },
+  {
+    "id": "LEG-009",
+    "jurisdiction": "all",
+    "category": "legislature",
+    "claim": "Session calendars for the coming year for all four houses.",
+    "confidence": "UNKNOWN",
+    "sources": [],
+    "notes": null,
+    "volatility": "low"
+  },
+  {
+    "id": "LEG-010",
+    "jurisdiction": "all",
+    "category": "legislature",
+    "claim": "Whether any question on these incidents has already been tabled or answered in any of the four houses.",
+    "confidence": "UNKNOWN",
+    "sources": [],
+    "notes": null,
+    "volatility": "low"
+  },
+  {
+    "id": "OVR-001",
+    "jurisdiction": "all",
+    "category": "oversight",
+    "claim": "NHRC and the State Human Rights Commissions share one complaint system, HRCNet. The dropdown includes SHRC Bihar and SHRC Maharashtra among others.",
+    "confidence": "VERIFIED",
+    "sources": [
+      {
+        "url": "https://hrcnet.nic.in/HRCNet/public/CaseStatus.aspx",
+        "source_type": "primary",
+        "publication": "HRCNet",
+        "retrieved_on": "2026-08-16"
+      }
+    ],
+    "notes": null,
+    "volatility": "low"
+  },
+  {
+    "id": "OVR-002",
+    "jurisdiction": "all",
+    "category": "oversight",
+    "claim": "HRCNet filing steps: select incident state; select NHRC or SHRC; verify mobile number by OTP; complete mandatory fields; preview; upload documents in PDF only; choose whether victim and complainant names appear on the website; on submission a Unique Diary Number is issued for tracking.",
+    "confidence": "VERIFIED",
+    "sources": [
+      {
+        "url": "https://hrcnet.nic.in/HRCNet/public/webcomplaint.aspx",
+        "source_type": "primary",
+        "publication": "HRCNet",
+        "retrieved_on": "2026-08-16"
+      }
+    ],
+    "notes": "EXPOSURE: the name-visibility toggle is chosen at submission and is not casually reversible.",
+    "volatility": "low"
+  },
+  {
+    "id": "OVR-003",
+    "jurisdiction": "all",
+    "category": "oversight",
+    "claim": "HRCNet complaints are publicly searchable by Diary Number, Case or File Number, incident date, victim name, complainant name, email, mobile number and state.",
+    "confidence": "VERIFIED",
+    "sources": [
+      {
+        "url": "https://hrcnet.nic.in/HRCNet/public/SearchComplaint.aspx",
+        "source_type": "primary",
+        "publication": "HRCNet",
+        "retrieved_on": "2026-08-16"
+      },
+      {
+        "url": "https://hrcnet.nic.in/HRCNet/public/CaseStatus.aspx",
+        "source_type": "primary",
+        "publication": "HRCNet",
+        "retrieved_on": "2026-08-16"
+      }
+    ],
+    "notes": "CITATION METHOD FOR A PENDING CASE: the Diary Number before registration, the Case or File Number after. Both are independently verifiable by a third party on the public interface, which satisfies the archive's document rule even while contents remain non-public. Format: 'NHRC Case No. X, status as at [date], per HRCNet public search'.",
+    "volatility": "low"
+  },
+  {
+    "id": "OVR-004",
+    "jurisdiction": "all",
+    "category": "oversight",
+    "claim": "Whether a report called for by a Commission from a DGP or Commissioner becomes accessible.",
+    "confidence": "UNKNOWN",
+    "sources": [],
+    "notes": "The Commission publishes case status but not, so far as observed, response documents. A report submitted by a public authority to a statutory commission is a record held by both, which means it is at least arguably reachable by RTI against either, subject to s.8 exemptions. That is an argument, not an answer.",
+    "volatility": "low"
+  },
+  {
+    "id": "OVR-005",
+    "jurisdiction": "all",
+    "category": "oversight",
+    "claim": "Anything specific to the Bihar or Maharashtra SHRCs beyond their presence on HRCNet: addresses, separate procedures, fees, whether either has taken cognisance of the July 2026 incidents.",
+    "confidence": "UNKNOWN",
+    "sources": [],
+    "notes": null,
+    "volatility": "low"
+  },
+  {
+    "id": "OVR-006",
+    "jurisdiction": "all",
+    "category": "oversight",
+    "claim": "Whether HRCNet OTP verification accepts a foreign mobile number.",
+    "confidence": "UNKNOWN",
+    "sources": [],
+    "notes": "Bears directly on the non-resident and foreign-national scenarios at RTI-CIT-002 to RTI-CIT-004.",
+    "volatility": "low"
+  },
+  {
+    "id": "OVR-007",
+    "jurisdiction": "delhi",
+    "category": "oversight",
+    "claim": "NHRC diary or case numbers for the suo motu proceeding at OVR-NHRC-001 and the complaint at OVR-NHRC-002.",
+    "confidence": "UNKNOWN",
+    "sources": [],
+    "notes": "Both should be findable on the HRCNet public search at OVR-003.",
+    "volatility": "low"
+  },
+  {
+    "id": "CUS-001",
+    "jurisdiction": "all",
+    "category": "document_custody",
+    "claim": "The specific public authority holding deployment orders and force requisitions, and the correct PIO to address, in a commissionerate city and in a district.",
+    "confidence": "UNKNOWN",
+    "sources": [],
+    "notes": "STRUCTURAL LOGIC ONLY, NOT A SOURCED CLAIM: in a commissionerate the Commissioner of Police concentrates the relevant powers; in a district they split between the District Magistrate, holding executive magistrate functions including requisition under BNSS s.149, and the Superintendent of Police. No citable PIO designation was located for any office. LAWFUL ROUTE TO RESOLVE: s.4(1)(b) RTI Act proactive disclosure, which every public authority must publish and which requires no application.",
+    "volatility": "low"
+  },
+  {
+    "id": "CUS-002",
+    "jurisdiction": "all",
+    "category": "document_custody",
+    "claim": "The specific public authority holding station diary, roznamcha and general diary entries, and the correct PIO to address, in a commissionerate city and in a district.",
+    "confidence": "UNKNOWN",
+    "sources": [],
+    "notes": "STRUCTURAL LOGIC ONLY, NOT A SOURCED CLAIM: in a commissionerate the Commissioner of Police concentrates the relevant powers; in a district they split between the District Magistrate, holding executive magistrate functions including requisition under BNSS s.149, and the Superintendent of Police. No citable PIO designation was located for any office. LAWFUL ROUTE TO RESOLVE: s.4(1)(b) RTI Act proactive disclosure, which every public authority must publish and which requires no application.",
+    "volatility": "low"
+  },
+  {
+    "id": "CUS-003",
+    "jurisdiction": "all",
+    "category": "document_custody",
+    "claim": "The specific public authority holding wireless and control-room logs, and the correct PIO to address, in a commissionerate city and in a district.",
+    "confidence": "UNKNOWN",
+    "sources": [],
+    "notes": "STRUCTURAL LOGIC ONLY, NOT A SOURCED CLAIM: in a commissionerate the Commissioner of Police concentrates the relevant powers; in a district they split between the District Magistrate, holding executive magistrate functions including requisition under BNSS s.149, and the Superintendent of Police. No citable PIO designation was located for any office. LAWFUL ROUTE TO RESOLVE: s.4(1)(b) RTI Act proactive disclosure, which every public authority must publish and which requires no application.",
+    "volatility": "low"
+  },
+  {
+    "id": "CUS-004",
+    "jurisdiction": "all",
+    "category": "document_custody",
+    "claim": "The specific public authority holding armoury issue registers, recording what crowd-control equipment was issued and to whom, and the correct PIO to address, in a commissionerate city and in a district.",
+    "confidence": "UNKNOWN",
+    "sources": [],
+    "notes": "STRUCTURAL LOGIC ONLY, NOT A SOURCED CLAIM: in a commissionerate the Commissioner of Police concentrates the relevant powers; in a district they split between the District Magistrate, holding executive magistrate functions including requisition under BNSS s.149, and the Superintendent of Police. No citable PIO designation was located for any office. LAWFUL ROUTE TO RESOLVE: s.4(1)(b) RTI Act proactive disclosure, which every public authority must publish and which requires no application.",
+    "volatility": "low"
+  },
+  {
+    "id": "CUS-005",
+    "jurisdiction": "all",
+    "category": "document_custody",
+    "claim": "The specific public authority holding post-incident situation reports and their routing up the chain, and the correct PIO to address, in a commissionerate city and in a district.",
+    "confidence": "UNKNOWN",
+    "sources": [],
+    "notes": "STRUCTURAL LOGIC ONLY, NOT A SOURCED CLAIM: in a commissionerate the Commissioner of Police concentrates the relevant powers; in a district they split between the District Magistrate, holding executive magistrate functions including requisition under BNSS s.149, and the Superintendent of Police. No citable PIO designation was located for any office. LAWFUL ROUTE TO RESOLVE: s.4(1)(b) RTI Act proactive disclosure, which every public authority must publish and which requires no application.",
+    "volatility": "low"
+  },
+  {
+    "id": "CUS-006",
+    "jurisdiction": "all",
+    "category": "document_custody",
+    "claim": "The specific public authority holding magisterial inquiry orders and findings, and the correct PIO to address, in a commissionerate city and in a district.",
+    "confidence": "UNKNOWN",
+    "sources": [],
+    "notes": "STRUCTURAL LOGIC ONLY, NOT A SOURCED CLAIM: in a commissionerate the Commissioner of Police concentrates the relevant powers; in a district they split between the District Magistrate, holding executive magistrate functions including requisition under BNSS s.149, and the Superintendent of Police. No citable PIO designation was located for any office. LAWFUL ROUTE TO RESOLVE: s.4(1)(b) RTI Act proactive disclosure, which every public authority must publish and which requires no application.",
+    "volatility": "low"
+  },
+  {
+    "id": "CUS-007",
+    "jurisdiction": "all",
+    "category": "document_custody",
+    "claim": "The specific public authority holding standing orders on crowd control and the use of force, and the correct PIO to address, in a commissionerate city and in a district.",
+    "confidence": "UNKNOWN",
+    "sources": [],
+    "notes": "STRUCTURAL LOGIC ONLY, NOT A SOURCED CLAIM: in a commissionerate the Commissioner of Police concentrates the relevant powers; in a district they split between the District Magistrate, holding executive magistrate functions including requisition under BNSS s.149, and the Superintendent of Police. No citable PIO designation was located for any office. LAWFUL ROUTE TO RESOLVE: s.4(1)(b) RTI Act proactive disclosure, which every public authority must publish and which requires no application.",
+    "volatility": "low"
+  },
+  {
+    "id": "CUS-002A",
+    "jurisdiction": "delhi",
+    "category": "document_custody",
+    "claim": "A general diary entry at Parliament Street police station is reported to have recorded two rounds of pellets fired by the Rapid Action Force on 20 July 2026.",
+    "confidence": "REPORTED",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/2026_Delhi_Jantar_Mantar_protests",
+        "source_type": "tertiary",
+        "publication": "Wikipedia",
+        "retrieved_on": "2026-08-16"
+      }
+    ],
+    "notes": "TERTIARY SOURCE. Do not publish. Retained because it names a station, a date and a recorded fact, which makes it an unusually well-targeted RTI: a request naming those is harder to deflect than a general request for all GD entries. Trace the underlying citation before use.",
+    "volatility": "high"
+  },
+  {
+    "id": "CUS-008",
+    "jurisdiction": "all",
+    "category": "document_custody",
+    "claim": "Whether armoury issue registers are treated as exempt under s.8 RTI Act, and on what ground.",
+    "confidence": "UNKNOWN",
+    "sources": [],
+    "notes": null,
+    "volatility": "low"
+  },
+  {
+    "id": "CUS-009",
+    "jurisdiction": "all",
+    "category": "document_custody",
+    "claim": "What a post-incident situation report is called in each force, and its routing.",
+    "confidence": "UNKNOWN",
+    "sources": [],
+    "notes": null,
+    "volatility": "low"
+  },
+  {
+    "id": "CUS-010",
+    "jurisdiction": "all",
+    "category": "document_custody",
+    "claim": "Whether a magisterial inquiry was ordered for any of the four incidents.",
+    "confidence": "UNKNOWN",
+    "sources": [],
+    "notes": "Do not assume one exists. BNSS s.196 is triggered by death, disappearance or custodial rape only. Absent those, any inquiry would be a discretionary executive one under separate state instructions, a different document with a different holder. Record 'no inquiry ordered' as a finding if that is the answer.",
+    "volatility": "low"
+  },
+  {
+    "id": "RET-001",
+    "jurisdiction": "delhi",
+    "category": "retention",
+    "claim": "The record retention period for Delhi Police control-room audio and wireless logs.",
+    "confidence": "UNKNOWN",
+    "sources": [],
+    "notes": "MOST TIME-CRITICAL UNKNOWN IN THIS ARCHIVE. Once a record is destroyed under a lawful schedule the RTI reply is a truthful 'not available' and that is the end of it. No number is asserted here because none was established. The schedule is itself a record and can be requested.",
+    "volatility": "high"
+  },
+  {
+    "id": "RET-002",
+    "jurisdiction": "delhi",
+    "category": "retention",
+    "claim": "The record retention period for CCTV covering the Jantar Mantar area.",
+    "confidence": "UNKNOWN",
+    "sources": [],
+    "notes": "MOST TIME-CRITICAL UNKNOWN IN THIS ARCHIVE. Once a record is destroyed under a lawful schedule the RTI reply is a truthful 'not available' and that is the end of it. No number is asserted here because none was established. The schedule is itself a record and can be requested.",
+    "volatility": "high"
+  },
+  {
+    "id": "RET-003",
+    "jurisdiction": "bihar",
+    "category": "retention",
+    "claim": "The record retention period for Bihar Police control-room audio and wireless logs.",
+    "confidence": "UNKNOWN",
+    "sources": [],
+    "notes": "MOST TIME-CRITICAL UNKNOWN IN THIS ARCHIVE. Once a record is destroyed under a lawful schedule the RTI reply is a truthful 'not available' and that is the end of it. No number is asserted here because none was established. The schedule is itself a record and can be requested.",
+    "volatility": "high"
+  },
+  {
+    "id": "RET-004",
+    "jurisdiction": "bihar",
+    "category": "retention",
+    "claim": "The record retention period for CCTV covering the Patna, Katihar and Munger locations.",
+    "confidence": "UNKNOWN",
+    "sources": [],
+    "notes": "MOST TIME-CRITICAL UNKNOWN IN THIS ARCHIVE. Once a record is destroyed under a lawful schedule the RTI reply is a truthful 'not available' and that is the end of it. No number is asserted here because none was established. The schedule is itself a record and can be requested.",
+    "volatility": "high"
+  },
+  {
+    "id": "RET-005",
+    "jurisdiction": "all",
+    "category": "retention",
+    "claim": "The record retention period for Body-worn camera footage, and whether body-worn cameras were in use at all.",
+    "confidence": "UNKNOWN",
+    "sources": [],
+    "notes": "MOST TIME-CRITICAL UNKNOWN IN THIS ARCHIVE. Once a record is destroyed under a lawful schedule the RTI reply is a truthful 'not available' and that is the end of it. No number is asserted here because none was established. The schedule is itself a record and can be requested.",
+    "volatility": "high"
+  },
+  {
+    "id": "RET-006",
+    "jurisdiction": "delhi",
+    "category": "retention",
+    "claim": "What 'the SOP in place' means in the Delhi High Court's preservation direction, and what it covers.",
+    "confidence": "UNKNOWN",
+    "sources": [],
+    "notes": "The order refers to it. The archive should hold it. It also determines what was actually required to be preserved.",
+    "volatility": "high"
+  },
+  {
+    "id": "RET-007",
+    "jurisdiction": "bihar",
+    "category": "retention",
+    "claim": "Whether any preservation order, from any source, exists for the Patna, Katihar or Munger incidents.",
+    "confidence": "UNKNOWN",
+    "sources": [],
+    "notes": "None found. This is why Bihar is the deadline-critical jurisdiction while Delhi's clock is judicially interrupted.",
+    "volatility": "high"
+  },
+  {
+    "id": "PUB-DEL-001",
+    "jurisdiction": "delhi",
+    "category": "existing_documentation",
+    "claim": "Published item documenting the Delhi incident: NHRC suo motu cognisance, order of 25 July, notice to the Commissioner of Police",
+    "confidence": "REPORTED",
+    "sources": [
+      {
+        "url": "https://www.barandbench.com/news/litigation/nhrc-takes-suo-motu-cognisance-of-delhi-police-excesses-during-jantar-mantar-protests",
+        "source_type": "secondary",
+        "publication": "Bar & Bench",
+        "retrieved_on": "2026-08-16"
+      }
+    ],
+    "notes": null,
+    "volatility": "low"
+  },
+  {
+    "id": "PUB-DEL-002",
+    "jurisdiction": "delhi",
+    "category": "existing_documentation",
+    "claim": "Published item documenting the Delhi incident: Delhi High Court notice on two PILs concerning 20 and 21 July, and the CCTV preservation direction",
+    "confidence": "REPORTED",
+    "sources": [
+      {
+        "url": "https://www.barandbench.com/news/litigation/not-an-isolated-incident-file-your-response-preserve-cctv-footage-delhi-hc-to-police-on-excesses-against-jantar-mantar-protestors",
+        "source_type": "secondary",
+        "publication": "Bar & Bench",
+        "retrieved_on": "2026-08-16"
+      }
+    ],
+    "notes": null,
+    "volatility": "low"
+  },
+  {
+    "id": "PUB-DEL-003",
+    "jurisdiction": "delhi",
+    "category": "existing_documentation",
+    "claim": "Published item documenting the Delhi incident: Cause title W.P.(CRL.) 2127/2026, bench composition, four-week counter affidavit, listing for 11 September, and the court's observation on BNSS s.173 preliminary inquiry",
+    "confidence": "REPORTED",
+    "sources": [
+      {
+        "url": "https://www.verdictum.in/delhi-high-court/jantar-mantar-seeks-union-delhi-police-reply-on-police-action-against-protesters-1618289",
+        "source_type": "secondary",
+        "publication": "Verdictum",
+        "retrieved_on": "2026-08-16"
+      }
+    ],
+    "notes": null,
+    "volatility": "low"
+  },
+  {
+    "id": "PUB-DEL-004",
+    "jurisdiction": "delhi",
+    "category": "existing_documentation",
+    "claim": "Published item documenting the Delhi incident: The High Court viewing petitioner videos; a senior advocate's submission; the Supreme Court declining urgent listing the same day",
+    "confidence": "REPORTED",
+    "sources": [
+      {
+        "url": "https://www.theweek.in/news/india/2026/07/22/why-delhi-hc-asked-police-to-keep-video-evidence-of-cjp-protest-not-isolated-incidents.html",
+        "source_type": "secondary",
+        "publication": "The Week",
+        "retrieved_on": "2026-08-16"
+      }
+    ],
+    "notes": null,
+    "volatility": "low"
+  },
+  {
+    "id": "PUB-DEL-005",
+    "jurisdiction": "delhi",
+    "category": "existing_documentation",
+    "claim": "Published item documenting the Delhi incident: The 22 July clashes, tear gas and lathi charge. Author Ajith Athrady, 22 July 2026",
+    "confidence": "REPORTED",
+    "sources": [
+      {
+        "url": "https://www.deccanherald.com/india/delhi/fresh-chaos-erupts-at-jantar-mantar-as-protestors-police-clash-4083673",
+        "source_type": "secondary",
+        "publication": "Deccan Herald",
+        "retrieved_on": "2026-08-16"
+      }
+    ],
+    "notes": null,
+    "volatility": "low"
+  },
+  {
+    "id": "PUB-DEL-006",
+    "jurisdiction": "delhi",
+    "category": "existing_documentation",
+    "claim": "Published item documenting the Delhi incident: Supreme Court proceedings and the petitions' allegations; listing for 3 August 2026; SCC OnLine citation",
+    "confidence": "REPORTED",
+    "sources": [
+      {
+        "url": "https://www.scconline.com/blog/post/2026/07/29/neet-paper-leak-protest-proceedings-sc-interim-directions-police-violence/",
+        "source_type": "secondary",
+        "publication": "SCC Online blog",
+        "retrieved_on": "2026-08-16"
+      }
+    ],
+    "notes": null,
+    "volatility": "low"
+  },
+  {
+    "id": "PUB-DEL-007",
+    "jurisdiction": "delhi",
+    "category": "existing_documentation",
+    "claim": "Published item documenting the Delhi incident: NHRC two-week report deadline and the protest chronology from June. Author Gauri Deekonda, 28 July 2026",
+    "confidence": "REPORTED",
+    "sources": [
+      {
+        "url": "https://www.freepressjournal.in/education/nhrc-takes-cognisance-of-delhi-police-action-during-jantar-mantar-student-protest-seeks-report-within-two-weeks",
+        "source_type": "secondary",
+        "publication": "Free Press Journal",
+        "retrieved_on": "2026-08-16"
+      }
+    ],
+    "notes": null,
+    "volatility": "low"
+  },
+  {
+    "id": "PUB-DEL-008",
+    "jurisdiction": "delhi",
+    "category": "existing_documentation",
+    "claim": "Published item documenting the Delhi incident: NHRC order of 25 July, sourced to a report published by The Hindu on 20 July",
+    "confidence": "REPORTED",
+    "sources": [
+      {
+        "url": "https://indialegallive.com/constitutional-law-news/courts-news/nhrc-takes-suo-motu-cognisance-of-alleged-police-excess-during-cjp-protest-seeks-report-from-delhi-police/",
+        "source_type": "secondary",
+        "publication": "India Legal",
+        "retrieved_on": "2026-08-16"
+      }
+    ],
+    "notes": null,
+    "volatility": "low"
+  },
+  {
+    "id": "PUB-DEL-009",
+    "jurisdiction": "delhi",
+    "category": "existing_documentation",
+    "claim": "Published item documenting the Delhi incident: The Vashisht NHRC complaint and its specific prayers, 22 July 2026",
+    "confidence": "REPORTED",
+    "sources": [
+      {
+        "url": "https://www.indiasnews.net/news/279202613/complaint-filed-with-nhrc-seeking-independent-inquiry-into-police-action-at-jantar-mantar",
+        "source_type": "secondary",
+        "publication": "ANI via IndiasNews",
+        "retrieved_on": "2026-08-16"
+      }
+    ],
+    "notes": null,
+    "volatility": "low"
+  },
+  {
+    "id": "PUB-DEL-010",
+    "jurisdiction": "delhi",
+    "category": "existing_documentation",
+    "claim": "Opinion piece recording that a video showed an Additional DCP slapping a woman protester and that he was removed from duty at Jantar Mantar after the footage was placed before the Delhi High Court.",
+    "confidence": "REPORTED",
+    "sources": [
+      {
+        "url": "https://www.thenewsminute.com/opinion/the-watchdog-that-chose-to-wait-nhrcs-delay-as-jantar-mantar-protesters-were-assaulted",
+        "source_type": "secondary",
+        "publication": "The News Minute",
+        "retrieved_on": "2026-08-16"
+      }
+    ],
+    "notes": "Opinion genre. The factual assertions within it are single-sourced and should be corroborated before use.",
+    "volatility": "low"
+  },
+  {
+    "id": "PUB-DEL-011",
+    "jurisdiction": "delhi",
+    "category": "existing_documentation",
+    "claim": "Commentary recording that the Education Minister resigned on the afternoon of 25 July 2026.",
+    "confidence": "REPORTED",
+    "sources": [
+      {
+        "url": "https://countercurrents.org/2026/07/brutality-and-accountability-of-the-excessive-force-used-by-delhi-police-at-jantar-mantar/",
+        "source_type": "secondary",
+        "publication": "Countercurrents, author S.R. Darapuri",
+        "retrieved_on": "2026-08-16"
+      }
+    ],
+    "notes": "Commentary genre.",
+    "volatility": "low"
+  },
+  {
+    "id": "PUB-DEL-012",
+    "jurisdiction": "delhi",
+    "category": "existing_documentation",
+    "claim": "Wikipedia article aggregating a chronology of the Delhi protests with citations.",
+    "confidence": "UNVERIFIED",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/2026_Delhi_Jantar_Mantar_protests",
+        "source_type": "tertiary",
+        "publication": "Wikipedia",
+        "retrieved_on": "2026-08-16"
+      }
+    ],
+    "notes": "USE AS A CITATION INDEX ONLY, NEVER AS A SOURCE. Some content reads as unstable. The organisation name it gives must be confirmed against primary filings before it enters the archive as a proper noun.",
+    "volatility": "high"
+  },
+  {
+    "id": "PUB-DEL-013",
+    "jurisdiction": "delhi",
+    "category": "existing_documentation",
+    "claim": "A website self-describing as an independent public record of posts documenting events at Jantar Mantar on 20 July 2026.",
+    "confidence": "UNVERIFIED",
+    "sources": [
+      {
+        "url": "https://delhi-police-violence.vercel.app/",
+        "source_type": "secondary",
+        "publication": null,
+        "retrieved_on": "2026-08-16"
+      }
+    ],
+    "notes": "Operator unknown, verification method unknown, durability unknown. Anonymous. Listed because it exists, flagged because nothing about its provenance is established.",
+    "volatility": "high"
+  },
+  {
+    "id": "PUB-DEL-014",
+    "jurisdiction": "delhi",
+    "category": "existing_documentation",
+    "claim": "The report published by The Hindu on 20 July 2026 on which the NHRC founded its suo motu cognisance.",
+    "confidence": "UNKNOWN",
+    "sources": [],
+    "notes": "HIGHEST-PRIORITY MISSING ITEM IN THE ARCHIVE. Three separate outlets attribute the NHRC's cognisance to it. Not located.",
+    "volatility": "low"
+  },
+  {
+    "id": "PUB-DEL-015",
+    "jurisdiction": "delhi",
+    "category": "existing_documentation",
+    "claim": "Any fact-finding report by any civil society organisation on the Delhi incident.",
+    "confidence": "UNKNOWN",
+    "sources": [],
+    "notes": "Searched, none found. Absence of a search result is not evidence that none exists.",
+    "volatility": "low"
+  },
+  {
+    "id": "PUB-DEL-016",
+    "jurisdiction": "delhi",
+    "category": "existing_documentation",
+    "claim": "Any primary video, as opposed to secondary compilation, of the Delhi incident.",
+    "confidence": "UNKNOWN",
+    "sources": [],
+    "notes": "Two YouTube items were located but both appear to be secondary compilations.",
+    "volatility": "low"
+  },
+  {
+    "id": "PUB-BIH-001",
+    "jurisdiction": "bihar",
+    "category": "existing_documentation",
+    "claim": "Published item documenting a Bihar incident: Water cannon, tear gas and lathi charge at JP Golambar, Patna, 22 July; links the Patna action to Delhi; records a civil rights organisation's condemnation",
+    "confidence": "REPORTED",
+    "sources": [
+      {
+        "url": "https://www.thequint.com/news/breaking-news/bihar-student-protests-lathi-charge-patna-police-response",
+        "source_type": "secondary",
+        "publication": "The Quint",
+        "retrieved_on": "2026-08-16"
+      }
+    ],
+    "notes": null,
+    "volatility": "low"
+  },
+  {
+    "id": "PUB-BIH-002",
+    "jurisdiction": "bihar",
+    "category": "existing_documentation",
+    "claim": "Published item documenting a Bihar incident: Katihar lathi charge and stone pelting; protests in Patna and Munger; the Collectorate premises turned into a high-security zone; authorities identifying those involved. Author Arushi Jaiswal, 23 July 2026",
+    "confidence": "REPORTED",
+    "sources": [
+      {
+        "url": "https://www.indiatvnews.com/bihar/news-bihar-students-protest-turns-violent-in-katihar-patna-munger-police-lathicharge-protesters-hurl-stones-latest-updates-2026-07-23-1049145",
+        "source_type": "secondary",
+        "publication": "India TV",
+        "retrieved_on": "2026-08-16"
+      }
+    ],
+    "notes": null,
+    "volatility": "low"
+  },
+  {
+    "id": "PUB-BIH-003",
+    "jurisdiction": "bihar",
+    "category": "existing_documentation",
+    "claim": "Published item documenting a Bihar incident: Bihar Bandh; lathi charge at Dakbungalow Square, Patna; 17 detained. 25 July 2026",
+    "confidence": "REPORTED",
+    "sources": [
+      {
+        "url": "https://www.theweek.in/news/india/2026/07/25/bihar-bandh-police-lathi-charge-student-protesters-in-patna-17-detained-as-demonstrators-break-barricades-pelt-stones.html",
+        "source_type": "secondary",
+        "publication": "The Week",
+        "retrieved_on": "2026-08-16"
+      }
+    ],
+    "notes": null,
+    "volatility": "low"
+  },
+  {
+    "id": "PUB-BIH-004",
+    "jurisdiction": "bihar",
+    "category": "existing_documentation",
+    "claim": "Published item documenting a Bihar incident: Bihar Assembly Monsoon Session opening on the police action; a BJP MLA's allegation of a life-threatening attack. 23 July 2026",
+    "confidence": "REPORTED",
+    "sources": [
+      {
+        "url": "https://www.thestatesman.com/cities/bihar-assembly-uproar-patna-student-protest-police-lathi-charge-paper-leak-1503619829.html",
+        "source_type": "secondary",
+        "publication": "The Statesman",
+        "retrieved_on": "2026-08-16"
+      }
+    ],
+    "notes": null,
+    "volatility": "low"
+  },
+  {
+    "id": "PUB-BIH-005",
+    "jurisdiction": "bihar",
+    "category": "existing_documentation",
+    "claim": "Any video, legal filing, or fact-finding report on any of the four Bihar incidents; any NHRC or SHRC cognisance; any High Court proceeding.",
+    "confidence": "UNKNOWN",
+    "sources": [],
+    "notes": "Searched, none found in any category. ARCHIVE SIGNIFICANCE: the asymmetry with Delhi is itself a finding. Same week, same nationwide agitation, and one jurisdiction has produced a judicial preservation order and a national commission's suo motu notice while the other appears to have produced neither.",
+    "volatility": "low"
+  },
+  {
+    "id": "PUB-MAH-001",
+    "jurisdiction": "maharashtra",
+    "category": "existing_documentation",
+    "claim": "Any public documentation of a Maharashtra incident.",
+    "confidence": "UNKNOWN",
+    "sources": [],
+    "notes": "The only pointer is that a Supreme Court petition records disturbances spreading to Maharashtra among other states, without city, date or described police action.",
+    "volatility": "low"
+  },
+  {
+    "id": "PREC-001",
+    "jurisdiction": "external",
+    "category": "precedent",
+    "claim": "Bellingcat and Forensic Architecture identified, verified and archived over 1,000 incidents of police violence against protesters across the United States since May 2020, visualised using TimeMap, a Forensic Architecture platform mapping incidents in space and time. They limited the published dataset to media already having at least 5,000 views, so as not to amplify imagery that had not been widely seen.",
+    "confidence": "VERIFIED",
+    "sources": [
+      {
+        "url": "https://www.bellingcat.com/news/americas/2020/10/29/a-new-platform-maps-us-police-violence-against-protesters/",
+        "source_type": "primary",
+        "publication": "Bellingcat",
+        "retrieved_on": "2026-08-16"
+      }
+    ],
+    "notes": "TRANSFERABLE: the 5,000-view threshold is a deliberately adopted ethics constraint, directly applicable to this archive's amplification problem.",
+    "volatility": "low"
+  },
+  {
+    "id": "PREC-002",
+    "jurisdiction": "external",
+    "category": "precedent",
+    "claim": "Method used with Cerosetenta in Colombia: geolocation and chronolocation of protest video, establishing where and when a video was taken to give it evidentiary power, including by finding other videos of the same event and building a time sequence, then archiving all video after verification.",
+    "confidence": "VERIFIED",
+    "sources": [
+      {
+        "url": "https://gijn.org/stories/how-bellingcat-and-forensic-architecture-teamed-up-with-colombias-cerosetenta-to-map-police-violence/",
+        "source_type": "primary",
+        "publication": "GIJN",
+        "retrieved_on": "2026-08-16"
+      }
+    ],
+    "notes": "Depends on volume of citizen footage.",
+    "volatility": "low"
+  },
+  {
+    "id": "PREC-003",
+    "jurisdiction": "india",
+    "category": "precedent",
+    "claim": "The Polis Project tracked 15 custodial death cases in India and reported two operational obstacles: court documents are not easily available on online government portals, being either not uploaded or not accessible; and victims' names are spelt differently across English-language news reports, which makes tracking hard. They also reflect on working on a politically charged project in an environment where holding the State accountable has become dangerous and difficult.",
+    "confidence": "VERIFIED",
+    "sources": [
+      {
+        "url": "https://thepolisproject.com/research/documenting-custodial-violence-reflections-and-further-research-5/",
+        "source_type": "primary",
+        "publication": "The Polis Project",
+        "retrieved_on": "2026-08-16"
+      }
+    ],
+    "notes": "BUILD INTO DESIGN NOW: expect holes in the eCourts route and design for absence rather than treating it as failure. Search multiple transliterations of every name, especially in Bihar.",
+    "volatility": "low"
+  },
+  {
+    "id": "PREC-004",
+    "jurisdiction": "india",
+    "category": "precedent",
+    "claim": "The DOTO Database is a common documentation platform for civil society to report hate crime incidents across India, documenting verifiable incidents of targeted violence as reported in English and Urdu media as well as fact-finding and civil society reports, combining crowd-sourcing with its own investigative and editorial teams.",
+    "confidence": "REPORTED",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/DOTO_Database",
+        "source_type": "tertiary",
+        "publication": "Wikipedia",
+        "retrieved_on": "2026-08-16"
+      }
+    ],
+    "notes": "Tertiary source. What pressure it has faced is UNKNOWN.",
+    "volatility": "low"
+  },
+  {
+    "id": "PREC-005",
+    "jurisdiction": "india",
+    "category": "precedent",
+    "claim": "Status of Policing in India Report 2025, Common Cause and CSDS, on police torture and accountability. Survey-based with an explicit methodological note on social desirability bias.",
+    "confidence": "VERIFIED",
+    "sources": [
+      {
+        "url": "https://www.commoncause.in/wotadmin/upload/SPIR_2025.pdf",
+        "source_type": "primary",
+        "publication": "Common Cause and CSDS",
+        "retrieved_on": "2026-08-16"
+      }
+    ],
+    "notes": "Not a primary-document archive, but the closest systematic Indian evidence base, and its bibliography is a route to earlier fact-finding.",
+    "volatility": "low"
+  },
+  {
+    "id": "PREC-006",
+    "jurisdiction": "india",
+    "category": "precedent",
+    "claim": "Moyukh Chatterjee, 'Archives as the Infrastructure of Anti-Muslim Violence in India' (2023), a reading of over 100 police First Information Reports from the 2002 Gujarat pogrom, proposing a compositional approach to legal archives of violence.",
+    "confidence": "VERIFIED",
+    "sources": [
+      {
+        "url": "https://journals.sagepub.com/doi/abs/10.1177/00699659231208696",
+        "source_type": "primary",
+        "publication": "Sage",
+        "retrieved_on": "2026-08-16"
+      }
+    ],
+    "notes": "Paywalled. Academic rather than operational, but directly on what an FIR archive can and cannot show.",
+    "volatility": "low"
+  },
+  {
+    "id": "PREC-007",
+    "jurisdiction": "india",
+    "category": "precedent",
+    "claim": "Any documented instance of an Indian accountability archive facing a takedown notice, defamation suit, criminal complaint, or source exposure.",
+    "confidence": "UNKNOWN",
+    "sources": [],
+    "notes": "Only the Polis Project's general reflection at PREC-003 was found, and that is a reflection rather than an account of a particular incident. Treat the absence as a failure to find, not as evidence that it has not happened.",
+    "volatility": "low"
+  }
+]

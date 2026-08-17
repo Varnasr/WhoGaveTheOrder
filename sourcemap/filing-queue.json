@@ -1,0 +1,216 @@
+[
+  {
+    "id": "FQ-001",
+    "sequence": 1,
+    "deadline_driven": true,
+    "jurisdiction": "bihar",
+    "action": "Written preservation representation identifying date, location and time window, requesting that control-room logs, wireless logs, CCTV and any body-worn footage be preserved pending disposal of an RTI application.",
+    "authority": "SSP Patna; SP Katihar; SP Munger. Three separate representations.",
+    "method": "Speed post to each office, retaining proof of despatch.",
+    "cost": "Postage only",
+    "legal_basis": "Not a statutory instrument. A representation puts the authority on notice; destruction after notice is itself a documentable fact.",
+    "exposure_risk": false,
+    "notes": "MOST URGENT ITEM. No court is seized of the Bihar incidents. Nothing currently interrupts any retention schedule.",
+    "resolves": [
+      "OQ-002"
+    ]
+  },
+  {
+    "id": "FQ-002",
+    "sequence": 2,
+    "deadline_driven": true,
+    "jurisdiction": "bihar",
+    "action": "RTI seeking the record retention schedule itself, separately from any substantive request.",
+    "authority": "Same three offices.",
+    "method": "jaankari.bihar.gov.in where the office is enrolled, otherwise post.",
+    "cost": "Rs 10 each, subject to OQ-007",
+    "legal_basis": "s.6(1) RTI Act.",
+    "exposure_risk": false,
+    "notes": "The schedule is a record. This converts an assumption into a citable fact, and may reveal more time than feared.",
+    "resolves": [
+      "OQ-002",
+      "OQ-007"
+    ]
+  },
+  {
+    "id": "FQ-003",
+    "sequence": 3,
+    "deadline_driven": true,
+    "jurisdiction": "delhi",
+    "action": "RTI seeking the 'SOP in place' referred to in the Delhi High Court's preservation direction.",
+    "authority": "Delhi Police via the Ministry of Home Affairs.",
+    "method": "rtionline.gov.in",
+    "cost": "Rs 10",
+    "legal_basis": "s.6(1) RTI Act.",
+    "exposure_risk": false,
+    "notes": "The order refers to it; the archive should hold it.",
+    "resolves": [
+      "OQ-003"
+    ]
+  },
+  {
+    "id": "FQ-004",
+    "sequence": 4,
+    "deadline_driven": true,
+    "jurisdiction": "delhi",
+    "action": "Retrieve the Delhi High Court order in W.P.(CRL.) 2127/2026 from the court's own site.",
+    "authority": "Delhi High Court",
+    "method": "delhihighcourt.nic.in case status and orders",
+    "cost": "Free",
+    "legal_basis": "Published court record.",
+    "exposure_risk": false,
+    "notes": "Everything currently held on this proceeding is secondary reporting.",
+    "resolves": [
+      "OQ-004"
+    ]
+  },
+  {
+    "id": "FQ-005",
+    "sequence": 5,
+    "deadline_driven": false,
+    "jurisdiction": "all",
+    "action": "Retrieve s.4(1)(b) proactive disclosure manuals for every authority in the document custody category, to establish PIO designations.",
+    "authority": "Delhi Police; MHA; Bihar Police; district administrations of Patna, Katihar, Munger.",
+    "method": "Each authority's own website. No application needed.",
+    "cost": "Free",
+    "legal_basis": "s.4(1)(b) RTI Act, which requires publication.",
+    "exposure_risk": false,
+    "notes": "Unblocks the entire custody section. Do nothing else in that section until this is done.",
+    "resolves": [
+      "OQ-006"
+    ]
+  },
+  {
+    "id": "FQ-006",
+    "sequence": 6,
+    "deadline_driven": false,
+    "jurisdiction": "delhi",
+    "action": "RTI for the general diary entry at Parliament Street police station for 20 July 2026, naming the station, the date and the recorded fact.",
+    "authority": "Delhi Police via MHA.",
+    "method": "rtionline.gov.in",
+    "cost": "Rs 10",
+    "legal_basis": "s.6(1) RTI Act.",
+    "exposure_risk": false,
+    "notes": "Well-targeted because the entry is already publicly referenced, though only via a tertiary source. Trace the underlying citation first.",
+    "resolves": [
+      "CUS-002A"
+    ]
+  },
+  {
+    "id": "FQ-007",
+    "sequence": 7,
+    "deadline_driven": false,
+    "jurisdiction": "delhi",
+    "action": "Application to inspect, or for a certified copy of, the State's counter affidavit in W.P.(CRL.) 2127/2026.",
+    "authority": "Delhi High Court Registry.",
+    "method": "Registry, through an advocate on record or by application.",
+    "cost": "Per-page certified copy fee, UNKNOWN pending OQ-018",
+    "legal_basis": "Court Registry rules.",
+    "exposure_risk": false,
+    "notes": "TIMING: the affidavit was due four weeks from the late-July order, so late August. The matter is listed 11 September. File between those dates.",
+    "resolves": [
+      "CRT-009",
+      "OQ-018"
+    ]
+  },
+  {
+    "id": "FQ-008",
+    "sequence": 8,
+    "deadline_driven": false,
+    "jurisdiction": "all",
+    "action": "HRCNet public complaint search for the NHRC suo motu proceeding and the Vashisht complaint, to obtain diary or case numbers.",
+    "authority": "NHRC via HRCNet.",
+    "method": "hrcnet.nic.in public search",
+    "cost": "Free",
+    "legal_basis": "Published case status.",
+    "exposure_risk": false,
+    "notes": "Gives the archive a citable handle for a pending case.",
+    "resolves": [
+      "OQ-021"
+    ]
+  },
+  {
+    "id": "FQ-009",
+    "sequence": 9,
+    "deadline_driven": false,
+    "jurisdiction": "bihar",
+    "action": "Retrieve FIRs for the Patna, Katihar and Munger incidents.",
+    "authority": "State Crime Records Bureau, Bihar.",
+    "method": "scrb.bihar.gov.in/View_FIR.aspx",
+    "cost": "Free",
+    "legal_basis": "Published under Supreme Court and High Court orders per the SCRB's own statement.",
+    "exposure_risk": false,
+    "notes": "Portal copies are REPORTED, not VERIFIED. Certified copies must come from the district or unit. Search multiple transliterations.",
+    "resolves": [
+      "CRT-003",
+      "OQ-020"
+    ]
+  },
+  {
+    "id": "FQ-010",
+    "sequence": 10,
+    "deadline_driven": false,
+    "jurisdiction": "all",
+    "action": "RTI to each District Magistrate asking whether a magisterial inquiry was ordered, and if so for the order and findings.",
+    "authority": "DM Patna; DM Katihar; DM Munger; and the Delhi equivalent once OQ-006 resolves.",
+    "method": "Jaankari or post for Bihar; rtionline.gov.in for Delhi.",
+    "cost": "Rs 10 each",
+    "legal_basis": "s.6(1) RTI Act.",
+    "exposure_risk": false,
+    "notes": "Do not presume an inquiry exists. A negative answer is a finding worth recording.",
+    "resolves": [
+      "OQ-030"
+    ]
+  },
+  {
+    "id": "FQ-011",
+    "sequence": 11,
+    "deadline_driven": false,
+    "jurisdiction": "all",
+    "action": "RTI for deployment orders, force requisitions under BNSS s.149, and any written authorisation by the District Magistrate of another Executive Magistrate.",
+    "authority": "Per OQ-006.",
+    "method": "Per jurisdiction. Maharashtra applications must be split one subject per application, 150 words.",
+    "cost": "Rs 10 each",
+    "legal_basis": "s.6(1) RTI Act.",
+    "exposure_risk": false,
+    "notes": "BNSS s.149 as amended requires a named office acting on written authorisation. That authorisation is a discrete document. Ask for it by name.",
+    "resolves": [
+      "LAW-BNSS-003",
+      "CUS-001"
+    ]
+  },
+  {
+    "id": "FQ-012",
+    "sequence": 12,
+    "deadline_driven": false,
+    "jurisdiction": "all",
+    "action": "Table a legislature question through a sitting member.",
+    "authority": "Lok Sabha or Rajya Sabha for Delhi; Bihar Vidhan Sabha for Bihar.",
+    "method": "Through a member. Procedure per each House's Rules of Procedure.",
+    "cost": "Free to the requester",
+    "legal_basis": "House Rules of Procedure.",
+    "exposure_risk": false,
+    "notes": "No citizenship gate, so this route stays open in all four filer scenarios. The Bihar Assembly is already seized of the subject. Blocked on OQ-023.",
+    "resolves": [
+      "LEG-007",
+      "OQ-023"
+    ]
+  },
+  {
+    "id": "FQ-013",
+    "sequence": 0,
+    "deadline_driven": false,
+    "jurisdiction": "all",
+    "action": "Retrieve an authoritative text of the Right to Information Act 2005 and record the URL actually fetched, to restore RTI-ACT-001 and RTI-ACT-002 to VERIFIED.",
+    "authority": "India Code. If India Code cannot serve the Act, the alternative official publisher is UNKNOWN and becomes an open question rather than a guess.",
+    "method": "indiacode.nic.in, navigating from its Central Acts listing. Do not reconstruct a bitstream path by editing the one that failed.",
+    "cost": "Free",
+    "legal_basis": "Published primary legislation. Not an application.",
+    "exposure_risk": false,
+    "notes": "SEQUENCE 0 so this precedes FQ-001 without renumbering the queue. Every deadline in this queue is computed from RTI Act timelines that are currently UNVERIFIED: s.7(1) thirty days, the s.7(1) proviso forty-eight hours, s.7(7) with s.11 forty days, the s.5(2) proviso thirty-five days, s.19(1) and s.19(3) appeal windows, and s.7(2) deemed refusal. The previously recorded URL https://www.indiacode.nic.in/bitstream/123456789/2013/1/A2005-22.pdf was fetched on 16 August 2026 and returned HTTP 302 to a page titled 'India Code: Invalid URL or Argument(s)' containing no text of the Act. That failure is itself recorded rather than papered over. Free, needs no application, and blocks nothing while it is done.",
+    "resolves": [
+      "RTI-ACT-001",
+      "RTI-ACT-002"
+    ]
+  }
+]

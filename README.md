@@ -101,6 +101,35 @@ whogavetheorder/
 └── *.html
 ```
 
+### The source map, and the editorial mapping
+
+`sourcemap/` holds the round-1 research: 136 evidence items, 30 open questions, 13 filing tasks,
+its own `CLAUDE.md` rules file, and `validate.py`. `import.py` routes it into the site.
+
+The import is **not** a flat dump. The 136 items are three different kinds of record and only one is
+evidence about the incidents:
+
+| | | |
+|---|---|---|
+| 32 | about the incidents | incidents, evidence, external index |
+| 75 | how to obtain documents | `SOURCING.md`, not the evidence library |
+| 29 | the legal framework | the offices' `statutoryBasis` |
+
+**Which provision binds which office is a reading, not a lookup.** `OFFICE_FRAMEWORK` in
+`import.py` carries the assignment and, for each one, the reason. Two rules govern it: a provision
+goes to the office the provision itself names or empowers, and a commissionerate is not a district —
+the Commissioner concentrates powers that a district splits between the DM and the SP. The chain
+page shows the reasoning rather than hiding it.
+
+`PREC-*` records are excluded from that mapping on purpose: they document how other archives were
+built, which is methodology, not the statutory basis of an office.
+
+Re-run after editing `sourcemap/*.json`:
+
+```bash
+python3 whogavetheorder/sourcemap/import.py
+```
+
 ### Explaining the archive
 
 Comprehension is handled in three layers rather than one tour:

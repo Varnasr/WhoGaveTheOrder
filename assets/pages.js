@@ -20,55 +20,157 @@
   pages.home = function () {
     var counts = model.counts();
 
-    /* The three-column fact frame — the defining device of the brand.
-       Each column reports a real count. Before launch, two of them read zero,
-       and that is the honest state of the archive. */
+    /* The hero states, in plain language, what this site is about — using the
+       archive's own records rather than a hand-written summary, so the front
+       page cannot drift from what the data actually says. Each line carries the
+       state of the record behind it. */
+    var lines = model.incidents.map(function (inc) {
+      if (inc.dateState === 'UNKNOWN' || !inc.date) { return null; }
+      return '<li>' +
+        '<span class="hero__fact">Police used force against students at <strong>' +
+        ui.esc(inc.place) + '</strong> on <strong>' + ui.esc(inc.date) + '</strong>.</span> ' +
+        ui.chip(inc.dateState) +
+      '</li>';
+    }).filter(Boolean);
+
+    var orders = model.orders.length;
+
+    ui.mount('[data-region="hero-facts"]',
+      '<ul class="hero__list">' +
+        lines.join('') +
+        '<li><span class="hero__fact"><strong>' +
+          (orders ? orders + ' order' + (orders === 1 ? '' : 's') + ' located.' : 'No order authorising it has been located.') +
+        '</strong></span> ' + ui.chip(orders ? 'VERIFIED' : 'UNKNOWN') + '</li>' +
+      '</ul>' +
+      (lines.length === 0
+        ? '<p class="small" style="margin-top:0.75rem">No incident date has been established yet.</p>'
+        : ''));
+
+    ui.mount('[data-region="incident-cards"]',
+      model.incidents.map(ui.incidentCard).join(''));
+
+    ui.mount('[data-region="counts"]',
+      '<div><b>' + counts.evidence + '</b><span>Evidence items</span></div>' +
+      '<div><b>' + counts.sources + '</b><span>Sources</span></div>' +
+      '<div><b>' + counts.open + '</b><span>Open questions</span></div>' +
+      '<div><b>' + counts.orders + '</b><span>Orders located</span></div>' +
+      '<div><b>' + counts.responses + '</b><span>Official responses</span></div>');
+
+    ui.mount('[data-region="wanted"]',
+      WGO.WANTED.map(function (w) { return '<li>' + ui.plainChip(w) + '</li>'; }).join(''));
+
+    /* These regions only exist on pages that still carry them; ui.mount is a
+       no-op where the node is absent. */
     ui.mount('[data-region="frame"]',
       '<div class="frame__col">' +
         '<p class="kicker">What we know</p>' +
         '<span class="frame__count">' + counts.known + '</span>' +
         '<h3>Established facts</h3>' +
-        '<p>Statements supported by primary evidence held in this archive, each one click from its source.</p>' +
-        (counts.known === 0
-          ? '<p class="small" style="margin-top:0.75rem">Nothing established yet.</p>'
-          : '<a class="small" href="evidence.html">Read the evidence &rarr;</a>') +
+        '<p>Statements supported by primary evidence held in this archive.</p>' +
       '</div>' +
       '<div class="frame__col">' +
         '<p class="kicker">What we don\'t know</p>' +
         '<span class="frame__count">' + counts.open + '</span>' +
         '<h3>Open questions</h3>' +
-        '<p>Questions the documentary record does not answer. Each one names a document somebody could find.</p>' +
-        '<a class="small" href="investigations.html">See the open questions &rarr;</a>' +
+        '<p>Questions the documentary record does not answer.</p>' +
       '</div>' +
       '<div class="frame__col">' +
         '<p class="kicker">What the government says</p>' +
         '<span class="frame__count">' + counts.responses + '</span>' +
         '<h3>Official responses</h3>' +
         '<p>Statements, explanations and denials on the record, reproduced in full.</p>' +
-        (counts.responses === 0
-          ? '<p class="small" style="margin-top:0.75rem">None recorded yet. We will publish them as they are made.</p>'
-          : '<a class="small" href="response.html">Compare the accounts &rarr;</a>') +
       '</div>');
 
-    ui.mount('[data-region="incident-cards"]',
-      model.incidents.map(ui.incidentCard).join(''));
-
-    ui.mount('[data-region="counts"]',
-      '<div><b>' + counts.incidents + '</b><span>Incidents open</span></div>' +
-      '<div><b>' + counts.questions + '</b><span>Questions asked</span></div>' +
-      '<div><b>' + counts.answered + '</b><span>Answered</span></div>' +
-      '<div><b>' + counts.evidence + '</b><span>Evidence items</span></div>' +
-      '<div><b>' + counts.orders + '</b><span>Orders located</span></div>');
-
-    /* Evidence-state legend, generated from the taxonomy so the definitions on
-       the page can never fall out of step with the labels in the data. */
     ui.mount('[data-region="legend"]',
       Object.keys(WGO.EVIDENCE_STATES).map(function (key) {
         return '<div>' + ui.chip(key) + '<p>' + ui.esc(WGO.EVIDENCE_STATES[key].definition) + '</p></div>';
       }).join(''));
+  };
 
-    ui.mount('[data-region="wanted"]',
-      WGO.WANTED.map(function (w) { return '<li>' + ui.plainChip(w) + '</li>'; }).join(''));
+  /* ======================================================================= *
+     WALKTHROUGH — how to read the archive
+     ----------------------------------------------------------------------- *
+     Explains how to read the record. It does not explain what happened, and
+     must not start to: the archive holds documents and claim states, and a
+     walkthrough that drifted into narrative would break the site's one rule.
+     ======================================================================= */
+
+  var WALKTHROUGH_STEPS = [
+    { n: '01', id: 'step-1', title: 'This archive asks one question',
+      blurb: 'Who authorised the use of force. Not whether it happened, and not whether it was justified.' },
+    { n: '02', id: 'step-2', title: 'Most of it says UNKNOWN, and that is the finding',
+      blurb: 'Empty fields are a statement about the archive, not a page that failed to load.' },
+    { n: '03', id: 'step-3', title: 'Every statement carries one of six labels',
+      blurb: 'The six words that carry the site’s credibility, and what each one requires.' },
+    { n: '04', id: 'step-4', title: 'Holding an office is not evidence of giving an order',
+      blurb: 'Two claims the chain of command keeps apart, and why nobody is named.' },
+    { n: '05', id: 'step-5', title: 'Where every claim comes from',
+      blurb: 'Incident to claim to evidence to source. No page may skip a link.' },
+    { n: '06', id: 'step-6', title: 'What it does not establish matters as much',
+      blurb: 'Every record writes down its own limit. That is how an archive avoids overreaching.' },
+    { n: '07', id: 'step-7', title: 'Open questions, and the clock on each one',
+      blurb: 'The gap list, and what happens when a public office does not reply.' },
+    { n: '08', id: 'step-8', title: 'How to check our work',
+      blurb: 'Public integrity checks, a public edit history, and a correction route.' },
+    { n: '09', id: 'step-9', title: 'What you can do',
+      blurb: 'Send a document, file a request, or add your own published work.' }
+  ];
+
+  /* The three audiences, layered over the same nine steps rather than
+     duplicated into three explainers that would drift apart. */
+  var WALKTHROUGH_LANES = [
+    { key: 'visitor',  label: 'Just looking',        steps: ['step-1', 'step-2', 'step-3', 'step-4'] },
+    { key: 'holder',   label: 'I might have something', steps: ['step-2', 'step-6', 'step-7', 'step-9'] },
+    { key: 'reporter', label: 'Journalist or lawyer', steps: ['step-3', 'step-5', 'step-6', 'step-8'] }
+  ];
+
+  pages.walkthrough = function () {
+    ui.mount('[data-region="contents"]',
+      '<div class="grid grid--3">' + WALKTHROUGH_STEPS.map(function (s) {
+        return '<a class="card" href="#' + s.id + '" data-step="' + s.id + '">' +
+          '<p class="section-number">' + s.n + '</p>' +
+          '<h3 style="font-size:1rem;margin:0.3rem 0 0.3rem">' + ui.esc(s.title) + '</h3>' +
+          '<p class="small">' + ui.esc(s.blurb) + '</p>' +
+        '</a>';
+      }).join('') + '</div>');
+
+    ui.mount('[data-region="states"]',
+      Object.keys(WGO.EVIDENCE_STATES).map(function (key) {
+        return '<div>' + ui.chip(key) + '<p>' + ui.esc(WGO.EVIDENCE_STATES[key].definition) + '</p></div>';
+      }).join(''));
+
+    var lanes = document.querySelector('[data-region="lanes"]');
+    if (!lanes) { return; }
+    lanes.innerHTML = WALKTHROUGH_LANES.map(function (l) {
+      return '<button class="filter-chip" type="button" aria-pressed="false" data-lane="' + l.key + '">' +
+        ui.esc(l.label) + '</button>';
+    }).join('') +
+      '<button class="filter-chip" type="button" aria-pressed="true" data-lane="all">Everything</button>';
+
+    lanes.addEventListener('click', function (event) {
+      var btn = event.target.closest('.filter-chip');
+      if (!btn) { return; }
+      var lane = btn.getAttribute('data-lane');
+
+      Array.prototype.forEach.call(lanes.querySelectorAll('.filter-chip'), function (b) {
+        b.setAttribute('aria-pressed', b === btn ? 'true' : 'false');
+      });
+
+      var picked = lane === 'all'
+        ? null
+        : (WALKTHROUGH_LANES.filter(function (l) { return l.key === lane; })[0] || {}).steps;
+
+      /* Dim rather than hide: a reader following one lane can still see that
+         the other steps exist, and nothing becomes unreachable. */
+      Array.prototype.forEach.call(document.querySelectorAll('[data-step]'), function (card) {
+        var on = !picked || picked.indexOf(card.getAttribute('data-step')) !== -1;
+        card.style.opacity = on ? '' : '0.35';
+      });
+      WALKTHROUGH_STEPS.forEach(function (s) {
+        var el = document.getElementById(s.id);
+        if (el) { el.style.opacity = (!picked || picked.indexOf(s.id) !== -1) ? '' : '0.35'; }
+      });
+    });
   };
 
   /* ======================================================================= *
@@ -389,11 +491,30 @@
         '</div>' +
 
         '<h4>Statutory or administrative responsibility</h4>' +
-        (office.statutoryBasis && office.statutoryBasis.length
-          ? '<ul>' + office.statutoryBasis.map(function (basis) {
+        (function () {
+          /* Imported provisions first, each with the reason it was assigned to
+             this office. Assignment is a reading of the provision, not a
+             lookup, so the reasoning is shown rather than hidden. */
+          var imported = (WGO.importedOfficeBasis || {})[office.id] || [];
+          var hand = office.statutoryBasis || [];
+          if (!imported.length && !hand.length) {
+            return '<p class="small">Not mapped.</p>';
+          }
+          return '<ul>' +
+            imported.map(function (b) {
+              return '<li>' + ui.esc(b.text) +
+                '<div class="row" style="margin-top:0.35rem">' +
+                  ui.chip(b.confidence) + ui.idChip(b.frameworkId) + ui.sourceLine(b.sourceIds) +
+                '</div>' +
+                '<p class="small" style="margin-top:0.3rem"><em>Why this office:</em> ' +
+                  ui.esc(b.why) + '</p>' +
+              '</li>';
+            }).join('') +
+            hand.map(function (basis) {
               return '<li>' + ui.esc(basis.text) + ' ' + ui.sourceLine(basis.sourceIds) + '</li>';
-            }).join('') + '</ul>'
-          : '<p class="small">Not mapped.</p>') +
+            }).join('') +
+          '</ul>';
+        })() +
 
         '<h4>What we know</h4>' +
         (office.whatWeKnow && office.whatWeKnow.length

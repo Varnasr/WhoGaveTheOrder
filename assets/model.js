@@ -71,13 +71,22 @@
     model.orders    = (WGO.orders || []).slice();
     model.events    = (WGO.events || []).slice();
     model.claims    = (WGO.claims || []).slice();
-    model.questions = expandQuestions();
+    /* The source map's 30 prioritised questions replace the twelve-per-incident
+       standard set once imported: they are the same work, researched. */
+    model.questions = (WGO.importedQuestions || []).length
+      ? (WGO.importedQuestions || []).slice()
+      : expandQuestions();
 
-    /* Published pools — the real archive. */
-    model.publishedEvidence  = (WGO.evidence || []).slice();
-    model.publishedSources   = (WGO.sources || []).slice();
+    /* Published pools — the real archive.
+       Hand-entered records first, then anything imported from the source map.
+       The import never upgrades a state: a claim arrives at whatever confidence
+       the source map gave it. */
+    model.publishedEvidence  = (WGO.evidence || []).concat(WGO.importedEvidence || []);
+    model.publishedSources   = (WGO.sources || []).concat(WGO.importedSources || []);
     model.publishedResponses = (WGO.responses || []).slice();
-    model.publishedExternal  = (WGO.external || []).slice();
+    model.publishedExternal  = (WGO.external || []).concat(WGO.importedExternal || []);
+    model.framework          = (WGO.importedFramework || []).slice();
+    model.filings            = (WGO.importedFilings || []).slice();
 
     /* Display pools — published records, plus layout samples while demoMode is
        on. Counts always come from the published pools above. */
@@ -269,6 +278,9 @@
       incidents:   model.incidents.length,
       evidence:    model.publishedEvidence.length,
       rtis:        model.publishedRtis.length,
+      filings:     (model.filings || []).length,
+      filingsUrgent: (model.filings || []).filter(function (f) { return f.deadlineDriven; }).length,
+      framework:   (model.framework || []).length,
       rtisShown:   model.rtis.length,
       rtiOverdue:  rtiOverdue.length,
       rtiOverdueDaysTotal: rtiOverdue.reduce(function (sum, r) {

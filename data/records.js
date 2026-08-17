@@ -219,8 +219,11 @@ WGO.incidents = [
     state: 'Delhi',
     coords: [28.6270, 77.2166],           // Jantar Mantar, the protest site itself
     incidentState: 'UNDER_INVESTIGATION',
-    dateState: 'UNKNOWN',
-    date: null,
+    /* Dates and place established by the round-1 source map. Everything below
+       them remains UNKNOWN: that an incident occurred is corroborated, and
+       nothing about conduct, cause or proportionality follows from that. */
+    dateState: 'CORROBORATED',
+    date: '20 and 22 July 2026',
     summaryState: 'UNKNOWN',
     summary: null,
     forcesInvolved: { state: 'UNKNOWN', items: [] },
@@ -235,13 +238,13 @@ WGO.incidents = [
     id: 'INC-0002',
     slug: 'bihar',
     title: 'Police action against students in Bihar',
-    place: 'Bihar — specific location to be established',
+    place: 'JP Golambar and Dakbungalow Square, Patna; Katihar; Munger',
     state: 'Bihar',
-    coords: [25.5941, 85.1376],           // Patna, pending a located site
-    coordsState: 'UNKNOWN',
+    coords: [25.5941, 85.1376],           // Patna; Katihar and Munger not yet plotted
+    coordsState: 'REPORTED',
     incidentState: 'UNDER_INVESTIGATION',
-    dateState: 'UNKNOWN',
-    date: null,
+    dateState: 'REPORTED',
+    date: '22, 23 and 25 July 2026',
     summaryState: 'UNKNOWN',
     summary: null,
     forcesInvolved: { state: 'UNKNOWN', items: [] },
@@ -256,7 +259,7 @@ WGO.incidents = [
     id: 'INC-0003',
     slug: 'maharashtra',
     title: 'Police action against students in Maharashtra',
-    place: 'Maharashtra — specific location to be established',
+    place: 'Maharashtra — held open, no incident located',
     state: 'Maharashtra',
     coords: [19.0760, 72.8777],           // Mumbai, pending a located site
     coordsState: 'UNKNOWN',
