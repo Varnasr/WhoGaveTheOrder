@@ -4,22 +4,21 @@ A citizen-led public accountability platform. One question, asked systematically
 
 > When state power is used against citizens, who authorised it?
 
-**Stage:** Prototype · Its own repository as of 17 August 2026, split out of the
-`Varnasr/Experiments` sandbox with its history intact.
+**Stage:** Live · Own repository since 17 August 2026, split out of the `Varnasr/Experiments`
+sandbox with its history intact. Serves from whogavetheorder.netlify.app;
+`www.whogavetheorder.in` pending DNS delegation.
 
 ---
 
-## The one thing to understand about this build
+## The one thing to understand about this archive
 
-**It ships empty of factual assertions, on purpose.**
+**Nothing renders as a fact without a source, including in its own seed data.**
 
-The three investigations named in the brief — Jantar Mantar, Bihar, Maharashtra — exist as
-*shells*. The questions are populated, the chain of authority is mapped by statutory role, and
-every factual field reads `UNKNOWN`. No date, no injury figure, no named official, no evidence
-item has been entered, because none has been verified.
+Dates and locations are established for the Delhi and Bihar incidents and held open for
+Maharashtra. Beyond those, most factual fields still read `UNKNOWN`: no injury figure, no named
+official, and no order authorising the use of force has been found.
 
-That is not an unfinished seed to be tidied up before launch. It is the product working as
-designed. The brief's own rule (§23) is that the site must never manufacture certainty, and the
+That is not an unfinished seed to be tidied up. It is the product working as designed. The brief's own rule (§23) is that the site must never manufacture certainty, and the
 fastest way to violate it would have been to ship plausible-looking placeholder facts about real
 events. A claim without a source ID does not render as a fact anywhere on this site — including in
 its own seed data.
@@ -181,14 +180,16 @@ marker — fill the array.
 
 ---
 
-## Before launch
+## Outstanding
 
-- [ ] `data/taxonomy.js` → set `demoMode: false`. Samples disappear; nothing else changes.
-- [ ] `data/taxonomy.js` → set `archiveStage` away from `PRE-LAUNCH` once evidence is published.
-- [ ] `about.html` → fill in **who runs this project** and **funding**. Both currently render as
-      visible "to be completed" blocks, deliberately: an unfinished disclosure is better shown
-      than hidden.
-- [ ] Provision the three contact addresses, plus a postal address for legal service.
+- [x] `demoMode: false` — layout samples removed, 17 August 2026.
+- [x] `archiveStage: null` — the masthead now shows a live status line rather than a launch banner.
+- [x] `about.html` — who runs this project, and funding, both written.
+- [ ] Provision `evidence@`, `corrections@` and `legal@whogavetheorder.in`, plus a postal address
+      for legal service. **These are printed on the site and do not yet exist.**
+- [ ] Have a lawyer read the licence and privacy sections, and confirm whether accepting public
+      submissions brings this within India's intermediary rules and their grievance-officer
+      requirement.
 - [x] Netlify forms `wgo-evidence` and `wgo-demand` are registered, with email notifications
       routed to the project reviewer. The address is held in Netlify's site config and deliberately
       not in this repository. Submissions stay in Netlify, outside this repo, so unreviewed material

@@ -13,9 +13,10 @@ WGO.config = {
   siteName: 'WhoGaveTheOrder.in',
   question: 'When state power is used against citizens, who authorised it?',
 
-  /* Editorial state of the archive itself. Shown in the masthead notice bar so
-     no visitor mistakes an empty record for a finished one. */
-  archiveStage: 'PRE-LAUNCH',
+  /* Optional stage label for the masthead notice bar. Set to a string such as
+     'PRE-LAUNCH' to flag the archive's own state; null shows a plain status line
+     with the live counts instead. */
+  archiveStage: null,
 
   /* demoMode renders the layout-sample records so the interface can be reviewed
      before real evidence exists. Every sample is drawn with a SAMPLE ribbon and

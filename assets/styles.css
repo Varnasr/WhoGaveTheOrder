@@ -681,3 +681,17 @@ blockquote.official cite { display: block; margin-top: 0.4rem; font-family: var(
 .stat--zero span { color: var(--ink-2); font-weight: 700; }
 
 .hero .display { font-size: clamp(1.9rem, 8vw, 4rem); }
+
+/* --- Footer legal row ----------------------------------------------------- */
+
+.footer-legal-links {
+  list-style: none;
+  display: flex; flex-wrap: wrap; gap: 0.4rem 1rem;
+  margin-top: 0.85rem;
+}
+.footer-legal-links a { font-size: 0.8125rem; }
+.footer-privacy {
+  margin-top: 0.85rem; padding-top: 0.7rem;
+  border-top: 1px dotted var(--rule);
+  font-size: 0.8125rem;
+}

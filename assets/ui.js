@@ -208,21 +208,21 @@
        An archive that told visitors it was empty after evidence had been
        published would be making exactly the kind of unchecked claim the rest of
        the site refuses to make. */
-    var notice = '';
+    /* A live status line rather than a launch banner. It reports the archive's
+       actual counts, so it stays true as the archive fills up instead of going
+       stale the way a fixed "pre-launch" label does. */
     var counts = WGO.model.counts();
-    if (cfg.archiveStage === 'PRE-LAUNCH' || cfg.demoMode) {
-      notice =
-        '<div class="notice-bar"><div class="shell">' +
-          '<strong>' + ui.esc(cfg.archiveStage) + '</strong> — ' +
-          (counts.evidence
-            ? counts.evidence + ' evidence item' + (counts.evidence === 1 ? '' : 's') +
-              ' from ' + counts.sources + ' sources are on the record. ' +
-              counts.open + ' questions remain open. '
-            : 'no evidence has been published to this archive yet. ') +
-          (cfg.demoMode ? 'Records marked <em>sample</em> show the layout only. ' : '') +
-          'Every count on this site is a count of actual records.' +
-        '</div></div>';
-    }
+    var notice =
+      '<div class="notice-bar"><div class="shell">' +
+        (cfg.archiveStage ? '<strong>' + ui.esc(cfg.archiveStage) + '</strong> — ' : '') +
+        (counts.evidence
+          ? '<strong>' + counts.evidence + '</strong> document' + (counts.evidence === 1 ? '' : 's') +
+            ' from <strong>' + counts.sources + '</strong> sources on the record. ' +
+            '<strong>' + counts.open + '</strong> questions still open. ' +
+            '<strong>' + counts.orders + '</strong> orders found.'
+          : 'No documents have been published to this archive yet.') +
+        (cfg.demoMode ? ' Records marked <em>sample</em> show the layout only.' : '') +
+      '</div></div>';
 
     var header = document.querySelector('[data-chrome="masthead"]');
     if (header) {
@@ -281,6 +281,20 @@
           '</div>' +
           '<div class="site-footer__legal">' +
             '<p>Where the record does not answer a question, this site says so.</p>' +
+            '<ul class="footer-legal-links">' +
+              '<li><a href="about.html#who">Who runs this</a></li>' +
+              '<li><a href="about.html#privacy">Privacy</a></li>' +
+              '<li><a href="about.html#privacy">Takedown &amp; grievances</a></li>' +
+              '<li><a href="about.html#corrections">Corrections</a></li>' +
+              '<li><a href="about.html#licence">Reuse &amp; licence</a></li>' +
+              '<li><a href="about.html#standards">Verification standards</a></li>' +
+            '</ul>' +
+            /* Stated because it is true and checkable, not as a compliance
+               gesture. A cookie banner here would imply tracking that does
+               not exist. */
+            '<p class="footer-privacy">No cookies. No analytics. No trackers. ' +
+              'Nothing about your visit is stored or shared. ' +
+              '<a href="about.html#privacy">What the map page loads &rarr;</a></p>' +
             '<p style="margin-top:0.5rem">Record last reviewed ' + ui.esc(WGO.config.lastReviewed) + '.</p>' +
           '</div>' +
         '</div></footer>';
