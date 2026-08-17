@@ -19,7 +19,7 @@ map gave it and stays there. It does not invent establishes/doesNotEstablish
 text: where the source map has no basis for one, the field is left empty and the
 site renders 'Not recorded.'
 
-Run from the repo root:  python3 whogavetheorder/sourcemap/import.py
+Run from the repo root:  python3 sourcemap/import.py
 Writes: whogavetheorder/data/records.generated.js
 """
 

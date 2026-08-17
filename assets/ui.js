@@ -281,8 +281,7 @@
           '</div>' +
           '<div class="site-footer__legal">' +
             '<p>Where the record does not answer a question, this site says so.</p>' +
-            '<p style="margin-top:0.5rem">Record last reviewed ' + ui.esc(WGO.config.lastReviewed) + '. ' +
-            'Prototype built in the <a href="../">Experiments</a> sandbox.</p>' +
+            '<p style="margin-top:0.5rem">Record last reviewed ' + ui.esc(WGO.config.lastReviewed) + '.</p>' +
           '</div>' +
         '</div></footer>';
     }

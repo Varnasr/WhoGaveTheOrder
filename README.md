@@ -4,7 +4,8 @@ A citizen-led public accountability platform. One question, asked systematically
 
 > When state power is used against citizens, who authorised it?
 
-**Directory:** `whogavetheorder/` · **Stage:** Prototype · **Live path:** `/whogavetheorder/`
+**Stage:** Prototype · Its own repository as of 17 August 2026, split out of the
+`Varnasr/Experiments` sandbox with its history intact.
 
 ---
 
@@ -33,9 +34,8 @@ and the refusal to display a claim without a source.
 No build step, no dependencies to install.
 
 ```bash
-# from the repo root
 python3 -m http.server 8000
-# then open http://localhost:8000/whogavetheorder/
+# then open http://localhost:8000/
 ```
 
 Opening `index.html` directly off the filesystem also works — the data is loaded as plain scripts
@@ -86,7 +86,7 @@ Incident → Question → Authority → Evidence → Answer state
 ### Files
 
 ```
-whogavetheorder/
+.
 ├── SOURCING.md        # where the evidence actually comes from. Read this second.
 ├── RESEARCH-PROMPT.md # reusable prompt for building the source map, per incident
 ├── data/
@@ -127,7 +127,7 @@ built, which is methodology, not the statutory basis of an office.
 Re-run after editing `sourcemap/*.json`:
 
 ```bash
-python3 whogavetheorder/sourcemap/import.py
+python3 sourcemap/import.py
 ```
 
 ### Explaining the archive

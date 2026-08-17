@@ -1,0 +1,21 @@
+[build]
+  publish = "."
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Content-Security-Policy = "default-src 'self'; script-src 'self' 'unsafe-inline' https://unpkg.com; style-src 'self' 'unsafe-inline' https://unpkg.com; font-src 'self'; img-src 'self' data: blob: https://*.basemaps.cartocdn.com; connect-src 'self'; worker-src 'self' blob:; media-src 'self' blob: data:; object-src 'none'; frame-ancestors 'none'; base-uri 'self'"
+
+# ---- the source map is committed, not published ----
+# sourcemap/ holds the research behind the archive, including the filing queue:
+# which office is about to be written to, on what deadline, and where no court
+# has ordered preservation. The offices it concerns should not be able to read
+# it off the website. It stays in git for the audit trail.
+[[redirects]]
+  from = "/sourcemap/*"
+  to = "/"
+  status = 404
+  force = true

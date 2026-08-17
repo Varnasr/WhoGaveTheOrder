@@ -27,10 +27,10 @@ a fabricated citation in an accountability archive is worse than an empty sectio
 I run a citizen-led evidence archive documenting uses of state force against
 citizens and tracing the chain of authority behind them. It is live at:
 
-    https://varnasr-experiments.netlify.app/whogavetheorder/
+    [the archive's live URL]
 
-(also reachable at https://idealogworks.foo/whogavetheorder/ — same site, the
-project's own domain is not registered yet)
+(the project's own domain is not registered yet; substitute whatever URL the
+site is currently served from before running this prompt)
 
 Do not treat anything on that site as established fact — every factual field
 currently reads UNKNOWN by design. Use it to understand the archive's structure
