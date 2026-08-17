@@ -1,5 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-label="Who gave the order">
-  <rect width="32" height="32" fill="#0b0b0c"/>
-  <text x="16" y="24" text-anchor="middle" fill="#fcfcfa"
-        font-family="Georgia, 'Times New Roman', serif" font-size="24" font-weight="700">?</text>
+  <rect width="32" height="32" fill="#16232e"/>
+  <rect y="28" width="32" height="4" fill="#f5c518"/>
+  <text x="16" y="23" text-anchor="middle" fill="#f8f9fa"
+        font-family="Georgia, 'Times New Roman', serif" font-size="22" font-weight="700">?</text>
 </svg>
