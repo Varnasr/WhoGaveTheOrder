@@ -1,0 +1,48 @@
+# The integrity checks, on every push.
+#
+# These checks have existed since the archive was built, in admin.html, but they
+# only ran when somebody opened the console and looked. A dangling reference in
+# an accountability archive is a claim pointing at nothing, and it should not be
+# possible to merge one without being told.
+#
+# Nothing here installs a dependency: the site has none, and the tooling loads
+# the site's own model rather than reimplementing it.
+
+name: Integrity
+
+on:
+  push:
+    branches: ['**']
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Record integrity — the model's own checks
+        run: node tools/check.js
+
+      - name: Source map validation
+        run: python3 sourcemap/validate.py
+
+      # data/records.generated.js is committed, so it can drift from the source
+      # map it was built out of. Regenerating and diffing is the only way to
+      # know the published site matches the data it claims to be built from.
+      - name: Generated records are current
+        run: |
+          python3 sourcemap/import.py
+          if ! git diff --quiet; then
+            echo "::error::data/records.generated.js is stale. Run 'python3 sourcemap/import.py' and commit the result."
+            git --no-pager diff --stat
+            exit 1
+          fi

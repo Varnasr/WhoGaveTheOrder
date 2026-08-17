@@ -720,6 +720,33 @@ blockquote.official cite { display: block; margin-top: 0.4rem; font-family: var(
 
 .hero .display { font-size: clamp(1.9rem, 8vw, 4rem); }
 
+/* --- The appeal block ----------------------------------------------------- *
+   Sits under an RTI record once the statutory period has run. The draft is
+   monospaced because it is a document to be copied out, not prose to be read,
+   and it scrolls inside its own box so a long draft cannot push the register
+   off the page. */
+
+.appeal {
+  margin-top: 0.85rem;
+  padding-top: 0.75rem;
+  border-top: 1px dotted var(--rule);
+}
+.appeal__draft {
+  margin-top: 0.6rem;
+  font-family: var(--mono);
+  font-size: 0.75rem;
+  line-height: 1.6;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  background: var(--paper);
+  border: 1px solid var(--rule);
+  border-left: 3px solid var(--brand-blue);
+  border-radius: var(--radius);
+  padding: 0.85rem;
+  max-height: 24rem;
+  overflow-y: auto;
+}
+
 /* --- Footer legal row ----------------------------------------------------- */
 
 .footer-legal-links {

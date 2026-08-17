@@ -195,6 +195,44 @@ WGO.RTI_PERIODS = [
   { key: 'THIRD_PARTY',   days: 40, label: '40 days — third-party information involved' }
 ];
 
+/* --- The appeal windows --------------------------------------------------- *
+   Silence is not the end of an application, it is the start of an appeal, and
+   an appeal has its own clock. The register computes these dates so that an
+   unanswered application carries the date by which somebody has to act on it
+   rather than sitting there as a complaint.
+
+   Provisions are named so a reader can check them rather than take the number
+   on trust. Verify the current text before relying on any of this: these are
+   the periods as the archive understands them, not legal advice, and a
+   Commission's own practice on limitation varies. */
+WGO.RTI_APPEALS = {
+  FIRST: {
+    days: 30,
+    provision: 'section 19(1)',
+    note: 'First appeal to the First Appellate Authority within the public office, counted from the day the reply fell due or the day a decision was received. A later appeal may still be admitted where the appellate authority is satisfied there was sufficient cause for the delay.'
+  },
+  FAA_DECISION: {
+    days: 30,
+    extendedDays: 45,
+    provision: 'section 19(6)',
+    note: 'The First Appellate Authority is to dispose of the appeal within 30 days, extendable to 45 for reasons recorded in writing.'
+  },
+  SECOND: {
+    days: 90,
+    provision: 'section 19(3)',
+    note: 'Second appeal to the Information Commission, counted from the date the first appeal should have been decided or was in fact decided.'
+  }
+};
+
+/* Who is filing. The register is used both by this archive and by readers
+   filing their own applications, so anything not set here renders as a
+   bracketed placeholder in the draft rather than as a wrong name. */
+WGO.config.applicant = {
+  name: null,
+  address: null,
+  email: 'evidence@whogavetheorder.in'
+};
+
 /* --- Incident states (used by the map — section 12) ----------------------- */
 WGO.INCIDENT_STATES = {
   VERIFIED:            { label: 'Verified' },

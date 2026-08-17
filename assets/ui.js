@@ -368,6 +368,179 @@
       '<span class="small">Filed ' + ui.esc(rti.filedOn) + ', reply due ' + ui.esc(clock.dueOn) + '.</span>';
   };
 
+  /* --- the appeal ---------------------------------------------------------- *
+     A register that only records silence is a complaint. A register that hands
+     the reader the appeal, addressed and dated, is a tool. The draft is
+     assembled from the record itself, so the dates in it cannot disagree with
+     the dates on the card above it.
+
+     Anything the archive does not know renders as a bracketed placeholder. A
+     blank is something a reader fills in; a plausible guess is something they
+     send to a public authority without noticing. */
+
+  function placeholder(value, label) {
+    return value ? String(value) : '[' + label + ']';
+  }
+
+  ui.appealDraft = function (rti) {
+    var appeal = WGO.model.rtiAppeal(rti);
+    if (!appeal.available) { return null; }
+
+    var clock = WGO.model.rtiClock(rti);
+    var applicant = (WGO.config && WGO.config.applicant) || {};
+    var first = appeal.stage === 'FIRST';
+    var body;
+
+    if (first) {
+      body = [
+        'To,',
+        'The First Appellate Authority',
+        placeholder(rti.office, 'NAME AND ADDRESS OF THE PUBLIC AUTHORITY'),
+        '',
+        'Subject: First appeal under section 19(1) of the Right to Information Act, 2005',
+        '',
+        'Sir/Madam,',
+        '',
+        '1. I filed an application under the Right to Information Act, 2005 on ' +
+          placeholder(rti.filedOn, 'DATE OF APPLICATION') + ', bearing reference ' +
+          placeholder(rti.referenceNo, 'REFERENCE NUMBER') + ', with ' +
+          placeholder(rti.office, 'THE PUBLIC AUTHORITY') + '.',
+        '',
+        '2. The application sought: ' + placeholder(rti.subject, 'SUBJECT OF THE APPLICATION') + '.',
+        '',
+        rti.repliedOn
+          ? '3. A reply was received on ' + rti.repliedOn + '. It is appealed against because: ' +
+            '[STATE WHY THE REPLY IS INCOMPLETE, EVASIVE OR WRONGLY REFUSED].'
+          : '3. The period prescribed by section 7(1) expired on ' + clock.dueOn +
+            '. No reply has been received. Under section 7(2) the failure to reply within the ' +
+            'prescribed period is deemed a refusal, and this appeal is filed against that deemed refusal.',
+        '',
+        '4. I request that the information sought be directed to be furnished, and that the ' +
+          'reasons for the delay be recorded.',
+        '',
+        'This appeal is filed within the period prescribed by section 19(1), which in this case ' +
+          'runs to ' + placeholder(appeal.deadlineOn, 'APPEAL DEADLINE') + '.',
+        '',
+        'Yours faithfully,',
+        placeholder(applicant.name, 'YOUR NAME'),
+        placeholder(applicant.address, 'YOUR ADDRESS'),
+        placeholder(applicant.email, 'YOUR EMAIL'),
+        'Date: [DATE OF THIS APPEAL]',
+        '',
+        'Enclosures: copy of the application dated ' + placeholder(rti.filedOn, 'DATE') +
+          (rti.repliedOn ? '; copy of the reply dated ' + rti.repliedOn : '; proof of despatch')
+      ];
+    } else {
+      body = [
+        'To,',
+        'The Registrar',
+        '[CENTRAL / STATE INFORMATION COMMISSION]',
+        '',
+        'Subject: Second appeal under section 19(3) of the Right to Information Act, 2005',
+        '',
+        'Sir/Madam,',
+        '',
+        '1. Application under the Right to Information Act, 2005 filed on ' +
+          placeholder(rti.filedOn, 'DATE OF APPLICATION') + ' with ' +
+          placeholder(rti.office, 'THE PUBLIC AUTHORITY') + ', reference ' +
+          placeholder(rti.referenceNo, 'REFERENCE NUMBER') + '.',
+        '',
+        '2. First appeal under section 19(1) filed on ' +
+          placeholder(appeal.appealFiledOn, 'DATE OF FIRST APPEAL') + '.',
+        '',
+        appeal.faaDecisionDueOn
+          ? '3. The First Appellate Authority was to dispose of the appeal by ' +
+            appeal.faaDecisionDueOn + ' under section 19(6). ' +
+            '[STATE WHETHER A DECISION WAS RECEIVED, AND WHAT IT SAID].'
+          : '3. [STATE WHETHER THE FIRST APPELLATE AUTHORITY HAS DECIDED, AND WHAT IT SAID].',
+        '',
+        '4. The information sought was: ' + placeholder(rti.subject, 'SUBJECT OF THE APPLICATION') + '.',
+        '',
+        '5. I request that the public authority be directed to furnish the information, and that ' +
+          'such further orders be passed as the Commission thinks fit.',
+        '',
+        'Yours faithfully,',
+        placeholder(applicant.name, 'YOUR NAME'),
+        placeholder(applicant.address, 'YOUR ADDRESS'),
+        placeholder(applicant.email, 'YOUR EMAIL'),
+        'Date: [DATE OF THIS APPEAL]',
+        '',
+        'Enclosures: copies of the application, the first appeal, and any reply or order received.'
+      ];
+    }
+
+    return body.join('\n');
+  };
+
+  /* The appeal block on a register card: the deadline, the draft, and a copy
+     button. Collapsed, because most readers are here to read the record. */
+  ui.appealBlock = function (rti) {
+    var appeal = WGO.model.rtiAppeal(rti);
+    if (!appeal.available) { return ''; }
+    var draft = ui.appealDraft(rti);
+    if (!draft) { return ''; }
+
+    var stageLabel = appeal.stage === 'FIRST' ? 'first appeal' : 'second appeal';
+    var deadline = appeal.deadlineOn
+      ? (appeal.expired
+          ? '<span class="chip chip--disputed">Window closed ' + appeal.daysExpired + ' day' +
+            (appeal.daysExpired === 1 ? '' : 's') + ' ago</span> ' +
+            '<span class="small">The ' + stageLabel + ' was due by ' + ui.esc(appeal.deadlineOn) +
+            '. A late appeal may still be admitted for sufficient cause.</span>'
+          : '<span class="chip chip--reported">' + appeal.daysLeft + ' day' +
+            (appeal.daysLeft === 1 ? '' : 's') + ' to appeal</span> ' +
+            '<span class="small">The ' + stageLabel + ' is due by ' + ui.esc(appeal.deadlineOn) + '.</span>')
+      : '<span class="small">The ' + stageLabel + ' deadline cannot be computed from this record.</span>';
+
+    var id = 'appeal-' + rti.id;
+    return '<div class="appeal">' +
+      '<div class="row" style="gap:0.4rem">' + deadline + '</div>' +
+      '<details class="explainer" style="margin-top:0.6rem">' +
+        '<summary>Draft the ' + stageLabel + '</summary>' +
+        '<div class="explainer__body">' +
+          '<p class="small">Assembled from this record. Anything in [brackets] is for you to fill ' +
+          'in — the archive does not know it and will not guess. ' +
+          ui.esc(appeal.note || '') + '</p>' +
+          '<pre class="appeal__draft" id="' + id + '">' + ui.esc(draft) + '</pre>' +
+          '<div class="row" style="margin-top:0.6rem">' +
+            '<button class="btn btn--small btn--ghost" type="button" data-copy="' + id + '">Copy the draft</button>' +
+            '<span class="small">Under ' + ui.esc(appeal.provision || 'the Act') + '. ' +
+            'Check the current text before you file.</span>' +
+          '</div>' +
+        '</div>' +
+      '</details>' +
+    '</div>';
+  };
+
+  /* Copy buttons, bound once for the whole page. */
+  ui.bindCopy = function (root) {
+    (root || document).addEventListener('click', function (event) {
+      var btn = event.target.closest('[data-copy]');
+      if (!btn) { return; }
+      var node = document.getElementById(btn.getAttribute('data-copy'));
+      if (!node) { return; }
+      var text = node.textContent;
+      var done = function () {
+        var was = btn.textContent;
+        btn.textContent = 'Copied';
+        setTimeout(function () { btn.textContent = was; }, 2000);
+      };
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(text).then(done, function () { select(node); });
+      } else {
+        select(node);
+      }
+    });
+
+    function select(node) {
+      var range = document.createRange();
+      range.selectNodeContents(node);
+      var sel = window.getSelection();
+      sel.removeAllRanges();
+      sel.addRange(range);
+    }
+  };
+
   ui.rtiStatusChip = function (status) {
     var def = (WGO.RTI_STATES || {})[status];
     if (!def) { return ui.plainChip(status || 'Unknown'); }

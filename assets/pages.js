@@ -1039,6 +1039,10 @@
         ? '<p class="small" style="margin-top:0.6rem"><strong>Exemption cited:</strong> ' + ui.esc(r.exemptionCited) + '</p>'
         : '') +
       (r.outcome ? '<p style="margin-top:0.6rem;font-size:0.875rem">' + ui.esc(r.outcome) + '</p>' : '') +
+      /* Where an appeal is available, the card carries it. An overdue
+         application that does not tell the reader what to do next is only a
+         record of being ignored. */
+      ui.appealBlock(r) +
       '<div class="card__meta row small">' +
         '<span>Ref ' + ui.esc(r.referenceNo || 'not recorded') + '</span>' +
         (clock.known ? '<span aria-hidden="true">·</span><span>' + clock.statutoryDays + '-day period</span>' : '') +
@@ -1104,6 +1108,7 @@
     }
 
     draw();
+    ui.bindCopy(document);
   };
 
   /* ======================================================================= *

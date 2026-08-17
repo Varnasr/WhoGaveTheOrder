@@ -242,6 +242,87 @@
     };
   };
 
+  /* --- the appeal clock --------------------------------------------------- *
+     A deemed refusal is not a dead end, it is a date. This computes the windows
+     that open when an office stays silent, so the register can say what has to
+     be done next and by when, rather than only recording that nothing came. */
+
+  function addDays(isoDate, days) {
+    var t = new Date(isoDate + 'T00:00:00Z').getTime();
+    if (isNaN(t)) { return null; }
+    return new Date(t + days * DAY_MS).toISOString().slice(0, 10);
+  }
+
+  function daysUntil(isoDate) {
+    var t = new Date(isoDate + 'T00:00:00Z').getTime();
+    if (isNaN(t)) { return null; }
+    return Math.round((t - midnightUTC(new Date())) / DAY_MS);
+  }
+
+  model.rtiAppeal = function (rti) {
+    var clock = model.rtiClock(rti);
+    if (!clock.known) { return { available: false, reason: 'No filing date on record.' }; }
+
+    var windows = WGO.RTI_APPEALS || {};
+    var first = windows.FIRST || { days: 30 };
+    var faa = windows.FAA_DECISION || { days: 30, extendedDays: 45 };
+    var second = windows.SECOND || { days: 90 };
+
+    /* The first appeal runs from the day a decision was received, or — where
+       nothing came — from the day the reply fell due. Section 7(2) treats that
+       silence as a refusal, which is what makes the appeal available at all. */
+    var runsFrom = rti.repliedOn || clock.dueOn;
+    var stage = null;
+
+    if (rti.status === 'FIRST_APPEAL') {
+      /* Waiting on the appellate authority. The second-appeal clock starts when
+         it decides, or when its own time to decide runs out. */
+      var appealFiled = rti.appealFiledOn || null;
+      var faaDueOn = appealFiled ? addDays(appealFiled, faa.extendedDays || faa.days) : null;
+      var secondFrom = rti.appealDecidedOn || faaDueOn;
+      stage = {
+        available: true,
+        stage: 'SECOND',
+        deemedRefusalOn: clock.overdue ? clock.dueOn : null,
+        appealFiledOn: appealFiled,
+        faaDecisionDueOn: faaDueOn,
+        deadlineOn: secondFrom ? addDays(secondFrom, second.days) : null,
+        provision: second.provision,
+        note: second.note
+      };
+    } else if (rti.status === 'SECOND_APPEAL' || rti.status === 'WITHDRAWN') {
+      return { available: false, reason: 'The appeal route has already been taken as far as this register tracks it.' };
+    } else if (clock.overdue || rti.status === 'LAPSED' ||
+               ['REFUSED', 'NO_RECORD_HELD', 'REPLY_RECEIVED'].indexOf(rti.status) !== -1) {
+      /* A reply on the merits can be appealed too — an incomplete answer, or a
+         refusal under a claimed exemption, is exactly what section 19(1) is
+         for. Only an application still inside its statutory period has nothing
+         to appeal yet. */
+      stage = {
+        available: true,
+        stage: 'FIRST',
+        deemedRefusalOn: (!rti.repliedOn && clock.overdue) ? clock.dueOn : null,
+        runsFrom: runsFrom,
+        deadlineOn: addDays(runsFrom, first.days),
+        provision: first.provision,
+        note: first.note
+      };
+    } else {
+      return {
+        available: false,
+        reason: 'Still within the statutory period. The reply is due on ' + clock.dueOn + '.'
+      };
+    }
+
+    if (stage.deadlineOn) {
+      var left = daysUntil(stage.deadlineOn);
+      stage.daysLeft = left;
+      stage.expired = left < 0;
+      stage.daysExpired = left < 0 ? -left : 0;
+    }
+    return stage;
+  };
+
   model.rtisFor = function (questionId) {
     return model.rtis.filter(function (r) {
       return (r.questionIds || []).indexOf(questionId) !== -1;
@@ -449,11 +530,19 @@
   model.integrity = function () {
     var problems = [];
 
+    /* Severity, because the tooling gates on it and a gate that cannot tell a
+       broken reference from a record still being worked on is a gate that gets
+       switched off. `error` is a rule the archive breaks; `warning` is a record
+       that renders honestly but is not finished. */
+    function problem(severity, rec, field, ref, message) {
+      problems.push({ severity: severity, record: rec, field: field, ref: ref, message: message });
+    }
+
     function checkRefs(records, field, pool, label) {
       (records || []).forEach(function (rec) {
         (rec[field] || []).forEach(function (ref) {
           if (!pool[ref]) {
-            problems.push({ record: rec.id, field: field, ref: ref, message: label });
+            problem('error', rec.id, field, ref, label);
           }
         });
       });
@@ -466,21 +555,54 @@
     checkRefs(model.offices, 'evidenceIds', model.index.evidence, 'Office cites evidence that does not exist');
 
     model.evidence.forEach(function (e) {
-      if (!e.demo && !(e.sourceIds || []).length) {
-        problems.push({ record: e.id, field: 'sourceIds', ref: '—', message: 'Published evidence with no source on record' });
+      if (e.demo || (e.sourceIds || []).length) { return; }
+      /* An UNKNOWN item with no source is usually a *negative* record: we went
+         looking, found nothing, and filed the absence. There is no document to
+         cite for a thing that does not exist, and the card already prints NO
+         SOURCE ON RECORD. Anything claiming more than UNKNOWN and citing
+         nothing is the real breach. */
+      if (e.verification === 'UNKNOWN') {
+        problem('warning', e.id, 'sourceIds', 'UNKNOWN',
+          'Evidence record with no source — reads as a recorded absence. Confirm that is what it is.');
+      } else {
+        problem('error', e.id, 'sourceIds', e.verification || '—',
+          'Published evidence with no source on record');
+      }
+    });
+
+    /* Fixity. A link is not a citation: pages are edited, paywalled and taken
+       down, and a source that cannot be shown to be the one we read is a
+       source the archive cannot defend. */
+    model.publishedSources.forEach(function (s) {
+      if (!s.retrievedOn) {
+        /* retrievedOn records the day a URL was fetched. A source with no URL
+           was not fetched from anywhere — a printed manual, a case citation —
+           so the missing date is a gap in the note, not a broken rule. */
+        problem(s.url ? 'error' : 'warning', s.id, 'retrievedOn', '—',
+          s.url
+            ? 'Online source with no retrieval date — nothing records when this page was read'
+            : 'Source with neither a URL nor a retrieval date — nothing records where or when it was consulted');
+      }
+      if (s.url && !s.archiveUrl) {
+        problem('warning', s.id, 'archiveUrl', '—',
+          'Online source with no archived copy — it can be edited or removed without trace');
+      }
+      if (s.url && s.archiveUrl && !s.sha256) {
+        problem('warning', s.id, 'sha256', '—',
+          'Archived source with no checksum — a capture can still be swapped');
       }
     });
 
     model.claims.forEach(function (c) {
       var strong = c.state === 'VERIFIED' || c.state === 'CORROBORATED';
       if (strong && !(c.evidenceIds || []).length) {
-        problems.push({ record: c.id, field: 'state', ref: c.state, message: 'Claim asserts a strong state with no evidence attached' });
+        problem('error', c.id, 'state', c.state, 'Claim asserts a strong state with no evidence attached');
       }
     });
 
     model.questions.forEach(function (q) {
       if (q.state === 'ANSWERED' && !(q.evidenceIds || []).length) {
-        problems.push({ record: q.id, field: 'state', ref: q.state, message: 'Question marked answered with no evidence attached' });
+        problem('error', q.id, 'state', q.state, 'Question marked answered with no evidence attached');
       }
     });
 
@@ -490,16 +612,29 @@
     model.rtis.forEach(function (r) {
       var settledWithReply = ['REPLY_RECEIVED', 'NO_RECORD_HELD', 'REFUSED'].indexOf(r.status) !== -1;
       if (settledWithReply && !(r.evidenceIds || []).length) {
-        problems.push({ record: r.id, field: 'evidenceIds', ref: r.status,
-          message: 'RTI reply received but not filed as evidence' });
+        problem('error', r.id, 'evidenceIds', r.status, 'RTI reply received but not filed as evidence');
       }
       if (!r.filedOn) {
-        problems.push({ record: r.id, field: 'filedOn', ref: '—',
-          message: 'RTI record with no filing date — the clock cannot be computed' });
+        problem('error', r.id, 'filedOn', '—',
+          'RTI record with no filing date — the clock cannot be computed');
+      }
+      /* The register's own claim about itself. An application whose statutory
+         period has run out but still reads FILED is telling the reader it is
+         waiting when the Act says it has been refused. */
+      var clock = model.rtiClock(r);
+      if (r.status === 'FILED' && clock.known && clock.overdue) {
+        problem('error', r.id, 'status', 'FILED',
+          'Statutory period expired ' + clock.overdueDays + ' day' + (clock.overdueDays === 1 ? '' : 's') +
+          ' ago — this is a deemed refusal and should read LAPSED');
       }
     });
 
     return problems;
+  };
+
+  /* Errors only, for anything that has to decide whether to stop. */
+  model.integrityErrors = function () {
+    return model.integrity().filter(function (p) { return p.severity === 'error'; });
   };
 
   WGO.model = model;
