@@ -24,6 +24,67 @@
     return new URLSearchParams(window.location.search).get(name);
   };
 
+  /* --- language ----------------------------------------------------------- *
+     The interface language lives in the URL, not in storage. The privacy note
+     says nothing is written to your device, and a language preference in
+     localStorage would make that sentence false for the sake of saving a query
+     parameter. It also makes a Hindi page shareable as a Hindi page.
+
+     The cost is that only links this file generates carry the language through.
+     A link inside a page's editorial copy drops back to English, which is worth
+     saying plainly rather than hiding. */
+
+  ui.lang = function () {
+    /* The URL wins, so a link can put a reader in a language. Failing that, a
+       page written in a language declares it in its own <html lang>, which is
+       how hi.html serves Hindi without needing a parameter on every link. */
+    var want = ui.param('lang') ||
+      (document.documentElement.getAttribute('lang') || '').slice(0, 2);
+    var known = (WGO.LANGUAGES || []).filter(function (l) { return l.code === want; })[0];
+    return known ? known.code : 'en';
+  };
+
+  ui.strings = function () {
+    var code = ui.lang();
+    return (code !== 'en' && WGO.I18N && WGO.I18N[code]) || null;
+  };
+
+  /* Dotted lookup with an English fallback. A missing translation renders the
+     English rather than an empty space or a key. */
+  ui.t = function (path, fallback) {
+    var strings = ui.strings();
+    if (!strings) { return fallback; }
+    var value = path.split('.').reduce(function (node, key) {
+      return (node && node[key] !== undefined) ? node[key] : undefined;
+    }, strings);
+    return value === undefined || value === null || value === '' ? fallback : value;
+  };
+
+  /* A same-site href with the current language carried through. */
+  ui.withLang = function (href) {
+    var code = ui.lang();
+    if (code === 'en' || /^(https?:|mailto:|#)/.test(href)) { return href; }
+    var hash = '';
+    var target = href;
+    var hashAt = target.indexOf('#');
+    if (hashAt !== -1) { hash = target.slice(hashAt); target = target.slice(0, hashAt); }
+    return target + (target.indexOf('?') === -1 ? '?' : '&') + 'lang=' + code + hash;
+  };
+
+  /* The state definitions a reader sees, in whichever language they are
+     reading. The keys never translate: UNKNOWN is the same record state in both
+     languages, and the data must not fork. */
+  ui.stateDef = function (key) {
+    var strings = ui.strings();
+    var translated = strings && (
+      (strings.EVIDENCE_STATES || {})[key] ||
+      (strings.QUESTION_STATES || {})[key] ||
+      (strings.AUTHORITY_CLAIMS || {})[key]);
+    if (translated) { return translated; }
+    return WGO.EVIDENCE_STATES[key] || WGO.QUESTION_STATES[key] ||
+      WGO.INCIDENT_STATES[key] || WGO.AUTHORITY_CLAIMS[key] || null;
+  };
+
   ui.mount = function (selector, html) {
     var node = document.querySelector(selector);
     if (node) { node.innerHTML = html; }
@@ -38,8 +99,7 @@
   ui.chip = function (state, options) {
     var opts = options || {};
     var key = String(state || 'UNKNOWN').toUpperCase();
-    var def = (WGO.EVIDENCE_STATES[key] || WGO.QUESTION_STATES[key] ||
-               WGO.INCIDENT_STATES[key] || { label: key.replace(/_/g, ' '), definition: '' });
+    var def = ui.stateDef(key) || { label: key.replace(/_/g, ' '), definition: '' };
     var cls = 'chip chip--' + key.toLowerCase();
     return '<span class="' + cls + '"' +
       (def.definition ? ' title="' + ui.esc(def.definition) + '"' : '') + '>' +
@@ -72,10 +132,56 @@
       var source = WGO.model.index.source[id];
       if (!source) { return ui.plainChip(id + ' — missing source record'); }
       var label = ui.esc(source.name);
+      /* The retrieval date rides along in the tooltip. It is the difference
+         between "this page says" and "this page said, on this date". */
+      var title = source.retrievedOn
+        ? ' title="' + ui.esc(source.id + ' — retrieved ' + source.retrievedOn) + '"'
+        : ' title="' + ui.esc(source.id + ' — retrieval date not recorded') + '"';
       return source.url
-        ? '<a class="chip chip--plain" href="' + ui.esc(source.url) + '" rel="noopener nofollow" target="_blank">' + label + '</a>'
-        : ui.plainChip(source.name);
+        ? '<a class="chip chip--plain" href="' + ui.esc(source.url) + '" rel="noopener nofollow" target="_blank"' + title + '>' + label + '</a>'
+        : '<span class="chip chip--plain"' + title + '>' + label + '</span>';
     }).join(' ');
+  };
+
+  /* The full provenance of a source, for the record page where a reader is
+     deciding whether to believe it. What the archive does not hold, it says it
+     does not hold: a missing archived copy is a fact about our practice and
+     belongs on the page rather than in a backlog. */
+  ui.sourceDetail = function (sourceIds) {
+    var ids = sourceIds || [];
+    if (!ids.length) {
+      return '<p class="small">' + ui.chip('UNKNOWN') +
+        ' Nothing sourced this record. It renders as an absence, not as a fact.</p>';
+    }
+    return '<ul class="source-detail">' + ids.map(function (id) {
+      var s = WGO.model.index.source[id];
+      if (!s) {
+        return '<li><span class="mono">' + ui.esc(id) + '</span> — ' +
+          ui.plainChip('missing source record') + '</li>';
+      }
+      var bits = [];
+      bits.push(s.url
+        ? '<a href="' + ui.esc(s.url) + '" rel="noopener nofollow" target="_blank">' + ui.esc(s.name) + '</a>'
+        : ui.esc(s.name));
+      if (s.kind) { bits.push('<span class="small">' + ui.esc(String(s.kind).toLowerCase()) + '</span>'); }
+
+      var fixity = [];
+      fixity.push(s.retrievedOn
+        ? 'Retrieved ' + ui.esc(s.retrievedOn)
+        : '<strong>Retrieval date not recorded</strong>');
+      fixity.push(s.archiveUrl
+        ? '<a href="' + ui.esc(s.archiveUrl) + '" rel="noopener nofollow" target="_blank">archived copy</a>'
+        : 'no archived copy');
+      if (s.sha256) {
+        fixity.push('<span class="mono" title="SHA-256 of the captured file">' +
+          ui.esc(String(s.sha256).slice(0, 16)) + '…</span>');
+      }
+
+      return '<li>' +
+        '<span class="mono">' + ui.esc(s.id) + '</span> ' + bits.join(' ') +
+        '<div class="small source-detail__fixity">' + fixity.join(' · ') + '</div>' +
+      '</li>';
+    }).join('') + '</ul>';
   };
 
   ui.evidenceLinks = function (evidenceIds, emptyText) {
@@ -143,61 +249,93 @@
   /* The three explainers used in more than one place, defined once. */
   ui.EXPLAIN = {
     states: function () {
-      return ui.explainer('What do these labels mean?',
-        '<p>Every statement on this site carries one of six states. A claim cannot appear without ' +
-        'one, and moving a claim between them requires a document.</p>' +
+      return ui.explainer(ui.t('explain.statesSummary', 'What do these labels mean?'),
+        '<p>' + ui.esc(ui.t('explain.statesBody',
+          'Every statement on this site carries one of six states. A claim cannot appear without ' +
+          'one, and moving a claim between them requires a document.')) + '</p>' +
         '<div class="chip-legend" style="margin-top:0.75rem">' +
         Object.keys(WGO.EVIDENCE_STATES).map(function (k) {
-          return '<div>' + ui.chip(k) + '<p>' + ui.esc(WGO.EVIDENCE_STATES[k].definition) + '</p></div>';
+          return '<div>' + ui.chip(k) + '<p>' +
+            ui.esc((ui.stateDef(k) || {}).definition || '') + '</p></div>';
         }).join('') +
         '</div>' +
         '<p style="margin-top:0.75rem"><a href="walkthrough.html#step-3">More on how to read this archive &rarr;</a></p>');
     },
 
     authority: function () {
-      return ui.explainer('Why does every office say "authorisation not established"?',
-        '<p>Because two different claims are being kept apart, and only one of them is established.</p>' +
+      var has = ui.stateDef('HAS_AUTHORITY') || WGO.AUTHORITY_CLAIMS.HAS_AUTHORITY;
+      var evidenced = ui.stateDef('EVIDENCED_TO_HAVE_AUTHORISED') || WGO.AUTHORITY_CLAIMS.EVIDENCED_TO_HAVE_AUTHORISED;
+      return ui.explainer(
+        ui.t('explain.authoritySummary', 'Why does every office say "authorisation not established"?'),
+        '<p>' + ui.esc(ui.t('explain.authorityBody',
+          'Because two different claims are being kept apart, and only one of them is established.')) + '</p>' +
         '<div class="authority-split" style="margin-top:0.75rem">' +
-          '<div><h5>' + ui.esc(WGO.AUTHORITY_CLAIMS.HAS_AUTHORITY.label) + '</h5><p>' +
-            ui.esc(WGO.AUTHORITY_CLAIMS.HAS_AUTHORITY.definition) + '</p></div>' +
-          '<div><h5>' + ui.esc(WGO.AUTHORITY_CLAIMS.EVIDENCED_TO_HAVE_AUTHORISED.label) + '</h5><p>' +
-            ui.esc(WGO.AUTHORITY_CLAIMS.EVIDENCED_TO_HAVE_AUTHORISED.definition) + '</p></div>' +
+          '<div><h5>' + ui.esc(has.label) + '</h5><p>' + ui.esc(has.definition) + '</p></div>' +
+          '<div><h5>' + ui.esc(evidenced.label) + '</h5><p>' + ui.esc(evidenced.definition) + '</p></div>' +
         '</div>' +
-        '<p style="margin-top:0.75rem">No individual is named in the chain. A person is added to an ' +
-        'office only when a sourced document places them in it at the relevant time. ' +
-        '<a href="walkthrough.html#step-4">More &rarr;</a></p>');
+        '<p style="margin-top:0.75rem">' + ui.esc(ui.t('explain.authorityNote',
+          'No individual is named in the chain. A person is added to an office only when a sourced ' +
+          'document places them in it at the relevant time.')) + ' ' +
+        '<a href="' + ui.esc(ui.withLang('walkthrough.html#step-4')) + '">More &rarr;</a></p>');
     },
 
     unknown: function () {
-      return ui.explainer('Why is so much of this page UNKNOWN?',
-        '<p>Because nothing has been established yet, and the site says so rather than filling the ' +
-        'space with a plausible reconstruction. A claim without a source does not render as a fact ' +
-        'here, including in our own starting data.</p>' +
+      return ui.explainer(ui.t('explain.unknownSummary', 'Why is so much of this page UNKNOWN?'),
+        '<p>' + ui.esc(ui.t('explain.unknownBody',
+          'Because nothing has been established yet, and the site says so rather than filling the ' +
+          'space with a plausible reconstruction. A claim without a source does not render as a fact ' +
+          'here, including in our own starting data.')) + '</p>' +
         '<p style="margin-top:0.5rem">These fields fill in when a document arrives, not before. ' +
         'If you hold one, <a href="submit.html">send it</a>. ' +
         '<a href="walkthrough.html#step-2">More &rarr;</a></p>');
     },
 
     clock: function () {
-      return ui.explainer('How does the reply clock work?',
-        '<p>Filing a statutory information request puts a public office on a deadline. The register ' +
-        'computes the reply-due date from the filing date every time the page loads, so it cannot go ' +
-        'stale.</p>' +
-        '<p style="margin-top:0.5rem">The clock stops when an office replies, even if the reply came ' +
-        'late. Silence past the statutory period counts as a refusal and opens an appeal, which is ' +
-        'why an unanswered request is published rather than hidden. ' +
-        '<a href="walkthrough.html#step-7">More &rarr;</a></p>');
+      return ui.explainer(ui.t('explain.clockSummary', 'How does the reply clock work?'),
+        '<p>' + ui.esc(ui.t('explain.clockBody',
+          'Filing a statutory information request puts a public office on a deadline. The register ' +
+          'computes the reply-due date from the filing date every time the page loads, so it cannot ' +
+          'go stale.')) + '</p>' +
+        '<p style="margin-top:0.5rem">' + ui.esc(ui.t('explain.clockBody2',
+          'The clock stops when an office replies, even if the reply came late. Silence past the ' +
+          'statutory period counts as a refusal and opens an appeal, which is why an unanswered ' +
+          'request is published rather than hidden.')) + ' ' +
+        '<a href="' + ui.esc(ui.withLang('walkthrough.html#step-7')) + '">More &rarr;</a></p>');
     }
   };
 
   /* --- chrome ------------------------------------------------------------ */
 
   function navHtml(current) {
+    /* Looked up directly, not through ui.t: the keys are filenames and contain
+       dots, which a dotted-path lookup would split into nested objects. */
+    var strings = ui.strings();
+    var labels = (strings && strings.nav) || {};
+
     return '<ul>' + WGO.NAV.map(function (item) {
       var active = item.href === current;
-      return '<li><a href="' + item.href + '"' + (active ? ' aria-current="page"' : '') + '>' +
-        ui.esc(item.label) + '</a></li>';
+      return '<li><a href="' + ui.esc(ui.withLang(item.href)) + '"' + (active ? ' aria-current="page"' : '') + '>' +
+        ui.esc(labels[item.href] || item.label) + '</a></li>';
     }).join('') + '</ul>';
+  }
+
+  /* The switch is a link, not a control: it points at this same page in the
+     other language, so it works without JavaScript and can be bookmarked. */
+  function languageHtml() {
+    var here = window.location.pathname.split('/').pop() || 'index.html';
+    var query = new URLSearchParams(window.location.search);
+    var current = ui.lang();
+
+    return '<span class="lang-switch">' + (WGO.LANGUAGES || []).map(function (l) {
+      if (l.code === current) {
+        return '<span class="lang-switch__on" aria-current="true">' + ui.esc(l.label) + '</span>';
+      }
+      var params = new URLSearchParams(query.toString());
+      if (l.code === 'en') { params.delete('lang'); } else { params.set('lang', l.code); }
+      var qs = params.toString();
+      return '<a href="' + ui.esc(here + (qs ? '?' + qs : '')) + '" lang="' + ui.esc(l.htmlLang) + '">' +
+        ui.esc(l.label) + '</a>';
+    }).join('<span aria-hidden="true"> · </span>') + '</span>';
   }
 
   ui.renderChrome = function () {
@@ -212,16 +350,33 @@
        actual counts, so it stays true as the archive fills up instead of going
        stale the way a fixed "pre-launch" label does. */
     var counts = WGO.model.counts();
-    var notice =
-      '<div class="notice-bar"><div class="shell">' +
-        (cfg.archiveStage ? '<strong>' + ui.esc(cfg.archiveStage) + '</strong> — ' : '') +
-        (counts.evidence
-          ? '<strong>' + counts.evidence + '</strong> document' + (counts.evidence === 1 ? '' : 's') +
+    var hindi = ui.lang() === 'hi';
+
+    /* The page's own language attribute, so a screen reader pronounces the
+       chrome correctly rather than reading Devanagari as English. */
+    document.documentElement.setAttribute('lang', hindi ? 'hi' : 'en');
+
+    var status = counts.evidence
+      ? (hindi
+          ? '<strong>' + counts.evidence + '</strong> ' + ui.t('chrome.documents', 'documents') + ' ' +
+            '<strong>' + counts.sources + '</strong> ' + ui.t('chrome.sources', 'sources') + ' ' +
+            ui.t('chrome.onRecord', 'on the record.') + ' ' +
+            '<strong>' + counts.open + '</strong> ' + ui.t('chrome.questionsOpen', 'questions still open.') + ' ' +
+            '<strong>' + counts.orders + '</strong> ' + ui.t('chrome.ordersFound', 'orders found.')
+          : '<strong>' + counts.evidence + '</strong> document' + (counts.evidence === 1 ? '' : 's') +
             ' from <strong>' + counts.sources + '</strong> sources on the record. ' +
             '<strong>' + counts.open + '</strong> questions still open. ' +
-            '<strong>' + counts.orders + '</strong> orders found.'
-          : 'No documents have been published to this archive yet.') +
-        (cfg.demoMode ? ' Records marked <em>sample</em> show the layout only.' : '') +
+            '<strong>' + counts.orders + '</strong> orders found.')
+      : ui.t('chrome.empty', 'No documents have been published to this archive yet.');
+
+    var notice =
+      '<div class="notice-bar"><div class="shell notice-bar__inner">' +
+        '<span>' +
+          (cfg.archiveStage ? '<strong>' + ui.esc(cfg.archiveStage) + '</strong> — ' : '') +
+          status +
+          (cfg.demoMode ? ' Records marked <em>sample</em> show the layout only.' : '') +
+        '</span>' +
+        languageHtml() +
       '</div></div>';
 
     var header = document.querySelector('[data-chrome="masthead"]');
@@ -229,10 +384,12 @@
       header.innerHTML = notice +
         '<header class="masthead"><div class="shell">' +
           '<div class="masthead__bar">' +
-            '<a class="wordmark" href="index.html">Who Gave The Order<span class="dot">.in</span></a>' +
+            '<a class="wordmark" href="' + ui.esc(ui.withLang('index.html')) + '">Who Gave The Order<span class="dot">.in</span></a>' +
             '<div class="masthead__tools">' +
-              '<a class="cta-persistent" href="submit.html">Add a document</a>' +
-              '<button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">Menu</button>' +
+              '<a class="cta-persistent" href="' + ui.esc(ui.withLang('submit.html')) + '">' +
+                ui.esc(ui.t('chrome.addDocument', 'Add a document')) + '</a>' +
+              '<button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">' +
+                ui.esc(ui.t('chrome.menu', 'Menu')) + '</button>' +
             '</div>' +
           '</div>' +
           '<nav class="nav" id="primary-nav" aria-label="Primary">' + navHtml(current) + '</nav>' +
@@ -249,56 +406,114 @@
       }
     }
 
+    /* Footer link labels, looked up by their English text so the markup below
+       stays a single list. A missing translation falls back to the English. */
+    var linkLabels = ((ui.strings() || {}).footerLinks) || {};
+    function fl(href, label) {
+      return '<a href="' + ui.esc(ui.withLang(href)) + '">' +
+        ui.esc(linkLabels[label] || label) + '</a>';
+    }
+
     var footer = document.querySelector('[data-chrome="footer"]');
     if (footer) {
       footer.innerHTML =
         '<footer class="site-footer"><div class="shell">' +
           '<div class="grid grid--4">' +
-            '<div><h4>The investigation</h4><ul>' +
-              '<li><a href="investigations.html">Investigations</a></li>' +
-              '<li><a href="chain.html">Chain of command</a></li>' +
-              '<li><a href="response.html">Government response</a></li>' +
-              '<li><a href="others.html">Others are investigating</a></li>' +
+            '<div><h4>' + ui.esc(ui.t('footer.investigation', 'The investigation')) + '</h4><ul>' +
+              '<li>' + fl('investigations.html', 'Investigations') + '</li>' +
+              '<li>' + fl('chain.html', 'Chain of command') + '</li>' +
+              '<li>' + fl('response.html', 'Government response') + '</li>' +
+              '<li>' + fl('others.html', 'Others are investigating') + '</li>' +
             '</ul></div>' +
-            '<div><h4>The archive</h4><ul>' +
-              '<li><a href="evidence.html">Evidence library</a></li>' +
-              '<li><a href="rti.html">RTI register</a></li>' +
-              '<li><a href="search.html">Search</a></li>' +
-              '<li><a href="admin.html">Editorial console</a></li>' +
+            '<div><h4>' + ui.esc(ui.t('footer.archive', 'The archive')) + '</h4><ul>' +
+              '<li>' + fl('evidence.html', 'Evidence library') + '</li>' +
+              '<li>' + fl('rti.html', 'RTI register') + '</li>' +
+              '<li>' + fl('search.html', 'Search') + '</li>' +
+              '<li>' + fl('changes.html', 'What changed') + '</li>' +
+              '<li>' + fl('data/export/archive.json', 'Download the data') + '</li>' +
+              '<li>' + fl('admin.html', 'Editorial console') + '</li>' +
             '</ul></div>' +
-            '<div><h4>Take part</h4><ul>' +
-              '<li><a href="submit.html">Submit evidence</a></li>' +
-              '<li><a href="submit.html#missing">What we are missing</a></li>' +
-              '<li><a href="about.html#corrections">Report an error</a></li>' +
+            '<div><h4>' + ui.esc(ui.t('footer.takePart', 'Take part')) + '</h4><ul>' +
+              '<li>' + fl('submit.html', 'Submit evidence') + '</li>' +
+              '<li>' + fl('submit.html#missing', 'What we are missing') + '</li>' +
+              '<li>' + fl('about.html#corrections', 'Report an error') + '</li>' +
             '</ul></div>' +
-            '<div><h4>How we work</h4><ul>' +
-              '<li><a href="walkthrough.html">How to read this archive</a></li>' +
-              '<li><a href="about.html#method">Methodology</a></li>' +
-              '<li><a href="about.html#standards">Verification standards</a></li>' +
-              '<li><a href="about.html#privacy">Privacy and takedown</a></li>' +
-              '<li><a href="about.html#who">Who runs this</a></li>' +
+            '<div><h4>' + ui.esc(ui.t('footer.howWeWork', 'How we work')) + '</h4><ul>' +
+              '<li>' + fl('walkthrough.html', 'How to read this archive') + '</li>' +
+              '<li>' + fl('about.html#method', 'Methodology') + '</li>' +
+              '<li>' + fl('about.html#standards', 'Verification standards') + '</li>' +
+              '<li>' + fl('about.html#privacy', 'Privacy and takedown') + '</li>' +
+              '<li>' + fl('about.html#who', 'Who runs this') + '</li>' +
             '</ul></div>' +
           '</div>' +
           '<div class="site-footer__legal">' +
-            '<p>Where the record does not answer a question, this site says so.</p>' +
+            '<p>' + ui.esc(ui.t('chrome.footerNote', 'Where the record does not answer a question, this site says so.')) + '</p>' +
             '<ul class="footer-legal-links">' +
-              '<li><a href="about.html#who">Who runs this</a></li>' +
-              '<li><a href="about.html#privacy">Privacy</a></li>' +
-              '<li><a href="about.html#privacy">Takedown &amp; grievances</a></li>' +
-              '<li><a href="about.html#corrections">Corrections</a></li>' +
-              '<li><a href="about.html#licence">Reuse &amp; licence</a></li>' +
-              '<li><a href="about.html#standards">Verification standards</a></li>' +
+              '<li>' + fl('about.html#who', 'Who runs this') + '</li>' +
+              '<li>' + fl('about.html#privacy', 'Privacy') + '</li>' +
+              '<li>' + fl('about.html#privacy', 'Takedown & grievances') + '</li>' +
+              '<li>' + fl('about.html#corrections', 'Corrections') + '</li>' +
+              '<li>' + fl('about.html#licence', 'Reuse & licence') + '</li>' +
+              '<li>' + fl('about.html#standards', 'Verification standards') + '</li>' +
             '</ul>' +
             /* Stated because it is true and checkable, not as a compliance
                gesture. A cookie banner here would imply tracking that does
                not exist. */
-            '<p class="footer-privacy">No cookies. No trackers. No scripts that watch you. ' +
-              'Visit counts come from server logs, never from your browser. ' +
-              '<a href="about.html#privacy">Full privacy note &rarr;</a></p>' +
-            '<p style="margin-top:0.5rem">Record last reviewed ' + ui.esc(WGO.config.lastReviewed) + '.</p>' +
+            '<p class="footer-privacy">' +
+              ui.esc(ui.t('chrome.noTracking',
+                'No cookies. No trackers. No scripts that watch you. ' +
+                'Visit counts come from server logs, never from your browser.')) + ' ' +
+              '<a href="' + ui.esc(ui.withLang('about.html#privacy')) + '">Full privacy note &rarr;</a></p>' +
+            '<p style="margin-top:0.5rem">' + ui.esc(ui.t('chrome.lastReviewed', 'Record last reviewed')) + ' ' +
+              ui.esc(WGO.config.lastReviewed) + '.</p>' +
           '</div>' +
         '</div></footer>';
     }
+  };
+
+  /* --- citation ----------------------------------------------------------- *
+     Every record here has a permanent ID and a state that can change. Both facts
+     make a citation harder than a URL: whoever cites this needs to say which
+     version they read, and on what day it said what it said.
+
+     The retrieval date is the reader's own — taken from their clock, not from
+     the record — because that is what a citation is recording. */
+
+  ui.citeBlock = function (record) {
+    var cfg = WGO.config || {};
+    var base = String(cfg.siteUrl || '').replace(/\/$/, '');
+    var url = base + '/' + record.path;
+    var today = new Date().toISOString().slice(0, 10);
+    var id = 'cite-' + String(record.id).replace(/[^A-Za-z0-9_-]/g, '');
+
+    var citation = [
+      cfg.siteName || 'WhoGaveTheOrder.in',
+      ', ',
+      record.id,
+      record.title ? ', "' + record.title + '"' : '',
+      record.state ? ' [' + record.state + ']' : '',
+      '. ',
+      url,
+      '. Retrieved ',
+      today,
+      '.'
+    ].join('');
+
+    return '<details class="explainer cite">' +
+      '<summary>Cite this record</summary>' +
+      '<div class="explainer__body">' +
+        '<pre class="cite__text" id="' + id + '">' + ui.esc(citation) + '</pre>' +
+        '<div class="row" style="margin-top:0.6rem">' +
+          '<button class="btn btn--small btn--ghost" type="button" data-copy="' + id + '">Copy the citation</button>' +
+        '</div>' +
+        '<p class="small" style="margin-top:0.6rem">' +
+          'Records change state when a document arrives, so the retrieval date is part of the ' +
+          'citation rather than a courtesy. What this record said on any earlier date is in ' +
+          '<a href="changes.html">the change log</a>. ' +
+          ui.esc(((cfg.licence || {}).note) || '') +
+        '</p>' +
+      '</div>' +
+    '</details>';
   };
 
   /* --- workflow strip ---------------------------------------------------- */
@@ -366,6 +581,179 @@
     return '<span class="chip chip--reported">' + clock.daysRemaining + ' day' +
       (clock.daysRemaining === 1 ? '' : 's') + ' left</span> ' +
       '<span class="small">Filed ' + ui.esc(rti.filedOn) + ', reply due ' + ui.esc(clock.dueOn) + '.</span>';
+  };
+
+  /* --- the appeal ---------------------------------------------------------- *
+     A register that only records silence is a complaint. A register that hands
+     the reader the appeal, addressed and dated, is a tool. The draft is
+     assembled from the record itself, so the dates in it cannot disagree with
+     the dates on the card above it.
+
+     Anything the archive does not know renders as a bracketed placeholder. A
+     blank is something a reader fills in; a plausible guess is something they
+     send to a public authority without noticing. */
+
+  function placeholder(value, label) {
+    return value ? String(value) : '[' + label + ']';
+  }
+
+  ui.appealDraft = function (rti) {
+    var appeal = WGO.model.rtiAppeal(rti);
+    if (!appeal.available) { return null; }
+
+    var clock = WGO.model.rtiClock(rti);
+    var applicant = (WGO.config && WGO.config.applicant) || {};
+    var first = appeal.stage === 'FIRST';
+    var body;
+
+    if (first) {
+      body = [
+        'To,',
+        'The First Appellate Authority',
+        placeholder(rti.office, 'NAME AND ADDRESS OF THE PUBLIC AUTHORITY'),
+        '',
+        'Subject: First appeal under section 19(1) of the Right to Information Act, 2005',
+        '',
+        'Sir/Madam,',
+        '',
+        '1. I filed an application under the Right to Information Act, 2005 on ' +
+          placeholder(rti.filedOn, 'DATE OF APPLICATION') + ', bearing reference ' +
+          placeholder(rti.referenceNo, 'REFERENCE NUMBER') + ', with ' +
+          placeholder(rti.office, 'THE PUBLIC AUTHORITY') + '.',
+        '',
+        '2. The application sought: ' + placeholder(rti.subject, 'SUBJECT OF THE APPLICATION') + '.',
+        '',
+        rti.repliedOn
+          ? '3. A reply was received on ' + rti.repliedOn + '. It is appealed against because: ' +
+            '[STATE WHY THE REPLY IS INCOMPLETE, EVASIVE OR WRONGLY REFUSED].'
+          : '3. The period prescribed by section 7(1) expired on ' + clock.dueOn +
+            '. No reply has been received. Under section 7(2) the failure to reply within the ' +
+            'prescribed period is deemed a refusal, and this appeal is filed against that deemed refusal.',
+        '',
+        '4. I request that the information sought be directed to be furnished, and that the ' +
+          'reasons for the delay be recorded.',
+        '',
+        'This appeal is filed within the period prescribed by section 19(1), which in this case ' +
+          'runs to ' + placeholder(appeal.deadlineOn, 'APPEAL DEADLINE') + '.',
+        '',
+        'Yours faithfully,',
+        placeholder(applicant.name, 'YOUR NAME'),
+        placeholder(applicant.address, 'YOUR ADDRESS'),
+        placeholder(applicant.email, 'YOUR EMAIL'),
+        'Date: [DATE OF THIS APPEAL]',
+        '',
+        'Enclosures: copy of the application dated ' + placeholder(rti.filedOn, 'DATE') +
+          (rti.repliedOn ? '; copy of the reply dated ' + rti.repliedOn : '; proof of despatch')
+      ];
+    } else {
+      body = [
+        'To,',
+        'The Registrar',
+        '[CENTRAL / STATE INFORMATION COMMISSION]',
+        '',
+        'Subject: Second appeal under section 19(3) of the Right to Information Act, 2005',
+        '',
+        'Sir/Madam,',
+        '',
+        '1. Application under the Right to Information Act, 2005 filed on ' +
+          placeholder(rti.filedOn, 'DATE OF APPLICATION') + ' with ' +
+          placeholder(rti.office, 'THE PUBLIC AUTHORITY') + ', reference ' +
+          placeholder(rti.referenceNo, 'REFERENCE NUMBER') + '.',
+        '',
+        '2. First appeal under section 19(1) filed on ' +
+          placeholder(appeal.appealFiledOn, 'DATE OF FIRST APPEAL') + '.',
+        '',
+        appeal.faaDecisionDueOn
+          ? '3. The First Appellate Authority was to dispose of the appeal by ' +
+            appeal.faaDecisionDueOn + ' under section 19(6). ' +
+            '[STATE WHETHER A DECISION WAS RECEIVED, AND WHAT IT SAID].'
+          : '3. [STATE WHETHER THE FIRST APPELLATE AUTHORITY HAS DECIDED, AND WHAT IT SAID].',
+        '',
+        '4. The information sought was: ' + placeholder(rti.subject, 'SUBJECT OF THE APPLICATION') + '.',
+        '',
+        '5. I request that the public authority be directed to furnish the information, and that ' +
+          'such further orders be passed as the Commission thinks fit.',
+        '',
+        'Yours faithfully,',
+        placeholder(applicant.name, 'YOUR NAME'),
+        placeholder(applicant.address, 'YOUR ADDRESS'),
+        placeholder(applicant.email, 'YOUR EMAIL'),
+        'Date: [DATE OF THIS APPEAL]',
+        '',
+        'Enclosures: copies of the application, the first appeal, and any reply or order received.'
+      ];
+    }
+
+    return body.join('\n');
+  };
+
+  /* The appeal block on a register card: the deadline, the draft, and a copy
+     button. Collapsed, because most readers are here to read the record. */
+  ui.appealBlock = function (rti) {
+    var appeal = WGO.model.rtiAppeal(rti);
+    if (!appeal.available) { return ''; }
+    var draft = ui.appealDraft(rti);
+    if (!draft) { return ''; }
+
+    var stageLabel = appeal.stage === 'FIRST' ? 'first appeal' : 'second appeal';
+    var deadline = appeal.deadlineOn
+      ? (appeal.expired
+          ? '<span class="chip chip--disputed">Window closed ' + appeal.daysExpired + ' day' +
+            (appeal.daysExpired === 1 ? '' : 's') + ' ago</span> ' +
+            '<span class="small">The ' + stageLabel + ' was due by ' + ui.esc(appeal.deadlineOn) +
+            '. A late appeal may still be admitted for sufficient cause.</span>'
+          : '<span class="chip chip--reported">' + appeal.daysLeft + ' day' +
+            (appeal.daysLeft === 1 ? '' : 's') + ' to appeal</span> ' +
+            '<span class="small">The ' + stageLabel + ' is due by ' + ui.esc(appeal.deadlineOn) + '.</span>')
+      : '<span class="small">The ' + stageLabel + ' deadline cannot be computed from this record.</span>';
+
+    var id = 'appeal-' + rti.id;
+    return '<div class="appeal">' +
+      '<div class="row" style="gap:0.4rem">' + deadline + '</div>' +
+      '<details class="explainer" style="margin-top:0.6rem">' +
+        '<summary>Draft the ' + stageLabel + '</summary>' +
+        '<div class="explainer__body">' +
+          '<p class="small">Assembled from this record. Anything in [brackets] is for you to fill ' +
+          'in — the archive does not know it and will not guess. ' +
+          ui.esc(appeal.note || '') + '</p>' +
+          '<pre class="appeal__draft" id="' + id + '">' + ui.esc(draft) + '</pre>' +
+          '<div class="row" style="margin-top:0.6rem">' +
+            '<button class="btn btn--small btn--ghost" type="button" data-copy="' + id + '">Copy the draft</button>' +
+            '<span class="small">Under ' + ui.esc(appeal.provision || 'the Act') + '. ' +
+            'Check the current text before you file.</span>' +
+          '</div>' +
+        '</div>' +
+      '</details>' +
+    '</div>';
+  };
+
+  /* Copy buttons, bound once for the whole page. */
+  ui.bindCopy = function (root) {
+    (root || document).addEventListener('click', function (event) {
+      var btn = event.target.closest('[data-copy]');
+      if (!btn) { return; }
+      var node = document.getElementById(btn.getAttribute('data-copy'));
+      if (!node) { return; }
+      var text = node.textContent;
+      var done = function () {
+        var was = btn.textContent;
+        btn.textContent = 'Copied';
+        setTimeout(function () { btn.textContent = was; }, 2000);
+      };
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(text).then(done, function () { select(node); });
+      } else {
+        select(node);
+      }
+    });
+
+    function select(node) {
+      var range = document.createRange();
+      range.selectNodeContents(node);
+      var sel = window.getSelection();
+      sel.removeAllRanges();
+      sel.addRange(range);
+    }
   };
 
   ui.rtiStatusChip = function (status) {

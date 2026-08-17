@@ -92,6 +92,26 @@ already carries `PARLIAMENTARY` as an evidence type. Time it to a session.
 - **FIRs** are public documents in most cases, and several state forces publish them online.
 - **Bail and habeas orders** fix dates, sections and detainee counts.
 
+### Where to actually get the text
+
+The archive currently sources the Delhi High Court's Jantar Mantar directions to a news report.
+That is a secondary source standing in for a primary document that is free to fetch, and it should
+be replaced.
+
+| Route | What it is | Cost | Use it for |
+|---|---|---|---|
+| **Indian Kanoon API** (`api.indiankanoon.org`) | Search and document API over the Supreme Court, every High Court and the tribunals. JSON or XML, token or key-signed auth. | ₹0.50 a search, ₹0.20 a document, ₹0.05 a fragment. **Non-commercial projects get ₹10,000 of free credit a month** after the administrator verifies the use case, which is roughly 20,000 documents. | Standing searches. The right way to keep re-asking "has anything been filed in Bihar yet?" instead of asking once by hand. |
+| **eCourts judgment search** (`judgments.ecourts.gov.in/pdfsearch`) and the **SCR portal** (`scr.sci.gov.in`, which replaced eSCR and DigiSCR) | The official free portals. No API; a search form and a PDF. | Free | The certified copy. When a court order becomes evidence here, this is the source to cite, not a report about it. |
+| **Development Data Lab judicial data** (`devdatalab.org/judicial-data`) | 81 million district court cases, 2010–2018, derived from eCourts. Filing, registration, hearing and decision dates, acts and sections, disposition. Open Database License. | Free | Pattern, not documents. How cases of a given kind move through a given district's courts. It will not contain anything from 2026. |
+
+Two things to avoid. **`caselaw.in` is not a case-law database** — it is KanoonGPT, an AI chat
+product over bare acts, freemium and without an API. And no AI summary of a judgment is a source:
+what goes in the archive is the order, with the paragraph that carries the finding.
+
+Whatever the route, a court document enters the archive under the same rule as everything else: a
+`SRC-` record with `retrievedOn`, and — because court portals reorganise — an `archiveUrl` and a
+`sha256` of the file as fetched.
+
 ---
 
 ## 4. The statutory layer

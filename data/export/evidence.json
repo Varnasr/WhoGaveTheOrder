@@ -1,0 +1,151 @@
+[
+  {
+    "id": "INC-DEL-001",
+    "kind": "Evidence",
+    "title": "Police action against demonstrators at Jantar Mantar, New Delhi, on 20 July 2026.",
+    "state": "CORROBORATED",
+    "url": "https://whogavetheorder.netlify.app/evidence.html?id=INC-DEL-001",
+    "type": "OTHER_DOCUMENT",
+    "incidentId": "INC-0001",
+    "dateOfItem": null,
+    "establishes": "Incident occurrence corroborated. No finding on conduct, cause or proportionality.",
+    "doesNotEstablish": null,
+    "sourceIds": [
+      "SRC-0001",
+      "SRC-0002"
+    ]
+  },
+  {
+    "id": "INC-DEL-002",
+    "kind": "Evidence",
+    "title": "Further clashes at Jantar Mantar on 22 July 2026 involving tear gas and lathi charge.",
+    "state": "REPORTED",
+    "url": "https://whogavetheorder.netlify.app/evidence.html?id=INC-DEL-002",
+    "type": "OTHER_DOCUMENT",
+    "incidentId": "INC-0001",
+    "dateOfItem": null,
+    "establishes": "Single source. Author Ajith Athrady, 22 July 2026.",
+    "doesNotEstablish": null,
+    "sourceIds": [
+      "SRC-0003"
+    ]
+  },
+  {
+    "id": "INC-BIH-001",
+    "kind": "Evidence",
+    "title": "Police action at JP Golambar, Patna, on 22 July 2026.",
+    "state": "REPORTED",
+    "url": "https://whogavetheorder.netlify.app/evidence.html?id=INC-BIH-001",
+    "type": "OTHER_DOCUMENT",
+    "incidentId": "INC-0002",
+    "dateOfItem": null,
+    "establishes": null,
+    "doesNotEstablish": null,
+    "sourceIds": [
+      "SRC-0004"
+    ]
+  },
+  {
+    "id": "INC-BIH-002",
+    "kind": "Evidence",
+    "title": "Police action at Katihar on 23 July 2026.",
+    "state": "REPORTED",
+    "url": "https://whogavetheorder.netlify.app/evidence.html?id=INC-BIH-002",
+    "type": "OTHER_DOCUMENT",
+    "incidentId": "INC-0002",
+    "dateOfItem": null,
+    "establishes": null,
+    "doesNotEstablish": null,
+    "sourceIds": [
+      "SRC-0005"
+    ]
+  },
+  {
+    "id": "INC-BIH-003",
+    "kind": "Evidence",
+    "title": "Protest activity at Munger on 23 July 2026. Whether police force was used at Munger is not established by the source.",
+    "state": "UNVERIFIED",
+    "url": "https://whogavetheorder.netlify.app/evidence.html?id=INC-BIH-003",
+    "type": "OTHER_DOCUMENT",
+    "incidentId": "INC-0002",
+    "dateOfItem": null,
+    "establishes": "Source names Munger among protest locations but does not clearly attribute a lathi charge there. Do not promote without a second source.",
+    "doesNotEstablish": null,
+    "sourceIds": [
+      "SRC-0005"
+    ]
+  },
+  {
+    "id": "INC-BIH-004",
+    "kind": "Evidence",
+    "title": "Police action at Dakbungalow Square, Patna, on 25 July 2026 during a Bihar Bandh; 17 detained.",
+    "state": "REPORTED",
+    "url": "https://whogavetheorder.netlify.app/evidence.html?id=INC-BIH-004",
+    "type": "OTHER_DOCUMENT",
+    "incidentId": "INC-0002",
+    "dateOfItem": null,
+    "establishes": null,
+    "doesNotEstablish": null,
+    "sourceIds": [
+      "SRC-0006"
+    ]
+  },
+  {
+    "id": "INC-MAH-001",
+    "kind": "Evidence",
+    "title": "Identity, date and location of the Maharashtra incident.",
+    "state": "UNKNOWN",
+    "url": "https://whogavetheorder.netlify.app/evidence.html?id=INC-MAH-001",
+    "type": "OTHER_DOCUMENT",
+    "incidentId": "INC-0003",
+    "dateOfItem": null,
+    "establishes": "Held UNKNOWN at archive operator's instruction. A Supreme Court petition records that disturbances spread to Maharashtra without specifying city, date or police action.",
+    "doesNotEstablish": null,
+    "sourceIds": []
+  },
+  {
+    "id": "PROC-DEL-001",
+    "kind": "Evidence",
+    "title": "Delhi High Court issued notice to Delhi Police and the Union on PILs concerning the 20 and 21 July 2026 police action, directed preservation of records includin",
+    "state": "CORROBORATED",
+    "url": "https://whogavetheorder.netlify.app/evidence.html?id=PROC-DEL-001",
+    "type": "COURT_DOCUMENT",
+    "incidentId": "INC-0001",
+    "dateOfItem": null,
+    "establishes": "PROMOTE TO VERIFIED on retrieval of the order from delhihighcourt.nic.in. Case number and bench composition are from secondary reporting only and must not be cited as VERIFIED until the order is held.",
+    "doesNotEstablish": null,
+    "sourceIds": [
+      "SRC-0007",
+      "SRC-0001",
+      "SRC-0008"
+    ]
+  },
+  {
+    "id": "PROC-SC-001",
+    "kind": "Evidence",
+    "title": "Supreme Court proceedings on petitions concerning police action at Jantar Mantar and elsewhere; petitions allege lathi charge, pellet guns, rubber bullets, tear",
+    "state": "REPORTED",
+    "url": "https://whogavetheorder.netlify.app/evidence.html?id=PROC-SC-001",
+    "type": "COURT_DOCUMENT",
+    "incidentId": null,
+    "dateOfItem": null,
+    "establishes": "SCC OnLine citation is a commercial reporter citation, not a primary source. Retrieve the order from the Supreme Court site before use.",
+    "doesNotEstablish": null,
+    "sourceIds": [
+      "SRC-0009"
+    ]
+  },
+  {
+    "id": "PROC-BIH-001",
+    "kind": "Evidence",
+    "title": "Any court proceeding concerning the Patna, Katihar or Munger incidents.",
+    "state": "UNKNOWN",
+    "url": "https://whogavetheorder.netlify.app/evidence.html?id=PROC-BIH-001",
+    "type": "COURT_DOCUMENT",
+    "incidentId": "INC-0002",
+    "dateOfItem": null,
+    "establishes": "Searched, none found. Absence of a preservation order in Bihar is why Bihar is the deadline-critical jurisdiction.",
+    "doesNotEstablish": null,
+    "sourceIds": []
+  }
+]

@@ -1,0 +1,4 @@
+id,kind,title,state,url,place,date,dateState,summary
+INC-0001,Incident,Police action against students at Jantar Mantar,UNDER_INVESTIGATION,https://whogavetheorder.netlify.app/investigation.html?id=jantar-mantar,"Jantar Mantar, New Delhi",20 and 22 July 2026,CORROBORATED,
+INC-0002,Incident,Police action against students in Bihar,UNDER_INVESTIGATION,https://whogavetheorder.netlify.app/investigation.html?id=bihar,"JP Golambar and Dakbungalow Square, Patna; Katihar; Munger","22, 23 and 25 July 2026",REPORTED,
+INC-0003,Incident,Police action against students in Maharashtra,UNDER_INVESTIGATION,https://whogavetheorder.netlify.app/investigation.html?id=maharashtra,"Maharashtra — held open, no incident located",,UNKNOWN,

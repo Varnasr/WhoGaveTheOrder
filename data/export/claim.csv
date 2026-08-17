@@ -1,0 +1,4 @@
+id,kind,title,state,url,incidentId,evidenceIds
+CLM-0001,Claim,Police used force against students at Jantar Mantar.,UNVERIFIED,https://whogavetheorder.netlify.app/response.html#CLM-0001,INC-0001,
+CLM-0002,Claim,Police used force against students in Bihar.,UNVERIFIED,https://whogavetheorder.netlify.app/response.html#CLM-0002,INC-0002,
+CLM-0003,Claim,Police used force against students in Maharashtra.,UNVERIFIED,https://whogavetheorder.netlify.app/response.html#CLM-0003,INC-0003,

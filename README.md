@@ -59,6 +59,8 @@ map tiles and the Netlify Forms submission endpoints.
 | `about.html` | Transparency: who runs it, funding, methodology, standards, corrections, privacy, takedown |
 | `search.html` | One index across every entity |
 | `rti.html` | RTI register — every application filed, with a live reply-due clock |
+| `changes.html` | What changed — every record added, every state moved, derived from git history. Atom feed at `feed.xml` |
+| `hi.html` | यह अभिलेख क्या है — the Hindi entry page |
 | `admin.html` | Editorial console — integrity checks, review workflow, record composer, CMS spec |
 
 ---
@@ -91,13 +93,29 @@ Incident → Question → Authority → Evidence → Answer state
 ├── data/
 │   ├── taxonomy.js    # every controlled vocabulary + site config. Start here.
 │   ├── records.js     # the record store. Add real content here.
-│   └── samples.js     # layout samples, loaded only while demoMode is on
+│   ├── i18n.js        # the Hindi interface. Grammar only — records are never translated.
+│   ├── samples.js     # layout samples, loaded only while demoMode is on
+│   └── export/        # GENERATED. The archive as JSON and CSV.
 ├── assets/
 │   ├── styles.css     # design system and the evidence-state palette
-│   ├── model.js       # relational graph, counts, search index, integrity checks
-│   ├── ui.js          # chrome, chips, source lines, empty states
+│   ├── model.js       # relational graph, counts, clocks, appeals, integrity checks
+│   ├── ui.js          # chrome, chips, source lines, citations, empty states
 │   └── pages.js       # per-page controllers
+├── tools/             # Node, no dependencies. Loads the site's own model.
+│   ├── archive.js     # evaluates data/ + model.js in a sandbox, at any git revision
+│   ├── check.js       # the integrity checks, for CI
+│   ├── deadlines.js   # runs the RTI clocks on a schedule
+│   └── build.js       # change log, Atom feed, and the export
 └── *.html
+```
+
+### Two commands
+
+Everything generated is committed, and CI fails if either is stale:
+
+```bash
+python3 sourcemap/import.py   # after editing sourcemap/*.json
+node tools/build.js           # after any record changes: change log, feed, export
 ```
 
 ### The source map, and the editorial mapping
@@ -196,6 +214,19 @@ marker — fill the array.
 - [ ] Have a lawyer read the licence and privacy sections, and confirm whether accepting public
       submissions brings this within India's intermediary rules and their grievance-officer
       requirement.
+- [ ] Have a Hindi-speaking editor review `data/i18n.js` and `hi.html`. The translation is
+      published rather than held back, because a reader who cannot use the interface at all is
+      worse served than one reading a translation that wants polishing — but it has not been
+      reviewed by a native speaker.
+- [ ] Set `config.siteUrl` in `data/taxonomy.js` to `https://www.whogavetheorder.in` **on the day
+      DNS starts serving it, not before.** The Atom feed and every citation build absolute URLs out
+      of it, and a feed full of URLs that do not resolve is worse than no feed.
+- [ ] Backfill `archiveUrl` and `sha256` on the 32 imported sources. Every one is a live URL with a
+      retrieval date and no archived copy, which the integrity check reports as a warning: a link is
+      not a citation, because a page can be edited or taken down.
+- [ ] Replace the Delhi High Court directions currently sourced to a news report with the order
+      itself. See the case-law routes in [SOURCING.md](SOURCING.md#where-to-actually-get-the-text) —
+      the Indian Kanoon API gives non-commercial projects ₹10,000 of free credit a month.
 - [x] Netlify forms `wgo-evidence` and `wgo-demand` are registered, with email notifications
       routed to the project reviewer. The address is held in Netlify's site config and deliberately
       not in this repository. Submissions stay in Netlify, outside this repo, so unreviewed material

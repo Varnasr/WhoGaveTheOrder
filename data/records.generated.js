@@ -9,224 +9,288 @@ WGO.importedSources = [
     "name": "Bar & Bench",
     "kind": "SECONDARY",
     "url": "https://www.barandbench.com/news/litigation/not-an-isolated-incident-file-your-response-preserve-cctv-footage-delhi-hc-to-police-on-excesses-against-jantar-mantar-protestors",
-    "retrievedOn": "2026-08-16"
+    "retrievedOn": "2026-08-16",
+    "archiveUrl": null,
+    "sha256": null
   },
   {
     "id": "SRC-0002",
     "name": "Free Press Journal",
     "kind": "SECONDARY",
     "url": "https://www.freepressjournal.in/education/nhrc-takes-cognisance-of-delhi-police-action-during-jantar-mantar-student-protest-seeks-report-within-two-weeks",
-    "retrievedOn": "2026-08-16"
+    "retrievedOn": "2026-08-16",
+    "archiveUrl": null,
+    "sha256": null
   },
   {
     "id": "SRC-0003",
     "name": "Deccan Herald",
     "kind": "SECONDARY",
     "url": "https://www.deccanherald.com/india/delhi/fresh-chaos-erupts-at-jantar-mantar-as-protestors-police-clash-4083673",
-    "retrievedOn": "2026-08-16"
+    "retrievedOn": "2026-08-16",
+    "archiveUrl": null,
+    "sha256": null
   },
   {
     "id": "SRC-0004",
     "name": "The Quint",
     "kind": "SECONDARY",
     "url": "https://www.thequint.com/news/breaking-news/bihar-student-protests-lathi-charge-patna-police-response",
-    "retrievedOn": "2026-08-16"
+    "retrievedOn": "2026-08-16",
+    "archiveUrl": null,
+    "sha256": null
   },
   {
     "id": "SRC-0005",
     "name": "India TV",
     "kind": "SECONDARY",
     "url": "https://www.indiatvnews.com/bihar/news-bihar-students-protest-turns-violent-in-katihar-patna-munger-police-lathicharge-protesters-hurl-stones-latest-updates-2026-07-23-1049145",
-    "retrievedOn": "2026-08-16"
+    "retrievedOn": "2026-08-16",
+    "archiveUrl": null,
+    "sha256": null
   },
   {
     "id": "SRC-0006",
     "name": "The Week",
     "kind": "SECONDARY",
     "url": "https://www.theweek.in/news/india/2026/07/25/bihar-bandh-police-lathi-charge-student-protesters-in-patna-17-detained-as-demonstrators-break-barricades-pelt-stones.html",
-    "retrievedOn": "2026-08-16"
+    "retrievedOn": "2026-08-16",
+    "archiveUrl": null,
+    "sha256": null
   },
   {
     "id": "SRC-0007",
     "name": "Verdictum",
     "kind": "SECONDARY",
     "url": "https://www.verdictum.in/delhi-high-court/jantar-mantar-seeks-union-delhi-police-reply-on-police-action-against-protesters-1618289",
-    "retrievedOn": "2026-08-16"
+    "retrievedOn": "2026-08-16",
+    "archiveUrl": null,
+    "sha256": null
   },
   {
     "id": "SRC-0008",
     "name": "The Week",
     "kind": "SECONDARY",
     "url": "https://www.theweek.in/news/india/2026/07/22/why-delhi-hc-asked-police-to-keep-video-evidence-of-cjp-protest-not-isolated-incidents.html",
-    "retrievedOn": "2026-08-16"
+    "retrievedOn": "2026-08-16",
+    "archiveUrl": null,
+    "sha256": null
   },
   {
     "id": "SRC-0009",
     "name": "SCC Online blog",
     "kind": "SECONDARY",
     "url": "https://www.scconline.com/blog/post/2026/07/29/neet-paper-leak-protest-proceedings-sc-interim-directions-police-violence/",
-    "retrievedOn": "2026-08-16"
+    "retrievedOn": "2026-08-16",
+    "archiveUrl": null,
+    "sha256": null
   },
   {
     "id": "SRC-0010",
     "name": "India Code",
     "kind": "PRIMARY",
     "url": "https://www.indiacode.nic.in/bitstream/123456789/20340/1/bnss,_2023.pdf",
-    "retrievedOn": "2026-08-16"
+    "retrievedOn": "2026-08-16",
+    "archiveUrl": null,
+    "sha256": null
   },
   {
     "id": "SRC-0011",
     "name": "Bureau of Police Research and Development",
     "kind": "PRIMARY",
     "url": "https://bprd.nic.in/uploads/pdf/Comparison%20summary%20BNSS%20to%20CrPC.pdf",
-    "retrievedOn": "2026-08-16"
+    "retrievedOn": "2026-08-16",
+    "archiveUrl": null,
+    "sha256": null
   },
   {
     "id": "SRC-0012",
     "name": "Uttar Pradesh Police",
     "kind": "PRIMARY",
     "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202407031502194192BNSS2023-20-45.pdf",
-    "retrievedOn": "2026-08-16"
+    "retrievedOn": "2026-08-16",
+    "archiveUrl": null,
+    "sha256": null
   },
   {
     "id": "SRC-0013",
     "name": "onlinelawconnect",
     "kind": "SECONDARY",
     "url": "https://onlinelawconnect.com/actsandrules/criminal/bnss/SummaryChapter11.php",
-    "retrievedOn": "2026-08-16"
+    "retrievedOn": "2026-08-16",
+    "archiveUrl": null,
+    "sha256": null
   },
   {
     "id": "SRC-0014",
     "name": "Justice Definitions Project",
     "kind": "SECONDARY",
     "url": "https://www.lawandjusticewiki.org/wiki/Extra-judicial_killings",
-    "retrievedOn": "2026-08-16"
+    "retrievedOn": "2026-08-16",
+    "archiveUrl": null,
+    "sha256": null
   },
   {
     "id": "SRC-0015",
     "name": "ApniLaw",
     "kind": "SECONDARY",
     "url": "https://www.apnilaw.com/bare-act/bnss/section-196-bharatiya-nagarik-suraksha-sanhitabnss-inquiry-by-magistrate-into-cause-of-death/",
-    "retrievedOn": "2026-08-16"
+    "retrievedOn": "2026-08-16",
+    "archiveUrl": null,
+    "sha256": null
   },
   {
     "id": "SRC-0016",
     "name": "India Code",
     "kind": "PRIMARY",
     "url": "https://www.indiacode.nic.in/bitstream/123456789/13669/1/delhi_police_act.pdf",
-    "retrievedOn": "2026-08-16"
+    "retrievedOn": "2026-08-16",
+    "archiveUrl": null,
+    "sha256": null
   },
   {
     "id": "SRC-0017",
     "name": "indianemployees.com",
     "kind": "SECONDARY",
     "url": "https://www.indianemployees.com/acts-rules/details/delhi-police-act-1978",
-    "retrievedOn": "2026-08-16"
+    "retrievedOn": "2026-08-16",
+    "archiveUrl": null,
+    "sha256": null
   },
   {
     "id": "SRC-0018",
     "name": "India Code",
     "kind": "PRIMARY",
     "url": "https://www.indiacode.nic.in/bitstream/123456789/20371/1/ashtra_police.pdf",
-    "retrievedOn": "2026-08-16"
+    "retrievedOn": "2026-08-16",
+    "archiveUrl": null,
+    "sha256": null
   },
   {
     "id": "SRC-0019",
     "name": "Gurukul Nexus",
     "kind": "SECONDARY",
     "url": "https://blog.gurukulnexus.com/police-regulations-maharashtra-police-act-public-order/",
-    "retrievedOn": "2026-08-16"
+    "retrievedOn": "2026-08-16",
+    "archiveUrl": null,
+    "sha256": null
   },
   {
     "id": "SRC-0020",
     "name": "India Code",
     "kind": "PRIMARY",
     "url": "https://www.indiacode.nic.in/bitstream/123456789/11209/1/1094_bihar_bihar_police_act_2007.pdf",
-    "retrievedOn": "2026-08-16"
+    "retrievedOn": "2026-08-16",
+    "archiveUrl": null,
+    "sha256": null
   },
   {
     "id": "SRC-0021",
     "name": "LegitQuest",
     "kind": "SECONDARY",
     "url": "https://www.legitquest.com/act/the-bihar-police-amendment-act-2014/FBD1",
-    "retrievedOn": "2026-08-16"
+    "retrievedOn": "2026-08-16",
+    "archiveUrl": null,
+    "sha256": null
   },
   {
     "id": "SRC-0022",
     "name": "CaseMine",
     "kind": "SECONDARY",
     "url": null,
-    "retrievedOn": null
+    "retrievedOn": null,
+    "archiveUrl": null,
+    "sha256": null
   },
   {
     "id": "SRC-0023",
     "name": "Ministry of Home Affairs",
     "kind": "PRIMARY",
     "url": "https://www.mha.gov.in/sites/default/files/2025-04/NHRCselectedlettersandguidelinesondeathsincustody_09042019_0[1]_4.pdf",
-    "retrievedOn": "2026-08-16"
+    "retrievedOn": "2026-08-16",
+    "archiveUrl": null,
+    "sha256": null
   },
   {
     "id": "SRC-0024",
     "name": "NHRC",
     "kind": "PRIMARY",
     "url": "https://nhrc.nic.in/press-release/nhrc-issues-fresh-guidelines-regarding-intimation-custodial-death",
-    "retrievedOn": "2026-08-16"
+    "retrievedOn": "2026-08-16",
+    "archiveUrl": null,
+    "sha256": null
   },
   {
     "id": "SRC-0025",
     "name": "NHRC",
     "kind": "PRIMARY",
     "url": "https://nhrc.nic.in/investigation-division",
-    "retrievedOn": "2026-08-16"
+    "retrievedOn": "2026-08-16",
+    "archiveUrl": null,
+    "sha256": null
   },
   {
     "id": "SRC-0026",
     "name": "commoner-law.com",
     "kind": "SECONDARY",
     "url": "https://commoner-law.com/india/police-encounters/encounter-killings-and-custodial-deaths",
-    "retrievedOn": "2026-08-16"
+    "retrievedOn": "2026-08-16",
+    "archiveUrl": null,
+    "sha256": null
   },
   {
     "id": "SRC-0027",
     "name": "Bellingcat",
     "kind": "PRIMARY",
     "url": "https://www.bellingcat.com/news/americas/2020/10/29/a-new-platform-maps-us-police-violence-against-protesters/",
-    "retrievedOn": "2026-08-16"
+    "retrievedOn": "2026-08-16",
+    "archiveUrl": null,
+    "sha256": null
   },
   {
     "id": "SRC-0028",
     "name": "GIJN",
     "kind": "PRIMARY",
     "url": "https://gijn.org/stories/how-bellingcat-and-forensic-architecture-teamed-up-with-colombias-cerosetenta-to-map-police-violence/",
-    "retrievedOn": "2026-08-16"
+    "retrievedOn": "2026-08-16",
+    "archiveUrl": null,
+    "sha256": null
   },
   {
     "id": "SRC-0029",
     "name": "The Polis Project",
     "kind": "PRIMARY",
     "url": "https://thepolisproject.com/research/documenting-custodial-violence-reflections-and-further-research-5/",
-    "retrievedOn": "2026-08-16"
+    "retrievedOn": "2026-08-16",
+    "archiveUrl": null,
+    "sha256": null
   },
   {
     "id": "SRC-0030",
     "name": "Wikipedia",
     "kind": "TERTIARY",
     "url": "https://en.wikipedia.org/wiki/DOTO_Database",
-    "retrievedOn": "2026-08-16"
+    "retrievedOn": "2026-08-16",
+    "archiveUrl": null,
+    "sha256": null
   },
   {
     "id": "SRC-0031",
     "name": "Common Cause and CSDS",
     "kind": "PRIMARY",
     "url": "https://www.commoncause.in/wotadmin/upload/SPIR_2025.pdf",
-    "retrievedOn": "2026-08-16"
+    "retrievedOn": "2026-08-16",
+    "archiveUrl": null,
+    "sha256": null
   },
   {
     "id": "SRC-0032",
     "name": "Sage",
     "kind": "PRIMARY",
     "url": "https://journals.sagepub.com/doi/abs/10.1177/00699659231208696",
-    "retrievedOn": "2026-08-16"
+    "retrievedOn": "2026-08-16",
+    "archiveUrl": null,
+    "sha256": null
   }
 ];
 

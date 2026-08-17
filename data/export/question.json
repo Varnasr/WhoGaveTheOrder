@@ -1,0 +1,302 @@
+[
+  {
+    "id": "OQ-001",
+    "kind": "Question",
+    "title": "Record retention period for Delhi Police control-room audio, wireless logs and CCTV.",
+    "state": "UNANSWERED",
+    "url": "https://whogavetheorder.netlify.app/investigation.html?id=jantar-mantar#OQ-001",
+    "incidentId": "INC-0001",
+    "level": null,
+    "evidenceIds": []
+  },
+  {
+    "id": "OQ-002",
+    "kind": "Question",
+    "title": "Record retention period for Bihar Police control-room audio, wireless logs and CCTV at Patna, Katihar and Munger.",
+    "state": "UNANSWERED",
+    "url": "https://whogavetheorder.netlify.app/investigation.html?id=bihar#OQ-002",
+    "incidentId": "INC-0002",
+    "level": null,
+    "evidenceIds": []
+  },
+  {
+    "id": "OQ-003",
+    "kind": "Question",
+    "title": "What is 'the SOP in place' referred to in the Delhi High Court's preservation direction, and what does it cover?",
+    "state": "UNANSWERED",
+    "url": "https://whogavetheorder.netlify.app/investigation.html?id=jantar-mantar#OQ-003",
+    "incidentId": "INC-0001",
+    "level": null,
+    "evidenceIds": []
+  },
+  {
+    "id": "OQ-004",
+    "kind": "Question",
+    "title": "The text of the Delhi High Court order in W.P.(CRL.) 2127/2026.",
+    "state": "UNANSWERED",
+    "url": "https://whogavetheorder.netlify.app/investigation.html?id=jantar-mantar#OQ-004",
+    "incidentId": "INC-0001",
+    "level": null,
+    "evidenceIds": []
+  },
+  {
+    "id": "OQ-005",
+    "kind": "Question",
+    "title": "The report published by The Hindu on 20 July 2026 on which the NHRC founded its cognisance.",
+    "state": "UNANSWERED",
+    "url": "https://whogavetheorder.netlify.app/investigation.html?id=jantar-mantar#OQ-005",
+    "incidentId": "INC-0001",
+    "level": null,
+    "evidenceIds": []
+  },
+  {
+    "id": "OQ-006",
+    "kind": "Question",
+    "title": "PIO designations for every office in the document custody category, in all three jurisdictions.",
+    "state": "UNANSWERED",
+    "url": "https://whogavetheorder.netlify.app/investigation.html?id=#OQ-006",
+    "incidentId": null,
+    "level": null,
+    "evidenceIds": []
+  },
+  {
+    "id": "OQ-007",
+    "kind": "Question",
+    "title": "Bihar RTI Rules: application fee, appeal fee, per-page copying charge, inspection charge.",
+    "state": "UNANSWERED",
+    "url": "https://whogavetheorder.netlify.app/investigation.html?id=bihar#OQ-007",
+    "incidentId": "INC-0002",
+    "level": null,
+    "evidenceIds": []
+  },
+  {
+    "id": "OQ-008",
+    "kind": "Question",
+    "title": "Are SP Katihar, SP Munger and the relevant Patna police authority enrolled as PIOs on Jaankari, or is postal filing required?",
+    "state": "UNANSWERED",
+    "url": "https://whogavetheorder.netlify.app/investigation.html?id=bihar#OQ-008",
+    "incidentId": "INC-0002",
+    "level": null,
+    "evidenceIds": []
+  },
+  {
+    "id": "OQ-009",
+    "kind": "Question",
+    "title": "Does any binding Supreme Court or NHRC guideline address the use of force against assemblies specifically, as distinct from custody and encounter deaths?",
+    "state": "UNANSWERED",
+    "url": "https://whogavetheorder.netlify.app/investigation.html?id=#OQ-009",
+    "incidentId": null,
+    "level": null,
+    "evidenceIds": []
+  },
+  {
+    "id": "OQ-010",
+    "kind": "Question",
+    "title": "Are the Delhi, Bihar and Maharashtra police manuals published, partially published, or RTI-only?",
+    "state": "UNANSWERED",
+    "url": "https://whogavetheorder.netlify.app/investigation.html?id=#OQ-010",
+    "incidentId": null,
+    "level": null,
+    "evidenceIds": []
+  },
+  {
+    "id": "OQ-011",
+    "kind": "Question",
+    "title": "Full operative text of BNSS ss.148 to 151 compared word for word against the gazette.",
+    "state": "UNANSWERED",
+    "url": "https://whogavetheorder.netlify.app/investigation.html?id=#OQ-011",
+    "incidentId": null,
+    "level": null,
+    "evidenceIds": []
+  },
+  {
+    "id": "OQ-012",
+    "kind": "Question",
+    "title": "BNSS s.196 verified against India Code rather than secondary sources.",
+    "state": "UNANSWERED",
+    "url": "https://whogavetheorder.netlify.app/investigation.html?id=#OQ-012",
+    "incidentId": null,
+    "level": null,
+    "evidenceIds": []
+  },
+  {
+    "id": "OQ-013",
+    "kind": "Question",
+    "title": "Is the Bihar Police Act 2007 Bihar Act 1 of 2007 or Bihar Act 7 of 2007?",
+    "state": "UNANSWERED",
+    "url": "https://whogavetheorder.netlify.app/investigation.html?id=bihar#OQ-013",
+    "incidentId": "INC-0002",
+    "level": null,
+    "evidenceIds": []
+  },
+  {
+    "id": "OQ-014",
+    "kind": "Question",
+    "title": "Correct citations and text of PUCL v. State of Maharashtra and D.K. Basu v. State of West Bengal.",
+    "state": "UNANSWERED",
+    "url": "https://whogavetheorder.netlify.app/investigation.html?id=#OQ-014",
+    "incidentId": null,
+    "level": null,
+    "evidenceIds": []
+  },
+  {
+    "id": "OQ-015",
+    "kind": "Question",
+    "title": "Does any state police statute contain a command responsibility provision?",
+    "state": "UNANSWERED",
+    "url": "https://whogavetheorder.netlify.app/investigation.html?id=#OQ-015",
+    "incidentId": null,
+    "level": null,
+    "evidenceIds": []
+  },
+  {
+    "id": "OQ-016",
+    "kind": "Question",
+    "title": "CIC position on OCI cardholders and foreign nationals under s.3 RTI Act.",
+    "state": "UNANSWERED",
+    "url": "https://whogavetheorder.netlify.app/investigation.html?id=#OQ-016",
+    "incidentId": null,
+    "level": null,
+    "evidenceIds": []
+  },
+  {
+    "id": "OQ-017",
+    "kind": "Question",
+    "title": "Do any of the three payment gateways accept a foreign-issued card? Does HRCNet OTP accept a foreign mobile number?",
+    "state": "UNANSWERED",
+    "url": "https://whogavetheorder.netlify.app/investigation.html?id=#OQ-017",
+    "incidentId": null,
+    "level": null,
+    "evidenceIds": []
+  },
+  {
+    "id": "OQ-018",
+    "kind": "Question",
+    "title": "Record access regimes at the Delhi, Patna and Bombay High Courts and the Supreme Court.",
+    "state": "UNANSWERED",
+    "url": "https://whogavetheorder.netlify.app/investigation.html?id=#OQ-018",
+    "incidentId": null,
+    "level": null,
+    "evidenceIds": []
+  },
+  {
+    "id": "OQ-019",
+    "kind": "Question",
+    "title": "Current official Delhi Police View FIR URL.",
+    "state": "UNANSWERED",
+    "url": "https://whogavetheorder.netlify.app/investigation.html?id=jantar-mantar#OQ-019",
+    "incidentId": "INC-0001",
+    "level": null,
+    "evidenceIds": []
+  },
+  {
+    "id": "OQ-020",
+    "kind": "Question",
+    "title": "Were FIRs registered against protesters, against police, or both, in any of the four incidents, and what are their numbers?",
+    "state": "UNANSWERED",
+    "url": "https://whogavetheorder.netlify.app/investigation.html?id=#OQ-020",
+    "incidentId": null,
+    "level": null,
+    "evidenceIds": []
+  },
+  {
+    "id": "OQ-021",
+    "kind": "Question",
+    "title": "NHRC diary or case numbers for the suo motu proceeding and the Vashisht complaint; and whether the Delhi Police report called for on 25 July has been filed.",
+    "state": "UNANSWERED",
+    "url": "https://whogavetheorder.netlify.app/investigation.html?id=jantar-mantar#OQ-021",
+    "incidentId": "INC-0001",
+    "level": null,
+    "evidenceIds": []
+  },
+  {
+    "id": "OQ-022",
+    "kind": "Question",
+    "title": "Is a report submitted by a police authority to a human rights commission reachable by RTI against the commission, against the force, or neither?",
+    "state": "UNANSWERED",
+    "url": "https://whogavetheorder.netlify.app/investigation.html?id=#OQ-022",
+    "incidentId": null,
+    "level": null,
+    "evidenceIds": []
+  },
+  {
+    "id": "OQ-023",
+    "kind": "Question",
+    "title": "Notice periods and tabling procedure for questions in all four houses, and session calendars for the coming year.",
+    "state": "UNANSWERED",
+    "url": "https://whogavetheorder.netlify.app/investigation.html?id=#OQ-023",
+    "incidentId": null,
+    "level": null,
+    "evidenceIds": []
+  },
+  {
+    "id": "OQ-024",
+    "kind": "Question",
+    "title": "Identity, date and location of the Maharashtra incident.",
+    "state": "UNANSWERED",
+    "url": "https://whogavetheorder.netlify.app/investigation.html?id=maharashtra#OQ-024",
+    "incidentId": "INC-0003",
+    "level": null,
+    "evidenceIds": []
+  },
+  {
+    "id": "OQ-025",
+    "kind": "Question",
+    "title": "If a resident co-filer is used to solve a citizenship or payment problem, how is their exposure under s.11 RTI Act managed?",
+    "state": "UNANSWERED",
+    "url": "https://whogavetheorder.netlify.app/investigation.html?id=#OQ-025",
+    "incidentId": null,
+    "level": null,
+    "evidenceIds": []
+  },
+  {
+    "id": "OQ-026",
+    "kind": "Question",
+    "title": "Any documented instance of an Indian accountability archive facing a takedown, suit, criminal complaint, or source exposure.",
+    "state": "UNANSWERED",
+    "url": "https://whogavetheorder.netlify.app/investigation.html?id=#OQ-026",
+    "incidentId": null,
+    "level": null,
+    "evidenceIds": []
+  },
+  {
+    "id": "OQ-027",
+    "kind": "Question",
+    "title": "Who operates delhi-police-violence.vercel.app, on what verification method, and is it durable?",
+    "state": "UNANSWERED",
+    "url": "https://whogavetheorder.netlify.app/investigation.html?id=jantar-mantar#OQ-027",
+    "incidentId": "INC-0001",
+    "level": null,
+    "evidenceIds": []
+  },
+  {
+    "id": "OQ-028",
+    "kind": "Question",
+    "title": "Is 'Cockroach Janta Party' the organisation's actual registered or self-adopted name?",
+    "state": "UNANSWERED",
+    "url": "https://whogavetheorder.netlify.app/investigation.html?id=jantar-mantar#OQ-028",
+    "incidentId": "INC-0001",
+    "level": null,
+    "evidenceIds": []
+  },
+  {
+    "id": "OQ-029",
+    "kind": "Question",
+    "title": "Are armoury issue registers exempt under s.8 RTI Act, and on what ground?",
+    "state": "UNANSWERED",
+    "url": "https://whogavetheorder.netlify.app/investigation.html?id=#OQ-029",
+    "incidentId": null,
+    "level": null,
+    "evidenceIds": []
+  },
+  {
+    "id": "OQ-030",
+    "kind": "Question",
+    "title": "Was a magisterial inquiry ordered for any of the four incidents?",
+    "state": "UNANSWERED",
+    "url": "https://whogavetheorder.netlify.app/investigation.html?id=#OQ-030",
+    "incidentId": null,
+    "level": null,
+    "evidenceIds": []
+  }
+]

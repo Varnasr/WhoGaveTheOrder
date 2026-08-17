@@ -1,0 +1,9 @@
+id,kind,title,state,url,level,jurisdiction,appliesTo
+OFC-0001,Office,Union Ministry of Home Affairs,,https://whogavetheorder.netlify.app/chain.html#OFC-0001,UNION,Union of India,INC-0001 INC-0002 INC-0003
+OFC-0002,Office,State Home Department,,https://whogavetheorder.netlify.app/chain.html#OFC-0002,STATE,Bihar / Maharashtra,INC-0002 INC-0003
+OFC-0003,Office,Director General of Police (State),,https://whogavetheorder.netlify.app/chain.html#OFC-0003,SENIOR,Bihar / Maharashtra,INC-0002 INC-0003
+OFC-0004,Office,Commissioner of Police,,https://whogavetheorder.netlify.app/chain.html#OFC-0004,SENIOR,"Commissionerate cities, including Delhi",INC-0001 INC-0003
+OFC-0005,Office,District Magistrate,,https://whogavetheorder.netlify.app/chain.html#OFC-0005,SENIOR,District (non-commissionerate),INC-0002 INC-0003
+OFC-0006,Office,Superintendent of Police / Deputy Commissioner of Police (District),,https://whogavetheorder.netlify.app/chain.html#OFC-0006,OPERATIONAL,District or police district,INC-0001 INC-0002 INC-0003
+OFC-0007,Office,Officer commanding the deployment on site,,https://whogavetheorder.netlify.app/chain.html#OFC-0007,OPERATIONAL,The site of the incident,INC-0001 INC-0002 INC-0003
+OFC-0008,Office,Field personnel and units deployed,,https://whogavetheorder.netlify.app/chain.html#OFC-0008,FIELD,The site of the incident,INC-0001 INC-0002 INC-0003

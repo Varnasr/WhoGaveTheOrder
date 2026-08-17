@@ -74,12 +74,20 @@ def source_id_for(s):
     if key not in sources:
         sid = 'SRC-%04d' % (len(sources) + 1)
         sources[key] = sid
+        # Fixity travels with the source. A link is not a citation: pages are
+        # edited, paywalled and taken down, and a source that cannot be shown to
+        # be the one we read is a source the archive cannot defend. These are
+        # carried through when the source map has them and left null when it
+        # does not — the integrity check reports the gap rather than the import
+        # inventing a value for it.
         source_records.append({
             'id': sid,
             'name': s.get('publication') or 'Unattributed source',
             'kind': (s.get('source_type') or 'secondary').upper(),
             'url': url,
             'retrievedOn': s.get('retrieved_on'),
+            'archiveUrl': s.get('archive_url'),
+            'sha256': s.get('sha256'),
         })
     return sources[key]
 
