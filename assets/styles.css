@@ -8,16 +8,34 @@
 /* --- Tokens --------------------------------------------------------------- */
 
 :root {
-  /* Paper and ink */
-  --paper:        #fcfcfa;
+  /* Paper and ink.
+     A softer, cooler ground than pure black on white. The ink is a blue-black
+     rather than a true black, which reads as considered rather than severe while
+     keeping well clear of contrast minimums. */
+  --paper:        #f8f9fa;
   --paper-2:      #ffffff;
-  --paper-3:      #f4f4f1;
-  --ink:          #0b0b0c;
-  --ink-2:        #3a3a3d;
-  --ink-3:        #6b6b70;
-  --ink-4:        #97979c;
-  --rule:         #dedcd6;
-  --rule-strong:  #b8b6ae;
+  --paper-3:      #eef2f5;
+  --ink:          #16232e;
+  --ink-2:        #3d4c58;
+  --ink-3:        #64737f;
+  --ink-4:        #93a1ab;
+  --rule:         #dde4ea;
+  --rule-strong:  #b3c2ce;
+
+  /* --- Brand: light blue, yellow, light grey ---------------------------- *
+     The blue leads, the yellow is used sparingly for emphasis, and the grey
+     carries surfaces. These are deliberately kept out of the evidence-state
+     range below: a brand colour that reads as a status label would break the
+     one thing this interface has to get right. Yellow in particular never fills
+     a large area, because REPORTED is amber and the two must not blur. */
+  --brand-blue:        #6fa8d0;   /* the signature light blue */
+  --brand-blue-ink:    #1b5a82;   /* text-safe on light ground */
+  --brand-blue-soft:   #e6f0f7;
+  --brand-blue-line:   #a9cfe6;
+  --brand-yellow:      #f0c53f;
+  --brand-yellow-ink:  #7a5b00;
+  --brand-yellow-soft: #fdf6e0;
+  --brand-grey:        #eef2f5;
 
   /* Evidence states — restrained accents, never decorative */
   --verified-fg:      #0f5132;  --verified-bg:      #e6f2ea;  --verified-br:      #a9cfba;
@@ -27,10 +45,10 @@
   --unverified-fg:    #4b5563;  --unverified-bg:    #eeeeec;  --unverified-br:    #cfcfca;
   --unknown-fg:       #fcfcfa;  --unknown-bg:       #101012;  --unknown-br:       #101012;
 
-  /* Interface accent — a single, quiet civic blue-black */
-  --accent:       #123a5e;
-  --accent-soft:  #e8eef4;
-  --focus:        #1b6b4a;
+  /* Interface accent, drawn from the brand rather than a separate navy. */
+  --accent:       var(--brand-blue-ink);
+  --accent-soft:  var(--brand-blue-soft);
+  --focus:        var(--brand-blue-ink);
 
   /* Type */
   --serif: ui-serif, Georgia, "Iowan Old Style", "Times New Roman", Times, serif;
@@ -44,15 +62,24 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --paper:       #101012;
-    --paper-2:     #17171a;
-    --paper-3:     #1d1d21;
-    --ink:         #f2f1ee;
-    --ink-2:       #cfcecb;
-    --ink-3:       #9d9ca0;
-    --ink-4:       #74737a;
-    --rule:        #2c2c31;
-    --rule-strong: #45454c;
+    --paper:       #0f1720;
+    --paper-2:     #16202b;
+    --paper-3:     #1c2833;
+    --ink:         #eef3f7;
+    --ink-2:       #c6d2dc;
+    --ink-3:       #93a1ab;
+    --ink-4:       #6b7a86;
+    --rule:        #263340;
+    --rule-strong: #3d4d5c;
+
+    --brand-blue:        #7fb8dd;
+    --brand-blue-ink:    #9ccbe8;
+    --brand-blue-soft:   #142634;
+    --brand-blue-line:   #2f5570;
+    --brand-yellow:      #e8c257;
+    --brand-yellow-ink:  #f0d68a;
+    --brand-yellow-soft: #2a2413;
+    --brand-grey:        #1c2833;
 
     --verified-fg:     #79d3a3;  --verified-bg:     #10261c;  --verified-br:     #2c5a41;
     --corroborated-fg: #7cc4e6;  --corroborated-bg: #0e2430;  --corroborated-br: #285b73;
@@ -61,9 +88,9 @@
     --unverified-fg:   #a8a8ae;  --unverified-bg:   #212126;  --unverified-br:   #3b3b42;
     --unknown-fg:      #101012;  --unknown-bg:      #f2f1ee;  --unknown-br:      #f2f1ee;
 
-    --accent:      #8fc0e8;
-    --accent-soft: #14222f;
-    --focus:       #6fd3a4;
+    --accent:      var(--brand-blue-ink);
+    --accent-soft: var(--brand-blue-soft);
+    --focus:       var(--brand-blue-ink);
   }
 }
 
@@ -233,7 +260,7 @@ section + section { border-top: 1px solid var(--rule); }
   white-space: nowrap;
 }
 @media (min-width: 560px) { .cta-persistent { padding: 0.45rem 0.75rem; font-size: 0.6875rem; letter-spacing: 0.09em; } }
-.cta-persistent:hover { background: var(--accent); color: #fff; }
+.cta-persistent:hover { background: var(--accent); color: var(--paper); }
 
 .notice-bar {
   background: var(--paper-3);
@@ -264,7 +291,7 @@ section + section { border-top: 1px solid var(--rule); }
   font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase;
   transition: background 0.15s, color 0.15s, border-color 0.15s;
 }
-.btn:hover { background: var(--accent); border-color: var(--accent); color: #fff; }
+.btn:hover { background: var(--accent); border-color: var(--accent); color: var(--paper); }
 .btn--ghost { background: transparent; color: var(--ink); }
 .btn--ghost:hover { background: var(--ink); color: var(--paper); border-color: var(--ink); }
 .btn--small { padding: 0.45rem 0.7rem; font-size: 0.6875rem; }
@@ -695,3 +722,111 @@ blockquote.official cite { display: block; margin-top: 0.4rem; font-family: var(
   border-top: 1px dotted var(--rule);
   font-size: 0.8125rem;
 }
+
+/* ==========================================================================
+   Brand application
+   The palette lands on chrome and structure only. Evidence chips keep their own
+   semantic colours: a reader must be able to tell VERIFIED from REPORTED at a
+   glance, and a decorative colour competing with them would cost more than it
+   adds.
+   ========================================================================== */
+
+/* A two-band rule across the very top: blue over yellow. This is the whole of
+   the yellow's job as a flat colour on the page — everywhere else it appears
+   only behind dark text, where its own contrast against the paper does not
+   matter but the text's contrast against it does. */
+.masthead::before {
+  content: "";
+  display: block;
+  height: 4px;
+  background: linear-gradient(to bottom,
+    var(--brand-blue-ink) 0 55%, var(--brand-yellow) 55% 100%);
+  /* Deep blue rather than the light blue, so the two bands separate on
+     luminance and not on hue alone — the stripe still reads for someone who
+     cannot distinguish blue from yellow. */
+}
+.masthead { border-top: 0; }
+
+/* The status bar carries the brand tint rather than flat grey. */
+.notice-bar {
+  background: var(--brand-blue-soft);
+  border-bottom: 1px solid var(--brand-blue-line);
+  color: var(--ink-2);
+}
+
+
+/* Kickers were grey on grey. Blue gives them a job. */
+.kicker { color: var(--brand-blue-ink); }
+
+/* Links: blue, underlined on hover, as a document should be. */
+a { color: var(--brand-blue-ink); }
+a:hover { color: var(--ink); text-decoration-color: var(--brand-yellow); }
+
+/* The wordmark is an anchor, but it is not a link being offered to the reader —
+   it is the masthead of the publication. It stays ink, so the top of the page
+   reads as a nameplate rather than as navigation. */
+.wordmark, .wordmark:hover { color: var(--ink); }
+.nav a[aria-current="page"] { box-shadow: inset 0 -2px 0 var(--brand-blue-ink); }
+
+/* Primary action stays high-contrast ink; the ghost button becomes blue-edged
+   so the pair reads as a set rather than two weights of black. */
+.btn--ghost { border-color: var(--brand-blue-line); color: var(--brand-blue-ink); }
+/* --paper, not #fff: in dark mode --brand-blue-ink is a *light* blue, so a
+   hardcoded white label on it would be unreadable. --paper inverts with the
+   scheme and stays above 7:1 in both. */
+.btn--ghost:hover { background: var(--brand-blue-ink); border-color: var(--brand-blue-ink); color: var(--paper); }
+
+/* Cards tint towards the brand on hover rather than just darkening. */
+a.card:hover { border-color: var(--brand-blue); background: var(--brand-blue-soft); }
+.entry a:hover { border-color: var(--brand-blue); background: var(--brand-blue-soft); }
+
+/* The callout was a flat blue-grey; now it is clearly the brand. */
+.callout { border-left-color: var(--brand-blue); background: var(--brand-blue-soft); }
+
+/* Numbered steps and section numbers in blue, so the eye can follow them. */
+.section-number { color: var(--brand-blue-ink); }
+
+/* The one figure that matters most on the homepage gets the yellow rule. Used
+   once, deliberately, rather than sprinkled. `.stat b` is a block, so it has to
+   become inline-block for the rule to hug the digit instead of running the full
+   width of the column and reading as a stray bar. */
+.stat--zero b {
+  display: inline-block;
+  color: var(--ink);
+  padding-bottom: 0.12rem;
+  border-bottom: 3px solid var(--brand-yellow);
+}
+
+
+/* The UNKNOWN block is the site's strongest visual state and stays near-black,
+   but softened to the same blue-black as the ink so it belongs to the palette. */
+.gap-block { background: #16232e; }
+@media (prefers-color-scheme: dark) { .gap-block { background: #eef3f7; } }
+
+/* Explainer question-mark bubble picks up the blue. */
+.explainer summary::before { border-color: var(--brand-blue-line); color: var(--brand-blue-ink); }
+.explainer { border-left-color: var(--brand-blue); }
+
+/* Timeline and chain connectors, previously grey. */
+.timeline { border-left-color: var(--brand-blue-line); }
+.chain__rung { color: var(--brand-blue-ink); }
+.chain__arrow { color: var(--brand-blue); }
+
+/* Footer sits on the grey surface so the page closes rather than stopping.
+   Moving it off white costs contrast: --ink-3 on --paper-3 measures 4.34:1,
+   under AA for body text, so the footer's own text steps up one level. The
+   column headings are uppercase 11px and step up too. */
+.site-footer {
+  background: var(--paper-3);
+  border-top: 1px solid var(--brand-blue-line);
+  color: var(--ink-2);
+}
+.site-footer h4 { color: var(--ink); }
+
+/* Filter chips: selected state in blue rather than black, which was heavy. */
+.filter-chip[aria-pressed="true"] {
+  background: var(--brand-blue-ink); border-color: var(--brand-blue-ink); color: var(--paper);
+}
+
+/* Tables: banded with the grey surface for readability on long lists. */
+.meta-table tbody tr:nth-child(odd) { background: color-mix(in srgb, var(--paper-3) 55%, transparent); }
