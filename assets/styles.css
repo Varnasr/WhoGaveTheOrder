@@ -720,6 +720,53 @@ blockquote.official cite { display: block; margin-top: 0.4rem; font-family: var(
 
 .hero .display { font-size: clamp(1.9rem, 8vw, 4rem); }
 
+/* --- Language switch ------------------------------------------------------ *
+   Sits in the status bar rather than the navigation: it is a property of how
+   you are reading the page, not another place to go. */
+
+.notice-bar__inner {
+  display: flex; flex-wrap: wrap; gap: 0.35rem 1rem;
+  align-items: baseline; justify-content: space-between;
+}
+.lang-switch { flex: none; font-size: 0.75rem; white-space: nowrap; }
+.lang-switch a { color: var(--brand-blue-ink); }
+.lang-switch__on { font-weight: 700; color: var(--ink); }
+
+/* --- Source provenance ---------------------------------------------------- *
+   Shown on a record page, where a reader is deciding whether to believe it.
+   The fixity line is deliberately plain: what the archive holds, and what it
+   admits it does not. */
+
+.source-detail { list-style: none; }
+.source-detail > li { padding: 0.35rem 0; }
+.source-detail > li + li { border-top: 1px dotted var(--rule); }
+.source-detail__fixity { color: var(--ink-3); margin-top: 0.1rem; }
+
+/* --- The change log ------------------------------------------------------- *
+   A list of records, not prose. The verb is what the eye scans for, so it is
+   set apart from the record title rather than running into it. */
+
+.change__list { list-style: none; margin-top: 0.85rem; }
+.change__list > li {
+  padding: 0.5rem 0;
+  border-top: 1px dotted var(--rule);
+  font-size: 0.875rem;
+}
+.change__verb {
+  font-size: 0.625rem; font-weight: 800; letter-spacing: 0.1em; text-transform: uppercase;
+  color: var(--brand-blue-ink);
+}
+.change__fields { list-style: none; margin: 0.4rem 0 0 0.9rem; }
+.change__fields > li { margin-bottom: 0.2rem; }
+.change__more > summary {
+  cursor: pointer;
+  padding: 0.5rem 0;
+  border-top: 1px dotted var(--rule);
+  font-size: 0.6875rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase;
+  color: var(--brand-blue-ink);
+}
+.change__more[open] > summary { border-bottom: 0; }
+
 /* --- The appeal block ----------------------------------------------------- *
    Sits under an RTI record once the statutory period has run. The draft is
    monospaced because it is a document to be copied out, not prose to be read,
@@ -731,6 +778,7 @@ blockquote.official cite { display: block; margin-top: 0.4rem; font-family: var(
   padding-top: 0.75rem;
   border-top: 1px dotted var(--rule);
 }
+.cite__text,
 .appeal__draft {
   margin-top: 0.6rem;
   font-family: var(--mono);
@@ -746,6 +794,8 @@ blockquote.official cite { display: block; margin-top: 0.4rem; font-family: var(
   max-height: 24rem;
   overflow-y: auto;
 }
+/* A citation is three lines, not a document — it does not need the scroll box. */
+.cite__text { max-height: none; }
 
 /* --- Footer legal row ----------------------------------------------------- */
 

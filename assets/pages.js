@@ -431,7 +431,13 @@
         return items.length
           ? '<div class="grid grid--2">' + items.map(externalCard).join('') + '</div>'
           : ui.empty('Nothing indexed yet', 'When we index other people\'s work on this incident it will appear here, credited to them.');
-      })());
+      })() +
+      '<div style="margin-top:1.5rem">' + ui.citeBlock({
+        id: incident.id, title: incident.title, state: incident.incidentState,
+        path: 'investigation.html?id=' + incident.slug
+      }) + '</div>');
+
+    ui.bindCopy(document);
   };
 
   function row(label, valueHtml) {
@@ -702,7 +708,7 @@
           var inc = model.incident(item.incidentId);
           return inc ? '<a href="investigation.html?id=' + ui.esc(inc.slug) + '">' + ui.esc(inc.place) + '</a>' : 'Unassigned';
         })()) +
-        row('Source', ui.sourceLine(item.sourceIds)) +
+        row('Source', ui.sourceDetail(item.sourceIds)) +
         row('How we obtained it', ui.esc(item.origin || 'Not recorded')) +
         row('Verification status', ui.chip(item.verification) + ' <span class="small">' +
             ui.esc((WGO.EVIDENCE_STATES[item.verification] || {}).definition || '') + '</span>') +
@@ -722,7 +728,14 @@
         '<p><strong>Access.</strong> ' + ui.esc(item.accessNote || 'Original made available where it is lawful and safe to do so.') + '</p>' +
         '<p>Spotted a mistake in this record? <a href="about.html#corrections">Report an error</a>. ' +
         'Corrections are logged publicly with the date and what changed.</p>' +
-      '</div>');
+      '</div>' +
+
+      '<div style="margin-top:1.5rem">' + ui.citeBlock({
+        id: item.id, title: item.title, state: item.verification,
+        path: 'evidence.html?id=' + item.id
+      }) + '</div>');
+
+    ui.bindCopy(document);
   }
 
   /* ======================================================================= *
@@ -1112,6 +1125,148 @@
   };
 
   /* ======================================================================= *
+     HINDI ENTRY PAGE
+     The record states, rendered from the taxonomy in whichever language the
+     reader is in, so this page cannot drift from the chips on every other page.
+     ======================================================================= */
+
+  pages.hindi = function () {
+    document.documentElement.setAttribute('lang', 'hi');
+
+    ui.mount('[data-region="hi-states"]',
+      '<p class="kicker">छह स्थितियाँ</p>' +
+      '<h3 style="margin:0.35rem 0 0.75rem;font-size:1.25rem">हर कथन के साथ एक स्थिति जुड़ी होती है</h3>' +
+      '<div class="chip-legend">' +
+        Object.keys(WGO.EVIDENCE_STATES).map(function (key) {
+          var def = ui.stateDef(key) || {};
+          return '<div>' + ui.chip(key) + '<p>' + ui.esc(def.definition || '') + '</p></div>';
+        }).join('') +
+      '</div>');
+  };
+
+  /* ======================================================================= *
+     WHAT CHANGED
+     Derived from the git history by tools/build.js. The page renders it and
+     adds nothing: if this disagreed with the repository, the repository would
+     be right, so there is no second source of truth to keep honest.
+     ======================================================================= */
+
+  function changeLine(rec, verb) {
+    var link = rec.url
+      ? '<a href="' + ui.esc(rec.url) + '">' + ui.esc(rec.title || rec.id) + '</a>'
+      : ui.esc(rec.title || rec.id);
+    return '<li>' +
+      '<span class="change__verb">' + ui.esc(verb) + '</span> ' +
+      ui.plainChip(rec.kind) + ' ' +
+      '<span class="mono">' + ui.esc(rec.id) + '</span> — ' + link +
+    '</li>';
+  }
+
+  /* `state`, but also `dateState` and anything else the model names that way:
+     an incident's date moving from UNKNOWN to CORROBORATED is a state moving,
+     and the page should not call it an edit because of where it is stored. */
+  function isStateField(name) {
+    return /(^|[a-z])state$/i.test(String(name));
+  }
+
+  function fieldLine(field) {
+    /* A state moving is shown as chips, because that is how it is shown
+       everywhere else on the site. Anything else is shown as text, trimmed. */
+    if (isStateField(field.field)) {
+      return '<li>' + (field.from ? ui.chip(field.from) : ui.plainChip('nothing')) +
+        ' <span aria-hidden="true">&rarr;</span> ' +
+        (field.to ? ui.chip(field.to) : ui.plainChip('nothing')) + '</li>';
+    }
+    return '<li class="small"><strong>' + ui.esc(field.field) + '</strong>: ' +
+      (field.from ? ui.esc(field.from) : '<em>nothing</em>') +
+      ' <span aria-hidden="true">&rarr;</span> ' +
+      (field.to ? ui.esc(field.to) : '<em>nothing</em>') + '</li>';
+  }
+
+  /* One import can move a hundred and forty records. Listing them all leaves a
+     page ten thousand pixels tall, which is not a change log, it is a dump —
+     so each group shows its first few and folds the rest away. */
+  var CHANGE_PREVIEW = 6;
+
+  function changeGroup(list, verb, render) {
+    if (!list || !list.length) { return ''; }
+    var head = list.slice(0, CHANGE_PREVIEW).map(render).join('');
+    if (list.length <= CHANGE_PREVIEW) {
+      return '<ul class="change__list">' + head + '</ul>';
+    }
+    var rest = list.slice(CHANGE_PREVIEW).map(render).join('');
+    return '<ul class="change__list">' + head + '</ul>' +
+      '<details class="change__more">' +
+        '<summary>' + verb.toLowerCase() + ': show the other ' + (list.length - CHANGE_PREVIEW) + '</summary>' +
+        '<ul class="change__list">' + rest + '</ul>' +
+      '</details>';
+  }
+
+  function changedRecord(rec) {
+    var link = rec.url
+      ? '<a href="' + ui.esc(rec.url) + '">' + ui.esc(rec.title || rec.id) + '</a>'
+      : ui.esc(rec.title || rec.id);
+    return '<li>' +
+      '<span class="change__verb">Changed</span> ' + ui.plainChip(rec.kind) + ' ' +
+      '<span class="mono">' + ui.esc(rec.id) + '</span> — ' + link +
+      '<ul class="change__fields">' + rec.fields.map(fieldLine).join('') + '</ul>' +
+    '</li>';
+  }
+
+  function changeEntry(entry) {
+    /* A state change is the entry that matters, so it is listed before an edit
+       to a description no matter which order the diff produced them in. */
+    var changed = (entry.changed || []).slice().sort(function (a, b) {
+      var sa = a.fields.some(function (f) { return isStateField(f.field); }) ? 0 : 1;
+      var sb = b.fields.some(function (f) { return isStateField(f.field); }) ? 0 : 1;
+      return sa - sb;
+    });
+
+    return '<article class="card" id="' + ui.esc(entry.commit) + '">' +
+      '<div class="row">' +
+        '<span class="chip chip--plain mono">' + ui.esc(entry.commit) + '</span>' +
+        '<span class="small">' + ui.esc(String(entry.date).slice(0, 10)) + '</span>' +
+      '</div>' +
+      '<h3>' + ui.esc(entry.summary) + '</h3>' +
+      '<p class="small">' + ui.esc(entry.subject) + '</p>' +
+      changeGroup(changed, 'Changed', changedRecord) +
+      changeGroup(entry.added, 'Added', function (r) { return changeLine(r, 'Added'); }) +
+      changeGroup(entry.removed, 'Removed', function (r) { return changeLine(r, 'Removed'); }) +
+    '</article>';
+  }
+
+  pages.changes = function () {
+    var history = WGO.changes || [];
+
+    var added = 0, states = 0;
+    history.forEach(function (entry) {
+      added += (entry.added || []).length;
+      (entry.changed || []).forEach(function (rec) {
+        if (rec.fields.some(function (f) { return isStateField(f.field); })) { states += 1; }
+      });
+    });
+
+    ui.mount('[data-region="changes-counts"]',
+      '<div><b>' + history.length + '</b><span>Changes recorded</span></div>' +
+      '<div><b>' + added + '</b><span>Records added</span></div>' +
+      '<div><b>' + states + '</b><span>States moved</span></div>');
+
+    ui.mount('[data-region="changes-help"]', ui.explainer('What counts as a change here?',
+      '<p>Anything that alters a record the site renders: a new document, a claim moving between ' +
+      'states, an edit to what a document establishes. Changes to the site\'s wording or design ' +
+      'are not listed — they are in the repository, but they do not change what the archive ' +
+      'says.</p>' +
+      '<p style="margin-top:0.5rem">Each entry names the commit it came from. The commit is the ' +
+      'authoritative version; this page is derived from it.</p>'));
+
+    ui.mount('[data-region="changes-list"]',
+      history.length
+        ? history.map(changeEntry).join('')
+        : ui.empty('No changes recorded yet',
+            'The change log is derived from the history of the record store. It fills up as records are added and states move.'));
+  };
+
+  /* ======================================================================= *
      EDITORIAL CONSOLE
      ======================================================================= */
 
@@ -1130,13 +1285,27 @@
       '<div><b>' + counts.rtiOverdue + '</b><span>RTIs overdue</span></div>' +
       '<div><b>' + counts.persons + '</b><span>Named persons</span></div>');
 
-    var problems = model.integrity();
+    /* Errors first, then warnings. The console is where an editor decides what
+       to do next, and a broken reference and an unfinished record are not the
+       same job. The same split runs in CI, off the same function. */
+    var problems = model.integrity().sort(function (a, b) {
+      return (a.severity === 'error' ? 0 : 1) - (b.severity === 'error' ? 0 : 1);
+    });
+    var errorCount = problems.filter(function (p) { return p.severity === 'error'; }).length;
+
     ui.mount('[data-region="integrity"]',
       problems.length
-        ? '<div class="table-scroll"><table class="meta-table"><thead><tr>' +
+        ? '<p class="small" style="margin-bottom:0.75rem"><strong>' + errorCount + '</strong> error' +
+            (errorCount === 1 ? '' : 's') + ' · <strong>' + (problems.length - errorCount) +
+            '</strong> warning' + (problems.length - errorCount === 1 ? '' : 's') +
+            '. Errors break a rule the archive states publicly. Warnings are records that render ' +
+            'honestly but are not finished.</p>' +
+          '<div class="table-scroll"><table class="meta-table"><thead><tr>' +
             '<th scope="col">Record</th><th scope="col">Problem</th><th scope="col">Reference</th></tr></thead><tbody>' +
           problems.map(function (p) {
-            return '<tr><td class="mono">' + ui.esc(p.record) + '</td><td>' + ui.esc(p.message) +
+            return '<tr><td class="mono">' +
+              (p.severity === 'error' ? ui.plainChip('Error', 'chip--disputed') : ui.plainChip('Warning', 'chip--reported')) +
+              ' ' + ui.esc(p.record) + '</td><td>' + ui.esc(p.message) +
               '</td><td class="mono">' + ui.esc(p.ref) + '</td></tr>';
           }).join('') + '</tbody></table></div>'
         : '<div class="callout"><p><strong>No dangling references.</strong> Every claim in the store points at a record that exists, and every published evidence item has a source.</p></div>');

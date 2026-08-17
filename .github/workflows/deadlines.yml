@@ -49,6 +49,20 @@ jobs:
             // One open issue, updated, rather than a new one every morning. A
             // daily issue for the same unanswered application would train
             // everyone to ignore the notification.
+            // The label has to exist before an issue can carry it, and it will
+            // not on the first run in a fresh repository.
+            try {
+              await github.rest.issues.getLabel({
+                owner: context.repo.owner, repo: context.repo.repo, name: 'deadlines'
+              });
+            } catch (err) {
+              await github.rest.issues.createLabel({
+                owner: context.repo.owner, repo: context.repo.repo,
+                name: 'deadlines', color: 'f5c518',
+                description: 'A statutory clock has run out and something has to be filed'
+              });
+            }
+
             const existing = await github.rest.issues.listForRepo({
               owner: context.repo.owner, repo: context.repo.repo,
               state: 'open', labels: 'deadlines'

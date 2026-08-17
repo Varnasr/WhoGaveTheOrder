@@ -1,0 +1,110 @@
+[
+  {
+    "id": "OFC-0001",
+    "kind": "Office",
+    "title": "Union Ministry of Home Affairs",
+    "state": null,
+    "url": "https://whogavetheorder.netlify.app/chain.html#OFC-0001",
+    "level": "UNION",
+    "jurisdiction": "Union of India",
+    "appliesTo": [
+      "INC-0001",
+      "INC-0002",
+      "INC-0003"
+    ]
+  },
+  {
+    "id": "OFC-0002",
+    "kind": "Office",
+    "title": "State Home Department",
+    "state": null,
+    "url": "https://whogavetheorder.netlify.app/chain.html#OFC-0002",
+    "level": "STATE",
+    "jurisdiction": "Bihar / Maharashtra",
+    "appliesTo": [
+      "INC-0002",
+      "INC-0003"
+    ]
+  },
+  {
+    "id": "OFC-0003",
+    "kind": "Office",
+    "title": "Director General of Police (State)",
+    "state": null,
+    "url": "https://whogavetheorder.netlify.app/chain.html#OFC-0003",
+    "level": "SENIOR",
+    "jurisdiction": "Bihar / Maharashtra",
+    "appliesTo": [
+      "INC-0002",
+      "INC-0003"
+    ]
+  },
+  {
+    "id": "OFC-0004",
+    "kind": "Office",
+    "title": "Commissioner of Police",
+    "state": null,
+    "url": "https://whogavetheorder.netlify.app/chain.html#OFC-0004",
+    "level": "SENIOR",
+    "jurisdiction": "Commissionerate cities, including Delhi",
+    "appliesTo": [
+      "INC-0001",
+      "INC-0003"
+    ]
+  },
+  {
+    "id": "OFC-0005",
+    "kind": "Office",
+    "title": "District Magistrate",
+    "state": null,
+    "url": "https://whogavetheorder.netlify.app/chain.html#OFC-0005",
+    "level": "SENIOR",
+    "jurisdiction": "District (non-commissionerate)",
+    "appliesTo": [
+      "INC-0002",
+      "INC-0003"
+    ]
+  },
+  {
+    "id": "OFC-0006",
+    "kind": "Office",
+    "title": "Superintendent of Police / Deputy Commissioner of Police (District)",
+    "state": null,
+    "url": "https://whogavetheorder.netlify.app/chain.html#OFC-0006",
+    "level": "OPERATIONAL",
+    "jurisdiction": "District or police district",
+    "appliesTo": [
+      "INC-0001",
+      "INC-0002",
+      "INC-0003"
+    ]
+  },
+  {
+    "id": "OFC-0007",
+    "kind": "Office",
+    "title": "Officer commanding the deployment on site",
+    "state": null,
+    "url": "https://whogavetheorder.netlify.app/chain.html#OFC-0007",
+    "level": "OPERATIONAL",
+    "jurisdiction": "The site of the incident",
+    "appliesTo": [
+      "INC-0001",
+      "INC-0002",
+      "INC-0003"
+    ]
+  },
+  {
+    "id": "OFC-0008",
+    "kind": "Office",
+    "title": "Field personnel and units deployed",
+    "state": null,
+    "url": "https://whogavetheorder.netlify.app/chain.html#OFC-0008",
+    "level": "FIELD",
+    "jurisdiction": "The site of the incident",
+    "appliesTo": [
+      "INC-0001",
+      "INC-0002",
+      "INC-0003"
+    ]
+  }
+]

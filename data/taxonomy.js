@@ -31,7 +31,23 @@ WGO.config = {
     legal: 'legal@whogavetheorder.in'
   },
 
-  lastReviewed: '2026-08-15'
+  lastReviewed: '2026-08-15',
+
+  /* Where the archive actually answers from today. The feed and the citation
+     blocks build absolute URLs out of this, and a feed full of URLs that do not
+     resolve is worse than no feed, so this tracks reality rather than intent.
+     Change it on the day www.whogavetheorder.in starts serving, not before. */
+  siteUrl: 'https://whogavetheorder.netlify.app',
+
+  /* Terms for reuse, in one place because the export manifest and the citation
+     block both have to state them and must not state them differently. This
+     restates about.html#licence — it does not add a licence the project has not
+     granted, and naming a formal one here would do exactly that. */
+  licence: {
+    name: 'Reuse with attribution',
+    url: 'about.html#licence',
+    note: 'Records written by this project may be reused with attribution to the archive and a link back. Documents obtained from public offices are public records and this project claims no rights over them. Work by other people indexed here belongs to whoever made it.'
+  }
 };
 
 /* --- Evidence / claim states ---------------------------------------------- *
