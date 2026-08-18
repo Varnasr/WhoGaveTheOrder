@@ -43,9 +43,9 @@
     "priority": "time_critical",
     "category": "legal_proceeding",
     "jurisdiction": "delhi",
-    "question": "The text of the Delhi High Court order in W.P.(CRL.) 2127/2026.",
-    "why_it_matters": "Everything currently held on this proceeding is secondary. The case number and bench composition cannot be cited as VERIFIED without it.",
-    "lawful_route": "delhihighcourt.nic.in case status and orders.",
+    "question": "The text of the Delhi High Court order of 22 July 2026, and the correct cause title and writ petition numbers of every connected matter.",
+    "why_it_matters": "Everything currently held on this proceeding is secondary. The case number and bench composition cannot be cited as VERIFIED without it. The reports also disagree about the cause title: Verdictum gives Shakeel Abbas v. Union of India and Ors., W.P.(CRL.) 2127/2026; LiveLaw gives Umesh Kumar v. Delhi Police through its Commissioner. Both describe connected PILs, so which is the lead matter is not established and cannot be settled by reading more reports.",
+    "lawful_route": "delhihighcourt.nic.in case status and orders. Attempted 18 August 2026: delhihighcourt.nic.in case status and judgment search are free and public but sit behind an interactive captcha form, so this cannot be automated and needs a person. Useful finding for whoever does it — the daily cause lists ARE directly downloadable at delhihighcourt.nic.in/files/YYYY-MM/cause-list/c_DDMMYYYY.pdf (c_20072026.pdf retrieved successfully), but c_22072026.pdf returns 404, so the hearing-date listing is filed under another name.",
     "blocks": [
       "PROC-DEL-001"
     ]

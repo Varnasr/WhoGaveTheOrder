@@ -141,10 +141,16 @@
         "source_type": "secondary",
         "publication": "The Week",
         "retrieved_on": "2026-08-16"
+      },
+      {
+        "url": "https://www.livelaw.in/high-court/delhi-high-court/jantar-mantar-protest-delhi-police-force-response-cctv-preservation-ordered-cjp-march-neet-leak-542382",
+        "source_type": "secondary",
+        "publication": "LiveLaw",
+        "retrieved_on": "2026-08-18"
       }
     ],
-    "notes": "PROMOTE TO VERIFIED on retrieval of the order from delhihighcourt.nic.in. Case number and bench composition are from secondary reporting only and must not be cited as VERIFIED until the order is held.",
-    "volatility": "high"
+    "notes": "Three independent secondary accounts agree on the bench, the directions and the 11 September 2026 listing. Two things they do not agree on, and neither is resolved here. (1) The order date. Bar & Bench and Verdictum give 22 July 2026; LiveLaw gives '23 July 2026 (Wednesday)', which is internally inconsistent because 23 July 2026 was a Thursday and 22 July was the Wednesday. Bar & Bench published its report at 10:23 on 22 July. The date is therefore recorded as reported by the majority and the discrepancy is kept on the record rather than tidied away. (2) The cause title. Verdictum gives Shakeel Abbas v. Union of India and Ors., W.P.(CRL.) 2127/2026; LiveLaw gives Umesh Kumar v. Delhi Police through its Commissioner, 2026 LiveLaw (Del) 677. All three describe multiple connected PILs, so these are most likely different petitions in the same batch — but which is the lead matter is NOT established, and the archive does not pick one. No primary document held: see OQ-031.",
+    "volatility": "medium"
   },
   {
     "id": "PROC-SC-001",
@@ -197,10 +203,16 @@
         "source_type": "secondary",
         "publication": "Free Press Journal",
         "retrieved_on": "2026-08-16"
+      },
+      {
+        "url": "https://www.deccanchronicle.com/nation/current-affairs/nhrc-takes-suo-motu-cognisance-of-police-action-during-cjp-protest-1974561",
+        "source_type": "secondary",
+        "publication": "Deccan Chronicle",
+        "retrieved_on": "2026-08-18"
       }
     ],
-    "notes": "Two-week deadline expired approximately 8 August 2026. Diary/case number UNKNOWN. NHRC order text not held.",
-    "volatility": "low"
+    "notes": "Two-week deadline expired approximately 8 August 2026. Diary/case number UNKNOWN. NHRC order text not held. Searched on 18 August 2026: nhrc.nic.in/media/press-release does not list this matter. Its entries for 20 and 24 July 2026 carry other suo motu cognisances and nothing on Jantar Mantar. That is one listing page read on one date, not proof the Commission published nothing — but four outlets report an order the Commission does not appear to have announced itself, and that gap is part of the record.",
+    "volatility": "high"
   },
   {
     "id": "OVR-NHRC-002",

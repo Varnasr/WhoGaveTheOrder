@@ -112,12 +112,13 @@
     "type": "COURT_DOCUMENT",
     "incidentId": "INC-0001",
     "dateOfItem": null,
-    "establishes": "PROMOTE TO VERIFIED on retrieval of the order from delhihighcourt.nic.in. Case number and bench composition are from secondary reporting only and must not be cited as VERIFIED until the order is held.",
+    "establishes": "Three independent secondary accounts agree on the bench, the directions and the 11 September 2026 listing. Two things they do not agree on, and neither is resolved here. (1) The order date. Bar & Bench and Verdictum give 22 July 2026; LiveLaw gives '23 July 2026 (Wednesday)', which is internally inconsistent because 23 July 2026 was a Thursday and 22 July was the Wednesday. Bar & Bench published its report at 10:23 on 22 July. The date is therefore recorded as reported by the majority and the discrepancy is kept on the record rather than tidied away. (2) The cause title. Verdictum gives Shakeel Abbas v. Union of India and Ors., W.P.(CRL.) 2127/2026; LiveLaw gives Umesh Kumar v. Delhi Police through its Commissioner, 2026 LiveLaw (Del) 677. All three describe multiple connected PILs, so these are most likely different petitions in the same batch — but which is the lead matter is NOT established, and the archive does not pick one. No primary document held: see OQ-031.",
     "doesNotEstablish": null,
     "sourceIds": [
       "SRC-0007",
       "SRC-0001",
-      "SRC-0008"
+      "SRC-0008",
+      "SRC-0009"
     ]
   },
   {
@@ -132,7 +133,7 @@
     "establishes": "SCC OnLine citation is a commercial reporter citation, not a primary source. Retrieve the order from the Supreme Court site before use.",
     "doesNotEstablish": null,
     "sourceIds": [
-      "SRC-0009"
+      "SRC-0010"
     ]
   },
   {

@@ -90,6 +90,17 @@
   {
     "id": "SRC-0009",
     "kind": "Source",
+    "title": "LiveLaw",
+    "state": null,
+    "url": "https://www.livelaw.in/high-court/delhi-high-court/jantar-mantar-protest-delhi-police-force-response-cctv-preservation-ordered-cjp-march-neet-leak-542382",
+    "publisher": null,
+    "retrievedOn": "2026-08-18",
+    "sha256": null,
+    "archiveUrl": null
+  },
+  {
+    "id": "SRC-0010",
+    "kind": "Source",
     "title": "SCC Online blog",
     "state": null,
     "url": "https://www.scconline.com/blog/post/2026/07/29/neet-paper-leak-protest-proceedings-sc-interim-directions-police-violence/",
@@ -99,7 +110,7 @@
     "archiveUrl": null
   },
   {
-    "id": "SRC-0010",
+    "id": "SRC-0011",
     "kind": "Source",
     "title": "India Code",
     "state": null,
@@ -110,7 +121,7 @@
     "archiveUrl": null
   },
   {
-    "id": "SRC-0011",
+    "id": "SRC-0012",
     "kind": "Source",
     "title": "Bureau of Police Research and Development",
     "state": null,
@@ -121,7 +132,7 @@
     "archiveUrl": null
   },
   {
-    "id": "SRC-0012",
+    "id": "SRC-0013",
     "kind": "Source",
     "title": "Uttar Pradesh Police",
     "state": null,
@@ -132,7 +143,7 @@
     "archiveUrl": null
   },
   {
-    "id": "SRC-0013",
+    "id": "SRC-0014",
     "kind": "Source",
     "title": "onlinelawconnect",
     "state": null,
@@ -143,7 +154,7 @@
     "archiveUrl": null
   },
   {
-    "id": "SRC-0014",
+    "id": "SRC-0015",
     "kind": "Source",
     "title": "Justice Definitions Project",
     "state": null,
@@ -154,7 +165,7 @@
     "archiveUrl": null
   },
   {
-    "id": "SRC-0015",
+    "id": "SRC-0016",
     "kind": "Source",
     "title": "ApniLaw",
     "state": null,
@@ -165,7 +176,7 @@
     "archiveUrl": null
   },
   {
-    "id": "SRC-0016",
+    "id": "SRC-0017",
     "kind": "Source",
     "title": "India Code",
     "state": null,
@@ -176,7 +187,7 @@
     "archiveUrl": null
   },
   {
-    "id": "SRC-0017",
+    "id": "SRC-0018",
     "kind": "Source",
     "title": "indianemployees.com",
     "state": null,
@@ -187,7 +198,7 @@
     "archiveUrl": null
   },
   {
-    "id": "SRC-0018",
+    "id": "SRC-0019",
     "kind": "Source",
     "title": "India Code",
     "state": null,
@@ -198,7 +209,7 @@
     "archiveUrl": null
   },
   {
-    "id": "SRC-0019",
+    "id": "SRC-0020",
     "kind": "Source",
     "title": "Gurukul Nexus",
     "state": null,
@@ -209,7 +220,7 @@
     "archiveUrl": null
   },
   {
-    "id": "SRC-0020",
+    "id": "SRC-0021",
     "kind": "Source",
     "title": "India Code",
     "state": null,
@@ -220,7 +231,7 @@
     "archiveUrl": null
   },
   {
-    "id": "SRC-0021",
+    "id": "SRC-0022",
     "kind": "Source",
     "title": "LegitQuest",
     "state": null,
@@ -231,7 +242,7 @@
     "archiveUrl": null
   },
   {
-    "id": "SRC-0022",
+    "id": "SRC-0023",
     "kind": "Source",
     "title": "CaseMine",
     "state": null,
@@ -242,7 +253,7 @@
     "archiveUrl": null
   },
   {
-    "id": "SRC-0023",
+    "id": "SRC-0024",
     "kind": "Source",
     "title": "Ministry of Home Affairs",
     "state": null,
@@ -253,7 +264,7 @@
     "archiveUrl": null
   },
   {
-    "id": "SRC-0024",
+    "id": "SRC-0025",
     "kind": "Source",
     "title": "NHRC",
     "state": null,
@@ -264,7 +275,7 @@
     "archiveUrl": null
   },
   {
-    "id": "SRC-0025",
+    "id": "SRC-0026",
     "kind": "Source",
     "title": "NHRC",
     "state": null,
@@ -275,7 +286,7 @@
     "archiveUrl": null
   },
   {
-    "id": "SRC-0026",
+    "id": "SRC-0027",
     "kind": "Source",
     "title": "commoner-law.com",
     "state": null,
@@ -286,7 +297,7 @@
     "archiveUrl": null
   },
   {
-    "id": "SRC-0027",
+    "id": "SRC-0028",
     "kind": "Source",
     "title": "Bellingcat",
     "state": null,
@@ -297,7 +308,7 @@
     "archiveUrl": null
   },
   {
-    "id": "SRC-0028",
+    "id": "SRC-0029",
     "kind": "Source",
     "title": "GIJN",
     "state": null,
@@ -308,7 +319,7 @@
     "archiveUrl": null
   },
   {
-    "id": "SRC-0029",
+    "id": "SRC-0030",
     "kind": "Source",
     "title": "The Polis Project",
     "state": null,
@@ -319,7 +330,7 @@
     "archiveUrl": null
   },
   {
-    "id": "SRC-0030",
+    "id": "SRC-0031",
     "kind": "Source",
     "title": "Wikipedia",
     "state": null,
@@ -330,7 +341,7 @@
     "archiveUrl": null
   },
   {
-    "id": "SRC-0031",
+    "id": "SRC-0032",
     "kind": "Source",
     "title": "Common Cause and CSDS",
     "state": null,
@@ -341,7 +352,7 @@
     "archiveUrl": null
   },
   {
-    "id": "SRC-0032",
+    "id": "SRC-0033",
     "kind": "Source",
     "title": "Sage",
     "state": null,
