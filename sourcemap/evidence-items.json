@@ -149,7 +149,7 @@
         "retrieved_on": "2026-08-18"
       }
     ],
-    "notes": "Three independent secondary accounts agree on the bench, the directions and the 11 September 2026 listing. Two things they do not agree on, and neither is resolved here. (1) The order date. Bar & Bench and Verdictum give 22 July 2026; LiveLaw gives '23 July 2026 (Wednesday)', which is internally inconsistent because 23 July 2026 was a Thursday and 22 July was the Wednesday. Bar & Bench published its report at 10:23 on 22 July. The date is therefore recorded as reported by the majority and the discrepancy is kept on the record rather than tidied away. (2) The cause title. Verdictum gives Shakeel Abbas v. Union of India and Ors., W.P.(CRL.) 2127/2026; LiveLaw gives Umesh Kumar v. Delhi Police through its Commissioner, 2026 LiveLaw (Del) 677. All three describe multiple connected PILs, so these are most likely different petitions in the same batch — but which is the lead matter is NOT established, and the archive does not pick one. No primary document held: see OQ-031.",
+    "notes": "Cause title and case number are now ESTABLISHED from the court's own cause list at PROC-DEL-002: Shakeel Abbas v. Union of India and Ors., W.P.(CRL) 2127/2026, listed 22 July 2026 before the Chief Justice and Justice Tejas Karia. That resolves both conflicts this record used to carry. Verdictum's cause title was right; LiveLaw's date of '23 July 2026 (Wednesday)' was wrong on its own terms, since 23 July was a Thursday and the matter was listed on Wednesday the 22nd. LiveLaw's Umesh Kumar v. Delhi Police is a different petition, most likely one of the connected matters all three reports describe; which petitions were heard together is still not established. The DIRECTIONS below — notice to Delhi Police and the Union, preservation of records including CCTV footage and videography in accordance with the SOP in place, four weeks for a counter affidavit, and the 11 September 2026 listing — still rest on three news reports and stay CORROBORATED. A cause list does not say what was ordered. See OQ-004 for the order itself.",
     "volatility": "medium"
   },
   {
@@ -2102,6 +2102,24 @@
     "confidence": "UNKNOWN",
     "sources": [],
     "notes": "Only the Polis Project's general reflection at PREC-003 was found, and that is a reflection rather than an account of a particular incident. Treat the absence as a failure to find, not as evidence that it has not happened.",
+    "volatility": "low"
+  },
+  {
+    "id": "PROC-DEL-002",
+    "jurisdiction": "delhi",
+    "category": "legal_proceeding",
+    "claim": "Delhi High Court listed W.P.(CRL) 2127/2026 with CRL.M.A. 21282/2026 and CRL.M.A. 21283/2026, Shakeel Abbas v. Union of India and Ors., at item 54 of the supplementary cause list for 22 July 2026, before Court No. 1, Division Bench-I, the Chief Justice and Justice Tejas Karia. Petitioner appeared through Shakil Sheikh and Shakil Sheikh & Associates; the respondent contact on the list is Kapil Sharma at the Delhi Police prosecution address.",
+    "confidence": "VERIFIED",
+    "sources": [
+      {
+        "url": "https://delhihighcourt.nic.in/files/2026-07/cause-list/combined_cause_list_22.07.2026.pdf",
+        "source_type": "primary",
+        "publication": "High Court of Delhi",
+        "retrieved_on": "2026-08-18",
+        "sha256": "d3a67d1b69d68f62bc4e462bb6dbc79ae0ea5eeb5c40cd7fcd418ba09b74b6d4"
+      }
+    ],
+    "notes": "The court's own record, and the first primary document in this archive for the Delhi proceeding. WHAT IT ESTABLISHES: the cause title, the writ petition and application numbers, the date of listing, and the bench. It settles two things the news reports disagreed about — the cause title is Shakeel Abbas v. Union of India and Ors. as Verdictum reported, and the date is 22 July 2026, not the 23rd. WHAT IT DOES NOT ESTABLISH: anything at all about what was ordered. A cause list records that a matter was listed and before whom. The directions at PROC-DEL-001 still rest on news reports and stay CORROBORATED until the order itself is held. RETRIEVAL: the file is 21MB and its sha256 is recorded above. Delhi High Court cause lists are directly downloadable at delhihighcourt.nic.in/files/YYYY-MM/cause-list/ as combined_cause_list_DD.MM.YYYY.pdf, and per-court lists as rlDDMMYYYY.pdf. The earlier guess of c_DDMMYYYY.pdf is the format for some dates but not this one.",
     "volatility": "low"
   }
 ]

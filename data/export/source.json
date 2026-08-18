@@ -156,6 +156,17 @@
   {
     "id": "SRC-0015",
     "kind": "Source",
+    "title": "High Court of Delhi",
+    "state": null,
+    "url": "https://delhihighcourt.nic.in/files/2026-07/cause-list/combined_cause_list_22.07.2026.pdf",
+    "publisher": null,
+    "retrievedOn": "2026-08-18",
+    "sha256": "d3a67d1b69d68f62bc4e462bb6dbc79ae0ea5eeb5c40cd7fcd418ba09b74b6d4",
+    "archiveUrl": null
+  },
+  {
+    "id": "SRC-0016",
+    "kind": "Source",
     "title": "India Code",
     "state": null,
     "url": "https://www.indiacode.nic.in/bitstream/123456789/20340/1/bnss,_2023.pdf",
@@ -165,7 +176,7 @@
     "archiveUrl": null
   },
   {
-    "id": "SRC-0016",
+    "id": "SRC-0017",
     "kind": "Source",
     "title": "Bureau of Police Research and Development",
     "state": null,
@@ -176,7 +187,7 @@
     "archiveUrl": null
   },
   {
-    "id": "SRC-0017",
+    "id": "SRC-0018",
     "kind": "Source",
     "title": "Uttar Pradesh Police",
     "state": null,
@@ -187,7 +198,7 @@
     "archiveUrl": null
   },
   {
-    "id": "SRC-0018",
+    "id": "SRC-0019",
     "kind": "Source",
     "title": "onlinelawconnect",
     "state": null,
@@ -198,7 +209,7 @@
     "archiveUrl": null
   },
   {
-    "id": "SRC-0019",
+    "id": "SRC-0020",
     "kind": "Source",
     "title": "Justice Definitions Project",
     "state": null,
@@ -209,7 +220,7 @@
     "archiveUrl": null
   },
   {
-    "id": "SRC-0020",
+    "id": "SRC-0021",
     "kind": "Source",
     "title": "ApniLaw",
     "state": null,
@@ -220,7 +231,7 @@
     "archiveUrl": null
   },
   {
-    "id": "SRC-0021",
+    "id": "SRC-0022",
     "kind": "Source",
     "title": "India Code",
     "state": null,
@@ -231,7 +242,7 @@
     "archiveUrl": null
   },
   {
-    "id": "SRC-0022",
+    "id": "SRC-0023",
     "kind": "Source",
     "title": "indianemployees.com",
     "state": null,
@@ -242,7 +253,7 @@
     "archiveUrl": null
   },
   {
-    "id": "SRC-0023",
+    "id": "SRC-0024",
     "kind": "Source",
     "title": "India Code",
     "state": null,
@@ -253,7 +264,7 @@
     "archiveUrl": null
   },
   {
-    "id": "SRC-0024",
+    "id": "SRC-0025",
     "kind": "Source",
     "title": "Gurukul Nexus",
     "state": null,
@@ -264,7 +275,7 @@
     "archiveUrl": null
   },
   {
-    "id": "SRC-0025",
+    "id": "SRC-0026",
     "kind": "Source",
     "title": "India Code",
     "state": null,
@@ -275,7 +286,7 @@
     "archiveUrl": null
   },
   {
-    "id": "SRC-0026",
+    "id": "SRC-0027",
     "kind": "Source",
     "title": "LegitQuest",
     "state": null,
@@ -286,7 +297,7 @@
     "archiveUrl": null
   },
   {
-    "id": "SRC-0027",
+    "id": "SRC-0028",
     "kind": "Source",
     "title": "CaseMine",
     "state": null,
@@ -297,7 +308,7 @@
     "archiveUrl": null
   },
   {
-    "id": "SRC-0028",
+    "id": "SRC-0029",
     "kind": "Source",
     "title": "Ministry of Home Affairs",
     "state": null,
@@ -308,7 +319,7 @@
     "archiveUrl": null
   },
   {
-    "id": "SRC-0029",
+    "id": "SRC-0030",
     "kind": "Source",
     "title": "NHRC",
     "state": null,
@@ -319,7 +330,7 @@
     "archiveUrl": null
   },
   {
-    "id": "SRC-0030",
+    "id": "SRC-0031",
     "kind": "Source",
     "title": "NHRC",
     "state": null,
@@ -330,7 +341,7 @@
     "archiveUrl": null
   },
   {
-    "id": "SRC-0031",
+    "id": "SRC-0032",
     "kind": "Source",
     "title": "commoner-law.com",
     "state": null,
@@ -341,7 +352,7 @@
     "archiveUrl": null
   },
   {
-    "id": "SRC-0032",
+    "id": "SRC-0033",
     "kind": "Source",
     "title": "Bellingcat",
     "state": null,
@@ -352,7 +363,7 @@
     "archiveUrl": null
   },
   {
-    "id": "SRC-0033",
+    "id": "SRC-0034",
     "kind": "Source",
     "title": "GIJN",
     "state": null,
@@ -363,7 +374,7 @@
     "archiveUrl": null
   },
   {
-    "id": "SRC-0034",
+    "id": "SRC-0035",
     "kind": "Source",
     "title": "The Polis Project",
     "state": null,
@@ -374,7 +385,7 @@
     "archiveUrl": null
   },
   {
-    "id": "SRC-0035",
+    "id": "SRC-0036",
     "kind": "Source",
     "title": "Wikipedia",
     "state": null,
@@ -385,7 +396,7 @@
     "archiveUrl": null
   },
   {
-    "id": "SRC-0036",
+    "id": "SRC-0037",
     "kind": "Source",
     "title": "Common Cause and CSDS",
     "state": null,
@@ -396,7 +407,7 @@
     "archiveUrl": null
   },
   {
-    "id": "SRC-0037",
+    "id": "SRC-0038",
     "kind": "Source",
     "title": "Sage",
     "state": null,
