@@ -4,9 +4,10 @@ A citizen-led public accountability platform. One question, asked systematically
 
 > When state power is used against citizens, who authorised it?
 
-**Stage:** Live · Own repository since 17 August 2026, split out of the `Varnasr/Experiments`
-sandbox with its history intact. Serves from whogavetheorder.netlify.app;
-`www.whogavetheorder.in` pending DNS delegation.
+**Stage:** Live at [www.whogavetheorder.in](https://www.whogavetheorder.in) · Own repository since
+17 August 2026, split out of the `Varnasr/Experiments` sandbox with its history intact. Served by
+Netlify from external DNS — an apex A record to Netlify's load balancer, `www` as a CNAME — with the
+apex redirecting to `www`.
 
 ---
 
@@ -203,8 +204,17 @@ marker — fill the array.
 - [x] `demoMode: false` — layout samples removed, 17 August 2026.
 - [x] `archiveStage: null` — the masthead now shows a live status line rather than a launch banner.
 - [x] `about.html` — who runs this project, and funding, both written.
-- [ ] Provision `evidence@`, `corrections@` and `legal@whogavetheorder.in`, plus a postal address
-      for legal service. **These are printed on the site and do not yet exist.**
+- [x] `evidence@`, `corrections@` and `legal@whogavetheorder.in` provisioned, 17 August 2026.
+      Microsoft 365 mailbox on `legal@`, with the other two as aliases.
+- [ ] **Fix the SPF record before emailing any public authority.** The domain publishes
+      `v=spf1 include:secureserver.net -all`, but the mail is Microsoft 365 — the MX points at
+      `mail.protection.outlook.com` and DKIM is signed by Microsoft. `secureserver.net` resolves to
+      GoDaddy's own ranges and does not authorise Microsoft's outbound servers, so mail sent from
+      these addresses fails SPF against a hard `-all`, with DMARC at `p=quarantine`. DKIM alignment
+      should still carry DMARC, but a receiver that checks SPF on its own — which government mail
+      systems do — may quarantine an RTI appeal. The record should read
+      `v=spf1 include:secureserver.net include:spf.protection.outlook.com -all`.
+- [ ] A postal address for legal service. Still printed on the site with no address behind it.
 - [ ] Enable **Netlify Analytics** on the site (dashboard only — it is a paid add-on, so the API
       cannot turn it on). Server-side, read from CDN logs: no cookies, no script, no consent banner,
       nothing added to the page. The privacy section is already written to describe this accurately.
@@ -218,9 +228,8 @@ marker — fill the array.
       published rather than held back, because a reader who cannot use the interface at all is
       worse served than one reading a translation that wants polishing — but it has not been
       reviewed by a native speaker.
-- [ ] Set `config.siteUrl` in `data/taxonomy.js` to `https://www.whogavetheorder.in` **on the day
-      DNS starts serving it, not before.** The Atom feed and every citation build absolute URLs out
-      of it, and a feed full of URLs that do not resolve is worse than no feed.
+- [x] `config.siteUrl` pointed at `https://www.whogavetheorder.in`, 17 August 2026 — the day the
+      domain began serving. The Atom feed and every citation build absolute URLs out of it.
 - [ ] Backfill `archiveUrl` and `sha256` on the 32 imported sources. Every one is a live URL with a
       retrieval date and no archived copy, which the integrity check reports as a warning: a link is
       not a citation, because a page can be edited or taken down.

@@ -36,8 +36,9 @@ WGO.config = {
   /* Where the archive actually answers from today. The feed and the citation
      blocks build absolute URLs out of this, and a feed full of URLs that do not
      resolve is worse than no feed, so this tracks reality rather than intent.
-     Change it on the day www.whogavetheorder.in starts serving, not before. */
-  siteUrl: 'https://whogavetheorder.netlify.app',
+     Pointed at the custom domain on 17 August 2026, the day it began serving:
+     the apex redirects to www and the certificate is live. */
+  siteUrl: 'https://www.whogavetheorder.in',
 
   /* Terms for reuse, in one place because the export manifest and the citation
      block both have to state them and must not state them differently. This

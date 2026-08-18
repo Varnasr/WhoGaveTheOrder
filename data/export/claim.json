@@ -4,7 +4,7 @@
     "kind": "Claim",
     "title": "Police used force against students at Jantar Mantar.",
     "state": "UNVERIFIED",
-    "url": "https://whogavetheorder.netlify.app/response.html#CLM-0001",
+    "url": "https://www.whogavetheorder.in/response.html#CLM-0001",
     "incidentId": "INC-0001",
     "evidenceIds": []
   },
@@ -13,7 +13,7 @@
     "kind": "Claim",
     "title": "Police used force against students in Bihar.",
     "state": "UNVERIFIED",
-    "url": "https://whogavetheorder.netlify.app/response.html#CLM-0002",
+    "url": "https://www.whogavetheorder.in/response.html#CLM-0002",
     "incidentId": "INC-0002",
     "evidenceIds": []
   },
@@ -22,7 +22,7 @@
     "kind": "Claim",
     "title": "Police used force against students in Maharashtra.",
     "state": "UNVERIFIED",
-    "url": "https://whogavetheorder.netlify.app/response.html#CLM-0003",
+    "url": "https://www.whogavetheorder.in/response.html#CLM-0003",
     "incidentId": "INC-0003",
     "evidenceIds": []
   }
