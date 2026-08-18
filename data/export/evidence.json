@@ -148,5 +148,64 @@
     "establishes": "Searched, none found. Absence of a preservation order in Bihar is why Bihar is the deadline-critical jurisdiction.",
     "doesNotEstablish": null,
     "sourceIds": []
+  },
+  {
+    "id": "OVR-NHRC-001",
+    "kind": "Evidence",
+    "title": "NHRC took suo motu cognisance by order dated 25 July 2026 and issued notice to the Commissioner of Police, Delhi, directing a detailed report within two weeks. ",
+    "state": "CORROBORATED",
+    "url": "https://www.whogavetheorder.in/evidence.html?id=OVR-NHRC-001",
+    "type": "OTHER_DOCUMENT",
+    "incidentId": "INC-0001",
+    "dateOfItem": null,
+    "establishes": "Two-week deadline expired approximately 8 August 2026. Diary/case number UNKNOWN. NHRC order text not held. Searched on 18 August 2026: nhrc.nic.in/media/press-release does not list this matter. Its entries for 20 and 24 July 2026 carry other suo motu cognisances and nothing on Jantar Mantar. That is one listing page read on one date, not proof the Commission published nothing — but four outlets report an order the Commission does not appear to have announced itself, and that gap is part of the record.",
+    "doesNotEstablish": null,
+    "sourceIds": [
+      "SRC-0011",
+      "SRC-0012",
+      "SRC-0002",
+      "SRC-0013"
+    ]
+  },
+  {
+    "id": "OVR-NHRC-002",
+    "kind": "Evidence",
+    "title": "A complaint was filed with the NHRC by Supreme Court advocate Virender Vashisht on or about 22 July 2026 seeking an independent inquiry by the Commission's Inve",
+    "state": "REPORTED",
+    "url": "https://www.whogavetheorder.in/evidence.html?id=OVR-NHRC-002",
+    "type": "OTHER_DOCUMENT",
+    "incidentId": "INC-0001",
+    "dateOfItem": null,
+    "establishes": "Separate proceeding from OVR-NHRC-001. Diary number UNKNOWN.",
+    "doesNotEstablish": null,
+    "sourceIds": [
+      "SRC-0014"
+    ]
+  },
+  {
+    "id": "OVR-BIH-001",
+    "kind": "Evidence",
+    "title": "Whether NHRC or Bihar SHRC has taken cognisance of the Bihar incidents.",
+    "state": "UNKNOWN",
+    "url": "https://www.whogavetheorder.in/evidence.html?id=OVR-BIH-001",
+    "type": "OTHER_DOCUMENT",
+    "incidentId": "INC-0002",
+    "dateOfItem": null,
+    "establishes": null,
+    "doesNotEstablish": null,
+    "sourceIds": []
+  },
+  {
+    "id": "OVR-007",
+    "kind": "Evidence",
+    "title": "NHRC diary or case numbers for the suo motu proceeding at OVR-NHRC-001 and the complaint at OVR-NHRC-002.",
+    "state": "UNKNOWN",
+    "url": "https://www.whogavetheorder.in/evidence.html?id=OVR-007",
+    "type": "OTHER_DOCUMENT",
+    "incidentId": "INC-0001",
+    "dateOfItem": null,
+    "establishes": "Both should be findable on the HRCNet public search at OVR-003.",
+    "doesNotEstablish": null,
+    "sourceIds": []
   }
 ]

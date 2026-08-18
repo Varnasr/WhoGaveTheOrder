@@ -42,13 +42,40 @@ EXTERNAL       = {'existing_documentation'}
 FRAMEWORK      = {'statute', 'police_manual', 'guideline', 'precedent'}
 # everything else is sourcing knowledge and stays in SOURCING.md
 
+
 # jurisdiction -> the site's incident shells
 JURIS_TO_INCIDENT = {'delhi': 'INC-0001', 'bihar': 'INC-0002', 'maharashtra': 'INC-0003'}
+
+
+def about_incident(item):
+    # Does this item state a fact about one of the incidents?
+    #
+    # The `oversight` category does double duty. Most of it is mechanics - how
+    # HRCNet works, what its dropdown contains, whether it accepts a foreign
+    # mobile number - and that is sourcing knowledge. But a human rights
+    # commission taking suo motu cognisance OF ONE OF THESE INCIDENTS is a
+    # proceeding about the incident, in the same way the High Court PIL is, and
+    # it was never reaching the site: the NHRC's notice to the Commissioner of
+    # Police, corroborated by four independent outlets, appeared nowhere on the
+    # website except as a string inside an open question.
+    #
+    # The line between the two is already in the data. An oversight item
+    # carrying a real incident jurisdiction is about that incident; one carrying
+    # `all` is mechanics. Nothing else is swept in on that rule - rti_mechanics
+    # and retention items also carry a jurisdiction, but a state's retention
+    # schedule is knowledge about how to obtain a record, not a fact about what
+    # happened.
+    if item['category'] in ABOUT_INCIDENT:
+        return True
+    return item['category'] == 'oversight' and item['jurisdiction'] in JURIS_TO_INCIDENT
 
 # source-map category -> the site's evidence type vocabulary
 CATEGORY_TO_TYPE = {
     'incident':               'OTHER_DOCUMENT',
     'legal_proceeding':       'COURT_DOCUMENT',
+    # A commission's notice is not a court document and the taxonomy has no
+    # nearer type, so it takes the honest default rather than borrowing one.
+    'oversight':              'OTHER_DOCUMENT',
     'existing_documentation': 'NEWS_REPORT',
     'statute':                'OTHER_DOCUMENT',
     'police_manual':          'OTHER_DOCUMENT',
@@ -117,7 +144,7 @@ for i in incident_items:
 # --- 3. evidence -------------------------------------------------------------
 evidence_records = []
 for i in ev:
-    if i['category'] not in ABOUT_INCIDENT:
+    if not about_incident(i):
         continue
     evidence_records.append({
         'id': i['id'],
