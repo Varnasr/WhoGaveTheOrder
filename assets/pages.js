@@ -54,6 +54,10 @@
           held.map(function (i) { return ui.esc(i.state); }).join(', ') + '.</p>'
         : ''));
 
+    /* The notice board, newest first. Three on the front page; the rest are on
+       the change log, which is the full record. */
+    ui.mount('[data-region="updates"]', ui.updateList(3));
+
     ui.mount('[data-region="wanted"]',
       WGO.WANTED.map(function (w) { return '<li>' + ui.plainChip(w) + '</li>'; }).join(''));
 
@@ -1246,6 +1250,11 @@
 
   pages.changes = function () {
     var history = WGO.changes || [];
+
+    /* Two different things on one page, in the right order: what we did, then
+       what moved in the data. The first is written by a person and the second
+       is derived from the repository, and the page says which is which. */
+    ui.mount('[data-region="updates-full"]', ui.updateList());
 
     var added = 0, states = 0;
     history.forEach(function (entry) {

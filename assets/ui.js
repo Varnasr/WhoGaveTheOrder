@@ -471,6 +471,42 @@
     }
   };
 
+  /* --- updates ------------------------------------------------------------ *
+     The notice board. Rendered from WGO.updates, newest first, with the rule
+     that governs what may go in it stated in data/records.js rather than here:
+     an update reports what this archive did or what a clock did, never what
+     happened at an incident. */
+
+  ui.updateList = function (limit) {
+    var updates = (WGO.updates || []).slice().sort(function (a, b) {
+      return String(b.date).localeCompare(String(a.date));
+    });
+    if (limit) { updates = updates.slice(0, limit); }
+    if (!updates.length) {
+      return ui.empty('No updates yet',
+        'This is where work on the archive is recorded: an application filed, a deadline passed, a document obtained.');
+    }
+    return '<ol class="updates">' + updates.map(function (u) {
+      var record = u.recordId ? WGO.model.evidenceItem(u.recordId) : null;
+      return '<li class="update">' +
+        '<p class="update__date mono">' + ui.esc(u.date) + '</p>' +
+        '<h3 class="update__title">' + ui.esc(u.title) + '</h3>' +
+        '<p class="update__body">' + ui.esc(u.body) + '</p>' +
+        (u.recordId
+          ? '<p class="update__record">' +
+              '<a href="' + ui.esc(ui.withLang('evidence.html?id=' + u.recordId)) + '">' +
+              ui.esc(u.recordId) +
+              /* Record titles are full claims and run to a couple of hundred
+                 characters. The link is a pointer, not the record. */
+              (record ? ' — ' + ui.esc(record.title.length > 64
+                ? record.title.slice(0, 61).replace(/[\s,;:]+$/, '') + '…'
+                : record.title) : '') +
+              ' &rarr;</a></p>'
+          : '') +
+      '</li>';
+    }).join('') + '</ol>';
+  };
+
   /* --- citation ----------------------------------------------------------- *
      Every record here has a permanent ID and a state that can change. Both facts
      make a citation harder than a URL: whoever cites this needs to say which

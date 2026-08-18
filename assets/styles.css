@@ -829,6 +829,27 @@ blockquote.official cite { display: block; margin-top: 0.4rem; font-family: var(
 .source-detail > li + li { border-top: 1px dotted var(--rule); }
 .source-detail__fixity { color: var(--ink-3); margin-top: 0.1rem; }
 
+/* --- Updates -------------------------------------------------------------- *
+   A notice board, not a news feed: dated, short, and each entry pointing at the
+   record it concerns so a reader can check the thing itself. The date leads,
+   because when a thing was done is half of what an update is saying. */
+
+.updates { list-style: none; }
+.update {
+  padding: 1.1rem 0;
+  border-top: 1px solid var(--rule);
+}
+.update:first-child { border-top: 0; padding-top: 0; }
+.update__date {
+  font-size: 0.75rem;
+  color: var(--brand-blue-ink);
+  font-weight: 700;
+  letter-spacing: 0.06em;
+}
+.update__title { font-size: 1.125rem; margin: 0.3rem 0 0.4rem; }
+.update__body { font-size: 0.9375rem; color: var(--ink-2); max-width: var(--measure); }
+.update__record { margin-top: 0.5rem; font-size: 0.8125rem; }
+
 /* --- The change log ------------------------------------------------------- *
    A list of records, not prose. The verb is what the eye scans for, so it is
    set apart from the record title rather than running into it. */

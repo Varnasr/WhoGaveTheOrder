@@ -201,6 +201,42 @@ WGO.offices = [
 /* --- Orders --------------------------------------------------------------- *
    Empty until an order is located. The investigation page prints
    ORDER NOT YET LOCATED rather than speculating about what an order said. */
+/* --- Updates: what the people running this archive have done ------------- *
+   A dated notice board, and it has one rule that keeps it inside the site's
+   grammar: AN UPDATE MAY ONLY REPORT WHAT THIS ARCHIVE DID, OR WHAT A CLOCK
+   DID. It may not say what happened at an incident.
+
+   "We filed an application on this date" is a fact about us. "The reply fell
+   due and nothing came" is a fact about a deadline. Both are ours to state.
+   "Police used tear gas" is a claim about an incident, and it belongs in an
+   evidence record with a source behind it, never here. Without that line an
+   updates feed becomes the running commentary this archive exists not to
+   write — and the fastest way to launder an unsourced claim into a fact is to
+   put it in a news item nobody thinks to check.
+
+   Fields: date (ISO), title, body, and optionally recordId — the record the
+   update concerns, which is rendered as a link so a reader can go and check
+   the thing itself rather than take the note's word for it. */
+WGO.updates = [
+  {
+    date: '2026-08-18',
+    title: 'The court\'s own record of the Delhi hearing is now held',
+    body: 'The Delhi High Court cause list for 22 July 2026 has been retrieved and filed. It establishes the cause title, the case number and the bench, and it corrects a date two news reports had disagreed about. It does not establish what was ordered: that still rests on reporting until the order itself is obtained.',
+    recordId: 'PROC-DEL-002'
+  },
+  {
+    date: '2026-08-18',
+    title: 'Nothing on these incidents has been answered in Parliament yet',
+    body: 'The parliamentary record was searched for a question on the police action. Nothing on any of these incidents is indexed as answered. The search is dated and recorded rather than repeated silently, and it will be run again when the next session opens.'
+  },
+  {
+    date: '2026-08-18',
+    title: 'The NHRC\'s two-week deadline has passed',
+    body: 'The Commission is reported to have sought a report from the Commissioner of Police, Delhi, within two weeks of 25 July. That period expired on or about 8 August. Whether anything was filed is not established, and the Commission has not announced the proceeding on its own press-release page.',
+    recordId: 'OVR-NHRC-001'
+  }
+];
+
 WGO.orders = [];
 
 /* --- Timeline events ------------------------------------------------------ *

@@ -1366,8 +1366,8 @@
     "claim": "Whether any question on these incidents has already been tabled or answered in any of the four houses.",
     "confidence": "UNKNOWN",
     "sources": [],
-    "notes": null,
-    "volatility": "low"
+    "notes": "SEARCHED 18 August 2026, nothing found, and the absence is dated rather than left open. A search of sansad.in for these incidents returns only unrelated Ministry of Home Affairs questions about Delhi Police — recruitment, verification, traffic. No tabled or answered question on the police action of 20 July 2026 at Jantar Mantar, or on the Bihar incidents, is indexed. That is consistent with the reported course of the session: both Houses were repeatedly adjourned over this in the week of 23 July rather than taking it as a question, and answers reach the library weeks after they are given. The finding is that nothing is ON THE RECORD YET, not that nothing was asked. ROUTE, CONFIRMED AS FAR AS THIS ENVIRONMENT ALLOWS: answered questions are published as PDFs at eparlib.sansad.in/bitstream/123456789/<id>/1/<file>.pdf, and the search index carries many Ministry of Home Affairs answers in exactly that form. eparlib.sansad.in could not be fetched from the machine this search was run on — every request reset the connection — so the route is recorded on the strength of the index rather than a retrieval, and needs one before it is relied on. The Q&A search at sansad.in/rs/questions/questions-and-answers and its Lok Sabha equivalent is a JavaScript form with no linkable result URL. WHY THIS MATTERS HERE: Delhi Police reports to the Ministry of Home Affairs, not to the Delhi government (LAW-DEL-001), so a Home Ministry answer would be the Union speaking on its own record about the force it controls — the strongest kind of document this archive can hold short of the order itself. Re-run at the start of the next session.",
+    "volatility": "high"
   },
   {
     "id": "OVR-001",
