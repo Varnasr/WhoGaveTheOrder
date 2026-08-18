@@ -698,7 +698,7 @@
     ui.mount(region,
       (item.demo ? '<p class="chip chip--sample" style="margin-bottom:0.75rem">Sample record. Layout only.</p>' : '') +
       '<div class="row">' + ui.idChip(item.id) + ui.chip(item.verification) + ui.plainChip(model.typeLabel(item.type)) + '</div>' +
-      '<h1 style="font-size:clamp(1.5rem,5vw,2.25rem);margin:0.7rem 0 1.1rem">' + ui.esc(item.title) + '</h1>' +
+      '<h1 class="record__title">' + ui.esc(item.title) + '</h1>' +
       '<table class="meta-table"><tbody>' +
         row('Evidence ID', '<span class="mono">' + ui.esc(item.id) + '</span>') +
         row('Date of the item', ui.esc(item.dateOfItem || 'Unknown')) +
@@ -714,14 +714,23 @@
             ui.esc((WGO.EVIDENCE_STATES[item.verification] || {}).definition || '') + '</span>') +
       '</tbody></table>' +
 
-      '<div class="grid grid--2" style="margin-top:1.5rem">' +
-        '<div class="card"><p class="kicker">What this establishes</p><p style="margin-top:0.4rem">' +
-          ui.esc(item.establishes || 'Not recorded.') + '</p></div>' +
-        '<div class="card"><p class="kicker">What this does not establish</p><p style="margin-top:0.4rem">' +
-          ui.esc(item.doesNotEstablish || 'Not recorded.') + '</p></div>' +
+      /* The two lines that are the whole point of an evidence record. They were
+         two identical grey cards among several, so the page's most important
+         claim carried no more weight than its metadata. They are now a matched
+         pair, marked and set apart: what it proves, and — the harder half —
+         what it does not. */
+      '<div class="finding" style="margin-top:1.75rem">' +
+        '<div class="finding__half finding__half--does">' +
+          '<p class="kicker">What this establishes</p>' +
+          '<p class="finding__text">' + ui.esc(item.establishes || 'Not recorded.') + '</p>' +
+        '</div>' +
+        '<div class="finding__half finding__half--not">' +
+          '<p class="kicker">What this does not establish</p>' +
+          '<p class="finding__text">' + ui.esc(item.doesNotEstablish || 'Not recorded.') + '</p>' +
+        '</div>' +
       '</div>' +
 
-      '<h2 style="margin-top:2rem;font-size:1.25rem">Related evidence</h2>' +
+      '<h2 class="record__section">Related evidence</h2>' +
       '<div style="margin-top:0.6rem">' + ui.evidenceLinks(item.relatedIds, 'Nothing else in the archive is linked to this record.') + '</div>' +
 
       '<div class="callout" style="margin-top:2rem">' +

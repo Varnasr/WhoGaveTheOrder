@@ -158,12 +158,12 @@ h1, h2, h3, h4 { font-family: var(--serif); font-weight: 700; line-height: 1.15;
   color: var(--ink-3);
 }
 
-.lede { font-size: 1.0625rem; color: var(--ink-2); max-width: var(--measure); }
+.lede { font-size: 1.125rem; line-height: 1.55; color: var(--ink-2); max-width: var(--measure); }
 .prose { max-width: var(--measure); }
 .prose p + p { margin-top: 0.9rem; }
 .prose ul, .prose ol { margin: 0.75rem 0 0.75rem 1.15rem; }
 .prose li { margin-bottom: 0.35rem; }
-.prose h3 { font-size: 1.125rem; margin: 1.6rem 0 0.5rem; }
+.prose h3 { font-size: 1.25rem; margin: 1.9rem 0 0.55rem; }
 .small { font-size: 0.8125rem; color: var(--ink-3); }
 .mono { font-family: var(--mono); font-size: 0.8125rem; letter-spacing: 0.02em; }
 .muted { color: var(--ink-3); }
@@ -181,9 +181,13 @@ section { padding: 2.5rem 0; }
 section + section { border-top: 1px solid var(--rule); }
 @media (min-width: 800px) { section { padding: 3.5rem 0; } }
 
-.section-head { margin-bottom: 1.5rem; }
-.section-head h2 { font-size: clamp(1.4rem, 4.5vw, 2rem); margin-top: 0.35rem; }
-.section-head p { margin-top: 0.5rem; }
+.section-head { margin-bottom: 1.75rem; }
+/* The scale was flat: section headings, card headings and body text sat within
+   a few pixels of each other, so a long page read as one continuous texture
+   with no shape to scan. The top of the scale moves up and the bottom stays
+   put, which widens the steps without shrinking anything anyone has to read. */
+.section-head h2 { font-size: clamp(1.55rem, 5vw, 2.5rem); margin-top: 0.35rem; letter-spacing: -0.02em; }
+.section-head p { margin-top: 0.6rem; }
 
 .stack > * + * { margin-top: 1rem; }
 .stack-sm > * + * { margin-top: 0.5rem; }
@@ -361,7 +365,7 @@ section + section { border-top: 1px solid var(--rule); }
 }
 a.card { transition: border-color 0.15s, transform 0.15s; }
 a.card:hover { border-color: var(--rule-strong); }
-.card h3 { font-size: 1.0625rem; margin: 0.4rem 0 0.35rem; }
+.card h3 { font-size: 1.125rem; margin: 0.4rem 0 0.4rem; }
 .card p { font-size: 0.875rem; color: var(--ink-2); }
 .card__meta { margin-top: 0.75rem; padding-top: 0.6rem; border-top: 1px solid var(--rule); }
 
@@ -680,6 +684,21 @@ blockquote.official cite { display: block; margin-top: 0.4rem; font-family: var(
   border-top: 1px solid var(--rule);
   display: flex; flex-wrap: wrap; gap: 0.4rem; align-items: baseline;
 }
+/* At width the list stops being a narrow column of type against an empty half
+   and becomes what it actually is: a register, one claim per row with its state
+   in a column of its own. The state chips line up, so they can be compared down
+   the page instead of being hunted for at the end of each sentence. */
+@media (min-width: 860px) {
+  .hero__list { max-width: none; }
+  .hero__list li {
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    gap: 2rem;
+    padding: 0.85rem 0;
+  }
+  .hero__list li > .chip { flex: none; }
+  .hero__fact { flex: 1 1 auto; }
+}
 .hero__list li:last-child { border-bottom: 1px solid var(--rule); }
 .hero__fact {
   font-family: var(--serif);
@@ -699,6 +718,37 @@ blockquote.official cite { display: block; margin-top: 0.4rem; font-family: var(
   color: var(--ink-2);
 }
 .hero__what strong { color: var(--ink); }
+
+/* --- Hero layout ---------------------------------------------------------- *
+   Below 960px the hero is one column, as it always was. Above it, the claim
+   takes the left and the three counts take the right: the page had a narrow
+   column of type against an empty half-page, which reads as unfinished rather
+   than as space, and these three numbers are the strongest thing the front page
+   has to say. They are given their own column rather than a wider row so the
+   zero keeps a line to itself. */
+
+@media (min-width: 960px) {
+  .hero__grid {
+    display: grid;
+    grid-template-columns: minmax(0, 1.35fr) minmax(16rem, 0.65fr);
+    gap: 3.5rem;
+    align-items: start;
+  }
+  .hero__grid .stat-row {
+    margin-top: 0.5rem;
+    padding-top: 1.25rem;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  .hero__grid .stat { width: 100%; }
+  /* A rule down the left of the column, so the counts read as a panel attached
+     to the claim rather than as three orphaned figures. */
+  .hero__grid .stat-row {
+    border-top: 0;
+    border-left: 3px solid var(--brand-blue-ink);
+    padding-left: 1.5rem;
+  }
+}
 
 .stat-row {
   display: flex; flex-wrap: wrap; gap: 1.75rem;
@@ -731,6 +781,43 @@ blockquote.official cite { display: block; margin-top: 0.4rem; font-family: var(
 .lang-switch { flex: none; font-size: 0.75rem; white-space: nowrap; }
 .lang-switch a { color: var(--brand-blue-ink); }
 .lang-switch__on { font-weight: 700; color: var(--ink); }
+
+/* --- Record pages --------------------------------------------------------- *
+   An evidence record had one size of heading and a run of identical cards, so
+   the only hierarchy on the page came from the chips. The title now leads, the
+   section headings sit clearly below it, and the finding pair is marked as the
+   thing the record exists to say. */
+
+.record__title {
+  font-size: clamp(1.6rem, 5.5vw, 2.6rem);
+  line-height: 1.1;
+  margin: 0.8rem 0 1.25rem;
+  max-width: 30ch;
+}
+.record__section {
+  font-size: 1.4rem;
+  margin-top: 2.5rem;
+  padding-top: 0.9rem;
+  border-top: 2px solid var(--rule);
+}
+
+.finding { display: grid; gap: 0; border-radius: var(--radius); overflow: hidden; }
+@media (min-width: 720px) { .finding { grid-template-columns: 1fr 1fr; } }
+.finding__half { padding: 1.15rem 1.25rem; background: var(--paper-2); border: 1px solid var(--rule); }
+/* The two halves meet on one rule rather than sitting in separate boxes: they
+   are one statement in two parts, and a gap between them reads as two facts. */
+@media (min-width: 720px) {
+  .finding__half--not { border-left: 0; }
+}
+@media (max-width: 719px) {
+  .finding__half--not { border-top: 0; }
+}
+.finding__half--does { border-top: 4px solid var(--brand-blue-ink); }
+/* Dotted, and in the colour of an absence rather than of a state: what a
+   document does not establish is not a status, it is a boundary. */
+.finding__half--not { border-top: 4px dotted var(--rule-strong); background: var(--paper); }
+.finding__text { margin-top: 0.5rem; font-size: 1rem; line-height: 1.55; color: var(--ink); }
+.finding__half--not .finding__text { color: var(--ink-2); }
 
 /* --- Source provenance ---------------------------------------------------- *
    Shown on a record page, where a reader is deciding whether to believe it.
