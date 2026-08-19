@@ -220,6 +220,18 @@ WGO.offices = [
 WGO.updates = [
   {
     date: '2026-08-19',
+    title: 'A fourth incident is open: Siwan',
+    body: 'The daily sweep found the State of Bihar telling the Supreme Court that police discharged firearms at a student protest at Siwan on 25 July — four rounds from an AK-47 and two from a pistol, with three protesters injured. Siwan was not on this archive before today and has been opened as its own record rather than added to the Bihar one: a different town, a different date and a different weapon is a different incident. These are the first firearms in the archive.',
+    recordId: 'INC-SIW-001'
+  },
+  {
+    date: '2026-08-19',
+    title: 'An earlier finding of ours has been overtaken',
+    body: 'This archive recorded on 16 August that no court proceeding concerning the Bihar incidents could be found. That was true when written and is now wrong: Bihar is a respondent before the Supreme Court and has filed there. The record has been corrected and says what it used to say. Whether any court is seized of Patna, Katihar or Munger specifically is still not established.',
+    recordId: 'PROC-BIH-001'
+  },
+  {
+    date: '2026-08-19',
     title: 'Delhi Police has admitted using facial recognition at Jantar Mantar',
     body: 'On affidavit before the Supreme Court, the force said facial recognition technology was deployed at the protest. That it was used is now the police\'s own statement and is recorded as corroborated. Whether it was confined to people with criminal records, as the police say, or ran on the crowd, as the petitioners say, is recorded as disputed — the court has not decided it and neither has this archive.',
     recordId: 'PROC-SC-002'
@@ -317,6 +329,37 @@ WGO.incidents = [
     firs:           { state: 'UNKNOWN', note: null },
     officeIds: ['OFC-0002', 'OFC-0003', 'OFC-0004', 'OFC-0005', 'OFC-0006', 'OFC-0007', 'OFC-0008'],
     openedOn: '2026-08-15'
+  },
+  /* Opened 19 August 2026, on the strength of the State of Bihar's own affidavit
+     to the Supreme Court. Siwan is a separate shell rather than another line in
+     the Bihar record because 25 July at Siwan is a different event from 22 July
+     at Patna, with different personnel, a different weapon and a different
+     district administration. Folding it into INC-0002 would produce a record
+     that reads as one incident across four towns, which is the collapsing this
+     archive refuses between states and has no better reason to do within one.
+
+     It is also the first incident here that did not come from the round-1
+     research: the daily sweep found it. */
+  {
+    id: 'INC-0004',
+    slug: 'siwan',
+    title: 'Police firing during the student protest at Siwan',
+    place: 'JP Chowk, Siwan',   // the sources say 'near JP Chowk'; the qualifier belongs in the record, not in the place name
+    state: 'Bihar',
+    coords: [26.2196, 84.3597],           // Siwan town
+    coordsState: 'UNKNOWN',
+    incidentState: 'REPORTED',
+    dateState: 'CORROBORATED',
+    date: '25 July 2026',
+    summaryState: 'UNKNOWN',
+    summary: null,
+    forcesInvolved: { state: 'UNKNOWN', items: [] },
+    crowdControl:   { state: 'UNKNOWN', items: [] },
+    injuries:       { state: 'UNKNOWN', note: null },
+    detentions:     { state: 'UNKNOWN', note: null },
+    firs:           { state: 'UNKNOWN', note: null },
+    officeIds: ['OFC-0002', 'OFC-0003', 'OFC-0004', 'OFC-0005', 'OFC-0006', 'OFC-0007', 'OFC-0008'],
+    openedOn: '2026-08-19'
   }
 ];
 

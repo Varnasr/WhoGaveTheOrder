@@ -318,5 +318,35 @@
     "incidentId": "INC-0001",
     "level": null,
     "evidenceIds": []
+  },
+  {
+    "id": "OQ-035",
+    "kind": "Question",
+    "title": "Who authorised an AK-47, described by the State as a platoon-level weapon for special operations, to be carried on law-and-order duty at a student protest at Siwan on 25 July 2026.",
+    "state": "UNANSWERED",
+    "url": "https://www.whogavetheorder.in/investigation.html?id=bihar#OQ-035",
+    "incidentId": "INC-0002",
+    "level": null,
+    "evidenceIds": []
+  },
+  {
+    "id": "OQ-036",
+    "kind": "Question",
+    "title": "How many police personnel were injured at Jantar Mantar on 20 July 2026, and over what period the figure is counted.",
+    "state": "UNANSWERED",
+    "url": "https://www.whogavetheorder.in/investigation.html?id=jantar-mantar#OQ-036",
+    "incidentId": "INC-0001",
+    "level": null,
+    "evidenceIds": []
+  },
+  {
+    "id": "OQ-037",
+    "kind": "Question",
+    "title": "The medico-legal records and treatment of the three protesters reported to have sustained firearm injuries at Siwan, and whether any FIR records the firing.",
+    "state": "UNANSWERED",
+    "url": "https://www.whogavetheorder.in/investigation.html?id=bihar#OQ-037",
+    "incidentId": "INC-0002",
+    "level": null,
+    "evidenceIds": []
   }
 ]

@@ -179,11 +179,30 @@
     "id": "PROC-BIH-001",
     "jurisdiction": "bihar",
     "category": "legal_proceeding",
-    "claim": "Any court proceeding concerning the Patna, Katihar or Munger incidents.",
-    "confidence": "UNKNOWN",
-    "sources": [],
-    "notes": "Searched, none found. Absence of a preservation order in Bihar is why Bihar is the deadline-critical jurisdiction.",
-    "volatility": "low"
+    "claim": "Court proceedings concerning the Bihar incidents. The State of Bihar is a respondent in the Supreme Court proceedings on the CJP student protests and has filed an affidavit there.",
+    "confidence": "CORROBORATED",
+    "sources": [
+      {
+        "url": "https://www.barandbench.com/news/litigation/police-fired-ak-47-after-constable-was-trapped-by-crowd-no-cjp-protestor-was-injured-bihar-to-supreme-court",
+        "source_type": "secondary",
+        "publication": "Bar & Bench",
+        "retrieved_on": "2026-08-19"
+      },
+      {
+        "url": "https://thefederal.com/category/news/constable-fired-four-ak-47-shots-in-air-during-siwan-protest-no-injuries-bihat-govt-to-sc-253871",
+        "source_type": "secondary",
+        "publication": "The Federal",
+        "retrieved_on": "2026-08-19"
+      },
+      {
+        "url": "https://aninews.in/news/national/general-news/suspended-cop-who-fired-ak-47-after-being-surrounded-by-protesters-bihar-govt-tells-sc20260818130412/",
+        "source_type": "secondary",
+        "publication": "ANI",
+        "retrieved_on": "2026-08-19"
+      }
+    ],
+    "notes": "SUPERSEDES the earlier finding on this record, which read 'searched, none found' as at 16 August 2026 and was true when written. On 18 August 2026 the State of Bihar was reported to have filed an affidavit in the Supreme Court proceedings — see PROC-SC-004. WHAT HAS NOT CHANGED: that affidavit is reported to address Siwan. Whether any court is seized of the Patna, Katihar or Munger incidents specifically is STILL not established, and no preservation order is known for any Bihar location. The retention argument in the filing queue therefore stands in full: nothing yet shown interrupts any retention schedule in Bihar.",
+    "volatility": "high"
   },
   {
     "id": "OVR-NHRC-001",
@@ -2184,6 +2203,130 @@
       }
     ],
     "notes": "AS STATED BY DELHI POLICE, on affidavit: the software 'only captured the images of criminals or history sheeters'; it 'does not automatically capture profile of every individual present at the protest site'; 'no action is taken solely on the basis of facial recognition software' and a match is followed by field verification; it captures only those with a past record for serious offences, not petty ones. The Solicitor General said the technology 'captures the faces of only those persons who are recorded in the crime database'. Figures reported from the same hearing, and they are the police's own: 2,873 persons identified, 2,402 through a 'Crime Kundli' database and 471 through dossier records, of whom 92 are said to be involved in more than ten cases and 47 to be history-sheeters. This archive records those numbers as the police's assertion, not as established fact. AS STATED BY THE PETITIONERS, through Senior Advocates N. Hariharan and Menaka Guruswamy: 'that is not how the technology works', and a private company was engaged to process the data collected through the software. NEITHER IS ADOPTED HERE. The Chief Justice is reported to have said that constitutional issues would be determined by the Court alone. Until the affidavit and any finding on it are held, this stays DISPUTED.",
+    "volatility": "high"
+  },
+  {
+    "id": "INC-SIW-001",
+    "jurisdiction": "bihar",
+    "incident": "INC-0004",
+    "category": "incident",
+    "claim": "Police discharged firearms during the student protest at Siwan on 25 July 2026: four rounds from an AK-47 near JP Chowk, and two rounds from a 9mm pistol near Hathi Chowk, after which three protesters sustained firearm injuries described as minor.",
+    "confidence": "CORROBORATED",
+    "sources": [
+      {
+        "url": "https://www.barandbench.com/news/litigation/police-fired-ak-47-after-constable-was-trapped-by-crowd-no-cjp-protestor-was-injured-bihar-to-supreme-court",
+        "source_type": "secondary",
+        "publication": "Bar & Bench",
+        "retrieved_on": "2026-08-19"
+      },
+      {
+        "url": "https://thefederal.com/category/news/constable-fired-four-ak-47-shots-in-air-during-siwan-protest-no-injuries-bihat-govt-to-sc-253871",
+        "source_type": "secondary",
+        "publication": "The Federal",
+        "retrieved_on": "2026-08-19"
+      },
+      {
+        "url": "https://www.newsx.com/india/ak-47-fired-at-siwan-student-protest-but-no-one-hit-by-rifle-what-bihar-govt-told-supreme-court-261593/",
+        "source_type": "secondary",
+        "publication": "NewsX",
+        "retrieved_on": "2026-08-19"
+      },
+      {
+        "url": "https://aninews.in/news/national/general-news/suspended-cop-who-fired-ak-47-after-being-surrounded-by-protesters-bihar-govt-tells-sc20260818130412/",
+        "source_type": "secondary",
+        "publication": "ANI",
+        "retrieved_on": "2026-08-19"
+      }
+    ],
+    "notes": "The source of all of this is one document — the State of Bihar's affidavit to the Supreme Court, reported on 18 August 2026 — and the outlets are independent reports OF THAT DOCUMENT rather than independent knowledge of the events. What is corroborated is therefore what the State has said, which for the discharge of firearms is an admission against itself and is recorded as established. ANI is a wire; outlets carrying its copy are not additional sources. THE FIRST FIREARMS IN THIS ARCHIVE. Everything on the record until now concerned lathis, tear gas and detentions. NOT ESTABLISHED, and deliberately not written above: whether the AK-47 rounds were fired into the air, whether the constable was surrounded, and whether the three injured were hit by the pistol — those are the State's characterisations and sit at PROC-SC-004. Nor is anything established about who authorised an armed deployment at a student protest.",
+    "volatility": "high"
+  },
+  {
+    "id": "PROC-SC-004",
+    "jurisdiction": "bihar",
+    "incident": "INC-0004",
+    "category": "legal_proceeding",
+    "claim": "The State of Bihar filed an affidavit in the Supreme Court proceedings on the CJP student protests, reported on 18 August 2026, setting out its account of the police firing at Siwan on 25 July 2026.",
+    "confidence": "CORROBORATED",
+    "sources": [
+      {
+        "url": "https://www.barandbench.com/news/litigation/police-fired-ak-47-after-constable-was-trapped-by-crowd-no-cjp-protestor-was-injured-bihar-to-supreme-court",
+        "source_type": "secondary",
+        "publication": "Bar & Bench",
+        "retrieved_on": "2026-08-19"
+      },
+      {
+        "url": "https://thefederal.com/category/news/constable-fired-four-ak-47-shots-in-air-during-siwan-protest-no-injuries-bihat-govt-to-sc-253871",
+        "source_type": "secondary",
+        "publication": "The Federal",
+        "retrieved_on": "2026-08-19"
+      },
+      {
+        "url": "https://www.newsx.com/india/ak-47-fired-at-siwan-student-protest-but-no-one-hit-by-rifle-what-bihar-govt-told-supreme-court-261593/",
+        "source_type": "secondary",
+        "publication": "NewsX",
+        "retrieved_on": "2026-08-19"
+      },
+      {
+        "url": "https://aninews.in/news/national/general-news/suspended-cop-who-fired-ak-47-after-being-surrounded-by-protesters-bihar-govt-tells-sc20260818130412/",
+        "source_type": "secondary",
+        "publication": "ANI",
+        "retrieved_on": "2026-08-19"
+      }
+    ],
+    "notes": "AS STATED BY THE STATE OF BIHAR: a constable named in the affidavit as Abhishek Kumar fired four rounds from an AK-47 into the air, and only after he was surrounded or trapped by the crowd near JP Chowk; no protester was hit by rifle fire; the constable has been suspended for 'undesired conduct' and departmental proceedings have begun; the AK-47 was a platoon-level weapon meant for special operations and NOT for routine law-and-order duty; separately, an ASI fired two rounds from a 9mm pistol near Hathi Chowk to disperse a crowd, and the three protesters with firearm injuries were hit there rather than at the rifle location; and the forces maintained 'utmost restraint' and used no disproportionate force. THIS ARCHIVE ADOPTS NONE OF THAT. It is one side's account of its own conduct, filed in its own defence, and no contrary account from the injured or from any witness is on the record here yet. The admission that a weapon issued for special operations was carried on law-and-order duty is the State's own, and is the single most useful line in it: it concerns deployment, which is an authorisation question, and authorisation is what this archive is for. ON NAMING THE CONSTABLE: the archive names him because the State did, in a document filed in court. He is not added to the chain of command. Firing a weapon and authorising its deployment are different claims, and the chain records the second. Who decided that a platoon-level weapon would be at a student protest is UNKNOWN — see OQ-035.",
+    "volatility": "high"
+  },
+  {
+    "id": "PROC-SC-005",
+    "jurisdiction": "delhi",
+    "category": "legal_proceeding",
+    "claim": "Delhi Police filed an affidavit in the Supreme Court proceedings, reported on 18 August 2026, stating that no excessive force was used at Jantar Mantar on 20 July 2026, that the march to Parliament was not permitted, that the protest was infiltrated by history-sheeters and anti-social elements, and that more than 240 police personnel were injured.",
+    "confidence": "CORROBORATED",
+    "sources": [
+      {
+        "url": "https://www.business-standard.com/india-news/history-sheeters-infiltrated-jul-20-protest-240-cops-injured-delhi-police-126081800545_1.html",
+        "source_type": "secondary",
+        "publication": "Business Standard",
+        "retrieved_on": "2026-08-19"
+      },
+      {
+        "url": "https://lawchakra.in/supreme-court/delhi-police-supreme-court-affidavit-no-excessive-force-student-protesters/",
+        "source_type": "secondary",
+        "publication": "LawChakra",
+        "retrieved_on": "2026-08-19"
+      },
+      {
+        "url": "https://www.barandbench.com/news/litigation/police-fired-ak-47-after-constable-was-trapped-by-crowd-no-cjp-protestor-was-injured-bihar-to-supreme-court",
+        "source_type": "secondary",
+        "publication": "Bar & Bench",
+        "retrieved_on": "2026-08-19"
+      }
+    ],
+    "notes": "AS STATED BY DELHI POLICE: about 5,000 police were managing a crowd reported at over 30,000 across roughly three kilometres; the agitation was hijacked by anti-social elements and history-sheeters; more than 240 police personnel were injured; the force acted with maximum restraint. A FIGURE THIS ARCHIVE CANNOT RECONCILE: the police injury count reported here is 'more than 240'. The Wikipedia account of the same events, sourced to earlier reporting, gives 118 police personnel injured. Both cannot be the count on the same date unless one covers a longer period or a wider set of incidents, and neither report says which. The discrepancy is recorded rather than resolved by preferring the larger or the later number — see OQ-036. The protester injury figures are separately contested and are not restated here.",
+    "volatility": "high"
+  },
+  {
+    "id": "PROC-SC-006",
+    "jurisdiction": "delhi",
+    "category": "legal_proceeding",
+    "claim": "The Supreme Court is reported to have decided to constitute a high-powered committee to examine allegations of police excess, sexual violence and other incidents arising from the CJP protests, and to have indicated that it may exercise its power under Article 142 to quash FIRs against student participants, while keeping open cases involving grave offences.",
+    "confidence": "CORROBORATED",
+    "sources": [
+      {
+        "url": "https://www.barandbench.com/news/cjp-protests-supreme-court-to-form-high-powered-panel-to-probe-police-excesses-violence-against-cops",
+        "source_type": "secondary",
+        "publication": "Bar & Bench",
+        "retrieved_on": "2026-08-19"
+      },
+      {
+        "url": "https://www.scobserver.in/journal/sc-says-jantar-mantar-protest-firs-cannot-define-students-futures/",
+        "source_type": "secondary",
+        "publication": "Supreme Court Observer",
+        "retrieved_on": "2026-08-19"
+      }
+    ],
+    "notes": "Two separate things, both reported from the same proceedings and neither held as an order: a committee that has not been shown to be constituted, and an indication about FIRs that is not a direction. The petitioners are reported to have opposed sending the facial recognition question to such a committee, and the Chief Justice to have said constitutional issues are for the Court alone — see PROC-SC-003. ARCHIVE SIGNIFICANCE: a committee with terms of reference would generate documents, and its constitution order would be the first primary document in this archive about the Delhi incident. The order is not held: see OQ-033.",
     "volatility": "high"
   }
 ]

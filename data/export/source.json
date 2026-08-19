@@ -125,6 +125,39 @@
     "kind": "Source",
     "title": "Bar & Bench",
     "state": null,
+    "url": "https://www.barandbench.com/news/litigation/police-fired-ak-47-after-constable-was-trapped-by-crowd-no-cjp-protestor-was-injured-bihar-to-supreme-court",
+    "publisher": null,
+    "retrievedOn": "2026-08-19",
+    "sha256": null,
+    "archiveUrl": null
+  },
+  {
+    "id": "SRC-0013",
+    "kind": "Source",
+    "title": "The Federal",
+    "state": null,
+    "url": "https://thefederal.com/category/news/constable-fired-four-ak-47-shots-in-air-during-siwan-protest-no-injuries-bihat-govt-to-sc-253871",
+    "publisher": null,
+    "retrievedOn": "2026-08-19",
+    "sha256": null,
+    "archiveUrl": null
+  },
+  {
+    "id": "SRC-0014",
+    "kind": "Source",
+    "title": "ANI",
+    "state": null,
+    "url": "https://aninews.in/news/national/general-news/suspended-cop-who-fired-ak-47-after-being-surrounded-by-protesters-bihar-govt-tells-sc20260818130412/",
+    "publisher": null,
+    "retrievedOn": "2026-08-19",
+    "sha256": null,
+    "archiveUrl": null
+  },
+  {
+    "id": "SRC-0015",
+    "kind": "Source",
+    "title": "Bar & Bench",
+    "state": null,
     "url": "https://www.barandbench.com/news/litigation/nhrc-takes-suo-motu-cognisance-of-delhi-police-excesses-during-jantar-mantar-protests",
     "publisher": null,
     "retrievedOn": "2026-08-16",
@@ -132,7 +165,7 @@
     "archiveUrl": null
   },
   {
-    "id": "SRC-0013",
+    "id": "SRC-0016",
     "kind": "Source",
     "title": "India Legal",
     "state": null,
@@ -143,7 +176,7 @@
     "archiveUrl": null
   },
   {
-    "id": "SRC-0014",
+    "id": "SRC-0017",
     "kind": "Source",
     "title": "Deccan Chronicle",
     "state": null,
@@ -154,7 +187,7 @@
     "archiveUrl": null
   },
   {
-    "id": "SRC-0015",
+    "id": "SRC-0018",
     "kind": "Source",
     "title": "ANI via IndiasNews",
     "state": null,
@@ -165,7 +198,7 @@
     "archiveUrl": null
   },
   {
-    "id": "SRC-0016",
+    "id": "SRC-0019",
     "kind": "Source",
     "title": "High Court of Delhi",
     "state": null,
@@ -176,7 +209,7 @@
     "archiveUrl": null
   },
   {
-    "id": "SRC-0017",
+    "id": "SRC-0020",
     "kind": "Source",
     "title": "Bar & Bench",
     "state": null,
@@ -187,7 +220,7 @@
     "archiveUrl": null
   },
   {
-    "id": "SRC-0018",
+    "id": "SRC-0021",
     "kind": "Source",
     "title": "Oneindia",
     "state": null,
@@ -198,7 +231,62 @@
     "archiveUrl": null
   },
   {
-    "id": "SRC-0019",
+    "id": "SRC-0022",
+    "kind": "Source",
+    "title": "NewsX",
+    "state": null,
+    "url": "https://www.newsx.com/india/ak-47-fired-at-siwan-student-protest-but-no-one-hit-by-rifle-what-bihar-govt-told-supreme-court-261593/",
+    "publisher": null,
+    "retrievedOn": "2026-08-19",
+    "sha256": null,
+    "archiveUrl": null
+  },
+  {
+    "id": "SRC-0023",
+    "kind": "Source",
+    "title": "Business Standard",
+    "state": null,
+    "url": "https://www.business-standard.com/india-news/history-sheeters-infiltrated-jul-20-protest-240-cops-injured-delhi-police-126081800545_1.html",
+    "publisher": null,
+    "retrievedOn": "2026-08-19",
+    "sha256": null,
+    "archiveUrl": null
+  },
+  {
+    "id": "SRC-0024",
+    "kind": "Source",
+    "title": "LawChakra",
+    "state": null,
+    "url": "https://lawchakra.in/supreme-court/delhi-police-supreme-court-affidavit-no-excessive-force-student-protesters/",
+    "publisher": null,
+    "retrievedOn": "2026-08-19",
+    "sha256": null,
+    "archiveUrl": null
+  },
+  {
+    "id": "SRC-0025",
+    "kind": "Source",
+    "title": "Bar & Bench",
+    "state": null,
+    "url": "https://www.barandbench.com/news/cjp-protests-supreme-court-to-form-high-powered-panel-to-probe-police-excesses-violence-against-cops",
+    "publisher": null,
+    "retrievedOn": "2026-08-19",
+    "sha256": null,
+    "archiveUrl": null
+  },
+  {
+    "id": "SRC-0026",
+    "kind": "Source",
+    "title": "Supreme Court Observer",
+    "state": null,
+    "url": "https://www.scobserver.in/journal/sc-says-jantar-mantar-protest-firs-cannot-define-students-futures/",
+    "publisher": null,
+    "retrievedOn": "2026-08-19",
+    "sha256": null,
+    "archiveUrl": null
+  },
+  {
+    "id": "SRC-0027",
     "kind": "Source",
     "title": "India Code",
     "state": null,
@@ -209,7 +297,7 @@
     "archiveUrl": null
   },
   {
-    "id": "SRC-0020",
+    "id": "SRC-0028",
     "kind": "Source",
     "title": "Bureau of Police Research and Development",
     "state": null,
@@ -220,7 +308,7 @@
     "archiveUrl": null
   },
   {
-    "id": "SRC-0021",
+    "id": "SRC-0029",
     "kind": "Source",
     "title": "Uttar Pradesh Police",
     "state": null,
@@ -231,7 +319,7 @@
     "archiveUrl": null
   },
   {
-    "id": "SRC-0022",
+    "id": "SRC-0030",
     "kind": "Source",
     "title": "onlinelawconnect",
     "state": null,
@@ -242,7 +330,7 @@
     "archiveUrl": null
   },
   {
-    "id": "SRC-0023",
+    "id": "SRC-0031",
     "kind": "Source",
     "title": "Justice Definitions Project",
     "state": null,
@@ -253,7 +341,7 @@
     "archiveUrl": null
   },
   {
-    "id": "SRC-0024",
+    "id": "SRC-0032",
     "kind": "Source",
     "title": "ApniLaw",
     "state": null,
@@ -264,7 +352,7 @@
     "archiveUrl": null
   },
   {
-    "id": "SRC-0025",
+    "id": "SRC-0033",
     "kind": "Source",
     "title": "India Code",
     "state": null,
@@ -275,7 +363,7 @@
     "archiveUrl": null
   },
   {
-    "id": "SRC-0026",
+    "id": "SRC-0034",
     "kind": "Source",
     "title": "indianemployees.com",
     "state": null,
@@ -286,7 +374,7 @@
     "archiveUrl": null
   },
   {
-    "id": "SRC-0027",
+    "id": "SRC-0035",
     "kind": "Source",
     "title": "India Code",
     "state": null,
@@ -297,7 +385,7 @@
     "archiveUrl": null
   },
   {
-    "id": "SRC-0028",
+    "id": "SRC-0036",
     "kind": "Source",
     "title": "Gurukul Nexus",
     "state": null,
@@ -308,7 +396,7 @@
     "archiveUrl": null
   },
   {
-    "id": "SRC-0029",
+    "id": "SRC-0037",
     "kind": "Source",
     "title": "India Code",
     "state": null,
@@ -319,7 +407,7 @@
     "archiveUrl": null
   },
   {
-    "id": "SRC-0030",
+    "id": "SRC-0038",
     "kind": "Source",
     "title": "LegitQuest",
     "state": null,
@@ -330,7 +418,7 @@
     "archiveUrl": null
   },
   {
-    "id": "SRC-0031",
+    "id": "SRC-0039",
     "kind": "Source",
     "title": "CaseMine",
     "state": null,
@@ -341,7 +429,7 @@
     "archiveUrl": null
   },
   {
-    "id": "SRC-0032",
+    "id": "SRC-0040",
     "kind": "Source",
     "title": "Ministry of Home Affairs",
     "state": null,
@@ -352,7 +440,7 @@
     "archiveUrl": null
   },
   {
-    "id": "SRC-0033",
+    "id": "SRC-0041",
     "kind": "Source",
     "title": "NHRC",
     "state": null,
@@ -363,7 +451,7 @@
     "archiveUrl": null
   },
   {
-    "id": "SRC-0034",
+    "id": "SRC-0042",
     "kind": "Source",
     "title": "NHRC",
     "state": null,
@@ -374,7 +462,7 @@
     "archiveUrl": null
   },
   {
-    "id": "SRC-0035",
+    "id": "SRC-0043",
     "kind": "Source",
     "title": "commoner-law.com",
     "state": null,
@@ -385,7 +473,7 @@
     "archiveUrl": null
   },
   {
-    "id": "SRC-0036",
+    "id": "SRC-0044",
     "kind": "Source",
     "title": "Bellingcat",
     "state": null,
@@ -396,7 +484,7 @@
     "archiveUrl": null
   },
   {
-    "id": "SRC-0037",
+    "id": "SRC-0045",
     "kind": "Source",
     "title": "GIJN",
     "state": null,
@@ -407,7 +495,7 @@
     "archiveUrl": null
   },
   {
-    "id": "SRC-0038",
+    "id": "SRC-0046",
     "kind": "Source",
     "title": "The Polis Project",
     "state": null,
@@ -418,7 +506,7 @@
     "archiveUrl": null
   },
   {
-    "id": "SRC-0039",
+    "id": "SRC-0047",
     "kind": "Source",
     "title": "Wikipedia",
     "state": null,
@@ -429,7 +517,7 @@
     "archiveUrl": null
   },
   {
-    "id": "SRC-0040",
+    "id": "SRC-0048",
     "kind": "Source",
     "title": "Common Cause and CSDS",
     "state": null,
@@ -440,7 +528,7 @@
     "archiveUrl": null
   },
   {
-    "id": "SRC-0041",
+    "id": "SRC-0049",
     "kind": "Source",
     "title": "Sage",
     "state": null,

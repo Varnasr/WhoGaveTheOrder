@@ -31,5 +31,16 @@
     "date": null,
     "dateState": "UNKNOWN",
     "summary": null
+  },
+  {
+    "id": "INC-0004",
+    "kind": "Incident",
+    "title": "Police firing during the student protest at Siwan",
+    "state": "REPORTED",
+    "url": "https://www.whogavetheorder.in/investigation.html?id=siwan",
+    "place": "JP Chowk, Siwan",
+    "date": "25 July 2026",
+    "dateState": "CORROBORATED",
+    "summary": null
   }
 ]

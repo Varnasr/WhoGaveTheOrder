@@ -400,5 +400,42 @@
     "blocks": [
       "PROC-SC-003"
     ]
+  },
+  {
+    "id": "OQ-035",
+    "priority": "time_critical",
+    "category": "document_custody",
+    "jurisdiction": "bihar",
+    "question": "Who authorised an AK-47, described by the State as a platoon-level weapon for special operations, to be carried on law-and-order duty at a student protest at Siwan on 25 July 2026.",
+    "why_it_matters": "This is the archive's question in its purest form, and the State has opened the door to it by admitting the weapon should not have been there. Somebody decided the deployment, drew the weapon from an armoury and recorded the issue. Arms issue registers, deployment orders and the daily diary are records, and they are the kind of record that answers who gave the order rather than who pulled the trigger.",
+    "lawful_route": "RTI to the Superintendent of Police, Siwan, and to the District Magistrate, Siwan, for the deployment order for 25 July 2026, the arms and ammunition issue register entry, the daily diary entries for the relevant hours, and any requisition of armed force. Separately, the suspension order and the departmental proceeding record for the named constable. File before any retention period runs: no court is known to have ordered preservation in Bihar.",
+    "blocks": [
+      "PROC-SC-004",
+      "INC-SIW-001"
+    ]
+  },
+  {
+    "id": "OQ-036",
+    "priority": "high",
+    "category": "oversight",
+    "jurisdiction": "delhi",
+    "question": "How many police personnel were injured at Jantar Mantar on 20 July 2026, and over what period the figure is counted.",
+    "why_it_matters": "Delhi Police told the Supreme Court more than 240 were injured. Earlier reporting of the same events gives 118. The archive cannot hold both as the count for the same day, and the difference is not a detail: the injury figures on both sides are what the proportionality of the force will be argued from.",
+    "lawful_route": "The affidavit itself will state the period and the basis. Medico-legal case records are held by the hospitals that treated the injured and are obtainable in aggregate by RTI without identifying anyone. The same request should cover protester injuries, which are separately contested.",
+    "blocks": [
+      "PROC-SC-005"
+    ]
+  },
+  {
+    "id": "OQ-037",
+    "priority": "high",
+    "category": "oversight",
+    "jurisdiction": "bihar",
+    "question": "The medico-legal records and treatment of the three protesters reported to have sustained firearm injuries at Siwan, and whether any FIR records the firing.",
+    "why_it_matters": "Three people were shot at a protest, on the State's own account. Whether that was recorded as an offence, investigated, or treated only as a departmental matter against one constable is the difference between an incident and a case.",
+    "lawful_route": "RTI to the Superintendent of Police, Siwan, for FIRs registered in connection with the events of 25 July 2026 including any registered on the firing itself; and to the civil surgeon, Siwan, for the number of medico-legal cases arising that day. Do not seek anything that would identify an injured person.",
+    "blocks": [
+      "INC-SIW-001"
+    ]
   }
 ]

@@ -140,15 +140,19 @@
   {
     "id": "PROC-BIH-001",
     "kind": "Evidence",
-    "title": "Any court proceeding concerning the Patna, Katihar or Munger incidents.",
-    "state": "UNKNOWN",
+    "title": "Court proceedings concerning the Bihar incidents. The State of Bihar is a respondent in the Supreme Court proceedings on the CJP student protests and has filed ",
+    "state": "CORROBORATED",
     "url": "https://www.whogavetheorder.in/evidence.html?id=PROC-BIH-001",
     "type": "COURT_DOCUMENT",
     "incidentId": "INC-0002",
     "dateOfItem": null,
-    "establishes": "Searched, none found. Absence of a preservation order in Bihar is why Bihar is the deadline-critical jurisdiction.",
+    "establishes": "SUPERSEDES the earlier finding on this record, which read 'searched, none found' as at 16 August 2026 and was true when written. On 18 August 2026 the State of Bihar was reported to have filed an affidavit in the Supreme Court proceedings — see PROC-SC-004. WHAT HAS NOT CHANGED: that affidavit is reported to address Siwan. Whether any court is seized of the Patna, Katihar or Munger incidents specifically is STILL not established, and no preservation order is known for any Bihar location. The retention argument in the filing queue therefore stands in full: nothing yet shown interrupts any retention schedule in Bihar.",
     "doesNotEstablish": null,
-    "sourceIds": []
+    "sourceIds": [
+      "SRC-0012",
+      "SRC-0013",
+      "SRC-0014"
+    ]
   },
   {
     "id": "OVR-NHRC-001",
@@ -162,10 +166,10 @@
     "establishes": "Two-week deadline expired approximately 8 August 2026. Diary/case number UNKNOWN. NHRC order text not held. Searched on 18 August 2026: nhrc.nic.in/media/press-release does not list this matter. Its entries for 20 and 24 July 2026 carry other suo motu cognisances and nothing on Jantar Mantar. That is one listing page read on one date, not proof the Commission published nothing — but four outlets report an order the Commission does not appear to have announced itself, and that gap is part of the record.",
     "doesNotEstablish": null,
     "sourceIds": [
-      "SRC-0012",
-      "SRC-0013",
+      "SRC-0015",
+      "SRC-0016",
       "SRC-0002",
-      "SRC-0014"
+      "SRC-0017"
     ]
   },
   {
@@ -180,7 +184,7 @@
     "establishes": "Separate proceeding from OVR-NHRC-001. Diary number UNKNOWN.",
     "doesNotEstablish": null,
     "sourceIds": [
-      "SRC-0015"
+      "SRC-0018"
     ]
   },
   {
@@ -221,7 +225,7 @@
     "establishes": "The court's own record, and the first primary document in this archive for the Delhi proceeding. WHAT IT ESTABLISHES: the cause title, the writ petition and application numbers, the date of listing, and the bench. It settles two things the news reports disagreed about — the cause title is Shakeel Abbas v. Union of India and Ors. as Verdictum reported, and the date is 22 July 2026, not the 23rd. WHAT IT DOES NOT ESTABLISH: anything at all about what was ordered. A cause list records that a matter was listed and before whom. The directions at PROC-DEL-001 still rest on news reports and stay CORROBORATED until the order itself is held. RETRIEVAL: the file is 21MB and its sha256 is recorded above. Delhi High Court cause lists are directly downloadable at delhihighcourt.nic.in/files/YYYY-MM/cause-list/ as combined_cause_list_DD.MM.YYYY.pdf, and per-court lists as rlDDMMYYYY.pdf. The earlier guess of c_DDMMYYYY.pdf is the format for some dates but not this one.",
     "doesNotEstablish": null,
     "sourceIds": [
-      "SRC-0016"
+      "SRC-0019"
     ]
   },
   {
@@ -237,8 +241,8 @@
     "doesNotEstablish": null,
     "sourceIds": [
       "SRC-0011",
-      "SRC-0017",
-      "SRC-0018"
+      "SRC-0020",
+      "SRC-0021"
     ]
   },
   {
@@ -254,8 +258,77 @@
     "doesNotEstablish": null,
     "sourceIds": [
       "SRC-0011",
-      "SRC-0017",
-      "SRC-0018"
+      "SRC-0020",
+      "SRC-0021"
+    ]
+  },
+  {
+    "id": "INC-SIW-001",
+    "kind": "Evidence",
+    "title": "Police discharged firearms during the student protest at Siwan on 25 July 2026: four rounds from an AK-47 near JP Chowk, and two rounds from a 9mm pistol near H",
+    "state": "CORROBORATED",
+    "url": "https://www.whogavetheorder.in/evidence.html?id=INC-SIW-001",
+    "type": "OTHER_DOCUMENT",
+    "incidentId": "INC-0004",
+    "dateOfItem": null,
+    "establishes": "The source of all of this is one document — the State of Bihar's affidavit to the Supreme Court, reported on 18 August 2026 — and the outlets are independent reports OF THAT DOCUMENT rather than independent knowledge of the events. What is corroborated is therefore what the State has said, which for the discharge of firearms is an admission against itself and is recorded as established. ANI is a wire; outlets carrying its copy are not additional sources. THE FIRST FIREARMS IN THIS ARCHIVE. Everything on the record until now concerned lathis, tear gas and detentions. NOT ESTABLISHED, and deliberately not written above: whether the AK-47 rounds were fired into the air, whether the constable was surrounded, and whether the three injured were hit by the pistol — those are the State's characterisations and sit at PROC-SC-004. Nor is anything established about who authorised an armed deployment at a student protest.",
+    "doesNotEstablish": null,
+    "sourceIds": [
+      "SRC-0012",
+      "SRC-0013",
+      "SRC-0022",
+      "SRC-0014"
+    ]
+  },
+  {
+    "id": "PROC-SC-004",
+    "kind": "Evidence",
+    "title": "The State of Bihar filed an affidavit in the Supreme Court proceedings on the CJP student protests, reported on 18 August 2026, setting out its account of the p",
+    "state": "CORROBORATED",
+    "url": "https://www.whogavetheorder.in/evidence.html?id=PROC-SC-004",
+    "type": "COURT_DOCUMENT",
+    "incidentId": "INC-0004",
+    "dateOfItem": null,
+    "establishes": "AS STATED BY THE STATE OF BIHAR: a constable named in the affidavit as Abhishek Kumar fired four rounds from an AK-47 into the air, and only after he was surrounded or trapped by the crowd near JP Chowk; no protester was hit by rifle fire; the constable has been suspended for 'undesired conduct' and departmental proceedings have begun; the AK-47 was a platoon-level weapon meant for special operations and NOT for routine law-and-order duty; separately, an ASI fired two rounds from a 9mm pistol near Hathi Chowk to disperse a crowd, and the three protesters with firearm injuries were hit there rather than at the rifle location; and the forces maintained 'utmost restraint' and used no disproportionate force. THIS ARCHIVE ADOPTS NONE OF THAT. It is one side's account of its own conduct, filed in its own defence, and no contrary account from the injured or from any witness is on the record here yet. The admission that a weapon issued for special operations was carried on law-and-order duty is the State's own, and is the single most useful line in it: it concerns deployment, which is an authorisation question, and authorisation is what this archive is for. ON NAMING THE CONSTABLE: the archive names him because the State did, in a document filed in court. He is not added to the chain of command. Firing a weapon and authorising its deployment are different claims, and the chain records the second. Who decided that a platoon-level weapon would be at a student protest is UNKNOWN — see OQ-035.",
+    "doesNotEstablish": null,
+    "sourceIds": [
+      "SRC-0012",
+      "SRC-0013",
+      "SRC-0022",
+      "SRC-0014"
+    ]
+  },
+  {
+    "id": "PROC-SC-005",
+    "kind": "Evidence",
+    "title": "Delhi Police filed an affidavit in the Supreme Court proceedings, reported on 18 August 2026, stating that no excessive force was used at Jantar Mantar on 20 Ju",
+    "state": "CORROBORATED",
+    "url": "https://www.whogavetheorder.in/evidence.html?id=PROC-SC-005",
+    "type": "COURT_DOCUMENT",
+    "incidentId": "INC-0001",
+    "dateOfItem": null,
+    "establishes": "AS STATED BY DELHI POLICE: about 5,000 police were managing a crowd reported at over 30,000 across roughly three kilometres; the agitation was hijacked by anti-social elements and history-sheeters; more than 240 police personnel were injured; the force acted with maximum restraint. A FIGURE THIS ARCHIVE CANNOT RECONCILE: the police injury count reported here is 'more than 240'. The Wikipedia account of the same events, sourced to earlier reporting, gives 118 police personnel injured. Both cannot be the count on the same date unless one covers a longer period or a wider set of incidents, and neither report says which. The discrepancy is recorded rather than resolved by preferring the larger or the later number — see OQ-036. The protester injury figures are separately contested and are not restated here.",
+    "doesNotEstablish": null,
+    "sourceIds": [
+      "SRC-0023",
+      "SRC-0024",
+      "SRC-0012"
+    ]
+  },
+  {
+    "id": "PROC-SC-006",
+    "kind": "Evidence",
+    "title": "The Supreme Court is reported to have decided to constitute a high-powered committee to examine allegations of police excess, sexual violence and other incident",
+    "state": "CORROBORATED",
+    "url": "https://www.whogavetheorder.in/evidence.html?id=PROC-SC-006",
+    "type": "COURT_DOCUMENT",
+    "incidentId": "INC-0001",
+    "dateOfItem": null,
+    "establishes": "Two separate things, both reported from the same proceedings and neither held as an order: a committee that has not been shown to be constituted, and an indication about FIRs that is not a direction. The petitioners are reported to have opposed sending the facial recognition question to such a committee, and the Chief Justice to have said constitutional issues are for the Court alone — see PROC-SC-003. ARCHIVE SIGNIFICANCE: a committee with terms of reference would generate documents, and its constitution order would be the first primary document in this archive about the Delhi incident. The order is not held: see OQ-033.",
+    "doesNotEstablish": null,
+    "sourceIds": [
+      "SRC-0025",
+      "SRC-0026"
     ]
   }
 ]

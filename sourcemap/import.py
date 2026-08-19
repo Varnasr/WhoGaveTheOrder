@@ -47,6 +47,16 @@ FRAMEWORK      = {'statute', 'police_manual', 'guideline', 'precedent'}
 JURIS_TO_INCIDENT = {'delhi': 'INC-0001', 'bihar': 'INC-0002', 'maharashtra': 'INC-0003'}
 
 
+def incident_for(item):
+    # Which incident shell an item belongs to. Normally the jurisdiction decides,
+    # but a state can hold more than one incident: Siwan on 25 July is not Patna
+    # on 22 July, and filing Siwan facts under the Patna record would be the
+    # collapsing of distinct events that CLAUDE.md forbids between jurisdictions
+    # and that is no more acceptable within one. An item may therefore name its
+    # incident directly, and that wins.
+    return item.get('incident') or JURIS_TO_INCIDENT.get(item['jurisdiction'])
+
+
 def about_incident(item):
     # Does this item state a fact about one of the incidents?
     #
@@ -129,7 +139,7 @@ PLACE_RE = re.compile(r'at ([^,]+(?:, [^,]+)?),? on ')
 
 incident_updates = {}
 for i in incident_items:
-    inc_id = JURIS_TO_INCIDENT.get(i['jurisdiction'])
+    inc_id = incident_for(i)
     if not inc_id:
         continue
     d = DATE_RE.search(i['claim'])
@@ -151,7 +161,7 @@ for i in ev:
         'title': i['claim'][:160],
         'type': CATEGORY_TO_TYPE.get(i['category'], 'OTHER_DOCUMENT'),
         'verification': i['confidence'],
-        'incidentId': JURIS_TO_INCIDENT.get(i['jurisdiction']),
+        'incidentId': incident_for(i),
         'dateOfItem': None,
         'dateAdded': '2026-08-16',
         'sourceIds': [source_id_for(s) for s in i['sources']],
@@ -178,7 +188,7 @@ for i in ev:
         'kind': 'Report',
         'date': None,
         'url': url,
-        'incidentIds': [JURIS_TO_INCIDENT[i['jurisdiction']]] if i['jurisdiction'] in JURIS_TO_INCIDENT else [],
+        'incidentIds': [incident_for(i)] if incident_for(i) else [],
         'note': i.get('notes') or '',
         'confidence': i['confidence'],
     })
