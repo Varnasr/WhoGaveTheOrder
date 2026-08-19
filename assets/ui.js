@@ -469,6 +469,7 @@
             '</ul></div>' +
             '<div><h4>' + ui.esc(ui.t('footer.howWeWork', 'How we work')) + '</h4><ul>' +
               '<li>' + fl('walkthrough.html', 'How to read this archive') + '</li>' +
+              '<li>' + fl('press.html', 'Press') + '</li>' +
               '<li>' + fl('about.html#method', 'Methodology') + '</li>' +
               '<li>' + fl('about.html#standards', 'Verification standards') + '</li>' +
               '<li>' + fl('about.html#privacy', 'Privacy and takedown') + '</li>' +

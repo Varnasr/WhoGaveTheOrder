@@ -1248,6 +1248,50 @@
     '</article>';
   }
 
+  /* ======================================================================= *
+     PRESS
+     ======================================================================= */
+
+  /* The press page states figures a journalist may quote, so it reads them off
+     the records at load rather than carrying numbers written into the markup.
+     A press page that has drifted from the archive is worse than none. */
+  pages.press = function () {
+    var counts = model.counts();
+    var archived = model.publishedSources.filter(function (s) { return s.archiveUrl; }).length;
+
+    ui.mount('[data-region="press-counts"]',
+      '<div><b>' + counts.incidents + '</b><span>Incidents</span></div>' +
+      '<div><b>' + counts.evidence + '</b><span>Evidence records</span></div>' +
+      '<div><b>' + counts.sources + '</b><span>Sources</span></div>' +
+      '<div><b>' + counts.open + '</b><span>Questions unanswered</span></div>' +
+      '<div><b>' + counts.orders + '</b><span>Orders found</span></div>');
+
+    /* Incidents in the archive's own words, each carrying its state, so the
+       page cannot describe an incident more firmly than the record does. */
+    var incidents = model.incidents.map(function (inc) {
+      var dated = inc.date && inc.dateState !== 'UNKNOWN';
+      /* The title, not the place: an incident held open already says so in its
+         place field, and appending a second qualifier read as a stutter. */
+      return '<li>' +
+        '<span class="hero__fact"><strong>' + ui.esc(inc.title) + '</strong>' +
+          (dated ? ', ' + ui.esc(inc.date) : ', no date established') +
+        '.</span> ' + ui.chip(inc.incidentState) +
+      '</li>';
+    }).join('');
+
+    ui.mount('[data-region="press-holdings"]',
+      '<ul class="hero__list">' + incidents +
+        '<li><span class="hero__fact"><strong>No order authorising force has been found, ' +
+          'for any of them.</strong></span> ' + ui.chip('UNKNOWN') + '</li>' +
+      '</ul>' +
+      '<p class="small" style="margin-top:0.9rem">' +
+        counts.evidence + ' evidence records drawn from ' + counts.sources + ' sources, ' +
+        archived + ' of which have an archived copy taken so the citation survives if the ' +
+        'original page changes. ' + counts.offices + ' offices are mapped as having had the ' +
+        'authority to order police action. ' + counts.open + ' questions have no answer, each ' +
+        'tied to the office that would hold it.</p>');
+  };
+
   pages.changes = function () {
     var history = WGO.changes || [];
 
