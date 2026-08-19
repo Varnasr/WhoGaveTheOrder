@@ -3,10 +3,11 @@
     {
       "date": "2026-08-19",
       "targets": 9,
-      "findings": 2,
+      "findings": 15,
       "outcomes": {
         "matched": 1,
-        "no-match": 2,
+        "changed-no-match": 1,
+        "no-match": 1,
         "unreachable": 1,
         "ok": 5
       }
@@ -19,7 +20,7 @@
       "method": "pdf-text"
     },
     "delhi-hc-judgments": {
-      "fingerprint": "a40d51f0f44cfb49",
+      "fingerprint": "ec8c8916cf0d8009",
       "lastChecked": "2026-08-19",
       "method": "html"
     },
@@ -78,7 +79,30 @@
         "ad7183a2ca8b06a5",
         "8b3f4147b21cf899",
         "41f94d48cb28c762",
-        "01452d403198fc14"
+        "01452d403198fc14",
+        "dabe4ee756ce240f",
+        "f402063cf85e8686",
+        "701a155d5766f2f4",
+        "b2eff28bb4f77767",
+        "7d279243bf5e02ec",
+        "97ca90f7a0fc9402",
+        "0c05d690103d5385",
+        "0ed02c00f1b5a5db",
+        "866f618ff8d0e51b",
+        "78b82e38f238df56",
+        "87e8a29941f82b3f",
+        "0cb44c713050b58f",
+        "e8143392b52f4f01",
+        "4e48cc321ae5c405",
+        "c6172590c3ebccb2",
+        "8cf94544c699fc4a",
+        "f16c1f398f499d19",
+        "046a5f2f92f3d928",
+        "0ff3ed2b85437ee1",
+        "0005662b3da3cd4c",
+        "4f742aae15386cea",
+        "42d05e9a77c35846",
+        "1355728cf779d479"
       ],
       "lastChecked": "2026-08-19"
     },
@@ -183,7 +207,17 @@
         "72944cce42916b4a",
         "da0a5beb7d4e703b",
         "d24924049dc887f5",
-        "c140e7c64f7e9e6d"
+        "c140e7c64f7e9e6d",
+        "60907c415a27c7a8",
+        "99804a268b41462d",
+        "c95e7e43938d0f3d",
+        "643a53426b0b8916",
+        "90cc77e102a7aad9",
+        "0f9ede3a8acb85b4",
+        "b39e90f6d3129dd2",
+        "5d8f899aa3094b9c",
+        "af541912ceda4f8c",
+        "0486fd2cfe4d2878"
       ],
       "lastChecked": "2026-08-19"
     },
@@ -343,7 +377,11 @@
         "4da561a2358b360c",
         "cec770d33f73e000",
         "e1b788267e2f257e",
-        "236f213ec37448c7"
+        "236f213ec37448c7",
+        "643a53426b0b8916",
+        "57af35acd61e04dd",
+        "d14ea83c91a268b2",
+        "6c75d403a94998d1"
       ],
       "lastChecked": "2026-08-19"
     },
@@ -448,7 +486,25 @@
         "de6ea6f0c128f59a",
         "77aa2e71172fa5ad",
         "5b43cb6799245060",
-        "9a41635c6cfba4d0"
+        "9a41635c6cfba4d0",
+        "c94a443d132d5d6a",
+        "e1c857ef7d57cc8d",
+        "890766ab5e053ca7",
+        "5e35846cb223b700",
+        "4660d91859642b84",
+        "02403f655baf282c",
+        "559a6c03231be60e",
+        "7f43f32a2211d2db",
+        "b4595f7d4e0149aa",
+        "af067fc2898f13c8",
+        "814c5000d4fbf609",
+        "881361fe66ce7bc7",
+        "20116aa37c153aef",
+        "c6f6666ffebd670b",
+        "be6ad40e1dde2711",
+        "5162de8d64525dcc",
+        "0c99070f0218eb4a",
+        "e1705d110ca190ba"
       ],
       "lastChecked": "2026-08-19"
     }
