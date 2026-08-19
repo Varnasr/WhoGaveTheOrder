@@ -1,0 +1,126 @@
+{
+  "nav": {
+    "investigations.html": "Incidents",
+    "evidence.html": "Documents",
+    "chain.html": "Who had authority",
+    "rti.html": "What we asked",
+    "response.html": "Official replies",
+    "submit.html": "Add a document",
+    "about.html": "About",
+    "changes.html": "What changed"
+  },
+  "chrome": {
+    "addDocument": "Add a document",
+    "menu": "Menu",
+    "skip": "Skip to content",
+    "documents": "documents",
+    "sources": "from sources",
+    "onRecord": "on the record.",
+    "questionsOpen": "questions still open.",
+    "ordersFound": "orders found.",
+    "empty": "No documents have been published to this archive yet.",
+    "lastReviewed": "Record last reviewed",
+    "noTracking": "No cookies. No trackers. No scripts that watch you. Visit counts come from server logs, never from your browser.",
+    "footerNote": "Where the record does not answer a question, this site says so.",
+    "languageLabel": "Language",
+    "readInHindi": "Read in Hindi",
+    "readInEnglish": "Read in English",
+    "hindiEntry": "What this archive is"
+  },
+  "footer": {
+    "investigation": "The investigation",
+    "archive": "The archive",
+    "takePart": "Take part",
+    "howWeWork": "How we work"
+  },
+  "footerLinks": {
+    "Investigations": "Investigations",
+    "Chain of command": "Chain of command",
+    "Government response": "Government response",
+    "Others are investigating": "Others are investigating",
+    "Evidence library": "Evidence library",
+    "RTI register": "RTI register",
+    "Search": "Search",
+    "What changed": "What changed",
+    "Download the data": "Download the data",
+    "Editorial console": "Editorial console",
+    "Submit evidence": "Submit evidence",
+    "What we are missing": "What we are missing",
+    "Report an error": "Report an error",
+    "How to read this archive": "How to read this archive",
+    "Methodology": "Methodology",
+    "Verification standards": "Verification standards",
+    "Privacy and takedown": "Privacy and takedown",
+    "Who runs this": "Who runs this",
+    "Privacy": "Privacy",
+    "Takedown & grievances": "Takedown and grievances",
+    "Corrections": "Corrections",
+    "Reuse & licence": "Reuse and licence"
+  },
+  "explain": {
+    "statesSummary": "What do these labels mean?",
+    "statesBody": "Every statement on this site carries one of six states. A claim cannot appear without one, and moving a claim between them requires a document.",
+    "authoritySummary": "Why does every office say \"authorisation not established\"?",
+    "authorityBody": "Because two different claims are being kept apart, and only one of them is established.",
+    "authorityNote": "No individual is named in the chain. A person is added to an office only when a sourced document places them in it at the relevant time.",
+    "unknownSummary": "Why is so much of this page UNKNOWN?",
+    "unknownBody": "Because nothing has been established yet, and the site says so rather than filling the space with a plausible reconstruction. A claim without a source does not render as a fact here, including in our own starting data.",
+    "clockSummary": "How does the reply clock work?",
+    "clockBody": "Filing a statutory information request puts a public office on a deadline. The register computes the reply-due date from the filing date every time the page loads, so it cannot go stale.",
+    "clockBody2": "The clock stops when an office replies, even if the reply came late. Silence past the statutory period counts as a refusal and opens an appeal, which is why an unanswered request is published rather than hidden."
+  },
+  "EVIDENCE_STATES": {
+    "VERIFIED": {
+      "label": "Verified",
+      "definition": "Primary evidence in our possession supports the claim, and we have checked it against its original source."
+    },
+    "CORROBORATED": {
+      "label": "Corroborated",
+      "definition": "Multiple credible, independent sources support the claim, though we hold no single primary document establishing it."
+    },
+    "REPORTED": {
+      "label": "Reported",
+      "definition": "Reported by a credible external source. We have not independently verified it."
+    },
+    "DISPUTED": {
+      "label": "Disputed",
+      "definition": "Credible accounts conflict. Both are shown and neither is presented as settled."
+    },
+    "UNVERIFIED": {
+      "label": "Unverified",
+      "definition": "Material has been submitted to us but not established. We record it and do not rely on it."
+    },
+    "UNKNOWN": {
+      "label": "Unknown",
+      "definition": "The available evidence does not answer the question."
+    }
+  },
+  "QUESTION_STATES": {
+    "ANSWERED": {
+      "label": "Answered",
+      "definition": "A sourced document or on-record statement answers the question."
+    },
+    "PARTIALLY_ANSWERED": {
+      "label": "Partially answered",
+      "definition": "Part of the question is answered on the record; a material part is not."
+    },
+    "UNANSWERED": {
+      "label": "Unanswered",
+      "definition": "Nothing on the public record answers this question."
+    },
+    "DISPUTED": {
+      "label": "Disputed",
+      "definition": "Answers exist and they contradict each other."
+    }
+  },
+  "AUTHORITY_CLAIMS": {
+    "HAS_AUTHORITY": {
+      "label": "Has authority",
+      "definition": "This office is empowered, on the face of the law or the administrative structure, to take or approve decisions of this kind. It says nothing about what it did."
+    },
+    "EVIDENCED_TO_HAVE_AUTHORISED": {
+      "label": "Evidenced to have authorised",
+      "definition": "A document or on-record statement in the archive places this office or person behind this specific action. Absent such a document, this reads NOT ESTABLISHED."
+    }
+  }
+}

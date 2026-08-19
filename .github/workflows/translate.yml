@@ -1,0 +1,54 @@
+# Translate the interface into Hindi, once, and commit the result.
+#
+# MANUAL ONLY. There is no schedule on this workflow and there should not be.
+# Sarvam is paid, the strings change rarely, and a translation job that runs on a
+# timer is a bill that arrives for no reason. Run it after editing
+# tools/i18n-source.json and not otherwise.
+#
+# The site never calls Sarvam. This writes data/i18n.generated.js and every
+# reader gets a static file.
+
+name: Translate
+
+on:
+  workflow_dispatch:
+    inputs:
+      all:
+        description: 'Re-translate every string, not only the ones whose English changed'
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+jobs:
+  translate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Translate
+        env:
+          SARVAM_API_KEY: ${{ secrets.SARVAM_API_KEY }}
+        run: |
+          if [ -z "$SARVAM_API_KEY" ]; then
+            echo "::error::SARVAM_API_KEY is not set on this repository."
+            exit 1
+          fi
+          node tools/translate.js ${{ inputs.all && '--all' || '' }}
+
+      - name: Commit the translation
+        run: |
+          git config user.name  'github-actions[bot]'
+          git config user.email 'github-actions[bot]@users.noreply.github.com'
+          if git diff --quiet -- data/i18n.generated.js; then
+            echo "No change: every string was already translated from this English."
+          else
+            git add data/i18n.generated.js
+            git commit -m "Hindi from Sarvam, regenerated"
+            git push
+          fi

@@ -109,6 +109,8 @@ Incident → Question → Authority → Evidence → Answer state
 │   ├── sweep.js       # the daily hunt for new documents
 │   ├── watchlist.json # where it looks, and why each place is watched
 │   ├── fixity.js      # gets every source into a public web archive
+│   ├── translate.js   # English to Hindi via Sarvam, written to a file
+│   ├── i18n-source.json # the English behind every translated string
 │   └── build.js       # change log, Atom feed, and the export
 └── *.html
 ```
@@ -190,6 +192,20 @@ handful of sources, so a backlog clears over a week without anyone being throttl
 Anonymous capture requests are often refused with a 403. The Internet Archive issues free keys: set
 `IA_ACCESS_KEY` and `IA_SECRET_KEY` as repository secrets and captures are requested properly.
 Without them the tool still does the useful half, which is finding the snapshots that already exist.
+
+### Hindi
+
+`tools/translate.js` sends the English in `tools/i18n-source.json` to Sarvam and writes the Hindi to
+`data/i18n.generated.js`. **The site never calls Sarvam.** Translation happens once, the result is
+committed, and every reader gets a static file. That keeps the cost to one run per change, keeps the
+privacy note true — the site makes no third-party request on a reader's behalf — and keeps the site
+working if the API is down.
+
+Only strings whose English has changed are sent, so a second run costs nothing. The workflow is
+manual (Actions → Translate → Run workflow); there is deliberately no schedule on a paid API.
+
+Where the machine translation exists it is used; anything it has not covered falls back to the Hindi
+in `data/i18n.js`, so a page is never half-translated.
 
 ### Is the corroboration real?
 
@@ -282,10 +298,9 @@ marker — fill the array.
 - [ ] Have a lawyer read the licence and privacy sections, and confirm whether accepting public
       submissions brings this within India's intermediary rules and their grievance-officer
       requirement.
-- [ ] Have a Hindi-speaking editor review `data/i18n.js` and `hi.html`. The translation is
-      published rather than held back, because a reader who cannot use the interface at all is
-      worse served than one reading a translation that wants polishing — but it has not been
-      reviewed by a native speaker.
+- [ ] Have a Hindi-speaking editor read `data/i18n.generated.js` and `hi.html`. The interface is
+      machine-translated, now by a model built for Indian languages, and the page says so. That is
+      better than it was and is still not the same as a person having read it.
 - [x] `config.siteUrl` pointed at `https://www.whogavetheorder.in`, 17 August 2026 — the day the
       domain began serving. The Atom feed and every citation build absolute URLs out of it.
 - [ ] Backfill `archiveUrl` and `sha256` on the 32 imported sources. Every one is a live URL with a

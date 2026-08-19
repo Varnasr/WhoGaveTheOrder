@@ -46,8 +46,29 @@
 
   ui.strings = function () {
     var code = ui.lang();
-    return (code !== 'en' && WGO.I18N && WGO.I18N[code]) || null;
+    if (code === 'en') { return null; }
+    var base = (WGO.I18N && WGO.I18N[code]) || null;
+    var machine = (WGO.I18N_MACHINE && WGO.I18N_MACHINE[code]) || null;
+    if (!base && !machine) { return null; }
+    /* The machine translation wins where it exists: it comes from a model built
+       for Indian languages, and it is regenerated from the English rather than
+       maintained by hand. Anything it has not covered falls back, so the page is
+       never half-translated. */
+    if (!ui._merged) { ui._merged = deepMerge(base || {}, machine || {}); }
+    return ui._merged;
   };
+
+  function deepMerge(base, overlay) {
+    var out = {};
+    Object.keys(base).forEach(function (k) { out[k] = base[k]; });
+    Object.keys(overlay).forEach(function (k) {
+      var value = overlay[k];
+      out[k] = (value && typeof value === 'object' && !Array.isArray(value))
+        ? deepMerge(base[k] || {}, value)
+        : value;
+    });
+    return out;
+  }
 
   /* Dotted lookup with an English fallback. A missing translation renders the
      English rather than an empty space or a key. */
