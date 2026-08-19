@@ -329,5 +329,54 @@
       "SRC-0025",
       "SRC-0026"
     ]
+  },
+  {
+    "id": "PROC-SC-007",
+    "kind": "Evidence",
+    "title": "A public interest petition challenging the use of facial recognition and other biometric surveillance at the Jantar Mantar protest is before the Supreme Court. ",
+    "state": "CORROBORATED",
+    "url": "https://www.whogavetheorder.in/evidence.html?id=PROC-SC-007",
+    "type": "COURT_DOCUMENT",
+    "incidentId": "INC-0001",
+    "dateOfItem": null,
+    "establishes": "AS ALLEGED IN THE PETITION, and adopted by this archive as nothing more than an allegation: that Delhi Police deployed an 'Ikshana' facial recognition vehicle, AjnaLens smart glasses, CCTV cameras and drones, a Mobile Command and Control Vehicle, and fingerprint collection through the NCRB's 'Abhigyan' application matched against NAFIS; that nobody present was told by notice or signage that biometric data was being collected; and that none of it had statutory backing. The reliefs sought include disclosure of the surveillance systems, standard operating procedures and vendor agreements used at Jantar Mantar. WHY THIS SITS IN THIS ARCHIVE: that disclosure is the same document the archive has been unable to obtain by any other route. Delhi Police has admitted the deployment (PROC-SC-002); what it covered is disputed (PROC-SC-003); who authorised it is UNKNOWN. WHAT IT DOES NOT ESTABLISH: anything about what was actually deployed. A petition is a party's case, and the named systems are that party's account. No order on this petition is held.",
+    "doesNotEstablish": null,
+    "sourceIds": [
+      "SRC-0027",
+      "SRC-0028",
+      "SRC-0029",
+      "SRC-0030"
+    ]
+  },
+  {
+    "id": "OVR-DEL-001",
+    "kind": "Evidence",
+    "title": "Two Delhi Police officers whose posts covered the Jantar Mantar policing were moved in a Delhi Government order of 18 August 2026 transferring 43 IPS and DANIPS",
+    "state": "REPORTED",
+    "url": "https://www.whogavetheorder.in/evidence.html?id=OVR-DEL-001",
+    "type": "OTHER_DOCUMENT",
+    "incidentId": "INC-0001",
+    "dateOfItem": null,
+    "establishes": "ONE PUBLICATION, TWO ARTICLES. Both are The Tribune, so this is a single account and stays REPORTED. India TV News is listed by search as having published the full list on 18 August; our fetch of it returned HTTP 403 and it is therefore not cited. WHAT THIS ADDS: two named officers held two named posts at the time of the 20 July police action, which is chain-of-command information the archive did not have from any other source. WHAT IT DOES NOT ESTABLISH, and is deliberately not written into the claim: any link between the transfers and the protest, any finding against either officer, or that either gave any order. Forty-three officers moved in the same order, across the Economic Offences Wing, traffic, vigilance, the Special Branch, crime, intelligence, licensing and the districts. The Tribune reports separately that Banthia's name figured in the controversy over the alleged use of pellet guns on 20 July and that he said he was not present when pellets were fired; that is the paper's reporting of an allegation and a denial, and neither is adopted here. NEITHER OFFICER IS ADDED TO THE CHAIN OF COMMAND. The chain records offices shown to have had authority, not individuals named in news reports. The order itself is not held: see OQ-038.",
+    "doesNotEstablish": null,
+    "sourceIds": [
+      "SRC-0031",
+      "SRC-0032"
+    ]
+  },
+  {
+    "id": "INC-DEL-003",
+    "kind": "Evidence",
+    "title": "Ten FIRs are reported to have been registered in the New Delhi district after the events of 22 July 2026 at Connaught Place and Jantar Mantar, and six police pe",
+    "state": "REPORTED",
+    "url": "https://www.whogavetheorder.in/evidence.html?id=INC-DEL-003",
+    "type": "OTHER_DOCUMENT",
+    "incidentId": "INC-0001",
+    "dateOfItem": null,
+    "establishes": "ONE SOURCE, AND ITS SOURCE IS THE POLICE. Outlook attributes the account to police sources; no FIR number, police station or section is given, and no copy of any FIR is held. THIS IS THE STATE'S SIDE OF 22 JULY AND IT BELONGS HERE. An archive that recorded only force used by police, and never violence recorded against them, would be a case rather than a record. It is filed at the same standard as everything else and at the same confidence the evidence supports. WHAT IT DOES NOT ESTABLISH: who was named in any FIR, what was alleged, whether any of them concerns the police action itself, or anything about the 20 July events. The organisers' account, reported in the same piece, attributes the violence to others; that is an allegation and is not adopted. FIRs are required to be published online (CRT-006), and the Delhi Police publication route is UNKNOWN (CRT-005), so these ten are checkable in principle and not in practice: see OQ-039.",
+    "doesNotEstablish": null,
+    "sourceIds": [
+      "SRC-0033"
+    ]
   }
 ]

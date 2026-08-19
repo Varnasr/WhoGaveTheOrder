@@ -348,5 +348,25 @@
     "incidentId": "INC-0002",
     "level": null,
     "evidenceIds": []
+  },
+  {
+    "id": "OQ-038",
+    "kind": "Question",
+    "title": "The Delhi Government (Home Department) order of 18 August 2026 transferring 43 IPS and DANIPS officers, and any file noting recording the reason for the two postings reported as connected to the Jantar Mantar policing.",
+    "state": "UNANSWERED",
+    "url": "https://www.whogavetheorder.in/investigation.html?id=jantar-mantar#OQ-038",
+    "incidentId": "INC-0001",
+    "level": null,
+    "evidenceIds": []
+  },
+  {
+    "id": "OQ-039",
+    "kind": "Question",
+    "title": "Which database the facial recognition at Jantar Mantar matched faces against, which body supplied the images in it, and under what authority they were shared.",
+    "state": "UNANSWERED",
+    "url": "https://www.whogavetheorder.in/investigation.html?id=jantar-mantar#OQ-039",
+    "incidentId": "INC-0001",
+    "level": null,
+    "evidenceIds": []
   }
 ]
