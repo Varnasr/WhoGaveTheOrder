@@ -1,0 +1,104 @@
+{
+  "note": [
+    "Targets for the daily sweep. Each one is somewhere a document about these incidents could appear.",
+    "",
+    "The sweep NEVER writes a record. It reports candidates, and a person decides what, if anything,",
+    "becomes evidence and at what confidence. That is not timidity: assigning a state requires judging",
+    "whether sources are actually independent and what a document does and does not establish, and an",
+    "automated feed that could set a state would be a way of laundering an unsourced claim into a fact.",
+    "",
+    "kind: rss   — an item feed. New items are reported once, by link.",
+    "      html  — a page. Reported when the text that matches a watch term changes.",
+    "      pdf   — a PDF. Same, with the text extracted if a reader is available; otherwise by checksum.",
+    "",
+    "url may contain {YYYY}, {MM}, {DD}, {DD.MM.YYYY} and {DDMMYYYY}, filled with the sweep's date.",
+    "A 404 on a dated URL is not an error: it means nothing was published there that day."
+  ],
+
+  "terms": [
+    "Jantar Mantar",
+    "Cockroach Janta Party",
+    "CJP protest",
+    "Sansad Chalo",
+    "W.P.(CRL) 2127/2026",
+    "W.P.(CRL.) 2127/2026",
+    "2127/2026",
+    "Shakeel Abbas",
+    "W.P.(C) 280/2026",
+    "Shailendra Mani Tripathi",
+    "JP Golambar",
+    "Dakbungalow",
+    "Katihar",
+    "Munger",
+    "facial recognition",
+    "Crime Kundli",
+    "lathi charge",
+    "prohibitory order"
+  ],
+
+  "targets": [
+    {
+      "id": "delhi-hc-causelist",
+      "label": "Delhi High Court cause list for today",
+      "kind": "pdf",
+      "url": "https://delhihighcourt.nic.in/files/2026-{MM}/cause-list/combined_cause_list_{DD.MM.YYYY}.pdf",
+      "why": "The listing carries the cause title, the connected matters and the bench. This is how PROC-DEL-002 was established, and it is where the 11 September 2026 hearing will appear."
+    },
+    {
+      "id": "delhi-hc-judgments",
+      "label": "Delhi High Court, latest judgments",
+      "kind": "html",
+      "url": "https://delhihighcourt.nic.in/web/judgement/fetch-data",
+      "why": "Orders appear here before the case-status search, which is behind a captcha. An order in W.P.(CRL) 2127/2026 would close OQ-004."
+    },
+    {
+      "id": "nhrc-press",
+      "label": "NHRC press releases",
+      "kind": "html",
+      "url": "https://nhrc.nic.in/media/press-release",
+      "why": "The Commission has not announced the suo motu proceeding on its own page. If it does, or if it reports on the Delhi Police response, it appears here first."
+    },
+    {
+      "id": "eparlib",
+      "label": "Parliamentary library",
+      "kind": "html",
+      "url": "https://eparlib.sansad.in/",
+      "why": "Answered questions are published here as PDFs. A Home Ministry answer would be the Union speaking on its own record about the force it controls. Unreachable from the machine this was written on; the sweep records whether that is still true."
+    },
+    {
+      "id": "barandbench",
+      "label": "Bar & Bench",
+      "kind": "rss",
+      "url": "https://www.barandbench.com/feed",
+      "why": "Legal reporting carries hearings on the day they happen, usually before anything reaches a court website."
+    },
+    {
+      "id": "news-delhi",
+      "label": "News — Jantar Mantar and the police action",
+      "kind": "rss",
+      "url": "https://news.google.com/rss/search?q=%22Jantar+Mantar%22+(police+OR+court+OR+NHRC+OR+affidavit)&hl=en-IN&gl=IN&ceid=IN:en",
+      "why": "Leads, not evidence. Something reported here is a pointer to a document worth going after."
+    },
+    {
+      "id": "news-cases",
+      "label": "News — the two proceedings by name",
+      "kind": "rss",
+      "url": "https://news.google.com/rss/search?q=%22Shailendra+Mani+Tripathi%22+OR+%22Shakeel+Abbas%22+OR+%22280%2F2026%22&hl=en-IN&gl=IN&ceid=IN:en",
+      "why": "Named-case reporting is the earliest signal that an order has been passed."
+    },
+    {
+      "id": "news-frt",
+      "label": "News — facial recognition and the surveillance question",
+      "kind": "rss",
+      "url": "https://news.google.com/rss/search?q=(%22facial+recognition%22+OR+%22Crime+Kundli%22)+(%22Delhi+Police%22+OR+protest)&hl=en-IN&gl=IN&ceid=IN:en",
+      "why": "OQ-034 asks what database was matched against and whether a private company processed the data. Both are live questions before the Supreme Court."
+    },
+    {
+      "id": "news-bihar",
+      "label": "News — the Bihar incidents",
+      "kind": "rss",
+      "url": "https://news.google.com/rss/search?q=(Patna+OR+Katihar+OR+Munger)+(lathi+OR+police+action+OR+protest)+students&hl=en-IN&gl=IN&ceid=IN:en",
+      "why": "Bihar is the deadline-critical jurisdiction: no court has ordered preservation there, so nothing is interrupting any retention schedule."
+    }
+  ]
+}

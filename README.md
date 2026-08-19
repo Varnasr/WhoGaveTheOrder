@@ -106,6 +106,8 @@ Incident → Question → Authority → Evidence → Answer state
 │   ├── archive.js     # evaluates data/ + model.js in a sandbox, at any git revision
 │   ├── check.js       # the integrity checks, for CI
 │   ├── deadlines.js   # runs the RTI clocks on a schedule
+│   ├── sweep.js       # the daily hunt for new documents
+│   ├── watchlist.json # where it looks, and why each place is watched
 │   └── build.js       # change log, Atom feed, and the export
 └── *.html
 ```
@@ -147,6 +149,33 @@ Re-run after editing `sourcemap/*.json`:
 ```bash
 python3 sourcemap/import.py
 ```
+
+### The daily sweep
+
+`tools/sweep.js` goes to the places a document about these incidents could appear — the Delhi High
+Court cause list and judgments page, the NHRC press releases, the parliamentary library, Bar & Bench,
+and four news queries — and reports what is new since yesterday. It runs at 02:30 UTC and opens an
+issue when there is something to look at.
+
+**It never writes a record.** It writes candidates and a dated log, and a person decides what becomes
+evidence and at what confidence. Assigning a state means judging whether two sources are actually
+independent and what a document does and does not establish; a feed that could set a state would be a
+route for laundering an unsourced claim into a fact.
+
+What it does record every day is that it looked. `sourcemap/watch-log.json` is committed daily, so an
+absence in this archive has a date on it — the same discipline as PROC-BIH-001 and LEG-010, which are
+both searches that found nothing.
+
+```bash
+node tools/sweep.js            # human summary
+node tools/sweep.js --json     # what the workflow reads
+node tools/sweep.js --date 2026-09-11   # the next Delhi High Court listing
+```
+
+Watch terms come partly from `tools/watchlist.json` and partly from the records themselves — incident
+places and case numbers — so a new incident starts being watched without anyone updating a list. City
+and state names are deliberately excluded: "New Delhi" matches every article filed from New Delhi, and
+a sweep that reports everything reports nothing.
 
 ### Explaining the archive
 
