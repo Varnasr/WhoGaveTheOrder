@@ -437,5 +437,30 @@
     "blocks": [
       "INC-SIW-001"
     ]
+  },
+  {
+    "id": "OQ-038",
+    "priority": "medium",
+    "category": "oversight",
+    "jurisdiction": "delhi",
+    "question": "The Delhi Government (Home Department) order of 18 August 2026 transferring 43 IPS and DANIPS officers, and any file noting recording the reason for the two postings reported as connected to the Jantar Mantar policing.",
+    "why_it_matters": "The order is the only document that could show whether the two moves had anything to do with the protest, and reporting says on its face it does not. Either answer is worth having: a routine rejig closes a line of speculation, and a noting that says otherwise is the first record of an office acting on the police action.",
+    "lawful_route": "Transfer and posting orders of this kind are ordinarily published by the Home Department, Government of NCT of Delhi, on delhi.gov.in. If it is not there, RTI to the Public Information Officer, Home Department, GNCTD, for the order dated 18 August 2026 and the Police Establishment Board recommendation behind it. Ask for the order, not for an opinion about it.",
+    "blocks": [
+      "OVR-DEL-001"
+    ]
+  },
+  {
+    "id": "OQ-039",
+    "priority": "high",
+    "category": "oversight",
+    "jurisdiction": "delhi",
+    "question": "Which database the facial recognition at Jantar Mantar matched faces against, which body supplied the images in it, and under what authority they were shared.",
+    "why_it_matters": "Delhi Police has admitted the deployment and says it matched only against crime records. A matching system needs a set of images to match against, and where that set came from is an authorisation question of exactly the kind this archive exists to ask. Nothing on the record answers it. A former Rajya Sabha member publicly put the same question to the Election Commission, UIDAI, the Income Tax Department, the Transport Department and Delhi Police on 19 August 2026; no reply from any of them is on this record, and a question asked in public is not an answer.",
+    "lawful_route": "RTI to the Public Information Officer, Delhi Police, for the name of the database or databases used for facial recognition at Jantar Mantar in July 2026 and for any memorandum of understanding or data-sharing arrangement under which images were obtained; and to the Election Commission of India and the NCRB for any arrangement to share photographic records with Delhi Police that was in force in July 2026. Ask for documents and dates, not for confirmation of a theory. The disclosure sought in PROC-SC-007 covers the same ground and may answer it first.",
+    "blocks": [
+      "PROC-SC-003",
+      "PROC-SC-002"
+    ]
   }
 ]

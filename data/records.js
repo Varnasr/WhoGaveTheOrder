@@ -220,6 +220,18 @@ WGO.offices = [
 WGO.updates = [
   {
     date: '2026-08-19',
+    title: 'A petition on the facial recognition is before the Supreme Court',
+    body: 'A public interest petition asks the Court to hold the deployment of facial recognition against a peaceful assembly unconstitutional, and to order disclosure of the systems, procedures and vendor agreements used at Jantar Mantar. That disclosure is the same document this archive has been unable to obtain by any other route. The Court is reported to have agreed on 13 August to hear it. What the petition alleges was deployed is a party\'s case, not a finding, and the record says so.',
+    recordId: 'PROC-SC-007'
+  },
+  {
+    date: '2026-08-19',
+    title: 'Two officers who policed Jantar Mantar have been moved',
+    body: 'A Delhi Government order of 18 August transferred 43 officers, two of them holding posts that covered the policing of the protest. Reporting says the order does not call either move disciplinary or mention the protest. The useful part for this archive is the smaller one: it names two officers and the posts they held on 20 July, which nothing else on the record did. Neither has been added to the chain of command, and no finding against either is recorded, because none exists.',
+    recordId: 'OVR-DEL-001'
+  },
+  {
+    date: '2026-08-19',
     title: 'A fourth incident is open: Siwan',
     body: 'The daily sweep found the State of Bihar telling the Supreme Court that police discharged firearms at a student protest at Siwan on 25 July — four rounds from an AK-47 and two from a pistol, with three protesters injured. Siwan was not on this archive before today and has been opened as its own record rather than added to the Bihar one: a different town, a different date and a different weapon is a different incident. These are the first firearms in the archive.',
     recordId: 'INC-SIW-001'
