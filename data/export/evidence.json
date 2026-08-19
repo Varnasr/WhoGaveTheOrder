@@ -125,15 +125,16 @@
     "id": "PROC-SC-001",
     "kind": "Evidence",
     "title": "Supreme Court proceedings on petitions concerning police action at Jantar Mantar and elsewhere; petitions allege lathi charge, pellet guns, rubber bullets, tear",
-    "state": "REPORTED",
+    "state": "CORROBORATED",
     "url": "https://www.whogavetheorder.in/evidence.html?id=PROC-SC-001",
     "type": "COURT_DOCUMENT",
     "incidentId": null,
     "dateOfItem": null,
-    "establishes": "SCC OnLine citation is a commercial reporter citation, not a primary source. Retrieve the order from the Supreme Court site before use.",
+    "establishes": "The writ petition number W.P.(C) 280/2026 and the composition of the bench come from reporting of the 18 August 2026 hearing, which is also the source for PROC-SC-002 and PROC-SC-003. The SCC OnLine citation is a commercial reporter's, not a primary source. No order of this Court is held. The Supreme Court is reported to have proposed a High-Powered Committee to examine the police action, which the petitioners opposed as to the facial recognition issues; whether such a committee has been constituted is not established.",
     "doesNotEstablish": null,
     "sourceIds": [
-      "SRC-0010"
+      "SRC-0010",
+      "SRC-0011"
     ]
   },
   {
@@ -161,10 +162,10 @@
     "establishes": "Two-week deadline expired approximately 8 August 2026. Diary/case number UNKNOWN. NHRC order text not held. Searched on 18 August 2026: nhrc.nic.in/media/press-release does not list this matter. Its entries for 20 and 24 July 2026 carry other suo motu cognisances and nothing on Jantar Mantar. That is one listing page read on one date, not proof the Commission published nothing — but four outlets report an order the Commission does not appear to have announced itself, and that gap is part of the record.",
     "doesNotEstablish": null,
     "sourceIds": [
-      "SRC-0011",
       "SRC-0012",
+      "SRC-0013",
       "SRC-0002",
-      "SRC-0013"
+      "SRC-0014"
     ]
   },
   {
@@ -179,7 +180,7 @@
     "establishes": "Separate proceeding from OVR-NHRC-001. Diary number UNKNOWN.",
     "doesNotEstablish": null,
     "sourceIds": [
-      "SRC-0014"
+      "SRC-0015"
     ]
   },
   {
@@ -220,7 +221,41 @@
     "establishes": "The court's own record, and the first primary document in this archive for the Delhi proceeding. WHAT IT ESTABLISHES: the cause title, the writ petition and application numbers, the date of listing, and the bench. It settles two things the news reports disagreed about — the cause title is Shakeel Abbas v. Union of India and Ors. as Verdictum reported, and the date is 22 July 2026, not the 23rd. WHAT IT DOES NOT ESTABLISH: anything at all about what was ordered. A cause list records that a matter was listed and before whom. The directions at PROC-DEL-001 still rest on news reports and stay CORROBORATED until the order itself is held. RETRIEVAL: the file is 21MB and its sha256 is recorded above. Delhi High Court cause lists are directly downloadable at delhihighcourt.nic.in/files/YYYY-MM/cause-list/ as combined_cause_list_DD.MM.YYYY.pdf, and per-court lists as rlDDMMYYYY.pdf. The earlier guess of c_DDMMYYYY.pdf is the format for some dates but not this one.",
     "doesNotEstablish": null,
     "sourceIds": [
-      "SRC-0015"
+      "SRC-0016"
+    ]
+  },
+  {
+    "id": "PROC-SC-002",
+    "kind": "Evidence",
+    "title": "Delhi Police stated on affidavit before the Supreme Court, at a hearing on 18 August 2026 in Shailendra Mani Tripathi v. Union of India and Ors., W.P.(C) 280/20",
+    "state": "CORROBORATED",
+    "url": "https://www.whogavetheorder.in/evidence.html?id=PROC-SC-002",
+    "type": "COURT_DOCUMENT",
+    "incidentId": "INC-0001",
+    "dateOfItem": null,
+    "establishes": "THAT the technology was deployed is the police's own statement to a court, reported by independent outlets, and nobody in the proceeding contests it. It is the first thing in this archive that the force has admitted about its own conduct at Jantar Mantar. Bench: the Chief Justice of India Surya Kant, Justice Joymalya Bagchi and Justice V. Mohana. The Solicitor General, Tushar Mehta, appeared for the police. WHAT IT DOES NOT ESTABLISH: the scope of the deployment, which is contested — see PROC-SC-003 — and anything about who authorised it. An admission that a tool was used is not a document showing who ordered its use. The affidavit itself is not held: see OQ-033.",
+    "doesNotEstablish": null,
+    "sourceIds": [
+      "SRC-0011",
+      "SRC-0017",
+      "SRC-0018"
+    ]
+  },
+  {
+    "id": "PROC-SC-003",
+    "kind": "Evidence",
+    "title": "Whether the facial recognition deployment at Jantar Mantar was confined to persons with existing criminal records, as Delhi Police asserts, or operated on the c",
+    "state": "DISPUTED",
+    "url": "https://www.whogavetheorder.in/evidence.html?id=PROC-SC-003",
+    "type": "COURT_DOCUMENT",
+    "incidentId": "INC-0001",
+    "dateOfItem": null,
+    "establishes": "AS STATED BY DELHI POLICE, on affidavit: the software 'only captured the images of criminals or history sheeters'; it 'does not automatically capture profile of every individual present at the protest site'; 'no action is taken solely on the basis of facial recognition software' and a match is followed by field verification; it captures only those with a past record for serious offences, not petty ones. The Solicitor General said the technology 'captures the faces of only those persons who are recorded in the crime database'. Figures reported from the same hearing, and they are the police's own: 2,873 persons identified, 2,402 through a 'Crime Kundli' database and 471 through dossier records, of whom 92 are said to be involved in more than ten cases and 47 to be history-sheeters. This archive records those numbers as the police's assertion, not as established fact. AS STATED BY THE PETITIONERS, through Senior Advocates N. Hariharan and Menaka Guruswamy: 'that is not how the technology works', and a private company was engaged to process the data collected through the software. NEITHER IS ADOPTED HERE. The Chief Justice is reported to have said that constitutional issues would be determined by the Court alone. Until the affidavit and any finding on it are held, this stays DISPUTED.",
+    "doesNotEstablish": null,
+    "sourceIds": [
+      "SRC-0011",
+      "SRC-0017",
+      "SRC-0018"
     ]
   }
 ]

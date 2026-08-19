@@ -219,6 +219,12 @@ WGO.offices = [
    the thing itself rather than take the note's word for it. */
 WGO.updates = [
   {
+    date: '2026-08-19',
+    title: 'Delhi Police has admitted using facial recognition at Jantar Mantar',
+    body: 'On affidavit before the Supreme Court, the force said facial recognition technology was deployed at the protest. That it was used is now the police\'s own statement and is recorded as corroborated. Whether it was confined to people with criminal records, as the police say, or ran on the crowd, as the petitioners say, is recorded as disputed — the court has not decided it and neither has this archive.',
+    recordId: 'PROC-SC-002'
+  },
+  {
     date: '2026-08-18',
     title: 'The court\'s own record of the Delhi hearing is now held',
     body: 'The Delhi High Court cause list for 22 July 2026 has been retrieved and filed. It establishes the cause title, the case number and the bench, and it corrects a date two news reports had disagreed about. It does not establish what was ordered: that still rests on reporting until the order itself is obtained.',

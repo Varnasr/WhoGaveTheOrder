@@ -298,5 +298,25 @@
     "incidentId": null,
     "level": null,
     "evidenceIds": []
+  },
+  {
+    "id": "OQ-033",
+    "kind": "Question",
+    "title": "The Delhi Police affidavit filed in W.P.(C) 280/2026 concerning the use of facial recognition technology at the Jantar Mantar protest.",
+    "state": "UNANSWERED",
+    "url": "https://www.whogavetheorder.in/investigation.html?id=jantar-mantar#OQ-033",
+    "incidentId": "INC-0001",
+    "level": null,
+    "evidenceIds": []
+  },
+  {
+    "id": "OQ-034",
+    "kind": "Question",
+    "title": "Which database of photographs the facial recognition system matched against at Jantar Mantar, who supplied it, and whether any private company processed the data.",
+    "state": "UNANSWERED",
+    "url": "https://www.whogavetheorder.in/investigation.html?id=jantar-mantar#OQ-034",
+    "incidentId": "INC-0001",
+    "level": null,
+    "evidenceIds": []
   }
 ]

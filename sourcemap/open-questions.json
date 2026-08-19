@@ -375,5 +375,30 @@
     "blocks": [
       "CUS-010"
     ]
+  },
+  {
+    "id": "OQ-033",
+    "priority": "high",
+    "category": "court_records",
+    "jurisdiction": "delhi",
+    "question": "The Delhi Police affidavit filed in W.P.(C) 280/2026 concerning the use of facial recognition technology at the Jantar Mantar protest.",
+    "why_it_matters": "It is the force's own account of what it deployed against a protest, sworn to a court. Everything this archive says about the deployment currently rests on reports of it. An affidavit also fixes who swore it, which is the closest the record has come to a named official taking responsibility for anything at Jantar Mantar.",
+    "lawful_route": "Supreme Court case status and filings for W.P.(C) 280/2026 at sci.gov.in; the SCR portal at scr.sci.gov.in for orders; and, once a diary number is known, a certified copy from the registry. Parties' counsel are on the record and the pleadings are public documents in a public interest matter.",
+    "blocks": [
+      "PROC-SC-002",
+      "PROC-SC-003"
+    ]
+  },
+  {
+    "id": "OQ-034",
+    "priority": "high",
+    "category": "document_custody",
+    "jurisdiction": "delhi",
+    "question": "Which database of photographs the facial recognition system matched against at Jantar Mantar, who supplied it, and whether any private company processed the data.",
+    "why_it_matters": "A facial recognition match requires an underlying set of photographs of citizens. Delhi Police is reported to have named a 'Crime Kundli' database and dossier records; the petitioners allege a private company processed the data. Neither the composition of the database nor its lawful basis is established, and a face captured at a protest that matches nothing is still a face that was captured.",
+    "lawful_route": "RTI to the Commissioner of Police, Delhi, for the sanction, procurement record and standard operating procedure for the facial recognition system, and for any contract with a processor. Note a documented precedent from a different event: a certified copy of Election Commission of India letter No. 23/SEC/2020-ERS dated 12 March 2020, from the Under Secretary to the Chief Electoral Officer, NCT of Delhi, records that the Commission declined to share the electoral database of an entire district with police but directed the CEO to display the electoral roll with elector images of North-East Parliamentary Constituency before investigating officials, on Delhi Police's request to match elector photographs against CCTV images. That letter concerns the 2020 violence in Delhi and NOT these incidents; it is a lead on how such a database can be assembled, not evidence about Jantar Mantar. It was seen only as a photograph circulated online and should be obtained from the Commission or the CEO before being relied on.",
+    "blocks": [
+      "PROC-SC-003"
+    ]
   }
 ]
