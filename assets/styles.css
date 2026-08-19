@@ -828,6 +828,7 @@ blockquote.official cite { display: block; margin-top: 0.4rem; font-family: var(
 .source-detail > li { padding: 0.35rem 0; }
 .source-detail > li + li { border-top: 1px dotted var(--rule); }
 .source-detail__fixity { color: var(--ink-3); margin-top: 0.1rem; }
+.source-detail__origin { color: var(--ink-2); margin-top: 0.15rem; }
 
 /* --- Updates -------------------------------------------------------------- *
    A notice board, not a news feed: dated, short, and each entry pointing at the

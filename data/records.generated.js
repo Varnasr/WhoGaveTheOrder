@@ -11,7 +11,9 @@ WGO.importedSources = [
     "url": "https://www.barandbench.com/news/litigation/not-an-isolated-incident-file-your-response-preserve-cctv-footage-delhi-hc-to-police-on-excesses-against-jantar-mantar-protestors",
     "retrievedOn": "2026-08-16",
     "archiveUrl": null,
-    "sha256": null
+    "archivedOn": null,
+    "sha256": null,
+    "originatesFrom": null
   },
   {
     "id": "SRC-0002",
@@ -19,8 +21,10 @@ WGO.importedSources = [
     "kind": "SECONDARY",
     "url": "https://www.freepressjournal.in/education/nhrc-takes-cognisance-of-delhi-police-action-during-jantar-mantar-student-protest-seeks-report-within-two-weeks",
     "retrievedOn": "2026-08-16",
-    "archiveUrl": null,
-    "sha256": null
+    "archiveUrl": "http://web.archive.org/web/20260729032125/https://www.freepressjournal.in/education/nhrc-takes-cognisance-of-delhi-police-action-during-jantar-mantar-student-protest-seeks-report-within-two-weeks",
+    "archivedOn": "2026-08-19",
+    "sha256": null,
+    "originatesFrom": null
   },
   {
     "id": "SRC-0003",
@@ -28,8 +32,10 @@ WGO.importedSources = [
     "kind": "SECONDARY",
     "url": "https://www.deccanherald.com/india/delhi/fresh-chaos-erupts-at-jantar-mantar-as-protestors-police-clash-4083673",
     "retrievedOn": "2026-08-16",
-    "archiveUrl": null,
-    "sha256": null
+    "archiveUrl": "http://web.archive.org/web/20260723015002/https://www.deccanherald.com/india/delhi/fresh-chaos-erupts-at-jantar-mantar-as-protestors-police-clash-4083673",
+    "archivedOn": "2026-08-19",
+    "sha256": null,
+    "originatesFrom": null
   },
   {
     "id": "SRC-0004",
@@ -37,8 +43,10 @@ WGO.importedSources = [
     "kind": "SECONDARY",
     "url": "https://www.thequint.com/news/breaking-news/bihar-student-protests-lathi-charge-patna-police-response",
     "retrievedOn": "2026-08-16",
-    "archiveUrl": null,
-    "sha256": null
+    "archiveUrl": "http://web.archive.org/web/20260816153039/https://www.thequint.com/news/breaking-news/bihar-student-protests-lathi-charge-patna-police-response",
+    "archivedOn": "2026-08-19",
+    "sha256": null,
+    "originatesFrom": null
   },
   {
     "id": "SRC-0005",
@@ -46,8 +54,10 @@ WGO.importedSources = [
     "kind": "SECONDARY",
     "url": "https://www.indiatvnews.com/bihar/news-bihar-students-protest-turns-violent-in-katihar-patna-munger-police-lathicharge-protesters-hurl-stones-latest-updates-2026-07-23-1049145",
     "retrievedOn": "2026-08-16",
-    "archiveUrl": null,
-    "sha256": null
+    "archiveUrl": "http://web.archive.org/web/20260730111921/https://www.indiatvnews.com/bihar/news-bihar-students-protest-turns-violent-in-katihar-patna-munger-police-lathicharge-protesters-hurl-stones-latest-updates-2026-07-23-1049145",
+    "archivedOn": "2026-08-19",
+    "sha256": null,
+    "originatesFrom": null
   },
   {
     "id": "SRC-0006",
@@ -55,8 +65,10 @@ WGO.importedSources = [
     "kind": "SECONDARY",
     "url": "https://www.theweek.in/news/india/2026/07/25/bihar-bandh-police-lathi-charge-student-protesters-in-patna-17-detained-as-demonstrators-break-barricades-pelt-stones.html",
     "retrievedOn": "2026-08-16",
-    "archiveUrl": null,
-    "sha256": null
+    "archiveUrl": "http://web.archive.org/web/20260728020125/https://www.theweek.in/news/india/2026/07/25/bihar-bandh-police-lathi-charge-student-protesters-in-patna-17-detained-as-demonstrators-break-barricades-pelt-stones.html",
+    "archivedOn": "2026-08-19",
+    "sha256": null,
+    "originatesFrom": null
   },
   {
     "id": "SRC-0007",
@@ -65,7 +77,9 @@ WGO.importedSources = [
     "url": "https://www.verdictum.in/delhi-high-court/jantar-mantar-seeks-union-delhi-police-reply-on-police-action-against-protesters-1618289",
     "retrievedOn": "2026-08-16",
     "archiveUrl": null,
-    "sha256": null
+    "archivedOn": null,
+    "sha256": null,
+    "originatesFrom": null
   },
   {
     "id": "SRC-0008",
@@ -73,8 +87,10 @@ WGO.importedSources = [
     "kind": "SECONDARY",
     "url": "https://www.theweek.in/news/india/2026/07/22/why-delhi-hc-asked-police-to-keep-video-evidence-of-cjp-protest-not-isolated-incidents.html",
     "retrievedOn": "2026-08-16",
-    "archiveUrl": null,
-    "sha256": null
+    "archiveUrl": "http://web.archive.org/web/20260723152046/https://www.theweek.in/news/india/2026/07/22/why-delhi-hc-asked-police-to-keep-video-evidence-of-cjp-protest-not-isolated-incidents.html",
+    "archivedOn": "2026-08-19",
+    "sha256": null,
+    "originatesFrom": null
   },
   {
     "id": "SRC-0009",
@@ -82,8 +98,10 @@ WGO.importedSources = [
     "kind": "SECONDARY",
     "url": "https://www.livelaw.in/high-court/delhi-high-court/jantar-mantar-protest-delhi-police-force-response-cctv-preservation-ordered-cjp-march-neet-leak-542382",
     "retrievedOn": "2026-08-18",
-    "archiveUrl": null,
-    "sha256": null
+    "archiveUrl": "http://web.archive.org/web/20260729054440/https://www.livelaw.in/high-court/delhi-high-court/jantar-mantar-protest-delhi-police-force-response-cctv-preservation-ordered-cjp-march-neet-leak-542382",
+    "archivedOn": "2026-08-19",
+    "sha256": null,
+    "originatesFrom": null
   },
   {
     "id": "SRC-0010",
@@ -91,8 +109,10 @@ WGO.importedSources = [
     "kind": "SECONDARY",
     "url": "https://www.scconline.com/blog/post/2026/07/29/neet-paper-leak-protest-proceedings-sc-interim-directions-police-violence/",
     "retrievedOn": "2026-08-16",
-    "archiveUrl": null,
-    "sha256": null
+    "archiveUrl": "http://web.archive.org/web/20260806090409/https://www.scconline.com/blog/post/2026/07/29/neet-paper-leak-protest-proceedings-sc-interim-directions-police-violence/",
+    "archivedOn": "2026-08-19",
+    "sha256": null,
+    "originatesFrom": null
   },
   {
     "id": "SRC-0011",
@@ -100,8 +120,10 @@ WGO.importedSources = [
     "kind": "SECONDARY",
     "url": "https://www.livelaw.in/top-stories/supreme-court-student-protests-delhi-police-affidavit-facial-recognition-software-only-captures-serious-offense-criminals-546263",
     "retrievedOn": "2026-08-19",
-    "archiveUrl": null,
-    "sha256": null
+    "archiveUrl": "http://web.archive.org/web/20260818115301/https://www.livelaw.in/top-stories/supreme-court-student-protests-delhi-police-affidavit-facial-recognition-software-only-captures-serious-offense-criminals-546263",
+    "archivedOn": "2026-08-19",
+    "sha256": null,
+    "originatesFrom": "Delhi Police affidavit to the Supreme Court, reported 18 August 2026"
   },
   {
     "id": "SRC-0012",
@@ -110,7 +132,9 @@ WGO.importedSources = [
     "url": "https://www.barandbench.com/news/litigation/police-fired-ak-47-after-constable-was-trapped-by-crowd-no-cjp-protestor-was-injured-bihar-to-supreme-court",
     "retrievedOn": "2026-08-19",
     "archiveUrl": null,
-    "sha256": null
+    "archivedOn": null,
+    "sha256": null,
+    "originatesFrom": "State of Bihar affidavit to the Supreme Court, reported 18 August 2026"
   },
   {
     "id": "SRC-0013",
@@ -119,7 +143,9 @@ WGO.importedSources = [
     "url": "https://thefederal.com/category/news/constable-fired-four-ak-47-shots-in-air-during-siwan-protest-no-injuries-bihat-govt-to-sc-253871",
     "retrievedOn": "2026-08-19",
     "archiveUrl": null,
-    "sha256": null
+    "archivedOn": null,
+    "sha256": null,
+    "originatesFrom": "State of Bihar affidavit to the Supreme Court, reported 18 August 2026"
   },
   {
     "id": "SRC-0014",
@@ -128,7 +154,9 @@ WGO.importedSources = [
     "url": "https://aninews.in/news/national/general-news/suspended-cop-who-fired-ak-47-after-being-surrounded-by-protesters-bihar-govt-tells-sc20260818130412/",
     "retrievedOn": "2026-08-19",
     "archiveUrl": null,
-    "sha256": null
+    "archivedOn": null,
+    "sha256": null,
+    "originatesFrom": "State of Bihar affidavit to the Supreme Court, reported 18 August 2026"
   },
   {
     "id": "SRC-0015",
@@ -137,7 +165,9 @@ WGO.importedSources = [
     "url": "https://www.barandbench.com/news/litigation/nhrc-takes-suo-motu-cognisance-of-delhi-police-excesses-during-jantar-mantar-protests",
     "retrievedOn": "2026-08-16",
     "archiveUrl": null,
-    "sha256": null
+    "archivedOn": null,
+    "sha256": null,
+    "originatesFrom": null
   },
   {
     "id": "SRC-0016",
@@ -146,7 +176,9 @@ WGO.importedSources = [
     "url": "https://indialegallive.com/constitutional-law-news/courts-news/nhrc-takes-suo-motu-cognisance-of-alleged-police-excess-during-cjp-protest-seeks-report-from-delhi-police/",
     "retrievedOn": "2026-08-16",
     "archiveUrl": null,
-    "sha256": null
+    "archivedOn": null,
+    "sha256": null,
+    "originatesFrom": null
   },
   {
     "id": "SRC-0017",
@@ -154,8 +186,10 @@ WGO.importedSources = [
     "kind": "SECONDARY",
     "url": "https://www.deccanchronicle.com/nation/current-affairs/nhrc-takes-suo-motu-cognisance-of-police-action-during-cjp-protest-1974561",
     "retrievedOn": "2026-08-18",
-    "archiveUrl": null,
-    "sha256": null
+    "archiveUrl": "http://web.archive.org/web/20260729035104/https://www.deccanchronicle.com/nation/current-affairs/nhrc-takes-suo-motu-cognisance-of-police-action-during-cjp-protest-1974561",
+    "archivedOn": "2026-08-19",
+    "sha256": null,
+    "originatesFrom": null
   },
   {
     "id": "SRC-0018",
@@ -163,8 +197,10 @@ WGO.importedSources = [
     "kind": "SECONDARY",
     "url": "https://www.indiasnews.net/news/279202613/complaint-filed-with-nhrc-seeking-independent-inquiry-into-police-action-at-jantar-mantar",
     "retrievedOn": "2026-08-16",
-    "archiveUrl": null,
-    "sha256": null
+    "archiveUrl": "http://web.archive.org/web/20260723070940/https://www.indiasnews.net/news/279202613/complaint-filed-with-nhrc-seeking-independent-inquiry-into-police-action-at-jantar-mantar",
+    "archivedOn": "2026-08-19",
+    "sha256": null,
+    "originatesFrom": null
   },
   {
     "id": "SRC-0019",
@@ -173,7 +209,9 @@ WGO.importedSources = [
     "url": "https://delhihighcourt.nic.in/files/2026-07/cause-list/combined_cause_list_22.07.2026.pdf",
     "retrievedOn": "2026-08-18",
     "archiveUrl": null,
-    "sha256": "d3a67d1b69d68f62bc4e462bb6dbc79ae0ea5eeb5c40cd7fcd418ba09b74b6d4"
+    "archivedOn": null,
+    "sha256": "d3a67d1b69d68f62bc4e462bb6dbc79ae0ea5eeb5c40cd7fcd418ba09b74b6d4",
+    "originatesFrom": null
   },
   {
     "id": "SRC-0020",
@@ -182,7 +220,9 @@ WGO.importedSources = [
     "url": "https://www.barandbench.com/news/litigation/facial-recognition-tech-used-at-cjp-protests-only-to-find-those-with-criminal-record-delhi-police-to-supreme-court",
     "retrievedOn": "2026-08-19",
     "archiveUrl": null,
-    "sha256": null
+    "archivedOn": null,
+    "sha256": null,
+    "originatesFrom": "Delhi Police affidavit to the Supreme Court, reported 18 August 2026"
   },
   {
     "id": "SRC-0021",
@@ -191,7 +231,9 @@ WGO.importedSources = [
     "url": "https://www.oneindia.com/india/cjp-protests-2-873-with-criminal-records-identified-using-facial-recognition-system-delhi-police-t-8179549.html",
     "retrievedOn": "2026-08-19",
     "archiveUrl": null,
-    "sha256": null
+    "archivedOn": null,
+    "sha256": null,
+    "originatesFrom": "Delhi Police affidavit to the Supreme Court, reported 18 August 2026"
   },
   {
     "id": "SRC-0022",
@@ -200,7 +242,9 @@ WGO.importedSources = [
     "url": "https://www.newsx.com/india/ak-47-fired-at-siwan-student-protest-but-no-one-hit-by-rifle-what-bihar-govt-told-supreme-court-261593/",
     "retrievedOn": "2026-08-19",
     "archiveUrl": null,
-    "sha256": null
+    "archivedOn": null,
+    "sha256": null,
+    "originatesFrom": "State of Bihar affidavit to the Supreme Court, reported 18 August 2026"
   },
   {
     "id": "SRC-0023",
@@ -209,7 +253,9 @@ WGO.importedSources = [
     "url": "https://www.business-standard.com/india-news/history-sheeters-infiltrated-jul-20-protest-240-cops-injured-delhi-police-126081800545_1.html",
     "retrievedOn": "2026-08-19",
     "archiveUrl": null,
-    "sha256": null
+    "archivedOn": null,
+    "sha256": null,
+    "originatesFrom": "Delhi Police affidavit to the Supreme Court, reported 18 August 2026"
   },
   {
     "id": "SRC-0024",
@@ -218,7 +264,9 @@ WGO.importedSources = [
     "url": "https://lawchakra.in/supreme-court/delhi-police-supreme-court-affidavit-no-excessive-force-student-protesters/",
     "retrievedOn": "2026-08-19",
     "archiveUrl": null,
-    "sha256": null
+    "archivedOn": null,
+    "sha256": null,
+    "originatesFrom": "Delhi Police affidavit to the Supreme Court, reported 18 August 2026"
   },
   {
     "id": "SRC-0025",
@@ -227,7 +275,9 @@ WGO.importedSources = [
     "url": "https://www.barandbench.com/news/cjp-protests-supreme-court-to-form-high-powered-panel-to-probe-police-excesses-violence-against-cops",
     "retrievedOn": "2026-08-19",
     "archiveUrl": null,
-    "sha256": null
+    "archivedOn": null,
+    "sha256": null,
+    "originatesFrom": null
   },
   {
     "id": "SRC-0026",
@@ -236,7 +286,9 @@ WGO.importedSources = [
     "url": "https://www.scobserver.in/journal/sc-says-jantar-mantar-protest-firs-cannot-define-students-futures/",
     "retrievedOn": "2026-08-19",
     "archiveUrl": null,
-    "sha256": null
+    "archivedOn": null,
+    "sha256": null,
+    "originatesFrom": null
   },
   {
     "id": "SRC-0027",
@@ -244,8 +296,10 @@ WGO.importedSources = [
     "kind": "PRIMARY",
     "url": "https://www.indiacode.nic.in/bitstream/123456789/20340/1/bnss,_2023.pdf",
     "retrievedOn": "2026-08-16",
-    "archiveUrl": null,
-    "sha256": null
+    "archiveUrl": "http://web.archive.org/web/20260121073438/https://www.indiacode.nic.in/bitstream/123456789/20340/1/bnss%2C_2023.pdf",
+    "archivedOn": "2026-08-19",
+    "sha256": null,
+    "originatesFrom": null
   },
   {
     "id": "SRC-0028",
@@ -253,8 +307,10 @@ WGO.importedSources = [
     "kind": "PRIMARY",
     "url": "https://bprd.nic.in/uploads/pdf/Comparison%20summary%20BNSS%20to%20CrPC.pdf",
     "retrievedOn": "2026-08-16",
-    "archiveUrl": null,
-    "sha256": null
+    "archiveUrl": "http://web.archive.org/web/20260215214604/https://bprd.nic.in/uploads/pdf/Comparison%20summary%20BNSS%20to%20CrPC.pdf",
+    "archivedOn": "2026-08-19",
+    "sha256": null,
+    "originatesFrom": null
   },
   {
     "id": "SRC-0029",
@@ -262,8 +318,10 @@ WGO.importedSources = [
     "kind": "PRIMARY",
     "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202407031502194192BNSS2023-20-45.pdf",
     "retrievedOn": "2026-08-16",
-    "archiveUrl": null,
-    "sha256": null
+    "archiveUrl": "http://web.archive.org/web/20250524091156/https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202407031502194192BNSS2023-20-45.pdf",
+    "archivedOn": "2026-08-19",
+    "sha256": null,
+    "originatesFrom": null
   },
   {
     "id": "SRC-0030",
@@ -272,7 +330,9 @@ WGO.importedSources = [
     "url": "https://onlinelawconnect.com/actsandrules/criminal/bnss/SummaryChapter11.php",
     "retrievedOn": "2026-08-16",
     "archiveUrl": null,
-    "sha256": null
+    "archivedOn": null,
+    "sha256": null,
+    "originatesFrom": null
   },
   {
     "id": "SRC-0031",
@@ -280,8 +340,10 @@ WGO.importedSources = [
     "kind": "SECONDARY",
     "url": "https://www.lawandjusticewiki.org/wiki/Extra-judicial_killings",
     "retrievedOn": "2026-08-16",
-    "archiveUrl": null,
-    "sha256": null
+    "archiveUrl": "http://web.archive.org/web/20260518085831/https://www.lawandjusticewiki.org/wiki/Extra-judicial_killings",
+    "archivedOn": "2026-08-19",
+    "sha256": null,
+    "originatesFrom": null
   },
   {
     "id": "SRC-0032",
@@ -289,8 +351,10 @@ WGO.importedSources = [
     "kind": "SECONDARY",
     "url": "https://www.apnilaw.com/bare-act/bnss/section-196-bharatiya-nagarik-suraksha-sanhitabnss-inquiry-by-magistrate-into-cause-of-death/",
     "retrievedOn": "2026-08-16",
-    "archiveUrl": null,
-    "sha256": null
+    "archiveUrl": "http://web.archive.org/web/20250906102438/https://www.apnilaw.com/bare-act/bnss/section-196-bharatiya-nagarik-suraksha-sanhitabnss-inquiry-by-magistrate-into-cause-of-death/",
+    "archivedOn": "2026-08-19",
+    "sha256": null,
+    "originatesFrom": null
   },
   {
     "id": "SRC-0033",
@@ -298,8 +362,10 @@ WGO.importedSources = [
     "kind": "PRIMARY",
     "url": "https://www.indiacode.nic.in/bitstream/123456789/13669/1/delhi_police_act.pdf",
     "retrievedOn": "2026-08-16",
-    "archiveUrl": null,
-    "sha256": null
+    "archiveUrl": "http://web.archive.org/web/20240809212750/https://www.indiacode.nic.in/bitstream/123456789/13669/1/delhi_police_act.pdf",
+    "archivedOn": "2026-08-19",
+    "sha256": null,
+    "originatesFrom": null
   },
   {
     "id": "SRC-0034",
@@ -307,8 +373,10 @@ WGO.importedSources = [
     "kind": "SECONDARY",
     "url": "https://www.indianemployees.com/acts-rules/details/delhi-police-act-1978",
     "retrievedOn": "2026-08-16",
-    "archiveUrl": null,
-    "sha256": null
+    "archiveUrl": "http://web.archive.org/web/20220329071954/https://www.indianemployees.com/acts-rules/details/delhi-police-act-1978",
+    "archivedOn": "2026-08-19",
+    "sha256": null,
+    "originatesFrom": null
   },
   {
     "id": "SRC-0035",
@@ -316,8 +384,10 @@ WGO.importedSources = [
     "kind": "PRIMARY",
     "url": "https://www.indiacode.nic.in/bitstream/123456789/20371/1/ashtra_police.pdf",
     "retrievedOn": "2026-08-16",
-    "archiveUrl": null,
-    "sha256": null
+    "archiveUrl": "http://web.archive.org/web/20251230215513/https://www.indiacode.nic.in/bitstream/123456789/20371/1/ashtra_police.pdf",
+    "archivedOn": "2026-08-19",
+    "sha256": null,
+    "originatesFrom": null
   },
   {
     "id": "SRC-0036",
@@ -326,7 +396,9 @@ WGO.importedSources = [
     "url": "https://blog.gurukulnexus.com/police-regulations-maharashtra-police-act-public-order/",
     "retrievedOn": "2026-08-16",
     "archiveUrl": null,
-    "sha256": null
+    "archivedOn": null,
+    "sha256": null,
+    "originatesFrom": null
   },
   {
     "id": "SRC-0037",
@@ -334,8 +406,10 @@ WGO.importedSources = [
     "kind": "PRIMARY",
     "url": "https://www.indiacode.nic.in/bitstream/123456789/11209/1/1094_bihar_bihar_police_act_2007.pdf",
     "retrievedOn": "2026-08-16",
-    "archiveUrl": null,
-    "sha256": null
+    "archiveUrl": "http://web.archive.org/web/20260612162516/https://www.indiacode.nic.in/bitstream/123456789/11209/1/1094_bihar_bihar_police_act_2007.pdf",
+    "archivedOn": "2026-08-19",
+    "sha256": null,
+    "originatesFrom": null
   },
   {
     "id": "SRC-0038",
@@ -344,7 +418,9 @@ WGO.importedSources = [
     "url": "https://www.legitquest.com/act/the-bihar-police-amendment-act-2014/FBD1",
     "retrievedOn": "2026-08-16",
     "archiveUrl": null,
-    "sha256": null
+    "archivedOn": null,
+    "sha256": null,
+    "originatesFrom": null
   },
   {
     "id": "SRC-0039",
@@ -353,7 +429,9 @@ WGO.importedSources = [
     "url": null,
     "retrievedOn": null,
     "archiveUrl": null,
-    "sha256": null
+    "archivedOn": null,
+    "sha256": null,
+    "originatesFrom": null
   },
   {
     "id": "SRC-0040",
@@ -361,8 +439,10 @@ WGO.importedSources = [
     "kind": "PRIMARY",
     "url": "https://www.mha.gov.in/sites/default/files/2025-04/NHRCselectedlettersandguidelinesondeathsincustody_09042019_0[1]_4.pdf",
     "retrievedOn": "2026-08-16",
-    "archiveUrl": null,
-    "sha256": null
+    "archiveUrl": "http://web.archive.org/web/20260520201057/https://www.mha.gov.in/sites/default/files/2025-04/NHRCselectedlettersandguidelinesondeathsincustody_09042019_0%5B1%5D_4.pdf",
+    "archivedOn": "2026-08-19",
+    "sha256": null,
+    "originatesFrom": null
   },
   {
     "id": "SRC-0041",
@@ -370,8 +450,10 @@ WGO.importedSources = [
     "kind": "PRIMARY",
     "url": "https://nhrc.nic.in/press-release/nhrc-issues-fresh-guidelines-regarding-intimation-custodial-death",
     "retrievedOn": "2026-08-16",
-    "archiveUrl": null,
-    "sha256": null
+    "archiveUrl": "http://web.archive.org/web/20251011104825/https://nhrc.nic.in/press-release/nhrc-issues-fresh-guidelines-regarding-intimation-custodial-death",
+    "archivedOn": "2026-08-19",
+    "sha256": null,
+    "originatesFrom": null
   },
   {
     "id": "SRC-0042",
@@ -379,8 +461,10 @@ WGO.importedSources = [
     "kind": "PRIMARY",
     "url": "https://nhrc.nic.in/investigation-division",
     "retrievedOn": "2026-08-16",
-    "archiveUrl": null,
-    "sha256": null
+    "archiveUrl": "http://web.archive.org/web/20260725004141/https://nhrc.nic.in/investigation-division",
+    "archivedOn": "2026-08-19",
+    "sha256": null,
+    "originatesFrom": null
   },
   {
     "id": "SRC-0043",
@@ -389,7 +473,9 @@ WGO.importedSources = [
     "url": "https://commoner-law.com/india/police-encounters/encounter-killings-and-custodial-deaths",
     "retrievedOn": "2026-08-16",
     "archiveUrl": null,
-    "sha256": null
+    "archivedOn": null,
+    "sha256": null,
+    "originatesFrom": null
   },
   {
     "id": "SRC-0044",
@@ -398,7 +484,9 @@ WGO.importedSources = [
     "url": "https://www.bellingcat.com/news/americas/2020/10/29/a-new-platform-maps-us-police-violence-against-protesters/",
     "retrievedOn": "2026-08-16",
     "archiveUrl": null,
-    "sha256": null
+    "archivedOn": null,
+    "sha256": null,
+    "originatesFrom": null
   },
   {
     "id": "SRC-0045",
@@ -407,7 +495,9 @@ WGO.importedSources = [
     "url": "https://gijn.org/stories/how-bellingcat-and-forensic-architecture-teamed-up-with-colombias-cerosetenta-to-map-police-violence/",
     "retrievedOn": "2026-08-16",
     "archiveUrl": null,
-    "sha256": null
+    "archivedOn": null,
+    "sha256": null,
+    "originatesFrom": null
   },
   {
     "id": "SRC-0046",
@@ -416,7 +506,9 @@ WGO.importedSources = [
     "url": "https://thepolisproject.com/research/documenting-custodial-violence-reflections-and-further-research-5/",
     "retrievedOn": "2026-08-16",
     "archiveUrl": null,
-    "sha256": null
+    "archivedOn": null,
+    "sha256": null,
+    "originatesFrom": null
   },
   {
     "id": "SRC-0047",
@@ -425,7 +517,9 @@ WGO.importedSources = [
     "url": "https://en.wikipedia.org/wiki/DOTO_Database",
     "retrievedOn": "2026-08-16",
     "archiveUrl": null,
-    "sha256": null
+    "archivedOn": null,
+    "sha256": null,
+    "originatesFrom": null
   },
   {
     "id": "SRC-0048",
@@ -434,7 +528,9 @@ WGO.importedSources = [
     "url": "https://www.commoncause.in/wotadmin/upload/SPIR_2025.pdf",
     "retrievedOn": "2026-08-16",
     "archiveUrl": null,
-    "sha256": null
+    "archivedOn": null,
+    "sha256": null,
+    "originatesFrom": null
   },
   {
     "id": "SRC-0049",
@@ -443,7 +539,9 @@ WGO.importedSources = [
     "url": "https://journals.sagepub.com/doi/abs/10.1177/00699659231208696",
     "retrievedOn": "2026-08-16",
     "archiveUrl": null,
-    "sha256": null
+    "archivedOn": null,
+    "sha256": null,
+    "originatesFrom": null
   }
 ];
 
@@ -814,8 +912,7 @@ WGO.importedEvidence = [
     "dateAdded": "2026-08-16",
     "sourceIds": [
       "SRC-0023",
-      "SRC-0024",
-      "SRC-0012"
+      "SRC-0024"
     ],
     "origin": "",
     "establishes": "AS STATED BY DELHI POLICE: about 5,000 police were managing a crowd reported at over 30,000 across roughly three kilometres; the agitation was hijacked by anti-social elements and history-sheeters; more than 240 police personnel were injured; the force acted with maximum restraint. A FIGURE THIS ARCHIVE CANNOT RECONCILE: the police injury count reported here is 'more than 240'. The Wikipedia account of the same events, sourced to earlier reporting, gives 118 police personnel injured. Both cannot be the count on the same date unless one covers a longer period or a wider set of incidents, and neither report says which. The discrepancy is recorded rather than resolved by preferring the larger or the later number — see OQ-036. The protester injury figures are separately contested and are not restated here.",

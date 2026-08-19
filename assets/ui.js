@@ -170,15 +170,23 @@
         ? 'Retrieved ' + ui.esc(s.retrievedOn)
         : '<strong>Retrieval date not recorded</strong>');
       fixity.push(s.archiveUrl
-        ? '<a href="' + ui.esc(s.archiveUrl) + '" rel="noopener nofollow" target="_blank">archived copy</a>'
+        ? '<a href="' + ui.esc(s.archiveUrl) + '" rel="noopener nofollow" target="_blank">archived copy</a>' +
+          (s.archivedOn ? ' <span class="small">(' + ui.esc(s.archivedOn) + ')</span>' : '')
         : 'no archived copy');
       if (s.sha256) {
         fixity.push('<span class="mono" title="SHA-256 of the captured file">' +
           ui.esc(String(s.sha256).slice(0, 16)) + '…</span>');
       }
 
+      /* Where this source got it. Shown because a reader counting sources needs
+         to know when several of them are reading the same document. */
+      var origin = s.originatesFrom
+        ? '<div class="small source-detail__origin">Reporting: ' + ui.esc(s.originatesFrom) + '</div>'
+        : '';
+
       return '<li>' +
         '<span class="mono">' + ui.esc(s.id) + '</span> ' + bits.join(' ') +
+        origin +
         '<div class="small source-detail__fixity">' + fixity.join(' · ') + '</div>' +
       '</li>';
     }).join('') + '</ul>';

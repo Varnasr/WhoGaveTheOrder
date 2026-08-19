@@ -108,6 +108,7 @@ Incident → Question → Authority → Evidence → Answer state
 │   ├── deadlines.js   # runs the RTI clocks on a schedule
 │   ├── sweep.js       # the daily hunt for new documents
 │   ├── watchlist.json # where it looks, and why each place is watched
+│   ├── fixity.js      # gets every source into a public web archive
 │   └── build.js       # change log, Atom feed, and the export
 └── *.html
 ```
@@ -176,6 +177,34 @@ Watch terms come partly from `tools/watchlist.json` and partly from the records 
 places and case numbers — so a new incident starts being watched without anyone updating a list. City
 and state names are deliberately excluded: "New Delhi" matches every article filed from New Delhi, and
 a sweep that reports everything reports nothing.
+
+### Keeping sources checkable
+
+A link is not a citation. News sites edit stories, paywall them and take them down, and when that
+happens a record still says "source: Bar & Bench" with no way for a reader to check it.
+
+`tools/fixity.js` asks the Internet Archive whether a snapshot of each source URL exists and requests
+one where it does not, writing the snapshot URL back into the source map. The sweep runs it daily on a
+handful of sources, so a backlog clears over a week without anyone being throttled.
+
+Anonymous capture requests are often refused with a 403. The Internet Archive issues free keys: set
+`IA_ACCESS_KEY` and `IA_SECRET_KEY` as repository secrets and captures are requested properly.
+Without them the tool still does the useful half, which is finding the snapshots that already exist.
+
+### Is the corroboration real?
+
+`CORROBORATED` means two or more **independent** sources. That is easy to get wrong. Four outlets
+reporting one affidavit look like four sources; a wire story carried by three papers looks like three.
+
+A source may record `originates_from` — the document or wire it actually read. The integrity check
+then flags any `CORROBORATED` record whose sources all trace back to a single origin:
+
+> CORROBORATED, but every source traces to one origin: Delhi Police affidavit to the Supreme Court.
+> Fine if the claim is what that source says; one source if the claim is what happened.
+
+It is a warning rather than an error because the answer depends on the claim. If the claim is that a
+document says something, several people reading that document do corroborate it. If the claim is about
+what happened, they do not. The check states the question; a person answers it.
 
 ### Explaining the archive
 

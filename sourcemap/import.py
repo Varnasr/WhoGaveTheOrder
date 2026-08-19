@@ -108,6 +108,19 @@ source_records = []
 def source_id_for(s):
     url = s.get('url')
     key = url or ('nourl::' + (s.get('publication') or 'unattributed'))
+    if key in sources:
+        # The same URL can be cited by several items, and only the first one
+        # created the SRC- record. If a later citation knows something the first
+        # did not - where the source got its information, an archived copy - fill
+        # the gap rather than discarding it. Existing values are never overwritten.
+        existing = next(r for r in source_records if r['id'] == sources[key])
+        for field, key_in in (('originatesFrom', 'originates_from'),
+                              ('archiveUrl', 'archive_url'),
+                              ('archivedOn', 'archived_on'),
+                              ('sha256', 'sha256'),
+                              ('retrievedOn', 'retrieved_on')):
+            if not existing.get(field) and s.get(key_in):
+                existing[field] = s.get(key_in)
     if key not in sources:
         sid = 'SRC-%04d' % (len(sources) + 1)
         sources[key] = sid
@@ -124,7 +137,11 @@ def source_id_for(s):
             'url': url,
             'retrievedOn': s.get('retrieved_on'),
             'archiveUrl': s.get('archive_url'),
+            'archivedOn': s.get('archived_on'),
             'sha256': s.get('sha256'),
+            # Where the source got it. Two outlets reading one affidavit are two
+            # reports of one thing, not two independent accounts of it.
+            'originatesFrom': s.get('originates_from'),
         })
     return sources[key]
 

@@ -587,9 +587,38 @@
         problem('warning', s.id, 'archiveUrl', '—',
           'Online source with no archived copy — it can be edited or removed without trace');
       }
-      if (s.url && s.archiveUrl && !s.sha256) {
+      /* A checksum only means something for a file that should be byte-identical
+         every time it is fetched. A PDF of an order is such a file. A news page
+         carries ads, timestamps and a different layout on every request, so
+         asking for its hash would be asking for a number that can never match,
+         and a check nobody can satisfy is a check that gets ignored. */
+      if (s.url && /\.pdf($|\?)/i.test(s.url) && !s.sha256) {
         problem('warning', s.id, 'sha256', '—',
-          'Archived source with no checksum — a capture can still be swapped');
+          'Document source with no checksum — a fetched file should be hashed so a later copy can be compared');
+      }
+    });
+
+    /* CORROBORATED means two or more INDEPENDENT sources. Independence has been
+       judged in prose until now, and it is easy to get wrong: four outlets
+       reporting one affidavit look like four sources, and a wire story carried
+       by three papers looks like three. Where a source records where it came
+       from, that can be checked.
+
+       This is raised as a warning with the decision attached rather than as an
+       error, because the answer depends on what the claim says. If the claim is
+       that a document says something, several people reading that document do
+       corroborate it. If the claim is about what happened, they do not. */
+    model.publishedEvidence.forEach(function (e) {
+      if (e.verification !== 'CORROBORATED') { return; }
+      var sources = (e.sourceIds || []).map(function (id) { return model.index.source[id]; }).filter(Boolean);
+      if (sources.length < 2) { return; }
+      var origins = {};
+      sources.forEach(function (s) { origins[s.originatesFrom || ('source:' + s.id)] = true; });
+      var named = sources.filter(function (s) { return s.originatesFrom; });
+      if (named.length === sources.length && Object.keys(origins).length < 2) {
+        problem('warning', e.id, 'verification', 'CORROBORATED',
+          'CORROBORATED, but every source traces to one origin: ' + Object.keys(origins)[0] +
+          '. Fine if the claim is what that source says; one source if the claim is what happened.');
       }
     });
 
