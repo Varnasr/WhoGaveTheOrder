@@ -462,5 +462,68 @@
       "PROC-SC-003",
       "PROC-SC-002"
     ]
+  },
+  {
+    "id": "OQ-040",
+    "priority": "high",
+    "category": "document_custody",
+    "jurisdiction": "delhi",
+    "question": "Delhi Police General Diary entry 0008A of 22 July 2026, Parliament Street police station, recording the munitions used at Jantar Mantar on 20 July 2026 and the Deputy Commissioner of Police under whose orders they were used.",
+    "why_it_matters": "Two outlets report having read it and this archive has not. It is the only document described anywhere that ties the use of force at Jantar Mantar to an officer who ordered it, and it is a routine police record rather than a leak or a reconstruction. Holding it would move the archive from reporting what a newspaper says a record says to holding the record.",
+    "lawful_route": "RTI to the Public Information Officer, Delhi Police, for a copy of General Diary entry 0008A dated 22 July 2026 of Parliament Street police station. Ask for the entry by its number and date. If exemption is claimed under section 8, the refusal is itself a record worth publishing and opens a first appeal. The same entry may be produced in W.P.(C) 917/2026, in which case the court record is the better route.",
+    "blocks": [
+      "INC-DEL-004",
+      "INC-DEL-005"
+    ]
+  },
+  {
+    "id": "OQ-041",
+    "priority": "high",
+    "category": "document_custody",
+    "jurisdiction": "delhi",
+    "question": "The Delhi Police standard operating procedure on the use of pellet-firing weapons, which the Supreme Court is reported to have directed be placed on record on 30 July 2026.",
+    "why_it_matters": "Either it exists and authorises these weapons, or it exists and does not mention them, or there is none. All three answers are findings, and counsel has told the Court there is no such standing order at all. This is the document the archive was built to ask for.",
+    "lawful_route": "Watch the record in Yashovardhan Azad and Ors. v. Union of India and Ors., W.P.(C) 917/2026 for the affidavit filing it. In parallel, RTI to the Public Information Officer, Delhi Police, for any standing order, SOP or circular governing the use of pellet-firing or anti-riot guns. Ask for the document, not for confirmation that none exists — a nil reply is only useful if the question was framed so that a nil reply means something.",
+    "blocks": [
+      "PROC-SC-008",
+      "PROC-SC-009"
+    ]
+  },
+  {
+    "id": "OQ-042",
+    "priority": "time_critical",
+    "category": "retention",
+    "jurisdiction": "delhi",
+    "question": "The ammunition log of the Rapid Action Force unit deployed at Jantar Mantar on 20 July 2026, which the Supreme Court is reported to have directed be preserved on 30 July 2026.",
+    "why_it_matters": "An ammunition log records what was issued and what was returned. Against the General Diary entry it is the check on whether the reported two rounds of plastic pellets is the whole of it. It is marked time critical because logs are subject to routine destruction schedules and a preservation direction is only as good as somebody asking for the thing later.",
+    "lawful_route": "The Rapid Action Force is a unit of the Central Reserve Police Force, so the application goes to the Public Information Officer, CRPF, and not to Delhi Police. Cite the reported preservation direction of 30 July 2026 in W.P.(C) 917/2026 by date and case number, which forecloses any answer that the record has been weeded.",
+    "blocks": [
+      "INC-DEL-004",
+      "INC-DEL-005"
+    ]
+  },
+  {
+    "id": "OQ-043",
+    "priority": "high",
+    "category": "incident",
+    "jurisdiction": "delhi",
+    "question": "Which Deputy Commissioner of Police gave the order recorded in General Diary entry 0008A, and whether that order was written or oral.",
+    "why_it_matters": "This is the question the site is named after, narrowed for the first time to a rank, a date and a police record that is said to name the office. Everything else in this archive asks who authorised the use of force in general terms. This asks it of one entry in one diary.",
+    "lawful_route": "It follows OQ-040: obtain the entry first, since it is reported to record the office. Alt News says it is withholding the officers' names, so the names are in the document and not in the reporting. If the entry records an oral order, the wireless log and the control room recording for 20 July become the next request, and both are subject to short retention periods.",
+    "blocks": [
+      "INC-DEL-004"
+    ]
+  },
+  {
+    "id": "OQ-044",
+    "priority": "medium",
+    "category": "existing_documentation",
+    "jurisdiction": "all",
+    "question": "The standard operating procedure prepared in 2011 by a Union High Task Force on crowd control, and the report of the High Powered Committee of 2016, which counsel told the Supreme Court is not available.",
+    "why_it_matters": "If a national protocol on these weapons was written in 2011 and reviewed in 2016, then what any force may lawfully do is not an open question but a buried one. A report that a party's counsel could not obtain is worth obtaining.",
+    "lawful_route": "RTI to the Ministry of Home Affairs for the 2011 standard operating procedure and for the report of the High Powered Committee of 2016, by name and year. Also worth checking the Bureau of Police Research and Development, which publishes work of this kind. This is a records request about policy documents and touches no individual.",
+    "blocks": [
+      "PROC-SC-009"
+    ]
   }
 ]

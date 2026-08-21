@@ -368,5 +368,55 @@
     "incidentId": "INC-0001",
     "level": null,
     "evidenceIds": []
+  },
+  {
+    "id": "OQ-040",
+    "kind": "Question",
+    "title": "Delhi Police General Diary entry 0008A of 22 July 2026, Parliament Street police station, recording the munitions used at Jantar Mantar on 20 July 2026 and the Deputy Commissioner of Police under whose orders they were used.",
+    "state": "UNANSWERED",
+    "url": "https://www.whogavetheorder.in/investigation.html?id=jantar-mantar#OQ-040",
+    "incidentId": "INC-0001",
+    "level": null,
+    "evidenceIds": []
+  },
+  {
+    "id": "OQ-041",
+    "kind": "Question",
+    "title": "The Delhi Police standard operating procedure on the use of pellet-firing weapons, which the Supreme Court is reported to have directed be placed on record on 30 July 2026.",
+    "state": "UNANSWERED",
+    "url": "https://www.whogavetheorder.in/investigation.html?id=jantar-mantar#OQ-041",
+    "incidentId": "INC-0001",
+    "level": null,
+    "evidenceIds": []
+  },
+  {
+    "id": "OQ-042",
+    "kind": "Question",
+    "title": "The ammunition log of the Rapid Action Force unit deployed at Jantar Mantar on 20 July 2026, which the Supreme Court is reported to have directed be preserved on 30 July 2026.",
+    "state": "UNANSWERED",
+    "url": "https://www.whogavetheorder.in/investigation.html?id=jantar-mantar#OQ-042",
+    "incidentId": "INC-0001",
+    "level": null,
+    "evidenceIds": []
+  },
+  {
+    "id": "OQ-043",
+    "kind": "Question",
+    "title": "Which Deputy Commissioner of Police gave the order recorded in General Diary entry 0008A, and whether that order was written or oral.",
+    "state": "UNANSWERED",
+    "url": "https://www.whogavetheorder.in/investigation.html?id=jantar-mantar#OQ-043",
+    "incidentId": "INC-0001",
+    "level": null,
+    "evidenceIds": []
+  },
+  {
+    "id": "OQ-044",
+    "kind": "Question",
+    "title": "The standard operating procedure prepared in 2011 by a Union High Task Force on crowd control, and the report of the High Powered Committee of 2016, which counsel told the Supreme Court is not available.",
+    "state": "UNANSWERED",
+    "url": "https://www.whogavetheorder.in/investigation.html?id=#OQ-044",
+    "incidentId": null,
+    "level": null,
+    "evidenceIds": []
   }
 ]
