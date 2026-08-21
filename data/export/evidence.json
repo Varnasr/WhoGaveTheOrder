@@ -317,17 +317,19 @@
   {
     "id": "PROC-SC-006",
     "kind": "Evidence",
-    "title": "The Supreme Court is reported to have decided to constitute a high-powered committee to examine allegations of police excess, sexual violence and other incident",
+    "title": "The Supreme Court constituted a five-member High Powered Enquiry Committee by order reported dated 18 August 2026 to inquire into the police action against the ",
     "state": "CORROBORATED",
     "url": "https://www.whogavetheorder.in/evidence.html?id=PROC-SC-006",
     "type": "COURT_DOCUMENT",
     "incidentId": "INC-0001",
     "dateOfItem": null,
-    "establishes": "Two separate things, both reported from the same proceedings and neither held as an order: a committee that has not been shown to be constituted, and an indication about FIRs that is not a direction. The petitioners are reported to have opposed sending the facial recognition question to such a committee, and the Chief Justice to have said constitutional issues are for the Court alone — see PROC-SC-003. ARCHIVE SIGNIFICANCE: a committee with terms of reference would generate documents, and its constitution order would be the first primary document in this archive about the Delhi incident. The order is not held: see OQ-033.",
+    "establishes": "UPDATED 21 AUGUST 2026, AND THE EARLIER VERSION OF THIS RECORD IS NOW WRONG. It said a committee had been decided on but not shown to be constituted, and that whether it existed was not established. It has since been constituted, by an order reported dated 18 August 2026, and five members are named. The record has been corrected rather than replaced and this note says what it used to say. WHY THIS MATTERS MORE THAN ANY OTHER PROCEEDING HERE: a committee with terms of reference and a reporting obligation generates documents. Its constitution order, its terms of reference and its interim reports are all records that can be asked for, and the deployment of pellet guns is inside its mandate by name. WHAT IS NOT HELD: the order itself. Everything above is reporting of it. No terms of reference document is in this archive, and the wording quoted by outlets is theirs, not ours. See OQ-045. A DISCREPANCY WORTH RECORDING: this matter is cited as W.P.(C) 280/2026 at PROC-SC-001 and as W.P.(Crl) 280/2026 in the reporting of this order. One of them is wrong and the archive does not know which. The cause list or the order itself would settle it, as a cause list already settled the Delhi numbering at PROC-DEL-002.",
     "doesNotEstablish": null,
     "sourceIds": [
       "SRC-0025",
-      "SRC-0026"
+      "SRC-0026",
+      "SRC-0027",
+      "SRC-0028"
     ]
   },
   {
@@ -342,10 +344,10 @@
     "establishes": "AS ALLEGED IN THE PETITION, and adopted by this archive as nothing more than an allegation: that Delhi Police deployed an 'Ikshana' facial recognition vehicle, AjnaLens smart glasses, CCTV cameras and drones, a Mobile Command and Control Vehicle, and fingerprint collection through the NCRB's 'Abhigyan' application matched against NAFIS; that nobody present was told by notice or signage that biometric data was being collected; and that none of it had statutory backing. The reliefs sought include disclosure of the surveillance systems, standard operating procedures and vendor agreements used at Jantar Mantar. WHY THIS SITS IN THIS ARCHIVE: that disclosure is the same document the archive has been unable to obtain by any other route. Delhi Police has admitted the deployment (PROC-SC-002); what it covered is disputed (PROC-SC-003); who authorised it is UNKNOWN. WHAT IT DOES NOT ESTABLISH: anything about what was actually deployed. A petition is a party's case, and the named systems are that party's account. No order on this petition is held.",
     "doesNotEstablish": null,
     "sourceIds": [
-      "SRC-0027",
-      "SRC-0028",
       "SRC-0029",
-      "SRC-0030"
+      "SRC-0030",
+      "SRC-0031",
+      "SRC-0032"
     ]
   },
   {
@@ -360,8 +362,8 @@
     "establishes": "ONE PUBLICATION, TWO ARTICLES. Both are The Tribune, so this is a single account and stays REPORTED. India TV News is listed by search as having published the full list on 18 August; our fetch of it returned HTTP 403 and it is therefore not cited. WHAT THIS ADDS: two named officers held two named posts at the time of the 20 July police action, which is chain-of-command information the archive did not have from any other source. WHAT IT DOES NOT ESTABLISH, and is deliberately not written into the claim: any link between the transfers and the protest, any finding against either officer, or that either gave any order. Forty-three officers moved in the same order, across the Economic Offences Wing, traffic, vigilance, the Special Branch, crime, intelligence, licensing and the districts. The Tribune reports separately that Banthia's name figured in the controversy over the alleged use of pellet guns on 20 July and that he said he was not present when pellets were fired; that is the paper's reporting of an allegation and a denial, and neither is adopted here. NEITHER OFFICER IS ADDED TO THE CHAIN OF COMMAND. The chain records offices shown to have had authority, not individuals named in news reports. The order itself is not held: see OQ-038.",
     "doesNotEstablish": null,
     "sourceIds": [
-      "SRC-0031",
-      "SRC-0032"
+      "SRC-0033",
+      "SRC-0034"
     ]
   },
   {
@@ -376,7 +378,7 @@
     "establishes": "ONE SOURCE, AND ITS SOURCE IS THE POLICE. Outlook attributes the account to police sources; no FIR number, police station or section is given, and no copy of any FIR is held. THIS IS THE STATE'S SIDE OF 22 JULY AND IT BELONGS HERE. An archive that recorded only force used by police, and never violence recorded against them, would be a case rather than a record. It is filed at the same standard as everything else and at the same confidence the evidence supports. WHAT IT DOES NOT ESTABLISH: who was named in any FIR, what was alleged, whether any of them concerns the police action itself, or anything about the 20 July events. The organisers' account, reported in the same piece, attributes the violence to others; that is an allegation and is not adopted. FIRs are required to be published online (CRT-006), and the Delhi Police publication route is UNKNOWN (CRT-005), so these ten are checkable in principle and not in practice: see OQ-039.",
     "doesNotEstablish": null,
     "sourceIds": [
-      "SRC-0033"
+      "SRC-0035"
     ]
   },
   {
@@ -391,10 +393,10 @@
     "establishes": "TWO HEARINGS, AND THE REPORTING SPLITS BETWEEN THEM. The Federal and The Week carry the SOP direction and the preservation of the ammunition log from 30 July; LiveLaw carries the protocol observation and the direction to the Union from 3 August. Both dates are recorded rather than merged, because merging them would invent a single hearing that did not happen. THIS IS THE MOST USEFUL PROCEEDING IN THIS ARCHIVE. It is the only one that has been reported to order the production of the two documents that would answer the authorisation question directly: a standing operating procedure that either authorises pellet-firing weapons or does not, and a contemporaneous ammunition log for the unit deployed. Justice Bagchi is reported to have observed that 'police rules allow the use in exceptional circumstances unless you challenge the rules themselves' and that 'one of the steps of the graded approach is use of pellet guns'; that is an observation about what the rules are said to permit, not a finding about what happened on 20 July. WHAT IS NOT HELD: no order of this Court, and neither of the two documents it is reported to have called for. See OQ-041 and OQ-042.",
     "doesNotEstablish": null,
     "sourceIds": [
-      "SRC-0034",
-      "SRC-0035",
       "SRC-0036",
-      "SRC-0037"
+      "SRC-0037",
+      "SRC-0038",
+      "SRC-0039"
     ]
   },
   {
@@ -409,7 +411,7 @@
     "establishes": "READ THIS ONE CAREFULLY, BECAUSE IT IS THE CLAIM THIS ARCHIVE IS MOST TEMPTED TO OVERSTATE. A submission by counsel is a party's assertion made in court. It is not a finding, it is not evidence that no such order exists, and it does not establish an absence. What it establishes is that the absence was asserted, on the record, by counsel who had looked. THE ARCHIVE'S OWN POSITION IS UNCHANGED: no order authorising force has been located, and 'not located' is not 'does not exist'. The count of orders found on the front page stays at zero for the same reason it was zero yesterday. WHAT WOULD SETTLE IT: the affidavit the Union was directed to file disclosing any standing orders. That affidavit, if filed, either produces an order or records its absence on oath, and either outcome is a document this archive would hold. One publication only, so REPORTED. The 2011 SOP and the 2016 report are separately worth obtaining: see OQ-044.",
     "doesNotEstablish": null,
     "sourceIds": [
-      "SRC-0034"
+      "SRC-0036"
     ]
   },
   {
@@ -424,8 +426,8 @@
     "establishes": "THIS IS THE CLOSEST THING IN THIS ARCHIVE TO AN AUTHORISATION, AND IT IS STILL NOT ONE. A General Diary entry is a police record of what an officer reported, made two days after the event by a duty officer writing down what a deputy commander told him. The words that matter are 'under the orders of' a Deputy Commissioner of Police: that is a rank, recorded contemporaneously, in the force's own book, attached to a specific list of munitions. It is the first time anything on this record connects the use of force at Jantar Mantar to an officer who ordered it. WHAT IT DOES NOT DO: name the officer, produce the order, or show what the order said. A report that an order was given is not the order. THE COUNT OF ORDERS FOUND STAYS AT ZERO. That number counts orders this archive holds, and this archive does not hold this one — it holds two news reports of a record it has not seen. Alt News says it accessed the entry and is withholding the officers' names; neither outlet reproduces or links the document. NOTE THE WORD 'PLASTIC'. The entry as reported says plastic pellets. The petitioners before the Supreme Court say what was recovered from bodies was metallic. Those are different claims about different ammunition and the archive keeps them apart: see INC-DEL-005. The two accounts of the entry differ slightly in wording — Alt News reports one anti-riot gun and two rounds of plastic pellets, The Week two rounds from anti-riot guns and two rounds of plastic pellet cartridges — which is what reading the same document twice looks like, and is a further reason to obtain it: see OQ-040.",
     "doesNotEstablish": null,
     "sourceIds": [
-      "SRC-0038",
-      "SRC-0036"
+      "SRC-0040",
+      "SRC-0038"
     ]
   },
   {
@@ -440,9 +442,26 @@
     "establishes": "THREE ACCOUNTS THAT CANNOT ALL BE RIGHT, WHICH IS WHY THIS IS DISPUTED RATHER THAN UNKNOWN. ONE: Delhi Police, publicly on 22 July, 'Claims of pellet guns being used against peaceful protesters by Delhi Police on Monday are completely false and misleading. Delhi Police neither possesses pellet guns nor were they used during the ongoing protest.' TWO: the force's own General Diary entry, as reported, records two rounds of plastic pellets and an anti-riot gun used under a DCP's orders (INC-DEL-004). THREE: the petitioners' case in the Supreme Court is that metallic pellets were fired and that fragments were found in injured people. The denial and the diary entry are not reconcilable on any reading the archive can make: either the entry says something other than what two outlets report it says, or the public denial was wrong. The archive does not choose between them and does not hold the entry. ON THE INJURED: BOOM carries a named account of a man treated at Lady Hardinge Medical College with fragments near the left eyebrow, in the neck and near the eye, operated on 21 July. HIS NAME IS DELIBERATELY NOT RECORDED HERE. He gave it to a news outlet, not to this archive; the record needs the injury, the hospital and the date, and does not need him. WHAT WOULD SETTLE IT: the ammunition log ordered preserved (OQ-042), the General Diary entry (OQ-040), and medico-legal records recording what was removed from anyone's body.",
     "doesNotEstablish": null,
     "sourceIds": [
-      "SRC-0039",
-      "SRC-0038",
-      "SRC-0034"
+      "SRC-0041",
+      "SRC-0040",
+      "SRC-0036"
+    ]
+  },
+  {
+    "id": "PROC-DEL-003",
+    "kind": "Evidence",
+    "title": "Delhi Police registered a First Information Report on 21 August 2026 at Parliament Street (Sansad Marg) police station, against unidentified persons, on the wri",
+    "state": "CORROBORATED",
+    "url": "https://www.whogavetheorder.in/evidence.html?id=PROC-DEL-003",
+    "type": "COURT_DOCUMENT",
+    "incidentId": "INC-0001",
+    "dateOfItem": null,
+    "establishes": "THIS IS THE FIRST CRIMINAL CASE IN THIS ARCHIVE ABOUT THE POLICE ACTION ITSELF. Everything else recorded here is a writ petition, a commission proceeding or an affidavit. An FIR is an investigation with a file, a case diary and a chargesheet or a closure report at the end of it, and every one of those is a document that can be asked for. It is also registered against unidentified persons, which means the question of who is being investigated is open. THE COMPLAINANT IS NAMED IN EVERY REPORT AND IS NOT NAMED HERE. He is a private individual and what the record needs is the complaint, the station, the dates and the injury, not him. The same choice was made at INC-DEL-005 for a different injured man, and it is made the same way each time rather than case by case. Anyone who needs his name to obtain the FIR will find it in the sources cited above. NOT ADOPTED, AND DELIBERATELY NOT IN THE CLAIM: the figure of more than 200 pellets attributed to an AIIMS medical report, which this archive has not seen and which reaches it through a political statement rather than through the document; and the allegation that the police initially refused to register the case on instructions. Both may be true. Neither is established here. WHAT WOULD SETTLE THE FIRST: the FIR itself and the medico-legal case record. See OQ-046.",
+    "doesNotEstablish": null,
+    "sourceIds": [
+      "SRC-0042",
+      "SRC-0043",
+      "SRC-0044"
     ]
   }
 ]

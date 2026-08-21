@@ -219,25 +219,37 @@ WGO.offices = [
    the thing itself rather than take the note's word for it. */
 WGO.updates = [
   {
-    date: '2026-08-19',
+    date: '2026-08-21',
+    title: 'An FIR has been registered about the police action itself',
+    body: 'A student who says he was hit by pellets at Jantar Mantar on 20 July complained in writing on 14 August. An FIR was registered at Parliament Street police station on 21 August, against unidentified persons. Everything else in this archive is a writ petition, a commission proceeding or an affidavit; this is the first criminal case about what the police did. It comes with a file, a case diary and either a chargesheet or a closure report at the end, and those are documents that can be asked for. We are not naming the complainant, and the record says why.',
+    recordId: 'PROC-DEL-003'
+  },
+  {
+    date: '2026-08-21',
+    title: 'The committee exists now, and our earlier record was overtaken',
+    body: 'This archive recorded on 19 August that a high-powered committee had been decided on but was not shown to have been constituted. It has been, by an order reported dated 18 August: five members, chaired by a former Supreme Court judge, with the deployment of pellet guns inside its mandate by name and a first interim report due at the earliest. The record has been corrected and says what it used to say. We hold reporting of the order, not the order.',
+    recordId: 'PROC-SC-006'
+  },
+  {
+    date: '2026-08-21',
     title: 'A police diary entry is reported to record whose orders the munitions were used under',
     body: 'Two outlets say they have read a Delhi Police General Diary entry of 22 July which records what was used at Jantar Mantar on 20 July — tear smoke, shells, an anti-riot gun and two rounds of plastic pellets — and records that it was used under the orders of a Deputy Commissioner of Police. That is the first time anything on this record connects the force used to an officer who ordered it. It is still not an order, and this archive does not hold the entry: it holds two reports of it. The count of orders found stays at zero, because that number counts orders we hold.',
     recordId: 'INC-DEL-004'
   },
   {
-    date: '2026-08-19',
+    date: '2026-08-21',
     title: 'The Supreme Court has asked for the pellet gun procedure, and for a log to be kept',
     body: 'In a petition brought by a former IPS officer and two injured protesters, the Court is reported to have directed Delhi Police to place its standard operating procedure on pellet-firing weapons on record, to have ordered the Rapid Action Force ammunition log for 20 July preserved, and to have said it will lay down a protocol. Counsel told the Court that from 1967 to now there is not a single standing order or regulation mentioning pellet guns. That is a submission, not a finding, and the archive records it as one. Both documents the Court asked for are now open questions here.',
     recordId: 'PROC-SC-008'
   },
   {
-    date: '2026-08-19',
+    date: '2026-08-21',
     title: 'A petition on the facial recognition is before the Supreme Court',
     body: 'A public interest petition asks the Court to hold the deployment of facial recognition against a peaceful assembly unconstitutional, and to order disclosure of the systems, procedures and vendor agreements used at Jantar Mantar. That disclosure is the same document this archive has been unable to obtain by any other route. The Court is reported to have agreed on 13 August to hear it. What the petition alleges was deployed is a party\'s case, not a finding, and the record says so.',
     recordId: 'PROC-SC-007'
   },
   {
-    date: '2026-08-19',
+    date: '2026-08-21',
     title: 'Two officers who policed Jantar Mantar have been moved',
     body: 'A Delhi Government order of 18 August transferred 43 officers, two of them holding posts that covered the policing of the protest. Reporting says the order does not call either move disciplinary or mention the protest. The useful part for this archive is the smaller one: it names two officers and the posts they held on 20 July, which nothing else on the record did. Neither has been added to the chain of command, and no finding against either is recorded, because none exists.',
     recordId: 'OVR-DEL-001'

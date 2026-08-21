@@ -2469,7 +2469,7 @@
     "id": "PROC-SC-006",
     "jurisdiction": "delhi",
     "category": "legal_proceeding",
-    "claim": "The Supreme Court is reported to have decided to constitute a high-powered committee to examine allegations of police excess, sexual violence and other incidents arising from the CJP protests, and to have indicated that it may exercise its power under Article 142 to quash FIRs against student participants, while keeping open cases involving grave offences.",
+    "claim": "The Supreme Court constituted a five-member High Powered Enquiry Committee by order reported dated 18 August 2026 to inquire into the police action against the CJP protesters. It is chaired by former Supreme Court judge Justice R. Subhash Reddy, with former Chief Justice of the Punjab and Haryana High Court Justice Ravi Shankar Jha, former Delhi High Court judge Justice Shalinder Kaur, former CBI Director Rishi Kumar Shukla and former Director General of Police, Meghalaya, Dr L. R. Bishnoi. Its terms of reference are reported to cover excessive and disproportionate use of force by police authorities, the deployment of pellet guns, electric batons, lathi charges and tear gas, and targeted violence, harassment, molestation and secondary victimisation of female protesters, as well as the respondents' allegations of violence by protesters. The Court is reported to have asked for a first interim report at the earliest and to have listed the matter for 10 September 2026. The Court is separately reported to have indicated it may exercise its power under Article 142 to quash FIRs against student participants while keeping open cases involving grave offences.",
     "confidence": "CORROBORATED",
     "sources": [
       {
@@ -2483,9 +2483,21 @@
         "source_type": "secondary",
         "publication": "Supreme Court Observer",
         "retrieved_on": "2026-08-19"
+      },
+      {
+        "url": "https://www.livelaw.in/top-stories/supreme-court-forms-5-member-committee-led-by-ex-sc-judge-subhash-reddy-to-probe-student-protest-violence-546666",
+        "source_type": "secondary",
+        "publication": "LiveLaw",
+        "retrieved_on": "2026-08-21"
+      },
+      {
+        "url": "https://www.barandbench.com/news/supreme-court-forms-panel-headed-by-former-judge-to-probe-police-excesses-against-cjp-protestors",
+        "source_type": "secondary",
+        "publication": "Bar & Bench",
+        "retrieved_on": "2026-08-21"
       }
     ],
-    "notes": "Two separate things, both reported from the same proceedings and neither held as an order: a committee that has not been shown to be constituted, and an indication about FIRs that is not a direction. The petitioners are reported to have opposed sending the facial recognition question to such a committee, and the Chief Justice to have said constitutional issues are for the Court alone — see PROC-SC-003. ARCHIVE SIGNIFICANCE: a committee with terms of reference would generate documents, and its constitution order would be the first primary document in this archive about the Delhi incident. The order is not held: see OQ-033.",
+    "notes": "UPDATED 21 AUGUST 2026, AND THE EARLIER VERSION OF THIS RECORD IS NOW WRONG. It said a committee had been decided on but not shown to be constituted, and that whether it existed was not established. It has since been constituted, by an order reported dated 18 August 2026, and five members are named. The record has been corrected rather than replaced and this note says what it used to say. WHY THIS MATTERS MORE THAN ANY OTHER PROCEEDING HERE: a committee with terms of reference and a reporting obligation generates documents. Its constitution order, its terms of reference and its interim reports are all records that can be asked for, and the deployment of pellet guns is inside its mandate by name. WHAT IS NOT HELD: the order itself. Everything above is reporting of it. No terms of reference document is in this archive, and the wording quoted by outlets is theirs, not ours. See OQ-045. A DISCREPANCY WORTH RECORDING: this matter is cited as W.P.(C) 280/2026 at PROC-SC-001 and as W.P.(Crl) 280/2026 in the reporting of this order. One of them is wrong and the archive does not know which. The cause list or the order itself would settle it, as a cause list already settled the Delhi numbering at PROC-DEL-002.",
     "volatility": "high"
   },
   {
@@ -2500,25 +2512,25 @@
         "url": "https://www.barandbench.com/news/litigation/cpim-mp-moves-supreme-court-against-use-of-facial-recognition-tech-by-police-at-jantar-mantar-protest-site",
         "source_type": "secondary",
         "publication": "Bar & Bench",
-        "retrieved_on": "2026-08-19"
+        "retrieved_on": "2026-08-21"
       },
       {
         "url": "https://lawbeat.in/top-stories/pil-in-supreme-court-challenges-delhi-polices-facial-recognition-surveillance-at-jantar-mantar-protest-1616723",
         "source_type": "secondary",
         "publication": "LawBeat",
-        "retrieved_on": "2026-08-19"
+        "retrieved_on": "2026-08-21"
       },
       {
         "url": "https://lawbeat.in/top-stories/supreme-court-agrees-to-hear-pil-challenging-delhi-polices-facial-recognition-surveillance-at-jantar-mantar-protest-1621910",
         "source_type": "secondary",
         "publication": "LawBeat",
-        "retrieved_on": "2026-08-19"
+        "retrieved_on": "2026-08-21"
       },
       {
         "url": "https://aninews.in/news/national/general-news/pil-in-sc-challenges-delhi-polices-use-of-facial-recognition-ai-surveillance-at-jantar-mantar-protest20260728140154/",
         "source_type": "secondary",
         "publication": "ANI",
-        "retrieved_on": "2026-08-19"
+        "retrieved_on": "2026-08-21"
       }
     ],
     "notes": "AS ALLEGED IN THE PETITION, and adopted by this archive as nothing more than an allegation: that Delhi Police deployed an 'Ikshana' facial recognition vehicle, AjnaLens smart glasses, CCTV cameras and drones, a Mobile Command and Control Vehicle, and fingerprint collection through the NCRB's 'Abhigyan' application matched against NAFIS; that nobody present was told by notice or signage that biometric data was being collected; and that none of it had statutory backing. The reliefs sought include disclosure of the surveillance systems, standard operating procedures and vendor agreements used at Jantar Mantar. WHY THIS SITS IN THIS ARCHIVE: that disclosure is the same document the archive has been unable to obtain by any other route. Delhi Police has admitted the deployment (PROC-SC-002); what it covered is disputed (PROC-SC-003); who authorised it is UNKNOWN. WHAT IT DOES NOT ESTABLISH: anything about what was actually deployed. A petition is a party's case, and the named systems are that party's account. No order on this petition is held.",
@@ -2536,14 +2548,14 @@
         "url": "https://www.tribuneindia.com/news/delhi/cop-linked-to-pellet-gun-use-at-jantar-mantar-protest-shunted/",
         "source_type": "secondary",
         "publication": "The Tribune",
-        "retrieved_on": "2026-08-19",
+        "retrieved_on": "2026-08-21",
         "originates_from": "Delhi Government (Home Department) transfer order dated 18 August 2026"
       },
       {
         "url": "https://www.tribuneindia.com/news/delhi/in-major-delhi-police-rejig-43-ips-danips-officers-transferred/",
         "source_type": "secondary",
         "publication": "The Tribune",
-        "retrieved_on": "2026-08-19",
+        "retrieved_on": "2026-08-21",
         "originates_from": "Delhi Government (Home Department) transfer order dated 18 August 2026"
       }
     ],
@@ -2562,7 +2574,7 @@
         "url": "https://www.outlookindia.com/national/cjp-protest-delhi-police-register-10-firs-after-stone-pelting-injures-officers-at-cp-jantar-mantar",
         "source_type": "secondary",
         "publication": "Outlook India",
-        "retrieved_on": "2026-08-19"
+        "retrieved_on": "2026-08-21"
       }
     ],
     "notes": "ONE SOURCE, AND ITS SOURCE IS THE POLICE. Outlook attributes the account to police sources; no FIR number, police station or section is given, and no copy of any FIR is held. THIS IS THE STATE'S SIDE OF 22 JULY AND IT BELONGS HERE. An archive that recorded only force used by police, and never violence recorded against them, would be a case rather than a record. It is filed at the same standard as everything else and at the same confidence the evidence supports. WHAT IT DOES NOT ESTABLISH: who was named in any FIR, what was alleged, whether any of them concerns the police action itself, or anything about the 20 July events. The organisers' account, reported in the same piece, attributes the violence to others; that is an allegation and is not adopted. FIRs are required to be published online (CRT-006), and the Delhi Police publication route is UNKNOWN (CRT-005), so these ten are checkable in principle and not in practice: see OQ-039.",
@@ -2580,25 +2592,25 @@
         "url": "https://www.livelaw.in/top-stories/will-lay-down-protocol-on-use-of-pellet-guns-says-supreme-court-544105",
         "source_type": "secondary",
         "publication": "LiveLaw",
-        "retrieved_on": "2026-08-19"
+        "retrieved_on": "2026-08-21"
       },
       {
         "url": "https://thefederal.com/category/news/supreme-court-pellet-guns-delhi-police-sop-raf-ammunition-log-251892",
         "source_type": "secondary",
         "publication": "The Federal",
-        "retrieved_on": "2026-08-19"
+        "retrieved_on": "2026-08-21"
       },
       {
         "url": "https://www.theweek.in/news/india/2026/07/30/supreme-court-pellet-gun-use-protest-delhi-police-sop-pellet-guns-neet-ug-strike.html",
         "source_type": "secondary",
         "publication": "The Week",
-        "retrieved_on": "2026-08-19"
+        "retrieved_on": "2026-08-21"
       },
       {
         "url": "https://www.dnaindia.com/india/report-supreme-court-says-pellet-guns-can-be-used-only-in-exceptional-situations-directs-govt-to-preserve-raf-ammunition-log-book-3217450",
         "source_type": "secondary",
         "publication": "DNA",
-        "retrieved_on": "2026-08-19"
+        "retrieved_on": "2026-08-21"
       }
     ],
     "notes": "TWO HEARINGS, AND THE REPORTING SPLITS BETWEEN THEM. The Federal and The Week carry the SOP direction and the preservation of the ammunition log from 30 July; LiveLaw carries the protocol observation and the direction to the Union from 3 August. Both dates are recorded rather than merged, because merging them would invent a single hearing that did not happen. THIS IS THE MOST USEFUL PROCEEDING IN THIS ARCHIVE. It is the only one that has been reported to order the production of the two documents that would answer the authorisation question directly: a standing operating procedure that either authorises pellet-firing weapons or does not, and a contemporaneous ammunition log for the unit deployed. Justice Bagchi is reported to have observed that 'police rules allow the use in exceptional circumstances unless you challenge the rules themselves' and that 'one of the steps of the graded approach is use of pellet guns'; that is an observation about what the rules are said to permit, not a finding about what happened on 20 July. WHAT IS NOT HELD: no order of this Court, and neither of the two documents it is reported to have called for. See OQ-041 and OQ-042.",
@@ -2616,7 +2628,7 @@
         "url": "https://www.livelaw.in/top-stories/will-lay-down-protocol-on-use-of-pellet-guns-says-supreme-court-544105",
         "source_type": "secondary",
         "publication": "LiveLaw",
-        "retrieved_on": "2026-08-19"
+        "retrieved_on": "2026-08-21"
       }
     ],
     "notes": "READ THIS ONE CAREFULLY, BECAUSE IT IS THE CLAIM THIS ARCHIVE IS MOST TEMPTED TO OVERSTATE. A submission by counsel is a party's assertion made in court. It is not a finding, it is not evidence that no such order exists, and it does not establish an absence. What it establishes is that the absence was asserted, on the record, by counsel who had looked. THE ARCHIVE'S OWN POSITION IS UNCHANGED: no order authorising force has been located, and 'not located' is not 'does not exist'. The count of orders found on the front page stays at zero for the same reason it was zero yesterday. WHAT WOULD SETTLE IT: the affidavit the Union was directed to file disclosing any standing orders. That affidavit, if filed, either produces an order or records its absence on oath, and either outcome is a document this archive would hold. One publication only, so REPORTED. The 2011 SOP and the 2016 report are separately worth obtaining: see OQ-044.",
@@ -2634,14 +2646,14 @@
         "url": "https://www.altnews.in/delhi-police-records-confirm-what-was-already-evident-pellet-guns-were-used-on-protestors-on-july-20/",
         "source_type": "secondary",
         "publication": "Alt News",
-        "retrieved_on": "2026-08-19",
+        "retrieved_on": "2026-08-21",
         "originates_from": "Delhi Police General Diary entry 0008A, Parliament Street police station, recorded 22 July 2026"
       },
       {
         "url": "https://www.theweek.in/news/india/2026/07/30/supreme-court-pellet-gun-use-protest-delhi-police-sop-pellet-guns-neet-ug-strike.html",
         "source_type": "secondary",
         "publication": "The Week",
-        "retrieved_on": "2026-08-19",
+        "retrieved_on": "2026-08-21",
         "originates_from": "Delhi Police General Diary entry 0008A, Parliament Street police station, recorded 22 July 2026"
       }
     ],
@@ -2660,22 +2672,52 @@
         "url": "https://www.boomlive.in/news/cjp-protest-delhi-police-deny-pellet-gun-use-victim-account-31912",
         "source_type": "secondary",
         "publication": "BOOM",
-        "retrieved_on": "2026-08-19"
+        "retrieved_on": "2026-08-21"
       },
       {
         "url": "https://www.altnews.in/delhi-police-records-confirm-what-was-already-evident-pellet-guns-were-used-on-protestors-on-july-20/",
         "source_type": "secondary",
         "publication": "Alt News",
-        "retrieved_on": "2026-08-19"
+        "retrieved_on": "2026-08-21"
       },
       {
         "url": "https://www.livelaw.in/top-stories/will-lay-down-protocol-on-use-of-pellet-guns-says-supreme-court-544105",
         "source_type": "secondary",
         "publication": "LiveLaw",
-        "retrieved_on": "2026-08-19"
+        "retrieved_on": "2026-08-21"
       }
     ],
     "notes": "THREE ACCOUNTS THAT CANNOT ALL BE RIGHT, WHICH IS WHY THIS IS DISPUTED RATHER THAN UNKNOWN. ONE: Delhi Police, publicly on 22 July, 'Claims of pellet guns being used against peaceful protesters by Delhi Police on Monday are completely false and misleading. Delhi Police neither possesses pellet guns nor were they used during the ongoing protest.' TWO: the force's own General Diary entry, as reported, records two rounds of plastic pellets and an anti-riot gun used under a DCP's orders (INC-DEL-004). THREE: the petitioners' case in the Supreme Court is that metallic pellets were fired and that fragments were found in injured people. The denial and the diary entry are not reconcilable on any reading the archive can make: either the entry says something other than what two outlets report it says, or the public denial was wrong. The archive does not choose between them and does not hold the entry. ON THE INJURED: BOOM carries a named account of a man treated at Lady Hardinge Medical College with fragments near the left eyebrow, in the neck and near the eye, operated on 21 July. HIS NAME IS DELIBERATELY NOT RECORDED HERE. He gave it to a news outlet, not to this archive; the record needs the injury, the hospital and the date, and does not need him. WHAT WOULD SETTLE IT: the ammunition log ordered preserved (OQ-042), the General Diary entry (OQ-040), and medico-legal records recording what was removed from anyone's body.",
+    "volatility": "high"
+  },
+  {
+    "id": "PROC-DEL-003",
+    "jurisdiction": "delhi",
+    "incident": "INC-0001",
+    "category": "legal_proceeding",
+    "claim": "Delhi Police registered a First Information Report on 21 August 2026 at Parliament Street (Sansad Marg) police station, against unidentified persons, on the written complaint of a student who says he sustained pellet injuries during the police action at Jantar Mantar on 20 July 2026. The complaint is reported to have been submitted on 14 August 2026 and the FIR to have followed a public protest outside the police station a week later.",
+    "confidence": "CORROBORATED",
+    "sources": [
+      {
+        "url": "https://www.indiatvnews.com/news/india/delhi-police-to-register-fir-on-pellet-gun-complaint-as-rahul-gandhi-stages-dharna-outside-police-station-2026-08-21-1052071",
+        "source_type": "secondary",
+        "publication": "India TV News",
+        "retrieved_on": "2026-08-21"
+      },
+      {
+        "url": "https://www.outlookindia.com/national/delhi-police-to-register-fir-over-alleged-pellet-gun-injury-after-rahul-gandhis-protest",
+        "source_type": "secondary",
+        "publication": "Outlook India",
+        "retrieved_on": "2026-08-21"
+      },
+      {
+        "url": "https://www.india.com/news/india/rahul-gandhi-sits-on-dharna-outside-senior-cops-office-parliament-street-police-station-with-victim-sahil-lochav-demands-fir-over-pellet-gun-use-jantar-mantar-8506660/",
+        "source_type": "secondary",
+        "publication": "India.com",
+        "retrieved_on": "2026-08-21"
+      }
+    ],
+    "notes": "THIS IS THE FIRST CRIMINAL CASE IN THIS ARCHIVE ABOUT THE POLICE ACTION ITSELF. Everything else recorded here is a writ petition, a commission proceeding or an affidavit. An FIR is an investigation with a file, a case diary and a chargesheet or a closure report at the end of it, and every one of those is a document that can be asked for. It is also registered against unidentified persons, which means the question of who is being investigated is open. THE COMPLAINANT IS NAMED IN EVERY REPORT AND IS NOT NAMED HERE. He is a private individual and what the record needs is the complaint, the station, the dates and the injury, not him. The same choice was made at INC-DEL-005 for a different injured man, and it is made the same way each time rather than case by case. Anyone who needs his name to obtain the FIR will find it in the sources cited above. NOT ADOPTED, AND DELIBERATELY NOT IN THE CLAIM: the figure of more than 200 pellets attributed to an AIIMS medical report, which this archive has not seen and which reaches it through a political statement rather than through the document; and the allegation that the police initially refused to register the case on instructions. Both may be true. Neither is established here. WHAT WOULD SETTLE THE FIRST: the FIR itself and the medico-legal case record. See OQ-046.",
     "volatility": "high"
   }
 ]

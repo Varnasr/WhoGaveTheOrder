@@ -525,5 +525,31 @@
     "blocks": [
       "PROC-SC-009"
     ]
+  },
+  {
+    "id": "OQ-045",
+    "priority": "high",
+    "category": "court_records",
+    "jurisdiction": "delhi",
+    "question": "The Supreme Court's order of 18 August 2026 constituting the High Powered Enquiry Committee, and the committee's terms of reference as issued rather than as reported.",
+    "why_it_matters": "The committee's mandate is reported to include the deployment of pellet guns by name. What it may and may not examine, what powers it has and what it must report on are all fixed by the order, and this archive holds only journalists' accounts of it. The order is also the document that would settle whether this matter is a civil or a criminal writ, which the reporting cites both ways.",
+    "lawful_route": "Supreme Court orders are published on the Court's own site and are free. Retrieve it by case number and date of order and record the URL actually fetched. Do not reconstruct a path. If the number is wrong, search the cause list for 10 September 2026, the reported next date.",
+    "blocks": [
+      "PROC-SC-006",
+      "PROC-SC-001"
+    ]
+  },
+  {
+    "id": "OQ-046",
+    "priority": "high",
+    "category": "court_records",
+    "jurisdiction": "delhi",
+    "question": "The First Information Report registered at Parliament Street police station on 21 August 2026 on the complaint of a student injured at Jantar Mantar: its number, the sections invoked, and who it names.",
+    "why_it_matters": "It is the first criminal case in this archive about the police action rather than about the protest. The sections invoked will show whether it is being investigated as an offence by identified persons or as an incident by persons unknown, and an FIR against unidentified persons can stay that way indefinitely unless somebody is watching.",
+    "lawful_route": "FIRs are required to be published online within a fixed period (CRT-006), and the Delhi Police publication route is recorded as UNKNOWN (CRT-005), so establishing that route is the first step and is useful well beyond this FIR. Failing that, RTI to the Public Information Officer, Delhi Police, for FIRs registered at Parliament Street police station on 21 August 2026. Ask by station and date, not by the complainant's name.",
+    "blocks": [
+      "PROC-DEL-003",
+      "INC-DEL-005"
+    ]
   }
 ]

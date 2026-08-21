@@ -14,7 +14,6 @@
     "url may contain {YYYY}, {MM}, {DD}, {DD.MM.YYYY} and {DDMMYYYY}, filled with the sweep's date.",
     "A 404 on a dated URL is not an error: it means nothing was published there that day."
   ],
-
   "terms": [
     "Jantar Mantar",
     "Cockroach Janta Party",
@@ -33,9 +32,20 @@
     "facial recognition",
     "Crime Kundli",
     "lathi charge",
-    "prohibitory order"
+    "prohibitory order",
+    "pellet gun",
+    "pellet guns",
+    "metallic pellet",
+    "anti-riot gun",
+    "W.P.(C) 917/2026",
+    "917/2026",
+    "Yashovardhan Azad",
+    "ammunition log",
+    "standing order",
+    "Rapid Action Force",
+    "Siwan",
+    "AK-47"
   ],
-
   "targets": [
     {
       "id": "delhi-hc-causelist",
