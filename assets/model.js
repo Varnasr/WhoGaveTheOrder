@@ -337,6 +337,48 @@
      Published records only. The homepage numbers must never be inflated by
      layout samples, so they are computed from the published pools. */
 
+  /* --- Distance to the order --------------------------------------------- *
+     The ladder for one incident, rung by rung, with the record behind each
+     reached rung resolved. Derived rather than stored, so a rung cannot claim
+     a record that has been withdrawn or that never existed.
+
+     Returns the rungs in order plus reachedCount and total, which are counts
+     of rungs and not a measure of how much work is left. Nobody knows how much
+     work is left; that is why there is no percentage here. */
+  model.orderLadder = function (incident) {
+    var trail = (incident && incident.orderTrail) || { reached: null, rungs: {} };
+    var ladder = WGO.ORDER_LADDER || [];
+    var reachedIndex = -1;
+    ladder.forEach(function (rung, i) {
+      if (rung.key === trail.reached) { reachedIndex = i; }
+    });
+
+    var rungs = ladder.map(function (rung, i) {
+      var claim = (trail.rungs || {})[rung.key] || null;
+      var evidence = claim && claim.evidenceId ? model.index.evidence[claim.evidenceId] : null;
+      return {
+        key: rung.key,
+        label: rung.label,
+        definition: rung.definition,
+        /* Reached only if it is at or below the declared rung AND a published
+           record backs it. A rung with no record is not reached, whatever the
+           data says, because that is the site's rule everywhere else. */
+        reached: i <= reachedIndex && !!evidence,
+        claimed: i <= reachedIndex,
+        evidence: evidence,
+        note: claim ? claim.note : null
+      };
+    });
+
+    return {
+      rungs: rungs,
+      total: ladder.length,
+      reachedCount: rungs.filter(function (r) { return r.reached; }).length,
+      reachedKey: reachedIndex === -1 ? null : ladder[reachedIndex].key,
+      next: trail.next ? (model.index.question ? model.index.question[trail.next] : null) || trail.next : null
+    };
+  };
+
   model.counts = function () {
     var questions = model.questions;
     var answered = questions.filter(function (q) { return q.state === 'ANSWERED'; });
@@ -537,6 +579,44 @@
     function problem(severity, rec, field, ref, message) {
       problems.push({ severity: severity, record: rec, field: field, ref: ref, message: message });
     }
+
+    /* The order ladder is a claim of progress, so it is checked like a claim.
+       A rung that names no published record is not reached, a rung naming a
+       record that does not exist is a broken reference, and a ladder with a
+       hole in it is a mistake rather than a shortcut. */
+    model.incidents.forEach(function (inc) {
+      var trail = inc.orderTrail;
+      if (!trail) { return; }
+      var ladder = WGO.ORDER_LADDER || [];
+      var keys = ladder.map(function (r) { return r.key; });
+
+      if (trail.reached && keys.indexOf(trail.reached) === -1) {
+        problem('error', inc.id, 'orderTrail.reached', trail.reached,
+          'Not a rung on WGO.ORDER_LADDER.');
+      }
+      Object.keys(trail.rungs || {}).forEach(function (key) {
+        if (keys.indexOf(key) === -1) {
+          problem('error', inc.id, 'orderTrail.rungs', key, 'Not a rung on WGO.ORDER_LADDER.');
+          return;
+        }
+        var id = trail.rungs[key].evidenceId;
+        if (!id || !model.index.evidence[id]) {
+          problem('error', inc.id, 'orderTrail.rungs.' + key, id || '(none)',
+            'A rung must name a published evidence record. Progress towards the order is sourced like everything else.');
+        }
+      });
+      var reachedIndex = keys.indexOf(trail.reached);
+      for (var i = 0; i <= reachedIndex; i++) {
+        if (!(trail.rungs || {})[keys[i]]) {
+          problem('error', inc.id, 'orderTrail.rungs', keys[i],
+            'Rung claimed as passed but nothing records it. The ladder is cumulative and cannot have a hole in it.');
+        }
+      }
+      if (trail.next && !model.index.question[trail.next]) {
+        problem('warning', inc.id, 'orderTrail.next', trail.next,
+          'The question that would move this on does not exist.');
+      }
+    });
 
     function checkRefs(records, field, pool, label) {
       (records || []).forEach(function (rec) {

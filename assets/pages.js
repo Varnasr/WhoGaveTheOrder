@@ -60,6 +60,14 @@
           held.map(function (i) { return ui.esc(i.state); }).join(', ') + '.</p>'
         : ''));
 
+    /* The ladder, for the incident that has got furthest. Chosen by counting
+       reached rungs rather than named here, so it cannot go stale when another
+       incident overtakes it. */
+    var furthest = model.incidents.slice().sort(function (a, b) {
+      return model.orderLadder(b).reachedCount - model.orderLadder(a).reachedCount;
+    })[0];
+    if (furthest) { ui.mount('[data-region="order-ladder"]', ui.orderLadder(furthest)); }
+
     /* The notice board, newest first. Three on the front page; the rest are on
        the change log, which is the full record. */
     ui.mount('[data-region="updates"]', ui.updateList(3));
@@ -411,6 +419,11 @@
             'Order not yet located',
             'No order authorising the use of force at this location has been located. We have not described one, because we have not seen one. If you know where it sits, tell us.',
             '<a class="btn btn--small" href="submit.html">Help find the order</a>'));
+
+    /* How far this incident has got towards the order. Rendered under the
+       orders section rather than as its own, because it is the same question:
+       the section above says whether we hold one, this says how close we are. */
+    ui.mount('[data-region="order-ladder"]', ui.orderLadder(incident));
 
     /* 05 — WHAT REMAINS UNKNOWN */
     var questions = model.questionsFor(incident.id);

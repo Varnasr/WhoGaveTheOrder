@@ -405,6 +405,45 @@ a.card:hover { border-color: var(--rule-strong); }
 .gap-block p + p { margin-top: 0.7rem; }
 .gap-block a { color: inherit; }
 
+/* --- Distance to the order ------------------------------------------------
+   A ladder, not a progress bar. Unreached rungs stay legible: they are the
+   work still to do, and fading them out would hide the point of the graphic. */
+.ladder-block { }
+.ladder__count { font-size: 1.25rem; margin: 0.35rem 0 0.5rem; }
+.ladder__rule { font-size: 0.8125rem; color: var(--ink-2); margin-bottom: 1.1rem; }
+.ladder { list-style: none; margin: 0; padding: 0; position: relative; }
+.ladder__rung {
+  position: relative; padding: 0 0 1.1rem 2.4rem; display: block;
+}
+/* The spine, drawn behind the markers and stopped at the last rung. */
+.ladder__rung::before {
+  content: ''; position: absolute; left: 0.72rem; top: 1.5rem; bottom: -0.15rem;
+  width: 2px; background: var(--rule-strong);
+}
+.ladder__rung:last-child { padding-bottom: 0; }
+.ladder__rung:last-child::before { display: none; }
+.ladder__mark {
+  position: absolute; left: 0; top: 0.05rem;
+  width: 1.5rem; height: 1.5rem; border-radius: 50%;
+  display: inline-flex; align-items: center; justify-content: center;
+  font-size: 0.75rem; font-weight: 700; font-family: var(--sans);
+  background: var(--paper-2); color: var(--ink-2);
+  border: 2px solid var(--rule-strong);
+}
+.ladder__rung--reached .ladder__mark {
+  background: var(--brand-blue-ink); color: #fff; border-color: var(--brand-blue-ink);
+}
+.ladder__rung--reached::before { background: var(--brand-blue-ink); }
+.ladder__body h4 { font-size: 0.9375rem; margin: 0 0 0.2rem; }
+.ladder__rung:not(.ladder__rung--reached) .ladder__body h4 { color: var(--ink-2); }
+.ladder__def { font-size: 0.8125rem; color: var(--ink-2); margin: 0; }
+.ladder__note {
+  font-size: 0.8125rem; margin: 0.4rem 0 0; padding-left: 0.7rem;
+  border-left: 3px solid var(--brand-yellow);
+}
+.ladder__cite { font-size: 0.8125rem; margin: 0.35rem 0 0; font-family: var(--mono); }
+.ladder__next { font-size: 0.8125rem; margin-top: 1rem; color: var(--ink-2); }
+
 /* Empty-state — used everywhere the record is genuinely bare */
 .empty {
   border: 1px dashed var(--rule-strong); border-radius: var(--radius);

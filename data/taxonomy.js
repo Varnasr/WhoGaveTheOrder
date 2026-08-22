@@ -81,6 +81,52 @@ WGO.EVIDENCE_STATES = {
   }
 };
 
+/* --- Distance to the order ------------------------------------------------ *
+   How far the archive has got towards holding the document that would answer
+   the question the site is named after, for one incident.
+
+   THIS IS A LADDER AND NOT A PERCENTAGE, AND THE DIFFERENCE IS THE POINT.
+   A percentage needs a denominator: eighty per cent of the way to what, out of
+   how much work nobody has scoped? Nobody knows, so the number would be
+   invented, and an invented number on this site is the one thing that would
+   discredit every sourced one next to it. It would also be the sentence that
+   gets quoted — "archive says it is 80% of the way to proving who ordered it" —
+   and no document would exist behind it.
+
+   Each rung is instead a fact with a record behind it. A rung is reached only
+   when a published evidence record establishes it, and the record id is stored
+   beside the rung so the claim of progress is sourced exactly like every other
+   claim here. Rungs cannot be claimed on a feeling that things are going well.
+
+   The rungs are cumulative: reaching rung 3 means rungs 1 and 2 were reached. */
+WGO.ORDER_LADDER = [
+  {
+    key: 'ALLEGED',
+    label: 'An order is said to have been given',
+    definition: 'Somebody asserts that the force used was ordered by someone. An assertion, from any source, that an authorisation existed.'
+  },
+  {
+    key: 'REFERRED',
+    label: 'A document refers to the order',
+    definition: 'A record made by somebody other than us refers to the order having been given — a diary entry, a log, an affidavit. The reference is reported to us; we have not read the record ourselves.'
+  },
+  {
+    key: 'REFERRING_DOC_HELD',
+    label: 'We hold the document that refers to it',
+    definition: 'The referring record is in our possession and we have read it against its source, rather than reading a report of it.'
+  },
+  {
+    key: 'IDENTIFIED',
+    label: 'The order is identified',
+    definition: 'The office that gave it, and its date, number or form, are established. Enough to ask for it by name.'
+  },
+  {
+    key: 'PRODUCED',
+    label: 'The order itself is in our hands',
+    definition: 'The document is held, checked against its source, and published. This is the only rung that answers the question on the front of this site.'
+  }
+];
+
 /* --- Question states ------------------------------------------------------ *
    Section 7. A question is a first-class record, not a rhetorical flourish. */
 WGO.QUESTION_STATES = {

@@ -328,6 +328,24 @@ WGO.incidents = [
     detentions:     { state: 'UNKNOWN', note: null },
     firs:           { state: 'UNKNOWN', note: null },
     officeIds: ['OFC-0001', 'OFC-0004', 'OFC-0006', 'OFC-0007', 'OFC-0008'],
+    /* How far this archive has got towards the order itself. Rungs are defined
+       in WGO.ORDER_LADDER and each one must name the record that establishes
+       it: progress here is sourced exactly like every other claim on the site.
+       Two rungs cite the same record because one document does both jobs. */
+    orderTrail: {
+      reached: 'REFERRED',
+      rungs: {
+        ALLEGED: {
+          evidenceId: 'INC-DEL-004',
+          note: 'A police record is reported to state that the munitions were used under a Deputy Commissioner of Police\'s orders. That is the first assertion anywhere on this record that an order existed at all.'
+        },
+        REFERRED: {
+          evidenceId: 'INC-DEL-004',
+          note: 'The same General Diary entry is the referring document. We have not read it: two newspapers say they have.'
+        }
+      },
+      next: 'OQ-040'
+    },
     openedOn: '2026-08-15'
   },
   {
@@ -349,6 +367,10 @@ WGO.incidents = [
     detentions:     { state: 'UNKNOWN', note: null },
     firs:           { state: 'UNKNOWN', note: null },
     officeIds: ['OFC-0002', 'OFC-0003', 'OFC-0005', 'OFC-0006', 'OFC-0007', 'OFC-0008'],
+    /* No rung reached. Nothing on this record yet asserts that anyone ordered
+       the force used in Bihar, which is a different and worse position than
+       Delhi rather than the same one. */
+    orderTrail: { reached: null, rungs: {}, next: 'OQ-035' },
     openedOn: '2026-08-15'
   },
   {
@@ -370,6 +392,8 @@ WGO.incidents = [
     detentions:     { state: 'UNKNOWN', note: null },
     firs:           { state: 'UNKNOWN', note: null },
     officeIds: ['OFC-0002', 'OFC-0003', 'OFC-0004', 'OFC-0005', 'OFC-0006', 'OFC-0007', 'OFC-0008'],
+    /* No rung reached. */
+    orderTrail: { reached: null, rungs: {}, next: null },
     openedOn: '2026-08-15'
   },
   /* Opened 19 August 2026, on the strength of the State of Bihar's own affidavit
@@ -401,6 +425,8 @@ WGO.incidents = [
     detentions:     { state: 'UNKNOWN', note: null },
     firs:           { state: 'UNKNOWN', note: null },
     officeIds: ['OFC-0002', 'OFC-0003', 'OFC-0004', 'OFC-0005', 'OFC-0006', 'OFC-0007', 'OFC-0008'],
+    /* No rung reached. */
+    orderTrail: { reached: null, rungs: {}, next: 'OQ-035' },
     openedOn: '2026-08-19'
   }
 ];

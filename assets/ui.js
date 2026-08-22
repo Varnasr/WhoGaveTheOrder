@@ -507,6 +507,59 @@
      an update reports what this archive did or what a clock did, never what
      happened at an incident. */
 
+  /* --- Distance to the order ---------------------------------------------- *
+     The ladder, drawn. Reached rungs carry the record that reached them and
+     link to it; unreached rungs are drawn plainly rather than greyed into
+     invisibility, because the unreached ones are the work.
+
+     There is no bar and no percentage here on purpose. A bar invites the eye
+     to read "nearly there", and nobody knows how far there is. */
+
+  var LADDER_WORDS = ['None', 'One', 'Two', 'Three', 'Four', 'Five', 'Six'];
+
+  ui.orderLadder = function (incident, options) {
+    var opts = options || {};
+    var ladder = WGO.model.orderLadder(incident);
+    var done = ladder.reachedCount;
+
+    var rungs = ladder.rungs.map(function (rung, i) {
+      var cls = 'ladder__rung' + (rung.reached ? ' ladder__rung--reached' : '');
+      return '<li class="' + cls + '">' +
+        '<span class="ladder__mark" aria-hidden="true">' + (rung.reached ? '&#10003;' : (i + 1)) + '</span>' +
+        '<div class="ladder__body">' +
+          '<h4>' + ui.esc(rung.label) + '</h4>' +
+          '<p class="ladder__def">' + ui.esc(rung.definition) + '</p>' +
+          (rung.note ? '<p class="ladder__note">' + ui.esc(rung.note) + '</p>' : '') +
+          (rung.evidence
+            ? '<p class="ladder__cite"><a href="evidence.html?id=' + ui.esc(rung.evidence.id) + '">' +
+                ui.esc(rung.evidence.id) + ' &rarr;</a></p>'
+            : '') +
+        '</div>' +
+      '</li>';
+    }).join('');
+
+    var count = (LADDER_WORDS[done] || done) + ' of ' +
+      (LADDER_WORDS[ladder.total] || ladder.total).toLowerCase() +
+      (done === 1 ? ' step taken' : ' steps taken');
+
+    var next = ladder.next && ladder.next.id
+      ? '<p class="ladder__next">What would move it on: ' +
+          '<a href="investigation.html?id=' + ui.esc(incident.slug) + '#' + ui.esc(ladder.next.id) + '">' +
+          ui.esc(ladder.next.text) + '</a></p>'
+      : '';
+
+    return '<div class="ladder-block">' +
+      (opts.heading === false ? '' :
+        '<p class="kicker">Distance to the order</p>' +
+        '<h3 class="ladder__count">' + ui.esc(count) + '</h3>') +
+      '<p class="ladder__rule">Each step is reached only when a published record reaches it. ' +
+        'There is no percentage here: a percentage would need to know how much work is left, ' +
+        'and nobody does.</p>' +
+      '<ol class="ladder">' + rungs + '</ol>' +
+      next +
+    '</div>';
+  };
+
   ui.updateList = function (limit) {
     var updates = (WGO.updates || []).slice().sort(function (a, b) {
       return String(b.date).localeCompare(String(a.date));
