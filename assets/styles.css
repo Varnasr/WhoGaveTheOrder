@@ -402,6 +402,7 @@ a.card:hover { border-color: var(--rule-strong); }
 @media (prefers-color-scheme: dark) { .gap-block .kicker { color: rgba(16,16,18,0.6); } }
 .gap-block h3 { font-size: 1.25rem; margin: 0.35rem 0 0.5rem; }
 .gap-block p { font-size: 0.875rem; opacity: 0.85; }
+.gap-block p + p { margin-top: 0.7rem; }
 .gap-block a { color: inherit; }
 
 /* Empty-state — used everywhere the record is genuinely bare */

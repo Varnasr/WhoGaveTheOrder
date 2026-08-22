@@ -22,10 +22,16 @@
 
     /* Three numbers, at the top, in the order a stranger cares about them.
        The third one is the point of the project and it is zero. */
+    /* The fourth number is the answer to a fair objection: with an admission of
+       firearms, an admission of surveillance and a diary entry pointing at a
+       DCP, a lone zero reads as though nothing has been established. Offices
+       with authority is also a real number, and it is not zero. The two sit
+       side by side precisely because they must never be added together. */
     ui.mount('[data-region="hero-stats"]',
       '<div class="stat"><b>' + counts.evidence + '</b><span>documents on file</span></div>' +
       '<div class="stat"><b>' + counts.open + '</b><span>questions unanswered</span></div>' +
-      '<div class="stat stat--zero"><b>' + counts.orders + '</b><span>orders found</span></div>');
+      '<div class="stat"><b>' + counts.offices + '</b><span>offices with the authority</span></div>' +
+      '<div class="stat stat--zero"><b>' + counts.orders + '</b><span>shown to have used it</span></div>');
 
     /* What is established, read off the records rather than written by hand, so
        the front page cannot drift from the data. */
