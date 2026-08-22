@@ -220,6 +220,12 @@ WGO.offices = [
 WGO.updates = [
   {
     date: '2026-08-21',
+    title: 'Hospital records obtained under RTI put at least ten people in hospital with pellet injuries',
+    body: 'Saket Gokhale asked four Delhi hospitals how many people they treated for pellet, shot or projectile injuries on 20 July. Lady Hardinge Medical College answered nine, recorded as pellet or projectile injuries. Safdarjung answered one. AIIMS refused under section 8(1)(j), saying a number could identify a patient. Ram Manohar Lohia had not answered. This is the best-sourced thing on the pellet question and it is not our work, so it is credited to him. Hospital records are independent of both the police and the petitioners \u2014 but a clinical category is not a finding about a weapon, and what was fired is still recorded as disputed.',
+    recordId: 'INC-DEL-006'
+  },
+  {
+    date: '2026-08-21',
     title: 'An FIR has been registered about the police action itself',
     body: 'A student who says he was hit by pellets at Jantar Mantar on 20 July complained in writing on 14 August. An FIR was registered at Parliament Street police station on 21 August, against unidentified persons. Everything else in this archive is a writ petition, a commission proceeding or an affidavit; this is the first criminal case about what the police did. It comes with a file, a case diary and either a chargesheet or a closure report at the end, and those are documents that can be asked for. We are not naming the complainant, and the record says why.',
     recordId: 'PROC-DEL-003'

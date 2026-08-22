@@ -423,7 +423,7 @@
     "type": "OTHER_DOCUMENT",
     "incidentId": "INC-0001",
     "dateOfItem": null,
-    "establishes": "THIS IS THE CLOSEST THING IN THIS ARCHIVE TO AN AUTHORISATION, AND IT IS STILL NOT ONE. A General Diary entry is a police record of what an officer reported, made two days after the event by a duty officer writing down what a deputy commander told him. The words that matter are 'under the orders of' a Deputy Commissioner of Police: that is a rank, recorded contemporaneously, in the force's own book, attached to a specific list of munitions. It is the first time anything on this record connects the use of force at Jantar Mantar to an officer who ordered it. WHAT IT DOES NOT DO: name the officer, produce the order, or show what the order said. A report that an order was given is not the order. THE COUNT OF ORDERS FOUND STAYS AT ZERO. That number counts orders this archive holds, and this archive does not hold this one — it holds two news reports of a record it has not seen. Alt News says it accessed the entry and is withholding the officers' names; neither outlet reproduces or links the document. NOTE THE WORD 'PLASTIC'. The entry as reported says plastic pellets. The petitioners before the Supreme Court say what was recovered from bodies was metallic. Those are different claims about different ammunition and the archive keeps them apart: see INC-DEL-005. The two accounts of the entry differ slightly in wording — Alt News reports one anti-riot gun and two rounds of plastic pellets, The Week two rounds from anti-riot guns and two rounds of plastic pellet cartridges — which is what reading the same document twice looks like, and is a further reason to obtain it: see OQ-040.",
+    "establishes": "THIS IS THE CLOSEST THING IN THIS ARCHIVE TO AN AUTHORISATION, AND IT IS STILL NOT ONE. A General Diary entry is a police record of what an officer reported, made two days after the event by a duty officer writing down what a deputy commander told him. The words that matter are 'under the orders of' a Deputy Commissioner of Police: that is a rank, recorded contemporaneously, in the force's own book, attached to a specific list of munitions. It is the first time anything on this record connects the use of force at Jantar Mantar to an officer who ordered it. WHAT IT DOES NOT DO: name the officer, produce the order, or show what the order said. A report that an order was given is not the order. THE COUNT OF ORDERS FOUND STAYS AT ZERO. That number counts orders this archive holds, and this archive does not hold this one — it holds two news reports of a record it has not seen. Alt News says it accessed the entry and is withholding the officers' names; neither outlet reproduces or links the document. NOTE THE WORD 'PLASTIC'. The entry as reported says plastic pellets. The petitioners before the Supreme Court say what was recovered from bodies was metallic. Those are different claims about different ammunition and the archive keeps them apart: see INC-DEL-005. The two accounts of the entry differ slightly in wording — Alt News reports one anti-riot gun and two rounds of plastic pellets, The Week two rounds from anti-riot guns and two rounds of plastic pellet cartridges — which is what reading the same document twice looks like, and is a further reason to obtain it: see OQ-040. AN EARLIER REPORT EXISTS AND IS NOT CITED HERE: The Hindu is reported by Scroll.in to have carried the General Diary entry on 28 July 2026, three days before Alt News. The archive has not retrieved that report and does not cite what it has not read. It is noted because the first publication of a document matters, and because retrieving it is a small piece of work somebody should do.",
     "doesNotEstablish": null,
     "sourceIds": [
       "SRC-0040",
@@ -462,6 +462,24 @@
       "SRC-0042",
       "SRC-0043",
       "SRC-0044"
+    ]
+  },
+  {
+    "id": "INC-DEL-006",
+    "kind": "Evidence",
+    "title": "Replies to Right to Information applications filed by Saket Gokhale, a Trinamool Congress leader and former Rajya Sabha member, are reported to record that at l",
+    "state": "CORROBORATED",
+    "url": "https://www.whogavetheorder.in/evidence.html?id=INC-DEL-006",
+    "type": "OTHER_DOCUMENT",
+    "incidentId": "INC-0001",
+    "dateOfItem": null,
+    "establishes": "THIS IS THE BEST-SOURCED THING ON THE PELLET QUESTION, AND IT IS SOMEBODY ELSE'S WORK. Saket Gokhale asked four Delhi hospitals a narrow question and two answered it. The archive credits him by name because attribution is how this project treats work it did not do, and because a document obtained by an identified person under a statute is worth more than an anonymous account. WHAT IT ESTABLISHES: that ten people were treated for injuries the hospitals themselves categorised as pellet or projectile injuries, on that date, at those two hospitals. Hospital records are independent of both the police and the petitioners, which is why this sits at CORROBORATED while the question of what was fired stays DISPUTED at INC-DEL-005. WHAT IT DOES NOT ESTABLISH, AND THE DISTINCTION IS THE WHOLE POINT: who or what caused the injuries. 'Pellet/projectile' is a clinical category, not a finding about a weapon or about who fired it. It does not say the police fired anything, and it does not distinguish plastic from metallic. It establishes that people arrived at hospital with those injuries on the day of the police action. AT LEAST TEN, NOT TEN. AIIMS refused (OVR-DEL-002) and Ram Manohar Lohia Hospital had not replied when this was reported. The number is a floor set by which hospitals chose to answer, and the archive states it as one. NOT HELD: the replies themselves. No outlet reproduces them. Obtaining copies would move this to VERIFIED, and it is one of the few claims here where that is straightforwardly achievable: see OQ-047.",
+    "doesNotEstablish": null,
+    "sourceIds": [
+      "SRC-0045",
+      "SRC-0046",
+      "SRC-0047",
+      "SRC-0048"
     ]
   }
 ]

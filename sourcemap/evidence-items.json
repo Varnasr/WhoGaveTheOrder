@@ -2657,7 +2657,7 @@
         "originates_from": "Delhi Police General Diary entry 0008A, Parliament Street police station, recorded 22 July 2026"
       }
     ],
-    "notes": "THIS IS THE CLOSEST THING IN THIS ARCHIVE TO AN AUTHORISATION, AND IT IS STILL NOT ONE. A General Diary entry is a police record of what an officer reported, made two days after the event by a duty officer writing down what a deputy commander told him. The words that matter are 'under the orders of' a Deputy Commissioner of Police: that is a rank, recorded contemporaneously, in the force's own book, attached to a specific list of munitions. It is the first time anything on this record connects the use of force at Jantar Mantar to an officer who ordered it. WHAT IT DOES NOT DO: name the officer, produce the order, or show what the order said. A report that an order was given is not the order. THE COUNT OF ORDERS FOUND STAYS AT ZERO. That number counts orders this archive holds, and this archive does not hold this one — it holds two news reports of a record it has not seen. Alt News says it accessed the entry and is withholding the officers' names; neither outlet reproduces or links the document. NOTE THE WORD 'PLASTIC'. The entry as reported says plastic pellets. The petitioners before the Supreme Court say what was recovered from bodies was metallic. Those are different claims about different ammunition and the archive keeps them apart: see INC-DEL-005. The two accounts of the entry differ slightly in wording — Alt News reports one anti-riot gun and two rounds of plastic pellets, The Week two rounds from anti-riot guns and two rounds of plastic pellet cartridges — which is what reading the same document twice looks like, and is a further reason to obtain it: see OQ-040.",
+    "notes": "THIS IS THE CLOSEST THING IN THIS ARCHIVE TO AN AUTHORISATION, AND IT IS STILL NOT ONE. A General Diary entry is a police record of what an officer reported, made two days after the event by a duty officer writing down what a deputy commander told him. The words that matter are 'under the orders of' a Deputy Commissioner of Police: that is a rank, recorded contemporaneously, in the force's own book, attached to a specific list of munitions. It is the first time anything on this record connects the use of force at Jantar Mantar to an officer who ordered it. WHAT IT DOES NOT DO: name the officer, produce the order, or show what the order said. A report that an order was given is not the order. THE COUNT OF ORDERS FOUND STAYS AT ZERO. That number counts orders this archive holds, and this archive does not hold this one — it holds two news reports of a record it has not seen. Alt News says it accessed the entry and is withholding the officers' names; neither outlet reproduces or links the document. NOTE THE WORD 'PLASTIC'. The entry as reported says plastic pellets. The petitioners before the Supreme Court say what was recovered from bodies was metallic. Those are different claims about different ammunition and the archive keeps them apart: see INC-DEL-005. The two accounts of the entry differ slightly in wording — Alt News reports one anti-riot gun and two rounds of plastic pellets, The Week two rounds from anti-riot guns and two rounds of plastic pellet cartridges — which is what reading the same document twice looks like, and is a further reason to obtain it: see OQ-040. AN EARLIER REPORT EXISTS AND IS NOT CITED HERE: The Hindu is reported by Scroll.in to have carried the General Diary entry on 28 July 2026, three days before Alt News. The archive has not retrieved that report and does not cite what it has not read. It is noted because the first publication of a document matters, and because retrieving it is a small piece of work somebody should do.",
     "volatility": "high"
   },
   {
@@ -2719,5 +2719,63 @@
     ],
     "notes": "THIS IS THE FIRST CRIMINAL CASE IN THIS ARCHIVE ABOUT THE POLICE ACTION ITSELF. Everything else recorded here is a writ petition, a commission proceeding or an affidavit. An FIR is an investigation with a file, a case diary and a chargesheet or a closure report at the end of it, and every one of those is a document that can be asked for. It is also registered against unidentified persons, which means the question of who is being investigated is open. THE COMPLAINANT IS NAMED IN EVERY REPORT AND IS NOT NAMED HERE. He is a private individual and what the record needs is the complaint, the station, the dates and the injury, not him. The same choice was made at INC-DEL-005 for a different injured man, and it is made the same way each time rather than case by case. Anyone who needs his name to obtain the FIR will find it in the sources cited above. NOT ADOPTED, AND DELIBERATELY NOT IN THE CLAIM: the figure of more than 200 pellets attributed to an AIIMS medical report, which this archive has not seen and which reaches it through a political statement rather than through the document; and the allegation that the police initially refused to register the case on instructions. Both may be true. Neither is established here. WHAT WOULD SETTLE THE FIRST: the FIR itself and the medico-legal case record. See OQ-046.",
     "volatility": "high"
+  },
+  {
+    "id": "INC-DEL-006",
+    "jurisdiction": "delhi",
+    "incident": "INC-0001",
+    "category": "incident",
+    "claim": "Replies to Right to Information applications filed by Saket Gokhale, a Trinamool Congress leader and former Rajya Sabha member, are reported to record that at least ten people were treated at Delhi government hospitals for pellet or projectile injuries on 20 July 2026: nine at Lady Hardinge Medical College, recorded in the reply as 'pellet/projectile' injuries, and one at Safdarjung Hospital.",
+    "confidence": "CORROBORATED",
+    "sources": [
+      {
+        "url": "https://www.altnews.in/at-least-10-persons-suffered-pellet-injuries-on-sansad-chalo-march-20th-july-rti",
+        "source_type": "secondary",
+        "publication": "Alt News",
+        "retrieved_on": "2026-08-21",
+        "originates_from": "Right to Information replies obtained by Saket Gokhale from Lady Hardinge Medical College and Safdarjung Hospital, reported 13 August 2026"
+      },
+      {
+        "url": "https://scroll.in/latest/1094930/ten-persons-injured-by-pellets-during-youth-protest-march-to-parliament-shows-rti-response",
+        "source_type": "secondary",
+        "publication": "Scroll.in",
+        "retrieved_on": "2026-08-21",
+        "originates_from": "Right to Information replies obtained by Saket Gokhale from Lady Hardinge Medical College and Safdarjung Hospital, reported 13 August 2026"
+      },
+      {
+        "url": "https://m.thewire.in/article/rights/at-least-10-persons-suffered-pellet-injuries-on-july-20-in-delhi-shows-rti-response",
+        "source_type": "secondary",
+        "publication": "The Wire",
+        "retrieved_on": "2026-08-21",
+        "originates_from": "Right to Information replies obtained by Saket Gokhale from Lady Hardinge Medical College and Safdarjung Hospital, reported 13 August 2026"
+      },
+      {
+        "url": "https://www.tribuneindia.com/news/india/10-faced-pellet-gun-injuries-during-cjp-stir-tmc-ex-mp-cites-rti/",
+        "source_type": "secondary",
+        "publication": "The Tribune",
+        "retrieved_on": "2026-08-21",
+        "originates_from": "Right to Information replies obtained by Saket Gokhale from Lady Hardinge Medical College and Safdarjung Hospital, reported 13 August 2026"
+      }
+    ],
+    "notes": "THIS IS THE BEST-SOURCED THING ON THE PELLET QUESTION, AND IT IS SOMEBODY ELSE'S WORK. Saket Gokhale asked four Delhi hospitals a narrow question and two answered it. The archive credits him by name because attribution is how this project treats work it did not do, and because a document obtained by an identified person under a statute is worth more than an anonymous account. WHAT IT ESTABLISHES: that ten people were treated for injuries the hospitals themselves categorised as pellet or projectile injuries, on that date, at those two hospitals. Hospital records are independent of both the police and the petitioners, which is why this sits at CORROBORATED while the question of what was fired stays DISPUTED at INC-DEL-005. WHAT IT DOES NOT ESTABLISH, AND THE DISTINCTION IS THE WHOLE POINT: who or what caused the injuries. 'Pellet/projectile' is a clinical category, not a finding about a weapon or about who fired it. It does not say the police fired anything, and it does not distinguish plastic from metallic. It establishes that people arrived at hospital with those injuries on the day of the police action. AT LEAST TEN, NOT TEN. AIIMS refused (OVR-DEL-002) and Ram Manohar Lohia Hospital had not replied when this was reported. The number is a floor set by which hospitals chose to answer, and the archive states it as one. NOT HELD: the replies themselves. No outlet reproduces them. Obtaining copies would move this to VERIFIED, and it is one of the few claims here where that is straightforwardly achievable: see OQ-047.",
+    "volatility": "medium"
+  },
+  {
+    "id": "OVR-DEL-002",
+    "jurisdiction": "delhi",
+    "incident": "INC-0001",
+    "category": "rti_mechanics",
+    "claim": "The All India Institute of Medical Sciences is reported to have refused a Right to Information application asking how many people were treated for pellet, shot or projectile injuries after the police action of 20 July 2026, citing section 8(1)(j) of the Right to Information Act 2005 on the ground that disclosure could directly or indirectly lead to the identification or tracing of the individual concerned. The refusal was reported on 20 August 2026. Ram Manohar Lohia Hospital had not replied as at 13 August 2026.",
+    "confidence": "REPORTED",
+    "sources": [
+      {
+        "url": "https://www.nationalheraldindia.com/national/aiims-refused-to-share-details-of-jantar-mantar-pellet-injuries-saket-gokhale",
+        "source_type": "secondary",
+        "publication": "National Herald",
+        "retrieved_on": "2026-08-21"
+      }
+    ],
+    "notes": "A REFUSAL IS A RECORD, AND THIS ONE IS DATED. That is not a consolation prize. Two hospitals answered the same question and one declined it, which is a fact about a public authority with a date attached, and it is the kind of fact this archive was built to keep. THE GROUND, EXACTLY AS REPORTED: section 8(1)(j), personal information, on the basis that disclosure could lead to identification of the individual concerned. The applicant is reported to have said he asked for a number and not for patient details. THE ARCHIVE DOES NOT RULE ON WHETHER THE REFUSAL IS SOUND. That is for an appellate authority, and saying otherwise here would be this project doing the thing it tells everyone else not to do. What can be said without ruling on it is that two hospitals answered the same question, which is on the record above. THERE IS A CLOCK ON THIS AND IT IS NOT OURS. A first appeal under section 19(1) lies within thirty days of the refusal. The application is Saket Gokhale's, not this project's, so it does not go in the RTI register, which records only applications this project has filed. It is recorded here because the clock is real and because whether an appeal was filed and what came of it is a fact worth following. See OQ-048. ONE PUBLICATION ONLY, so REPORTED. The refusal letter itself is not held and is not reproduced anywhere the archive has found.",
+    "volatility": "medium"
   }
 ]

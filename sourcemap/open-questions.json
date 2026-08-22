@@ -456,7 +456,7 @@
     "category": "oversight",
     "jurisdiction": "delhi",
     "question": "Which database the facial recognition at Jantar Mantar matched faces against, which body supplied the images in it, and under what authority they were shared.",
-    "why_it_matters": "Delhi Police has admitted the deployment and says it matched only against crime records. A matching system needs a set of images to match against, and where that set came from is an authorisation question of exactly the kind this archive exists to ask. Nothing on the record answers it. A former Rajya Sabha member publicly put the same question to the Election Commission, UIDAI, the Income Tax Department, the Transport Department and Delhi Police on 19 August 2026; no reply from any of them is on this record, and a question asked in public is not an answer.",
+    "why_it_matters": "Delhi Police has admitted the deployment and says it matched only against crime records. A matching system needs a set of images to match against, and where that set came from is an authorisation question of exactly the kind this archive exists to ask. Nothing on the record answers it. Saket Gokhale, a Trinamool Congress leader and former Rajya Sabha member, publicly put the same question to the Election Commission, UIDAI, the Income Tax Department, the Transport Department and Delhi Police in August 2026, and has separately obtained hospital records on the pellet injuries by Right to Information (INC-DEL-006); no reply from any of them is on this record, and a question asked in public is not an answer.",
     "lawful_route": "RTI to the Public Information Officer, Delhi Police, for the name of the database or databases used for facial recognition at Jantar Mantar in July 2026 and for any memorandum of understanding or data-sharing arrangement under which images were obtained; and to the Election Commission of India and the NCRB for any arrangement to share photographic records with Delhi Police that was in force in July 2026. Ask for documents and dates, not for confirmation of a theory. The disclosure sought in PROC-SC-007 covers the same ground and may answer it first.",
     "blocks": [
       "PROC-SC-003",
@@ -550,6 +550,32 @@
     "blocks": [
       "PROC-DEL-003",
       "INC-DEL-005"
+    ]
+  },
+  {
+    "id": "OQ-047",
+    "priority": "high",
+    "category": "document_custody",
+    "jurisdiction": "delhi",
+    "question": "Copies of the Right to Information replies from Lady Hardinge Medical College and Safdarjung Hospital recording pellet or projectile injuries treated on 20 July 2026.",
+    "why_it_matters": "This is the shortest path from CORROBORATED to VERIFIED anywhere in the archive. The replies exist, an identified person holds them, and every outlet that reported them worked from the same two documents without reproducing either. Holding the replies would mean the archive was reading the hospitals rather than reading the news about the hospitals.",
+    "lawful_route": "Two routes, and the first is a courtesy rather than a statute: ask Saket Gokhale, who obtained them and has publicised them, for copies. Failing that, file the same applications directly with the Public Information Officers of Lady Hardinge Medical College and Safdarjung Hospital, asking only for the number of persons treated for pellet, shot or projectile injuries on 20 July 2026. Ask for a number. Do not ask for anything that identifies a patient, both because it is wrong and because it invites the refusal recorded at OVR-DEL-002.",
+    "blocks": [
+      "INC-DEL-006",
+      "INC-DEL-005"
+    ]
+  },
+  {
+    "id": "OQ-048",
+    "priority": "time_critical",
+    "category": "rti_mechanics",
+    "jurisdiction": "delhi",
+    "question": "The AIIMS refusal letter of about 20 August 2026, whether a first appeal was filed against it, and the reply from Ram Manohar Lohia Hospital.",
+    "why_it_matters": "Two hospitals answered a question the third refused, so the refusal is testable rather than merely regrettable. It is marked time critical because a first appeal under section 19(1) must be filed within thirty days of the refusal and that window closes in the second half of September 2026. If no appeal is filed the refusal simply stands, and the count of people treated at the largest hospital in the group is never established.",
+    "lawful_route": "The appeal is the applicant's to file and this project cannot file it for him. What this project can do is ask AIIMS the same question itself, which restarts a clock of its own and produces either the number or a second refusal on the same ground, and either outcome is a record. RML can be asked directly for the reply that was never sent. Ask for numbers only.",
+    "blocks": [
+      "OVR-DEL-002",
+      "INC-DEL-006"
     ]
   }
 ]

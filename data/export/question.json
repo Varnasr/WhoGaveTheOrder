@@ -438,5 +438,25 @@
     "incidentId": "INC-0001",
     "level": null,
     "evidenceIds": []
+  },
+  {
+    "id": "OQ-047",
+    "kind": "Question",
+    "title": "Copies of the Right to Information replies from Lady Hardinge Medical College and Safdarjung Hospital recording pellet or projectile injuries treated on 20 July 2026.",
+    "state": "UNANSWERED",
+    "url": "https://www.whogavetheorder.in/investigation.html?id=jantar-mantar#OQ-047",
+    "incidentId": "INC-0001",
+    "level": null,
+    "evidenceIds": []
+  },
+  {
+    "id": "OQ-048",
+    "kind": "Question",
+    "title": "The AIIMS refusal letter of about 20 August 2026, whether a first appeal was filed against it, and the reply from Ram Manohar Lohia Hospital.",
+    "state": "UNANSWERED",
+    "url": "https://www.whogavetheorder.in/investigation.html?id=jantar-mantar#OQ-048",
+    "incidentId": "INC-0001",
+    "level": null,
+    "evidenceIds": []
   }
 ]

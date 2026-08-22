@@ -486,6 +486,50 @@
   {
     "id": "SRC-0045",
     "kind": "Source",
+    "title": "Alt News",
+    "state": null,
+    "url": "https://www.altnews.in/at-least-10-persons-suffered-pellet-injuries-on-sansad-chalo-march-20th-july-rti",
+    "publisher": null,
+    "retrievedOn": "2026-08-21",
+    "sha256": null,
+    "archiveUrl": null
+  },
+  {
+    "id": "SRC-0046",
+    "kind": "Source",
+    "title": "Scroll.in",
+    "state": null,
+    "url": "https://scroll.in/latest/1094930/ten-persons-injured-by-pellets-during-youth-protest-march-to-parliament-shows-rti-response",
+    "publisher": null,
+    "retrievedOn": "2026-08-21",
+    "sha256": null,
+    "archiveUrl": null
+  },
+  {
+    "id": "SRC-0047",
+    "kind": "Source",
+    "title": "The Wire",
+    "state": null,
+    "url": "https://m.thewire.in/article/rights/at-least-10-persons-suffered-pellet-injuries-on-july-20-in-delhi-shows-rti-response",
+    "publisher": null,
+    "retrievedOn": "2026-08-21",
+    "sha256": null,
+    "archiveUrl": null
+  },
+  {
+    "id": "SRC-0048",
+    "kind": "Source",
+    "title": "The Tribune",
+    "state": null,
+    "url": "https://www.tribuneindia.com/news/india/10-faced-pellet-gun-injuries-during-cjp-stir-tmc-ex-mp-cites-rti/",
+    "publisher": null,
+    "retrievedOn": "2026-08-21",
+    "sha256": null,
+    "archiveUrl": null
+  },
+  {
+    "id": "SRC-0049",
+    "kind": "Source",
     "title": "India Code",
     "state": null,
     "url": "https://www.indiacode.nic.in/bitstream/123456789/20340/1/bnss,_2023.pdf",
@@ -495,7 +539,7 @@
     "archiveUrl": "http://web.archive.org/web/20260121073438/https://www.indiacode.nic.in/bitstream/123456789/20340/1/bnss%2C_2023.pdf"
   },
   {
-    "id": "SRC-0046",
+    "id": "SRC-0050",
     "kind": "Source",
     "title": "Bureau of Police Research and Development",
     "state": null,
@@ -506,7 +550,7 @@
     "archiveUrl": "http://web.archive.org/web/20260215214604/https://bprd.nic.in/uploads/pdf/Comparison%20summary%20BNSS%20to%20CrPC.pdf"
   },
   {
-    "id": "SRC-0047",
+    "id": "SRC-0051",
     "kind": "Source",
     "title": "Uttar Pradesh Police",
     "state": null,
@@ -517,7 +561,7 @@
     "archiveUrl": "http://web.archive.org/web/20250524091156/https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202407031502194192BNSS2023-20-45.pdf"
   },
   {
-    "id": "SRC-0048",
+    "id": "SRC-0052",
     "kind": "Source",
     "title": "onlinelawconnect",
     "state": null,
@@ -528,7 +572,7 @@
     "archiveUrl": null
   },
   {
-    "id": "SRC-0049",
+    "id": "SRC-0053",
     "kind": "Source",
     "title": "Justice Definitions Project",
     "state": null,
@@ -539,7 +583,7 @@
     "archiveUrl": "http://web.archive.org/web/20260518085831/https://www.lawandjusticewiki.org/wiki/Extra-judicial_killings"
   },
   {
-    "id": "SRC-0050",
+    "id": "SRC-0054",
     "kind": "Source",
     "title": "ApniLaw",
     "state": null,
@@ -550,7 +594,7 @@
     "archiveUrl": "http://web.archive.org/web/20250906102438/https://www.apnilaw.com/bare-act/bnss/section-196-bharatiya-nagarik-suraksha-sanhitabnss-inquiry-by-magistrate-into-cause-of-death/"
   },
   {
-    "id": "SRC-0051",
+    "id": "SRC-0055",
     "kind": "Source",
     "title": "India Code",
     "state": null,
@@ -561,7 +605,7 @@
     "archiveUrl": "http://web.archive.org/web/20240809212750/https://www.indiacode.nic.in/bitstream/123456789/13669/1/delhi_police_act.pdf"
   },
   {
-    "id": "SRC-0052",
+    "id": "SRC-0056",
     "kind": "Source",
     "title": "indianemployees.com",
     "state": null,
@@ -572,7 +616,7 @@
     "archiveUrl": "http://web.archive.org/web/20220329071954/https://www.indianemployees.com/acts-rules/details/delhi-police-act-1978"
   },
   {
-    "id": "SRC-0053",
+    "id": "SRC-0057",
     "kind": "Source",
     "title": "India Code",
     "state": null,
@@ -583,7 +627,7 @@
     "archiveUrl": "http://web.archive.org/web/20251230215513/https://www.indiacode.nic.in/bitstream/123456789/20371/1/ashtra_police.pdf"
   },
   {
-    "id": "SRC-0054",
+    "id": "SRC-0058",
     "kind": "Source",
     "title": "Gurukul Nexus",
     "state": null,
@@ -594,7 +638,7 @@
     "archiveUrl": null
   },
   {
-    "id": "SRC-0055",
+    "id": "SRC-0059",
     "kind": "Source",
     "title": "India Code",
     "state": null,
@@ -605,7 +649,7 @@
     "archiveUrl": "http://web.archive.org/web/20260612162516/https://www.indiacode.nic.in/bitstream/123456789/11209/1/1094_bihar_bihar_police_act_2007.pdf"
   },
   {
-    "id": "SRC-0056",
+    "id": "SRC-0060",
     "kind": "Source",
     "title": "LegitQuest",
     "state": null,
@@ -616,7 +660,7 @@
     "archiveUrl": null
   },
   {
-    "id": "SRC-0057",
+    "id": "SRC-0061",
     "kind": "Source",
     "title": "CaseMine",
     "state": null,
@@ -627,7 +671,7 @@
     "archiveUrl": null
   },
   {
-    "id": "SRC-0058",
+    "id": "SRC-0062",
     "kind": "Source",
     "title": "Ministry of Home Affairs",
     "state": null,
@@ -638,7 +682,7 @@
     "archiveUrl": "http://web.archive.org/web/20260520201057/https://www.mha.gov.in/sites/default/files/2025-04/NHRCselectedlettersandguidelinesondeathsincustody_09042019_0%5B1%5D_4.pdf"
   },
   {
-    "id": "SRC-0059",
+    "id": "SRC-0063",
     "kind": "Source",
     "title": "NHRC",
     "state": null,
@@ -649,7 +693,7 @@
     "archiveUrl": "http://web.archive.org/web/20251011104825/https://nhrc.nic.in/press-release/nhrc-issues-fresh-guidelines-regarding-intimation-custodial-death"
   },
   {
-    "id": "SRC-0060",
+    "id": "SRC-0064",
     "kind": "Source",
     "title": "NHRC",
     "state": null,
@@ -660,7 +704,7 @@
     "archiveUrl": "http://web.archive.org/web/20260725004141/https://nhrc.nic.in/investigation-division"
   },
   {
-    "id": "SRC-0061",
+    "id": "SRC-0065",
     "kind": "Source",
     "title": "commoner-law.com",
     "state": null,
@@ -671,7 +715,7 @@
     "archiveUrl": null
   },
   {
-    "id": "SRC-0062",
+    "id": "SRC-0066",
     "kind": "Source",
     "title": "Bellingcat",
     "state": null,
@@ -682,7 +726,7 @@
     "archiveUrl": null
   },
   {
-    "id": "SRC-0063",
+    "id": "SRC-0067",
     "kind": "Source",
     "title": "GIJN",
     "state": null,
@@ -693,7 +737,7 @@
     "archiveUrl": null
   },
   {
-    "id": "SRC-0064",
+    "id": "SRC-0068",
     "kind": "Source",
     "title": "The Polis Project",
     "state": null,
@@ -704,7 +748,7 @@
     "archiveUrl": null
   },
   {
-    "id": "SRC-0065",
+    "id": "SRC-0069",
     "kind": "Source",
     "title": "Wikipedia",
     "state": null,
@@ -715,7 +759,7 @@
     "archiveUrl": null
   },
   {
-    "id": "SRC-0066",
+    "id": "SRC-0070",
     "kind": "Source",
     "title": "Common Cause and CSDS",
     "state": null,
@@ -726,7 +770,7 @@
     "archiveUrl": null
   },
   {
-    "id": "SRC-0067",
+    "id": "SRC-0071",
     "kind": "Source",
     "title": "Sage",
     "state": null,
