@@ -80,21 +80,22 @@
     ui.mount('[data-region="faq"]', [
       ['Why does so much of this say UNKNOWN?',
        'Because it has not been established, and the alternative is guessing. A claim without a ' +
-       'source is not shown as a fact here. The blank spaces are the work still to do.'],
+       'source is not shown as a fact. The blank spaces are the work still to do.'],
       ['Is this a campaign?',
-       'No. There is no petition, no party, and no ask beyond documents. Official statements are ' +
-       'published in full, including the ones that cut against the project.'],
+       'No. There is no petition and no ask beyond documents. Official statements are published ' +
+       'in full, including the ones that cut against the project.'],
       ['Are you accusing anyone?',
        'No. The chain of command shows which offices are empowered to authorise force. That is a ' +
-       'statement about the law. Whether a particular office did authorise it needs a document, and ' +
-       'until one exists every node reads <em>not established</em>. No individual is named anywhere.'],
+       'statement about the law. Whether a particular office did authorise it needs a document, ' +
+       'and until one exists every node reads <em>not established</em>. Nobody is named in the ' +
+       'chain. People are named in records only where a public document names them.'],
       ['What happens to something I send?',
        'It is logged privately and checked against its original source before anything is published. ' +
        'Nothing goes live automatically. Your name is never published unless you tick the box asking ' +
        'for it, and your contact details never are.'],
       ['Can I ask for a document myself?',
-       'Yes, and it is the most useful thing anyone can do. Any citizen can request a record from a ' +
-       'public office. Pick a question off the gap list, file it, and send the reference number — the ' +
+       'Yes, and it helps more than anything else. Any citizen can request a record from a public ' +
+       'office. Pick a question off the gap list, file it, and send us the reference number. The ' +
        'clock then runs in public.'],
       ['Who runs this?',
        'Three people, unfunded, on their own time: Dr Varna Sri Raman, Syed Khalid Saifullah and ' +

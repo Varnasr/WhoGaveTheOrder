@@ -5,6 +5,380 @@ window.WGO = window.WGO || {};
 
 WGO.changes = [
   {
+    "commit": "6de7584e9a",
+    "date": "2026-08-26T14:55:12+00:00",
+    "subject": "Cut the shouting and the self-praise out of the prose",
+    "added": [],
+    "removed": [],
+    "changed": [
+      {
+        "id": "PROC-DEL-001",
+        "kind": "Evidence",
+        "title": "Delhi High Court issued notice to Delhi Police and the Union on PILs concerning the 20 and 21 July 2026 police action, directed preservation of records includin",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=PROC-DEL-001",
+        "fields": [
+          {
+            "field": "establishes",
+            "from": "Cause title and case number are now ESTABLISHED from the court's own cause list at PROC-DEL-002: Shakeel Abbas v. Union of India and Ors., W.P.(CRL) 2127/2026, listed 22 July 2026 before the Chief Justice and Justice Tejas Karia. That re…",
+            "to": "Cause title and case number are now established from the court's own cause list at PROC-DEL-002: Shakeel Abbas v. Union of India and Ors., W.P.(CRL) 2127/2026, listed 22 July 2026 before the Chief Justice and Justice Tejas Karia. That re…"
+          }
+        ]
+      },
+      {
+        "id": "PROC-BIH-001",
+        "kind": "Evidence",
+        "title": "Court proceedings concerning the Bihar incidents. The State of Bihar is a respondent in the Supreme Court proceedings on the CJP student protests and has filed ",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=PROC-BIH-001",
+        "fields": [
+          {
+            "field": "establishes",
+            "from": "SUPERSEDES the earlier finding on this record, which read 'searched, none found' as at 16 August 2026 and was true when written. On 18 August 2026 the State of Bihar was reported to have filed an affidavit in the Supreme Court proceeding…",
+            "to": "Supersedes the earlier finding on this record, which read 'searched, none found' as at 16 August 2026 and was true when written. On 18 August 2026 the State of Bihar was reported to have filed an affidavit in the Supreme Court proceeding…"
+          }
+        ]
+      },
+      {
+        "id": "PROC-DEL-002",
+        "kind": "Evidence",
+        "title": "Delhi High Court listed W.P.(CRL) 2127/2026 with CRL.M.A. 21282/2026 and CRL.M.A. 21283/2026, Shakeel Abbas v. Union of India and Ors., at item 54 of the supple",
+        "state": "VERIFIED",
+        "url": "evidence.html?id=PROC-DEL-002",
+        "fields": [
+          {
+            "field": "establishes",
+            "from": "The court's own record, and the first primary document in this archive for the Delhi proceeding. WHAT IT ESTABLISHES: the cause title, the writ petition and application numbers, the date of listing, and the bench. It settles two things t…",
+            "to": "The court's own record, and the first primary document in this archive for the Delhi proceeding. What it establishes: the cause title, the writ petition and application numbers, the date of listing, and the bench. It settles two things t…"
+          }
+        ]
+      },
+      {
+        "id": "PROC-SC-002",
+        "kind": "Evidence",
+        "title": "Delhi Police stated on affidavit before the Supreme Court, at a hearing on 18 August 2026 in Shailendra Mani Tripathi v. Union of India and Ors., W.P.(C) 280/20",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=PROC-SC-002",
+        "fields": [
+          {
+            "field": "establishes",
+            "from": "THAT the technology was deployed is the police's own statement to a court, reported by independent outlets, and nobody in the proceeding contests it. It is the first thing in this archive that the force has admitted about its own conduct…",
+            "to": "That the technology was deployed is the police's own statement to a court, reported by independent outlets, and nobody in the proceeding contests it. It is the first thing in this archive that the force has admitted about its own conduct…"
+          }
+        ]
+      },
+      {
+        "id": "PROC-SC-003",
+        "kind": "Evidence",
+        "title": "Whether the facial recognition deployment at Jantar Mantar was confined to persons with existing criminal records, as Delhi Police asserts, or operated on the c",
+        "state": "DISPUTED",
+        "url": "evidence.html?id=PROC-SC-003",
+        "fields": [
+          {
+            "field": "establishes",
+            "from": "AS STATED BY DELHI POLICE, on affidavit: the software 'only captured the images of criminals or history sheeters'; it 'does not automatically capture profile of every individual present at the protest site'; 'no action is taken solely on…",
+            "to": "As stated by delhi police, on affidavit: the software 'only captured the images of criminals or history sheeters'; it 'does not automatically capture profile of every individual present at the protest site'; 'no action is taken solely on…"
+          }
+        ]
+      },
+      {
+        "id": "INC-SIW-001",
+        "kind": "Evidence",
+        "title": "Police discharged firearms during the student protest at Siwan on 25 July 2026. The State of Bihar's account, given on affidavit to the Supreme Court, is four r",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=INC-SIW-001",
+        "fields": [
+          {
+            "field": "establishes",
+            "from": "AMENDED 26 AUGUST 2026. This record previously stated the State's figures as the claim itself: 'four rounds from an AK-47 near JP Chowk, and two rounds from a 9mm pistol near Hathi Chowk'. An open-source investigation published on 4 Augu…",
+            "to": "Amended 26 August 2026. This record previously stated the State's figures as the claim itself: 'four rounds from an AK-47 near JP Chowk, and two rounds from a 9mm pistol near Hathi Chowk'. An open-source investigation published on 4 Augu…"
+          }
+        ]
+      },
+      {
+        "id": "PROC-SC-004",
+        "kind": "Evidence",
+        "title": "The State of Bihar filed an affidavit in the Supreme Court proceedings on the CJP student protests, reported on 18 August 2026, setting out its account of the p",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=PROC-SC-004",
+        "fields": [
+          {
+            "field": "establishes",
+            "from": "AS STATED BY THE STATE OF BIHAR: a constable named in the affidavit as Abhishek Kumar fired four rounds from an AK-47 into the air, and only after he was surrounded or trapped by the crowd near JP Chowk; no protester was hit by rifle fir…",
+            "to": "As stated by the state of bihar: a constable named in the affidavit as Abhishek Kumar fired four rounds from an AK-47 into the air, and only after he was surrounded or trapped by the crowd near JP Chowk; no protester was hit by rifle fir…"
+          }
+        ]
+      },
+      {
+        "id": "PROC-SC-005",
+        "kind": "Evidence",
+        "title": "Delhi Police filed an affidavit in the Supreme Court proceedings, reported on 18 August 2026, stating that no excessive force was used at Jantar Mantar on 20 Ju",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=PROC-SC-005",
+        "fields": [
+          {
+            "field": "establishes",
+            "from": "AS STATED BY DELHI POLICE: about 5,000 police were managing a crowd reported at over 30,000 across roughly three kilometres; the agitation was hijacked by anti-social elements and history-sheeters; more than 240 police personnel were inj…",
+            "to": "As stated by delhi police: about 5,000 police were managing a crowd reported at over 30,000 across roughly three kilometres; the agitation was hijacked by anti-social elements and history-sheeters; more than 240 police personnel were inj…"
+          }
+        ]
+      },
+      {
+        "id": "PROC-SC-006",
+        "kind": "Evidence",
+        "title": "The Supreme Court constituted a five-member High Powered Enquiry Committee by order reported dated 18 August 2026 to inquire into the police action against the ",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=PROC-SC-006",
+        "fields": [
+          {
+            "field": "establishes",
+            "from": "UPDATED 21 AUGUST 2026, AND THE EARLIER VERSION OF THIS RECORD IS NOW WRONG. It said a committee had been decided on but not shown to be constituted, and that whether it existed was not established. It has since been constituted, by an o…",
+            "to": "Updated 21 August 2026, and the earlier version of this record is now wrong. It said a committee had been decided on but not shown to be constituted, and that whether it existed was not established. It has since been constituted, by an o…"
+          }
+        ]
+      },
+      {
+        "id": "PROC-SC-007",
+        "kind": "Evidence",
+        "title": "A public interest petition challenging the use of facial recognition and other biometric surveillance at the Jantar Mantar protest is before the Supreme Court. ",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=PROC-SC-007",
+        "fields": [
+          {
+            "field": "establishes",
+            "from": "AS ALLEGED IN THE PETITION, and adopted by this archive as nothing more than an allegation: that Delhi Police deployed an 'Ikshana' facial recognition vehicle, AjnaLens smart glasses, CCTV cameras and drones, a Mobile Command and Control…",
+            "to": "As alleged in the petition, and adopted by this archive as nothing more than an allegation: that Delhi Police deployed an 'Ikshana' facial recognition vehicle, AjnaLens smart glasses, CCTV cameras and drones, a Mobile Command and Control…"
+          }
+        ]
+      },
+      {
+        "id": "OVR-DEL-001",
+        "kind": "Evidence",
+        "title": "Two Delhi Police officers whose posts covered the Jantar Mantar policing were moved in a Delhi Government order of 18 August 2026 transferring 43 IPS and DANIPS",
+        "state": "REPORTED",
+        "url": "evidence.html?id=OVR-DEL-001",
+        "fields": [
+          {
+            "field": "establishes",
+            "from": "ONE PUBLICATION, TWO ARTICLES. Both are The Tribune, so this is a single account and stays REPORTED. India TV News is listed by search as having published the full list on 18 August; our fetch of it returned HTTP 403 and it is therefore …",
+            "to": "One publication, two articles. Both are The Tribune, so this is a single account and stays REPORTED. India TV News is listed by search as having published the full list on 18 August; our fetch of it returned HTTP 403 and it is therefore …"
+          }
+        ]
+      },
+      {
+        "id": "INC-DEL-003",
+        "kind": "Evidence",
+        "title": "Ten FIRs are reported to have been registered in the New Delhi district after the events of 22 July 2026 at Connaught Place and Jantar Mantar, and six police pe",
+        "state": "REPORTED",
+        "url": "evidence.html?id=INC-DEL-003",
+        "fields": [
+          {
+            "field": "establishes",
+            "from": "ONE SOURCE, AND ITS SOURCE IS THE POLICE. Outlook attributes the account to police sources; no FIR number, police station or section is given, and no copy of any FIR is held. THIS IS THE STATE'S SIDE OF 22 JULY AND IT BELONGS HERE. An ar…",
+            "to": "One source, and its source is the police. Outlook attributes the account to police sources; no FIR number, police station or section is given, and no copy of any FIR is held. This is the state's side of 22 July and it belongs here. An ar…"
+          }
+        ]
+      },
+      {
+        "id": "PROC-SC-008",
+        "kind": "Evidence",
+        "title": "A petition on the use of pellet-firing weapons at Jantar Mantar is before the Supreme Court: Yashovardhan Azad and Others v. Union of India and Others, W.P.(C) ",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=PROC-SC-008",
+        "fields": [
+          {
+            "field": "establishes",
+            "from": "TWO HEARINGS, AND THE REPORTING SPLITS BETWEEN THEM. The Federal and The Week carry the SOP direction and the preservation of the ammunition log from 30 July; LiveLaw carries the protocol observation and the direction to the Union from 3…",
+            "to": "Two hearings, and the reporting splits between them. The Federal and The Week carry the SOP direction and the preservation of the ammunition log from 30 July; LiveLaw carries the protocol observation and the direction to the Union from 3…"
+          }
+        ]
+      },
+      {
+        "id": "PROC-SC-009",
+        "kind": "Evidence",
+        "title": "Counsel for the petitioners in W.P.(C) 917/2026 submitted before the Supreme Court, reported on 3 August 2026, that 'from 1967 to now, there is not a single sta",
+        "state": "REPORTED",
+        "url": "evidence.html?id=PROC-SC-009",
+        "fields": [
+          {
+            "field": "establishes",
+            "from": "READ THIS ONE CAREFULLY, BECAUSE IT IS THE CLAIM THIS ARCHIVE IS MOST TEMPTED TO OVERSTATE. A submission by counsel is a party's assertion made in court. It is not a finding, it is not evidence that no such order exists, and it does not …",
+            "to": "A submission by counsel is a party's assertion made in court. It is not a finding, it is not evidence that no such order exists, and it does not establish an absence. What it establishes is that the absence was asserted, on the record, b…"
+          }
+        ]
+      },
+      {
+        "id": "INC-DEL-004",
+        "kind": "Evidence",
+        "title": "A Delhi Police General Diary entry numbered 0008A, recorded at Parliament Street police station at 1.24 am on 22 July 2026, is reported to record that a Rapid A",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=INC-DEL-004",
+        "fields": [
+          {
+            "field": "establishes",
+            "from": "THIS IS THE CLOSEST THING IN THIS ARCHIVE TO AN AUTHORISATION, AND IT IS STILL NOT ONE. A General Diary entry is a police record of what an officer reported, made two days after the event by a duty officer writing down what a deputy comm…",
+            "to": "A General Diary entry is a police record of what an officer reported, made two days after the event by a duty officer writing down what a deputy commander told him. The words that matter are 'under the orders of' a Deputy Commissioner of…"
+          }
+        ]
+      },
+      {
+        "id": "INC-DEL-005",
+        "kind": "Evidence",
+        "title": "Whether pellet-firing weapons were used against demonstrators at Jantar Mantar on 20 July 2026, and if so whether the ammunition was plastic or metallic.",
+        "state": "DISPUTED",
+        "url": "evidence.html?id=INC-DEL-005",
+        "fields": [
+          {
+            "field": "establishes",
+            "from": "THREE ACCOUNTS THAT CANNOT ALL BE RIGHT, WHICH IS WHY THIS IS DISPUTED RATHER THAN UNKNOWN. ONE: Delhi Police, publicly on 22 July, 'Claims of pellet guns being used against peaceful protesters by Delhi Police on Monday are completely fa…",
+            "to": "Three accounts that cannot all be right, Which is why this is DISPUTED, not UNKNOWN. One: Delhi Police, publicly on 22 July, 'Claims of pellet guns being used against peaceful protesters by Delhi Police on Monday are completely false and…"
+          }
+        ]
+      },
+      {
+        "id": "PROC-DEL-003",
+        "kind": "Evidence",
+        "title": "Delhi Police registered a First Information Report on 21 August 2026 at Parliament Street (Sansad Marg) police station, against unidentified persons, on the wri",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=PROC-DEL-003",
+        "fields": [
+          {
+            "field": "establishes",
+            "from": "THIS IS THE FIRST CRIMINAL CASE IN THIS ARCHIVE ABOUT THE POLICE ACTION ITSELF. Everything else recorded here is a writ petition, a commission proceeding or an affidavit. An FIR is an investigation with a file, a case diary and a charges…",
+            "to": "This is the first criminal case in this archive about the police action itself. Everything else recorded here is a writ petition, a commission proceeding or an affidavit. An FIR is an investigation with a file, a case diary and a charges…"
+          }
+        ]
+      },
+      {
+        "id": "INC-DEL-006",
+        "kind": "Evidence",
+        "title": "Replies to Right to Information applications filed by Saket Gokhale, a Trinamool Congress leader and former Rajya Sabha member, are reported to record that at l",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=INC-DEL-006",
+        "fields": [
+          {
+            "field": "establishes",
+            "from": "THIS IS THE BEST-SOURCED THING ON THE PELLET QUESTION, AND IT IS SOMEBODY ELSE'S WORK. Saket Gokhale asked four Delhi hospitals a narrow question and two answered it. The archive credits him by name because attribution is how this projec…",
+            "to": "Saket Gokhale asked four Delhi hospitals a narrow question and two answered it. The archive credits him by name because attribution is how this project treats work it did not do, and because a document obtained by an identified person un…"
+          }
+        ]
+      },
+      {
+        "id": "INC-SIW-002",
+        "kind": "Evidence",
+        "title": "An open-source investigation published by Alt News on 4 August 2026, based on geolocated bystander video from several angles, reports at least nine rounds fired",
+        "state": "REPORTED",
+        "url": "evidence.html?id=INC-SIW-002",
+        "fields": [
+          {
+            "field": "establishes",
+            "from": "ONE PUBLICATION, BUT NOT ONE OF THE USUAL KIND. This is not a report of somebody else's document; it is the outlet's own analysis of video it geolocated, which makes it primary work by a secondary source. The archive cannot check it with…",
+            "to": "One publication, but not of the usual kind. This is not a report of somebody else's document; it is the outlet's own analysis of video it geolocated, which makes it primary work by a secondary source. The archive cannot check it without …"
+          }
+        ]
+      },
+      {
+        "id": "INC-SIW-003",
+        "kind": "Evidence",
+        "title": "How many rounds were fired by police at Siwan on 25 July 2026, from how many weapons, and at how many locations.",
+        "state": "DISPUTED",
+        "url": "evidence.html?id=INC-SIW-003",
+        "fields": [
+          {
+            "field": "establishes",
+            "from": "THE STATE SAYS FOUR AK-47 ROUNDS AT ONE PLACE. An open-source investigation says at least nine at two places, neither of them the place the State names, plus two separate pistol incidents. A civil liberties body's public hearing records …",
+            "to": "The state says four ak-47 rounds at one place. An open-source investigation says at least nine at two places, neither of them the place the State names, plus two separate pistol incidents. A civil liberties body's public hearing records …"
+          }
+        ]
+      },
+      {
+        "id": "INC-BIH-005",
+        "kind": "Evidence",
+        "title": "A public hearing convened by the Bihar unit of the People's Union for Civil Liberties at the IMA Hall, Gandhi Maidan, Patna, on 22 August 2026 heard 19 people w",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=INC-BIH-005",
+        "fields": [
+          {
+            "field": "establishes",
+            "from": "WHAT IS ESTABLISHED HERE IS THAT THE HEARING HAPPENED AND WHAT IT FOUND — not that the findings are true. A fact-finding panel is not a court and its conclusions are not evidence of the events; they are the considered account of named pe…",
+            "to": "What is established here is that the hearing happened and what it found — not that the findings are true. A fact-finding panel is not a court and its conclusions are not evidence of the events; they are the considered account of named pe…"
+          }
+        ]
+      },
+      {
+        "id": "PROC-SC-010",
+        "kind": "Evidence",
+        "title": "On 24 August 2026 the Chief Justice of India is reported to have said that the Court's order of 18 August already requires the High Powered Enquiry Committee to",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=PROC-SC-010",
+        "fields": [
+          {
+            "field": "establishes",
+            "from": "TWO THINGS HAPPENED AND THEY ARE EASY TO CONFLATE. The Court declined to open a suo motu proceeding on the sexual assault allegations, and the Court said those allegations are already inside the committee's mandate and must be reported o…",
+            "to": "Two things happened and they are easy to conflate. The Court declined to open a suo motu proceeding on the sexual assault allegations, and the Court said those allegations are already inside the committee's mandate and must be reported o…"
+          }
+        ]
+      },
+      {
+        "id": "OQ-004",
+        "kind": "Question",
+        "title": "The text of the Delhi High Court order of 22 July 2026 in W.P.(CRL) 2127/2026, and which petitions were heard with it.",
+        "state": "UNANSWERED",
+        "url": "investigation.html?id=jantar-mantar#OQ-004",
+        "fields": [
+          {
+            "field": "title",
+            "from": "The TEXT of the Delhi High Court order of 22 July 2026 in W.P.(CRL) 2127/2026, and which petitions were heard with it.",
+            "to": "The text of the Delhi High Court order of 22 July 2026 in W.P.(CRL) 2127/2026, and which petitions were heard with it."
+          }
+        ]
+      },
+      {
+        "id": "OQ-012",
+        "kind": "Question",
+        "title": "BNSS s.196 verified against India Code, not secondary sources.",
+        "state": "UNANSWERED",
+        "url": "investigation.html?id=#OQ-012",
+        "fields": [
+          {
+            "field": "title",
+            "from": "BNSS s.196 verified against India Code rather than secondary sources.",
+            "to": "BNSS s.196 verified against India Code, not secondary sources."
+          }
+        ]
+      },
+      {
+        "id": "OQ-045",
+        "kind": "Question",
+        "title": "The Supreme Court's order of 18 August 2026 constituting the High Powered Enquiry Committee, and the committee's terms of reference as issued, not as reported.",
+        "state": "UNANSWERED",
+        "url": "investigation.html?id=jantar-mantar#OQ-045",
+        "fields": [
+          {
+            "field": "title",
+            "from": "The Supreme Court's order of 18 August 2026 constituting the High Powered Enquiry Committee, and the committee's terms of reference as issued rather than as reported.",
+            "to": "The Supreme Court's order of 18 August 2026 constituting the High Powered Enquiry Committee, and the committee's terms of reference as issued, not as reported."
+          }
+        ]
+      },
+      {
+        "id": "OQ-049",
+        "kind": "Question",
+        "title": "The fact-finding report of the PUCL Bihar public hearing of 22 August 2026, as a document, not as reported.",
+        "state": "UNANSWERED",
+        "url": "investigation.html?id=bihar#OQ-049",
+        "fields": [
+          {
+            "field": "title",
+            "from": "The fact-finding report of the PUCL Bihar public hearing of 22 August 2026, as a document rather than as reported.",
+            "to": "The fact-finding report of the PUCL Bihar public hearing of 22 August 2026, as a document, not as reported."
+          }
+        ]
+      }
+    ],
+    "summary": "26 records edited"
+  },
+  {
     "commit": "07f8d71ab6",
     "date": "2026-08-26T13:27:42+00:00",
     "subject": "Five days of sweep: Siwan corrected, Bihar gets a non-government account",
