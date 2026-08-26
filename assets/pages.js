@@ -98,9 +98,8 @@
        'clock then runs in public.'],
       ['Who runs this?',
        'Three people, unfunded, on their own time: Dr Varna Sri Raman, Syed Khalid Saifullah and ' +
-       'Pallavi Nayak. Two of them hold positions in Indian National Congress structures, which is ' +
-       'stated plainly on the about page rather than left to be discovered. It changes none of the ' +
-       'rules: nothing appears here as a fact without a source, and every claim carries its state.']
+       'Pallavi Nayak. Their descriptions are on the about page. None of it changes the rules: ' +
+       'nothing appears here as a fact without a source, and every claim carries its state.']
     ].map(function (row) {
       return ui.explainer(row[0], '<p>' + row[1] + '</p>');
     }).join(''));
