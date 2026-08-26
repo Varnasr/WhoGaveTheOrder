@@ -552,9 +552,7 @@
       (opts.heading === false ? '' :
         '<p class="kicker">Distance to the order</p>' +
         '<h3 class="ladder__count">' + ui.esc(count) + '</h3>') +
-      '<p class="ladder__rule">Each step is reached only when a published record reaches it. ' +
-        'There is no percentage here: a percentage would need to know how much work is left, ' +
-        'and nobody does.</p>' +
+      '<p class="ladder__rule">A step is reached only when a published record reaches it.</p>' +
       '<ol class="ladder">' + rungs + '</ol>' +
       next +
     '</div>';

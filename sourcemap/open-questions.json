@@ -43,7 +43,7 @@
     "priority": "time_critical",
     "category": "legal_proceeding",
     "jurisdiction": "delhi",
-    "question": "The TEXT of the Delhi High Court order of 22 July 2026 in W.P.(CRL) 2127/2026, and which petitions were heard with it.",
+    "question": "The text of the Delhi High Court order of 22 July 2026 in W.P.(CRL) 2127/2026, and which petitions were heard with it.",
     "why_it_matters": "Partly answered on 18 August 2026: the cause title, case number, listing date and bench are now established from the court's own cause list (PROC-DEL-002). What is still unheld is the order itself. Every statement this archive makes about what the court directed — preservation of CCTV footage and videography, four weeks for a counter affidavit, the 11 September listing — rests on news reports of a document that is public and free.",
     "lawful_route": "Delhi High Court order PDFs are served directly at delhihighcourt.nic.in/app/showFileJudgment/<filename>.pdf and can be downloaded without a login once the filename is known — an order in another matter was retrieved that way on 18 August 2026 to confirm it. The filename is assigned by the registry and is not derivable, so it has to come from the case-status or judgment search, both of which sit behind a captcha and need a person. Cause lists, by contrast, are directly downloadable: combined_cause_list_DD.MM.YYYY.pdf and rlDDMMYYYY.pdf under delhihighcourt.nic.in/files/YYYY-MM/cause-list/. The 11 September 2026 listing is the next opportunity to capture the order and the connected matters in one go.",
     "blocks": [
@@ -148,7 +148,7 @@
     "priority": "medium",
     "category": "statute",
     "jurisdiction": "all",
-    "question": "BNSS s.196 verified against India Code rather than secondary sources.",
+    "question": "BNSS s.196 verified against India Code, not secondary sources.",
     "why_it_matters": "Currently REPORTED only.",
     "lawful_route": "India Code.",
     "blocks": [
@@ -407,7 +407,7 @@
     "category": "document_custody",
     "jurisdiction": "bihar",
     "question": "Who authorised an AK-47, described by the State as a platoon-level weapon for special operations, to be carried on law-and-order duty at a student protest at Siwan on 25 July 2026.",
-    "why_it_matters": "This is the archive's question in its purest form, and the State has opened the door to it by admitting the weapon should not have been there. Somebody decided the deployment, drew the weapon from an armoury and recorded the issue. Arms issue registers, deployment orders and the daily diary are records, and they are the kind of record that answers who gave the order rather than who pulled the trigger.",
+    "why_it_matters": "This is the archive's question in its purest form, and the State has opened the door to it by admitting the weapon should not have been there. Somebody decided the deployment, drew the weapon from an armoury and recorded the issue. Arms issue registers, deployment orders and the daily diary are records, and they are the kind of record that answers who gave the order, not who pulled the trigger.",
     "lawful_route": "RTI to the Superintendent of Police, Siwan, and to the District Magistrate, Siwan, for the deployment order for 25 July 2026, the arms and ammunition issue register entry, the daily diary entries for the relevant hours, and any requisition of armed force. Separately, the suspension order and the departmental proceeding record for the named constable. File before any retention period runs: no court is known to have ordered preservation in Bihar.",
     "blocks": [
       "PROC-SC-004",
@@ -469,7 +469,7 @@
     "category": "document_custody",
     "jurisdiction": "delhi",
     "question": "Delhi Police General Diary entry 0008A of 22 July 2026, Parliament Street police station, recording the munitions used at Jantar Mantar on 20 July 2026 and the Deputy Commissioner of Police under whose orders they were used.",
-    "why_it_matters": "Two outlets report having read it and this archive has not. It is the only document described anywhere that ties the use of force at Jantar Mantar to an officer who ordered it, and it is a routine police record rather than a leak or a reconstruction. Holding it would move the archive from reporting what a newspaper says a record says to holding the record.",
+    "why_it_matters": "Two outlets report having read it and this archive has not. It is the only document described anywhere that ties the use of force at Jantar Mantar to an officer who ordered it, and it is a routine police record, not a leak or a reconstruction. Holding it would move the archive from reporting what a newspaper says a record says to holding the record.",
     "lawful_route": "RTI to the Public Information Officer, Delhi Police, for a copy of General Diary entry 0008A dated 22 July 2026 of Parliament Street police station. Ask for the entry by its number and date. If exemption is claimed under section 8, the refusal is itself a record worth publishing and opens a first appeal. The same entry may be produced in W.P.(C) 917/2026, in which case the court record is the better route.",
     "blocks": [
       "INC-DEL-004",
@@ -531,7 +531,7 @@
     "priority": "high",
     "category": "court_records",
     "jurisdiction": "delhi",
-    "question": "The Supreme Court's order of 18 August 2026 constituting the High Powered Enquiry Committee, and the committee's terms of reference as issued rather than as reported.",
+    "question": "The Supreme Court's order of 18 August 2026 constituting the High Powered Enquiry Committee, and the committee's terms of reference as issued, not as reported.",
     "why_it_matters": "The committee's mandate is reported to include the deployment of pellet guns by name. What it may and may not examine, what powers it has and what it must report on are all fixed by the order, and this archive holds only journalists' accounts of it. The order is also the document that would settle whether this matter is a civil or a criminal writ, which the reporting cites both ways.",
     "lawful_route": "Supreme Court orders are published on the Court's own site and are free. Retrieve it by case number and date of order and record the URL actually fetched. Do not reconstruct a path. If the number is wrong, search the cause list for 10 September 2026, the reported next date.",
     "blocks": [
@@ -545,7 +545,7 @@
     "category": "court_records",
     "jurisdiction": "delhi",
     "question": "The First Information Report registered at Parliament Street police station on 21 August 2026 on the complaint of a student injured at Jantar Mantar: its number, the sections invoked, and who it names.",
-    "why_it_matters": "It is the first criminal case in this archive about the police action rather than about the protest. The sections invoked will show whether it is being investigated as an offence by identified persons or as an incident by persons unknown, and an FIR against unidentified persons can stay that way indefinitely unless somebody is watching.",
+    "why_it_matters": "It is the first criminal case in this archive about the police action, not about the protest. The sections invoked will show whether it is being investigated as an offence by identified persons or as an incident by persons unknown, and an FIR against unidentified persons can stay that way indefinitely unless somebody is watching.",
     "lawful_route": "FIRs are required to be published online within a fixed period (CRT-006), and the Delhi Police publication route is recorded as UNKNOWN (CRT-005), so establishing that route is the first step and is useful well beyond this FIR. Failing that, RTI to the Public Information Officer, Delhi Police, for FIRs registered at Parliament Street police station on 21 August 2026. Ask by station and date, not by the complainant's name.",
     "blocks": [
       "PROC-DEL-003",
@@ -558,8 +558,8 @@
     "category": "document_custody",
     "jurisdiction": "delhi",
     "question": "Copies of the Right to Information replies from Lady Hardinge Medical College and Safdarjung Hospital recording pellet or projectile injuries treated on 20 July 2026.",
-    "why_it_matters": "This is the shortest path from CORROBORATED to VERIFIED anywhere in the archive. The replies exist, an identified person holds them, and every outlet that reported them worked from the same two documents without reproducing either. Holding the replies would mean the archive was reading the hospitals rather than reading the news about the hospitals.",
-    "lawful_route": "Two routes, and the first is a courtesy rather than a statute: ask Saket Gokhale, who obtained them and has publicised them, for copies. Failing that, file the same applications directly with the Public Information Officers of Lady Hardinge Medical College and Safdarjung Hospital, asking only for the number of persons treated for pellet, shot or projectile injuries on 20 July 2026. Ask for a number. Do not ask for anything that identifies a patient, both because it is wrong and because it invites the refusal recorded at OVR-DEL-002.",
+    "why_it_matters": "This is the shortest path from CORROBORATED to VERIFIED anywhere in the archive. The replies exist, an identified person holds them, and every outlet that reported them worked from the same two documents without reproducing either. Holding the replies would mean the archive was reading the hospitals, not reading the news about the hospitals.",
+    "lawful_route": "Two routes, and the first is a courtesy, not a statute: ask Saket Gokhale, who obtained them and has publicised them, for copies. Failing that, file the same applications directly with the Public Information Officers of Lady Hardinge Medical College and Safdarjung Hospital, asking only for the number of persons treated for pellet, shot or projectile injuries on 20 July 2026. Ask for a number. Do not ask for anything that identifies a patient, both because it is wrong and because it invites the refusal recorded at OVR-DEL-002.",
     "blocks": [
       "INC-DEL-006",
       "INC-DEL-005"
@@ -571,7 +571,7 @@
     "category": "rti_mechanics",
     "jurisdiction": "delhi",
     "question": "The AIIMS refusal letter of about 20 August 2026, whether a first appeal was filed against it, and the reply from Ram Manohar Lohia Hospital.",
-    "why_it_matters": "Two hospitals answered a question the third refused, so the refusal is testable rather than merely regrettable. It is marked time critical because a first appeal under section 19(1) must be filed within thirty days of the refusal and that window closes in the second half of September 2026. If no appeal is filed the refusal simply stands, and the count of people treated at the largest hospital in the group is never established.",
+    "why_it_matters": "Two hospitals answered a question the third refused, so the refusal is testable, not merely regrettable. It is marked time critical because a first appeal under section 19(1) must be filed within thirty days of the refusal and that window closes in the second half of September 2026. If no appeal is filed the refusal simply stands, and the count of people treated at the largest hospital in the group is never established.",
     "lawful_route": "The appeal is the applicant's to file and this project cannot file it for him. What this project can do is ask AIIMS the same question itself, which restarts a clock of its own and produces either the number or a second refusal on the same ground, and either outcome is a record. RML can be asked directly for the reply that was never sent. Ask for numbers only.",
     "blocks": [
       "OVR-DEL-002",
@@ -583,7 +583,7 @@
     "priority": "high",
     "category": "existing_documentation",
     "jurisdiction": "bihar",
-    "question": "The fact-finding report of the PUCL Bihar public hearing of 22 August 2026, as a document rather than as reported.",
+    "question": "The fact-finding report of the PUCL Bihar public hearing of 22 August 2026, as a document, not as reported.",
     "why_it_matters": "It is the only sustained account of the Bihar police action that does not come from the State of Bihar, and it names its panel, which means it can be weighed. Three outlets have described it and none has published it. A report that exists and cannot be read is a gap this archive can close by asking.",
     "lawful_route": "Write to the People's Union for Civil Liberties, Bihar unit, and ask for the report and any annexures. This is a request to a civil society organisation for its own published work, not a statutory request, and it should be made as one: say what the archive is, say that the report would be indexed and attributed to PUCL, and say that testimony identifying individuals will not be republished.",
     "blocks": [
