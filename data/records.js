@@ -219,6 +219,24 @@ WGO.offices = [
    the thing itself rather than take the note's word for it. */
 WGO.updates = [
   {
+    date: '2026-08-26',
+    title: 'We stated Bihar\'s figures as though they were the fact, and they are contested',
+    body: 'Our Siwan record said four rounds from an AK-47 at JP Chowk. That is the State of Bihar\'s own account, given on affidavit, and we wrote it as the claim rather than as the State\'s claim. An open-source investigation published on 4 August, which we found only now, geolocates video showing at least nine rounds at two other locations. The discharge of firearms is not in doubt and stays established. The count and the places have been moved out of the claim, attributed to the State, and the conflict is recorded as disputed. The sourcing was never wrong; the framing was.',
+    recordId: 'INC-SIW-003'
+  },
+  {
+    date: '2026-08-26',
+    title: 'Bihar has an account that is not the government\'s',
+    body: 'A public hearing convened by PUCL in Patna on 22 August heard nineteen people who said police assaulted them between 21 and 27 July, before a named four-member panel. Until now almost everything this archive held about Bihar was the State describing its own conduct, which is a bad position for a record to be in. It adds a place we did not have — Sitamarhi — a figure of 64 FIRs, and the reported detention of two lawyers who were assisting detained protesters. What is established is that the hearing happened and what the panel found, not that the findings are true. Sitamarhi is not opened as its own incident on one account, because Siwan was not.',
+    recordId: 'INC-BIH-005'
+  },
+  {
+    date: '2026-08-26',
+    title: 'The committee has been told to take the assault allegations first',
+    body: 'The Chief Justice is reported to have said on 24 August that the order constituting the committee already requires it to treat allegations of sexual assault and violence against women protesters as a priority, and to report on them first. The Court declined to open a separate proceeding of its own. This archive holds no account of what happened to any woman at Jantar Mantar and records none: that allegations exist and a court has directed an inquiry is the whole of what is sourced.',
+    recordId: 'PROC-SC-010'
+  },
+  {
     date: '2026-08-21',
     title: 'Hospital records obtained under RTI put at least ten people in hospital with pellet injuries',
     body: 'Saket Gokhale asked four Delhi hospitals how many people they treated for pellet, shot or projectile injuries on 20 July. Lady Hardinge Medical College answered nine, recorded as pellet or projectile injuries. Safdarjung answered one. AIIMS refused under section 8(1)(j), saying a number could identify a patient. Ram Manohar Lohia had not answered. This is the best-sourced thing on the pellet question and it is not our work, so it is credited to him. Hospital records are independent of both the police and the petitioners \u2014 but a clinical category is not a finding about a weapon, and what was fired is still recorded as disputed.',

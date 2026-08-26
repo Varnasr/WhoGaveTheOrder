@@ -458,5 +458,45 @@
     "incidentId": "INC-0001",
     "level": null,
     "evidenceIds": []
+  },
+  {
+    "id": "OQ-049",
+    "kind": "Question",
+    "title": "The fact-finding report of the PUCL Bihar public hearing of 22 August 2026, as a document rather than as reported.",
+    "state": "UNANSWERED",
+    "url": "https://www.whogavetheorder.in/investigation.html?id=bihar#OQ-049",
+    "incidentId": "INC-0002",
+    "level": null,
+    "evidenceIds": []
+  },
+  {
+    "id": "OQ-050",
+    "kind": "Question",
+    "title": "The 64 FIRs said to have been registered in connection with the Bihar student protests of July 2026, and whether any records police action at Sitamarhi on 21 July.",
+    "state": "UNANSWERED",
+    "url": "https://www.whogavetheorder.in/investigation.html?id=bihar#OQ-050",
+    "incidentId": "INC-0002",
+    "level": null,
+    "evidenceIds": []
+  },
+  {
+    "id": "OQ-051",
+    "kind": "Question",
+    "title": "The advisory on handling protests circulated to Delhi Police personnel after 20 July 2026: the document, who issued it, on what date, and whether any instruction on the use of force or crowd-control weapons was issued alongside it.",
+    "state": "UNANSWERED",
+    "url": "https://www.whogavetheorder.in/investigation.html?id=jantar-mantar#OQ-051",
+    "incidentId": "INC-0001",
+    "level": null,
+    "evidenceIds": []
+  },
+  {
+    "id": "OQ-052",
+    "kind": "Question",
+    "title": "The armoury issue and return registers for the police units deployed at Siwan on 25 July 2026, and any ballistics or forensic examination of the rounds fired.",
+    "state": "UNANSWERED",
+    "url": "https://www.whogavetheorder.in/investigation.html?id=bihar#OQ-052",
+    "incidentId": "INC-0002",
+    "level": null,
+    "evidenceIds": []
   }
 ]

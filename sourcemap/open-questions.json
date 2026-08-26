@@ -577,5 +577,54 @@
       "OVR-DEL-002",
       "INC-DEL-006"
     ]
+  },
+  {
+    "id": "OQ-049",
+    "priority": "high",
+    "category": "existing_documentation",
+    "jurisdiction": "bihar",
+    "question": "The fact-finding report of the PUCL Bihar public hearing of 22 August 2026, as a document rather than as reported.",
+    "why_it_matters": "It is the only sustained account of the Bihar police action that does not come from the State of Bihar, and it names its panel, which means it can be weighed. Three outlets have described it and none has published it. A report that exists and cannot be read is a gap this archive can close by asking.",
+    "lawful_route": "Write to the People's Union for Civil Liberties, Bihar unit, and ask for the report and any annexures. This is a request to a civil society organisation for its own published work, not a statutory request, and it should be made as one: say what the archive is, say that the report would be indexed and attributed to PUCL, and say that testimony identifying individuals will not be republished.",
+    "blocks": [
+      "INC-BIH-005"
+    ]
+  },
+  {
+    "id": "OQ-050",
+    "priority": "medium",
+    "category": "court_records",
+    "jurisdiction": "bihar",
+    "question": "The 64 FIRs said to have been registered in connection with the Bihar student protests of July 2026, and whether any records police action at Sitamarhi on 21 July.",
+    "why_it_matters": "Sixty-four FIRs is a specific number from a named panel and nothing else on this record corroborates it. The FIRs would also settle whether Sitamarhi belongs in this archive as its own incident, which currently rests on a single account.",
+    "lawful_route": "Bihar Police publish FIRs at scrb.bihar.gov.in and CRT-003 records that the State Crime Records Bureau says all FIRs are published there. Search by district and date range for Patna, Siwan and Sitamarhi between 21 and 27 July 2026. That is a public database and needs no application.",
+    "blocks": [
+      "INC-BIH-005"
+    ]
+  },
+  {
+    "id": "OQ-051",
+    "priority": "high",
+    "category": "police_manual",
+    "jurisdiction": "delhi",
+    "question": "The advisory on handling protests circulated to Delhi Police personnel after 20 July 2026: the document, who issued it, on what date, and whether any instruction on the use of force or crowd-control weapons was issued alongside it.",
+    "why_it_matters": "A written instruction to a police force about protests, circulated to 15 districts, is exactly the class of document this archive exists to obtain. As reported it is about how officers appear on camera and says nothing about weapons — but the archive has not read it, and the second half of the question is the important one.",
+    "lawful_route": "RTI to the Public Information Officer, Delhi Police, for any circular, advisory or standing instruction on the handling of public assemblies issued on or after 20 July 2026, and for any instruction on the use of force or crowd-control equipment issued in the same period. Ask for both in one application so that producing the first and withholding the second is a visible choice.",
+    "blocks": [
+      "OVR-DEL-003"
+    ]
+  },
+  {
+    "id": "OQ-052",
+    "priority": "time_critical",
+    "category": "retention",
+    "jurisdiction": "bihar",
+    "question": "The armoury issue and return registers for the police units deployed at Siwan on 25 July 2026, and any ballistics or forensic examination of the rounds fired.",
+    "why_it_matters": "The State says four AK-47 rounds at one location. An open-source investigation says at least nine at two others. An issue and return register settles how many rounds left the armoury and how many came back, and it does so without anybody's account being believed. It is marked time critical because these registers are working documents on ordinary retention schedules and nobody has been reported to have asked for them.",
+    "lawful_route": "RTI to the Public Information Officer, Superintendent of Police, Siwan, for the armoury issue and return register entries for 25 July 2026 and for any forensic or ballistics report on rounds recovered. Ask for the register entries, not for a summary of them. If exemption is claimed, the ground is itself worth publishing.",
+    "blocks": [
+      "INC-SIW-003",
+      "INC-SIW-002"
+    ]
   }
 ]

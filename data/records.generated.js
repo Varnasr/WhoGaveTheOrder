@@ -534,6 +534,83 @@ WGO.importedSources = [
   },
   {
     "id": "SRC-0049",
+    "name": "Alt News",
+    "kind": "SECONDARY",
+    "url": "https://www.altnews.in/bihar-siwan-opened-fire-by-police-on-student-protesters-cjp-bihar-band",
+    "retrievedOn": "2026-08-26",
+    "archiveUrl": null,
+    "archivedOn": null,
+    "sha256": null,
+    "originatesFrom": null
+  },
+  {
+    "id": "SRC-0050",
+    "name": "SabrangIndia",
+    "kind": "SECONDARY",
+    "url": "https://sabrangindia.in/bihar-not-just-delhi-patna-siwan-too-saw-brute-police-violence-against-demonstrating-students-pucl/",
+    "retrievedOn": "2026-08-26",
+    "archiveUrl": null,
+    "archivedOn": null,
+    "sha256": null,
+    "originatesFrom": "PUCL Bihar public hearing and fact-finding panel, Patna, 22 August 2026"
+  },
+  {
+    "id": "SRC-0051",
+    "name": "Free Press Journal",
+    "kind": "SECONDARY",
+    "url": "https://www.freepressjournal.in/india/withdraw-all-firs-pucl-demands-action-after-students-allege-police-brutality-during-neet-protests",
+    "retrievedOn": "2026-08-26",
+    "archiveUrl": null,
+    "archivedOn": null,
+    "sha256": null,
+    "originatesFrom": "PUCL Bihar public hearing and fact-finding panel, Patna, 22 August 2026"
+  },
+  {
+    "id": "SRC-0052",
+    "name": "Counterview",
+    "kind": "SECONDARY",
+    "url": "https://www.counterview.net/2026/08/public-hearing-documents-widespread.html",
+    "retrievedOn": "2026-08-26",
+    "archiveUrl": null,
+    "archivedOn": null,
+    "sha256": null,
+    "originatesFrom": "PUCL Bihar public hearing and fact-finding panel, Patna, 22 August 2026"
+  },
+  {
+    "id": "SRC-0053",
+    "name": "LiveLaw",
+    "kind": "SECONDARY",
+    "url": "https://www.livelaw.in/top-stories/jantar-mantar-protests-we-have-told-committee-to-probe-sexual-assault-cases-on-priority-cji-surya-kant-547096",
+    "retrievedOn": "2026-08-26",
+    "archiveUrl": null,
+    "archivedOn": null,
+    "sha256": null,
+    "originatesFrom": null
+  },
+  {
+    "id": "SRC-0054",
+    "name": "The Tribune",
+    "kind": "SECONDARY",
+    "url": "https://www.tribuneindia.com/news/india/cjp-protests-sc-appointed-panel-to-prioritise-complaints-of-sexual-assault-molestation/",
+    "retrievedOn": "2026-08-26",
+    "archiveUrl": null,
+    "archivedOn": null,
+    "sha256": null,
+    "originatesFrom": null
+  },
+  {
+    "id": "SRC-0055",
+    "name": "LawBeat",
+    "kind": "SECONDARY",
+    "url": "https://lawbeat.in/top-stories/supreme-court-refuses-to-take-suo-motu-cognizance-of-women-sexually-assaulted-at-jantar-mantar-protests-1625139",
+    "retrievedOn": "2026-08-26",
+    "archiveUrl": null,
+    "archivedOn": null,
+    "sha256": null,
+    "originatesFrom": null
+  },
+  {
+    "id": "SRC-0056",
     "name": "India Code",
     "kind": "PRIMARY",
     "url": "https://www.indiacode.nic.in/bitstream/123456789/20340/1/bnss,_2023.pdf",
@@ -544,7 +621,7 @@ WGO.importedSources = [
     "originatesFrom": null
   },
   {
-    "id": "SRC-0050",
+    "id": "SRC-0057",
     "name": "Bureau of Police Research and Development",
     "kind": "PRIMARY",
     "url": "https://bprd.nic.in/uploads/pdf/Comparison%20summary%20BNSS%20to%20CrPC.pdf",
@@ -555,7 +632,7 @@ WGO.importedSources = [
     "originatesFrom": null
   },
   {
-    "id": "SRC-0051",
+    "id": "SRC-0058",
     "name": "Uttar Pradesh Police",
     "kind": "PRIMARY",
     "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202407031502194192BNSS2023-20-45.pdf",
@@ -566,7 +643,7 @@ WGO.importedSources = [
     "originatesFrom": null
   },
   {
-    "id": "SRC-0052",
+    "id": "SRC-0059",
     "name": "onlinelawconnect",
     "kind": "SECONDARY",
     "url": "https://onlinelawconnect.com/actsandrules/criminal/bnss/SummaryChapter11.php",
@@ -577,7 +654,7 @@ WGO.importedSources = [
     "originatesFrom": null
   },
   {
-    "id": "SRC-0053",
+    "id": "SRC-0060",
     "name": "Justice Definitions Project",
     "kind": "SECONDARY",
     "url": "https://www.lawandjusticewiki.org/wiki/Extra-judicial_killings",
@@ -588,7 +665,7 @@ WGO.importedSources = [
     "originatesFrom": null
   },
   {
-    "id": "SRC-0054",
+    "id": "SRC-0061",
     "name": "ApniLaw",
     "kind": "SECONDARY",
     "url": "https://www.apnilaw.com/bare-act/bnss/section-196-bharatiya-nagarik-suraksha-sanhitabnss-inquiry-by-magistrate-into-cause-of-death/",
@@ -599,7 +676,7 @@ WGO.importedSources = [
     "originatesFrom": null
   },
   {
-    "id": "SRC-0055",
+    "id": "SRC-0062",
     "name": "India Code",
     "kind": "PRIMARY",
     "url": "https://www.indiacode.nic.in/bitstream/123456789/13669/1/delhi_police_act.pdf",
@@ -610,7 +687,7 @@ WGO.importedSources = [
     "originatesFrom": null
   },
   {
-    "id": "SRC-0056",
+    "id": "SRC-0063",
     "name": "indianemployees.com",
     "kind": "SECONDARY",
     "url": "https://www.indianemployees.com/acts-rules/details/delhi-police-act-1978",
@@ -621,7 +698,7 @@ WGO.importedSources = [
     "originatesFrom": null
   },
   {
-    "id": "SRC-0057",
+    "id": "SRC-0064",
     "name": "India Code",
     "kind": "PRIMARY",
     "url": "https://www.indiacode.nic.in/bitstream/123456789/20371/1/ashtra_police.pdf",
@@ -632,7 +709,7 @@ WGO.importedSources = [
     "originatesFrom": null
   },
   {
-    "id": "SRC-0058",
+    "id": "SRC-0065",
     "name": "Gurukul Nexus",
     "kind": "SECONDARY",
     "url": "https://blog.gurukulnexus.com/police-regulations-maharashtra-police-act-public-order/",
@@ -643,7 +720,7 @@ WGO.importedSources = [
     "originatesFrom": null
   },
   {
-    "id": "SRC-0059",
+    "id": "SRC-0066",
     "name": "India Code",
     "kind": "PRIMARY",
     "url": "https://www.indiacode.nic.in/bitstream/123456789/11209/1/1094_bihar_bihar_police_act_2007.pdf",
@@ -654,7 +731,7 @@ WGO.importedSources = [
     "originatesFrom": null
   },
   {
-    "id": "SRC-0060",
+    "id": "SRC-0067",
     "name": "LegitQuest",
     "kind": "SECONDARY",
     "url": "https://www.legitquest.com/act/the-bihar-police-amendment-act-2014/FBD1",
@@ -665,7 +742,7 @@ WGO.importedSources = [
     "originatesFrom": null
   },
   {
-    "id": "SRC-0061",
+    "id": "SRC-0068",
     "name": "CaseMine",
     "kind": "SECONDARY",
     "url": null,
@@ -676,7 +753,7 @@ WGO.importedSources = [
     "originatesFrom": null
   },
   {
-    "id": "SRC-0062",
+    "id": "SRC-0069",
     "name": "Ministry of Home Affairs",
     "kind": "PRIMARY",
     "url": "https://www.mha.gov.in/sites/default/files/2025-04/NHRCselectedlettersandguidelinesondeathsincustody_09042019_0[1]_4.pdf",
@@ -687,7 +764,7 @@ WGO.importedSources = [
     "originatesFrom": null
   },
   {
-    "id": "SRC-0063",
+    "id": "SRC-0070",
     "name": "NHRC",
     "kind": "PRIMARY",
     "url": "https://nhrc.nic.in/press-release/nhrc-issues-fresh-guidelines-regarding-intimation-custodial-death",
@@ -698,7 +775,7 @@ WGO.importedSources = [
     "originatesFrom": null
   },
   {
-    "id": "SRC-0064",
+    "id": "SRC-0071",
     "name": "NHRC",
     "kind": "PRIMARY",
     "url": "https://nhrc.nic.in/investigation-division",
@@ -709,7 +786,7 @@ WGO.importedSources = [
     "originatesFrom": null
   },
   {
-    "id": "SRC-0065",
+    "id": "SRC-0072",
     "name": "commoner-law.com",
     "kind": "SECONDARY",
     "url": "https://commoner-law.com/india/police-encounters/encounter-killings-and-custodial-deaths",
@@ -720,7 +797,7 @@ WGO.importedSources = [
     "originatesFrom": null
   },
   {
-    "id": "SRC-0066",
+    "id": "SRC-0073",
     "name": "Bellingcat",
     "kind": "PRIMARY",
     "url": "https://www.bellingcat.com/news/americas/2020/10/29/a-new-platform-maps-us-police-violence-against-protesters/",
@@ -731,7 +808,7 @@ WGO.importedSources = [
     "originatesFrom": null
   },
   {
-    "id": "SRC-0067",
+    "id": "SRC-0074",
     "name": "GIJN",
     "kind": "PRIMARY",
     "url": "https://gijn.org/stories/how-bellingcat-and-forensic-architecture-teamed-up-with-colombias-cerosetenta-to-map-police-violence/",
@@ -742,7 +819,7 @@ WGO.importedSources = [
     "originatesFrom": null
   },
   {
-    "id": "SRC-0068",
+    "id": "SRC-0075",
     "name": "The Polis Project",
     "kind": "PRIMARY",
     "url": "https://thepolisproject.com/research/documenting-custodial-violence-reflections-and-further-research-5/",
@@ -753,7 +830,7 @@ WGO.importedSources = [
     "originatesFrom": null
   },
   {
-    "id": "SRC-0069",
+    "id": "SRC-0076",
     "name": "Wikipedia",
     "kind": "TERTIARY",
     "url": "https://en.wikipedia.org/wiki/DOTO_Database",
@@ -764,7 +841,7 @@ WGO.importedSources = [
     "originatesFrom": null
   },
   {
-    "id": "SRC-0070",
+    "id": "SRC-0077",
     "name": "Common Cause and CSDS",
     "kind": "PRIMARY",
     "url": "https://www.commoncause.in/wotadmin/upload/SPIR_2025.pdf",
@@ -775,11 +852,33 @@ WGO.importedSources = [
     "originatesFrom": null
   },
   {
-    "id": "SRC-0071",
+    "id": "SRC-0078",
     "name": "Sage",
     "kind": "PRIMARY",
     "url": "https://journals.sagepub.com/doi/abs/10.1177/00699659231208696",
     "retrievedOn": "2026-08-16",
+    "archiveUrl": null,
+    "archivedOn": null,
+    "sha256": null,
+    "originatesFrom": null
+  },
+  {
+    "id": "SRC-0079",
+    "name": "Outlook India",
+    "kind": "SECONDARY",
+    "url": "https://www.outlookindia.com/national/they-want-you-to-play-villain-your-angry-face-is-content-delhi-police-gets-post-jantar-mantar-dos-and-donts-list",
+    "retrievedOn": "2026-08-26",
+    "archiveUrl": null,
+    "archivedOn": null,
+    "sha256": null,
+    "originatesFrom": null
+  },
+  {
+    "id": "SRC-0080",
+    "name": "The Federal",
+    "kind": "SECONDARY",
+    "url": "https://thefederal.com/category/states/north/delhi/delhi-police-guidelines-to-handle-gen-z-254444",
+    "retrievedOn": "2026-08-26",
     "archiveUrl": null,
     "archivedOn": null,
     "sha256": null,
@@ -1104,7 +1203,7 @@ WGO.importedEvidence = [
   },
   {
     "id": "INC-SIW-001",
-    "title": "Police discharged firearms during the student protest at Siwan on 25 July 2026: four rounds from an AK-47 near JP Chowk, and two rounds from a 9mm pistol near H",
+    "title": "Police discharged firearms during the student protest at Siwan on 25 July 2026. The State of Bihar's account, given on affidavit to the Supreme Court, is four r",
     "type": "OTHER_DOCUMENT",
     "verification": "CORROBORATED",
     "incidentId": "INC-0004",
@@ -1117,7 +1216,7 @@ WGO.importedEvidence = [
       "SRC-0014"
     ],
     "origin": "",
-    "establishes": "The source of all of this is one document — the State of Bihar's affidavit to the Supreme Court, reported on 18 August 2026 — and the outlets are independent reports OF THAT DOCUMENT rather than independent knowledge of the events. What is corroborated is therefore what the State has said, which for the discharge of firearms is an admission against itself and is recorded as established. ANI is a wire; outlets carrying its copy are not additional sources. THE FIRST FIREARMS IN THIS ARCHIVE. Everything on the record until now concerned lathis, tear gas and detentions. NOT ESTABLISHED, and deliberately not written above: whether the AK-47 rounds were fired into the air, whether the constable was surrounded, and whether the three injured were hit by the pistol — those are the State's characterisations and sit at PROC-SC-004. Nor is anything established about who authorised an armed deployment at a student protest.",
+    "establishes": "AMENDED 26 AUGUST 2026. This record previously stated the State's figures as the claim itself: 'four rounds from an AK-47 near JP Chowk, and two rounds from a 9mm pistol near Hathi Chowk'. An open-source investigation published on 4 August, which the archive found late, puts the count higher and at different places (INC-SIW-002). The discharge of firearms is not in doubt and remains established; the count and the locations have been moved out of the claim and attributed to the State, and the conflict is recorded at INC-SIW-003. What this archive got wrong was not the sourcing but the framing: a number that only one interested party had given was written as though it were the fact. The source of all of this is one document — the State of Bihar's affidavit to the Supreme Court, reported on 18 August 2026 — and the outlets are independent reports OF THAT DOCUMENT rather than independent knowledge of the events. What is corroborated is therefore what the State has said, which for the discharge of firearms is an admission against itself and is recorded as established. ANI is a wire; outlets carrying its copy are not additional sources. THE FIRST FIREARMS IN THIS ARCHIVE. Everything on the record until now concerned lathis, tear gas and detentions. NOT ESTABLISHED, and deliberately not written above: whether the AK-47 rounds were fired into the air, whether the constable was surrounded, and whether the three injured were hit by the pistol — those are the State's characterisations and sit at PROC-SC-004. Nor is anything established about who authorised an armed deployment at a student protest.",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -1360,6 +1459,84 @@ WGO.importedEvidence = [
     "relatedIds": [],
     "accessNote": "",
     "volatility": "medium"
+  },
+  {
+    "id": "INC-SIW-002",
+    "title": "An open-source investigation published by Alt News on 4 August 2026, based on geolocated bystander video from several angles, reports at least nine rounds fired",
+    "type": "OTHER_DOCUMENT",
+    "verification": "REPORTED",
+    "incidentId": "INC-0004",
+    "dateOfItem": null,
+    "dateAdded": "2026-08-16",
+    "sourceIds": [
+      "SRC-0049"
+    ],
+    "origin": "",
+    "establishes": "ONE PUBLICATION, BUT NOT ONE OF THE USUAL KIND. This is not a report of somebody else's document; it is the outlet's own analysis of video it geolocated, which makes it primary work by a secondary source. The archive cannot check it without the footage, so it stays REPORTED, and REPORTED here means 'we have not verified this', not 'we doubt it'. WHY IT MATTERS: it is the first account of Siwan that does not come from the State of Bihar. Everything else this archive holds about that day is the State describing its own conduct. WHAT IT CONFLICTS WITH: the State's affidavit figure of four AK-47 rounds at JP Chowk. Nine is not four, and the district commandant's office is not JP Chowk. Both cannot be complete. The conflict is recorded at INC-SIW-003 rather than resolved here. ON THE NAMED CONSTABLE: the article identifies in one video the constable the State named and suspended. This archive named him because the State did; it does not add anything to that on the strength of a video it has not seen. WHAT WOULD SETTLE IT: the armoury issue and return register for the units deployed at Siwan on 25 July, and any ballistics or forensic report. See OQ-052.",
+    "doesNotEstablish": "",
+    "relatedIds": [],
+    "accessNote": "",
+    "volatility": "high"
+  },
+  {
+    "id": "INC-SIW-003",
+    "title": "How many rounds were fired by police at Siwan on 25 July 2026, from how many weapons, and at how many locations.",
+    "type": "OTHER_DOCUMENT",
+    "verification": "DISPUTED",
+    "incidentId": "INC-0004",
+    "dateOfItem": null,
+    "dateAdded": "2026-08-16",
+    "sourceIds": [
+      "SRC-0012",
+      "SRC-0049",
+      "SRC-0050"
+    ],
+    "origin": "",
+    "establishes": "THE STATE SAYS FOUR AK-47 ROUNDS AT ONE PLACE. An open-source investigation says at least nine at two places, neither of them the place the State names, plus two separate pistol incidents. A civil liberties body's public hearing records firing on students without warning and AK-47 use, but gives no count. A member of Parliament is reported to have denied that AK-47s were used at all. THE ARCHIVE DOES NOT SPLIT THE DIFFERENCE. Averaging four and nine would produce a number nobody has claimed and no document supports, which is worse than saying it is disputed. WHAT IS NOT DISPUTED, AND IS RECORDED SEPARATELY AT INC-SIW-001: that police discharged firearms at a student protest that day. Everyone accepts that, including the State, which is why it is established while the count is not. WHY THE COUNT MATTERS BEYOND ARITHMETIC: four rounds from one trapped constable is an account of a man in fear. Nine rounds from more than one officer at two locations is an account of something else. The difference is the whole question of whether this was a firing or an incident, and it turns on records that exist: see OQ-052.",
+    "doesNotEstablish": "",
+    "relatedIds": [],
+    "accessNote": "",
+    "volatility": "high"
+  },
+  {
+    "id": "INC-BIH-005",
+    "title": "A public hearing convened by the Bihar unit of the People's Union for Civil Liberties at the IMA Hall, Gandhi Maidan, Patna, on 22 August 2026 heard 19 people w",
+    "type": "OTHER_DOCUMENT",
+    "verification": "CORROBORATED",
+    "incidentId": "INC-0002",
+    "dateOfItem": null,
+    "dateAdded": "2026-08-16",
+    "sourceIds": [
+      "SRC-0050",
+      "SRC-0051",
+      "SRC-0052"
+    ],
+    "origin": "",
+    "establishes": "WHAT IS ESTABLISHED HERE IS THAT THE HEARING HAPPENED AND WHAT IT FOUND — not that the findings are true. A fact-finding panel is not a court and its conclusions are not evidence of the events; they are the considered account of named people who heard witnesses. The archive records them as that, with the panel named so a reader can weigh it. THIS IS THE FIRST ACCOUNT OF BIHAR THAT IS NOT THE STATE'S. Until now the record for Bihar was almost entirely the government describing itself, which is a bad position for an archive to be in and is worth saying out loud. THREE THINGS IT ADDS THAT NOTHING ELSE HERE HAD: Sitamarhi, where police are said to have entered a welfare hostel on the evening of 21 July and beaten students, a place and date this archive did not hold; the figure of 64 FIRs; and the reported detention of two PUCL lawyers assisting detained protesters, who are said to have been charged and paraded handcuffed. SITAMARHI IS NOT YET ITS OWN INCIDENT. Siwan was opened as a separate incident because a State affidavit put it beyond doubt. Sitamarhi rests on one panel's account, and opening an incident on that alone would be a lower standard than the one applied to Siwan. It is recorded here and will be opened when a second, independent account or a document supports it. See OQ-050. THE REPORT ITSELF IS NOT HELD: what the archive has is three outlets' accounts of it. See OQ-049.",
+    "doesNotEstablish": "",
+    "relatedIds": [],
+    "accessNote": "",
+    "volatility": "medium"
+  },
+  {
+    "id": "PROC-SC-010",
+    "title": "On 24 August 2026 the Chief Justice of India is reported to have said that the Court's order of 18 August already requires the High Powered Enquiry Committee to",
+    "type": "COURT_DOCUMENT",
+    "verification": "CORROBORATED",
+    "incidentId": "INC-0001",
+    "dateOfItem": null,
+    "dateAdded": "2026-08-16",
+    "sourceIds": [
+      "SRC-0053",
+      "SRC-0054",
+      "SRC-0055"
+    ],
+    "origin": "",
+    "establishes": "TWO THINGS HAPPENED AND THEY ARE EASY TO CONFLATE. The Court declined to open a suo motu proceeding on the sexual assault allegations, and the Court said those allegations are already inside the committee's mandate and must be reported on first. A headline can make either of those the story. The archive records both in the same sentence for that reason. WHAT THIS ARCHIVE HAS NOT RECORDED AND WILL NOT UNTIL IT IS SOURCED: what happened to any woman at Jantar Mantar. The allegations are before a committee and this archive holds no account, no complaint and no medical record. Their existence as allegations is recorded because a court has directed an inquiry into them; nothing about their content is. The challenge to the committee's composition is noted because if it succeeds the committee at PROC-SC-006 changes, and this archive should not be describing a body that has been reconstituted. No order on that challenge is held.",
+    "doesNotEstablish": "",
+    "relatedIds": [],
+    "accessNote": "",
+    "volatility": "high"
   }
 ];
 
@@ -1658,9 +1835,9 @@ WGO.importedFramework = [
     "text": "BNSS 2023 Chapter XI Part A, Unlawful Assemblies: s.148 dispersal of assembly by use of civil force; s.149 use of armed forces to disperse assembly; s.150 power of certain armed force officers to disperse assembly; s.151 protection against prosecution for acts done under ss.148, 149 and 150.",
     "confidence": "VERIFIED",
     "sourceIds": [
-      "SRC-0049",
-      "SRC-0050",
-      "SRC-0051"
+      "SRC-0056",
+      "SRC-0057",
+      "SRC-0058"
     ],
     "category": "statute",
     "jurisdiction": "all",
@@ -1671,8 +1848,8 @@ WGO.importedFramework = [
     "text": "CrPC to BNSS mapping: 129 to 148, 130 to 149, 131 to 150, 132 to 151. All incidents in this archive postdate 1 July 2024, so BNSS governs and there is no CrPC overlay. Mapping is recorded only for reading pre-2024 material.",
     "confidence": "VERIFIED",
     "sourceIds": [
-      "SRC-0051",
-      "SRC-0050"
+      "SRC-0058",
+      "SRC-0057"
     ],
     "category": "statute",
     "jurisdiction": "all",
@@ -1683,7 +1860,7 @@ WGO.importedFramework = [
     "text": "Textual change at s.149: 'any such assembly' replaced by 'any assembly referred to in sub-section (1) of section 148'; 'Executive Magistrate of the highest rank' replaced by 'District Magistrate or any other Executive Magistrate authorised by him'; in sub-section (2) 'Magistrate' replaced by 'Executive Magistrate'. Sections 148 and 150 unchanged from CrPC. In s.151, 'military' replaced by 'army'.",
     "confidence": "VERIFIED",
     "sourceIds": [
-      "SRC-0050"
+      "SRC-0057"
     ],
     "category": "statute",
     "jurisdiction": "all",
@@ -1694,7 +1871,7 @@ WGO.importedFramework = [
     "text": "BNSS s.149(3) requires the armed forces officer to obey the requisition using as little force, and doing as little injury to person and property, as may be consistent with dispersing the assembly.",
     "confidence": "REPORTED",
     "sourceIds": [
-      "SRC-0052"
+      "SRC-0059"
     ],
     "category": "statute",
     "jurisdiction": "all",
@@ -1705,7 +1882,7 @@ WGO.importedFramework = [
     "text": "BNSS s.163 is the provision on urgent cases of nuisance or apprehended danger, replacing CrPC s.144, located in Chapter XI Part C.",
     "confidence": "VERIFIED",
     "sourceIds": [
-      "SRC-0049"
+      "SRC-0056"
     ],
     "category": "statute",
     "jurisdiction": "all",
@@ -1716,8 +1893,8 @@ WGO.importedFramework = [
     "text": "BNSS s.196 governs inquiry by a Magistrate into cause of death, replacing CrPC s.176 including s.176(1A). s.196(2) is triggered by death or disappearance, or alleged rape, in police custody or other custody authorised by a Magistrate or Court.",
     "confidence": "REPORTED",
     "sourceIds": [
-      "SRC-0053",
-      "SRC-0054"
+      "SRC-0060",
+      "SRC-0061"
     ],
     "category": "statute",
     "jurisdiction": "all",
@@ -1728,7 +1905,7 @@ WGO.importedFramework = [
     "text": "Delhi Police Act 1978 (Act 34 of 1978): s.28 power to make regulations for regulating traffic and preservation of order in public places; s.29 power to give directions to the public; s.30 power to prohibit certain acts for prevention of disorder; s.31 police to provide against disorder at places of public amusement or public assembly or meeting; s.33 issue of order of prevention of riot; s.113 penalties for contravention of orders under ss.29 to 34.",
     "confidence": "VERIFIED",
     "sourceIds": [
-      "SRC-0055"
+      "SRC-0062"
     ],
     "category": "statute",
     "jurisdiction": "delhi",
@@ -1739,7 +1916,7 @@ WGO.importedFramework = [
     "text": "Delhi Police Act s.31(3) and (4): the Commissioner of Police may by publicly promulgated notification prohibit any assembly or procession for such time as he considers necessary for preservation of public order; no such notification remains in force more than fifteen days, extendable by the Administrator by gazette order for a further period not exceeding six months.",
     "confidence": "REPORTED",
     "sourceIds": [
-      "SRC-0056"
+      "SRC-0063"
     ],
     "category": "statute",
     "jurisdiction": "delhi",
@@ -1750,7 +1927,7 @@ WGO.importedFramework = [
     "text": "Maharashtra Police Act 1951 (Bombay Act 22 of 1951): s.37 power to prohibit certain acts for prevention of disorder; s.38 music, sound or noise; s.70 enforcement of orders issued under ss.37, 38 or 39; s.71 duty of police to see orders under ss.43, 55, 56, 57 are carried out; s.135 penalty for contravention of directions under ss.37, 39 or 40.",
     "confidence": "VERIFIED",
     "sourceIds": [
-      "SRC-0057"
+      "SRC-0064"
     ],
     "category": "statute",
     "jurisdiction": "maharashtra",
@@ -1761,7 +1938,7 @@ WGO.importedFramework = [
     "text": "Maharashtra Police Act ss.33, 36, 39, 41: s.33 general regulation including processions and assemblies; ss.36 and 37 immediate threats to public peace, with the Commissioner or District Magistrate able to prohibit an assembly or procession for a period; s.39 order on public roads; s.41 stopping and dispersing an assembly or procession that breaches licence conditions under s.33.",
     "confidence": "REPORTED",
     "sourceIds": [
-      "SRC-0058"
+      "SRC-0065"
     ],
     "category": "statute",
     "jurisdiction": "maharashtra",
@@ -1772,7 +1949,7 @@ WGO.importedFramework = [
     "text": "Bihar Police Act 2007 s.66, regulation of public meetings and processions: the organiser must give written intimation to the Station House Officer of the concerned police station; an officer of at least Assistant or Deputy Superintendent rank may give directions for the conduct of meetings and processions on public roads and decide route and time.",
     "confidence": "VERIFIED",
     "sourceIds": [
-      "SRC-0059"
+      "SRC-0066"
     ],
     "category": "statute",
     "jurisdiction": "bihar",
@@ -1783,8 +1960,8 @@ WGO.importedFramework = [
     "text": "Whether the Bihar Police Act 2007 is Bihar Act 1 of 2007 or Bihar Act 7 of 2007.",
     "confidence": "DISPUTED",
     "sourceIds": [
-      "SRC-0059",
-      "SRC-0060"
+      "SRC-0066",
+      "SRC-0067"
     ],
     "category": "statute",
     "jurisdiction": "bihar",
@@ -1813,7 +1990,7 @@ WGO.importedFramework = [
     "text": "The Bihar Police Manual exists and has been judicially discussed, including whether it has statutory character, its preface indicating issue by and with the authority of the State Government under ss.7 and 12 of the Police Act 1861, with specific rules including 1185A and 1186 referred to in litigation.",
     "confidence": "UNVERIFIED",
     "sourceIds": [
-      "SRC-0061"
+      "SRC-0068"
     ],
     "category": "police_manual",
     "jurisdiction": "bihar",
@@ -1833,7 +2010,7 @@ WGO.importedFramework = [
     "text": "NHRC 1993 instruction, letter from the Secretary General to Chief Secretaries of all States and Union Territories, directing District Magistrates and Superintendents of Police of every district to report custodial deaths and rapes to the Secretary General within 24 hours of occurrence or of coming to know of them.",
     "confidence": "VERIFIED",
     "sourceIds": [
-      "SRC-0062"
+      "SRC-0069"
     ],
     "category": "guideline",
     "jurisdiction": "all",
@@ -1844,7 +2021,7 @@ WGO.importedFramework = [
     "text": "NHRC fresh guidelines requiring all reports including post-mortem, videograph and magisterial inquiry report to be sent within two months of the incident, with post-mortem reports in a proforma designed by the Commission.",
     "confidence": "VERIFIED",
     "sourceIds": [
-      "SRC-0063"
+      "SRC-0070"
     ],
     "category": "guideline",
     "jurisdiction": "all",
@@ -1855,7 +2032,7 @@ WGO.importedFramework = [
     "text": "NHRC mandates that all deaths during police action, including encounters, be reported within 48 hours.",
     "confidence": "VERIFIED",
     "sourceIds": [
-      "SRC-0064"
+      "SRC-0071"
     ],
     "category": "guideline",
     "jurisdiction": "all",
@@ -1866,7 +2043,7 @@ WGO.importedFramework = [
     "text": "Following complaint 234 (1 to 6)/93-94, Justice M.N. Venkatachaliah as NHRC Chairperson wrote to all Chief Ministers on 29 March 1997 recommending the procedure to be followed in cases of encounter deaths.",
     "confidence": "VERIFIED",
     "sourceIds": [
-      "SRC-0062"
+      "SRC-0069"
     ],
     "category": "guideline",
     "jurisdiction": "all",
@@ -1877,7 +2054,7 @@ WGO.importedFramework = [
     "text": "PUCL v. State of Maharashtra, cited as (2014) 10 SCC 635, is said to lay down a 16-point protocol for police encounter deaths covering FIR registration, magisterial inquiry and forensic preservation. D.K. Basu v. State of West Bengal, cited as (1997) 1 SCC 416, custodial rights guidelines.",
     "confidence": "REPORTED",
     "sourceIds": [
-      "SRC-0065"
+      "SRC-0072"
     ],
     "category": "guideline",
     "jurisdiction": "all",
@@ -1897,7 +2074,7 @@ WGO.importedFramework = [
     "text": "Bellingcat and Forensic Architecture identified, verified and archived over 1,000 incidents of police violence against protesters across the United States since May 2020, visualised using TimeMap, a Forensic Architecture platform mapping incidents in space and time. They limited the published dataset to media already having at least 5,000 views, so as not to amplify imagery that had not been widely seen.",
     "confidence": "VERIFIED",
     "sourceIds": [
-      "SRC-0066"
+      "SRC-0073"
     ],
     "category": "precedent",
     "jurisdiction": "external",
@@ -1908,7 +2085,7 @@ WGO.importedFramework = [
     "text": "Method used with Cerosetenta in Colombia: geolocation and chronolocation of protest video, establishing where and when a video was taken to give it evidentiary power, including by finding other videos of the same event and building a time sequence, then archiving all video after verification.",
     "confidence": "VERIFIED",
     "sourceIds": [
-      "SRC-0067"
+      "SRC-0074"
     ],
     "category": "precedent",
     "jurisdiction": "external",
@@ -1919,7 +2096,7 @@ WGO.importedFramework = [
     "text": "The Polis Project tracked 15 custodial death cases in India and reported two operational obstacles: court documents are not easily available on online government portals, being either not uploaded or not accessible; and victims' names are spelt differently across English-language news reports, which makes tracking hard. They also reflect on working on a politically charged project in an environment where holding the State accountable has become dangerous and difficult.",
     "confidence": "VERIFIED",
     "sourceIds": [
-      "SRC-0068"
+      "SRC-0075"
     ],
     "category": "precedent",
     "jurisdiction": "india",
@@ -1930,7 +2107,7 @@ WGO.importedFramework = [
     "text": "The DOTO Database is a common documentation platform for civil society to report hate crime incidents across India, documenting verifiable incidents of targeted violence as reported in English and Urdu media as well as fact-finding and civil society reports, combining crowd-sourcing with its own investigative and editorial teams.",
     "confidence": "REPORTED",
     "sourceIds": [
-      "SRC-0069"
+      "SRC-0076"
     ],
     "category": "precedent",
     "jurisdiction": "india",
@@ -1941,7 +2118,7 @@ WGO.importedFramework = [
     "text": "Status of Policing in India Report 2025, Common Cause and CSDS, on police torture and accountability. Survey-based with an explicit methodological note on social desirability bias.",
     "confidence": "VERIFIED",
     "sourceIds": [
-      "SRC-0070"
+      "SRC-0077"
     ],
     "category": "precedent",
     "jurisdiction": "india",
@@ -1952,7 +2129,7 @@ WGO.importedFramework = [
     "text": "Moyukh Chatterjee, 'Archives as the Infrastructure of Anti-Muslim Violence in India' (2023), a reading of over 100 police First Information Reports from the 2002 Gujarat pogrom, proposing a compositional approach to legal archives of violence.",
     "confidence": "VERIFIED",
     "sourceIds": [
-      "SRC-0071"
+      "SRC-0078"
     ],
     "category": "precedent",
     "jurisdiction": "india",
@@ -1966,6 +2143,18 @@ WGO.importedFramework = [
     "category": "precedent",
     "jurisdiction": "india",
     "note": "Only the Polis Project's general reflection at PREC-003 was found, and that is a reflection rather than an account of a particular incident. Treat the absence as a failure to find, not as evidence that it has not happened."
+  },
+  {
+    "id": "OVR-DEL-003",
+    "text": "An advisory on handling protests, reported as framed by central agencies, has been circulated to Delhi Police personnel across all 15 districts and the Railway and Metro units following the Jantar Mantar police action. It is reported to instruct personnel to stay calm before protesters' cameras, not to argue or engage, to avoid touching women protesters and to leave such situations to women officers, and to assist anyone who faints or is injured.",
+    "confidence": "REPORTED",
+    "sourceIds": [
+      "SRC-0079",
+      "SRC-0080"
+    ],
+    "category": "guideline",
+    "jurisdiction": "delhi",
+    "note": "READ WHAT THIS ADVISORY IS ABOUT, AND THEN READ WHAT IT IS NOT ABOUT. As reported, it concerns how officers appear on camera: composure, tone, not being filmed losing one's temper. 'Your angry face is their content' is the line every outlet has quoted. Nothing in any account of it addresses crowd-control weapons, when force may be used, who may authorise it, or what happened on 20 July. THE ARCHIVE DRAWS NO CONCLUSION FROM THAT ABSENCE, because the archive has not read the document and an advisory on conduct is not the place a weapons authority would necessarily sit. What it does record is that this is the only instruction to Delhi Police personnel reported to have issued since 20 July, and that as reported it is about presentation. IT IS ALSO, POTENTIALLY, THE KIND OF DOCUMENT THIS ARCHIVE EXISTS TO FIND: a written instruction to a police force about handling protests, issued by an identifiable authority on an identifiable date. If a written advisory on conduct can be circulated to 15 districts, the question of whether a written instruction governed 20 July becomes sharper rather than softer. See OQ-051."
   }
 ];
 
@@ -2778,6 +2967,75 @@ WGO.importedQuestions = [
       "INC-DEL-006"
     ],
     "category": "rti_mechanics"
+  },
+  {
+    "id": "OQ-049",
+    "incidentId": "INC-0002",
+    "text": "The fact-finding report of the PUCL Bihar public hearing of 22 August 2026, as a document rather than as reported.",
+    "priority": "HIGH",
+    "whyItMatters": "It is the only sustained account of the Bihar police action that does not come from the State of Bihar, and it names its panel, which means it can be weighed. Three outlets have described it and none has published it. A report that exists and cannot be read is a gap this archive can close by asking.",
+    "lawfulRoute": "Write to the People's Union for Civil Liberties, Bihar unit, and ask for the report and any annexures. This is a request to a civil society organisation for its own published work, not a statutory request, and it should be made as one: say what the archive is, say that the report would be indexed and attributed to PUCL, and say that testimony identifying individuals will not be republished.",
+    "state": "UNANSWERED",
+    "wants": [
+      "Write to the People's Union for Civil Liberties, Bihar unit, and ask for the report and any annexures. This is a request to a civil society organisation for its own published work, not a statutory request, and it should be made as one: say what the archive is, say that the report would be indexed and attributed to PUCL, and say that testimony identifying individuals will not be republished."
+    ],
+    "evidenceIds": [],
+    "blocks": [
+      "INC-BIH-005"
+    ],
+    "category": "existing_documentation"
+  },
+  {
+    "id": "OQ-050",
+    "incidentId": "INC-0002",
+    "text": "The 64 FIRs said to have been registered in connection with the Bihar student protests of July 2026, and whether any records police action at Sitamarhi on 21 July.",
+    "priority": "MEDIUM",
+    "whyItMatters": "Sixty-four FIRs is a specific number from a named panel and nothing else on this record corroborates it. The FIRs would also settle whether Sitamarhi belongs in this archive as its own incident, which currently rests on a single account.",
+    "lawfulRoute": "Bihar Police publish FIRs at scrb.bihar.gov.in and CRT-003 records that the State Crime Records Bureau says all FIRs are published there. Search by district and date range for Patna, Siwan and Sitamarhi between 21 and 27 July 2026. That is a public database and needs no application.",
+    "state": "UNANSWERED",
+    "wants": [
+      "Bihar Police publish FIRs at scrb.bihar.gov.in and CRT-003 records that the State Crime Records Bureau says all FIRs are published there. Search by district and date range for Patna, Siwan and Sitamarhi between 21 and 27 July 2026. That is a public database and needs no application."
+    ],
+    "evidenceIds": [],
+    "blocks": [
+      "INC-BIH-005"
+    ],
+    "category": "court_records"
+  },
+  {
+    "id": "OQ-051",
+    "incidentId": "INC-0001",
+    "text": "The advisory on handling protests circulated to Delhi Police personnel after 20 July 2026: the document, who issued it, on what date, and whether any instruction on the use of force or crowd-control weapons was issued alongside it.",
+    "priority": "HIGH",
+    "whyItMatters": "A written instruction to a police force about protests, circulated to 15 districts, is exactly the class of document this archive exists to obtain. As reported it is about how officers appear on camera and says nothing about weapons — but the archive has not read it, and the second half of the question is the important one.",
+    "lawfulRoute": "RTI to the Public Information Officer, Delhi Police, for any circular, advisory or standing instruction on the handling of public assemblies issued on or after 20 July 2026, and for any instruction on the use of force or crowd-control equipment issued in the same period. Ask for both in one application so that producing the first and withholding the second is a visible choice.",
+    "state": "UNANSWERED",
+    "wants": [
+      "RTI to the Public Information Officer, Delhi Police, for any circular, advisory or standing instruction on the handling of public assemblies issued on or after 20 July 2026, and for any instruction on the use of force or crowd-control equipment issued in the same period. Ask for both in one application so that producing the first and withholding the second is a visible choice."
+    ],
+    "evidenceIds": [],
+    "blocks": [
+      "OVR-DEL-003"
+    ],
+    "category": "police_manual"
+  },
+  {
+    "id": "OQ-052",
+    "incidentId": "INC-0002",
+    "text": "The armoury issue and return registers for the police units deployed at Siwan on 25 July 2026, and any ballistics or forensic examination of the rounds fired.",
+    "priority": "TIME_CRITICAL",
+    "whyItMatters": "The State says four AK-47 rounds at one location. An open-source investigation says at least nine at two others. An issue and return register settles how many rounds left the armoury and how many came back, and it does so without anybody's account being believed. It is marked time critical because these registers are working documents on ordinary retention schedules and nobody has been reported to have asked for them.",
+    "lawfulRoute": "RTI to the Public Information Officer, Superintendent of Police, Siwan, for the armoury issue and return register entries for 25 July 2026 and for any forensic or ballistics report on rounds recovered. Ask for the register entries, not for a summary of them. If exemption is claimed, the ground is itself worth publishing.",
+    "state": "UNANSWERED",
+    "wants": [
+      "RTI to the Public Information Officer, Superintendent of Police, Siwan, for the armoury issue and return register entries for 25 July 2026 and for any forensic or ballistics report on rounds recovered. Ask for the register entries, not for a summary of them. If exemption is claimed, the ground is itself worth publishing."
+    ],
+    "evidenceIds": [],
+    "blocks": [
+      "INC-SIW-003",
+      "INC-SIW-002"
+    ],
+    "category": "retention"
   }
 ];
 
@@ -3018,7 +3276,7 @@ WGO.importedOfficeBasis = {
       "text": "Delhi Police Act 1978 (Act 34 of 1978): s.28 power to make regulations for regulating traffic and preservation of order in public places; s.29 power to give directions to the public; s.30 power to prohibit certain acts for prevention of disorder; s.31 police to provide against disorder at places of public amusement or public assembly or meeting; s.33 issue of order of prevention of riot; s.113 penalties for contravention of orders under ss.29 to 34.",
       "confidence": "VERIFIED",
       "sourceIds": [
-        "SRC-0055"
+        "SRC-0062"
       ],
       "why": "Delhi Police is a Union-administered force; the Act constituting its powers is the framework the ministry administers."
     }
@@ -3036,7 +3294,7 @@ WGO.importedOfficeBasis = {
       "text": "The Bihar Police Manual exists and has been judicially discussed, including whether it has statutory character, its preface indicating issue by and with the authority of the State Government under ss.7 and 12 of the Police Act 1861, with specific rules including 1185A and 1186 referred to in litigation.",
       "confidence": "UNVERIFIED",
       "sourceIds": [
-        "SRC-0061"
+        "SRC-0068"
       ],
       "why": "The police manual is issued under state government authority, which makes the home department its custodian."
     },
@@ -3054,7 +3312,7 @@ WGO.importedOfficeBasis = {
       "text": "NHRC 1993 instruction, letter from the Secretary General to Chief Secretaries of all States and Union Territories, directing District Magistrates and Superintendents of Police of every district to report custodial deaths and rapes to the Secretary General within 24 hours of occurrence or of coming to know of them.",
       "confidence": "VERIFIED",
       "sourceIds": [
-        "SRC-0062"
+        "SRC-0069"
       ],
       "why": "The NHRC instruction directs District Magistrates and Superintendents of Police to report; the DGP is the force-wide channel through which that reporting is enforced."
     },
@@ -3063,7 +3321,7 @@ WGO.importedOfficeBasis = {
       "text": "NHRC mandates that all deaths during police action, including encounters, be reported within 48 hours.",
       "confidence": "VERIFIED",
       "sourceIds": [
-        "SRC-0064"
+        "SRC-0071"
       ],
       "why": "The 48-hour reporting requirement for deaths during police action binds the force, not an individual district."
     }
@@ -3074,7 +3332,7 @@ WGO.importedOfficeBasis = {
       "text": "Delhi Police Act 1978 (Act 34 of 1978): s.28 power to make regulations for regulating traffic and preservation of order in public places; s.29 power to give directions to the public; s.30 power to prohibit certain acts for prevention of disorder; s.31 police to provide against disorder at places of public amusement or public assembly or meeting; s.33 issue of order of prevention of riot; s.113 penalties for contravention of orders under ss.29 to 34.",
       "confidence": "VERIFIED",
       "sourceIds": [
-        "SRC-0055"
+        "SRC-0062"
       ],
       "why": "Delhi Police Act ss.28 to 30: regulation of public places, directions to the public, and the power to prohibit certain acts."
     },
@@ -3083,7 +3341,7 @@ WGO.importedOfficeBasis = {
       "text": "Delhi Police Act s.31(3) and (4): the Commissioner of Police may by publicly promulgated notification prohibit any assembly or procession for such time as he considers necessary for preservation of public order; no such notification remains in force more than fifteen days, extendable by the Administrator by gazette order for a further period not exceeding six months.",
       "confidence": "REPORTED",
       "sourceIds": [
-        "SRC-0056"
+        "SRC-0063"
       ],
       "why": "Delhi Police Act s.31(3) and (4) names the Commissioner of Police as the office that may prohibit an assembly by promulgated notification."
     },
@@ -3092,7 +3350,7 @@ WGO.importedOfficeBasis = {
       "text": "Maharashtra Police Act 1951 (Bombay Act 22 of 1951): s.37 power to prohibit certain acts for prevention of disorder; s.38 music, sound or noise; s.70 enforcement of orders issued under ss.37, 38 or 39; s.71 duty of police to see orders under ss.43, 55, 56, 57 are carried out; s.135 penalty for contravention of directions under ss.37, 39 or 40.",
       "confidence": "VERIFIED",
       "sourceIds": [
-        "SRC-0057"
+        "SRC-0064"
       ],
       "why": "Maharashtra Police Act s.37 and the enforcement provisions at ss.70 and 71."
     },
@@ -3101,7 +3359,7 @@ WGO.importedOfficeBasis = {
       "text": "Maharashtra Police Act ss.33, 36, 39, 41: s.33 general regulation including processions and assemblies; ss.36 and 37 immediate threats to public peace, with the Commissioner or District Magistrate able to prohibit an assembly or procession for a period; s.39 order on public roads; s.41 stopping and dispersing an assembly or procession that breaches licence conditions under s.33.",
       "confidence": "REPORTED",
       "sourceIds": [
-        "SRC-0058"
+        "SRC-0065"
       ],
       "why": "Maharashtra Police Act ss.36 and 37 name the Commissioner or the District Magistrate; in a commissionerate the power sits here."
     },
@@ -3119,7 +3377,7 @@ WGO.importedOfficeBasis = {
       "text": "Textual change at s.149: 'any such assembly' replaced by 'any assembly referred to in sub-section (1) of section 148'; 'Executive Magistrate of the highest rank' replaced by 'District Magistrate or any other Executive Magistrate authorised by him'; in sub-section (2) 'Magistrate' replaced by 'Executive Magistrate'. Sections 148 and 150 unchanged from CrPC. In s.151, 'military' replaced by 'army'.",
       "confidence": "VERIFIED",
       "sourceIds": [
-        "SRC-0050"
+        "SRC-0057"
       ],
       "why": "The amended s.149 names the District Magistrate, or another Executive Magistrate authorised in writing, as the office that may requisition armed force."
     },
@@ -3128,7 +3386,7 @@ WGO.importedOfficeBasis = {
       "text": "BNSS s.163 is the provision on urgent cases of nuisance or apprehended danger, replacing CrPC s.144, located in Chapter XI Part C.",
       "confidence": "VERIFIED",
       "sourceIds": [
-        "SRC-0049"
+        "SRC-0056"
       ],
       "why": "BNSS s.163, urgent cases of nuisance or apprehended danger, is an executive magistrate power."
     },
@@ -3137,8 +3395,8 @@ WGO.importedOfficeBasis = {
       "text": "BNSS s.196 governs inquiry by a Magistrate into cause of death, replacing CrPC s.176 including s.176(1A). s.196(2) is triggered by death or disappearance, or alleged rape, in police custody or other custody authorised by a Magistrate or Court.",
       "confidence": "REPORTED",
       "sourceIds": [
-        "SRC-0053",
-        "SRC-0054"
+        "SRC-0060",
+        "SRC-0061"
       ],
       "why": "BNSS s.196 governs magisterial inquiry into a death, which is a magistrate function."
     },
@@ -3147,7 +3405,7 @@ WGO.importedOfficeBasis = {
       "text": "Maharashtra Police Act ss.33, 36, 39, 41: s.33 general regulation including processions and assemblies; ss.36 and 37 immediate threats to public peace, with the Commissioner or District Magistrate able to prohibit an assembly or procession for a period; s.39 order on public roads; s.41 stopping and dispersing an assembly or procession that breaches licence conditions under s.33.",
       "confidence": "REPORTED",
       "sourceIds": [
-        "SRC-0058"
+        "SRC-0065"
       ],
       "why": "Outside a commissionerate the same Maharashtra Police Act powers sit with the District Magistrate."
     },
@@ -3156,7 +3414,7 @@ WGO.importedOfficeBasis = {
       "text": "NHRC fresh guidelines requiring all reports including post-mortem, videograph and magisterial inquiry report to be sent within two months of the incident, with post-mortem reports in a proforma designed by the Commission.",
       "confidence": "VERIFIED",
       "sourceIds": [
-        "SRC-0063"
+        "SRC-0070"
       ],
       "why": "The two-month reporting requirement covers the magisterial inquiry report, which this office produces."
     },
@@ -3165,7 +3423,7 @@ WGO.importedOfficeBasis = {
       "text": "Following complaint 234 (1 to 6)/93-94, Justice M.N. Venkatachaliah as NHRC Chairperson wrote to all Chief Ministers on 29 March 1997 recommending the procedure to be followed in cases of encounter deaths.",
       "confidence": "VERIFIED",
       "sourceIds": [
-        "SRC-0062"
+        "SRC-0069"
       ],
       "why": "The 1997 NHRC procedure was addressed to Chief Ministers and operates through district administration."
     }
@@ -3176,7 +3434,7 @@ WGO.importedOfficeBasis = {
       "text": "Bihar Police Act 2007 s.66, regulation of public meetings and processions: the organiser must give written intimation to the Station House Officer of the concerned police station; an officer of at least Assistant or Deputy Superintendent rank may give directions for the conduct of meetings and processions on public roads and decide route and time.",
       "confidence": "VERIFIED",
       "sourceIds": [
-        "SRC-0059"
+        "SRC-0066"
       ],
       "why": "Bihar Police Act s.66 regulates public meetings and processions through the district police structure."
     },
@@ -3185,8 +3443,8 @@ WGO.importedOfficeBasis = {
       "text": "Whether the Bihar Police Act 2007 is Bihar Act 1 of 2007 or Bihar Act 7 of 2007.",
       "confidence": "DISPUTED",
       "sourceIds": [
-        "SRC-0059",
-        "SRC-0060"
+        "SRC-0066",
+        "SRC-0067"
       ],
       "why": "The citation of the Bihar Police Act is itself disputed and is recorded as such."
     },
@@ -3195,7 +3453,7 @@ WGO.importedOfficeBasis = {
       "text": "NHRC 1993 instruction, letter from the Secretary General to Chief Secretaries of all States and Union Territories, directing District Magistrates and Superintendents of Police of every district to report custodial deaths and rapes to the Secretary General within 24 hours of occurrence or of coming to know of them.",
       "confidence": "VERIFIED",
       "sourceIds": [
-        "SRC-0062"
+        "SRC-0069"
       ],
       "why": "The NHRC instruction names Superintendents of Police as reporting officers."
     }
@@ -3206,9 +3464,9 @@ WGO.importedOfficeBasis = {
       "text": "BNSS 2023 Chapter XI Part A, Unlawful Assemblies: s.148 dispersal of assembly by use of civil force; s.149 use of armed forces to disperse assembly; s.150 power of certain armed force officers to disperse assembly; s.151 protection against prosecution for acts done under ss.148, 149 and 150.",
       "confidence": "VERIFIED",
       "sourceIds": [
-        "SRC-0049",
-        "SRC-0050",
-        "SRC-0051"
+        "SRC-0056",
+        "SRC-0057",
+        "SRC-0058"
       ],
       "why": "BNSS s.148 places dispersal by civil force with the officer commanding at the scene."
     },
@@ -3217,8 +3475,8 @@ WGO.importedOfficeBasis = {
       "text": "CrPC to BNSS mapping: 129 to 148, 130 to 149, 131 to 150, 132 to 151. All incidents in this archive postdate 1 July 2024, so BNSS governs and there is no CrPC overlay. Mapping is recorded only for reading pre-2024 material.",
       "confidence": "VERIFIED",
       "sourceIds": [
-        "SRC-0051",
-        "SRC-0050"
+        "SRC-0058",
+        "SRC-0057"
       ],
       "why": "The CrPC to BNSS mapping is recorded so pre-2024 material can be read against the current provisions."
     }
@@ -3229,7 +3487,7 @@ WGO.importedOfficeBasis = {
       "text": "BNSS s.149(3) requires the armed forces officer to obey the requisition using as little force, and doing as little injury to person and property, as may be consistent with dispersing the assembly.",
       "confidence": "REPORTED",
       "sourceIds": [
-        "SRC-0052"
+        "SRC-0059"
       ],
       "why": "BNSS s.149(3) binds the armed forces officer acting on a requisition to use as little force as is consistent with dispersing the assembly."
     },
@@ -3238,9 +3496,9 @@ WGO.importedOfficeBasis = {
       "text": "BNSS 2023 Chapter XI Part A, Unlawful Assemblies: s.148 dispersal of assembly by use of civil force; s.149 use of armed forces to disperse assembly; s.150 power of certain armed force officers to disperse assembly; s.151 protection against prosecution for acts done under ss.148, 149 and 150.",
       "confidence": "VERIFIED",
       "sourceIds": [
-        "SRC-0049",
-        "SRC-0050",
-        "SRC-0051"
+        "SRC-0056",
+        "SRC-0057",
+        "SRC-0058"
       ],
       "why": "BNSS s.150 empowers certain armed force officers to disperse an assembly; s.151 concerns protection for acts done in good faith."
     }
@@ -3253,7 +3511,7 @@ WGO.importedPrecedents = [
     "text": "Bellingcat and Forensic Architecture identified, verified and archived over 1,000 incidents of police violence against protesters across the United States since May 2020, visualised using TimeMap, a Forensic Architecture platform mapping incidents in space and time. They limited the published dataset to media already having at least 5,000 views, so as not to amplify imagery that had not been widely seen.",
     "confidence": "VERIFIED",
     "sourceIds": [
-      "SRC-0066"
+      "SRC-0073"
     ],
     "category": "precedent",
     "jurisdiction": "external",
@@ -3264,7 +3522,7 @@ WGO.importedPrecedents = [
     "text": "Method used with Cerosetenta in Colombia: geolocation and chronolocation of protest video, establishing where and when a video was taken to give it evidentiary power, including by finding other videos of the same event and building a time sequence, then archiving all video after verification.",
     "confidence": "VERIFIED",
     "sourceIds": [
-      "SRC-0067"
+      "SRC-0074"
     ],
     "category": "precedent",
     "jurisdiction": "external",
@@ -3275,7 +3533,7 @@ WGO.importedPrecedents = [
     "text": "The Polis Project tracked 15 custodial death cases in India and reported two operational obstacles: court documents are not easily available on online government portals, being either not uploaded or not accessible; and victims' names are spelt differently across English-language news reports, which makes tracking hard. They also reflect on working on a politically charged project in an environment where holding the State accountable has become dangerous and difficult.",
     "confidence": "VERIFIED",
     "sourceIds": [
-      "SRC-0068"
+      "SRC-0075"
     ],
     "category": "precedent",
     "jurisdiction": "india",
@@ -3286,7 +3544,7 @@ WGO.importedPrecedents = [
     "text": "The DOTO Database is a common documentation platform for civil society to report hate crime incidents across India, documenting verifiable incidents of targeted violence as reported in English and Urdu media as well as fact-finding and civil society reports, combining crowd-sourcing with its own investigative and editorial teams.",
     "confidence": "REPORTED",
     "sourceIds": [
-      "SRC-0069"
+      "SRC-0076"
     ],
     "category": "precedent",
     "jurisdiction": "india",
@@ -3297,7 +3555,7 @@ WGO.importedPrecedents = [
     "text": "Status of Policing in India Report 2025, Common Cause and CSDS, on police torture and accountability. Survey-based with an explicit methodological note on social desirability bias.",
     "confidence": "VERIFIED",
     "sourceIds": [
-      "SRC-0070"
+      "SRC-0077"
     ],
     "category": "precedent",
     "jurisdiction": "india",
@@ -3308,7 +3566,7 @@ WGO.importedPrecedents = [
     "text": "Moyukh Chatterjee, 'Archives as the Infrastructure of Anti-Muslim Violence in India' (2023), a reading of over 100 police First Information Reports from the 2002 Gujarat pogrom, proposing a compositional approach to legal archives of violence.",
     "confidence": "VERIFIED",
     "sourceIds": [
-      "SRC-0071"
+      "SRC-0078"
     ],
     "category": "precedent",
     "jurisdiction": "india",
@@ -3353,6 +3611,7 @@ WGO.importedIncidentFacts = {
   },
   "INC-0002": {
     "dates": [
+      "22 August 2026",
       "22 July 2026",
       "23 July 2026",
       "25 July 2026"
@@ -3361,15 +3620,18 @@ WGO.importedIncidentFacts = {
       "Dakbungalow Square, Patna",
       "JP Golambar, Patna",
       "Katihar",
-      "Munger"
+      "Munger",
+      "students including blows aimed at women's genitals, firing"
     ],
     "evidenceIds": [
       "INC-BIH-001",
       "INC-BIH-002",
       "INC-BIH-003",
-      "INC-BIH-004"
+      "INC-BIH-004",
+      "INC-BIH-005"
     ],
     "state": [
+      "CORROBORATED",
       "REPORTED",
       "UNVERIFIED"
     ]
@@ -3386,16 +3648,23 @@ WGO.importedIncidentFacts = {
   },
   "INC-0004": {
     "dates": [
-      "25 July 2026"
+      "25 July 2026",
+      "4 August 2026"
     ],
     "places": [
-      "Siwan"
+      "Siwan",
+      "Siwan on 25 July 2026. The State of Bihar's account, given",
+      "least nine rounds fired from AK-47 rifles at two separate locations in Siwan on 25 July 2026 — eight outside the district commandant's office and one"
     ],
     "evidenceIds": [
-      "INC-SIW-001"
+      "INC-SIW-001",
+      "INC-SIW-002",
+      "INC-SIW-003"
     ],
     "state": [
-      "CORROBORATED"
+      "CORROBORATED",
+      "DISPUTED",
+      "REPORTED"
     ]
   }
 };

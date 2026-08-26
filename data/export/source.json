@@ -530,6 +530,83 @@
   {
     "id": "SRC-0049",
     "kind": "Source",
+    "title": "Alt News",
+    "state": null,
+    "url": "https://www.altnews.in/bihar-siwan-opened-fire-by-police-on-student-protesters-cjp-bihar-band",
+    "publisher": null,
+    "retrievedOn": "2026-08-26",
+    "sha256": null,
+    "archiveUrl": null
+  },
+  {
+    "id": "SRC-0050",
+    "kind": "Source",
+    "title": "SabrangIndia",
+    "state": null,
+    "url": "https://sabrangindia.in/bihar-not-just-delhi-patna-siwan-too-saw-brute-police-violence-against-demonstrating-students-pucl/",
+    "publisher": null,
+    "retrievedOn": "2026-08-26",
+    "sha256": null,
+    "archiveUrl": null
+  },
+  {
+    "id": "SRC-0051",
+    "kind": "Source",
+    "title": "Free Press Journal",
+    "state": null,
+    "url": "https://www.freepressjournal.in/india/withdraw-all-firs-pucl-demands-action-after-students-allege-police-brutality-during-neet-protests",
+    "publisher": null,
+    "retrievedOn": "2026-08-26",
+    "sha256": null,
+    "archiveUrl": null
+  },
+  {
+    "id": "SRC-0052",
+    "kind": "Source",
+    "title": "Counterview",
+    "state": null,
+    "url": "https://www.counterview.net/2026/08/public-hearing-documents-widespread.html",
+    "publisher": null,
+    "retrievedOn": "2026-08-26",
+    "sha256": null,
+    "archiveUrl": null
+  },
+  {
+    "id": "SRC-0053",
+    "kind": "Source",
+    "title": "LiveLaw",
+    "state": null,
+    "url": "https://www.livelaw.in/top-stories/jantar-mantar-protests-we-have-told-committee-to-probe-sexual-assault-cases-on-priority-cji-surya-kant-547096",
+    "publisher": null,
+    "retrievedOn": "2026-08-26",
+    "sha256": null,
+    "archiveUrl": null
+  },
+  {
+    "id": "SRC-0054",
+    "kind": "Source",
+    "title": "The Tribune",
+    "state": null,
+    "url": "https://www.tribuneindia.com/news/india/cjp-protests-sc-appointed-panel-to-prioritise-complaints-of-sexual-assault-molestation/",
+    "publisher": null,
+    "retrievedOn": "2026-08-26",
+    "sha256": null,
+    "archiveUrl": null
+  },
+  {
+    "id": "SRC-0055",
+    "kind": "Source",
+    "title": "LawBeat",
+    "state": null,
+    "url": "https://lawbeat.in/top-stories/supreme-court-refuses-to-take-suo-motu-cognizance-of-women-sexually-assaulted-at-jantar-mantar-protests-1625139",
+    "publisher": null,
+    "retrievedOn": "2026-08-26",
+    "sha256": null,
+    "archiveUrl": null
+  },
+  {
+    "id": "SRC-0056",
+    "kind": "Source",
     "title": "India Code",
     "state": null,
     "url": "https://www.indiacode.nic.in/bitstream/123456789/20340/1/bnss,_2023.pdf",
@@ -539,7 +616,7 @@
     "archiveUrl": "http://web.archive.org/web/20260121073438/https://www.indiacode.nic.in/bitstream/123456789/20340/1/bnss%2C_2023.pdf"
   },
   {
-    "id": "SRC-0050",
+    "id": "SRC-0057",
     "kind": "Source",
     "title": "Bureau of Police Research and Development",
     "state": null,
@@ -550,7 +627,7 @@
     "archiveUrl": "http://web.archive.org/web/20260215214604/https://bprd.nic.in/uploads/pdf/Comparison%20summary%20BNSS%20to%20CrPC.pdf"
   },
   {
-    "id": "SRC-0051",
+    "id": "SRC-0058",
     "kind": "Source",
     "title": "Uttar Pradesh Police",
     "state": null,
@@ -561,7 +638,7 @@
     "archiveUrl": "http://web.archive.org/web/20250524091156/https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202407031502194192BNSS2023-20-45.pdf"
   },
   {
-    "id": "SRC-0052",
+    "id": "SRC-0059",
     "kind": "Source",
     "title": "onlinelawconnect",
     "state": null,
@@ -572,7 +649,7 @@
     "archiveUrl": null
   },
   {
-    "id": "SRC-0053",
+    "id": "SRC-0060",
     "kind": "Source",
     "title": "Justice Definitions Project",
     "state": null,
@@ -583,7 +660,7 @@
     "archiveUrl": "http://web.archive.org/web/20260518085831/https://www.lawandjusticewiki.org/wiki/Extra-judicial_killings"
   },
   {
-    "id": "SRC-0054",
+    "id": "SRC-0061",
     "kind": "Source",
     "title": "ApniLaw",
     "state": null,
@@ -594,7 +671,7 @@
     "archiveUrl": "http://web.archive.org/web/20250906102438/https://www.apnilaw.com/bare-act/bnss/section-196-bharatiya-nagarik-suraksha-sanhitabnss-inquiry-by-magistrate-into-cause-of-death/"
   },
   {
-    "id": "SRC-0055",
+    "id": "SRC-0062",
     "kind": "Source",
     "title": "India Code",
     "state": null,
@@ -605,7 +682,7 @@
     "archiveUrl": "http://web.archive.org/web/20240809212750/https://www.indiacode.nic.in/bitstream/123456789/13669/1/delhi_police_act.pdf"
   },
   {
-    "id": "SRC-0056",
+    "id": "SRC-0063",
     "kind": "Source",
     "title": "indianemployees.com",
     "state": null,
@@ -616,7 +693,7 @@
     "archiveUrl": "http://web.archive.org/web/20220329071954/https://www.indianemployees.com/acts-rules/details/delhi-police-act-1978"
   },
   {
-    "id": "SRC-0057",
+    "id": "SRC-0064",
     "kind": "Source",
     "title": "India Code",
     "state": null,
@@ -627,7 +704,7 @@
     "archiveUrl": "http://web.archive.org/web/20251230215513/https://www.indiacode.nic.in/bitstream/123456789/20371/1/ashtra_police.pdf"
   },
   {
-    "id": "SRC-0058",
+    "id": "SRC-0065",
     "kind": "Source",
     "title": "Gurukul Nexus",
     "state": null,
@@ -638,7 +715,7 @@
     "archiveUrl": null
   },
   {
-    "id": "SRC-0059",
+    "id": "SRC-0066",
     "kind": "Source",
     "title": "India Code",
     "state": null,
@@ -649,7 +726,7 @@
     "archiveUrl": "http://web.archive.org/web/20260612162516/https://www.indiacode.nic.in/bitstream/123456789/11209/1/1094_bihar_bihar_police_act_2007.pdf"
   },
   {
-    "id": "SRC-0060",
+    "id": "SRC-0067",
     "kind": "Source",
     "title": "LegitQuest",
     "state": null,
@@ -660,7 +737,7 @@
     "archiveUrl": null
   },
   {
-    "id": "SRC-0061",
+    "id": "SRC-0068",
     "kind": "Source",
     "title": "CaseMine",
     "state": null,
@@ -671,7 +748,7 @@
     "archiveUrl": null
   },
   {
-    "id": "SRC-0062",
+    "id": "SRC-0069",
     "kind": "Source",
     "title": "Ministry of Home Affairs",
     "state": null,
@@ -682,7 +759,7 @@
     "archiveUrl": "http://web.archive.org/web/20260520201057/https://www.mha.gov.in/sites/default/files/2025-04/NHRCselectedlettersandguidelinesondeathsincustody_09042019_0%5B1%5D_4.pdf"
   },
   {
-    "id": "SRC-0063",
+    "id": "SRC-0070",
     "kind": "Source",
     "title": "NHRC",
     "state": null,
@@ -693,7 +770,7 @@
     "archiveUrl": "http://web.archive.org/web/20251011104825/https://nhrc.nic.in/press-release/nhrc-issues-fresh-guidelines-regarding-intimation-custodial-death"
   },
   {
-    "id": "SRC-0064",
+    "id": "SRC-0071",
     "kind": "Source",
     "title": "NHRC",
     "state": null,
@@ -704,7 +781,7 @@
     "archiveUrl": "http://web.archive.org/web/20260725004141/https://nhrc.nic.in/investigation-division"
   },
   {
-    "id": "SRC-0065",
+    "id": "SRC-0072",
     "kind": "Source",
     "title": "commoner-law.com",
     "state": null,
@@ -715,7 +792,7 @@
     "archiveUrl": null
   },
   {
-    "id": "SRC-0066",
+    "id": "SRC-0073",
     "kind": "Source",
     "title": "Bellingcat",
     "state": null,
@@ -726,7 +803,7 @@
     "archiveUrl": null
   },
   {
-    "id": "SRC-0067",
+    "id": "SRC-0074",
     "kind": "Source",
     "title": "GIJN",
     "state": null,
@@ -737,7 +814,7 @@
     "archiveUrl": null
   },
   {
-    "id": "SRC-0068",
+    "id": "SRC-0075",
     "kind": "Source",
     "title": "The Polis Project",
     "state": null,
@@ -748,7 +825,7 @@
     "archiveUrl": null
   },
   {
-    "id": "SRC-0069",
+    "id": "SRC-0076",
     "kind": "Source",
     "title": "Wikipedia",
     "state": null,
@@ -759,7 +836,7 @@
     "archiveUrl": null
   },
   {
-    "id": "SRC-0070",
+    "id": "SRC-0077",
     "kind": "Source",
     "title": "Common Cause and CSDS",
     "state": null,
@@ -770,13 +847,35 @@
     "archiveUrl": null
   },
   {
-    "id": "SRC-0071",
+    "id": "SRC-0078",
     "kind": "Source",
     "title": "Sage",
     "state": null,
     "url": "https://journals.sagepub.com/doi/abs/10.1177/00699659231208696",
     "publisher": null,
     "retrievedOn": "2026-08-16",
+    "sha256": null,
+    "archiveUrl": null
+  },
+  {
+    "id": "SRC-0079",
+    "kind": "Source",
+    "title": "Outlook India",
+    "state": null,
+    "url": "https://www.outlookindia.com/national/they-want-you-to-play-villain-your-angry-face-is-content-delhi-police-gets-post-jantar-mantar-dos-and-donts-list",
+    "publisher": null,
+    "retrievedOn": "2026-08-26",
+    "sha256": null,
+    "archiveUrl": null
+  },
+  {
+    "id": "SRC-0080",
+    "kind": "Source",
+    "title": "The Federal",
+    "state": null,
+    "url": "https://thefederal.com/category/states/north/delhi/delhi-police-guidelines-to-handle-gen-z-254444",
+    "publisher": null,
+    "retrievedOn": "2026-08-26",
     "sha256": null,
     "archiveUrl": null
   }
