@@ -76,8 +76,8 @@ WGO.importedSources = [
     "kind": "SECONDARY",
     "url": "https://www.verdictum.in/delhi-high-court/jantar-mantar-seeks-union-delhi-police-reply-on-police-action-against-protesters-1618289",
     "retrievedOn": "2026-08-16",
-    "archiveUrl": null,
-    "archivedOn": null,
+    "archiveUrl": "https://web.archive.org/web/20260901075543/https://www.verdictum.in/delhi-high-court/jantar-mantar-seeks-union-delhi-police-reply-on-police-action-against-protesters-1618289",
+    "archivedOn": "2026-09-01",
     "sha256": null,
     "originatesFrom": null
   },
@@ -131,8 +131,8 @@ WGO.importedSources = [
     "kind": "SECONDARY",
     "url": "https://www.barandbench.com/news/litigation/police-fired-ak-47-after-constable-was-trapped-by-crowd-no-cjp-protestor-was-injured-bihar-to-supreme-court",
     "retrievedOn": "2026-08-19",
-    "archiveUrl": null,
-    "archivedOn": null,
+    "archiveUrl": "https://web.archive.org/web/20260901075614/https://www.barandbench.com/news/litigation/police-fired-ak-47-after-constable-was-trapped-by-crowd-no-cjp-protestor-was-injured-bihar-to-supreme-court",
+    "archivedOn": "2026-09-01",
     "sha256": null,
     "originatesFrom": "State of Bihar affidavit to the Supreme Court, reported 18 August 2026"
   },
@@ -142,8 +142,8 @@ WGO.importedSources = [
     "kind": "SECONDARY",
     "url": "https://thefederal.com/category/news/constable-fired-four-ak-47-shots-in-air-during-siwan-protest-no-injuries-bihat-govt-to-sc-253871",
     "retrievedOn": "2026-08-19",
-    "archiveUrl": null,
-    "archivedOn": null,
+    "archiveUrl": "https://web.archive.org/web/20260901075704/https://thefederal.com/category/news/constable-fired-four-ak-47-shots-in-air-during-siwan-protest-no-injuries-bihat-govt-to-sc-253871",
+    "archivedOn": "2026-09-01",
     "sha256": null,
     "originatesFrom": "State of Bihar affidavit to the Supreme Court, reported 18 August 2026"
   },
