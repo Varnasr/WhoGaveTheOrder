@@ -5,9 +5,9 @@ window.WGO = window.WGO || {};
 
 WGO.changes = [
   {
-    "commit": "f6351f57ba",
-    "date": "2026-08-26T15:02:40Z",
-    "subject": "Simpler prose across the site, and two claims that had gone false",
+    "commit": "92f20519c8",
+    "date": "2026-09-01T08:00:28Z",
+    "subject": "Sweep log and archived copies for 2026-09-01 [skip ci]",
     "added": [
       {
         "id": "INC-0001",
