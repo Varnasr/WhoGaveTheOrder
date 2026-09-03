@@ -461,7 +461,9 @@
         "url": "https://negd.gov.in/isl/Directory/statedata/332",
         "source_type": "primary",
         "publication": "NeGD",
-        "retrieved_on": "2026-08-16"
+        "retrieved_on": "2026-08-16",
+        "archive_url": "http://web.archive.org/web/20260902071626/https://negd.gov.in/isl/Directory/statedata/332",
+        "archived_on": "2026-09-03"
       }
     ],
     "notes": null,
@@ -478,7 +480,9 @@
         "url": "https://negd.gov.in/isl/Directory/statedata/332",
         "source_type": "primary",
         "publication": "NeGD",
-        "retrieved_on": "2026-08-16"
+        "retrieved_on": "2026-08-16",
+        "archive_url": "http://web.archive.org/web/20260902071626/https://negd.gov.in/isl/Directory/statedata/332",
+        "archived_on": "2026-09-03"
       }
     ],
     "notes": null,
@@ -1288,7 +1292,9 @@
         "url": "https://delhipolice.gov.in",
         "source_type": "primary",
         "publication": "Delhi Police",
-        "retrieved_on": "2026-08-16"
+        "retrieved_on": "2026-08-16",
+        "archive_url": "http://web.archive.org/web/20260831061322/https://delhipolice.gov.in/",
+        "archived_on": "2026-09-03"
       }
     ],
     "notes": "A View FIR facility is reported to exist but the official deep link was not confirmed. Do not construct one. Start from the homepage.",
@@ -1379,7 +1385,9 @@
         "url": "https://sansad.in/ls/questions/questions-and-answers",
         "source_type": "primary",
         "publication": "Digital Sansad",
-        "retrieved_on": "2026-08-16"
+        "retrieved_on": "2026-08-16",
+        "archive_url": "http://web.archive.org/web/20260812201415/https://sansad.in/ls/questions/questions-and-answers",
+        "archived_on": "2026-09-03"
       }
     ],
     "notes": null,
@@ -1396,7 +1404,9 @@
         "url": "https://sansad.in/rs/questions/questions-and-answers",
         "source_type": "primary",
         "publication": "Digital Sansad",
-        "retrieved_on": "2026-08-16"
+        "retrieved_on": "2026-08-16",
+        "archive_url": "http://web.archive.org/web/20260622182451/https://sansad.in/rs/questions/questions-and-answers",
+        "archived_on": "2026-09-03"
       }
     ],
     "notes": null,
@@ -1584,7 +1594,9 @@
         "url": "https://hrcnet.nic.in/HRCNet/public/SearchComplaint.aspx",
         "source_type": "primary",
         "publication": "HRCNet",
-        "retrieved_on": "2026-08-16"
+        "retrieved_on": "2026-08-16",
+        "archive_url": "http://web.archive.org/web/20260411171504/https://hrcnet.nic.in/HRCNet/public/SearchComplaint.aspx",
+        "archived_on": "2026-09-03"
       },
       {
         "url": "https://hrcnet.nic.in/HRCNet/public/CaseStatus.aspx",
