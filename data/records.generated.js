@@ -648,8 +648,8 @@ WGO.importedSources = [
     "kind": "SECONDARY",
     "url": "https://onlinelawconnect.com/actsandrules/criminal/bnss/SummaryChapter11.php",
     "retrievedOn": "2026-08-16",
-    "archiveUrl": null,
-    "archivedOn": null,
+    "archiveUrl": "http://web.archive.org/web/20260903072504/https://onlinelawconnect.com/actsandrules/criminal/bnss/SummaryChapter11.php",
+    "archivedOn": "2026-09-04",
     "sha256": null,
     "originatesFrom": null
   },
@@ -802,8 +802,8 @@ WGO.importedSources = [
     "kind": "PRIMARY",
     "url": "https://www.bellingcat.com/news/americas/2020/10/29/a-new-platform-maps-us-police-violence-against-protesters/",
     "retrievedOn": "2026-08-16",
-    "archiveUrl": null,
-    "archivedOn": null,
+    "archiveUrl": "http://web.archive.org/web/20260809185716/https://www.bellingcat.com/news/americas/2020/10/29/a-new-platform-maps-us-police-violence-against-protesters/",
+    "archivedOn": "2026-09-04",
     "sha256": null,
     "originatesFrom": null
   },
@@ -813,8 +813,8 @@ WGO.importedSources = [
     "kind": "PRIMARY",
     "url": "https://gijn.org/stories/how-bellingcat-and-forensic-architecture-teamed-up-with-colombias-cerosetenta-to-map-police-violence/",
     "retrievedOn": "2026-08-16",
-    "archiveUrl": null,
-    "archivedOn": null,
+    "archiveUrl": "http://web.archive.org/web/20260531012041/https://gijn.org/stories/how-bellingcat-and-forensic-architecture-teamed-up-with-colombias-cerosetenta-to-map-police-violence/",
+    "archivedOn": "2026-09-04",
     "sha256": null,
     "originatesFrom": null
   },
