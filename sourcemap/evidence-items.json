@@ -2273,7 +2273,9 @@
         "url": "https://thepolisproject.com/research/documenting-custodial-violence-reflections-and-further-research-5/",
         "source_type": "primary",
         "publication": "The Polis Project",
-        "retrieved_on": "2026-08-16"
+        "retrieved_on": "2026-08-16",
+        "archive_url": "http://web.archive.org/web/20250902211559/https://thepolisproject.com/research/documenting-custodial-violence-reflections-and-further-research-5/",
+        "archived_on": "2026-09-05"
       }
     ],
     "notes": "Build into design now: expect holes in the eCourts route and design for absence, not treating it as failure. Search multiple transliterations of every name, especially in Bihar.",
@@ -2290,7 +2292,9 @@
         "url": "https://en.wikipedia.org/wiki/DOTO_Database",
         "source_type": "tertiary",
         "publication": "Wikipedia",
-        "retrieved_on": "2026-08-16"
+        "retrieved_on": "2026-08-16",
+        "archive_url": "http://web.archive.org/web/20250115011529/https://en.wikipedia.org/wiki/DOTO_Database",
+        "archived_on": "2026-09-05"
       }
     ],
     "notes": "Tertiary source. What pressure it has faced is UNKNOWN.",
@@ -2307,7 +2311,9 @@
         "url": "https://www.commoncause.in/wotadmin/upload/SPIR_2025.pdf",
         "source_type": "primary",
         "publication": "Common Cause and CSDS",
-        "retrieved_on": "2026-08-16"
+        "retrieved_on": "2026-08-16",
+        "archive_url": "http://web.archive.org/web/20260818140637/https://www.commoncause.in/wotadmin/upload/SPIR_2025.pdf",
+        "archived_on": "2026-09-05"
       }
     ],
     "notes": "Not a primary-document archive, but the closest systematic Indian evidence base, and its bibliography is a route to earlier fact-finding.",
@@ -2386,7 +2392,9 @@
         "source_type": "secondary",
         "publication": "Oneindia",
         "retrieved_on": "2026-08-19",
-        "originates_from": "Delhi Police affidavit to the Supreme Court, reported 18 August 2026"
+        "originates_from": "Delhi Police affidavit to the Supreme Court, reported 18 August 2026",
+        "archive_url": "http://web.archive.org/web/20260821014829/https://www.oneindia.com/india/cjp-protests-2-873-with-criminal-records-identified-using-facial-recognition-system-delhi-police-t-8179549.html",
+        "archived_on": "2026-09-05"
       }
     ],
     "notes": "That the technology was deployed is the police's own statement to a court, reported by independent outlets, and nobody in the proceeding contests it. It is the first thing in this archive that the force has admitted about its own conduct at Jantar Mantar. Bench: the Chief Justice of India Surya Kant, Justice Joymalya Bagchi and Justice V. Mohana. The Solicitor General, Tushar Mehta, appeared for the police. What it does not establish: the scope of the deployment, which is contested — see PROC-SC-003 — and anything about who authorised it. An admission that a tool was used is not a document showing who ordered its use. The affidavit itself is not held: see OQ-033.",
@@ -2420,7 +2428,9 @@
         "source_type": "secondary",
         "publication": "Oneindia",
         "retrieved_on": "2026-08-19",
-        "originates_from": "Delhi Police affidavit to the Supreme Court, reported 18 August 2026"
+        "originates_from": "Delhi Police affidavit to the Supreme Court, reported 18 August 2026",
+        "archive_url": "http://web.archive.org/web/20260821014829/https://www.oneindia.com/india/cjp-protests-2-873-with-criminal-records-identified-using-facial-recognition-system-delhi-police-t-8179549.html",
+        "archived_on": "2026-09-05"
       }
     ],
     "notes": "As stated by delhi police, on affidavit: the software 'only captured the images of criminals or history sheeters'; it 'does not automatically capture profile of every individual present at the protest site'; 'no action is taken solely on the basis of facial recognition software' and a match is followed by field verification; it captures only those with a past record for serious offences, not petty ones. The Solicitor General said the technology 'captures the faces of only those persons who are recorded in the crime database'. Figures reported from the same hearing, and they are the police's own: 2,873 persons identified, 2,402 through a 'Crime Kundli' database and 471 through dossier records, of whom 92 are said to be involved in more than ten cases and 47 to be history-sheeters. This archive records those numbers as the police's assertion, not as established fact. As stated by the petitioners, through Senior Advocates N. Hariharan and Menaka Guruswamy: 'that is not how the technology works', and a private company was engaged to process the data collected through the software. Neither is adopted here. The Chief Justice is reported to have said that constitutional issues would be determined by the Court alone. Until the affidavit and any finding on it are held, this stays DISPUTED.",
@@ -2457,7 +2467,9 @@
         "source_type": "secondary",
         "publication": "NewsX",
         "retrieved_on": "2026-08-19",
-        "originates_from": "State of Bihar affidavit to the Supreme Court, reported 18 August 2026"
+        "originates_from": "State of Bihar affidavit to the Supreme Court, reported 18 August 2026",
+        "archive_url": "http://web.archive.org/web/20260830200539/https://www.newsx.com/india/ak-47-fired-at-siwan-student-protest-but-no-one-hit-by-rifle-what-bihar-govt-told-supreme-court-261593/",
+        "archived_on": "2026-09-05"
       },
       {
         "url": "https://aninews.in/news/national/general-news/suspended-cop-who-fired-ak-47-after-being-surrounded-by-protesters-bihar-govt-tells-sc20260818130412/",
@@ -2501,7 +2513,9 @@
         "source_type": "secondary",
         "publication": "NewsX",
         "retrieved_on": "2026-08-19",
-        "originates_from": "State of Bihar affidavit to the Supreme Court, reported 18 August 2026"
+        "originates_from": "State of Bihar affidavit to the Supreme Court, reported 18 August 2026",
+        "archive_url": "http://web.archive.org/web/20260830200539/https://www.newsx.com/india/ak-47-fired-at-siwan-student-protest-but-no-one-hit-by-rifle-what-bihar-govt-told-supreme-court-261593/",
+        "archived_on": "2026-09-05"
       },
       {
         "url": "https://aninews.in/news/national/general-news/suspended-cop-who-fired-ak-47-after-being-surrounded-by-protesters-bihar-govt-tells-sc20260818130412/",
@@ -2526,14 +2540,18 @@
         "source_type": "secondary",
         "publication": "Business Standard",
         "retrieved_on": "2026-08-19",
-        "originates_from": "Delhi Police affidavit to the Supreme Court, reported 18 August 2026"
+        "originates_from": "Delhi Police affidavit to the Supreme Court, reported 18 August 2026",
+        "archive_url": "http://web.archive.org/web/20260823094654/https://www.business-standard.com/india-news/history-sheeters-infiltrated-jul-20-protest-240-cops-injured-delhi-police-126081800545_1.html",
+        "archived_on": "2026-09-05"
       },
       {
         "url": "https://lawchakra.in/supreme-court/delhi-police-supreme-court-affidavit-no-excessive-force-student-protesters/",
         "source_type": "secondary",
         "publication": "LawChakra",
         "retrieved_on": "2026-08-19",
-        "originates_from": "Delhi Police affidavit to the Supreme Court, reported 18 August 2026"
+        "originates_from": "Delhi Police affidavit to the Supreme Court, reported 18 August 2026",
+        "archive_url": "http://web.archive.org/web/20260821170343/https://lawchakra.in/supreme-court/delhi-police-supreme-court-affidavit-no-excessive-force-student-protesters/",
+        "archived_on": "2026-09-05"
       }
     ],
     "notes": "As stated by delhi police: about 5,000 police were managing a crowd reported at over 30,000 across roughly three kilometres; the agitation was hijacked by anti-social elements and history-sheeters; more than 240 police personnel were injured; the force acted with maximum restraint. A figure this archive cannot reconcile: the police injury count reported here is 'more than 240'. The Wikipedia account of the same events, sourced to earlier reporting, gives 118 police personnel injured. Both cannot be the count on the same date unless one covers a longer period or a wider set of incidents, and neither report says which. The discrepancy is recorded, not resolved by preferring the larger or the later number — see OQ-036. The protester injury figures are separately contested and are not restated here.",
