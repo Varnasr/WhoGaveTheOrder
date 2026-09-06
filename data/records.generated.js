@@ -208,8 +208,8 @@ WGO.importedSources = [
     "kind": "PRIMARY",
     "url": "https://delhihighcourt.nic.in/files/2026-07/cause-list/combined_cause_list_22.07.2026.pdf",
     "retrievedOn": "2026-08-18",
-    "archiveUrl": null,
-    "archivedOn": null,
+    "archiveUrl": "http://web.archive.org/web/20260905070335/https://delhihighcourt.nic.in/files/2026-07/cause-list/combined_cause_list_22.07.2026.pdf",
+    "archivedOn": "2026-09-06",
     "sha256": "d3a67d1b69d68f62bc4e462bb6dbc79ae0ea5eeb5c40cd7fcd418ba09b74b6d4",
     "originatesFrom": null
   },
@@ -285,8 +285,8 @@ WGO.importedSources = [
     "kind": "SECONDARY",
     "url": "https://www.scobserver.in/journal/sc-says-jantar-mantar-protest-firs-cannot-define-students-futures/",
     "retrievedOn": "2026-08-19",
-    "archiveUrl": null,
-    "archivedOn": null,
+    "archiveUrl": "http://web.archive.org/web/20260819034504/https://www.scobserver.in/journal/sc-says-jantar-mantar-protest-firs-cannot-define-students-futures/",
+    "archivedOn": "2026-09-06",
     "sha256": null,
     "originatesFrom": null
   },
@@ -296,8 +296,8 @@ WGO.importedSources = [
     "kind": "SECONDARY",
     "url": "https://www.livelaw.in/top-stories/supreme-court-forms-5-member-committee-led-by-ex-sc-judge-subhash-reddy-to-probe-student-protest-violence-546666",
     "retrievedOn": "2026-08-21",
-    "archiveUrl": null,
-    "archivedOn": null,
+    "archiveUrl": "http://web.archive.org/web/20260830214718/https://www.livelaw.in/top-stories/supreme-court-forms-5-member-committee-led-by-ex-sc-judge-subhash-reddy-to-probe-student-protest-violence-546666",
+    "archivedOn": "2026-09-06",
     "sha256": null,
     "originatesFrom": null
   },
