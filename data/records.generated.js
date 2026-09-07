@@ -153,8 +153,8 @@ WGO.importedSources = [
     "kind": "SECONDARY",
     "url": "https://aninews.in/news/national/general-news/suspended-cop-who-fired-ak-47-after-being-surrounded-by-protesters-bihar-govt-tells-sc20260818130412/",
     "retrievedOn": "2026-08-19",
-    "archiveUrl": null,
-    "archivedOn": null,
+    "archiveUrl": "https://web.archive.org/web/20260907072725/https://aninews.in/news/national/general-news/suspended-cop-who-fired-ak-47-after-being-surrounded-by-protesters-bihar-govt-tells-sc20260818130412/",
+    "archivedOn": "2026-09-07",
     "sha256": null,
     "originatesFrom": "State of Bihar affidavit to the Supreme Court, reported 18 August 2026"
   },
@@ -362,8 +362,8 @@ WGO.importedSources = [
     "kind": "SECONDARY",
     "url": "https://www.tribuneindia.com/news/delhi/cop-linked-to-pellet-gun-use-at-jantar-mantar-protest-shunted/",
     "retrievedOn": "2026-08-21",
-    "archiveUrl": null,
-    "archivedOn": null,
+    "archiveUrl": "http://web.archive.org/web/20260820220535/https://www.tribuneindia.com/news/delhi/cop-linked-to-pellet-gun-use-at-jantar-mantar-protest-shunted/",
+    "archivedOn": "2026-09-07",
     "sha256": null,
     "originatesFrom": "Delhi Government (Home Department) transfer order dated 18 August 2026"
   },
@@ -373,8 +373,8 @@ WGO.importedSources = [
     "kind": "SECONDARY",
     "url": "https://www.tribuneindia.com/news/delhi/in-major-delhi-police-rejig-43-ips-danips-officers-transferred/",
     "retrievedOn": "2026-08-21",
-    "archiveUrl": null,
-    "archivedOn": null,
+    "archiveUrl": "http://web.archive.org/web/20260821105320/https://www.tribuneindia.com/news/delhi/in-major-delhi-police-rejig-43-ips-danips-officers-transferred/",
+    "archivedOn": "2026-09-07",
     "sha256": null,
     "originatesFrom": "Delhi Government (Home Department) transfer order dated 18 August 2026"
   },
