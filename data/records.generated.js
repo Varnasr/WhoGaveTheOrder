@@ -560,8 +560,8 @@ WGO.importedSources = [
     "kind": "SECONDARY",
     "url": "https://www.freepressjournal.in/india/withdraw-all-firs-pucl-demands-action-after-students-allege-police-brutality-during-neet-protests",
     "retrievedOn": "2026-08-26",
-    "archiveUrl": null,
-    "archivedOn": null,
+    "archiveUrl": "http://web.archive.org/web/20260824101822/https://www.freepressjournal.in/india/withdraw-all-firs-pucl-demands-action-after-students-allege-police-brutality-during-neet-protests",
+    "archivedOn": "2026-09-12",
     "sha256": null,
     "originatesFrom": "PUCL Bihar public hearing and fact-finding panel, Patna, 22 August 2026"
   },
@@ -582,8 +582,8 @@ WGO.importedSources = [
     "kind": "SECONDARY",
     "url": "https://www.livelaw.in/top-stories/jantar-mantar-protests-we-have-told-committee-to-probe-sexual-assault-cases-on-priority-cji-surya-kant-547096",
     "retrievedOn": "2026-08-26",
-    "archiveUrl": null,
-    "archivedOn": null,
+    "archiveUrl": "http://web.archive.org/web/20260907045547/https://www.livelaw.in/top-stories/jantar-mantar-protests-we-have-told-committee-to-probe-sexual-assault-cases-on-priority-cji-surya-kant-547096",
+    "archivedOn": "2026-09-12",
     "sha256": null,
     "originatesFrom": null
   },
@@ -593,8 +593,8 @@ WGO.importedSources = [
     "kind": "SECONDARY",
     "url": "https://www.tribuneindia.com/news/india/cjp-protests-sc-appointed-panel-to-prioritise-complaints-of-sexual-assault-molestation/",
     "retrievedOn": "2026-08-26",
-    "archiveUrl": null,
-    "archivedOn": null,
+    "archiveUrl": "http://web.archive.org/web/20260906045145/https://www.tribuneindia.com/news/india/cjp-protests-sc-appointed-panel-to-prioritise-complaints-of-sexual-assault-molestation/",
+    "archivedOn": "2026-09-12",
     "sha256": null,
     "originatesFrom": null
   },
@@ -868,8 +868,8 @@ WGO.importedSources = [
     "kind": "SECONDARY",
     "url": "https://www.outlookindia.com/national/they-want-you-to-play-villain-your-angry-face-is-content-delhi-police-gets-post-jantar-mantar-dos-and-donts-list",
     "retrievedOn": "2026-08-26",
-    "archiveUrl": null,
-    "archivedOn": null,
+    "archiveUrl": "http://web.archive.org/web/20260911002549/https://www.outlookindia.com/national/they-want-you-to-play-villain-your-angry-face-is-content-delhi-police-gets-post-jantar-mantar-dos-and-donts-list",
+    "archivedOn": "2026-09-12",
     "sha256": null,
     "originatesFrom": null
   },
