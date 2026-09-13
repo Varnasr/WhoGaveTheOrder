@@ -516,8 +516,8 @@ WGO.importedSources = [
     "kind": "SECONDARY",
     "url": "https://m.thewire.in/article/rights/at-least-10-persons-suffered-pellet-injuries-on-july-20-in-delhi-shows-rti-response",
     "retrievedOn": "2026-08-21",
-    "archiveUrl": null,
-    "archivedOn": null,
+    "archiveUrl": "http://web.archive.org/web/20260912071805/https://m.thewire.in/article/rights/at-least-10-persons-suffered-pellet-injuries-on-july-20-in-delhi-shows-rti-response",
+    "archivedOn": "2026-09-13",
     "sha256": null,
     "originatesFrom": "Right to Information replies obtained by Saket Gokhale from Lady Hardinge Medical College and Safdarjung Hospital, reported 13 August 2026"
   },

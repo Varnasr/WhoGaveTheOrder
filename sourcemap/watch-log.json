@@ -157,6 +157,17 @@
         "unreachable": 1,
         "ok": 5
       }
+    },
+    {
+      "date": "2026-09-13",
+      "targets": 9,
+      "findings": 3,
+      "outcomes": {
+        "nothing-published": 1,
+        "changed-no-match": 2,
+        "unreachable": 1,
+        "ok": 5
+      }
     }
   ],
   "seen": {
@@ -166,13 +177,13 @@
       "method": "pdf-text"
     },
     "delhi-hc-judgments": {
-      "fingerprint": "36ebbbc618d2b86c",
-      "lastChecked": "2026-09-12",
+      "fingerprint": "c5ed900a9b79ad19",
+      "lastChecked": "2026-09-13",
       "method": "html"
     },
     "nhrc-press": {
-      "fingerprint": "3b18a434c7c55bc9",
-      "lastChecked": "2026-09-12",
+      "fingerprint": "21adedcf8b638f66",
+      "lastChecked": "2026-09-13",
       "method": "html"
     },
     "barandbench": {
@@ -464,7 +475,7 @@
         "f85903fb1466be96",
         "ada3918dec4b43e1"
       ],
-      "lastChecked": "2026-09-12"
+      "lastChecked": "2026-09-13"
     },
     "news-delhi": {
       "items": [
@@ -951,9 +962,12 @@
         "d64019f862df0df4",
         "91b3d53199a7f9db",
         "d0ce492d7f2a1479",
-        "b3299d2b2108c6a1"
+        "b3299d2b2108c6a1",
+        "9c5fad97ea39593f",
+        "1ee5fb81e4713d64",
+        "99d041f930c8bb83"
       ],
-      "lastChecked": "2026-09-12"
+      "lastChecked": "2026-09-13"
     },
     "news-cases": {
       "items": [
@@ -1043,7 +1057,7 @@
         "0e4d3af300f73606",
         "78d508c9be458fe6"
       ],
-      "lastChecked": "2026-09-12"
+      "lastChecked": "2026-09-13"
     },
     "news-frt": {
       "items": [
@@ -1277,7 +1291,7 @@
         "4af1d94db46bef20",
         "a53f2422fd2d9394"
       ],
-      "lastChecked": "2026-09-12"
+      "lastChecked": "2026-09-13"
     },
     "news-bihar": {
       "items": [
@@ -1570,9 +1584,10 @@
         "0455c5b1f70317eb",
         "bd5c228d039400dd",
         "bfb9c3ae7686cf44",
-        "7f54eafa93cd02ae"
+        "7f54eafa93cd02ae",
+        "f84a52e792f632c3"
       ],
-      "lastChecked": "2026-09-12"
+      "lastChecked": "2026-09-13"
     }
   }
 }
