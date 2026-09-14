@@ -351,8 +351,8 @@ WGO.importedSources = [
     "kind": "SECONDARY",
     "url": "https://aninews.in/news/national/general-news/pil-in-sc-challenges-delhi-polices-use-of-facial-recognition-ai-surveillance-at-jantar-mantar-protest20260728140154/",
     "retrievedOn": "2026-08-21",
-    "archiveUrl": null,
-    "archivedOn": null,
+    "archiveUrl": "http://web.archive.org/web/20260913073422/https://aninews.in/news/national/general-news/pil-in-sc-challenges-delhi-polices-use-of-facial-recognition-ai-surveillance-at-jantar-mantar-protest20260728140154/",
+    "archivedOn": "2026-09-14",
     "sha256": null,
     "originatesFrom": null
   },
@@ -571,8 +571,8 @@ WGO.importedSources = [
     "kind": "SECONDARY",
     "url": "https://www.counterview.net/2026/08/public-hearing-documents-widespread.html",
     "retrievedOn": "2026-08-26",
-    "archiveUrl": null,
-    "archivedOn": null,
+    "archiveUrl": "http://web.archive.org/web/20260913073444/https://www.counterview.net/2026/08/public-hearing-documents-widespread.html",
+    "archivedOn": "2026-09-14",
     "sha256": null,
     "originatesFrom": "PUCL Bihar public hearing and fact-finding panel, Patna, 22 August 2026"
   },
@@ -604,8 +604,8 @@ WGO.importedSources = [
     "kind": "SECONDARY",
     "url": "https://lawbeat.in/top-stories/supreme-court-refuses-to-take-suo-motu-cognizance-of-women-sexually-assaulted-at-jantar-mantar-protests-1625139",
     "retrievedOn": "2026-08-26",
-    "archiveUrl": null,
-    "archivedOn": null,
+    "archiveUrl": "http://web.archive.org/web/20260913073525/https://lawbeat.in/top-stories/supreme-court-refuses-to-take-suo-motu-cognizance-of-women-sexually-assaulted-at-jantar-mantar-protests-1625139",
+    "archivedOn": "2026-09-14",
     "sha256": null,
     "originatesFrom": null
   },

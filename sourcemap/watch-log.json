@@ -168,6 +168,17 @@
         "unreachable": 1,
         "ok": 5
       }
+    },
+    {
+      "date": "2026-09-14",
+      "targets": 9,
+      "findings": 1,
+      "outcomes": {
+        "nothing-published": 1,
+        "changed-no-match": 2,
+        "unreachable": 1,
+        "ok": 5
+      }
     }
   ],
   "seen": {
@@ -177,13 +188,13 @@
       "method": "pdf-text"
     },
     "delhi-hc-judgments": {
-      "fingerprint": "c5ed900a9b79ad19",
-      "lastChecked": "2026-09-13",
+      "fingerprint": "29318daa5ccac87f",
+      "lastChecked": "2026-09-14",
       "method": "html"
     },
     "nhrc-press": {
-      "fingerprint": "21adedcf8b638f66",
-      "lastChecked": "2026-09-13",
+      "fingerprint": "2239c7ba3ff2d2c3",
+      "lastChecked": "2026-09-14",
       "method": "html"
     },
     "barandbench": {
@@ -473,9 +484,22 @@
         "4a59461f11ae5868",
         "91525218d505ab45",
         "f85903fb1466be96",
-        "ada3918dec4b43e1"
+        "ada3918dec4b43e1",
+        "995c2551e92d1e6e",
+        "9087d7d645dd413d",
+        "bbf352255a7a7451",
+        "7e41f51b3775013e",
+        "dd24333f80228c4d",
+        "7c80b9d5d177f507",
+        "607a995a85af92fa",
+        "a6131b025c878c15",
+        "67a7633b5fa4c5d6",
+        "d8038193e586c929",
+        "c419e08d6969ee0d",
+        "90b43bf4f8c404ad",
+        "3e517ef2a0fa056d"
       ],
-      "lastChecked": "2026-09-13"
+      "lastChecked": "2026-09-14"
     },
     "news-delhi": {
       "items": [
@@ -965,9 +989,10 @@
         "b3299d2b2108c6a1",
         "9c5fad97ea39593f",
         "1ee5fb81e4713d64",
-        "99d041f930c8bb83"
+        "99d041f930c8bb83",
+        "b2de392565102464"
       ],
-      "lastChecked": "2026-09-13"
+      "lastChecked": "2026-09-14"
     },
     "news-cases": {
       "items": [
@@ -1057,7 +1082,7 @@
         "0e4d3af300f73606",
         "78d508c9be458fe6"
       ],
-      "lastChecked": "2026-09-13"
+      "lastChecked": "2026-09-14"
     },
     "news-frt": {
       "items": [
@@ -1291,7 +1316,7 @@
         "4af1d94db46bef20",
         "a53f2422fd2d9394"
       ],
-      "lastChecked": "2026-09-13"
+      "lastChecked": "2026-09-14"
     },
     "news-bihar": {
       "items": [
@@ -1587,7 +1612,7 @@
         "7f54eafa93cd02ae",
         "f84a52e792f632c3"
       ],
-      "lastChecked": "2026-09-13"
+      "lastChecked": "2026-09-14"
     }
   }
 }
