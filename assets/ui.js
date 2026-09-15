@@ -414,7 +414,7 @@
         '<header class="masthead"><div class="shell">' +
           '<div class="masthead__bar">' +
             '<a class="wordmark" href="' + ui.esc(ui.withLang('index.html')) + '">Who Gave The Order<span class="dot">.in</span></a>' +
-            '<div class="masthead__tools">' +
+            '<div class="masthead__tools" data-dyslexia-slot>' +
               '<a class="cta-persistent" href="' + ui.esc(ui.withLang('submit.html')) + '">' +
                 ui.esc(ui.t('chrome.addDocument', 'Add a document')) + '</a>' +
               '<button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">' +
