@@ -879,8 +879,8 @@ WGO.importedSources = [
     "kind": "SECONDARY",
     "url": "https://thefederal.com/category/states/north/delhi/delhi-police-guidelines-to-handle-gen-z-254444",
     "retrievedOn": "2026-08-26",
-    "archiveUrl": null,
-    "archivedOn": null,
+    "archiveUrl": "http://web.archive.org/web/20260915075622/https://thefederal.com/category/states/north/delhi/delhi-police-guidelines-to-handle-gen-z-254444",
+    "archivedOn": "2026-09-16",
     "sha256": null,
     "originatesFrom": null
   }
