@@ -12,7 +12,9 @@ representation queued. Send this one first if you send only one.
 
 To,
 The Superintendent of Police, Siwan
-[office address]
+[postal address — NOT held by this archive; see contacts.md]
+Email: sp-siwan-bih@nic.in · Tel: 06154-242060 · Fax: 06154-242977
+*(contacts verified 18 September 2026 from police.bihar.gov.in; see contacts.md)*
 
 From,
 [sender name]

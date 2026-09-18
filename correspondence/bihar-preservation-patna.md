@@ -6,7 +6,9 @@
 
 To,
 The Senior Superintendent of Police, Patna
-[office address]
+[postal address — NOT held by this archive; see contacts.md]
+Email: ssp-patna-bih@nic.in · Tel: 0612-2214318 / 2219745 · Fax: 0612-2217744
+*(contacts verified 18 September 2026 from police.bihar.gov.in; see contacts.md)*
 
 From,
 [sender name]
