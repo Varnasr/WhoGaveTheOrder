@@ -265,9 +265,18 @@ for q in oq:
         'priority': PRIORITY_MAP.get(q['priority'], 'MEDIUM'),
         'whyItMatters': q.get('why_it_matters') or '',
         'lawfulRoute': q.get('lawful_route') or '',
-        'state': 'UNANSWERED',
+        # A question could not be answered before this: state was hardcoded to
+        # UNANSWERED and evidenceIds to empty, so every question on the site sat
+        # at UNANSWERED however much evidence the archive held, and the one
+        # thing the project exists to do could never be shown to have happened.
+        # `answered_by` names the evidence ids that answer it; `answer_state`
+        # overrides the default where a question is only partly closed. The
+        # model still refuses to upgrade anything on its own, and check.js still
+        # reports an ANSWERED question with no evidence attached.
+        'state': (q.get('answer_state')
+                  or ('ANSWERED' if q.get('answered_by') else 'UNANSWERED')),
         'wants': [q['lawful_route']] if q.get('lawful_route') else [],
-        'evidenceIds': [],
+        'evidenceIds': q.get('answered_by') or [],
         'blocks': q.get('blocks') or [],
         'category': q.get('category'),
     })

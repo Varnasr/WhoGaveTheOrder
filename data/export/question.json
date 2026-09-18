@@ -33,11 +33,13 @@
     "id": "OQ-004",
     "kind": "Question",
     "title": "The text of the Delhi High Court order of 22 July 2026 in W.P.(CRL) 2127/2026, and which petitions were heard with it.",
-    "state": "UNANSWERED",
+    "state": "ANSWERED",
     "url": "https://www.whogavetheorder.in/investigation.html?id=jantar-mantar#OQ-004",
     "incidentId": "INC-0001",
     "level": null,
-    "evidenceIds": []
+    "evidenceIds": [
+      "PROC-DEL-004"
+    ]
   },
   {
     "id": "OQ-005",
@@ -496,6 +498,16 @@
     "state": "UNANSWERED",
     "url": "https://www.whogavetheorder.in/investigation.html?id=bihar#OQ-052",
     "incidentId": "INC-0002",
+    "level": null,
+    "evidenceIds": []
+  },
+  {
+    "id": "OQ-053",
+    "kind": "Question",
+    "title": "In which proceeding, if any, did the Delhi High Court direct preservation of CCTV footage and videography in relation to the 20 and 21 July 2026 police action, and what does that order say?",
+    "state": "UNANSWERED",
+    "url": "https://www.whogavetheorder.in/investigation.html?id=jantar-mantar#OQ-053",
+    "incidentId": "INC-0001",
     "level": null,
     "evidenceIds": []
   }

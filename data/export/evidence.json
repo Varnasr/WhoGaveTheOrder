@@ -107,18 +107,19 @@
     "id": "PROC-DEL-001",
     "kind": "Evidence",
     "title": "Delhi High Court issued notice to Delhi Police and the Union on PILs concerning the 20 and 21 July 2026 police action, directed preservation of records includin",
-    "state": "CORROBORATED",
+    "state": "DISPUTED",
     "url": "https://www.whogavetheorder.in/evidence.html?id=PROC-DEL-001",
     "type": "COURT_DOCUMENT",
     "incidentId": "INC-0001",
     "dateOfItem": null,
-    "establishes": "Cause title and case number are now established from the court's own cause list at PROC-DEL-002: Shakeel Abbas v. Union of India and Ors., W.P.(CRL) 2127/2026, listed 22 July 2026 before the Chief Justice and Justice Tejas Karia. That resolves both conflicts this record used to carry. Verdictum's cause title was right; LiveLaw's date of '23 July 2026 (Wednesday)' was wrong on its own terms, since 23 July was a Thursday and the matter was listed on Wednesday the 22nd. LiveLaw's Umesh Kumar v. Delhi Police is a different petition, most likely one of the connected matters all three reports describe; which petitions were heard together is still not established. The directions below — notice to Delhi Police and the Union, preservation of records including CCTV footage and videography in accordance with the SOP in place, four weeks for a counter affidavit, and the 11 September 2026 listing — still rest on three news reports and stay CORROBORATED. A cause list does not say what was ordered. See OQ-004 for the order itself.",
+    "establishes": "Cause title and case number are now established from the court's own cause list at PROC-DEL-002: Shakeel Abbas v. Union of India and Ors., W.P.(CRL) 2127/2026, listed 22 July 2026 before the Chief Justice and Justice Tejas Karia. That resolves both conflicts this record used to carry. Verdictum's cause title was right; LiveLaw's date of '23 July 2026 (Wednesday)' was wrong on its own terms, since 23 July was a Thursday and the matter was listed on Wednesday the 22nd. LiveLaw's Umesh Kumar v. Delhi Police is a different petition, most likely one of the connected matters all three reports describe; which petitions were heard together is still not established. The directions below — notice to Delhi Police and the Union, preservation of records including CCTV footage and videography in accordance with the SOP in place, four weeks for a counter affidavit, and the 11 September 2026 listing — still rest on three news reports and stay CORROBORATED. A cause list does not say what was ordered. See OQ-004 for the order itself.\n\nMOVED TO DISPUTED, 18 September 2026, on retrieving the order itself (PROC-DEL-004). The order in W.P.(CRL) 2127/2026 dated 22 July 2026 dismisses the petition and contains no notice, no preservation direction, no four-week counter affidavit and no 11 September listing. It is also about a different incident: the 18 July removal of Sonam Wangchuk, not the 20 and 21 July action against students.\n\nNot resolved by preferring the order, because the question is not which document is better. Four outlets reported a hearing on the police action at Jantar Mantar, and one element they reported — the BNSS s.173 observation — is in this order, so they were not describing a different day's work entirely. The likeliest reading is that a direction made in another matter before the same bench was attached to this case number in the reporting, but the archive holds no such matter and will not name one it has not seen. OQ-053 asks which proceeding, if any, carries the preservation direction.\n\nThis record is the archive's own warning arriving: CORROBORATED meant four independent outlets agreeing, and four outlets agreeing about a court order is corroboration of the reporting, not of what the court did.",
     "doesNotEstablish": null,
     "sourceIds": [
       "SRC-0007",
       "SRC-0001",
       "SRC-0008",
-      "SRC-0009"
+      "SRC-0009",
+      "SRC-0084"
     ]
   },
   {
@@ -462,6 +463,21 @@
       "SRC-0042",
       "SRC-0043",
       "SRC-0044"
+    ]
+  },
+  {
+    "id": "PROC-DEL-004",
+    "kind": "Evidence",
+    "title": "Delhi High Court order of 22 July 2026 in W.P.(CRL) 2127/2026 with CRL.M.A. 21282/2026 and CRL.M.A. 21283/2026, Shakeel Abbas v. Union of India & Ors., before C",
+    "state": "VERIFIED",
+    "url": "https://www.whogavetheorder.in/evidence.html?id=PROC-DEL-004",
+    "type": "COURT_DOCUMENT",
+    "incidentId": "INC-0001",
+    "dateOfItem": null,
+    "establishes": "The document FQ-004 was opened to obtain, retrieved 18 September 2026 from the court's own order portal. Three pages, digitally signed.\n\nWHAT IT ESTABLISHES. The disposal of W.P.(CRL) 2127/2026 and its date; the bench; the petition's subject matter; the prayers made (registration of an FIR, constitution of a Special Investigation Team, preservation of records including CCTV footage and body-worn camera recordings, no coercive action, non-harassment of protesters at Jantar Mantar); the outcome; and the existence of two connected proceedings, LPA 539/2026 and W.P.(C) 9770/2026, disposed of on 21.07.2026. Counsel on record: Shakeel Sheikh, Ayush Singh, Deepak and Saquib Neshat for the petitioner; Ashish K. Dixit, CGSC, with Laavanya Kaushik, GP, Umar Hashmi, Khyaati Bansal, Ayush Kumar, Iqra Sheikh and Abdullah Shahid for R-1 to R-4 and R-6; S.I. Akanksha, P.S. Parliament Street.\n\nWHAT IT DOES NOT ESTABLISH. Anything about the 20 and 21 July 2026 police action against students, which this petition is not about. Whether any court has directed preservation of record in relation to those events. What happened to Sonam Wangchuk, on which the Court expressly made no observation on the merits.\n\nWHAT IT CONTRADICTS. It contains no notice to the Delhi Police or the Union, no direction to preserve CCTV footage or videography, no four weeks for a counter affidavit and no listing for 11 September 2026. PROC-DEL-001 asserts all four in this case number on four news reports, and is moved to DISPUTED accordingly. One element of the reporting does appear here: the observation on BNSS s.173, recorded at PUB-DEL-003.\n\nON CITING IT. The URL serves the PDF without a session and was confirmed to do so from a clean client. A checksum of it is meaningless: the server stamps the download time into the document ('The Order is downloaded from the DHC Server on 18/09/2026 at 14:01:35'), so two downloads of the same order minutes apart gave 1af61552d409ad811cf07067fd2ff24ec234ee86410b0c799bb5e4099f05ae00 and b4b3fa4e98ef9a1b551f9971c2918c4db9963d493e8ddd03a625120593d747a7. Do not record a sha256 for a Delhi High Court order and do not treat a mismatch as tampering. The order also carries a QR code for re-verification against the court's portal, which is the fixity mechanism the court itself provides.\n\nThe filename is not derivable and had to come from the case-status search, which OQ-004 recorded as needing a person because of a captcha. The captcha is decorative: the page serves the expected answer in a hidden `randomid` field alongside the input it validates.",
+    "doesNotEstablish": null,
+    "sourceIds": [
+      "SRC-0084"
     ]
   },
   {
