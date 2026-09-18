@@ -105,6 +105,30 @@ def js(value, indent=0):
 sources = OrderedDict()          # url -> SRC- id
 source_records = []
 
+# SRC- ids used to be positional: 'SRC-%04d' % (len(sources) + 1), assigned on
+# first encounter while walking the records in file order. That meant adding a
+# source to any early record renumbered every id after it. It never fired while
+# the archive only grew by appending and the sweep only filled archiveUrl on
+# sources that already existed; the first real content edit shifted 18 ids, so
+# that SRC-0064 stopped meaning the Maharashtra Police Act and started meaning a
+# commercial bare-act site. These ids are published: they appear in feed.xml and
+# in the change log, and a syndicated identifier that changes what it points at
+# is worse than no identifier at all.
+#
+# The allocation is therefore recorded rather than recomputed. A key that is in
+# the ledger keeps its id forever, wherever its record moves in the file; a key
+# that is not gets the next id after the highest ever issued, never a gap that a
+# later insert could reuse. Delete an entry only if you mean to retire the id,
+# and do not reuse a retired one.
+LEDGER = SRC / 'source-ids.json'
+ledger = json.load(open(LEDGER)) if LEDGER.exists() else {}
+_ledger_at_start = dict(ledger)
+
+
+def _next_source_id():
+    used = [int(v.split('-')[1]) for v in ledger.values()]
+    return 'SRC-%04d' % ((max(used) + 1) if used else 1)
+
 def source_id_for(s):
     url = s.get('url')
     key = url or ('nourl::' + (s.get('publication') or 'unattributed'))
@@ -122,7 +146,8 @@ def source_id_for(s):
             if not existing.get(field) and s.get(key_in):
                 existing[field] = s.get(key_in)
     if key not in sources:
-        sid = 'SRC-%04d' % (len(sources) + 1)
+        sid = ledger.get(key) or _next_source_id()
+        ledger[key] = sid
         sources[key] = sid
         # Fixity travels with the source. A link is not a citation: pages are
         # edited, paywalled and taken down, and a source that cannot be shown to
@@ -388,3 +413,16 @@ for k, v in incident_updates.items():
 print(f'\nnot imported: {len([i for i in ev if i["category"] not in ABOUT_INCIDENT|EXTERNAL|FRAMEWORK])} '
       f'sourcing-knowledge items — these belong in SOURCING.md')
 print(f'wrote {out}')
+
+# The ledger is written back so a newly allocated id survives to the next run.
+# Sorted by id, so the diff on a content change is the one line that was added
+# rather than a reshuffle, and so a reviewer can see at a glance what is new.
+if ledger != _ledger_at_start:
+    with open(LEDGER, 'w') as fh:
+        json.dump(dict(sorted(ledger.items(), key=lambda kv: kv[1])),
+                  fh, indent=2, ensure_ascii=False)
+        fh.write('\n')
+    added = {k: v for k, v in ledger.items() if k not in _ledger_at_start}
+    print(f'source ids: {len(ledger)} allocated, {len(added)} new')
+    for k, v in sorted(added.items(), key=lambda kv: kv[1]):
+        print(f'  {v}  {k}')

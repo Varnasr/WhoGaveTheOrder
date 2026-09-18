@@ -682,6 +682,17 @@
     "archiveUrl": "http://web.archive.org/web/20240809212750/https://www.indiacode.nic.in/bitstream/123456789/13669/1/delhi_police_act.pdf"
   },
   {
+    "id": "SRC-0081",
+    "kind": "Source",
+    "title": "India Code",
+    "state": null,
+    "url": "https://indiacode.gov.in/handle/123456789/551217",
+    "publisher": null,
+    "retrievedOn": "2026-09-18",
+    "sha256": null,
+    "archiveUrl": null
+  },
+  {
     "id": "SRC-0063",
     "kind": "Source",
     "title": "indianemployees.com",
@@ -704,6 +715,17 @@
     "archiveUrl": "http://web.archive.org/web/20251230215513/https://www.indiacode.nic.in/bitstream/123456789/20371/1/ashtra_police.pdf"
   },
   {
+    "id": "SRC-0082",
+    "kind": "Source",
+    "title": "India Code",
+    "state": null,
+    "url": "https://indiacode.gov.in/handle/123456789/568086",
+    "publisher": null,
+    "retrievedOn": "2026-09-18",
+    "sha256": null,
+    "archiveUrl": null
+  },
+  {
     "id": "SRC-0065",
     "kind": "Source",
     "title": "Gurukul Nexus",
@@ -724,6 +746,17 @@
     "retrievedOn": "2026-08-16",
     "sha256": null,
     "archiveUrl": "http://web.archive.org/web/20260612162516/https://www.indiacode.nic.in/bitstream/123456789/11209/1/1094_bihar_bihar_police_act_2007.pdf"
+  },
+  {
+    "id": "SRC-0083",
+    "kind": "Source",
+    "title": "India Code",
+    "state": null,
+    "url": "https://indiacode.gov.in/handle/123456789/494691",
+    "publisher": null,
+    "retrievedOn": "2026-09-18",
+    "sha256": null,
+    "archiveUrl": null
   },
   {
     "id": "SRC-0067",

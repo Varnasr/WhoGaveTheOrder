@@ -687,6 +687,17 @@ WGO.importedSources = [
     "originatesFrom": null
   },
   {
+    "id": "SRC-0081",
+    "name": "India Code",
+    "kind": "PRIMARY",
+    "url": "https://indiacode.gov.in/handle/123456789/551217",
+    "retrievedOn": "2026-09-18",
+    "archiveUrl": null,
+    "archivedOn": null,
+    "sha256": null,
+    "originatesFrom": null
+  },
+  {
     "id": "SRC-0063",
     "name": "indianemployees.com",
     "kind": "SECONDARY",
@@ -709,6 +720,17 @@ WGO.importedSources = [
     "originatesFrom": null
   },
   {
+    "id": "SRC-0082",
+    "name": "India Code",
+    "kind": "PRIMARY",
+    "url": "https://indiacode.gov.in/handle/123456789/568086",
+    "retrievedOn": "2026-09-18",
+    "archiveUrl": null,
+    "archivedOn": null,
+    "sha256": null,
+    "originatesFrom": null
+  },
+  {
     "id": "SRC-0065",
     "name": "Gurukul Nexus",
     "kind": "SECONDARY",
@@ -727,6 +749,17 @@ WGO.importedSources = [
     "retrievedOn": "2026-08-16",
     "archiveUrl": "http://web.archive.org/web/20260612162516/https://www.indiacode.nic.in/bitstream/123456789/11209/1/1094_bihar_bihar_police_act_2007.pdf",
     "archivedOn": "2026-08-19",
+    "sha256": null,
+    "originatesFrom": null
+  },
+  {
+    "id": "SRC-0083",
+    "name": "India Code",
+    "kind": "PRIMARY",
+    "url": "https://indiacode.gov.in/handle/123456789/494691",
+    "retrievedOn": "2026-09-18",
+    "archiveUrl": null,
+    "archivedOn": null,
     "sha256": null,
     "originatesFrom": null
   },
@@ -1905,11 +1938,12 @@ WGO.importedFramework = [
     "text": "Delhi Police Act 1978 (Act 34 of 1978): s.28 power to make regulations for regulating traffic and preservation of order in public places; s.29 power to give directions to the public; s.30 power to prohibit certain acts for prevention of disorder; s.31 police to provide against disorder at places of public amusement or public assembly or meeting; s.33 issue of order of prevention of riot; s.113 penalties for contravention of orders under ss.29 to 34.",
     "confidence": "VERIFIED",
     "sourceIds": [
-      "SRC-0062"
+      "SRC-0062",
+      "SRC-0081"
     ],
     "category": "statute",
     "jurisdiction": "delhi",
-    "note": ""
+    "note": "Link rot recorded 18 September 2026. The India Code bitstream URL cited above, retrieved 16 August 2026, now returns HTTP 404: India Code has migrated from www.indiacode.nic.in to indiacode.gov.in and the old bitstream paths are gone. The Act is still published, at the handle added as the second source. The section-level text supporting this claim was NOT re-verified on 18 September: India Code holds this Act as a single whole-act item with no section-level records (unlike the Central RTI Act, which it splits by section), so the API route used to verify RTI-ACT-001 is not available here. The claim's content therefore still rests on the 16 August retrieval and on the Wayback snapshot recorded against the source. What the new handle establishes is that the Act is current and where it now lives, confirmed from India Code's own metadata: The Delhi Police Act ,1978, Delhi, act_number 34, act_year 1978, repealed false. See CUS-011."
   },
   {
     "id": "LAW-DEL-002",
@@ -1927,11 +1961,12 @@ WGO.importedFramework = [
     "text": "Maharashtra Police Act 1951 (Bombay Act 22 of 1951): s.37 power to prohibit certain acts for prevention of disorder; s.38 music, sound or noise; s.70 enforcement of orders issued under ss.37, 38 or 39; s.71 duty of police to see orders under ss.43, 55, 56, 57 are carried out; s.135 penalty for contravention of directions under ss.37, 39 or 40.",
     "confidence": "VERIFIED",
     "sourceIds": [
-      "SRC-0064"
+      "SRC-0064",
+      "SRC-0082"
     ],
     "category": "statute",
     "jurisdiction": "maharashtra",
-    "note": "India Code text as on 22 November 2024."
+    "note": "India Code text as on 22 November 2024. Link rot recorded 18 September 2026. The India Code bitstream URL cited above, retrieved 16 August 2026, now returns HTTP 404: India Code has migrated from www.indiacode.nic.in to indiacode.gov.in and the old bitstream paths are gone. The Act is still published, at the handle added as the second source. The section-level text supporting this claim was NOT re-verified on 18 September: India Code holds this Act as a single whole-act item with no section-level records (unlike the Central RTI Act, which it splits by section), so the API route used to verify RTI-ACT-001 is not available here. The claim's content therefore still rests on the 16 August retrieval and on the Wayback snapshot recorded against the source. What the new handle establishes is that the Act is current and where it now lives, confirmed from India Code's own metadata: The Maharashtra Police Act., Maharashtra, act_number 22, act_year 1951, repealed false. See CUS-011."
   },
   {
     "id": "LAW-MAH-002",
@@ -1949,11 +1984,12 @@ WGO.importedFramework = [
     "text": "Bihar Police Act 2007 s.66, regulation of public meetings and processions: the organiser must give written intimation to the Station House Officer of the concerned police station; an officer of at least Assistant or Deputy Superintendent rank may give directions for the conduct of meetings and processions on public roads and decide route and time.",
     "confidence": "VERIFIED",
     "sourceIds": [
-      "SRC-0066"
+      "SRC-0066",
+      "SRC-0083"
     ],
     "category": "statute",
     "jurisdiction": "bihar",
-    "note": ""
+    "note": "Link rot recorded 18 September 2026. The India Code bitstream URL cited above, retrieved 16 August 2026, now returns HTTP 404: India Code has migrated from www.indiacode.nic.in to indiacode.gov.in and the old bitstream paths are gone. The Act is still published, at the handle added as the second source. The section-level text supporting this claim was NOT re-verified on 18 September: India Code holds this Act as a single whole-act item with no section-level records (unlike the Central RTI Act, which it splits by section), so the API route used to verify RTI-ACT-001 is not available here. The claim's content therefore still rests on the 16 August retrieval and on the Wayback snapshot recorded against the source. What the new handle establishes is that the Act is current and where it now lives, confirmed from India Code's own metadata: BIHAR POLICE ACT, 2007, Bihar, act_number 279, act_year 2007, repealed false. See CUS-011."
   },
   {
     "id": "LAW-BIH-002",
@@ -1961,11 +1997,12 @@ WGO.importedFramework = [
     "confidence": "DISPUTED",
     "sourceIds": [
       "SRC-0066",
-      "SRC-0067"
+      "SRC-0067",
+      "SRC-0083"
     ],
     "category": "statute",
     "jurisdiction": "bihar",
-    "note": "India Code header reads BIHAR ACT 1, 2007. The Bihar Police (Amendment) Act 2014 refers to Bihar Act 7, 2007. Do not cite the act number until checked against the Bihar gazette."
+    "note": "India Code header reads BIHAR ACT 1, 2007. The Bihar Police (Amendment) Act 2014 refers to Bihar Act 7, 2007. Do not cite the act number until checked against the Bihar gazette. Re-checked 18 September 2026 and deliberately left DISPUTED. India Code's current record for the Act (handle 123456789/494691) carries dc.identifier.act_number = 279, which is neither 1 nor 7 and is an internal India Code sequence for Bihar enactments rather than the Bihar Act number: the same field reads 34 for the Delhi Police Act 1978 (Act 34 of 1978) and 22 for the Central RTI Act (Act 22 of 2005), where it does match. A field that is a sequence in one state and the statutory number in another cannot resolve this dispute, and using 279 to pick a side would be resolving it on a misread. The dispute stands until the Bihar Gazette notification is held. Note also that the previously cited bitstream URL now 404s; see CUS-011."
   },
   {
     "id": "LAW-CMD-001",
@@ -3276,7 +3313,8 @@ WGO.importedOfficeBasis = {
       "text": "Delhi Police Act 1978 (Act 34 of 1978): s.28 power to make regulations for regulating traffic and preservation of order in public places; s.29 power to give directions to the public; s.30 power to prohibit certain acts for prevention of disorder; s.31 police to provide against disorder at places of public amusement or public assembly or meeting; s.33 issue of order of prevention of riot; s.113 penalties for contravention of orders under ss.29 to 34.",
       "confidence": "VERIFIED",
       "sourceIds": [
-        "SRC-0062"
+        "SRC-0062",
+        "SRC-0081"
       ],
       "why": "Delhi Police is a Union-administered force; the Act constituting its powers is the framework the ministry administers."
     }
@@ -3332,7 +3370,8 @@ WGO.importedOfficeBasis = {
       "text": "Delhi Police Act 1978 (Act 34 of 1978): s.28 power to make regulations for regulating traffic and preservation of order in public places; s.29 power to give directions to the public; s.30 power to prohibit certain acts for prevention of disorder; s.31 police to provide against disorder at places of public amusement or public assembly or meeting; s.33 issue of order of prevention of riot; s.113 penalties for contravention of orders under ss.29 to 34.",
       "confidence": "VERIFIED",
       "sourceIds": [
-        "SRC-0062"
+        "SRC-0062",
+        "SRC-0081"
       ],
       "why": "Delhi Police Act ss.28 to 30: regulation of public places, directions to the public, and the power to prohibit certain acts."
     },
@@ -3350,7 +3389,8 @@ WGO.importedOfficeBasis = {
       "text": "Maharashtra Police Act 1951 (Bombay Act 22 of 1951): s.37 power to prohibit certain acts for prevention of disorder; s.38 music, sound or noise; s.70 enforcement of orders issued under ss.37, 38 or 39; s.71 duty of police to see orders under ss.43, 55, 56, 57 are carried out; s.135 penalty for contravention of directions under ss.37, 39 or 40.",
       "confidence": "VERIFIED",
       "sourceIds": [
-        "SRC-0064"
+        "SRC-0064",
+        "SRC-0082"
       ],
       "why": "Maharashtra Police Act s.37 and the enforcement provisions at ss.70 and 71."
     },
@@ -3434,7 +3474,8 @@ WGO.importedOfficeBasis = {
       "text": "Bihar Police Act 2007 s.66, regulation of public meetings and processions: the organiser must give written intimation to the Station House Officer of the concerned police station; an officer of at least Assistant or Deputy Superintendent rank may give directions for the conduct of meetings and processions on public roads and decide route and time.",
       "confidence": "VERIFIED",
       "sourceIds": [
-        "SRC-0066"
+        "SRC-0066",
+        "SRC-0083"
       ],
       "why": "Bihar Police Act s.66 regulates public meetings and processions through the district police structure."
     },
@@ -3444,7 +3485,8 @@ WGO.importedOfficeBasis = {
       "confidence": "DISPUTED",
       "sourceIds": [
         "SRC-0066",
-        "SRC-0067"
+        "SRC-0067",
+        "SRC-0083"
       ],
       "why": "The citation of the Bihar Police Act is itself disputed and is recorded as such."
     },
