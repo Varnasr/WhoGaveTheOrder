@@ -112,9 +112,29 @@ function buildHistory() {
     return cache.get(rev);
   };
 
+  /* HEAD is skipped, and so is every merge.
+
+     HEAD, because a change log that is itself committed cannot contain its own
+     entry: at the moment it is written, the commit that will carry it does not
+     exist. Including it would make the file stale the instant it is committed
+     and no staleness check could ever pass on a commit that changes records.
+     Skipping it makes the output a pure function of the history behind HEAD,
+     so regenerating at any commit yields the same bytes. The entry is not
+     lost — it appears once the next commit lands, which is how the daily sweep
+     has always published them.
+
+     Merges, because a merge introduces no record change of its own. Its
+     constituent commits are already in this log, each attributed to the person
+     and message that made the change, and diffing a merge against its first
+     parent reports that same work a second time under a merge subject. */
+  const head = git('rev-parse', 'HEAD').trim();
+
   for (const line of log) {
     const [commit, date, parents, ...rest] = line.split('\t');
     const subject = rest.join('\t');
+
+    if (commit === head) { continue; }
+    if ((parents || '').trim().split(/\s+/).filter(Boolean).length > 1) { continue; }
 
     const after = at(commit);
     if (!after) { continue; }

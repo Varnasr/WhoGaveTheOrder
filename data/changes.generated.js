@@ -5,6 +5,81 @@ window.WGO = window.WGO || {};
 
 WGO.changes = [
   {
+    "commit": "78ce8412a3",
+    "date": "2026-09-18T08:36:18Z",
+    "subject": "Retrieve the Delhi High Court order, which says the opposite of the reporting",
+    "added": [
+      {
+        "id": "PROC-DEL-004",
+        "kind": "Evidence",
+        "title": "Delhi High Court order of 22 July 2026 in W.P.(CRL) 2127/2026 with CRL.M.A. 21282/2026 and CRL.M.A. 21283/2026, Shakeel Abbas v. Union of India & Ors., before C",
+        "state": "VERIFIED",
+        "url": "evidence.html?id=PROC-DEL-004"
+      },
+      {
+        "id": "SRC-0084",
+        "kind": "Source",
+        "title": "High Court of Delhi",
+        "state": null,
+        "url": "https://delhihighcourt.nic.in/app/showlogo/1784724307_1d929d5349b68417_687_21272026.pdf/2026"
+      },
+      {
+        "id": "OQ-053",
+        "kind": "Question",
+        "title": "In which proceeding, if any, did the Delhi High Court direct preservation of CCTV footage and videography in relation to the 20 and 21 July 2026 police action, and what does that order say?",
+        "state": "UNANSWERED",
+        "url": "investigation.html?id=jantar-mantar#OQ-053"
+      }
+    ],
+    "removed": [],
+    "changed": [
+      {
+        "id": "PROC-DEL-001",
+        "kind": "Evidence",
+        "title": "Delhi High Court issued notice to Delhi Police and the Union on PILs concerning the 20 and 21 July 2026 police action, directed preservation of records includin",
+        "state": "DISPUTED",
+        "url": "evidence.html?id=PROC-DEL-001",
+        "fields": [
+          {
+            "field": "state",
+            "from": "CORROBORATED",
+            "to": "DISPUTED"
+          },
+          {
+            "field": "establishes",
+            "from": "Cause title and case number are now established from the court's own cause list at PROC-DEL-002: Shakeel Abbas v. Union of India and Ors., W.P.(CRL) 2127/2026, listed 22 July 2026 before the Chief Justice and Justice Tejas Karia. That re…",
+            "to": "Cause title and case number are now established from the court's own cause list at PROC-DEL-002: Shakeel Abbas v. Union of India and Ors., W.P.(CRL) 2127/2026, listed 22 July 2026 before the Chief Justice and Justice Tejas Karia. That re…"
+          },
+          {
+            "field": "sourceIds",
+            "from": "SRC-0007, SRC-0001, SRC-0008, SRC-0009",
+            "to": "SRC-0007, SRC-0001, SRC-0008, SRC-0009, SRC-0084"
+          }
+        ]
+      },
+      {
+        "id": "OQ-004",
+        "kind": "Question",
+        "title": "The text of the Delhi High Court order of 22 July 2026 in W.P.(CRL) 2127/2026, and which petitions were heard with it.",
+        "state": "ANSWERED",
+        "url": "investigation.html?id=jantar-mantar#OQ-004",
+        "fields": [
+          {
+            "field": "state",
+            "from": "UNANSWERED",
+            "to": "ANSWERED"
+          },
+          {
+            "field": "evidenceIds",
+            "from": null,
+            "to": "PROC-DEL-004"
+          }
+        ]
+      }
+    ],
+    "summary": "3 records added · 2 states changed"
+  },
+  {
     "commit": "2f18ccb4eb",
     "date": "2026-09-18T06:14:43Z",
     "subject": "Verify the RTI Act against primary text, and stop SRC ids moving",
