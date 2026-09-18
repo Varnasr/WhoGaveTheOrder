@@ -1,0 +1,46 @@
+# Are the sources still there?
+#
+# Deliberately not part of check.yml, and deliberately not on pull requests.
+#
+# Not in check.yml, because this talks to several dozen third-party hosts and a
+# job that overruns its timeout cancels the whole workflow run it belongs to,
+# taking unrelated jobs down with it and reporting them as cancelled. An
+# advisory network check does not get to fail the integrity checks that way.
+#
+# Not on pull requests, because link rot has nothing to do with the diff. A
+# contributor cannot act on a government site having migrated, and a red check
+# they cannot fix is a check they learn to ignore.
+#
+# On a schedule, because this is the one class of failure that needs no commit
+# to happen. The Delhi and Bihar police acts — the statutory basis of two of
+# the three jurisdictions in the chain of command — went to 404 without a line
+# of this repository changing, and nothing noticed. A red run here is the
+# notification.
+
+name: Sources
+
+on:
+  schedule:
+    - cron: '17 4 * * 1'      # Mondays, 04:17 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  links:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-node@v7
+        with:
+          node-version: '22'
+
+      # Exits 1 when a source returns 4xx from two different HTTP clients.
+      # Server errors, client disagreements and hosts whose status codes carry
+      # no information are reported but do not fail: see the header of
+      # tools/links.js for why each of those is a separate verdict.
+      - name: Check every cited source URL
+        run: node tools/links.js

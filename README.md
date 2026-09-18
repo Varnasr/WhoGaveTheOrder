@@ -109,6 +109,7 @@ Incident → Question → Authority → Evidence → Answer state
 │   ├── sweep.js       # the daily hunt for new documents
 │   ├── watchlist.json # where it looks, and why each place is watched
 │   ├── fixity.js      # gets every source into a public web archive
+│   ├── links.js       # are the cited sources still there? weekly, in CI
 │   ├── translate.js   # English to Hindi via Sarvam, written to a file
 │   ├── i18n-source.json # the English behind every translated string
 │   └── build.js       # change log, Atom feed, and the export
@@ -123,6 +124,26 @@ Everything generated is committed, and CI fails if either is stale:
 python3 sourcemap/import.py   # after editing sourcemap/*.json
 node tools/build.js           # after any record changes: change log, feed, export
 ```
+
+Both are gated in `check.yml`. Until 18 September 2026 only the first one was, so
+the change log, the Atom feed and `data/export/` were checked by nothing while the
+README said otherwise.
+
+**`build.js` needs the full git history** and refuses to run without it. It derives
+the change log by diffing each commit against its parent, and in a shallow clone the
+boundary commit reports no parent, so every record reads as added by it. The daily
+sweep ran at `actions/checkout`'s default depth of 1 and committed the result with
+`[skip ci]`: the published change log became a single entry claiming a sweep-log
+commit had created all 201 records, and the Atom feed told subscribers the same.
+Both workflows now set `fetch-depth: 0`, and `build.js` exits rather than writing a
+false history if one is missed.
+
+**`SRC-` ids are allocated in `sourcemap/source-ids.json`, not recomputed.** They
+used to be positional, so adding a source to an early record renumbered every id
+after it — the first real content edit moved 18 of them, and these ids are published
+in `feed.xml` and the change log. A key in the ledger keeps its id wherever its
+record moves; a new key gets the next id after the highest ever issued. Do not
+delete an entry unless you mean to retire the id, and do not reuse a retired one.
 
 ### The source map, and the editorial mapping
 
@@ -179,6 +200,47 @@ Watch terms come partly from `tools/watchlist.json` and partly from the records 
 places and case numbers — so a new incident starts being watched without anyone updating a list. City
 and state names are deliberately excluded: "New Delhi" matches every article filed from New Delhi, and
 a sweep that reports everything reports nothing.
+
+### Are the sources still there?
+
+`fixity.js` gets a source into the Internet Archive, but it only looks at sources
+with **no** `archive_url` yet: once a snapshot exists the URL is never revisited.
+Nothing asked whether a live source still resolved, so nothing noticed when two
+of them stopped.
+
+On 18 September 2026 the India Code URLs for the **Delhi Police Act 1978** and the
+**Bihar Police Act 2007** were returning 404. India Code had migrated from
+`www.indiacode.nic.in` to `indiacode.gov.in`. Those two statutes are the statutory
+basis of two of the three jurisdictions in the chain of command.
+
+`tools/links.js` checks every cited source URL, weekly, in `links.yml`. A status
+code alone would not have done the job, in both directions:
+
+- `indiacode.gov.in` is a single-page application that answers **200 with an
+  identical 2,338-byte shell for every path**, including paths that do not exist.
+  A status check calls the whole host healthy. So the tool probes a control path
+  on the same origin that cannot exist, and where the host answers it with the
+  same body, reports `UNCHECKABLE` rather than guessing.
+- Two HTTP clients disagree about a live source: on the BNSS PDF, `curl` returns
+  200 with 2 MB and Node's `fetch` returns 404 with an error page, same URL, same
+  user agent. A `DEAD` verdict is therefore confirmed with a second client, and a
+  disagreement is reported as `CONFLICT` rather than as a dead link.
+- Naming itself got it blocked. A `User-Agent` of
+  `WhoGaveTheOrder-link-check (+https://www.whogavetheorder.in)` draws a 403 from
+  `www.indiacode.nic.in` on URLs that serve 200 to curl's default, which would have
+  condemned every source on that host. It sends no custom agent.
+- A 4xx means the document is not there and fails the run. A 5xx means the server
+  is having a bad day and does not.
+
+```bash
+node tools/links.js              # exits 1 if a source is 4xx from two clients
+node tools/links.js --json
+node tools/links.js --no-fail    # report only
+```
+
+It never edits a record. Where a source has moved, add the new URL **beside** the
+old one rather than replacing it: the earlier retrieval did happen, and the date
+the old URL was found dead is itself worth recording.
 
 ### Keeping sources checkable
 

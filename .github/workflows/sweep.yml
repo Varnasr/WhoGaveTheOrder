@@ -30,7 +30,16 @@ jobs:
   sweep:
     runs-on: ubuntu-latest
     steps:
+      # fetch-depth 0, not the default 1. tools/build.js derives the change log
+      # by diffing each commit against its parent, and in a shallow clone the
+      # boundary commit reports no parent, so every record reads as added by it.
+      # This job ran at depth 1 and committed the result with [skip ci]: the
+      # published history became one entry claiming a sweep-log commit created
+      # the whole archive. build.js now refuses to run shallow, so getting this
+      # wrong fails the job instead of publishing a false history.
       - uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
 
       - uses: actions/setup-node@v7
         with:

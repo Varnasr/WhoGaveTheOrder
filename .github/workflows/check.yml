@@ -23,7 +23,11 @@ jobs:
   check:
     runs-on: ubuntu-latest
     steps:
+      # Full history: the generated-files check below runs tools/build.js, which
+      # needs every commit that touched data/ to rebuild the change log.
       - uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
 
       - uses: actions/setup-node@v7
         with:
@@ -35,14 +39,28 @@ jobs:
       - name: Source map validation
         run: python3 sourcemap/validate.py
 
-      # data/records.generated.js is committed, so it can drift from the source
-      # map it was built out of. Regenerating and diffing is the only way to
-      # know the published site matches the data it claims to be built from.
+      # Everything generated is committed, so any of it can drift from the data it
+      # was built out of. Regenerating and diffing is the only way to know the
+      # published site matches what it claims to be built from.
+      #
+      # This used to run the import alone, which left the build's outputs — the
+      # change log, the Atom feed and data/export/ — checked by nothing at all,
+      # while the README said CI failed if either was stale. It did not: the
+      # change log was wrong for weeks and every run here was green.
       - name: Generated records are current
         run: |
           python3 sourcemap/import.py
           if ! git diff --quiet; then
             echo "::error::data/records.generated.js is stale. Run 'python3 sourcemap/import.py' and commit the result."
+            git --no-pager diff --stat
+            exit 1
+          fi
+
+      - name: Change log, feed and export are current
+        run: |
+          node tools/build.js
+          if ! git diff --quiet; then
+            echo "::error::Generated output is stale. Run 'node tools/build.js' and commit the result."
             git --no-pager diff --stat
             exit 1
           fi
