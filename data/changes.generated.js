@@ -5,248 +5,1311 @@ window.WGO = window.WGO || {};
 
 WGO.changes = [
   {
+    "commit": "2f18ccb4eb",
+    "date": "2026-09-18T06:14:43Z",
+    "subject": "Verify the RTI Act against primary text, and stop SRC ids moving",
+    "added": [
+      {
+        "id": "SRC-0081",
+        "kind": "Source",
+        "title": "India Code",
+        "state": null,
+        "url": "https://indiacode.gov.in/handle/123456789/551217"
+      },
+      {
+        "id": "SRC-0082",
+        "kind": "Source",
+        "title": "India Code",
+        "state": null,
+        "url": "https://indiacode.gov.in/handle/123456789/568086"
+      },
+      {
+        "id": "SRC-0083",
+        "kind": "Source",
+        "title": "India Code",
+        "state": null,
+        "url": "https://indiacode.gov.in/handle/123456789/494691"
+      }
+    ],
+    "removed": [],
+    "changed": [],
+    "summary": "3 records added"
+  },
+  {
     "commit": "420f67e688",
     "date": "2026-09-16T07:50:53Z",
     "subject": "Sweep log and archived copies for 2026-09-16 [skip ci]",
-    "added": [
+    "added": [],
+    "removed": [],
+    "changed": [
       {
-        "id": "INC-0001",
-        "kind": "Incident",
-        "title": "Police action against students at Jantar Mantar",
-        "state": "UNDER_INVESTIGATION",
-        "url": "investigation.html?id=jantar-mantar"
+        "id": "SRC-0080",
+        "kind": "Source",
+        "title": "The Federal",
+        "state": null,
+        "url": "https://thefederal.com/category/states/north/delhi/delhi-police-guidelines-to-handle-gen-z-254444",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20260915075622/https://thefederal.com/category/states/north/delhi/delhi-police-guidelines-to-handle-gen-z-254444"
+          }
+        ]
+      }
+    ],
+    "summary": "1 record edited"
+  },
+  {
+    "commit": "16cbf895fd",
+    "date": "2026-09-14T08:01:30Z",
+    "subject": "Sweep log and archived copies for 2026-09-14 [skip ci]",
+    "added": [],
+    "removed": [],
+    "changed": [
+      {
+        "id": "SRC-0032",
+        "kind": "Source",
+        "title": "ANI",
+        "state": null,
+        "url": "https://aninews.in/news/national/general-news/pil-in-sc-challenges-delhi-polices-use-of-facial-recognition-ai-surveillance-at-jantar-mantar-protest20260728140154/",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20260913073422/https://aninews.in/news/national/general-news/pil-in-sc-challenges-delhi-polices-use-of-facial-recognition-ai-surveillance-at-jantar-mantar-protest20260728140154/"
+          }
+        ]
       },
       {
-        "id": "INC-0002",
-        "kind": "Incident",
-        "title": "Police action against students in Bihar",
-        "state": "UNDER_INVESTIGATION",
-        "url": "investigation.html?id=bihar"
+        "id": "SRC-0052",
+        "kind": "Source",
+        "title": "Counterview",
+        "state": null,
+        "url": "https://www.counterview.net/2026/08/public-hearing-documents-widespread.html",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20260913073444/https://www.counterview.net/2026/08/public-hearing-documents-widespread.html"
+          }
+        ]
       },
       {
-        "id": "INC-0003",
-        "kind": "Incident",
-        "title": "Police action against students in Maharashtra",
-        "state": "UNDER_INVESTIGATION",
-        "url": "investigation.html?id=maharashtra"
+        "id": "SRC-0055",
+        "kind": "Source",
+        "title": "LawBeat",
+        "state": null,
+        "url": "https://lawbeat.in/top-stories/supreme-court-refuses-to-take-suo-motu-cognizance-of-women-sexually-assaulted-at-jantar-mantar-protests-1625139",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20260913073525/https://lawbeat.in/top-stories/supreme-court-refuses-to-take-suo-motu-cognizance-of-women-sexually-assaulted-at-jantar-mantar-protests-1625139"
+          }
+        ]
+      }
+    ],
+    "summary": "3 records edited"
+  },
+  {
+    "commit": "5521f03670",
+    "date": "2026-09-13T07:35:32Z",
+    "subject": "Sweep log and archived copies for 2026-09-13 [skip ci]",
+    "added": [],
+    "removed": [],
+    "changed": [
+      {
+        "id": "SRC-0047",
+        "kind": "Source",
+        "title": "The Wire",
+        "state": null,
+        "url": "https://m.thewire.in/article/rights/at-least-10-persons-suffered-pellet-injuries-on-july-20-in-delhi-shows-rti-response",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20260912071805/https://m.thewire.in/article/rights/at-least-10-persons-suffered-pellet-injuries-on-july-20-in-delhi-shows-rti-response"
+          }
+        ]
+      }
+    ],
+    "summary": "1 record edited"
+  },
+  {
+    "commit": "282e2e2526",
+    "date": "2026-09-12T07:19:48Z",
+    "subject": "Sweep log and archived copies for 2026-09-12 [skip ci]",
+    "added": [],
+    "removed": [],
+    "changed": [
+      {
+        "id": "SRC-0051",
+        "kind": "Source",
+        "title": "Free Press Journal",
+        "state": null,
+        "url": "https://www.freepressjournal.in/india/withdraw-all-firs-pucl-demands-action-after-students-allege-police-brutality-during-neet-protests",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20260824101822/https://www.freepressjournal.in/india/withdraw-all-firs-pucl-demands-action-after-students-allege-police-brutality-during-neet-protests"
+          }
+        ]
       },
       {
-        "id": "INC-0004",
-        "kind": "Incident",
-        "title": "Police firing during the student protest at Siwan",
-        "state": "REPORTED",
-        "url": "investigation.html?id=siwan"
+        "id": "SRC-0053",
+        "kind": "Source",
+        "title": "LiveLaw",
+        "state": null,
+        "url": "https://www.livelaw.in/top-stories/jantar-mantar-protests-we-have-told-committee-to-probe-sexual-assault-cases-on-priority-cji-surya-kant-547096",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20260907045547/https://www.livelaw.in/top-stories/jantar-mantar-protests-we-have-told-committee-to-probe-sexual-assault-cases-on-priority-cji-surya-kant-547096"
+          }
+        ]
       },
       {
-        "id": "INC-DEL-001",
-        "kind": "Evidence",
-        "title": "Police action against demonstrators at Jantar Mantar, New Delhi, on 20 July 2026.",
-        "state": "CORROBORATED",
-        "url": "evidence.html?id=INC-DEL-001"
+        "id": "SRC-0054",
+        "kind": "Source",
+        "title": "The Tribune",
+        "state": null,
+        "url": "https://www.tribuneindia.com/news/india/cjp-protests-sc-appointed-panel-to-prioritise-complaints-of-sexual-assault-molestation/",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20260906045145/https://www.tribuneindia.com/news/india/cjp-protests-sc-appointed-panel-to-prioritise-complaints-of-sexual-assault-molestation/"
+          }
+        ]
       },
       {
-        "id": "INC-DEL-002",
-        "kind": "Evidence",
-        "title": "Further clashes at Jantar Mantar on 22 July 2026 involving tear gas and lathi charge.",
-        "state": "REPORTED",
-        "url": "evidence.html?id=INC-DEL-002"
+        "id": "SRC-0079",
+        "kind": "Source",
+        "title": "Outlook India",
+        "state": null,
+        "url": "https://www.outlookindia.com/national/they-want-you-to-play-villain-your-angry-face-is-content-delhi-police-gets-post-jantar-mantar-dos-and-donts-list",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20260911002549/https://www.outlookindia.com/national/they-want-you-to-play-villain-your-angry-face-is-content-delhi-police-gets-post-jantar-mantar-dos-and-donts-list"
+          }
+        ]
+      }
+    ],
+    "summary": "4 records edited"
+  },
+  {
+    "commit": "9c670cdb00",
+    "date": "2026-09-11T07:26:45Z",
+    "subject": "Sweep log and archived copies for 2026-09-11 [skip ci]",
+    "added": [],
+    "removed": [],
+    "changed": [
+      {
+        "id": "SRC-0031",
+        "kind": "Source",
+        "title": "LawBeat",
+        "state": null,
+        "url": "https://lawbeat.in/top-stories/supreme-court-agrees-to-hear-pil-challenging-delhi-polices-facial-recognition-surveillance-at-jantar-mantar-protest-1621910",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "https://web.archive.org/web/20260910072838/https://lawbeat.in/top-stories/supreme-court-agrees-to-hear-pil-challenging-delhi-polices-facial-recognition-surveillance-at-jantar-mantar-protest-1621910"
+          }
+        ]
       },
       {
-        "id": "INC-BIH-001",
-        "kind": "Evidence",
-        "title": "Police action at JP Golambar, Patna, on 22 July 2026.",
-        "state": "REPORTED",
-        "url": "evidence.html?id=INC-BIH-001"
+        "id": "SRC-0039",
+        "kind": "Source",
+        "title": "DNA",
+        "state": null,
+        "url": "https://www.dnaindia.com/india/report-supreme-court-says-pellet-guns-can-be-used-only-in-exceptional-situations-directs-govt-to-preserve-raf-ammunition-log-book-3217450",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "https://web.archive.org/web/20260911072510/https://www.dnaindia.com/india/report-supreme-court-says-pellet-guns-can-be-used-only-in-exceptional-situations-directs-govt-to-preserve-raf-ammunition-log-book-3217450"
+          }
+        ]
       },
       {
-        "id": "INC-BIH-002",
-        "kind": "Evidence",
-        "title": "Police action at Katihar on 23 July 2026.",
-        "state": "REPORTED",
-        "url": "evidence.html?id=INC-BIH-002"
+        "id": "SRC-0046",
+        "kind": "Source",
+        "title": "Scroll.in",
+        "state": null,
+        "url": "https://scroll.in/latest/1094930/ten-persons-injured-by-pellets-during-youth-protest-march-to-parliament-shows-rti-response",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20260830153427/https://scroll.in/latest/1094930/ten-persons-injured-by-pellets-during-youth-protest-march-to-parliament-shows-rti-response"
+          }
+        ]
       },
       {
-        "id": "INC-BIH-003",
-        "kind": "Evidence",
-        "title": "Protest activity at Munger on 23 July 2026. Whether police force was used at Munger is not established by the source.",
-        "state": "UNVERIFIED",
-        "url": "evidence.html?id=INC-BIH-003"
+        "id": "SRC-0048",
+        "kind": "Source",
+        "title": "The Tribune",
+        "state": null,
+        "url": "https://www.tribuneindia.com/news/india/10-faced-pellet-gun-injuries-during-cjp-stir-tmc-ex-mp-cites-rti/",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20260811010445/https://www.tribuneindia.com/news/india/10-faced-pellet-gun-injuries-during-cjp-stir-tmc-ex-mp-cites-rti/"
+          }
+        ]
       },
       {
-        "id": "INC-BIH-004",
-        "kind": "Evidence",
-        "title": "Police action at Dakbungalow Square, Patna, on 25 July 2026 during a Bihar Bandh; 17 detained.",
-        "state": "REPORTED",
-        "url": "evidence.html?id=INC-BIH-004"
+        "id": "SRC-0049",
+        "kind": "Source",
+        "title": "Alt News",
+        "state": null,
+        "url": "https://www.altnews.in/bihar-siwan-opened-fire-by-police-on-student-protesters-cjp-bihar-band",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20260907212204/https://www.altnews.in/bihar-siwan-opened-fire-by-police-on-student-protesters-cjp-bihar-band/"
+          }
+        ]
       },
       {
-        "id": "INC-MAH-001",
-        "kind": "Evidence",
-        "title": "Identity, date and location of the Maharashtra incident.",
-        "state": "UNKNOWN",
-        "url": "evidence.html?id=INC-MAH-001"
+        "id": "SRC-0050",
+        "kind": "Source",
+        "title": "SabrangIndia",
+        "state": null,
+        "url": "https://sabrangindia.in/bihar-not-just-delhi-patna-siwan-too-saw-brute-police-violence-against-demonstrating-students-pucl/",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20260828181810/https://sabrangindia.in/bihar-not-just-delhi-patna-siwan-too-saw-brute-police-violence-against-demonstrating-students-pucl/"
+          }
+        ]
+      }
+    ],
+    "summary": "6 records edited"
+  },
+  {
+    "commit": "ed39107f78",
+    "date": "2026-09-10T07:30:54Z",
+    "subject": "Sweep log and archived copies for 2026-09-10 [skip ci]",
+    "added": [],
+    "removed": [],
+    "changed": [
+      {
+        "id": "SRC-0030",
+        "kind": "Source",
+        "title": "LawBeat",
+        "state": null,
+        "url": "https://lawbeat.in/top-stories/pil-in-supreme-court-challenges-delhi-polices-facial-recognition-surveillance-at-jantar-mantar-protest-1616723",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "https://web.archive.org/web/20260910072709/https://lawbeat.in/top-stories/pil-in-supreme-court-challenges-delhi-polices-facial-recognition-surveillance-at-jantar-mantar-protest-1616723"
+          }
+        ]
       },
+      {
+        "id": "SRC-0040",
+        "kind": "Source",
+        "title": "Alt News",
+        "state": null,
+        "url": "https://www.altnews.in/delhi-police-records-confirm-what-was-already-evident-pellet-guns-were-used-on-protestors-on-july-20/",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20260831222439/https://www.altnews.in/delhi-police-records-confirm-what-was-already-evident-pellet-guns-were-used-on-protestors-on-july-20/"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0043",
+        "kind": "Source",
+        "title": "Outlook India",
+        "state": null,
+        "url": "https://www.outlookindia.com/national/delhi-police-to-register-fir-over-alleged-pellet-gun-injury-after-rahul-gandhis-protest",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20260908064141/https://www.outlookindia.com/national/delhi-police-to-register-fir-over-alleged-pellet-gun-injury-after-rahul-gandhis-protest"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0044",
+        "kind": "Source",
+        "title": "India.com",
+        "state": null,
+        "url": "https://www.india.com/news/india/rahul-gandhi-sits-on-dharna-outside-senior-cops-office-parliament-street-police-station-with-victim-sahil-lochav-demands-fir-over-pellet-gun-use-jantar-mantar-8506660/",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20260822091047/https://www.india.com/news/india/rahul-gandhi-sits-on-dharna-outside-senior-cops-office-parliament-street-police-station-with-victim-sahil-lochav-demands-fir-over-pellet-gun-use-jantar-mantar-850…"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0045",
+        "kind": "Source",
+        "title": "Alt News",
+        "state": null,
+        "url": "https://www.altnews.in/at-least-10-persons-suffered-pellet-injuries-on-sansad-chalo-march-20th-july-rti",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20260904223111/https://www.altnews.in/at-least-10-persons-suffered-pellet-injuries-on-sansad-chalo-march-20th-july-rti"
+          }
+        ]
+      }
+    ],
+    "summary": "5 records edited"
+  },
+  {
+    "commit": "5a19db5201",
+    "date": "2026-09-09T07:36:08Z",
+    "subject": "Sweep log and archived copies for 2026-09-09 [skip ci]",
+    "added": [],
+    "removed": [],
+    "changed": [
+      {
+        "id": "SRC-0028",
+        "kind": "Source",
+        "title": "Bar & Bench",
+        "state": null,
+        "url": "https://www.barandbench.com/news/supreme-court-forms-panel-headed-by-former-judge-to-probe-police-excesses-against-cjp-protestors",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "https://web.archive.org/web/20260909073225/https://www.barandbench.com/news/supreme-court-forms-panel-headed-by-former-judge-to-probe-police-excesses-against-cjp-protestors"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0029",
+        "kind": "Source",
+        "title": "Bar & Bench",
+        "state": null,
+        "url": "https://www.barandbench.com/news/litigation/cpim-mp-moves-supreme-court-against-use-of-facial-recognition-tech-by-police-at-jantar-mantar-protest-site",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "https://web.archive.org/web/20260909073306/https://www.barandbench.com/news/litigation/cpim-mp-moves-supreme-court-against-use-of-facial-recognition-tech-by-police-at-jantar-mantar-protest-site"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0038",
+        "kind": "Source",
+        "title": "The Week",
+        "state": null,
+        "url": "https://www.theweek.in/news/india/2026/07/30/supreme-court-pellet-gun-use-protest-delhi-police-sop-pellet-guns-neet-ug-strike.html",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20260731044038/https://www.theweek.in/news/india/2026/07/30/supreme-court-pellet-gun-use-protest-delhi-police-sop-pellet-guns-neet-ug-strike.html"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0041",
+        "kind": "Source",
+        "title": "BOOM",
+        "state": null,
+        "url": "https://www.boomlive.in/news/cjp-protest-delhi-police-deny-pellet-gun-use-victim-account-31912",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20260831145508/https://www.boomlive.in/news/cjp-protest-delhi-police-deny-pellet-gun-use-victim-account-31912"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0042",
+        "kind": "Source",
+        "title": "India TV News",
+        "state": null,
+        "url": "https://www.indiatvnews.com/news/india/delhi-police-to-register-fir-on-pellet-gun-complaint-as-rahul-gandhi-stages-dharna-outside-police-station-2026-08-21-1052071",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20260823234420/https://www.indiatvnews.com/news/india/delhi-police-to-register-fir-on-pellet-gun-complaint-as-rahul-gandhi-stages-dharna-outside-police-station-2026-08-21-1052071"
+          }
+        ]
+      }
+    ],
+    "summary": "5 records edited"
+  },
+  {
+    "commit": "95494d15ff",
+    "date": "2026-09-08T07:26:49Z",
+    "subject": "Sweep log and archived copies for 2026-09-08 [skip ci]",
+    "added": [],
+    "removed": [],
+    "changed": [
+      {
+        "id": "SRC-0020",
+        "kind": "Source",
+        "title": "Bar & Bench",
+        "state": null,
+        "url": "https://www.barandbench.com/news/litigation/facial-recognition-tech-used-at-cjp-protests-only-to-find-those-with-criminal-record-delhi-police-to-supreme-court",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "https://web.archive.org/web/20260908072142/https://www.barandbench.com/news/litigation/facial-recognition-tech-used-at-cjp-protests-only-to-find-those-with-criminal-record-delhi-police-to-supreme-court"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0025",
+        "kind": "Source",
+        "title": "Bar & Bench",
+        "state": null,
+        "url": "https://www.barandbench.com/news/cjp-protests-supreme-court-to-form-high-powered-panel-to-probe-police-excesses-violence-against-cops",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "https://web.archive.org/web/20260908072234/https://www.barandbench.com/news/cjp-protests-supreme-court-to-form-high-powered-panel-to-probe-police-excesses-violence-against-cops"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0035",
+        "kind": "Source",
+        "title": "Outlook India",
+        "state": null,
+        "url": "https://www.outlookindia.com/national/cjp-protest-delhi-police-register-10-firs-after-stone-pelting-injures-officers-at-cp-jantar-mantar",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20260821045256/https://www.outlookindia.com/national/cjp-protest-delhi-police-register-10-firs-after-stone-pelting-injures-officers-at-cp-jantar-mantar"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0036",
+        "kind": "Source",
+        "title": "LiveLaw",
+        "state": null,
+        "url": "https://www.livelaw.in/top-stories/will-lay-down-protocol-on-use-of-pellet-guns-says-supreme-court-544105",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20260804172848/https://www.livelaw.in/top-stories/will-lay-down-protocol-on-use-of-pellet-guns-says-supreme-court-544105"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0037",
+        "kind": "Source",
+        "title": "The Federal",
+        "state": null,
+        "url": "https://thefederal.com/category/news/supreme-court-pellet-guns-delhi-police-sop-raf-ammunition-log-251892",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "https://web.archive.org/web/20260908072623/https://thefederal.com/category/news/supreme-court-pellet-guns-delhi-police-sop-raf-ammunition-log-251892"
+          }
+        ]
+      }
+    ],
+    "summary": "5 records edited"
+  },
+  {
+    "commit": "cde3e43efa",
+    "date": "2026-09-07T07:35:08Z",
+    "subject": "Sweep log and archived copies for 2026-09-07 [skip ci]",
+    "added": [],
+    "removed": [],
+    "changed": [
+      {
+        "id": "SRC-0014",
+        "kind": "Source",
+        "title": "ANI",
+        "state": null,
+        "url": "https://aninews.in/news/national/general-news/suspended-cop-who-fired-ak-47-after-being-surrounded-by-protesters-bihar-govt-tells-sc20260818130412/",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "https://web.archive.org/web/20260907072725/https://aninews.in/news/national/general-news/suspended-cop-who-fired-ak-47-after-being-surrounded-by-protesters-bihar-govt-tells-sc20260818130412/"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0033",
+        "kind": "Source",
+        "title": "The Tribune",
+        "state": null,
+        "url": "https://www.tribuneindia.com/news/delhi/cop-linked-to-pellet-gun-use-at-jantar-mantar-protest-shunted/",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20260820220535/https://www.tribuneindia.com/news/delhi/cop-linked-to-pellet-gun-use-at-jantar-mantar-protest-shunted/"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0034",
+        "kind": "Source",
+        "title": "The Tribune",
+        "state": null,
+        "url": "https://www.tribuneindia.com/news/delhi/in-major-delhi-police-rejig-43-ips-danips-officers-transferred/",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20260821105320/https://www.tribuneindia.com/news/delhi/in-major-delhi-police-rejig-43-ips-danips-officers-transferred/"
+          }
+        ]
+      }
+    ],
+    "summary": "3 records edited"
+  },
+  {
+    "commit": "8548cee8e6",
+    "date": "2026-09-06T07:18:21Z",
+    "subject": "Sweep log and archived copies for 2026-09-06 [skip ci]",
+    "added": [],
+    "removed": [],
+    "changed": [
+      {
+        "id": "SRC-0019",
+        "kind": "Source",
+        "title": "High Court of Delhi",
+        "state": null,
+        "url": "https://delhihighcourt.nic.in/files/2026-07/cause-list/combined_cause_list_22.07.2026.pdf",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20260905070335/https://delhihighcourt.nic.in/files/2026-07/cause-list/combined_cause_list_22.07.2026.pdf"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0026",
+        "kind": "Source",
+        "title": "Supreme Court Observer",
+        "state": null,
+        "url": "https://www.scobserver.in/journal/sc-says-jantar-mantar-protest-firs-cannot-define-students-futures/",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20260819034504/https://www.scobserver.in/journal/sc-says-jantar-mantar-protest-firs-cannot-define-students-futures/"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0027",
+        "kind": "Source",
+        "title": "LiveLaw",
+        "state": null,
+        "url": "https://www.livelaw.in/top-stories/supreme-court-forms-5-member-committee-led-by-ex-sc-judge-subhash-reddy-to-probe-student-protest-violence-546666",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20260830214718/https://www.livelaw.in/top-stories/supreme-court-forms-5-member-committee-led-by-ex-sc-judge-subhash-reddy-to-probe-student-protest-violence-546666"
+          }
+        ]
+      }
+    ],
+    "summary": "3 records edited"
+  },
+  {
+    "commit": "d1a5027846",
+    "date": "2026-09-05T07:04:17Z",
+    "subject": "Sweep log and archived copies for 2026-09-05 [skip ci]",
+    "added": [],
+    "removed": [],
+    "changed": [
+      {
+        "id": "SRC-0021",
+        "kind": "Source",
+        "title": "Oneindia",
+        "state": null,
+        "url": "https://www.oneindia.com/india/cjp-protests-2-873-with-criminal-records-identified-using-facial-recognition-system-delhi-police-t-8179549.html",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20260821014829/https://www.oneindia.com/india/cjp-protests-2-873-with-criminal-records-identified-using-facial-recognition-system-delhi-police-t-8179549.html"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0022",
+        "kind": "Source",
+        "title": "NewsX",
+        "state": null,
+        "url": "https://www.newsx.com/india/ak-47-fired-at-siwan-student-protest-but-no-one-hit-by-rifle-what-bihar-govt-told-supreme-court-261593/",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20260830200539/https://www.newsx.com/india/ak-47-fired-at-siwan-student-protest-but-no-one-hit-by-rifle-what-bihar-govt-told-supreme-court-261593/"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0023",
+        "kind": "Source",
+        "title": "Business Standard",
+        "state": null,
+        "url": "https://www.business-standard.com/india-news/history-sheeters-infiltrated-jul-20-protest-240-cops-injured-delhi-police-126081800545_1.html",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20260823094654/https://www.business-standard.com/india-news/history-sheeters-infiltrated-jul-20-protest-240-cops-injured-delhi-police-126081800545_1.html"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0024",
+        "kind": "Source",
+        "title": "LawChakra",
+        "state": null,
+        "url": "https://lawchakra.in/supreme-court/delhi-police-supreme-court-affidavit-no-excessive-force-student-protesters/",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20260821170343/https://lawchakra.in/supreme-court/delhi-police-supreme-court-affidavit-no-excessive-force-student-protesters/"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0075",
+        "kind": "Source",
+        "title": "The Polis Project",
+        "state": null,
+        "url": "https://thepolisproject.com/research/documenting-custodial-violence-reflections-and-further-research-5/",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20250902211559/https://thepolisproject.com/research/documenting-custodial-violence-reflections-and-further-research-5/"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0076",
+        "kind": "Source",
+        "title": "Wikipedia",
+        "state": null,
+        "url": "https://en.wikipedia.org/wiki/DOTO_Database",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20250115011529/https://en.wikipedia.org/wiki/DOTO_Database"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0077",
+        "kind": "Source",
+        "title": "Common Cause and CSDS",
+        "state": null,
+        "url": "https://www.commoncause.in/wotadmin/upload/SPIR_2025.pdf",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20260818140637/https://www.commoncause.in/wotadmin/upload/SPIR_2025.pdf"
+          }
+        ]
+      }
+    ],
+    "summary": "7 records edited"
+  },
+  {
+    "commit": "0cd00ccfb2",
+    "date": "2026-09-04T07:23:59Z",
+    "subject": "Sweep log and archived copies for 2026-09-04 [skip ci]",
+    "added": [],
+    "removed": [],
+    "changed": [
+      {
+        "id": "SRC-0059",
+        "kind": "Source",
+        "title": "onlinelawconnect",
+        "state": null,
+        "url": "https://onlinelawconnect.com/actsandrules/criminal/bnss/SummaryChapter11.php",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20260903072504/https://onlinelawconnect.com/actsandrules/criminal/bnss/SummaryChapter11.php"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0073",
+        "kind": "Source",
+        "title": "Bellingcat",
+        "state": null,
+        "url": "https://www.bellingcat.com/news/americas/2020/10/29/a-new-platform-maps-us-police-violence-against-protesters/",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20260809185716/https://www.bellingcat.com/news/americas/2020/10/29/a-new-platform-maps-us-police-violence-against-protesters/"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0074",
+        "kind": "Source",
+        "title": "GIJN",
+        "state": null,
+        "url": "https://gijn.org/stories/how-bellingcat-and-forensic-architecture-teamed-up-with-colombias-cerosetenta-to-map-police-violence/",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20260531012041/https://gijn.org/stories/how-bellingcat-and-forensic-architecture-teamed-up-with-colombias-cerosetenta-to-map-police-violence/"
+          }
+        ]
+      }
+    ],
+    "summary": "3 records edited"
+  },
+  {
+    "commit": "69aacabd53",
+    "date": "2026-09-02T07:20:41Z",
+    "subject": "Sweep log and archived copies for 2026-09-02 [skip ci]",
+    "added": [],
+    "removed": [],
+    "changed": [
+      {
+        "id": "SRC-0001",
+        "kind": "Source",
+        "title": "Bar & Bench",
+        "state": null,
+        "url": "https://www.barandbench.com/news/litigation/not-an-isolated-incident-file-your-response-preserve-cctv-footage-delhi-hc-to-police-on-excesses-against-jantar-mantar-protestors",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "https://web.archive.org/web/20260902071352/https://www.barandbench.com/news/litigation/not-an-isolated-incident-file-your-response-preserve-cctv-footage-delhi-hc-to-police-on-excesses-against-jantar-mantar-protestors"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0015",
+        "kind": "Source",
+        "title": "Bar & Bench",
+        "state": null,
+        "url": "https://www.barandbench.com/news/litigation/nhrc-takes-suo-motu-cognisance-of-delhi-police-excesses-during-jantar-mantar-protests",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "https://web.archive.org/web/20260902071506/https://www.barandbench.com/news/litigation/nhrc-takes-suo-motu-cognisance-of-delhi-police-excesses-during-jantar-mantar-protests"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0016",
+        "kind": "Source",
+        "title": "India Legal",
+        "state": null,
+        "url": "https://indialegallive.com/constitutional-law-news/courts-news/nhrc-takes-suo-motu-cognisance-of-alleged-police-excess-during-cjp-protest-seeks-report-from-delhi-police/",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "https://web.archive.org/web/20260902071547/https://indialegallive.com/constitutional-law-news/courts-news/nhrc-takes-suo-motu-cognisance-of-alleged-police-excess-during-cjp-protest-seeks-report-from-delhi-police/"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0067",
+        "kind": "Source",
+        "title": "LegitQuest",
+        "state": null,
+        "url": "https://www.legitquest.com/act/the-bihar-police-amendment-act-2014/FBD1",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "https://web.archive.org/web/20260902071904/https://www.legitquest.com/act/the-bihar-police-amendment-act-2014/FBD1"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0072",
+        "kind": "Source",
+        "title": "commoner-law.com",
+        "state": null,
+        "url": "https://commoner-law.com/india/police-encounters/encounter-killings-and-custodial-deaths",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "https://web.archive.org/web/20260902071947/https://commoner-law.com/india/police-encounters/encounter-killings-and-custodial-deaths"
+          }
+        ]
+      }
+    ],
+    "summary": "5 records edited"
+  },
+  {
+    "commit": "92f20519c8",
+    "date": "2026-09-01T08:00:28Z",
+    "subject": "Sweep log and archived copies for 2026-09-01 [skip ci]",
+    "added": [],
+    "removed": [],
+    "changed": [
+      {
+        "id": "SRC-0007",
+        "kind": "Source",
+        "title": "Verdictum",
+        "state": null,
+        "url": "https://www.verdictum.in/delhi-high-court/jantar-mantar-seeks-union-delhi-police-reply-on-police-action-against-protesters-1618289",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "https://web.archive.org/web/20260901075543/https://www.verdictum.in/delhi-high-court/jantar-mantar-seeks-union-delhi-police-reply-on-police-action-against-protesters-1618289"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0012",
+        "kind": "Source",
+        "title": "Bar & Bench",
+        "state": null,
+        "url": "https://www.barandbench.com/news/litigation/police-fired-ak-47-after-constable-was-trapped-by-crowd-no-cjp-protestor-was-injured-bihar-to-supreme-court",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "https://web.archive.org/web/20260901075614/https://www.barandbench.com/news/litigation/police-fired-ak-47-after-constable-was-trapped-by-crowd-no-cjp-protestor-was-injured-bihar-to-supreme-court"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0013",
+        "kind": "Source",
+        "title": "The Federal",
+        "state": null,
+        "url": "https://thefederal.com/category/news/constable-fired-four-ak-47-shots-in-air-during-siwan-protest-no-injuries-bihat-govt-to-sc-253871",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "https://web.archive.org/web/20260901075704/https://thefederal.com/category/news/constable-fired-four-ak-47-shots-in-air-during-siwan-protest-no-injuries-bihat-govt-to-sc-253871"
+          }
+        ]
+      }
+    ],
+    "summary": "3 records edited"
+  },
+  {
+    "commit": "6de7584e9a",
+    "date": "2026-08-26T14:55:12Z",
+    "subject": "Cut the shouting and the self-praise out of the prose",
+    "added": [],
+    "removed": [],
+    "changed": [
       {
         "id": "PROC-DEL-001",
         "kind": "Evidence",
         "title": "Delhi High Court issued notice to Delhi Police and the Union on PILs concerning the 20 and 21 July 2026 police action, directed preservation of records includin",
         "state": "CORROBORATED",
-        "url": "evidence.html?id=PROC-DEL-001"
-      },
-      {
-        "id": "PROC-SC-001",
-        "kind": "Evidence",
-        "title": "Supreme Court proceedings on petitions concerning police action at Jantar Mantar and elsewhere; petitions allege lathi charge, pellet guns, rubber bullets, tear",
-        "state": "CORROBORATED",
-        "url": "evidence.html?id=PROC-SC-001"
+        "url": "evidence.html?id=PROC-DEL-001",
+        "fields": [
+          {
+            "field": "establishes",
+            "from": "Cause title and case number are now ESTABLISHED from the court's own cause list at PROC-DEL-002: Shakeel Abbas v. Union of India and Ors., W.P.(CRL) 2127/2026, listed 22 July 2026 before the Chief Justice and Justice Tejas Karia. That re…",
+            "to": "Cause title and case number are now established from the court's own cause list at PROC-DEL-002: Shakeel Abbas v. Union of India and Ors., W.P.(CRL) 2127/2026, listed 22 July 2026 before the Chief Justice and Justice Tejas Karia. That re…"
+          }
+        ]
       },
       {
         "id": "PROC-BIH-001",
         "kind": "Evidence",
         "title": "Court proceedings concerning the Bihar incidents. The State of Bihar is a respondent in the Supreme Court proceedings on the CJP student protests and has filed ",
         "state": "CORROBORATED",
-        "url": "evidence.html?id=PROC-BIH-001"
-      },
-      {
-        "id": "OVR-NHRC-001",
-        "kind": "Evidence",
-        "title": "NHRC took suo motu cognisance by order dated 25 July 2026 and issued notice to the Commissioner of Police, Delhi, directing a detailed report within two weeks. ",
-        "state": "CORROBORATED",
-        "url": "evidence.html?id=OVR-NHRC-001"
-      },
-      {
-        "id": "OVR-NHRC-002",
-        "kind": "Evidence",
-        "title": "A complaint was filed with the NHRC by Supreme Court advocate Virender Vashisht on or about 22 July 2026 seeking an independent inquiry by the Commission's Inve",
-        "state": "REPORTED",
-        "url": "evidence.html?id=OVR-NHRC-002"
-      },
-      {
-        "id": "OVR-BIH-001",
-        "kind": "Evidence",
-        "title": "Whether NHRC or Bihar SHRC has taken cognisance of the Bihar incidents.",
-        "state": "UNKNOWN",
-        "url": "evidence.html?id=OVR-BIH-001"
-      },
-      {
-        "id": "OVR-007",
-        "kind": "Evidence",
-        "title": "NHRC diary or case numbers for the suo motu proceeding at OVR-NHRC-001 and the complaint at OVR-NHRC-002.",
-        "state": "UNKNOWN",
-        "url": "evidence.html?id=OVR-007"
+        "url": "evidence.html?id=PROC-BIH-001",
+        "fields": [
+          {
+            "field": "establishes",
+            "from": "SUPERSEDES the earlier finding on this record, which read 'searched, none found' as at 16 August 2026 and was true when written. On 18 August 2026 the State of Bihar was reported to have filed an affidavit in the Supreme Court proceeding…",
+            "to": "Supersedes the earlier finding on this record, which read 'searched, none found' as at 16 August 2026 and was true when written. On 18 August 2026 the State of Bihar was reported to have filed an affidavit in the Supreme Court proceeding…"
+          }
+        ]
       },
       {
         "id": "PROC-DEL-002",
         "kind": "Evidence",
         "title": "Delhi High Court listed W.P.(CRL) 2127/2026 with CRL.M.A. 21282/2026 and CRL.M.A. 21283/2026, Shakeel Abbas v. Union of India and Ors., at item 54 of the supple",
         "state": "VERIFIED",
-        "url": "evidence.html?id=PROC-DEL-002"
+        "url": "evidence.html?id=PROC-DEL-002",
+        "fields": [
+          {
+            "field": "establishes",
+            "from": "The court's own record, and the first primary document in this archive for the Delhi proceeding. WHAT IT ESTABLISHES: the cause title, the writ petition and application numbers, the date of listing, and the bench. It settles two things t…",
+            "to": "The court's own record, and the first primary document in this archive for the Delhi proceeding. What it establishes: the cause title, the writ petition and application numbers, the date of listing, and the bench. It settles two things t…"
+          }
+        ]
       },
       {
         "id": "PROC-SC-002",
         "kind": "Evidence",
         "title": "Delhi Police stated on affidavit before the Supreme Court, at a hearing on 18 August 2026 in Shailendra Mani Tripathi v. Union of India and Ors., W.P.(C) 280/20",
         "state": "CORROBORATED",
-        "url": "evidence.html?id=PROC-SC-002"
+        "url": "evidence.html?id=PROC-SC-002",
+        "fields": [
+          {
+            "field": "establishes",
+            "from": "THAT the technology was deployed is the police's own statement to a court, reported by independent outlets, and nobody in the proceeding contests it. It is the first thing in this archive that the force has admitted about its own conduct…",
+            "to": "That the technology was deployed is the police's own statement to a court, reported by independent outlets, and nobody in the proceeding contests it. It is the first thing in this archive that the force has admitted about its own conduct…"
+          }
+        ]
       },
       {
         "id": "PROC-SC-003",
         "kind": "Evidence",
         "title": "Whether the facial recognition deployment at Jantar Mantar was confined to persons with existing criminal records, as Delhi Police asserts, or operated on the c",
         "state": "DISPUTED",
-        "url": "evidence.html?id=PROC-SC-003"
+        "url": "evidence.html?id=PROC-SC-003",
+        "fields": [
+          {
+            "field": "establishes",
+            "from": "AS STATED BY DELHI POLICE, on affidavit: the software 'only captured the images of criminals or history sheeters'; it 'does not automatically capture profile of every individual present at the protest site'; 'no action is taken solely on…",
+            "to": "As stated by delhi police, on affidavit: the software 'only captured the images of criminals or history sheeters'; it 'does not automatically capture profile of every individual present at the protest site'; 'no action is taken solely on…"
+          }
+        ]
       },
       {
         "id": "INC-SIW-001",
         "kind": "Evidence",
         "title": "Police discharged firearms during the student protest at Siwan on 25 July 2026. The State of Bihar's account, given on affidavit to the Supreme Court, is four r",
         "state": "CORROBORATED",
-        "url": "evidence.html?id=INC-SIW-001"
+        "url": "evidence.html?id=INC-SIW-001",
+        "fields": [
+          {
+            "field": "establishes",
+            "from": "AMENDED 26 AUGUST 2026. This record previously stated the State's figures as the claim itself: 'four rounds from an AK-47 near JP Chowk, and two rounds from a 9mm pistol near Hathi Chowk'. An open-source investigation published on 4 Augu…",
+            "to": "Amended 26 August 2026. This record previously stated the State's figures as the claim itself: 'four rounds from an AK-47 near JP Chowk, and two rounds from a 9mm pistol near Hathi Chowk'. An open-source investigation published on 4 Augu…"
+          }
+        ]
       },
       {
         "id": "PROC-SC-004",
         "kind": "Evidence",
         "title": "The State of Bihar filed an affidavit in the Supreme Court proceedings on the CJP student protests, reported on 18 August 2026, setting out its account of the p",
         "state": "CORROBORATED",
-        "url": "evidence.html?id=PROC-SC-004"
+        "url": "evidence.html?id=PROC-SC-004",
+        "fields": [
+          {
+            "field": "establishes",
+            "from": "AS STATED BY THE STATE OF BIHAR: a constable named in the affidavit as Abhishek Kumar fired four rounds from an AK-47 into the air, and only after he was surrounded or trapped by the crowd near JP Chowk; no protester was hit by rifle fir…",
+            "to": "As stated by the state of bihar: a constable named in the affidavit as Abhishek Kumar fired four rounds from an AK-47 into the air, and only after he was surrounded or trapped by the crowd near JP Chowk; no protester was hit by rifle fir…"
+          }
+        ]
       },
       {
         "id": "PROC-SC-005",
         "kind": "Evidence",
         "title": "Delhi Police filed an affidavit in the Supreme Court proceedings, reported on 18 August 2026, stating that no excessive force was used at Jantar Mantar on 20 Ju",
         "state": "CORROBORATED",
-        "url": "evidence.html?id=PROC-SC-005"
+        "url": "evidence.html?id=PROC-SC-005",
+        "fields": [
+          {
+            "field": "establishes",
+            "from": "AS STATED BY DELHI POLICE: about 5,000 police were managing a crowd reported at over 30,000 across roughly three kilometres; the agitation was hijacked by anti-social elements and history-sheeters; more than 240 police personnel were inj…",
+            "to": "As stated by delhi police: about 5,000 police were managing a crowd reported at over 30,000 across roughly three kilometres; the agitation was hijacked by anti-social elements and history-sheeters; more than 240 police personnel were inj…"
+          }
+        ]
       },
       {
         "id": "PROC-SC-006",
         "kind": "Evidence",
         "title": "The Supreme Court constituted a five-member High Powered Enquiry Committee by order reported dated 18 August 2026 to inquire into the police action against the ",
         "state": "CORROBORATED",
-        "url": "evidence.html?id=PROC-SC-006"
+        "url": "evidence.html?id=PROC-SC-006",
+        "fields": [
+          {
+            "field": "establishes",
+            "from": "UPDATED 21 AUGUST 2026, AND THE EARLIER VERSION OF THIS RECORD IS NOW WRONG. It said a committee had been decided on but not shown to be constituted, and that whether it existed was not established. It has since been constituted, by an o…",
+            "to": "Updated 21 August 2026, and the earlier version of this record is now wrong. It said a committee had been decided on but not shown to be constituted, and that whether it existed was not established. It has since been constituted, by an o…"
+          }
+        ]
       },
       {
         "id": "PROC-SC-007",
         "kind": "Evidence",
         "title": "A public interest petition challenging the use of facial recognition and other biometric surveillance at the Jantar Mantar protest is before the Supreme Court. ",
         "state": "CORROBORATED",
-        "url": "evidence.html?id=PROC-SC-007"
+        "url": "evidence.html?id=PROC-SC-007",
+        "fields": [
+          {
+            "field": "establishes",
+            "from": "AS ALLEGED IN THE PETITION, and adopted by this archive as nothing more than an allegation: that Delhi Police deployed an 'Ikshana' facial recognition vehicle, AjnaLens smart glasses, CCTV cameras and drones, a Mobile Command and Control…",
+            "to": "As alleged in the petition, and adopted by this archive as nothing more than an allegation: that Delhi Police deployed an 'Ikshana' facial recognition vehicle, AjnaLens smart glasses, CCTV cameras and drones, a Mobile Command and Control…"
+          }
+        ]
       },
       {
         "id": "OVR-DEL-001",
         "kind": "Evidence",
         "title": "Two Delhi Police officers whose posts covered the Jantar Mantar policing were moved in a Delhi Government order of 18 August 2026 transferring 43 IPS and DANIPS",
         "state": "REPORTED",
-        "url": "evidence.html?id=OVR-DEL-001"
+        "url": "evidence.html?id=OVR-DEL-001",
+        "fields": [
+          {
+            "field": "establishes",
+            "from": "ONE PUBLICATION, TWO ARTICLES. Both are The Tribune, so this is a single account and stays REPORTED. India TV News is listed by search as having published the full list on 18 August; our fetch of it returned HTTP 403 and it is therefore …",
+            "to": "One publication, two articles. Both are The Tribune, so this is a single account and stays REPORTED. India TV News is listed by search as having published the full list on 18 August; our fetch of it returned HTTP 403 and it is therefore …"
+          }
+        ]
       },
       {
         "id": "INC-DEL-003",
         "kind": "Evidence",
         "title": "Ten FIRs are reported to have been registered in the New Delhi district after the events of 22 July 2026 at Connaught Place and Jantar Mantar, and six police pe",
         "state": "REPORTED",
-        "url": "evidence.html?id=INC-DEL-003"
+        "url": "evidence.html?id=INC-DEL-003",
+        "fields": [
+          {
+            "field": "establishes",
+            "from": "ONE SOURCE, AND ITS SOURCE IS THE POLICE. Outlook attributes the account to police sources; no FIR number, police station or section is given, and no copy of any FIR is held. THIS IS THE STATE'S SIDE OF 22 JULY AND IT BELONGS HERE. An ar…",
+            "to": "One source, and its source is the police. Outlook attributes the account to police sources; no FIR number, police station or section is given, and no copy of any FIR is held. This is the state's side of 22 July and it belongs here. An ar…"
+          }
+        ]
       },
       {
         "id": "PROC-SC-008",
         "kind": "Evidence",
         "title": "A petition on the use of pellet-firing weapons at Jantar Mantar is before the Supreme Court: Yashovardhan Azad and Others v. Union of India and Others, W.P.(C) ",
         "state": "CORROBORATED",
-        "url": "evidence.html?id=PROC-SC-008"
+        "url": "evidence.html?id=PROC-SC-008",
+        "fields": [
+          {
+            "field": "establishes",
+            "from": "TWO HEARINGS, AND THE REPORTING SPLITS BETWEEN THEM. The Federal and The Week carry the SOP direction and the preservation of the ammunition log from 30 July; LiveLaw carries the protocol observation and the direction to the Union from 3…",
+            "to": "Two hearings, and the reporting splits between them. The Federal and The Week carry the SOP direction and the preservation of the ammunition log from 30 July; LiveLaw carries the protocol observation and the direction to the Union from 3…"
+          }
+        ]
       },
       {
         "id": "PROC-SC-009",
         "kind": "Evidence",
         "title": "Counsel for the petitioners in W.P.(C) 917/2026 submitted before the Supreme Court, reported on 3 August 2026, that 'from 1967 to now, there is not a single sta",
         "state": "REPORTED",
-        "url": "evidence.html?id=PROC-SC-009"
+        "url": "evidence.html?id=PROC-SC-009",
+        "fields": [
+          {
+            "field": "establishes",
+            "from": "READ THIS ONE CAREFULLY, BECAUSE IT IS THE CLAIM THIS ARCHIVE IS MOST TEMPTED TO OVERSTATE. A submission by counsel is a party's assertion made in court. It is not a finding, it is not evidence that no such order exists, and it does not …",
+            "to": "A submission by counsel is a party's assertion made in court. It is not a finding, it is not evidence that no such order exists, and it does not establish an absence. What it establishes is that the absence was asserted, on the record, b…"
+          }
+        ]
       },
       {
         "id": "INC-DEL-004",
         "kind": "Evidence",
         "title": "A Delhi Police General Diary entry numbered 0008A, recorded at Parliament Street police station at 1.24 am on 22 July 2026, is reported to record that a Rapid A",
         "state": "CORROBORATED",
-        "url": "evidence.html?id=INC-DEL-004"
+        "url": "evidence.html?id=INC-DEL-004",
+        "fields": [
+          {
+            "field": "establishes",
+            "from": "THIS IS THE CLOSEST THING IN THIS ARCHIVE TO AN AUTHORISATION, AND IT IS STILL NOT ONE. A General Diary entry is a police record of what an officer reported, made two days after the event by a duty officer writing down what a deputy comm…",
+            "to": "A General Diary entry is a police record of what an officer reported, made two days after the event by a duty officer writing down what a deputy commander told him. The words that matter are 'under the orders of' a Deputy Commissioner of…"
+          }
+        ]
       },
       {
         "id": "INC-DEL-005",
         "kind": "Evidence",
         "title": "Whether pellet-firing weapons were used against demonstrators at Jantar Mantar on 20 July 2026, and if so whether the ammunition was plastic or metallic.",
         "state": "DISPUTED",
-        "url": "evidence.html?id=INC-DEL-005"
+        "url": "evidence.html?id=INC-DEL-005",
+        "fields": [
+          {
+            "field": "establishes",
+            "from": "THREE ACCOUNTS THAT CANNOT ALL BE RIGHT, WHICH IS WHY THIS IS DISPUTED RATHER THAN UNKNOWN. ONE: Delhi Police, publicly on 22 July, 'Claims of pellet guns being used against peaceful protesters by Delhi Police on Monday are completely fa…",
+            "to": "Three accounts that cannot all be right, Which is why this is DISPUTED, not UNKNOWN. One: Delhi Police, publicly on 22 July, 'Claims of pellet guns being used against peaceful protesters by Delhi Police on Monday are completely false and…"
+          }
+        ]
       },
       {
         "id": "PROC-DEL-003",
         "kind": "Evidence",
         "title": "Delhi Police registered a First Information Report on 21 August 2026 at Parliament Street (Sansad Marg) police station, against unidentified persons, on the wri",
         "state": "CORROBORATED",
-        "url": "evidence.html?id=PROC-DEL-003"
+        "url": "evidence.html?id=PROC-DEL-003",
+        "fields": [
+          {
+            "field": "establishes",
+            "from": "THIS IS THE FIRST CRIMINAL CASE IN THIS ARCHIVE ABOUT THE POLICE ACTION ITSELF. Everything else recorded here is a writ petition, a commission proceeding or an affidavit. An FIR is an investigation with a file, a case diary and a charges…",
+            "to": "This is the first criminal case in this archive about the police action itself. Everything else recorded here is a writ petition, a commission proceeding or an affidavit. An FIR is an investigation with a file, a case diary and a charges…"
+          }
+        ]
       },
       {
         "id": "INC-DEL-006",
         "kind": "Evidence",
         "title": "Replies to Right to Information applications filed by Saket Gokhale, a Trinamool Congress leader and former Rajya Sabha member, are reported to record that at l",
         "state": "CORROBORATED",
-        "url": "evidence.html?id=INC-DEL-006"
+        "url": "evidence.html?id=INC-DEL-006",
+        "fields": [
+          {
+            "field": "establishes",
+            "from": "THIS IS THE BEST-SOURCED THING ON THE PELLET QUESTION, AND IT IS SOMEBODY ELSE'S WORK. Saket Gokhale asked four Delhi hospitals a narrow question and two answered it. The archive credits him by name because attribution is how this projec…",
+            "to": "Saket Gokhale asked four Delhi hospitals a narrow question and two answered it. The archive credits him by name because attribution is how this project treats work it did not do, and because a document obtained by an identified person un…"
+          }
+        ]
       },
+      {
+        "id": "INC-SIW-002",
+        "kind": "Evidence",
+        "title": "An open-source investigation published by Alt News on 4 August 2026, based on geolocated bystander video from several angles, reports at least nine rounds fired",
+        "state": "REPORTED",
+        "url": "evidence.html?id=INC-SIW-002",
+        "fields": [
+          {
+            "field": "establishes",
+            "from": "ONE PUBLICATION, BUT NOT ONE OF THE USUAL KIND. This is not a report of somebody else's document; it is the outlet's own analysis of video it geolocated, which makes it primary work by a secondary source. The archive cannot check it with…",
+            "to": "One publication, but not of the usual kind. This is not a report of somebody else's document; it is the outlet's own analysis of video it geolocated, which makes it primary work by a secondary source. The archive cannot check it without …"
+          }
+        ]
+      },
+      {
+        "id": "INC-SIW-003",
+        "kind": "Evidence",
+        "title": "How many rounds were fired by police at Siwan on 25 July 2026, from how many weapons, and at how many locations.",
+        "state": "DISPUTED",
+        "url": "evidence.html?id=INC-SIW-003",
+        "fields": [
+          {
+            "field": "establishes",
+            "from": "THE STATE SAYS FOUR AK-47 ROUNDS AT ONE PLACE. An open-source investigation says at least nine at two places, neither of them the place the State names, plus two separate pistol incidents. A civil liberties body's public hearing records …",
+            "to": "The state says four ak-47 rounds at one place. An open-source investigation says at least nine at two places, neither of them the place the State names, plus two separate pistol incidents. A civil liberties body's public hearing records …"
+          }
+        ]
+      },
+      {
+        "id": "INC-BIH-005",
+        "kind": "Evidence",
+        "title": "A public hearing convened by the Bihar unit of the People's Union for Civil Liberties at the IMA Hall, Gandhi Maidan, Patna, on 22 August 2026 heard 19 people w",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=INC-BIH-005",
+        "fields": [
+          {
+            "field": "establishes",
+            "from": "WHAT IS ESTABLISHED HERE IS THAT THE HEARING HAPPENED AND WHAT IT FOUND — not that the findings are true. A fact-finding panel is not a court and its conclusions are not evidence of the events; they are the considered account of named pe…",
+            "to": "What is established here is that the hearing happened and what it found — not that the findings are true. A fact-finding panel is not a court and its conclusions are not evidence of the events; they are the considered account of named pe…"
+          }
+        ]
+      },
+      {
+        "id": "PROC-SC-010",
+        "kind": "Evidence",
+        "title": "On 24 August 2026 the Chief Justice of India is reported to have said that the Court's order of 18 August already requires the High Powered Enquiry Committee to",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=PROC-SC-010",
+        "fields": [
+          {
+            "field": "establishes",
+            "from": "TWO THINGS HAPPENED AND THEY ARE EASY TO CONFLATE. The Court declined to open a suo motu proceeding on the sexual assault allegations, and the Court said those allegations are already inside the committee's mandate and must be reported o…",
+            "to": "Two things happened and they are easy to conflate. The Court declined to open a suo motu proceeding on the sexual assault allegations, and the Court said those allegations are already inside the committee's mandate and must be reported o…"
+          }
+        ]
+      },
+      {
+        "id": "OQ-004",
+        "kind": "Question",
+        "title": "The text of the Delhi High Court order of 22 July 2026 in W.P.(CRL) 2127/2026, and which petitions were heard with it.",
+        "state": "UNANSWERED",
+        "url": "investigation.html?id=jantar-mantar#OQ-004",
+        "fields": [
+          {
+            "field": "title",
+            "from": "The TEXT of the Delhi High Court order of 22 July 2026 in W.P.(CRL) 2127/2026, and which petitions were heard with it.",
+            "to": "The text of the Delhi High Court order of 22 July 2026 in W.P.(CRL) 2127/2026, and which petitions were heard with it."
+          }
+        ]
+      },
+      {
+        "id": "OQ-012",
+        "kind": "Question",
+        "title": "BNSS s.196 verified against India Code, not secondary sources.",
+        "state": "UNANSWERED",
+        "url": "investigation.html?id=#OQ-012",
+        "fields": [
+          {
+            "field": "title",
+            "from": "BNSS s.196 verified against India Code rather than secondary sources.",
+            "to": "BNSS s.196 verified against India Code, not secondary sources."
+          }
+        ]
+      },
+      {
+        "id": "OQ-045",
+        "kind": "Question",
+        "title": "The Supreme Court's order of 18 August 2026 constituting the High Powered Enquiry Committee, and the committee's terms of reference as issued, not as reported.",
+        "state": "UNANSWERED",
+        "url": "investigation.html?id=jantar-mantar#OQ-045",
+        "fields": [
+          {
+            "field": "title",
+            "from": "The Supreme Court's order of 18 August 2026 constituting the High Powered Enquiry Committee, and the committee's terms of reference as issued rather than as reported.",
+            "to": "The Supreme Court's order of 18 August 2026 constituting the High Powered Enquiry Committee, and the committee's terms of reference as issued, not as reported."
+          }
+        ]
+      },
+      {
+        "id": "OQ-049",
+        "kind": "Question",
+        "title": "The fact-finding report of the PUCL Bihar public hearing of 22 August 2026, as a document, not as reported.",
+        "state": "UNANSWERED",
+        "url": "investigation.html?id=bihar#OQ-049",
+        "fields": [
+          {
+            "field": "title",
+            "from": "The fact-finding report of the PUCL Bihar public hearing of 22 August 2026, as a document rather than as reported.",
+            "to": "The fact-finding report of the PUCL Bihar public hearing of 22 August 2026, as a document, not as reported."
+          }
+        ]
+      }
+    ],
+    "summary": "26 records edited"
+  },
+  {
+    "commit": "07f8d71ab6",
+    "date": "2026-08-26T13:27:42Z",
+    "subject": "Five days of sweep: Siwan corrected, Bihar gets a non-government account",
+    "added": [
       {
         "id": "INC-SIW-002",
         "kind": "Evidence",
@@ -274,503 +1337,6 @@ WGO.changes = [
         "title": "On 24 August 2026 the Chief Justice of India is reported to have said that the Court's order of 18 August already requires the High Powered Enquiry Committee to",
         "state": "CORROBORATED",
         "url": "evidence.html?id=PROC-SC-010"
-      },
-      {
-        "id": "SRC-0001",
-        "kind": "Source",
-        "title": "Bar & Bench",
-        "state": null,
-        "url": "https://www.barandbench.com/news/litigation/not-an-isolated-incident-file-your-response-preserve-cctv-footage-delhi-hc-to-police-on-excesses-against-jantar-mantar-protestors"
-      },
-      {
-        "id": "SRC-0002",
-        "kind": "Source",
-        "title": "Free Press Journal",
-        "state": null,
-        "url": "https://www.freepressjournal.in/education/nhrc-takes-cognisance-of-delhi-police-action-during-jantar-mantar-student-protest-seeks-report-within-two-weeks"
-      },
-      {
-        "id": "SRC-0003",
-        "kind": "Source",
-        "title": "Deccan Herald",
-        "state": null,
-        "url": "https://www.deccanherald.com/india/delhi/fresh-chaos-erupts-at-jantar-mantar-as-protestors-police-clash-4083673"
-      },
-      {
-        "id": "SRC-0004",
-        "kind": "Source",
-        "title": "The Quint",
-        "state": null,
-        "url": "https://www.thequint.com/news/breaking-news/bihar-student-protests-lathi-charge-patna-police-response"
-      },
-      {
-        "id": "SRC-0005",
-        "kind": "Source",
-        "title": "India TV",
-        "state": null,
-        "url": "https://www.indiatvnews.com/bihar/news-bihar-students-protest-turns-violent-in-katihar-patna-munger-police-lathicharge-protesters-hurl-stones-latest-updates-2026-07-23-1049145"
-      },
-      {
-        "id": "SRC-0006",
-        "kind": "Source",
-        "title": "The Week",
-        "state": null,
-        "url": "https://www.theweek.in/news/india/2026/07/25/bihar-bandh-police-lathi-charge-student-protesters-in-patna-17-detained-as-demonstrators-break-barricades-pelt-stones.html"
-      },
-      {
-        "id": "SRC-0007",
-        "kind": "Source",
-        "title": "Verdictum",
-        "state": null,
-        "url": "https://www.verdictum.in/delhi-high-court/jantar-mantar-seeks-union-delhi-police-reply-on-police-action-against-protesters-1618289"
-      },
-      {
-        "id": "SRC-0008",
-        "kind": "Source",
-        "title": "The Week",
-        "state": null,
-        "url": "https://www.theweek.in/news/india/2026/07/22/why-delhi-hc-asked-police-to-keep-video-evidence-of-cjp-protest-not-isolated-incidents.html"
-      },
-      {
-        "id": "SRC-0009",
-        "kind": "Source",
-        "title": "LiveLaw",
-        "state": null,
-        "url": "https://www.livelaw.in/high-court/delhi-high-court/jantar-mantar-protest-delhi-police-force-response-cctv-preservation-ordered-cjp-march-neet-leak-542382"
-      },
-      {
-        "id": "SRC-0010",
-        "kind": "Source",
-        "title": "SCC Online blog",
-        "state": null,
-        "url": "https://www.scconline.com/blog/post/2026/07/29/neet-paper-leak-protest-proceedings-sc-interim-directions-police-violence/"
-      },
-      {
-        "id": "SRC-0011",
-        "kind": "Source",
-        "title": "LiveLaw",
-        "state": null,
-        "url": "https://www.livelaw.in/top-stories/supreme-court-student-protests-delhi-police-affidavit-facial-recognition-software-only-captures-serious-offense-criminals-546263"
-      },
-      {
-        "id": "SRC-0012",
-        "kind": "Source",
-        "title": "Bar & Bench",
-        "state": null,
-        "url": "https://www.barandbench.com/news/litigation/police-fired-ak-47-after-constable-was-trapped-by-crowd-no-cjp-protestor-was-injured-bihar-to-supreme-court"
-      },
-      {
-        "id": "SRC-0013",
-        "kind": "Source",
-        "title": "The Federal",
-        "state": null,
-        "url": "https://thefederal.com/category/news/constable-fired-four-ak-47-shots-in-air-during-siwan-protest-no-injuries-bihat-govt-to-sc-253871"
-      },
-      {
-        "id": "SRC-0014",
-        "kind": "Source",
-        "title": "ANI",
-        "state": null,
-        "url": "https://aninews.in/news/national/general-news/suspended-cop-who-fired-ak-47-after-being-surrounded-by-protesters-bihar-govt-tells-sc20260818130412/"
-      },
-      {
-        "id": "SRC-0015",
-        "kind": "Source",
-        "title": "Bar & Bench",
-        "state": null,
-        "url": "https://www.barandbench.com/news/litigation/nhrc-takes-suo-motu-cognisance-of-delhi-police-excesses-during-jantar-mantar-protests"
-      },
-      {
-        "id": "SRC-0016",
-        "kind": "Source",
-        "title": "India Legal",
-        "state": null,
-        "url": "https://indialegallive.com/constitutional-law-news/courts-news/nhrc-takes-suo-motu-cognisance-of-alleged-police-excess-during-cjp-protest-seeks-report-from-delhi-police/"
-      },
-      {
-        "id": "SRC-0017",
-        "kind": "Source",
-        "title": "Deccan Chronicle",
-        "state": null,
-        "url": "https://www.deccanchronicle.com/nation/current-affairs/nhrc-takes-suo-motu-cognisance-of-police-action-during-cjp-protest-1974561"
-      },
-      {
-        "id": "SRC-0018",
-        "kind": "Source",
-        "title": "ANI via IndiasNews",
-        "state": null,
-        "url": "https://www.indiasnews.net/news/279202613/complaint-filed-with-nhrc-seeking-independent-inquiry-into-police-action-at-jantar-mantar"
-      },
-      {
-        "id": "SRC-0019",
-        "kind": "Source",
-        "title": "High Court of Delhi",
-        "state": null,
-        "url": "https://delhihighcourt.nic.in/files/2026-07/cause-list/combined_cause_list_22.07.2026.pdf"
-      },
-      {
-        "id": "SRC-0020",
-        "kind": "Source",
-        "title": "Bar & Bench",
-        "state": null,
-        "url": "https://www.barandbench.com/news/litigation/facial-recognition-tech-used-at-cjp-protests-only-to-find-those-with-criminal-record-delhi-police-to-supreme-court"
-      },
-      {
-        "id": "SRC-0021",
-        "kind": "Source",
-        "title": "Oneindia",
-        "state": null,
-        "url": "https://www.oneindia.com/india/cjp-protests-2-873-with-criminal-records-identified-using-facial-recognition-system-delhi-police-t-8179549.html"
-      },
-      {
-        "id": "SRC-0022",
-        "kind": "Source",
-        "title": "NewsX",
-        "state": null,
-        "url": "https://www.newsx.com/india/ak-47-fired-at-siwan-student-protest-but-no-one-hit-by-rifle-what-bihar-govt-told-supreme-court-261593/"
-      },
-      {
-        "id": "SRC-0023",
-        "kind": "Source",
-        "title": "Business Standard",
-        "state": null,
-        "url": "https://www.business-standard.com/india-news/history-sheeters-infiltrated-jul-20-protest-240-cops-injured-delhi-police-126081800545_1.html"
-      },
-      {
-        "id": "SRC-0024",
-        "kind": "Source",
-        "title": "LawChakra",
-        "state": null,
-        "url": "https://lawchakra.in/supreme-court/delhi-police-supreme-court-affidavit-no-excessive-force-student-protesters/"
-      },
-      {
-        "id": "SRC-0025",
-        "kind": "Source",
-        "title": "Bar & Bench",
-        "state": null,
-        "url": "https://www.barandbench.com/news/cjp-protests-supreme-court-to-form-high-powered-panel-to-probe-police-excesses-violence-against-cops"
-      },
-      {
-        "id": "SRC-0026",
-        "kind": "Source",
-        "title": "Supreme Court Observer",
-        "state": null,
-        "url": "https://www.scobserver.in/journal/sc-says-jantar-mantar-protest-firs-cannot-define-students-futures/"
-      },
-      {
-        "id": "SRC-0027",
-        "kind": "Source",
-        "title": "LiveLaw",
-        "state": null,
-        "url": "https://www.livelaw.in/top-stories/supreme-court-forms-5-member-committee-led-by-ex-sc-judge-subhash-reddy-to-probe-student-protest-violence-546666"
-      },
-      {
-        "id": "SRC-0028",
-        "kind": "Source",
-        "title": "Bar & Bench",
-        "state": null,
-        "url": "https://www.barandbench.com/news/supreme-court-forms-panel-headed-by-former-judge-to-probe-police-excesses-against-cjp-protestors"
-      },
-      {
-        "id": "SRC-0029",
-        "kind": "Source",
-        "title": "Bar & Bench",
-        "state": null,
-        "url": "https://www.barandbench.com/news/litigation/cpim-mp-moves-supreme-court-against-use-of-facial-recognition-tech-by-police-at-jantar-mantar-protest-site"
-      },
-      {
-        "id": "SRC-0030",
-        "kind": "Source",
-        "title": "LawBeat",
-        "state": null,
-        "url": "https://lawbeat.in/top-stories/pil-in-supreme-court-challenges-delhi-polices-facial-recognition-surveillance-at-jantar-mantar-protest-1616723"
-      },
-      {
-        "id": "SRC-0031",
-        "kind": "Source",
-        "title": "LawBeat",
-        "state": null,
-        "url": "https://lawbeat.in/top-stories/supreme-court-agrees-to-hear-pil-challenging-delhi-polices-facial-recognition-surveillance-at-jantar-mantar-protest-1621910"
-      },
-      {
-        "id": "SRC-0032",
-        "kind": "Source",
-        "title": "ANI",
-        "state": null,
-        "url": "https://aninews.in/news/national/general-news/pil-in-sc-challenges-delhi-polices-use-of-facial-recognition-ai-surveillance-at-jantar-mantar-protest20260728140154/"
-      },
-      {
-        "id": "SRC-0033",
-        "kind": "Source",
-        "title": "The Tribune",
-        "state": null,
-        "url": "https://www.tribuneindia.com/news/delhi/cop-linked-to-pellet-gun-use-at-jantar-mantar-protest-shunted/"
-      },
-      {
-        "id": "SRC-0034",
-        "kind": "Source",
-        "title": "The Tribune",
-        "state": null,
-        "url": "https://www.tribuneindia.com/news/delhi/in-major-delhi-police-rejig-43-ips-danips-officers-transferred/"
-      },
-      {
-        "id": "SRC-0035",
-        "kind": "Source",
-        "title": "Outlook India",
-        "state": null,
-        "url": "https://www.outlookindia.com/national/cjp-protest-delhi-police-register-10-firs-after-stone-pelting-injures-officers-at-cp-jantar-mantar"
-      },
-      {
-        "id": "SRC-0036",
-        "kind": "Source",
-        "title": "LiveLaw",
-        "state": null,
-        "url": "https://www.livelaw.in/top-stories/will-lay-down-protocol-on-use-of-pellet-guns-says-supreme-court-544105"
-      },
-      {
-        "id": "SRC-0037",
-        "kind": "Source",
-        "title": "The Federal",
-        "state": null,
-        "url": "https://thefederal.com/category/news/supreme-court-pellet-guns-delhi-police-sop-raf-ammunition-log-251892"
-      },
-      {
-        "id": "SRC-0038",
-        "kind": "Source",
-        "title": "The Week",
-        "state": null,
-        "url": "https://www.theweek.in/news/india/2026/07/30/supreme-court-pellet-gun-use-protest-delhi-police-sop-pellet-guns-neet-ug-strike.html"
-      },
-      {
-        "id": "SRC-0039",
-        "kind": "Source",
-        "title": "DNA",
-        "state": null,
-        "url": "https://www.dnaindia.com/india/report-supreme-court-says-pellet-guns-can-be-used-only-in-exceptional-situations-directs-govt-to-preserve-raf-ammunition-log-book-3217450"
-      },
-      {
-        "id": "SRC-0040",
-        "kind": "Source",
-        "title": "Alt News",
-        "state": null,
-        "url": "https://www.altnews.in/delhi-police-records-confirm-what-was-already-evident-pellet-guns-were-used-on-protestors-on-july-20/"
-      },
-      {
-        "id": "SRC-0041",
-        "kind": "Source",
-        "title": "BOOM",
-        "state": null,
-        "url": "https://www.boomlive.in/news/cjp-protest-delhi-police-deny-pellet-gun-use-victim-account-31912"
-      },
-      {
-        "id": "SRC-0042",
-        "kind": "Source",
-        "title": "India TV News",
-        "state": null,
-        "url": "https://www.indiatvnews.com/news/india/delhi-police-to-register-fir-on-pellet-gun-complaint-as-rahul-gandhi-stages-dharna-outside-police-station-2026-08-21-1052071"
-      },
-      {
-        "id": "SRC-0043",
-        "kind": "Source",
-        "title": "Outlook India",
-        "state": null,
-        "url": "https://www.outlookindia.com/national/delhi-police-to-register-fir-over-alleged-pellet-gun-injury-after-rahul-gandhis-protest"
-      },
-      {
-        "id": "SRC-0044",
-        "kind": "Source",
-        "title": "India.com",
-        "state": null,
-        "url": "https://www.india.com/news/india/rahul-gandhi-sits-on-dharna-outside-senior-cops-office-parliament-street-police-station-with-victim-sahil-lochav-demands-fir-over-pellet-gun-use-jantar-mantar-8506660/"
-      },
-      {
-        "id": "SRC-0045",
-        "kind": "Source",
-        "title": "Alt News",
-        "state": null,
-        "url": "https://www.altnews.in/at-least-10-persons-suffered-pellet-injuries-on-sansad-chalo-march-20th-july-rti"
-      },
-      {
-        "id": "SRC-0046",
-        "kind": "Source",
-        "title": "Scroll.in",
-        "state": null,
-        "url": "https://scroll.in/latest/1094930/ten-persons-injured-by-pellets-during-youth-protest-march-to-parliament-shows-rti-response"
-      },
-      {
-        "id": "SRC-0047",
-        "kind": "Source",
-        "title": "The Wire",
-        "state": null,
-        "url": "https://m.thewire.in/article/rights/at-least-10-persons-suffered-pellet-injuries-on-july-20-in-delhi-shows-rti-response"
-      },
-      {
-        "id": "SRC-0048",
-        "kind": "Source",
-        "title": "The Tribune",
-        "state": null,
-        "url": "https://www.tribuneindia.com/news/india/10-faced-pellet-gun-injuries-during-cjp-stir-tmc-ex-mp-cites-rti/"
-      },
-      {
-        "id": "SRC-0049",
-        "kind": "Source",
-        "title": "Alt News",
-        "state": null,
-        "url": "https://www.altnews.in/bihar-siwan-opened-fire-by-police-on-student-protesters-cjp-bihar-band"
-      },
-      {
-        "id": "SRC-0050",
-        "kind": "Source",
-        "title": "SabrangIndia",
-        "state": null,
-        "url": "https://sabrangindia.in/bihar-not-just-delhi-patna-siwan-too-saw-brute-police-violence-against-demonstrating-students-pucl/"
-      },
-      {
-        "id": "SRC-0051",
-        "kind": "Source",
-        "title": "Free Press Journal",
-        "state": null,
-        "url": "https://www.freepressjournal.in/india/withdraw-all-firs-pucl-demands-action-after-students-allege-police-brutality-during-neet-protests"
-      },
-      {
-        "id": "SRC-0052",
-        "kind": "Source",
-        "title": "Counterview",
-        "state": null,
-        "url": "https://www.counterview.net/2026/08/public-hearing-documents-widespread.html"
-      },
-      {
-        "id": "SRC-0053",
-        "kind": "Source",
-        "title": "LiveLaw",
-        "state": null,
-        "url": "https://www.livelaw.in/top-stories/jantar-mantar-protests-we-have-told-committee-to-probe-sexual-assault-cases-on-priority-cji-surya-kant-547096"
-      },
-      {
-        "id": "SRC-0054",
-        "kind": "Source",
-        "title": "The Tribune",
-        "state": null,
-        "url": "https://www.tribuneindia.com/news/india/cjp-protests-sc-appointed-panel-to-prioritise-complaints-of-sexual-assault-molestation/"
-      },
-      {
-        "id": "SRC-0055",
-        "kind": "Source",
-        "title": "LawBeat",
-        "state": null,
-        "url": "https://lawbeat.in/top-stories/supreme-court-refuses-to-take-suo-motu-cognizance-of-women-sexually-assaulted-at-jantar-mantar-protests-1625139"
-      },
-      {
-        "id": "SRC-0056",
-        "kind": "Source",
-        "title": "India Code",
-        "state": null,
-        "url": "https://www.indiacode.nic.in/bitstream/123456789/20340/1/bnss,_2023.pdf"
-      },
-      {
-        "id": "SRC-0057",
-        "kind": "Source",
-        "title": "Bureau of Police Research and Development",
-        "state": null,
-        "url": "https://bprd.nic.in/uploads/pdf/Comparison%20summary%20BNSS%20to%20CrPC.pdf"
-      },
-      {
-        "id": "SRC-0058",
-        "kind": "Source",
-        "title": "Uttar Pradesh Police",
-        "state": null,
-        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202407031502194192BNSS2023-20-45.pdf"
-      },
-      {
-        "id": "SRC-0059",
-        "kind": "Source",
-        "title": "onlinelawconnect",
-        "state": null,
-        "url": "https://onlinelawconnect.com/actsandrules/criminal/bnss/SummaryChapter11.php"
-      },
-      {
-        "id": "SRC-0060",
-        "kind": "Source",
-        "title": "Justice Definitions Project",
-        "state": null,
-        "url": "https://www.lawandjusticewiki.org/wiki/Extra-judicial_killings"
-      },
-      {
-        "id": "SRC-0061",
-        "kind": "Source",
-        "title": "ApniLaw",
-        "state": null,
-        "url": "https://www.apnilaw.com/bare-act/bnss/section-196-bharatiya-nagarik-suraksha-sanhitabnss-inquiry-by-magistrate-into-cause-of-death/"
-      },
-      {
-        "id": "SRC-0062",
-        "kind": "Source",
-        "title": "India Code",
-        "state": null,
-        "url": "https://www.indiacode.nic.in/bitstream/123456789/13669/1/delhi_police_act.pdf"
-      },
-      {
-        "id": "SRC-0063",
-        "kind": "Source",
-        "title": "indianemployees.com",
-        "state": null,
-        "url": "https://www.indianemployees.com/acts-rules/details/delhi-police-act-1978"
-      },
-      {
-        "id": "SRC-0064",
-        "kind": "Source",
-        "title": "India Code",
-        "state": null,
-        "url": "https://www.indiacode.nic.in/bitstream/123456789/20371/1/ashtra_police.pdf"
-      },
-      {
-        "id": "SRC-0065",
-        "kind": "Source",
-        "title": "Gurukul Nexus",
-        "state": null,
-        "url": "https://blog.gurukulnexus.com/police-regulations-maharashtra-police-act-public-order/"
-      },
-      {
-        "id": "SRC-0066",
-        "kind": "Source",
-        "title": "India Code",
-        "state": null,
-        "url": "https://www.indiacode.nic.in/bitstream/123456789/11209/1/1094_bihar_bihar_police_act_2007.pdf"
-      },
-      {
-        "id": "SRC-0067",
-        "kind": "Source",
-        "title": "LegitQuest",
-        "state": null,
-        "url": "https://www.legitquest.com/act/the-bihar-police-amendment-act-2014/FBD1"
-      },
-      {
-        "id": "SRC-0068",
-        "kind": "Source",
-        "title": "CaseMine",
-        "state": null,
-        "url": null
-      },
-      {
-        "id": "SRC-0069",
-        "kind": "Source",
-        "title": "Ministry of Home Affairs",
-        "state": null,
-        "url": "https://www.mha.gov.in/sites/default/files/2025-04/NHRCselectedlettersandguidelinesondeathsincustody_09042019_0[1]_4.pdf"
-      },
-      {
-        "id": "SRC-0070",
-        "kind": "Source",
-        "title": "NHRC",
-        "state": null,
-        "url": "https://nhrc.nic.in/press-release/nhrc-issues-fresh-guidelines-regarding-intimation-custodial-death"
-      },
-      {
-        "id": "SRC-0071",
-        "kind": "Source",
-        "title": "NHRC",
-        "state": null,
-        "url": "https://nhrc.nic.in/investigation-division"
       },
       {
         "id": "SRC-0072",
@@ -836,6 +1402,7455 @@ WGO.changes = [
         "url": "https://thefederal.com/category/states/north/delhi/delhi-police-guidelines-to-handle-gen-z-254444"
       },
       {
+        "id": "OQ-049",
+        "kind": "Question",
+        "title": "The fact-finding report of the PUCL Bihar public hearing of 22 August 2026, as a document rather than as reported.",
+        "state": "UNANSWERED",
+        "url": "investigation.html?id=bihar#OQ-049"
+      },
+      {
+        "id": "OQ-050",
+        "kind": "Question",
+        "title": "The 64 FIRs said to have been registered in connection with the Bihar student protests of July 2026, and whether any records police action at Sitamarhi on 21 July.",
+        "state": "UNANSWERED",
+        "url": "investigation.html?id=bihar#OQ-050"
+      },
+      {
+        "id": "OQ-051",
+        "kind": "Question",
+        "title": "The advisory on handling protests circulated to Delhi Police personnel after 20 July 2026: the document, who issued it, on what date, and whether any instruction on the use of force or crowd-control weapons was issued alongside it.",
+        "state": "UNANSWERED",
+        "url": "investigation.html?id=jantar-mantar#OQ-051"
+      },
+      {
+        "id": "OQ-052",
+        "kind": "Question",
+        "title": "The armoury issue and return registers for the police units deployed at Siwan on 25 July 2026, and any ballistics or forensic examination of the rounds fired.",
+        "state": "UNANSWERED",
+        "url": "investigation.html?id=bihar#OQ-052"
+      }
+    ],
+    "removed": [],
+    "changed": [
+      {
+        "id": "INC-SIW-001",
+        "kind": "Evidence",
+        "title": "Police discharged firearms during the student protest at Siwan on 25 July 2026. The State of Bihar's account, given on affidavit to the Supreme Court, is four r",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=INC-SIW-001",
+        "fields": [
+          {
+            "field": "title",
+            "from": "Police discharged firearms during the student protest at Siwan on 25 July 2026: four rounds from an AK-47 near JP Chowk, and two rounds from a 9mm pistol near H",
+            "to": "Police discharged firearms during the student protest at Siwan on 25 July 2026. The State of Bihar's account, given on affidavit to the Supreme Court, is four r"
+          },
+          {
+            "field": "establishes",
+            "from": "The source of all of this is one document — the State of Bihar's affidavit to the Supreme Court, reported on 18 August 2026 — and the outlets are independent reports OF THAT DOCUMENT rather than independent knowledge of the events. What …",
+            "to": "AMENDED 26 AUGUST 2026. This record previously stated the State's figures as the claim itself: 'four rounds from an AK-47 near JP Chowk, and two rounds from a 9mm pistol near Hathi Chowk'. An open-source investigation published on 4 Augu…"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0049",
+        "kind": "Source",
+        "title": "Alt News",
+        "state": null,
+        "url": "https://www.altnews.in/bihar-siwan-opened-fire-by-police-on-student-protesters-cjp-bihar-band",
+        "fields": [
+          {
+            "field": "title",
+            "from": "India Code",
+            "to": "Alt News"
+          },
+          {
+            "field": "url",
+            "from": "https://www.indiacode.nic.in/bitstream/123456789/20340/1/bnss,_2023.pdf",
+            "to": "https://www.altnews.in/bihar-siwan-opened-fire-by-police-on-student-protesters-cjp-bihar-band"
+          },
+          {
+            "field": "retrievedOn",
+            "from": "2026-08-16",
+            "to": "2026-08-26"
+          },
+          {
+            "field": "archiveUrl",
+            "from": "http://web.archive.org/web/20260121073438/https://www.indiacode.nic.in/bitstream/123456789/20340/1/bnss%2C_2023.pdf",
+            "to": null
+          }
+        ]
+      },
+      {
+        "id": "SRC-0050",
+        "kind": "Source",
+        "title": "SabrangIndia",
+        "state": null,
+        "url": "https://sabrangindia.in/bihar-not-just-delhi-patna-siwan-too-saw-brute-police-violence-against-demonstrating-students-pucl/",
+        "fields": [
+          {
+            "field": "title",
+            "from": "Bureau of Police Research and Development",
+            "to": "SabrangIndia"
+          },
+          {
+            "field": "url",
+            "from": "https://bprd.nic.in/uploads/pdf/Comparison%20summary%20BNSS%20to%20CrPC.pdf",
+            "to": "https://sabrangindia.in/bihar-not-just-delhi-patna-siwan-too-saw-brute-police-violence-against-demonstrating-students-pucl/"
+          },
+          {
+            "field": "retrievedOn",
+            "from": "2026-08-16",
+            "to": "2026-08-26"
+          },
+          {
+            "field": "archiveUrl",
+            "from": "http://web.archive.org/web/20260215214604/https://bprd.nic.in/uploads/pdf/Comparison%20summary%20BNSS%20to%20CrPC.pdf",
+            "to": null
+          }
+        ]
+      },
+      {
+        "id": "SRC-0051",
+        "kind": "Source",
+        "title": "Free Press Journal",
+        "state": null,
+        "url": "https://www.freepressjournal.in/india/withdraw-all-firs-pucl-demands-action-after-students-allege-police-brutality-during-neet-protests",
+        "fields": [
+          {
+            "field": "title",
+            "from": "Uttar Pradesh Police",
+            "to": "Free Press Journal"
+          },
+          {
+            "field": "url",
+            "from": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202407031502194192BNSS2023-20-45.pdf",
+            "to": "https://www.freepressjournal.in/india/withdraw-all-firs-pucl-demands-action-after-students-allege-police-brutality-during-neet-protests"
+          },
+          {
+            "field": "retrievedOn",
+            "from": "2026-08-16",
+            "to": "2026-08-26"
+          },
+          {
+            "field": "archiveUrl",
+            "from": "http://web.archive.org/web/20250524091156/https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202407031502194192BNSS2023-20-45.pdf",
+            "to": null
+          }
+        ]
+      },
+      {
+        "id": "SRC-0052",
+        "kind": "Source",
+        "title": "Counterview",
+        "state": null,
+        "url": "https://www.counterview.net/2026/08/public-hearing-documents-widespread.html",
+        "fields": [
+          {
+            "field": "title",
+            "from": "onlinelawconnect",
+            "to": "Counterview"
+          },
+          {
+            "field": "url",
+            "from": "https://onlinelawconnect.com/actsandrules/criminal/bnss/SummaryChapter11.php",
+            "to": "https://www.counterview.net/2026/08/public-hearing-documents-widespread.html"
+          },
+          {
+            "field": "retrievedOn",
+            "from": "2026-08-16",
+            "to": "2026-08-26"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0053",
+        "kind": "Source",
+        "title": "LiveLaw",
+        "state": null,
+        "url": "https://www.livelaw.in/top-stories/jantar-mantar-protests-we-have-told-committee-to-probe-sexual-assault-cases-on-priority-cji-surya-kant-547096",
+        "fields": [
+          {
+            "field": "title",
+            "from": "Justice Definitions Project",
+            "to": "LiveLaw"
+          },
+          {
+            "field": "url",
+            "from": "https://www.lawandjusticewiki.org/wiki/Extra-judicial_killings",
+            "to": "https://www.livelaw.in/top-stories/jantar-mantar-protests-we-have-told-committee-to-probe-sexual-assault-cases-on-priority-cji-surya-kant-547096"
+          },
+          {
+            "field": "retrievedOn",
+            "from": "2026-08-16",
+            "to": "2026-08-26"
+          },
+          {
+            "field": "archiveUrl",
+            "from": "http://web.archive.org/web/20260518085831/https://www.lawandjusticewiki.org/wiki/Extra-judicial_killings",
+            "to": null
+          }
+        ]
+      },
+      {
+        "id": "SRC-0054",
+        "kind": "Source",
+        "title": "The Tribune",
+        "state": null,
+        "url": "https://www.tribuneindia.com/news/india/cjp-protests-sc-appointed-panel-to-prioritise-complaints-of-sexual-assault-molestation/",
+        "fields": [
+          {
+            "field": "title",
+            "from": "ApniLaw",
+            "to": "The Tribune"
+          },
+          {
+            "field": "url",
+            "from": "https://www.apnilaw.com/bare-act/bnss/section-196-bharatiya-nagarik-suraksha-sanhitabnss-inquiry-by-magistrate-into-cause-of-death/",
+            "to": "https://www.tribuneindia.com/news/india/cjp-protests-sc-appointed-panel-to-prioritise-complaints-of-sexual-assault-molestation/"
+          },
+          {
+            "field": "retrievedOn",
+            "from": "2026-08-16",
+            "to": "2026-08-26"
+          },
+          {
+            "field": "archiveUrl",
+            "from": "http://web.archive.org/web/20250906102438/https://www.apnilaw.com/bare-act/bnss/section-196-bharatiya-nagarik-suraksha-sanhitabnss-inquiry-by-magistrate-into-cause-of-death/",
+            "to": null
+          }
+        ]
+      },
+      {
+        "id": "SRC-0055",
+        "kind": "Source",
+        "title": "LawBeat",
+        "state": null,
+        "url": "https://lawbeat.in/top-stories/supreme-court-refuses-to-take-suo-motu-cognizance-of-women-sexually-assaulted-at-jantar-mantar-protests-1625139",
+        "fields": [
+          {
+            "field": "title",
+            "from": "India Code",
+            "to": "LawBeat"
+          },
+          {
+            "field": "url",
+            "from": "https://www.indiacode.nic.in/bitstream/123456789/13669/1/delhi_police_act.pdf",
+            "to": "https://lawbeat.in/top-stories/supreme-court-refuses-to-take-suo-motu-cognizance-of-women-sexually-assaulted-at-jantar-mantar-protests-1625139"
+          },
+          {
+            "field": "retrievedOn",
+            "from": "2026-08-16",
+            "to": "2026-08-26"
+          },
+          {
+            "field": "archiveUrl",
+            "from": "http://web.archive.org/web/20240809212750/https://www.indiacode.nic.in/bitstream/123456789/13669/1/delhi_police_act.pdf",
+            "to": null
+          }
+        ]
+      },
+      {
+        "id": "SRC-0056",
+        "kind": "Source",
+        "title": "India Code",
+        "state": null,
+        "url": "https://www.indiacode.nic.in/bitstream/123456789/20340/1/bnss,_2023.pdf",
+        "fields": [
+          {
+            "field": "title",
+            "from": "indianemployees.com",
+            "to": "India Code"
+          },
+          {
+            "field": "url",
+            "from": "https://www.indianemployees.com/acts-rules/details/delhi-police-act-1978",
+            "to": "https://www.indiacode.nic.in/bitstream/123456789/20340/1/bnss,_2023.pdf"
+          },
+          {
+            "field": "archiveUrl",
+            "from": "http://web.archive.org/web/20220329071954/https://www.indianemployees.com/acts-rules/details/delhi-police-act-1978",
+            "to": "http://web.archive.org/web/20260121073438/https://www.indiacode.nic.in/bitstream/123456789/20340/1/bnss%2C_2023.pdf"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0057",
+        "kind": "Source",
+        "title": "Bureau of Police Research and Development",
+        "state": null,
+        "url": "https://bprd.nic.in/uploads/pdf/Comparison%20summary%20BNSS%20to%20CrPC.pdf",
+        "fields": [
+          {
+            "field": "title",
+            "from": "India Code",
+            "to": "Bureau of Police Research and Development"
+          },
+          {
+            "field": "url",
+            "from": "https://www.indiacode.nic.in/bitstream/123456789/20371/1/ashtra_police.pdf",
+            "to": "https://bprd.nic.in/uploads/pdf/Comparison%20summary%20BNSS%20to%20CrPC.pdf"
+          },
+          {
+            "field": "archiveUrl",
+            "from": "http://web.archive.org/web/20251230215513/https://www.indiacode.nic.in/bitstream/123456789/20371/1/ashtra_police.pdf",
+            "to": "http://web.archive.org/web/20260215214604/https://bprd.nic.in/uploads/pdf/Comparison%20summary%20BNSS%20to%20CrPC.pdf"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0058",
+        "kind": "Source",
+        "title": "Uttar Pradesh Police",
+        "state": null,
+        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202407031502194192BNSS2023-20-45.pdf",
+        "fields": [
+          {
+            "field": "title",
+            "from": "Gurukul Nexus",
+            "to": "Uttar Pradesh Police"
+          },
+          {
+            "field": "url",
+            "from": "https://blog.gurukulnexus.com/police-regulations-maharashtra-police-act-public-order/",
+            "to": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202407031502194192BNSS2023-20-45.pdf"
+          },
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20250524091156/https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202407031502194192BNSS2023-20-45.pdf"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0059",
+        "kind": "Source",
+        "title": "onlinelawconnect",
+        "state": null,
+        "url": "https://onlinelawconnect.com/actsandrules/criminal/bnss/SummaryChapter11.php",
+        "fields": [
+          {
+            "field": "title",
+            "from": "India Code",
+            "to": "onlinelawconnect"
+          },
+          {
+            "field": "url",
+            "from": "https://www.indiacode.nic.in/bitstream/123456789/11209/1/1094_bihar_bihar_police_act_2007.pdf",
+            "to": "https://onlinelawconnect.com/actsandrules/criminal/bnss/SummaryChapter11.php"
+          },
+          {
+            "field": "archiveUrl",
+            "from": "http://web.archive.org/web/20260612162516/https://www.indiacode.nic.in/bitstream/123456789/11209/1/1094_bihar_bihar_police_act_2007.pdf",
+            "to": null
+          }
+        ]
+      },
+      {
+        "id": "SRC-0060",
+        "kind": "Source",
+        "title": "Justice Definitions Project",
+        "state": null,
+        "url": "https://www.lawandjusticewiki.org/wiki/Extra-judicial_killings",
+        "fields": [
+          {
+            "field": "title",
+            "from": "LegitQuest",
+            "to": "Justice Definitions Project"
+          },
+          {
+            "field": "url",
+            "from": "https://www.legitquest.com/act/the-bihar-police-amendment-act-2014/FBD1",
+            "to": "https://www.lawandjusticewiki.org/wiki/Extra-judicial_killings"
+          },
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20260518085831/https://www.lawandjusticewiki.org/wiki/Extra-judicial_killings"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0061",
+        "kind": "Source",
+        "title": "ApniLaw",
+        "state": null,
+        "url": "https://www.apnilaw.com/bare-act/bnss/section-196-bharatiya-nagarik-suraksha-sanhitabnss-inquiry-by-magistrate-into-cause-of-death/",
+        "fields": [
+          {
+            "field": "title",
+            "from": "CaseMine",
+            "to": "ApniLaw"
+          },
+          {
+            "field": "url",
+            "from": null,
+            "to": "https://www.apnilaw.com/bare-act/bnss/section-196-bharatiya-nagarik-suraksha-sanhitabnss-inquiry-by-magistrate-into-cause-of-death/"
+          },
+          {
+            "field": "retrievedOn",
+            "from": null,
+            "to": "2026-08-16"
+          },
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20250906102438/https://www.apnilaw.com/bare-act/bnss/section-196-bharatiya-nagarik-suraksha-sanhitabnss-inquiry-by-magistrate-into-cause-of-death/"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0062",
+        "kind": "Source",
+        "title": "India Code",
+        "state": null,
+        "url": "https://www.indiacode.nic.in/bitstream/123456789/13669/1/delhi_police_act.pdf",
+        "fields": [
+          {
+            "field": "title",
+            "from": "Ministry of Home Affairs",
+            "to": "India Code"
+          },
+          {
+            "field": "url",
+            "from": "https://www.mha.gov.in/sites/default/files/2025-04/NHRCselectedlettersandguidelinesondeathsincustody_09042019_0[1]_4.pdf",
+            "to": "https://www.indiacode.nic.in/bitstream/123456789/13669/1/delhi_police_act.pdf"
+          },
+          {
+            "field": "archiveUrl",
+            "from": "http://web.archive.org/web/20260520201057/https://www.mha.gov.in/sites/default/files/2025-04/NHRCselectedlettersandguidelinesondeathsincustody_09042019_0%5B1%5D_4.pdf",
+            "to": "http://web.archive.org/web/20240809212750/https://www.indiacode.nic.in/bitstream/123456789/13669/1/delhi_police_act.pdf"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0063",
+        "kind": "Source",
+        "title": "indianemployees.com",
+        "state": null,
+        "url": "https://www.indianemployees.com/acts-rules/details/delhi-police-act-1978",
+        "fields": [
+          {
+            "field": "title",
+            "from": "NHRC",
+            "to": "indianemployees.com"
+          },
+          {
+            "field": "url",
+            "from": "https://nhrc.nic.in/press-release/nhrc-issues-fresh-guidelines-regarding-intimation-custodial-death",
+            "to": "https://www.indianemployees.com/acts-rules/details/delhi-police-act-1978"
+          },
+          {
+            "field": "archiveUrl",
+            "from": "http://web.archive.org/web/20251011104825/https://nhrc.nic.in/press-release/nhrc-issues-fresh-guidelines-regarding-intimation-custodial-death",
+            "to": "http://web.archive.org/web/20220329071954/https://www.indianemployees.com/acts-rules/details/delhi-police-act-1978"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0064",
+        "kind": "Source",
+        "title": "India Code",
+        "state": null,
+        "url": "https://www.indiacode.nic.in/bitstream/123456789/20371/1/ashtra_police.pdf",
+        "fields": [
+          {
+            "field": "title",
+            "from": "NHRC",
+            "to": "India Code"
+          },
+          {
+            "field": "url",
+            "from": "https://nhrc.nic.in/investigation-division",
+            "to": "https://www.indiacode.nic.in/bitstream/123456789/20371/1/ashtra_police.pdf"
+          },
+          {
+            "field": "archiveUrl",
+            "from": "http://web.archive.org/web/20260725004141/https://nhrc.nic.in/investigation-division",
+            "to": "http://web.archive.org/web/20251230215513/https://www.indiacode.nic.in/bitstream/123456789/20371/1/ashtra_police.pdf"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0065",
+        "kind": "Source",
+        "title": "Gurukul Nexus",
+        "state": null,
+        "url": "https://blog.gurukulnexus.com/police-regulations-maharashtra-police-act-public-order/",
+        "fields": [
+          {
+            "field": "title",
+            "from": "commoner-law.com",
+            "to": "Gurukul Nexus"
+          },
+          {
+            "field": "url",
+            "from": "https://commoner-law.com/india/police-encounters/encounter-killings-and-custodial-deaths",
+            "to": "https://blog.gurukulnexus.com/police-regulations-maharashtra-police-act-public-order/"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0066",
+        "kind": "Source",
+        "title": "India Code",
+        "state": null,
+        "url": "https://www.indiacode.nic.in/bitstream/123456789/11209/1/1094_bihar_bihar_police_act_2007.pdf",
+        "fields": [
+          {
+            "field": "title",
+            "from": "Bellingcat",
+            "to": "India Code"
+          },
+          {
+            "field": "url",
+            "from": "https://www.bellingcat.com/news/americas/2020/10/29/a-new-platform-maps-us-police-violence-against-protesters/",
+            "to": "https://www.indiacode.nic.in/bitstream/123456789/11209/1/1094_bihar_bihar_police_act_2007.pdf"
+          },
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20260612162516/https://www.indiacode.nic.in/bitstream/123456789/11209/1/1094_bihar_bihar_police_act_2007.pdf"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0067",
+        "kind": "Source",
+        "title": "LegitQuest",
+        "state": null,
+        "url": "https://www.legitquest.com/act/the-bihar-police-amendment-act-2014/FBD1",
+        "fields": [
+          {
+            "field": "title",
+            "from": "GIJN",
+            "to": "LegitQuest"
+          },
+          {
+            "field": "url",
+            "from": "https://gijn.org/stories/how-bellingcat-and-forensic-architecture-teamed-up-with-colombias-cerosetenta-to-map-police-violence/",
+            "to": "https://www.legitquest.com/act/the-bihar-police-amendment-act-2014/FBD1"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0068",
+        "kind": "Source",
+        "title": "CaseMine",
+        "state": null,
+        "url": null,
+        "fields": [
+          {
+            "field": "title",
+            "from": "The Polis Project",
+            "to": "CaseMine"
+          },
+          {
+            "field": "url",
+            "from": "https://thepolisproject.com/research/documenting-custodial-violence-reflections-and-further-research-5/",
+            "to": null
+          },
+          {
+            "field": "retrievedOn",
+            "from": "2026-08-16",
+            "to": null
+          }
+        ]
+      },
+      {
+        "id": "SRC-0069",
+        "kind": "Source",
+        "title": "Ministry of Home Affairs",
+        "state": null,
+        "url": "https://www.mha.gov.in/sites/default/files/2025-04/NHRCselectedlettersandguidelinesondeathsincustody_09042019_0[1]_4.pdf",
+        "fields": [
+          {
+            "field": "title",
+            "from": "Wikipedia",
+            "to": "Ministry of Home Affairs"
+          },
+          {
+            "field": "url",
+            "from": "https://en.wikipedia.org/wiki/DOTO_Database",
+            "to": "https://www.mha.gov.in/sites/default/files/2025-04/NHRCselectedlettersandguidelinesondeathsincustody_09042019_0[1]_4.pdf"
+          },
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20260520201057/https://www.mha.gov.in/sites/default/files/2025-04/NHRCselectedlettersandguidelinesondeathsincustody_09042019_0%5B1%5D_4.pdf"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0070",
+        "kind": "Source",
+        "title": "NHRC",
+        "state": null,
+        "url": "https://nhrc.nic.in/press-release/nhrc-issues-fresh-guidelines-regarding-intimation-custodial-death",
+        "fields": [
+          {
+            "field": "title",
+            "from": "Common Cause and CSDS",
+            "to": "NHRC"
+          },
+          {
+            "field": "url",
+            "from": "https://www.commoncause.in/wotadmin/upload/SPIR_2025.pdf",
+            "to": "https://nhrc.nic.in/press-release/nhrc-issues-fresh-guidelines-regarding-intimation-custodial-death"
+          },
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20251011104825/https://nhrc.nic.in/press-release/nhrc-issues-fresh-guidelines-regarding-intimation-custodial-death"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0071",
+        "kind": "Source",
+        "title": "NHRC",
+        "state": null,
+        "url": "https://nhrc.nic.in/investigation-division",
+        "fields": [
+          {
+            "field": "title",
+            "from": "Sage",
+            "to": "NHRC"
+          },
+          {
+            "field": "url",
+            "from": "https://journals.sagepub.com/doi/abs/10.1177/00699659231208696",
+            "to": "https://nhrc.nic.in/investigation-division"
+          },
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20260725004141/https://nhrc.nic.in/investigation-division"
+          }
+        ]
+      }
+    ],
+    "summary": "17 records added · 24 records edited"
+  },
+  {
+    "commit": "cfd2087120",
+    "date": "2026-08-22T05:41:50Z",
+    "subject": "Gokhale's RTI replies, and a refusal with a clock on it",
+    "added": [
+      {
+        "id": "INC-DEL-006",
+        "kind": "Evidence",
+        "title": "Replies to Right to Information applications filed by Saket Gokhale, a Trinamool Congress leader and former Rajya Sabha member, are reported to record that at l",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=INC-DEL-006"
+      },
+      {
+        "id": "SRC-0068",
+        "kind": "Source",
+        "title": "The Polis Project",
+        "state": null,
+        "url": "https://thepolisproject.com/research/documenting-custodial-violence-reflections-and-further-research-5/"
+      },
+      {
+        "id": "SRC-0069",
+        "kind": "Source",
+        "title": "Wikipedia",
+        "state": null,
+        "url": "https://en.wikipedia.org/wiki/DOTO_Database"
+      },
+      {
+        "id": "SRC-0070",
+        "kind": "Source",
+        "title": "Common Cause and CSDS",
+        "state": null,
+        "url": "https://www.commoncause.in/wotadmin/upload/SPIR_2025.pdf"
+      },
+      {
+        "id": "SRC-0071",
+        "kind": "Source",
+        "title": "Sage",
+        "state": null,
+        "url": "https://journals.sagepub.com/doi/abs/10.1177/00699659231208696"
+      },
+      {
+        "id": "OQ-047",
+        "kind": "Question",
+        "title": "Copies of the Right to Information replies from Lady Hardinge Medical College and Safdarjung Hospital recording pellet or projectile injuries treated on 20 July 2026.",
+        "state": "UNANSWERED",
+        "url": "investigation.html?id=jantar-mantar#OQ-047"
+      },
+      {
+        "id": "OQ-048",
+        "kind": "Question",
+        "title": "The AIIMS refusal letter of about 20 August 2026, whether a first appeal was filed against it, and the reply from Ram Manohar Lohia Hospital.",
+        "state": "UNANSWERED",
+        "url": "investigation.html?id=jantar-mantar#OQ-048"
+      }
+    ],
+    "removed": [],
+    "changed": [
+      {
+        "id": "INC-DEL-004",
+        "kind": "Evidence",
+        "title": "A Delhi Police General Diary entry numbered 0008A, recorded at Parliament Street police station at 1.24 am on 22 July 2026, is reported to record that a Rapid A",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=INC-DEL-004",
+        "fields": [
+          {
+            "field": "establishes",
+            "from": "THIS IS THE CLOSEST THING IN THIS ARCHIVE TO AN AUTHORISATION, AND IT IS STILL NOT ONE. A General Diary entry is a police record of what an officer reported, made two days after the event by a duty officer writing down what a deputy comm…",
+            "to": "THIS IS THE CLOSEST THING IN THIS ARCHIVE TO AN AUTHORISATION, AND IT IS STILL NOT ONE. A General Diary entry is a police record of what an officer reported, made two days after the event by a duty officer writing down what a deputy comm…"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0045",
+        "kind": "Source",
+        "title": "Alt News",
+        "state": null,
+        "url": "https://www.altnews.in/at-least-10-persons-suffered-pellet-injuries-on-sansad-chalo-march-20th-july-rti",
+        "fields": [
+          {
+            "field": "title",
+            "from": "India Code",
+            "to": "Alt News"
+          },
+          {
+            "field": "url",
+            "from": "https://www.indiacode.nic.in/bitstream/123456789/20340/1/bnss,_2023.pdf",
+            "to": "https://www.altnews.in/at-least-10-persons-suffered-pellet-injuries-on-sansad-chalo-march-20th-july-rti"
+          },
+          {
+            "field": "retrievedOn",
+            "from": "2026-08-16",
+            "to": "2026-08-21"
+          },
+          {
+            "field": "archiveUrl",
+            "from": "http://web.archive.org/web/20260121073438/https://www.indiacode.nic.in/bitstream/123456789/20340/1/bnss%2C_2023.pdf",
+            "to": null
+          }
+        ]
+      },
+      {
+        "id": "SRC-0046",
+        "kind": "Source",
+        "title": "Scroll.in",
+        "state": null,
+        "url": "https://scroll.in/latest/1094930/ten-persons-injured-by-pellets-during-youth-protest-march-to-parliament-shows-rti-response",
+        "fields": [
+          {
+            "field": "title",
+            "from": "Bureau of Police Research and Development",
+            "to": "Scroll.in"
+          },
+          {
+            "field": "url",
+            "from": "https://bprd.nic.in/uploads/pdf/Comparison%20summary%20BNSS%20to%20CrPC.pdf",
+            "to": "https://scroll.in/latest/1094930/ten-persons-injured-by-pellets-during-youth-protest-march-to-parliament-shows-rti-response"
+          },
+          {
+            "field": "retrievedOn",
+            "from": "2026-08-16",
+            "to": "2026-08-21"
+          },
+          {
+            "field": "archiveUrl",
+            "from": "http://web.archive.org/web/20260215214604/https://bprd.nic.in/uploads/pdf/Comparison%20summary%20BNSS%20to%20CrPC.pdf",
+            "to": null
+          }
+        ]
+      },
+      {
+        "id": "SRC-0047",
+        "kind": "Source",
+        "title": "The Wire",
+        "state": null,
+        "url": "https://m.thewire.in/article/rights/at-least-10-persons-suffered-pellet-injuries-on-july-20-in-delhi-shows-rti-response",
+        "fields": [
+          {
+            "field": "title",
+            "from": "Uttar Pradesh Police",
+            "to": "The Wire"
+          },
+          {
+            "field": "url",
+            "from": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202407031502194192BNSS2023-20-45.pdf",
+            "to": "https://m.thewire.in/article/rights/at-least-10-persons-suffered-pellet-injuries-on-july-20-in-delhi-shows-rti-response"
+          },
+          {
+            "field": "retrievedOn",
+            "from": "2026-08-16",
+            "to": "2026-08-21"
+          },
+          {
+            "field": "archiveUrl",
+            "from": "http://web.archive.org/web/20250524091156/https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202407031502194192BNSS2023-20-45.pdf",
+            "to": null
+          }
+        ]
+      },
+      {
+        "id": "SRC-0048",
+        "kind": "Source",
+        "title": "The Tribune",
+        "state": null,
+        "url": "https://www.tribuneindia.com/news/india/10-faced-pellet-gun-injuries-during-cjp-stir-tmc-ex-mp-cites-rti/",
+        "fields": [
+          {
+            "field": "title",
+            "from": "onlinelawconnect",
+            "to": "The Tribune"
+          },
+          {
+            "field": "url",
+            "from": "https://onlinelawconnect.com/actsandrules/criminal/bnss/SummaryChapter11.php",
+            "to": "https://www.tribuneindia.com/news/india/10-faced-pellet-gun-injuries-during-cjp-stir-tmc-ex-mp-cites-rti/"
+          },
+          {
+            "field": "retrievedOn",
+            "from": "2026-08-16",
+            "to": "2026-08-21"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0049",
+        "kind": "Source",
+        "title": "India Code",
+        "state": null,
+        "url": "https://www.indiacode.nic.in/bitstream/123456789/20340/1/bnss,_2023.pdf",
+        "fields": [
+          {
+            "field": "title",
+            "from": "Justice Definitions Project",
+            "to": "India Code"
+          },
+          {
+            "field": "url",
+            "from": "https://www.lawandjusticewiki.org/wiki/Extra-judicial_killings",
+            "to": "https://www.indiacode.nic.in/bitstream/123456789/20340/1/bnss,_2023.pdf"
+          },
+          {
+            "field": "archiveUrl",
+            "from": "http://web.archive.org/web/20260518085831/https://www.lawandjusticewiki.org/wiki/Extra-judicial_killings",
+            "to": "http://web.archive.org/web/20260121073438/https://www.indiacode.nic.in/bitstream/123456789/20340/1/bnss%2C_2023.pdf"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0050",
+        "kind": "Source",
+        "title": "Bureau of Police Research and Development",
+        "state": null,
+        "url": "https://bprd.nic.in/uploads/pdf/Comparison%20summary%20BNSS%20to%20CrPC.pdf",
+        "fields": [
+          {
+            "field": "title",
+            "from": "ApniLaw",
+            "to": "Bureau of Police Research and Development"
+          },
+          {
+            "field": "url",
+            "from": "https://www.apnilaw.com/bare-act/bnss/section-196-bharatiya-nagarik-suraksha-sanhitabnss-inquiry-by-magistrate-into-cause-of-death/",
+            "to": "https://bprd.nic.in/uploads/pdf/Comparison%20summary%20BNSS%20to%20CrPC.pdf"
+          },
+          {
+            "field": "archiveUrl",
+            "from": "http://web.archive.org/web/20250906102438/https://www.apnilaw.com/bare-act/bnss/section-196-bharatiya-nagarik-suraksha-sanhitabnss-inquiry-by-magistrate-into-cause-of-death/",
+            "to": "http://web.archive.org/web/20260215214604/https://bprd.nic.in/uploads/pdf/Comparison%20summary%20BNSS%20to%20CrPC.pdf"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0051",
+        "kind": "Source",
+        "title": "Uttar Pradesh Police",
+        "state": null,
+        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202407031502194192BNSS2023-20-45.pdf",
+        "fields": [
+          {
+            "field": "title",
+            "from": "India Code",
+            "to": "Uttar Pradesh Police"
+          },
+          {
+            "field": "url",
+            "from": "https://www.indiacode.nic.in/bitstream/123456789/13669/1/delhi_police_act.pdf",
+            "to": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202407031502194192BNSS2023-20-45.pdf"
+          },
+          {
+            "field": "archiveUrl",
+            "from": "http://web.archive.org/web/20240809212750/https://www.indiacode.nic.in/bitstream/123456789/13669/1/delhi_police_act.pdf",
+            "to": "http://web.archive.org/web/20250524091156/https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202407031502194192BNSS2023-20-45.pdf"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0052",
+        "kind": "Source",
+        "title": "onlinelawconnect",
+        "state": null,
+        "url": "https://onlinelawconnect.com/actsandrules/criminal/bnss/SummaryChapter11.php",
+        "fields": [
+          {
+            "field": "title",
+            "from": "indianemployees.com",
+            "to": "onlinelawconnect"
+          },
+          {
+            "field": "url",
+            "from": "https://www.indianemployees.com/acts-rules/details/delhi-police-act-1978",
+            "to": "https://onlinelawconnect.com/actsandrules/criminal/bnss/SummaryChapter11.php"
+          },
+          {
+            "field": "archiveUrl",
+            "from": "http://web.archive.org/web/20220329071954/https://www.indianemployees.com/acts-rules/details/delhi-police-act-1978",
+            "to": null
+          }
+        ]
+      },
+      {
+        "id": "SRC-0053",
+        "kind": "Source",
+        "title": "Justice Definitions Project",
+        "state": null,
+        "url": "https://www.lawandjusticewiki.org/wiki/Extra-judicial_killings",
+        "fields": [
+          {
+            "field": "title",
+            "from": "India Code",
+            "to": "Justice Definitions Project"
+          },
+          {
+            "field": "url",
+            "from": "https://www.indiacode.nic.in/bitstream/123456789/20371/1/ashtra_police.pdf",
+            "to": "https://www.lawandjusticewiki.org/wiki/Extra-judicial_killings"
+          },
+          {
+            "field": "archiveUrl",
+            "from": "http://web.archive.org/web/20251230215513/https://www.indiacode.nic.in/bitstream/123456789/20371/1/ashtra_police.pdf",
+            "to": "http://web.archive.org/web/20260518085831/https://www.lawandjusticewiki.org/wiki/Extra-judicial_killings"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0054",
+        "kind": "Source",
+        "title": "ApniLaw",
+        "state": null,
+        "url": "https://www.apnilaw.com/bare-act/bnss/section-196-bharatiya-nagarik-suraksha-sanhitabnss-inquiry-by-magistrate-into-cause-of-death/",
+        "fields": [
+          {
+            "field": "title",
+            "from": "Gurukul Nexus",
+            "to": "ApniLaw"
+          },
+          {
+            "field": "url",
+            "from": "https://blog.gurukulnexus.com/police-regulations-maharashtra-police-act-public-order/",
+            "to": "https://www.apnilaw.com/bare-act/bnss/section-196-bharatiya-nagarik-suraksha-sanhitabnss-inquiry-by-magistrate-into-cause-of-death/"
+          },
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20250906102438/https://www.apnilaw.com/bare-act/bnss/section-196-bharatiya-nagarik-suraksha-sanhitabnss-inquiry-by-magistrate-into-cause-of-death/"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0055",
+        "kind": "Source",
+        "title": "India Code",
+        "state": null,
+        "url": "https://www.indiacode.nic.in/bitstream/123456789/13669/1/delhi_police_act.pdf",
+        "fields": [
+          {
+            "field": "url",
+            "from": "https://www.indiacode.nic.in/bitstream/123456789/11209/1/1094_bihar_bihar_police_act_2007.pdf",
+            "to": "https://www.indiacode.nic.in/bitstream/123456789/13669/1/delhi_police_act.pdf"
+          },
+          {
+            "field": "archiveUrl",
+            "from": "http://web.archive.org/web/20260612162516/https://www.indiacode.nic.in/bitstream/123456789/11209/1/1094_bihar_bihar_police_act_2007.pdf",
+            "to": "http://web.archive.org/web/20240809212750/https://www.indiacode.nic.in/bitstream/123456789/13669/1/delhi_police_act.pdf"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0056",
+        "kind": "Source",
+        "title": "indianemployees.com",
+        "state": null,
+        "url": "https://www.indianemployees.com/acts-rules/details/delhi-police-act-1978",
+        "fields": [
+          {
+            "field": "title",
+            "from": "LegitQuest",
+            "to": "indianemployees.com"
+          },
+          {
+            "field": "url",
+            "from": "https://www.legitquest.com/act/the-bihar-police-amendment-act-2014/FBD1",
+            "to": "https://www.indianemployees.com/acts-rules/details/delhi-police-act-1978"
+          },
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20220329071954/https://www.indianemployees.com/acts-rules/details/delhi-police-act-1978"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0057",
+        "kind": "Source",
+        "title": "India Code",
+        "state": null,
+        "url": "https://www.indiacode.nic.in/bitstream/123456789/20371/1/ashtra_police.pdf",
+        "fields": [
+          {
+            "field": "title",
+            "from": "CaseMine",
+            "to": "India Code"
+          },
+          {
+            "field": "url",
+            "from": null,
+            "to": "https://www.indiacode.nic.in/bitstream/123456789/20371/1/ashtra_police.pdf"
+          },
+          {
+            "field": "retrievedOn",
+            "from": null,
+            "to": "2026-08-16"
+          },
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20251230215513/https://www.indiacode.nic.in/bitstream/123456789/20371/1/ashtra_police.pdf"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0058",
+        "kind": "Source",
+        "title": "Gurukul Nexus",
+        "state": null,
+        "url": "https://blog.gurukulnexus.com/police-regulations-maharashtra-police-act-public-order/",
+        "fields": [
+          {
+            "field": "title",
+            "from": "Ministry of Home Affairs",
+            "to": "Gurukul Nexus"
+          },
+          {
+            "field": "url",
+            "from": "https://www.mha.gov.in/sites/default/files/2025-04/NHRCselectedlettersandguidelinesondeathsincustody_09042019_0[1]_4.pdf",
+            "to": "https://blog.gurukulnexus.com/police-regulations-maharashtra-police-act-public-order/"
+          },
+          {
+            "field": "archiveUrl",
+            "from": "http://web.archive.org/web/20260520201057/https://www.mha.gov.in/sites/default/files/2025-04/NHRCselectedlettersandguidelinesondeathsincustody_09042019_0%5B1%5D_4.pdf",
+            "to": null
+          }
+        ]
+      },
+      {
+        "id": "SRC-0059",
+        "kind": "Source",
+        "title": "India Code",
+        "state": null,
+        "url": "https://www.indiacode.nic.in/bitstream/123456789/11209/1/1094_bihar_bihar_police_act_2007.pdf",
+        "fields": [
+          {
+            "field": "title",
+            "from": "NHRC",
+            "to": "India Code"
+          },
+          {
+            "field": "url",
+            "from": "https://nhrc.nic.in/press-release/nhrc-issues-fresh-guidelines-regarding-intimation-custodial-death",
+            "to": "https://www.indiacode.nic.in/bitstream/123456789/11209/1/1094_bihar_bihar_police_act_2007.pdf"
+          },
+          {
+            "field": "archiveUrl",
+            "from": "http://web.archive.org/web/20251011104825/https://nhrc.nic.in/press-release/nhrc-issues-fresh-guidelines-regarding-intimation-custodial-death",
+            "to": "http://web.archive.org/web/20260612162516/https://www.indiacode.nic.in/bitstream/123456789/11209/1/1094_bihar_bihar_police_act_2007.pdf"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0060",
+        "kind": "Source",
+        "title": "LegitQuest",
+        "state": null,
+        "url": "https://www.legitquest.com/act/the-bihar-police-amendment-act-2014/FBD1",
+        "fields": [
+          {
+            "field": "title",
+            "from": "NHRC",
+            "to": "LegitQuest"
+          },
+          {
+            "field": "url",
+            "from": "https://nhrc.nic.in/investigation-division",
+            "to": "https://www.legitquest.com/act/the-bihar-police-amendment-act-2014/FBD1"
+          },
+          {
+            "field": "archiveUrl",
+            "from": "http://web.archive.org/web/20260725004141/https://nhrc.nic.in/investigation-division",
+            "to": null
+          }
+        ]
+      },
+      {
+        "id": "SRC-0061",
+        "kind": "Source",
+        "title": "CaseMine",
+        "state": null,
+        "url": null,
+        "fields": [
+          {
+            "field": "title",
+            "from": "commoner-law.com",
+            "to": "CaseMine"
+          },
+          {
+            "field": "url",
+            "from": "https://commoner-law.com/india/police-encounters/encounter-killings-and-custodial-deaths",
+            "to": null
+          },
+          {
+            "field": "retrievedOn",
+            "from": "2026-08-16",
+            "to": null
+          }
+        ]
+      },
+      {
+        "id": "SRC-0062",
+        "kind": "Source",
+        "title": "Ministry of Home Affairs",
+        "state": null,
+        "url": "https://www.mha.gov.in/sites/default/files/2025-04/NHRCselectedlettersandguidelinesondeathsincustody_09042019_0[1]_4.pdf",
+        "fields": [
+          {
+            "field": "title",
+            "from": "Bellingcat",
+            "to": "Ministry of Home Affairs"
+          },
+          {
+            "field": "url",
+            "from": "https://www.bellingcat.com/news/americas/2020/10/29/a-new-platform-maps-us-police-violence-against-protesters/",
+            "to": "https://www.mha.gov.in/sites/default/files/2025-04/NHRCselectedlettersandguidelinesondeathsincustody_09042019_0[1]_4.pdf"
+          },
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20260520201057/https://www.mha.gov.in/sites/default/files/2025-04/NHRCselectedlettersandguidelinesondeathsincustody_09042019_0%5B1%5D_4.pdf"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0063",
+        "kind": "Source",
+        "title": "NHRC",
+        "state": null,
+        "url": "https://nhrc.nic.in/press-release/nhrc-issues-fresh-guidelines-regarding-intimation-custodial-death",
+        "fields": [
+          {
+            "field": "title",
+            "from": "GIJN",
+            "to": "NHRC"
+          },
+          {
+            "field": "url",
+            "from": "https://gijn.org/stories/how-bellingcat-and-forensic-architecture-teamed-up-with-colombias-cerosetenta-to-map-police-violence/",
+            "to": "https://nhrc.nic.in/press-release/nhrc-issues-fresh-guidelines-regarding-intimation-custodial-death"
+          },
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20251011104825/https://nhrc.nic.in/press-release/nhrc-issues-fresh-guidelines-regarding-intimation-custodial-death"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0064",
+        "kind": "Source",
+        "title": "NHRC",
+        "state": null,
+        "url": "https://nhrc.nic.in/investigation-division",
+        "fields": [
+          {
+            "field": "title",
+            "from": "The Polis Project",
+            "to": "NHRC"
+          },
+          {
+            "field": "url",
+            "from": "https://thepolisproject.com/research/documenting-custodial-violence-reflections-and-further-research-5/",
+            "to": "https://nhrc.nic.in/investigation-division"
+          },
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20260725004141/https://nhrc.nic.in/investigation-division"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0065",
+        "kind": "Source",
+        "title": "commoner-law.com",
+        "state": null,
+        "url": "https://commoner-law.com/india/police-encounters/encounter-killings-and-custodial-deaths",
+        "fields": [
+          {
+            "field": "title",
+            "from": "Wikipedia",
+            "to": "commoner-law.com"
+          },
+          {
+            "field": "url",
+            "from": "https://en.wikipedia.org/wiki/DOTO_Database",
+            "to": "https://commoner-law.com/india/police-encounters/encounter-killings-and-custodial-deaths"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0066",
+        "kind": "Source",
+        "title": "Bellingcat",
+        "state": null,
+        "url": "https://www.bellingcat.com/news/americas/2020/10/29/a-new-platform-maps-us-police-violence-against-protesters/",
+        "fields": [
+          {
+            "field": "title",
+            "from": "Common Cause and CSDS",
+            "to": "Bellingcat"
+          },
+          {
+            "field": "url",
+            "from": "https://www.commoncause.in/wotadmin/upload/SPIR_2025.pdf",
+            "to": "https://www.bellingcat.com/news/americas/2020/10/29/a-new-platform-maps-us-police-violence-against-protesters/"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0067",
+        "kind": "Source",
+        "title": "GIJN",
+        "state": null,
+        "url": "https://gijn.org/stories/how-bellingcat-and-forensic-architecture-teamed-up-with-colombias-cerosetenta-to-map-police-violence/",
+        "fields": [
+          {
+            "field": "title",
+            "from": "Sage",
+            "to": "GIJN"
+          },
+          {
+            "field": "url",
+            "from": "https://journals.sagepub.com/doi/abs/10.1177/00699659231208696",
+            "to": "https://gijn.org/stories/how-bellingcat-and-forensic-architecture-teamed-up-with-colombias-cerosetenta-to-map-police-violence/"
+          }
+        ]
+      }
+    ],
+    "summary": "7 records added · 24 records edited"
+  },
+  {
+    "commit": "3268a6bbfa",
+    "date": "2026-08-21T19:39:49Z",
+    "subject": "The committee exists, an FIR is registered, and the dates were two days out",
+    "added": [
+      {
+        "id": "PROC-DEL-003",
+        "kind": "Evidence",
+        "title": "Delhi Police registered a First Information Report on 21 August 2026 at Parliament Street (Sansad Marg) police station, against unidentified persons, on the wri",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=PROC-DEL-003"
+      },
+      {
+        "id": "SRC-0063",
+        "kind": "Source",
+        "title": "GIJN",
+        "state": null,
+        "url": "https://gijn.org/stories/how-bellingcat-and-forensic-architecture-teamed-up-with-colombias-cerosetenta-to-map-police-violence/"
+      },
+      {
+        "id": "SRC-0064",
+        "kind": "Source",
+        "title": "The Polis Project",
+        "state": null,
+        "url": "https://thepolisproject.com/research/documenting-custodial-violence-reflections-and-further-research-5/"
+      },
+      {
+        "id": "SRC-0065",
+        "kind": "Source",
+        "title": "Wikipedia",
+        "state": null,
+        "url": "https://en.wikipedia.org/wiki/DOTO_Database"
+      },
+      {
+        "id": "SRC-0066",
+        "kind": "Source",
+        "title": "Common Cause and CSDS",
+        "state": null,
+        "url": "https://www.commoncause.in/wotadmin/upload/SPIR_2025.pdf"
+      },
+      {
+        "id": "SRC-0067",
+        "kind": "Source",
+        "title": "Sage",
+        "state": null,
+        "url": "https://journals.sagepub.com/doi/abs/10.1177/00699659231208696"
+      },
+      {
+        "id": "OQ-045",
+        "kind": "Question",
+        "title": "The Supreme Court's order of 18 August 2026 constituting the High Powered Enquiry Committee, and the committee's terms of reference as issued rather than as reported.",
+        "state": "UNANSWERED",
+        "url": "investigation.html?id=jantar-mantar#OQ-045"
+      },
+      {
+        "id": "OQ-046",
+        "kind": "Question",
+        "title": "The First Information Report registered at Parliament Street police station on 21 August 2026 on the complaint of a student injured at Jantar Mantar: its number, the sections invoked, and who it names.",
+        "state": "UNANSWERED",
+        "url": "investigation.html?id=jantar-mantar#OQ-046"
+      }
+    ],
+    "removed": [],
+    "changed": [
+      {
+        "id": "PROC-SC-006",
+        "kind": "Evidence",
+        "title": "The Supreme Court constituted a five-member High Powered Enquiry Committee by order reported dated 18 August 2026 to inquire into the police action against the ",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=PROC-SC-006",
+        "fields": [
+          {
+            "field": "title",
+            "from": "The Supreme Court is reported to have decided to constitute a high-powered committee to examine allegations of police excess, sexual violence and other incident",
+            "to": "The Supreme Court constituted a five-member High Powered Enquiry Committee by order reported dated 18 August 2026 to inquire into the police action against the "
+          },
+          {
+            "field": "establishes",
+            "from": "Two separate things, both reported from the same proceedings and neither held as an order: a committee that has not been shown to be constituted, and an indication about FIRs that is not a direction. The petitioners are reported to have …",
+            "to": "UPDATED 21 AUGUST 2026, AND THE EARLIER VERSION OF THIS RECORD IS NOW WRONG. It said a committee had been decided on but not shown to be constituted, and that whether it existed was not established. It has since been constituted, by an o…"
+          },
+          {
+            "field": "sourceIds",
+            "from": "SRC-0025, SRC-0026",
+            "to": "SRC-0025, SRC-0026, SRC-0027, SRC-0028"
+          }
+        ]
+      },
+      {
+        "id": "PROC-SC-007",
+        "kind": "Evidence",
+        "title": "A public interest petition challenging the use of facial recognition and other biometric surveillance at the Jantar Mantar protest is before the Supreme Court. ",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=PROC-SC-007",
+        "fields": [
+          {
+            "field": "sourceIds",
+            "from": "SRC-0027, SRC-0028, SRC-0029, SRC-0030",
+            "to": "SRC-0029, SRC-0030, SRC-0031, SRC-0032"
+          }
+        ]
+      },
+      {
+        "id": "OVR-DEL-001",
+        "kind": "Evidence",
+        "title": "Two Delhi Police officers whose posts covered the Jantar Mantar policing were moved in a Delhi Government order of 18 August 2026 transferring 43 IPS and DANIPS",
+        "state": "REPORTED",
+        "url": "evidence.html?id=OVR-DEL-001",
+        "fields": [
+          {
+            "field": "sourceIds",
+            "from": "SRC-0031, SRC-0032",
+            "to": "SRC-0033, SRC-0034"
+          }
+        ]
+      },
+      {
+        "id": "INC-DEL-003",
+        "kind": "Evidence",
+        "title": "Ten FIRs are reported to have been registered in the New Delhi district after the events of 22 July 2026 at Connaught Place and Jantar Mantar, and six police pe",
+        "state": "REPORTED",
+        "url": "evidence.html?id=INC-DEL-003",
+        "fields": [
+          {
+            "field": "sourceIds",
+            "from": "SRC-0033",
+            "to": "SRC-0035"
+          }
+        ]
+      },
+      {
+        "id": "PROC-SC-008",
+        "kind": "Evidence",
+        "title": "A petition on the use of pellet-firing weapons at Jantar Mantar is before the Supreme Court: Yashovardhan Azad and Others v. Union of India and Others, W.P.(C) ",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=PROC-SC-008",
+        "fields": [
+          {
+            "field": "sourceIds",
+            "from": "SRC-0034, SRC-0035, SRC-0036, SRC-0037",
+            "to": "SRC-0036, SRC-0037, SRC-0038, SRC-0039"
+          }
+        ]
+      },
+      {
+        "id": "PROC-SC-009",
+        "kind": "Evidence",
+        "title": "Counsel for the petitioners in W.P.(C) 917/2026 submitted before the Supreme Court, reported on 3 August 2026, that 'from 1967 to now, there is not a single sta",
+        "state": "REPORTED",
+        "url": "evidence.html?id=PROC-SC-009",
+        "fields": [
+          {
+            "field": "sourceIds",
+            "from": "SRC-0034",
+            "to": "SRC-0036"
+          }
+        ]
+      },
+      {
+        "id": "INC-DEL-004",
+        "kind": "Evidence",
+        "title": "A Delhi Police General Diary entry numbered 0008A, recorded at Parliament Street police station at 1.24 am on 22 July 2026, is reported to record that a Rapid A",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=INC-DEL-004",
+        "fields": [
+          {
+            "field": "sourceIds",
+            "from": "SRC-0038, SRC-0036",
+            "to": "SRC-0040, SRC-0038"
+          }
+        ]
+      },
+      {
+        "id": "INC-DEL-005",
+        "kind": "Evidence",
+        "title": "Whether pellet-firing weapons were used against demonstrators at Jantar Mantar on 20 July 2026, and if so whether the ammunition was plastic or metallic.",
+        "state": "DISPUTED",
+        "url": "evidence.html?id=INC-DEL-005",
+        "fields": [
+          {
+            "field": "sourceIds",
+            "from": "SRC-0039, SRC-0038, SRC-0034",
+            "to": "SRC-0041, SRC-0040, SRC-0036"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0027",
+        "kind": "Source",
+        "title": "LiveLaw",
+        "state": null,
+        "url": "https://www.livelaw.in/top-stories/supreme-court-forms-5-member-committee-led-by-ex-sc-judge-subhash-reddy-to-probe-student-protest-violence-546666",
+        "fields": [
+          {
+            "field": "title",
+            "from": "Bar & Bench",
+            "to": "LiveLaw"
+          },
+          {
+            "field": "url",
+            "from": "https://www.barandbench.com/news/litigation/cpim-mp-moves-supreme-court-against-use-of-facial-recognition-tech-by-police-at-jantar-mantar-protest-site",
+            "to": "https://www.livelaw.in/top-stories/supreme-court-forms-5-member-committee-led-by-ex-sc-judge-subhash-reddy-to-probe-student-protest-violence-546666"
+          },
+          {
+            "field": "retrievedOn",
+            "from": "2026-08-19",
+            "to": "2026-08-21"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0028",
+        "kind": "Source",
+        "title": "Bar & Bench",
+        "state": null,
+        "url": "https://www.barandbench.com/news/supreme-court-forms-panel-headed-by-former-judge-to-probe-police-excesses-against-cjp-protestors",
+        "fields": [
+          {
+            "field": "title",
+            "from": "LawBeat",
+            "to": "Bar & Bench"
+          },
+          {
+            "field": "url",
+            "from": "https://lawbeat.in/top-stories/pil-in-supreme-court-challenges-delhi-polices-facial-recognition-surveillance-at-jantar-mantar-protest-1616723",
+            "to": "https://www.barandbench.com/news/supreme-court-forms-panel-headed-by-former-judge-to-probe-police-excesses-against-cjp-protestors"
+          },
+          {
+            "field": "retrievedOn",
+            "from": "2026-08-19",
+            "to": "2026-08-21"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0029",
+        "kind": "Source",
+        "title": "Bar & Bench",
+        "state": null,
+        "url": "https://www.barandbench.com/news/litigation/cpim-mp-moves-supreme-court-against-use-of-facial-recognition-tech-by-police-at-jantar-mantar-protest-site",
+        "fields": [
+          {
+            "field": "title",
+            "from": "LawBeat",
+            "to": "Bar & Bench"
+          },
+          {
+            "field": "url",
+            "from": "https://lawbeat.in/top-stories/supreme-court-agrees-to-hear-pil-challenging-delhi-polices-facial-recognition-surveillance-at-jantar-mantar-protest-1621910",
+            "to": "https://www.barandbench.com/news/litigation/cpim-mp-moves-supreme-court-against-use-of-facial-recognition-tech-by-police-at-jantar-mantar-protest-site"
+          },
+          {
+            "field": "retrievedOn",
+            "from": "2026-08-19",
+            "to": "2026-08-21"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0030",
+        "kind": "Source",
+        "title": "LawBeat",
+        "state": null,
+        "url": "https://lawbeat.in/top-stories/pil-in-supreme-court-challenges-delhi-polices-facial-recognition-surveillance-at-jantar-mantar-protest-1616723",
+        "fields": [
+          {
+            "field": "title",
+            "from": "ANI",
+            "to": "LawBeat"
+          },
+          {
+            "field": "url",
+            "from": "https://aninews.in/news/national/general-news/pil-in-sc-challenges-delhi-polices-use-of-facial-recognition-ai-surveillance-at-jantar-mantar-protest20260728140154/",
+            "to": "https://lawbeat.in/top-stories/pil-in-supreme-court-challenges-delhi-polices-facial-recognition-surveillance-at-jantar-mantar-protest-1616723"
+          },
+          {
+            "field": "retrievedOn",
+            "from": "2026-08-19",
+            "to": "2026-08-21"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0031",
+        "kind": "Source",
+        "title": "LawBeat",
+        "state": null,
+        "url": "https://lawbeat.in/top-stories/supreme-court-agrees-to-hear-pil-challenging-delhi-polices-facial-recognition-surveillance-at-jantar-mantar-protest-1621910",
+        "fields": [
+          {
+            "field": "title",
+            "from": "The Tribune",
+            "to": "LawBeat"
+          },
+          {
+            "field": "url",
+            "from": "https://www.tribuneindia.com/news/delhi/cop-linked-to-pellet-gun-use-at-jantar-mantar-protest-shunted/",
+            "to": "https://lawbeat.in/top-stories/supreme-court-agrees-to-hear-pil-challenging-delhi-polices-facial-recognition-surveillance-at-jantar-mantar-protest-1621910"
+          },
+          {
+            "field": "retrievedOn",
+            "from": "2026-08-19",
+            "to": "2026-08-21"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0032",
+        "kind": "Source",
+        "title": "ANI",
+        "state": null,
+        "url": "https://aninews.in/news/national/general-news/pil-in-sc-challenges-delhi-polices-use-of-facial-recognition-ai-surveillance-at-jantar-mantar-protest20260728140154/",
+        "fields": [
+          {
+            "field": "title",
+            "from": "The Tribune",
+            "to": "ANI"
+          },
+          {
+            "field": "url",
+            "from": "https://www.tribuneindia.com/news/delhi/in-major-delhi-police-rejig-43-ips-danips-officers-transferred/",
+            "to": "https://aninews.in/news/national/general-news/pil-in-sc-challenges-delhi-polices-use-of-facial-recognition-ai-surveillance-at-jantar-mantar-protest20260728140154/"
+          },
+          {
+            "field": "retrievedOn",
+            "from": "2026-08-19",
+            "to": "2026-08-21"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0033",
+        "kind": "Source",
+        "title": "The Tribune",
+        "state": null,
+        "url": "https://www.tribuneindia.com/news/delhi/cop-linked-to-pellet-gun-use-at-jantar-mantar-protest-shunted/",
+        "fields": [
+          {
+            "field": "title",
+            "from": "Outlook India",
+            "to": "The Tribune"
+          },
+          {
+            "field": "url",
+            "from": "https://www.outlookindia.com/national/cjp-protest-delhi-police-register-10-firs-after-stone-pelting-injures-officers-at-cp-jantar-mantar",
+            "to": "https://www.tribuneindia.com/news/delhi/cop-linked-to-pellet-gun-use-at-jantar-mantar-protest-shunted/"
+          },
+          {
+            "field": "retrievedOn",
+            "from": "2026-08-19",
+            "to": "2026-08-21"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0034",
+        "kind": "Source",
+        "title": "The Tribune",
+        "state": null,
+        "url": "https://www.tribuneindia.com/news/delhi/in-major-delhi-police-rejig-43-ips-danips-officers-transferred/",
+        "fields": [
+          {
+            "field": "title",
+            "from": "LiveLaw",
+            "to": "The Tribune"
+          },
+          {
+            "field": "url",
+            "from": "https://www.livelaw.in/top-stories/will-lay-down-protocol-on-use-of-pellet-guns-says-supreme-court-544105",
+            "to": "https://www.tribuneindia.com/news/delhi/in-major-delhi-police-rejig-43-ips-danips-officers-transferred/"
+          },
+          {
+            "field": "retrievedOn",
+            "from": "2026-08-19",
+            "to": "2026-08-21"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0035",
+        "kind": "Source",
+        "title": "Outlook India",
+        "state": null,
+        "url": "https://www.outlookindia.com/national/cjp-protest-delhi-police-register-10-firs-after-stone-pelting-injures-officers-at-cp-jantar-mantar",
+        "fields": [
+          {
+            "field": "title",
+            "from": "The Federal",
+            "to": "Outlook India"
+          },
+          {
+            "field": "url",
+            "from": "https://thefederal.com/category/news/supreme-court-pellet-guns-delhi-police-sop-raf-ammunition-log-251892",
+            "to": "https://www.outlookindia.com/national/cjp-protest-delhi-police-register-10-firs-after-stone-pelting-injures-officers-at-cp-jantar-mantar"
+          },
+          {
+            "field": "retrievedOn",
+            "from": "2026-08-19",
+            "to": "2026-08-21"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0036",
+        "kind": "Source",
+        "title": "LiveLaw",
+        "state": null,
+        "url": "https://www.livelaw.in/top-stories/will-lay-down-protocol-on-use-of-pellet-guns-says-supreme-court-544105",
+        "fields": [
+          {
+            "field": "title",
+            "from": "The Week",
+            "to": "LiveLaw"
+          },
+          {
+            "field": "url",
+            "from": "https://www.theweek.in/news/india/2026/07/30/supreme-court-pellet-gun-use-protest-delhi-police-sop-pellet-guns-neet-ug-strike.html",
+            "to": "https://www.livelaw.in/top-stories/will-lay-down-protocol-on-use-of-pellet-guns-says-supreme-court-544105"
+          },
+          {
+            "field": "retrievedOn",
+            "from": "2026-08-19",
+            "to": "2026-08-21"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0037",
+        "kind": "Source",
+        "title": "The Federal",
+        "state": null,
+        "url": "https://thefederal.com/category/news/supreme-court-pellet-guns-delhi-police-sop-raf-ammunition-log-251892",
+        "fields": [
+          {
+            "field": "title",
+            "from": "DNA",
+            "to": "The Federal"
+          },
+          {
+            "field": "url",
+            "from": "https://www.dnaindia.com/india/report-supreme-court-says-pellet-guns-can-be-used-only-in-exceptional-situations-directs-govt-to-preserve-raf-ammunition-log-book-3217450",
+            "to": "https://thefederal.com/category/news/supreme-court-pellet-guns-delhi-police-sop-raf-ammunition-log-251892"
+          },
+          {
+            "field": "retrievedOn",
+            "from": "2026-08-19",
+            "to": "2026-08-21"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0038",
+        "kind": "Source",
+        "title": "The Week",
+        "state": null,
+        "url": "https://www.theweek.in/news/india/2026/07/30/supreme-court-pellet-gun-use-protest-delhi-police-sop-pellet-guns-neet-ug-strike.html",
+        "fields": [
+          {
+            "field": "title",
+            "from": "Alt News",
+            "to": "The Week"
+          },
+          {
+            "field": "url",
+            "from": "https://www.altnews.in/delhi-police-records-confirm-what-was-already-evident-pellet-guns-were-used-on-protestors-on-july-20/",
+            "to": "https://www.theweek.in/news/india/2026/07/30/supreme-court-pellet-gun-use-protest-delhi-police-sop-pellet-guns-neet-ug-strike.html"
+          },
+          {
+            "field": "retrievedOn",
+            "from": "2026-08-19",
+            "to": "2026-08-21"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0039",
+        "kind": "Source",
+        "title": "DNA",
+        "state": null,
+        "url": "https://www.dnaindia.com/india/report-supreme-court-says-pellet-guns-can-be-used-only-in-exceptional-situations-directs-govt-to-preserve-raf-ammunition-log-book-3217450",
+        "fields": [
+          {
+            "field": "title",
+            "from": "BOOM",
+            "to": "DNA"
+          },
+          {
+            "field": "url",
+            "from": "https://www.boomlive.in/news/cjp-protest-delhi-police-deny-pellet-gun-use-victim-account-31912",
+            "to": "https://www.dnaindia.com/india/report-supreme-court-says-pellet-guns-can-be-used-only-in-exceptional-situations-directs-govt-to-preserve-raf-ammunition-log-book-3217450"
+          },
+          {
+            "field": "retrievedOn",
+            "from": "2026-08-19",
+            "to": "2026-08-21"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0040",
+        "kind": "Source",
+        "title": "Alt News",
+        "state": null,
+        "url": "https://www.altnews.in/delhi-police-records-confirm-what-was-already-evident-pellet-guns-were-used-on-protestors-on-july-20/",
+        "fields": [
+          {
+            "field": "title",
+            "from": "India Code",
+            "to": "Alt News"
+          },
+          {
+            "field": "url",
+            "from": "https://www.indiacode.nic.in/bitstream/123456789/20340/1/bnss,_2023.pdf",
+            "to": "https://www.altnews.in/delhi-police-records-confirm-what-was-already-evident-pellet-guns-were-used-on-protestors-on-july-20/"
+          },
+          {
+            "field": "retrievedOn",
+            "from": "2026-08-16",
+            "to": "2026-08-21"
+          },
+          {
+            "field": "archiveUrl",
+            "from": "http://web.archive.org/web/20260121073438/https://www.indiacode.nic.in/bitstream/123456789/20340/1/bnss%2C_2023.pdf",
+            "to": null
+          }
+        ]
+      },
+      {
+        "id": "SRC-0041",
+        "kind": "Source",
+        "title": "BOOM",
+        "state": null,
+        "url": "https://www.boomlive.in/news/cjp-protest-delhi-police-deny-pellet-gun-use-victim-account-31912",
+        "fields": [
+          {
+            "field": "title",
+            "from": "Bureau of Police Research and Development",
+            "to": "BOOM"
+          },
+          {
+            "field": "url",
+            "from": "https://bprd.nic.in/uploads/pdf/Comparison%20summary%20BNSS%20to%20CrPC.pdf",
+            "to": "https://www.boomlive.in/news/cjp-protest-delhi-police-deny-pellet-gun-use-victim-account-31912"
+          },
+          {
+            "field": "retrievedOn",
+            "from": "2026-08-16",
+            "to": "2026-08-21"
+          },
+          {
+            "field": "archiveUrl",
+            "from": "http://web.archive.org/web/20260215214604/https://bprd.nic.in/uploads/pdf/Comparison%20summary%20BNSS%20to%20CrPC.pdf",
+            "to": null
+          }
+        ]
+      },
+      {
+        "id": "SRC-0042",
+        "kind": "Source",
+        "title": "India TV News",
+        "state": null,
+        "url": "https://www.indiatvnews.com/news/india/delhi-police-to-register-fir-on-pellet-gun-complaint-as-rahul-gandhi-stages-dharna-outside-police-station-2026-08-21-1052071",
+        "fields": [
+          {
+            "field": "title",
+            "from": "Uttar Pradesh Police",
+            "to": "India TV News"
+          },
+          {
+            "field": "url",
+            "from": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202407031502194192BNSS2023-20-45.pdf",
+            "to": "https://www.indiatvnews.com/news/india/delhi-police-to-register-fir-on-pellet-gun-complaint-as-rahul-gandhi-stages-dharna-outside-police-station-2026-08-21-1052071"
+          },
+          {
+            "field": "retrievedOn",
+            "from": "2026-08-16",
+            "to": "2026-08-21"
+          },
+          {
+            "field": "archiveUrl",
+            "from": "http://web.archive.org/web/20250524091156/https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202407031502194192BNSS2023-20-45.pdf",
+            "to": null
+          }
+        ]
+      },
+      {
+        "id": "SRC-0043",
+        "kind": "Source",
+        "title": "Outlook India",
+        "state": null,
+        "url": "https://www.outlookindia.com/national/delhi-police-to-register-fir-over-alleged-pellet-gun-injury-after-rahul-gandhis-protest",
+        "fields": [
+          {
+            "field": "title",
+            "from": "onlinelawconnect",
+            "to": "Outlook India"
+          },
+          {
+            "field": "url",
+            "from": "https://onlinelawconnect.com/actsandrules/criminal/bnss/SummaryChapter11.php",
+            "to": "https://www.outlookindia.com/national/delhi-police-to-register-fir-over-alleged-pellet-gun-injury-after-rahul-gandhis-protest"
+          },
+          {
+            "field": "retrievedOn",
+            "from": "2026-08-16",
+            "to": "2026-08-21"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0044",
+        "kind": "Source",
+        "title": "India.com",
+        "state": null,
+        "url": "https://www.india.com/news/india/rahul-gandhi-sits-on-dharna-outside-senior-cops-office-parliament-street-police-station-with-victim-sahil-lochav-demands-fir-over-pellet-gun-use-jantar-mantar-8506660/",
+        "fields": [
+          {
+            "field": "title",
+            "from": "Justice Definitions Project",
+            "to": "India.com"
+          },
+          {
+            "field": "url",
+            "from": "https://www.lawandjusticewiki.org/wiki/Extra-judicial_killings",
+            "to": "https://www.india.com/news/india/rahul-gandhi-sits-on-dharna-outside-senior-cops-office-parliament-street-police-station-with-victim-sahil-lochav-demands-fir-over-pellet-gun-use-jantar-mantar-8506660/"
+          },
+          {
+            "field": "retrievedOn",
+            "from": "2026-08-16",
+            "to": "2026-08-21"
+          },
+          {
+            "field": "archiveUrl",
+            "from": "http://web.archive.org/web/20260518085831/https://www.lawandjusticewiki.org/wiki/Extra-judicial_killings",
+            "to": null
+          }
+        ]
+      },
+      {
+        "id": "SRC-0045",
+        "kind": "Source",
+        "title": "India Code",
+        "state": null,
+        "url": "https://www.indiacode.nic.in/bitstream/123456789/20340/1/bnss,_2023.pdf",
+        "fields": [
+          {
+            "field": "title",
+            "from": "ApniLaw",
+            "to": "India Code"
+          },
+          {
+            "field": "url",
+            "from": "https://www.apnilaw.com/bare-act/bnss/section-196-bharatiya-nagarik-suraksha-sanhitabnss-inquiry-by-magistrate-into-cause-of-death/",
+            "to": "https://www.indiacode.nic.in/bitstream/123456789/20340/1/bnss,_2023.pdf"
+          },
+          {
+            "field": "archiveUrl",
+            "from": "http://web.archive.org/web/20250906102438/https://www.apnilaw.com/bare-act/bnss/section-196-bharatiya-nagarik-suraksha-sanhitabnss-inquiry-by-magistrate-into-cause-of-death/",
+            "to": "http://web.archive.org/web/20260121073438/https://www.indiacode.nic.in/bitstream/123456789/20340/1/bnss%2C_2023.pdf"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0046",
+        "kind": "Source",
+        "title": "Bureau of Police Research and Development",
+        "state": null,
+        "url": "https://bprd.nic.in/uploads/pdf/Comparison%20summary%20BNSS%20to%20CrPC.pdf",
+        "fields": [
+          {
+            "field": "title",
+            "from": "India Code",
+            "to": "Bureau of Police Research and Development"
+          },
+          {
+            "field": "url",
+            "from": "https://www.indiacode.nic.in/bitstream/123456789/13669/1/delhi_police_act.pdf",
+            "to": "https://bprd.nic.in/uploads/pdf/Comparison%20summary%20BNSS%20to%20CrPC.pdf"
+          },
+          {
+            "field": "archiveUrl",
+            "from": "http://web.archive.org/web/20240809212750/https://www.indiacode.nic.in/bitstream/123456789/13669/1/delhi_police_act.pdf",
+            "to": "http://web.archive.org/web/20260215214604/https://bprd.nic.in/uploads/pdf/Comparison%20summary%20BNSS%20to%20CrPC.pdf"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0047",
+        "kind": "Source",
+        "title": "Uttar Pradesh Police",
+        "state": null,
+        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202407031502194192BNSS2023-20-45.pdf",
+        "fields": [
+          {
+            "field": "title",
+            "from": "indianemployees.com",
+            "to": "Uttar Pradesh Police"
+          },
+          {
+            "field": "url",
+            "from": "https://www.indianemployees.com/acts-rules/details/delhi-police-act-1978",
+            "to": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202407031502194192BNSS2023-20-45.pdf"
+          },
+          {
+            "field": "archiveUrl",
+            "from": "http://web.archive.org/web/20220329071954/https://www.indianemployees.com/acts-rules/details/delhi-police-act-1978",
+            "to": "http://web.archive.org/web/20250524091156/https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202407031502194192BNSS2023-20-45.pdf"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0048",
+        "kind": "Source",
+        "title": "onlinelawconnect",
+        "state": null,
+        "url": "https://onlinelawconnect.com/actsandrules/criminal/bnss/SummaryChapter11.php",
+        "fields": [
+          {
+            "field": "title",
+            "from": "India Code",
+            "to": "onlinelawconnect"
+          },
+          {
+            "field": "url",
+            "from": "https://www.indiacode.nic.in/bitstream/123456789/20371/1/ashtra_police.pdf",
+            "to": "https://onlinelawconnect.com/actsandrules/criminal/bnss/SummaryChapter11.php"
+          },
+          {
+            "field": "archiveUrl",
+            "from": "http://web.archive.org/web/20251230215513/https://www.indiacode.nic.in/bitstream/123456789/20371/1/ashtra_police.pdf",
+            "to": null
+          }
+        ]
+      },
+      {
+        "id": "SRC-0049",
+        "kind": "Source",
+        "title": "Justice Definitions Project",
+        "state": null,
+        "url": "https://www.lawandjusticewiki.org/wiki/Extra-judicial_killings",
+        "fields": [
+          {
+            "field": "title",
+            "from": "Gurukul Nexus",
+            "to": "Justice Definitions Project"
+          },
+          {
+            "field": "url",
+            "from": "https://blog.gurukulnexus.com/police-regulations-maharashtra-police-act-public-order/",
+            "to": "https://www.lawandjusticewiki.org/wiki/Extra-judicial_killings"
+          },
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20260518085831/https://www.lawandjusticewiki.org/wiki/Extra-judicial_killings"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0050",
+        "kind": "Source",
+        "title": "ApniLaw",
+        "state": null,
+        "url": "https://www.apnilaw.com/bare-act/bnss/section-196-bharatiya-nagarik-suraksha-sanhitabnss-inquiry-by-magistrate-into-cause-of-death/",
+        "fields": [
+          {
+            "field": "title",
+            "from": "India Code",
+            "to": "ApniLaw"
+          },
+          {
+            "field": "url",
+            "from": "https://www.indiacode.nic.in/bitstream/123456789/11209/1/1094_bihar_bihar_police_act_2007.pdf",
+            "to": "https://www.apnilaw.com/bare-act/bnss/section-196-bharatiya-nagarik-suraksha-sanhitabnss-inquiry-by-magistrate-into-cause-of-death/"
+          },
+          {
+            "field": "archiveUrl",
+            "from": "http://web.archive.org/web/20260612162516/https://www.indiacode.nic.in/bitstream/123456789/11209/1/1094_bihar_bihar_police_act_2007.pdf",
+            "to": "http://web.archive.org/web/20250906102438/https://www.apnilaw.com/bare-act/bnss/section-196-bharatiya-nagarik-suraksha-sanhitabnss-inquiry-by-magistrate-into-cause-of-death/"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0051",
+        "kind": "Source",
+        "title": "India Code",
+        "state": null,
+        "url": "https://www.indiacode.nic.in/bitstream/123456789/13669/1/delhi_police_act.pdf",
+        "fields": [
+          {
+            "field": "title",
+            "from": "LegitQuest",
+            "to": "India Code"
+          },
+          {
+            "field": "url",
+            "from": "https://www.legitquest.com/act/the-bihar-police-amendment-act-2014/FBD1",
+            "to": "https://www.indiacode.nic.in/bitstream/123456789/13669/1/delhi_police_act.pdf"
+          },
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20240809212750/https://www.indiacode.nic.in/bitstream/123456789/13669/1/delhi_police_act.pdf"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0052",
+        "kind": "Source",
+        "title": "indianemployees.com",
+        "state": null,
+        "url": "https://www.indianemployees.com/acts-rules/details/delhi-police-act-1978",
+        "fields": [
+          {
+            "field": "title",
+            "from": "CaseMine",
+            "to": "indianemployees.com"
+          },
+          {
+            "field": "url",
+            "from": null,
+            "to": "https://www.indianemployees.com/acts-rules/details/delhi-police-act-1978"
+          },
+          {
+            "field": "retrievedOn",
+            "from": null,
+            "to": "2026-08-16"
+          },
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20220329071954/https://www.indianemployees.com/acts-rules/details/delhi-police-act-1978"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0053",
+        "kind": "Source",
+        "title": "India Code",
+        "state": null,
+        "url": "https://www.indiacode.nic.in/bitstream/123456789/20371/1/ashtra_police.pdf",
+        "fields": [
+          {
+            "field": "title",
+            "from": "Ministry of Home Affairs",
+            "to": "India Code"
+          },
+          {
+            "field": "url",
+            "from": "https://www.mha.gov.in/sites/default/files/2025-04/NHRCselectedlettersandguidelinesondeathsincustody_09042019_0[1]_4.pdf",
+            "to": "https://www.indiacode.nic.in/bitstream/123456789/20371/1/ashtra_police.pdf"
+          },
+          {
+            "field": "archiveUrl",
+            "from": "http://web.archive.org/web/20260520201057/https://www.mha.gov.in/sites/default/files/2025-04/NHRCselectedlettersandguidelinesondeathsincustody_09042019_0%5B1%5D_4.pdf",
+            "to": "http://web.archive.org/web/20251230215513/https://www.indiacode.nic.in/bitstream/123456789/20371/1/ashtra_police.pdf"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0054",
+        "kind": "Source",
+        "title": "Gurukul Nexus",
+        "state": null,
+        "url": "https://blog.gurukulnexus.com/police-regulations-maharashtra-police-act-public-order/",
+        "fields": [
+          {
+            "field": "title",
+            "from": "NHRC",
+            "to": "Gurukul Nexus"
+          },
+          {
+            "field": "url",
+            "from": "https://nhrc.nic.in/press-release/nhrc-issues-fresh-guidelines-regarding-intimation-custodial-death",
+            "to": "https://blog.gurukulnexus.com/police-regulations-maharashtra-police-act-public-order/"
+          },
+          {
+            "field": "archiveUrl",
+            "from": "http://web.archive.org/web/20251011104825/https://nhrc.nic.in/press-release/nhrc-issues-fresh-guidelines-regarding-intimation-custodial-death",
+            "to": null
+          }
+        ]
+      },
+      {
+        "id": "SRC-0055",
+        "kind": "Source",
+        "title": "India Code",
+        "state": null,
+        "url": "https://www.indiacode.nic.in/bitstream/123456789/11209/1/1094_bihar_bihar_police_act_2007.pdf",
+        "fields": [
+          {
+            "field": "title",
+            "from": "NHRC",
+            "to": "India Code"
+          },
+          {
+            "field": "url",
+            "from": "https://nhrc.nic.in/investigation-division",
+            "to": "https://www.indiacode.nic.in/bitstream/123456789/11209/1/1094_bihar_bihar_police_act_2007.pdf"
+          },
+          {
+            "field": "archiveUrl",
+            "from": "http://web.archive.org/web/20260725004141/https://nhrc.nic.in/investigation-division",
+            "to": "http://web.archive.org/web/20260612162516/https://www.indiacode.nic.in/bitstream/123456789/11209/1/1094_bihar_bihar_police_act_2007.pdf"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0056",
+        "kind": "Source",
+        "title": "LegitQuest",
+        "state": null,
+        "url": "https://www.legitquest.com/act/the-bihar-police-amendment-act-2014/FBD1",
+        "fields": [
+          {
+            "field": "title",
+            "from": "commoner-law.com",
+            "to": "LegitQuest"
+          },
+          {
+            "field": "url",
+            "from": "https://commoner-law.com/india/police-encounters/encounter-killings-and-custodial-deaths",
+            "to": "https://www.legitquest.com/act/the-bihar-police-amendment-act-2014/FBD1"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0057",
+        "kind": "Source",
+        "title": "CaseMine",
+        "state": null,
+        "url": null,
+        "fields": [
+          {
+            "field": "title",
+            "from": "Bellingcat",
+            "to": "CaseMine"
+          },
+          {
+            "field": "url",
+            "from": "https://www.bellingcat.com/news/americas/2020/10/29/a-new-platform-maps-us-police-violence-against-protesters/",
+            "to": null
+          },
+          {
+            "field": "retrievedOn",
+            "from": "2026-08-16",
+            "to": null
+          }
+        ]
+      },
+      {
+        "id": "SRC-0058",
+        "kind": "Source",
+        "title": "Ministry of Home Affairs",
+        "state": null,
+        "url": "https://www.mha.gov.in/sites/default/files/2025-04/NHRCselectedlettersandguidelinesondeathsincustody_09042019_0[1]_4.pdf",
+        "fields": [
+          {
+            "field": "title",
+            "from": "GIJN",
+            "to": "Ministry of Home Affairs"
+          },
+          {
+            "field": "url",
+            "from": "https://gijn.org/stories/how-bellingcat-and-forensic-architecture-teamed-up-with-colombias-cerosetenta-to-map-police-violence/",
+            "to": "https://www.mha.gov.in/sites/default/files/2025-04/NHRCselectedlettersandguidelinesondeathsincustody_09042019_0[1]_4.pdf"
+          },
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20260520201057/https://www.mha.gov.in/sites/default/files/2025-04/NHRCselectedlettersandguidelinesondeathsincustody_09042019_0%5B1%5D_4.pdf"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0059",
+        "kind": "Source",
+        "title": "NHRC",
+        "state": null,
+        "url": "https://nhrc.nic.in/press-release/nhrc-issues-fresh-guidelines-regarding-intimation-custodial-death",
+        "fields": [
+          {
+            "field": "title",
+            "from": "The Polis Project",
+            "to": "NHRC"
+          },
+          {
+            "field": "url",
+            "from": "https://thepolisproject.com/research/documenting-custodial-violence-reflections-and-further-research-5/",
+            "to": "https://nhrc.nic.in/press-release/nhrc-issues-fresh-guidelines-regarding-intimation-custodial-death"
+          },
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20251011104825/https://nhrc.nic.in/press-release/nhrc-issues-fresh-guidelines-regarding-intimation-custodial-death"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0060",
+        "kind": "Source",
+        "title": "NHRC",
+        "state": null,
+        "url": "https://nhrc.nic.in/investigation-division",
+        "fields": [
+          {
+            "field": "title",
+            "from": "Wikipedia",
+            "to": "NHRC"
+          },
+          {
+            "field": "url",
+            "from": "https://en.wikipedia.org/wiki/DOTO_Database",
+            "to": "https://nhrc.nic.in/investigation-division"
+          },
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20260725004141/https://nhrc.nic.in/investigation-division"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0061",
+        "kind": "Source",
+        "title": "commoner-law.com",
+        "state": null,
+        "url": "https://commoner-law.com/india/police-encounters/encounter-killings-and-custodial-deaths",
+        "fields": [
+          {
+            "field": "title",
+            "from": "Common Cause and CSDS",
+            "to": "commoner-law.com"
+          },
+          {
+            "field": "url",
+            "from": "https://www.commoncause.in/wotadmin/upload/SPIR_2025.pdf",
+            "to": "https://commoner-law.com/india/police-encounters/encounter-killings-and-custodial-deaths"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0062",
+        "kind": "Source",
+        "title": "Bellingcat",
+        "state": null,
+        "url": "https://www.bellingcat.com/news/americas/2020/10/29/a-new-platform-maps-us-police-violence-against-protesters/",
+        "fields": [
+          {
+            "field": "title",
+            "from": "Sage",
+            "to": "Bellingcat"
+          },
+          {
+            "field": "url",
+            "from": "https://journals.sagepub.com/doi/abs/10.1177/00699659231208696",
+            "to": "https://www.bellingcat.com/news/americas/2020/10/29/a-new-platform-maps-us-police-violence-against-protesters/"
+          }
+        ]
+      }
+    ],
+    "summary": "8 records added · 44 records edited"
+  },
+  {
+    "commit": "2627779072",
+    "date": "2026-08-21T19:31:49Z",
+    "subject": "The pellet guns: four records and five questions",
+    "added": [
+      {
+        "id": "PROC-SC-008",
+        "kind": "Evidence",
+        "title": "A petition on the use of pellet-firing weapons at Jantar Mantar is before the Supreme Court: Yashovardhan Azad and Others v. Union of India and Others, W.P.(C) ",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=PROC-SC-008"
+      },
+      {
+        "id": "PROC-SC-009",
+        "kind": "Evidence",
+        "title": "Counsel for the petitioners in W.P.(C) 917/2026 submitted before the Supreme Court, reported on 3 August 2026, that 'from 1967 to now, there is not a single sta",
+        "state": "REPORTED",
+        "url": "evidence.html?id=PROC-SC-009"
+      },
+      {
+        "id": "INC-DEL-004",
+        "kind": "Evidence",
+        "title": "A Delhi Police General Diary entry numbered 0008A, recorded at Parliament Street police station at 1.24 am on 22 July 2026, is reported to record that a Rapid A",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=INC-DEL-004"
+      },
+      {
+        "id": "INC-DEL-005",
+        "kind": "Evidence",
+        "title": "Whether pellet-firing weapons were used against demonstrators at Jantar Mantar on 20 July 2026, and if so whether the ammunition was plastic or metallic.",
+        "state": "DISPUTED",
+        "url": "evidence.html?id=INC-DEL-005"
+      },
+      {
+        "id": "SRC-0057",
+        "kind": "Source",
+        "title": "Bellingcat",
+        "state": null,
+        "url": "https://www.bellingcat.com/news/americas/2020/10/29/a-new-platform-maps-us-police-violence-against-protesters/"
+      },
+      {
+        "id": "SRC-0058",
+        "kind": "Source",
+        "title": "GIJN",
+        "state": null,
+        "url": "https://gijn.org/stories/how-bellingcat-and-forensic-architecture-teamed-up-with-colombias-cerosetenta-to-map-police-violence/"
+      },
+      {
+        "id": "SRC-0059",
+        "kind": "Source",
+        "title": "The Polis Project",
+        "state": null,
+        "url": "https://thepolisproject.com/research/documenting-custodial-violence-reflections-and-further-research-5/"
+      },
+      {
+        "id": "SRC-0060",
+        "kind": "Source",
+        "title": "Wikipedia",
+        "state": null,
+        "url": "https://en.wikipedia.org/wiki/DOTO_Database"
+      },
+      {
+        "id": "SRC-0061",
+        "kind": "Source",
+        "title": "Common Cause and CSDS",
+        "state": null,
+        "url": "https://www.commoncause.in/wotadmin/upload/SPIR_2025.pdf"
+      },
+      {
+        "id": "SRC-0062",
+        "kind": "Source",
+        "title": "Sage",
+        "state": null,
+        "url": "https://journals.sagepub.com/doi/abs/10.1177/00699659231208696"
+      },
+      {
+        "id": "OQ-040",
+        "kind": "Question",
+        "title": "Delhi Police General Diary entry 0008A of 22 July 2026, Parliament Street police station, recording the munitions used at Jantar Mantar on 20 July 2026 and the Deputy Commissioner of Police under whose orders they were used.",
+        "state": "UNANSWERED",
+        "url": "investigation.html?id=jantar-mantar#OQ-040"
+      },
+      {
+        "id": "OQ-041",
+        "kind": "Question",
+        "title": "The Delhi Police standard operating procedure on the use of pellet-firing weapons, which the Supreme Court is reported to have directed be placed on record on 30 July 2026.",
+        "state": "UNANSWERED",
+        "url": "investigation.html?id=jantar-mantar#OQ-041"
+      },
+      {
+        "id": "OQ-042",
+        "kind": "Question",
+        "title": "The ammunition log of the Rapid Action Force unit deployed at Jantar Mantar on 20 July 2026, which the Supreme Court is reported to have directed be preserved on 30 July 2026.",
+        "state": "UNANSWERED",
+        "url": "investigation.html?id=jantar-mantar#OQ-042"
+      },
+      {
+        "id": "OQ-043",
+        "kind": "Question",
+        "title": "Which Deputy Commissioner of Police gave the order recorded in General Diary entry 0008A, and whether that order was written or oral.",
+        "state": "UNANSWERED",
+        "url": "investigation.html?id=jantar-mantar#OQ-043"
+      },
+      {
+        "id": "OQ-044",
+        "kind": "Question",
+        "title": "The standard operating procedure prepared in 2011 by a Union High Task Force on crowd control, and the report of the High Powered Committee of 2016, which counsel told the Supreme Court is not available.",
+        "state": "UNANSWERED",
+        "url": "investigation.html?id=#OQ-044"
+      }
+    ],
+    "removed": [],
+    "changed": [
+      {
+        "id": "SRC-0034",
+        "kind": "Source",
+        "title": "LiveLaw",
+        "state": null,
+        "url": "https://www.livelaw.in/top-stories/will-lay-down-protocol-on-use-of-pellet-guns-says-supreme-court-544105",
+        "fields": [
+          {
+            "field": "title",
+            "from": "India Code",
+            "to": "LiveLaw"
+          },
+          {
+            "field": "url",
+            "from": "https://www.indiacode.nic.in/bitstream/123456789/20340/1/bnss,_2023.pdf",
+            "to": "https://www.livelaw.in/top-stories/will-lay-down-protocol-on-use-of-pellet-guns-says-supreme-court-544105"
+          },
+          {
+            "field": "retrievedOn",
+            "from": "2026-08-16",
+            "to": "2026-08-19"
+          },
+          {
+            "field": "archiveUrl",
+            "from": "http://web.archive.org/web/20260121073438/https://www.indiacode.nic.in/bitstream/123456789/20340/1/bnss%2C_2023.pdf",
+            "to": null
+          }
+        ]
+      },
+      {
+        "id": "SRC-0035",
+        "kind": "Source",
+        "title": "The Federal",
+        "state": null,
+        "url": "https://thefederal.com/category/news/supreme-court-pellet-guns-delhi-police-sop-raf-ammunition-log-251892",
+        "fields": [
+          {
+            "field": "title",
+            "from": "Bureau of Police Research and Development",
+            "to": "The Federal"
+          },
+          {
+            "field": "url",
+            "from": "https://bprd.nic.in/uploads/pdf/Comparison%20summary%20BNSS%20to%20CrPC.pdf",
+            "to": "https://thefederal.com/category/news/supreme-court-pellet-guns-delhi-police-sop-raf-ammunition-log-251892"
+          },
+          {
+            "field": "retrievedOn",
+            "from": "2026-08-16",
+            "to": "2026-08-19"
+          },
+          {
+            "field": "archiveUrl",
+            "from": "http://web.archive.org/web/20260215214604/https://bprd.nic.in/uploads/pdf/Comparison%20summary%20BNSS%20to%20CrPC.pdf",
+            "to": null
+          }
+        ]
+      },
+      {
+        "id": "SRC-0036",
+        "kind": "Source",
+        "title": "The Week",
+        "state": null,
+        "url": "https://www.theweek.in/news/india/2026/07/30/supreme-court-pellet-gun-use-protest-delhi-police-sop-pellet-guns-neet-ug-strike.html",
+        "fields": [
+          {
+            "field": "title",
+            "from": "Uttar Pradesh Police",
+            "to": "The Week"
+          },
+          {
+            "field": "url",
+            "from": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202407031502194192BNSS2023-20-45.pdf",
+            "to": "https://www.theweek.in/news/india/2026/07/30/supreme-court-pellet-gun-use-protest-delhi-police-sop-pellet-guns-neet-ug-strike.html"
+          },
+          {
+            "field": "retrievedOn",
+            "from": "2026-08-16",
+            "to": "2026-08-19"
+          },
+          {
+            "field": "archiveUrl",
+            "from": "http://web.archive.org/web/20250524091156/https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202407031502194192BNSS2023-20-45.pdf",
+            "to": null
+          }
+        ]
+      },
+      {
+        "id": "SRC-0037",
+        "kind": "Source",
+        "title": "DNA",
+        "state": null,
+        "url": "https://www.dnaindia.com/india/report-supreme-court-says-pellet-guns-can-be-used-only-in-exceptional-situations-directs-govt-to-preserve-raf-ammunition-log-book-3217450",
+        "fields": [
+          {
+            "field": "title",
+            "from": "onlinelawconnect",
+            "to": "DNA"
+          },
+          {
+            "field": "url",
+            "from": "https://onlinelawconnect.com/actsandrules/criminal/bnss/SummaryChapter11.php",
+            "to": "https://www.dnaindia.com/india/report-supreme-court-says-pellet-guns-can-be-used-only-in-exceptional-situations-directs-govt-to-preserve-raf-ammunition-log-book-3217450"
+          },
+          {
+            "field": "retrievedOn",
+            "from": "2026-08-16",
+            "to": "2026-08-19"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0038",
+        "kind": "Source",
+        "title": "Alt News",
+        "state": null,
+        "url": "https://www.altnews.in/delhi-police-records-confirm-what-was-already-evident-pellet-guns-were-used-on-protestors-on-july-20/",
+        "fields": [
+          {
+            "field": "title",
+            "from": "Justice Definitions Project",
+            "to": "Alt News"
+          },
+          {
+            "field": "url",
+            "from": "https://www.lawandjusticewiki.org/wiki/Extra-judicial_killings",
+            "to": "https://www.altnews.in/delhi-police-records-confirm-what-was-already-evident-pellet-guns-were-used-on-protestors-on-july-20/"
+          },
+          {
+            "field": "retrievedOn",
+            "from": "2026-08-16",
+            "to": "2026-08-19"
+          },
+          {
+            "field": "archiveUrl",
+            "from": "http://web.archive.org/web/20260518085831/https://www.lawandjusticewiki.org/wiki/Extra-judicial_killings",
+            "to": null
+          }
+        ]
+      },
+      {
+        "id": "SRC-0039",
+        "kind": "Source",
+        "title": "BOOM",
+        "state": null,
+        "url": "https://www.boomlive.in/news/cjp-protest-delhi-police-deny-pellet-gun-use-victim-account-31912",
+        "fields": [
+          {
+            "field": "title",
+            "from": "ApniLaw",
+            "to": "BOOM"
+          },
+          {
+            "field": "url",
+            "from": "https://www.apnilaw.com/bare-act/bnss/section-196-bharatiya-nagarik-suraksha-sanhitabnss-inquiry-by-magistrate-into-cause-of-death/",
+            "to": "https://www.boomlive.in/news/cjp-protest-delhi-police-deny-pellet-gun-use-victim-account-31912"
+          },
+          {
+            "field": "retrievedOn",
+            "from": "2026-08-16",
+            "to": "2026-08-19"
+          },
+          {
+            "field": "archiveUrl",
+            "from": "http://web.archive.org/web/20250906102438/https://www.apnilaw.com/bare-act/bnss/section-196-bharatiya-nagarik-suraksha-sanhitabnss-inquiry-by-magistrate-into-cause-of-death/",
+            "to": null
+          }
+        ]
+      },
+      {
+        "id": "SRC-0040",
+        "kind": "Source",
+        "title": "India Code",
+        "state": null,
+        "url": "https://www.indiacode.nic.in/bitstream/123456789/20340/1/bnss,_2023.pdf",
+        "fields": [
+          {
+            "field": "url",
+            "from": "https://www.indiacode.nic.in/bitstream/123456789/13669/1/delhi_police_act.pdf",
+            "to": "https://www.indiacode.nic.in/bitstream/123456789/20340/1/bnss,_2023.pdf"
+          },
+          {
+            "field": "archiveUrl",
+            "from": "http://web.archive.org/web/20240809212750/https://www.indiacode.nic.in/bitstream/123456789/13669/1/delhi_police_act.pdf",
+            "to": "http://web.archive.org/web/20260121073438/https://www.indiacode.nic.in/bitstream/123456789/20340/1/bnss%2C_2023.pdf"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0041",
+        "kind": "Source",
+        "title": "Bureau of Police Research and Development",
+        "state": null,
+        "url": "https://bprd.nic.in/uploads/pdf/Comparison%20summary%20BNSS%20to%20CrPC.pdf",
+        "fields": [
+          {
+            "field": "title",
+            "from": "indianemployees.com",
+            "to": "Bureau of Police Research and Development"
+          },
+          {
+            "field": "url",
+            "from": "https://www.indianemployees.com/acts-rules/details/delhi-police-act-1978",
+            "to": "https://bprd.nic.in/uploads/pdf/Comparison%20summary%20BNSS%20to%20CrPC.pdf"
+          },
+          {
+            "field": "archiveUrl",
+            "from": "http://web.archive.org/web/20220329071954/https://www.indianemployees.com/acts-rules/details/delhi-police-act-1978",
+            "to": "http://web.archive.org/web/20260215214604/https://bprd.nic.in/uploads/pdf/Comparison%20summary%20BNSS%20to%20CrPC.pdf"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0042",
+        "kind": "Source",
+        "title": "Uttar Pradesh Police",
+        "state": null,
+        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202407031502194192BNSS2023-20-45.pdf",
+        "fields": [
+          {
+            "field": "title",
+            "from": "India Code",
+            "to": "Uttar Pradesh Police"
+          },
+          {
+            "field": "url",
+            "from": "https://www.indiacode.nic.in/bitstream/123456789/20371/1/ashtra_police.pdf",
+            "to": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202407031502194192BNSS2023-20-45.pdf"
+          },
+          {
+            "field": "archiveUrl",
+            "from": "http://web.archive.org/web/20251230215513/https://www.indiacode.nic.in/bitstream/123456789/20371/1/ashtra_police.pdf",
+            "to": "http://web.archive.org/web/20250524091156/https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202407031502194192BNSS2023-20-45.pdf"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0043",
+        "kind": "Source",
+        "title": "onlinelawconnect",
+        "state": null,
+        "url": "https://onlinelawconnect.com/actsandrules/criminal/bnss/SummaryChapter11.php",
+        "fields": [
+          {
+            "field": "title",
+            "from": "Gurukul Nexus",
+            "to": "onlinelawconnect"
+          },
+          {
+            "field": "url",
+            "from": "https://blog.gurukulnexus.com/police-regulations-maharashtra-police-act-public-order/",
+            "to": "https://onlinelawconnect.com/actsandrules/criminal/bnss/SummaryChapter11.php"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0044",
+        "kind": "Source",
+        "title": "Justice Definitions Project",
+        "state": null,
+        "url": "https://www.lawandjusticewiki.org/wiki/Extra-judicial_killings",
+        "fields": [
+          {
+            "field": "title",
+            "from": "India Code",
+            "to": "Justice Definitions Project"
+          },
+          {
+            "field": "url",
+            "from": "https://www.indiacode.nic.in/bitstream/123456789/11209/1/1094_bihar_bihar_police_act_2007.pdf",
+            "to": "https://www.lawandjusticewiki.org/wiki/Extra-judicial_killings"
+          },
+          {
+            "field": "archiveUrl",
+            "from": "http://web.archive.org/web/20260612162516/https://www.indiacode.nic.in/bitstream/123456789/11209/1/1094_bihar_bihar_police_act_2007.pdf",
+            "to": "http://web.archive.org/web/20260518085831/https://www.lawandjusticewiki.org/wiki/Extra-judicial_killings"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0045",
+        "kind": "Source",
+        "title": "ApniLaw",
+        "state": null,
+        "url": "https://www.apnilaw.com/bare-act/bnss/section-196-bharatiya-nagarik-suraksha-sanhitabnss-inquiry-by-magistrate-into-cause-of-death/",
+        "fields": [
+          {
+            "field": "title",
+            "from": "LegitQuest",
+            "to": "ApniLaw"
+          },
+          {
+            "field": "url",
+            "from": "https://www.legitquest.com/act/the-bihar-police-amendment-act-2014/FBD1",
+            "to": "https://www.apnilaw.com/bare-act/bnss/section-196-bharatiya-nagarik-suraksha-sanhitabnss-inquiry-by-magistrate-into-cause-of-death/"
+          },
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20250906102438/https://www.apnilaw.com/bare-act/bnss/section-196-bharatiya-nagarik-suraksha-sanhitabnss-inquiry-by-magistrate-into-cause-of-death/"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0046",
+        "kind": "Source",
+        "title": "India Code",
+        "state": null,
+        "url": "https://www.indiacode.nic.in/bitstream/123456789/13669/1/delhi_police_act.pdf",
+        "fields": [
+          {
+            "field": "title",
+            "from": "CaseMine",
+            "to": "India Code"
+          },
+          {
+            "field": "url",
+            "from": null,
+            "to": "https://www.indiacode.nic.in/bitstream/123456789/13669/1/delhi_police_act.pdf"
+          },
+          {
+            "field": "retrievedOn",
+            "from": null,
+            "to": "2026-08-16"
+          },
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20240809212750/https://www.indiacode.nic.in/bitstream/123456789/13669/1/delhi_police_act.pdf"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0047",
+        "kind": "Source",
+        "title": "indianemployees.com",
+        "state": null,
+        "url": "https://www.indianemployees.com/acts-rules/details/delhi-police-act-1978",
+        "fields": [
+          {
+            "field": "title",
+            "from": "Ministry of Home Affairs",
+            "to": "indianemployees.com"
+          },
+          {
+            "field": "url",
+            "from": "https://www.mha.gov.in/sites/default/files/2025-04/NHRCselectedlettersandguidelinesondeathsincustody_09042019_0[1]_4.pdf",
+            "to": "https://www.indianemployees.com/acts-rules/details/delhi-police-act-1978"
+          },
+          {
+            "field": "archiveUrl",
+            "from": "http://web.archive.org/web/20260520201057/https://www.mha.gov.in/sites/default/files/2025-04/NHRCselectedlettersandguidelinesondeathsincustody_09042019_0%5B1%5D_4.pdf",
+            "to": "http://web.archive.org/web/20220329071954/https://www.indianemployees.com/acts-rules/details/delhi-police-act-1978"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0048",
+        "kind": "Source",
+        "title": "India Code",
+        "state": null,
+        "url": "https://www.indiacode.nic.in/bitstream/123456789/20371/1/ashtra_police.pdf",
+        "fields": [
+          {
+            "field": "title",
+            "from": "NHRC",
+            "to": "India Code"
+          },
+          {
+            "field": "url",
+            "from": "https://nhrc.nic.in/press-release/nhrc-issues-fresh-guidelines-regarding-intimation-custodial-death",
+            "to": "https://www.indiacode.nic.in/bitstream/123456789/20371/1/ashtra_police.pdf"
+          },
+          {
+            "field": "archiveUrl",
+            "from": "http://web.archive.org/web/20251011104825/https://nhrc.nic.in/press-release/nhrc-issues-fresh-guidelines-regarding-intimation-custodial-death",
+            "to": "http://web.archive.org/web/20251230215513/https://www.indiacode.nic.in/bitstream/123456789/20371/1/ashtra_police.pdf"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0049",
+        "kind": "Source",
+        "title": "Gurukul Nexus",
+        "state": null,
+        "url": "https://blog.gurukulnexus.com/police-regulations-maharashtra-police-act-public-order/",
+        "fields": [
+          {
+            "field": "title",
+            "from": "NHRC",
+            "to": "Gurukul Nexus"
+          },
+          {
+            "field": "url",
+            "from": "https://nhrc.nic.in/investigation-division",
+            "to": "https://blog.gurukulnexus.com/police-regulations-maharashtra-police-act-public-order/"
+          },
+          {
+            "field": "archiveUrl",
+            "from": "http://web.archive.org/web/20260725004141/https://nhrc.nic.in/investigation-division",
+            "to": null
+          }
+        ]
+      },
+      {
+        "id": "SRC-0050",
+        "kind": "Source",
+        "title": "India Code",
+        "state": null,
+        "url": "https://www.indiacode.nic.in/bitstream/123456789/11209/1/1094_bihar_bihar_police_act_2007.pdf",
+        "fields": [
+          {
+            "field": "title",
+            "from": "commoner-law.com",
+            "to": "India Code"
+          },
+          {
+            "field": "url",
+            "from": "https://commoner-law.com/india/police-encounters/encounter-killings-and-custodial-deaths",
+            "to": "https://www.indiacode.nic.in/bitstream/123456789/11209/1/1094_bihar_bihar_police_act_2007.pdf"
+          },
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20260612162516/https://www.indiacode.nic.in/bitstream/123456789/11209/1/1094_bihar_bihar_police_act_2007.pdf"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0051",
+        "kind": "Source",
+        "title": "LegitQuest",
+        "state": null,
+        "url": "https://www.legitquest.com/act/the-bihar-police-amendment-act-2014/FBD1",
+        "fields": [
+          {
+            "field": "title",
+            "from": "Bellingcat",
+            "to": "LegitQuest"
+          },
+          {
+            "field": "url",
+            "from": "https://www.bellingcat.com/news/americas/2020/10/29/a-new-platform-maps-us-police-violence-against-protesters/",
+            "to": "https://www.legitquest.com/act/the-bihar-police-amendment-act-2014/FBD1"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0052",
+        "kind": "Source",
+        "title": "CaseMine",
+        "state": null,
+        "url": null,
+        "fields": [
+          {
+            "field": "title",
+            "from": "GIJN",
+            "to": "CaseMine"
+          },
+          {
+            "field": "url",
+            "from": "https://gijn.org/stories/how-bellingcat-and-forensic-architecture-teamed-up-with-colombias-cerosetenta-to-map-police-violence/",
+            "to": null
+          },
+          {
+            "field": "retrievedOn",
+            "from": "2026-08-16",
+            "to": null
+          }
+        ]
+      },
+      {
+        "id": "SRC-0053",
+        "kind": "Source",
+        "title": "Ministry of Home Affairs",
+        "state": null,
+        "url": "https://www.mha.gov.in/sites/default/files/2025-04/NHRCselectedlettersandguidelinesondeathsincustody_09042019_0[1]_4.pdf",
+        "fields": [
+          {
+            "field": "title",
+            "from": "The Polis Project",
+            "to": "Ministry of Home Affairs"
+          },
+          {
+            "field": "url",
+            "from": "https://thepolisproject.com/research/documenting-custodial-violence-reflections-and-further-research-5/",
+            "to": "https://www.mha.gov.in/sites/default/files/2025-04/NHRCselectedlettersandguidelinesondeathsincustody_09042019_0[1]_4.pdf"
+          },
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20260520201057/https://www.mha.gov.in/sites/default/files/2025-04/NHRCselectedlettersandguidelinesondeathsincustody_09042019_0%5B1%5D_4.pdf"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0054",
+        "kind": "Source",
+        "title": "NHRC",
+        "state": null,
+        "url": "https://nhrc.nic.in/press-release/nhrc-issues-fresh-guidelines-regarding-intimation-custodial-death",
+        "fields": [
+          {
+            "field": "title",
+            "from": "Wikipedia",
+            "to": "NHRC"
+          },
+          {
+            "field": "url",
+            "from": "https://en.wikipedia.org/wiki/DOTO_Database",
+            "to": "https://nhrc.nic.in/press-release/nhrc-issues-fresh-guidelines-regarding-intimation-custodial-death"
+          },
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20251011104825/https://nhrc.nic.in/press-release/nhrc-issues-fresh-guidelines-regarding-intimation-custodial-death"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0055",
+        "kind": "Source",
+        "title": "NHRC",
+        "state": null,
+        "url": "https://nhrc.nic.in/investigation-division",
+        "fields": [
+          {
+            "field": "title",
+            "from": "Common Cause and CSDS",
+            "to": "NHRC"
+          },
+          {
+            "field": "url",
+            "from": "https://www.commoncause.in/wotadmin/upload/SPIR_2025.pdf",
+            "to": "https://nhrc.nic.in/investigation-division"
+          },
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20260725004141/https://nhrc.nic.in/investigation-division"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0056",
+        "kind": "Source",
+        "title": "commoner-law.com",
+        "state": null,
+        "url": "https://commoner-law.com/india/police-encounters/encounter-killings-and-custodial-deaths",
+        "fields": [
+          {
+            "field": "title",
+            "from": "Sage",
+            "to": "commoner-law.com"
+          },
+          {
+            "field": "url",
+            "from": "https://journals.sagepub.com/doi/abs/10.1177/00699659231208696",
+            "to": "https://commoner-law.com/india/police-encounters/encounter-killings-and-custodial-deaths"
+          }
+        ]
+      }
+    ],
+    "summary": "15 records added · 23 records edited"
+  },
+  {
+    "commit": "81693431b4",
+    "date": "2026-08-19T14:43:34Z",
+    "subject": "Three records and two questions out of the sweep",
+    "added": [
+      {
+        "id": "PROC-SC-007",
+        "kind": "Evidence",
+        "title": "A public interest petition challenging the use of facial recognition and other biometric surveillance at the Jantar Mantar protest is before the Supreme Court. ",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=PROC-SC-007"
+      },
+      {
+        "id": "OVR-DEL-001",
+        "kind": "Evidence",
+        "title": "Two Delhi Police officers whose posts covered the Jantar Mantar policing were moved in a Delhi Government order of 18 August 2026 transferring 43 IPS and DANIPS",
+        "state": "REPORTED",
+        "url": "evidence.html?id=OVR-DEL-001"
+      },
+      {
+        "id": "INC-DEL-003",
+        "kind": "Evidence",
+        "title": "Ten FIRs are reported to have been registered in the New Delhi district after the events of 22 July 2026 at Connaught Place and Jantar Mantar, and six police pe",
+        "state": "REPORTED",
+        "url": "evidence.html?id=INC-DEL-003"
+      },
+      {
+        "id": "SRC-0050",
+        "kind": "Source",
+        "title": "commoner-law.com",
+        "state": null,
+        "url": "https://commoner-law.com/india/police-encounters/encounter-killings-and-custodial-deaths"
+      },
+      {
+        "id": "SRC-0051",
+        "kind": "Source",
+        "title": "Bellingcat",
+        "state": null,
+        "url": "https://www.bellingcat.com/news/americas/2020/10/29/a-new-platform-maps-us-police-violence-against-protesters/"
+      },
+      {
+        "id": "SRC-0052",
+        "kind": "Source",
+        "title": "GIJN",
+        "state": null,
+        "url": "https://gijn.org/stories/how-bellingcat-and-forensic-architecture-teamed-up-with-colombias-cerosetenta-to-map-police-violence/"
+      },
+      {
+        "id": "SRC-0053",
+        "kind": "Source",
+        "title": "The Polis Project",
+        "state": null,
+        "url": "https://thepolisproject.com/research/documenting-custodial-violence-reflections-and-further-research-5/"
+      },
+      {
+        "id": "SRC-0054",
+        "kind": "Source",
+        "title": "Wikipedia",
+        "state": null,
+        "url": "https://en.wikipedia.org/wiki/DOTO_Database"
+      },
+      {
+        "id": "SRC-0055",
+        "kind": "Source",
+        "title": "Common Cause and CSDS",
+        "state": null,
+        "url": "https://www.commoncause.in/wotadmin/upload/SPIR_2025.pdf"
+      },
+      {
+        "id": "SRC-0056",
+        "kind": "Source",
+        "title": "Sage",
+        "state": null,
+        "url": "https://journals.sagepub.com/doi/abs/10.1177/00699659231208696"
+      },
+      {
+        "id": "OQ-038",
+        "kind": "Question",
+        "title": "The Delhi Government (Home Department) order of 18 August 2026 transferring 43 IPS and DANIPS officers, and any file noting recording the reason for the two postings reported as connected to the Jantar Mantar policing.",
+        "state": "UNANSWERED",
+        "url": "investigation.html?id=jantar-mantar#OQ-038"
+      },
+      {
+        "id": "OQ-039",
+        "kind": "Question",
+        "title": "Which database the facial recognition at Jantar Mantar matched faces against, which body supplied the images in it, and under what authority they were shared.",
+        "state": "UNANSWERED",
+        "url": "investigation.html?id=jantar-mantar#OQ-039"
+      }
+    ],
+    "removed": [],
+    "changed": [
+      {
+        "id": "SRC-0027",
+        "kind": "Source",
+        "title": "Bar & Bench",
+        "state": null,
+        "url": "https://www.barandbench.com/news/litigation/cpim-mp-moves-supreme-court-against-use-of-facial-recognition-tech-by-police-at-jantar-mantar-protest-site",
+        "fields": [
+          {
+            "field": "title",
+            "from": "India Code",
+            "to": "Bar & Bench"
+          },
+          {
+            "field": "url",
+            "from": "https://www.indiacode.nic.in/bitstream/123456789/20340/1/bnss,_2023.pdf",
+            "to": "https://www.barandbench.com/news/litigation/cpim-mp-moves-supreme-court-against-use-of-facial-recognition-tech-by-police-at-jantar-mantar-protest-site"
+          },
+          {
+            "field": "retrievedOn",
+            "from": "2026-08-16",
+            "to": "2026-08-19"
+          },
+          {
+            "field": "archiveUrl",
+            "from": "http://web.archive.org/web/20260121073438/https://www.indiacode.nic.in/bitstream/123456789/20340/1/bnss%2C_2023.pdf",
+            "to": null
+          }
+        ]
+      },
+      {
+        "id": "SRC-0028",
+        "kind": "Source",
+        "title": "LawBeat",
+        "state": null,
+        "url": "https://lawbeat.in/top-stories/pil-in-supreme-court-challenges-delhi-polices-facial-recognition-surveillance-at-jantar-mantar-protest-1616723",
+        "fields": [
+          {
+            "field": "title",
+            "from": "Bureau of Police Research and Development",
+            "to": "LawBeat"
+          },
+          {
+            "field": "url",
+            "from": "https://bprd.nic.in/uploads/pdf/Comparison%20summary%20BNSS%20to%20CrPC.pdf",
+            "to": "https://lawbeat.in/top-stories/pil-in-supreme-court-challenges-delhi-polices-facial-recognition-surveillance-at-jantar-mantar-protest-1616723"
+          },
+          {
+            "field": "retrievedOn",
+            "from": "2026-08-16",
+            "to": "2026-08-19"
+          },
+          {
+            "field": "archiveUrl",
+            "from": "http://web.archive.org/web/20260215214604/https://bprd.nic.in/uploads/pdf/Comparison%20summary%20BNSS%20to%20CrPC.pdf",
+            "to": null
+          }
+        ]
+      },
+      {
+        "id": "SRC-0029",
+        "kind": "Source",
+        "title": "LawBeat",
+        "state": null,
+        "url": "https://lawbeat.in/top-stories/supreme-court-agrees-to-hear-pil-challenging-delhi-polices-facial-recognition-surveillance-at-jantar-mantar-protest-1621910",
+        "fields": [
+          {
+            "field": "title",
+            "from": "Uttar Pradesh Police",
+            "to": "LawBeat"
+          },
+          {
+            "field": "url",
+            "from": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202407031502194192BNSS2023-20-45.pdf",
+            "to": "https://lawbeat.in/top-stories/supreme-court-agrees-to-hear-pil-challenging-delhi-polices-facial-recognition-surveillance-at-jantar-mantar-protest-1621910"
+          },
+          {
+            "field": "retrievedOn",
+            "from": "2026-08-16",
+            "to": "2026-08-19"
+          },
+          {
+            "field": "archiveUrl",
+            "from": "http://web.archive.org/web/20250524091156/https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202407031502194192BNSS2023-20-45.pdf",
+            "to": null
+          }
+        ]
+      },
+      {
+        "id": "SRC-0030",
+        "kind": "Source",
+        "title": "ANI",
+        "state": null,
+        "url": "https://aninews.in/news/national/general-news/pil-in-sc-challenges-delhi-polices-use-of-facial-recognition-ai-surveillance-at-jantar-mantar-protest20260728140154/",
+        "fields": [
+          {
+            "field": "title",
+            "from": "onlinelawconnect",
+            "to": "ANI"
+          },
+          {
+            "field": "url",
+            "from": "https://onlinelawconnect.com/actsandrules/criminal/bnss/SummaryChapter11.php",
+            "to": "https://aninews.in/news/national/general-news/pil-in-sc-challenges-delhi-polices-use-of-facial-recognition-ai-surveillance-at-jantar-mantar-protest20260728140154/"
+          },
+          {
+            "field": "retrievedOn",
+            "from": "2026-08-16",
+            "to": "2026-08-19"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0031",
+        "kind": "Source",
+        "title": "The Tribune",
+        "state": null,
+        "url": "https://www.tribuneindia.com/news/delhi/cop-linked-to-pellet-gun-use-at-jantar-mantar-protest-shunted/",
+        "fields": [
+          {
+            "field": "title",
+            "from": "Justice Definitions Project",
+            "to": "The Tribune"
+          },
+          {
+            "field": "url",
+            "from": "https://www.lawandjusticewiki.org/wiki/Extra-judicial_killings",
+            "to": "https://www.tribuneindia.com/news/delhi/cop-linked-to-pellet-gun-use-at-jantar-mantar-protest-shunted/"
+          },
+          {
+            "field": "retrievedOn",
+            "from": "2026-08-16",
+            "to": "2026-08-19"
+          },
+          {
+            "field": "archiveUrl",
+            "from": "http://web.archive.org/web/20260518085831/https://www.lawandjusticewiki.org/wiki/Extra-judicial_killings",
+            "to": null
+          }
+        ]
+      },
+      {
+        "id": "SRC-0032",
+        "kind": "Source",
+        "title": "The Tribune",
+        "state": null,
+        "url": "https://www.tribuneindia.com/news/delhi/in-major-delhi-police-rejig-43-ips-danips-officers-transferred/",
+        "fields": [
+          {
+            "field": "title",
+            "from": "ApniLaw",
+            "to": "The Tribune"
+          },
+          {
+            "field": "url",
+            "from": "https://www.apnilaw.com/bare-act/bnss/section-196-bharatiya-nagarik-suraksha-sanhitabnss-inquiry-by-magistrate-into-cause-of-death/",
+            "to": "https://www.tribuneindia.com/news/delhi/in-major-delhi-police-rejig-43-ips-danips-officers-transferred/"
+          },
+          {
+            "field": "retrievedOn",
+            "from": "2026-08-16",
+            "to": "2026-08-19"
+          },
+          {
+            "field": "archiveUrl",
+            "from": "http://web.archive.org/web/20250906102438/https://www.apnilaw.com/bare-act/bnss/section-196-bharatiya-nagarik-suraksha-sanhitabnss-inquiry-by-magistrate-into-cause-of-death/",
+            "to": null
+          }
+        ]
+      },
+      {
+        "id": "SRC-0033",
+        "kind": "Source",
+        "title": "Outlook India",
+        "state": null,
+        "url": "https://www.outlookindia.com/national/cjp-protest-delhi-police-register-10-firs-after-stone-pelting-injures-officers-at-cp-jantar-mantar",
+        "fields": [
+          {
+            "field": "title",
+            "from": "India Code",
+            "to": "Outlook India"
+          },
+          {
+            "field": "url",
+            "from": "https://www.indiacode.nic.in/bitstream/123456789/13669/1/delhi_police_act.pdf",
+            "to": "https://www.outlookindia.com/national/cjp-protest-delhi-police-register-10-firs-after-stone-pelting-injures-officers-at-cp-jantar-mantar"
+          },
+          {
+            "field": "retrievedOn",
+            "from": "2026-08-16",
+            "to": "2026-08-19"
+          },
+          {
+            "field": "archiveUrl",
+            "from": "http://web.archive.org/web/20240809212750/https://www.indiacode.nic.in/bitstream/123456789/13669/1/delhi_police_act.pdf",
+            "to": null
+          }
+        ]
+      },
+      {
+        "id": "SRC-0034",
+        "kind": "Source",
+        "title": "India Code",
+        "state": null,
+        "url": "https://www.indiacode.nic.in/bitstream/123456789/20340/1/bnss,_2023.pdf",
+        "fields": [
+          {
+            "field": "title",
+            "from": "indianemployees.com",
+            "to": "India Code"
+          },
+          {
+            "field": "url",
+            "from": "https://www.indianemployees.com/acts-rules/details/delhi-police-act-1978",
+            "to": "https://www.indiacode.nic.in/bitstream/123456789/20340/1/bnss,_2023.pdf"
+          },
+          {
+            "field": "archiveUrl",
+            "from": "http://web.archive.org/web/20220329071954/https://www.indianemployees.com/acts-rules/details/delhi-police-act-1978",
+            "to": "http://web.archive.org/web/20260121073438/https://www.indiacode.nic.in/bitstream/123456789/20340/1/bnss%2C_2023.pdf"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0035",
+        "kind": "Source",
+        "title": "Bureau of Police Research and Development",
+        "state": null,
+        "url": "https://bprd.nic.in/uploads/pdf/Comparison%20summary%20BNSS%20to%20CrPC.pdf",
+        "fields": [
+          {
+            "field": "title",
+            "from": "India Code",
+            "to": "Bureau of Police Research and Development"
+          },
+          {
+            "field": "url",
+            "from": "https://www.indiacode.nic.in/bitstream/123456789/20371/1/ashtra_police.pdf",
+            "to": "https://bprd.nic.in/uploads/pdf/Comparison%20summary%20BNSS%20to%20CrPC.pdf"
+          },
+          {
+            "field": "archiveUrl",
+            "from": "http://web.archive.org/web/20251230215513/https://www.indiacode.nic.in/bitstream/123456789/20371/1/ashtra_police.pdf",
+            "to": "http://web.archive.org/web/20260215214604/https://bprd.nic.in/uploads/pdf/Comparison%20summary%20BNSS%20to%20CrPC.pdf"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0036",
+        "kind": "Source",
+        "title": "Uttar Pradesh Police",
+        "state": null,
+        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202407031502194192BNSS2023-20-45.pdf",
+        "fields": [
+          {
+            "field": "title",
+            "from": "Gurukul Nexus",
+            "to": "Uttar Pradesh Police"
+          },
+          {
+            "field": "url",
+            "from": "https://blog.gurukulnexus.com/police-regulations-maharashtra-police-act-public-order/",
+            "to": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202407031502194192BNSS2023-20-45.pdf"
+          },
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20250524091156/https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202407031502194192BNSS2023-20-45.pdf"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0037",
+        "kind": "Source",
+        "title": "onlinelawconnect",
+        "state": null,
+        "url": "https://onlinelawconnect.com/actsandrules/criminal/bnss/SummaryChapter11.php",
+        "fields": [
+          {
+            "field": "title",
+            "from": "India Code",
+            "to": "onlinelawconnect"
+          },
+          {
+            "field": "url",
+            "from": "https://www.indiacode.nic.in/bitstream/123456789/11209/1/1094_bihar_bihar_police_act_2007.pdf",
+            "to": "https://onlinelawconnect.com/actsandrules/criminal/bnss/SummaryChapter11.php"
+          },
+          {
+            "field": "archiveUrl",
+            "from": "http://web.archive.org/web/20260612162516/https://www.indiacode.nic.in/bitstream/123456789/11209/1/1094_bihar_bihar_police_act_2007.pdf",
+            "to": null
+          }
+        ]
+      },
+      {
+        "id": "SRC-0038",
+        "kind": "Source",
+        "title": "Justice Definitions Project",
+        "state": null,
+        "url": "https://www.lawandjusticewiki.org/wiki/Extra-judicial_killings",
+        "fields": [
+          {
+            "field": "title",
+            "from": "LegitQuest",
+            "to": "Justice Definitions Project"
+          },
+          {
+            "field": "url",
+            "from": "https://www.legitquest.com/act/the-bihar-police-amendment-act-2014/FBD1",
+            "to": "https://www.lawandjusticewiki.org/wiki/Extra-judicial_killings"
+          },
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20260518085831/https://www.lawandjusticewiki.org/wiki/Extra-judicial_killings"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0039",
+        "kind": "Source",
+        "title": "ApniLaw",
+        "state": null,
+        "url": "https://www.apnilaw.com/bare-act/bnss/section-196-bharatiya-nagarik-suraksha-sanhitabnss-inquiry-by-magistrate-into-cause-of-death/",
+        "fields": [
+          {
+            "field": "title",
+            "from": "CaseMine",
+            "to": "ApniLaw"
+          },
+          {
+            "field": "url",
+            "from": null,
+            "to": "https://www.apnilaw.com/bare-act/bnss/section-196-bharatiya-nagarik-suraksha-sanhitabnss-inquiry-by-magistrate-into-cause-of-death/"
+          },
+          {
+            "field": "retrievedOn",
+            "from": null,
+            "to": "2026-08-16"
+          },
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20250906102438/https://www.apnilaw.com/bare-act/bnss/section-196-bharatiya-nagarik-suraksha-sanhitabnss-inquiry-by-magistrate-into-cause-of-death/"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0040",
+        "kind": "Source",
+        "title": "India Code",
+        "state": null,
+        "url": "https://www.indiacode.nic.in/bitstream/123456789/13669/1/delhi_police_act.pdf",
+        "fields": [
+          {
+            "field": "title",
+            "from": "Ministry of Home Affairs",
+            "to": "India Code"
+          },
+          {
+            "field": "url",
+            "from": "https://www.mha.gov.in/sites/default/files/2025-04/NHRCselectedlettersandguidelinesondeathsincustody_09042019_0[1]_4.pdf",
+            "to": "https://www.indiacode.nic.in/bitstream/123456789/13669/1/delhi_police_act.pdf"
+          },
+          {
+            "field": "archiveUrl",
+            "from": "http://web.archive.org/web/20260520201057/https://www.mha.gov.in/sites/default/files/2025-04/NHRCselectedlettersandguidelinesondeathsincustody_09042019_0%5B1%5D_4.pdf",
+            "to": "http://web.archive.org/web/20240809212750/https://www.indiacode.nic.in/bitstream/123456789/13669/1/delhi_police_act.pdf"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0041",
+        "kind": "Source",
+        "title": "indianemployees.com",
+        "state": null,
+        "url": "https://www.indianemployees.com/acts-rules/details/delhi-police-act-1978",
+        "fields": [
+          {
+            "field": "title",
+            "from": "NHRC",
+            "to": "indianemployees.com"
+          },
+          {
+            "field": "url",
+            "from": "https://nhrc.nic.in/press-release/nhrc-issues-fresh-guidelines-regarding-intimation-custodial-death",
+            "to": "https://www.indianemployees.com/acts-rules/details/delhi-police-act-1978"
+          },
+          {
+            "field": "archiveUrl",
+            "from": "http://web.archive.org/web/20251011104825/https://nhrc.nic.in/press-release/nhrc-issues-fresh-guidelines-regarding-intimation-custodial-death",
+            "to": "http://web.archive.org/web/20220329071954/https://www.indianemployees.com/acts-rules/details/delhi-police-act-1978"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0042",
+        "kind": "Source",
+        "title": "India Code",
+        "state": null,
+        "url": "https://www.indiacode.nic.in/bitstream/123456789/20371/1/ashtra_police.pdf",
+        "fields": [
+          {
+            "field": "title",
+            "from": "NHRC",
+            "to": "India Code"
+          },
+          {
+            "field": "url",
+            "from": "https://nhrc.nic.in/investigation-division",
+            "to": "https://www.indiacode.nic.in/bitstream/123456789/20371/1/ashtra_police.pdf"
+          },
+          {
+            "field": "archiveUrl",
+            "from": "http://web.archive.org/web/20260725004141/https://nhrc.nic.in/investigation-division",
+            "to": "http://web.archive.org/web/20251230215513/https://www.indiacode.nic.in/bitstream/123456789/20371/1/ashtra_police.pdf"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0043",
+        "kind": "Source",
+        "title": "Gurukul Nexus",
+        "state": null,
+        "url": "https://blog.gurukulnexus.com/police-regulations-maharashtra-police-act-public-order/",
+        "fields": [
+          {
+            "field": "title",
+            "from": "commoner-law.com",
+            "to": "Gurukul Nexus"
+          },
+          {
+            "field": "url",
+            "from": "https://commoner-law.com/india/police-encounters/encounter-killings-and-custodial-deaths",
+            "to": "https://blog.gurukulnexus.com/police-regulations-maharashtra-police-act-public-order/"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0044",
+        "kind": "Source",
+        "title": "India Code",
+        "state": null,
+        "url": "https://www.indiacode.nic.in/bitstream/123456789/11209/1/1094_bihar_bihar_police_act_2007.pdf",
+        "fields": [
+          {
+            "field": "title",
+            "from": "Bellingcat",
+            "to": "India Code"
+          },
+          {
+            "field": "url",
+            "from": "https://www.bellingcat.com/news/americas/2020/10/29/a-new-platform-maps-us-police-violence-against-protesters/",
+            "to": "https://www.indiacode.nic.in/bitstream/123456789/11209/1/1094_bihar_bihar_police_act_2007.pdf"
+          },
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20260612162516/https://www.indiacode.nic.in/bitstream/123456789/11209/1/1094_bihar_bihar_police_act_2007.pdf"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0045",
+        "kind": "Source",
+        "title": "LegitQuest",
+        "state": null,
+        "url": "https://www.legitquest.com/act/the-bihar-police-amendment-act-2014/FBD1",
+        "fields": [
+          {
+            "field": "title",
+            "from": "GIJN",
+            "to": "LegitQuest"
+          },
+          {
+            "field": "url",
+            "from": "https://gijn.org/stories/how-bellingcat-and-forensic-architecture-teamed-up-with-colombias-cerosetenta-to-map-police-violence/",
+            "to": "https://www.legitquest.com/act/the-bihar-police-amendment-act-2014/FBD1"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0046",
+        "kind": "Source",
+        "title": "CaseMine",
+        "state": null,
+        "url": null,
+        "fields": [
+          {
+            "field": "title",
+            "from": "The Polis Project",
+            "to": "CaseMine"
+          },
+          {
+            "field": "url",
+            "from": "https://thepolisproject.com/research/documenting-custodial-violence-reflections-and-further-research-5/",
+            "to": null
+          },
+          {
+            "field": "retrievedOn",
+            "from": "2026-08-16",
+            "to": null
+          }
+        ]
+      },
+      {
+        "id": "SRC-0047",
+        "kind": "Source",
+        "title": "Ministry of Home Affairs",
+        "state": null,
+        "url": "https://www.mha.gov.in/sites/default/files/2025-04/NHRCselectedlettersandguidelinesondeathsincustody_09042019_0[1]_4.pdf",
+        "fields": [
+          {
+            "field": "title",
+            "from": "Wikipedia",
+            "to": "Ministry of Home Affairs"
+          },
+          {
+            "field": "url",
+            "from": "https://en.wikipedia.org/wiki/DOTO_Database",
+            "to": "https://www.mha.gov.in/sites/default/files/2025-04/NHRCselectedlettersandguidelinesondeathsincustody_09042019_0[1]_4.pdf"
+          },
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20260520201057/https://www.mha.gov.in/sites/default/files/2025-04/NHRCselectedlettersandguidelinesondeathsincustody_09042019_0%5B1%5D_4.pdf"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0048",
+        "kind": "Source",
+        "title": "NHRC",
+        "state": null,
+        "url": "https://nhrc.nic.in/press-release/nhrc-issues-fresh-guidelines-regarding-intimation-custodial-death",
+        "fields": [
+          {
+            "field": "title",
+            "from": "Common Cause and CSDS",
+            "to": "NHRC"
+          },
+          {
+            "field": "url",
+            "from": "https://www.commoncause.in/wotadmin/upload/SPIR_2025.pdf",
+            "to": "https://nhrc.nic.in/press-release/nhrc-issues-fresh-guidelines-regarding-intimation-custodial-death"
+          },
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20251011104825/https://nhrc.nic.in/press-release/nhrc-issues-fresh-guidelines-regarding-intimation-custodial-death"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0049",
+        "kind": "Source",
+        "title": "NHRC",
+        "state": null,
+        "url": "https://nhrc.nic.in/investigation-division",
+        "fields": [
+          {
+            "field": "title",
+            "from": "Sage",
+            "to": "NHRC"
+          },
+          {
+            "field": "url",
+            "from": "https://journals.sagepub.com/doi/abs/10.1177/00699659231208696",
+            "to": "https://nhrc.nic.in/investigation-division"
+          },
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20260725004141/https://nhrc.nic.in/investigation-division"
+          }
+        ]
+      }
+    ],
+    "summary": "12 records added · 23 records edited"
+  },
+  {
+    "commit": "78afd3bbd4",
+    "date": "2026-08-19T09:33:52Z",
+    "subject": "Archive the sources, and check that corroboration is real",
+    "added": [],
+    "removed": [],
+    "changed": [
+      {
+        "id": "PROC-SC-005",
+        "kind": "Evidence",
+        "title": "Delhi Police filed an affidavit in the Supreme Court proceedings, reported on 18 August 2026, stating that no excessive force was used at Jantar Mantar on 20 Ju",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=PROC-SC-005",
+        "fields": [
+          {
+            "field": "sourceIds",
+            "from": "SRC-0023, SRC-0024, SRC-0012",
+            "to": "SRC-0023, SRC-0024"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0002",
+        "kind": "Source",
+        "title": "Free Press Journal",
+        "state": null,
+        "url": "https://www.freepressjournal.in/education/nhrc-takes-cognisance-of-delhi-police-action-during-jantar-mantar-student-protest-seeks-report-within-two-weeks",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20260729032125/https://www.freepressjournal.in/education/nhrc-takes-cognisance-of-delhi-police-action-during-jantar-mantar-student-protest-seeks-report-within-two-weeks"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0003",
+        "kind": "Source",
+        "title": "Deccan Herald",
+        "state": null,
+        "url": "https://www.deccanherald.com/india/delhi/fresh-chaos-erupts-at-jantar-mantar-as-protestors-police-clash-4083673",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20260723015002/https://www.deccanherald.com/india/delhi/fresh-chaos-erupts-at-jantar-mantar-as-protestors-police-clash-4083673"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0004",
+        "kind": "Source",
+        "title": "The Quint",
+        "state": null,
+        "url": "https://www.thequint.com/news/breaking-news/bihar-student-protests-lathi-charge-patna-police-response",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20260816153039/https://www.thequint.com/news/breaking-news/bihar-student-protests-lathi-charge-patna-police-response"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0005",
+        "kind": "Source",
+        "title": "India TV",
+        "state": null,
+        "url": "https://www.indiatvnews.com/bihar/news-bihar-students-protest-turns-violent-in-katihar-patna-munger-police-lathicharge-protesters-hurl-stones-latest-updates-2026-07-23-1049145",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20260730111921/https://www.indiatvnews.com/bihar/news-bihar-students-protest-turns-violent-in-katihar-patna-munger-police-lathicharge-protesters-hurl-stones-latest-updates-2026-07-23-1049145"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0006",
+        "kind": "Source",
+        "title": "The Week",
+        "state": null,
+        "url": "https://www.theweek.in/news/india/2026/07/25/bihar-bandh-police-lathi-charge-student-protesters-in-patna-17-detained-as-demonstrators-break-barricades-pelt-stones.html",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20260728020125/https://www.theweek.in/news/india/2026/07/25/bihar-bandh-police-lathi-charge-student-protesters-in-patna-17-detained-as-demonstrators-break-barricades-pelt-stones.html"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0008",
+        "kind": "Source",
+        "title": "The Week",
+        "state": null,
+        "url": "https://www.theweek.in/news/india/2026/07/22/why-delhi-hc-asked-police-to-keep-video-evidence-of-cjp-protest-not-isolated-incidents.html",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20260723152046/https://www.theweek.in/news/india/2026/07/22/why-delhi-hc-asked-police-to-keep-video-evidence-of-cjp-protest-not-isolated-incidents.html"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0009",
+        "kind": "Source",
+        "title": "LiveLaw",
+        "state": null,
+        "url": "https://www.livelaw.in/high-court/delhi-high-court/jantar-mantar-protest-delhi-police-force-response-cctv-preservation-ordered-cjp-march-neet-leak-542382",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20260729054440/https://www.livelaw.in/high-court/delhi-high-court/jantar-mantar-protest-delhi-police-force-response-cctv-preservation-ordered-cjp-march-neet-leak-542382"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0010",
+        "kind": "Source",
+        "title": "SCC Online blog",
+        "state": null,
+        "url": "https://www.scconline.com/blog/post/2026/07/29/neet-paper-leak-protest-proceedings-sc-interim-directions-police-violence/",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20260806090409/https://www.scconline.com/blog/post/2026/07/29/neet-paper-leak-protest-proceedings-sc-interim-directions-police-violence/"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0011",
+        "kind": "Source",
+        "title": "LiveLaw",
+        "state": null,
+        "url": "https://www.livelaw.in/top-stories/supreme-court-student-protests-delhi-police-affidavit-facial-recognition-software-only-captures-serious-offense-criminals-546263",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20260818115301/https://www.livelaw.in/top-stories/supreme-court-student-protests-delhi-police-affidavit-facial-recognition-software-only-captures-serious-offense-criminals-546263"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0017",
+        "kind": "Source",
+        "title": "Deccan Chronicle",
+        "state": null,
+        "url": "https://www.deccanchronicle.com/nation/current-affairs/nhrc-takes-suo-motu-cognisance-of-police-action-during-cjp-protest-1974561",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20260729035104/https://www.deccanchronicle.com/nation/current-affairs/nhrc-takes-suo-motu-cognisance-of-police-action-during-cjp-protest-1974561"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0018",
+        "kind": "Source",
+        "title": "ANI via IndiasNews",
+        "state": null,
+        "url": "https://www.indiasnews.net/news/279202613/complaint-filed-with-nhrc-seeking-independent-inquiry-into-police-action-at-jantar-mantar",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20260723070940/https://www.indiasnews.net/news/279202613/complaint-filed-with-nhrc-seeking-independent-inquiry-into-police-action-at-jantar-mantar"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0027",
+        "kind": "Source",
+        "title": "India Code",
+        "state": null,
+        "url": "https://www.indiacode.nic.in/bitstream/123456789/20340/1/bnss,_2023.pdf",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20260121073438/https://www.indiacode.nic.in/bitstream/123456789/20340/1/bnss%2C_2023.pdf"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0028",
+        "kind": "Source",
+        "title": "Bureau of Police Research and Development",
+        "state": null,
+        "url": "https://bprd.nic.in/uploads/pdf/Comparison%20summary%20BNSS%20to%20CrPC.pdf",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20260215214604/https://bprd.nic.in/uploads/pdf/Comparison%20summary%20BNSS%20to%20CrPC.pdf"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0029",
+        "kind": "Source",
+        "title": "Uttar Pradesh Police",
+        "state": null,
+        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202407031502194192BNSS2023-20-45.pdf",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20250524091156/https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202407031502194192BNSS2023-20-45.pdf"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0031",
+        "kind": "Source",
+        "title": "Justice Definitions Project",
+        "state": null,
+        "url": "https://www.lawandjusticewiki.org/wiki/Extra-judicial_killings",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20260518085831/https://www.lawandjusticewiki.org/wiki/Extra-judicial_killings"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0032",
+        "kind": "Source",
+        "title": "ApniLaw",
+        "state": null,
+        "url": "https://www.apnilaw.com/bare-act/bnss/section-196-bharatiya-nagarik-suraksha-sanhitabnss-inquiry-by-magistrate-into-cause-of-death/",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20250906102438/https://www.apnilaw.com/bare-act/bnss/section-196-bharatiya-nagarik-suraksha-sanhitabnss-inquiry-by-magistrate-into-cause-of-death/"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0033",
+        "kind": "Source",
+        "title": "India Code",
+        "state": null,
+        "url": "https://www.indiacode.nic.in/bitstream/123456789/13669/1/delhi_police_act.pdf",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20240809212750/https://www.indiacode.nic.in/bitstream/123456789/13669/1/delhi_police_act.pdf"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0034",
+        "kind": "Source",
+        "title": "indianemployees.com",
+        "state": null,
+        "url": "https://www.indianemployees.com/acts-rules/details/delhi-police-act-1978",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20220329071954/https://www.indianemployees.com/acts-rules/details/delhi-police-act-1978"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0035",
+        "kind": "Source",
+        "title": "India Code",
+        "state": null,
+        "url": "https://www.indiacode.nic.in/bitstream/123456789/20371/1/ashtra_police.pdf",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20251230215513/https://www.indiacode.nic.in/bitstream/123456789/20371/1/ashtra_police.pdf"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0037",
+        "kind": "Source",
+        "title": "India Code",
+        "state": null,
+        "url": "https://www.indiacode.nic.in/bitstream/123456789/11209/1/1094_bihar_bihar_police_act_2007.pdf",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20260612162516/https://www.indiacode.nic.in/bitstream/123456789/11209/1/1094_bihar_bihar_police_act_2007.pdf"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0040",
+        "kind": "Source",
+        "title": "Ministry of Home Affairs",
+        "state": null,
+        "url": "https://www.mha.gov.in/sites/default/files/2025-04/NHRCselectedlettersandguidelinesondeathsincustody_09042019_0[1]_4.pdf",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20260520201057/https://www.mha.gov.in/sites/default/files/2025-04/NHRCselectedlettersandguidelinesondeathsincustody_09042019_0%5B1%5D_4.pdf"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0041",
+        "kind": "Source",
+        "title": "NHRC",
+        "state": null,
+        "url": "https://nhrc.nic.in/press-release/nhrc-issues-fresh-guidelines-regarding-intimation-custodial-death",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20251011104825/https://nhrc.nic.in/press-release/nhrc-issues-fresh-guidelines-regarding-intimation-custodial-death"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0042",
+        "kind": "Source",
+        "title": "NHRC",
+        "state": null,
+        "url": "https://nhrc.nic.in/investigation-division",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20260725004141/https://nhrc.nic.in/investigation-division"
+          }
+        ]
+      }
+    ],
+    "summary": "24 records edited"
+  },
+  {
+    "commit": "7da5b914c3",
+    "date": "2026-08-19T08:42:54Z",
+    "subject": "Open Siwan, record the firearms, and correct a finding that was overtaken",
+    "added": [
+      {
+        "id": "INC-0004",
+        "kind": "Incident",
+        "title": "Police firing during the student protest at Siwan",
+        "state": "REPORTED",
+        "url": "investigation.html?id=siwan"
+      },
+      {
+        "id": "INC-SIW-001",
+        "kind": "Evidence",
+        "title": "Police discharged firearms during the student protest at Siwan on 25 July 2026: four rounds from an AK-47 near JP Chowk, and two rounds from a 9mm pistol near H",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=INC-SIW-001"
+      },
+      {
+        "id": "PROC-SC-004",
+        "kind": "Evidence",
+        "title": "The State of Bihar filed an affidavit in the Supreme Court proceedings on the CJP student protests, reported on 18 August 2026, setting out its account of the p",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=PROC-SC-004"
+      },
+      {
+        "id": "PROC-SC-005",
+        "kind": "Evidence",
+        "title": "Delhi Police filed an affidavit in the Supreme Court proceedings, reported on 18 August 2026, stating that no excessive force was used at Jantar Mantar on 20 Ju",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=PROC-SC-005"
+      },
+      {
+        "id": "PROC-SC-006",
+        "kind": "Evidence",
+        "title": "The Supreme Court is reported to have decided to constitute a high-powered committee to examine allegations of police excess, sexual violence and other incident",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=PROC-SC-006"
+      },
+      {
+        "id": "SRC-0042",
+        "kind": "Source",
+        "title": "NHRC",
+        "state": null,
+        "url": "https://nhrc.nic.in/investigation-division"
+      },
+      {
+        "id": "SRC-0043",
+        "kind": "Source",
+        "title": "commoner-law.com",
+        "state": null,
+        "url": "https://commoner-law.com/india/police-encounters/encounter-killings-and-custodial-deaths"
+      },
+      {
+        "id": "SRC-0044",
+        "kind": "Source",
+        "title": "Bellingcat",
+        "state": null,
+        "url": "https://www.bellingcat.com/news/americas/2020/10/29/a-new-platform-maps-us-police-violence-against-protesters/"
+      },
+      {
+        "id": "SRC-0045",
+        "kind": "Source",
+        "title": "GIJN",
+        "state": null,
+        "url": "https://gijn.org/stories/how-bellingcat-and-forensic-architecture-teamed-up-with-colombias-cerosetenta-to-map-police-violence/"
+      },
+      {
+        "id": "SRC-0046",
+        "kind": "Source",
+        "title": "The Polis Project",
+        "state": null,
+        "url": "https://thepolisproject.com/research/documenting-custodial-violence-reflections-and-further-research-5/"
+      },
+      {
+        "id": "SRC-0047",
+        "kind": "Source",
+        "title": "Wikipedia",
+        "state": null,
+        "url": "https://en.wikipedia.org/wiki/DOTO_Database"
+      },
+      {
+        "id": "SRC-0048",
+        "kind": "Source",
+        "title": "Common Cause and CSDS",
+        "state": null,
+        "url": "https://www.commoncause.in/wotadmin/upload/SPIR_2025.pdf"
+      },
+      {
+        "id": "SRC-0049",
+        "kind": "Source",
+        "title": "Sage",
+        "state": null,
+        "url": "https://journals.sagepub.com/doi/abs/10.1177/00699659231208696"
+      },
+      {
+        "id": "OQ-035",
+        "kind": "Question",
+        "title": "Who authorised an AK-47, described by the State as a platoon-level weapon for special operations, to be carried on law-and-order duty at a student protest at Siwan on 25 July 2026.",
+        "state": "UNANSWERED",
+        "url": "investigation.html?id=bihar#OQ-035"
+      },
+      {
+        "id": "OQ-036",
+        "kind": "Question",
+        "title": "How many police personnel were injured at Jantar Mantar on 20 July 2026, and over what period the figure is counted.",
+        "state": "UNANSWERED",
+        "url": "investigation.html?id=jantar-mantar#OQ-036"
+      },
+      {
+        "id": "OQ-037",
+        "kind": "Question",
+        "title": "The medico-legal records and treatment of the three protesters reported to have sustained firearm injuries at Siwan, and whether any FIR records the firing.",
+        "state": "UNANSWERED",
+        "url": "investigation.html?id=bihar#OQ-037"
+      }
+    ],
+    "removed": [],
+    "changed": [
+      {
+        "id": "PROC-BIH-001",
+        "kind": "Evidence",
+        "title": "Court proceedings concerning the Bihar incidents. The State of Bihar is a respondent in the Supreme Court proceedings on the CJP student protests and has filed ",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=PROC-BIH-001",
+        "fields": [
+          {
+            "field": "state",
+            "from": "UNKNOWN",
+            "to": "CORROBORATED"
+          },
+          {
+            "field": "title",
+            "from": "Any court proceeding concerning the Patna, Katihar or Munger incidents.",
+            "to": "Court proceedings concerning the Bihar incidents. The State of Bihar is a respondent in the Supreme Court proceedings on the CJP student protests and has filed "
+          },
+          {
+            "field": "establishes",
+            "from": "Searched, none found. Absence of a preservation order in Bihar is why Bihar is the deadline-critical jurisdiction.",
+            "to": "SUPERSEDES the earlier finding on this record, which read 'searched, none found' as at 16 August 2026 and was true when written. On 18 August 2026 the State of Bihar was reported to have filed an affidavit in the Supreme Court proceeding…"
+          },
+          {
+            "field": "sourceIds",
+            "from": null,
+            "to": "SRC-0012, SRC-0013, SRC-0014"
+          }
+        ]
+      },
+      {
+        "id": "OVR-NHRC-001",
+        "kind": "Evidence",
+        "title": "NHRC took suo motu cognisance by order dated 25 July 2026 and issued notice to the Commissioner of Police, Delhi, directing a detailed report within two weeks. ",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=OVR-NHRC-001",
+        "fields": [
+          {
+            "field": "sourceIds",
+            "from": "SRC-0012, SRC-0013, SRC-0002, SRC-0014",
+            "to": "SRC-0015, SRC-0016, SRC-0002, SRC-0017"
+          }
+        ]
+      },
+      {
+        "id": "OVR-NHRC-002",
+        "kind": "Evidence",
+        "title": "A complaint was filed with the NHRC by Supreme Court advocate Virender Vashisht on or about 22 July 2026 seeking an independent inquiry by the Commission's Inve",
+        "state": "REPORTED",
+        "url": "evidence.html?id=OVR-NHRC-002",
+        "fields": [
+          {
+            "field": "sourceIds",
+            "from": "SRC-0015",
+            "to": "SRC-0018"
+          }
+        ]
+      },
+      {
+        "id": "PROC-DEL-002",
+        "kind": "Evidence",
+        "title": "Delhi High Court listed W.P.(CRL) 2127/2026 with CRL.M.A. 21282/2026 and CRL.M.A. 21283/2026, Shakeel Abbas v. Union of India and Ors., at item 54 of the supple",
+        "state": "VERIFIED",
+        "url": "evidence.html?id=PROC-DEL-002",
+        "fields": [
+          {
+            "field": "sourceIds",
+            "from": "SRC-0016",
+            "to": "SRC-0019"
+          }
+        ]
+      },
+      {
+        "id": "PROC-SC-002",
+        "kind": "Evidence",
+        "title": "Delhi Police stated on affidavit before the Supreme Court, at a hearing on 18 August 2026 in Shailendra Mani Tripathi v. Union of India and Ors., W.P.(C) 280/20",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=PROC-SC-002",
+        "fields": [
+          {
+            "field": "sourceIds",
+            "from": "SRC-0011, SRC-0017, SRC-0018",
+            "to": "SRC-0011, SRC-0020, SRC-0021"
+          }
+        ]
+      },
+      {
+        "id": "PROC-SC-003",
+        "kind": "Evidence",
+        "title": "Whether the facial recognition deployment at Jantar Mantar was confined to persons with existing criminal records, as Delhi Police asserts, or operated on the c",
+        "state": "DISPUTED",
+        "url": "evidence.html?id=PROC-SC-003",
+        "fields": [
+          {
+            "field": "sourceIds",
+            "from": "SRC-0011, SRC-0017, SRC-0018",
+            "to": "SRC-0011, SRC-0020, SRC-0021"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0012",
+        "kind": "Source",
+        "title": "Bar & Bench",
+        "state": null,
+        "url": "https://www.barandbench.com/news/litigation/police-fired-ak-47-after-constable-was-trapped-by-crowd-no-cjp-protestor-was-injured-bihar-to-supreme-court",
+        "fields": [
+          {
+            "field": "url",
+            "from": "https://www.barandbench.com/news/litigation/nhrc-takes-suo-motu-cognisance-of-delhi-police-excesses-during-jantar-mantar-protests",
+            "to": "https://www.barandbench.com/news/litigation/police-fired-ak-47-after-constable-was-trapped-by-crowd-no-cjp-protestor-was-injured-bihar-to-supreme-court"
+          },
+          {
+            "field": "retrievedOn",
+            "from": "2026-08-16",
+            "to": "2026-08-19"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0013",
+        "kind": "Source",
+        "title": "The Federal",
+        "state": null,
+        "url": "https://thefederal.com/category/news/constable-fired-four-ak-47-shots-in-air-during-siwan-protest-no-injuries-bihat-govt-to-sc-253871",
+        "fields": [
+          {
+            "field": "title",
+            "from": "India Legal",
+            "to": "The Federal"
+          },
+          {
+            "field": "url",
+            "from": "https://indialegallive.com/constitutional-law-news/courts-news/nhrc-takes-suo-motu-cognisance-of-alleged-police-excess-during-cjp-protest-seeks-report-from-delhi-police/",
+            "to": "https://thefederal.com/category/news/constable-fired-four-ak-47-shots-in-air-during-siwan-protest-no-injuries-bihat-govt-to-sc-253871"
+          },
+          {
+            "field": "retrievedOn",
+            "from": "2026-08-16",
+            "to": "2026-08-19"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0014",
+        "kind": "Source",
+        "title": "ANI",
+        "state": null,
+        "url": "https://aninews.in/news/national/general-news/suspended-cop-who-fired-ak-47-after-being-surrounded-by-protesters-bihar-govt-tells-sc20260818130412/",
+        "fields": [
+          {
+            "field": "title",
+            "from": "Deccan Chronicle",
+            "to": "ANI"
+          },
+          {
+            "field": "url",
+            "from": "https://www.deccanchronicle.com/nation/current-affairs/nhrc-takes-suo-motu-cognisance-of-police-action-during-cjp-protest-1974561",
+            "to": "https://aninews.in/news/national/general-news/suspended-cop-who-fired-ak-47-after-being-surrounded-by-protesters-bihar-govt-tells-sc20260818130412/"
+          },
+          {
+            "field": "retrievedOn",
+            "from": "2026-08-18",
+            "to": "2026-08-19"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0015",
+        "kind": "Source",
+        "title": "Bar & Bench",
+        "state": null,
+        "url": "https://www.barandbench.com/news/litigation/nhrc-takes-suo-motu-cognisance-of-delhi-police-excesses-during-jantar-mantar-protests",
+        "fields": [
+          {
+            "field": "title",
+            "from": "ANI via IndiasNews",
+            "to": "Bar & Bench"
+          },
+          {
+            "field": "url",
+            "from": "https://www.indiasnews.net/news/279202613/complaint-filed-with-nhrc-seeking-independent-inquiry-into-police-action-at-jantar-mantar",
+            "to": "https://www.barandbench.com/news/litigation/nhrc-takes-suo-motu-cognisance-of-delhi-police-excesses-during-jantar-mantar-protests"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0016",
+        "kind": "Source",
+        "title": "India Legal",
+        "state": null,
+        "url": "https://indialegallive.com/constitutional-law-news/courts-news/nhrc-takes-suo-motu-cognisance-of-alleged-police-excess-during-cjp-protest-seeks-report-from-delhi-police/",
+        "fields": [
+          {
+            "field": "title",
+            "from": "High Court of Delhi",
+            "to": "India Legal"
+          },
+          {
+            "field": "url",
+            "from": "https://delhihighcourt.nic.in/files/2026-07/cause-list/combined_cause_list_22.07.2026.pdf",
+            "to": "https://indialegallive.com/constitutional-law-news/courts-news/nhrc-takes-suo-motu-cognisance-of-alleged-police-excess-during-cjp-protest-seeks-report-from-delhi-police/"
+          },
+          {
+            "field": "retrievedOn",
+            "from": "2026-08-18",
+            "to": "2026-08-16"
+          },
+          {
+            "field": "sha256",
+            "from": "d3a67d1b69d68f62bc4e462bb6dbc79ae0ea5eeb5c40cd7fcd418ba09b74b6d4",
+            "to": null
+          }
+        ]
+      },
+      {
+        "id": "SRC-0017",
+        "kind": "Source",
+        "title": "Deccan Chronicle",
+        "state": null,
+        "url": "https://www.deccanchronicle.com/nation/current-affairs/nhrc-takes-suo-motu-cognisance-of-police-action-during-cjp-protest-1974561",
+        "fields": [
+          {
+            "field": "title",
+            "from": "Bar & Bench",
+            "to": "Deccan Chronicle"
+          },
+          {
+            "field": "url",
+            "from": "https://www.barandbench.com/news/litigation/facial-recognition-tech-used-at-cjp-protests-only-to-find-those-with-criminal-record-delhi-police-to-supreme-court",
+            "to": "https://www.deccanchronicle.com/nation/current-affairs/nhrc-takes-suo-motu-cognisance-of-police-action-during-cjp-protest-1974561"
+          },
+          {
+            "field": "retrievedOn",
+            "from": "2026-08-19",
+            "to": "2026-08-18"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0018",
+        "kind": "Source",
+        "title": "ANI via IndiasNews",
+        "state": null,
+        "url": "https://www.indiasnews.net/news/279202613/complaint-filed-with-nhrc-seeking-independent-inquiry-into-police-action-at-jantar-mantar",
+        "fields": [
+          {
+            "field": "title",
+            "from": "Oneindia",
+            "to": "ANI via IndiasNews"
+          },
+          {
+            "field": "url",
+            "from": "https://www.oneindia.com/india/cjp-protests-2-873-with-criminal-records-identified-using-facial-recognition-system-delhi-police-t-8179549.html",
+            "to": "https://www.indiasnews.net/news/279202613/complaint-filed-with-nhrc-seeking-independent-inquiry-into-police-action-at-jantar-mantar"
+          },
+          {
+            "field": "retrievedOn",
+            "from": "2026-08-19",
+            "to": "2026-08-16"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0019",
+        "kind": "Source",
+        "title": "High Court of Delhi",
+        "state": null,
+        "url": "https://delhihighcourt.nic.in/files/2026-07/cause-list/combined_cause_list_22.07.2026.pdf",
+        "fields": [
+          {
+            "field": "title",
+            "from": "India Code",
+            "to": "High Court of Delhi"
+          },
+          {
+            "field": "url",
+            "from": "https://www.indiacode.nic.in/bitstream/123456789/20340/1/bnss,_2023.pdf",
+            "to": "https://delhihighcourt.nic.in/files/2026-07/cause-list/combined_cause_list_22.07.2026.pdf"
+          },
+          {
+            "field": "retrievedOn",
+            "from": "2026-08-16",
+            "to": "2026-08-18"
+          },
+          {
+            "field": "sha256",
+            "from": null,
+            "to": "d3a67d1b69d68f62bc4e462bb6dbc79ae0ea5eeb5c40cd7fcd418ba09b74b6d4"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0020",
+        "kind": "Source",
+        "title": "Bar & Bench",
+        "state": null,
+        "url": "https://www.barandbench.com/news/litigation/facial-recognition-tech-used-at-cjp-protests-only-to-find-those-with-criminal-record-delhi-police-to-supreme-court",
+        "fields": [
+          {
+            "field": "title",
+            "from": "Bureau of Police Research and Development",
+            "to": "Bar & Bench"
+          },
+          {
+            "field": "url",
+            "from": "https://bprd.nic.in/uploads/pdf/Comparison%20summary%20BNSS%20to%20CrPC.pdf",
+            "to": "https://www.barandbench.com/news/litigation/facial-recognition-tech-used-at-cjp-protests-only-to-find-those-with-criminal-record-delhi-police-to-supreme-court"
+          },
+          {
+            "field": "retrievedOn",
+            "from": "2026-08-16",
+            "to": "2026-08-19"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0021",
+        "kind": "Source",
+        "title": "Oneindia",
+        "state": null,
+        "url": "https://www.oneindia.com/india/cjp-protests-2-873-with-criminal-records-identified-using-facial-recognition-system-delhi-police-t-8179549.html",
+        "fields": [
+          {
+            "field": "title",
+            "from": "Uttar Pradesh Police",
+            "to": "Oneindia"
+          },
+          {
+            "field": "url",
+            "from": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202407031502194192BNSS2023-20-45.pdf",
+            "to": "https://www.oneindia.com/india/cjp-protests-2-873-with-criminal-records-identified-using-facial-recognition-system-delhi-police-t-8179549.html"
+          },
+          {
+            "field": "retrievedOn",
+            "from": "2026-08-16",
+            "to": "2026-08-19"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0022",
+        "kind": "Source",
+        "title": "NewsX",
+        "state": null,
+        "url": "https://www.newsx.com/india/ak-47-fired-at-siwan-student-protest-but-no-one-hit-by-rifle-what-bihar-govt-told-supreme-court-261593/",
+        "fields": [
+          {
+            "field": "title",
+            "from": "onlinelawconnect",
+            "to": "NewsX"
+          },
+          {
+            "field": "url",
+            "from": "https://onlinelawconnect.com/actsandrules/criminal/bnss/SummaryChapter11.php",
+            "to": "https://www.newsx.com/india/ak-47-fired-at-siwan-student-protest-but-no-one-hit-by-rifle-what-bihar-govt-told-supreme-court-261593/"
+          },
+          {
+            "field": "retrievedOn",
+            "from": "2026-08-16",
+            "to": "2026-08-19"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0023",
+        "kind": "Source",
+        "title": "Business Standard",
+        "state": null,
+        "url": "https://www.business-standard.com/india-news/history-sheeters-infiltrated-jul-20-protest-240-cops-injured-delhi-police-126081800545_1.html",
+        "fields": [
+          {
+            "field": "title",
+            "from": "Justice Definitions Project",
+            "to": "Business Standard"
+          },
+          {
+            "field": "url",
+            "from": "https://www.lawandjusticewiki.org/wiki/Extra-judicial_killings",
+            "to": "https://www.business-standard.com/india-news/history-sheeters-infiltrated-jul-20-protest-240-cops-injured-delhi-police-126081800545_1.html"
+          },
+          {
+            "field": "retrievedOn",
+            "from": "2026-08-16",
+            "to": "2026-08-19"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0024",
+        "kind": "Source",
+        "title": "LawChakra",
+        "state": null,
+        "url": "https://lawchakra.in/supreme-court/delhi-police-supreme-court-affidavit-no-excessive-force-student-protesters/",
+        "fields": [
+          {
+            "field": "title",
+            "from": "ApniLaw",
+            "to": "LawChakra"
+          },
+          {
+            "field": "url",
+            "from": "https://www.apnilaw.com/bare-act/bnss/section-196-bharatiya-nagarik-suraksha-sanhitabnss-inquiry-by-magistrate-into-cause-of-death/",
+            "to": "https://lawchakra.in/supreme-court/delhi-police-supreme-court-affidavit-no-excessive-force-student-protesters/"
+          },
+          {
+            "field": "retrievedOn",
+            "from": "2026-08-16",
+            "to": "2026-08-19"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0025",
+        "kind": "Source",
+        "title": "Bar & Bench",
+        "state": null,
+        "url": "https://www.barandbench.com/news/cjp-protests-supreme-court-to-form-high-powered-panel-to-probe-police-excesses-violence-against-cops",
+        "fields": [
+          {
+            "field": "title",
+            "from": "India Code",
+            "to": "Bar & Bench"
+          },
+          {
+            "field": "url",
+            "from": "https://www.indiacode.nic.in/bitstream/123456789/13669/1/delhi_police_act.pdf",
+            "to": "https://www.barandbench.com/news/cjp-protests-supreme-court-to-form-high-powered-panel-to-probe-police-excesses-violence-against-cops"
+          },
+          {
+            "field": "retrievedOn",
+            "from": "2026-08-16",
+            "to": "2026-08-19"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0026",
+        "kind": "Source",
+        "title": "Supreme Court Observer",
+        "state": null,
+        "url": "https://www.scobserver.in/journal/sc-says-jantar-mantar-protest-firs-cannot-define-students-futures/",
+        "fields": [
+          {
+            "field": "title",
+            "from": "indianemployees.com",
+            "to": "Supreme Court Observer"
+          },
+          {
+            "field": "url",
+            "from": "https://www.indianemployees.com/acts-rules/details/delhi-police-act-1978",
+            "to": "https://www.scobserver.in/journal/sc-says-jantar-mantar-protest-firs-cannot-define-students-futures/"
+          },
+          {
+            "field": "retrievedOn",
+            "from": "2026-08-16",
+            "to": "2026-08-19"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0027",
+        "kind": "Source",
+        "title": "India Code",
+        "state": null,
+        "url": "https://www.indiacode.nic.in/bitstream/123456789/20340/1/bnss,_2023.pdf",
+        "fields": [
+          {
+            "field": "url",
+            "from": "https://www.indiacode.nic.in/bitstream/123456789/20371/1/ashtra_police.pdf",
+            "to": "https://www.indiacode.nic.in/bitstream/123456789/20340/1/bnss,_2023.pdf"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0028",
+        "kind": "Source",
+        "title": "Bureau of Police Research and Development",
+        "state": null,
+        "url": "https://bprd.nic.in/uploads/pdf/Comparison%20summary%20BNSS%20to%20CrPC.pdf",
+        "fields": [
+          {
+            "field": "title",
+            "from": "Gurukul Nexus",
+            "to": "Bureau of Police Research and Development"
+          },
+          {
+            "field": "url",
+            "from": "https://blog.gurukulnexus.com/police-regulations-maharashtra-police-act-public-order/",
+            "to": "https://bprd.nic.in/uploads/pdf/Comparison%20summary%20BNSS%20to%20CrPC.pdf"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0029",
+        "kind": "Source",
+        "title": "Uttar Pradesh Police",
+        "state": null,
+        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202407031502194192BNSS2023-20-45.pdf",
+        "fields": [
+          {
+            "field": "title",
+            "from": "India Code",
+            "to": "Uttar Pradesh Police"
+          },
+          {
+            "field": "url",
+            "from": "https://www.indiacode.nic.in/bitstream/123456789/11209/1/1094_bihar_bihar_police_act_2007.pdf",
+            "to": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202407031502194192BNSS2023-20-45.pdf"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0030",
+        "kind": "Source",
+        "title": "onlinelawconnect",
+        "state": null,
+        "url": "https://onlinelawconnect.com/actsandrules/criminal/bnss/SummaryChapter11.php",
+        "fields": [
+          {
+            "field": "title",
+            "from": "LegitQuest",
+            "to": "onlinelawconnect"
+          },
+          {
+            "field": "url",
+            "from": "https://www.legitquest.com/act/the-bihar-police-amendment-act-2014/FBD1",
+            "to": "https://onlinelawconnect.com/actsandrules/criminal/bnss/SummaryChapter11.php"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0031",
+        "kind": "Source",
+        "title": "Justice Definitions Project",
+        "state": null,
+        "url": "https://www.lawandjusticewiki.org/wiki/Extra-judicial_killings",
+        "fields": [
+          {
+            "field": "title",
+            "from": "CaseMine",
+            "to": "Justice Definitions Project"
+          },
+          {
+            "field": "url",
+            "from": null,
+            "to": "https://www.lawandjusticewiki.org/wiki/Extra-judicial_killings"
+          },
+          {
+            "field": "retrievedOn",
+            "from": null,
+            "to": "2026-08-16"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0032",
+        "kind": "Source",
+        "title": "ApniLaw",
+        "state": null,
+        "url": "https://www.apnilaw.com/bare-act/bnss/section-196-bharatiya-nagarik-suraksha-sanhitabnss-inquiry-by-magistrate-into-cause-of-death/",
+        "fields": [
+          {
+            "field": "title",
+            "from": "Ministry of Home Affairs",
+            "to": "ApniLaw"
+          },
+          {
+            "field": "url",
+            "from": "https://www.mha.gov.in/sites/default/files/2025-04/NHRCselectedlettersandguidelinesondeathsincustody_09042019_0[1]_4.pdf",
+            "to": "https://www.apnilaw.com/bare-act/bnss/section-196-bharatiya-nagarik-suraksha-sanhitabnss-inquiry-by-magistrate-into-cause-of-death/"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0033",
+        "kind": "Source",
+        "title": "India Code",
+        "state": null,
+        "url": "https://www.indiacode.nic.in/bitstream/123456789/13669/1/delhi_police_act.pdf",
+        "fields": [
+          {
+            "field": "title",
+            "from": "NHRC",
+            "to": "India Code"
+          },
+          {
+            "field": "url",
+            "from": "https://nhrc.nic.in/press-release/nhrc-issues-fresh-guidelines-regarding-intimation-custodial-death",
+            "to": "https://www.indiacode.nic.in/bitstream/123456789/13669/1/delhi_police_act.pdf"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0034",
+        "kind": "Source",
+        "title": "indianemployees.com",
+        "state": null,
+        "url": "https://www.indianemployees.com/acts-rules/details/delhi-police-act-1978",
+        "fields": [
+          {
+            "field": "title",
+            "from": "NHRC",
+            "to": "indianemployees.com"
+          },
+          {
+            "field": "url",
+            "from": "https://nhrc.nic.in/investigation-division",
+            "to": "https://www.indianemployees.com/acts-rules/details/delhi-police-act-1978"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0035",
+        "kind": "Source",
+        "title": "India Code",
+        "state": null,
+        "url": "https://www.indiacode.nic.in/bitstream/123456789/20371/1/ashtra_police.pdf",
+        "fields": [
+          {
+            "field": "title",
+            "from": "commoner-law.com",
+            "to": "India Code"
+          },
+          {
+            "field": "url",
+            "from": "https://commoner-law.com/india/police-encounters/encounter-killings-and-custodial-deaths",
+            "to": "https://www.indiacode.nic.in/bitstream/123456789/20371/1/ashtra_police.pdf"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0036",
+        "kind": "Source",
+        "title": "Gurukul Nexus",
+        "state": null,
+        "url": "https://blog.gurukulnexus.com/police-regulations-maharashtra-police-act-public-order/",
+        "fields": [
+          {
+            "field": "title",
+            "from": "Bellingcat",
+            "to": "Gurukul Nexus"
+          },
+          {
+            "field": "url",
+            "from": "https://www.bellingcat.com/news/americas/2020/10/29/a-new-platform-maps-us-police-violence-against-protesters/",
+            "to": "https://blog.gurukulnexus.com/police-regulations-maharashtra-police-act-public-order/"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0037",
+        "kind": "Source",
+        "title": "India Code",
+        "state": null,
+        "url": "https://www.indiacode.nic.in/bitstream/123456789/11209/1/1094_bihar_bihar_police_act_2007.pdf",
+        "fields": [
+          {
+            "field": "title",
+            "from": "GIJN",
+            "to": "India Code"
+          },
+          {
+            "field": "url",
+            "from": "https://gijn.org/stories/how-bellingcat-and-forensic-architecture-teamed-up-with-colombias-cerosetenta-to-map-police-violence/",
+            "to": "https://www.indiacode.nic.in/bitstream/123456789/11209/1/1094_bihar_bihar_police_act_2007.pdf"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0038",
+        "kind": "Source",
+        "title": "LegitQuest",
+        "state": null,
+        "url": "https://www.legitquest.com/act/the-bihar-police-amendment-act-2014/FBD1",
+        "fields": [
+          {
+            "field": "title",
+            "from": "The Polis Project",
+            "to": "LegitQuest"
+          },
+          {
+            "field": "url",
+            "from": "https://thepolisproject.com/research/documenting-custodial-violence-reflections-and-further-research-5/",
+            "to": "https://www.legitquest.com/act/the-bihar-police-amendment-act-2014/FBD1"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0039",
+        "kind": "Source",
+        "title": "CaseMine",
+        "state": null,
+        "url": null,
+        "fields": [
+          {
+            "field": "title",
+            "from": "Wikipedia",
+            "to": "CaseMine"
+          },
+          {
+            "field": "url",
+            "from": "https://en.wikipedia.org/wiki/DOTO_Database",
+            "to": null
+          },
+          {
+            "field": "retrievedOn",
+            "from": "2026-08-16",
+            "to": null
+          }
+        ]
+      },
+      {
+        "id": "SRC-0040",
+        "kind": "Source",
+        "title": "Ministry of Home Affairs",
+        "state": null,
+        "url": "https://www.mha.gov.in/sites/default/files/2025-04/NHRCselectedlettersandguidelinesondeathsincustody_09042019_0[1]_4.pdf",
+        "fields": [
+          {
+            "field": "title",
+            "from": "Common Cause and CSDS",
+            "to": "Ministry of Home Affairs"
+          },
+          {
+            "field": "url",
+            "from": "https://www.commoncause.in/wotadmin/upload/SPIR_2025.pdf",
+            "to": "https://www.mha.gov.in/sites/default/files/2025-04/NHRCselectedlettersandguidelinesondeathsincustody_09042019_0[1]_4.pdf"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0041",
+        "kind": "Source",
+        "title": "NHRC",
+        "state": null,
+        "url": "https://nhrc.nic.in/press-release/nhrc-issues-fresh-guidelines-regarding-intimation-custodial-death",
+        "fields": [
+          {
+            "field": "title",
+            "from": "Sage",
+            "to": "NHRC"
+          },
+          {
+            "field": "url",
+            "from": "https://journals.sagepub.com/doi/abs/10.1177/00699659231208696",
+            "to": "https://nhrc.nic.in/press-release/nhrc-issues-fresh-guidelines-regarding-intimation-custodial-death"
+          }
+        ]
+      }
+    ],
+    "summary": "16 records added · 1 state changed · 35 records edited"
+  },
+  {
+    "commit": "22ce61ab08",
+    "date": "2026-08-19T08:17:30Z",
+    "subject": "Record the facial recognition admission, and split it in two",
+    "added": [
+      {
+        "id": "PROC-SC-002",
+        "kind": "Evidence",
+        "title": "Delhi Police stated on affidavit before the Supreme Court, at a hearing on 18 August 2026 in Shailendra Mani Tripathi v. Union of India and Ors., W.P.(C) 280/20",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=PROC-SC-002"
+      },
+      {
+        "id": "PROC-SC-003",
+        "kind": "Evidence",
+        "title": "Whether the facial recognition deployment at Jantar Mantar was confined to persons with existing criminal records, as Delhi Police asserts, or operated on the c",
+        "state": "DISPUTED",
+        "url": "evidence.html?id=PROC-SC-003"
+      },
+      {
+        "id": "SRC-0039",
+        "kind": "Source",
+        "title": "Wikipedia",
+        "state": null,
+        "url": "https://en.wikipedia.org/wiki/DOTO_Database"
+      },
+      {
+        "id": "SRC-0040",
+        "kind": "Source",
+        "title": "Common Cause and CSDS",
+        "state": null,
+        "url": "https://www.commoncause.in/wotadmin/upload/SPIR_2025.pdf"
+      },
+      {
+        "id": "SRC-0041",
+        "kind": "Source",
+        "title": "Sage",
+        "state": null,
+        "url": "https://journals.sagepub.com/doi/abs/10.1177/00699659231208696"
+      },
+      {
+        "id": "OQ-033",
+        "kind": "Question",
+        "title": "The Delhi Police affidavit filed in W.P.(C) 280/2026 concerning the use of facial recognition technology at the Jantar Mantar protest.",
+        "state": "UNANSWERED",
+        "url": "investigation.html?id=jantar-mantar#OQ-033"
+      },
+      {
+        "id": "OQ-034",
+        "kind": "Question",
+        "title": "Which database of photographs the facial recognition system matched against at Jantar Mantar, who supplied it, and whether any private company processed the data.",
+        "state": "UNANSWERED",
+        "url": "investigation.html?id=jantar-mantar#OQ-034"
+      }
+    ],
+    "removed": [],
+    "changed": [
+      {
+        "id": "PROC-SC-001",
+        "kind": "Evidence",
+        "title": "Supreme Court proceedings on petitions concerning police action at Jantar Mantar and elsewhere; petitions allege lathi charge, pellet guns, rubber bullets, tear",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=PROC-SC-001",
+        "fields": [
+          {
+            "field": "state",
+            "from": "REPORTED",
+            "to": "CORROBORATED"
+          },
+          {
+            "field": "establishes",
+            "from": "SCC OnLine citation is a commercial reporter citation, not a primary source. Retrieve the order from the Supreme Court site before use.",
+            "to": "The writ petition number W.P.(C) 280/2026 and the composition of the bench come from reporting of the 18 August 2026 hearing, which is also the source for PROC-SC-002 and PROC-SC-003. The SCC OnLine citation is a commercial reporter's, n…"
+          },
+          {
+            "field": "sourceIds",
+            "from": "SRC-0010",
+            "to": "SRC-0010, SRC-0011"
+          }
+        ]
+      },
+      {
+        "id": "OVR-NHRC-001",
+        "kind": "Evidence",
+        "title": "NHRC took suo motu cognisance by order dated 25 July 2026 and issued notice to the Commissioner of Police, Delhi, directing a detailed report within two weeks. ",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=OVR-NHRC-001",
+        "fields": [
+          {
+            "field": "sourceIds",
+            "from": "SRC-0011, SRC-0012, SRC-0002, SRC-0013",
+            "to": "SRC-0012, SRC-0013, SRC-0002, SRC-0014"
+          }
+        ]
+      },
+      {
+        "id": "OVR-NHRC-002",
+        "kind": "Evidence",
+        "title": "A complaint was filed with the NHRC by Supreme Court advocate Virender Vashisht on or about 22 July 2026 seeking an independent inquiry by the Commission's Inve",
+        "state": "REPORTED",
+        "url": "evidence.html?id=OVR-NHRC-002",
+        "fields": [
+          {
+            "field": "sourceIds",
+            "from": "SRC-0014",
+            "to": "SRC-0015"
+          }
+        ]
+      },
+      {
+        "id": "PROC-DEL-002",
+        "kind": "Evidence",
+        "title": "Delhi High Court listed W.P.(CRL) 2127/2026 with CRL.M.A. 21282/2026 and CRL.M.A. 21283/2026, Shakeel Abbas v. Union of India and Ors., at item 54 of the supple",
+        "state": "VERIFIED",
+        "url": "evidence.html?id=PROC-DEL-002",
+        "fields": [
+          {
+            "field": "sourceIds",
+            "from": "SRC-0015",
+            "to": "SRC-0016"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0011",
+        "kind": "Source",
+        "title": "LiveLaw",
+        "state": null,
+        "url": "https://www.livelaw.in/top-stories/supreme-court-student-protests-delhi-police-affidavit-facial-recognition-software-only-captures-serious-offense-criminals-546263",
+        "fields": [
+          {
+            "field": "title",
+            "from": "Bar & Bench",
+            "to": "LiveLaw"
+          },
+          {
+            "field": "url",
+            "from": "https://www.barandbench.com/news/litigation/nhrc-takes-suo-motu-cognisance-of-delhi-police-excesses-during-jantar-mantar-protests",
+            "to": "https://www.livelaw.in/top-stories/supreme-court-student-protests-delhi-police-affidavit-facial-recognition-software-only-captures-serious-offense-criminals-546263"
+          },
+          {
+            "field": "retrievedOn",
+            "from": "2026-08-16",
+            "to": "2026-08-19"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0012",
+        "kind": "Source",
+        "title": "Bar & Bench",
+        "state": null,
+        "url": "https://www.barandbench.com/news/litigation/nhrc-takes-suo-motu-cognisance-of-delhi-police-excesses-during-jantar-mantar-protests",
+        "fields": [
+          {
+            "field": "title",
+            "from": "India Legal",
+            "to": "Bar & Bench"
+          },
+          {
+            "field": "url",
+            "from": "https://indialegallive.com/constitutional-law-news/courts-news/nhrc-takes-suo-motu-cognisance-of-alleged-police-excess-during-cjp-protest-seeks-report-from-delhi-police/",
+            "to": "https://www.barandbench.com/news/litigation/nhrc-takes-suo-motu-cognisance-of-delhi-police-excesses-during-jantar-mantar-protests"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0013",
+        "kind": "Source",
+        "title": "India Legal",
+        "state": null,
+        "url": "https://indialegallive.com/constitutional-law-news/courts-news/nhrc-takes-suo-motu-cognisance-of-alleged-police-excess-during-cjp-protest-seeks-report-from-delhi-police/",
+        "fields": [
+          {
+            "field": "title",
+            "from": "Deccan Chronicle",
+            "to": "India Legal"
+          },
+          {
+            "field": "url",
+            "from": "https://www.deccanchronicle.com/nation/current-affairs/nhrc-takes-suo-motu-cognisance-of-police-action-during-cjp-protest-1974561",
+            "to": "https://indialegallive.com/constitutional-law-news/courts-news/nhrc-takes-suo-motu-cognisance-of-alleged-police-excess-during-cjp-protest-seeks-report-from-delhi-police/"
+          },
+          {
+            "field": "retrievedOn",
+            "from": "2026-08-18",
+            "to": "2026-08-16"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0014",
+        "kind": "Source",
+        "title": "Deccan Chronicle",
+        "state": null,
+        "url": "https://www.deccanchronicle.com/nation/current-affairs/nhrc-takes-suo-motu-cognisance-of-police-action-during-cjp-protest-1974561",
+        "fields": [
+          {
+            "field": "title",
+            "from": "ANI via IndiasNews",
+            "to": "Deccan Chronicle"
+          },
+          {
+            "field": "url",
+            "from": "https://www.indiasnews.net/news/279202613/complaint-filed-with-nhrc-seeking-independent-inquiry-into-police-action-at-jantar-mantar",
+            "to": "https://www.deccanchronicle.com/nation/current-affairs/nhrc-takes-suo-motu-cognisance-of-police-action-during-cjp-protest-1974561"
+          },
+          {
+            "field": "retrievedOn",
+            "from": "2026-08-16",
+            "to": "2026-08-18"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0015",
+        "kind": "Source",
+        "title": "ANI via IndiasNews",
+        "state": null,
+        "url": "https://www.indiasnews.net/news/279202613/complaint-filed-with-nhrc-seeking-independent-inquiry-into-police-action-at-jantar-mantar",
+        "fields": [
+          {
+            "field": "title",
+            "from": "High Court of Delhi",
+            "to": "ANI via IndiasNews"
+          },
+          {
+            "field": "url",
+            "from": "https://delhihighcourt.nic.in/files/2026-07/cause-list/combined_cause_list_22.07.2026.pdf",
+            "to": "https://www.indiasnews.net/news/279202613/complaint-filed-with-nhrc-seeking-independent-inquiry-into-police-action-at-jantar-mantar"
+          },
+          {
+            "field": "retrievedOn",
+            "from": "2026-08-18",
+            "to": "2026-08-16"
+          },
+          {
+            "field": "sha256",
+            "from": "d3a67d1b69d68f62bc4e462bb6dbc79ae0ea5eeb5c40cd7fcd418ba09b74b6d4",
+            "to": null
+          }
+        ]
+      },
+      {
+        "id": "SRC-0016",
+        "kind": "Source",
+        "title": "High Court of Delhi",
+        "state": null,
+        "url": "https://delhihighcourt.nic.in/files/2026-07/cause-list/combined_cause_list_22.07.2026.pdf",
+        "fields": [
+          {
+            "field": "title",
+            "from": "India Code",
+            "to": "High Court of Delhi"
+          },
+          {
+            "field": "url",
+            "from": "https://www.indiacode.nic.in/bitstream/123456789/20340/1/bnss,_2023.pdf",
+            "to": "https://delhihighcourt.nic.in/files/2026-07/cause-list/combined_cause_list_22.07.2026.pdf"
+          },
+          {
+            "field": "retrievedOn",
+            "from": "2026-08-16",
+            "to": "2026-08-18"
+          },
+          {
+            "field": "sha256",
+            "from": null,
+            "to": "d3a67d1b69d68f62bc4e462bb6dbc79ae0ea5eeb5c40cd7fcd418ba09b74b6d4"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0017",
+        "kind": "Source",
+        "title": "Bar & Bench",
+        "state": null,
+        "url": "https://www.barandbench.com/news/litigation/facial-recognition-tech-used-at-cjp-protests-only-to-find-those-with-criminal-record-delhi-police-to-supreme-court",
+        "fields": [
+          {
+            "field": "title",
+            "from": "Bureau of Police Research and Development",
+            "to": "Bar & Bench"
+          },
+          {
+            "field": "url",
+            "from": "https://bprd.nic.in/uploads/pdf/Comparison%20summary%20BNSS%20to%20CrPC.pdf",
+            "to": "https://www.barandbench.com/news/litigation/facial-recognition-tech-used-at-cjp-protests-only-to-find-those-with-criminal-record-delhi-police-to-supreme-court"
+          },
+          {
+            "field": "retrievedOn",
+            "from": "2026-08-16",
+            "to": "2026-08-19"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0018",
+        "kind": "Source",
+        "title": "Oneindia",
+        "state": null,
+        "url": "https://www.oneindia.com/india/cjp-protests-2-873-with-criminal-records-identified-using-facial-recognition-system-delhi-police-t-8179549.html",
+        "fields": [
+          {
+            "field": "title",
+            "from": "Uttar Pradesh Police",
+            "to": "Oneindia"
+          },
+          {
+            "field": "url",
+            "from": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202407031502194192BNSS2023-20-45.pdf",
+            "to": "https://www.oneindia.com/india/cjp-protests-2-873-with-criminal-records-identified-using-facial-recognition-system-delhi-police-t-8179549.html"
+          },
+          {
+            "field": "retrievedOn",
+            "from": "2026-08-16",
+            "to": "2026-08-19"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0019",
+        "kind": "Source",
+        "title": "India Code",
+        "state": null,
+        "url": "https://www.indiacode.nic.in/bitstream/123456789/20340/1/bnss,_2023.pdf",
+        "fields": [
+          {
+            "field": "title",
+            "from": "onlinelawconnect",
+            "to": "India Code"
+          },
+          {
+            "field": "url",
+            "from": "https://onlinelawconnect.com/actsandrules/criminal/bnss/SummaryChapter11.php",
+            "to": "https://www.indiacode.nic.in/bitstream/123456789/20340/1/bnss,_2023.pdf"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0020",
+        "kind": "Source",
+        "title": "Bureau of Police Research and Development",
+        "state": null,
+        "url": "https://bprd.nic.in/uploads/pdf/Comparison%20summary%20BNSS%20to%20CrPC.pdf",
+        "fields": [
+          {
+            "field": "title",
+            "from": "Justice Definitions Project",
+            "to": "Bureau of Police Research and Development"
+          },
+          {
+            "field": "url",
+            "from": "https://www.lawandjusticewiki.org/wiki/Extra-judicial_killings",
+            "to": "https://bprd.nic.in/uploads/pdf/Comparison%20summary%20BNSS%20to%20CrPC.pdf"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0021",
+        "kind": "Source",
+        "title": "Uttar Pradesh Police",
+        "state": null,
+        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202407031502194192BNSS2023-20-45.pdf",
+        "fields": [
+          {
+            "field": "title",
+            "from": "ApniLaw",
+            "to": "Uttar Pradesh Police"
+          },
+          {
+            "field": "url",
+            "from": "https://www.apnilaw.com/bare-act/bnss/section-196-bharatiya-nagarik-suraksha-sanhitabnss-inquiry-by-magistrate-into-cause-of-death/",
+            "to": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202407031502194192BNSS2023-20-45.pdf"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0022",
+        "kind": "Source",
+        "title": "onlinelawconnect",
+        "state": null,
+        "url": "https://onlinelawconnect.com/actsandrules/criminal/bnss/SummaryChapter11.php",
+        "fields": [
+          {
+            "field": "title",
+            "from": "India Code",
+            "to": "onlinelawconnect"
+          },
+          {
+            "field": "url",
+            "from": "https://www.indiacode.nic.in/bitstream/123456789/13669/1/delhi_police_act.pdf",
+            "to": "https://onlinelawconnect.com/actsandrules/criminal/bnss/SummaryChapter11.php"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0023",
+        "kind": "Source",
+        "title": "Justice Definitions Project",
+        "state": null,
+        "url": "https://www.lawandjusticewiki.org/wiki/Extra-judicial_killings",
+        "fields": [
+          {
+            "field": "title",
+            "from": "indianemployees.com",
+            "to": "Justice Definitions Project"
+          },
+          {
+            "field": "url",
+            "from": "https://www.indianemployees.com/acts-rules/details/delhi-police-act-1978",
+            "to": "https://www.lawandjusticewiki.org/wiki/Extra-judicial_killings"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0024",
+        "kind": "Source",
+        "title": "ApniLaw",
+        "state": null,
+        "url": "https://www.apnilaw.com/bare-act/bnss/section-196-bharatiya-nagarik-suraksha-sanhitabnss-inquiry-by-magistrate-into-cause-of-death/",
+        "fields": [
+          {
+            "field": "title",
+            "from": "India Code",
+            "to": "ApniLaw"
+          },
+          {
+            "field": "url",
+            "from": "https://www.indiacode.nic.in/bitstream/123456789/20371/1/ashtra_police.pdf",
+            "to": "https://www.apnilaw.com/bare-act/bnss/section-196-bharatiya-nagarik-suraksha-sanhitabnss-inquiry-by-magistrate-into-cause-of-death/"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0025",
+        "kind": "Source",
+        "title": "India Code",
+        "state": null,
+        "url": "https://www.indiacode.nic.in/bitstream/123456789/13669/1/delhi_police_act.pdf",
+        "fields": [
+          {
+            "field": "title",
+            "from": "Gurukul Nexus",
+            "to": "India Code"
+          },
+          {
+            "field": "url",
+            "from": "https://blog.gurukulnexus.com/police-regulations-maharashtra-police-act-public-order/",
+            "to": "https://www.indiacode.nic.in/bitstream/123456789/13669/1/delhi_police_act.pdf"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0026",
+        "kind": "Source",
+        "title": "indianemployees.com",
+        "state": null,
+        "url": "https://www.indianemployees.com/acts-rules/details/delhi-police-act-1978",
+        "fields": [
+          {
+            "field": "title",
+            "from": "India Code",
+            "to": "indianemployees.com"
+          },
+          {
+            "field": "url",
+            "from": "https://www.indiacode.nic.in/bitstream/123456789/11209/1/1094_bihar_bihar_police_act_2007.pdf",
+            "to": "https://www.indianemployees.com/acts-rules/details/delhi-police-act-1978"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0027",
+        "kind": "Source",
+        "title": "India Code",
+        "state": null,
+        "url": "https://www.indiacode.nic.in/bitstream/123456789/20371/1/ashtra_police.pdf",
+        "fields": [
+          {
+            "field": "title",
+            "from": "LegitQuest",
+            "to": "India Code"
+          },
+          {
+            "field": "url",
+            "from": "https://www.legitquest.com/act/the-bihar-police-amendment-act-2014/FBD1",
+            "to": "https://www.indiacode.nic.in/bitstream/123456789/20371/1/ashtra_police.pdf"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0028",
+        "kind": "Source",
+        "title": "Gurukul Nexus",
+        "state": null,
+        "url": "https://blog.gurukulnexus.com/police-regulations-maharashtra-police-act-public-order/",
+        "fields": [
+          {
+            "field": "title",
+            "from": "CaseMine",
+            "to": "Gurukul Nexus"
+          },
+          {
+            "field": "url",
+            "from": null,
+            "to": "https://blog.gurukulnexus.com/police-regulations-maharashtra-police-act-public-order/"
+          },
+          {
+            "field": "retrievedOn",
+            "from": null,
+            "to": "2026-08-16"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0029",
+        "kind": "Source",
+        "title": "India Code",
+        "state": null,
+        "url": "https://www.indiacode.nic.in/bitstream/123456789/11209/1/1094_bihar_bihar_police_act_2007.pdf",
+        "fields": [
+          {
+            "field": "title",
+            "from": "Ministry of Home Affairs",
+            "to": "India Code"
+          },
+          {
+            "field": "url",
+            "from": "https://www.mha.gov.in/sites/default/files/2025-04/NHRCselectedlettersandguidelinesondeathsincustody_09042019_0[1]_4.pdf",
+            "to": "https://www.indiacode.nic.in/bitstream/123456789/11209/1/1094_bihar_bihar_police_act_2007.pdf"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0030",
+        "kind": "Source",
+        "title": "LegitQuest",
+        "state": null,
+        "url": "https://www.legitquest.com/act/the-bihar-police-amendment-act-2014/FBD1",
+        "fields": [
+          {
+            "field": "title",
+            "from": "NHRC",
+            "to": "LegitQuest"
+          },
+          {
+            "field": "url",
+            "from": "https://nhrc.nic.in/press-release/nhrc-issues-fresh-guidelines-regarding-intimation-custodial-death",
+            "to": "https://www.legitquest.com/act/the-bihar-police-amendment-act-2014/FBD1"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0031",
+        "kind": "Source",
+        "title": "CaseMine",
+        "state": null,
+        "url": null,
+        "fields": [
+          {
+            "field": "title",
+            "from": "NHRC",
+            "to": "CaseMine"
+          },
+          {
+            "field": "url",
+            "from": "https://nhrc.nic.in/investigation-division",
+            "to": null
+          },
+          {
+            "field": "retrievedOn",
+            "from": "2026-08-16",
+            "to": null
+          }
+        ]
+      },
+      {
+        "id": "SRC-0032",
+        "kind": "Source",
+        "title": "Ministry of Home Affairs",
+        "state": null,
+        "url": "https://www.mha.gov.in/sites/default/files/2025-04/NHRCselectedlettersandguidelinesondeathsincustody_09042019_0[1]_4.pdf",
+        "fields": [
+          {
+            "field": "title",
+            "from": "commoner-law.com",
+            "to": "Ministry of Home Affairs"
+          },
+          {
+            "field": "url",
+            "from": "https://commoner-law.com/india/police-encounters/encounter-killings-and-custodial-deaths",
+            "to": "https://www.mha.gov.in/sites/default/files/2025-04/NHRCselectedlettersandguidelinesondeathsincustody_09042019_0[1]_4.pdf"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0033",
+        "kind": "Source",
+        "title": "NHRC",
+        "state": null,
+        "url": "https://nhrc.nic.in/press-release/nhrc-issues-fresh-guidelines-regarding-intimation-custodial-death",
+        "fields": [
+          {
+            "field": "title",
+            "from": "Bellingcat",
+            "to": "NHRC"
+          },
+          {
+            "field": "url",
+            "from": "https://www.bellingcat.com/news/americas/2020/10/29/a-new-platform-maps-us-police-violence-against-protesters/",
+            "to": "https://nhrc.nic.in/press-release/nhrc-issues-fresh-guidelines-regarding-intimation-custodial-death"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0034",
+        "kind": "Source",
+        "title": "NHRC",
+        "state": null,
+        "url": "https://nhrc.nic.in/investigation-division",
+        "fields": [
+          {
+            "field": "title",
+            "from": "GIJN",
+            "to": "NHRC"
+          },
+          {
+            "field": "url",
+            "from": "https://gijn.org/stories/how-bellingcat-and-forensic-architecture-teamed-up-with-colombias-cerosetenta-to-map-police-violence/",
+            "to": "https://nhrc.nic.in/investigation-division"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0035",
+        "kind": "Source",
+        "title": "commoner-law.com",
+        "state": null,
+        "url": "https://commoner-law.com/india/police-encounters/encounter-killings-and-custodial-deaths",
+        "fields": [
+          {
+            "field": "title",
+            "from": "The Polis Project",
+            "to": "commoner-law.com"
+          },
+          {
+            "field": "url",
+            "from": "https://thepolisproject.com/research/documenting-custodial-violence-reflections-and-further-research-5/",
+            "to": "https://commoner-law.com/india/police-encounters/encounter-killings-and-custodial-deaths"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0036",
+        "kind": "Source",
+        "title": "Bellingcat",
+        "state": null,
+        "url": "https://www.bellingcat.com/news/americas/2020/10/29/a-new-platform-maps-us-police-violence-against-protesters/",
+        "fields": [
+          {
+            "field": "title",
+            "from": "Wikipedia",
+            "to": "Bellingcat"
+          },
+          {
+            "field": "url",
+            "from": "https://en.wikipedia.org/wiki/DOTO_Database",
+            "to": "https://www.bellingcat.com/news/americas/2020/10/29/a-new-platform-maps-us-police-violence-against-protesters/"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0037",
+        "kind": "Source",
+        "title": "GIJN",
+        "state": null,
+        "url": "https://gijn.org/stories/how-bellingcat-and-forensic-architecture-teamed-up-with-colombias-cerosetenta-to-map-police-violence/",
+        "fields": [
+          {
+            "field": "title",
+            "from": "Common Cause and CSDS",
+            "to": "GIJN"
+          },
+          {
+            "field": "url",
+            "from": "https://www.commoncause.in/wotadmin/upload/SPIR_2025.pdf",
+            "to": "https://gijn.org/stories/how-bellingcat-and-forensic-architecture-teamed-up-with-colombias-cerosetenta-to-map-police-violence/"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0038",
+        "kind": "Source",
+        "title": "The Polis Project",
+        "state": null,
+        "url": "https://thepolisproject.com/research/documenting-custodial-violence-reflections-and-further-research-5/",
+        "fields": [
+          {
+            "field": "title",
+            "from": "Sage",
+            "to": "The Polis Project"
+          },
+          {
+            "field": "url",
+            "from": "https://journals.sagepub.com/doi/abs/10.1177/00699659231208696",
+            "to": "https://thepolisproject.com/research/documenting-custodial-violence-reflections-and-further-research-5/"
+          }
+        ]
+      }
+    ],
+    "summary": "7 records added · 1 state changed · 31 records edited"
+  },
+  {
+    "commit": "57cdcc175b",
+    "date": "2026-08-18T13:52:53Z",
+    "subject": "The archive's first primary document, and it settles a conflict",
+    "added": [
+      {
+        "id": "PROC-DEL-002",
+        "kind": "Evidence",
+        "title": "Delhi High Court listed W.P.(CRL) 2127/2026 with CRL.M.A. 21282/2026 and CRL.M.A. 21283/2026, Shakeel Abbas v. Union of India and Ors., at item 54 of the supple",
+        "state": "VERIFIED",
+        "url": "evidence.html?id=PROC-DEL-002"
+      },
+      {
+        "id": "SRC-0038",
+        "kind": "Source",
+        "title": "Sage",
+        "state": null,
+        "url": "https://journals.sagepub.com/doi/abs/10.1177/00699659231208696"
+      }
+    ],
+    "removed": [],
+    "changed": [
+      {
+        "id": "PROC-DEL-001",
+        "kind": "Evidence",
+        "title": "Delhi High Court issued notice to Delhi Police and the Union on PILs concerning the 20 and 21 July 2026 police action, directed preservation of records includin",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=PROC-DEL-001",
+        "fields": [
+          {
+            "field": "establishes",
+            "from": "Three independent secondary accounts agree on the bench, the directions and the 11 September 2026 listing. Two things they do not agree on, and neither is resolved here. (1) The order date. Bar & Bench and Verdictum give 22 July 2026; Li…",
+            "to": "Cause title and case number are now ESTABLISHED from the court's own cause list at PROC-DEL-002: Shakeel Abbas v. Union of India and Ors., W.P.(CRL) 2127/2026, listed 22 July 2026 before the Chief Justice and Justice Tejas Karia. That re…"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0015",
+        "kind": "Source",
+        "title": "High Court of Delhi",
+        "state": null,
+        "url": "https://delhihighcourt.nic.in/files/2026-07/cause-list/combined_cause_list_22.07.2026.pdf",
+        "fields": [
+          {
+            "field": "title",
+            "from": "India Code",
+            "to": "High Court of Delhi"
+          },
+          {
+            "field": "url",
+            "from": "https://www.indiacode.nic.in/bitstream/123456789/20340/1/bnss,_2023.pdf",
+            "to": "https://delhihighcourt.nic.in/files/2026-07/cause-list/combined_cause_list_22.07.2026.pdf"
+          },
+          {
+            "field": "retrievedOn",
+            "from": "2026-08-16",
+            "to": "2026-08-18"
+          },
+          {
+            "field": "sha256",
+            "from": null,
+            "to": "d3a67d1b69d68f62bc4e462bb6dbc79ae0ea5eeb5c40cd7fcd418ba09b74b6d4"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0016",
+        "kind": "Source",
+        "title": "India Code",
+        "state": null,
+        "url": "https://www.indiacode.nic.in/bitstream/123456789/20340/1/bnss,_2023.pdf",
+        "fields": [
+          {
+            "field": "title",
+            "from": "Bureau of Police Research and Development",
+            "to": "India Code"
+          },
+          {
+            "field": "url",
+            "from": "https://bprd.nic.in/uploads/pdf/Comparison%20summary%20BNSS%20to%20CrPC.pdf",
+            "to": "https://www.indiacode.nic.in/bitstream/123456789/20340/1/bnss,_2023.pdf"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0017",
+        "kind": "Source",
+        "title": "Bureau of Police Research and Development",
+        "state": null,
+        "url": "https://bprd.nic.in/uploads/pdf/Comparison%20summary%20BNSS%20to%20CrPC.pdf",
+        "fields": [
+          {
+            "field": "title",
+            "from": "Uttar Pradesh Police",
+            "to": "Bureau of Police Research and Development"
+          },
+          {
+            "field": "url",
+            "from": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202407031502194192BNSS2023-20-45.pdf",
+            "to": "https://bprd.nic.in/uploads/pdf/Comparison%20summary%20BNSS%20to%20CrPC.pdf"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0018",
+        "kind": "Source",
+        "title": "Uttar Pradesh Police",
+        "state": null,
+        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202407031502194192BNSS2023-20-45.pdf",
+        "fields": [
+          {
+            "field": "title",
+            "from": "onlinelawconnect",
+            "to": "Uttar Pradesh Police"
+          },
+          {
+            "field": "url",
+            "from": "https://onlinelawconnect.com/actsandrules/criminal/bnss/SummaryChapter11.php",
+            "to": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202407031502194192BNSS2023-20-45.pdf"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0019",
+        "kind": "Source",
+        "title": "onlinelawconnect",
+        "state": null,
+        "url": "https://onlinelawconnect.com/actsandrules/criminal/bnss/SummaryChapter11.php",
+        "fields": [
+          {
+            "field": "title",
+            "from": "Justice Definitions Project",
+            "to": "onlinelawconnect"
+          },
+          {
+            "field": "url",
+            "from": "https://www.lawandjusticewiki.org/wiki/Extra-judicial_killings",
+            "to": "https://onlinelawconnect.com/actsandrules/criminal/bnss/SummaryChapter11.php"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0020",
+        "kind": "Source",
+        "title": "Justice Definitions Project",
+        "state": null,
+        "url": "https://www.lawandjusticewiki.org/wiki/Extra-judicial_killings",
+        "fields": [
+          {
+            "field": "title",
+            "from": "ApniLaw",
+            "to": "Justice Definitions Project"
+          },
+          {
+            "field": "url",
+            "from": "https://www.apnilaw.com/bare-act/bnss/section-196-bharatiya-nagarik-suraksha-sanhitabnss-inquiry-by-magistrate-into-cause-of-death/",
+            "to": "https://www.lawandjusticewiki.org/wiki/Extra-judicial_killings"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0021",
+        "kind": "Source",
+        "title": "ApniLaw",
+        "state": null,
+        "url": "https://www.apnilaw.com/bare-act/bnss/section-196-bharatiya-nagarik-suraksha-sanhitabnss-inquiry-by-magistrate-into-cause-of-death/",
+        "fields": [
+          {
+            "field": "title",
+            "from": "India Code",
+            "to": "ApniLaw"
+          },
+          {
+            "field": "url",
+            "from": "https://www.indiacode.nic.in/bitstream/123456789/13669/1/delhi_police_act.pdf",
+            "to": "https://www.apnilaw.com/bare-act/bnss/section-196-bharatiya-nagarik-suraksha-sanhitabnss-inquiry-by-magistrate-into-cause-of-death/"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0022",
+        "kind": "Source",
+        "title": "India Code",
+        "state": null,
+        "url": "https://www.indiacode.nic.in/bitstream/123456789/13669/1/delhi_police_act.pdf",
+        "fields": [
+          {
+            "field": "title",
+            "from": "indianemployees.com",
+            "to": "India Code"
+          },
+          {
+            "field": "url",
+            "from": "https://www.indianemployees.com/acts-rules/details/delhi-police-act-1978",
+            "to": "https://www.indiacode.nic.in/bitstream/123456789/13669/1/delhi_police_act.pdf"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0023",
+        "kind": "Source",
+        "title": "indianemployees.com",
+        "state": null,
+        "url": "https://www.indianemployees.com/acts-rules/details/delhi-police-act-1978",
+        "fields": [
+          {
+            "field": "title",
+            "from": "India Code",
+            "to": "indianemployees.com"
+          },
+          {
+            "field": "url",
+            "from": "https://www.indiacode.nic.in/bitstream/123456789/20371/1/ashtra_police.pdf",
+            "to": "https://www.indianemployees.com/acts-rules/details/delhi-police-act-1978"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0024",
+        "kind": "Source",
+        "title": "India Code",
+        "state": null,
+        "url": "https://www.indiacode.nic.in/bitstream/123456789/20371/1/ashtra_police.pdf",
+        "fields": [
+          {
+            "field": "title",
+            "from": "Gurukul Nexus",
+            "to": "India Code"
+          },
+          {
+            "field": "url",
+            "from": "https://blog.gurukulnexus.com/police-regulations-maharashtra-police-act-public-order/",
+            "to": "https://www.indiacode.nic.in/bitstream/123456789/20371/1/ashtra_police.pdf"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0025",
+        "kind": "Source",
+        "title": "Gurukul Nexus",
+        "state": null,
+        "url": "https://blog.gurukulnexus.com/police-regulations-maharashtra-police-act-public-order/",
+        "fields": [
+          {
+            "field": "title",
+            "from": "India Code",
+            "to": "Gurukul Nexus"
+          },
+          {
+            "field": "url",
+            "from": "https://www.indiacode.nic.in/bitstream/123456789/11209/1/1094_bihar_bihar_police_act_2007.pdf",
+            "to": "https://blog.gurukulnexus.com/police-regulations-maharashtra-police-act-public-order/"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0026",
+        "kind": "Source",
+        "title": "India Code",
+        "state": null,
+        "url": "https://www.indiacode.nic.in/bitstream/123456789/11209/1/1094_bihar_bihar_police_act_2007.pdf",
+        "fields": [
+          {
+            "field": "title",
+            "from": "LegitQuest",
+            "to": "India Code"
+          },
+          {
+            "field": "url",
+            "from": "https://www.legitquest.com/act/the-bihar-police-amendment-act-2014/FBD1",
+            "to": "https://www.indiacode.nic.in/bitstream/123456789/11209/1/1094_bihar_bihar_police_act_2007.pdf"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0027",
+        "kind": "Source",
+        "title": "LegitQuest",
+        "state": null,
+        "url": "https://www.legitquest.com/act/the-bihar-police-amendment-act-2014/FBD1",
+        "fields": [
+          {
+            "field": "title",
+            "from": "CaseMine",
+            "to": "LegitQuest"
+          },
+          {
+            "field": "url",
+            "from": null,
+            "to": "https://www.legitquest.com/act/the-bihar-police-amendment-act-2014/FBD1"
+          },
+          {
+            "field": "retrievedOn",
+            "from": null,
+            "to": "2026-08-16"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0028",
+        "kind": "Source",
+        "title": "CaseMine",
+        "state": null,
+        "url": null,
+        "fields": [
+          {
+            "field": "title",
+            "from": "Ministry of Home Affairs",
+            "to": "CaseMine"
+          },
+          {
+            "field": "url",
+            "from": "https://www.mha.gov.in/sites/default/files/2025-04/NHRCselectedlettersandguidelinesondeathsincustody_09042019_0[1]_4.pdf",
+            "to": null
+          },
+          {
+            "field": "retrievedOn",
+            "from": "2026-08-16",
+            "to": null
+          }
+        ]
+      },
+      {
+        "id": "SRC-0029",
+        "kind": "Source",
+        "title": "Ministry of Home Affairs",
+        "state": null,
+        "url": "https://www.mha.gov.in/sites/default/files/2025-04/NHRCselectedlettersandguidelinesondeathsincustody_09042019_0[1]_4.pdf",
+        "fields": [
+          {
+            "field": "title",
+            "from": "NHRC",
+            "to": "Ministry of Home Affairs"
+          },
+          {
+            "field": "url",
+            "from": "https://nhrc.nic.in/press-release/nhrc-issues-fresh-guidelines-regarding-intimation-custodial-death",
+            "to": "https://www.mha.gov.in/sites/default/files/2025-04/NHRCselectedlettersandguidelinesondeathsincustody_09042019_0[1]_4.pdf"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0030",
+        "kind": "Source",
+        "title": "NHRC",
+        "state": null,
+        "url": "https://nhrc.nic.in/press-release/nhrc-issues-fresh-guidelines-regarding-intimation-custodial-death",
+        "fields": [
+          {
+            "field": "url",
+            "from": "https://nhrc.nic.in/investigation-division",
+            "to": "https://nhrc.nic.in/press-release/nhrc-issues-fresh-guidelines-regarding-intimation-custodial-death"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0031",
+        "kind": "Source",
+        "title": "NHRC",
+        "state": null,
+        "url": "https://nhrc.nic.in/investigation-division",
+        "fields": [
+          {
+            "field": "title",
+            "from": "commoner-law.com",
+            "to": "NHRC"
+          },
+          {
+            "field": "url",
+            "from": "https://commoner-law.com/india/police-encounters/encounter-killings-and-custodial-deaths",
+            "to": "https://nhrc.nic.in/investigation-division"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0032",
+        "kind": "Source",
+        "title": "commoner-law.com",
+        "state": null,
+        "url": "https://commoner-law.com/india/police-encounters/encounter-killings-and-custodial-deaths",
+        "fields": [
+          {
+            "field": "title",
+            "from": "Bellingcat",
+            "to": "commoner-law.com"
+          },
+          {
+            "field": "url",
+            "from": "https://www.bellingcat.com/news/americas/2020/10/29/a-new-platform-maps-us-police-violence-against-protesters/",
+            "to": "https://commoner-law.com/india/police-encounters/encounter-killings-and-custodial-deaths"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0033",
+        "kind": "Source",
+        "title": "Bellingcat",
+        "state": null,
+        "url": "https://www.bellingcat.com/news/americas/2020/10/29/a-new-platform-maps-us-police-violence-against-protesters/",
+        "fields": [
+          {
+            "field": "title",
+            "from": "GIJN",
+            "to": "Bellingcat"
+          },
+          {
+            "field": "url",
+            "from": "https://gijn.org/stories/how-bellingcat-and-forensic-architecture-teamed-up-with-colombias-cerosetenta-to-map-police-violence/",
+            "to": "https://www.bellingcat.com/news/americas/2020/10/29/a-new-platform-maps-us-police-violence-against-protesters/"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0034",
+        "kind": "Source",
+        "title": "GIJN",
+        "state": null,
+        "url": "https://gijn.org/stories/how-bellingcat-and-forensic-architecture-teamed-up-with-colombias-cerosetenta-to-map-police-violence/",
+        "fields": [
+          {
+            "field": "title",
+            "from": "The Polis Project",
+            "to": "GIJN"
+          },
+          {
+            "field": "url",
+            "from": "https://thepolisproject.com/research/documenting-custodial-violence-reflections-and-further-research-5/",
+            "to": "https://gijn.org/stories/how-bellingcat-and-forensic-architecture-teamed-up-with-colombias-cerosetenta-to-map-police-violence/"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0035",
+        "kind": "Source",
+        "title": "The Polis Project",
+        "state": null,
+        "url": "https://thepolisproject.com/research/documenting-custodial-violence-reflections-and-further-research-5/",
+        "fields": [
+          {
+            "field": "title",
+            "from": "Wikipedia",
+            "to": "The Polis Project"
+          },
+          {
+            "field": "url",
+            "from": "https://en.wikipedia.org/wiki/DOTO_Database",
+            "to": "https://thepolisproject.com/research/documenting-custodial-violence-reflections-and-further-research-5/"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0036",
+        "kind": "Source",
+        "title": "Wikipedia",
+        "state": null,
+        "url": "https://en.wikipedia.org/wiki/DOTO_Database",
+        "fields": [
+          {
+            "field": "title",
+            "from": "Common Cause and CSDS",
+            "to": "Wikipedia"
+          },
+          {
+            "field": "url",
+            "from": "https://www.commoncause.in/wotadmin/upload/SPIR_2025.pdf",
+            "to": "https://en.wikipedia.org/wiki/DOTO_Database"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0037",
+        "kind": "Source",
+        "title": "Common Cause and CSDS",
+        "state": null,
+        "url": "https://www.commoncause.in/wotadmin/upload/SPIR_2025.pdf",
+        "fields": [
+          {
+            "field": "title",
+            "from": "Sage",
+            "to": "Common Cause and CSDS"
+          },
+          {
+            "field": "url",
+            "from": "https://journals.sagepub.com/doi/abs/10.1177/00699659231208696",
+            "to": "https://www.commoncause.in/wotadmin/upload/SPIR_2025.pdf"
+          }
+        ]
+      },
+      {
+        "id": "OQ-004",
+        "kind": "Question",
+        "title": "The TEXT of the Delhi High Court order of 22 July 2026 in W.P.(CRL) 2127/2026, and which petitions were heard with it.",
+        "state": "UNANSWERED",
+        "url": "investigation.html?id=jantar-mantar#OQ-004",
+        "fields": [
+          {
+            "field": "title",
+            "from": "The text of the Delhi High Court order of 22 July 2026, and the correct cause title and writ petition numbers of every connected matter.",
+            "to": "The TEXT of the Delhi High Court order of 22 July 2026 in W.P.(CRL) 2127/2026, and which petitions were heard with it."
+          }
+        ]
+      }
+    ],
+    "summary": "2 records added · 25 records edited"
+  },
+  {
+    "commit": "ea36e76409",
+    "date": "2026-08-18T02:04:42Z",
+    "subject": "Put the NHRC proceeding on the website, where it was never reaching",
+    "added": [
+      {
+        "id": "OVR-NHRC-001",
+        "kind": "Evidence",
+        "title": "NHRC took suo motu cognisance by order dated 25 July 2026 and issued notice to the Commissioner of Police, Delhi, directing a detailed report within two weeks. ",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=OVR-NHRC-001"
+      },
+      {
+        "id": "OVR-NHRC-002",
+        "kind": "Evidence",
+        "title": "A complaint was filed with the NHRC by Supreme Court advocate Virender Vashisht on or about 22 July 2026 seeking an independent inquiry by the Commission's Inve",
+        "state": "REPORTED",
+        "url": "evidence.html?id=OVR-NHRC-002"
+      },
+      {
+        "id": "OVR-BIH-001",
+        "kind": "Evidence",
+        "title": "Whether NHRC or Bihar SHRC has taken cognisance of the Bihar incidents.",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=OVR-BIH-001"
+      },
+      {
+        "id": "OVR-007",
+        "kind": "Evidence",
+        "title": "NHRC diary or case numbers for the suo motu proceeding at OVR-NHRC-001 and the complaint at OVR-NHRC-002.",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=OVR-007"
+      },
+      {
+        "id": "SRC-0034",
+        "kind": "Source",
+        "title": "The Polis Project",
+        "state": null,
+        "url": "https://thepolisproject.com/research/documenting-custodial-violence-reflections-and-further-research-5/"
+      },
+      {
+        "id": "SRC-0035",
+        "kind": "Source",
+        "title": "Wikipedia",
+        "state": null,
+        "url": "https://en.wikipedia.org/wiki/DOTO_Database"
+      },
+      {
+        "id": "SRC-0036",
+        "kind": "Source",
+        "title": "Common Cause and CSDS",
+        "state": null,
+        "url": "https://www.commoncause.in/wotadmin/upload/SPIR_2025.pdf"
+      },
+      {
+        "id": "SRC-0037",
+        "kind": "Source",
+        "title": "Sage",
+        "state": null,
+        "url": "https://journals.sagepub.com/doi/abs/10.1177/00699659231208696"
+      }
+    ],
+    "removed": [],
+    "changed": [
+      {
+        "id": "SRC-0011",
+        "kind": "Source",
+        "title": "Bar & Bench",
+        "state": null,
+        "url": "https://www.barandbench.com/news/litigation/nhrc-takes-suo-motu-cognisance-of-delhi-police-excesses-during-jantar-mantar-protests",
+        "fields": [
+          {
+            "field": "title",
+            "from": "India Code",
+            "to": "Bar & Bench"
+          },
+          {
+            "field": "url",
+            "from": "https://www.indiacode.nic.in/bitstream/123456789/20340/1/bnss,_2023.pdf",
+            "to": "https://www.barandbench.com/news/litigation/nhrc-takes-suo-motu-cognisance-of-delhi-police-excesses-during-jantar-mantar-protests"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0012",
+        "kind": "Source",
+        "title": "India Legal",
+        "state": null,
+        "url": "https://indialegallive.com/constitutional-law-news/courts-news/nhrc-takes-suo-motu-cognisance-of-alleged-police-excess-during-cjp-protest-seeks-report-from-delhi-police/",
+        "fields": [
+          {
+            "field": "title",
+            "from": "Bureau of Police Research and Development",
+            "to": "India Legal"
+          },
+          {
+            "field": "url",
+            "from": "https://bprd.nic.in/uploads/pdf/Comparison%20summary%20BNSS%20to%20CrPC.pdf",
+            "to": "https://indialegallive.com/constitutional-law-news/courts-news/nhrc-takes-suo-motu-cognisance-of-alleged-police-excess-during-cjp-protest-seeks-report-from-delhi-police/"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0013",
+        "kind": "Source",
+        "title": "Deccan Chronicle",
+        "state": null,
+        "url": "https://www.deccanchronicle.com/nation/current-affairs/nhrc-takes-suo-motu-cognisance-of-police-action-during-cjp-protest-1974561",
+        "fields": [
+          {
+            "field": "title",
+            "from": "Uttar Pradesh Police",
+            "to": "Deccan Chronicle"
+          },
+          {
+            "field": "url",
+            "from": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202407031502194192BNSS2023-20-45.pdf",
+            "to": "https://www.deccanchronicle.com/nation/current-affairs/nhrc-takes-suo-motu-cognisance-of-police-action-during-cjp-protest-1974561"
+          },
+          {
+            "field": "retrievedOn",
+            "from": "2026-08-16",
+            "to": "2026-08-18"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0014",
+        "kind": "Source",
+        "title": "ANI via IndiasNews",
+        "state": null,
+        "url": "https://www.indiasnews.net/news/279202613/complaint-filed-with-nhrc-seeking-independent-inquiry-into-police-action-at-jantar-mantar",
+        "fields": [
+          {
+            "field": "title",
+            "from": "onlinelawconnect",
+            "to": "ANI via IndiasNews"
+          },
+          {
+            "field": "url",
+            "from": "https://onlinelawconnect.com/actsandrules/criminal/bnss/SummaryChapter11.php",
+            "to": "https://www.indiasnews.net/news/279202613/complaint-filed-with-nhrc-seeking-independent-inquiry-into-police-action-at-jantar-mantar"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0015",
+        "kind": "Source",
+        "title": "India Code",
+        "state": null,
+        "url": "https://www.indiacode.nic.in/bitstream/123456789/20340/1/bnss,_2023.pdf",
+        "fields": [
+          {
+            "field": "title",
+            "from": "Justice Definitions Project",
+            "to": "India Code"
+          },
+          {
+            "field": "url",
+            "from": "https://www.lawandjusticewiki.org/wiki/Extra-judicial_killings",
+            "to": "https://www.indiacode.nic.in/bitstream/123456789/20340/1/bnss,_2023.pdf"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0016",
+        "kind": "Source",
+        "title": "Bureau of Police Research and Development",
+        "state": null,
+        "url": "https://bprd.nic.in/uploads/pdf/Comparison%20summary%20BNSS%20to%20CrPC.pdf",
+        "fields": [
+          {
+            "field": "title",
+            "from": "ApniLaw",
+            "to": "Bureau of Police Research and Development"
+          },
+          {
+            "field": "url",
+            "from": "https://www.apnilaw.com/bare-act/bnss/section-196-bharatiya-nagarik-suraksha-sanhitabnss-inquiry-by-magistrate-into-cause-of-death/",
+            "to": "https://bprd.nic.in/uploads/pdf/Comparison%20summary%20BNSS%20to%20CrPC.pdf"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0017",
+        "kind": "Source",
+        "title": "Uttar Pradesh Police",
+        "state": null,
+        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202407031502194192BNSS2023-20-45.pdf",
+        "fields": [
+          {
+            "field": "title",
+            "from": "India Code",
+            "to": "Uttar Pradesh Police"
+          },
+          {
+            "field": "url",
+            "from": "https://www.indiacode.nic.in/bitstream/123456789/13669/1/delhi_police_act.pdf",
+            "to": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202407031502194192BNSS2023-20-45.pdf"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0018",
+        "kind": "Source",
+        "title": "onlinelawconnect",
+        "state": null,
+        "url": "https://onlinelawconnect.com/actsandrules/criminal/bnss/SummaryChapter11.php",
+        "fields": [
+          {
+            "field": "title",
+            "from": "indianemployees.com",
+            "to": "onlinelawconnect"
+          },
+          {
+            "field": "url",
+            "from": "https://www.indianemployees.com/acts-rules/details/delhi-police-act-1978",
+            "to": "https://onlinelawconnect.com/actsandrules/criminal/bnss/SummaryChapter11.php"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0019",
+        "kind": "Source",
+        "title": "Justice Definitions Project",
+        "state": null,
+        "url": "https://www.lawandjusticewiki.org/wiki/Extra-judicial_killings",
+        "fields": [
+          {
+            "field": "title",
+            "from": "India Code",
+            "to": "Justice Definitions Project"
+          },
+          {
+            "field": "url",
+            "from": "https://www.indiacode.nic.in/bitstream/123456789/20371/1/ashtra_police.pdf",
+            "to": "https://www.lawandjusticewiki.org/wiki/Extra-judicial_killings"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0020",
+        "kind": "Source",
+        "title": "ApniLaw",
+        "state": null,
+        "url": "https://www.apnilaw.com/bare-act/bnss/section-196-bharatiya-nagarik-suraksha-sanhitabnss-inquiry-by-magistrate-into-cause-of-death/",
+        "fields": [
+          {
+            "field": "title",
+            "from": "Gurukul Nexus",
+            "to": "ApniLaw"
+          },
+          {
+            "field": "url",
+            "from": "https://blog.gurukulnexus.com/police-regulations-maharashtra-police-act-public-order/",
+            "to": "https://www.apnilaw.com/bare-act/bnss/section-196-bharatiya-nagarik-suraksha-sanhitabnss-inquiry-by-magistrate-into-cause-of-death/"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0021",
+        "kind": "Source",
+        "title": "India Code",
+        "state": null,
+        "url": "https://www.indiacode.nic.in/bitstream/123456789/13669/1/delhi_police_act.pdf",
+        "fields": [
+          {
+            "field": "url",
+            "from": "https://www.indiacode.nic.in/bitstream/123456789/11209/1/1094_bihar_bihar_police_act_2007.pdf",
+            "to": "https://www.indiacode.nic.in/bitstream/123456789/13669/1/delhi_police_act.pdf"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0022",
+        "kind": "Source",
+        "title": "indianemployees.com",
+        "state": null,
+        "url": "https://www.indianemployees.com/acts-rules/details/delhi-police-act-1978",
+        "fields": [
+          {
+            "field": "title",
+            "from": "LegitQuest",
+            "to": "indianemployees.com"
+          },
+          {
+            "field": "url",
+            "from": "https://www.legitquest.com/act/the-bihar-police-amendment-act-2014/FBD1",
+            "to": "https://www.indianemployees.com/acts-rules/details/delhi-police-act-1978"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0023",
+        "kind": "Source",
+        "title": "India Code",
+        "state": null,
+        "url": "https://www.indiacode.nic.in/bitstream/123456789/20371/1/ashtra_police.pdf",
+        "fields": [
+          {
+            "field": "title",
+            "from": "CaseMine",
+            "to": "India Code"
+          },
+          {
+            "field": "url",
+            "from": null,
+            "to": "https://www.indiacode.nic.in/bitstream/123456789/20371/1/ashtra_police.pdf"
+          },
+          {
+            "field": "retrievedOn",
+            "from": null,
+            "to": "2026-08-16"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0024",
+        "kind": "Source",
+        "title": "Gurukul Nexus",
+        "state": null,
+        "url": "https://blog.gurukulnexus.com/police-regulations-maharashtra-police-act-public-order/",
+        "fields": [
+          {
+            "field": "title",
+            "from": "Ministry of Home Affairs",
+            "to": "Gurukul Nexus"
+          },
+          {
+            "field": "url",
+            "from": "https://www.mha.gov.in/sites/default/files/2025-04/NHRCselectedlettersandguidelinesondeathsincustody_09042019_0[1]_4.pdf",
+            "to": "https://blog.gurukulnexus.com/police-regulations-maharashtra-police-act-public-order/"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0025",
+        "kind": "Source",
+        "title": "India Code",
+        "state": null,
+        "url": "https://www.indiacode.nic.in/bitstream/123456789/11209/1/1094_bihar_bihar_police_act_2007.pdf",
+        "fields": [
+          {
+            "field": "title",
+            "from": "NHRC",
+            "to": "India Code"
+          },
+          {
+            "field": "url",
+            "from": "https://nhrc.nic.in/press-release/nhrc-issues-fresh-guidelines-regarding-intimation-custodial-death",
+            "to": "https://www.indiacode.nic.in/bitstream/123456789/11209/1/1094_bihar_bihar_police_act_2007.pdf"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0026",
+        "kind": "Source",
+        "title": "LegitQuest",
+        "state": null,
+        "url": "https://www.legitquest.com/act/the-bihar-police-amendment-act-2014/FBD1",
+        "fields": [
+          {
+            "field": "title",
+            "from": "NHRC",
+            "to": "LegitQuest"
+          },
+          {
+            "field": "url",
+            "from": "https://nhrc.nic.in/investigation-division",
+            "to": "https://www.legitquest.com/act/the-bihar-police-amendment-act-2014/FBD1"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0027",
+        "kind": "Source",
+        "title": "CaseMine",
+        "state": null,
+        "url": null,
+        "fields": [
+          {
+            "field": "title",
+            "from": "commoner-law.com",
+            "to": "CaseMine"
+          },
+          {
+            "field": "url",
+            "from": "https://commoner-law.com/india/police-encounters/encounter-killings-and-custodial-deaths",
+            "to": null
+          },
+          {
+            "field": "retrievedOn",
+            "from": "2026-08-16",
+            "to": null
+          }
+        ]
+      },
+      {
+        "id": "SRC-0028",
+        "kind": "Source",
+        "title": "Ministry of Home Affairs",
+        "state": null,
+        "url": "https://www.mha.gov.in/sites/default/files/2025-04/NHRCselectedlettersandguidelinesondeathsincustody_09042019_0[1]_4.pdf",
+        "fields": [
+          {
+            "field": "title",
+            "from": "Bellingcat",
+            "to": "Ministry of Home Affairs"
+          },
+          {
+            "field": "url",
+            "from": "https://www.bellingcat.com/news/americas/2020/10/29/a-new-platform-maps-us-police-violence-against-protesters/",
+            "to": "https://www.mha.gov.in/sites/default/files/2025-04/NHRCselectedlettersandguidelinesondeathsincustody_09042019_0[1]_4.pdf"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0029",
+        "kind": "Source",
+        "title": "NHRC",
+        "state": null,
+        "url": "https://nhrc.nic.in/press-release/nhrc-issues-fresh-guidelines-regarding-intimation-custodial-death",
+        "fields": [
+          {
+            "field": "title",
+            "from": "GIJN",
+            "to": "NHRC"
+          },
+          {
+            "field": "url",
+            "from": "https://gijn.org/stories/how-bellingcat-and-forensic-architecture-teamed-up-with-colombias-cerosetenta-to-map-police-violence/",
+            "to": "https://nhrc.nic.in/press-release/nhrc-issues-fresh-guidelines-regarding-intimation-custodial-death"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0030",
+        "kind": "Source",
+        "title": "NHRC",
+        "state": null,
+        "url": "https://nhrc.nic.in/investigation-division",
+        "fields": [
+          {
+            "field": "title",
+            "from": "The Polis Project",
+            "to": "NHRC"
+          },
+          {
+            "field": "url",
+            "from": "https://thepolisproject.com/research/documenting-custodial-violence-reflections-and-further-research-5/",
+            "to": "https://nhrc.nic.in/investigation-division"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0031",
+        "kind": "Source",
+        "title": "commoner-law.com",
+        "state": null,
+        "url": "https://commoner-law.com/india/police-encounters/encounter-killings-and-custodial-deaths",
+        "fields": [
+          {
+            "field": "title",
+            "from": "Wikipedia",
+            "to": "commoner-law.com"
+          },
+          {
+            "field": "url",
+            "from": "https://en.wikipedia.org/wiki/DOTO_Database",
+            "to": "https://commoner-law.com/india/police-encounters/encounter-killings-and-custodial-deaths"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0032",
+        "kind": "Source",
+        "title": "Bellingcat",
+        "state": null,
+        "url": "https://www.bellingcat.com/news/americas/2020/10/29/a-new-platform-maps-us-police-violence-against-protesters/",
+        "fields": [
+          {
+            "field": "title",
+            "from": "Common Cause and CSDS",
+            "to": "Bellingcat"
+          },
+          {
+            "field": "url",
+            "from": "https://www.commoncause.in/wotadmin/upload/SPIR_2025.pdf",
+            "to": "https://www.bellingcat.com/news/americas/2020/10/29/a-new-platform-maps-us-police-violence-against-protesters/"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0033",
+        "kind": "Source",
+        "title": "GIJN",
+        "state": null,
+        "url": "https://gijn.org/stories/how-bellingcat-and-forensic-architecture-teamed-up-with-colombias-cerosetenta-to-map-police-violence/",
+        "fields": [
+          {
+            "field": "title",
+            "from": "Sage",
+            "to": "GIJN"
+          },
+          {
+            "field": "url",
+            "from": "https://journals.sagepub.com/doi/abs/10.1177/00699659231208696",
+            "to": "https://gijn.org/stories/how-bellingcat-and-forensic-architecture-teamed-up-with-colombias-cerosetenta-to-map-police-violence/"
+          }
+        ]
+      }
+    ],
+    "summary": "8 records added · 23 records edited"
+  },
+  {
+    "commit": "964340377e",
+    "date": "2026-08-18T01:53:58Z",
+    "subject": "Source the Delhi High Court and NHRC proceedings properly",
+    "added": [
+      {
+        "id": "SRC-0033",
+        "kind": "Source",
+        "title": "Sage",
+        "state": null,
+        "url": "https://journals.sagepub.com/doi/abs/10.1177/00699659231208696"
+      }
+    ],
+    "removed": [],
+    "changed": [
+      {
+        "id": "PROC-DEL-001",
+        "kind": "Evidence",
+        "title": "Delhi High Court issued notice to Delhi Police and the Union on PILs concerning the 20 and 21 July 2026 police action, directed preservation of records includin",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=PROC-DEL-001",
+        "fields": [
+          {
+            "field": "establishes",
+            "from": "PROMOTE TO VERIFIED on retrieval of the order from delhihighcourt.nic.in. Case number and bench composition are from secondary reporting only and must not be cited as VERIFIED until the order is held.",
+            "to": "Three independent secondary accounts agree on the bench, the directions and the 11 September 2026 listing. Two things they do not agree on, and neither is resolved here. (1) The order date. Bar & Bench and Verdictum give 22 July 2026; Li…"
+          },
+          {
+            "field": "sourceIds",
+            "from": "SRC-0007, SRC-0001, SRC-0008",
+            "to": "SRC-0007, SRC-0001, SRC-0008, SRC-0009"
+          }
+        ]
+      },
+      {
+        "id": "PROC-SC-001",
+        "kind": "Evidence",
+        "title": "Supreme Court proceedings on petitions concerning police action at Jantar Mantar and elsewhere; petitions allege lathi charge, pellet guns, rubber bullets, tear",
+        "state": "REPORTED",
+        "url": "evidence.html?id=PROC-SC-001",
+        "fields": [
+          {
+            "field": "sourceIds",
+            "from": "SRC-0009",
+            "to": "SRC-0010"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0009",
+        "kind": "Source",
+        "title": "LiveLaw",
+        "state": null,
+        "url": "https://www.livelaw.in/high-court/delhi-high-court/jantar-mantar-protest-delhi-police-force-response-cctv-preservation-ordered-cjp-march-neet-leak-542382",
+        "fields": [
+          {
+            "field": "title",
+            "from": "SCC Online blog",
+            "to": "LiveLaw"
+          },
+          {
+            "field": "url",
+            "from": "https://www.scconline.com/blog/post/2026/07/29/neet-paper-leak-protest-proceedings-sc-interim-directions-police-violence/",
+            "to": "https://www.livelaw.in/high-court/delhi-high-court/jantar-mantar-protest-delhi-police-force-response-cctv-preservation-ordered-cjp-march-neet-leak-542382"
+          },
+          {
+            "field": "retrievedOn",
+            "from": "2026-08-16",
+            "to": "2026-08-18"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0010",
+        "kind": "Source",
+        "title": "SCC Online blog",
+        "state": null,
+        "url": "https://www.scconline.com/blog/post/2026/07/29/neet-paper-leak-protest-proceedings-sc-interim-directions-police-violence/",
+        "fields": [
+          {
+            "field": "title",
+            "from": "India Code",
+            "to": "SCC Online blog"
+          },
+          {
+            "field": "url",
+            "from": "https://www.indiacode.nic.in/bitstream/123456789/20340/1/bnss,_2023.pdf",
+            "to": "https://www.scconline.com/blog/post/2026/07/29/neet-paper-leak-protest-proceedings-sc-interim-directions-police-violence/"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0011",
+        "kind": "Source",
+        "title": "India Code",
+        "state": null,
+        "url": "https://www.indiacode.nic.in/bitstream/123456789/20340/1/bnss,_2023.pdf",
+        "fields": [
+          {
+            "field": "title",
+            "from": "Bureau of Police Research and Development",
+            "to": "India Code"
+          },
+          {
+            "field": "url",
+            "from": "https://bprd.nic.in/uploads/pdf/Comparison%20summary%20BNSS%20to%20CrPC.pdf",
+            "to": "https://www.indiacode.nic.in/bitstream/123456789/20340/1/bnss,_2023.pdf"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0012",
+        "kind": "Source",
+        "title": "Bureau of Police Research and Development",
+        "state": null,
+        "url": "https://bprd.nic.in/uploads/pdf/Comparison%20summary%20BNSS%20to%20CrPC.pdf",
+        "fields": [
+          {
+            "field": "title",
+            "from": "Uttar Pradesh Police",
+            "to": "Bureau of Police Research and Development"
+          },
+          {
+            "field": "url",
+            "from": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202407031502194192BNSS2023-20-45.pdf",
+            "to": "https://bprd.nic.in/uploads/pdf/Comparison%20summary%20BNSS%20to%20CrPC.pdf"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0013",
+        "kind": "Source",
+        "title": "Uttar Pradesh Police",
+        "state": null,
+        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202407031502194192BNSS2023-20-45.pdf",
+        "fields": [
+          {
+            "field": "title",
+            "from": "onlinelawconnect",
+            "to": "Uttar Pradesh Police"
+          },
+          {
+            "field": "url",
+            "from": "https://onlinelawconnect.com/actsandrules/criminal/bnss/SummaryChapter11.php",
+            "to": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202407031502194192BNSS2023-20-45.pdf"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0014",
+        "kind": "Source",
+        "title": "onlinelawconnect",
+        "state": null,
+        "url": "https://onlinelawconnect.com/actsandrules/criminal/bnss/SummaryChapter11.php",
+        "fields": [
+          {
+            "field": "title",
+            "from": "Justice Definitions Project",
+            "to": "onlinelawconnect"
+          },
+          {
+            "field": "url",
+            "from": "https://www.lawandjusticewiki.org/wiki/Extra-judicial_killings",
+            "to": "https://onlinelawconnect.com/actsandrules/criminal/bnss/SummaryChapter11.php"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0015",
+        "kind": "Source",
+        "title": "Justice Definitions Project",
+        "state": null,
+        "url": "https://www.lawandjusticewiki.org/wiki/Extra-judicial_killings",
+        "fields": [
+          {
+            "field": "title",
+            "from": "ApniLaw",
+            "to": "Justice Definitions Project"
+          },
+          {
+            "field": "url",
+            "from": "https://www.apnilaw.com/bare-act/bnss/section-196-bharatiya-nagarik-suraksha-sanhitabnss-inquiry-by-magistrate-into-cause-of-death/",
+            "to": "https://www.lawandjusticewiki.org/wiki/Extra-judicial_killings"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0016",
+        "kind": "Source",
+        "title": "ApniLaw",
+        "state": null,
+        "url": "https://www.apnilaw.com/bare-act/bnss/section-196-bharatiya-nagarik-suraksha-sanhitabnss-inquiry-by-magistrate-into-cause-of-death/",
+        "fields": [
+          {
+            "field": "title",
+            "from": "India Code",
+            "to": "ApniLaw"
+          },
+          {
+            "field": "url",
+            "from": "https://www.indiacode.nic.in/bitstream/123456789/13669/1/delhi_police_act.pdf",
+            "to": "https://www.apnilaw.com/bare-act/bnss/section-196-bharatiya-nagarik-suraksha-sanhitabnss-inquiry-by-magistrate-into-cause-of-death/"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0017",
+        "kind": "Source",
+        "title": "India Code",
+        "state": null,
+        "url": "https://www.indiacode.nic.in/bitstream/123456789/13669/1/delhi_police_act.pdf",
+        "fields": [
+          {
+            "field": "title",
+            "from": "indianemployees.com",
+            "to": "India Code"
+          },
+          {
+            "field": "url",
+            "from": "https://www.indianemployees.com/acts-rules/details/delhi-police-act-1978",
+            "to": "https://www.indiacode.nic.in/bitstream/123456789/13669/1/delhi_police_act.pdf"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0018",
+        "kind": "Source",
+        "title": "indianemployees.com",
+        "state": null,
+        "url": "https://www.indianemployees.com/acts-rules/details/delhi-police-act-1978",
+        "fields": [
+          {
+            "field": "title",
+            "from": "India Code",
+            "to": "indianemployees.com"
+          },
+          {
+            "field": "url",
+            "from": "https://www.indiacode.nic.in/bitstream/123456789/20371/1/ashtra_police.pdf",
+            "to": "https://www.indianemployees.com/acts-rules/details/delhi-police-act-1978"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0019",
+        "kind": "Source",
+        "title": "India Code",
+        "state": null,
+        "url": "https://www.indiacode.nic.in/bitstream/123456789/20371/1/ashtra_police.pdf",
+        "fields": [
+          {
+            "field": "title",
+            "from": "Gurukul Nexus",
+            "to": "India Code"
+          },
+          {
+            "field": "url",
+            "from": "https://blog.gurukulnexus.com/police-regulations-maharashtra-police-act-public-order/",
+            "to": "https://www.indiacode.nic.in/bitstream/123456789/20371/1/ashtra_police.pdf"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0020",
+        "kind": "Source",
+        "title": "Gurukul Nexus",
+        "state": null,
+        "url": "https://blog.gurukulnexus.com/police-regulations-maharashtra-police-act-public-order/",
+        "fields": [
+          {
+            "field": "title",
+            "from": "India Code",
+            "to": "Gurukul Nexus"
+          },
+          {
+            "field": "url",
+            "from": "https://www.indiacode.nic.in/bitstream/123456789/11209/1/1094_bihar_bihar_police_act_2007.pdf",
+            "to": "https://blog.gurukulnexus.com/police-regulations-maharashtra-police-act-public-order/"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0021",
+        "kind": "Source",
+        "title": "India Code",
+        "state": null,
+        "url": "https://www.indiacode.nic.in/bitstream/123456789/11209/1/1094_bihar_bihar_police_act_2007.pdf",
+        "fields": [
+          {
+            "field": "title",
+            "from": "LegitQuest",
+            "to": "India Code"
+          },
+          {
+            "field": "url",
+            "from": "https://www.legitquest.com/act/the-bihar-police-amendment-act-2014/FBD1",
+            "to": "https://www.indiacode.nic.in/bitstream/123456789/11209/1/1094_bihar_bihar_police_act_2007.pdf"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0022",
+        "kind": "Source",
+        "title": "LegitQuest",
+        "state": null,
+        "url": "https://www.legitquest.com/act/the-bihar-police-amendment-act-2014/FBD1",
+        "fields": [
+          {
+            "field": "title",
+            "from": "CaseMine",
+            "to": "LegitQuest"
+          },
+          {
+            "field": "url",
+            "from": null,
+            "to": "https://www.legitquest.com/act/the-bihar-police-amendment-act-2014/FBD1"
+          },
+          {
+            "field": "retrievedOn",
+            "from": null,
+            "to": "2026-08-16"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0023",
+        "kind": "Source",
+        "title": "CaseMine",
+        "state": null,
+        "url": null,
+        "fields": [
+          {
+            "field": "title",
+            "from": "Ministry of Home Affairs",
+            "to": "CaseMine"
+          },
+          {
+            "field": "url",
+            "from": "https://www.mha.gov.in/sites/default/files/2025-04/NHRCselectedlettersandguidelinesondeathsincustody_09042019_0[1]_4.pdf",
+            "to": null
+          },
+          {
+            "field": "retrievedOn",
+            "from": "2026-08-16",
+            "to": null
+          }
+        ]
+      },
+      {
+        "id": "SRC-0024",
+        "kind": "Source",
+        "title": "Ministry of Home Affairs",
+        "state": null,
+        "url": "https://www.mha.gov.in/sites/default/files/2025-04/NHRCselectedlettersandguidelinesondeathsincustody_09042019_0[1]_4.pdf",
+        "fields": [
+          {
+            "field": "title",
+            "from": "NHRC",
+            "to": "Ministry of Home Affairs"
+          },
+          {
+            "field": "url",
+            "from": "https://nhrc.nic.in/press-release/nhrc-issues-fresh-guidelines-regarding-intimation-custodial-death",
+            "to": "https://www.mha.gov.in/sites/default/files/2025-04/NHRCselectedlettersandguidelinesondeathsincustody_09042019_0[1]_4.pdf"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0025",
+        "kind": "Source",
+        "title": "NHRC",
+        "state": null,
+        "url": "https://nhrc.nic.in/press-release/nhrc-issues-fresh-guidelines-regarding-intimation-custodial-death",
+        "fields": [
+          {
+            "field": "url",
+            "from": "https://nhrc.nic.in/investigation-division",
+            "to": "https://nhrc.nic.in/press-release/nhrc-issues-fresh-guidelines-regarding-intimation-custodial-death"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0026",
+        "kind": "Source",
+        "title": "NHRC",
+        "state": null,
+        "url": "https://nhrc.nic.in/investigation-division",
+        "fields": [
+          {
+            "field": "title",
+            "from": "commoner-law.com",
+            "to": "NHRC"
+          },
+          {
+            "field": "url",
+            "from": "https://commoner-law.com/india/police-encounters/encounter-killings-and-custodial-deaths",
+            "to": "https://nhrc.nic.in/investigation-division"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0027",
+        "kind": "Source",
+        "title": "commoner-law.com",
+        "state": null,
+        "url": "https://commoner-law.com/india/police-encounters/encounter-killings-and-custodial-deaths",
+        "fields": [
+          {
+            "field": "title",
+            "from": "Bellingcat",
+            "to": "commoner-law.com"
+          },
+          {
+            "field": "url",
+            "from": "https://www.bellingcat.com/news/americas/2020/10/29/a-new-platform-maps-us-police-violence-against-protesters/",
+            "to": "https://commoner-law.com/india/police-encounters/encounter-killings-and-custodial-deaths"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0028",
+        "kind": "Source",
+        "title": "Bellingcat",
+        "state": null,
+        "url": "https://www.bellingcat.com/news/americas/2020/10/29/a-new-platform-maps-us-police-violence-against-protesters/",
+        "fields": [
+          {
+            "field": "title",
+            "from": "GIJN",
+            "to": "Bellingcat"
+          },
+          {
+            "field": "url",
+            "from": "https://gijn.org/stories/how-bellingcat-and-forensic-architecture-teamed-up-with-colombias-cerosetenta-to-map-police-violence/",
+            "to": "https://www.bellingcat.com/news/americas/2020/10/29/a-new-platform-maps-us-police-violence-against-protesters/"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0029",
+        "kind": "Source",
+        "title": "GIJN",
+        "state": null,
+        "url": "https://gijn.org/stories/how-bellingcat-and-forensic-architecture-teamed-up-with-colombias-cerosetenta-to-map-police-violence/",
+        "fields": [
+          {
+            "field": "title",
+            "from": "The Polis Project",
+            "to": "GIJN"
+          },
+          {
+            "field": "url",
+            "from": "https://thepolisproject.com/research/documenting-custodial-violence-reflections-and-further-research-5/",
+            "to": "https://gijn.org/stories/how-bellingcat-and-forensic-architecture-teamed-up-with-colombias-cerosetenta-to-map-police-violence/"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0030",
+        "kind": "Source",
+        "title": "The Polis Project",
+        "state": null,
+        "url": "https://thepolisproject.com/research/documenting-custodial-violence-reflections-and-further-research-5/",
+        "fields": [
+          {
+            "field": "title",
+            "from": "Wikipedia",
+            "to": "The Polis Project"
+          },
+          {
+            "field": "url",
+            "from": "https://en.wikipedia.org/wiki/DOTO_Database",
+            "to": "https://thepolisproject.com/research/documenting-custodial-violence-reflections-and-further-research-5/"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0031",
+        "kind": "Source",
+        "title": "Wikipedia",
+        "state": null,
+        "url": "https://en.wikipedia.org/wiki/DOTO_Database",
+        "fields": [
+          {
+            "field": "title",
+            "from": "Common Cause and CSDS",
+            "to": "Wikipedia"
+          },
+          {
+            "field": "url",
+            "from": "https://www.commoncause.in/wotadmin/upload/SPIR_2025.pdf",
+            "to": "https://en.wikipedia.org/wiki/DOTO_Database"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0032",
+        "kind": "Source",
+        "title": "Common Cause and CSDS",
+        "state": null,
+        "url": "https://www.commoncause.in/wotadmin/upload/SPIR_2025.pdf",
+        "fields": [
+          {
+            "field": "title",
+            "from": "Sage",
+            "to": "Common Cause and CSDS"
+          },
+          {
+            "field": "url",
+            "from": "https://journals.sagepub.com/doi/abs/10.1177/00699659231208696",
+            "to": "https://www.commoncause.in/wotadmin/upload/SPIR_2025.pdf"
+          }
+        ]
+      },
+      {
+        "id": "OQ-004",
+        "kind": "Question",
+        "title": "The text of the Delhi High Court order of 22 July 2026, and the correct cause title and writ petition numbers of every connected matter.",
+        "state": "UNANSWERED",
+        "url": "investigation.html?id=jantar-mantar#OQ-004",
+        "fields": [
+          {
+            "field": "title",
+            "from": "The text of the Delhi High Court order in W.P.(CRL.) 2127/2026.",
+            "to": "The text of the Delhi High Court order of 22 July 2026, and the correct cause title and writ petition numbers of every connected matter."
+          }
+        ]
+      }
+    ],
+    "summary": "1 record added · 27 records edited"
+  },
+  {
+    "commit": "866f01703b",
+    "date": "2026-08-17T03:51:41Z",
+    "subject": "Import the source map, rebuild the homepage around it, map the statutory framework (#42)",
+    "added": [
+      {
+        "id": "INC-DEL-001",
+        "kind": "Evidence",
+        "title": "Police action against demonstrators at Jantar Mantar, New Delhi, on 20 July 2026.",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=INC-DEL-001"
+      },
+      {
+        "id": "INC-DEL-002",
+        "kind": "Evidence",
+        "title": "Further clashes at Jantar Mantar on 22 July 2026 involving tear gas and lathi charge.",
+        "state": "REPORTED",
+        "url": "evidence.html?id=INC-DEL-002"
+      },
+      {
+        "id": "INC-BIH-001",
+        "kind": "Evidence",
+        "title": "Police action at JP Golambar, Patna, on 22 July 2026.",
+        "state": "REPORTED",
+        "url": "evidence.html?id=INC-BIH-001"
+      },
+      {
+        "id": "INC-BIH-002",
+        "kind": "Evidence",
+        "title": "Police action at Katihar on 23 July 2026.",
+        "state": "REPORTED",
+        "url": "evidence.html?id=INC-BIH-002"
+      },
+      {
+        "id": "INC-BIH-003",
+        "kind": "Evidence",
+        "title": "Protest activity at Munger on 23 July 2026. Whether police force was used at Munger is not established by the source.",
+        "state": "UNVERIFIED",
+        "url": "evidence.html?id=INC-BIH-003"
+      },
+      {
+        "id": "INC-BIH-004",
+        "kind": "Evidence",
+        "title": "Police action at Dakbungalow Square, Patna, on 25 July 2026 during a Bihar Bandh; 17 detained.",
+        "state": "REPORTED",
+        "url": "evidence.html?id=INC-BIH-004"
+      },
+      {
+        "id": "INC-MAH-001",
+        "kind": "Evidence",
+        "title": "Identity, date and location of the Maharashtra incident.",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=INC-MAH-001"
+      },
+      {
+        "id": "PROC-DEL-001",
+        "kind": "Evidence",
+        "title": "Delhi High Court issued notice to Delhi Police and the Union on PILs concerning the 20 and 21 July 2026 police action, directed preservation of records includin",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=PROC-DEL-001"
+      },
+      {
+        "id": "PROC-SC-001",
+        "kind": "Evidence",
+        "title": "Supreme Court proceedings on petitions concerning police action at Jantar Mantar and elsewhere; petitions allege lathi charge, pellet guns, rubber bullets, tear",
+        "state": "REPORTED",
+        "url": "evidence.html?id=PROC-SC-001"
+      },
+      {
+        "id": "PROC-BIH-001",
+        "kind": "Evidence",
+        "title": "Any court proceeding concerning the Patna, Katihar or Munger incidents.",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=PROC-BIH-001"
+      },
+      {
+        "id": "SRC-0001",
+        "kind": "Source",
+        "title": "Bar & Bench",
+        "state": null,
+        "url": "https://www.barandbench.com/news/litigation/not-an-isolated-incident-file-your-response-preserve-cctv-footage-delhi-hc-to-police-on-excesses-against-jantar-mantar-protestors"
+      },
+      {
+        "id": "SRC-0002",
+        "kind": "Source",
+        "title": "Free Press Journal",
+        "state": null,
+        "url": "https://www.freepressjournal.in/education/nhrc-takes-cognisance-of-delhi-police-action-during-jantar-mantar-student-protest-seeks-report-within-two-weeks"
+      },
+      {
+        "id": "SRC-0003",
+        "kind": "Source",
+        "title": "Deccan Herald",
+        "state": null,
+        "url": "https://www.deccanherald.com/india/delhi/fresh-chaos-erupts-at-jantar-mantar-as-protestors-police-clash-4083673"
+      },
+      {
+        "id": "SRC-0004",
+        "kind": "Source",
+        "title": "The Quint",
+        "state": null,
+        "url": "https://www.thequint.com/news/breaking-news/bihar-student-protests-lathi-charge-patna-police-response"
+      },
+      {
+        "id": "SRC-0005",
+        "kind": "Source",
+        "title": "India TV",
+        "state": null,
+        "url": "https://www.indiatvnews.com/bihar/news-bihar-students-protest-turns-violent-in-katihar-patna-munger-police-lathicharge-protesters-hurl-stones-latest-updates-2026-07-23-1049145"
+      },
+      {
+        "id": "SRC-0006",
+        "kind": "Source",
+        "title": "The Week",
+        "state": null,
+        "url": "https://www.theweek.in/news/india/2026/07/25/bihar-bandh-police-lathi-charge-student-protesters-in-patna-17-detained-as-demonstrators-break-barricades-pelt-stones.html"
+      },
+      {
+        "id": "SRC-0007",
+        "kind": "Source",
+        "title": "Verdictum",
+        "state": null,
+        "url": "https://www.verdictum.in/delhi-high-court/jantar-mantar-seeks-union-delhi-police-reply-on-police-action-against-protesters-1618289"
+      },
+      {
+        "id": "SRC-0008",
+        "kind": "Source",
+        "title": "The Week",
+        "state": null,
+        "url": "https://www.theweek.in/news/india/2026/07/22/why-delhi-hc-asked-police-to-keep-video-evidence-of-cjp-protest-not-isolated-incidents.html"
+      },
+      {
+        "id": "SRC-0009",
+        "kind": "Source",
+        "title": "SCC Online blog",
+        "state": null,
+        "url": "https://www.scconline.com/blog/post/2026/07/29/neet-paper-leak-protest-proceedings-sc-interim-directions-police-violence/"
+      },
+      {
+        "id": "SRC-0010",
+        "kind": "Source",
+        "title": "India Code",
+        "state": null,
+        "url": "https://www.indiacode.nic.in/bitstream/123456789/20340/1/bnss,_2023.pdf"
+      },
+      {
+        "id": "SRC-0011",
+        "kind": "Source",
+        "title": "Bureau of Police Research and Development",
+        "state": null,
+        "url": "https://bprd.nic.in/uploads/pdf/Comparison%20summary%20BNSS%20to%20CrPC.pdf"
+      },
+      {
+        "id": "SRC-0012",
+        "kind": "Source",
+        "title": "Uttar Pradesh Police",
+        "state": null,
+        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202407031502194192BNSS2023-20-45.pdf"
+      },
+      {
+        "id": "SRC-0013",
+        "kind": "Source",
+        "title": "onlinelawconnect",
+        "state": null,
+        "url": "https://onlinelawconnect.com/actsandrules/criminal/bnss/SummaryChapter11.php"
+      },
+      {
+        "id": "SRC-0014",
+        "kind": "Source",
+        "title": "Justice Definitions Project",
+        "state": null,
+        "url": "https://www.lawandjusticewiki.org/wiki/Extra-judicial_killings"
+      },
+      {
+        "id": "SRC-0015",
+        "kind": "Source",
+        "title": "ApniLaw",
+        "state": null,
+        "url": "https://www.apnilaw.com/bare-act/bnss/section-196-bharatiya-nagarik-suraksha-sanhitabnss-inquiry-by-magistrate-into-cause-of-death/"
+      },
+      {
+        "id": "SRC-0016",
+        "kind": "Source",
+        "title": "India Code",
+        "state": null,
+        "url": "https://www.indiacode.nic.in/bitstream/123456789/13669/1/delhi_police_act.pdf"
+      },
+      {
+        "id": "SRC-0017",
+        "kind": "Source",
+        "title": "indianemployees.com",
+        "state": null,
+        "url": "https://www.indianemployees.com/acts-rules/details/delhi-police-act-1978"
+      },
+      {
+        "id": "SRC-0018",
+        "kind": "Source",
+        "title": "India Code",
+        "state": null,
+        "url": "https://www.indiacode.nic.in/bitstream/123456789/20371/1/ashtra_police.pdf"
+      },
+      {
+        "id": "SRC-0019",
+        "kind": "Source",
+        "title": "Gurukul Nexus",
+        "state": null,
+        "url": "https://blog.gurukulnexus.com/police-regulations-maharashtra-police-act-public-order/"
+      },
+      {
+        "id": "SRC-0020",
+        "kind": "Source",
+        "title": "India Code",
+        "state": null,
+        "url": "https://www.indiacode.nic.in/bitstream/123456789/11209/1/1094_bihar_bihar_police_act_2007.pdf"
+      },
+      {
+        "id": "SRC-0021",
+        "kind": "Source",
+        "title": "LegitQuest",
+        "state": null,
+        "url": "https://www.legitquest.com/act/the-bihar-police-amendment-act-2014/FBD1"
+      },
+      {
+        "id": "SRC-0022",
+        "kind": "Source",
+        "title": "CaseMine",
+        "state": null,
+        "url": null
+      },
+      {
+        "id": "SRC-0023",
+        "kind": "Source",
+        "title": "Ministry of Home Affairs",
+        "state": null,
+        "url": "https://www.mha.gov.in/sites/default/files/2025-04/NHRCselectedlettersandguidelinesondeathsincustody_09042019_0[1]_4.pdf"
+      },
+      {
+        "id": "SRC-0024",
+        "kind": "Source",
+        "title": "NHRC",
+        "state": null,
+        "url": "https://nhrc.nic.in/press-release/nhrc-issues-fresh-guidelines-regarding-intimation-custodial-death"
+      },
+      {
+        "id": "SRC-0025",
+        "kind": "Source",
+        "title": "NHRC",
+        "state": null,
+        "url": "https://nhrc.nic.in/investigation-division"
+      },
+      {
+        "id": "SRC-0026",
+        "kind": "Source",
+        "title": "commoner-law.com",
+        "state": null,
+        "url": "https://commoner-law.com/india/police-encounters/encounter-killings-and-custodial-deaths"
+      },
+      {
+        "id": "SRC-0027",
+        "kind": "Source",
+        "title": "Bellingcat",
+        "state": null,
+        "url": "https://www.bellingcat.com/news/americas/2020/10/29/a-new-platform-maps-us-police-violence-against-protesters/"
+      },
+      {
+        "id": "SRC-0028",
+        "kind": "Source",
+        "title": "GIJN",
+        "state": null,
+        "url": "https://gijn.org/stories/how-bellingcat-and-forensic-architecture-teamed-up-with-colombias-cerosetenta-to-map-police-violence/"
+      },
+      {
+        "id": "SRC-0029",
+        "kind": "Source",
+        "title": "The Polis Project",
+        "state": null,
+        "url": "https://thepolisproject.com/research/documenting-custodial-violence-reflections-and-further-research-5/"
+      },
+      {
+        "id": "SRC-0030",
+        "kind": "Source",
+        "title": "Wikipedia",
+        "state": null,
+        "url": "https://en.wikipedia.org/wiki/DOTO_Database"
+      },
+      {
+        "id": "SRC-0031",
+        "kind": "Source",
+        "title": "Common Cause and CSDS",
+        "state": null,
+        "url": "https://www.commoncause.in/wotadmin/upload/SPIR_2025.pdf"
+      },
+      {
+        "id": "SRC-0032",
+        "kind": "Source",
+        "title": "Sage",
+        "state": null,
+        "url": "https://journals.sagepub.com/doi/abs/10.1177/00699659231208696"
+      },
+      {
         "id": "OQ-001",
         "kind": "Question",
         "title": "Record retention period for Delhi Police control-room audio, wireless logs and CCTV.",
@@ -859,7 +8874,7 @@ WGO.changes = [
       {
         "id": "OQ-004",
         "kind": "Question",
-        "title": "The text of the Delhi High Court order of 22 July 2026 in W.P.(CRL) 2127/2026, and which petitions were heard with it.",
+        "title": "The text of the Delhi High Court order in W.P.(CRL.) 2127/2026.",
         "state": "UNANSWERED",
         "url": "investigation.html?id=jantar-mantar#OQ-004"
       },
@@ -915,7 +8930,7 @@ WGO.changes = [
       {
         "id": "OQ-012",
         "kind": "Question",
-        "title": "BNSS s.196 verified against India Code, not secondary sources.",
+        "title": "BNSS s.196 verified against India Code rather than secondary sources.",
         "state": "UNANSWERED",
         "url": "investigation.html?id=#OQ-012"
       },
@@ -1044,223 +9059,6 @@ WGO.changes = [
         "title": "Was a magisterial inquiry ordered for any of the four incidents?",
         "state": "UNANSWERED",
         "url": "investigation.html?id=#OQ-030"
-      },
-      {
-        "id": "OQ-033",
-        "kind": "Question",
-        "title": "The Delhi Police affidavit filed in W.P.(C) 280/2026 concerning the use of facial recognition technology at the Jantar Mantar protest.",
-        "state": "UNANSWERED",
-        "url": "investigation.html?id=jantar-mantar#OQ-033"
-      },
-      {
-        "id": "OQ-034",
-        "kind": "Question",
-        "title": "Which database of photographs the facial recognition system matched against at Jantar Mantar, who supplied it, and whether any private company processed the data.",
-        "state": "UNANSWERED",
-        "url": "investigation.html?id=jantar-mantar#OQ-034"
-      },
-      {
-        "id": "OQ-035",
-        "kind": "Question",
-        "title": "Who authorised an AK-47, described by the State as a platoon-level weapon for special operations, to be carried on law-and-order duty at a student protest at Siwan on 25 July 2026.",
-        "state": "UNANSWERED",
-        "url": "investigation.html?id=bihar#OQ-035"
-      },
-      {
-        "id": "OQ-036",
-        "kind": "Question",
-        "title": "How many police personnel were injured at Jantar Mantar on 20 July 2026, and over what period the figure is counted.",
-        "state": "UNANSWERED",
-        "url": "investigation.html?id=jantar-mantar#OQ-036"
-      },
-      {
-        "id": "OQ-037",
-        "kind": "Question",
-        "title": "The medico-legal records and treatment of the three protesters reported to have sustained firearm injuries at Siwan, and whether any FIR records the firing.",
-        "state": "UNANSWERED",
-        "url": "investigation.html?id=bihar#OQ-037"
-      },
-      {
-        "id": "OQ-038",
-        "kind": "Question",
-        "title": "The Delhi Government (Home Department) order of 18 August 2026 transferring 43 IPS and DANIPS officers, and any file noting recording the reason for the two postings reported as connected to the Jantar Mantar policing.",
-        "state": "UNANSWERED",
-        "url": "investigation.html?id=jantar-mantar#OQ-038"
-      },
-      {
-        "id": "OQ-039",
-        "kind": "Question",
-        "title": "Which database the facial recognition at Jantar Mantar matched faces against, which body supplied the images in it, and under what authority they were shared.",
-        "state": "UNANSWERED",
-        "url": "investigation.html?id=jantar-mantar#OQ-039"
-      },
-      {
-        "id": "OQ-040",
-        "kind": "Question",
-        "title": "Delhi Police General Diary entry 0008A of 22 July 2026, Parliament Street police station, recording the munitions used at Jantar Mantar on 20 July 2026 and the Deputy Commissioner of Police under whose orders they were used.",
-        "state": "UNANSWERED",
-        "url": "investigation.html?id=jantar-mantar#OQ-040"
-      },
-      {
-        "id": "OQ-041",
-        "kind": "Question",
-        "title": "The Delhi Police standard operating procedure on the use of pellet-firing weapons, which the Supreme Court is reported to have directed be placed on record on 30 July 2026.",
-        "state": "UNANSWERED",
-        "url": "investigation.html?id=jantar-mantar#OQ-041"
-      },
-      {
-        "id": "OQ-042",
-        "kind": "Question",
-        "title": "The ammunition log of the Rapid Action Force unit deployed at Jantar Mantar on 20 July 2026, which the Supreme Court is reported to have directed be preserved on 30 July 2026.",
-        "state": "UNANSWERED",
-        "url": "investigation.html?id=jantar-mantar#OQ-042"
-      },
-      {
-        "id": "OQ-043",
-        "kind": "Question",
-        "title": "Which Deputy Commissioner of Police gave the order recorded in General Diary entry 0008A, and whether that order was written or oral.",
-        "state": "UNANSWERED",
-        "url": "investigation.html?id=jantar-mantar#OQ-043"
-      },
-      {
-        "id": "OQ-044",
-        "kind": "Question",
-        "title": "The standard operating procedure prepared in 2011 by a Union High Task Force on crowd control, and the report of the High Powered Committee of 2016, which counsel told the Supreme Court is not available.",
-        "state": "UNANSWERED",
-        "url": "investigation.html?id=#OQ-044"
-      },
-      {
-        "id": "OQ-045",
-        "kind": "Question",
-        "title": "The Supreme Court's order of 18 August 2026 constituting the High Powered Enquiry Committee, and the committee's terms of reference as issued, not as reported.",
-        "state": "UNANSWERED",
-        "url": "investigation.html?id=jantar-mantar#OQ-045"
-      },
-      {
-        "id": "OQ-046",
-        "kind": "Question",
-        "title": "The First Information Report registered at Parliament Street police station on 21 August 2026 on the complaint of a student injured at Jantar Mantar: its number, the sections invoked, and who it names.",
-        "state": "UNANSWERED",
-        "url": "investigation.html?id=jantar-mantar#OQ-046"
-      },
-      {
-        "id": "OQ-047",
-        "kind": "Question",
-        "title": "Copies of the Right to Information replies from Lady Hardinge Medical College and Safdarjung Hospital recording pellet or projectile injuries treated on 20 July 2026.",
-        "state": "UNANSWERED",
-        "url": "investigation.html?id=jantar-mantar#OQ-047"
-      },
-      {
-        "id": "OQ-048",
-        "kind": "Question",
-        "title": "The AIIMS refusal letter of about 20 August 2026, whether a first appeal was filed against it, and the reply from Ram Manohar Lohia Hospital.",
-        "state": "UNANSWERED",
-        "url": "investigation.html?id=jantar-mantar#OQ-048"
-      },
-      {
-        "id": "OQ-049",
-        "kind": "Question",
-        "title": "The fact-finding report of the PUCL Bihar public hearing of 22 August 2026, as a document, not as reported.",
-        "state": "UNANSWERED",
-        "url": "investigation.html?id=bihar#OQ-049"
-      },
-      {
-        "id": "OQ-050",
-        "kind": "Question",
-        "title": "The 64 FIRs said to have been registered in connection with the Bihar student protests of July 2026, and whether any records police action at Sitamarhi on 21 July.",
-        "state": "UNANSWERED",
-        "url": "investigation.html?id=bihar#OQ-050"
-      },
-      {
-        "id": "OQ-051",
-        "kind": "Question",
-        "title": "The advisory on handling protests circulated to Delhi Police personnel after 20 July 2026: the document, who issued it, on what date, and whether any instruction on the use of force or crowd-control weapons was issued alongside it.",
-        "state": "UNANSWERED",
-        "url": "investigation.html?id=jantar-mantar#OQ-051"
-      },
-      {
-        "id": "OQ-052",
-        "kind": "Question",
-        "title": "The armoury issue and return registers for the police units deployed at Siwan on 25 July 2026, and any ballistics or forensic examination of the rounds fired.",
-        "state": "UNANSWERED",
-        "url": "investigation.html?id=bihar#OQ-052"
-      },
-      {
-        "id": "OFC-0001",
-        "kind": "Office",
-        "title": "Union Ministry of Home Affairs",
-        "state": null,
-        "url": "chain.html#OFC-0001"
-      },
-      {
-        "id": "OFC-0002",
-        "kind": "Office",
-        "title": "State Home Department",
-        "state": null,
-        "url": "chain.html#OFC-0002"
-      },
-      {
-        "id": "OFC-0003",
-        "kind": "Office",
-        "title": "Director General of Police (State)",
-        "state": null,
-        "url": "chain.html#OFC-0003"
-      },
-      {
-        "id": "OFC-0004",
-        "kind": "Office",
-        "title": "Commissioner of Police",
-        "state": null,
-        "url": "chain.html#OFC-0004"
-      },
-      {
-        "id": "OFC-0005",
-        "kind": "Office",
-        "title": "District Magistrate",
-        "state": null,
-        "url": "chain.html#OFC-0005"
-      },
-      {
-        "id": "OFC-0006",
-        "kind": "Office",
-        "title": "Superintendent of Police / Deputy Commissioner of Police (District)",
-        "state": null,
-        "url": "chain.html#OFC-0006"
-      },
-      {
-        "id": "OFC-0007",
-        "kind": "Office",
-        "title": "Officer commanding the deployment on site",
-        "state": null,
-        "url": "chain.html#OFC-0007"
-      },
-      {
-        "id": "OFC-0008",
-        "kind": "Office",
-        "title": "Field personnel and units deployed",
-        "state": null,
-        "url": "chain.html#OFC-0008"
-      },
-      {
-        "id": "CLM-0001",
-        "kind": "Claim",
-        "title": "Police used force against students at Jantar Mantar.",
-        "state": "UNVERIFIED",
-        "url": "response.html#CLM-0001"
-      },
-      {
-        "id": "CLM-0002",
-        "kind": "Claim",
-        "title": "Police used force against students in Bihar.",
-        "state": "UNVERIFIED",
-        "url": "response.html#CLM-0002"
-      },
-      {
-        "id": "CLM-0003",
-        "kind": "Claim",
-        "title": "Police used force against students in Maharashtra.",
-        "state": "UNVERIFIED",
-        "url": "response.html#CLM-0003"
       },
       {
         "id": "PUB-DEL-001",
@@ -1417,8 +9215,707 @@ WGO.changes = [
         "url": "others.html#PUB-MAH-001"
       }
     ],
+    "removed": [
+      {
+        "id": "QST-0001-01",
+        "kind": "Question",
+        "title": "Who authorised the deployment?",
+        "state": "UNANSWERED",
+        "url": "investigation.html?id=jantar-mantar#QST-0001-01"
+      },
+      {
+        "id": "QST-0001-02",
+        "kind": "Question",
+        "title": "Who authorised the use of tear gas, if its use is established?",
+        "state": "UNANSWERED",
+        "url": "investigation.html?id=jantar-mantar#QST-0001-02"
+      },
+      {
+        "id": "QST-0001-03",
+        "kind": "Question",
+        "title": "Who authorised the use of pellet-firing weapons, if their use is established?",
+        "state": "UNANSWERED",
+        "url": "investigation.html?id=jantar-mantar#QST-0001-03"
+      },
+      {
+        "id": "QST-0001-04",
+        "kind": "Question",
+        "title": "Was written authorisation required for the force used?",
+        "state": "UNANSWERED",
+        "url": "investigation.html?id=jantar-mantar#QST-0001-04"
+      },
+      {
+        "id": "QST-0001-05",
+        "kind": "Question",
+        "title": "Was a written order issued?",
+        "state": "UNANSWERED",
+        "url": "investigation.html?id=jantar-mantar#QST-0001-05"
+      },
+      {
+        "id": "QST-0001-06",
+        "kind": "Question",
+        "title": "If not, was an oral order given?",
+        "state": "UNANSWERED",
+        "url": "investigation.html?id=jantar-mantar#QST-0001-06"
+      },
+      {
+        "id": "QST-0001-07",
+        "kind": "Question",
+        "title": "Who issued it?",
+        "state": "UNANSWERED",
+        "url": "investigation.html?id=jantar-mantar#QST-0001-07"
+      },
+      {
+        "id": "QST-0001-08",
+        "kind": "Question",
+        "title": "What instructions were given to field personnel?",
+        "state": "UNANSWERED",
+        "url": "investigation.html?id=jantar-mantar#QST-0001-08"
+      },
+      {
+        "id": "QST-0001-09",
+        "kind": "Question",
+        "title": "What reports were submitted after the incident?",
+        "state": "UNANSWERED",
+        "url": "investigation.html?id=jantar-mantar#QST-0001-09"
+      },
+      {
+        "id": "QST-0001-10",
+        "kind": "Question",
+        "title": "Who received those reports?",
+        "state": "UNANSWERED",
+        "url": "investigation.html?id=jantar-mantar#QST-0001-10"
+      },
+      {
+        "id": "QST-0001-11",
+        "kind": "Question",
+        "title": "Was an inquiry ordered?",
+        "state": "UNANSWERED",
+        "url": "investigation.html?id=jantar-mantar#QST-0001-11"
+      },
+      {
+        "id": "QST-0001-12",
+        "kind": "Question",
+        "title": "What action followed?",
+        "state": "UNANSWERED",
+        "url": "investigation.html?id=jantar-mantar#QST-0001-12"
+      },
+      {
+        "id": "QST-0002-01",
+        "kind": "Question",
+        "title": "Who authorised the deployment?",
+        "state": "UNANSWERED",
+        "url": "investigation.html?id=bihar#QST-0002-01"
+      },
+      {
+        "id": "QST-0002-02",
+        "kind": "Question",
+        "title": "Who authorised the use of tear gas, if its use is established?",
+        "state": "UNANSWERED",
+        "url": "investigation.html?id=bihar#QST-0002-02"
+      },
+      {
+        "id": "QST-0002-03",
+        "kind": "Question",
+        "title": "Who authorised the use of pellet-firing weapons, if their use is established?",
+        "state": "UNANSWERED",
+        "url": "investigation.html?id=bihar#QST-0002-03"
+      },
+      {
+        "id": "QST-0002-04",
+        "kind": "Question",
+        "title": "Was written authorisation required for the force used?",
+        "state": "UNANSWERED",
+        "url": "investigation.html?id=bihar#QST-0002-04"
+      },
+      {
+        "id": "QST-0002-05",
+        "kind": "Question",
+        "title": "Was a written order issued?",
+        "state": "UNANSWERED",
+        "url": "investigation.html?id=bihar#QST-0002-05"
+      },
+      {
+        "id": "QST-0002-06",
+        "kind": "Question",
+        "title": "If not, was an oral order given?",
+        "state": "UNANSWERED",
+        "url": "investigation.html?id=bihar#QST-0002-06"
+      },
+      {
+        "id": "QST-0002-07",
+        "kind": "Question",
+        "title": "Who issued it?",
+        "state": "UNANSWERED",
+        "url": "investigation.html?id=bihar#QST-0002-07"
+      },
+      {
+        "id": "QST-0002-08",
+        "kind": "Question",
+        "title": "What instructions were given to field personnel?",
+        "state": "UNANSWERED",
+        "url": "investigation.html?id=bihar#QST-0002-08"
+      },
+      {
+        "id": "QST-0002-09",
+        "kind": "Question",
+        "title": "What reports were submitted after the incident?",
+        "state": "UNANSWERED",
+        "url": "investigation.html?id=bihar#QST-0002-09"
+      },
+      {
+        "id": "QST-0002-10",
+        "kind": "Question",
+        "title": "Who received those reports?",
+        "state": "UNANSWERED",
+        "url": "investigation.html?id=bihar#QST-0002-10"
+      },
+      {
+        "id": "QST-0002-11",
+        "kind": "Question",
+        "title": "Was an inquiry ordered?",
+        "state": "UNANSWERED",
+        "url": "investigation.html?id=bihar#QST-0002-11"
+      },
+      {
+        "id": "QST-0002-12",
+        "kind": "Question",
+        "title": "What action followed?",
+        "state": "UNANSWERED",
+        "url": "investigation.html?id=bihar#QST-0002-12"
+      },
+      {
+        "id": "QST-0003-01",
+        "kind": "Question",
+        "title": "Who authorised the deployment?",
+        "state": "UNANSWERED",
+        "url": "investigation.html?id=maharashtra#QST-0003-01"
+      },
+      {
+        "id": "QST-0003-02",
+        "kind": "Question",
+        "title": "Who authorised the use of tear gas, if its use is established?",
+        "state": "UNANSWERED",
+        "url": "investigation.html?id=maharashtra#QST-0003-02"
+      },
+      {
+        "id": "QST-0003-03",
+        "kind": "Question",
+        "title": "Who authorised the use of pellet-firing weapons, if their use is established?",
+        "state": "UNANSWERED",
+        "url": "investigation.html?id=maharashtra#QST-0003-03"
+      },
+      {
+        "id": "QST-0003-04",
+        "kind": "Question",
+        "title": "Was written authorisation required for the force used?",
+        "state": "UNANSWERED",
+        "url": "investigation.html?id=maharashtra#QST-0003-04"
+      },
+      {
+        "id": "QST-0003-05",
+        "kind": "Question",
+        "title": "Was a written order issued?",
+        "state": "UNANSWERED",
+        "url": "investigation.html?id=maharashtra#QST-0003-05"
+      },
+      {
+        "id": "QST-0003-06",
+        "kind": "Question",
+        "title": "If not, was an oral order given?",
+        "state": "UNANSWERED",
+        "url": "investigation.html?id=maharashtra#QST-0003-06"
+      },
+      {
+        "id": "QST-0003-07",
+        "kind": "Question",
+        "title": "Who issued it?",
+        "state": "UNANSWERED",
+        "url": "investigation.html?id=maharashtra#QST-0003-07"
+      },
+      {
+        "id": "QST-0003-08",
+        "kind": "Question",
+        "title": "What instructions were given to field personnel?",
+        "state": "UNANSWERED",
+        "url": "investigation.html?id=maharashtra#QST-0003-08"
+      },
+      {
+        "id": "QST-0003-09",
+        "kind": "Question",
+        "title": "What reports were submitted after the incident?",
+        "state": "UNANSWERED",
+        "url": "investigation.html?id=maharashtra#QST-0003-09"
+      },
+      {
+        "id": "QST-0003-10",
+        "kind": "Question",
+        "title": "Who received those reports?",
+        "state": "UNANSWERED",
+        "url": "investigation.html?id=maharashtra#QST-0003-10"
+      },
+      {
+        "id": "QST-0003-11",
+        "kind": "Question",
+        "title": "Was an inquiry ordered?",
+        "state": "UNANSWERED",
+        "url": "investigation.html?id=maharashtra#QST-0003-11"
+      },
+      {
+        "id": "QST-0003-12",
+        "kind": "Question",
+        "title": "What action followed?",
+        "state": "UNANSWERED",
+        "url": "investigation.html?id=maharashtra#QST-0003-12"
+      },
+      {
+        "id": "QST-X001",
+        "kind": "Question",
+        "title": "Was any prohibitory order in force at the site at the time, and when was it promulgated?",
+        "state": "UNANSWERED",
+        "url": "investigation.html?id=jantar-mantar#QST-X001"
+      },
+      {
+        "id": "QST-X002",
+        "kind": "Question",
+        "title": "Were any central armed police units deployed alongside the city police, and under whose direction?",
+        "state": "UNANSWERED",
+        "url": "investigation.html?id=jantar-mantar#QST-X002"
+      }
+    ],
+    "changed": [
+      {
+        "id": "INC-0001",
+        "kind": "Incident",
+        "title": "Police action against students at Jantar Mantar",
+        "state": "UNDER_INVESTIGATION",
+        "url": "investigation.html?id=jantar-mantar",
+        "fields": [
+          {
+            "field": "date",
+            "from": null,
+            "to": "20 and 22 July 2026"
+          },
+          {
+            "field": "dateState",
+            "from": "UNKNOWN",
+            "to": "CORROBORATED"
+          }
+        ]
+      },
+      {
+        "id": "INC-0002",
+        "kind": "Incident",
+        "title": "Police action against students in Bihar",
+        "state": "UNDER_INVESTIGATION",
+        "url": "investigation.html?id=bihar",
+        "fields": [
+          {
+            "field": "place",
+            "from": "Bihar — specific location to be established",
+            "to": "JP Golambar and Dakbungalow Square, Patna; Katihar; Munger"
+          },
+          {
+            "field": "date",
+            "from": null,
+            "to": "22, 23 and 25 July 2026"
+          },
+          {
+            "field": "dateState",
+            "from": "UNKNOWN",
+            "to": "REPORTED"
+          }
+        ]
+      },
+      {
+        "id": "INC-0003",
+        "kind": "Incident",
+        "title": "Police action against students in Maharashtra",
+        "state": "UNDER_INVESTIGATION",
+        "url": "investigation.html?id=maharashtra",
+        "fields": [
+          {
+            "field": "place",
+            "from": "Maharashtra — specific location to be established",
+            "to": "Maharashtra — held open, no incident located"
+          }
+        ]
+      }
+    ],
+    "summary": "94 records added · 2 states changed · 1 record edited · 38 records removed"
+  },
+  {
+    "commit": "c0a116378a",
+    "date": "2026-08-15T19:40:27Z",
+    "subject": "WhoGaveTheOrder.in — a public accountability archive, seeded empty on purpose (#38)",
+    "added": [
+      {
+        "id": "INC-0001",
+        "kind": "Incident",
+        "title": "Police action against students at Jantar Mantar",
+        "state": "UNDER_INVESTIGATION",
+        "url": "investigation.html?id=jantar-mantar"
+      },
+      {
+        "id": "INC-0002",
+        "kind": "Incident",
+        "title": "Police action against students in Bihar",
+        "state": "UNDER_INVESTIGATION",
+        "url": "investigation.html?id=bihar"
+      },
+      {
+        "id": "INC-0003",
+        "kind": "Incident",
+        "title": "Police action against students in Maharashtra",
+        "state": "UNDER_INVESTIGATION",
+        "url": "investigation.html?id=maharashtra"
+      },
+      {
+        "id": "QST-0001-01",
+        "kind": "Question",
+        "title": "Who authorised the deployment?",
+        "state": "UNANSWERED",
+        "url": "investigation.html?id=jantar-mantar#QST-0001-01"
+      },
+      {
+        "id": "QST-0001-02",
+        "kind": "Question",
+        "title": "Who authorised the use of tear gas, if its use is established?",
+        "state": "UNANSWERED",
+        "url": "investigation.html?id=jantar-mantar#QST-0001-02"
+      },
+      {
+        "id": "QST-0001-03",
+        "kind": "Question",
+        "title": "Who authorised the use of pellet-firing weapons, if their use is established?",
+        "state": "UNANSWERED",
+        "url": "investigation.html?id=jantar-mantar#QST-0001-03"
+      },
+      {
+        "id": "QST-0001-04",
+        "kind": "Question",
+        "title": "Was written authorisation required for the force used?",
+        "state": "UNANSWERED",
+        "url": "investigation.html?id=jantar-mantar#QST-0001-04"
+      },
+      {
+        "id": "QST-0001-05",
+        "kind": "Question",
+        "title": "Was a written order issued?",
+        "state": "UNANSWERED",
+        "url": "investigation.html?id=jantar-mantar#QST-0001-05"
+      },
+      {
+        "id": "QST-0001-06",
+        "kind": "Question",
+        "title": "If not, was an oral order given?",
+        "state": "UNANSWERED",
+        "url": "investigation.html?id=jantar-mantar#QST-0001-06"
+      },
+      {
+        "id": "QST-0001-07",
+        "kind": "Question",
+        "title": "Who issued it?",
+        "state": "UNANSWERED",
+        "url": "investigation.html?id=jantar-mantar#QST-0001-07"
+      },
+      {
+        "id": "QST-0001-08",
+        "kind": "Question",
+        "title": "What instructions were given to field personnel?",
+        "state": "UNANSWERED",
+        "url": "investigation.html?id=jantar-mantar#QST-0001-08"
+      },
+      {
+        "id": "QST-0001-09",
+        "kind": "Question",
+        "title": "What reports were submitted after the incident?",
+        "state": "UNANSWERED",
+        "url": "investigation.html?id=jantar-mantar#QST-0001-09"
+      },
+      {
+        "id": "QST-0001-10",
+        "kind": "Question",
+        "title": "Who received those reports?",
+        "state": "UNANSWERED",
+        "url": "investigation.html?id=jantar-mantar#QST-0001-10"
+      },
+      {
+        "id": "QST-0001-11",
+        "kind": "Question",
+        "title": "Was an inquiry ordered?",
+        "state": "UNANSWERED",
+        "url": "investigation.html?id=jantar-mantar#QST-0001-11"
+      },
+      {
+        "id": "QST-0001-12",
+        "kind": "Question",
+        "title": "What action followed?",
+        "state": "UNANSWERED",
+        "url": "investigation.html?id=jantar-mantar#QST-0001-12"
+      },
+      {
+        "id": "QST-0002-01",
+        "kind": "Question",
+        "title": "Who authorised the deployment?",
+        "state": "UNANSWERED",
+        "url": "investigation.html?id=bihar#QST-0002-01"
+      },
+      {
+        "id": "QST-0002-02",
+        "kind": "Question",
+        "title": "Who authorised the use of tear gas, if its use is established?",
+        "state": "UNANSWERED",
+        "url": "investigation.html?id=bihar#QST-0002-02"
+      },
+      {
+        "id": "QST-0002-03",
+        "kind": "Question",
+        "title": "Who authorised the use of pellet-firing weapons, if their use is established?",
+        "state": "UNANSWERED",
+        "url": "investigation.html?id=bihar#QST-0002-03"
+      },
+      {
+        "id": "QST-0002-04",
+        "kind": "Question",
+        "title": "Was written authorisation required for the force used?",
+        "state": "UNANSWERED",
+        "url": "investigation.html?id=bihar#QST-0002-04"
+      },
+      {
+        "id": "QST-0002-05",
+        "kind": "Question",
+        "title": "Was a written order issued?",
+        "state": "UNANSWERED",
+        "url": "investigation.html?id=bihar#QST-0002-05"
+      },
+      {
+        "id": "QST-0002-06",
+        "kind": "Question",
+        "title": "If not, was an oral order given?",
+        "state": "UNANSWERED",
+        "url": "investigation.html?id=bihar#QST-0002-06"
+      },
+      {
+        "id": "QST-0002-07",
+        "kind": "Question",
+        "title": "Who issued it?",
+        "state": "UNANSWERED",
+        "url": "investigation.html?id=bihar#QST-0002-07"
+      },
+      {
+        "id": "QST-0002-08",
+        "kind": "Question",
+        "title": "What instructions were given to field personnel?",
+        "state": "UNANSWERED",
+        "url": "investigation.html?id=bihar#QST-0002-08"
+      },
+      {
+        "id": "QST-0002-09",
+        "kind": "Question",
+        "title": "What reports were submitted after the incident?",
+        "state": "UNANSWERED",
+        "url": "investigation.html?id=bihar#QST-0002-09"
+      },
+      {
+        "id": "QST-0002-10",
+        "kind": "Question",
+        "title": "Who received those reports?",
+        "state": "UNANSWERED",
+        "url": "investigation.html?id=bihar#QST-0002-10"
+      },
+      {
+        "id": "QST-0002-11",
+        "kind": "Question",
+        "title": "Was an inquiry ordered?",
+        "state": "UNANSWERED",
+        "url": "investigation.html?id=bihar#QST-0002-11"
+      },
+      {
+        "id": "QST-0002-12",
+        "kind": "Question",
+        "title": "What action followed?",
+        "state": "UNANSWERED",
+        "url": "investigation.html?id=bihar#QST-0002-12"
+      },
+      {
+        "id": "QST-0003-01",
+        "kind": "Question",
+        "title": "Who authorised the deployment?",
+        "state": "UNANSWERED",
+        "url": "investigation.html?id=maharashtra#QST-0003-01"
+      },
+      {
+        "id": "QST-0003-02",
+        "kind": "Question",
+        "title": "Who authorised the use of tear gas, if its use is established?",
+        "state": "UNANSWERED",
+        "url": "investigation.html?id=maharashtra#QST-0003-02"
+      },
+      {
+        "id": "QST-0003-03",
+        "kind": "Question",
+        "title": "Who authorised the use of pellet-firing weapons, if their use is established?",
+        "state": "UNANSWERED",
+        "url": "investigation.html?id=maharashtra#QST-0003-03"
+      },
+      {
+        "id": "QST-0003-04",
+        "kind": "Question",
+        "title": "Was written authorisation required for the force used?",
+        "state": "UNANSWERED",
+        "url": "investigation.html?id=maharashtra#QST-0003-04"
+      },
+      {
+        "id": "QST-0003-05",
+        "kind": "Question",
+        "title": "Was a written order issued?",
+        "state": "UNANSWERED",
+        "url": "investigation.html?id=maharashtra#QST-0003-05"
+      },
+      {
+        "id": "QST-0003-06",
+        "kind": "Question",
+        "title": "If not, was an oral order given?",
+        "state": "UNANSWERED",
+        "url": "investigation.html?id=maharashtra#QST-0003-06"
+      },
+      {
+        "id": "QST-0003-07",
+        "kind": "Question",
+        "title": "Who issued it?",
+        "state": "UNANSWERED",
+        "url": "investigation.html?id=maharashtra#QST-0003-07"
+      },
+      {
+        "id": "QST-0003-08",
+        "kind": "Question",
+        "title": "What instructions were given to field personnel?",
+        "state": "UNANSWERED",
+        "url": "investigation.html?id=maharashtra#QST-0003-08"
+      },
+      {
+        "id": "QST-0003-09",
+        "kind": "Question",
+        "title": "What reports were submitted after the incident?",
+        "state": "UNANSWERED",
+        "url": "investigation.html?id=maharashtra#QST-0003-09"
+      },
+      {
+        "id": "QST-0003-10",
+        "kind": "Question",
+        "title": "Who received those reports?",
+        "state": "UNANSWERED",
+        "url": "investigation.html?id=maharashtra#QST-0003-10"
+      },
+      {
+        "id": "QST-0003-11",
+        "kind": "Question",
+        "title": "Was an inquiry ordered?",
+        "state": "UNANSWERED",
+        "url": "investigation.html?id=maharashtra#QST-0003-11"
+      },
+      {
+        "id": "QST-0003-12",
+        "kind": "Question",
+        "title": "What action followed?",
+        "state": "UNANSWERED",
+        "url": "investigation.html?id=maharashtra#QST-0003-12"
+      },
+      {
+        "id": "QST-X001",
+        "kind": "Question",
+        "title": "Was any prohibitory order in force at the site at the time, and when was it promulgated?",
+        "state": "UNANSWERED",
+        "url": "investigation.html?id=jantar-mantar#QST-X001"
+      },
+      {
+        "id": "QST-X002",
+        "kind": "Question",
+        "title": "Were any central armed police units deployed alongside the city police, and under whose direction?",
+        "state": "UNANSWERED",
+        "url": "investigation.html?id=jantar-mantar#QST-X002"
+      },
+      {
+        "id": "OFC-0001",
+        "kind": "Office",
+        "title": "Union Ministry of Home Affairs",
+        "state": null,
+        "url": "chain.html#OFC-0001"
+      },
+      {
+        "id": "OFC-0002",
+        "kind": "Office",
+        "title": "State Home Department",
+        "state": null,
+        "url": "chain.html#OFC-0002"
+      },
+      {
+        "id": "OFC-0003",
+        "kind": "Office",
+        "title": "Director General of Police (State)",
+        "state": null,
+        "url": "chain.html#OFC-0003"
+      },
+      {
+        "id": "OFC-0004",
+        "kind": "Office",
+        "title": "Commissioner of Police",
+        "state": null,
+        "url": "chain.html#OFC-0004"
+      },
+      {
+        "id": "OFC-0005",
+        "kind": "Office",
+        "title": "District Magistrate",
+        "state": null,
+        "url": "chain.html#OFC-0005"
+      },
+      {
+        "id": "OFC-0006",
+        "kind": "Office",
+        "title": "Superintendent of Police / Deputy Commissioner of Police (District)",
+        "state": null,
+        "url": "chain.html#OFC-0006"
+      },
+      {
+        "id": "OFC-0007",
+        "kind": "Office",
+        "title": "Officer commanding the deployment on site",
+        "state": null,
+        "url": "chain.html#OFC-0007"
+      },
+      {
+        "id": "OFC-0008",
+        "kind": "Office",
+        "title": "Field personnel and units deployed",
+        "state": null,
+        "url": "chain.html#OFC-0008"
+      },
+      {
+        "id": "CLM-0001",
+        "kind": "Claim",
+        "title": "Police used force against students at Jantar Mantar.",
+        "state": "UNVERIFIED",
+        "url": "response.html#CLM-0001"
+      },
+      {
+        "id": "CLM-0002",
+        "kind": "Claim",
+        "title": "Police used force against students in Bihar.",
+        "state": "UNVERIFIED",
+        "url": "response.html#CLM-0002"
+      },
+      {
+        "id": "CLM-0003",
+        "kind": "Claim",
+        "title": "Police used force against students in Maharashtra.",
+        "state": "UNVERIFIED",
+        "url": "response.html#CLM-0003"
+      }
+    ],
     "removed": [],
     "changed": [],
-    "summary": "201 records added"
+    "summary": "52 records added"
   }
 ];

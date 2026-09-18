@@ -42,6 +42,8 @@ function git(...argv) {
 }
 
 function main() {
+  assertFullHistory();
+
   const WGO = load();
   const config = WGO.config || {};
   const siteUrl = String(config.siteUrl || '').replace(/\/$/, '');
@@ -60,6 +62,40 @@ function main() {
    in practice at this size — and exact, because it compares what the site
    would actually have rendered rather than what a diff of the file looks like.
    ========================================================================== */
+
+/* A shallow clone is the one input that makes this function lie rather than
+   fail. Git reports no parents for the commit at a shallow boundary, so the
+   loop below treats it as a root commit and every record in the archive reads
+   as added by it. That is not hypothetical: `actions/checkout` defaults to
+   fetch-depth 1, and the daily sweep ran `node tools/build.js` on that depth
+   and committed the result with [skip ci]. The published change log was a
+   single entry claiming a sweep-log commit had created all 201 records, and
+   the Atom feed said the same to anyone subscribed. Nothing errored.
+
+   An accountability archive whose change log is wrong is worse than one with
+   no change log, so this refuses to write rather than writing a false history.
+   Whoever hits this wants `fetch-depth: 0` on the checkout step. */
+function assertFullHistory() {
+  const shallow = git('rev-parse', '--is-shallow-repository').trim();
+  if (shallow === 'true') {
+    console.error(
+      'tools/build.js: refusing to run in a shallow clone.\n' +
+      '  The change log is derived by diffing each commit against its parent. In a\n' +
+      '  shallow clone the boundary commit has no parent, so every record would be\n' +
+      '  recorded as added by it and the published history would be false.\n' +
+      '  Fix: set `fetch-depth: 0` on the actions/checkout step, or run\n' +
+      '  `git fetch --unshallow` locally.');
+    process.exit(1);
+  }
+}
+
+/* Git's %cI carries the commit's own UTC offset, so the same commit can
+   serialise as +00:00 or Z depending on how it was made. That is a spurious
+   diff in a committed, CI-compared file. Normalise to one canonical form. */
+function isoUtc(value) {
+  const d = new Date(value);
+  return isNaN(d.getTime()) ? value : d.toISOString().replace(/\.\d{3}Z$/, 'Z');
+}
 
 function buildHistory() {
   const log = git('log', `--max-count=${LIMIT}`, '--format=%H\t%cI\t%P\t%s', '--', 'data/')
@@ -94,7 +130,7 @@ function buildHistory() {
 
     entries.push({
       commit: commit.slice(0, 10),
-      date,
+      date: isoUtc(date),
       subject,
       added: diff.added,
       removed: diff.removed,
@@ -226,7 +262,7 @@ function writeFeed(history, siteUrl, config) {
     ].join('\n');
   });
 
-  const updated = history.length ? history[0].date : new Date().toISOString();
+  const updated = history.length ? history[0].date : isoUtc(new Date());
   const feed = [
     '<?xml version="1.0" encoding="utf-8"?>',
     '<feed xmlns="http://www.w3.org/2005/Atom">',
