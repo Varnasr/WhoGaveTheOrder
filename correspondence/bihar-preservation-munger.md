@@ -13,7 +13,9 @@ dismissed. Leave paragraph 2 as it stands.
 
 To,
 The Superintendent of Police, Munger
-[office address]
+Fort Area, S.P. Office, Munger
+Email: sp-munger-bih@nic.in · Tel: 06344-222406 · Fax: 06344-222444
+*(contacts verified 18 September 2026 from police.bihar.gov.in; see contacts.md)*
 
 From,
 [sender name]

@@ -1849,6 +1849,29 @@
     "volatility": "high"
   },
   {
+    "id": "CUS-012",
+    "jurisdiction": "bihar",
+    "category": "document_custody",
+    "claim": "Contact details for the district police offices to which the Bihar preservation representations are addressed, from the Bihar Police district officer directory: SSP Patna, ssp-patna-bih@nic.in, 0612-2214318 / 2219745, fax 0612-2217744; SP Katihar, sp-katihar-bih@nic.in, 06452-230601, fax 06452-245065; SP Munger, sp-munger-bih@nic.in, 06344-222406, fax 06344-222444; SP Siwan, sp-siwan-bih@nic.in, 06154-242060, fax 06154-242977. Patna's senior district officer is a Senior Superintendent of Police, not a Commissioner of Police.",
+    "confidence": "VERIFIED",
+    "sources": [
+      {
+        "url": "https://police.bihar.gov.in/",
+        "source_type": "primary",
+        "publication": "Bihar Police",
+        "retrieved_on": "2026-09-18"
+      },
+      {
+        "url": "https://munger.nic.in/superintendent-of-police/",
+        "source_type": "primary",
+        "publication": "District Administration Munger",
+        "retrieved_on": "2026-09-18"
+      }
+    ],
+    "notes": "Retrieved 18 September 2026. The directory is not a linkable page: police.bihar.gov.in is a single-page application and the 45-district officer list ships inside its application bundle as a `districts` array carrying designation, STD code, office and residence numbers, fax, mobile and email. The bundle filename is content-hashed and changes when the site is rebuilt, so the site and the retrieval date are what is citable, not the asset URL. This is the same shape of problem as CUS-011: a government source whose content cannot be addressed by URL.\n\nMunger is cross-confirmed independently by the district site, which gives the same email, office number and mobile and adds the officeholder (Syed Imran Masood, I.P.S.) and a postal address, Fort Area, S.P. Office, Munger. Two official sources agreeing on one district is why the directory is treated as reliable for the other three; it is not proof of them.\n\nPatna, Katihar and Siwan could not be cross-checked: patna.nic.in, katihar.nic.in and siwan.nic.in all returned HTTP 503 from their own nginx at the time of retrieval, while munger.nic.in served normally through the same path, so the failure was theirs rather than the retrieving client's.\n\nNo postal address is held for Patna, Katihar or Siwan. The police directory carries no street address and the three district sites were down. None is invented here, and the drafts in correspondence/ carry an explicit placeholder saying so rather than a plausible-looking address. That matters for FQ-001, whose method is speed post with proof of despatch: three of the four cannot be posted until an address is obtained.\n\nEvery address is @nic.in or @gov.in, so these are government mail systems, which are the ones most likely to evaluate SPF independently of DMARC alignment. The domain's SPF record was corrected before this was recorded and now authorises the Microsoft 365 servers the domain sends from.",
+    "volatility": "medium"
+  },
+  {
     "id": "RET-001",
     "jurisdiction": "delhi",
     "category": "retention",

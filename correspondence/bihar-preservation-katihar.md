@@ -6,7 +6,9 @@
 
 To,
 The Superintendent of Police, Katihar
-[office address]
+[postal address — NOT held by this archive; see contacts.md]
+Email: sp-katihar-bih@nic.in · Tel: 06452-230601 · Fax: 06452-245065
+*(contacts verified 18 September 2026 from police.bihar.gov.in; see contacts.md)*
 
 From,
 [sender name]
