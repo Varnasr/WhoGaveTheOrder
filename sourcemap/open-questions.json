@@ -44,10 +44,13 @@
     "category": "legal_proceeding",
     "jurisdiction": "delhi",
     "question": "The text of the Delhi High Court order of 22 July 2026 in W.P.(CRL) 2127/2026, and which petitions were heard with it.",
-    "why_it_matters": "Partly answered on 18 August 2026: the cause title, case number, listing date and bench are now established from the court's own cause list (PROC-DEL-002). What is still unheld is the order itself. Every statement this archive makes about what the court directed — preservation of CCTV footage and videography, four weeks for a counter affidavit, the 11 September listing — rests on news reports of a document that is public and free.",
+    "why_it_matters": "Partly answered on 18 August 2026: the cause title, case number, listing date and bench are now established from the court's own cause list (PROC-DEL-002). What is still unheld is the order itself. Every statement this archive makes about what the court directed — preservation of CCTV footage and videography, four weeks for a counter affidavit, the 11 September listing — rests on news reports of a document that is public and free. ANSWERED 18 September 2026: the order was retrieved from the court's own portal and is at PROC-DEL-004. The answer was not the expected one. The order dismisses the petition and contains none of the directions the news reports attributed to it, so PROC-DEL-001 moves to DISPUTED and OQ-051 opens.",
     "lawful_route": "Delhi High Court order PDFs are served directly at delhihighcourt.nic.in/app/showFileJudgment/<filename>.pdf and can be downloaded without a login once the filename is known — an order in another matter was retrieved that way on 18 August 2026 to confirm it. The filename is assigned by the registry and is not derivable, so it has to come from the case-status or judgment search, both of which sit behind a captcha and need a person. Cause lists, by contrast, are directly downloadable: combined_cause_list_DD.MM.YYYY.pdf and rlDDMMYYYY.pdf under delhihighcourt.nic.in/files/YYYY-MM/cause-list/. The 11 September 2026 listing is the next opportunity to capture the order and the connected matters in one go.",
     "blocks": [
       "PROC-DEL-001"
+    ],
+    "answered_by": [
+      "PROC-DEL-004"
     ]
   },
   {
@@ -625,6 +628,20 @@
     "blocks": [
       "INC-SIW-003",
       "INC-SIW-002"
+    ]
+  },
+  {
+    "id": "OQ-053",
+    "priority": "time_critical",
+    "category": "legal_proceeding",
+    "jurisdiction": "delhi",
+    "question": "In which proceeding, if any, did the Delhi High Court direct preservation of CCTV footage and videography in relation to the 20 and 21 July 2026 police action, and what does that order say?",
+    "why_it_matters": "Four news reports place that direction in W.P.(CRL) 2127/2026. The order in that case, now held at PROC-DEL-004, dismisses the petition and directs nothing. Either a preservation direction exists in a matter this archive has not identified, or it does not exist. The difference decides whether anything currently interrupts the retention schedule for the Delhi footage, and the archive is presently unable to say which.",
+    "lawful_route": "The combined cause list for 22 July 2026 is already held (PROC-DEL-002) and lists every matter before the same bench that day; the connected numbers the order itself names, LPA 539/2026 and W.P.(C) 9770/2026, are a second route. Both are free. Case status at delhihighcourt.nic.in/app/get-case-type-status takes the literal case type string and returns an order list per case; PROC-DEL-004 records how.",
+    "blocks": [
+      "PROC-DEL-001",
+      "RET-006",
+      "PUB-DEL-002"
     ]
   }
 ]
