@@ -109,8 +109,8 @@ WGO.importedSources = [
     "kind": "PRIMARY",
     "url": "https://delhihighcourt.nic.in/app/showlogo/1784724307_1d929d5349b68417_687_21272026.pdf/2026",
     "retrievedOn": "2026-09-18",
-    "archiveUrl": null,
-    "archivedOn": null,
+    "archiveUrl": "http://web.archive.org/web/20260919072722/https://delhihighcourt.nic.in/app/showlogo/1784724307_1d929d5349b68417_687_21272026.pdf/2026",
+    "archivedOn": "2026-09-20",
     "sha256": null,
     "originatesFrom": null
   },
@@ -703,8 +703,8 @@ WGO.importedSources = [
     "kind": "PRIMARY",
     "url": "https://indiacode.gov.in/handle/123456789/551217",
     "retrievedOn": "2026-09-18",
-    "archiveUrl": null,
-    "archivedOn": null,
+    "archiveUrl": "http://web.archive.org/web/20260919072800/https://indiacode.gov.in/handle/123456789/551217",
+    "archivedOn": "2026-09-20",
     "sha256": null,
     "originatesFrom": null
   },
@@ -769,8 +769,8 @@ WGO.importedSources = [
     "kind": "PRIMARY",
     "url": "https://indiacode.gov.in/handle/123456789/494691",
     "retrievedOn": "2026-09-18",
-    "archiveUrl": null,
-    "archivedOn": null,
+    "archiveUrl": "http://web.archive.org/web/20260919072854/https://indiacode.gov.in/handle/123456789/494691",
+    "archivedOn": "2026-09-20",
     "sha256": null,
     "originatesFrom": null
   },
