@@ -736,8 +736,8 @@ WGO.importedSources = [
     "kind": "PRIMARY",
     "url": "https://indiacode.gov.in/handle/123456789/568086",
     "retrievedOn": "2026-09-18",
-    "archiveUrl": null,
-    "archivedOn": null,
+    "archiveUrl": "http://web.archive.org/web/20260920075113/https://indiacode.gov.in/handle/123456789/568086",
+    "archivedOn": "2026-09-21",
     "sha256": null,
     "originatesFrom": null
   },

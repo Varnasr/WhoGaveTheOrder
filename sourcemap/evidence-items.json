@@ -681,7 +681,9 @@
         "url": "https://indiacode.gov.in/handle/123456789/496169",
         "source_type": "primary",
         "publication": "India Code",
-        "retrieved_on": "2026-09-18"
+        "retrieved_on": "2026-09-18",
+        "archive_url": "http://web.archive.org/web/20260920075056/https://indiacode.gov.in/handle/123456789/496169",
+        "archived_on": "2026-09-21"
       }
     ],
     "notes": "Verified against the text of the Central Act on 18 September 2026, replacing a recitation that had never been checked against a fetched source. Three things were established and one was corrected. Corrected: the forty-day third-party period was cited to s.7(7); it is in s.11(3), which opens 'Notwithstanding anything contained in section 7'. s.7(7) does something different, requiring the PIO to consider the third party's representation before deciding, so the two are now cited separately. Established: the s.5(2) proviso does not state thirty-five days, it states that 'a period of five days shall be added in computing the period for response specified under sub-section (1) of section 7'; thirty-five is arithmetic on the statute, and the derivation is now visible in the claim. Established: s.7(1) opens 'Subject to the proviso to sub-section (2) of section 5 or the proviso to sub-section (3) of section 6', which the earlier recitation omitted, and s.6(3) gives five days for transfer to another public authority. The remaining limbs (thirty days, forty-eight hours, deemed refusal, thirty days first appeal, ninety days second appeal) match the statutory text as fetched. Which item on India Code is the Central Act is not obvious and is easy to get wrong: a search for 'Right to Information Act, 2005' returns at least six items with that exact title, five of them state adoptions (Rajasthan 123456789/587926, Chhattisgarh 548828, Uttar Pradesh 601478 and 601842) carrying refact AC_CEN_26_36_00004_200522_1517807322955. The Central Act is handle 123456789/496169, state_name CENTRAL, refact 0, Department of Personnel and Training, preamble 'ACT NO. 22 OF 2005'. Section handles used: s.5 123456789/513334, s.6 513335, s.7 513336, s.11 513341, s.19 513350. Retrieved via the India Code DSpace REST discovery API (https://indiacode.gov.in/server/api/discover/search/objects), which returns the section text in dc.identifier.section_page_note. The handle URL is what a reader opens; it is an Angular single-page application that returns HTTP 200 with an identical 2,338-byte shell for every path, including paths that do not exist, so an HTTP status check cannot confirm any indiacode.gov.in URL. Verification here was done against the API response, not the status code.",
@@ -698,7 +700,9 @@
         "url": "https://indiacode.gov.in/handle/123456789/496169",
         "source_type": "primary",
         "publication": "India Code",
-        "retrieved_on": "2026-09-18"
+        "retrieved_on": "2026-09-18",
+        "archive_url": "http://web.archive.org/web/20260920075056/https://indiacode.gov.in/handle/123456789/496169",
+        "archived_on": "2026-09-21"
       }
     ],
     "notes": "Verified against the text of the Central Act on 18 September 2026. s.7(2): where the PIO 'fails to give decision on the request for information within the period specified under sub-section (1)', the PIO 'shall be deemed to have refused the request'. s.19(1) ties the first appeal to that expiry, allowing an appeal by a person who 'does not receive a decision within the time specified in sub-section (1) or clause (a) of sub-section (3) of section 7' within thirty days 'from the expiry of such period'. Both limbs of the claim hold on the statutory text. The second sentence of the claim, that a dated record of non-response is itself a documentable event, is the archive's own editorial position rather than a statement of law, and is not carried by this source. Section handles: s.7 123456789/513336, s.19 513350. Retrieved via the India Code DSpace REST discovery API (https://indiacode.gov.in/server/api/discover/search/objects), which returns the section text in dc.identifier.section_page_note. The handle URL is what a reader opens; it is an Angular single-page application that returns HTTP 200 with an identical 2,338-byte shell for every path, including paths that do not exist, so an HTTP status check cannot confirm any indiacode.gov.in URL. Verification here was done against the API response, not the status code.",
@@ -1008,7 +1012,9 @@
         "url": "https://indiacode.gov.in/handle/123456789/568086",
         "source_type": "primary",
         "publication": "India Code",
-        "retrieved_on": "2026-09-18"
+        "retrieved_on": "2026-09-18",
+        "archive_url": "http://web.archive.org/web/20260920075113/https://indiacode.gov.in/handle/123456789/568086",
+        "archived_on": "2026-09-21"
       }
     ],
     "notes": "India Code text as on 22 November 2024. Link rot recorded 18 September 2026. The India Code bitstream URL cited above, retrieved 16 August 2026, now returns HTTP 404: India Code has migrated from www.indiacode.nic.in to indiacode.gov.in and the old bitstream paths are gone. The Act is still published, at the handle added as the second source. The section-level text supporting this claim was NOT re-verified on 18 September: India Code holds this Act as a single whole-act item with no section-level records (unlike the Central RTI Act, which it splits by section), so the API route used to verify RTI-ACT-001 is not available here. The claim's content therefore still rests on the 16 August retrieval and on the Wayback snapshot recorded against the source. What the new handle establishes is that the Act is current and where it now lives, confirmed from India Code's own metadata: The Maharashtra Police Act., Maharashtra, act_number 22, act_year 1951, repealed false. See CUS-011.",
@@ -1832,7 +1838,9 @@
         "url": "https://indiacode.gov.in/handle/123456789/496169",
         "source_type": "primary",
         "publication": "India Code",
-        "retrieved_on": "2026-09-18"
+        "retrieved_on": "2026-09-18",
+        "archive_url": "http://web.archive.org/web/20260920075056/https://indiacode.gov.in/handle/123456789/496169",
+        "archived_on": "2026-09-21"
       },
       {
         "url": "https://indiacode.gov.in/handle/123456789/551217",
@@ -1854,7 +1862,9 @@
         "url": "https://indiacode.gov.in/handle/123456789/568086",
         "source_type": "primary",
         "publication": "India Code",
-        "retrieved_on": "2026-09-18"
+        "retrieved_on": "2026-09-18",
+        "archive_url": "http://web.archive.org/web/20260920075113/https://indiacode.gov.in/handle/123456789/568086",
+        "archived_on": "2026-09-21"
       }
     ],
     "notes": "Measured, not inferred. Each old URL was requested on 18 September 2026 and the status recorded: delhi_police_act.pdf 404, 1094_bihar_bihar_police_act_2007.pdf 404, A2005-22.pdf 404, ashtra_police.pdf 302 resolving to text/html, bnss,_2023.pdf 200 application/pdf 2,070,967 bytes. Affected source records in the site data: SRC-0062 (Delhi), SRC-0066 (Bihar), SRC-0064 (Maharashtra), SRC-0056 (BNSS, still live). All four carry a Wayback archive_url, which is the archive's fixity discipline doing exactly what it exists for; those snapshots could NOT be confirmed from the session that recorded this, because web.archive.org is blocked by that environment's egress policy, and they should be opened by hand before anyone relies on this note. Two traps for whoever maintains this next. First, indiacode.gov.in is an Angular single-page application that returns HTTP 200 with an identical 2,338-byte shell for every path, including paths that do not exist, so a link checker keyed on status codes will report every indiacode.gov.in URL as live whether or not anything is behind it, and the old www.indiacode.nic.in host answers 404 honestly. A status-code check on this host is worse than no check, because it manufactures confidence. Content must be confirmed through the DSpace REST API at https://indiacode.gov.in/server/api/discover/search/objects. Second, India Code's own persistent-identifier field, dc.identifier.uri, points at http://test1.indiacode.nic.in/ on every item inspected, a staging host that does not resolve, so the repository's declared permanent URL is not usable as a citation and the handle path on the production host is what should be cited.",
