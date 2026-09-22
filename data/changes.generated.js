@@ -5,6 +5,58 @@ window.WGO = window.WGO || {};
 
 WGO.changes = [
   {
+    "commit": "30b4bfa9f5",
+    "date": "2026-09-20T07:51:51Z",
+    "subject": "Sweep log and archived copies for 2026-09-20 [skip ci]",
+    "added": [],
+    "removed": [],
+    "changed": [
+      {
+        "id": "SRC-0084",
+        "kind": "Source",
+        "title": "High Court of Delhi",
+        "state": null,
+        "url": "https://delhihighcourt.nic.in/app/showlogo/1784724307_1d929d5349b68417_687_21272026.pdf/2026",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20260919072722/https://delhihighcourt.nic.in/app/showlogo/1784724307_1d929d5349b68417_687_21272026.pdf/2026"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0081",
+        "kind": "Source",
+        "title": "India Code",
+        "state": null,
+        "url": "https://indiacode.gov.in/handle/123456789/551217",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20260919072800/https://indiacode.gov.in/handle/123456789/551217"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0083",
+        "kind": "Source",
+        "title": "India Code",
+        "state": null,
+        "url": "https://indiacode.gov.in/handle/123456789/494691",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20260919072854/https://indiacode.gov.in/handle/123456789/494691"
+          }
+        ]
+      }
+    ],
+    "summary": "3 records edited"
+  },
+  {
     "commit": "78ce8412a3",
     "date": "2026-09-18T08:36:18Z",
     "subject": "Retrieve the Delhi High Court order, which says the opposite of the reporting",
