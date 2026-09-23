@@ -598,7 +598,7 @@
     return '<details class="explainer cite">' +
       '<summary>Cite this record</summary>' +
       '<div class="explainer__body">' +
-        '<pre class="cite__text" id="' + id + '">' + ui.esc(citation) + '</pre>' +
+        '<pre class="cite__text" id="' + id + '" tabindex="0" role="region" aria-label="Citation, scrolls horizontally">' + ui.esc(citation) + '</pre>' +
         '<div class="row" style="margin-top:0.6rem">' +
           '<button class="btn btn--small btn--ghost" type="button" data-copy="' + id + '">Copy the citation</button>' +
         '</div>' +
@@ -812,7 +812,7 @@
           '<p class="small">Assembled from this record. Anything in [brackets] is for you to fill ' +
           'in — the archive does not know it and will not guess. ' +
           ui.esc(appeal.note || '') + '</p>' +
-          '<pre class="appeal__draft" id="' + id + '">' + ui.esc(draft) + '</pre>' +
+          '<pre class="appeal__draft" id="' + id + '" tabindex="0" role="region" aria-label="Draft letter, scrolls horizontally">' + ui.esc(draft) + '</pre>' +
           '<div class="row" style="margin-top:0.6rem">' +
             '<button class="btn btn--small btn--ghost" type="button" data-copy="' + id + '">Copy the draft</button>' +
             '<span class="small">Under ' + ui.esc(appeal.provision || 'the Act') + '. ' +
@@ -936,7 +936,7 @@
     var dis = blocked ? ' aria-disabled="true" data-disabled="1"' : '';
     var copyOnClick = routes.gmail.whole ? '' : ' data-copy="' + ui.esc(id) + '"';
 
-    return '<pre class="appeal__draft" id="' + ui.esc(id) + '">' + ui.esc(msg.body) + '</pre>' +
+    return '<pre class="appeal__draft" id="' + ui.esc(id) + '" tabindex="0" role="region" aria-label="Draft letter, scrolls horizontally">' + ui.esc(msg.body) + '</pre>' +
       '<div class="row" style="margin-top:0.6rem;gap:0.4rem;flex-wrap:wrap">' +
         '<a class="btn btn--small" href="' + ui.esc(routes.gmail.href) + '" target="_blank" ' +
           'rel="noopener"' + dis + copyOnClick + '>Open in Gmail</a>' +

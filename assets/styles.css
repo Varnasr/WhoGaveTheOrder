@@ -944,6 +944,8 @@ blockquote.official cite { display: block; margin-top: 0.4rem; font-family: var(
   padding-top: 0.75rem;
   border-top: 1px dotted var(--rule);
 }
+/* These are scrollable regions on a phone, so they need to be reachable from
+   the keyboard; the markup carries tabindex and a role. */
 .cite__text,
 .appeal__draft {
   margin-top: 0.6rem;
@@ -1149,7 +1151,11 @@ blockquote.official { border-left: 4px solid var(--brand-blue); }
    near-grey paper was invisible on anything but a calibrated screen. The row
    headings step up from --ink-3, which measures 4.23:1 on the band — they are
    11px uppercase, so they do not qualify as large text and need the full 4.5. */
+/* --ink-3 is measured against the page, not against this tint: on the banded
+   rows it came to 4.22:1, and those cells carry the "not established" notes,
+   which are the point of the table. --ink-2 clears it on both. */
 .meta-table tbody tr:nth-child(odd) { background: color-mix(in srgb, var(--brand-blue-soft) 55%, transparent); }
+.meta-table tbody tr:nth-child(odd) .small { color: var(--ink-2); }
 .meta-table th { color: var(--ink-2); }
 
 /* Evidence and answer states are marked by a left edge. Widening it from 3px to
