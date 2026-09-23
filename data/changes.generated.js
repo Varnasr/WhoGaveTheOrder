@@ -5,6 +5,93 @@ window.WGO = window.WGO || {};
 
 WGO.changes = [
   {
+    "commit": "93352a325d",
+    "date": "2026-09-23T02:03:02Z",
+    "subject": "Record the one order in this story whose author has a name",
+    "added": [
+      {
+        "id": "INC-DEL-007",
+        "kind": "Evidence",
+        "title": "The Union Home Secretary ordered the suspension of mobile internet services, all technologies, within a 1.5 kilometre radius of Jantar Mantar, New Delhi, from 1",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=INC-DEL-007"
+      },
+      {
+        "id": "PROC-SC-011",
+        "kind": "Evidence",
+        "title": "By an order reported dated 10 September 2026, a three-judge bench headed by the Chief Justice of India, Surya Kant, declined to reconstitute the High Powered En",
+        "state": "REPORTED",
+        "url": "evidence.html?id=PROC-SC-011"
+      },
+      {
+        "id": "INC-BIH-006",
+        "kind": "Evidence",
+        "title": "Accounts of the PUCL Bihar public hearing of 22 August 2026 disagree on how many people deposed and on one panel member's name. INC-BIH-005 records 19 deponents",
+        "state": "DISPUTED",
+        "url": "evidence.html?id=INC-BIH-006"
+      },
+      {
+        "id": "SRC-0085",
+        "kind": "Source",
+        "title": "Communications Today",
+        "state": null,
+        "url": "https://www.communicationstoday.co.in/govt-orders-mobile-internet-services-suspension-near-jantar-mantar/"
+      },
+      {
+        "id": "SRC-0086",
+        "kind": "Source",
+        "title": "Deccan Herald",
+        "state": null,
+        "url": "https://www.deccanherald.com/india/delhi/in-the-interest-of-public-safety-mha-suspends-mobile-internet-services-within-15-km-radius-of-jantar-mantar-till-midnight-4084755"
+      },
+      {
+        "id": "SRC-0087",
+        "kind": "Source",
+        "title": "National Herald",
+        "state": null,
+        "url": "https://www.nationalheraldindia.com/national/neet-ug-protests-sc-retains-panel-probing-pellet-guns-violence-and-harassment-of-women"
+      },
+      {
+        "id": "SRC-0088",
+        "kind": "Source",
+        "title": "Free Press Journal",
+        "state": null,
+        "url": "https://www.freepressjournal.in/education/sc-rejects-plea-to-reconstitute-police-excesses-panel-directs-probe-into-pellet-guns-violence-against-protesters"
+      },
+      {
+        "id": "SRC-0089",
+        "kind": "Source",
+        "title": "LawChakra",
+        "state": null,
+        "url": "https://lawchakra.in/supreme-court/pellet-guns-police-surveillance-supreme-court-told-constitutional-questions-from-student-protests-are-outside-committees-remit/"
+      },
+      {
+        "id": "SRC-0090",
+        "kind": "Source",
+        "title": "BiharWatch",
+        "state": null,
+        "url": "https://www.biharwatch.in/2026/08/thirteen-types-of-state.html"
+      },
+      {
+        "id": "SRC-0091",
+        "kind": "Source",
+        "title": "Internet Freedom Foundation",
+        "state": null,
+        "url": "https://internetfreedom.in/iff-condemns-the-internet-shutdown-in-parts-of-central-delhi-no-suspension-order-has-been-made-public/"
+      },
+      {
+        "id": "OQ-054",
+        "kind": "Question",
+        "title": "Were any of the July 2026 telecommunications suspension orders for Central Delhi published, and if so where; and does the confidential witness portal directed by the Supreme Court on 10 September 2026 now exist, at what address?",
+        "state": "UNANSWERED",
+        "url": "investigation.html?id=jantar-mantar#OQ-054"
+      }
+    ],
+    "removed": [],
+    "changed": [],
+    "summary": "11 records added"
+  },
+  {
     "commit": "68cb0fc2c3",
     "date": "2026-09-21T08:06:55Z",
     "subject": "Sweep log and archived copies for 2026-09-21 [skip ci]",
