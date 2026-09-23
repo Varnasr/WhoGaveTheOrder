@@ -576,7 +576,8 @@ blockquote.official cite { display: block; margin-top: 0.4rem; font-family: var(
   text-transform: uppercase; color: var(--ink-3); margin-bottom: 0.3rem;
 }
 .field input[type="text"], .field input[type="search"], .field input[type="date"],
-.field input[type="email"], .field input[type="url"], .field select, .field textarea {
+.field input[type="email"], .field input[type="url"], .field input[type="tel"],
+.field select, .field textarea {
   width: 100%; padding: 0.6rem 0.7rem;
   background: var(--paper-2); color: var(--ink);
   border: 1px solid var(--rule-strong); border-radius: var(--radius);
