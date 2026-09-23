@@ -117,6 +117,7 @@ function structural(WGO) {
   }
 
   found.push(...pageLinks(WGO));
+  found.push(...duplicateChromeLinks());
   found.push(...letterJoin(WGO));
   return found;
 }
@@ -176,6 +177,34 @@ function pageLinks(WGO) {
     }
   }
 
+  return found;
+}
+
+/* No link appears twice in the same footer column, and no page twice in NAV.
+   ------------------------------------------------------------------------
+   A three-way merge on 2026-09-23 re-inserted "Send a preservation letter"
+   into the Take part column alongside the copy already there. The footer
+   rendered, both entries worked, and the only symptom was the same link
+   listed twice four rows apart. Nothing that reads the site could have seen
+   it, because both halves were individually correct. */
+function duplicateChromeLinks() {
+  const found = [];
+  const ui = fs.readFileSync(path.join(ROOT, 'assets/ui.js'), 'utf8');
+
+  /* Each footer column is one "'<div><h4>' … '</ul></div>'" run. */
+  for (const col of ui.match(/'<div><h4>'[\s\S]*?'<\/ul><\/div>'/g) || []) {
+    const seen = new Set();
+    for (const m of col.matchAll(/fl\('([^']+)',\s*'([^']+)'\)/g)) {
+      const key = `${m[1]} | ${m[2]}`;
+      if (seen.has(key)) {
+        found.push({
+          severity: 'error', record: 'assets/ui.js', field: 'footer', ref: key,
+          message: 'The same link is listed twice in one footer column'
+        });
+      }
+      seen.add(key);
+    }
+  }
   return found;
 }
 

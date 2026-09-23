@@ -438,7 +438,6 @@
               '<li>' + fl('letters.html', 'Send a preservation letter') + '</li>' +
               '<li>' + fl('rti.html', 'File an RTI yourself') + '</li>' +
               '<li>' + fl('submit.html', 'Submit evidence') + '</li>' +
-              '<li>' + fl('letters.html', 'Send a preservation letter') + '</li>' +
               '<li>' + fl('submit.html#missing', 'What we are missing') + '</li>' +
               '<li>' + fl('about.html#corrections', 'Report an error') + '</li>' +
             '</ul></div>' +
