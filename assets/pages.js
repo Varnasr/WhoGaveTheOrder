@@ -242,10 +242,14 @@
       questions.map(ui.questionCard).join(''));
 
     /* 05 — HELP FIND THE MISSING EVIDENCE */
+    // The container in investigation.html is already the <ul>, as it is for
+    // [data-region="wanted"]. Wrapping the items in a second <ul> put a list
+    // inside a list, which is invalid and which a screen reader announces as
+    // a list of one item containing a list.
     ui.mount('[data-region="missing"]',
-      '<ul class="pill-list">' + open.slice(0, 8).map(function (q) {
+      open.slice(0, 8).map(function (q) {
         return '<li>' + ui.plainChip((q.wants && q.wants[0]) || q.text) + '</li>';
-      }).join('') + '</ul>');
+      }).join(''));
 
     /* Cross-links */
     ui.mount('[data-region="external"]',
