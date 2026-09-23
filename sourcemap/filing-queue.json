@@ -251,5 +251,44 @@
     "legal_basis": "Published judicial record.",
     "exposure_risk": false,
     "notes": "Every Supreme Court record in this archive is an outlet's account of an order rather than the order. That is a weakness across the whole supreme_court category, not a gap in one record, and it is cheap to fix because the orders are public. Getting the 10 September order would also settle whether the confidential witness portal at OQ-054 exists and where."
+  },
+  {
+    "id": "FQ-017",
+    "sequence": 1,
+    "deadline_driven": false,
+    "jurisdiction": "delhi",
+    "action": "Obtain the Delhi Police affidavit dated 17 August 2026 filed before the Supreme Court, and the application of 31 August 2026 with the affidavit of Joint Commissioner Ajay Krishna Sharma, from the Court's own record. Then ask Delhi Police, under the Right to Information Act, for the standard operating procedure governing the Facial Recognition System, the record of what was captured at Jantar Mantar between 20 and 26 July 2026, the retention period applied to it, and the verification protocol the force says is pending.",
+    "authority": "Supreme Court of India for the filings. Commissioner of Police, Delhi, through the Ministry of Home Affairs route, for the procedure and retention.",
+    "method": "The filings are on the Court's record and need no application. The RTI goes to rtionline.gov.in. Ask for the procedure and the retention period, not for the list: a list of 2,873 named people is the last thing this archive should hold or ask to be published.",
+    "cost": "Rs 10 application fee for the RTI; the filings are free",
+    "legal_basis": "Published judicial record; Right to Information Act for the procedure and retention.",
+    "exposure_risk": false,
+    "notes": "The highest-value open item on the Delhi record. The Supreme Court's order of 1 September 2026 closed every FIR in the country over these protests except the one built on this list, so the list is now the whole of the live criminal exposure arising from the protest, and an Indian Express check of 205 names on it found at least 25 people who were in jail on the day the software placed them at Jantar Mantar. Two things follow that an RTI can reach. What the retention period is, because a crowd capture of everyone present is held somewhere under some rule. And what the verification protocol is, because the force told the Court verification was pending, which means the list went in before it existed."
+  },
+  {
+    "id": "FQ-018",
+    "sequence": 1,
+    "deadline_driven": false,
+    "jurisdiction": "supreme_court",
+    "action": "Obtain the Supreme Court's orders of 28 July 2026 (PROC-SC-012), 3 August 2026 (PROC-SC-013) and 1 September 2026 (PROC-SC-014) from the Court's own record.",
+    "authority": "Supreme Court of India. Orders are published on the Court's website; no application is needed.",
+    "method": "Locate by cause title and date. PROC-SC-014 gives the cause title Yashovardhan Azad and Others v. Union of India and Others; PROC-SC-008 gives W.P.(C) No. 917/2026 in the connected pellet-gun matter.",
+    "cost": "Free",
+    "legal_basis": "Published judicial record.",
+    "exposure_risk": false,
+    "notes": "The 28 July order is the one to get first, and not because it is the earliest. It is reported to direct police to preserve CCTV footage, drone recordings and call logs, which is the same class of record the four preservation letters on this site ask for. A letter that can cite a court order directing preservation is asking a different question from a letter that cannot, and the order is free and public."
+  },
+  {
+    "id": "FQ-019",
+    "sequence": 1,
+    "deadline_driven": false,
+    "jurisdiction": "all",
+    "action": "Obtain the written instruments behind the state withdrawals and the permission refusals: the Bihar Home Department notification recorded at INC-BIH-007, the Assam notification at INC-ASM-001, the order or direction by which Maharashtra withdrew, and the notice refusing permission for the Kochi gathering recorded at INC-KER-001.",
+    "authority": "Bihar Home Department; Assam Home and Political Department; Maharashtra Home Department; Commissioner of Police, Kochi City, for the Ernakulam Town South refusal.",
+    "method": "One RTI application per state, each asking for the instrument by its reported date and for the file noting behind it. Kerala and Maharashtra both offer online filing; Bihar and Assam should be checked before assuming it.",
+    "cost": "Rs 10 per application plus copying charges",
+    "legal_basis": "Right to Information Act. None of these is an investigation record, so the usual refusal ground is weaker than it is for a case diary.",
+    "exposure_risk": false,
+    "notes": "This is the cheapest route to a named author anywhere in this archive, and it exists only outside Delhi. A lathi charge leaves no order; a refusal of permission and a withdrawal of cases are both written by somebody, carry a date, and sit in a file that survives the news cycle. Bihar and West Bengal are both reported to have used the same cut-off, 6 pm on 26 July 2026, which is an odd coincidence between two states and is itself worth asking about: the file noting should say where the line came from."
   }
 ]

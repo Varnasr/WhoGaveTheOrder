@@ -30,7 +30,7 @@ const strict = process.argv.includes('--strict');
 function main() {
   const WGO = load();
   const model = WGO.model;
-  const problems = model.integrity().concat(structural(WGO));
+  const problems = model.integrity().concat(structural(WGO), correctionLog(WGO), sweepRunsOnce());
 
   const errors = problems.filter(p => p.severity === 'error');
   const warnings = problems.filter(p => p.severity !== 'error');
@@ -187,6 +187,115 @@ function pageLinks(WGO) {
    rendered, both entries worked, and the only symptom was the same link
    listed twice four rows apart. Nothing that reads the site could have seen
    it, because both halves were individually correct. */
+/* The sweep runs once, and the run that writes the log is the run that reports.
+   ------------------------------------------------------------------------
+   tools/sweep.js records every item it has seen, so a second run in the same
+   job finds nothing new. The workflow used to take its human summary from a
+   first run and its JSON from a second, and the issue is opened from the JSON,
+   so every candidate was found by the run whose output went to a text file
+   nobody reads.
+
+   It reported "0 candidate(s)" on ten consecutive mornings, 13 to 22 September
+   2026, while the seen-list grew by about fifteen items a day. Nothing errored,
+   nothing was red, and the archive went a month out of date behind a green
+   daily job. A sweep that cannot find anything and a quiet week file the same
+   issue.
+
+   Two things are pinned. That sweep.js is invoked once in the sweep step, and
+   that the invocation which produces the JSON is not the one carrying
+   --no-write. Either alone permits the other's version of the bug. */
+function sweepRunsOnce() {
+  const found = [];
+  const wf = path.join(ROOT, '.github/workflows/sweep.yml');
+  if (!fs.existsSync(wf)) { return found; }
+  const yml = fs.readFileSync(wf, 'utf8');
+
+  const calls = [...yml.matchAll(/node\s+tools\/sweep\.js([^\n|>]*)/g)].map(m => m[1]);
+  if (calls.length > 1) {
+    found.push({
+      severity: 'error', record: '.github/workflows/sweep.yml', field: 'sweep', ref: `${calls.length} invocations`,
+      message: 'tools/sweep.js is invoked more than once. The first run consumes the new items and the second reports none'
+    });
+  }
+  for (const flags of calls) {
+    if (/--json/.test(flags) && /--no-write/.test(flags)) {
+      found.push({
+        severity: 'error', record: '.github/workflows/sweep.yml', field: 'sweep', ref: flags.trim(),
+        message: 'The sweep invocation that produces the JSON carries --no-write, so it reports against a log another run already wrote'
+      });
+    }
+  }
+  return found;
+}
+
+/* Corrections stay out of the Latest stream, and the log they move to exists.
+   ------------------------------------------------------------------------
+   An update carrying `correction: true` reports an error of this archive's.
+   Those are published, and they are published in the corrections log rather
+   than at the top of the homepage, where for most of September the first of
+   the three Latest entries was the archive explaining a framing mistake of
+   its own.
+
+   Both halves need pinning, and the second is the one that bites. Flagging an
+   entry hides it from the homepage immediately; the log that is supposed to
+   carry it is a data-region on two pages and a handler in pages.js, and if any
+   of those is missing the entry is not moved but deleted from the reader's
+   view, with nothing to show for it. about.html had no handler in pages.js at
+   all until the log was added, which is how its corrections policy came to
+   promise a log for weeks with none on the site. */
+function correctionLog(WGO) {
+  const found = [];
+  const updates = WGO.updates || [];
+  const corrections = updates.filter(u => u.correction);
+
+  const ui = fs.readFileSync(path.join(ROOT, 'assets/ui.js'), 'utf8');
+  const pages = fs.readFileSync(path.join(ROOT, 'assets/pages.js'), 'utf8');
+
+  if (!/ui\.correctionList\s*=/.test(ui)) {
+    found.push({
+      severity: 'error', record: 'assets/ui.js', field: 'correctionList', ref: null,
+      message: 'Updates can be flagged as corrections but nothing renders them'
+    });
+  }
+
+  for (const page of ['about.html', 'changes.html']) {
+    const html = fs.readFileSync(path.join(ROOT, page), 'utf8');
+    if (!/data-region="corrections"/.test(html)) {
+      found.push({
+        severity: 'error', record: page, field: 'corrections', ref: null,
+        message: 'Page is meant to carry the corrections log and has no region for it'
+      });
+    }
+    const handler = page.replace('.html', '');
+    const re = new RegExp('pages\\.' + handler + '\\s*=[\\s\\S]*?data-region="corrections"');
+    if (!re.test(pages)) {
+      found.push({
+        severity: 'error', record: 'assets/pages.js', field: 'pages.' + handler, ref: page,
+        message: 'Page has a corrections region that no handler mounts anything into'
+      });
+    }
+  }
+
+  /* A correction with no record ID cannot be checked against the thing it
+     corrected, which is the whole use of publishing it. */
+  for (const u of corrections) {
+    if (!u.recordId) {
+      found.push({
+        severity: 'error', record: 'data/records.js', field: 'updates', ref: u.title,
+        message: 'Correction does not name the record it corrected'
+      });
+    }
+  }
+
+  if (!corrections.length && updates.length) {
+    found.push({
+      severity: 'warning', record: 'data/records.js', field: 'updates', ref: null,
+      message: 'No update is flagged as a correction. Confirm nothing has been found wrong rather than that the flag was forgotten'
+    });
+  }
+  return found;
+}
+
 function duplicateChromeLinks() {
   const found = [];
   const ui = fs.readFileSync(path.join(ROOT, 'assets/ui.js'), 'utf8');

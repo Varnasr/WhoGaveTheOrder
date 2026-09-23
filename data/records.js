@@ -216,8 +216,47 @@ WGO.offices = [
 
    Fields: date (ISO), title, body, and optionally recordId — the record the
    update concerns, which is rendered as a link so a reader can go and check
-   the thing itself rather than take the note's word for it. */
+   the thing itself rather than take the note's word for it.
+
+   Also optionally `correction: true`, which means the entry reports an error
+   of THIS ARCHIVE'S, not a finding. Those render in the corrections log on
+   about.html and on changes.html, and never in the Latest stream on the
+   homepage. That is a placement decision and not a quiet one: the log is
+   linked from the corrections policy, which has promised since launch that
+   every change is recorded with its date and its reason. Until 23 September
+   2026 the promise was kept only in the repository, and the entries that did
+   appear were at the top of the front page, so a reader arriving at the site
+   met the archive correcting itself before meeting anything it had found.
+   A correction has to be findable by someone checking a figure. It does not
+   have to be the first thing on the page, and no newspaper prints its
+   corrections column on the front. tools/check.js pins both halves: that a
+   flagged entry stays out of the Latest stream, and that the log it moves to
+   actually exists. */
 WGO.updates = [
+  {
+    date: '2026-09-23',
+    title: 'The one criminal file left standing in the whole country is built on a facial recognition list',
+    body: 'On 1 September the Supreme Court, under Article 142, directed that every FIR registered anywhere in India over the protests of 20 to 25 July be treated as closed and that no state register a fresh one. It left a single exception: Delhi Police may pursue one FIR concerning 2,873 people said to have serious criminal antecedents. Those 2,873 come from the force\'s own affidavit of 17 August, which says its Facial Recognition System spotted them at the protest site, 2,402 of them matched against Crime Kundli. The Indian Express then took the 205 names on that list facing the gravest charges and checked them against police, prison and court records. At least 25 of them, one in eight, were in Tihar, Mandoli or Rohini jail on the day the software placed them at Jantar Mantar. Delhi Police says verification of all 2,873 is pending and that no action will rest on a match alone, which is the part worth reading twice: the list reached the Supreme Court before the checking did.',
+    recordId: 'INC-DEL-009'
+  },
+  {
+    date: '2026-09-23',
+    title: 'A court has already ordered the preservation this site has been asking offices for',
+    body: 'On 28 July the Supreme Court is reported to have directed police to preserve CCTV footage, drone recordings and call logs, to have barred coercive action against the protesters save those with criminal antecedents, to have ordered detained minors released, and to have restrained publication of protesters\' personal data. The archive held nothing on this order until today, and it changes what a preservation letter is. A letter asking an office to keep footage is one thing; a letter reminding an office that a court has directed it to keep that footage is another. The four letters on this site still cover records the order does not reach: the deployment order, the wireless log, the armoury issue register. Those remain the ask.',
+    recordId: 'PROC-SC-012'
+  },
+  {
+    date: '2026-09-23',
+    title: 'The Maharashtra record is filled, and the answer is not the one we went looking for',
+    body: 'This archive opened a Maharashtra shell on 15 August on the strength of a Supreme Court petition saying disturbances had spread there, and held every field at UNKNOWN because nothing said what had happened. It said so for five weeks. What is on the record is Mumbai: thirteen FIRs between 18 and 22 July against more than four hundred people for protesting without permission, at Shivaji Park, Chaityabhoomi, Chembur and Shiv Sena Bhavan. No use of force in Maharashtra is established and none is alleged. Kochi is now open on the same footing, where 101 people were booked over a solidarity gathering and the FIR says a notice refusing permission had been served. Kolkata and Assam are recorded as evidence without shells, because seven files and five files are not a located incident.',
+    recordId: 'INC-MAH-002'
+  },
+  {
+    date: '2026-09-23',
+    title: 'What the states did outside Delhi was paperwork, and paperwork has an author',
+    body: 'Across five states the response to these protests was the registration of cases rather than the use of force: 694 detained and 355 booked in Bihar, more than 400 booked in Mumbai, 101 in Kochi, about 70 named in seven files in Kolkata, 13 arrested in Assam. Bihar and Assam then withdrew theirs by written notification, Maharashtra by a direction to its home department, and the Supreme Court closed the rest on 1 September. That is the opposite of this archive\'s usual problem. A lathi charge leaves no order and no author; a refusal of permission, an FIR and a withdrawal notification are each written by somebody, carry a date and sit in a file. Note also that Bihar and West Bengal are both reported to have drawn their line at 6 pm on 26 July, which is an odd thing for two states to arrive at separately, and the file noting is where that would be answered.',
+    recordId: 'INC-BIH-007'
+  },
   {
     date: '2026-09-23',
     title: 'An order suspending the internet at Jantar Mantar names the office that gave it',
@@ -239,7 +278,14 @@ WGO.updates = [
   {
     date: '2026-08-26',
     title: 'Video puts more rounds fired at Siwan, in more places, than the State admits',
-    body: 'The State of Bihar told the Supreme Court, on affidavit, that four rounds were fired from an AK-47 near JP Chowk. An open-source investigation published on 4 August geolocates video showing at least nine rounds, at two other locations. Both accounts are now on the record and the conflict is marked as disputed; the discharge of firearms itself was never in doubt. Our own record carried the State\'s figures as though they were the fact until 26 August, when this was corrected: the sourcing was right and the framing was not.',
+    body: 'The State of Bihar told the Supreme Court, on affidavit, that four rounds were fired from an AK-47 near JP Chowk. An open-source investigation published on 4 August geolocates video showing at least nine rounds, at two other locations. Both accounts are now on the record and the conflict is marked as disputed; the discharge of firearms itself was never in doubt.',
+    recordId: 'INC-SIW-003'
+  },
+  {
+    date: '2026-08-26',
+    correction: true,
+    title: 'The Siwan record presented the State\'s figures as the fact',
+    body: 'Until 26 August this archive\'s Siwan record carried four rounds near JP Chowk as what happened, rather than as what the State of Bihar had told the Supreme Court happened. The sourcing was right and the framing was not. Corrected on 26 August: both accounts are on the record and the conflict is marked disputed.',
     recordId: 'INC-SIW-003'
   },
   {
@@ -269,6 +315,7 @@ WGO.updates = [
   {
     date: '2026-08-21',
     title: 'The committee exists now, and our earlier record was overtaken',
+    correction: true,
     body: 'This archive recorded on 19 August that a high-powered committee had been decided on but was not shown to have been constituted. It has been, by an order reported dated 18 August: five members, chaired by a former Supreme Court judge, with the deployment of pellet guns inside its mandate by name and a first interim report due at the earliest. The record has been corrected and says what it used to say. We hold reporting of the order, not the order.',
     recordId: 'PROC-SC-006'
   },
@@ -305,6 +352,7 @@ WGO.updates = [
   {
     date: '2026-08-19',
     title: 'An earlier finding of ours has been overtaken',
+    correction: true,
     body: 'This archive recorded on 16 August that no court proceeding concerning the Bihar incidents could be found. That was true when written and is now wrong: Bihar is a respondent before the Supreme Court and has filed there. The record has been corrected and says what it used to say. Whether any court is seized of Patna, Katihar or Munger specifically is still not established.',
     recordId: 'PROC-BIH-001'
   },
@@ -412,21 +460,31 @@ WGO.incidents = [
   {
     id: 'INC-0003',
     slug: 'maharashtra',
-    title: 'Police action against students in Maharashtra',
-    place: 'Maharashtra — held open, no incident located',
+    /* Retitled 23 September 2026. This shell was opened on a Supreme Court
+       petition saying disturbances had spread to Maharashtra, and it sat at
+       'no incident located' for five weeks while the archive looked for a
+       lathi charge. What is on the record is thirteen FIRs against more than
+       four hundred people for assembling without permission, and no use of
+       force at all. The title now says that rather than promising an action
+       nobody has evidenced. See INC-MAH-002. */
+    title: 'Cases registered against protesters in Mumbai',
+    place: 'Shivaji Park, Chaityabhoomi, Chembur and Shiv Sena Bhavan, Mumbai',
     state: 'Maharashtra',
-    coords: [19.0760, 72.8777],           // Mumbai, pending a located site
-    coordsState: 'UNKNOWN',
-    incidentState: 'UNDER_INVESTIGATION',
-    dateState: 'UNKNOWN',
-    date: null,
+    coords: [19.0760, 72.8777],           // Mumbai; the four sites not separately plotted
+    coordsState: 'REPORTED',
+    incidentState: 'REPORTED',
+    dateState: 'REPORTED',
+    date: '18 to 22 July 2026',
     summaryState: 'UNKNOWN',
     summary: null,
     forcesInvolved: { state: 'UNKNOWN', items: [] },
+    /* Deliberately UNKNOWN rather than empty. Nothing in the sources says
+       force was used in Mumbai, and nothing says it was not. An archive that
+       renders 'none' here would be stating a negative it has not established. */
     crowdControl:   { state: 'UNKNOWN', items: [] },
     injuries:       { state: 'UNKNOWN', note: null },
     detentions:     { state: 'UNKNOWN', note: null },
-    firs:           { state: 'UNKNOWN', note: null },
+    firs:           { state: 'REPORTED', note: '13 FIRs against more than 400 people, reported 23 July 2026. Treated as closed by the Supreme Court\'s order of 1 September 2026; Maharashtra is separately reported to have directed withdrawal. See INC-MAH-002 and PROC-SC-014.' },
     officeIds: ['OFC-0002', 'OFC-0003', 'OFC-0004', 'OFC-0005', 'OFC-0006', 'OFC-0007', 'OFC-0008'],
     /* No rung reached. */
     orderTrail: { reached: null, rungs: {}, next: null },
@@ -464,6 +522,39 @@ WGO.incidents = [
     /* No rung reached. */
     orderTrail: { reached: null, rungs: {}, next: 'OQ-035' },
     openedOn: '2026-08-19'
+  },
+  /* Opened 23 September 2026. Kerala is here for a reason that inverts the
+     archive's usual problem. Everywhere else the question 'who gave the order'
+     runs into the fact that a baton leaves no paper: there is an action, no
+     document, and no author. At Kochi the FIR itself says a notice refusing
+     permission was served before the gathering went ahead. That notice is a
+     written order. It has a date, an office and a signatory, and it cannot
+     have existed without leaving a file. No force is established here and none
+     is alleged, so this is not a police brutality record. It is the one record
+     on the site where the archive's question has a cheap answer. */
+  {
+    id: 'INC-0005',
+    slug: 'kochi',
+    title: 'Cases registered over a solidarity gathering at Kochi',
+    place: 'Near Central Park, Panampilly Nagar, Kochi',
+    state: 'Kerala',
+    coords: [9.9581, 76.2968],            // Panampilly Nagar, Kochi
+    coordsState: 'REPORTED',
+    incidentState: 'REPORTED',
+    dateState: 'REPORTED',
+    date: '22 July 2026',
+    summaryState: 'UNKNOWN',
+    summary: null,
+    forcesInvolved: { state: 'UNKNOWN', items: [] },
+    crowdControl:   { state: 'UNKNOWN', items: [] },
+    injuries:       { state: 'UNKNOWN', note: null },
+    detentions:     { state: 'UNKNOWN', note: null },
+    firs:           { state: 'REPORTED', note: 'One case registered on the police\'s own motion against 101 people at Ernakulam Town South, under sections 190, 223 and 285 of the Bharatiya Nyaya Sanhita. Treated as closed by the Supreme Court\'s order of 1 September 2026. See INC-KER-001 and PROC-SC-014.' },
+    officeIds: ['OFC-0006', 'OFC-0007', 'OFC-0008'],
+    /* No rung reached on an order to use force, because no force is alleged.
+       The document to get is the refusal of permission: FQ-019. */
+    orderTrail: { reached: null, rungs: {}, next: null },
+    openedOn: '2026-09-23'
   }
 ];
 
