@@ -194,6 +194,23 @@ section + section { border-top: 1px solid var(--rule); }
 .row { display: flex; flex-wrap: wrap; gap: 0.5rem; align-items: center; }
 
 .grid { display: grid; gap: 1rem; }
+
+/* One record used to break the layout of every card beside it.
+   A grid item's default `min-width: auto` lets its min-content size the shared
+   track, so a single wide item widens all of them. On evidence.html one record
+   of 35, PROC-DEL-004, carries a 64-character SHA-256 checksum with no break
+   opportunity in it. Its min-content came to 528px, the single column at 390px
+   went to 528px with it, and all 35 cards rendered 528px wide inside a 353px
+   shell: 156px of sideways scroll on a phone, and correct on every desktop the
+   page had ever been opened on.
+
+   Measured 2026-09-23, all four combinations. Neither rule: 156px. `min-width`
+   alone: 137px, because the track shrinks and the checksum still overflows its
+   own card. `overflow-wrap` alone: 0. Both: 0. So the second line is the one
+   doing the work here, and the first is there for the next item that cannot
+   shrink and is not text — an image, an iframe, a wide table. */
+.grid > * { min-width: 0; }
+.card, .question, .stack > * { overflow-wrap: anywhere; }
 @media (min-width: 720px) {
   .grid--2 { grid-template-columns: repeat(2, 1fr); }
   .grid--3 { grid-template-columns: repeat(3, 1fr); }

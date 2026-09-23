@@ -2,9 +2,10 @@
 /* =============================================================================
    Integrity check, runnable without a browser
    -----------------------------------------------------------------------------
-   The editorial console has run these checks since the archive was built, but
-   only when somebody opened admin.html and looked. This runs the same checks —
-   the same code, loaded out of assets/model.js — on every push.
+   These checks were written for an editorial console that only ran them when
+   somebody opened it and looked. That console (admin.html) was removed on
+   2026-09-23; the checks themselves live in assets/model.js and run here, on
+   every push, which is where they were always worth having.
 
    Errors exit non-zero. Warnings are printed and do not fail the run: a record
    that renders honestly but is not finished is a normal state for a live
@@ -17,7 +18,12 @@
 
 'use strict';
 
+const fs = require('fs');
+const path = require('path');
+const vm = require('vm');
 const { load, records } = require('./archive');
+
+const ROOT = path.join(__dirname, '..');
 
 const strict = process.argv.includes('--strict');
 
@@ -108,6 +114,116 @@ function structural(WGO) {
       severity: 'warning', record: 'index.html', field: 'copy', ref: `${model.orders.length} orders`,
       message: 'Orders exist in the archive — check the homepage copy still matches the count'
     });
+  }
+
+  found.push(...pageLinks(WGO));
+  found.push(...letterJoin(WGO));
+  return found;
+}
+
+/* Every local page this site links to has to exist, or have a redirect.
+   ------------------------------------------------------------------------
+   Written on 2026-09-23, immediately after deleting four pages by hand and
+   then finding eight references to them still in the tree: two search-result
+   URL builders in model.js, a link in about.html, two in index.html, four
+   deep links inside ui.js explainers, and six rows in the README. Not one of
+   them would have failed anything. A dead internal link in an accountability
+   archive is the same defect as a dangling record reference, and this file
+   already refuses to merge one of those.
+
+   Anything with a redirect in netlify.toml counts as resolving: that is what
+   a redirect is for. So does an anchor into a page that exists. */
+function pageLinks(WGO) {
+  const found = [];
+
+  const netlify = fs.readFileSync(path.join(ROOT, 'netlify.toml'), 'utf8');
+  const redirected = new Set(
+    [...netlify.matchAll(/^\s*from\s*=\s*"\/([^"*]+)"/gm)].map(m => m[1])
+  );
+
+  const files = fs.readdirSync(ROOT)
+    .filter(f => /\.(html|js)$/.test(f))
+    .concat(['assets', 'data', 'tools'].flatMap(d =>
+      fs.readdirSync(path.join(ROOT, d))
+        .filter(f => /\.(js|html)$/.test(f))
+        .map(f => `${d}/${f}`)));
+
+  /* Generated files are skipped. Their URLs are recomputed from
+     tools/archive.js on every build, so they cannot be stale relative to the
+     routes, and they store them as `"url": "..."` rather than as an href,
+     which this pattern would not match in any case. */
+  const skip = /\.generated\.js$/;
+
+  for (const rel of files) {
+    if (skip.test(rel)) { continue; }
+    const text = fs.readFileSync(path.join(ROOT, rel), 'utf8');
+    for (const m of text.matchAll(/(?:href=|withLang\()['"]([a-z0-9-]+\.html)(?:[#?][^'"]*)?['"]/g)) {
+      const page = m[1];
+      if (fs.existsSync(path.join(ROOT, page)) || redirected.has(page)) { continue; }
+      found.push({
+        severity: 'error', record: rel, field: 'link', ref: page,
+        message: 'Links to a page that does not exist and has no redirect'
+      });
+    }
+  }
+
+  for (const item of WGO.NAV || []) {
+    if (!fs.existsSync(path.join(ROOT, item.href))) {
+      found.push({
+        severity: 'error', record: 'data/taxonomy.js', field: 'NAV', ref: item.href,
+        message: 'Primary navigation points at a page that does not exist'
+      });
+    }
+  }
+
+  return found;
+}
+
+/* The incident-to-letter join, checked in both directions.
+   ------------------------------------------------------------------------
+   WGO.LETTERS_FOR_INCIDENT is the only hand-maintained edge between a record
+   and an action. Broken one way, the incident page offers a letter that does
+   not exist; broken the other, a drafted letter is reachable only by someone
+   who already thought to open letters.html, which is the state this whole
+   change exists to end. */
+function letterJoin(WGO) {
+  const found = [];
+  const map = WGO.LETTERS_FOR_INCIDENT || {};
+
+  const sandbox = { window: {} };
+  sandbox.window.WGO = {};
+  sandbox.WGO = sandbox.window.WGO;
+  vm.createContext(sandbox);
+  vm.runInContext(fs.readFileSync(path.join(ROOT, 'data/letters.generated.js'), 'utf8'), sandbox);
+  const letters = sandbox.WGO.letters || [];
+  const ids = new Set(letters.map(l => l.id));
+
+  const offered = new Set();
+  for (const [incidentId, letterIds] of Object.entries(map)) {
+    if (!WGO.model.incident(incidentId)) {
+      found.push({
+        severity: 'error', record: 'data/taxonomy.js', field: 'LETTERS_FOR_INCIDENT', ref: incidentId,
+        message: 'Letters are mapped to an incident that does not exist'
+      });
+    }
+    for (const id of letterIds) {
+      offered.add(id);
+      if (!ids.has(id)) {
+        found.push({
+          severity: 'error', record: 'data/taxonomy.js', field: 'LETTERS_FOR_INCIDENT', ref: id,
+          message: 'Mapped to a letter that correspondence/ does not hold'
+        });
+      }
+    }
+  }
+
+  for (const l of letters) {
+    if (!offered.has(l.id)) {
+      found.push({
+        severity: 'error', record: l.id, field: 'LETTERS_FOR_INCIDENT', ref: l.district,
+        message: 'A drafted letter no incident page offers — it is reachable only from letters.html'
+      });
+    }
   }
 
   return found;

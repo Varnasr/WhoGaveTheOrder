@@ -319,16 +319,31 @@ WGO.WANTED = [
   'Official correspondence'
 ];
 
+/* Which preservation letters belong to which incident.
+   letters.html composes four Bihar representations out of correspondence/*.md.
+   Until now they were reachable only from that page, so a reader who had just
+   read what happened at Siwan had no way to act on it from where they stood.
+   This is the one hand-maintained join between an incident and an action, so
+   tools/check.js asserts both directions: every id here exists in
+   WGO.letters, and every letter is reachable from at least one incident. */
+WGO.LETTERS_FOR_INCIDENT = {
+  'INC-0002': ['bihar-preservation-patna', 'bihar-preservation-katihar', 'bihar-preservation-munger'],
+  'INC-0004': ['bihar-preservation-siwan']
+};
+
 /* --- Primary navigation (section 18) — deliberately short ----------------- */
-/* Named for what a stranger is looking for, not for the content model behind
-   it. "Chain of command" is our word; "who had authority" is the question a
-   reader actually arrives with. */
+/* Five items, and the third is the only one a reader can act on.
+   It used to be seven, three of which pointed at pages holding nothing:
+   chain.html (0 orders, 0 persons), rti.html (0 applications) and
+   response.html (0 official replies). Meanwhile letters.html, which opens a
+   preservation request to a district police office addressed and ready to
+   send, was not in the navigation at all — it sat in the fourth column of the
+   footer. A site that asks people to do something has to put the doing in
+   reach of the reading. */
 WGO.NAV = [
   { href: 'investigations.html', label: 'Incidents' },
   { href: 'evidence.html',       label: 'Documents' },
-  { href: 'chain.html',          label: 'Who had authority' },
-  { href: 'rti.html',            label: 'What we asked' },
-  { href: 'response.html',       label: 'Official replies' },
+  { href: 'letters.html',        label: 'Ask for the records' },
   { href: 'submit.html',         label: 'Add a document' },
   { href: 'about.html',          label: 'About' }
 ];
