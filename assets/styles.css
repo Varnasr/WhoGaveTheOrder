@@ -18,7 +18,7 @@
   --ink:          #16232e;
   --ink-2:        #3d4c58;
   --ink-3:        #64737f;
-  --ink-4:        #93a1ab;
+  --ink-4:        #5F6C76;   /* was #93a1ab, 2.51:1 on the page */
   --rule:         #dde4ea;
   --rule-strong:  #b3c2ce;
 
@@ -76,7 +76,7 @@
     --ink:         #eef3f7;
     --ink-2:       #c6d2dc;
     --ink-3:       #93a1ab;
-    --ink-4:       #6b7a86;
+    --ink-4:       #8E9CA8;   /* dark: was #6b7a86, 4.08:1 */
     --rule:        #263340;
     --rule-strong: #3d4d5c;
 
@@ -90,7 +90,7 @@
     --brand-grey:        #1c2833;
 
     /* The block is light-on-dark-page here, so the kicker takes a dark amber. */
-    --gap-kicker:        #7a5b00;
+    --gap-kicker:        #654B00;   /* was #7a5b00, 4.14:1 on the block */
 
     --verified-fg:     #79d3a3;  --verified-bg:     #10261c;  --verified-br:     #2c5a41;
     --corroborated-fg: #7cc4e6;  --corroborated-bg: #0e2430;  --corroborated-br: #285b73;
@@ -415,8 +415,7 @@ a.card:hover { border-color: var(--rule-strong); }
   background: var(--unknown-bg); color: var(--unknown-fg);
   border-radius: var(--radius); padding: 1.25rem;
 }
-.gap-block .kicker { color: rgba(252, 252, 250, 0.6); }
-@media (prefers-color-scheme: dark) { .gap-block .kicker { color: rgba(16,16,18,0.6); } }
+.gap-block .kicker { color: var(--gap-kicker); }
 .gap-block h3 { font-size: 1.25rem; margin: 0.35rem 0 0.5rem; }
 .gap-block p { font-size: 0.875rem; opacity: 0.85; }
 .gap-block p + p { margin-top: 0.7rem; }
