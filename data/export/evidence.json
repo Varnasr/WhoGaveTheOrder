@@ -684,13 +684,13 @@
   {
     "id": "INC-DEL-009",
     "kind": "Evidence",
-    "title": "An Indian Express investigation published on 4 September 2026 took the 205 persons on the Delhi Police facial recognition list facing the gravest charges — repo",
+    "title": "An Indian Express investigation published on 4 September 2026 took the 205 persons on the Delhi Police facial recognition list facing the gravest charges (repor",
     "state": "REPORTED",
     "url": "https://www.whogavetheorder.in/evidence.html?id=INC-DEL-009",
     "type": "OTHER_DOCUMENT",
     "incidentId": "INC-0001",
     "dateOfItem": null,
-    "establishes": "A measured error rate in a live police identification system, obtained by the cheapest possible method: comparing one government list against another government list. It is one in eight of a sample chosen for the gravity of the charge rather than at random, so it is not an estimate of the error rate across all 2,873 and should not be quoted as one. What it does establish is that the list was published to a court without that comparison having been made, because the comparison takes custody records that the police and the prisons both already hold. The force's own answer — verification is pending, no action on a match alone — is the admission that matters: the list went to the Supreme Court, and became the basis of the one FIR the Court left standing, before anyone checked it. Credited to The Indian Express; this archive did not do this work and holds neither the list nor the affidavit. The outlets cited below are accounts of one investigation, which is why this is REPORTED.",
+    "establishes": "A measured error rate in a live police identification system, obtained by the cheapest possible method: comparing one government list against another government list. It is one in eight of a sample chosen for the gravity of the charge rather than at random, so it is not an estimate of the error rate across all 2,873 and should not be quoted as one. What it does establish is that the list was published to a court without that comparison having been made, because the comparison takes custody records that the police and the prisons both already hold. The force's own answer, that verification is pending and no action rests on a match alone, is the admission that matters: the list went to the Supreme Court, and became the basis of the one FIR the Court left standing, before anyone checked it. Credited to The Indian Express; this archive did not do this work and holds neither the list nor the affidavit. The outlets cited below are accounts of one investigation, which is why this is REPORTED.",
     "doesNotEstablish": null,
     "sourceIds": [
       "SRC-0100",
@@ -735,7 +735,7 @@
   {
     "id": "INC-KER-001",
     "kind": "Evidence",
-    "title": "Ernakulam Town South police registered a case on its own motion against 101 people — the musician Hirandas Murali, who performs as Vedan, his manager Vignesh G.",
+    "title": "Ernakulam Town South police registered a case on its own motion against 101 people, the musician Hirandas Murali, who performs as Vedan, his manager Vignesh G. ",
     "state": "REPORTED",
     "url": "https://www.whogavetheorder.in/evidence.html?id=INC-KER-001",
     "type": "OTHER_DOCUMENT",
@@ -757,7 +757,7 @@
     "type": "OTHER_DOCUMENT",
     "incidentId": null,
     "dateOfItem": null,
-    "establishes": "Recorded as evidence and NOT opened as an incident shell. There is no located place, no date of any police action and no account of force: what is established is that seven files exist and about seventy people are named in them. That is not enough to open a record called an incident, and the archive has refused on this ground before — Sitamarhi was left unopened on a single account for the same reason. If the location and date of a Kolkata action are established, or the seven case numbers obtained, this becomes a shell. Until then it is a fact about a police force's paperwork, which is worth holding and is not the same thing.",
+    "establishes": "Recorded as evidence and NOT opened as an incident shell. There is no located place, no date of any police action and no account of force: what is established is that seven files exist and about seventy people are named in them. That is not enough to open a record called an incident, and the archive has refused on this ground before: Sitamarhi was left unopened on a single account for the same reason. If the location and date of a Kolkata action are established, or the seven case numbers obtained, this becomes a shell. Until then it is a fact about a police force's paperwork, which is worth holding and is not the same thing.",
     "doesNotEstablish": null,
     "sourceIds": [
       "SRC-0109"
@@ -789,7 +789,7 @@
     "type": "OTHER_DOCUMENT",
     "incidentId": "INC-0002",
     "dateOfItem": null,
-    "establishes": "The largest set of figures the archive holds for Bihar, and the first that comes from the state rather than from a fact-finding panel. It does not contradict the 64 FIRs the PUCL hearing reported at INC-BIH-005: an FIR can name many people, so 355 booked in an unstated number of files and 64 FIRs are not two answers to one question. The cut-off is the part to keep. A withdrawal expressed as a time on a date — 6 pm on 26 July — is drawn from a file, and the file is obtainable from the Bihar Home Department. It is also the same cut-off West Bengal is reported to have used, which is worth knowing when asking either state where the line came from.",
+    "establishes": "The largest set of figures the archive holds for Bihar, and the first that comes from the state rather than from a fact-finding panel. It does not contradict the 64 FIRs the PUCL hearing reported at INC-BIH-005: an FIR can name many people, so 355 booked in an unstated number of files and 64 FIRs are not two answers to one question. The cut-off is the part to keep. A withdrawal expressed as a time on a date, 6 pm on 26 July, is drawn from a file, and the file is obtainable from the Bihar Home Department. It is also the same cut-off West Bengal is reported to have used, which is worth knowing when asking either state where the line came from.",
     "doesNotEstablish": null,
     "sourceIds": [
       "SRC-0109",
