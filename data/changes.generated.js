@@ -5,6 +5,77 @@ window.WGO = window.WGO || {};
 
 WGO.changes = [
   {
+    "commit": "f11e3e5001",
+    "date": "2026-09-23T03:06:46Z",
+    "subject": "Reconcile the change log on main instead of failing on it",
+    "added": [],
+    "removed": [],
+    "changed": [
+      {
+        "id": "INC-DEL-009",
+        "kind": "Evidence",
+        "title": "An Indian Express investigation published on 4 September 2026 took the 205 persons on the Delhi Police facial recognition list facing the gravest charges (repor",
+        "state": "REPORTED",
+        "url": "evidence.html?id=INC-DEL-009",
+        "fields": [
+          {
+            "field": "title",
+            "from": "An Indian Express investigation published on 4 September 2026 took the 205 persons on the Delhi Police facial recognition list facing the gravest charges — repo",
+            "to": "An Indian Express investigation published on 4 September 2026 took the 205 persons on the Delhi Police facial recognition list facing the gravest charges (repor"
+          },
+          {
+            "field": "establishes",
+            "from": "A measured error rate in a live police identification system, obtained by the cheapest possible method: comparing one government list against another government list. It is one in eight of a sample chosen for the gravity of the charge ra…",
+            "to": "A measured error rate in a live police identification system, obtained by the cheapest possible method: comparing one government list against another government list. It is one in eight of a sample chosen for the gravity of the charge ra…"
+          }
+        ]
+      },
+      {
+        "id": "INC-KER-001",
+        "kind": "Evidence",
+        "title": "Ernakulam Town South police registered a case on its own motion against 101 people, the musician Hirandas Murali, who performs as Vedan, his manager Vignesh G. ",
+        "state": "REPORTED",
+        "url": "evidence.html?id=INC-KER-001",
+        "fields": [
+          {
+            "field": "title",
+            "from": "Ernakulam Town South police registered a case on its own motion against 101 people — the musician Hirandas Murali, who performs as Vedan, his manager Vignesh G.",
+            "to": "Ernakulam Town South police registered a case on its own motion against 101 people, the musician Hirandas Murali, who performs as Vedan, his manager Vignesh G. "
+          }
+        ]
+      },
+      {
+        "id": "INC-WB-001",
+        "kind": "Evidence",
+        "title": "Seven cases were registered in Kolkata over the student protests, with about 70 persons identified, reported on 28 July 2026, on which date the West Bengal gove",
+        "state": "REPORTED",
+        "url": "evidence.html?id=INC-WB-001",
+        "fields": [
+          {
+            "field": "establishes",
+            "from": "Recorded as evidence and NOT opened as an incident shell. There is no located place, no date of any police action and no account of force: what is established is that seven files exist and about seventy people are named in them. That is …",
+            "to": "Recorded as evidence and NOT opened as an incident shell. There is no located place, no date of any police action and no account of force: what is established is that seven files exist and about seventy people are named in them. That is …"
+          }
+        ]
+      },
+      {
+        "id": "INC-BIH-007",
+        "kind": "Evidence",
+        "title": "694 people are reported to have been detained in Bihar over the student protests and 355 booked; the Bihar Home Department issued a notification, reported on 28",
+        "state": "REPORTED",
+        "url": "evidence.html?id=INC-BIH-007",
+        "fields": [
+          {
+            "field": "establishes",
+            "from": "The largest set of figures the archive holds for Bihar, and the first that comes from the state rather than from a fact-finding panel. It does not contradict the 64 FIRs the PUCL hearing reported at INC-BIH-005: an FIR can name many peop…",
+            "to": "The largest set of figures the archive holds for Bihar, and the first that comes from the state rather than from a fact-finding panel. It does not contradict the 64 FIRs the PUCL hearing reported at INC-BIH-005: an FIR can name many peop…"
+          }
+        ]
+      }
+    ],
+    "summary": "4 records edited"
+  },
+  {
     "commit": "6bbd7dbb75",
     "date": "2026-09-23T03:03:53Z",
     "subject": "Bring the record up to 23 September, and move corrections off the front page",
