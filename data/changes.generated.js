@@ -5,6 +5,30 @@ window.WGO = window.WGO || {};
 
 WGO.changes = [
   {
+    "commit": "68cb0fc2c3",
+    "date": "2026-09-21T08:06:55Z",
+    "subject": "Sweep log and archived copies for 2026-09-21 [skip ci]",
+    "added": [],
+    "removed": [],
+    "changed": [
+      {
+        "id": "SRC-0082",
+        "kind": "Source",
+        "title": "India Code",
+        "state": null,
+        "url": "https://indiacode.gov.in/handle/123456789/568086",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20260920075113/https://indiacode.gov.in/handle/123456789/568086"
+          }
+        ]
+      }
+    ],
+    "summary": "1 record edited"
+  },
+  {
     "commit": "30b4bfa9f5",
     "date": "2026-09-20T07:51:51Z",
     "subject": "Sweep log and archived copies for 2026-09-20 [skip ci]",

@@ -56,6 +56,12 @@ jobs:
             exit 1
           fi
 
+      # letters.html composes from data/letters.generated.js, which is parsed out
+      # of correspondence/*.md. If those drift, the page mails a letter the
+      # repository does not hold, and nothing on screen would show it.
+      - name: The preservation letters match correspondence/
+        run: node tools/build-letters.js --check
+
       - name: Change log, feed and export are current
         run: |
           node tools/build.js

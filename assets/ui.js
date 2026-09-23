@@ -464,6 +464,7 @@
             '</ul></div>' +
             '<div><h4>' + ui.esc(ui.t('footer.takePart', 'Take part')) + '</h4><ul>' +
               '<li>' + fl('submit.html', 'Submit evidence') + '</li>' +
+              '<li>' + fl('letters.html', 'Send a preservation letter') + '</li>' +
               '<li>' + fl('submit.html#missing', 'What we are missing') + '</li>' +
               '<li>' + fl('about.html#corrections', 'Report an error') + '</li>' +
             '</ul></div>' +
@@ -844,15 +845,144 @@
     '</div>';
   };
 
+  /* --- Opening a draft in a mail window ------------------------------------
+     A draft you can only copy is a draft most people do not send. The archive
+     holds the addresses already, so the letter can arrive in a compose window
+     with the addressee, the subject and the text filled in, and the person
+     sending it only has to read it and press send.
+
+     Two limits decide what each route can actually carry, and both fail
+     silently when exceeded, which is the reason for the arithmetic below
+     rather than one hopeful link.
+
+     mailto: is handed to the operating system, and on Windows that path runs
+     through the shell, which has historically truncated the command at about
+     2,048 characters. A letter cut off mid-sentence in somebody's outbox is a
+     worse outcome than no button, so the cap here is 1,900 for the whole URL.
+
+     Gmail's web compose takes the body as a query string on a GET, so it is
+     bounded by the request line the server will accept, conventionally 8,192
+     bytes. The cap here is 7,800, leaving room for the addressee and subject.
+
+     Measured on the four preservation representations (2026-09-23): encoded
+     bodies run 3,776 to 4,958 characters before the placeholders are filled,
+     so Gmail carries all four whole and no desktop mail client can carry any
+     of them. That asymmetry is not hidden: where a route cannot take the
+     letter, its link opens the addressee and subject only, the full text goes
+     to the clipboard on the same click, and the page says so in words.
+
+     The Gmail half was verified rather than assumed. The longest of the four,
+     Siwan, builds a 7,107-character URL; requested on 2026-09-23 it returned
+     200 and redirected to the sign-in page with the whole letter intact in the
+     `continue` parameter, so the endpoint takes a URL of that length. 7,800 is
+     the cap because the next letter added could be longer, and the 8,192-byte
+     request line is the convention on the other side of that. */
+
+  var MAILTO_MAX = 1900;
+  var GMAIL_MAX = 7800;
+  var GMAIL_BASE = 'https://mail.google.com/mail/?view=cm&fs=1';
+
+  function q(value) { return encodeURIComponent(value == null ? '' : String(value)); }
+
+  ui.mailtoUrl = function (msg) {
+    var parts = ['subject=' + q(msg.subject), 'body=' + q(msg.body)];
+    if (msg.cc) { parts.unshift('cc=' + q(msg.cc)); }
+    return 'mailto:' + q(msg.to) + '?' + parts.join('&');
+  };
+
+  ui.gmailUrl = function (msg) {
+    var url = GMAIL_BASE + '&to=' + q(msg.to) + '&su=' + q(msg.subject);
+    if (msg.cc) { url += '&cc=' + q(msg.cc); }
+    return url + '&body=' + q(msg.body);
+  };
+
+  /* The note that goes in the body when a route cannot carry the letter. The
+     person has the full text on their clipboard at that point; this tells them
+     so inside the window they are looking at, rather than on the page behind
+     it. */
+  var PASTE_NOTE = 'The letter is on your clipboard. Paste it here (Ctrl+V, or Cmd+V on a Mac), ' +
+    'read it through, and send.';
+
+  /* Returns, for one message, what each route can do with it. */
+  ui.composeRoutes = function (msg) {
+    var full = ui.gmailUrl(msg);
+    var gmailFits = full.length <= GMAIL_MAX;
+    var stub = { to: msg.to, cc: msg.cc, subject: msg.subject, body: PASTE_NOTE };
+    var mailto = ui.mailtoUrl(msg);
+    var mailtoFits = mailto.length <= MAILTO_MAX;
+    return {
+      gmail:  { href: gmailFits ? full : ui.gmailUrl(stub),   whole: gmailFits,  length: full.length },
+      mailto: { href: mailtoFits ? mailto : ui.mailtoUrl(stub), whole: mailtoFits, length: mailto.length }
+    };
+  };
+
+  /* The row of actions under a draft.
+
+     The links carry their href before anyone clicks, so opening one is an
+     ordinary navigation: no window.open after an awaited promise, which a
+     popup blocker treats as unsolicited and which is how this kind of button
+     comes to do nothing on one browser and work on every other. The clipboard
+     write rides along on the same click and is never waited for.
+
+     `blanks` is the count of unfilled [placeholders] left in the body. The
+     preservation letters pass blockUnfilled, because their blanks are the
+     sender's own name and address and a letter posted with "[sender name]" in
+     it is worse than no letter. The RTI appeal drafts do not, because their
+     blanks are sentences only the appellant can write, and finishing them in
+     the compose window is the point. */
+  ui.composeRow = function (msg, opts) {
+    opts = opts || {};
+    var id = opts.id || ('compose-' + Math.random().toString(36).slice(2));
+    var blanks = (String(msg.body).match(/\[[^\]\n]+\]/g) || []).length;
+    var routes = ui.composeRoutes(msg);
+    var blocked = opts.blockUnfilled && blanks > 0;
+
+    var note;
+    if (blocked) {
+      note = blanks + ' blank' + (blanks === 1 ? '' : 's') + ' still to fill in. ' +
+        'Complete the form above and these buttons turn on.';
+    } else {
+      note = routes.gmail.whole
+        ? 'Gmail opens with the whole letter in it. '
+        : 'The letter is too long for a link, so Gmail opens addressed and the text is copied for you to paste. ';
+      note += routes.mailto.whole
+        ? 'So does your own mail app.'
+        : 'A desktop mail app cannot take a letter this long in a link at all, so that button opens ' +
+          'addressed and empty, with the text copied.';
+      if (blanks > 0) {
+        note = blanks + ' blank' + (blanks === 1 ? '' : 's') + ' are left for you to write in the ' +
+          'compose window. ' + note;
+      }
+    }
+
+    var dis = blocked ? ' aria-disabled="true" data-disabled="1"' : '';
+    var copyOnClick = routes.gmail.whole ? '' : ' data-copy="' + ui.esc(id) + '"';
+
+    return '<pre class="appeal__draft" id="' + ui.esc(id) + '">' + ui.esc(msg.body) + '</pre>' +
+      '<div class="row" style="margin-top:0.6rem;gap:0.4rem;flex-wrap:wrap">' +
+        '<a class="btn btn--small" href="' + ui.esc(routes.gmail.href) + '" target="_blank" ' +
+          'rel="noopener"' + dis + copyOnClick + '>Open in Gmail</a>' +
+        '<a class="btn btn--small btn--ghost" href="' + ui.esc(routes.mailto.href) + '"' + dis +
+          (routes.mailto.whole ? '' : ' data-copy="' + ui.esc(id) + '"') + '>Open in your mail app</a>' +
+        '<button class="btn btn--small btn--ghost" type="button" data-copy="' + ui.esc(id) + '">Copy the letter</button>' +
+      '</div>' +
+      '<p class="small" style="margin-top:0.5rem">' + ui.esc(note) + '</p>';
+  };
+
   /* Copy buttons, bound once for the whole page. */
   ui.bindCopy = function (root) {
     (root || document).addEventListener('click', function (event) {
-      var btn = event.target.closest('[data-copy]');
+      var btn = event.target.closest('[data-copy],[data-disabled]');
       if (!btn) { return; }
+      /* A compose link with blanks left in it opens nothing. The note under the
+         row says why; silently navigating would send an unfinished letter. */
+      if (btn.hasAttribute('data-disabled')) { event.preventDefault(); return; }
+      if (!btn.hasAttribute('data-copy')) { return; }
       var node = document.getElementById(btn.getAttribute('data-copy'));
       if (!node) { return; }
       var text = node.textContent;
       var done = function () {
+        if (btn.tagName === 'A') { return; }
         var was = btn.textContent;
         btn.textContent = 'Copied';
         setTimeout(function () { btn.textContent = was; }, 2000);

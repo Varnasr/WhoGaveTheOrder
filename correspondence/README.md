@@ -37,6 +37,26 @@ no clock. `FQ-002` is the RTI that follows.
 5. **Record the despatch date here** afterwards, in `sent.md`, one line per
    letter.
 
+## Sending one from the site
+
+`letters.html` composes all four. It takes the sender's name, address, email,
+telephone and the date once, fills them into every letter, and opens each one in
+a mail window addressed and ready to read. `data/letters.generated.js` is parsed
+out of the four drafts in this folder by `tools/build-letters.js`, and CI fails
+if the two drift, so the page cannot send a letter this repository does not hold.
+Change a letter here, run the builder, commit both.
+
+The send buttons stay off until every `[ ]` is filled, which is step 1 above
+enforced rather than asked for. Steps 2 and 3 are not enforced and cannot be:
+nothing here knows who holds the office today, and nothing here can read the
+letter for you.
+
+Measured 23 September 2026: Gmail's compose URL carries all four letters whole
+(the longest, Siwan, builds a 7,107-character URL, which the endpoint accepted).
+A desktop mail client cannot take any of them, because `mailto:` goes through
+the operating system and truncates; those buttons open addressed and put the
+letter on the clipboard, and the page says so.
+
 ## Email is now a usable route
 
 The domain's SPF record was corrected and, checked on 18 September 2026, reads
