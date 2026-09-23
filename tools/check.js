@@ -30,7 +30,7 @@ const strict = process.argv.includes('--strict');
 function main() {
   const WGO = load();
   const model = WGO.model;
-  const problems = model.integrity().concat(structural(WGO), correctionLog(WGO));
+  const problems = model.integrity().concat(structural(WGO), correctionLog(WGO), sweepRunsOnce());
 
   const errors = problems.filter(p => p.severity === 'error');
   const warnings = problems.filter(p => p.severity !== 'error');
@@ -187,6 +187,47 @@ function pageLinks(WGO) {
    rendered, both entries worked, and the only symptom was the same link
    listed twice four rows apart. Nothing that reads the site could have seen
    it, because both halves were individually correct. */
+/* The sweep runs once, and the run that writes the log is the run that reports.
+   ------------------------------------------------------------------------
+   tools/sweep.js records every item it has seen, so a second run in the same
+   job finds nothing new. The workflow used to take its human summary from a
+   first run and its JSON from a second, and the issue is opened from the JSON,
+   so every candidate was found by the run whose output went to a text file
+   nobody reads.
+
+   It reported "0 candidate(s)" on ten consecutive mornings, 13 to 22 September
+   2026, while the seen-list grew by about fifteen items a day. Nothing errored,
+   nothing was red, and the archive went a month out of date behind a green
+   daily job. A sweep that cannot find anything and a quiet week file the same
+   issue.
+
+   Two things are pinned. That sweep.js is invoked once in the sweep step, and
+   that the invocation which produces the JSON is not the one carrying
+   --no-write. Either alone permits the other's version of the bug. */
+function sweepRunsOnce() {
+  const found = [];
+  const wf = path.join(ROOT, '.github/workflows/sweep.yml');
+  if (!fs.existsSync(wf)) { return found; }
+  const yml = fs.readFileSync(wf, 'utf8');
+
+  const calls = [...yml.matchAll(/node\s+tools\/sweep\.js([^\n|>]*)/g)].map(m => m[1]);
+  if (calls.length > 1) {
+    found.push({
+      severity: 'error', record: '.github/workflows/sweep.yml', field: 'sweep', ref: `${calls.length} invocations`,
+      message: 'tools/sweep.js is invoked more than once. The first run consumes the new items and the second reports none'
+    });
+  }
+  for (const flags of calls) {
+    if (/--json/.test(flags) && /--no-write/.test(flags)) {
+      found.push({
+        severity: 'error', record: '.github/workflows/sweep.yml', field: 'sweep', ref: flags.trim(),
+        message: 'The sweep invocation that produces the JSON carries --no-write, so it reports against a log another run already wrote'
+      });
+    }
+  }
+  return found;
+}
+
 /* Corrections stay out of the Latest stream, and the log they move to exists.
    ------------------------------------------------------------------------
    An update carrying `correction: true` reports an error of this archive's.

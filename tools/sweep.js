@@ -18,9 +18,28 @@
    PROC-BIH-001 and LEG-010 are both absences with a date on them.
 
        node tools/sweep.js                 # human summary
-       node tools/sweep.js --json          # for the workflow
+       node tools/sweep.js --json          # machine-readable, to stdout
+       node tools/sweep.js --json-file F   # machine-readable to F, summary to stdout
        node tools/sweep.js --date 2026-09-11
        node tools/sweep.js --no-write      # do not touch the log
+
+   --json-file exists so the workflow can take both outputs from ONE run. It
+   used to take them from two:
+
+       node tools/sweep.js | tee sweep.txt
+       node tools/sweep.js --no-write --json > sweep.json
+
+   The first run records every item it saw in the log. The second run therefore
+   sees no new item, and sweep.json, the file the workflow opens its issue
+   from, is empty by construction. Every candidate was found by the run whose
+   output went to a text file nobody reads, and the issue was opened from the
+   run that could not find anything.
+
+   It ran that way for ten days, 13 to 22 September 2026, reporting
+   "0 candidate(s)" every morning while the seen-list grew by about fifteen
+   items a day and the Supreme Court quashed every protest FIR in the country.
+   Nothing errored. A job that cannot find anything and a quiet week look
+   identical in the issue it files.
    ========================================================================== */
 
 'use strict';
@@ -33,6 +52,7 @@ const { ROOT, load } = require('./archive');
 const args = process.argv.slice(2);
 const asJson = args.includes('--json');
 const noWrite = args.includes('--no-write');
+const jsonFile = flag('--json-file');
 const DATE = flag('--date') || new Date().toISOString().slice(0, 10);
 
 const WATCHLIST = path.join(ROOT, 'tools/watchlist.json');
@@ -323,13 +343,23 @@ async function main() {
     fs.writeFileSync(LOG, JSON.stringify(log, null, 2) + '\n');
   }
 
+  const payload = JSON.stringify({ run, findings, checked }, null, 2) + '\n';
+
+  if (jsonFile) { fs.writeFileSync(jsonFile, payload); }
+
   if (asJson) {
-    process.stdout.write(JSON.stringify({ run, findings, checked }, null, 2) + '\n');
+    process.stdout.write(payload);
     return;
   }
 
   console.log(`Sweep ${DATE} — ${config.targets.length} targets, ${terms.length} watch terms.`);
-  for (const c of checked) { console.log(`  ${c.outcome.padEnd(18)} ${c.id}`); }
+  /* The item counts are printed because "the feed was empty" and "the feed was
+     full and nothing matched" are the same line without them, and one of those
+     is a broken route. */
+  for (const c of checked) {
+    const seen = c.items === undefined ? '' : `  ${c.items} item(s), ${c.matched} matched`;
+    console.log(`  ${c.outcome.padEnd(18)} ${c.id}${seen}`);
+  }
   if (!findings.length) {
     console.log('\nNothing new. The date is logged: a search that found nothing is a finding.');
     return;

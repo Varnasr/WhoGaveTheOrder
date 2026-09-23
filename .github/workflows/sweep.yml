@@ -53,9 +53,10 @@ jobs:
 
       - name: Run the sweep
         id: sweep
-        run: |
-          node tools/sweep.js | tee sweep.txt
-          node tools/sweep.js --no-write --json > sweep.json
+        # ONE run. Two runs meant the first consumed the novelty and the second,
+        # whose JSON the issue is opened from, found nothing by construction.
+        # See the comment at the top of tools/sweep.js.
+        run: node tools/sweep.js --json-file sweep.json | tee sweep.txt
 
       # Get the day's sources into a public web archive. Capped, because the
       # Internet Archive throttles, and it does not matter if this takes a week
