@@ -563,5 +563,53 @@
       "SRC-0054",
       "SRC-0055"
     ]
+  },
+  {
+    "id": "INC-DEL-007",
+    "kind": "Evidence",
+    "title": "The Union Home Secretary ordered the suspension of mobile internet services, all technologies, within a 1.5 kilometre radius of Jantar Mantar, New Delhi, from 1",
+    "state": "CORROBORATED",
+    "url": "https://www.whogavetheorder.in/evidence.html?id=INC-DEL-007",
+    "type": "OTHER_DOCUMENT",
+    "incidentId": "INC-0001",
+    "dateOfItem": null,
+    "establishes": "This is the first record in this archive of an identified authority giving an identified written order affecting one of these incidents. Everything else here concerns force whose author is unknown. Here the office is named in the reporting, the recipient is named, the legal power is cited, the window is fixed to the hour and the ground is quoted. What is established is that the order exists and what it says, on the strength of outlets reproducing its text. What is NOT established, and is deliberately not written above: the name of the officer who signed it, whether it was placed before the Review Committee under rule 3(2) within five days, and whether any of it was ever published. The archive does not hold the order. It holds reports of it. That is the whole point of FQ-014: an order whose text is quoted in the newspapers and absent from every official website is exactly the document this project exists to ask for. Note also what this is not. A communications suspension is not use of force and is not evidence of any. It is recorded because it is a coercive exercise of state power at the same place and time, with an author this archive can name, and because the contrast is the finding: the state's internet order is traceable to a desk and its lathi charge is not.",
+    "doesNotEstablish": null,
+    "sourceIds": [
+      "SRC-0085",
+      "SRC-0086"
+    ]
+  },
+  {
+    "id": "PROC-SC-011",
+    "kind": "Evidence",
+    "title": "By an order reported dated 10 September 2026, a three-judge bench headed by the Chief Justice of India, Surya Kant, declined to reconstitute the High Powered En",
+    "state": "REPORTED",
+    "url": "https://www.whogavetheorder.in/evidence.html?id=PROC-SC-011",
+    "type": "COURT_DOCUMENT",
+    "incidentId": null,
+    "dateOfItem": null,
+    "establishes": "This closes a thread the archive left open twice. PROC-SC-006 recorded that the Court listed the matter for 10 September 2026; PROC-SC-010 recorded that a plea challenging the committee's composition was before the Court. This is what happened to both. The refusal is reported on the ground that “there was no basis for changing the panel merely on the strength of preconceived assumptions”. The confidential portal is the part that bears on this archive's own users. Somebody who was assaulted by police and is also named in an FIR has an obvious reason not to depose through ordinary channels. Whether the portal now exists, and at what address, is NOT established: see OQ-054. This archive will not direct anyone to a portal it has not confirmed. Recorded as REPORTED, not CORROBORATED, on a deliberate reading of this archive's own rule. Three outlets carry it, but they are three accounts of one order, and the order is not held. Where the underlying document is a single court order, multiple outlets are multiple reports of one thing, not independent knowledge. The upgrade is the order copy from the Supreme Court's own site: see FQ-014.",
+    "doesNotEstablish": null,
+    "sourceIds": [
+      "SRC-0087",
+      "SRC-0088",
+      "SRC-0089"
+    ]
+  },
+  {
+    "id": "INC-BIH-006",
+    "kind": "Evidence",
+    "title": "Accounts of the PUCL Bihar public hearing of 22 August 2026 disagree on how many people deposed and on one panel member's name. INC-BIH-005 records 19 deponents",
+    "state": "DISPUTED",
+    "url": "https://www.whogavetheorder.in/evidence.html?id=INC-BIH-006",
+    "type": "OTHER_DOCUMENT",
+    "incidentId": "INC-0002",
+    "dateOfItem": null,
+    "establishes": "Recorded rather than resolved, and INC-BIH-005 is left exactly as it stands. Averaging the counts, or quietly adopting whichever was read most recently, would destroy the only useful thing here: that two accounts of one afternoon disagree about a countable fact. Little turns on whether it was 16, 17 or 19 people. What turns on it is that this archive holds no copy of the panel's own report, so every figure it carries about that hearing is an outlet's account of it. OQ-049 already asks for the report. This record is the concrete reason that question is worth answering, and the name disagreement is the sharper half: two of the sources cannot both have the panel right. The thirteen types, as the BiharWatch report lists them: brutal lathi charge injuring students and youth; firing on students and youth resulting in some injuries; using a lethal firearm, an AK-47, on students and youth; custodial torture; illegal detention without production before a magistrate; families not informed of detainees' whereabouts; detainees denied access to family; judicial custody without being informed of the charges; judicial custody without access to a lawyer; destruction of evidence, such as seizing mobile phones; raiding the homes of students and activists without search warrants; obstructing advocates on record and filing unsubstantiated charges against lawyers; and releasing photographs and videos of protesters to the media. These are the panel's characterisations of what it heard from witnesses. They are not findings of this archive, and a fact-finding panel is not a court. The hearing is recorded as held at the IMA Hall, Gandhi Maidan, Patna, on 22 August 2026, which both accounts agree on.",
+    "doesNotEstablish": null,
+    "sourceIds": [
+      "SRC-0090"
+    ]
   }
 ]

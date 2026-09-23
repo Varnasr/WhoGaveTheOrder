@@ -212,5 +212,44 @@
       "RTI-ACT-001",
       "RTI-ACT-002"
     ]
+  },
+  {
+    "id": "FQ-014",
+    "sequence": 2,
+    "deadline_driven": false,
+    "jurisdiction": "delhi",
+    "action": "Obtain every order suspending telecommunications in Central Delhi during July 2026: the order of 23 July 2026 recorded at INC-DEL-007, and any other order made in the same period. Ask for the order copies, the officer's designation, and the Review Committee's proceedings under rule 3(2) of the Telecommunications (Temporary Suspension of Services) Rules 2024.",
+    "authority": "Ministry of Home Affairs, Union of India, as the reported issuing authority. The Department of Telecommunications and the Commissioner of Delhi Police, as reported recipient, are alternative custodians if MHA transfers the application under section 6(3).",
+    "method": "RTI application. One subject matter. Ask for the documents, not for an explanation: 'a copy of each order' and 'a copy of the Review Committee proceedings', not 'why was the internet suspended'.",
+    "cost": "Rs 10 application fee",
+    "legal_basis": "Right to Information Act 2005. Note that Anuradha Bhasin v. Union of India (2020) 3 SCC 637 requires such orders to be published, so this asks for a document the state was already obliged to make public. That is the strongest position an applicant can be in, and it should be said in the application.",
+    "exposure_risk": false,
+    "notes": "SEQUENCE 2, behind the preservation letters only. This is the best-shaped request in the queue and the reason is worth stating. Everything else this archive asks for is a record of what police did, which an office can plausibly say it does not hold, cannot locate, or has destroyed on schedule. This asks for a written order that certainly exists, whose author is a named office, whose legal power is cited in the reporting, and whose publication was already required by the Supreme Court. There is no honest 'no such record' answer available. A refusal is therefore as useful as a disclosure: a section 8 exemption claimed over an order the Court has said must be public is itself a documentable fact with a date on it. Do not bundle this with any question about the police action. One subject matter."
+  },
+  {
+    "id": "FQ-015",
+    "sequence": 0,
+    "deadline_driven": false,
+    "jurisdiction": "all",
+    "action": "Retrieve an authoritative text of Anuradha Bhasin v. Union of India (2020) 3 SCC 637 and record the URL actually fetched, to move PREC-SHUT-001 from REPORTED to VERIFIED.",
+    "authority": "The Supreme Court of India's own judgment database, or an authoritative reporter.",
+    "method": "Fetch the judgment. Do not cite it from a secondary source's citation of it.",
+    "cost": "Free",
+    "legal_basis": "Published judgment. Not an application.",
+    "exposure_risk": false,
+    "notes": "SEQUENCE 0, same reasoning as FQ-013: it costs nothing, needs no third party, and upgrades a claim this archive is relying on. PREC-SHUT-001 currently rests on the Internet Freedom Foundation's citation of the case rather than on the case. The proposition is well known, which is exactly why it is easy to leave unverified. FQ-014 leans on it."
+  },
+  {
+    "id": "FQ-016",
+    "sequence": 1,
+    "deadline_driven": false,
+    "jurisdiction": "supreme_court",
+    "action": "Obtain the Supreme Court's order of 10 September 2026 recorded at PROC-SC-011, and the order of 18 August 2026 recorded at PROC-SC-006, from the Court's own record.",
+    "authority": "Supreme Court of India. Orders are published on the Court's website; no application is needed.",
+    "method": "Locate by cause title and date. PROC-SC-008 gives a cause title in the connected pellet-gun matter, W.P.(C) No. 917/2026, which is the obvious starting point.",
+    "cost": "Free",
+    "legal_basis": "Published judicial record.",
+    "exposure_risk": false,
+    "notes": "Every Supreme Court record in this archive is an outlet's account of an order rather than the order. That is a weakness across the whole supreme_court category, not a gap in one record, and it is cheap to fix because the orders are public. Getting the 10 September order would also settle whether the confidential witness portal at OQ-054 exists and where."
   }
 ]

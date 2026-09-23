@@ -219,9 +219,27 @@ WGO.offices = [
    the thing itself rather than take the note's word for it. */
 WGO.updates = [
   {
+    date: '2026-09-23',
+    title: 'An order suspending the internet at Jantar Mantar names the office that gave it',
+    body: 'The Union Home Secretary ordered mobile internet suspended within 1.5 km of Jantar Mantar from 16:00 to 24:00 on 23 July, addressed to the Commissioner of Delhi Police, under section 20(2)(b) of the Telecommunications Act 2023. The ground is quoted: \'in the interest of public order and for preventing incitement to the commission of any offence\'. This is the first record here of an identified authority giving an identified written order during one of these incidents. The contrast is the finding: the state\'s internet order can be traced to a desk and its lathi charge cannot. We do not hold the order. The Internet Freedom Foundation reported on 20 July that no suspension order had been published by the MHA, the DoT, the Delhi government or the Delhi Police, and Anuradha Bhasin requires that they be. An RTI for it is queued.',
+    recordId: 'INC-DEL-007'
+  },
+  {
+    date: '2026-09-23',
+    title: 'The Supreme Court kept the committee and opened a confidential route for witnesses',
+    body: 'On 10 September the Chief Justice\'s bench refused to reconstitute the High Powered Enquiry Committee, directed that an online portal be created for vulnerable witnesses to submit statements and documents confidentially, and appointed two amici curiae as intermediaries. That closes a thread this archive left open twice: the 10 September listing and the plea against the committee\'s composition. Whether the portal now exists, and where, is not established, and this archive will not send anyone to a portal it has not found.',
+    recordId: 'PROC-SC-011'
+  },
+  {
+    date: '2026-09-23',
+    title: 'Two accounts of the PUCL hearing disagree, and the disagreement is now on the record',
+    body: 'Our record says nineteen people deposed at Patna on 22 August and names one panel member Arshad Ajman. A report published on BiharWatch the next day says sixteen oral testimonies plus one video, and calls him Ajmal Ashraf. Neither has been changed to match the other. Little turns on the count; what turns on it is that this archive holds no copy of the panel\'s own report, only outlets\' accounts of it, and two of them cannot both have the panel right. The thirteen categories the panel enumerated are now recorded in full.',
+    recordId: 'INC-BIH-006'
+  },
+  {
     date: '2026-08-26',
-    title: 'We stated Bihar\'s figures as though they were the fact, and they are contested',
-    body: 'Our Siwan record said four rounds from an AK-47 at JP Chowk. That is the State of Bihar\'s own account, given on affidavit, and we wrote it as the claim rather than as the State\'s claim. An open-source investigation published on 4 August, which we found only now, geolocates video showing at least nine rounds at two other locations. The discharge of firearms is not in doubt and stays established. The count and the places have been moved out of the claim, attributed to the State, and the conflict is recorded as disputed. The sourcing was never wrong; the framing was.',
+    title: 'Video puts more rounds fired at Siwan, in more places, than the State admits',
+    body: 'The State of Bihar told the Supreme Court, on affidavit, that four rounds were fired from an AK-47 near JP Chowk. An open-source investigation published on 4 August geolocates video showing at least nine rounds, at two other locations. Both accounts are now on the record and the conflict is marked as disputed; the discharge of firearms itself was never in doubt. Our own record carried the State\'s figures as though they were the fact until 26 August, when this was corrected: the sourcing was right and the framing was not.',
     recordId: 'INC-SIW-003'
   },
   {

@@ -621,6 +621,72 @@ WGO.importedSources = [
     "originatesFrom": null
   },
   {
+    "id": "SRC-0085",
+    "name": "Communications Today",
+    "kind": "SECONDARY",
+    "url": "https://www.communicationstoday.co.in/govt-orders-mobile-internet-services-suspension-near-jantar-mantar/",
+    "retrievedOn": "2026-09-23",
+    "archiveUrl": null,
+    "archivedOn": null,
+    "sha256": null,
+    "originatesFrom": null
+  },
+  {
+    "id": "SRC-0086",
+    "name": "Deccan Herald",
+    "kind": "SECONDARY",
+    "url": "https://www.deccanherald.com/india/delhi/in-the-interest-of-public-safety-mha-suspends-mobile-internet-services-within-15-km-radius-of-jantar-mantar-till-midnight-4084755",
+    "retrievedOn": "2026-09-23",
+    "archiveUrl": null,
+    "archivedOn": null,
+    "sha256": null,
+    "originatesFrom": null
+  },
+  {
+    "id": "SRC-0087",
+    "name": "National Herald",
+    "kind": "SECONDARY",
+    "url": "https://www.nationalheraldindia.com/national/neet-ug-protests-sc-retains-panel-probing-pellet-guns-violence-and-harassment-of-women",
+    "retrievedOn": "2026-09-23",
+    "archiveUrl": null,
+    "archivedOn": null,
+    "sha256": null,
+    "originatesFrom": null
+  },
+  {
+    "id": "SRC-0088",
+    "name": "Free Press Journal",
+    "kind": "SECONDARY",
+    "url": "https://www.freepressjournal.in/education/sc-rejects-plea-to-reconstitute-police-excesses-panel-directs-probe-into-pellet-guns-violence-against-protesters",
+    "retrievedOn": "2026-09-23",
+    "archiveUrl": null,
+    "archivedOn": null,
+    "sha256": null,
+    "originatesFrom": null
+  },
+  {
+    "id": "SRC-0089",
+    "name": "LawChakra",
+    "kind": "SECONDARY",
+    "url": "https://lawchakra.in/supreme-court/pellet-guns-police-surveillance-supreme-court-told-constitutional-questions-from-student-protests-are-outside-committees-remit/",
+    "retrievedOn": "2026-09-23",
+    "archiveUrl": null,
+    "archivedOn": null,
+    "sha256": null,
+    "originatesFrom": null
+  },
+  {
+    "id": "SRC-0090",
+    "name": "BiharWatch",
+    "kind": "SECONDARY",
+    "url": "https://www.biharwatch.in/2026/08/thirteen-types-of-state.html",
+    "retrievedOn": "2026-09-23",
+    "archiveUrl": null,
+    "archivedOn": null,
+    "sha256": null,
+    "originatesFrom": null
+  },
+  {
     "id": "SRC-0056",
     "name": "India Code",
     "kind": "PRIMARY",
@@ -925,6 +991,17 @@ WGO.importedSources = [
     "retrievedOn": "2026-08-26",
     "archiveUrl": "http://web.archive.org/web/20260915075622/https://thefederal.com/category/states/north/delhi/delhi-police-guidelines-to-handle-gen-z-254444",
     "archivedOn": "2026-09-16",
+    "sha256": null,
+    "originatesFrom": null
+  },
+  {
+    "id": "SRC-0091",
+    "name": "Internet Freedom Foundation",
+    "kind": "PRIMARY",
+    "url": "https://internetfreedom.in/iff-condemns-the-internet-shutdown-in-parts-of-central-delhi-no-suspension-order-has-been-made-public/",
+    "retrievedOn": "2026-09-23",
+    "archiveUrl": null,
+    "archivedOn": null,
     "sha256": null,
     "originatesFrom": null
   }
@@ -1600,6 +1677,63 @@ WGO.importedEvidence = [
     "relatedIds": [],
     "accessNote": "",
     "volatility": "high"
+  },
+  {
+    "id": "INC-DEL-007",
+    "title": "The Union Home Secretary ordered the suspension of mobile internet services, all technologies, within a 1.5 kilometre radius of Jantar Mantar, New Delhi, from 1",
+    "type": "OTHER_DOCUMENT",
+    "verification": "CORROBORATED",
+    "incidentId": "INC-0001",
+    "dateOfItem": null,
+    "dateAdded": "2026-09-23",
+    "sourceIds": [
+      "SRC-0085",
+      "SRC-0086"
+    ],
+    "origin": "",
+    "establishes": "This is the first record in this archive of an identified authority giving an identified written order affecting one of these incidents. Everything else here concerns force whose author is unknown. Here the office is named in the reporting, the recipient is named, the legal power is cited, the window is fixed to the hour and the ground is quoted. What is established is that the order exists and what it says, on the strength of outlets reproducing its text. What is NOT established, and is deliberately not written above: the name of the officer who signed it, whether it was placed before the Review Committee under rule 3(2) within five days, and whether any of it was ever published. The archive does not hold the order. It holds reports of it. That is the whole point of FQ-014: an order whose text is quoted in the newspapers and absent from every official website is exactly the document this project exists to ask for. Note also what this is not. A communications suspension is not use of force and is not evidence of any. It is recorded because it is a coercive exercise of state power at the same place and time, with an author this archive can name, and because the contrast is the finding: the state's internet order is traceable to a desk and its lathi charge is not.",
+    "doesNotEstablish": "",
+    "relatedIds": [],
+    "accessNote": "",
+    "volatility": "low"
+  },
+  {
+    "id": "PROC-SC-011",
+    "title": "By an order reported dated 10 September 2026, a three-judge bench headed by the Chief Justice of India, Surya Kant, declined to reconstitute the High Powered En",
+    "type": "COURT_DOCUMENT",
+    "verification": "REPORTED",
+    "incidentId": null,
+    "dateOfItem": null,
+    "dateAdded": "2026-09-23",
+    "sourceIds": [
+      "SRC-0087",
+      "SRC-0088",
+      "SRC-0089"
+    ],
+    "origin": "",
+    "establishes": "This closes a thread the archive left open twice. PROC-SC-006 recorded that the Court listed the matter for 10 September 2026; PROC-SC-010 recorded that a plea challenging the committee's composition was before the Court. This is what happened to both. The refusal is reported on the ground that “there was no basis for changing the panel merely on the strength of preconceived assumptions”. The confidential portal is the part that bears on this archive's own users. Somebody who was assaulted by police and is also named in an FIR has an obvious reason not to depose through ordinary channels. Whether the portal now exists, and at what address, is NOT established: see OQ-054. This archive will not direct anyone to a portal it has not confirmed. Recorded as REPORTED, not CORROBORATED, on a deliberate reading of this archive's own rule. Three outlets carry it, but they are three accounts of one order, and the order is not held. Where the underlying document is a single court order, multiple outlets are multiple reports of one thing, not independent knowledge. The upgrade is the order copy from the Supreme Court's own site: see FQ-014.",
+    "doesNotEstablish": "",
+    "relatedIds": [],
+    "accessNote": "",
+    "volatility": "medium"
+  },
+  {
+    "id": "INC-BIH-006",
+    "title": "Accounts of the PUCL Bihar public hearing of 22 August 2026 disagree on how many people deposed and on one panel member's name. INC-BIH-005 records 19 deponents",
+    "type": "OTHER_DOCUMENT",
+    "verification": "DISPUTED",
+    "incidentId": "INC-0002",
+    "dateOfItem": null,
+    "dateAdded": "2026-09-23",
+    "sourceIds": [
+      "SRC-0090"
+    ],
+    "origin": "",
+    "establishes": "Recorded rather than resolved, and INC-BIH-005 is left exactly as it stands. Averaging the counts, or quietly adopting whichever was read most recently, would destroy the only useful thing here: that two accounts of one afternoon disagree about a countable fact. Little turns on whether it was 16, 17 or 19 people. What turns on it is that this archive holds no copy of the panel's own report, so every figure it carries about that hearing is an outlet's account of it. OQ-049 already asks for the report. This record is the concrete reason that question is worth answering, and the name disagreement is the sharper half: two of the sources cannot both have the panel right. The thirteen types, as the BiharWatch report lists them: brutal lathi charge injuring students and youth; firing on students and youth resulting in some injuries; using a lethal firearm, an AK-47, on students and youth; custodial torture; illegal detention without production before a magistrate; families not informed of detainees' whereabouts; detainees denied access to family; judicial custody without being informed of the charges; judicial custody without access to a lawyer; destruction of evidence, such as seizing mobile phones; raiding the homes of students and activists without search warrants; obstructing advocates on record and filing unsubstantiated charges against lawyers; and releasing photographs and videos of protesters to the media. These are the panel's characterisations of what it heard from witnesses. They are not findings of this archive, and a fact-finding panel is not a court. The hearing is recorded as held at the IMA Hall, Gandhi Maidan, Patna, on 22 August 2026, which both accounts agree on.",
+    "doesNotEstablish": "",
+    "relatedIds": [],
+    "accessNote": "",
+    "volatility": "medium"
   }
 ];
 
@@ -2222,6 +2356,17 @@ WGO.importedFramework = [
     "category": "guideline",
     "jurisdiction": "delhi",
     "note": "Read what this advisory is about, and then read what it is not about. As reported, it concerns how officers appear on camera: composure, tone, not being filmed losing one's temper. 'Your angry face is their content' is the line every outlet has quoted. Nothing in any account of it addresses crowd-control weapons, when force may be used, who may authorise it, or what happened on 20 July. The archive draws no conclusion from that absence, because the archive has not read the document and an advisory on conduct is not the place a weapons authority would necessarily sit. What it does record is that this is the only instruction to Delhi Police personnel reported to have issued since 20 July, and that as reported it is about presentation. It is a written instruction to a police force about handling protests, issued by an identifiable authority on an identifiable date. If such an advisory can be circulated to 15 districts, so could an instruction on the use of force, which sharpens the question of whether one governed 20 July. See OQ-053."
+  },
+  {
+    "id": "PREC-SHUT-001",
+    "text": "Anuradha Bhasin v. Union of India (2020) 3 SCC 637 requires orders suspending telecommunications to be made public, so that they can be challenged, and requires periodic review. The Telecommunications (Temporary Suspension of Services) Rules 2024 provide the review mechanism.",
+    "confidence": "REPORTED",
+    "sourceIds": [
+      "SRC-0091"
+    ],
+    "category": "precedent",
+    "jurisdiction": "india",
+    "note": "Cited by the Internet Freedom Foundation in its statement of 20 July 2026 alongside the Indian Telegraph Act 1885, the Telecommunications Act 2023 and Articles 19(1)(a) and 19(1)(g). Recorded as REPORTED and not VERIFIED because this archive has not fetched the judgment text itself, only IFF's citation of it. The proposition is well known and that is not a reason to record it as established: the rule in this archive is that a claim carries the state of the evidence actually held for it. Fetching the judgment from an authoritative reporter would move it to VERIFIED and is the cheapest upgrade available here. See FQ-015."
   }
 ];
 
@@ -3124,6 +3269,24 @@ WGO.importedQuestions = [
       "PUB-DEL-002"
     ],
     "category": "legal_proceeding"
+  },
+  {
+    "id": "OQ-054",
+    "incidentId": "INC-0001",
+    "text": "Were any of the July 2026 telecommunications suspension orders for Central Delhi published, and if so where; and does the confidential witness portal directed by the Supreme Court on 10 September 2026 now exist, at what address?",
+    "priority": "HIGH",
+    "whyItMatters": "Two halves of the same problem. CUS-SHUT-001 records the Internet Freedom Foundation's observation on 20 July that no suspension order had been published; this archive has not itself searched every gazette and portal, so it records that as reported rather than as an established absence. An absence is the hardest thing to prove and the easiest to assert. The portal matters for a different reason: it is the one route this archive could point a frightened witness to, and pointing anyone at a portal whose existence is unconfirmed would be worse than saying nothing.",
+    "lawfulRoute": "Search the MHA, DoT, GNCTD and Delhi Police sites; FQ-014 for the orders; FQ-016 for the order copy.",
+    "state": "UNANSWERED",
+    "wants": [
+      "Search the MHA, DoT, GNCTD and Delhi Police sites; FQ-014 for the orders; FQ-016 for the order copy."
+    ],
+    "evidenceIds": [],
+    "blocks": [
+      "CUS-SHUT-001",
+      "PROC-SC-011"
+    ],
+    "category": "document_custody"
   }
 ];
 
@@ -3147,6 +3310,21 @@ WGO.importedFilings = [
     ]
   },
   {
+    "id": "FQ-015",
+    "sequence": 0,
+    "deadlineDriven": false,
+    "incidentId": null,
+    "jurisdiction": "all",
+    "action": "Retrieve an authoritative text of Anuradha Bhasin v. Union of India (2020) 3 SCC 637 and record the URL actually fetched, to move PREC-SHUT-001 from REPORTED to VERIFIED.",
+    "authority": "The Supreme Court of India's own judgment database, or an authoritative reporter.",
+    "method": "Fetch the judgment. Do not cite it from a secondary source's citation of it.",
+    "cost": "Free",
+    "legalBasis": "Published judgment. Not an application.",
+    "exposureRisk": false,
+    "notes": "SEQUENCE 0, same reasoning as FQ-013: it costs nothing, needs no third party, and upgrades a claim this archive is relying on. PREC-SHUT-001 currently rests on the Internet Freedom Foundation's citation of the case rather than on the case. The proposition is well known, which is exactly why it is easy to leave unverified. FQ-014 leans on it.",
+    "resolves": []
+  },
+  {
     "id": "FQ-001",
     "sequence": 1,
     "deadlineDriven": true,
@@ -3162,6 +3340,21 @@ WGO.importedFilings = [
     "resolves": [
       "OQ-002"
     ]
+  },
+  {
+    "id": "FQ-016",
+    "sequence": 1,
+    "deadlineDriven": false,
+    "incidentId": null,
+    "jurisdiction": "supreme_court",
+    "action": "Obtain the Supreme Court's order of 10 September 2026 recorded at PROC-SC-011, and the order of 18 August 2026 recorded at PROC-SC-006, from the Court's own record.",
+    "authority": "Supreme Court of India. Orders are published on the Court's website; no application is needed.",
+    "method": "Locate by cause title and date. PROC-SC-008 gives a cause title in the connected pellet-gun matter, W.P.(C) No. 917/2026, which is the obvious starting point.",
+    "cost": "Free",
+    "legalBasis": "Published judicial record.",
+    "exposureRisk": false,
+    "notes": "Every Supreme Court record in this archive is an outlet's account of an order rather than the order. That is a weakness across the whole supreme_court category, not a gap in one record, and it is cheap to fix because the orders are public. Getting the 10 September order would also settle whether the confidential witness portal at OQ-054 exists and where.",
+    "resolves": []
   },
   {
     "id": "FQ-002",
@@ -3180,6 +3373,21 @@ WGO.importedFilings = [
       "OQ-002",
       "OQ-007"
     ]
+  },
+  {
+    "id": "FQ-014",
+    "sequence": 2,
+    "deadlineDriven": false,
+    "incidentId": "INC-0001",
+    "jurisdiction": "delhi",
+    "action": "Obtain every order suspending telecommunications in Central Delhi during July 2026: the order of 23 July 2026 recorded at INC-DEL-007, and any other order made in the same period. Ask for the order copies, the officer's designation, and the Review Committee's proceedings under rule 3(2) of the Telecommunications (Temporary Suspension of Services) Rules 2024.",
+    "authority": "Ministry of Home Affairs, Union of India, as the reported issuing authority. The Department of Telecommunications and the Commissioner of Delhi Police, as reported recipient, are alternative custodians if MHA transfers the application under section 6(3).",
+    "method": "RTI application. One subject matter. Ask for the documents, not for an explanation: 'a copy of each order' and 'a copy of the Review Committee proceedings', not 'why was the internet suspended'.",
+    "cost": "Rs 10 application fee",
+    "legalBasis": "Right to Information Act 2005. Note that Anuradha Bhasin v. Union of India (2020) 3 SCC 637 requires such orders to be published, so this asks for a document the state was already obliged to make public. That is the strongest position an applicant can be in, and it should be said in the application.",
+    "exposureRisk": false,
+    "notes": "SEQUENCE 2, behind the preservation letters only. This is the best-shaped request in the queue and the reason is worth stating. Everything else this archive asks for is a record of what police did, which an office can plausibly say it does not hold, cannot locate, or has destroyed on schedule. This asks for a written order that certainly exists, whose author is a named office, whose legal power is cited in the reporting, and whose publication was already required by the Supreme Court. There is no honest 'no such record' answer available. A refusal is therefore as useful as a disclosure: a section 8 exemption claimed over an order the Court has said must be public is itself a documentable fact with a date on it. Do not bundle this with any question about the police action. One subject matter.",
+    "resolves": []
   },
   {
     "id": "FQ-003",
@@ -3673,6 +3881,17 @@ WGO.importedPrecedents = [
     "category": "precedent",
     "jurisdiction": "india",
     "note": "Only the Polis Project's general reflection at PREC-003 was found, and that is a reflection, not an account of a particular incident. Treat the absence as a failure to find, not as evidence that it has not happened."
+  },
+  {
+    "id": "PREC-SHUT-001",
+    "text": "Anuradha Bhasin v. Union of India (2020) 3 SCC 637 requires orders suspending telecommunications to be made public, so that they can be challenged, and requires periodic review. The Telecommunications (Temporary Suspension of Services) Rules 2024 provide the review mechanism.",
+    "confidence": "REPORTED",
+    "sourceIds": [
+      "SRC-0091"
+    ],
+    "category": "precedent",
+    "jurisdiction": "india",
+    "note": "Cited by the Internet Freedom Foundation in its statement of 20 July 2026 alongside the Indian Telegraph Act 1885, the Telecommunications Act 2023 and Articles 19(1)(a) and 19(1)(g). Recorded as REPORTED and not VERIFIED because this archive has not fetched the judgment text itself, only IFF's citation of it. The proposition is well known and that is not a reason to record it as established: the rule in this archive is that a claim carries the state of the evidence actually held for it. Fetching the judgment from an authoritative reporter would move it to VERIFIED and is the cheapest upgrade available here. See FQ-015."
   }
 ];
 
@@ -3680,7 +3899,8 @@ WGO.importedIncidentFacts = {
   "INC-0001": {
     "dates": [
       "20 July 2026",
-      "22 July 2026"
+      "22 July 2026",
+      "23 July 2026"
     ],
     "places": [
       "Jantar Mantar",
@@ -3694,7 +3914,8 @@ WGO.importedIncidentFacts = {
       "INC-DEL-003",
       "INC-DEL-004",
       "INC-DEL-005",
-      "INC-DEL-006"
+      "INC-DEL-006",
+      "INC-DEL-007"
     ],
     "state": [
       "CORROBORATED",
@@ -3706,6 +3927,7 @@ WGO.importedIncidentFacts = {
     "dates": [
       "22 August 2026",
       "22 July 2026",
+      "23 August 2026",
       "23 July 2026",
       "25 July 2026"
     ],
@@ -3721,10 +3943,12 @@ WGO.importedIncidentFacts = {
       "INC-BIH-002",
       "INC-BIH-003",
       "INC-BIH-004",
-      "INC-BIH-005"
+      "INC-BIH-005",
+      "INC-BIH-006"
     ],
     "state": [
       "CORROBORATED",
+      "DISPUTED",
       "REPORTED",
       "UNVERIFIED"
     ]
