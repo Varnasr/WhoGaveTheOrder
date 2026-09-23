@@ -21,7 +21,7 @@ still zero.
 
 What has changed since launch is where the archive expects to find an author. Delhi and Bihar hold
 police action, and police action leaves no order. Mumbai, Kochi, Kolkata and Assam hold something
-else — cases registered against people for assembling: 13 FIRs against more than 400 in Mumbai, one
+else: cases registered against people for assembling. 13 FIRs against more than 400 in Mumbai, one
 against 101 at Kochi, seven naming about 70 in Kolkata, five in Assam, and 355 booked in Bihar
 alongside the lathi charges. The Supreme Court closed all of them on 1 September 2026 under Article
 142, leaving one exception: a single FIR concerning 2,873 people whom Delhi Police's facial

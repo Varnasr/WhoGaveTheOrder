@@ -249,7 +249,7 @@ function correctionLog(WGO) {
   if (!corrections.length && updates.length) {
     found.push({
       severity: 'warning', record: 'data/records.js', field: 'updates', ref: null,
-      message: 'No update is flagged as a correction — confirm nothing has been found wrong rather than that the flag was forgotten'
+      message: 'No update is flagged as a correction. Confirm nothing has been found wrong rather than that the flag was forgotten'
     });
   }
   return found;
