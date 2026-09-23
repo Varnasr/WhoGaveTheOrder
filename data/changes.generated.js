@@ -5,6 +5,356 @@ window.WGO = window.WGO || {};
 
 WGO.changes = [
   {
+    "commit": "7a0f8f6e6e",
+    "date": "2026-09-23T03:15:27Z",
+    "subject": "Bring the record up to 23 September, and move corrections off the front page (#34)",
+    "added": [
+      {
+        "id": "INC-0005",
+        "kind": "Incident",
+        "title": "Cases registered over a solidarity gathering at Kochi",
+        "state": "REPORTED",
+        "url": "investigation.html?id=kochi"
+      },
+      {
+        "id": "PROC-SC-012",
+        "kind": "Evidence",
+        "title": "By an interim order reported dated 28 July 2026, the Supreme Court directed that no coercive action be taken against the student protesters save those with crim",
+        "state": "REPORTED",
+        "url": "evidence.html?id=PROC-SC-012"
+      },
+      {
+        "id": "PROC-SC-013",
+        "kind": "Evidence",
+        "title": "By an order reported dated 3 August 2026, the Supreme Court clarified that 'criminal antecedents' in its order of 28 July 2026 refers only to persons accused of",
+        "state": "REPORTED",
+        "url": "evidence.html?id=PROC-SC-013"
+      },
+      {
+        "id": "PROC-SC-014",
+        "kind": "Evidence",
+        "title": "By an order reported dated 1 September 2026 in Yashovardhan Azad and Others v. Union of India and Others and connected matters, a bench of the Chief Justice of ",
+        "state": "REPORTED",
+        "url": "evidence.html?id=PROC-SC-014"
+      },
+      {
+        "id": "INC-DEL-008",
+        "kind": "Evidence",
+        "title": "Delhi Police stated in an affidavit dated 17 August 2026 before the Supreme Court that its Facial Recognition System identified 2,873 persons with criminal ante",
+        "state": "REPORTED",
+        "url": "evidence.html?id=INC-DEL-008"
+      },
+      {
+        "id": "INC-DEL-009",
+        "kind": "Evidence",
+        "title": "An Indian Express investigation published on 4 September 2026 took the 205 persons on the Delhi Police facial recognition list facing the gravest charges (repor",
+        "state": "REPORTED",
+        "url": "evidence.html?id=INC-DEL-009"
+      },
+      {
+        "id": "INC-DEL-010",
+        "kind": "Evidence",
+        "title": "A nineteen-year-old undergraduate student from Najafgarh, named in the reporting, is reported to have lost vision in his right eye after fragments struck the ey",
+        "state": "REPORTED",
+        "url": "evidence.html?id=INC-DEL-010"
+      },
+      {
+        "id": "INC-MAH-002",
+        "kind": "Evidence",
+        "title": "Mumbai Police registered 13 First Information Reports between 18 and 22 July 2026 against more than 400 people for taking part in protests over the NEET examina",
+        "state": "REPORTED",
+        "url": "evidence.html?id=INC-MAH-002"
+      },
+      {
+        "id": "INC-KER-001",
+        "kind": "Evidence",
+        "title": "Ernakulam Town South police registered a case on its own motion against 101 people, the musician Hirandas Murali, who performs as Vedan, his manager Vignesh G. ",
+        "state": "REPORTED",
+        "url": "evidence.html?id=INC-KER-001"
+      },
+      {
+        "id": "INC-WB-001",
+        "kind": "Evidence",
+        "title": "Seven cases were registered in Kolkata over the student protests, with about 70 persons identified, reported on 28 July 2026, on which date the West Bengal gove",
+        "state": "REPORTED",
+        "url": "evidence.html?id=INC-WB-001"
+      },
+      {
+        "id": "INC-ASM-001",
+        "kind": "Evidence",
+        "title": "Five cases were registered in Assam over the student protests and 13 people arrested, reported on 28 July 2026; the Assam government issued a notification stati",
+        "state": "REPORTED",
+        "url": "evidence.html?id=INC-ASM-001"
+      },
+      {
+        "id": "INC-BIH-007",
+        "kind": "Evidence",
+        "title": "694 people are reported to have been detained in Bihar over the student protests and 355 booked; the Bihar Home Department issued a notification, reported on 28",
+        "state": "REPORTED",
+        "url": "evidence.html?id=INC-BIH-007"
+      },
+      {
+        "id": "SRC-0092",
+        "kind": "Source",
+        "title": "The Week",
+        "state": null,
+        "url": "https://www.theweek.in/news/india/2026/07/23/mumbai-police-fir-neet-protest.html"
+      },
+      {
+        "id": "SRC-0093",
+        "kind": "Source",
+        "title": "Business Standard",
+        "state": null,
+        "url": "https://www.business-standard.com/india-news/mumbai-police-books-400-for-protests-without-permission-registers-13-firs-126072300083_1.html"
+      },
+      {
+        "id": "SRC-0094",
+        "kind": "Source",
+        "title": "Mumbai Live",
+        "state": null,
+        "url": "https://www.mumbailive.com/amp/en/civic/mumbai-police-book-around-400-over-neet-protest-majority-aged-25-or-below-93687"
+      },
+      {
+        "id": "SRC-0095",
+        "kind": "Source",
+        "title": "The Wire",
+        "state": null,
+        "url": "https://m.thewire.in/article/law/after-sc-interim-order-on-protest-firs-cjp-warns-of-return-to-streets-as-govt-deadline-nears"
+      },
+      {
+        "id": "SRC-0096",
+        "kind": "Source",
+        "title": "JURIST",
+        "state": null,
+        "url": "https://www.jurist.org/news/2026/08/india-dispatch-supreme-court-clarifies-student-protest-order-exposing-ad-hoc-policing-of-dissent/"
+      },
+      {
+        "id": "SRC-0097",
+        "kind": "Source",
+        "title": "ThePrint",
+        "state": null,
+        "url": "https://theprint.in/india/firs-against-student-protesters-supreme-court-says-states-free-to-close-or-withdraw-criminal-cases/3004043/"
+      },
+      {
+        "id": "SRC-0098",
+        "kind": "Source",
+        "title": "LiveLaw",
+        "state": null,
+        "url": "https://www.livelaw.in/top-stories/supreme-court-quashes-firs-across-country-over-student-protests-bars-future-firs-548094"
+      },
+      {
+        "id": "SRC-0099",
+        "kind": "Source",
+        "title": "The Federal",
+        "state": null,
+        "url": "https://thefederal.com/the-federal-special/one-protest-two-probes-why-the-2873-person-fir-raises-questions-255688"
+      },
+      {
+        "id": "SRC-0100",
+        "kind": "Source",
+        "title": "Internet Freedom Foundation",
+        "state": null,
+        "url": "https://internetfreedom.in/delhi-polices-facial-recognition-flagged-25-jailed-people-at-jantar-mantar-this-dragnet-must-end/"
+      },
+      {
+        "id": "SRC-0101",
+        "kind": "Source",
+        "title": "India TV",
+        "state": null,
+        "url": "https://www.indiatvnews.com/news/india/delhi-police-moves-supreme-court-to-quash-13-firs-linked-to-cjp-protests-seeks-probe-into-2873-individuals-latest-updates-2026-08-31-1052890"
+      },
+      {
+        "id": "SRC-0102",
+        "kind": "Source",
+        "title": "Scroll.in",
+        "state": null,
+        "url": "https://scroll.in/latest/1095503/25-accused-whom-police-say-were-in-jail-spotted-by-facial-recognition-at-jantar-mantar-report"
+      },
+      {
+        "id": "SRC-0103",
+        "kind": "Source",
+        "title": "MediaNama",
+        "state": null,
+        "url": "https://www.medianama.com/2026/09/223-delhi-polices-facial-recognition-jantar-mantar/"
+      },
+      {
+        "id": "SRC-0104",
+        "kind": "Source",
+        "title": "The Tribune",
+        "state": null,
+        "url": "https://www.tribuneindia.com/news/top-headlines/hit-by-pellet-gun-at-parliament-march-student-risks-partial-vision-loss/"
+      },
+      {
+        "id": "SRC-0105",
+        "kind": "Source",
+        "title": "The Tribune",
+        "state": null,
+        "url": "https://www.tribuneindia.com/news/delhi/month-on-pellet-hit-parl-march-victims-still-battling-injures/"
+      },
+      {
+        "id": "SRC-0106",
+        "kind": "Source",
+        "title": "Deccan Chronicle",
+        "state": null,
+        "url": "https://www.deccanchronicle.com/nation/teen-protester-receives-pellet-injuries-could-lose-sight-in-one-eye-1973292"
+      },
+      {
+        "id": "SRC-0107",
+        "kind": "Source",
+        "title": "Onmanorama",
+        "state": null,
+        "url": "https://www.onmanorama.com/news/kerala/2026/07/24/kochi-police-book-rapper-vedan-99-others-over-cjp-solidarity-protest.html"
+      },
+      {
+        "id": "SRC-0108",
+        "kind": "Source",
+        "title": "Deccan Chronicle",
+        "state": null,
+        "url": "https://www.deccanchronicle.com/southern-states/kerala/kerala-police-book-100-including-popular-rapper-vedan-for-holding-a-meet-in-support-of-cjp-1973635"
+      },
+      {
+        "id": "SRC-0109",
+        "kind": "Source",
+        "title": "The Federal",
+        "state": null,
+        "url": "https://thefederal.com/category/news/neet-protest-which-states-have-withdrawn-cases-protesters-251702"
+      },
+      {
+        "id": "SRC-0110",
+        "kind": "Source",
+        "title": "Business Standard",
+        "state": null,
+        "url": "https://www.business-standard.com/india-news/neet-protests-bihar-assam-to-withdraw-all-firs-release-protesters-126072800501_1.html"
+      },
+      {
+        "id": "SRC-0111",
+        "kind": "Source",
+        "title": "The Week",
+        "state": null,
+        "url": "https://www.theweek.in/news/india/2026/07/28/neet-ug-protest-case-withdrawal.html"
+      }
+    ],
+    "removed": [],
+    "changed": [
+      {
+        "id": "INC-0003",
+        "kind": "Incident",
+        "title": "Cases registered against protesters in Mumbai",
+        "state": "REPORTED",
+        "url": "investigation.html?id=maharashtra",
+        "fields": [
+          {
+            "field": "state",
+            "from": "UNDER_INVESTIGATION",
+            "to": "REPORTED"
+          },
+          {
+            "field": "title",
+            "from": "Police action against students in Maharashtra",
+            "to": "Cases registered against protesters in Mumbai"
+          },
+          {
+            "field": "place",
+            "from": "Maharashtra — held open, no incident located",
+            "to": "Shivaji Park, Chaityabhoomi, Chembur and Shiv Sena Bhavan, Mumbai"
+          },
+          {
+            "field": "date",
+            "from": null,
+            "to": "18 to 22 July 2026"
+          },
+          {
+            "field": "dateState",
+            "from": "UNKNOWN",
+            "to": "REPORTED"
+          }
+        ]
+      },
+      {
+        "id": "INC-MAH-001",
+        "kind": "Evidence",
+        "title": "The Maharashtra matter is Mumbai, 18 to 22 July 2026: 13 First Information Reports against more than 400 people for protesting without police permission at Shiv",
+        "state": "REPORTED",
+        "url": "evidence.html?id=INC-MAH-001",
+        "fields": [
+          {
+            "field": "state",
+            "from": "UNKNOWN",
+            "to": "REPORTED"
+          },
+          {
+            "field": "title",
+            "from": "Identity, date and location of the Maharashtra incident.",
+            "to": "The Maharashtra matter is Mumbai, 18 to 22 July 2026: 13 First Information Reports against more than 400 people for protesting without police permission at Shiv"
+          },
+          {
+            "field": "establishes",
+            "from": "Held UNKNOWN at archive operator's instruction. A Supreme Court petition records that disturbances spread to Maharashtra without specifying city, date or police action.",
+            "to": "Answered 23 September 2026 by INC-MAH-002, having been held UNKNOWN at the archive operator's instruction since 15 August. The instruction was right: the pointer the archive had was a Supreme Court petition saying disturbances spread to …"
+          },
+          {
+            "field": "sourceIds",
+            "from": null,
+            "to": "SRC-0092, SRC-0093, SRC-0094"
+          }
+        ]
+      },
+      {
+        "id": "PROC-SC-003",
+        "kind": "Evidence",
+        "title": "Whether the facial recognition deployment at Jantar Mantar was confined to persons with existing criminal records, as Delhi Police asserts, or operated on the c",
+        "state": "DISPUTED",
+        "url": "evidence.html?id=PROC-SC-003",
+        "fields": [
+          {
+            "field": "establishes",
+            "from": "As stated by delhi police, on affidavit: the software 'only captured the images of criminals or history sheeters'; it 'does not automatically capture profile of every individual present at the protest site'; 'no action is taken solely on…",
+            "to": "As stated by delhi police, on affidavit: the software 'only captured the images of criminals or history sheeters'; it 'does not automatically capture profile of every individual present at the protest site'; 'no action is taken solely on…"
+          }
+        ]
+      },
+      {
+        "id": "PROC-SC-011",
+        "kind": "Evidence",
+        "title": "By an order reported dated 10 September 2026, a three-judge bench of the Chief Justice of India Surya Kant, Justice Joymalya Bagchi and Justice V. Mohana declin",
+        "state": "REPORTED",
+        "url": "evidence.html?id=PROC-SC-011",
+        "fields": [
+          {
+            "field": "title",
+            "from": "By an order reported dated 10 September 2026, a three-judge bench headed by the Chief Justice of India, Surya Kant, declined to reconstitute the High Powered En",
+            "to": "By an order reported dated 10 September 2026, a three-judge bench of the Chief Justice of India Surya Kant, Justice Joymalya Bagchi and Justice V. Mohana declin"
+          },
+          {
+            "field": "establishes",
+            "from": "This closes a thread the archive left open twice. PROC-SC-006 recorded that the Court listed the matter for 10 September 2026; PROC-SC-010 recorded that a plea challenging the committee's composition was before the Court. This is what ha…",
+            "to": "This closes a thread the archive left open twice. PROC-SC-006 recorded that the Court listed the matter for 10 September 2026; PROC-SC-010 recorded that a plea challenging the committee's composition was before the Court. This is what ha…"
+          }
+        ]
+      },
+      {
+        "id": "PUB-MAH-001",
+        "kind": "External work",
+        "title": "Published item documenting the Maharashtra matter: Mumbai Police's account of 13 FIRs against more than 400 people between 18 and 22 July 2026. Reported 23 July",
+        "state": null,
+        "url": "others.html#PUB-MAH-001",
+        "fields": [
+          {
+            "field": "title",
+            "from": "Any public documentation of a Maharashtra incident.",
+            "to": "Published item documenting the Maharashtra matter: Mumbai Police's account of 13 FIRs against more than 400 people between 18 and 22 July 2026. Reported 23 July"
+          },
+          {
+            "field": "creator",
+            "from": "Creator not recorded",
+            "to": "The Week"
+          }
+        ]
+      }
+    ],
+    "summary": "32 records added · 2 states changed · 3 records edited"
+  },
+  {
     "commit": "bce7c7ee77",
     "date": "2026-09-23T02:04:41Z",
     "subject": "Record the one order in this story whose author has a name (#33)",
