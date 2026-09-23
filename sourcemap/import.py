@@ -205,7 +205,12 @@ for i in ev:
         'verification': i['confidence'],
         'incidentId': incident_for(i),
         'dateOfItem': None,
-        'dateAdded': '2026-08-16',
+        # The date this record entered the archive. Every evidence record used to
+        # carry a hardcoded 2026-08-16, the date of the first import, which was
+        # true for all 161 of them and became a false statement on the page the
+        # moment a 162nd was added. An item carries `added_on` if it arrived
+        # later; the default is the original import.
+        'dateAdded': i.get('added_on', '2026-08-16'),
         'sourceIds': [source_id_for(s) for s in i['sources']],
         'origin': '',
         'establishes': i.get('notes') or '',

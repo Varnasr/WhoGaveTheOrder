@@ -8,7 +8,7 @@
     "note": "Records written by this project may be reused with attribution to the archive and a link back. Documents obtained from public offices are public records and this project claims no rights over them. Work by other people indexed here belongs to whoever made it."
   },
   "note": "A record is only as good as its source. Evidence records carry sourceIds; resolve them against sources.json before relying on anything here.",
-  "records": 207,
+  "records": 218,
   "files": [
     {
       "kind": "Incident",
@@ -18,19 +18,19 @@
     },
     {
       "kind": "Evidence",
-      "records": 35,
+      "records": 38,
       "json": "data/export/evidence.json",
       "csv": "data/export/evidence.csv"
     },
     {
       "kind": "Source",
-      "records": 84,
+      "records": 91,
       "json": "data/export/source.json",
       "csv": "data/export/source.csv"
     },
     {
       "kind": "Question",
-      "records": 51,
+      "records": 52,
       "json": "data/export/question.json",
       "csv": "data/export/question.csv"
     },

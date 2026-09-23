@@ -616,6 +616,72 @@
     "archiveUrl": "http://web.archive.org/web/20260913073525/https://lawbeat.in/top-stories/supreme-court-refuses-to-take-suo-motu-cognizance-of-women-sexually-assaulted-at-jantar-mantar-protests-1625139"
   },
   {
+    "id": "SRC-0085",
+    "kind": "Source",
+    "title": "Communications Today",
+    "state": null,
+    "url": "https://www.communicationstoday.co.in/govt-orders-mobile-internet-services-suspension-near-jantar-mantar/",
+    "publisher": null,
+    "retrievedOn": "2026-09-23",
+    "sha256": null,
+    "archiveUrl": null
+  },
+  {
+    "id": "SRC-0086",
+    "kind": "Source",
+    "title": "Deccan Herald",
+    "state": null,
+    "url": "https://www.deccanherald.com/india/delhi/in-the-interest-of-public-safety-mha-suspends-mobile-internet-services-within-15-km-radius-of-jantar-mantar-till-midnight-4084755",
+    "publisher": null,
+    "retrievedOn": "2026-09-23",
+    "sha256": null,
+    "archiveUrl": null
+  },
+  {
+    "id": "SRC-0087",
+    "kind": "Source",
+    "title": "National Herald",
+    "state": null,
+    "url": "https://www.nationalheraldindia.com/national/neet-ug-protests-sc-retains-panel-probing-pellet-guns-violence-and-harassment-of-women",
+    "publisher": null,
+    "retrievedOn": "2026-09-23",
+    "sha256": null,
+    "archiveUrl": null
+  },
+  {
+    "id": "SRC-0088",
+    "kind": "Source",
+    "title": "Free Press Journal",
+    "state": null,
+    "url": "https://www.freepressjournal.in/education/sc-rejects-plea-to-reconstitute-police-excesses-panel-directs-probe-into-pellet-guns-violence-against-protesters",
+    "publisher": null,
+    "retrievedOn": "2026-09-23",
+    "sha256": null,
+    "archiveUrl": null
+  },
+  {
+    "id": "SRC-0089",
+    "kind": "Source",
+    "title": "LawChakra",
+    "state": null,
+    "url": "https://lawchakra.in/supreme-court/pellet-guns-police-surveillance-supreme-court-told-constitutional-questions-from-student-protests-are-outside-committees-remit/",
+    "publisher": null,
+    "retrievedOn": "2026-09-23",
+    "sha256": null,
+    "archiveUrl": null
+  },
+  {
+    "id": "SRC-0090",
+    "kind": "Source",
+    "title": "BiharWatch",
+    "state": null,
+    "url": "https://www.biharwatch.in/2026/08/thirteen-types-of-state.html",
+    "publisher": null,
+    "retrievedOn": "2026-09-23",
+    "sha256": null,
+    "archiveUrl": null
+  },
+  {
     "id": "SRC-0056",
     "kind": "Source",
     "title": "India Code",
@@ -922,5 +988,16 @@
     "retrievedOn": "2026-08-26",
     "sha256": null,
     "archiveUrl": "http://web.archive.org/web/20260915075622/https://thefederal.com/category/states/north/delhi/delhi-police-guidelines-to-handle-gen-z-254444"
+  },
+  {
+    "id": "SRC-0091",
+    "kind": "Source",
+    "title": "Internet Freedom Foundation",
+    "state": null,
+    "url": "https://internetfreedom.in/iff-condemns-the-internet-shutdown-in-parts-of-central-delhi-no-suspension-order-has-been-made-public/",
+    "publisher": null,
+    "retrievedOn": "2026-09-23",
+    "sha256": null,
+    "archiveUrl": null
   }
 ]

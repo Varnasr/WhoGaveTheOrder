@@ -3233,5 +3233,122 @@
     ],
     "notes": "Two things happened and they are easy to conflate. The Court declined to open a suo motu proceeding on the sexual assault allegations, and the Court said those allegations are already inside the committee's mandate and must be reported on first. A headline can make either of those the story. The archive records both in the same sentence for that reason. What this archive has not recorded and will not until it is sourced: what happened to any woman at Jantar Mantar. The allegations are before a committee and this archive holds no account, no complaint and no medical record. Their existence as allegations is recorded because a court has directed an inquiry into them; nothing about their content is. The challenge to the committee's composition is noted because if it succeeds the committee at PROC-SC-006 changes, and this archive should not be describing a body that has been reconstituted. No order on that challenge is held.",
     "volatility": "high"
+  },
+  {
+    "id": "INC-DEL-007",
+    "jurisdiction": "delhi",
+    "incident": "INC-0001",
+    "category": "incident",
+    "claim": "The Union Home Secretary ordered the suspension of mobile internet services, all technologies, within a 1.5 kilometre radius of Jantar Mantar, New Delhi, from 16:00 to 24:00 hours on 23 July 2026. The order was addressed to the Commissioner of Delhi Police and made under section 20(2)(b) of the Telecommunications Act 2023 read with rule 2(1)(b) and rule 3(1) of the Telecommunications (Temporary Suspension of Services) Rules 2024. Its stated ground is “in the interest of public order and for preventing incitement to the commission of any offence”.",
+    "confidence": "CORROBORATED",
+    "notes": "This is the first record in this archive of an identified authority giving an identified written order affecting one of these incidents. Everything else here concerns force whose author is unknown. Here the office is named in the reporting, the recipient is named, the legal power is cited, the window is fixed to the hour and the ground is quoted. What is established is that the order exists and what it says, on the strength of outlets reproducing its text. What is NOT established, and is deliberately not written above: the name of the officer who signed it, whether it was placed before the Review Committee under rule 3(2) within five days, and whether any of it was ever published. The archive does not hold the order. It holds reports of it. That is the whole point of FQ-014: an order whose text is quoted in the newspapers and absent from every official website is exactly the document this project exists to ask for. Note also what this is not. A communications suspension is not use of force and is not evidence of any. It is recorded because it is a coercive exercise of state power at the same place and time, with an author this archive can name, and because the contrast is the finding: the state's internet order is traceable to a desk and its lathi charge is not.",
+    "volatility": "low",
+    "sources": [
+      {
+        "url": "https://www.communicationstoday.co.in/govt-orders-mobile-internet-services-suspension-near-jantar-mantar/",
+        "source_type": "secondary",
+        "publication": "Communications Today",
+        "retrieved_on": "2026-09-23"
+      },
+      {
+        "url": "https://www.deccanherald.com/india/delhi/in-the-interest-of-public-safety-mha-suspends-mobile-internet-services-within-15-km-radius-of-jantar-mantar-till-midnight-4084755",
+        "source_type": "secondary",
+        "publication": "Deccan Herald",
+        "retrieved_on": "2026-09-23"
+      }
+    ],
+    "added_on": "2026-09-23"
+  },
+  {
+    "id": "CUS-SHUT-001",
+    "jurisdiction": "delhi",
+    "incident": "INC-0001",
+    "category": "document_custody",
+    "claim": "As at 20 July 2026 no copy of any order suspending telecommunications in Central Delhi had been published by the Ministry of Home Affairs, the Department of Telecommunications, the Government of NCT of Delhi or the Delhi Police, according to the Internet Freedom Foundation.",
+    "confidence": "REPORTED",
+    "notes": "IFF's statement of 20 July 2026 says in terms: “At the time of release of this statement, no copy of any suspension order has been published by the Ministry of Home Affairs, the Department of Telecommunications, the Government of NCT of Delhi or the Delhi Police.” And: “An unpublished order is an unaccountable order.” The claim is confined to what IFF observed on the day it wrote. This archive has not itself searched every official gazette and portal for the period, and so records this as REPORTED rather than as an established absence. An absence is the hardest thing to prove and the easiest to assert. See OQ-054. Why it matters legally rather than rhetorically: Anuradha Bhasin v. Union of India (2020) 3 SCC 637 requires suspension orders to be published so they can be challenged. See PREC-SHUT-001.",
+    "volatility": "medium",
+    "sources": [
+      {
+        "url": "https://internetfreedom.in/iff-condemns-the-internet-shutdown-in-parts-of-central-delhi-no-suspension-order-has-been-made-public/",
+        "source_type": "primary",
+        "publication": "Internet Freedom Foundation",
+        "retrieved_on": "2026-09-23"
+      },
+      {
+        "url": "https://sflc.in/sflc-ins-statement-on-the-internet-shutdown-imposed-in-parts-of-central-delhi/",
+        "source_type": "secondary",
+        "publication": "SFLC.in",
+        "retrieved_on": "2026-09-23"
+      }
+    ],
+    "added_on": "2026-09-23"
+  },
+  {
+    "id": "PREC-SHUT-001",
+    "jurisdiction": "india",
+    "category": "precedent",
+    "claim": "Anuradha Bhasin v. Union of India (2020) 3 SCC 637 requires orders suspending telecommunications to be made public, so that they can be challenged, and requires periodic review. The Telecommunications (Temporary Suspension of Services) Rules 2024 provide the review mechanism.",
+    "confidence": "REPORTED",
+    "notes": "Cited by the Internet Freedom Foundation in its statement of 20 July 2026 alongside the Indian Telegraph Act 1885, the Telecommunications Act 2023 and Articles 19(1)(a) and 19(1)(g). Recorded as REPORTED and not VERIFIED because this archive has not fetched the judgment text itself, only IFF's citation of it. The proposition is well known and that is not a reason to record it as established: the rule in this archive is that a claim carries the state of the evidence actually held for it. Fetching the judgment from an authoritative reporter would move it to VERIFIED and is the cheapest upgrade available here. See FQ-015.",
+    "volatility": "low",
+    "sources": [
+      {
+        "url": "https://internetfreedom.in/iff-condemns-the-internet-shutdown-in-parts-of-central-delhi-no-suspension-order-has-been-made-public/",
+        "source_type": "primary",
+        "publication": "Internet Freedom Foundation",
+        "retrieved_on": "2026-09-23"
+      }
+    ],
+    "added_on": "2026-09-23"
+  },
+  {
+    "id": "PROC-SC-011",
+    "jurisdiction": "supreme_court",
+    "category": "legal_proceeding",
+    "claim": "By an order reported dated 10 September 2026, a three-judge bench headed by the Chief Justice of India, Surya Kant, declined to reconstitute the High Powered Enquiry Committee; directed that a separate online portal be created through which vulnerable witnesses may confidentially submit statements, documents and other evidence; directed the committee to protect the identity and participation of such witnesses; and appointed two amici curiae to act as independent intermediaries.",
+    "confidence": "REPORTED",
+    "notes": "This closes a thread the archive left open twice. PROC-SC-006 recorded that the Court listed the matter for 10 September 2026; PROC-SC-010 recorded that a plea challenging the committee's composition was before the Court. This is what happened to both. The refusal is reported on the ground that “there was no basis for changing the panel merely on the strength of preconceived assumptions”. The confidential portal is the part that bears on this archive's own users. Somebody who was assaulted by police and is also named in an FIR has an obvious reason not to depose through ordinary channels. Whether the portal now exists, and at what address, is NOT established: see OQ-054. This archive will not direct anyone to a portal it has not confirmed. Recorded as REPORTED, not CORROBORATED, on a deliberate reading of this archive's own rule. Three outlets carry it, but they are three accounts of one order, and the order is not held. Where the underlying document is a single court order, multiple outlets are multiple reports of one thing, not independent knowledge. The upgrade is the order copy from the Supreme Court's own site: see FQ-014.",
+    "volatility": "medium",
+    "sources": [
+      {
+        "url": "https://www.nationalheraldindia.com/national/neet-ug-protests-sc-retains-panel-probing-pellet-guns-violence-and-harassment-of-women",
+        "source_type": "secondary",
+        "publication": "National Herald",
+        "retrieved_on": "2026-09-23"
+      },
+      {
+        "url": "https://www.freepressjournal.in/education/sc-rejects-plea-to-reconstitute-police-excesses-panel-directs-probe-into-pellet-guns-violence-against-protesters",
+        "source_type": "secondary",
+        "publication": "Free Press Journal",
+        "retrieved_on": "2026-09-23"
+      },
+      {
+        "url": "https://lawchakra.in/supreme-court/pellet-guns-police-surveillance-supreme-court-told-constitutional-questions-from-student-protests-are-outside-committees-remit/",
+        "source_type": "secondary",
+        "publication": "LawChakra",
+        "retrieved_on": "2026-09-23"
+      }
+    ],
+    "added_on": "2026-09-23"
+  },
+  {
+    "id": "INC-BIH-006",
+    "jurisdiction": "bihar",
+    "incident": "INC-0002",
+    "category": "incident",
+    "claim": "Accounts of the PUCL Bihar public hearing of 22 August 2026 disagree on how many people deposed and on one panel member's name. INC-BIH-005 records 19 deponents and names the panel as Basant Chaudhary, Sudha Varghese, Arshad Ajman and Pranav Chaudhary. A report published on BiharWatch on 23 August 2026 records 16 oral testimonies and one video testimony, and gives the name as Ajmal Ashraf. The same report enumerates thirteen types of case the panel says it documented.",
+    "confidence": "DISPUTED",
+    "notes": "Recorded rather than resolved, and INC-BIH-005 is left exactly as it stands. Averaging the counts, or quietly adopting whichever was read most recently, would destroy the only useful thing here: that two accounts of one afternoon disagree about a countable fact. Little turns on whether it was 16, 17 or 19 people. What turns on it is that this archive holds no copy of the panel's own report, so every figure it carries about that hearing is an outlet's account of it. OQ-049 already asks for the report. This record is the concrete reason that question is worth answering, and the name disagreement is the sharper half: two of the sources cannot both have the panel right. The thirteen types, as the BiharWatch report lists them: brutal lathi charge injuring students and youth; firing on students and youth resulting in some injuries; using a lethal firearm, an AK-47, on students and youth; custodial torture; illegal detention without production before a magistrate; families not informed of detainees' whereabouts; detainees denied access to family; judicial custody without being informed of the charges; judicial custody without access to a lawyer; destruction of evidence, such as seizing mobile phones; raiding the homes of students and activists without search warrants; obstructing advocates on record and filing unsubstantiated charges against lawyers; and releasing photographs and videos of protesters to the media. These are the panel's characterisations of what it heard from witnesses. They are not findings of this archive, and a fact-finding panel is not a court. The hearing is recorded as held at the IMA Hall, Gandhi Maidan, Patna, on 22 August 2026, which both accounts agree on.",
+    "volatility": "medium",
+    "sources": [
+      {
+        "url": "https://www.biharwatch.in/2026/08/thirteen-types-of-state.html",
+        "source_type": "secondary",
+        "publication": "BiharWatch",
+        "retrieved_on": "2026-09-23"
+      }
+    ],
+    "added_on": "2026-09-23"
   }
 ]

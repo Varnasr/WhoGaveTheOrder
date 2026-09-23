@@ -643,5 +643,18 @@
       "RET-006",
       "PUB-DEL-002"
     ]
+  },
+  {
+    "id": "OQ-054",
+    "priority": "high",
+    "category": "document_custody",
+    "jurisdiction": "delhi",
+    "question": "Were any of the July 2026 telecommunications suspension orders for Central Delhi published, and if so where; and does the confidential witness portal directed by the Supreme Court on 10 September 2026 now exist, at what address?",
+    "why_it_matters": "Two halves of the same problem. CUS-SHUT-001 records the Internet Freedom Foundation's observation on 20 July that no suspension order had been published; this archive has not itself searched every gazette and portal, so it records that as reported rather than as an established absence. An absence is the hardest thing to prove and the easiest to assert. The portal matters for a different reason: it is the one route this archive could point a frightened witness to, and pointing anyone at a portal whose existence is unconfirmed would be worse than saying nothing.",
+    "lawful_route": "Search the MHA, DoT, GNCTD and Delhi Police sites; FQ-014 for the orders; FQ-016 for the order copy.",
+    "blocks": [
+      "CUS-SHUT-001",
+      "PROC-SC-011"
+    ]
   }
 ]
