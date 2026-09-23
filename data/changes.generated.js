@@ -5,6 +5,58 @@ window.WGO = window.WGO || {};
 
 WGO.changes = [
   {
+    "commit": "9861e91ecf",
+    "date": "2026-09-23T07:55:55Z",
+    "subject": "Sweep log and archived copies for 2026-09-23 [skip ci]",
+    "added": [],
+    "removed": [],
+    "changed": [
+      {
+        "id": "SRC-0093",
+        "kind": "Source",
+        "title": "Business Standard",
+        "state": null,
+        "url": "https://www.business-standard.com/india-news/mumbai-police-books-400-for-protests-without-permission-registers-13-firs-126072300083_1.html",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20260824230350/https://www.business-standard.com/india-news/mumbai-police-books-400-for-protests-without-permission-registers-13-firs-126072300083_1.html"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0086",
+        "kind": "Source",
+        "title": "Deccan Herald",
+        "state": null,
+        "url": "https://www.deccanherald.com/india/delhi/in-the-interest-of-public-safety-mha-suspends-mobile-internet-services-within-15-km-radius-of-jantar-mantar-till-midnight-4084755",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20260724045157/https://www.deccanherald.com/india/delhi/in-the-interest-of-public-safety-mha-suspends-mobile-internet-services-within-15-km-radius-of-jantar-mantar-till-midnight-4084755"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0091",
+        "kind": "Source",
+        "title": "Internet Freedom Foundation",
+        "state": null,
+        "url": "https://internetfreedom.in/iff-condemns-the-internet-shutdown-in-parts-of-central-delhi-no-suspension-order-has-been-made-public/",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20260923020120/https://internetfreedom.in/iff-condemns-the-internet-shutdown-in-parts-of-central-delhi-no-suspension-order-has-been-made-public/"
+          }
+        ]
+      }
+    ],
+    "summary": "3 records edited"
+  },
+  {
     "commit": "7a0f8f6e6e",
     "date": "2026-09-23T03:15:27Z",
     "subject": "Bring the record up to 23 September, and move corrections off the front page (#34)",

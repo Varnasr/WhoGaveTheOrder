@@ -3,10 +3,19 @@
   <title>WhoGaveTheOrder.in — changes to the record</title>
   <subtitle>Every record that has been added, moved between states, or edited.</subtitle>
   <id>tag:whogavetheorder.in,2026:feed</id>
-  <updated>2026-09-23T03:15:27Z</updated>
+  <updated>2026-09-23T07:55:55Z</updated>
   <link href="https://www.whogavetheorder.in/"/>
   <link rel="self" href="https://www.whogavetheorder.in/feed.xml"/>
   <rights>Reuse with attribution</rights>
+  <entry>
+    <title>3 records edited</title>
+    <id>tag:whogavetheorder.in,2026:change/9861e91ecf</id>
+    <updated>2026-09-23T07:55:55Z</updated>
+    <link href="https://www.whogavetheorder.in/changes.html#9861e91ecf"/>
+    <content type="html">
+      &lt;p&gt;Sweep log and archived copies for 2026-09-23 [skip ci]&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Edited Source SRC-0093: Business Standard&lt;/li&gt;&lt;li&gt;Edited Source SRC-0086: Deccan Herald&lt;/li&gt;&lt;li&gt;Edited Source SRC-0091: Internet Freedom Foundation&lt;/li&gt;&lt;/ul&gt;
+    </content>
+  </entry>
   <entry>
     <title>32 records added · 2 states changed · 3 records edited</title>
     <id>tag:whogavetheorder.in,2026:change/7a0f8f6e6e</id>
