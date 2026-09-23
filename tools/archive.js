@@ -126,17 +126,20 @@ function records(WGO) {
     fields: { incidentId: q.incidentId || null, level: q.level || null, evidenceIds: q.evidenceIds || [] }
   }));
 
+  /* Offices have no page of their own since chain.html was removed. `url:
+     null` is handled: the change log renders the title as plain text rather
+     than as a link to nowhere. */
   add('Office', m.offices, o => ({
     title: o.title,
     state: null,
-    url: `chain.html#${o.id}`,
+    url: null,
     fields: { level: o.level, jurisdiction: o.jurisdiction || null, appliesTo: o.appliesTo || [] }
   }));
 
   add('Claim', m.claims, c => ({
     title: c.text,
     state: c.state,
-    url: `response.html#${c.id}`,
+    url: `investigation.html?id=${incidentSlug(m, c.incidentId)}#what-happened`,
     fields: { incidentId: c.incidentId || null, evidenceIds: c.evidenceIds || [] }
   }));
 
@@ -156,7 +159,7 @@ function records(WGO) {
   add('Government response', m.publishedResponses, r => ({
     title: r.respondingOffice,
     state: null,
-    url: `response.html#${r.id}`,
+    url: `investigation.html?id=${incidentSlug(m, r.incidentId)}#evidence`,
     fields: { channel: r.channel || null, quote: r.quote || null }
   }));
 

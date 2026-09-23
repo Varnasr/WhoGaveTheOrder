@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Investigation — WhoGaveTheOrder.in</title>
-<meta name="description" content="What happened, what evidence exists, who had authority, what orders were issued, what remains unknown, and what the government says.">
+<meta name="description" content="What happened, what evidence exists, whether any order has been found, what remains unknown, and how to ask the office that would hold the record to preserve it.">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 <link rel="stylesheet" href="assets/styles.css">
 </head>
@@ -51,48 +51,25 @@
   </section>
 
   <!-- 03 ================================================================ -->
-  <section id="authority">
+  <section id="authorisation">
     <div class="shell">
       <div class="section-head">
         <p class="section-number">03</p>
-        <h2>Who had authority?</h2>
+        <h2>Has anyone said who authorised this?</h2>
         <p class="lede">
-          The administrative and police chain for this incident. Expand a node to see what that
-          office is empowered to do, and separately whether any evidence places it behind this action.
+          Any order this archive holds, and, where it holds none, the office that would hold the
+          record and how to ask that office to keep it.
         </p>
       </div>
-      <div data-region="authority"></div>
+      <div data-region="authorisation"></div>
     </div>
   </section>
 
   <!-- 04 ================================================================ -->
-  <section id="orders">
-    <div class="shell">
-      <div class="section-head">
-        <p class="section-number">04</p>
-        <h2>What orders were issued?</h2>
-        <p class="lede">Known written or oral instructions, reproduced as found.</p>
-      </div>
-      <div data-region="orders"></div>
-
-      <div class="grid grid--2" style="align-items:start;margin-top:1.75rem">
-        <div data-region="order-ladder"></div>
-        <div class="prose">
-          <p class="small">
-            The steps are the same for every incident, so two can be compared without anybody
-            deciding which one feels closer. A step is reached only when a published record reaches
-            it, and the record is named beside it.
-          </p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- 05 ================================================================ -->
   <section id="questions">
     <div class="shell">
       <div class="section-head">
-        <p class="section-number">05</p>
+        <p class="section-number">04</p>
         <h2>What remains unknown?</h2>
         <p class="lede">
           Gaps in the record, written as questions with a status. A question changes state only when
@@ -103,26 +80,11 @@
     </div>
   </section>
 
-  <!-- 06 ================================================================ -->
-  <section id="government">
-    <div class="shell">
-      <div class="section-head">
-        <p class="section-number">06</p>
-        <h2>What does the government say?</h2>
-        <p class="lede">
-          The official account, in full and unedited, including the parts that cut against us.
-        </p>
-      </div>
-      <div data-region="government"></div>
-      <p style="margin-top:1.25rem"><a class="btn btn--ghost btn--small" href="response.html">Compare our evidence with the official account</a></p>
-    </div>
-  </section>
-
-  <!-- 07 ================================================================ -->
+  <!-- 05 ================================================================ -->
   <section id="help">
     <div class="shell">
       <div class="section-head">
-        <p class="section-number">07</p>
+        <p class="section-number">05</p>
         <h2>Help find the missing evidence</h2>
         <p class="lede">These are the specific documents that would close the open questions above.</p>
       </div>
@@ -160,6 +122,7 @@
 <script src="data/i18n.generated.js"></script>
 <script src="data/records.js"></script>
 <script src="data/records.generated.js"></script>
+<script src="data/letters.generated.js"></script>
 <script src="data/samples.js"></script>
 <script src="assets/model.js"></script>
 <script src="assets/ui.js"></script>

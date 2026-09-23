@@ -9992,77 +9992,77 @@ WGO.changes = [
         "kind": "Office",
         "title": "Union Ministry of Home Affairs",
         "state": null,
-        "url": "chain.html#OFC-0001"
+        "url": null
       },
       {
         "id": "OFC-0002",
         "kind": "Office",
         "title": "State Home Department",
         "state": null,
-        "url": "chain.html#OFC-0002"
+        "url": null
       },
       {
         "id": "OFC-0003",
         "kind": "Office",
         "title": "Director General of Police (State)",
         "state": null,
-        "url": "chain.html#OFC-0003"
+        "url": null
       },
       {
         "id": "OFC-0004",
         "kind": "Office",
         "title": "Commissioner of Police",
         "state": null,
-        "url": "chain.html#OFC-0004"
+        "url": null
       },
       {
         "id": "OFC-0005",
         "kind": "Office",
         "title": "District Magistrate",
         "state": null,
-        "url": "chain.html#OFC-0005"
+        "url": null
       },
       {
         "id": "OFC-0006",
         "kind": "Office",
         "title": "Superintendent of Police / Deputy Commissioner of Police (District)",
         "state": null,
-        "url": "chain.html#OFC-0006"
+        "url": null
       },
       {
         "id": "OFC-0007",
         "kind": "Office",
         "title": "Officer commanding the deployment on site",
         "state": null,
-        "url": "chain.html#OFC-0007"
+        "url": null
       },
       {
         "id": "OFC-0008",
         "kind": "Office",
         "title": "Field personnel and units deployed",
         "state": null,
-        "url": "chain.html#OFC-0008"
+        "url": null
       },
       {
         "id": "CLM-0001",
         "kind": "Claim",
         "title": "Police used force against students at Jantar Mantar.",
         "state": "UNVERIFIED",
-        "url": "response.html#CLM-0001"
+        "url": "investigation.html?id=jantar-mantar#what-happened"
       },
       {
         "id": "CLM-0002",
         "kind": "Claim",
         "title": "Police used force against students in Bihar.",
         "state": "UNVERIFIED",
-        "url": "response.html#CLM-0002"
+        "url": "investigation.html?id=bihar#what-happened"
       },
       {
         "id": "CLM-0003",
         "kind": "Claim",
         "title": "Police used force against students in Maharashtra.",
         "state": "UNVERIFIED",
-        "url": "response.html#CLM-0003"
+        "url": "investigation.html?id=maharashtra#what-happened"
       }
     ],
     "removed": [],

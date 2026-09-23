@@ -48,21 +48,44 @@ map tiles and the Netlify Forms submission endpoints.
 
 | File | What it is |
 |---|---|
-| `index.html` | Homepage — hero, entry-point picker, "where every claim comes from", fact frame, first investigation |
-| `walkthrough.html` | How to read this archive — nine steps, a short and full track, three audience lanes |
+| `index.html` | Homepage — what the record holds, what it does not, and the letter |
 | `investigations.html` | Investigation index and the incident map |
-| `investigation.html?id=<slug>` | The seven-section investigation page — the heart of the product |
+| `investigation.html?id=<slug>` | The five-section incident page: what happened, what evidence exists, has anyone said who authorised it, what remains unknown, what would close the gap |
 | `evidence.html` | Evidence library; `?id=WGO-0001` renders a single evidence record |
-| `chain.html` | Chain of command, filterable by incident |
-| `response.html` | Government response — our evidence / their response / what remains unanswered |
+| `letters.html` | The four Bihar preservation representations, composed and opened in a mail window |
 | `submit.html` | Submission form, the gap list, and the public demand |
 | `others.html` | Index of other people's investigations, credited to them |
 | `about.html` | Transparency: who runs it, funding, methodology, standards, corrections, privacy, takedown |
 | `search.html` | One index across every entity |
-| `rti.html` | RTI register — every application filed, with a live reply-due clock |
+| `rti.html` | How to ask a public office, and the register of what has been asked |
+| `press.html` | Press kit |
 | `changes.html` | What changed — every record added, every state moved, derived from git history. Atom feed at `feed.xml` |
 | `hi.html` | यह अभिलेख क्या है — the Hindi entry page |
-| `admin.html` | Editorial console — integrity checks, review workflow, record composer, CMS spec |
+
+### Four pages removed on 2026-09-23
+
+`chain.html`, `walkthrough.html`, `admin.html` and `response.html` are gone, with 301 redirects in
+`netlify.toml`. The reason is worth keeping, because the same thing will be tempting again.
+
+The primary navigation had seven items. Three of them led to pages holding nothing: `chain.html`
+(0 orders, 0 persons), `rti.html` (0 applications) and `response.html` (0 official replies). Each
+carried several hundred words explaining what would be in it. Meanwhile `letters.html`, the one
+page on the site a reader can act on, was not in the navigation at all — it sat in the fourth
+column of the footer under "Take part".
+
+`chain.html` in particular was not wrong. It mapped the eight offices empowered to authorise force
+in India and reported "authorisation not established" on every node, which is true. Rendered
+identically for every incident, in the second navigation slot, eight times down the page, it read
+as an investigation rather than as the absence of one. The specific half of it — which office
+holds the records for *this* incident, and the letter asking that office to keep them — is now on
+the incident page, in section 03, where somebody has just finished reading what happened.
+
+`walkthrough.html` was a nine-step manual for reading nineteen records. `admin.html` published an
+editorial console, including a section headed "What a full CMS has to add", on the public
+internet. Deleting the walkthrough also removed its renderer from `assets/pages.js`, where the
+entire block including `var WALKTHROUGH_STEPS` had been duplicated verbatim; non-strict mode
+permits the redeclaration, so nothing had ever errored. `assets/pages.js` went from 1,546 lines to
+1,052.
 
 ---
 
@@ -286,20 +309,14 @@ what happened, they do not. The check states the question; a person answers it.
 
 ### Explaining the archive
 
-Comprehension is handled in three layers rather than one tour:
+Two layers, not three. The nine-step walkthrough was the third and it is gone.
 
-1. **`walkthrough.html`** — nine steps, split into a two-minute track (steps 1–4) and the full one.
-   Three audience lanes (just looking / might have something / journalist or lawyer) dim the steps
-   that are not theirs rather than hiding them, so nothing becomes unreachable.
-2. **Inline explainers** — collapsed `<details>` blocks placed where the confusion actually lands:
-   the UNKNOWN shells on an investigation, the authority split on the chain, the six states in the
-   evidence library, the reply clock on the register and the gap list. Defined once in
-   `ui.EXPLAIN` and read from the same taxonomy the chips do.
-3. **The homepage** — an entry-point picker and a four-step "where every claim comes from" strip,
-   so a first-time visitor gets oriented without needing the tour at all.
-
-The walkthrough explains **how to read the record**. It must never drift into explaining what
-happened — that would break the site's one rule.
+1. **Inline explainers** — collapsed `<details>` blocks placed where the confusion actually lands:
+   the UNKNOWN shells on an incident, the six states in the evidence library, the reply clock on
+   the register and the gap list. Defined once in `ui.EXPLAIN` and read from the same taxonomy the
+   chips do. `EXPLAIN.authority` went with `chain.html`, which was its only caller.
+2. **The homepage** — what the record holds, what it does not, and what a reader can do about it,
+   so a first-time visitor is oriented in one screen rather than sent on a tour.
 
 If a status label is not defined in `taxonomy.js`, it does not render anywhere. That is what keeps
 the evidence grammar from drifting page to page as the archive grows.
@@ -314,8 +331,7 @@ the evidence grammar from drifting page to page as the archive grows.
 3. **Only then** set a claim, timeline event or authority link to a state other than `UNKNOWN`,
    listing the evidence IDs that carry it.
 
-The [editorial console](admin.html) has a composer that emits records in exactly the right shape,
-and an integrity check that flags:
+`node tools/check.js` runs the integrity check on every push, and CI fails on an error. It flags:
 
 - evidence citing a source that does not exist
 - claims, questions or offices citing evidence that does not exist

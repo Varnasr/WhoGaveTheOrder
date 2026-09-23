@@ -109,7 +109,7 @@
               establishes, and what it does not. Both are required.</li>
           <li>A claim may only be set to VERIFIED or CORROBORATED once evidence IDs are attached to
               it. The site's own integrity check flags any claim that breaks this, and that check is
-              visible on the <a href="admin.html">editorial console</a>.</li>
+              run by CI on every push, so a dangling reference cannot be merged.</li>
           <li>A question moves out of UNANSWERED only when a document moves it, not when an
               inference becomes obvious.</li>
           <li>An office is never linked to an order automatically. <em>Has authority</em> and

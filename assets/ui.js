@@ -288,24 +288,8 @@
             ui.esc((ui.stateDef(k) || {}).definition || '') + '</p></div>';
         }).join('') +
         '</div>' +
-        '<p style="margin-top:0.75rem"><a href="walkthrough.html#step-3">More on how to read this archive &rarr;</a></p>');
-    },
-
-    authority: function () {
-      var has = ui.stateDef('HAS_AUTHORITY') || WGO.AUTHORITY_CLAIMS.HAS_AUTHORITY;
-      var evidenced = ui.stateDef('EVIDENCED_TO_HAVE_AUTHORISED') || WGO.AUTHORITY_CLAIMS.EVIDENCED_TO_HAVE_AUTHORISED;
-      return ui.explainer(
-        ui.t('explain.authoritySummary', 'Why does every office say "authorisation not established"?'),
-        '<p>' + ui.esc(ui.t('explain.authorityBody',
-          'Because two different claims are being kept apart, and only one of them is established.')) + '</p>' +
-        '<div class="authority-split" style="margin-top:0.75rem">' +
-          '<div><h5>' + ui.esc(has.label) + '</h5><p>' + ui.esc(has.definition) + '</p></div>' +
-          '<div><h5>' + ui.esc(evidenced.label) + '</h5><p>' + ui.esc(evidenced.definition) + '</p></div>' +
-        '</div>' +
-        '<p style="margin-top:0.75rem">' + ui.esc(ui.t('explain.authorityNote',
-          'No individual is named in the chain. A person is added to an office only when a sourced ' +
-          'document places them in it at the relevant time.')) + ' ' +
-        '<a href="' + ui.esc(ui.withLang('walkthrough.html#step-4')) + '">More &rarr;</a></p>');
+        '<p style="margin-top:0.75rem"><a href="' + ui.esc(ui.withLang('about.html#standards')) +
+          '">What each label requires &rarr;</a></p>');
     },
 
     unknown: function () {
@@ -315,8 +299,7 @@
           'space with a plausible reconstruction. A claim without a source does not render as a fact ' +
           'here, including in our own starting data.')) + '</p>' +
         '<p style="margin-top:0.5rem">These fields fill in when a document arrives, not before. ' +
-        'If you hold one, <a href="submit.html">send it</a>. ' +
-        '<a href="walkthrough.html#step-2">More &rarr;</a></p>');
+        'If you hold one, <a href="submit.html">send it</a>.</p>');
     },
 
     clock: function () {
@@ -328,8 +311,7 @@
         '<p style="margin-top:0.5rem">' + ui.esc(ui.t('explain.clockBody2',
           'The clock stops when an office replies, even if the reply came late. Silence past the ' +
           'statutory period counts as a refusal and opens an appeal, which is why an unanswered ' +
-          'request is published rather than hidden.')) + ' ' +
-        '<a href="' + ui.esc(ui.withLang('walkthrough.html#step-7')) + '">More &rarr;</a></p>');
+          'request is published rather than hidden.')) + '</p>');
     }
   };
 
@@ -448,28 +430,29 @@
       footer.innerHTML =
         '<footer class="site-footer"><div class="shell">' +
           '<div class="grid grid--4">' +
-            '<div><h4>' + ui.esc(ui.t('footer.investigation', 'The investigation')) + '</h4><ul>' +
-              '<li>' + fl('investigations.html', 'Investigations') + '</li>' +
-              '<li>' + fl('chain.html', 'Chain of command') + '</li>' +
-              '<li>' + fl('response.html', 'Government response') + '</li>' +
-              '<li>' + fl('others.html', 'Others are investigating') + '</li>' +
-            '</ul></div>' +
-            '<div><h4>' + ui.esc(ui.t('footer.archive', 'The archive')) + '</h4><ul>' +
-              '<li>' + fl('evidence.html', 'Evidence library') + '</li>' +
-              '<li>' + fl('rti.html', 'RTI register') + '</li>' +
-              '<li>' + fl('search.html', 'Search') + '</li>' +
-              '<li>' + fl('changes.html', 'What changed') + '</li>' +
-              '<li>' + fl('data/export/archive.json', 'Download the data') + '</li>' +
-              '<li>' + fl('admin.html', 'Editorial console') + '</li>' +
-            '</ul></div>' +
+            /* Take part comes first, and the two things a reader can do
+               without our involvement come first inside it. The footer used
+               to open on four investigation links, two of which led to empty
+               pages. */
             '<div><h4>' + ui.esc(ui.t('footer.takePart', 'Take part')) + '</h4><ul>' +
-              '<li>' + fl('submit.html', 'Submit evidence') + '</li>' +
               '<li>' + fl('letters.html', 'Send a preservation letter') + '</li>' +
+              '<li>' + fl('rti.html', 'File an RTI yourself') + '</li>' +
+              '<li>' + fl('submit.html', 'Submit evidence') + '</li>' +
               '<li>' + fl('submit.html#missing', 'What we are missing') + '</li>' +
               '<li>' + fl('about.html#corrections', 'Report an error') + '</li>' +
             '</ul></div>' +
+            '<div><h4>' + ui.esc(ui.t('footer.investigation', 'The record')) + '</h4><ul>' +
+              '<li>' + fl('investigations.html', 'Investigations') + '</li>' +
+              '<li>' + fl('evidence.html', 'Evidence library') + '</li>' +
+              '<li>' + fl('others.html', 'Others are investigating') + '</li>' +
+            '</ul></div>' +
+            '<div><h4>' + ui.esc(ui.t('footer.archive', 'The archive')) + '</h4><ul>' +
+              '<li>' + fl('search.html', 'Search') + '</li>' +
+              '<li>' + fl('changes.html', 'What changed') + '</li>' +
+              '<li>' + fl('rti.html', 'RTI register') + '</li>' +
+              '<li>' + fl('data/export/archive.json', 'Download the data') + '</li>' +
+            '</ul></div>' +
             '<div><h4>' + ui.esc(ui.t('footer.howWeWork', 'How we work')) + '</h4><ul>' +
-              '<li>' + fl('walkthrough.html', 'How to read this archive') + '</li>' +
               '<li>' + fl('press.html', 'Press') + '</li>' +
               '<li>' + fl('about.html#method', 'Methodology') + '</li>' +
               '<li>' + fl('about.html#standards', 'Verification standards') + '</li>' +
@@ -508,56 +491,14 @@
      an update reports what this archive did or what a clock did, never what
      happened at an incident. */
 
-  /* --- Distance to the order ---------------------------------------------- *
-     The ladder, drawn. Reached rungs carry the record that reached them and
-     link to it; unreached rungs are drawn plainly rather than greyed into
-     invisibility, because the unreached ones are the work.
-
-     There is no bar and no percentage here on purpose. A bar invites the eye
-     to read "nearly there", and nobody knows how far there is. */
-
-  var LADDER_WORDS = ['None', 'One', 'Two', 'Three', 'Four', 'Five', 'Six'];
-
-  ui.orderLadder = function (incident, options) {
-    var opts = options || {};
-    var ladder = WGO.model.orderLadder(incident);
-    var done = ladder.reachedCount;
-
-    var rungs = ladder.rungs.map(function (rung, i) {
-      var cls = 'ladder__rung' + (rung.reached ? ' ladder__rung--reached' : '');
-      return '<li class="' + cls + '">' +
-        '<span class="ladder__mark" aria-hidden="true">' + (rung.reached ? '&#10003;' : (i + 1)) + '</span>' +
-        '<div class="ladder__body">' +
-          '<h4>' + ui.esc(rung.label) + '</h4>' +
-          '<p class="ladder__def">' + ui.esc(rung.definition) + '</p>' +
-          (rung.note ? '<p class="ladder__note">' + ui.esc(rung.note) + '</p>' : '') +
-          (rung.evidence
-            ? '<p class="ladder__cite"><a href="evidence.html?id=' + ui.esc(rung.evidence.id) + '">' +
-                ui.esc(rung.evidence.id) + ' &rarr;</a></p>'
-            : '') +
-        '</div>' +
-      '</li>';
-    }).join('');
-
-    var count = (LADDER_WORDS[done] || done) + ' of ' +
-      (LADDER_WORDS[ladder.total] || ladder.total).toLowerCase() +
-      (done === 1 ? ' step taken' : ' steps taken');
-
-    var next = ladder.next && ladder.next.id
-      ? '<p class="ladder__next">What would move it on: ' +
-          '<a href="investigation.html?id=' + ui.esc(incident.slug) + '#' + ui.esc(ladder.next.id) + '">' +
-          ui.esc(ladder.next.text) + '</a></p>'
-      : '';
-
-    return '<div class="ladder-block">' +
-      (opts.heading === false ? '' :
-        '<p class="kicker">Distance to the order</p>' +
-        '<h3 class="ladder__count">' + ui.esc(count) + '</h3>') +
-      '<p class="ladder__rule">A step is reached only when a published record reaches it.</p>' +
-      '<ol class="ladder">' + rungs + '</ol>' +
-      next +
-    '</div>';
-  };
+  /* The five-rung "distance to the order" ladder was removed on 2026-09-23
+     along with chain.html. It reported that one of four incidents had reached
+     rung two and the other three rung zero, which is a progress bar on an
+     investigation nobody is conducting. The fact it carried — that a police
+     diary entry is reported to refer to an order nobody here has read — is
+     stated in plain words on the incident page and on the front page, where
+     it does not need a diagram. WGO.model.orderLadder() is kept: the export
+     and the record model still use the rung a record has reached. */
 
   ui.updateList = function (limit) {
     var updates = (WGO.updates || []).slice().sort(function (a, b) {

@@ -58,8 +58,10 @@ own files, on the record and attributably. An RTI never comes back empty.
 **File the same question at every rung of the chain, simultaneously.**
 
 If the Union ministry says it is a state matter and the state says the force was Union-directed,
-that contradiction is a finding. It narrows the chain without a single leaked document, and it goes
-straight into `chain.html`. Ten offices each saying "not us" is a map.
+that contradiction is a finding. It narrows the chain without a single leaked document. Ten offices
+each saying "not us" is a map — though it is a map only once ten offices have actually said it.
+Until then it is a diagram of the offices, which is why `chain.html` was removed on 2026-09-23. A
+contradiction between two replies goes in as evidence, against the incident, like anything else.
 
 ### Log it the day you file
 

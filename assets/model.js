@@ -455,25 +455,17 @@
       });
     });
 
-    model.offices.forEach(function (o) {
-      docs.push({
-        id: o.id, kind: 'Office', title: o.title,
-        subtitle: o.jurisdiction,
-        url: 'chain.html#' + o.id,
-        text: docText(o.id, o.title, o.shortTitle, o.jurisdiction, o.level,
-          (o.statutoryBasis || []).map(function (s) { return s.text; }).join(' '),
-          (o.whatWeDontKnow || []).join(' '))
-      });
-    });
+    /* Offices and persons are not in the search index and have no page of
+       their own. The eight offices are the generic structure of who may
+       authorise force in India — a textbook diagram, identical for every
+       incident, and true whether or not anything happened. Indexing it put
+       "Superintendent of Police" in the results for a reader searching an
+       incident, as though the archive held something about that office. It
+       does not: `persons` is empty and no order in this archive names anyone.
+       Where an office matters it is named on the incident page, in a sentence,
+       against that incident.
 
-    model.persons.forEach(function (p) {
-      docs.push({
-        id: p.id, kind: 'Person', title: p.name, subtitle: p.officeTitle,
-        url: 'chain.html#' + p.id,
-        text: docText(p.id, p.name, p.officeTitle)
-      });
-    });
-
+*/
     model.questions.forEach(function (q) {
       var inc = model.incident(q.incidentId);
       docs.push({
@@ -489,16 +481,20 @@
       docs.push({
         id: c.id, kind: 'Claim', title: c.text,
         subtitle: inc ? inc.place : '', state: c.state,
-        url: 'response.html#' + c.id,
+        url: 'investigation.html?id=' + (inc ? inc.slug : '') + '#what-happened',
         text: docText(c.id, c.text, c.note)
       });
     });
 
+    /* Government responses are indexed onto the incident they answer. There
+       are none today; when one arrives it is filed as evidence like anything
+       else rather than on a page of its own. */
     model.responses.forEach(function (r) {
+      var inc = model.incident(r.incidentId);
       docs.push({
         id: r.id, kind: 'Government response', title: r.respondingOffice,
         subtitle: r.channel, demo: r.demo,
-        url: 'response.html#' + r.id,
+        url: 'investigation.html?id=' + (inc ? inc.slug : '') + '#evidence',
         text: docText(r.id, r.respondingOffice, r.channel, r.quote, r.stillUnanswered)
       });
     });

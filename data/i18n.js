@@ -34,11 +34,10 @@ WGO.I18N = {
     nav: {
       'investigations.html': 'घटनाएँ',
       'evidence.html':       'दस्तावेज़',
-      'chain.html':          'अधिकार किसके पास था',
-      'rti.html':            'हमने क्या पूछा',
-      'response.html':       'सरकारी जवाब',
+      'letters.html':        'रिकॉर्ड माँगें',
       'submit.html':         'दस्तावेज़ भेजें',
       'about.html':          'परिचय',
+      'rti.html':            'हमने क्या पूछा',
       'changes.html':        'क्या बदला'
     },
 
@@ -63,7 +62,7 @@ WGO.I18N = {
     },
 
     footer: {
-      investigation: 'जाँच',
+      investigation: 'अभिलेख',
       archive: 'अभिलेख',
       takePart: 'भाग लें',
       howWeWork: 'हम कैसे काम करते हैं'
@@ -73,19 +72,17 @@ WGO.I18N = {
        missing translation falls back to the English rather than vanishing. */
     footerLinks: {
       'Investigations':            'जाँचें',
-      'Chain of command':          'आदेश की श्रृंखला',
-      'Government response':       'सरकारी जवाब',
       'Others are investigating':  'अन्य लोग क्या जाँच रहे हैं',
       'Evidence library':          'दस्तावेज़ संग्रह',
       'RTI register':              'सूचना अधिकार रजिस्टर',
       'Search':                    'खोज',
       'What changed':              'क्या बदला',
       'Download the data':         'आँकड़े डाउनलोड करें',
-      'Editorial console':         'संपादकीय कंसोल',
       'Submit evidence':           'दस्तावेज़ भेजें',
+      'Send a preservation letter': 'रिकॉर्ड सुरक्षित रखने का पत्र भेजें',
+      'File an RTI yourself':      'स्वयं सूचना अधिकार आवेदन करें',
       'What we are missing':       'हमारे पास क्या नहीं है',
       'Report an error':           'त्रुटि बताएँ',
-      'How to read this archive':  'इस अभिलेख को कैसे पढ़ें',
       'Methodology':               'कार्यप्रणाली',
       'Verification standards':    'सत्यापन के मानक',
       'Privacy and takedown':      'निजता और हटाने की प्रक्रिया',
