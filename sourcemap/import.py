@@ -44,7 +44,8 @@ FRAMEWORK      = {'statute', 'police_manual', 'guideline', 'precedent'}
 
 
 # jurisdiction -> the site's incident shells
-JURIS_TO_INCIDENT = {'delhi': 'INC-0001', 'bihar': 'INC-0002', 'maharashtra': 'INC-0003'}
+JURIS_TO_INCIDENT = {'delhi': 'INC-0001', 'bihar': 'INC-0002', 'maharashtra': 'INC-0003',
+                     'kerala': 'INC-0005'}
 
 
 def incident_for(item):

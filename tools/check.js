@@ -30,7 +30,7 @@ const strict = process.argv.includes('--strict');
 function main() {
   const WGO = load();
   const model = WGO.model;
-  const problems = model.integrity().concat(structural(WGO));
+  const problems = model.integrity().concat(structural(WGO), correctionLog(WGO));
 
   const errors = problems.filter(p => p.severity === 'error');
   const warnings = problems.filter(p => p.severity !== 'error');
@@ -187,6 +187,74 @@ function pageLinks(WGO) {
    rendered, both entries worked, and the only symptom was the same link
    listed twice four rows apart. Nothing that reads the site could have seen
    it, because both halves were individually correct. */
+/* Corrections stay out of the Latest stream, and the log they move to exists.
+   ------------------------------------------------------------------------
+   An update carrying `correction: true` reports an error of this archive's.
+   Those are published, and they are published in the corrections log rather
+   than at the top of the homepage, where for most of September the first of
+   the three Latest entries was the archive explaining a framing mistake of
+   its own.
+
+   Both halves need pinning, and the second is the one that bites. Flagging an
+   entry hides it from the homepage immediately; the log that is supposed to
+   carry it is a data-region on two pages and a handler in pages.js, and if any
+   of those is missing the entry is not moved but deleted from the reader's
+   view, with nothing to show for it. about.html had no handler in pages.js at
+   all until the log was added, which is how its corrections policy came to
+   promise a log for weeks with none on the site. */
+function correctionLog(WGO) {
+  const found = [];
+  const updates = WGO.updates || [];
+  const corrections = updates.filter(u => u.correction);
+
+  const ui = fs.readFileSync(path.join(ROOT, 'assets/ui.js'), 'utf8');
+  const pages = fs.readFileSync(path.join(ROOT, 'assets/pages.js'), 'utf8');
+
+  if (!/ui\.correctionList\s*=/.test(ui)) {
+    found.push({
+      severity: 'error', record: 'assets/ui.js', field: 'correctionList', ref: null,
+      message: 'Updates can be flagged as corrections but nothing renders them'
+    });
+  }
+
+  for (const page of ['about.html', 'changes.html']) {
+    const html = fs.readFileSync(path.join(ROOT, page), 'utf8');
+    if (!/data-region="corrections"/.test(html)) {
+      found.push({
+        severity: 'error', record: page, field: 'corrections', ref: null,
+        message: 'Page is meant to carry the corrections log and has no region for it'
+      });
+    }
+    const handler = page.replace('.html', '');
+    const re = new RegExp('pages\\.' + handler + '\\s*=[\\s\\S]*?data-region="corrections"');
+    if (!re.test(pages)) {
+      found.push({
+        severity: 'error', record: 'assets/pages.js', field: 'pages.' + handler, ref: page,
+        message: 'Page has a corrections region that no handler mounts anything into'
+      });
+    }
+  }
+
+  /* A correction with no record ID cannot be checked against the thing it
+     corrected, which is the whole use of publishing it. */
+  for (const u of corrections) {
+    if (!u.recordId) {
+      found.push({
+        severity: 'error', record: 'data/records.js', field: 'updates', ref: u.title,
+        message: 'Correction does not name the record it corrected'
+      });
+    }
+  }
+
+  if (!corrections.length && updates.length) {
+    found.push({
+      severity: 'warning', record: 'data/records.js', field: 'updates', ref: null,
+      message: 'No update is flagged as a correction — confirm nothing has been found wrong rather than that the flag was forgotten'
+    });
+  }
+  return found;
+}
+
 function duplicateChromeLinks() {
   const found = [];
   const ui = fs.readFileSync(path.join(ROOT, 'assets/ui.js'), 'utf8');

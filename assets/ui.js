@@ -500,15 +500,33 @@
      it does not need a diagram. WGO.model.orderLadder() is kept: the export
      and the record model still use the rung a record has reached. */
 
-  ui.updateList = function (limit) {
-    var updates = (WGO.updates || []).slice().sort(function (a, b) {
+  /* An update carrying `correction: true` is this archive reporting an error of
+     its own. Those are kept and published, and they are kept OUT of the Latest
+     stream, which is a different decision from hiding them.
+
+     The Latest block on the homepage shows three entries. For most of
+     September the first of the three was the archive explaining that it had
+     framed the State of Bihar's round count as fact, so the first thing a
+     reader met was the record apologising to itself. A correction has to be
+     findable by someone checking a figure they read here; it does not have to
+     be the loudest thing on the front page, and a corrections column is where
+     every publication that keeps one puts it. about.html#corrections now
+     renders them, under the policy paragraph that has promised since launch
+     that changes are logged with a date and a reason. It promised a log and
+     there was none.
+
+     `ui.updateList()` therefore excludes them and `ui.correctionList()` is the
+     log. changes.html renders both, so the full chronology is still in one
+     place for anyone reading the archive rather than the news. */
+  function sortedUpdates(wantCorrections) {
+    return (WGO.updates || []).filter(function (u) {
+      return !!u.correction === !!wantCorrections;
+    }).sort(function (a, b) {
       return String(b.date).localeCompare(String(a.date));
     });
-    if (limit) { updates = updates.slice(0, limit); }
-    if (!updates.length) {
-      return ui.empty('No updates yet',
-        'This is where work on the archive is recorded: an application filed, a deadline passed, a document obtained.');
-    }
+  }
+
+  function renderUpdates(updates) {
     return '<ol class="updates">' + updates.map(function (u) {
       var record = u.recordId ? WGO.model.evidenceItem(u.recordId) : null;
       return '<li class="update">' +
@@ -528,6 +546,25 @@
           : '') +
       '</li>';
     }).join('') + '</ol>';
+  }
+
+  ui.updateList = function (limit) {
+    var updates = sortedUpdates(false);
+    if (limit) { updates = updates.slice(0, limit); }
+    if (!updates.length) {
+      return ui.empty('No updates yet',
+        'This is where work on the archive is recorded: an application filed, a deadline passed, a document obtained.');
+    }
+    return renderUpdates(updates);
+  };
+
+  ui.correctionList = function () {
+    var updates = sortedUpdates(true);
+    if (!updates.length) {
+      return ui.empty('No corrections logged',
+        'Nothing in this archive has yet been found wrong and changed. When something is, it is listed here with its date, its reason and the record it concerns.');
+    }
+    return renderUpdates(updates);
   };
 
   /* --- citation ----------------------------------------------------------- *

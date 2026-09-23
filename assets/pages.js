@@ -998,6 +998,13 @@
         'tied to the office that would hold it.</p>');
   };
 
+  /* about.html had no handler at all until 23 September 2026, which is why the
+     corrections policy could promise a log for as long as it did without one
+     appearing: nothing on that page was rendered from data. */
+  pages.about = function () {
+    ui.mount('[data-region="corrections"]', ui.correctionList());
+  };
+
   pages.changes = function () {
     var history = WGO.changes || [];
 
@@ -1005,6 +1012,7 @@
        what moved in the data. The first is written by a person and the second
        is derived from the repository, and the page says which is which. */
     ui.mount('[data-region="updates-full"]', ui.updateList());
+    ui.mount('[data-region="corrections"]', ui.correctionList());
 
     var added = 0, states = 0;
     history.forEach(function (entry) {

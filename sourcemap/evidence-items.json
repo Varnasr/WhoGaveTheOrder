@@ -125,11 +125,31 @@
     "id": "INC-MAH-001",
     "jurisdiction": "maharashtra",
     "category": "incident",
-    "claim": "Identity, date and location of the Maharashtra incident.",
-    "confidence": "UNKNOWN",
-    "sources": [],
-    "notes": "Held UNKNOWN at archive operator's instruction. A Supreme Court petition records that disturbances spread to Maharashtra without specifying city, date or police action.",
-    "volatility": "low"
+    "claim": "The Maharashtra matter is Mumbai, 18 to 22 July 2026: 13 First Information Reports against more than 400 people for protesting without police permission at Shivaji Park, Chaityabhoomi, Chembur and Shiv Sena Bhavan. No use of force in Maharashtra is established.",
+    "confidence": "REPORTED",
+    "sources": [
+      {
+        "url": "https://www.theweek.in/news/india/2026/07/23/mumbai-police-fir-neet-protest.html",
+        "source_type": "secondary",
+        "publication": "The Week",
+        "retrieved_on": "2026-09-23"
+      },
+      {
+        "url": "https://www.business-standard.com/india-news/mumbai-police-books-400-for-protests-without-permission-registers-13-firs-126072300083_1.html",
+        "source_type": "secondary",
+        "publication": "Business Standard",
+        "retrieved_on": "2026-09-23"
+      },
+      {
+        "url": "https://www.mumbailive.com/amp/en/civic/mumbai-police-book-around-400-over-neet-protest-majority-aged-25-or-below-93687",
+        "source_type": "secondary",
+        "publication": "Mumbai Live",
+        "retrieved_on": "2026-09-23"
+      }
+    ],
+    "notes": "Answered 23 September 2026 by INC-MAH-002, having been held UNKNOWN at the archive operator's instruction since 15 August. The instruction was right: the pointer the archive had was a Supreme Court petition saying disturbances spread to Maharashtra, which would have supported a guess and did not support a record. What was actually there was not a police action at all. See INC-MAH-002.",
+    "volatility": "low",
+    "added_on": "2026-08-16"
   },
   {
     "id": "PROC-DEL-001",
@@ -2334,10 +2354,23 @@
     "id": "PUB-MAH-001",
     "jurisdiction": "maharashtra",
     "category": "existing_documentation",
-    "claim": "Any public documentation of a Maharashtra incident.",
-    "confidence": "UNKNOWN",
-    "sources": [],
-    "notes": "The only pointer is that a Supreme Court petition records disturbances spreading to Maharashtra among other states, without city, date or described police action.",
+    "claim": "Published item documenting the Maharashtra matter: Mumbai Police's account of 13 FIRs against more than 400 people between 18 and 22 July 2026. Reported 23 July 2026.",
+    "confidence": "REPORTED",
+    "sources": [
+      {
+        "url": "https://www.theweek.in/news/india/2026/07/23/mumbai-police-fir-neet-protest.html",
+        "source_type": "secondary",
+        "publication": "The Week",
+        "retrieved_on": "2026-09-23"
+      },
+      {
+        "url": "https://www.business-standard.com/india-news/mumbai-police-books-400-for-protests-without-permission-registers-13-firs-126072300083_1.html",
+        "source_type": "secondary",
+        "publication": "Business Standard",
+        "retrieved_on": "2026-09-23"
+      }
+    ],
+    "notes": "Answered 23 September 2026. Was: the only pointer is a Supreme Court petition recording disturbances spreading to Maharashtra, without city, date or described police action. See INC-MAH-002.",
     "volatility": "low"
   },
   {
@@ -2555,7 +2588,7 @@
         "archived_on": "2026-09-05"
       }
     ],
-    "notes": "As stated by delhi police, on affidavit: the software 'only captured the images of criminals or history sheeters'; it 'does not automatically capture profile of every individual present at the protest site'; 'no action is taken solely on the basis of facial recognition software' and a match is followed by field verification; it captures only those with a past record for serious offences, not petty ones. The Solicitor General said the technology 'captures the faces of only those persons who are recorded in the crime database'. Figures reported from the same hearing, and they are the police's own: 2,873 persons identified, 2,402 through a 'Crime Kundli' database and 471 through dossier records, of whom 92 are said to be involved in more than ten cases and 47 to be history-sheeters. This archive records those numbers as the police's assertion, not as established fact. As stated by the petitioners, through Senior Advocates N. Hariharan and Menaka Guruswamy: 'that is not how the technology works', and a private company was engaged to process the data collected through the software. Neither is adopted here. The Chief Justice is reported to have said that constitutional issues would be determined by the Court alone. Until the affidavit and any finding on it are held, this stays DISPUTED.",
+    "notes": "As stated by delhi police, on affidavit: the software 'only captured the images of criminals or history sheeters'; it 'does not automatically capture profile of every individual present at the protest site'; 'no action is taken solely on the basis of facial recognition software' and a match is followed by field verification; it captures only those with a past record for serious offences, not petty ones. The Solicitor General said the technology 'captures the faces of only those persons who are recorded in the crime database'. Figures reported from the same hearing, and they are the police's own: 2,873 persons identified, 2,402 through a 'Crime Kundli' database and 471 through dossier records, of whom 92 are said to be involved in more than ten cases and 47 to be history-sheeters. This archive records those numbers as the police's assertion, not as established fact. As stated by the petitioners, through Senior Advocates N. Hariharan and Menaka Guruswamy: 'that is not how the technology works', and a private company was engaged to process the data collected through the software. Neither is adopted here. The Chief Justice is reported to have said that constitutional issues would be determined by the Court alone. Until the affidavit and any finding on it are held, this stays DISPUTED. Updated 23 September 2026. This is no longer evenly balanced and the record should stop presenting it as though it were. Delhi Police's own affidavit of 17 August 2026 is reported to state that the system identified 2,873 persons with criminal antecedents at the protest site between 20 and 26 July, 2,402 of them matched against Crime Kundli. A system cannot return 2,873 matches against a database without comparing the faces it is matching, and the faces it is matching are the ones in front of the cameras. The police assertion and the petitioners' allegation turn out not to be alternatives: the deployment was confined to criminal records in what it searched for and ran on the crowd in what it looked at, and the ambiguity lived in the word 'confined'. Held DISPUTED rather than moved, because the affidavit is not in this archive's hands and because what follows about lawfulness is a question for the High Powered Enquiry Committee, which has surveillance in its terms of reference. See INC-DEL-008 and INC-DEL-009, and FQ-017.",
     "volatility": "high"
   },
   {
@@ -3306,9 +3339,9 @@
     "id": "PROC-SC-011",
     "jurisdiction": "supreme_court",
     "category": "legal_proceeding",
-    "claim": "By an order reported dated 10 September 2026, a three-judge bench headed by the Chief Justice of India, Surya Kant, declined to reconstitute the High Powered Enquiry Committee; directed that a separate online portal be created through which vulnerable witnesses may confidentially submit statements, documents and other evidence; directed the committee to protect the identity and participation of such witnesses; and appointed two amici curiae to act as independent intermediaries.",
+    "claim": "By an order reported dated 10 September 2026, a three-judge bench of the Chief Justice of India Surya Kant, Justice Joymalya Bagchi and Justice V. Mohana declined to reconstitute the High Powered Enquiry Committee; directed that a separate online portal be created through which vulnerable witnesses may confidentially submit statements, documents and other evidence; directed the committee to protect the identity and participation of such witnesses; appointed Senior Advocate Monika Gusain and Advocate-on-Record C. Solomon as amici curiae to act as independent intermediaries; and directed the committee to appoint a member secretary for secretarial and logistical support.",
     "confidence": "REPORTED",
-    "notes": "This closes a thread the archive left open twice. PROC-SC-006 recorded that the Court listed the matter for 10 September 2026; PROC-SC-010 recorded that a plea challenging the committee's composition was before the Court. This is what happened to both. The refusal is reported on the ground that “there was no basis for changing the panel merely on the strength of preconceived assumptions”. The confidential portal is the part that bears on this archive's own users. Somebody who was assaulted by police and is also named in an FIR has an obvious reason not to depose through ordinary channels. Whether the portal now exists, and at what address, is NOT established: see OQ-054. This archive will not direct anyone to a portal it has not confirmed. Recorded as REPORTED, not CORROBORATED, on a deliberate reading of this archive's own rule. Three outlets carry it, but they are three accounts of one order, and the order is not held. Where the underlying document is a single court order, multiple outlets are multiple reports of one thing, not independent knowledge. The upgrade is the order copy from the Supreme Court's own site: see FQ-014.",
+    "notes": "This closes a thread the archive left open twice. PROC-SC-006 recorded that the Court listed the matter for 10 September 2026; PROC-SC-010 recorded that a plea challenging the committee's composition was before the Court. This is what happened to both. The refusal is reported on the ground that “there was no basis for changing the panel merely on the strength of preconceived assumptions”. The confidential portal is the part that bears on this archive's own users. Somebody who was assaulted by police and is also named in an FIR has an obvious reason not to depose through ordinary channels. Whether the portal now exists, and at what address, is NOT established: see OQ-054. This archive will not direct anyone to a portal it has not confirmed. Recorded as REPORTED, not CORROBORATED, on a deliberate reading of this archive's own rule. Three outlets carry it, but they are three accounts of one order, and the order is not held. Where the underlying document is a single court order, multiple outlets are multiple reports of one thing, not independent knowledge. The upgrade is the order copy from the Supreme Court's own site: see FQ-014. Amended 23 September 2026 to name the full bench and both amici, and to record the member-secretary direction, all of which the first version of this record left out. The order is dated 10 September and was reported on 16 September; the archive had the order date right and that was worth re-checking, because it was inferred from the listing date at PROC-SC-006 before any source confirmed it.",
     "volatility": "medium",
     "sources": [
       {
@@ -3346,6 +3379,306 @@
         "url": "https://www.biharwatch.in/2026/08/thirteen-types-of-state.html",
         "source_type": "secondary",
         "publication": "BiharWatch",
+        "retrieved_on": "2026-09-23"
+      }
+    ],
+    "added_on": "2026-09-23"
+  },
+  {
+    "id": "PROC-SC-012",
+    "jurisdiction": "supreme_court",
+    "category": "legal_proceeding",
+    "claim": "By an interim order reported dated 28 July 2026, the Supreme Court directed that no coercive action be taken against the student protesters save those with criminal antecedents, directed the release of detained minors, directed police to preserve CCTV footage, drone recordings and call logs, restrained publication of protesters' personal data, and recorded a prima facie case for an independent inquiry.",
+    "confidence": "REPORTED",
+    "notes": "The preservation direction is the part that bears directly on this archive. It is a court order, given eight days after the Delhi incident, to keep the exact categories of record the preservation letters here ask offices to keep: CCTV, drone footage and call logs. An office that destroys any of them on an ordinary retention cycle is now destroying material a court directed it to preserve, which is a different thing to allege and a different thing to ask about. Note also what it does not cover: a deployment order, a wireless log, an armoury issue register. Those still rest on the letters. Recorded as REPORTED rather than CORROBORATED: two outlets carry it, and they are two accounts of one order this archive does not hold.",
+    "volatility": "medium",
+    "sources": [
+      {
+        "url": "https://m.thewire.in/article/law/after-sc-interim-order-on-protest-firs-cjp-warns-of-return-to-streets-as-govt-deadline-nears",
+        "source_type": "secondary",
+        "publication": "The Wire",
+        "retrieved_on": "2026-09-23"
+      },
+      {
+        "url": "https://www.jurist.org/news/2026/08/india-dispatch-supreme-court-clarifies-student-protest-order-exposing-ad-hoc-policing-of-dissent/",
+        "source_type": "secondary",
+        "publication": "JURIST",
+        "retrieved_on": "2026-09-23"
+      }
+    ],
+    "added_on": "2026-09-23"
+  },
+  {
+    "id": "PROC-SC-013",
+    "jurisdiction": "supreme_court",
+    "category": "legal_proceeding",
+    "claim": "By an order reported dated 3 August 2026, the Supreme Court clarified that 'criminal antecedents' in its order of 28 July 2026 refers only to persons accused of grave and heinous offences, and held that the NCT of Delhi and the State governments are at liberty to close or withdraw the criminal cases in accordance with law.",
+    "confidence": "REPORTED",
+    "notes": "A clarification issued because the 28 July carve-out was being read widely. That is worth recording as a fact about how an order of this kind travels: an exception written for people with criminal antecedents was applied to people with any antecedents until the Court said otherwise. The second half matters for the state records: it puts the decision to withdraw back on each state, which is why the withdrawals that follow are executive notifications rather than judicial ones, and an executive notification has an author and a file.",
+    "volatility": "medium",
+    "sources": [
+      {
+        "url": "https://theprint.in/india/firs-against-student-protesters-supreme-court-says-states-free-to-close-or-withdraw-criminal-cases/3004043/",
+        "source_type": "secondary",
+        "publication": "ThePrint",
+        "retrieved_on": "2026-09-23"
+      },
+      {
+        "url": "https://www.jurist.org/news/2026/08/india-dispatch-supreme-court-clarifies-student-protest-order-exposing-ad-hoc-policing-of-dissent/",
+        "source_type": "secondary",
+        "publication": "JURIST",
+        "retrieved_on": "2026-09-23"
+      }
+    ],
+    "added_on": "2026-09-23"
+  },
+  {
+    "id": "PROC-SC-014",
+    "jurisdiction": "supreme_court",
+    "category": "legal_proceeding",
+    "claim": "By an order reported dated 1 September 2026 in Yashovardhan Azad and Others v. Union of India and Others and connected matters, a bench of the Chief Justice of India Surya Kant, Justice Joymalya Bagchi and Justice V. Mohana, exercising the power under Article 142 of the Constitution, directed that First Information Reports registered anywhere in India over the student protests held between 20 and 25 July 2026 shall not be pursued or investigated and shall be treated as closed, and that no State or Union Territory shall register a fresh FIR in relation to those incidents, save that Delhi Police may pursue one fresh FIR concerning 2,873 persons said to have serious criminal antecedents.",
+    "confidence": "REPORTED",
+    "notes": "The single largest legal event on this record and the archive held nothing on it. Applications had been moved by the Centre for Delhi Police and by Bihar, West Bengal, Maharashtra and Assam. The order is reported to be expressly confined to the peculiar facts and not to be treated as a precedent, which is the usual form of an Article 142 direction and should be quoted that way if it is quoted. Two consequences for this archive. First, the FIR records held here for Mumbai, Kochi, Kolkata, Assam and Bihar describe cases that are now closed, and the records say so rather than being deleted: a case that was registered and then closed is a fact about a police force, and removing it would erase the thing worth knowing. Second, the carve-out survives everything else in the order, so the one criminal file still live out of the whole country is the one built on a facial recognition list. See INC-DEL-008 and INC-DEL-009.",
+    "volatility": "medium",
+    "sources": [
+      {
+        "url": "https://www.livelaw.in/top-stories/supreme-court-quashes-firs-across-country-over-student-protests-bars-future-firs-548094",
+        "source_type": "secondary",
+        "publication": "LiveLaw",
+        "retrieved_on": "2026-09-23"
+      },
+      {
+        "url": "https://thefederal.com/the-federal-special/one-protest-two-probes-why-the-2873-person-fir-raises-questions-255688",
+        "source_type": "secondary",
+        "publication": "The Federal",
+        "retrieved_on": "2026-09-23"
+      }
+    ],
+    "added_on": "2026-09-23"
+  },
+  {
+    "id": "INC-DEL-008",
+    "jurisdiction": "delhi",
+    "category": "incident",
+    "claim": "Delhi Police stated in an affidavit dated 17 August 2026 before the Supreme Court that its Facial Recognition System identified 2,873 persons with criminal antecedents at the Jantar Mantar protest site between 20 and 26 July 2026, of which 2,402 matches came through Crime Kundli, the force's own biometric database, and 471 through other police records; the deployment is reported to have been run from a Mobile Command and Control Vehicle and a vendor-built van named Ikshana carrying eight fixed cameras and running live CCTV feeds through matching software.",
+    "incident": "INC-0001",
+    "confidence": "REPORTED",
+    "notes": "This answers a question this archive had recorded as disputed and could not settle, and it answers it out of the force's own affidavit rather than out of a petitioner's case. PROC-SC-003 asks whether the facial recognition was confined to persons with existing criminal records, as Delhi Police asserted, or ran on the crowd. To return 2,873 matches against a criminal database, a system must first capture and compare the faces it is matching, which is every face it sees. Being confined to persons with criminal records describes what the system was asked to look for, not whom it looked at, and the two have been used interchangeably. The archive does not hold the affidavit: FQ-017 is the copy from the Supreme Court's record. Recorded as REPORTED.",
+    "volatility": "medium",
+    "sources": [
+      {
+        "url": "https://internetfreedom.in/delhi-polices-facial-recognition-flagged-25-jailed-people-at-jantar-mantar-this-dragnet-must-end/",
+        "source_type": "secondary",
+        "publication": "Internet Freedom Foundation",
+        "retrieved_on": "2026-09-23",
+        "originates_from": "Delhi Police affidavit dated 17 August 2026 before the Supreme Court, and an Indian Express investigation published 4 September 2026"
+      },
+      {
+        "url": "https://thefederal.com/the-federal-special/one-protest-two-probes-why-the-2873-person-fir-raises-questions-255688",
+        "source_type": "secondary",
+        "publication": "The Federal",
+        "retrieved_on": "2026-09-23",
+        "originates_from": "Delhi Police affidavit dated 17 August 2026 before the Supreme Court"
+      },
+      {
+        "url": "https://www.indiatvnews.com/news/india/delhi-police-moves-supreme-court-to-quash-13-firs-linked-to-cjp-protests-seeks-probe-into-2873-individuals-latest-updates-2026-08-31-1052890",
+        "source_type": "secondary",
+        "publication": "India TV",
+        "retrieved_on": "2026-09-23",
+        "originates_from": "Delhi Police's application to the Supreme Court dated 31 August 2026, with an affidavit of Joint Commissioner Ajay Krishna Sharma"
+      }
+    ],
+    "added_on": "2026-09-23"
+  },
+  {
+    "id": "INC-DEL-009",
+    "jurisdiction": "delhi",
+    "category": "incident",
+    "claim": "An Indian Express investigation published on 4 September 2026 took the 205 persons on the Delhi Police facial recognition list facing the gravest charges — reported as 101 accused of murder, 61 of rape, six under the POCSO Act and 37 of the 62 accused of attempt to murder — and checked them against police, prison and court records; at least 25 of that sample, one in eight, were in judicial custody in Tihar, Mandoli or Rohini jail on the day the software placed them at Jantar Mantar. Three were identified on 24 July, twenty-one on 25 July and one on 26 July, each with a timestamp. Delhi Police is reported to have said that verification of all 2,873 identifications was pending and that no action would rest on a facial recognition result alone.",
+    "incident": "INC-0001",
+    "confidence": "REPORTED",
+    "notes": "A measured error rate in a live police identification system, obtained by the cheapest possible method: comparing one government list against another government list. It is one in eight of a sample chosen for the gravity of the charge rather than at random, so it is not an estimate of the error rate across all 2,873 and should not be quoted as one. What it does establish is that the list was published to a court without that comparison having been made, because the comparison takes custody records that the police and the prisons both already hold. The force's own answer — verification is pending, no action on a match alone — is the admission that matters: the list went to the Supreme Court, and became the basis of the one FIR the Court left standing, before anyone checked it. Credited to The Indian Express; this archive did not do this work and holds neither the list nor the affidavit. The outlets cited below are accounts of one investigation, which is why this is REPORTED.",
+    "volatility": "medium",
+    "sources": [
+      {
+        "url": "https://internetfreedom.in/delhi-polices-facial-recognition-flagged-25-jailed-people-at-jantar-mantar-this-dragnet-must-end/",
+        "source_type": "secondary",
+        "publication": "Internet Freedom Foundation",
+        "retrieved_on": "2026-09-23",
+        "originates_from": "An Indian Express investigation published 4 September 2026"
+      },
+      {
+        "url": "https://scroll.in/latest/1095503/25-accused-whom-police-say-were-in-jail-spotted-by-facial-recognition-at-jantar-mantar-report",
+        "source_type": "secondary",
+        "publication": "Scroll.in",
+        "retrieved_on": "2026-09-23",
+        "originates_from": "An Indian Express investigation published 4 September 2026"
+      },
+      {
+        "url": "https://www.medianama.com/2026/09/223-delhi-polices-facial-recognition-jantar-mantar/",
+        "source_type": "secondary",
+        "publication": "MediaNama",
+        "retrieved_on": "2026-09-23",
+        "originates_from": "An Indian Express investigation published 4 September 2026"
+      }
+    ],
+    "added_on": "2026-09-23"
+  },
+  {
+    "id": "INC-DEL-010",
+    "jurisdiction": "delhi",
+    "category": "incident",
+    "claim": "A nineteen-year-old undergraduate student from Najafgarh, named in the reporting, is reported to have lost vision in his right eye after fragments struck the eye during the police action of 20 July 2026, perforating the cornea; a second operation on 31 July 2026 inserted a lens and vision had not returned; not all fragments were removed.",
+    "incident": "INC-0001",
+    "confidence": "REPORTED",
+    "notes": "Recorded because the pellet question on this record has until now been a dispute between a police denial and a medical category. This is the injury itself, with a date, a procedure and an outcome. It does not establish what was fired: a perforating fragment injury is consistent with more than one munition, and INC-DEL-005 stays disputed. It is the reason the question is worth the work. He is named in every source cited and has spoken publicly under his own name; this archive still does not reproduce the name, on the same rule applied to the complainant at PROC-DEL-003, because a record that outlives the news cycle should not be the thing that keeps a medical fact about a private person searchable. The name is one click away in the sources, which is where the decision belongs to him rather than to us.",
+    "volatility": "medium",
+    "sources": [
+      {
+        "url": "https://www.tribuneindia.com/news/top-headlines/hit-by-pellet-gun-at-parliament-march-student-risks-partial-vision-loss/",
+        "source_type": "secondary",
+        "publication": "The Tribune",
+        "retrieved_on": "2026-09-23"
+      },
+      {
+        "url": "https://www.tribuneindia.com/news/delhi/month-on-pellet-hit-parl-march-victims-still-battling-injures/",
+        "source_type": "secondary",
+        "publication": "The Tribune",
+        "retrieved_on": "2026-09-23"
+      },
+      {
+        "url": "https://www.deccanchronicle.com/nation/teen-protester-receives-pellet-injuries-could-lose-sight-in-one-eye-1973292",
+        "source_type": "secondary",
+        "publication": "Deccan Chronicle",
+        "retrieved_on": "2026-09-23"
+      }
+    ],
+    "added_on": "2026-09-23"
+  },
+  {
+    "id": "INC-MAH-002",
+    "jurisdiction": "maharashtra",
+    "category": "incident",
+    "claim": "Mumbai Police registered 13 First Information Reports between 18 and 22 July 2026 against more than 400 people for taking part in protests over the NEET examination without police permission, at Shivaji Park, Chaityabhoomi, Chembur and Shiv Sena Bhavan, on charges reported as unlawful assembly, disobedience of an order duly promulgated by a public servant and wrongful restraint; those named were served notices and released, the offences being bailable and carrying a maximum of two years.",
+    "incident": "INC-0003",
+    "confidence": "REPORTED",
+    "notes": "This closes INC-MAH-001 and PUB-MAH-001, which have read UNKNOWN since 15 August, and it closes them with an answer nobody was looking for. The archive held open a Maharashtra shell on the strength of a Supreme Court petition saying disturbances had spread there, and went looking for a lathi charge. What is on the record instead is thirteen FIRs against four hundred people for assembling without permission. No use of force in Maharashtra is established here and none is alleged in these sources. That distinction is the finding and the record keeps it: the shell is filled with what happened, not with what the archive expected. It also puts Maharashtra in the same class as Kochi, Kolkata and Assam rather than in the same class as Patna, and that class is the one where a document with an author exists, because a refusal of permission and an FIR are both written by somebody.",
+    "volatility": "medium",
+    "sources": [
+      {
+        "url": "https://www.theweek.in/news/india/2026/07/23/mumbai-police-fir-neet-protest.html",
+        "source_type": "secondary",
+        "publication": "The Week",
+        "retrieved_on": "2026-09-23"
+      },
+      {
+        "url": "https://www.business-standard.com/india-news/mumbai-police-books-400-for-protests-without-permission-registers-13-firs-126072300083_1.html",
+        "source_type": "secondary",
+        "publication": "Business Standard",
+        "retrieved_on": "2026-09-23"
+      },
+      {
+        "url": "https://www.mumbailive.com/amp/en/civic/mumbai-police-book-around-400-over-neet-protest-majority-aged-25-or-below-93687",
+        "source_type": "secondary",
+        "publication": "Mumbai Live",
+        "retrieved_on": "2026-09-23"
+      }
+    ],
+    "added_on": "2026-09-23"
+  },
+  {
+    "id": "INC-KER-001",
+    "jurisdiction": "kerala",
+    "category": "incident",
+    "claim": "Ernakulam Town South police registered a case on its own motion against 101 people — the musician Hirandas Murali, who performs as Vedan, his manager Vignesh G. Pillai, and 99 others — over a solidarity gathering held near Central Park, Panampilly Nagar, Kochi at about 5 pm on Wednesday 22 July 2026 in support of the student protests in Delhi, under sections 190, 223 and 285 of the Bharatiya Nyaya Sanhita. The First Information Report is reported to state that the organisers went ahead after being served a notice refusing permission.",
+    "incident": "INC-0005",
+    "confidence": "REPORTED",
+    "notes": "Kerala was not on this archive before today. It is here for one reason, and it is the reason the whole site exists: the FIR says a notice refusing permission was served. That notice is a written order. It has a date, a signatory, an office and a file, and unlike a lathi charge it cannot have happened without leaving one. The question this archive asks of a baton is unanswerable because a baton leaves no paper; asked of a refusal of permission it is answerable by an RTI application to a named police station. No use of force is established at Kochi and none is alleged in these sources. The three sections carry the archive's standing caution on statute: they are quoted as the reports give them and have not been checked against the current text by anyone who practises.",
+    "volatility": "medium",
+    "sources": [
+      {
+        "url": "https://www.onmanorama.com/news/kerala/2026/07/24/kochi-police-book-rapper-vedan-99-others-over-cjp-solidarity-protest.html",
+        "source_type": "secondary",
+        "publication": "Onmanorama",
+        "retrieved_on": "2026-09-23"
+      },
+      {
+        "url": "https://www.deccanchronicle.com/southern-states/kerala/kerala-police-book-100-including-popular-rapper-vedan-for-holding-a-meet-in-support-of-cjp-1973635",
+        "source_type": "secondary",
+        "publication": "Deccan Chronicle",
+        "retrieved_on": "2026-09-23"
+      }
+    ],
+    "added_on": "2026-09-23"
+  },
+  {
+    "id": "INC-WB-001",
+    "jurisdiction": "west_bengal",
+    "category": "incident",
+    "claim": "Seven cases were registered in Kolkata over the student protests, with about 70 persons identified, reported on 28 July 2026, on which date the West Bengal government's decision on withdrawal was reported as still pending. The state is reported to have said there would be no coercive action in cases registered up to 6 pm on 26 July 2026.",
+    "confidence": "REPORTED",
+    "notes": "Recorded as evidence and NOT opened as an incident shell. There is no located place, no date of any police action and no account of force: what is established is that seven files exist and about seventy people are named in them. That is not enough to open a record called an incident, and the archive has refused on this ground before — Sitamarhi was left unopened on a single account for the same reason. If the location and date of a Kolkata action are established, or the seven case numbers obtained, this becomes a shell. Until then it is a fact about a police force's paperwork, which is worth holding and is not the same thing.",
+    "volatility": "medium",
+    "sources": [
+      {
+        "url": "https://thefederal.com/category/news/neet-protest-which-states-have-withdrawn-cases-protesters-251702",
+        "source_type": "secondary",
+        "publication": "The Federal",
+        "retrieved_on": "2026-09-23"
+      }
+    ],
+    "added_on": "2026-09-23"
+  },
+  {
+    "id": "INC-ASM-001",
+    "jurisdiction": "assam",
+    "category": "incident",
+    "claim": "Five cases were registered in Assam over the student protests and 13 people arrested, reported on 28 July 2026; the Assam government issued a notification stating that the process of withdrawing the registered cases would be initiated as per law promptly, and that those arrested would be released.",
+    "confidence": "REPORTED",
+    "notes": "Recorded as evidence and NOT opened as an incident shell, on the same reasoning as INC-WB-001: no place, no date, no account of force. What makes it worth holding is the notification. A state withdrawing criminal cases does it by a written instrument that names an office and carries a date, and it is obtainable by RTI from the Assam Home Department in a way that a decision to charge never is. Bihar issued one on the same day and the two were shown to the CJP delegation together. Note the units before comparing states: Bihar is reported at 694 detained and 355 booked, Assam at 13 arrested and 5 cases, Mumbai at 400 booked and 13 FIRs, Kolkata at about 70 in 7 cases. People booked, people arrested, people detained and cases registered are four different counts and the reporting moves between them.",
+    "volatility": "medium",
+    "sources": [
+      {
+        "url": "https://thefederal.com/category/news/neet-protest-which-states-have-withdrawn-cases-protesters-251702",
+        "source_type": "secondary",
+        "publication": "The Federal",
+        "retrieved_on": "2026-09-23"
+      },
+      {
+        "url": "https://www.business-standard.com/india-news/neet-protests-bihar-assam-to-withdraw-all-firs-release-protesters-126072800501_1.html",
+        "source_type": "secondary",
+        "publication": "Business Standard",
+        "retrieved_on": "2026-09-23"
+      },
+      {
+        "url": "https://www.theweek.in/news/india/2026/07/28/neet-ug-protest-case-withdrawal.html",
+        "source_type": "secondary",
+        "publication": "The Week",
+        "retrieved_on": "2026-09-23"
+      }
+    ],
+    "added_on": "2026-09-23"
+  },
+  {
+    "id": "INC-BIH-007",
+    "jurisdiction": "bihar",
+    "category": "incident",
+    "claim": "694 people are reported to have been detained in Bihar over the student protests and 355 booked; the Bihar Home Department issued a notification, reported on 28 July 2026, withdrawing the cases and stating that no adverse legal action shall be taken against protesters in respect of matters before 6 pm on 26 July 2026, with those in custody to be released.",
+    "incident": "INC-0002",
+    "confidence": "REPORTED",
+    "notes": "The largest set of figures the archive holds for Bihar, and the first that comes from the state rather than from a fact-finding panel. It does not contradict the 64 FIRs the PUCL hearing reported at INC-BIH-005: an FIR can name many people, so 355 booked in an unstated number of files and 64 FIRs are not two answers to one question. The cut-off is the part to keep. A withdrawal expressed as a time on a date — 6 pm on 26 July — is drawn from a file, and the file is obtainable from the Bihar Home Department. It is also the same cut-off West Bengal is reported to have used, which is worth knowing when asking either state where the line came from.",
+    "volatility": "medium",
+    "sources": [
+      {
+        "url": "https://thefederal.com/category/news/neet-protest-which-states-have-withdrawn-cases-protesters-251702",
+        "source_type": "secondary",
+        "publication": "The Federal",
+        "retrieved_on": "2026-09-23"
+      },
+      {
+        "url": "https://www.business-standard.com/india-news/neet-protests-bihar-assam-to-withdraw-all-firs-release-protesters-126072800501_1.html",
+        "source_type": "secondary",
+        "publication": "Business Standard",
         "retrieved_on": "2026-09-23"
       }
     ],

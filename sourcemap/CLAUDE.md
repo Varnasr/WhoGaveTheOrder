@@ -73,7 +73,8 @@ Any task touching either must carry `exposure_risk: true` and must not be auto-e
 
 ## Jurisdictional non-generalisation
 
-Delhi, Bihar and Maharashtra diverge materially and must not be collapsed.
+Delhi, Bihar, Maharashtra, Kerala, West Bengal and Assam diverge materially and
+must not be collapsed.
 
 - Delhi Police reports to the Ministry of Home Affairs, not to the Government of NCT of Delhi. Its RTI route is the Union portal.
 - Bihar runs its own system including a telephone filing route.
@@ -81,7 +82,39 @@ Delhi, Bihar and Maharashtra diverge materially and must not be collapsed.
 
 Never carry a fee, a form, a deadline, or an office designation from one jurisdiction to another. If a value is established for Delhi and not for Bihar, the Bihar value is `UNKNOWN`.
 
+Kerala, West Bengal and Assam entered the archive on 23 September 2026 and
+carry no established fee, form, deadline or office designation at all. Every one
+of those is `UNKNOWN` for them until somebody establishes it, and nothing from
+the Delhi, Bihar or Maharashtra rows may be borrowed to fill a gap.
+
 A commissionerate city and a district have different structures. In a commissionerate the Commissioner of Police concentrates the relevant powers. In a district they split between the District Magistrate and the Superintendent of Police, with the DM holding executive magistrate functions including requisition of armed force under BNSS s.149. Do not apply one structure's office names to the other.
+
+## Two kinds of state response, and they are not the same record
+
+Through August 2026 this archive assumed that what it was looking for was force:
+a lathi charge, tear gas, a pellet, a round discharged. That is what Delhi and
+Bihar hold. It is not what the other states hold, and reading them as though it
+were produced a Maharashtra shell that sat at UNKNOWN for five weeks while the
+answer was published on 23 July.
+
+Outside Delhi and Bihar the response was the registration of cases. Mumbai: 13
+FIRs against more than 400 people. Kochi: one case against 101. Kolkata: seven
+cases naming about 70. Assam: five cases, 13 arrested. Bihar carries both, 694
+detained and 355 booked alongside the lathi charges. The Supreme Court closed
+all of them on 1 September 2026 under Article 142, with one exception.
+
+Keep the two apart in the data, and note which one the archive's question is
+actually answerable for:
+
+- **Force** leaves no order. That is the finding the site is built on, and it is
+  why the count of orders found is zero.
+- **A case, a refusal of permission, a withdrawal notification** each leave a
+  written instrument with a date, an office and a signatory, obtainable by RTI.
+
+A record of the second kind must say plainly that no force is established and
+none is alleged, or a reader will take an FIR count for a beating. Do not title
+such a shell "Police action against ..."; INC-0003 and INC-0005 are named for
+what they are.
 
 ## Volatility
 

@@ -15,9 +15,22 @@ apex redirecting to `www`.
 
 **Nothing renders as a fact without a source, including in its own seed data.**
 
-Dates and locations are established for the Delhi and Bihar incidents and held open for
-Maharashtra. Beyond those, most factual fields still read `UNKNOWN`: no injury figure, no named
-official, and no order authorising the use of force has been found.
+Dates and locations are established for all five incidents. Beyond those, most factual fields
+still read `UNKNOWN`: **no order authorising the use of force has been found**, and that count is
+still zero.
+
+What has changed since launch is where the archive expects to find an author. Delhi and Bihar hold
+police action, and police action leaves no order. Mumbai, Kochi, Kolkata and Assam hold something
+else — cases registered against people for assembling: 13 FIRs against more than 400 in Mumbai, one
+against 101 at Kochi, seven naming about 70 in Kolkata, five in Assam, and 355 booked in Bihar
+alongside the lathi charges. The Supreme Court closed all of them on 1 September 2026 under Article
+142, leaving one exception: a single FIR concerning 2,873 people whom Delhi Police's facial
+recognition system placed at Jantar Mantar. An Indian Express check of the 205 names on that list
+facing the gravest charges found at least 25 who were in jail on the day the software saw them.
+
+An FIR, a refusal of permission and a withdrawal notification are each written by somebody. A baton
+is not. That asymmetry is the archive's subject and the records now keep the two apart: a shell
+recording cases rather than force says so in its title and in every field.
 
 That is not an unfinished seed to be tidied up. It is the product working as designed. The brief's own rule (§23) is that the site must never manufacture certainty, and the
 fastest way to violate it would have been to ship plausible-looking placeholder facts about real
