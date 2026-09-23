@@ -24,12 +24,12 @@
   {
     "id": "INC-0003",
     "kind": "Incident",
-    "title": "Police action against students in Maharashtra",
-    "state": "UNDER_INVESTIGATION",
+    "title": "Cases registered against protesters in Mumbai",
+    "state": "REPORTED",
     "url": "https://www.whogavetheorder.in/investigation.html?id=maharashtra",
-    "place": "Maharashtra — held open, no incident located",
-    "date": null,
-    "dateState": "UNKNOWN",
+    "place": "Shivaji Park, Chaityabhoomi, Chembur and Shiv Sena Bhavan, Mumbai",
+    "date": "18 to 22 July 2026",
+    "dateState": "REPORTED",
     "summary": null
   },
   {
@@ -41,6 +41,17 @@
     "place": "JP Chowk, Siwan",
     "date": "25 July 2026",
     "dateState": "CORROBORATED",
+    "summary": null
+  },
+  {
+    "id": "INC-0005",
+    "kind": "Incident",
+    "title": "Cases registered over a solidarity gathering at Kochi",
+    "state": "REPORTED",
+    "url": "https://www.whogavetheorder.in/investigation.html?id=kochi",
+    "place": "Near Central Park, Panampilly Nagar, Kochi",
+    "date": "22 July 2026",
+    "dateState": "REPORTED",
     "summary": null
   }
 ]
