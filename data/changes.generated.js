@@ -5,6 +5,72 @@ window.WGO = window.WGO || {};
 
 WGO.changes = [
   {
+    "commit": "3b101acd19",
+    "date": "2026-09-24T07:44:49Z",
+    "subject": "Sweep log and archived copies for 2026-09-24 [skip ci]",
+    "added": [],
+    "removed": [],
+    "changed": [
+      {
+        "id": "SRC-0085",
+        "kind": "Source",
+        "title": "Communications Today",
+        "state": null,
+        "url": "https://www.communicationstoday.co.in/govt-orders-mobile-internet-services-suspension-near-jantar-mantar/",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20260923075451/https://www.communicationstoday.co.in/govt-orders-mobile-internet-services-suspension-near-jantar-mantar/"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0087",
+        "kind": "Source",
+        "title": "National Herald",
+        "state": null,
+        "url": "https://www.nationalheraldindia.com/national/neet-ug-protests-sc-retains-panel-probing-pellet-guns-violence-and-harassment-of-women",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20260923075459/https://www.nationalheraldindia.com/national/neet-ug-protests-sc-retains-panel-probing-pellet-guns-violence-and-harassment-of-women"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0088",
+        "kind": "Source",
+        "title": "Free Press Journal",
+        "state": null,
+        "url": "https://www.freepressjournal.in/education/sc-rejects-plea-to-reconstitute-police-excesses-panel-directs-probe-into-pellet-guns-violence-against-protesters",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20260923075532/https://www.freepressjournal.in/education/sc-rejects-plea-to-reconstitute-police-excesses-panel-directs-probe-into-pellet-guns-violence-against-protesters"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0096",
+        "kind": "Source",
+        "title": "JURIST",
+        "state": null,
+        "url": "https://www.jurist.org/news/2026/08/india-dispatch-supreme-court-clarifies-student-protest-order-exposing-ad-hoc-policing-of-dissent/",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20260918221456/https://www.jurist.org/news/2026/08/india-dispatch-supreme-court-clarifies-student-protest-order-exposing-ad-hoc-policing-of-dissent/"
+          }
+        ]
+      }
+    ],
+    "summary": "4 records edited"
+  },
+  {
     "commit": "9861e91ecf",
     "date": "2026-09-23T07:55:55Z",
     "subject": "Sweep log and archived copies for 2026-09-23 [skip ci]",
