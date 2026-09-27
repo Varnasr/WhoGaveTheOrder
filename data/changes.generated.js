@@ -5,6 +5,142 @@ window.WGO = window.WGO || {};
 
 WGO.changes = [
   {
+    "commit": "5d97611dc9",
+    "date": "2026-09-25T08:01:53Z",
+    "subject": "Sweep log and archived copies for 2026-09-25 [skip ci]",
+    "added": [],
+    "removed": [],
+    "changed": [
+      {
+        "id": "SRC-0092",
+        "kind": "Source",
+        "title": "The Week",
+        "state": null,
+        "url": "https://www.theweek.in/news/india/2026/07/23/mumbai-police-fir-neet-protest.html",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20260924074219/https://www.theweek.in/news/india/2026/07/23/mumbai-police-fir-neet-protest.html"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0094",
+        "kind": "Source",
+        "title": "Mumbai Live",
+        "state": null,
+        "url": "https://www.mumbailive.com/amp/en/civic/mumbai-police-book-around-400-over-neet-protest-majority-aged-25-or-below-93687",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20260924074236/https://www.mumbailive.com/amp/en/civic/mumbai-police-book-around-400-over-neet-protest-majority-aged-25-or-below-93687"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0089",
+        "kind": "Source",
+        "title": "LawChakra",
+        "state": null,
+        "url": "https://lawchakra.in/supreme-court/pellet-guns-police-surveillance-supreme-court-told-constitutional-questions-from-student-protests-are-outside-committees-remit/",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20260924074344/https://lawchakra.in/supreme-court/pellet-guns-police-surveillance-supreme-court-told-constitutional-questions-from-student-protests-are-outside-committees-remit/"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0095",
+        "kind": "Source",
+        "title": "The Wire",
+        "state": null,
+        "url": "https://m.thewire.in/article/law/after-sc-interim-order-on-protest-firs-cjp-warns-of-return-to-streets-as-govt-deadline-nears",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20260924074420/https://m.thewire.in/article/law/after-sc-interim-order-on-protest-firs-cjp-warns-of-return-to-streets-as-govt-deadline-nears"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0097",
+        "kind": "Source",
+        "title": "ThePrint",
+        "state": null,
+        "url": "https://theprint.in/india/firs-against-student-protesters-supreme-court-says-states-free-to-close-or-withdraw-criminal-cases/3004043/",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20260924074444/https://theprint.in/india/firs-against-student-protesters-supreme-court-says-states-free-to-close-or-withdraw-criminal-cases/3004043/"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0098",
+        "kind": "Source",
+        "title": "LiveLaw",
+        "state": null,
+        "url": "https://www.livelaw.in/top-stories/supreme-court-quashes-firs-across-country-over-student-protests-bars-future-firs-548094",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20260910213511/https://www.livelaw.in/top-stories/supreme-court-quashes-firs-across-country-over-student-protests-bars-future-firs-548094"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0099",
+        "kind": "Source",
+        "title": "The Federal",
+        "state": null,
+        "url": "https://thefederal.com/the-federal-special/one-protest-two-probes-why-the-2873-person-fir-raises-questions-255688",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20260905104159/https://thefederal.com/the-federal-special/one-protest-two-probes-why-the-2873-person-fir-raises-questions-255688"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0100",
+        "kind": "Source",
+        "title": "Internet Freedom Foundation",
+        "state": null,
+        "url": "https://internetfreedom.in/delhi-polices-facial-recognition-flagged-25-jailed-people-at-jantar-mantar-this-dragnet-must-end/",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20260910230336/https://internetfreedom.in/delhi-polices-facial-recognition-flagged-25-jailed-people-at-jantar-mantar-this-dragnet-must-end/"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0101",
+        "kind": "Source",
+        "title": "India TV",
+        "state": null,
+        "url": "https://www.indiatvnews.com/news/india/delhi-police-moves-supreme-court-to-quash-13-firs-linked-to-cjp-protests-seeks-probe-into-2873-individuals-latest-updates-2026-08-31-1052890",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20260901155520/https://www.indiatvnews.com/news/india/delhi-police-moves-supreme-court-to-quash-13-firs-linked-to-cjp-protests-seeks-probe-into-2873-individuals-latest-updates-2026-08-31-1052890"
+          }
+        ]
+      }
+    ],
+    "summary": "9 records edited"
+  },
+  {
     "commit": "3b101acd19",
     "date": "2026-09-24T07:44:49Z",
     "subject": "Sweep log and archived copies for 2026-09-24 [skip ci]",
