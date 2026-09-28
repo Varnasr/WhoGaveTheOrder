@@ -5,6 +5,86 @@ window.WGO = window.WGO || {};
 
 WGO.changes = [
   {
+    "commit": "bb08f8d073",
+    "date": "2026-09-26T07:58:15Z",
+    "subject": "Sweep log and archived copies for 2026-09-26 [skip ci]",
+    "added": [],
+    "removed": [],
+    "changed": [
+      {
+        "id": "SRC-0102",
+        "kind": "Source",
+        "title": "Scroll.in",
+        "state": null,
+        "url": "https://scroll.in/latest/1095503/25-accused-whom-police-say-were-in-jail-spotted-by-facial-recognition-at-jantar-mantar-report",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "https://web.archive.org/web/20260926075514/https://scroll.in/latest/1095503/25-accused-whom-police-say-were-in-jail-spotted-by-facial-recognition-at-jantar-mantar-report"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0104",
+        "kind": "Source",
+        "title": "The Tribune",
+        "state": null,
+        "url": "https://www.tribuneindia.com/news/top-headlines/hit-by-pellet-gun-at-parliament-march-student-risks-partial-vision-loss/",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20260723215047/https://www.tribuneindia.com/news/top-headlines/hit-by-pellet-gun-at-parliament-march-student-risks-partial-vision-loss/"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0105",
+        "kind": "Source",
+        "title": "The Tribune",
+        "state": null,
+        "url": "https://www.tribuneindia.com/news/delhi/month-on-pellet-hit-parl-march-victims-still-battling-injures/",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20260831034508/https://www.tribuneindia.com/news/delhi/month-on-pellet-hit-parl-march-victims-still-battling-injures/"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0106",
+        "kind": "Source",
+        "title": "Deccan Chronicle",
+        "state": null,
+        "url": "https://www.deccanchronicle.com/nation/teen-protester-receives-pellet-injuries-could-lose-sight-in-one-eye-1973292",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20260724062900/https://www.deccanchronicle.com/nation/teen-protester-receives-pellet-injuries-could-lose-sight-in-one-eye-1973292"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0110",
+        "kind": "Source",
+        "title": "Business Standard",
+        "state": null,
+        "url": "https://www.business-standard.com/india-news/neet-protests-bihar-assam-to-withdraw-all-firs-release-protesters-126072800501_1.html",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20260820075756/https://www.business-standard.com/india-news/neet-protests-bihar-assam-to-withdraw-all-firs-release-protesters-126072800501_1.html"
+          }
+        ]
+      }
+    ],
+    "summary": "5 records edited"
+  },
+  {
     "commit": "5d97611dc9",
     "date": "2026-09-25T08:01:53Z",
     "subject": "Sweep log and archived copies for 2026-09-25 [skip ci]",
