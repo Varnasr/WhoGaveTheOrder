@@ -5,6 +5,86 @@ window.WGO = window.WGO || {};
 
 WGO.changes = [
   {
+    "commit": "c77c4b988b",
+    "date": "2026-09-27T08:26:32Z",
+    "subject": "Sweep log and archived copies for 2026-09-27 [skip ci]",
+    "added": [],
+    "removed": [],
+    "changed": [
+      {
+        "id": "SRC-0103",
+        "kind": "Source",
+        "title": "MediaNama",
+        "state": null,
+        "url": "https://www.medianama.com/2026/09/223-delhi-polices-facial-recognition-jantar-mantar/",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20260926075615/https://www.medianama.com/2026/09/223-delhi-polices-facial-recognition-jantar-mantar/"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0107",
+        "kind": "Source",
+        "title": "Onmanorama",
+        "state": null,
+        "url": "https://www.onmanorama.com/news/kerala/2026/07/24/kochi-police-book-rapper-vedan-99-others-over-cjp-solidarity-protest.html",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20260729173925/https://www.onmanorama.com/news/kerala/2026/07/24/kochi-police-book-rapper-vedan-99-others-over-cjp-solidarity-protest.html"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0108",
+        "kind": "Source",
+        "title": "Deccan Chronicle",
+        "state": null,
+        "url": "https://www.deccanchronicle.com/southern-states/kerala/kerala-police-book-100-including-popular-rapper-vedan-for-holding-a-meet-in-support-of-cjp-1973635",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20260729225330/https://www.deccanchronicle.com/southern-states/kerala/kerala-police-book-100-including-popular-rapper-vedan-for-holding-a-meet-in-support-of-cjp-1973635"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0109",
+        "kind": "Source",
+        "title": "The Federal",
+        "state": null,
+        "url": "https://thefederal.com/category/news/neet-protest-which-states-have-withdrawn-cases-protesters-251702",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "https://web.archive.org/web/20260927082602/https://thefederal.com/category/news/neet-protest-which-states-have-withdrawn-cases-protesters-251702"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0111",
+        "kind": "Source",
+        "title": "The Week",
+        "state": null,
+        "url": "https://www.theweek.in/news/india/2026/07/28/neet-ug-protest-case-withdrawal.html",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20260728095702/https://www.theweek.in/news/india/2026/07/28/neet-ug-protest-case-withdrawal.html"
+          }
+        ]
+      }
+    ],
+    "summary": "5 records edited"
+  },
+  {
     "commit": "bb08f8d073",
     "date": "2026-09-26T07:58:15Z",
     "subject": "Sweep log and archived copies for 2026-09-26 [skip ci]",
