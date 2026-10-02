@@ -368,6 +368,17 @@
         "unreachable": 1,
         "ok": 5
       }
+    },
+    {
+      "date": "2026-10-02",
+      "targets": 9,
+      "findings": 82,
+      "outcomes": {
+        "nothing-published": 1,
+        "changed-no-match": 2,
+        "unreachable": 1,
+        "ok": 5
+      }
     }
   ],
   "seen": {
@@ -377,13 +388,13 @@
       "method": "pdf-text"
     },
     "delhi-hc-judgments": {
-      "fingerprint": "8c88182eab07e51b",
-      "lastChecked": "2026-10-01",
+      "fingerprint": "103447682f8ef001",
+      "lastChecked": "2026-10-02",
       "method": "html"
     },
     "nhrc-press": {
-      "fingerprint": "067f8b2ec48cb3c3",
-      "lastChecked": "2026-10-01",
+      "fingerprint": "10b62429d01f060d",
+      "lastChecked": "2026-10-02",
       "method": "html"
     },
     "barandbench": {
@@ -981,9 +992,21 @@
         "6f460aeb2f8f4153",
         "9fd5ec95a358cdc6",
         "fa93ed775dba01ad",
-        "fcbc195ed083c6b3"
+        "fcbc195ed083c6b3",
+        "a5afb1b37c8d52bb",
+        "cba10b01a8455f6c",
+        "9ac9226394dedffc",
+        "fa751e59622f9c7b",
+        "866a39bae67dc964",
+        "7bad64a4a8eca979",
+        "a8d32a4ab4018ce7",
+        "455e905ae76e20be",
+        "1c717bda5846be23",
+        "10b7af57975023c7",
+        "571657339a0b288c",
+        "8bb29d731a11da05"
       ],
-      "lastChecked": "2026-10-01"
+      "lastChecked": "2026-10-02"
     },
     "news-delhi": {
       "items": [
@@ -1609,9 +1632,98 @@
         "fd39829941c4dc4f",
         "71c530c694e588b1",
         "d49fe1dc1d5feaee",
-        "5cd52ef6eeae5197"
+        "5cd52ef6eeae5197",
+        "2eb77aacb9c432fa",
+        "950f5b065eae94e3",
+        "1f2df0494318e05d",
+        "419f33f3e7cb0943",
+        "7f1e05112dfcce64",
+        "cba4c909137047b2",
+        "63e4fcb30a953843",
+        "d9a05f96d7058a1f",
+        "45b6d3257ef76e51",
+        "2a79aadd9763ebd7",
+        "9d422f6bbf81648d",
+        "440b247425b4e1bb",
+        "2ad8704afe5f91d3",
+        "0d1dedfaf5af1854",
+        "08985cc61a4c896f",
+        "ec9233ac4f9e9657",
+        "7f8cf8c8fbc1fd52",
+        "429c01191b8f4a99",
+        "d5fa92b0e18b445d",
+        "fe3d581375349156",
+        "eda09ce73a80a55c",
+        "f4a13b6a1431ff1a",
+        "b0f1944251f9a848",
+        "6f67a05dc2d3809a",
+        "caae686b57c783e2",
+        "74c8721d097782bc",
+        "0fbc911df8a8d2a9",
+        "6c5d0e08216b0096",
+        "4645f8ce9c96d28b",
+        "5fc05c4025dc50eb",
+        "c8f6bd250b83b592",
+        "6baef6f23d58c156",
+        "1670df67e6d50bd7",
+        "1b674ebfd6c964d6",
+        "8d8ec3b998294dc2",
+        "7c1a49457d3140ae",
+        "e2e6d93c1308f0a0",
+        "9c380408ab992548",
+        "1eef7b8327c42d6b",
+        "0f74cf2844feb06a",
+        "6bf07fb1cda57f95",
+        "0d9039ad51c7961c",
+        "b1bd9e2a9605f3df",
+        "d3a4112804b68049",
+        "03f4e56559a5e0a4",
+        "56856ffbd9747be9",
+        "097a1dda7f4f7602",
+        "7fe4027eaa13409a",
+        "698f1851d79c6292",
+        "0bb6263b47a1915d",
+        "bcf14f7c7e91ddc9",
+        "9460b947351f6c26",
+        "294dd1ee6873fbfa",
+        "e17f165ed226dd7d",
+        "1a69cb0ed1c12362",
+        "6434b57733c70637",
+        "d2ccbe6e59f95cdc",
+        "ad29473814b204b7",
+        "a2683fbe02446fcc",
+        "2953313a58345374",
+        "5ca49182a924139c",
+        "1b20225e7433d9c3",
+        "b04a487e8df9cbb4",
+        "0274ae8523bb5715",
+        "59ead618cf84ec54",
+        "5ceb021a654c0d33",
+        "f82e4daa45418078",
+        "ec8212554a09c4dc",
+        "330a5da299d5cb12",
+        "817240113ac24542",
+        "9700fc3a424ec106",
+        "9d46fa2db9f48961",
+        "5ce342d26bf24e5c",
+        "c1a56215a62e53c2",
+        "cac0188ce1074290",
+        "9e82d11930cf8777",
+        "1f46dd0e5348022c",
+        "8c8e84330de487d7",
+        "538e25108629198f",
+        "49655ac1af26b10e",
+        "442000f6ba9f3041",
+        "73a37c190982b603",
+        "958c5d3daf828272",
+        "13d04a2f058cbbf7",
+        "7bd38090e1fc9bf7",
+        "1f6f83b5b15765cc",
+        "30224c6a24bfe4e0",
+        "f1488a67dc3b0eb4",
+        "ff863ef92323926a"
       ],
-      "lastChecked": "2026-10-01"
+      "lastChecked": "2026-10-02"
     },
     "news-cases": {
       "items": [
@@ -1729,9 +1841,10 @@
         "dbcfd527a39fcff6",
         "ea6e17417b31e4b0",
         "77e249c449a3241b",
-        "e39421a9982d7026"
+        "e39421a9982d7026",
+        "05f665354aaf6eec"
       ],
-      "lastChecked": "2026-10-01"
+      "lastChecked": "2026-10-02"
     },
     "news-frt": {
       "items": [
@@ -1974,9 +2087,12 @@
         "7c110652749f838d",
         "d214a1276801282f",
         "75a9791d8be4a8d4",
-        "6135cda854a84875"
+        "6135cda854a84875",
+        "0e014fecf8f49d24",
+        "a3c24a42f67621ae",
+        "8fcc11393e1d22c2"
       ],
-      "lastChecked": "2026-10-01"
+      "lastChecked": "2026-10-02"
     },
     "news-bihar": {
       "items": [
@@ -2302,9 +2418,10 @@
         "5d33a4936dd78520",
         "41c14effdde95df2",
         "1ba8e45fb221b78f",
-        "4cde18cadea8d09f"
+        "4cde18cadea8d09f",
+        "a6a8e29ee855a370"
       ],
-      "lastChecked": "2026-10-01"
+      "lastChecked": "2026-10-02"
     }
   }
 }
