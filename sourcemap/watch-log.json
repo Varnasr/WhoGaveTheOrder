@@ -401,6 +401,17 @@
         "unreachable": 1,
         "ok": 5
       }
+    },
+    {
+      "date": "2026-10-05",
+      "targets": 9,
+      "findings": 44,
+      "outcomes": {
+        "nothing-published": 1,
+        "changed-no-match": 2,
+        "unreachable": 1,
+        "ok": 5
+      }
     }
   ],
   "seen": {
@@ -410,13 +421,13 @@
       "method": "pdf-text"
     },
     "delhi-hc-judgments": {
-      "fingerprint": "76b917d532c24fcd",
-      "lastChecked": "2026-10-04",
+      "fingerprint": "245de9b25f08b45b",
+      "lastChecked": "2026-10-05",
       "method": "html"
     },
     "nhrc-press": {
-      "fingerprint": "8728c6aca58628b5",
-      "lastChecked": "2026-10-04",
+      "fingerprint": "a4f04d140a87c383",
+      "lastChecked": "2026-10-05",
       "method": "html"
     },
     "barandbench": {
@@ -1031,67 +1042,35 @@
         "89105cbbd1652e44",
         "a7b9112402359d41",
         "1ac4634a28ab288b",
-        "fefb62ffac0b498d"
+        "fefb62ffac0b498d",
+        "6e557b2c41868f48",
+        "3aeb93019845319a",
+        "a8cb427045801927",
+        "b092c8011c8e4220",
+        "fd30dda9c5008bcd",
+        "1a8ac619c25b0aea",
+        "701683184fed2d03",
+        "9aa63b2e2360f5e0",
+        "68730e456953b245",
+        "c5fc4eba1588e88c",
+        "3e49355b9fe13190",
+        "43bdf994b6ada6d6",
+        "257b9ecdbb6e5730",
+        "3032a8780f1d70bc",
+        "922f840277e9f605",
+        "b994d1d5c66e5a31",
+        "1a5b697853f2146b",
+        "8b588594aa100ada",
+        "ebf9abab5ad00979",
+        "431cb905e487d495",
+        "53b2db07e840c25b",
+        "7e173a2ad1947839",
+        "7400541bcf506253"
       ],
-      "lastChecked": "2026-10-04"
+      "lastChecked": "2026-10-05"
     },
     "news-delhi": {
       "items": [
-        "77be9b91863c387e",
-        "4142d41defddce61",
-        "a2cfa1cfe58e5472",
-        "33b82c503bab1200",
-        "158ee90d96861c87",
-        "451d007d1633bdbe",
-        "d6ecd10fe7370e44",
-        "b52565681f1d6c61",
-        "caefea5c8be4698a",
-        "734f3d2268606a62",
-        "9819f76553b3391a",
-        "4d117652ba94f951",
-        "00da719bb71cc804",
-        "91fd0a9e02ee3934",
-        "16c9002cafd22be9",
-        "acabec8bb7e706f3",
-        "888ea58bfbf173b2",
-        "ef071af53734d020",
-        "1bc2314f134f0537",
-        "64bd1d6708dc060c",
-        "33520690b94e803e",
-        "40bf012a037b458a",
-        "a1ad8430ab881cc5",
-        "caecebf90033d8a5",
-        "884c4da7c5963242",
-        "ec1e7f4e30d84256",
-        "92fe7d17625e67d2",
-        "50c038a40d09ce30",
-        "1259043966622b00",
-        "7b4a875a0dc78496",
-        "ff65051e1b8d23d1",
-        "05c2109ae7325dde",
-        "a7aa34c09c130208",
-        "1e8e91f61a0adfa8",
-        "0ede79e410ec4af9",
-        "e0ebfb94b88ac398",
-        "05a4552ba7be4a68",
-        "eca2f45dfbb2c444",
-        "db4a6072d4108827",
-        "cc8049d87c291684",
-        "5d46b92bb77a353c",
-        "dc41e2164eedfd95",
-        "72944cce42916b4a",
-        "da0a5beb7d4e703b",
-        "d24924049dc887f5",
-        "c140e7c64f7e9e6d",
-        "60907c415a27c7a8",
-        "99804a268b41462d",
-        "c95e7e43938d0f3d",
-        "643a53426b0b8916",
-        "90cc77e102a7aad9",
-        "0f9ede3a8acb85b4",
-        "b39e90f6d3129dd2",
-        "5d8f899aa3094b9c",
-        "af541912ceda4f8c",
         "0486fd2cfe4d2878",
         "4af7351afb927e5a",
         "53910a4b53cf9049",
@@ -1836,9 +1815,64 @@
         "17ed56cc1c038404",
         "80ba2d93fdfab876",
         "f9716abe9c595a35",
-        "d7c3f4424152d992"
+        "d7c3f4424152d992",
+        "54c95d8f366dfd08",
+        "210bb0f2ca22f5f8",
+        "347c1693fd670f97",
+        "f2df985033a89d79",
+        "c23c4e2600bd7a95",
+        "05f79f36f00f1c4e",
+        "c07988635d3a00f8",
+        "fb0e3f8ea842b65e",
+        "841de8d832b3c015",
+        "f6a4e3e248ed8a8d",
+        "16b288c2ef9eebb1",
+        "440e8f6f6ac95440",
+        "00a94dc0ad78a850",
+        "854eb58471bcc80e",
+        "17779a3531bd640f",
+        "bd4f8af434098218",
+        "6616951e05c0a870",
+        "d36b1a7ab8de1db3",
+        "9ebe82c0584e2b64",
+        "e12941bde8fe3e98",
+        "bec7ab6cdb055842",
+        "7511f0387d0c396c",
+        "27244b6a273ad7c6",
+        "6afc0884de4fe1ed",
+        "06bd5ac80857e85f",
+        "d1b3296c2e244dbf",
+        "109dab07a3fd3310",
+        "af4a78f6ebfd1ac8",
+        "38f507abb9edf7b2",
+        "a305e9f3faa184dc",
+        "63cb964a4edba665",
+        "e428312af467c7c2",
+        "4bc272f2e013280f",
+        "ce6d82c564fcba41",
+        "c2318a508e1efce6",
+        "6f72cec509c089dd",
+        "7ecdcdefbd05d44b",
+        "101412835700933d",
+        "6214d9fd41d78571",
+        "444c23c22cee39ac",
+        "fb5b57326d65c579",
+        "3a0ad123051d0e8c",
+        "2f09ea1e4574d2ae",
+        "5b8b431011b4f00d",
+        "fd4d252154bccc85",
+        "bb9773cd98a31c1a",
+        "9e105888d78c9726",
+        "e92f6207049d97c4",
+        "2ad24d59865ab81c",
+        "9759268a7a4ea520",
+        "63a5865f030ecdbd",
+        "4a9531b3a95b4ead",
+        "419fac4b92c1c6ef",
+        "b1e041f3a3511da9",
+        "243b174f5939a92a"
       ],
-      "lastChecked": "2026-10-04"
+      "lastChecked": "2026-10-05"
     },
     "news-cases": {
       "items": [
@@ -1958,9 +1992,20 @@
         "77e249c449a3241b",
         "e39421a9982d7026",
         "05f665354aaf6eec",
-        "42c72db7f31a6b8e"
+        "42c72db7f31a6b8e",
+        "b8feb7c6bef97225",
+        "74845b6e662b4d62",
+        "9d63136413b6ab5b",
+        "bf247349148dfe14",
+        "a6b19ab99b64dc25",
+        "172d2b34315bd260",
+        "701056c3f1f07859",
+        "b1ece0f08aedbd48",
+        "0bd7b4dd2ac11bdf",
+        "7b8d6d34dc8145b7",
+        "71626443963207e4"
       ],
-      "lastChecked": "2026-10-04"
+      "lastChecked": "2026-10-05"
     },
     "news-frt": {
       "items": [
@@ -2210,7 +2255,7 @@
         "9673cc3411c1c023",
         "92df88b5d8a46fa7"
       ],
-      "lastChecked": "2026-10-04"
+      "lastChecked": "2026-10-05"
     },
     "news-bihar": {
       "items": [
@@ -2538,9 +2583,10 @@
         "1ba8e45fb221b78f",
         "4cde18cadea8d09f",
         "a6a8e29ee855a370",
-        "1e071ad488453d5d"
+        "1e071ad488453d5d",
+        "34631b533d4ed495"
       ],
-      "lastChecked": "2026-10-04"
+      "lastChecked": "2026-10-05"
     }
   }
 }
