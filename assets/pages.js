@@ -35,11 +35,23 @@
 
     /* What is established, read off the records rather than written by hand, so
        the front page cannot drift from the data. */
+    /* The verb follows what the record establishes about the incident, taken
+       from its `kind`. This line used to say "Police used force against
+       students" for every incident, which put a sentence about a lathi charge
+       over Mumbai and Kochi, where the record holds cases registered and no
+       force alleged. The chip beside it states the confidence in the date and
+       not in the sentence, so the sentence has to be the right one. A record
+       with no kind falls back to the neutral wording rather than to force. */
+    var HERO_VERB = {
+      FORCE:       'Police used force against students at',
+      CASES:       'Cases were registered against protesters at',
+      DETENTIONS:  'Protesters were detained at'
+    };
     var lines = model.incidents.map(function (inc) {
       if (inc.dateState === 'UNKNOWN' || !inc.date) { return null; }
       return '<li>' +
-        '<span class="hero__fact">Police used force against students at <strong>' +
-        ui.esc(inc.place) + '</strong> on <strong>' + ui.esc(inc.date) + '</strong>.</span> ' +
+        '<span class="hero__fact">' + (HERO_VERB[inc.kind] || 'An incident is on the record at') +
+        ' <strong>' + ui.esc(inc.place) + '</strong> on <strong>' + ui.esc(inc.date) + '</strong>.</span> ' +
         ui.chip(inc.dateState) +
       '</li>';
     }).filter(Boolean);

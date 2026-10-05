@@ -907,6 +907,83 @@ WGO.importedSources = [
     "originatesFrom": null
   },
   {
+    "id": "SRC-0112",
+    "name": "Al Jazeera",
+    "kind": "SECONDARY",
+    "url": "https://www.aljazeera.com/news/2026/10/2/indian-authorities-clamp-down-as-cockroach-movement-launches-new-protests",
+    "retrievedOn": "2026-10-05",
+    "archiveUrl": null,
+    "archivedOn": null,
+    "sha256": null,
+    "originatesFrom": "Reuters and The Times of India, as cited in the article"
+  },
+  {
+    "id": "SRC-0113",
+    "name": "The Week",
+    "kind": "SECONDARY",
+    "url": "https://www.theweek.in/news/india/2026/10/04/cjp-demands-fir-sexual-harassment-vivek-bhagat-fir-delay-delhi-police-cec-protest.html",
+    "retrievedOn": "2026-10-05",
+    "archiveUrl": "http://web.archive.org/web/20261004113814/https://www.theweek.in/news/india/2026/10/04/cjp-demands-fir-sexual-harassment-vivek-bhagat-fir-delay-delhi-police-cec-protest.html",
+    "archivedOn": "2026-10-05",
+    "sha256": null,
+    "originatesFrom": null
+  },
+  {
+    "id": "SRC-0114",
+    "name": "Outlook",
+    "kind": "SECONDARY",
+    "url": "https://www.outlookindia.com/national/inside-jantar-mantar-where-barricades-replaced-protesters-and-buses-awaited-detainees",
+    "retrievedOn": "2026-10-05",
+    "archiveUrl": "http://web.archive.org/web/20261004035926/https://www.outlookindia.com/national/inside-jantar-mantar-where-barricades-replaced-protesters-and-buses-awaited-detainees",
+    "archivedOn": "2026-10-05",
+    "sha256": null,
+    "originatesFrom": null
+  },
+  {
+    "id": "SRC-0115",
+    "name": "The Kathmandu Post",
+    "kind": "SECONDARY",
+    "url": "https://kathmandupost.com/world/2026/10/03/hundreds-from-india-s-gen-z-led-cockroach-party-protest-seek-election-chief-s-resignation",
+    "retrievedOn": "2026-10-05",
+    "archiveUrl": "http://web.archive.org/web/20261004084151/https://kathmandupost.com/world/2026/10/03/hundreds-from-india-s-gen-z-led-cockroach-party-protest-seek-election-chief-s-resignation",
+    "archivedOn": "2026-10-05",
+    "sha256": null,
+    "originatesFrom": "Reuters"
+  },
+  {
+    "id": "SRC-0116",
+    "name": "Free Press Journal",
+    "kind": "SECONDARY",
+    "url": "https://www.freepressjournal.in/mumbai/hours-after-abhijeet-dipke-thanks-police-cjp-organisers-400-500-supporters-booked-over-shivaji-park-protest",
+    "retrievedOn": "2026-10-05",
+    "archiveUrl": "http://web.archive.org/web/20261004104721/https://www.freepressjournal.in/mumbai/hours-after-abhijeet-dipke-thanks-police-cjp-organisers-400-500-supporters-booked-over-shivaji-park-protest",
+    "archivedOn": "2026-10-05",
+    "sha256": null,
+    "originatesFrom": null
+  },
+  {
+    "id": "SRC-0117",
+    "name": "Asianet News",
+    "kind": "SECONDARY",
+    "url": "https://newsable.asianetnews.com/india/mumbai-police-files-fir-against-cockroach-janta-party-protest-organisers-articleshow-0lztfwn",
+    "retrievedOn": "2026-10-05",
+    "archiveUrl": null,
+    "archivedOn": null,
+    "sha256": null,
+    "originatesFrom": "ANI"
+  },
+  {
+    "id": "SRC-0118",
+    "name": "The Tribune",
+    "kind": "SECONDARY",
+    "url": "https://www.tribuneindia.com/news/india/cjp-protest-at-shivaji-park-fir-registered-against-organisers-400-500-unidentified-persons/",
+    "retrievedOn": "2026-10-05",
+    "archiveUrl": null,
+    "archivedOn": null,
+    "sha256": null,
+    "originatesFrom": "PTI"
+  },
+  {
     "id": "SRC-0056",
     "name": "India Code",
     "kind": "PRIMARY",
@@ -2171,6 +2248,162 @@ WGO.importedEvidence = [
     "relatedIds": [],
     "accessNote": "",
     "volatility": "medium"
+  },
+  {
+    "id": "INC-DEL-011",
+    "title": "On Friday 2 October 2026 Delhi Police detained several hundred people who were trying to reach Jantar Mantar to demand the resignation of the Chief Election Com",
+    "type": "OTHER_DOCUMENT",
+    "verification": "CORROBORATED",
+    "incidentId": "INC-0006",
+    "dateOfItem": null,
+    "dateAdded": "2026-10-05",
+    "sourceIds": [
+      "SRC-0112",
+      "SRC-0113",
+      "SRC-0114",
+      "SRC-0115"
+    ],
+    "origin": "",
+    "establishes": "The figures differ but may not conflict: 500 by mid-afternoon and 700 by the end of the day are consistent with each other, and the sources do not say when each count was taken. The archive records both and does not choose. Detention under a prohibitory order is not a finding of force, and this record makes none. Outlook reports Delhi Police, the Rapid Action Force and the CRPF at the site, and quotes a Delhi Police officer putting the deployment at more than 1,000 personnel. Al Jazeera reports at least 11 metro stations closed around Jantar Mantar. Al Jazeera takes its figures from Reuters and The Times of India, so it is not independent of them; The Week and Outlook are separate reports.",
+    "doesNotEstablish": "",
+    "relatedIds": [],
+    "accessNote": "",
+    "volatility": "medium"
+  },
+  {
+    "id": "INC-DEL-012",
+    "title": "A prohibitory order under section 163 of the Bharatiya Nagarik Suraksha Sanhita 2023 was in force across New Delhi district on 2 October 2026. Al Jazeera, citin",
+    "type": "OTHER_DOCUMENT",
+    "verification": "CORROBORATED",
+    "incidentId": "INC-0006",
+    "dateOfItem": null,
+    "dateAdded": "2026-10-05",
+    "sourceIds": [
+      "SRC-0112",
+      "SRC-0113",
+      "SRC-0114"
+    ],
+    "origin": "",
+    "establishes": "Three outlets report that the order existed. They word its scope slightly differently (\"more than five\" and \"five or more\"), and the archive holds no copy of the order, so the wording is a report of it. The order is a written instrument with a date, an issuing office and a text, which is what separates it from the force question on INC-0001. Who issued it is recorded separately at INC-DEL-013. The section number is quoted as the reports give it and has not been checked against the current text of the Sanhita by anyone who practises.",
+    "doesNotEstablish": "",
+    "relatedIds": [],
+    "accessNote": "",
+    "volatility": "medium"
+  },
+  {
+    "id": "INC-DEL-013",
+    "title": "The sources disagree on which office issued the section 163 order of 2 October 2026. Al Jazeera, citing The Times of India, says Delhi Police imposed it. Outloo",
+    "type": "OTHER_DOCUMENT",
+    "verification": "DISPUTED",
+    "incidentId": "INC-0006",
+    "dateOfItem": null,
+    "dateAdded": "2026-10-05",
+    "sourceIds": [
+      "SRC-0112",
+      "SRC-0114"
+    ],
+    "origin": "",
+    "establishes": "Not resolved here. The two answers lead to different custodians and different RTI routes: Delhi Police sits under the Union Home Ministry, while the Delhi government is a separate public authority. Neither source quotes the order or names a signatory. See OQ-055.",
+    "doesNotEstablish": "",
+    "relatedIds": [],
+    "accessNote": "",
+    "volatility": "medium"
+  },
+  {
+    "id": "INC-DEL-014",
+    "title": "Outlook reports that protesters alleged they were dragged along the road and beaten with batons during the detentions of 2 October 2026, and that a history stud",
+    "type": "OTHER_DOCUMENT",
+    "verification": "REPORTED",
+    "incidentId": "INC-0006",
+    "dateOfItem": null,
+    "dateAdded": "2026-10-05",
+    "sourceIds": [
+      "SRC-0114",
+      "SRC-0115",
+      "SRC-0112"
+    ],
+    "origin": "",
+    "establishes": "These are allegations made by protesters, reported by one outlet, beside a wire report that describes shoving and no more. The archive does not hold footage, a medical record or a police account. None of the articles read for this entry mentions tear gas, pellets or firearms; that is an absence in those articles and not a finding that none were used. See OQ-060.",
+    "doesNotEstablish": "",
+    "relatedIds": [],
+    "accessNote": "",
+    "volatility": "medium"
+  },
+  {
+    "id": "INC-DEL-015",
+    "title": "Outlook reports that internet services were suspended in the Jantar Mantar area for several hours on 2 October 2026.",
+    "type": "OTHER_DOCUMENT",
+    "verification": "REPORTED",
+    "incidentId": "INC-0006",
+    "dateOfItem": null,
+    "dateAdded": "2026-10-05",
+    "sourceIds": [
+      "SRC-0114"
+    ],
+    "origin": "",
+    "establishes": "One source. No suspension order has been located. The July suspension order recorded at INC-DEL-007 shows the form such an order takes and which office signs it, and a suspension order is the kind of instrument the Supreme Court has said must be published (see PREC-SHUT-001). Whether a separate order was made on 2 October, and by whom, is OQ-056.",
+    "doesNotEstablish": "",
+    "relatedIds": [],
+    "accessNote": "",
+    "volatility": "medium"
+  },
+  {
+    "id": "INC-DEL-016",
+    "title": "The Week reports that an independent journalist accused an Assistant Commissioner of Police of hitting her on the chest while she filmed the detention of a stud",
+    "type": "OTHER_DOCUMENT",
+    "verification": "REPORTED",
+    "incidentId": "INC-0006",
+    "dateOfItem": null,
+    "dateAdded": "2026-10-05",
+    "sourceIds": [
+      "SRC-0113"
+    ],
+    "origin": "",
+    "establishes": "One source for all of it. The officer is named in the source and not here, on the rule the archive applies to a private person and to an unproven allegation: holding a post is not evidence of having done what is alleged. The complaints are allegations and are recorded as such. The Week's text says \"sexual assault\" while its address says \"sexual harassment\", so the nature of the complaints is not settled by the source. No complainant is named in the source or here. See OQ-057.",
+    "doesNotEstablish": "",
+    "relatedIds": [],
+    "accessNote": "",
+    "volatility": "high"
+  },
+  {
+    "id": "INC-MAH-003",
+    "title": "Mumbai Police registered a First Information Report at Shivaji Park police station on 3 October 2026 over the Cockroach Janta Party gathering held at Shivaji Pa",
+    "type": "OTHER_DOCUMENT",
+    "verification": "CORROBORATED",
+    "incidentId": "INC-0007",
+    "dateOfItem": null,
+    "dateAdded": "2026-10-05",
+    "sourceIds": [
+      "SRC-0116",
+      "SRC-0117",
+      "SRC-0118"
+    ],
+    "origin": "",
+    "establishes": "The same class of record as INC-MAH-002: a case registered for assembling without permission, with no use of force established and none alleged in these sources. A refusal of permission is a written instrument with a date and a signatory, and the FIR is a second one; both can be asked for (OQ-059, FQ-022). The Free Press Journal also reports an altercation between supporters and a group opposing the demonstration after the gathering ended, with police intervening; that is one source and is not a finding about the police. The Supreme Court order of 1 September 2026 recorded at PROC-SC-014 is reported to cover FIRs over the protests of 20 to 25 July; this is a different gathering, and the archive draws no conclusion about how the order bears on it. The sections are quoted as the reports give them and have not been checked against the current text by anyone who practises. Who is named and who complained is DISPUTED at INC-MAH-004.",
+    "doesNotEstablish": "",
+    "relatedIds": [],
+    "accessNote": "",
+    "volatility": "medium"
+  },
+  {
+    "id": "INC-MAH-004",
+    "title": "The three sources read for the Mumbai FIR of 3 October 2026 disagree on who it names and who made the complaint. PTI, as carried by The Tribune, identifies one ",
+    "type": "OTHER_DOCUMENT",
+    "verification": "DISPUTED",
+    "incidentId": "INC-0007",
+    "dateOfItem": null,
+    "dateAdded": "2026-10-05",
+    "sourceIds": [
+      "SRC-0118",
+      "SRC-0117",
+      "SRC-0116"
+    ],
+    "origin": "",
+    "establishes": "Not resolved here, and not resolvable from reporting: the FIR is the document that settles it. The three accounts agree that Abhijeet Dipke is named. Whether the case rests on a private complaint or was registered by the police is a real difference, because it changes which office to ask. The complainant is a private person and is not named in this record. See OQ-058.",
+    "doesNotEstablish": "",
+    "relatedIds": [],
+    "accessNote": "",
+    "volatility": "high"
   }
 ];
 
@@ -3724,6 +3957,110 @@ WGO.importedQuestions = [
       "PROC-SC-011"
     ],
     "category": "document_custody"
+  },
+  {
+    "id": "OQ-055",
+    "incidentId": "INC-0001",
+    "text": "Which office issued the section 163 BNSS order in force across New Delhi district on 2 October 2026, on what date, covering what area and hours, and what does its text say?",
+    "priority": "HIGH",
+    "whyItMatters": "The sources split on whether Delhi Police or the Delhi government issued it (INC-DEL-013), and the two answers lead to different custodians. Unlike a lathi charge, a prohibitory order is a written instrument with a date, a signatory and a stated ground, so this is a question a document can answer. No copy has been found.",
+    "lawfulRoute": "FQ-020. The route differs by custodian: Delhi Police uses the Union RTI portal; this archive has not established the Delhi government route.",
+    "state": "UNANSWERED",
+    "wants": [
+      "FQ-020. The route differs by custodian: Delhi Police uses the Union RTI portal; this archive has not established the Delhi government route."
+    ],
+    "evidenceIds": [],
+    "blocks": [
+      "INC-DEL-012",
+      "INC-DEL-013"
+    ],
+    "category": "document_custody"
+  },
+  {
+    "id": "OQ-056",
+    "incidentId": "INC-0001",
+    "text": "Was an order suspending mobile internet made for the Jantar Mantar area on 2 October 2026, by which office, under which power, and was it reviewed?",
+    "priority": "HIGH",
+    "whyItMatters": "One outlet reports a suspension of several hours (INC-DEL-015). If an order exists it should be public under the Supreme Court's direction in Anuradha Bhasin, and its absence from public view would itself be recordable.",
+    "lawfulRoute": "FQ-021, built on the same lines as FQ-014 for the July order.",
+    "state": "UNANSWERED",
+    "wants": [
+      "FQ-021, built on the same lines as FQ-014 for the July order."
+    ],
+    "evidenceIds": [],
+    "blocks": [
+      "INC-DEL-015"
+    ],
+    "category": "document_custody"
+  },
+  {
+    "id": "OQ-057",
+    "incidentId": "INC-0001",
+    "text": "What is the status of the three FIRs reported over the 2 October 2026 protest, at which police stations, against whom, and has any FIR been registered on the journalist's complaint or on the three complaints sent to the Crime Branch?",
+    "priority": "MEDIUM",
+    "whyItMatters": "The only source (INC-DEL-016) says no accused was named in any of the three FIRs, and quotes the Cockroach Janta Party as saying police will not register one against the officer the journalist named. That is one outlet, one day after the event, and it can change daily. This archive has not found where, or whether, Delhi Police publishes registered FIRs, and does not name a portal it has not seen.",
+    "lawfulRoute": "No route established for Delhi. Establish the publication route first; an RTI application is the fallback.",
+    "state": "UNANSWERED",
+    "wants": [
+      "No route established for Delhi. Establish the publication route first; an RTI application is the fallback."
+    ],
+    "evidenceIds": [],
+    "blocks": [
+      "INC-DEL-016"
+    ],
+    "category": "incident"
+  },
+  {
+    "id": "OQ-058",
+    "incidentId": "INC-0003",
+    "text": "Who is named in the Shivaji Park FIR of 3 October 2026, and was it registered on a private complaint or on the police's own motion?",
+    "priority": "MEDIUM",
+    "whyItMatters": "Three outlets give three different lists of names and two different accounts of the complainant (INC-MAH-004). A private complaint and a police-initiated case sit with different offices.",
+    "lawfulRoute": "FQ-022: the FIR itself.",
+    "state": "UNANSWERED",
+    "wants": [
+      "FQ-022: the FIR itself."
+    ],
+    "evidenceIds": [],
+    "blocks": [
+      "INC-MAH-004"
+    ],
+    "category": "incident"
+  },
+  {
+    "id": "OQ-059",
+    "incidentId": "INC-0003",
+    "text": "Was the refusal of permission for the Shivaji Park gathering of 2 October 2026 given in writing, on what date, by which office and signatory, and on what stated ground?",
+    "priority": "HIGH",
+    "whyItMatters": "All three sources say permission was refused and one gives a Bombay High Court judgment and a government order as the ground (INC-MAH-003). The refusal is a written instrument that can be asked for by name, which is the thing this archive cannot get for a baton.",
+    "lawfulRoute": "FQ-022. Maharashtra's rules allow one subject matter per application, so the refusal and the FIR go in separately.",
+    "state": "UNANSWERED",
+    "wants": [
+      "FQ-022. Maharashtra's rules allow one subject matter per application, so the refusal and the FIR go in separately."
+    ],
+    "evidenceIds": [],
+    "blocks": [
+      "INC-MAH-003"
+    ],
+    "category": "document_custody"
+  },
+  {
+    "id": "OQ-060",
+    "incidentId": "INC-0001",
+    "text": "Was force used on 2 October 2026 beyond moving people onto buses, and does footage, a medical record or a police account exist that settles the allegation of beating with batons?",
+    "priority": "TIME_CRITICAL",
+    "whyItMatters": "The allegation rests on one outlet reporting what protesters said (INC-DEL-014). The retention period for CCTV covering the area is not established (RET-002), so any footage may be overwritten on a schedule nobody here knows. No preservation request has been drafted for 2 October: the four on this site cover Bihar and July.",
+    "lawfulRoute": "A written preservation request to the office that holds the footage, and a medico-legal record request where a named person consents. The custodian for 2 October has not been established.",
+    "state": "UNANSWERED",
+    "wants": [
+      "A written preservation request to the office that holds the footage, and a medico-legal record request where a named person consents. The custodian for 2 October has not been established."
+    ],
+    "evidenceIds": [],
+    "blocks": [
+      "INC-DEL-014",
+      "RET-002"
+    ],
+    "category": "incident"
   }
 ];
 
@@ -3839,6 +4176,36 @@ WGO.importedFilings = [
     "resolves": []
   },
   {
+    "id": "FQ-020",
+    "sequence": 1,
+    "deadlineDriven": false,
+    "incidentId": "INC-0001",
+    "jurisdiction": "delhi",
+    "action": "Obtain the section 163 BNSS order in force across New Delhi district on 2 October 2026 recorded at INC-DEL-012, with its date, its signatory, the area and hours it covered and the ground it states.",
+    "authority": "Delhi Police if the order is theirs; the Government of NCT of Delhi if it is the government's. The sources disagree (INC-DEL-013), so the first step is to ask the office that the more credible account points to and rely on a transfer under section 6(3) of the Right to Information Act if it is the wrong one.",
+    "method": "RTI application, one subject matter: a copy of the order. Do not ask why it was made.",
+    "cost": "Rs 10 application fee on the Union portal (RTI-UNION-002). The Delhi government fee and route are not established in this archive.",
+    "legalBasis": "Right to Information Act 2005. An order made to bind the public is not an investigation record.",
+    "exposureRisk": false,
+    "notes": "A prohibitory order is made to be obeyed by the public, so it has to be knowable. A refusal to disclose it would be as useful a finding as the order.",
+    "resolves": []
+  },
+  {
+    "id": "FQ-022",
+    "sequence": 1,
+    "deadlineDriven": false,
+    "incidentId": "INC-0003",
+    "jurisdiction": "maharashtra",
+    "action": "Two applications. First, a copy of the First Information Report registered at Shivaji Park police station on 3 October 2026 (INC-MAH-003). Second, a copy of the written refusal of permission for the gathering of 2 October 2026, with its date and signatory.",
+    "authority": "Mumbai Police, for both. The office and its Public Information Officer have not been established in this archive.",
+    "method": "Separate applications, because the Maharashtra Right to Information Rules 2026 allow one subject matter per application and about 150 words (RTI-MAH-003). The portal is rtionline.maharashtra.gov.in; check that a Mumbai Police application can be filed there before assuming it.",
+    "cost": "The fee under the rules of 7 July 2026. It is not restated here because those rules superseded rules of 12 June (RTI-MAH-001); read the current schedule before filing.",
+    "legalBasis": "Right to Information Act 2005.",
+    "exposureRisk": false,
+    "notes": "The FIR settles who is named and who complained (INC-MAH-004). The refusal is the instrument with an author, and is the Maharashtra counterpart of the Kochi notice at FQ-019.",
+    "resolves": []
+  },
+  {
     "id": "FQ-002",
     "sequence": 2,
     "deadlineDriven": true,
@@ -3869,6 +4236,21 @@ WGO.importedFilings = [
     "legalBasis": "Right to Information Act 2005. Note that Anuradha Bhasin v. Union of India (2020) 3 SCC 637 requires such orders to be published, so this asks for a document the state was already obliged to make public. That is the strongest position an applicant can be in, and it should be said in the application.",
     "exposureRisk": false,
     "notes": "SEQUENCE 2, behind the preservation letters only. This is the best-shaped request in the queue and the reason is worth stating. Everything else this archive asks for is a record of what police did, which an office can plausibly say it does not hold, cannot locate, or has destroyed on schedule. This asks for a written order that certainly exists, whose author is a named office, whose legal power is cited in the reporting, and whose publication was already required by the Supreme Court. There is no honest 'no such record' answer available. A refusal is therefore as useful as a disclosure: a section 8 exemption claimed over an order the Court has said must be public is itself a documentable fact with a date on it. Do not bundle this with any question about the police action. One subject matter.",
+    "resolves": []
+  },
+  {
+    "id": "FQ-021",
+    "sequence": 2,
+    "deadlineDriven": false,
+    "incidentId": "INC-0001",
+    "jurisdiction": "delhi",
+    "action": "Obtain any order suspending telecommunications in the Jantar Mantar area on 2 October 2026, the officer's designation, and the Review Committee proceedings under rule 3(2) of the Telecommunications (Temporary Suspension of Services) Rules 2024, as for FQ-014.",
+    "authority": "Ministry of Home Affairs as the issuing authority for the July order; the Department of Telecommunications and the Commissioner of Delhi Police as alternatives. Whether the same office acted on 2 October is not established.",
+    "method": "RTI application, one subject matter, asking for the documents and not for an explanation.",
+    "cost": "Rs 10 application fee",
+    "legalBasis": "Right to Information Act 2005; Anuradha Bhasin v. Union of India (2020) 3 SCC 637 requires such orders to be published.",
+    "exposureRisk": false,
+    "notes": "Rests on a single report that a suspension happened (INC-DEL-015). If no order exists, the answer to the application says so, and that is a documentable fact with a date.",
     "resolves": []
   },
   {
@@ -4486,6 +4868,44 @@ WGO.importedIncidentFacts = {
     ],
     "state": [
       "REPORTED"
+    ]
+  },
+  "INC-0006": {
+    "dates": [
+      "2 October 2026"
+    ],
+    "places": [
+      "an independent journalist accused an Assistant Commissioner of Police of hitting her on the chest while she filmed the detention of a student leader",
+      "internet services were suspended in the Jantar Mantar area for several hours"
+    ],
+    "evidenceIds": [
+      "INC-DEL-011",
+      "INC-DEL-012",
+      "INC-DEL-013",
+      "INC-DEL-014",
+      "INC-DEL-015",
+      "INC-DEL-016"
+    ],
+    "state": [
+      "CORROBORATED",
+      "DISPUTED",
+      "REPORTED"
+    ]
+  },
+  "INC-0007": {
+    "dates": [
+      "3 October 2026"
+    ],
+    "places": [
+      "Shivaji Park police station on 3 October 2026 over the Cockroach Janta Party gathering held at Shivaji Park"
+    ],
+    "evidenceIds": [
+      "INC-MAH-003",
+      "INC-MAH-004"
+    ],
+    "state": [
+      "CORROBORATED",
+      "DISPUTED"
     ]
   }
 };

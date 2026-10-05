@@ -3761,5 +3761,263 @@
       }
     ],
     "added_on": "2026-09-23"
+  },
+  {
+    "id": "INC-DEL-011",
+    "jurisdiction": "delhi",
+    "category": "incident",
+    "incident": "INC-0006",
+    "claim": "On Friday 2 October 2026 Delhi Police detained several hundred people who were trying to reach Jantar Mantar to demand the resignation of the Chief Election Commissioner, Gyanesh Kumar, over the Special Intensive Revision of electoral rolls. Al Jazeera reports over 500 detained by about 3 pm. The Week and Outlook report over 700, Outlook attributing the figure to police officials and saying protesters had counted more than 600 by the afternoon. Reuters describes batches of student protesters put onto buses and taken away. Those detained are reported to include opposition political leaders and members of the student organisations AISA, SFI and NSUI.",
+    "confidence": "CORROBORATED",
+    "notes": "The figures differ but may not conflict: 500 by mid-afternoon and 700 by the end of the day are consistent with each other, and the sources do not say when each count was taken. The archive records both and does not choose. Detention under a prohibitory order is not a finding of force, and this record makes none. Outlook reports Delhi Police, the Rapid Action Force and the CRPF at the site, and quotes a Delhi Police officer putting the deployment at more than 1,000 personnel. Al Jazeera reports at least 11 metro stations closed around Jantar Mantar. Al Jazeera takes its figures from Reuters and The Times of India, so it is not independent of them; The Week and Outlook are separate reports.",
+    "volatility": "medium",
+    "sources": [
+      {
+        "url": "https://www.aljazeera.com/news/2026/10/2/indian-authorities-clamp-down-as-cockroach-movement-launches-new-protests",
+        "source_type": "secondary",
+        "publication": "Al Jazeera",
+        "retrieved_on": "2026-10-05",
+        "originates_from": "Reuters and The Times of India, as cited in the article"
+      },
+      {
+        "url": "https://www.theweek.in/news/india/2026/10/04/cjp-demands-fir-sexual-harassment-vivek-bhagat-fir-delay-delhi-police-cec-protest.html",
+        "source_type": "secondary",
+        "publication": "The Week",
+        "retrieved_on": "2026-10-05",
+        "archive_url": "http://web.archive.org/web/20261004113814/https://www.theweek.in/news/india/2026/10/04/cjp-demands-fir-sexual-harassment-vivek-bhagat-fir-delay-delhi-police-cec-protest.html",
+        "archived_on": "2026-10-05"
+      },
+      {
+        "url": "https://www.outlookindia.com/national/inside-jantar-mantar-where-barricades-replaced-protesters-and-buses-awaited-detainees",
+        "source_type": "secondary",
+        "publication": "Outlook",
+        "retrieved_on": "2026-10-05",
+        "archive_url": "http://web.archive.org/web/20261004035926/https://www.outlookindia.com/national/inside-jantar-mantar-where-barricades-replaced-protesters-and-buses-awaited-detainees",
+        "archived_on": "2026-10-05"
+      },
+      {
+        "url": "https://kathmandupost.com/world/2026/10/03/hundreds-from-india-s-gen-z-led-cockroach-party-protest-seek-election-chief-s-resignation",
+        "source_type": "secondary",
+        "publication": "The Kathmandu Post",
+        "retrieved_on": "2026-10-05",
+        "originates_from": "Reuters",
+        "archive_url": "http://web.archive.org/web/20261004084151/https://kathmandupost.com/world/2026/10/03/hundreds-from-india-s-gen-z-led-cockroach-party-protest-seek-election-chief-s-resignation",
+        "archived_on": "2026-10-05"
+      }
+    ],
+    "added_on": "2026-10-05"
+  },
+  {
+    "id": "INC-DEL-012",
+    "jurisdiction": "delhi",
+    "category": "incident",
+    "incident": "INC-0006",
+    "claim": "A prohibitory order under section 163 of the Bharatiya Nagarik Suraksha Sanhita 2023 was in force across New Delhi district on 2 October 2026. Al Jazeera, citing The Times of India, says it barred gatherings of more than five people, slogans, speeches and protest activity. Outlook says it restricted gatherings of five or more people without permission.",
+    "confidence": "CORROBORATED",
+    "notes": "Three outlets report that the order existed. They word its scope slightly differently (\"more than five\" and \"five or more\"), and the archive holds no copy of the order, so the wording is a report of it. The order is a written instrument with a date, an issuing office and a text, which is what separates it from the force question on INC-0001. Who issued it is recorded separately at INC-DEL-013. The section number is quoted as the reports give it and has not been checked against the current text of the Sanhita by anyone who practises.",
+    "volatility": "medium",
+    "sources": [
+      {
+        "url": "https://www.aljazeera.com/news/2026/10/2/indian-authorities-clamp-down-as-cockroach-movement-launches-new-protests",
+        "source_type": "secondary",
+        "publication": "Al Jazeera",
+        "retrieved_on": "2026-10-05",
+        "originates_from": "Reuters and The Times of India, as cited in the article"
+      },
+      {
+        "url": "https://www.theweek.in/news/india/2026/10/04/cjp-demands-fir-sexual-harassment-vivek-bhagat-fir-delay-delhi-police-cec-protest.html",
+        "source_type": "secondary",
+        "publication": "The Week",
+        "retrieved_on": "2026-10-05",
+        "archive_url": "http://web.archive.org/web/20261004113814/https://www.theweek.in/news/india/2026/10/04/cjp-demands-fir-sexual-harassment-vivek-bhagat-fir-delay-delhi-police-cec-protest.html",
+        "archived_on": "2026-10-05"
+      },
+      {
+        "url": "https://www.outlookindia.com/national/inside-jantar-mantar-where-barricades-replaced-protesters-and-buses-awaited-detainees",
+        "source_type": "secondary",
+        "publication": "Outlook",
+        "retrieved_on": "2026-10-05",
+        "archive_url": "http://web.archive.org/web/20261004035926/https://www.outlookindia.com/national/inside-jantar-mantar-where-barricades-replaced-protesters-and-buses-awaited-detainees",
+        "archived_on": "2026-10-05"
+      }
+    ],
+    "added_on": "2026-10-05"
+  },
+  {
+    "id": "INC-DEL-013",
+    "jurisdiction": "delhi",
+    "category": "incident",
+    "incident": "INC-0006",
+    "claim": "The sources disagree on which office issued the section 163 order of 2 October 2026. Al Jazeera, citing The Times of India, says Delhi Police imposed it. Outlook says it was issued by the Delhi government.",
+    "confidence": "DISPUTED",
+    "notes": "Not resolved here. The two answers lead to different custodians and different RTI routes: Delhi Police sits under the Union Home Ministry, while the Delhi government is a separate public authority. Neither source quotes the order or names a signatory. See OQ-055.",
+    "volatility": "medium",
+    "sources": [
+      {
+        "url": "https://www.aljazeera.com/news/2026/10/2/indian-authorities-clamp-down-as-cockroach-movement-launches-new-protests",
+        "source_type": "secondary",
+        "publication": "Al Jazeera",
+        "retrieved_on": "2026-10-05",
+        "originates_from": "Reuters and The Times of India, as cited in the article"
+      },
+      {
+        "url": "https://www.outlookindia.com/national/inside-jantar-mantar-where-barricades-replaced-protesters-and-buses-awaited-detainees",
+        "source_type": "secondary",
+        "publication": "Outlook",
+        "retrieved_on": "2026-10-05",
+        "archive_url": "http://web.archive.org/web/20261004035926/https://www.outlookindia.com/national/inside-jantar-mantar-where-barricades-replaced-protesters-and-buses-awaited-detainees",
+        "archived_on": "2026-10-05"
+      }
+    ],
+    "added_on": "2026-10-05"
+  },
+  {
+    "id": "INC-DEL-014",
+    "jurisdiction": "delhi",
+    "category": "incident",
+    "incident": "INC-0006",
+    "claim": "Outlook reports that protesters alleged they were dragged along the road and beaten with batons during the detentions of 2 October 2026, and that a history student from Miranda House reported bruises. Reuters, as carried by Al Jazeera and The Kathmandu Post, reports protesters shoved and bundled onto buses, and says police prevented gatherings without describing other physical force.",
+    "confidence": "REPORTED",
+    "notes": "These are allegations made by protesters, reported by one outlet, beside a wire report that describes shoving and no more. The archive does not hold footage, a medical record or a police account. None of the articles read for this entry mentions tear gas, pellets or firearms; that is an absence in those articles and not a finding that none were used. See OQ-060.",
+    "volatility": "medium",
+    "sources": [
+      {
+        "url": "https://www.outlookindia.com/national/inside-jantar-mantar-where-barricades-replaced-protesters-and-buses-awaited-detainees",
+        "source_type": "secondary",
+        "publication": "Outlook",
+        "retrieved_on": "2026-10-05",
+        "archive_url": "http://web.archive.org/web/20261004035926/https://www.outlookindia.com/national/inside-jantar-mantar-where-barricades-replaced-protesters-and-buses-awaited-detainees",
+        "archived_on": "2026-10-05"
+      },
+      {
+        "url": "https://kathmandupost.com/world/2026/10/03/hundreds-from-india-s-gen-z-led-cockroach-party-protest-seek-election-chief-s-resignation",
+        "source_type": "secondary",
+        "publication": "The Kathmandu Post",
+        "retrieved_on": "2026-10-05",
+        "originates_from": "Reuters",
+        "archive_url": "http://web.archive.org/web/20261004084151/https://kathmandupost.com/world/2026/10/03/hundreds-from-india-s-gen-z-led-cockroach-party-protest-seek-election-chief-s-resignation",
+        "archived_on": "2026-10-05"
+      },
+      {
+        "url": "https://www.aljazeera.com/news/2026/10/2/indian-authorities-clamp-down-as-cockroach-movement-launches-new-protests",
+        "source_type": "secondary",
+        "publication": "Al Jazeera",
+        "retrieved_on": "2026-10-05",
+        "originates_from": "Reuters and The Times of India, as cited in the article"
+      }
+    ],
+    "added_on": "2026-10-05"
+  },
+  {
+    "id": "INC-DEL-015",
+    "jurisdiction": "delhi",
+    "category": "incident",
+    "incident": "INC-0006",
+    "claim": "Outlook reports that internet services were suspended in the Jantar Mantar area for several hours on 2 October 2026.",
+    "confidence": "REPORTED",
+    "notes": "One source. No suspension order has been located. The July suspension order recorded at INC-DEL-007 shows the form such an order takes and which office signs it, and a suspension order is the kind of instrument the Supreme Court has said must be published (see PREC-SHUT-001). Whether a separate order was made on 2 October, and by whom, is OQ-056.",
+    "volatility": "medium",
+    "sources": [
+      {
+        "url": "https://www.outlookindia.com/national/inside-jantar-mantar-where-barricades-replaced-protesters-and-buses-awaited-detainees",
+        "source_type": "secondary",
+        "publication": "Outlook",
+        "retrieved_on": "2026-10-05",
+        "archive_url": "http://web.archive.org/web/20261004035926/https://www.outlookindia.com/national/inside-jantar-mantar-where-barricades-replaced-protesters-and-buses-awaited-detainees",
+        "archived_on": "2026-10-05"
+      }
+    ],
+    "added_on": "2026-10-05"
+  },
+  {
+    "id": "INC-DEL-016",
+    "jurisdiction": "delhi",
+    "category": "incident",
+    "incident": "INC-0006",
+    "claim": "The Week reports that an independent journalist accused an Assistant Commissioner of Police of hitting her on the chest while she filmed the detention of a student leader on 2 October 2026, and that she waited over three hours at a police station without an FIR being registered. It reports complaints from three women alleging sexual offences during the protest of 2 and 3 October, which the New Delhi district transferred to the Crime Branch at Kamla Market, and three FIRs registered over the protest in which no individual or organisation was named as an accused. The Cockroach Janta Party is reported to have demanded an FIR against the officer by noon on 4 October.",
+    "confidence": "REPORTED",
+    "notes": "One source for all of it. The officer is named in the source and not here, on the rule the archive applies to a private person and to an unproven allegation: holding a post is not evidence of having done what is alleged. The complaints are allegations and are recorded as such. The Week's text says \"sexual assault\" while its address says \"sexual harassment\", so the nature of the complaints is not settled by the source. No complainant is named in the source or here. See OQ-057.",
+    "volatility": "high",
+    "sources": [
+      {
+        "url": "https://www.theweek.in/news/india/2026/10/04/cjp-demands-fir-sexual-harassment-vivek-bhagat-fir-delay-delhi-police-cec-protest.html",
+        "source_type": "secondary",
+        "publication": "The Week",
+        "retrieved_on": "2026-10-05",
+        "archive_url": "http://web.archive.org/web/20261004113814/https://www.theweek.in/news/india/2026/10/04/cjp-demands-fir-sexual-harassment-vivek-bhagat-fir-delay-delhi-police-cec-protest.html",
+        "archived_on": "2026-10-05"
+      }
+    ],
+    "added_on": "2026-10-05"
+  },
+  {
+    "id": "INC-MAH-003",
+    "jurisdiction": "maharashtra",
+    "category": "incident",
+    "incident": "INC-0007",
+    "claim": "Mumbai Police registered a First Information Report at Shivaji Park police station on 3 October 2026 over the Cockroach Janta Party gathering held at Shivaji Park on Friday 2 October 2026 against the organisers and 400 to 500 unidentified supporters, under sections 189 and 223 of the Bharatiya Nyaya Sanhita read with sections 37(1)(3) and 135 of the Maharashtra Police Act. The gathering demanded the resignation of the Chief Election Commissioner over the Special Intensive Revision. All three sources report that police had refused permission. ANI, as carried by Asianet News, gives the stated ground as a Bombay High Court judgment in PIL 116/2009 dated 4 January 2013 and a later Maharashtra government order. No arrests are reported.",
+    "confidence": "CORROBORATED",
+    "notes": "The same class of record as INC-MAH-002: a case registered for assembling without permission, with no use of force established and none alleged in these sources. A refusal of permission is a written instrument with a date and a signatory, and the FIR is a second one; both can be asked for (OQ-059, FQ-022). The Free Press Journal also reports an altercation between supporters and a group opposing the demonstration after the gathering ended, with police intervening; that is one source and is not a finding about the police. The Supreme Court order of 1 September 2026 recorded at PROC-SC-014 is reported to cover FIRs over the protests of 20 to 25 July; this is a different gathering, and the archive draws no conclusion about how the order bears on it. The sections are quoted as the reports give them and have not been checked against the current text by anyone who practises. Who is named and who complained is DISPUTED at INC-MAH-004.",
+    "volatility": "medium",
+    "sources": [
+      {
+        "url": "https://www.freepressjournal.in/mumbai/hours-after-abhijeet-dipke-thanks-police-cjp-organisers-400-500-supporters-booked-over-shivaji-park-protest",
+        "source_type": "secondary",
+        "publication": "Free Press Journal",
+        "retrieved_on": "2026-10-05",
+        "archive_url": "http://web.archive.org/web/20261004104721/https://www.freepressjournal.in/mumbai/hours-after-abhijeet-dipke-thanks-police-cjp-organisers-400-500-supporters-booked-over-shivaji-park-protest",
+        "archived_on": "2026-10-05"
+      },
+      {
+        "url": "https://newsable.asianetnews.com/india/mumbai-police-files-fir-against-cockroach-janta-party-protest-organisers-articleshow-0lztfwn",
+        "source_type": "secondary",
+        "publication": "Asianet News",
+        "retrieved_on": "2026-10-05",
+        "originates_from": "ANI"
+      },
+      {
+        "url": "https://www.tribuneindia.com/news/india/cjp-protest-at-shivaji-park-fir-registered-against-organisers-400-500-unidentified-persons/",
+        "source_type": "secondary",
+        "publication": "The Tribune",
+        "retrieved_on": "2026-10-05",
+        "originates_from": "PTI"
+      }
+    ],
+    "added_on": "2026-10-05"
+  },
+  {
+    "id": "INC-MAH-004",
+    "jurisdiction": "maharashtra",
+    "category": "incident",
+    "incident": "INC-0007",
+    "claim": "The three sources read for the Mumbai FIR of 3 October 2026 disagree on who it names and who made the complaint. PTI, as carried by The Tribune, identifies one organiser, Abhijeet Dipke, and says the complaint came from a private resident of the Shivaji Park area and is not a case registered on the police's own motion. ANI, as carried by Asianet News, names four organisers (Abhijeet Dipke, Ashutosh Ranka, Saurav Das and Ratna Singh) and says the complaint was made by an advocate living in the area. The Free Press Journal names two (Abhijeet Dipke and Ajinkya Shinde) and says an advocate filed a separate complaint.",
+    "confidence": "DISPUTED",
+    "notes": "Not resolved here, and not resolvable from reporting: the FIR is the document that settles it. The three accounts agree that Abhijeet Dipke is named. Whether the case rests on a private complaint or was registered by the police is a real difference, because it changes which office to ask. The complainant is a private person and is not named in this record. See OQ-058.",
+    "volatility": "high",
+    "sources": [
+      {
+        "url": "https://www.tribuneindia.com/news/india/cjp-protest-at-shivaji-park-fir-registered-against-organisers-400-500-unidentified-persons/",
+        "source_type": "secondary",
+        "publication": "The Tribune",
+        "retrieved_on": "2026-10-05",
+        "originates_from": "PTI"
+      },
+      {
+        "url": "https://newsable.asianetnews.com/india/mumbai-police-files-fir-against-cockroach-janta-party-protest-organisers-articleshow-0lztfwn",
+        "source_type": "secondary",
+        "publication": "Asianet News",
+        "retrieved_on": "2026-10-05",
+        "originates_from": "ANI"
+      },
+      {
+        "url": "https://www.freepressjournal.in/mumbai/hours-after-abhijeet-dipke-thanks-police-cjp-organisers-400-500-supporters-booked-over-shivaji-park-protest",
+        "source_type": "secondary",
+        "publication": "Free Press Journal",
+        "retrieved_on": "2026-10-05",
+        "archive_url": "http://web.archive.org/web/20261004104721/https://www.freepressjournal.in/mumbai/hours-after-abhijeet-dipke-thanks-police-cjp-organisers-400-500-supporters-booked-over-shivaji-park-protest",
+        "archived_on": "2026-10-05"
+      }
+    ],
+    "added_on": "2026-10-05"
   }
 ]

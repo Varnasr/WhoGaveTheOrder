@@ -290,5 +290,44 @@
     "legal_basis": "Right to Information Act. None of these is an investigation record, so the usual refusal ground is weaker than it is for a case diary.",
     "exposure_risk": false,
     "notes": "This is the cheapest route to a named author anywhere in this archive, and it exists only outside Delhi. A lathi charge leaves no order; a refusal of permission and a withdrawal of cases are both written by somebody, carry a date, and sit in a file that survives the news cycle. Bihar and West Bengal are both reported to have used the same cut-off, 6 pm on 26 July 2026, which is an odd coincidence between two states and is itself worth asking about: the file noting should say where the line came from."
+  },
+  {
+    "id": "FQ-020",
+    "sequence": 1,
+    "deadline_driven": false,
+    "jurisdiction": "delhi",
+    "action": "Obtain the section 163 BNSS order in force across New Delhi district on 2 October 2026 recorded at INC-DEL-012, with its date, its signatory, the area and hours it covered and the ground it states.",
+    "authority": "Delhi Police if the order is theirs; the Government of NCT of Delhi if it is the government's. The sources disagree (INC-DEL-013), so the first step is to ask the office that the more credible account points to and rely on a transfer under section 6(3) of the Right to Information Act if it is the wrong one.",
+    "method": "RTI application, one subject matter: a copy of the order. Do not ask why it was made.",
+    "cost": "Rs 10 application fee on the Union portal (RTI-UNION-002). The Delhi government fee and route are not established in this archive.",
+    "legal_basis": "Right to Information Act 2005. An order made to bind the public is not an investigation record.",
+    "exposure_risk": false,
+    "notes": "A prohibitory order is made to be obeyed by the public, so it has to be knowable. A refusal to disclose it would be as useful a finding as the order."
+  },
+  {
+    "id": "FQ-021",
+    "sequence": 2,
+    "deadline_driven": false,
+    "jurisdiction": "delhi",
+    "action": "Obtain any order suspending telecommunications in the Jantar Mantar area on 2 October 2026, the officer's designation, and the Review Committee proceedings under rule 3(2) of the Telecommunications (Temporary Suspension of Services) Rules 2024, as for FQ-014.",
+    "authority": "Ministry of Home Affairs as the issuing authority for the July order; the Department of Telecommunications and the Commissioner of Delhi Police as alternatives. Whether the same office acted on 2 October is not established.",
+    "method": "RTI application, one subject matter, asking for the documents and not for an explanation.",
+    "cost": "Rs 10 application fee",
+    "legal_basis": "Right to Information Act 2005; Anuradha Bhasin v. Union of India (2020) 3 SCC 637 requires such orders to be published.",
+    "exposure_risk": false,
+    "notes": "Rests on a single report that a suspension happened (INC-DEL-015). If no order exists, the answer to the application says so, and that is a documentable fact with a date."
+  },
+  {
+    "id": "FQ-022",
+    "sequence": 1,
+    "deadline_driven": false,
+    "jurisdiction": "maharashtra",
+    "action": "Two applications. First, a copy of the First Information Report registered at Shivaji Park police station on 3 October 2026 (INC-MAH-003). Second, a copy of the written refusal of permission for the gathering of 2 October 2026, with its date and signatory.",
+    "authority": "Mumbai Police, for both. The office and its Public Information Officer have not been established in this archive.",
+    "method": "Separate applications, because the Maharashtra Right to Information Rules 2026 allow one subject matter per application and about 150 words (RTI-MAH-003). The portal is rtionline.maharashtra.gov.in; check that a Mumbai Police application can be filed there before assuming it.",
+    "cost": "The fee under the rules of 7 July 2026. It is not restated here because those rules superseded rules of 12 June (RTI-MAH-001); read the current schedule before filing.",
+    "legal_basis": "Right to Information Act 2005.",
+    "exposure_risk": false,
+    "notes": "The FIR settles who is named and who complained (INC-MAH-004). The refusal is the instrument with an author, and is the Maharashtra counterpart of the Kochi notice at FQ-019."
   }
 ]
