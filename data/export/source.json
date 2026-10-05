@@ -910,7 +910,7 @@
     "publisher": null,
     "retrievedOn": "2026-10-05",
     "sha256": null,
-    "archiveUrl": null
+    "archiveUrl": "http://web.archive.org/web/20261003173831/https://www.aljazeera.com/news/2026/10/2/indian-authorities-clamp-down-as-cockroach-movement-launches-new-protests"
   },
   {
     "id": "SRC-0113",
@@ -946,6 +946,50 @@
     "archiveUrl": "http://web.archive.org/web/20261004084151/https://kathmandupost.com/world/2026/10/03/hundreds-from-india-s-gen-z-led-cockroach-party-protest-seek-election-chief-s-resignation"
   },
   {
+    "id": "SRC-0119",
+    "kind": "Source",
+    "title": "Deccan Chronicle",
+    "state": null,
+    "url": "https://www.deccanchronicle.com/amp/nation/500-protesters-aap-leaders-detained-at-jantar-mantar-over-sir-1992491",
+    "publisher": null,
+    "retrievedOn": "2026-10-05",
+    "sha256": null,
+    "archiveUrl": "http://web.archive.org/web/20261002082447/https://www.deccanchronicle.com/amp/nation/500-protesters-aap-leaders-detained-at-jantar-mantar-over-sir-1992491"
+  },
+  {
+    "id": "SRC-0120",
+    "kind": "Source",
+    "title": "ThePrint",
+    "state": null,
+    "url": "https://theprint.in/india/nearly-200-detained-as-aisa-other-protesters-return-to-jantar-mantar/3061293/",
+    "publisher": null,
+    "retrievedOn": "2026-10-05",
+    "sha256": null,
+    "archiveUrl": "http://web.archive.org/web/20261004123121/https://theprint.in/india/nearly-200-detained-as-aisa-other-protesters-return-to-jantar-mantar/3061293/"
+  },
+  {
+    "id": "SRC-0121",
+    "kind": "Source",
+    "title": "Outlook (second report)",
+    "state": null,
+    "url": "https://www.outlookindia.com/national/delhi-police-register-3-firs-over-jantar-mantar-protests-seeking-cec-gyanesh-kumars-resignation",
+    "publisher": null,
+    "retrievedOn": "2026-10-05",
+    "sha256": null,
+    "archiveUrl": "http://web.archive.org/web/20261003115714/https://www.outlookindia.com/national/delhi-police-register-3-firs-over-jantar-mantar-protests-seeking-cec-gyanesh-kumars-resignation"
+  },
+  {
+    "id": "SRC-0122",
+    "kind": "Source",
+    "title": "tob.news",
+    "state": null,
+    "url": "https://tob.news/aap-leaders-held-at-jantar-mantar-internet-suspended/",
+    "publisher": null,
+    "retrievedOn": "2026-10-05",
+    "sha256": null,
+    "archiveUrl": "http://web.archive.org/web/20261002113759/https://tob.news/aap-leaders-held-at-jantar-mantar-internet-suspended/"
+  },
+  {
     "id": "SRC-0116",
     "kind": "Source",
     "title": "Free Press Journal",
@@ -965,7 +1009,7 @@
     "publisher": null,
     "retrievedOn": "2026-10-05",
     "sha256": null,
-    "archiveUrl": null
+    "archiveUrl": "http://web.archive.org/web/20261004063229/https://newsable.asianetnews.com/india/mumbai-police-files-fir-against-cockroach-janta-party-protest-organisers-articleshow-0lztfwn"
   },
   {
     "id": "SRC-0118",
@@ -973,6 +1017,83 @@
     "title": "The Tribune",
     "state": null,
     "url": "https://www.tribuneindia.com/news/india/cjp-protest-at-shivaji-park-fir-registered-against-organisers-400-500-unidentified-persons/",
+    "publisher": null,
+    "retrievedOn": "2026-10-05",
+    "sha256": null,
+    "archiveUrl": null
+  },
+  {
+    "id": "SRC-0123",
+    "kind": "Source",
+    "title": "The News Mill",
+    "state": null,
+    "url": "https://thenewsmill.com/2026/10/around-15-delhi-police-injured-and-110-detained-during-jantar-mantar-protest/",
+    "publisher": null,
+    "retrievedOn": "2026-10-05",
+    "sha256": null,
+    "archiveUrl": null
+  },
+  {
+    "id": "SRC-0124",
+    "kind": "Source",
+    "title": "DT Next",
+    "state": null,
+    "url": "https://www.dtnext.in/news/national/delhi-police-denies-permission-for-oct-2-protest-against-cec-at-jantar-mantar-security-beefed-up",
+    "publisher": null,
+    "retrievedOn": "2026-10-05",
+    "sha256": null,
+    "archiveUrl": null
+  },
+  {
+    "id": "SRC-0125",
+    "kind": "Source",
+    "title": "Bar and Bench",
+    "state": null,
+    "url": "https://www.barandbench.com/news/youth-congress-moves-delhi-high-court-against-denial-of-permission-to-protest-against-cec-gyanesh-kumar",
+    "publisher": null,
+    "retrievedOn": "2026-10-05",
+    "sha256": null,
+    "archiveUrl": null
+  },
+  {
+    "id": "SRC-0126",
+    "kind": "Source",
+    "title": "IBTimes India",
+    "state": null,
+    "url": "https://www.ibtimes.co.in/delhi-police-skip-name-tags-jantar-mantar-cjps-saurav-das-alleges-govt-plans-arrests-ahead-oct-906989",
+    "publisher": null,
+    "retrievedOn": "2026-10-05",
+    "sha256": null,
+    "archiveUrl": null
+  },
+  {
+    "id": "SRC-0127",
+    "kind": "Source",
+    "title": "ThePrint",
+    "state": null,
+    "url": "https://theprint.in/india/3-women-journalists-allege-sexual-harassment-by-police-crime-branch-to-launch-probe/3061828/",
+    "publisher": null,
+    "retrievedOn": "2026-10-05",
+    "sha256": null,
+    "archiveUrl": null
+  },
+  {
+    "id": "SRC-0128",
+    "kind": "Source",
+    "title": "Deccan Chronicle",
+    "state": null,
+    "url": "https://www.deccanchronicle.com/nation/crime/three-women-journalists-allege-sexual-harassment-by-police-at-jantar-mantar-1992998",
+    "publisher": null,
+    "retrievedOn": "2026-10-05",
+    "sha256": null,
+    "archiveUrl": "http://web.archive.org/web/20261004090801/https://www.deccanchronicle.com/nation/crime/three-women-journalists-allege-sexual-harassment-by-police-at-jantar-mantar-1992998"
+  },
+  {
+    "id": "SRC-0129",
+    "kind": "Source",
+    "title": "LiveLaw",
+    "state": null,
+    "url": "https://www.livelaw.in/amp/top-stories/supreme-court-agrees-to-list-plea-seeking-permission-for-peaceful-protests-in-delhi-amid-agitation-against-cec-gyanesh-kumar-553087",
     "publisher": null,
     "retrievedOn": "2026-10-05",
     "sha256": null,

@@ -805,13 +805,16 @@
     "type": "OTHER_DOCUMENT",
     "incidentId": "INC-0006",
     "dateOfItem": null,
-    "establishes": "The figures differ but may not conflict: 500 by mid-afternoon and 700 by the end of the day are consistent with each other, and the sources do not say when each count was taken. The archive records both and does not choose. Detention under a prohibitory order is not a finding of force, and this record makes none. Outlook reports Delhi Police, the Rapid Action Force and the CRPF at the site, and quotes a Delhi Police officer putting the deployment at more than 1,000 personnel. Al Jazeera reports at least 11 metro stations closed around Jantar Mantar. Al Jazeera takes its figures from Reuters and The Times of India, so it is not independent of them; The Week and Outlook are separate reports.",
+    "establishes": "The figures differ but may not conflict: 500 by mid-afternoon, 700 and about 1,000 by the end of the day are consistent with each other, and most sources do not say when each count was taken. The components reported for the Hindustan Times figure do not sum to 1,000 as they are summarised, which is a reason to read the original before quoting it. The archive records every figure and does not choose. Detention under a prohibitory order is not a finding of force, and this record makes none. Outlook reports Delhi Police, the Rapid Action Force and the CRPF at the site, and quotes a Delhi Police officer putting the deployment at more than 1,000 personnel; its later report, citing Hindustan Times, says more than 5,000. Al Jazeera reports at least 11 metro stations closed; Deccan Chronicle says 12. Al Jazeera takes its figures from Reuters and The Times of India, so it is not independent of them; the others are separate reports.",
     "doesNotEstablish": null,
     "sourceIds": [
       "SRC-0112",
       "SRC-0113",
       "SRC-0114",
-      "SRC-0115"
+      "SRC-0115",
+      "SRC-0119",
+      "SRC-0120",
+      "SRC-0121"
     ]
   },
   {
@@ -840,11 +843,12 @@
     "type": "OTHER_DOCUMENT",
     "incidentId": "INC-0006",
     "dateOfItem": null,
-    "establishes": "Not resolved here. The two answers lead to different custodians and different RTI routes: Delhi Police sits under the Union Home Ministry, while the Delhi government is a separate public authority. Neither source quotes the order or names a signatory. See OQ-055.",
+    "establishes": "Not resolved here. The two answers lead to different custodians and different RTI routes: Delhi Police sits under the Union Home Ministry, while the Delhi government is a separate public authority. Neither source quotes the order or names a signatory. See OQ-055. A further Outlook report, citing Hindustan Times, says Delhi Police imposed the restrictions on the Friday morning, which sits with the Al Jazeera account and against Outlook's own earlier statement that the Delhi government issued the order. The dispute stays open until the order is read.",
     "doesNotEstablish": null,
     "sourceIds": [
       "SRC-0112",
-      "SRC-0114"
+      "SRC-0114",
+      "SRC-0121"
     ]
   },
   {
@@ -867,16 +871,18 @@
   {
     "id": "INC-DEL-015",
     "kind": "Evidence",
-    "title": "Outlook reports that internet services were suspended in the Jantar Mantar area for several hours on 2 October 2026.",
-    "state": "REPORTED",
+    "title": "Outlook, Deccan Chronicle and India TV (as carried by tob.news) report that internet services were suspended in the Jantar Mantar area on 2 October 2026. Outloo",
+    "state": "CORROBORATED",
     "url": "https://www.whogavetheorder.in/evidence.html?id=INC-DEL-015",
     "type": "OTHER_DOCUMENT",
     "incidentId": "INC-0006",
     "dateOfItem": null,
-    "establishes": "One source. No suspension order has been located. The July suspension order recorded at INC-DEL-007 shows the form such an order takes and which office signs it, and a suspension order is the kind of instrument the Supreme Court has said must be published (see PREC-SHUT-001). Whether a separate order was made on 2 October, and by whom, is OQ-056.",
+    "establishes": "Three outlets report the suspension; none quotes an order. One headline in the 3 October sweep reports the cut ran until 9 pm, but the page was not retrieved and the figure is not recorded here. The July order recorded at INC-DEL-007 shows the form such an order takes and which office signs it, and a suspension order is the kind of instrument the Supreme Court has said must be published (see PREC-SHUT-001). Whether a separate order was made on 2 October, and by whom, is OQ-056. India TV is the origin of the tob.news report and is not independent of it.",
     "doesNotEstablish": null,
     "sourceIds": [
-      "SRC-0114"
+      "SRC-0114",
+      "SRC-0119",
+      "SRC-0122"
     ]
   },
   {
@@ -888,7 +894,7 @@
     "type": "OTHER_DOCUMENT",
     "incidentId": "INC-0006",
     "dateOfItem": null,
-    "establishes": "One source for all of it. The officer is named in the source and not here, on the rule the archive applies to a private person and to an unproven allegation: holding a post is not evidence of having done what is alleged. The complaints are allegations and are recorded as such. The Week's text says \"sexual assault\" while its address says \"sexual harassment\", so the nature of the complaints is not settled by the source. No complainant is named in the source or here. See OQ-057.",
+    "establishes": "One source for all of it. The officer is named in the source and not here, on the rule the archive applies to a private person and to an unproven allegation: holding a post is not evidence of having done what is alleged. The complaints are allegations and are recorded as such. The Week's text says \"sexual assault\" while its address says \"sexual harassment\", so the nature of the complaints is not settled by the source. No complainant is named in the source or here. See OQ-057. Later reporting is recorded at INC-DEL-022: PTI and Deccan Chronicle report that the complaints were of sexual harassment, that no FIR was registered when the journalists went to a police station, and that the New Delhi district transferred the complaints to the Crime Branch for a fair and impartial enquiry. The Week describes the first allegation as a blow to the chest; PTI quotes the complaint as alleging sexual assault. The two wordings are different allegations and neither is resolved here. The three FIRs are recorded at INC-DEL-017.",
     "doesNotEstablish": null,
     "sourceIds": [
       "SRC-0113"
@@ -926,6 +932,130 @@
       "SRC-0118",
       "SRC-0117",
       "SRC-0116"
+    ]
+  },
+  {
+    "id": "INC-DEL-017",
+    "kind": "Evidence",
+    "title": "Three FIRs were registered on 3 October 2026 over the protest of 2 October at Jantar Mantar, at Parliament Street and Connaught Place police stations. Outlook, ",
+    "state": "CORROBORATED",
+    "url": "https://www.whogavetheorder.in/evidence.html?id=INC-DEL-017",
+    "type": "OTHER_DOCUMENT",
+    "incidentId": "INC-0006",
+    "dateOfItem": null,
+    "establishes": "Two reports with different origins (Hindustan Times and PTI) agree on the number, the offences of disobedience and no named accused, and differ in how many sections they list. The FIRs themselves would settle it. Outlook says organisers and participating organisations are mentioned in the FIRs even though none is named as accused. The sections are quoted as the reports give them and have not been checked against the current text by anyone who practises. This supersedes the single-source mention of three FIRs at INC-DEL-016.",
+    "doesNotEstablish": null,
+    "sourceIds": [
+      "SRC-0121",
+      "SRC-0120"
+    ]
+  },
+  {
+    "id": "INC-DEL-018",
+    "kind": "Evidence",
+    "title": "ThePrint, citing PTI and Delhi Police officials, reports that nearly 200 protesters were detained on Saturday 3 October 2026 as AISA and others returned to Jant",
+    "state": "REPORTED",
+    "url": "https://www.whogavetheorder.in/evidence.html?id=INC-DEL-018",
+    "type": "OTHER_DOCUMENT",
+    "incidentId": "INC-0006",
+    "dateOfItem": null,
+    "establishes": "One outlet for the figure and for the allegation. ThePrint carried an earlier version of the same story with a figure of around 150, so the count moved during the day. The bus allegation is made by a political organisation and is not corroborated here. Section 163 BNSS is described as in force on the Friday; the sources read do not say whether it was extended to Saturday.",
+    "doesNotEstablish": null,
+    "sourceIds": [
+      "SRC-0120"
+    ]
+  },
+  {
+    "id": "INC-DEL-019",
+    "kind": "Evidence",
+    "title": "The News Mill reports, on police sources, that around 15 Delhi Police personnel were injured, some women personnel reportedly by bites, and around 110 people we",
+    "state": "REPORTED",
+    "url": "https://www.whogavetheorder.in/evidence.html?id=INC-DEL-019",
+    "type": "OTHER_DOCUMENT",
+    "incidentId": "INC-0006",
+    "dateOfItem": null,
+    "establishes": "The police account of injuries to police is recorded because it is part of what happened and because an account that holds only protesters' allegations would be one-sided. One outlet, anonymous police sources, no statement on the record. The date is not settled by this source: the page was read as dating the protest to Sunday 5 October, and 5 October 2026 is a Monday; the Sunday of that weekend is 4 October. The archive has not corrected the source and records the date as the Sunday after 3 October.",
+    "doesNotEstablish": null,
+    "sourceIds": [
+      "SRC-0123"
+    ]
+  },
+  {
+    "id": "INC-DEL-020",
+    "kind": "Evidence",
+    "title": "Delhi Police refused permission for the protest planned at Jantar Mantar on 2 October 2026. DT Next reports it on unnamed police sources and says the protest wa",
+    "state": "CORROBORATED",
+    "url": "https://www.whogavetheorder.in/evidence.html?id=INC-DEL-020",
+    "type": "OTHER_DOCUMENT",
+    "incidentId": "INC-0006",
+    "dateOfItem": null,
+    "establishes": "The Indian Youth Congress order of 1 October is a written instrument with a date, and the Youth Congress has put it before the Delhi High Court (PROC-DEL-005), so a copy exists outside the police. It is the Delhi counterpart of the Maharashtra refusal at INC-MAH-003 and the Kochi notice at INC-KER-001. None of the sources names the officer or office that signed it. See OQ-061 and FQ-023.",
+    "doesNotEstablish": null,
+    "sourceIds": [
+      "SRC-0124",
+      "SRC-0119",
+      "SRC-0125"
+    ]
+  },
+  {
+    "id": "INC-DEL-021",
+    "kind": "Evidence",
+    "title": "IBTimes India reports that Delhi Police personnel at the Jantar Mantar protests did not wear name tags, that junior personnel were allowed to remove them while ",
+    "state": "REPORTED",
+    "url": "https://www.whogavetheorder.in/evidence.html?id=INC-DEL-021",
+    "type": "OTHER_DOCUMENT",
+    "incidentId": "INC-0006",
+    "dateOfItem": null,
+    "establishes": "One outlet. Hindustan Times and The Times of India headlines in the 5 October sweep carry the same story and were not retrieved. The record matters to this archive for a plain reason: an officer who cannot be identified cannot be asked who gave an order, and the explanation offered concerns harassment of officers and their families, which is a real harm and is recorded as the police's stated reason and not as the archive's view.",
+    "doesNotEstablish": null,
+    "sourceIds": [
+      "SRC-0126"
+    ]
+  },
+  {
+    "id": "INC-DEL-022",
+    "kind": "Evidence",
+    "title": "PTI and Deccan Chronicle report that three women journalists alleged sexual harassment by police personnel during the Jantar Mantar protest of 3 October 2026, t",
+    "state": "CORROBORATED",
+    "url": "https://www.whogavetheorder.in/evidence.html?id=INC-DEL-022",
+    "type": "OTHER_DOCUMENT",
+    "incidentId": "INC-0006",
+    "dateOfItem": null,
+    "establishes": "The complainants are not named here. PTI reports that an Assistant Commissioner of Police is named in the complaint and could not be reached for comment; the officer is not named in this record, on the rule that an unproven allegation does not put a name in the archive. Deccan Chronicle reports that protesters and opposition figures say police cited the Crime Branch inquiry as the reason for deferring an FIR. Whether an FIR has since been registered is OQ-057. This is the same set of complaints The Week reports at INC-DEL-016, in different words.",
+    "doesNotEstablish": null,
+    "sourceIds": [
+      "SRC-0127",
+      "SRC-0128"
+    ]
+  },
+  {
+    "id": "PROC-DEL-005",
+    "kind": "Evidence",
+    "title": "Bar and Bench reports that the president of the Indian Youth Congress moved the Delhi High Court on 3 October 2026 against Delhi Police's order of 1 October 202",
+    "state": "REPORTED",
+    "url": "https://www.whogavetheorder.in/evidence.html?id=PROC-DEL-005",
+    "type": "COURT_DOCUMENT",
+    "incidentId": "INC-0006",
+    "dateOfItem": null,
+    "establishes": "One source. The article gives no case number, bench or listing date, and none is recorded here. Retrieving the petition and the order of 1 October is FQ-023.",
+    "doesNotEstablish": null,
+    "sourceIds": [
+      "SRC-0125"
+    ]
+  },
+  {
+    "id": "PROC-SC-015",
+    "kind": "Evidence",
+    "title": "LiveLaw reports that on 5 October 2026 a bench headed by the Chief Justice of India, Surya Kant, agreed to list a plea seeking directions to Delhi Police to per",
+    "state": "REPORTED",
+    "url": "https://www.whogavetheorder.in/evidence.html?id=PROC-SC-015",
+    "type": "COURT_DOCUMENT",
+    "incidentId": "INC-0006",
+    "dateOfItem": null,
+    "establishes": "One source retrieved. Other outlets carry the story and were not read. Listing is not a hearing and no order on the merits is recorded. The petition and any order are to be retrieved from the Court's own site, as for FQ-016 and FQ-018.",
+    "doesNotEstablish": null,
+    "sourceIds": [
+      "SRC-0129"
     ]
   }
 ]

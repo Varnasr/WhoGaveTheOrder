@@ -580,5 +580,15 @@
     "incidentId": "INC-0001",
     "level": null,
     "evidenceIds": []
+  },
+  {
+    "id": "OQ-061",
+    "kind": "Question",
+    "title": "Who signed the Delhi Police order of 1 October 2026 refusing the Indian Youth Congress permission to demonstrate at Jantar Mantar, and what ground does it state?",
+    "state": "UNANSWERED",
+    "url": "https://www.whogavetheorder.in/investigation.html?id=jantar-mantar#OQ-061",
+    "incidentId": "INC-0001",
+    "level": null,
+    "evidenceIds": []
   }
 ]
