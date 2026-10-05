@@ -329,5 +329,18 @@
     "legal_basis": "Right to Information Act 2005.",
     "exposure_risk": false,
     "notes": "The FIR settles who is named and who complained (INC-MAH-004). The refusal is the instrument with an author, and is the Maharashtra counterpart of the Kochi notice at FQ-019."
+  },
+  {
+    "id": "FQ-023",
+    "sequence": 1,
+    "deadline_driven": false,
+    "jurisdiction": "delhi",
+    "action": "Obtain the Indian Youth Congress petition in the Delhi High Court recorded at PROC-DEL-005 and its annexure, the Delhi Police order of 1 October 2026 refusing permission, with any order the Court has made on it.",
+    "authority": "Delhi High Court registry and the Court's own published orders. The case number is not reported in the source read.",
+    "method": "Find the case number from the Court's cause list or order search, as the sweep does for W.P.(CRL.) 2127/2026 (FQ-004), then retrieve the petition and annexures through the Court's own route. The case-status search is behind a captcha.",
+    "cost": "Not established for a certified copy. Published orders are free.",
+    "legal_basis": "Court records are open to the public subject to the Court's rules.",
+    "exposure_risk": false,
+    "notes": "A court file is the cheapest route to the refusal order, because the petitioner has already put it in front of a judge and no Public Information Officer has to be persuaded."
   }
 ]
