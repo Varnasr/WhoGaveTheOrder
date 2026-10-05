@@ -795,5 +795,137 @@
       "SRC-0109",
       "SRC-0110"
     ]
+  },
+  {
+    "id": "INC-DEL-011",
+    "kind": "Evidence",
+    "title": "On Friday 2 October 2026 Delhi Police detained several hundred people who were trying to reach Jantar Mantar to demand the resignation of the Chief Election Com",
+    "state": "CORROBORATED",
+    "url": "https://www.whogavetheorder.in/evidence.html?id=INC-DEL-011",
+    "type": "OTHER_DOCUMENT",
+    "incidentId": "INC-0006",
+    "dateOfItem": null,
+    "establishes": "The figures differ but may not conflict: 500 by mid-afternoon and 700 by the end of the day are consistent with each other, and the sources do not say when each count was taken. The archive records both and does not choose. Detention under a prohibitory order is not a finding of force, and this record makes none. Outlook reports Delhi Police, the Rapid Action Force and the CRPF at the site, and quotes a Delhi Police officer putting the deployment at more than 1,000 personnel. Al Jazeera reports at least 11 metro stations closed around Jantar Mantar. Al Jazeera takes its figures from Reuters and The Times of India, so it is not independent of them; The Week and Outlook are separate reports.",
+    "doesNotEstablish": null,
+    "sourceIds": [
+      "SRC-0112",
+      "SRC-0113",
+      "SRC-0114",
+      "SRC-0115"
+    ]
+  },
+  {
+    "id": "INC-DEL-012",
+    "kind": "Evidence",
+    "title": "A prohibitory order under section 163 of the Bharatiya Nagarik Suraksha Sanhita 2023 was in force across New Delhi district on 2 October 2026. Al Jazeera, citin",
+    "state": "CORROBORATED",
+    "url": "https://www.whogavetheorder.in/evidence.html?id=INC-DEL-012",
+    "type": "OTHER_DOCUMENT",
+    "incidentId": "INC-0006",
+    "dateOfItem": null,
+    "establishes": "Three outlets report that the order existed. They word its scope slightly differently (\"more than five\" and \"five or more\"), and the archive holds no copy of the order, so the wording is a report of it. The order is a written instrument with a date, an issuing office and a text, which is what separates it from the force question on INC-0001. Who issued it is recorded separately at INC-DEL-013. The section number is quoted as the reports give it and has not been checked against the current text of the Sanhita by anyone who practises.",
+    "doesNotEstablish": null,
+    "sourceIds": [
+      "SRC-0112",
+      "SRC-0113",
+      "SRC-0114"
+    ]
+  },
+  {
+    "id": "INC-DEL-013",
+    "kind": "Evidence",
+    "title": "The sources disagree on which office issued the section 163 order of 2 October 2026. Al Jazeera, citing The Times of India, says Delhi Police imposed it. Outloo",
+    "state": "DISPUTED",
+    "url": "https://www.whogavetheorder.in/evidence.html?id=INC-DEL-013",
+    "type": "OTHER_DOCUMENT",
+    "incidentId": "INC-0006",
+    "dateOfItem": null,
+    "establishes": "Not resolved here. The two answers lead to different custodians and different RTI routes: Delhi Police sits under the Union Home Ministry, while the Delhi government is a separate public authority. Neither source quotes the order or names a signatory. See OQ-055.",
+    "doesNotEstablish": null,
+    "sourceIds": [
+      "SRC-0112",
+      "SRC-0114"
+    ]
+  },
+  {
+    "id": "INC-DEL-014",
+    "kind": "Evidence",
+    "title": "Outlook reports that protesters alleged they were dragged along the road and beaten with batons during the detentions of 2 October 2026, and that a history stud",
+    "state": "REPORTED",
+    "url": "https://www.whogavetheorder.in/evidence.html?id=INC-DEL-014",
+    "type": "OTHER_DOCUMENT",
+    "incidentId": "INC-0006",
+    "dateOfItem": null,
+    "establishes": "These are allegations made by protesters, reported by one outlet, beside a wire report that describes shoving and no more. The archive does not hold footage, a medical record or a police account. None of the articles read for this entry mentions tear gas, pellets or firearms; that is an absence in those articles and not a finding that none were used. See OQ-060.",
+    "doesNotEstablish": null,
+    "sourceIds": [
+      "SRC-0114",
+      "SRC-0115",
+      "SRC-0112"
+    ]
+  },
+  {
+    "id": "INC-DEL-015",
+    "kind": "Evidence",
+    "title": "Outlook reports that internet services were suspended in the Jantar Mantar area for several hours on 2 October 2026.",
+    "state": "REPORTED",
+    "url": "https://www.whogavetheorder.in/evidence.html?id=INC-DEL-015",
+    "type": "OTHER_DOCUMENT",
+    "incidentId": "INC-0006",
+    "dateOfItem": null,
+    "establishes": "One source. No suspension order has been located. The July suspension order recorded at INC-DEL-007 shows the form such an order takes and which office signs it, and a suspension order is the kind of instrument the Supreme Court has said must be published (see PREC-SHUT-001). Whether a separate order was made on 2 October, and by whom, is OQ-056.",
+    "doesNotEstablish": null,
+    "sourceIds": [
+      "SRC-0114"
+    ]
+  },
+  {
+    "id": "INC-DEL-016",
+    "kind": "Evidence",
+    "title": "The Week reports that an independent journalist accused an Assistant Commissioner of Police of hitting her on the chest while she filmed the detention of a stud",
+    "state": "REPORTED",
+    "url": "https://www.whogavetheorder.in/evidence.html?id=INC-DEL-016",
+    "type": "OTHER_DOCUMENT",
+    "incidentId": "INC-0006",
+    "dateOfItem": null,
+    "establishes": "One source for all of it. The officer is named in the source and not here, on the rule the archive applies to a private person and to an unproven allegation: holding a post is not evidence of having done what is alleged. The complaints are allegations and are recorded as such. The Week's text says \"sexual assault\" while its address says \"sexual harassment\", so the nature of the complaints is not settled by the source. No complainant is named in the source or here. See OQ-057.",
+    "doesNotEstablish": null,
+    "sourceIds": [
+      "SRC-0113"
+    ]
+  },
+  {
+    "id": "INC-MAH-003",
+    "kind": "Evidence",
+    "title": "Mumbai Police registered a First Information Report at Shivaji Park police station on 3 October 2026 over the Cockroach Janta Party gathering held at Shivaji Pa",
+    "state": "CORROBORATED",
+    "url": "https://www.whogavetheorder.in/evidence.html?id=INC-MAH-003",
+    "type": "OTHER_DOCUMENT",
+    "incidentId": "INC-0007",
+    "dateOfItem": null,
+    "establishes": "The same class of record as INC-MAH-002: a case registered for assembling without permission, with no use of force established and none alleged in these sources. A refusal of permission is a written instrument with a date and a signatory, and the FIR is a second one; both can be asked for (OQ-059, FQ-022). The Free Press Journal also reports an altercation between supporters and a group opposing the demonstration after the gathering ended, with police intervening; that is one source and is not a finding about the police. The Supreme Court order of 1 September 2026 recorded at PROC-SC-014 is reported to cover FIRs over the protests of 20 to 25 July; this is a different gathering, and the archive draws no conclusion about how the order bears on it. The sections are quoted as the reports give them and have not been checked against the current text by anyone who practises. Who is named and who complained is DISPUTED at INC-MAH-004.",
+    "doesNotEstablish": null,
+    "sourceIds": [
+      "SRC-0116",
+      "SRC-0117",
+      "SRC-0118"
+    ]
+  },
+  {
+    "id": "INC-MAH-004",
+    "kind": "Evidence",
+    "title": "The three sources read for the Mumbai FIR of 3 October 2026 disagree on who it names and who made the complaint. PTI, as carried by The Tribune, identifies one ",
+    "state": "DISPUTED",
+    "url": "https://www.whogavetheorder.in/evidence.html?id=INC-MAH-004",
+    "type": "OTHER_DOCUMENT",
+    "incidentId": "INC-0007",
+    "dateOfItem": null,
+    "establishes": "Not resolved here, and not resolvable from reporting: the FIR is the document that settles it. The three accounts agree that Abhijeet Dipke is named. Whether the case rests on a private complaint or was registered by the police is a real difference, because it changes which office to ask. The complainant is a private person and is not named in this record. See OQ-058.",
+    "doesNotEstablish": null,
+    "sourceIds": [
+      "SRC-0118",
+      "SRC-0117",
+      "SRC-0116"
+    ]
   }
 ]

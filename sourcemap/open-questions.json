@@ -656,5 +656,79 @@
       "CUS-SHUT-001",
       "PROC-SC-011"
     ]
+  },
+  {
+    "id": "OQ-055",
+    "priority": "high",
+    "category": "document_custody",
+    "jurisdiction": "delhi",
+    "question": "Which office issued the section 163 BNSS order in force across New Delhi district on 2 October 2026, on what date, covering what area and hours, and what does its text say?",
+    "why_it_matters": "The sources split on whether Delhi Police or the Delhi government issued it (INC-DEL-013), and the two answers lead to different custodians. Unlike a lathi charge, a prohibitory order is a written instrument with a date, a signatory and a stated ground, so this is a question a document can answer. No copy has been found.",
+    "lawful_route": "FQ-020. The route differs by custodian: Delhi Police uses the Union RTI portal; this archive has not established the Delhi government route.",
+    "blocks": [
+      "INC-DEL-012",
+      "INC-DEL-013"
+    ]
+  },
+  {
+    "id": "OQ-056",
+    "priority": "high",
+    "category": "document_custody",
+    "jurisdiction": "delhi",
+    "question": "Was an order suspending mobile internet made for the Jantar Mantar area on 2 October 2026, by which office, under which power, and was it reviewed?",
+    "why_it_matters": "One outlet reports a suspension of several hours (INC-DEL-015). If an order exists it should be public under the Supreme Court's direction in Anuradha Bhasin, and its absence from public view would itself be recordable.",
+    "lawful_route": "FQ-021, built on the same lines as FQ-014 for the July order.",
+    "blocks": [
+      "INC-DEL-015"
+    ]
+  },
+  {
+    "id": "OQ-057",
+    "priority": "medium",
+    "category": "incident",
+    "jurisdiction": "delhi",
+    "question": "What is the status of the three FIRs reported over the 2 October 2026 protest, at which police stations, against whom, and has any FIR been registered on the journalist's complaint or on the three complaints sent to the Crime Branch?",
+    "why_it_matters": "The only source (INC-DEL-016) says no accused was named in any of the three FIRs, and quotes the Cockroach Janta Party as saying police will not register one against the officer the journalist named. That is one outlet, one day after the event, and it can change daily. This archive has not found where, or whether, Delhi Police publishes registered FIRs, and does not name a portal it has not seen.",
+    "lawful_route": "No route established for Delhi. Establish the publication route first; an RTI application is the fallback.",
+    "blocks": [
+      "INC-DEL-016"
+    ]
+  },
+  {
+    "id": "OQ-058",
+    "priority": "medium",
+    "category": "incident",
+    "jurisdiction": "maharashtra",
+    "question": "Who is named in the Shivaji Park FIR of 3 October 2026, and was it registered on a private complaint or on the police's own motion?",
+    "why_it_matters": "Three outlets give three different lists of names and two different accounts of the complainant (INC-MAH-004). A private complaint and a police-initiated case sit with different offices.",
+    "lawful_route": "FQ-022: the FIR itself.",
+    "blocks": [
+      "INC-MAH-004"
+    ]
+  },
+  {
+    "id": "OQ-059",
+    "priority": "high",
+    "category": "document_custody",
+    "jurisdiction": "maharashtra",
+    "question": "Was the refusal of permission for the Shivaji Park gathering of 2 October 2026 given in writing, on what date, by which office and signatory, and on what stated ground?",
+    "why_it_matters": "All three sources say permission was refused and one gives a Bombay High Court judgment and a government order as the ground (INC-MAH-003). The refusal is a written instrument that can be asked for by name, which is the thing this archive cannot get for a baton.",
+    "lawful_route": "FQ-022. Maharashtra's rules allow one subject matter per application, so the refusal and the FIR go in separately.",
+    "blocks": [
+      "INC-MAH-003"
+    ]
+  },
+  {
+    "id": "OQ-060",
+    "priority": "time_critical",
+    "category": "incident",
+    "jurisdiction": "delhi",
+    "question": "Was force used on 2 October 2026 beyond moving people onto buses, and does footage, a medical record or a police account exist that settles the allegation of beating with batons?",
+    "why_it_matters": "The allegation rests on one outlet reporting what protesters said (INC-DEL-014). The retention period for CCTV covering the area is not established (RET-002), so any footage may be overwritten on a schedule nobody here knows. No preservation request has been drafted for 2 October: the four on this site cover Bihar and July.",
+    "lawful_route": "A written preservation request to the office that holds the footage, and a medico-legal record request where a named person consents. The custodian for 2 October has not been established.",
+    "blocks": [
+      "INC-DEL-014",
+      "RET-002"
+    ]
   }
 ]

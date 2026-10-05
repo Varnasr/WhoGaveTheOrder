@@ -1,9 +1,9 @@
 id,kind,title,state,url,level,jurisdiction,appliesTo
-OFC-0001,Office,Union Ministry of Home Affairs,,,UNION,Union of India,INC-0001 INC-0002 INC-0003
-OFC-0002,Office,State Home Department,,,STATE,Bihar / Maharashtra,INC-0002 INC-0003
-OFC-0003,Office,Director General of Police (State),,,SENIOR,Bihar / Maharashtra,INC-0002 INC-0003
-OFC-0004,Office,Commissioner of Police,,,SENIOR,"Commissionerate cities, including Delhi",INC-0001 INC-0003
+OFC-0001,Office,Union Ministry of Home Affairs,,,UNION,Union of India,INC-0001 INC-0002 INC-0003 INC-0006
+OFC-0002,Office,State Home Department,,,STATE,Bihar / Maharashtra,INC-0002 INC-0003 INC-0007
+OFC-0003,Office,Director General of Police (State),,,SENIOR,Bihar / Maharashtra,INC-0002 INC-0003 INC-0007
+OFC-0004,Office,Commissioner of Police,,,SENIOR,"Commissionerate cities, including Delhi",INC-0001 INC-0003 INC-0006 INC-0007
 OFC-0005,Office,District Magistrate,,,SENIOR,District (non-commissionerate),INC-0002 INC-0003
-OFC-0006,Office,Superintendent of Police / Deputy Commissioner of Police (District),,,OPERATIONAL,District or police district,INC-0001 INC-0002 INC-0003
-OFC-0007,Office,Officer commanding the deployment on site,,,OPERATIONAL,The site of the incident,INC-0001 INC-0002 INC-0003
-OFC-0008,Office,Field personnel and units deployed,,,FIELD,The site of the incident,INC-0001 INC-0002 INC-0003
+OFC-0006,Office,Superintendent of Police / Deputy Commissioner of Police (District),,,OPERATIONAL,District or police district,INC-0001 INC-0002 INC-0003 INC-0006 INC-0007
+OFC-0007,Office,Officer commanding the deployment on site,,,OPERATIONAL,The site of the incident,INC-0001 INC-0002 INC-0003 INC-0006 INC-0007
+OFC-0008,Office,Field personnel and units deployed,,,FIELD,The site of the incident,INC-0001 INC-0002 INC-0003 INC-0006 INC-0007

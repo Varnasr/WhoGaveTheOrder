@@ -25,5 +25,14 @@
     "url": "https://www.whogavetheorder.in/investigation.html?id=maharashtra#what-happened",
     "incidentId": "INC-0003",
     "evidenceIds": []
+  },
+  {
+    "id": "CLM-0004",
+    "kind": "Claim",
+    "title": "Police used force on protesters near Jantar Mantar on 2 October 2026, beyond moving them onto buses.",
+    "state": "UNVERIFIED",
+    "url": "https://www.whogavetheorder.in/investigation.html?id=jantar-mantar-2-october#what-happened",
+    "incidentId": "INC-0006",
+    "evidenceIds": []
   }
 ]

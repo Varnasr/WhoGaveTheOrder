@@ -15,7 +15,7 @@ apex redirecting to `www`.
 
 **Nothing renders as a fact without a source, including in its own seed data.**
 
-Dates and locations are established for all five incidents. Beyond those, most factual fields
+Dates and locations are established for all seven incidents (five from July 2026, two from 2 October 2026). Beyond those, most factual fields
 still read `UNKNOWN`: **no order authorising the use of force has been found**, and that count is
 still zero.
 
@@ -27,6 +27,12 @@ alongside the lathi charges. The Supreme Court closed all of them on 1 September
 142, leaving one exception: a single FIR concerning 2,873 people whom Delhi Police's facial
 recognition system placed at Jantar Mantar. An Indian Express check of the 205 names on that list
 facing the gravest charges found at least 25 who were in jail on the day the software saw them.
+
+A second wave began on 2 October 2026, over the Chief Election Commissioner and the revision of the
+electoral rolls. It is recorded as two incidents of its own, apart from the July ones: mass
+detention at Jantar Mantar under a section 163 order (force alleged by protesters, not established),
+and an FIR over the Shivaji Park gathering in Mumbai (no force alleged). The Supreme Court order of
+1 September is reported to cover only the protests of 20 to 25 July.
 
 An FIR, a refusal of permission and a withdrawal notification are each written by somebody. A baton
 is not. That asymmetry is the archive's subject and the records now keep the two apart: a shell

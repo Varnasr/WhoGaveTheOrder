@@ -55,7 +55,7 @@ WGO.offices = [
     shortTitle: 'Union Home Ministry',
     level: 'UNION',
     jurisdiction: 'Union of India',
-    appliesTo: ['INC-0001', 'INC-0002', 'INC-0003'],
+    appliesTo: ['INC-0001', 'INC-0002', 'INC-0003', 'INC-0006'],
     statutoryBasis: [
       { text: 'Union ministry responsible for internal security and, for Union Territories including Delhi, for the police force itself.', sourceIds: [] }
     ],
@@ -73,7 +73,7 @@ WGO.offices = [
     shortTitle: 'State Home Department',
     level: 'STATE',
     jurisdiction: 'Bihar / Maharashtra',
-    appliesTo: ['INC-0002', 'INC-0003'],
+    appliesTo: ['INC-0002', 'INC-0003', 'INC-0007'],
     statutoryBasis: [
       { text: 'Police is a State subject. The State Home Department is the administrative department for the state police force.', sourceIds: [] }
     ],
@@ -91,7 +91,7 @@ WGO.offices = [
     shortTitle: 'DGP',
     level: 'SENIOR',
     jurisdiction: 'Bihar / Maharashtra',
-    appliesTo: ['INC-0002', 'INC-0003'],
+    appliesTo: ['INC-0002', 'INC-0003', 'INC-0007'],
     statutoryBasis: [
       { text: 'Head of the state police force; issues force-wide standing orders and directions.', sourceIds: [] }
     ],
@@ -109,7 +109,7 @@ WGO.offices = [
     shortTitle: 'Commissioner of Police',
     level: 'SENIOR',
     jurisdiction: 'Commissionerate cities, including Delhi',
-    appliesTo: ['INC-0001', 'INC-0003'],
+    appliesTo: ['INC-0001', 'INC-0003', 'INC-0006', 'INC-0007'],
     statutoryBasis: [
       { text: 'Head of a city police force under the commissionerate system; in Delhi, the Commissioner of Police heads a force under the Union Home Ministry rather than a state government.', sourceIds: [] },
       { text: 'Exercises certain magisterial powers, including powers relating to public order and assemblies, that are held elsewhere by the District Magistrate.', sourceIds: [] }
@@ -146,7 +146,7 @@ WGO.offices = [
     shortTitle: 'SP / DCP',
     level: 'OPERATIONAL',
     jurisdiction: 'District or police district',
-    appliesTo: ['INC-0001', 'INC-0002', 'INC-0003'],
+    appliesTo: ['INC-0001', 'INC-0002', 'INC-0003', 'INC-0006', 'INC-0007'],
     statutoryBasis: [
       { text: 'Officer in operational command of the district police; ordinarily approves deployment strength, the composition of the force and its equipment.', sourceIds: [] }
     ],
@@ -164,7 +164,7 @@ WGO.offices = [
     shortTitle: 'On-site commanding officer',
     level: 'OPERATIONAL',
     jurisdiction: 'The site of the incident',
-    appliesTo: ['INC-0001', 'INC-0002', 'INC-0003'],
+    appliesTo: ['INC-0001', 'INC-0002', 'INC-0003', 'INC-0006', 'INC-0007'],
     statutoryBasis: [
       { text: 'The senior police officer present is ordinarily responsible for decisions on the escalation of force at the scene, within standing orders and any specific direction received.', sourceIds: [] }
     ],
@@ -183,7 +183,7 @@ WGO.offices = [
     shortTitle: 'Field personnel',
     level: 'FIELD',
     jurisdiction: 'The site of the incident',
-    appliesTo: ['INC-0001', 'INC-0002', 'INC-0003'],
+    appliesTo: ['INC-0001', 'INC-0002', 'INC-0003', 'INC-0006', 'INC-0007'],
     statutoryBasis: [
       { text: 'Constabulary, armed reserve and any central armed police units present act under the direction of the officer commanding them.', sourceIds: [] }
     ],
@@ -233,6 +233,19 @@ WGO.offices = [
    flagged entry stays out of the Latest stream, and that the log it moves to
    actually exists. */
 WGO.updates = [
+  {
+    date: '2026-10-05',
+    title: 'Hundreds were detained at Jantar Mantar on 2 October under a section 163 order, and the sources disagree on who issued it',
+    body: 'A new wave of protests began on 2 October, this time over the Chief Election Commissioner and the revision of the electoral rolls. Al Jazeera reports over 500 people detained by about 3 pm; The Week and Outlook report over 700, Outlook attributing the figure to police officials. A section 163 order was in force across New Delhi district. Al Jazeera, citing The Times of India, says Delhi Police imposed it; Outlook says the Delhi government did. The order is a written instrument with a date and a signatory, and it is the first thing worth asking for. Protesters allege being beaten with batons, reported by one outlet; Reuters describes shoving and buses. The archive holds no footage, medical record or police account and does not call this a use of force. It is recorded as its own incident, apart from the July records, because the Supreme Court order of 1 September is reported to cover only the protests of 20 to 25 July.',
+    recordId: 'INC-DEL-013'
+  },
+  {
+    date: '2026-10-05',
+    title: 'Mumbai Police registered an FIR over the Shivaji Park gathering, and three outlets give three lists of names',
+    body: 'On 3 October Mumbai Police registered an FIR at Shivaji Park police station against the organisers of the 2 October gathering and 400 to 500 unidentified supporters, under BNS sections 189 and 223 and Maharashtra Police Act sections 37(1)(3) and 135. Three outlets report that permission had been refused, and ANI gives a Bombay High Court judgment and a government order as the stated ground. No arrests are reported and no force is alleged. The outlets differ on who is named (one organiser, two, or four) and on whether the case rests on a private complaint or was registered by the police. The FIR settles both, and a request for it is queued at FQ-022 with the request for the written refusal of permission.',
+    recordId: 'INC-MAH-004'
+  },
+
   {
     date: '2026-09-23',
     title: 'The one criminal file left standing in the whole country is built on a facial recognition list',
@@ -393,6 +406,7 @@ WGO.events = [];
 WGO.incidents = [
   {
     id: 'INC-0001',
+    kind: 'FORCE',
     slug: 'jantar-mantar',
     title: 'Police action against students at Jantar Mantar',
     place: 'Jantar Mantar, New Delhi',
@@ -434,6 +448,7 @@ WGO.incidents = [
   },
   {
     id: 'INC-0002',
+    kind: 'FORCE',
     slug: 'bihar',
     title: 'Police action against students in Bihar',
     place: 'JP Golambar and Dakbungalow Square, Patna; Katihar; Munger',
@@ -459,6 +474,7 @@ WGO.incidents = [
   },
   {
     id: 'INC-0003',
+    kind: 'CASES',
     slug: 'maharashtra',
     /* Retitled 23 September 2026. This shell was opened on a Supreme Court
        petition saying disturbances had spread to Maharashtra, and it sat at
@@ -502,6 +518,7 @@ WGO.incidents = [
      research: the daily sweep found it. */
   {
     id: 'INC-0004',
+    kind: 'FORCE',
     slug: 'siwan',
     title: 'Police firing during the student protest at Siwan',
     place: 'JP Chowk, Siwan',   // the sources say 'near JP Chowk'; the qualifier belongs in the record, not in the place name
@@ -534,6 +551,7 @@ WGO.incidents = [
      on the site where the archive's question has a cheap answer. */
   {
     id: 'INC-0005',
+    kind: 'CASES',
     slug: 'kochi',
     title: 'Cases registered over a solidarity gathering at Kochi',
     place: 'Near Central Park, Panampilly Nagar, Kochi',
@@ -555,6 +573,83 @@ WGO.incidents = [
        The document to get is the refusal of permission: FQ-019. */
     orderTrail: { reached: null, rungs: {}, next: null },
     openedOn: '2026-09-23'
+  },
+  /* Opened 5 October 2026. A second wave, three months after the first, over a
+     different grievance: the Cockroach Janta Party's demand for the Chief
+     Election Commissioner's resignation over the electoral-roll revision. It is
+     recorded apart from INC-0001 and INC-0003 on purpose. The July incidents
+     were closed by the Supreme Court's order of 1 September, which is reported
+     to cover protests of 20 to 25 July; folding 2 October into them would make
+     a record that reads as one continuing incident and would put new events
+     under an order that does not mention them.
+
+     The two records are also different in kind and say so. Delhi is mass
+     detention under a prohibitory order, with force alleged by protesters and
+     not established. Mumbai is a case registered for assembling without
+     permission, with no force alleged. */
+  {
+    id: 'INC-0006',
+    slug: 'jantar-mantar-2-october',
+    kind: 'DETENTIONS',
+    title: 'Mass detentions at Jantar Mantar under a prohibitory order',
+    place: 'Jantar Mantar and the approach roads, New Delhi',
+    state: 'Delhi',
+    coords: [28.6270, 77.2166],           // Jantar Mantar, the protest site itself
+    incidentState: 'REPORTED',
+    dateState: 'CORROBORATED',
+    date: '2 October 2026',
+    summaryState: 'UNKNOWN',
+    summary: null,
+    /* Reported, not established: Outlook names all three. The sources do not
+       say which unit did what. */
+    forcesInvolved: { state: 'REPORTED', items: [
+      { text: 'Delhi Police', state: 'REPORTED' },
+      { text: 'Rapid Action Force', state: 'REPORTED' },
+      { text: 'Central Reserve Police Force', state: 'REPORTED' }
+    ] },
+    /* Metro closures, barricades and an internet suspension are measures taken
+       around the protest, not force used on a person, and only the barricades
+       and the closures are reported by more than one source. Left UNKNOWN so
+       the record does not assert a list it has not got. */
+    crowdControl:   { state: 'UNKNOWN', items: [] },
+    injuries:       { state: 'REPORTED', note: 'A history student from Miranda House is reported to have said she was bruised; protesters allege being dragged and beaten with batons. One outlet, allegations only. See INC-DEL-014.' },
+    detentions:     { state: 'CORROBORATED', note: 'Over 500 by about 3 pm (Al Jazeera) and over 700 (The Week; Outlook, attributing the figure to police officials). The sources do not say when each count was taken. See INC-DEL-011.' },
+    firs:           { state: 'REPORTED', note: 'Three FIRs reported over the protest, with no individual or organisation named as an accused, and complaints from three women transferred to the Crime Branch. One source. See INC-DEL-016.' },
+    officeIds: ['OFC-0001', 'OFC-0004', 'OFC-0006', 'OFC-0007', 'OFC-0008'],
+    /* No rung reached on an order to use force, because force is alleged by
+       protesters and not established. The order that is documented in the
+       reporting is the section 163 order, which has an author the sources
+       cannot agree on: OQ-055, FQ-020. */
+    orderTrail: { reached: null, rungs: {}, next: 'OQ-055' },
+    openedOn: '2026-10-05'
+  },
+  {
+    id: 'INC-0007',
+    slug: 'shivaji-park-2-october',
+    kind: 'CASES',
+    title: 'Case registered over the Cockroach Janta Party gathering at Shivaji Park',
+    place: 'Shivaji Park, Dadar, Mumbai',
+    state: 'Maharashtra',
+    coords: [19.0270, 72.8378],           // Shivaji Park, Dadar
+    coordsState: 'REPORTED',
+    incidentState: 'REPORTED',
+    dateState: 'CORROBORATED',
+    date: '2 October 2026',
+    summaryState: 'UNKNOWN',
+    summary: null,
+    forcesInvolved: { state: 'UNKNOWN', items: [] },
+    /* Deliberately UNKNOWN rather than empty, as at INC-0003. Nothing here says
+       force was used, and nothing says it was not. */
+    crowdControl:   { state: 'UNKNOWN', items: [] },
+    injuries:       { state: 'UNKNOWN', note: null },
+    detentions:     { state: 'REPORTED', note: 'No arrests reported (Free Press Journal; The Tribune, citing PTI; Asianet News, citing ANI).' },
+    firs:           { state: 'CORROBORATED', note: 'One FIR at Shivaji Park police station on 3 October 2026 against the organisers and 400 to 500 unidentified supporters, under BNS sections 189 and 223 and Maharashtra Police Act sections 37(1)(3) and 135. Who is named and who complained is DISPUTED between the sources. See INC-MAH-003 and INC-MAH-004.' },
+    officeIds: ['OFC-0002', 'OFC-0003', 'OFC-0004', 'OFC-0006', 'OFC-0007', 'OFC-0008'],
+    /* No rung reached, because no force is alleged. The documents to get are
+       the FIR and the refusal of permission: FQ-022. The District Magistrate
+       (OFC-0005) is left off: Mumbai is a commissionerate. */
+    orderTrail: { reached: null, rungs: {}, next: 'OQ-059' },
+    openedOn: '2026-10-05'
   }
 ];
 
@@ -589,6 +684,14 @@ WGO.claims = [
     state: 'UNVERIFIED',
     evidenceIds: [],
     note: 'Recorded as the claim under investigation. It is not presented as established until primary evidence is attached.'
+  },
+  {
+    id: 'CLM-0004',
+    incidentId: 'INC-0006',
+    text: 'Police used force on protesters near Jantar Mantar on 2 October 2026, beyond moving them onto buses.',
+    state: 'UNVERIFIED',
+    evidenceIds: [],
+    note: 'Protesters allege being beaten with batons, reported by one outlet (INC-DEL-014). Recorded as the claim under investigation, not as established. No footage, medical record or police account is held.'
   }
 ];
 
@@ -631,6 +734,33 @@ WGO.questionsExtra = [
     state: 'UNANSWERED',
     wants: ['Requisition for central forces', 'Deployment order naming the units'],
     evidenceIds: []
+  },
+  {
+    id: 'QST-X003',
+    incidentId: 'INC-0006',
+    text: 'Which office issued the section 163 order in force across New Delhi district on 2 October, and on what date and ground?',
+    level: 'SENIOR',
+    state: 'UNANSWERED',
+    wants: ['The order, with its date, signatory, area and hours', 'The ground stated in it'],
+    evidenceIds: ['INC-DEL-012', 'INC-DEL-013']
+  },
+  {
+    id: 'QST-X004',
+    incidentId: 'INC-0006',
+    text: 'The Rapid Action Force and the CRPF are reported at the site. Under whose direction did they act alongside Delhi Police?',
+    level: 'UNION',
+    state: 'UNANSWERED',
+    wants: ['Requisition for central forces', 'Deployment order naming the units'],
+    evidenceIds: ['INC-DEL-011']
+  },
+  {
+    id: 'QST-X005',
+    incidentId: 'INC-0007',
+    text: 'Was permission for the gathering refused in writing, by which office, on what date and on what ground?',
+    level: 'SENIOR',
+    state: 'UNANSWERED',
+    wants: ['The written refusal, with its date and signatory', 'The order it relies on'],
+    evidenceIds: ['INC-MAH-003']
   }
 ];
 
