@@ -10,7 +10,8 @@
     "appliesTo": [
       "INC-0001",
       "INC-0002",
-      "INC-0003"
+      "INC-0003",
+      "INC-0006"
     ]
   },
   {
@@ -23,7 +24,8 @@
     "jurisdiction": "Bihar / Maharashtra",
     "appliesTo": [
       "INC-0002",
-      "INC-0003"
+      "INC-0003",
+      "INC-0007"
     ]
   },
   {
@@ -36,7 +38,8 @@
     "jurisdiction": "Bihar / Maharashtra",
     "appliesTo": [
       "INC-0002",
-      "INC-0003"
+      "INC-0003",
+      "INC-0007"
     ]
   },
   {
@@ -49,7 +52,9 @@
     "jurisdiction": "Commissionerate cities, including Delhi",
     "appliesTo": [
       "INC-0001",
-      "INC-0003"
+      "INC-0003",
+      "INC-0006",
+      "INC-0007"
     ]
   },
   {
@@ -76,7 +81,9 @@
     "appliesTo": [
       "INC-0001",
       "INC-0002",
-      "INC-0003"
+      "INC-0003",
+      "INC-0006",
+      "INC-0007"
     ]
   },
   {
@@ -90,7 +97,9 @@
     "appliesTo": [
       "INC-0001",
       "INC-0002",
-      "INC-0003"
+      "INC-0003",
+      "INC-0006",
+      "INC-0007"
     ]
   },
   {
@@ -104,7 +113,9 @@
     "appliesTo": [
       "INC-0001",
       "INC-0002",
-      "INC-0003"
+      "INC-0003",
+      "INC-0006",
+      "INC-0007"
     ]
   }
 ]

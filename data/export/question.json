@@ -520,5 +520,65 @@
     "incidentId": "INC-0001",
     "level": null,
     "evidenceIds": []
+  },
+  {
+    "id": "OQ-055",
+    "kind": "Question",
+    "title": "Which office issued the section 163 BNSS order in force across New Delhi district on 2 October 2026, on what date, covering what area and hours, and what does its text say?",
+    "state": "UNANSWERED",
+    "url": "https://www.whogavetheorder.in/investigation.html?id=jantar-mantar#OQ-055",
+    "incidentId": "INC-0001",
+    "level": null,
+    "evidenceIds": []
+  },
+  {
+    "id": "OQ-056",
+    "kind": "Question",
+    "title": "Was an order suspending mobile internet made for the Jantar Mantar area on 2 October 2026, by which office, under which power, and was it reviewed?",
+    "state": "UNANSWERED",
+    "url": "https://www.whogavetheorder.in/investigation.html?id=jantar-mantar#OQ-056",
+    "incidentId": "INC-0001",
+    "level": null,
+    "evidenceIds": []
+  },
+  {
+    "id": "OQ-057",
+    "kind": "Question",
+    "title": "What is the status of the three FIRs reported over the 2 October 2026 protest, at which police stations, against whom, and has any FIR been registered on the journalist's complaint or on the three complaints sent to the Crime Branch?",
+    "state": "UNANSWERED",
+    "url": "https://www.whogavetheorder.in/investigation.html?id=jantar-mantar#OQ-057",
+    "incidentId": "INC-0001",
+    "level": null,
+    "evidenceIds": []
+  },
+  {
+    "id": "OQ-058",
+    "kind": "Question",
+    "title": "Who is named in the Shivaji Park FIR of 3 October 2026, and was it registered on a private complaint or on the police's own motion?",
+    "state": "UNANSWERED",
+    "url": "https://www.whogavetheorder.in/investigation.html?id=maharashtra#OQ-058",
+    "incidentId": "INC-0003",
+    "level": null,
+    "evidenceIds": []
+  },
+  {
+    "id": "OQ-059",
+    "kind": "Question",
+    "title": "Was the refusal of permission for the Shivaji Park gathering of 2 October 2026 given in writing, on what date, by which office and signatory, and on what stated ground?",
+    "state": "UNANSWERED",
+    "url": "https://www.whogavetheorder.in/investigation.html?id=maharashtra#OQ-059",
+    "incidentId": "INC-0003",
+    "level": null,
+    "evidenceIds": []
+  },
+  {
+    "id": "OQ-060",
+    "kind": "Question",
+    "title": "Was force used on 2 October 2026 beyond moving people onto buses, and does footage, a medical record or a police account exist that settles the allegation of beating with batons?",
+    "state": "UNANSWERED",
+    "url": "https://www.whogavetheorder.in/investigation.html?id=jantar-mantar#OQ-060",
+    "incidentId": "INC-0001",
+    "level": null,
+    "evidenceIds": []
   }
 ]

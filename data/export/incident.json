@@ -53,5 +53,27 @@
     "date": "22 July 2026",
     "dateState": "REPORTED",
     "summary": null
+  },
+  {
+    "id": "INC-0006",
+    "kind": "Incident",
+    "title": "Mass detentions at Jantar Mantar under a prohibitory order",
+    "state": "REPORTED",
+    "url": "https://www.whogavetheorder.in/investigation.html?id=jantar-mantar-2-october",
+    "place": "Jantar Mantar and the approach roads, New Delhi",
+    "date": "2 October 2026",
+    "dateState": "CORROBORATED",
+    "summary": null
+  },
+  {
+    "id": "INC-0007",
+    "kind": "Incident",
+    "title": "Case registered over the Cockroach Janta Party gathering at Shivaji Park",
+    "state": "REPORTED",
+    "url": "https://www.whogavetheorder.in/investigation.html?id=shivaji-park-2-october",
+    "place": "Shivaji Park, Dadar, Mumbai",
+    "date": "2 October 2026",
+    "dateState": "CORROBORATED",
+    "summary": null
   }
 ]
