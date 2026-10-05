@@ -3767,9 +3767,9 @@
     "jurisdiction": "delhi",
     "category": "incident",
     "incident": "INC-0006",
-    "claim": "On Friday 2 October 2026 Delhi Police detained several hundred people who were trying to reach Jantar Mantar to demand the resignation of the Chief Election Commissioner, Gyanesh Kumar, over the Special Intensive Revision of electoral rolls. Al Jazeera reports over 500 detained by about 3 pm. The Week and Outlook report over 700, Outlook attributing the figure to police officials and saying protesters had counted more than 600 by the afternoon. Reuters describes batches of student protesters put onto buses and taken away. Those detained are reported to include opposition political leaders and members of the student organisations AISA, SFI and NSUI.",
+    "claim": "On Friday 2 October 2026 Delhi Police detained several hundred people who were trying to reach Jantar Mantar to demand the resignation of the Chief Election Commissioner, Gyanesh Kumar, over the Special Intensive Revision of electoral rolls. The counts differ by source and the archive holds no official statement of any of them. Al Jazeera reports over 500 by about 3 pm. Deccan Chronicle reports over 500, with one official first giving 150 and another about 500. The Week and Outlook report over 700, Outlook attributing the figure to police officials. ThePrint, in its report of 3 October, says approximately 1,000 people were detained on the Friday. Hindustan Times, as carried by Outlook, is reported to give about 1,000 across Delhi: nearly 750 near Jantar Mantar and about 400 elsewhere, with around 200 held under house arrest beforehand. Reuters describes batches of student protesters put onto buses and taken away. Those detained are reported to include opposition political leaders and members of the student organisations AISA, SFI and NSUI.",
     "confidence": "CORROBORATED",
-    "notes": "The figures differ but may not conflict: 500 by mid-afternoon and 700 by the end of the day are consistent with each other, and the sources do not say when each count was taken. The archive records both and does not choose. Detention under a prohibitory order is not a finding of force, and this record makes none. Outlook reports Delhi Police, the Rapid Action Force and the CRPF at the site, and quotes a Delhi Police officer putting the deployment at more than 1,000 personnel. Al Jazeera reports at least 11 metro stations closed around Jantar Mantar. Al Jazeera takes its figures from Reuters and The Times of India, so it is not independent of them; The Week and Outlook are separate reports.",
+    "notes": "The figures differ but may not conflict: 500 by mid-afternoon, 700 and about 1,000 by the end of the day are consistent with each other, and most sources do not say when each count was taken. The components reported for the Hindustan Times figure do not sum to 1,000 as they are summarised, which is a reason to read the original before quoting it. The archive records every figure and does not choose. Detention under a prohibitory order is not a finding of force, and this record makes none. Outlook reports Delhi Police, the Rapid Action Force and the CRPF at the site, and quotes a Delhi Police officer putting the deployment at more than 1,000 personnel; its later report, citing Hindustan Times, says more than 5,000. Al Jazeera reports at least 11 metro stations closed; Deccan Chronicle says 12. Al Jazeera takes its figures from Reuters and The Times of India, so it is not independent of them; the others are separate reports.",
     "volatility": "medium",
     "sources": [
       {
@@ -3777,7 +3777,9 @@
         "source_type": "secondary",
         "publication": "Al Jazeera",
         "retrieved_on": "2026-10-05",
-        "originates_from": "Reuters and The Times of India, as cited in the article"
+        "originates_from": "Reuters and The Times of India, as cited in the article",
+        "archive_url": "http://web.archive.org/web/20261003173831/https://www.aljazeera.com/news/2026/10/2/indian-authorities-clamp-down-as-cockroach-movement-launches-new-protests",
+        "archived_on": "2026-10-05"
       },
       {
         "url": "https://www.theweek.in/news/india/2026/10/04/cjp-demands-fir-sexual-harassment-vivek-bhagat-fir-delay-delhi-police-cec-protest.html",
@@ -3803,6 +3805,32 @@
         "originates_from": "Reuters",
         "archive_url": "http://web.archive.org/web/20261004084151/https://kathmandupost.com/world/2026/10/03/hundreds-from-india-s-gen-z-led-cockroach-party-protest-seek-election-chief-s-resignation",
         "archived_on": "2026-10-05"
+      },
+      {
+        "url": "https://www.deccanchronicle.com/amp/nation/500-protesters-aap-leaders-detained-at-jantar-mantar-over-sir-1992491",
+        "source_type": "secondary",
+        "publication": "Deccan Chronicle",
+        "retrieved_on": "2026-10-05",
+        "archive_url": "http://web.archive.org/web/20261002082447/https://www.deccanchronicle.com/amp/nation/500-protesters-aap-leaders-detained-at-jantar-mantar-over-sir-1992491",
+        "archived_on": "2026-10-05"
+      },
+      {
+        "url": "https://theprint.in/india/nearly-200-detained-as-aisa-other-protesters-return-to-jantar-mantar/3061293/",
+        "source_type": "secondary",
+        "publication": "ThePrint",
+        "retrieved_on": "2026-10-05",
+        "originates_from": "PTI and Delhi Police officials, as cited in the article",
+        "archive_url": "http://web.archive.org/web/20261004123121/https://theprint.in/india/nearly-200-detained-as-aisa-other-protesters-return-to-jantar-mantar/3061293/",
+        "archived_on": "2026-10-05"
+      },
+      {
+        "url": "https://www.outlookindia.com/national/delhi-police-register-3-firs-over-jantar-mantar-protests-seeking-cec-gyanesh-kumars-resignation",
+        "source_type": "secondary",
+        "publication": "Outlook (second report)",
+        "retrieved_on": "2026-10-05",
+        "originates_from": "Hindustan Times, as cited in the article",
+        "archive_url": "http://web.archive.org/web/20261003115714/https://www.outlookindia.com/national/delhi-police-register-3-firs-over-jantar-mantar-protests-seeking-cec-gyanesh-kumars-resignation",
+        "archived_on": "2026-10-05"
       }
     ],
     "added_on": "2026-10-05"
@@ -3822,7 +3850,9 @@
         "source_type": "secondary",
         "publication": "Al Jazeera",
         "retrieved_on": "2026-10-05",
-        "originates_from": "Reuters and The Times of India, as cited in the article"
+        "originates_from": "Reuters and The Times of India, as cited in the article",
+        "archive_url": "http://web.archive.org/web/20261003173831/https://www.aljazeera.com/news/2026/10/2/indian-authorities-clamp-down-as-cockroach-movement-launches-new-protests",
+        "archived_on": "2026-10-05"
       },
       {
         "url": "https://www.theweek.in/news/india/2026/10/04/cjp-demands-fir-sexual-harassment-vivek-bhagat-fir-delay-delhi-police-cec-protest.html",
@@ -3850,7 +3880,7 @@
     "incident": "INC-0006",
     "claim": "The sources disagree on which office issued the section 163 order of 2 October 2026. Al Jazeera, citing The Times of India, says Delhi Police imposed it. Outlook says it was issued by the Delhi government.",
     "confidence": "DISPUTED",
-    "notes": "Not resolved here. The two answers lead to different custodians and different RTI routes: Delhi Police sits under the Union Home Ministry, while the Delhi government is a separate public authority. Neither source quotes the order or names a signatory. See OQ-055.",
+    "notes": "Not resolved here. The two answers lead to different custodians and different RTI routes: Delhi Police sits under the Union Home Ministry, while the Delhi government is a separate public authority. Neither source quotes the order or names a signatory. See OQ-055. A further Outlook report, citing Hindustan Times, says Delhi Police imposed the restrictions on the Friday morning, which sits with the Al Jazeera account and against Outlook's own earlier statement that the Delhi government issued the order. The dispute stays open until the order is read.",
     "volatility": "medium",
     "sources": [
       {
@@ -3858,7 +3888,9 @@
         "source_type": "secondary",
         "publication": "Al Jazeera",
         "retrieved_on": "2026-10-05",
-        "originates_from": "Reuters and The Times of India, as cited in the article"
+        "originates_from": "Reuters and The Times of India, as cited in the article",
+        "archive_url": "http://web.archive.org/web/20261003173831/https://www.aljazeera.com/news/2026/10/2/indian-authorities-clamp-down-as-cockroach-movement-launches-new-protests",
+        "archived_on": "2026-10-05"
       },
       {
         "url": "https://www.outlookindia.com/national/inside-jantar-mantar-where-barricades-replaced-protesters-and-buses-awaited-detainees",
@@ -3866,6 +3898,15 @@
         "publication": "Outlook",
         "retrieved_on": "2026-10-05",
         "archive_url": "http://web.archive.org/web/20261004035926/https://www.outlookindia.com/national/inside-jantar-mantar-where-barricades-replaced-protesters-and-buses-awaited-detainees",
+        "archived_on": "2026-10-05"
+      },
+      {
+        "url": "https://www.outlookindia.com/national/delhi-police-register-3-firs-over-jantar-mantar-protests-seeking-cec-gyanesh-kumars-resignation",
+        "source_type": "secondary",
+        "publication": "Outlook (second report)",
+        "retrieved_on": "2026-10-05",
+        "originates_from": "Hindustan Times, as cited in the article",
+        "archive_url": "http://web.archive.org/web/20261003115714/https://www.outlookindia.com/national/delhi-police-register-3-firs-over-jantar-mantar-protests-seeking-cec-gyanesh-kumars-resignation",
         "archived_on": "2026-10-05"
       }
     ],
@@ -3903,7 +3944,9 @@
         "source_type": "secondary",
         "publication": "Al Jazeera",
         "retrieved_on": "2026-10-05",
-        "originates_from": "Reuters and The Times of India, as cited in the article"
+        "originates_from": "Reuters and The Times of India, as cited in the article",
+        "archive_url": "http://web.archive.org/web/20261003173831/https://www.aljazeera.com/news/2026/10/2/indian-authorities-clamp-down-as-cockroach-movement-launches-new-protests",
+        "archived_on": "2026-10-05"
       }
     ],
     "added_on": "2026-10-05"
@@ -3913,9 +3956,9 @@
     "jurisdiction": "delhi",
     "category": "incident",
     "incident": "INC-0006",
-    "claim": "Outlook reports that internet services were suspended in the Jantar Mantar area for several hours on 2 October 2026.",
-    "confidence": "REPORTED",
-    "notes": "One source. No suspension order has been located. The July suspension order recorded at INC-DEL-007 shows the form such an order takes and which office signs it, and a suspension order is the kind of instrument the Supreme Court has said must be published (see PREC-SHUT-001). Whether a separate order was made on 2 October, and by whom, is OQ-056.",
+    "claim": "Outlook, Deccan Chronicle and India TV (as carried by tob.news) report that internet services were suspended in the Jantar Mantar area on 2 October 2026. Outlook says for several hours. None of the three gives the hours, the area or the issuing office.",
+    "confidence": "CORROBORATED",
+    "notes": "Three outlets report the suspension; none quotes an order. One headline in the 3 October sweep reports the cut ran until 9 pm, but the page was not retrieved and the figure is not recorded here. The July order recorded at INC-DEL-007 shows the form such an order takes and which office signs it, and a suspension order is the kind of instrument the Supreme Court has said must be published (see PREC-SHUT-001). Whether a separate order was made on 2 October, and by whom, is OQ-056. India TV is the origin of the tob.news report and is not independent of it.",
     "volatility": "medium",
     "sources": [
       {
@@ -3924,6 +3967,23 @@
         "publication": "Outlook",
         "retrieved_on": "2026-10-05",
         "archive_url": "http://web.archive.org/web/20261004035926/https://www.outlookindia.com/national/inside-jantar-mantar-where-barricades-replaced-protesters-and-buses-awaited-detainees",
+        "archived_on": "2026-10-05"
+      },
+      {
+        "url": "https://www.deccanchronicle.com/amp/nation/500-protesters-aap-leaders-detained-at-jantar-mantar-over-sir-1992491",
+        "source_type": "secondary",
+        "publication": "Deccan Chronicle",
+        "retrieved_on": "2026-10-05",
+        "archive_url": "http://web.archive.org/web/20261002082447/https://www.deccanchronicle.com/amp/nation/500-protesters-aap-leaders-detained-at-jantar-mantar-over-sir-1992491",
+        "archived_on": "2026-10-05"
+      },
+      {
+        "url": "https://tob.news/aap-leaders-held-at-jantar-mantar-internet-suspended/",
+        "source_type": "secondary",
+        "publication": "tob.news",
+        "retrieved_on": "2026-10-05",
+        "originates_from": "India TV",
+        "archive_url": "http://web.archive.org/web/20261002113759/https://tob.news/aap-leaders-held-at-jantar-mantar-internet-suspended/",
         "archived_on": "2026-10-05"
       }
     ],
@@ -3936,7 +3996,7 @@
     "incident": "INC-0006",
     "claim": "The Week reports that an independent journalist accused an Assistant Commissioner of Police of hitting her on the chest while she filmed the detention of a student leader on 2 October 2026, and that she waited over three hours at a police station without an FIR being registered. It reports complaints from three women alleging sexual offences during the protest of 2 and 3 October, which the New Delhi district transferred to the Crime Branch at Kamla Market, and three FIRs registered over the protest in which no individual or organisation was named as an accused. The Cockroach Janta Party is reported to have demanded an FIR against the officer by noon on 4 October.",
     "confidence": "REPORTED",
-    "notes": "One source for all of it. The officer is named in the source and not here, on the rule the archive applies to a private person and to an unproven allegation: holding a post is not evidence of having done what is alleged. The complaints are allegations and are recorded as such. The Week's text says \"sexual assault\" while its address says \"sexual harassment\", so the nature of the complaints is not settled by the source. No complainant is named in the source or here. See OQ-057.",
+    "notes": "One source for all of it. The officer is named in the source and not here, on the rule the archive applies to a private person and to an unproven allegation: holding a post is not evidence of having done what is alleged. The complaints are allegations and are recorded as such. The Week's text says \"sexual assault\" while its address says \"sexual harassment\", so the nature of the complaints is not settled by the source. No complainant is named in the source or here. See OQ-057. Later reporting is recorded at INC-DEL-022: PTI and Deccan Chronicle report that the complaints were of sexual harassment, that no FIR was registered when the journalists went to a police station, and that the New Delhi district transferred the complaints to the Crime Branch for a fair and impartial enquiry. The Week describes the first allegation as a blow to the chest; PTI quotes the complaint as alleging sexual assault. The two wordings are different allegations and neither is resolved here. The three FIRs are recorded at INC-DEL-017.",
     "volatility": "high",
     "sources": [
       {
@@ -3973,7 +4033,9 @@
         "source_type": "secondary",
         "publication": "Asianet News",
         "retrieved_on": "2026-10-05",
-        "originates_from": "ANI"
+        "originates_from": "ANI",
+        "archive_url": "http://web.archive.org/web/20261004063229/https://newsable.asianetnews.com/india/mumbai-police-files-fir-against-cockroach-janta-party-protest-organisers-articleshow-0lztfwn",
+        "archived_on": "2026-10-05"
       },
       {
         "url": "https://www.tribuneindia.com/news/india/cjp-protest-at-shivaji-park-fir-registered-against-organisers-400-500-unidentified-persons/",
@@ -4007,7 +4069,9 @@
         "source_type": "secondary",
         "publication": "Asianet News",
         "retrieved_on": "2026-10-05",
-        "originates_from": "ANI"
+        "originates_from": "ANI",
+        "archive_url": "http://web.archive.org/web/20261004063229/https://newsable.asianetnews.com/india/mumbai-police-files-fir-against-cockroach-janta-party-protest-organisers-articleshow-0lztfwn",
+        "archived_on": "2026-10-05"
       },
       {
         "url": "https://www.freepressjournal.in/mumbai/hours-after-abhijeet-dipke-thanks-police-cjp-organisers-400-500-supporters-booked-over-shivaji-park-protest",
@@ -4016,6 +4080,197 @@
         "retrieved_on": "2026-10-05",
         "archive_url": "http://web.archive.org/web/20261004104721/https://www.freepressjournal.in/mumbai/hours-after-abhijeet-dipke-thanks-police-cjp-organisers-400-500-supporters-booked-over-shivaji-park-protest",
         "archived_on": "2026-10-05"
+      }
+    ],
+    "added_on": "2026-10-05"
+  },
+  {
+    "id": "INC-DEL-017",
+    "jurisdiction": "delhi",
+    "category": "incident",
+    "incident": "INC-0006",
+    "claim": "Three FIRs were registered on 3 October 2026 over the protest of 2 October at Jantar Mantar, at Parliament Street and Connaught Place police stations. Outlook, citing Hindustan Times, reports the charge as section 223 of the Bharatiya Nyaya Sanhita, disobedience of an order promulgated by a public servant. ThePrint, citing PTI and Delhi Police officials, reports sections 223(a), 221, 132 and 3(5). Both report that no individual or organisation is named in the accused column, Outlook quoting a police officer.",
+    "confidence": "CORROBORATED",
+    "notes": "Two reports with different origins (Hindustan Times and PTI) agree on the number, the offences of disobedience and no named accused, and differ in how many sections they list. The FIRs themselves would settle it. Outlook says organisers and participating organisations are mentioned in the FIRs even though none is named as accused. The sections are quoted as the reports give them and have not been checked against the current text by anyone who practises. This supersedes the single-source mention of three FIRs at INC-DEL-016.",
+    "volatility": "medium",
+    "sources": [
+      {
+        "url": "https://www.outlookindia.com/national/delhi-police-register-3-firs-over-jantar-mantar-protests-seeking-cec-gyanesh-kumars-resignation",
+        "source_type": "secondary",
+        "publication": "Outlook (second report)",
+        "retrieved_on": "2026-10-05",
+        "originates_from": "Hindustan Times, as cited in the article",
+        "archive_url": "http://web.archive.org/web/20261003115714/https://www.outlookindia.com/national/delhi-police-register-3-firs-over-jantar-mantar-protests-seeking-cec-gyanesh-kumars-resignation",
+        "archived_on": "2026-10-05"
+      },
+      {
+        "url": "https://theprint.in/india/nearly-200-detained-as-aisa-other-protesters-return-to-jantar-mantar/3061293/",
+        "source_type": "secondary",
+        "publication": "ThePrint",
+        "retrieved_on": "2026-10-05",
+        "originates_from": "PTI and Delhi Police officials, as cited in the article",
+        "archive_url": "http://web.archive.org/web/20261004123121/https://theprint.in/india/nearly-200-detained-as-aisa-other-protesters-return-to-jantar-mantar/3061293/",
+        "archived_on": "2026-10-05"
+      }
+    ],
+    "added_on": "2026-10-05"
+  },
+  {
+    "id": "INC-DEL-018",
+    "jurisdiction": "delhi",
+    "category": "incident",
+    "incident": "INC-0006",
+    "claim": "ThePrint, citing PTI and Delhi Police officials, reports that nearly 200 protesters were detained on Saturday 3 October 2026 as AISA and others returned to Jantar Mantar the day after the mass detentions, among them the AISA president, a civil society activist, a senior advocate and student volunteers from the AAP student wing. The student wing alleged that some volunteers were detained and taken around different parts of Delhi in a bus for several hours before being taken to Jafarpur police station.",
+    "confidence": "REPORTED",
+    "notes": "One outlet for the figure and for the allegation. ThePrint carried an earlier version of the same story with a figure of around 150, so the count moved during the day. The bus allegation is made by a political organisation and is not corroborated here. Section 163 BNSS is described as in force on the Friday; the sources read do not say whether it was extended to Saturday.",
+    "volatility": "medium",
+    "sources": [
+      {
+        "url": "https://theprint.in/india/nearly-200-detained-as-aisa-other-protesters-return-to-jantar-mantar/3061293/",
+        "source_type": "secondary",
+        "publication": "ThePrint",
+        "retrieved_on": "2026-10-05",
+        "originates_from": "PTI and Delhi Police officials, as cited in the article",
+        "archive_url": "http://web.archive.org/web/20261004123121/https://theprint.in/india/nearly-200-detained-as-aisa-other-protesters-return-to-jantar-mantar/3061293/",
+        "archived_on": "2026-10-05"
+      }
+    ],
+    "added_on": "2026-10-05"
+  },
+  {
+    "id": "INC-DEL-019",
+    "jurisdiction": "delhi",
+    "category": "incident",
+    "incident": "INC-0006",
+    "claim": "The News Mill reports, on police sources, that around 15 Delhi Police personnel were injured, some women personnel reportedly by bites, and around 110 people were detained when the Indian Youth Congress marched from Raisina Road towards Jantar Mantar on a Sunday. The page carries no police statement on its own account.",
+    "confidence": "REPORTED",
+    "notes": "The police account of injuries to police is recorded because it is part of what happened and because an account that holds only protesters' allegations would be one-sided. One outlet, anonymous police sources, no statement on the record. The date is not settled by this source: the page was read as dating the protest to Sunday 5 October, and 5 October 2026 is a Monday; the Sunday of that weekend is 4 October. The archive has not corrected the source and records the date as the Sunday after 3 October.",
+    "volatility": "high",
+    "sources": [
+      {
+        "url": "https://thenewsmill.com/2026/10/around-15-delhi-police-injured-and-110-detained-during-jantar-mantar-protest/",
+        "source_type": "secondary",
+        "publication": "The News Mill",
+        "retrieved_on": "2026-10-05"
+      }
+    ],
+    "added_on": "2026-10-05"
+  },
+  {
+    "id": "INC-DEL-020",
+    "jurisdiction": "delhi",
+    "category": "incident",
+    "incident": "INC-0006",
+    "claim": "Delhi Police refused permission for the protest planned at Jantar Mantar on 2 October 2026. DT Next reports it on unnamed police sources and says the protest was called by AISA, a Rajya Sabha member and a Supreme Court lawyer. Deccan Chronicle reports police saying permission had not been granted and the AAP saying letters seeking it were sent about a week earlier. Bar and Bench reports a Delhi Police order dated 1 October 2026 rejecting the Indian Youth Congress application for permission to demonstrate there.",
+    "confidence": "CORROBORATED",
+    "notes": "The Indian Youth Congress order of 1 October is a written instrument with a date, and the Youth Congress has put it before the Delhi High Court (PROC-DEL-005), so a copy exists outside the police. It is the Delhi counterpart of the Maharashtra refusal at INC-MAH-003 and the Kochi notice at INC-KER-001. None of the sources names the officer or office that signed it. See OQ-061 and FQ-023.",
+    "volatility": "medium",
+    "sources": [
+      {
+        "url": "https://www.dtnext.in/news/national/delhi-police-denies-permission-for-oct-2-protest-against-cec-at-jantar-mantar-security-beefed-up",
+        "source_type": "secondary",
+        "publication": "DT Next",
+        "retrieved_on": "2026-10-05",
+        "originates_from": "Unnamed police sources"
+      },
+      {
+        "url": "https://www.deccanchronicle.com/amp/nation/500-protesters-aap-leaders-detained-at-jantar-mantar-over-sir-1992491",
+        "source_type": "secondary",
+        "publication": "Deccan Chronicle",
+        "retrieved_on": "2026-10-05",
+        "archive_url": "http://web.archive.org/web/20261002082447/https://www.deccanchronicle.com/amp/nation/500-protesters-aap-leaders-detained-at-jantar-mantar-over-sir-1992491",
+        "archived_on": "2026-10-05"
+      },
+      {
+        "url": "https://www.barandbench.com/news/youth-congress-moves-delhi-high-court-against-denial-of-permission-to-protest-against-cec-gyanesh-kumar",
+        "source_type": "secondary",
+        "publication": "Bar and Bench",
+        "retrieved_on": "2026-10-05"
+      }
+    ],
+    "added_on": "2026-10-05"
+  },
+  {
+    "id": "INC-DEL-021",
+    "jurisdiction": "delhi",
+    "category": "incident",
+    "incident": "INC-0006",
+    "claim": "IBTimes India reports that Delhi Police personnel at the Jantar Mantar protests did not wear name tags, that junior personnel were allowed to remove them while most IPS officers kept theirs, and that officials gave the reason as preventing individual officers being identified and targeted on social media after the protest of 20 July, with junior personnel assured that no action would follow if they acted within the law.",
+    "confidence": "REPORTED",
+    "notes": "One outlet. Hindustan Times and The Times of India headlines in the 5 October sweep carry the same story and were not retrieved. The record matters to this archive for a plain reason: an officer who cannot be identified cannot be asked who gave an order, and the explanation offered concerns harassment of officers and their families, which is a real harm and is recorded as the police's stated reason and not as the archive's view.",
+    "volatility": "medium",
+    "sources": [
+      {
+        "url": "https://www.ibtimes.co.in/delhi-police-skip-name-tags-jantar-mantar-cjps-saurav-das-alleges-govt-plans-arrests-ahead-oct-906989",
+        "source_type": "secondary",
+        "publication": "IBTimes India",
+        "retrieved_on": "2026-10-05"
+      }
+    ],
+    "added_on": "2026-10-05"
+  },
+  {
+    "id": "INC-DEL-022",
+    "jurisdiction": "delhi",
+    "category": "incident",
+    "incident": "INC-0006",
+    "claim": "PTI and Deccan Chronicle report that three women journalists alleged sexual harassment by police personnel during the Jantar Mantar protest of 3 October 2026, that no FIR was registered when they went to a police station, and that Delhi Police transferred the complaints to the Crime Branch for what an unnamed New Delhi district officer called a fair and impartial enquiry. PTI reports that the Crime Branch said it would examine the allegations and record statements, and that the Press Club of India expressed concern and urged immediate action.",
+    "confidence": "CORROBORATED",
+    "notes": "The complainants are not named here. PTI reports that an Assistant Commissioner of Police is named in the complaint and could not be reached for comment; the officer is not named in this record, on the rule that an unproven allegation does not put a name in the archive. Deccan Chronicle reports that protesters and opposition figures say police cited the Crime Branch inquiry as the reason for deferring an FIR. Whether an FIR has since been registered is OQ-057. This is the same set of complaints The Week reports at INC-DEL-016, in different words.",
+    "volatility": "high",
+    "sources": [
+      {
+        "url": "https://theprint.in/india/3-women-journalists-allege-sexual-harassment-by-police-crime-branch-to-launch-probe/3061828/",
+        "source_type": "secondary",
+        "publication": "ThePrint",
+        "retrieved_on": "2026-10-05",
+        "originates_from": "PTI"
+      },
+      {
+        "url": "https://www.deccanchronicle.com/nation/crime/three-women-journalists-allege-sexual-harassment-by-police-at-jantar-mantar-1992998",
+        "source_type": "secondary",
+        "publication": "Deccan Chronicle",
+        "retrieved_on": "2026-10-05",
+        "archive_url": "http://web.archive.org/web/20261004090801/https://www.deccanchronicle.com/nation/crime/three-women-journalists-allege-sexual-harassment-by-police-at-jantar-mantar-1992998",
+        "archived_on": "2026-10-05"
+      }
+    ],
+    "added_on": "2026-10-05"
+  },
+  {
+    "id": "PROC-DEL-005",
+    "jurisdiction": "delhi",
+    "category": "legal_proceeding",
+    "incident": "INC-0006",
+    "claim": "Bar and Bench reports that the president of the Indian Youth Congress moved the Delhi High Court on 3 October 2026 against Delhi Police's order of 1 October 2026 rejecting the organisation's application for permission to protest against the Chief Election Commissioner at Jantar Mantar.",
+    "confidence": "REPORTED",
+    "notes": "One source. The article gives no case number, bench or listing date, and none is recorded here. Retrieving the petition and the order of 1 October is FQ-023.",
+    "volatility": "medium",
+    "sources": [
+      {
+        "url": "https://www.barandbench.com/news/youth-congress-moves-delhi-high-court-against-denial-of-permission-to-protest-against-cec-gyanesh-kumar",
+        "source_type": "secondary",
+        "publication": "Bar and Bench",
+        "retrieved_on": "2026-10-05"
+      }
+    ],
+    "added_on": "2026-10-05"
+  },
+  {
+    "id": "PROC-SC-015",
+    "jurisdiction": "supreme_court",
+    "category": "legal_proceeding",
+    "incident": "INC-0006",
+    "claim": "LiveLaw reports that on 5 October 2026 a bench headed by the Chief Justice of India, Surya Kant, agreed to list a plea seeking directions to Delhi Police to permit peaceful protests at Jantar Mantar, titled Priya Mishra v. Union of India, Diary No. 62121/2026. The Chief Justice is quoted as saying that if similar matters are pending the Court will find out, and that it will only list the matter.",
+    "confidence": "REPORTED",
+    "notes": "One source retrieved. Other outlets carry the story and were not read. Listing is not a hearing and no order on the merits is recorded. The petition and any order are to be retrieved from the Court's own site, as for FQ-016 and FQ-018.",
+    "volatility": "high",
+    "sources": [
+      {
+        "url": "https://www.livelaw.in/amp/top-stories/supreme-court-agrees-to-list-plea-seeking-permission-for-peaceful-protests-in-delhi-amid-agitation-against-cec-gyanesh-kumar-553087",
+        "source_type": "secondary",
+        "publication": "LiveLaw",
+        "retrieved_on": "2026-10-05"
       }
     ],
     "added_on": "2026-10-05"

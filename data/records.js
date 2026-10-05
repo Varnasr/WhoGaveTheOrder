@@ -235,6 +235,18 @@ WGO.offices = [
 WGO.updates = [
   {
     date: '2026-10-05',
+    title: 'The Jantar Mantar protests ran for three days, and two courts have now been asked about the right to protest there',
+    body: 'Nearly 200 more people were detained on Saturday 3 October as AISA and others returned, and around 110 on the Sunday when the Indian Youth Congress marched, with police sources putting injuries to police at around 15. Counts for the first day now run from over 500 to about 1,000, and the archive holds none of them from an official statement. Three FIRs were registered on 3 October with no accused named. The Indian Youth Congress has asked the Delhi High Court to set aside the Delhi Police order of 1 October refusing it permission, and on 5 October the Supreme Court agreed to list a separate plea asking that peaceful protests be permitted. The order of 1 October is a written refusal with a date, and a copy sits in a court file, which makes it the cheapest document in this record to ask for.',
+    recordId: 'INC-DEL-020'
+  },
+  {
+    date: '2026-10-05',
+    title: 'Delhi Police went to the October protests without name tags, and the stated reason is harassment of officers',
+    body: 'IBTimes India reports that junior Delhi Police personnel at Jantar Mantar did not wear name tags while most IPS officers kept theirs. Officials are reported to have said the aim was to stop officers being identified and targeted on social media after 20 July, and that junior personnel were told no action would follow if they acted within the law. That is a real harm to officers and their families and is recorded as the police\'s stated reason. It also means a person on the ground cannot be asked who gave an order. One outlet so far.',
+    recordId: 'INC-DEL-021'
+  },
+  {
+    date: '2026-10-05',
     title: 'Hundreds were detained at Jantar Mantar on 2 October under a section 163 order, and the sources disagree on who issued it',
     body: 'A new wave of protests began on 2 October, this time over the Chief Election Commissioner and the revision of the electoral rolls. Al Jazeera reports over 500 people detained by about 3 pm; The Week and Outlook report over 700, Outlook attributing the figure to police officials. A section 163 order was in force across New Delhi district. Al Jazeera, citing The Times of India, says Delhi Police imposed it; Outlook says the Delhi government did. The order is a written instrument with a date and a signatory, and it is the first thing worth asking for. Protesters allege being beaten with batons, reported by one outlet; Reuters describes shoving and buses. The archive holds no footage, medical record or police account and does not call this a use of force. It is recorded as its own incident, apart from the July records, because the Supreme Court order of 1 September is reported to cover only the protests of 20 to 25 July.',
     recordId: 'INC-DEL-013'
@@ -597,7 +609,7 @@ WGO.incidents = [
     coords: [28.6270, 77.2166],           // Jantar Mantar, the protest site itself
     incidentState: 'REPORTED',
     dateState: 'CORROBORATED',
-    date: '2 October 2026',
+    date: '2 to 4 October 2026',
     summaryState: 'UNKNOWN',
     summary: null,
     /* Reported, not established: Outlook names all three. The sources do not
@@ -612,9 +624,9 @@ WGO.incidents = [
        and the closures are reported by more than one source. Left UNKNOWN so
        the record does not assert a list it has not got. */
     crowdControl:   { state: 'UNKNOWN', items: [] },
-    injuries:       { state: 'REPORTED', note: 'A history student from Miranda House is reported to have said she was bruised; protesters allege being dragged and beaten with batons. One outlet, allegations only. See INC-DEL-014.' },
-    detentions:     { state: 'CORROBORATED', note: 'Over 500 by about 3 pm (Al Jazeera) and over 700 (The Week; Outlook, attributing the figure to police officials). The sources do not say when each count was taken. See INC-DEL-011.' },
-    firs:           { state: 'REPORTED', note: 'Three FIRs reported over the protest, with no individual or organisation named as an accused, and complaints from three women transferred to the Crime Branch. One source. See INC-DEL-016.' },
+    injuries:       { state: 'REPORTED', note: 'Protesters allege being dragged and beaten with batons, and a history student is reported to have said she was bruised (one outlet, allegations only; INC-DEL-014). Police sources, via The News Mill, put injuries to police personnel at around 15 on the Sunday, some by bites (INC-DEL-019). No figure for injured protesters is established.' },
+    detentions:     { state: 'CORROBORATED', note: 'On 2 October the counts range from over 500 to about 1,000, depending on the outlet and the time of day, and no official statement of any of them is held (INC-DEL-011). Nearly 200 more were detained on 3 October (INC-DEL-018) and around 110 on the Sunday (INC-DEL-019).' },
+    firs:           { state: 'CORROBORATED', note: 'Three FIRs registered on 3 October at Parliament Street and Connaught Place police stations, with no accused named (INC-DEL-017). Complaints by three women journalists were transferred to the Crime Branch, and no FIR had been registered on them as of 4 October (INC-DEL-022).' },
     officeIds: ['OFC-0001', 'OFC-0004', 'OFC-0006', 'OFC-0007', 'OFC-0008'],
     /* No rung reached on an order to use force, because force is alleged by
        protesters and not established. The order that is documented in the

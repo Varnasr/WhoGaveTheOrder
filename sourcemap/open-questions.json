@@ -688,10 +688,12 @@
     "category": "incident",
     "jurisdiction": "delhi",
     "question": "What is the status of the three FIRs reported over the 2 October 2026 protest, at which police stations, against whom, and has any FIR been registered on the journalist's complaint or on the three complaints sent to the Crime Branch?",
-    "why_it_matters": "The only source (INC-DEL-016) says no accused was named in any of the three FIRs, and quotes the Cockroach Janta Party as saying police will not register one against the officer the journalist named. That is one outlet, one day after the event, and it can change daily. This archive has not found where, or whether, Delhi Police publishes registered FIRs, and does not name a portal it has not seen.",
+    "why_it_matters": "The only source (INC-DEL-016) says no accused was named in any of the three FIRs, and quotes the Cockroach Janta Party as saying police will not register one against the officer the journalist named. That is one outlet, one day after the event, and it can change daily. This archive has not found where, or whether, Delhi Police publishes registered FIRs, and does not name a portal it has not seen. PTI and Deccan Chronicle report on 4 October that no FIR was registered when the three journalists went to a station and that the complaints went to the Crime Branch (INC-DEL-022). Three FIRs over the protest itself are recorded at INC-DEL-017.",
     "lawful_route": "No route established for Delhi. Establish the publication route first; an RTI application is the fallback.",
     "blocks": [
-      "INC-DEL-016"
+      "INC-DEL-016",
+      "INC-DEL-017",
+      "INC-DEL-022"
     ]
   },
   {
@@ -729,6 +731,19 @@
     "blocks": [
       "INC-DEL-014",
       "RET-002"
+    ]
+  },
+  {
+    "id": "OQ-061",
+    "priority": "high",
+    "category": "court_records",
+    "jurisdiction": "delhi",
+    "question": "Who signed the Delhi Police order of 1 October 2026 refusing the Indian Youth Congress permission to demonstrate at Jantar Mantar, and what ground does it state?",
+    "why_it_matters": "The order is reported by Bar and Bench (INC-DEL-020) and challenged in the Delhi High Court (PROC-DEL-005), so a copy sits in a court file. It is the Delhi counterpart of the written refusals at Mumbai and Kochi, and a refusal is a written instrument with an author.",
+    "lawful_route": "FQ-023: the petition and its annexures from the Delhi High Court.",
+    "blocks": [
+      "INC-DEL-020",
+      "PROC-DEL-005"
     ]
   }
 ]
