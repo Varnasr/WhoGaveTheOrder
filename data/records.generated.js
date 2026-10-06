@@ -1022,8 +1022,8 @@ WGO.importedSources = [
     "kind": "SECONDARY",
     "url": "https://www.tribuneindia.com/news/india/cjp-protest-at-shivaji-park-fir-registered-against-organisers-400-500-unidentified-persons/",
     "retrievedOn": "2026-10-05",
-    "archiveUrl": null,
-    "archivedOn": null,
+    "archiveUrl": "http://web.archive.org/web/20261005005357/https://www.tribuneindia.com/news/india/cjp-protest-at-shivaji-park-fir-registered-against-organisers-400-500-unidentified-persons/",
+    "archivedOn": "2026-10-06",
     "sha256": null,
     "originatesFrom": "PTI"
   },
@@ -1033,8 +1033,8 @@ WGO.importedSources = [
     "kind": "SECONDARY",
     "url": "https://thenewsmill.com/2026/10/around-15-delhi-police-injured-and-110-detained-during-jantar-mantar-protest/",
     "retrievedOn": "2026-10-05",
-    "archiveUrl": null,
-    "archivedOn": null,
+    "archiveUrl": "http://web.archive.org/web/20261004194248/https://thenewsmill.com/2026/10/around-15-delhi-police-injured-and-110-detained-during-jantar-mantar-protest/",
+    "archivedOn": "2026-10-06",
     "sha256": null,
     "originatesFrom": null
   },
@@ -1044,8 +1044,8 @@ WGO.importedSources = [
     "kind": "SECONDARY",
     "url": "https://www.dtnext.in/news/national/delhi-police-denies-permission-for-oct-2-protest-against-cec-at-jantar-mantar-security-beefed-up",
     "retrievedOn": "2026-10-05",
-    "archiveUrl": null,
-    "archivedOn": null,
+    "archiveUrl": "https://web.archive.org/web/20261006091218/https://www.dtnext.in/news/national/delhi-police-denies-permission-for-oct-2-protest-against-cec-at-jantar-mantar-security-beefed-up",
+    "archivedOn": "2026-10-06",
     "sha256": null,
     "originatesFrom": "Unnamed police sources"
   },
@@ -1055,8 +1055,8 @@ WGO.importedSources = [
     "kind": "SECONDARY",
     "url": "https://www.barandbench.com/news/youth-congress-moves-delhi-high-court-against-denial-of-permission-to-protest-against-cec-gyanesh-kumar",
     "retrievedOn": "2026-10-05",
-    "archiveUrl": null,
-    "archivedOn": null,
+    "archiveUrl": "https://web.archive.org/web/20261006091249/https://www.barandbench.com/news/youth-congress-moves-delhi-high-court-against-denial-of-permission-to-protest-against-cec-gyanesh-kumar",
+    "archivedOn": "2026-10-06",
     "sha256": null,
     "originatesFrom": null
   },
