@@ -1066,8 +1066,8 @@ WGO.importedSources = [
     "kind": "SECONDARY",
     "url": "https://www.ibtimes.co.in/delhi-police-skip-name-tags-jantar-mantar-cjps-saurav-das-alleges-govt-plans-arrests-ahead-oct-906989",
     "retrievedOn": "2026-10-05",
-    "archiveUrl": null,
-    "archivedOn": null,
+    "archiveUrl": "https://web.archive.org/web/20261007085901/https://www.ibtimes.co.in/delhi-police-skip-name-tags-jantar-mantar-cjps-saurav-das-alleges-govt-plans-arrests-ahead-oct-906989",
+    "archivedOn": "2026-10-07",
     "sha256": null,
     "originatesFrom": null
   },
@@ -1385,8 +1385,8 @@ WGO.importedSources = [
     "kind": "PRIMARY",
     "url": "https://journals.sagepub.com/doi/abs/10.1177/00699659231208696",
     "retrievedOn": "2026-08-16",
-    "archiveUrl": null,
-    "archivedOn": null,
+    "archiveUrl": "http://web.archive.org/web/20261006091112/https://journals.sagepub.com/doi/abs/10.1177/00699659231208696",
+    "archivedOn": "2026-10-07",
     "sha256": null,
     "originatesFrom": null
   },

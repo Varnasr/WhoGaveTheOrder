@@ -2489,7 +2489,9 @@
         "url": "https://journals.sagepub.com/doi/abs/10.1177/00699659231208696",
         "source_type": "primary",
         "publication": "Sage",
-        "retrieved_on": "2026-08-16"
+        "retrieved_on": "2026-08-16",
+        "archive_url": "http://web.archive.org/web/20261006091112/https://journals.sagepub.com/doi/abs/10.1177/00699659231208696",
+        "archived_on": "2026-10-07"
       }
     ],
     "notes": "Paywalled. Academic, not operational, but directly on what an FIR archive can and cannot show.",
@@ -4214,7 +4216,9 @@
         "url": "https://www.ibtimes.co.in/delhi-police-skip-name-tags-jantar-mantar-cjps-saurav-das-alleges-govt-plans-arrests-ahead-oct-906989",
         "source_type": "secondary",
         "publication": "IBTimes India",
-        "retrieved_on": "2026-10-05"
+        "retrieved_on": "2026-10-05",
+        "archive_url": "https://web.archive.org/web/20261007085901/https://www.ibtimes.co.in/delhi-police-skip-name-tags-jantar-mantar-cjps-saurav-das-alleges-govt-plans-arrests-ahead-oct-906989",
+        "archived_on": "2026-10-07"
       }
     ],
     "added_on": "2026-10-05"
