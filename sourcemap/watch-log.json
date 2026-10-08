@@ -434,22 +434,33 @@
         "unreachable": 1,
         "ok": 5
       }
+    },
+    {
+      "date": "2026-10-08",
+      "targets": 9,
+      "findings": 40,
+      "outcomes": {
+        "matched": 1,
+        "changed-no-match": 2,
+        "unreachable": 1,
+        "ok": 5
+      }
     }
   ],
   "seen": {
     "delhi-hc-causelist": {
-      "fingerprint": "cb5ef3d9ed6234d1",
-      "lastChecked": "2026-10-06",
+      "fingerprint": "70c0b9643282d56b",
+      "lastChecked": "2026-10-08",
       "method": "pdf-text"
     },
     "delhi-hc-judgments": {
-      "fingerprint": "9dad4a6ba709d536",
-      "lastChecked": "2026-10-07",
+      "fingerprint": "fc9e994ed267cf2d",
+      "lastChecked": "2026-10-08",
       "method": "html"
     },
     "nhrc-press": {
-      "fingerprint": "49f467c2a0f86df6",
-      "lastChecked": "2026-10-07",
+      "fingerprint": "94d48d5d364408d6",
+      "lastChecked": "2026-10-08",
       "method": "html"
     },
     "barandbench": {
@@ -1127,65 +1138,35 @@
         "661b877039fccb88",
         "4cc4cfc1dd1aebf7",
         "3a89ac604298f90c",
-        "d1605117381a8071"
+        "d1605117381a8071",
+        "5305bf8c9b6ec3dc",
+        "3275fe17e9833d87",
+        "e074bfd124589aa0",
+        "c0cbe98332f9d925",
+        "6b9418b6dbbb21cd",
+        "40ec537d56a390e5",
+        "8d44d517d60bf304",
+        "f2336a1fa2a86112",
+        "d82c3f4217dbc1d8",
+        "122cdb86b3875d14",
+        "72b3584b33a74cc6",
+        "1b0ce4e63df0a61c",
+        "3dce62f6fa9bf0d0",
+        "e3f58048ce49f9f9",
+        "b07bead6eef61211",
+        "8ee88626e3390738",
+        "a37cbf1e4d28c216",
+        "df79f224356603e5",
+        "0e30fe18f1163b77",
+        "f8b9db9368cd1afd",
+        "cdcabaf9432c4ff9",
+        "38f2220d8b2c8983",
+        "65d20c8bf2c19be0"
       ],
-      "lastChecked": "2026-10-07"
+      "lastChecked": "2026-10-08"
     },
     "news-delhi": {
       "items": [
-        "27812b5f897a140c",
-        "3db9fdbefb164e86",
-        "86fe22daca82c1cd",
-        "dd2357bd59185eb0",
-        "e641627ed6de86e9",
-        "abd3aedec2eaf890",
-        "ad95891558ede019",
-        "17db54696236815a",
-        "9953765df5e1bd51",
-        "6ce3758c2c84e30f",
-        "4545ef3483901314",
-        "507664a30853d05c",
-        "b20e0349689e161d",
-        "afec997e9d2d3666",
-        "42758808a9c2ef40",
-        "72e4172cbdad7be9",
-        "e354332491c6588b",
-        "f47354c845455dd8",
-        "9978d3979d246b2f",
-        "fb98ced20723d067",
-        "628a17d25bdbead2",
-        "9e91cd0257dc01e9",
-        "d35cd7f1eefba8c0",
-        "2b76574e5863b7dd",
-        "f463a65ff1283544",
-        "67df099f64031ef1",
-        "47ffd880b58d8f6d",
-        "8796ac77ed155909",
-        "7ce9e36e77155429",
-        "77f3d9f11741b3b1",
-        "817b45b67a2b39ad",
-        "d5bbf3050494f18a",
-        "73777158796fcb1a",
-        "4ef103ceadf05884",
-        "7c8254b2623432e2",
-        "4aab925f57731d92",
-        "8ef5a0a67a723853",
-        "e206ccdb400b3a11",
-        "f1b89c5a79d5a638",
-        "7da7af6fc1b64c81",
-        "8bd3c98880adac15",
-        "5196aac473e4eebe",
-        "46dfb24f67df4795",
-        "a719936159459b62",
-        "0a87bc63ca1e3aa9",
-        "fc2d2da8fd859927",
-        "3ec5176c5b58aaf1",
-        "243091ac924449c1",
-        "26484f3951958b4c",
-        "b9f06844abb5dd99",
-        "5e8963af4798ff04",
-        "dfb1d7e7a88d205c",
-        "1dc277625619e74c",
         "3691eb3ced41ce70",
         "fbd89e435a040cfc",
         "6024c2cb424c48c8",
@@ -1932,9 +1913,62 @@
         "4dc20191416b3514",
         "0f6ba281785f480e",
         "2bd3ea042ab2e46a",
-        "c4bb26e03797f3d4"
+        "c4bb26e03797f3d4",
+        "befb82ff3ffd98e8",
+        "cb4ead9bf08c4371",
+        "c73e6c04f8a97989",
+        "c50f13d51525999b",
+        "592c20529f6d3398",
+        "9fbd9c018ff1b620",
+        "0dfe7a5e96e21fbe",
+        "0dfb97f806d3fa96",
+        "fb3242c149135ddb",
+        "ef49d2b16cc58205",
+        "f2ef8dd5db0634ab",
+        "d125b7948fcf9583",
+        "44bd38fe90d9b6a7",
+        "9a621a2c57c1cffe",
+        "da1bc6f778e215f4",
+        "da6d8717184a9e1c",
+        "d7f80ac28b8abc30",
+        "7c3b4190601a79af",
+        "ebc5f29e3279ea61",
+        "e8db21b9ae615e3a",
+        "534ceedb246e018c",
+        "c659025ee82eecef",
+        "6bf4fdcec498e125",
+        "f9da42a5ff8efca1",
+        "99bf5e72f9567734",
+        "6362077a61907d88",
+        "e61a75e7a7b22a9b",
+        "13b62b39b135c79f",
+        "2fe7e67e58d9b230",
+        "293a72dcfef0cf30",
+        "b712198d30c3b026",
+        "8eb994a8d3ddd067",
+        "2601a387ef607061",
+        "4bf68a1d9443846a",
+        "5bd675685ecde89c",
+        "28ae6efbea6d135c",
+        "48a27742fddfe87d",
+        "4b2e3afc05a68cd5",
+        "24fa3e2ce391fbf8",
+        "0deedb146fb56500",
+        "fbcd802f3e088b86",
+        "beb8dffd699a2c9d",
+        "ff94279bd2b732bd",
+        "6b0c3962d617ae61",
+        "a5994266daac066e",
+        "bafe291af6b84937",
+        "90431310bcd261c3",
+        "762609b116e37f2d",
+        "1a6706b6e521aca9",
+        "126efce20d799d42",
+        "ffcd4b5ac56a3141",
+        "bfb38b6828703235",
+        "b536307507f090a4"
       ],
-      "lastChecked": "2026-10-07"
+      "lastChecked": "2026-10-08"
     },
     "news-cases": {
       "items": [
@@ -2075,9 +2109,12 @@
         "df9da55f2ac0c552",
         "c9af11e2124dec5a",
         "badb8e418dcd4d56",
-        "4e0d1d2c18032f64"
+        "4e0d1d2c18032f64",
+        "e4da18a5e29c9138",
+        "ea9ac30d68a3155f",
+        "b97010a032789e26"
       ],
-      "lastChecked": "2026-10-07"
+      "lastChecked": "2026-10-08"
     },
     "news-frt": {
       "items": [
@@ -2328,7 +2365,7 @@
         "92df88b5d8a46fa7",
         "75a935ba874514a8"
       ],
-      "lastChecked": "2026-10-07"
+      "lastChecked": "2026-10-08"
     },
     "news-bihar": {
       "items": [
@@ -2660,7 +2697,7 @@
         "34631b533d4ed495",
         "41b03986741e9fc4"
       ],
-      "lastChecked": "2026-10-07"
+      "lastChecked": "2026-10-08"
     }
   }
 }

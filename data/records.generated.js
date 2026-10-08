@@ -1099,8 +1099,8 @@ WGO.importedSources = [
     "kind": "SECONDARY",
     "url": "https://www.livelaw.in/amp/top-stories/supreme-court-agrees-to-list-plea-seeking-permission-for-peaceful-protests-in-delhi-amid-agitation-against-cec-gyanesh-kumar-553087",
     "retrievedOn": "2026-10-05",
-    "archiveUrl": null,
-    "archivedOn": null,
+    "archiveUrl": "http://web.archive.org/web/20261005114124/https://www.livelaw.in/amp/top-stories/supreme-court-agrees-to-list-plea-seeking-permission-for-peaceful-protests-in-delhi-amid-agitation-against-cec-gyanesh-kumar-553087",
+    "archivedOn": "2026-10-08",
     "sha256": null,
     "originatesFrom": null
   },
