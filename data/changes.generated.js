@@ -5,6 +5,44 @@ window.WGO = window.WGO || {};
 
 WGO.changes = [
   {
+    "commit": "194ec079ce",
+    "date": "2026-10-07T09:01:40Z",
+    "subject": "Sweep log and archived copies for 2026-10-07 [skip ci]",
+    "added": [],
+    "removed": [],
+    "changed": [
+      {
+        "id": "SRC-0126",
+        "kind": "Source",
+        "title": "IBTimes India",
+        "state": null,
+        "url": "https://www.ibtimes.co.in/delhi-police-skip-name-tags-jantar-mantar-cjps-saurav-das-alleges-govt-plans-arrests-ahead-oct-906989",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "https://web.archive.org/web/20261007085901/https://www.ibtimes.co.in/delhi-police-skip-name-tags-jantar-mantar-cjps-saurav-das-alleges-govt-plans-arrests-ahead-oct-906989"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0078",
+        "kind": "Source",
+        "title": "Sage",
+        "state": null,
+        "url": "https://journals.sagepub.com/doi/abs/10.1177/00699659231208696",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20261006091112/https://journals.sagepub.com/doi/abs/10.1177/00699659231208696"
+          }
+        ]
+      }
+    ],
+    "summary": "2 records edited"
+  },
+  {
     "commit": "c7d542dbf5",
     "date": "2026-10-06T09:14:22Z",
     "subject": "Sweep log and archived copies for 2026-10-06 [skip ci]",

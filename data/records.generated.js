@@ -1077,8 +1077,8 @@ WGO.importedSources = [
     "kind": "SECONDARY",
     "url": "https://theprint.in/india/3-women-journalists-allege-sexual-harassment-by-police-crime-branch-to-launch-probe/3061828/",
     "retrievedOn": "2026-10-05",
-    "archiveUrl": null,
-    "archivedOn": null,
+    "archiveUrl": "http://web.archive.org/web/20261008091432/https://theprint.in/india/3-women-journalists-allege-sexual-harassment-by-police-crime-branch-to-launch-probe/3061828/",
+    "archivedOn": "2026-10-09",
     "sha256": null,
     "originatesFrom": "PTI"
   },
