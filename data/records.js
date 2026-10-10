@@ -424,6 +424,7 @@ WGO.events = [];
 WGO.incidents = [
   {
     id: 'INC-0001',
+    isoDate: '2026-07-20',   /* first day; used only to order the lists */
     kind: 'FORCE',
     slug: 'jantar-mantar',
     title: 'Police action against students at Jantar Mantar',
@@ -466,6 +467,7 @@ WGO.incidents = [
   },
   {
     id: 'INC-0002',
+    isoDate: '2026-07-22',   /* first day; used only to order the lists */
     kind: 'FORCE',
     slug: 'bihar',
     title: 'Police action against students in Bihar',
@@ -492,6 +494,7 @@ WGO.incidents = [
   },
   {
     id: 'INC-0003',
+    isoDate: '2026-07-18',   /* first day; used only to order the lists */
     kind: 'CASES',
     slug: 'maharashtra',
     /* Retitled 23 September 2026. This shell was opened on a Supreme Court
@@ -536,6 +539,7 @@ WGO.incidents = [
      research: the daily sweep found it. */
   {
     id: 'INC-0004',
+    isoDate: '2026-07-25',   /* first day; used only to order the lists */
     kind: 'FORCE',
     slug: 'siwan',
     title: 'Police firing during the student protest at Siwan',
@@ -569,6 +573,7 @@ WGO.incidents = [
      on the site where the archive's question has a cheap answer. */
   {
     id: 'INC-0005',
+    isoDate: '2026-07-22',   /* first day; used only to order the lists */
     kind: 'CASES',
     slug: 'kochi',
     title: 'Cases registered over a solidarity gathering at Kochi',
@@ -607,6 +612,7 @@ WGO.incidents = [
      permission, with no force alleged. */
   {
     id: 'INC-0006',
+    isoDate: '2026-10-02',   /* first day; used only to order the lists */
     slug: 'jantar-mantar-2-october',
     kind: 'DETENTIONS',
     title: 'Mass detentions at Jantar Mantar under a prohibitory order',
@@ -643,6 +649,7 @@ WGO.incidents = [
   },
   {
     id: 'INC-0007',
+    isoDate: '2026-10-02',   /* first day; used only to order the lists */
     slug: 'shivaji-park-2-october',
     kind: 'CASES',
     title: 'Case registered over the Cockroach Janta Party gathering at Shivaji Park',
@@ -677,6 +684,7 @@ WGO.incidents = [
      people detained and no police account in the sources read. */
   {
     id: 'INC-0008',
+    isoDate: '2026-10-06',   /* first day; used only to order the lists */
     slug: 'opposition-march-6-7-october',
     kind: 'DETENTIONS',
     title: 'Opposition MPs detained during the INDIA bloc march to the Election Commission',
@@ -698,6 +706,177 @@ WGO.incidents = [
     firs:           { state: 'REPORTED', note: 'An FIR against Rahul Gandhi is mentioned by Siasat without station, sections or complainant. See INC-DEL-026.' },
     officeIds: ['OFC-0001', 'OFC-0004', 'OFC-0006', 'OFC-0007', 'OFC-0008'],
     orderTrail: { reached: null, rungs: {}, next: 'OQ-055' },
+    openedOn: '2026-10-10'
+  },
+  /* Opened 10 October 2026. The seven earlier cases (2016 to 2024) are entered
+     as shells on purpose. Their facts live in the evidence library, each at the
+     confidence its sources earn; the fields below stay UNKNOWN until a record
+     can be pointed at. No order has been found for any of them, and the
+     orderTrail is therefore empty. officeIds is empty because the offices in
+     WGO.offices are mapped to the July 2026 Delhi, Bihar and Maharashtra
+     incidents, and attaching them here would assert a chain of command nobody
+     has documented. */
+  {
+    id: 'INC-0009',
+    isoDate: '2016-02-12',   /* first day; used only to order the lists */
+    slug: 'jnu-patiala-house-2016',
+    title: 'Police entry at JNU and the assault at Patiala House Court',
+    place: 'Jawaharlal Nehru University and Patiala House Court, New Delhi',
+    state: 'Delhi',
+    coords: [28.5402, 77.1662],
+    coordsState: 'REPORTED',
+    incidentState: 'REPORTED',
+    dateState: 'CORROBORATED',
+    date: '12 to 17 February 2016',
+    summaryState: 'UNKNOWN',
+    summary: null,
+    forcesInvolved: { state: 'UNKNOWN', items: [] },
+    crowdControl:   { state: 'UNKNOWN', items: [] },
+    injuries: { state: 'UNKNOWN', note: "No injury figure for the assault at Patiala House Court on 15 February 2016 is established by any document read (HIST-JNU16-012)." },
+    detentions: { state: 'CORROBORATED', note: "Kanhaiya Kumar, president of the JNU Students' Union, was arrested on 12 February 2016 in the sedition case and was granted interim bail by the Delhi High Court on 2 March 2016 (HIST-JNU16-004, HIST-JNU16-009)." },
+    firs: { state: 'CORROBORATED', note: "FIR No. 110/2016 at Vasant Kunj North over the 9 February event (HIST-JNU16-001). Four FIRs over the violence at Patiala House Courts on 15 and 17 February (HIST-JNU16-022)." },
+    officeIds: [],
+    orderTrail: { reached: null, rungs: {}, next: null },
+    openedOn: '2026-10-10'
+  },
+  {
+    id: 'INC-0010',
+    isoDate: '2016-03-22',   /* first day; used only to order the lists */
+    slug: 'university-of-hyderabad-2016',
+    title: 'Police on the University of Hyderabad campus; students and faculty detained',
+    place: 'University of Hyderabad, Gachibowli, Hyderabad',
+    state: 'Telangana',
+    coords: [17.46, 78.334],
+    coordsState: 'REPORTED',
+    incidentState: 'REPORTED',
+    dateState: 'CORROBORATED',
+    date: '22 and 23 March 2016',
+    summaryState: 'UNKNOWN',
+    summary: null,
+    forcesInvolved: { state: 'REPORTED', items: [{"text": "Police, deployed on 22 March 2016", "state": "CORROBORATED"}, {"text": "Rapid Action Force and CRPF, as alleged by students and a joint action committee (HIST-HCU-019, HIST-HCU-020)", "state": "REPORTED"}] },
+    crowdControl:   { state: 'UNKNOWN', items: [] },
+    injuries: { state: 'DISPUTED', note: "PUDR says over fifty students were injured; a police officer is reported to say four officers were hurt. No official or hospital count was found (HIST-HCU-007)." },
+    detentions: { state: 'DISPUTED', note: "Between 27 and 40 people were arrested depending on the source, and whether they were produced before a magistrate within 24 hours is contested (HIST-HCU-004, HIST-HCU-005, HIST-HCU-028)." },
+    firs: { state: 'REPORTED', note: "Two cases at Gachibowli police station against students and two faculty members, charges as reported; no FIR text was found (HIST-HCU-011)." },
+    officeIds: [],
+    orderTrail: { reached: null, rungs: {}, next: null },
+    openedOn: '2026-10-10'
+  },
+  {
+    id: 'INC-0011',
+    isoDate: '2017-09-21',   /* first day; used only to order the lists */
+    slug: 'bhu-2017',
+    title: 'Lathicharge on women students at Banaras Hindu University',
+    place: 'Banaras Hindu University, Varanasi',
+    state: 'Uttar Pradesh',
+    coords: [25.2677, 82.9913],
+    coordsState: 'REPORTED',
+    incidentState: 'REPORTED',
+    dateState: 'CORROBORATED',
+    date: '21 to 24 September 2017',
+    summaryState: 'UNKNOWN',
+    summary: null,
+    forcesInvolved: { state: 'CORROBORATED', items: [{"text": "Police, including a lathicharge, on the night of 23 September 2017 (HIST-BHU-001); the Vice-Chancellor denied a lathicharge on campus (HIST-BHU-012)", "state": "CORROBORATED"}] },
+    crowdControl:   { state: 'UNKNOWN', items: [] },
+    injuries: { state: 'UNKNOWN', note: "Reports say only that students, including women, and two journalists were injured. No count is established (HIST-BHU-010)." },
+    detentions: { state: 'REPORTED', note: "16 detained students were released on 24 September 2017, per the Lanka station officer as quoted by PTI (HIST-BHU-011)." },
+    firs: { state: 'DISPUTED', note: "An FIR against unidentified policemen and a case against students, reported as over 1,000 or as 1,200 (HIST-BHU-008, HIST-BHU-009)." },
+    officeIds: [],
+    orderTrail: { reached: null, rungs: {}, next: null },
+    openedOn: '2026-10-10'
+  },
+  {
+    id: 'INC-0012',
+    isoDate: '2019-12-15',   /* first day; used only to order the lists */
+    slug: 'jamia-2019',
+    kind: 'FORCE',
+    title: 'Police and RAF on the Jamia Millia Islamia campus, including the library',
+    place: 'Jamia Millia Islamia, New Delhi',
+    state: 'Delhi',
+    coords: [28.5614, 77.283],
+    coordsState: 'REPORTED',
+    incidentState: 'REPORTED',
+    dateState: 'CORROBORATED',
+    date: '15 December 2019',
+    summaryState: 'UNKNOWN',
+    summary: null,
+    forcesInvolved: { state: 'VERIFIED', items: [{"text": "Delhi Police and Rapid Action Force personnel entered the campus on the evening of 15 December 2019 and used force and tear gas, including in the library (HIST-JMI-001)", "state": "VERIFIED"}] },
+    crowdControl:   { state: 'UNKNOWN', items: [] },
+    injuries: { state: 'DISPUTED', note: "A Lok Sabha reply gives 62 police personnel and 127 others, including 36 students; press estimates run higher (HIST-JMI-010)." },
+    detentions: { state: 'DISPUTED', note: "Counts range from 15 arrested to 52 apprehended to 'several 100' depending on the source (HIST-JMI-009)." },
+    firs: { state: 'VERIFIED', note: "FIR 242/2019 (New Friends Colony) and FIR 298/2019 (Jamia Nagar) against protesters. No FIR against any police officer; the university's application was dismissed on 3 February 2021 (HIST-JMI-011, HIST-JMI-012)." },
+    officeIds: [],
+    orderTrail: { reached: null, rungs: {}, next: null },
+    openedOn: '2026-10-10'
+  },
+  {
+    id: 'INC-0013',
+    isoDate: '2019-12-15',   /* first day; used only to order the lists */
+    slug: 'amu-2019',
+    title: 'Police action at Aligarh Muslim University and the Aligarh internet suspension',
+    place: 'Aligarh Muslim University, Aligarh',
+    state: 'Uttar Pradesh',
+    coords: [27.9161, 78.0804],
+    coordsState: 'REPORTED',
+    incidentState: 'REPORTED',
+    dateState: 'CORROBORATED',
+    date: '15 and 16 December 2019',
+    summaryState: 'UNKNOWN',
+    summary: null,
+    forcesInvolved: { state: 'CORROBORATED', items: [{"text": "Police and Rapid Action Force on the campus on the evening and night of 15 December 2019 (HIST-AMU-001)", "state": "CORROBORATED"}, {"text": "Water cannon and tear gas, per the State affidavit as reported (HIST-AMU-004)", "state": "REPORTED"}] },
+    crowdControl:   { state: 'CORROBORATED', items: [{"text": "Internet suspended in Aligarh from 10 pm on 15 December to 10 pm on 16 December 2019 on the District Magistrate's order (HIST-AMU-003)", "state": "CORROBORATED"}, {"text": "Section 144 order, per the State affidavit as reported; issuer and text not found (HIST-AMU-008)", "state": "REPORTED"}] },
+    injuries: { state: 'DISPUTED', note: "Estimates of about 70, 40 to 50 and about 100 injured, from different sources (HIST-AMU-006)." },
+    detentions: { state: 'DISPUTED', note: "26 detained, of whom 6 were AMU students per the Deputy Proctor; 21 arrested per the SSP (HIST-AMU-006)." },
+    firs: { state: 'DISPUTED', note: "56 persons named per the SSP; about 700 unnamed and 12 to 13 named per a fact-finding report; and a figure of 1,200 that may be a different FIR (HIST-AMU-007)." },
+    officeIds: [],
+    orderTrail: { reached: null, rungs: {}, next: null },
+    openedOn: '2026-10-10'
+  },
+  {
+    id: 'INC-0014',
+    isoDate: '2020-01-05',   /* first day; used only to order the lists */
+    slug: 'jnu-2020',
+    title: 'Masked attack at JNU and the question of police inaction',
+    place: 'Jawaharlal Nehru University, New Delhi',
+    state: 'Delhi',
+    coords: [28.5402, 77.1662],
+    coordsState: 'REPORTED',
+    incidentState: 'REPORTED',
+    dateState: 'CORROBORATED',
+    date: '5 January 2020',
+    summaryState: 'UNKNOWN',
+    summary: null,
+    forcesInvolved: { state: 'UNKNOWN', items: [] },
+    crowdControl:   { state: 'UNKNOWN', items: [] },
+    injuries: { state: 'DISPUTED', note: "At least 32 to 51 injured depending on the source (HIST-JNU20-002)." },
+    detentions: { state: 'UNKNOWN', note: null },
+    firs: { state: 'CORROBORATED', note: "A case registered on 6 January 2020 at Vasant Kunj (North) and moved to the Crime Branch; on 3 August 2021 the Minister of State for Home said no arrest had been made (HIST-JNU20-009, HIST-JNU20-010)." },
+    officeIds: [],
+    orderTrail: { reached: null, rungs: {}, next: null },
+    openedOn: '2026-10-10'
+  },
+  {
+    id: 'INC-0015',
+    isoDate: '2024-08-27',   /* first day; used only to order the lists */
+    slug: 'nabanna-2024',
+    kind: 'FORCE',
+    title: 'Lathicharge, tear gas and water cannon at the Nabanna march',
+    place: 'Howrah and central Kolkata',
+    state: 'West Bengal',
+    coords: [22.5726, 88.3639],
+    coordsState: 'REPORTED',
+    incidentState: 'REPORTED',
+    dateState: 'CORROBORATED',
+    date: '27 August 2024',
+    summaryState: 'UNKNOWN',
+    summary: null,
+    forcesInvolved: { state: 'CORROBORATED', items: [{"text": "Police (Kolkata Police and West Bengal Police) at Howrah Bridge, Santragachi, Howrah Maidan, MG Road and Hastings Road (HIST-NAB-002, HIST-NAB-010)", "state": "CORROBORATED"}] },
+    crowdControl:   { state: 'CORROBORATED', items: [{"text": "Lathicharge, water cannon and tear gas (HIST-NAB-002)", "state": "CORROBORATED"}, {"text": "Section 163 BNSS prohibitory order, per an ADG; issuer not established (HIST-NAB-004, HIST-NAB-005)", "state": "REPORTED"}] },
+    injuries: { state: 'REPORTED', note: "Police say 15 Kolkata Police and 14 state police personnel were injured; protesters were also injured and no official count was found (HIST-NAB-010)." },
+    detentions: { state: 'DISPUTED', note: "220 arrests plus 25 preventive arrests, about 245, or 'more than 200' depending on the source (HIST-NAB-011)." },
+    firs: { state: 'UNKNOWN', note: null },
+    officeIds: [],
+    orderTrail: { reached: null, rungs: {}, next: null },
     openedOn: '2026-10-10'
   }
 ];

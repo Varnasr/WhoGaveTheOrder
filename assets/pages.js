@@ -47,7 +47,13 @@
       CASES:       'Cases were registered against protesters at',
       DETENTIONS:  'Protesters were detained at'
     };
-    var lines = model.incidents.map(function (inc) {
+    /* The five most recent only. The archive runs from 2016 and a hero that
+       listed every incident would be a page of its own. */
+    var recent = model.incidents.slice().sort(function (a, b) {
+      return String(b.isoDate || '').localeCompare(String(a.isoDate || ''));
+    });
+    var earlierCount = Math.max(0, recent.length - 5);
+    var lines = recent.slice(0, 5).map(function (inc) {
       if (inc.dateState === 'UNKNOWN' || !inc.date) { return null; }
       return '<li>' +
         '<span class="hero__fact">' + (HERO_VERB[inc.kind] || 'An incident is on the record at') +
@@ -62,6 +68,8 @@
 
     ui.mount('[data-region="hero-facts"]',
       '<ul class="hero__list">' + lines.join('') +
+        (earlierCount ? '<li><span class="hero__fact">' + earlierCount +
+          ' earlier incidents are on the record, back to 2016.</span></li>' : '') +
         '<li><span class="hero__fact"><strong>No order authorising it has been found.</strong></span> ' +
           ui.chip('UNKNOWN') + '</li>' +
       '</ul>' +
@@ -114,8 +122,13 @@
      ======================================================================= */
 
   pages.investigations = function () {
+    /* Newest first. The list now runs from 2016 to 2026 and the order of the
+       records file is the order they were opened, which says nothing about
+       when they happened. */
     ui.mount('[data-region="incident-cards"]',
-      model.incidents.map(ui.incidentCard).join(''));
+      model.incidents.slice().sort(function (a, b) {
+        return String(b.isoDate || '').localeCompare(String(a.isoDate || ''));
+      }).map(ui.incidentCard).join(''));
 
     ui.mount('[data-region="map-legend"]',
       Object.keys(WGO.INCIDENT_STATES).map(function (k) { return ui.chip(k); }).join(' '));

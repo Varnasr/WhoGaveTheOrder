@@ -86,5 +86,82 @@
     "date": "6 and 7 October 2026",
     "dateState": "REPORTED",
     "summary": null
+  },
+  {
+    "id": "INC-0009",
+    "kind": "Incident",
+    "title": "Police entry at JNU and the assault at Patiala House Court",
+    "state": "REPORTED",
+    "url": "https://www.whogavetheorder.in/investigation.html?id=jnu-patiala-house-2016",
+    "place": "Jawaharlal Nehru University and Patiala House Court, New Delhi",
+    "date": "12 to 17 February 2016",
+    "dateState": "CORROBORATED",
+    "summary": null
+  },
+  {
+    "id": "INC-0010",
+    "kind": "Incident",
+    "title": "Police on the University of Hyderabad campus; students and faculty detained",
+    "state": "REPORTED",
+    "url": "https://www.whogavetheorder.in/investigation.html?id=university-of-hyderabad-2016",
+    "place": "University of Hyderabad, Gachibowli, Hyderabad",
+    "date": "22 and 23 March 2016",
+    "dateState": "CORROBORATED",
+    "summary": null
+  },
+  {
+    "id": "INC-0011",
+    "kind": "Incident",
+    "title": "Lathicharge on women students at Banaras Hindu University",
+    "state": "REPORTED",
+    "url": "https://www.whogavetheorder.in/investigation.html?id=bhu-2017",
+    "place": "Banaras Hindu University, Varanasi",
+    "date": "21 to 24 September 2017",
+    "dateState": "CORROBORATED",
+    "summary": null
+  },
+  {
+    "id": "INC-0012",
+    "kind": "Incident",
+    "title": "Police and RAF on the Jamia Millia Islamia campus, including the library",
+    "state": "REPORTED",
+    "url": "https://www.whogavetheorder.in/investigation.html?id=jamia-2019",
+    "place": "Jamia Millia Islamia, New Delhi",
+    "date": "15 December 2019",
+    "dateState": "CORROBORATED",
+    "summary": null
+  },
+  {
+    "id": "INC-0013",
+    "kind": "Incident",
+    "title": "Police action at Aligarh Muslim University and the Aligarh internet suspension",
+    "state": "REPORTED",
+    "url": "https://www.whogavetheorder.in/investigation.html?id=amu-2019",
+    "place": "Aligarh Muslim University, Aligarh",
+    "date": "15 and 16 December 2019",
+    "dateState": "CORROBORATED",
+    "summary": null
+  },
+  {
+    "id": "INC-0014",
+    "kind": "Incident",
+    "title": "Masked attack at JNU and the question of police inaction",
+    "state": "REPORTED",
+    "url": "https://www.whogavetheorder.in/investigation.html?id=jnu-2020",
+    "place": "Jawaharlal Nehru University, New Delhi",
+    "date": "5 January 2020",
+    "dateState": "CORROBORATED",
+    "summary": null
+  },
+  {
+    "id": "INC-0015",
+    "kind": "Incident",
+    "title": "Lathicharge, tear gas and water cannon at the Nabanna march",
+    "state": "REPORTED",
+    "url": "https://www.whogavetheorder.in/investigation.html?id=nabanna-2024",
+    "place": "Howrah and central Kolkata",
+    "date": "27 August 2024",
+    "dateState": "CORROBORATED",
+    "summary": null
   }
 ]
