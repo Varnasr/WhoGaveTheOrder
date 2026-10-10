@@ -5,6 +5,54 @@ window.WGO = window.WGO || {};
 
 WGO.changes = [
   {
+    "commit": "514b7a0008",
+    "date": "2026-10-09T09:24:03Z",
+    "subject": "Sweep log and archived copies for 2026-10-09 [skip ci]",
+    "added": [],
+    "removed": [],
+    "changed": [
+      {
+        "id": "SRC-0127",
+        "kind": "Source",
+        "title": "ThePrint",
+        "state": null,
+        "url": "https://theprint.in/india/3-women-journalists-allege-sexual-harassment-by-police-crime-branch-to-launch-probe/3061828/",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20261008091432/https://theprint.in/india/3-women-journalists-allege-sexual-harassment-by-police-crime-branch-to-launch-probe/3061828/"
+          }
+        ]
+      }
+    ],
+    "summary": "1 record edited"
+  },
+  {
+    "commit": "af27248192",
+    "date": "2026-10-08T09:15:39Z",
+    "subject": "Sweep log and archived copies for 2026-10-08 [skip ci]",
+    "added": [],
+    "removed": [],
+    "changed": [
+      {
+        "id": "SRC-0129",
+        "kind": "Source",
+        "title": "LiveLaw",
+        "state": null,
+        "url": "https://www.livelaw.in/amp/top-stories/supreme-court-agrees-to-list-plea-seeking-permission-for-peaceful-protests-in-delhi-amid-agitation-against-cec-gyanesh-kumar-553087",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20261005114124/https://www.livelaw.in/amp/top-stories/supreme-court-agrees-to-list-plea-seeking-permission-for-peaceful-protests-in-delhi-amid-agitation-against-cec-gyanesh-kumar-553087"
+          }
+        ]
+      }
+    ],
+    "summary": "1 record edited"
+  },
+  {
     "commit": "194ec079ce",
     "date": "2026-10-07T09:01:40Z",
     "subject": "Sweep log and archived copies for 2026-10-07 [skip ci]",

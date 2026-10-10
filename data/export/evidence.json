@@ -1032,15 +1032,16 @@
     "id": "PROC-DEL-005",
     "kind": "Evidence",
     "title": "Bar and Bench reports that the president of the Indian Youth Congress moved the Delhi High Court on 3 October 2026 against Delhi Police's order of 1 October 202",
-    "state": "REPORTED",
+    "state": "CORROBORATED",
     "url": "https://www.whogavetheorder.in/evidence.html?id=PROC-DEL-005",
     "type": "COURT_DOCUMENT",
     "incidentId": "INC-0006",
     "dateOfItem": null,
-    "establishes": "One source. The article gives no case number, bench or listing date, and none is recorded here. Retrieving the petition and the order of 1 October is FQ-023.",
+    "establishes": "Two outlets with different origins report the petition and the order of 1 October. The case number is not reported in either. No order on the merits exists yet. The hearing of 12 October is a date to check. Retrieving the petition and the order of 1 October is FQ-023.",
     "doesNotEstablish": null,
     "sourceIds": [
-      "SRC-0125"
+      "SRC-0125",
+      "SRC-0130"
     ]
   },
   {
@@ -1056,6 +1057,67 @@
     "doesNotEstablish": null,
     "sourceIds": [
       "SRC-0129"
+    ]
+  },
+  {
+    "id": "INC-DEL-023",
+    "kind": "Evidence",
+    "title": "The Tribune reports that on Tuesday 6 October 2026 about 300 opposition MPs marched from Parliament towards the Election Commission headquarters, that police st",
+    "state": "REPORTED",
+    "url": "https://www.whogavetheorder.in/evidence.html?id=INC-DEL-023",
+    "type": "OTHER_DOCUMENT",
+    "incidentId": "INC-0008",
+    "dateOfItem": null,
+    "establishes": "One outlet, and the account of the first day is a summary inside a report about the second. The Wire carries a report headlined as Delhi Police detaining Rahul and Priyanka Gandhi during the INDIA bloc protest, but only its headline could be read, so it is not cited for anything here. The Election Commission is reported elsewhere to have said no party had sought an appointment before the march; that is not recorded here because the page carrying it was not read.",
+    "doesNotEstablish": null,
+    "sourceIds": [
+      "SRC-0131"
+    ]
+  },
+  {
+    "id": "INC-DEL-024",
+    "kind": "Evidence",
+    "title": "On Wednesday 7 October 2026 Delhi Police detained opposition leaders near Jantar Mantar, among them Rahul Gandhi and Priyanka Gandhi Vadra. The Tribune and Sias",
+    "state": "CORROBORATED",
+    "url": "https://www.whogavetheorder.in/evidence.html?id=INC-DEL-024",
+    "type": "OTHER_DOCUMENT",
+    "incidentId": "INC-0008",
+    "dateOfItem": null,
+    "establishes": "Two outlets agree on who was detained, where they were taken and that they were released the same day. Neither quotes a police statement. Siasat's wording is 'BNS 163', which is the section of the Bharatiya Nagarik Suraksha Sanhita and not of the Nyaya Sanhita; the archive records it as section 163 and has not corrected the source. Whether an order was in force on 7 October, and whether it is the order of 2 October recorded at INC-DEL-012, is part of OQ-055.",
+    "doesNotEstablish": null,
+    "sourceIds": [
+      "SRC-0131",
+      "SRC-0132"
+    ]
+  },
+  {
+    "id": "INC-DEL-025",
+    "kind": "Evidence",
+    "title": "The Tribune reports that Priyanka Gandhi Vadra said police assaulted protesters and that she had been scratched and thrown to the ground, that Mahua Moitra alle",
+    "state": "REPORTED",
+    "url": "https://www.whogavetheorder.in/evidence.html?id=INC-DEL-025",
+    "type": "OTHER_DOCUMENT",
+    "incidentId": "INC-0008",
+    "dateOfItem": null,
+    "establishes": "These are allegations by named politicians, reported as theirs. The Tribune also reports that women police personnel removed Priyanka Gandhi Vadra from the road where she was lying down, which is the police side of the same event and is not an allegation. No footage, medical record or police account is held.",
+    "doesNotEstablish": null,
+    "sourceIds": [
+      "SRC-0131"
+    ]
+  },
+  {
+    "id": "INC-DEL-026",
+    "kind": "Evidence",
+    "title": "Siasat, with PTI inputs, refers to an FIR registered against Rahul Gandhi, which Akhilesh Yadav is reported to have tied to the protest of Tuesday 6 October 202",
+    "state": "REPORTED",
+    "url": "https://www.whogavetheorder.in/evidence.html?id=INC-DEL-026",
+    "type": "OTHER_DOCUMENT",
+    "incidentId": "INC-0008",
+    "dateOfItem": null,
+    "establishes": "The FIR is mentioned in a photo caption and in a politician's remark, and the article does not describe it. A search result summarised it as an FIR for entering Akashvani Bhawan without permission; the page read does not say that, and the archive does not record it. See OQ-062.",
+    "doesNotEstablish": null,
+    "sourceIds": [
+      "SRC-0132"
     ]
   }
 ]

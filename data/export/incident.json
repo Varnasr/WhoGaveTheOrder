@@ -75,5 +75,16 @@
     "date": "2 October 2026",
     "dateState": "CORROBORATED",
     "summary": null
+  },
+  {
+    "id": "INC-0008",
+    "kind": "Incident",
+    "title": "Opposition MPs detained during the INDIA bloc march to the Election Commission",
+    "state": "REPORTED",
+    "url": "https://www.whogavetheorder.in/investigation.html?id=opposition-march-6-7-october",
+    "place": "From Parliament towards the Election Commission, and near Jantar Mantar, New Delhi",
+    "date": "6 and 7 October 2026",
+    "dateState": "REPORTED",
+    "summary": null
   }
 ]
