@@ -5,6 +5,2018 @@ window.WGO = window.WGO || {};
 
 WGO.changes = [
   {
+    "commit": "3bc118d2ea",
+    "date": "2026-10-10T08:40:37Z",
+    "subject": "Add seven earlier cases (2016 to 2024) as INC-0009 to INC-0015, ordered newest first",
+    "added": [
+      {
+        "id": "INC-0009",
+        "kind": "Incident",
+        "title": "Police entry at JNU and the assault at Patiala House Court",
+        "state": "REPORTED",
+        "url": "investigation.html?id=jnu-patiala-house-2016"
+      },
+      {
+        "id": "INC-0010",
+        "kind": "Incident",
+        "title": "Police on the University of Hyderabad campus; students and faculty detained",
+        "state": "REPORTED",
+        "url": "investigation.html?id=university-of-hyderabad-2016"
+      },
+      {
+        "id": "INC-0011",
+        "kind": "Incident",
+        "title": "Lathicharge on women students at Banaras Hindu University",
+        "state": "REPORTED",
+        "url": "investigation.html?id=bhu-2017"
+      },
+      {
+        "id": "INC-0012",
+        "kind": "Incident",
+        "title": "Police and RAF on the Jamia Millia Islamia campus, including the library",
+        "state": "REPORTED",
+        "url": "investigation.html?id=jamia-2019"
+      },
+      {
+        "id": "INC-0013",
+        "kind": "Incident",
+        "title": "Police action at Aligarh Muslim University and the Aligarh internet suspension",
+        "state": "REPORTED",
+        "url": "investigation.html?id=amu-2019"
+      },
+      {
+        "id": "INC-0014",
+        "kind": "Incident",
+        "title": "Masked attack at JNU and the question of police inaction",
+        "state": "REPORTED",
+        "url": "investigation.html?id=jnu-2020"
+      },
+      {
+        "id": "INC-0015",
+        "kind": "Incident",
+        "title": "Lathicharge, tear gas and water cannon at the Nabanna march",
+        "state": "REPORTED",
+        "url": "investigation.html?id=nabanna-2024"
+      },
+      {
+        "id": "HIST-JNU16-001",
+        "kind": "Evidence",
+        "title": "FIR No. 110/2016 was registered at Police Station Vasant Kunj North, Delhi, over the event held at Jawaharlal Nehru University on 9 February 2016. The Delhi Hig",
+        "state": "VERIFIED",
+        "url": "evidence.html?id=HIST-JNU16-001"
+      },
+      {
+        "id": "HIST-JNU16-002",
+        "kind": "Evidence",
+        "title": "The FIR was registered on 11 February 2016 against unidentified persons following complaints from a Member of Parliament of the BJP (named in the report as Mahe",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-JNU16-002"
+      },
+      {
+        "id": "HIST-JNU16-003",
+        "kind": "Evidence",
+        "title": "In the Delhi High Court on 2 March 2016 the Additional Solicitor General for the State submitted that: permission for a cultural evening at Sabarmati Dhaba, JNU",
+        "state": "VERIFIED",
+        "url": "evidence.html?id=HIST-JNU16-003"
+      },
+      {
+        "id": "HIST-JNU16-004",
+        "kind": "Evidence",
+        "title": "Kanhaiya Kumar, president of the JNU Students' Union, was arrested by Delhi Police on 12 February 2016 in connection with the sedition case, and was in police c",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-JNU16-004"
+      },
+      {
+        "id": "HIST-JNU16-005",
+        "kind": "Evidence",
+        "title": "Delhi Police went onto the JNU campus on 12 February 2016 and took Kanhaiya Kumar into custody there.",
+        "state": "UNVERIFIED",
+        "url": "evidence.html?id=HIST-JNU16-005"
+      },
+      {
+        "id": "HIST-JNU16-006",
+        "kind": "Evidence",
+        "title": "A letter dated 11 February 2016 from the JNU Registrar to the Deputy Commissioner of Police, South District, is reported to have said that the Vice-Chancellor g",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-JNU16-006"
+      },
+      {
+        "id": "HIST-JNU16-007",
+        "kind": "Evidence",
+        "title": "On 22 February 2016 Delhi Police were reported to be waiting outside the JNU campus for the Vice-Chancellor's permission before entering to arrest students who ",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-JNU16-007"
+      },
+      {
+        "id": "HIST-JNU16-008",
+        "kind": "Evidence",
+        "title": "Who gave the order for Delhi Police to enter the JNU campus on 12 February 2016, and who gave the order to arrest Kanhaiya Kumar, is not established by any docu",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-JNU16-008"
+      },
+      {
+        "id": "HIST-JNU16-009",
+        "kind": "Evidence",
+        "title": "The Delhi High Court (Pratibha Rani J.) granted Kanhaiya Kumar interim bail for six months on 2 March 2016 on a personal bond of Rs 10,000 and one surety, prefe",
+        "state": "VERIFIED",
+        "url": "evidence.html?id=HIST-JNU16-009"
+      },
+      {
+        "id": "HIST-JNU16-010",
+        "kind": "Evidence",
+        "title": "On 15 February 2016, at Patiala House Courts Complex, New Delhi, people described in reports as lawyers or persons in lawyers' robes assaulted students, teacher",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-JNU16-010"
+      },
+      {
+        "id": "HIST-JNU16-011",
+        "kind": "Evidence",
+        "title": "The Supreme Court's order of 17 February 2016 in N.D. Jayaprakash v. Union of India, W.P.(Crl.) 25/2016 (Chelameswar and Sapre JJ.), records that on 15 February",
+        "state": "VERIFIED",
+        "url": "evidence.html?id=HIST-JNU16-011"
+      },
+      {
+        "id": "HIST-JNU16-012",
+        "kind": "Evidence",
+        "title": "The number of people injured at Patiala House Courts on 15 February 2016, and their identities and injuries, is not established by any document read for this fi",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-JNU16-012"
+      },
+      {
+        "id": "HIST-JNU16-013",
+        "kind": "Evidence",
+        "title": "On 22 February 2016 the Supreme Court corrected its order of 17 February after the Solicitor General said that on 15 February 2016 Kanhaiya Kumar was not in fac",
+        "state": "VERIFIED",
+        "url": "evidence.html?id=HIST-JNU16-013"
+      },
+      {
+        "id": "HIST-JNU16-014",
+        "kind": "Evidence",
+        "title": "The Supreme Court on 17 February 2016 recorded that it deputed six members of the Bar (Kapil Sibal, Rajeev Dhawan, Dushyant Dave, H.P. Rawal, Ajit K. Sinha and ",
+        "state": "VERIFIED",
+        "url": "evidence.html?id=HIST-JNU16-014"
+      },
+      {
+        "id": "HIST-JNU16-015",
+        "kind": "Evidence",
+        "title": "At about 4 pm on 17 February 2016 the Committee returned and made an oral report; the Supreme Court asked for it in writing. The order records: 'it is reported ",
+        "state": "VERIFIED",
+        "url": "evidence.html?id=HIST-JNU16-015"
+      },
+      {
+        "id": "HIST-JNU16-016",
+        "kind": "Evidence",
+        "title": "The written report of the Supreme Court's Committee of advocates, a pen drive of the video one member recorded on his phone, and other reports were filed in sea",
+        "state": "VERIFIED",
+        "url": "evidence.html?id=HIST-JNU16-016"
+      },
+      {
+        "id": "HIST-JNU16-017",
+        "kind": "Evidence",
+        "title": "Members of the Supreme Court's Committee told the Court orally on 17 February 2016 that the police did not do their job at Patiala House Courts. PTI reports Mr ",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-JNU16-017"
+      },
+      {
+        "id": "HIST-JNU16-018",
+        "kind": "Evidence",
+        "title": "Delhi Police conduct at Patiala House Courts on 15 February 2016, what officers present did or did not do and on whose instructions, is not established by any d",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-JNU16-018"
+      },
+      {
+        "id": "HIST-JNU16-019",
+        "kind": "Evidence",
+        "title": "The National Human Rights Commission issued a notice on 17 February 2016 to the Union Home Secretary, the Chief Secretary of the Government of NCT of Delhi and ",
+        "state": "VERIFIED",
+        "url": "evidence.html?id=HIST-JNU16-019"
+      },
+      {
+        "id": "HIST-JNU16-020",
+        "kind": "Evidence",
+        "title": "An NHRC fact-finding team report is reported to have found the assault on Kanhaiya Kumar in the court premises 'organized and pre-planned' and to have recorded ",
+        "state": "UNVERIFIED",
+        "url": "evidence.html?id=HIST-JNU16-020"
+      },
+      {
+        "id": "HIST-JNU16-021",
+        "kind": "Evidence",
+        "title": "The Lok Sabha debated 'the situation arising out of recent incidents in institutions of higher education' on 24 February 2016. The record shows members stating ",
+        "state": "VERIFIED",
+        "url": "evidence.html?id=HIST-JNU16-021"
+      },
+      {
+        "id": "HIST-JNU16-022",
+        "kind": "Evidence",
+        "title": "Delhi Police registered four FIRs over the violence at Patiala House Courts on 15 and 17 February 2016, arrested three lawyers (Vikram Singh Chauhan, Yashpal Si",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-JNU16-022"
+      },
+      {
+        "id": "HIST-JNU16-023",
+        "kind": "Evidence",
+        "title": "Delhi Police filed three chargesheets on 19 July 2016 before Metropolitan Magistrate Snigdha Sarvaria: against three lawyers for the 15 February attack on journ",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-JNU16-023"
+      },
+      {
+        "id": "HIST-JNU16-024",
+        "kind": "Evidence",
+        "title": "The Supreme Court on 26 February 2016 issued notice on a petition by advocate Kamini Jaiswal seeking a Special Investigation Team probe into the Patiala House v",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-JNU16-024"
+      },
+      {
+        "id": "HIST-JNU16-025",
+        "kind": "Evidence",
+        "title": "India Legal reported on 26 February 2016 that the Supreme Court 'directed the Delhi Police to set up an SIT' to investigate the 15 and 17 February violence; Liv",
+        "state": "DISPUTED",
+        "url": "evidence.html?id=HIST-JNU16-025"
+      },
+      {
+        "id": "HIST-JNU16-026",
+        "kind": "Evidence",
+        "title": "The Supreme Court dismissed N.D. Jayaprakash's writ petition (W.P.(Crl.) 25/2016) and a connected contempt petition (Contempt Petition (C) 503/2016) on 14 Novem",
+        "state": "VERIFIED",
+        "url": "evidence.html?id=HIST-JNU16-026"
+      },
+      {
+        "id": "HIST-JNU16-027",
+        "kind": "Evidence",
+        "title": "Whether any written authorisation was issued for the police presence at Patiala House Courts Complex on 15 February 2016 and who held command of that deployment",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-JNU16-027"
+      },
+      {
+        "id": "HIST-JNU16-028",
+        "kind": "Evidence",
+        "title": "JNU wrote to Delhi Police asking them to take utmost precautions before entering the campus, and police officers told the university they would enter only if ab",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-JNU16-028"
+      },
+      {
+        "id": "HIST-HCU-001",
+        "kind": "Evidence",
+        "title": "Police were deployed on the University of Hyderabad campus on 22 March 2016, the day Vice-Chancellor Appa Rao Podile resumed charge after leave following the de",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-HCU-001"
+      },
+      {
+        "id": "HIST-HCU-002",
+        "kind": "Evidence",
+        "title": "The Registrar's Office notice stated that Prof. Appa Rao Podile 'resumed the charge in the Forenoon of March 22, 2016'.",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-HCU-002"
+      },
+      {
+        "id": "HIST-HCU-003",
+        "kind": "Evidence",
+        "title": "Chronology of 22 March 2016 as given by one writer: protesters reached the Vice-Chancellor's residence about 10:30; police arrived about 11:30; RAF and more pol",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-HCU-003"
+      },
+      {
+        "id": "HIST-HCU-004",
+        "kind": "Evidence",
+        "title": "Count of persons arrested and charged: police and prosecution accounts give 25 students and 2 faculty members (27 accused); the Newslaundry report of the Gachib",
+        "state": "DISPUTED",
+        "url": "evidence.html?id=HIST-HCU-004"
+      },
+      {
+        "id": "HIST-HCU-005",
+        "kind": "Evidence",
+        "title": "The Joint Action Committee for Social Justice (UoH) alleged that 36 students including 3 professors were detained about 5 pm on 22 March, beaten in a police van",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-HCU-005"
+      },
+      {
+        "id": "HIST-HCU-006",
+        "kind": "Evidence",
+        "title": "The Independent Fact Finding Team alleged that 27 students and 2 faculty members were taken into police vans, beaten and held in undisclosed locations for more ",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-HCU-006"
+      },
+      {
+        "id": "HIST-HCU-007",
+        "kind": "Evidence",
+        "title": "Injuries: PUDR stated that over fifty students were injured; Newslaundry reported a Deputy Commissioner of Police as saying four police officers were injured by",
+        "state": "DISPUTED",
+        "url": "evidence.html?id=HIST-HCU-007"
+      },
+      {
+        "id": "HIST-HCU-008",
+        "kind": "Evidence",
+        "title": "Police account as reported: after two warnings police used 'mild force'; students allegedly pelted stones, injuring four officers; a lathi-charge and abuse of w",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-HCU-008"
+      },
+      {
+        "id": "HIST-HCU-009",
+        "kind": "Evidence",
+        "title": "The Cyberabad Police Commissioner (reported as CV Anand) said of those arrested: 'They were all produced in Miyapur court and sent to judicial remand.'",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-HCU-009"
+      },
+      {
+        "id": "HIST-HCU-010",
+        "kind": "Evidence",
+        "title": "On 28 March 2016 the XXV Metropolitan Magistrate court at Miyapur Court Complex granted bail to 27 accused (reported as 25 students and 2 faculty members), on s",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-HCU-010"
+      },
+      {
+        "id": "HIST-HCU-011",
+        "kind": "Evidence",
+        "title": "Two cases were registered at Gachibowli police station against protesting students and two faculty members, with charges reported as vandalism, rioting and crim",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-HCU-011"
+      },
+      {
+        "id": "HIST-HCU-012",
+        "kind": "Evidence",
+        "title": "On 25 March 2016 the National Human Rights Commission took suo motu cognisance of media reports of an 'emergency like situation in Hyderabad University' and iss",
+        "state": "VERIFIED",
+        "url": "evidence.html?id=HIST-HCU-012"
+      },
+      {
+        "id": "HIST-HCU-013",
+        "kind": "Evidence",
+        "title": "The replies of the Union HRD Ministry, the Telangana Chief Secretary and the Hyderabad Police Commissioner to the NHRC notice of 25 March 2016, and any NHRC cas",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-HCU-013"
+      },
+      {
+        "id": "HIST-HCU-014",
+        "kind": "Evidence",
+        "title": "A writ petition by University of Hyderabad professor Tathagata Sengupta and student P. Adityan led the Hyderabad High Court to direct the Telangana government, ",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-HCU-014"
+      },
+      {
+        "id": "HIST-HCU-015",
+        "kind": "Evidence",
+        "title": "The State's counter-affidavit in the Sengupta and Adityan petition, and any order disposing of it, were not found.",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-HCU-015"
+      },
+      {
+        "id": "HIST-HCU-016",
+        "kind": "Evidence",
+        "title": "Utilities and messes: students said water, electricity and internet were cut and all messes closed from 23 March 2016; a faculty statement says 14 hostel messes",
+        "state": "DISPUTED",
+        "url": "evidence.html?id=HIST-HCU-016"
+      },
+      {
+        "id": "HIST-HCU-017",
+        "kind": "Evidence",
+        "title": "ORDER QUESTION. The Independent Fact Finding Team interviewed the Cyberabad Deputy Commissioner, an Assistant Commissioner, an Inspector of Police and the Telan",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-HCU-017"
+      },
+      {
+        "id": "HIST-HCU-018",
+        "kind": "Evidence",
+        "title": "ORDER QUESTION. The fact-finding interim report alleges that the Vice-Chancellor's return to campus was planned with supporters and triggered the violence, and ",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-HCU-018"
+      },
+      {
+        "id": "HIST-HCU-019",
+        "kind": "Evidence",
+        "title": "ORDER QUESTION. A Kafila guest post by HCU students states that the CRPF and RAF were 'called in at the behest of the Vice Chancellor Appa Rao'.",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-HCU-019"
+      },
+      {
+        "id": "HIST-HCU-020",
+        "kind": "Evidence",
+        "title": "ORDER QUESTION. The Joint Action Committee for Social Justice alleged that police, RAF and CRPF acted 'upon the orders of the Central and state government', and",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-HCU-020"
+      },
+      {
+        "id": "HIST-HCU-021",
+        "kind": "Evidence",
+        "title": "ORDER QUESTION. A faculty statement says security staff 'had been ordered to bar outsiders from entering' the campus, without saying by whom, and that the admin",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-HCU-021"
+      },
+      {
+        "id": "HIST-HCU-022",
+        "kind": "Evidence",
+        "title": "ORDER QUESTION. The university authorities wrote to Cyberabad police asking it to stop 'media personnel, political groups, external student organisations and po",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-HCU-022"
+      },
+      {
+        "id": "HIST-HCU-023",
+        "kind": "Evidence",
+        "title": "ORDER QUESTION. An administration 'task sheet' quoted by two University of Hyderabad students in The Wire assigns an administrative officer to inform three name",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-HCU-023"
+      },
+      {
+        "id": "HIST-HCU-024",
+        "kind": "Evidence",
+        "title": "ORDER QUESTION. The Round Table India chronology reports that non-teaching staff complained to police about students entering the bungalow, while private securi",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-HCU-024"
+      },
+      {
+        "id": "HIST-HCU-025",
+        "kind": "Evidence",
+        "title": "ORDER QUESTION. The public prosecutor told the Miyapur court that 'the arrest were made by the police in order to control the situation' on 22 March.",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-HCU-025"
+      },
+      {
+        "id": "HIST-HCU-026",
+        "kind": "Evidence",
+        "title": "ORDER QUESTION. Who gave the order to bring police and central forces onto the campus and to detain students on 22 March 2016 is not established by any primary ",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-HCU-026"
+      },
+      {
+        "id": "HIST-HCU-027",
+        "kind": "Evidence",
+        "title": "The Vice-Chancellor had a registered case against him under the SC/ST (Prevention of Atrocities) Act in connection with Rohith Vemula's death, on which, accordi",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-HCU-027"
+      },
+      {
+        "id": "HIST-HCU-028",
+        "kind": "Evidence",
+        "title": "Procedure after detention: the fact-finding team said those arrested were not produced before a magistrate within 24 hours and that police could have given bail",
+        "state": "DISPUTED",
+        "url": "evidence.html?id=HIST-HCU-028"
+      },
+      {
+        "id": "HIST-BHU-001",
+        "kind": "Evidence",
+        "title": "Police used force, including a lathicharge, against protesting students at Banaras Hindu University, Varanasi, on the night of 23 September 2017. Press reports ",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-BHU-001"
+      },
+      {
+        "id": "HIST-BHU-002",
+        "kind": "Evidence",
+        "title": "Students began protesting at BHU after 21 September 2017, when a woman student said she was harassed by three men on a motorcycle inside the campus. Students al",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-BHU-002"
+      },
+      {
+        "id": "HIST-BHU-003",
+        "kind": "Evidence",
+        "title": "The Varanasi Divisional Commissioner submitted a report to the Uttar Pradesh Chief Secretary on or about 26 September 2017. As reported by IANS, it said BHU did",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-BHU-003"
+      },
+      {
+        "id": "HIST-BHU-004",
+        "kind": "Evidence",
+        "title": "Who gave the order for the lathicharge on the night of 23 September 2017 is not established in any document or report retrieved. No order, police log, magistrat",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-BHU-004"
+      },
+      {
+        "id": "HIST-BHU-005",
+        "kind": "Evidence",
+        "title": "On 24 September 2017 journalists protesting in Lucknow demanded action against the Varanasi District Magistrate and the Senior Superintendent of Police 'for ord",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-BHU-005"
+      },
+      {
+        "id": "HIST-BHU-006",
+        "kind": "Evidence",
+        "title": "Between 24 and 25 September 2017 the Varanasi district administration and police removed from their posts three additional city magistrates, the station officer",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-BHU-006"
+      },
+      {
+        "id": "HIST-BHU-007",
+        "kind": "Evidence",
+        "title": "Reports differ on how many officials were removed. Outlook (25 September 2017) lists three additional city magistrates plus the Lanka station officer and the Bh",
+        "state": "DISPUTED",
+        "url": "evidence.html?id=HIST-BHU-007"
+      },
+      {
+        "id": "HIST-BHU-008",
+        "kind": "Evidence",
+        "title": "Police registered an FIR against unidentified policemen over the lathicharge of 23 September 2017 and a separate case against over 1,000 students over the viole",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-BHU-008"
+      },
+      {
+        "id": "HIST-BHU-009",
+        "kind": "Evidence",
+        "title": "The number of students named in the case differs between reports: over 1,000 (PTI via Outlook and Eastern Mirror, 25 September 2017) and 1,200 unidentified stud",
+        "state": "DISPUTED",
+        "url": "evidence.html?id=HIST-BHU-009"
+      },
+      {
+        "id": "HIST-BHU-010",
+        "kind": "Evidence",
+        "title": "The number of people injured on 23 September 2017 is not established. Reports say only 'a number of students, including women, and two journalists' were injured",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-BHU-010"
+      },
+      {
+        "id": "HIST-BHU-011",
+        "kind": "Evidence",
+        "title": "Detentions reported: 16 detained students were released on the evening of 24 September 2017, per the Lanka station officer quoted by PTI via Outlook. Over 200 S",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-BHU-011"
+      },
+      {
+        "id": "HIST-BHU-012",
+        "kind": "Evidence",
+        "title": "Vice-Chancellor Girish Chandra Tripathi denied, as reported on 26 September 2017, that students were lathicharged on campus. He said action was taken against pe",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-BHU-012"
+      },
+      {
+        "id": "HIST-BHU-013",
+        "kind": "Evidence",
+        "title": "On 24 and 25 September 2017 the Uttar Pradesh Chief Minister ordered a probe and sought a report from the Divisional Commissioner, Varanasi; the Varanasi distri",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-BHU-013"
+      },
+      {
+        "id": "HIST-BHU-014",
+        "kind": "Evidence",
+        "title": "The BHU Vice-Chancellor ordered a judicial inquiry led by a retired Allahabad High Court judge, reported on 26 September 2017 after an executive council meeting",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-BHU-014"
+      },
+      {
+        "id": "HIST-BHU-015",
+        "kind": "Evidence",
+        "title": "The BHU inquiry committee headed by a former High Court judge released its findings on 25 April 2018, per The Wire's LiveWire. It is reported to have given the ",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-BHU-015"
+      },
+      {
+        "id": "HIST-BHU-016",
+        "kind": "Evidence",
+        "title": "BHU Chief Proctor O N Singh resigned on 26 September 2017, reported as taking 'moral responsibility' for the molestation of a student and the police violence th",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-BHU-016"
+      },
+      {
+        "id": "HIST-BHU-017",
+        "kind": "Evidence",
+        "title": "Vice-Chancellor Tripathi went on leave on 2 October 2017 citing personal reasons, and the BHU registrar was appointed interim Vice-Chancellor on 4 October 2017,",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-BHU-017"
+      },
+      {
+        "id": "HIST-BHU-018",
+        "kind": "Evidence",
+        "title": "The National Human Rights Commission sought a detailed report on the incident from the Uttar Pradesh Chief Secretary, the Director General of Police and the Vic",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-BHU-018"
+      },
+      {
+        "id": "HIST-BHU-019",
+        "kind": "Evidence",
+        "title": "Aaj Tak reports (25 September 2017) that the Prime Minister and the BJP president spoke to the Chief Minister and asked him to take necessary steps. Outlook say",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-BHU-019"
+      },
+      {
+        "id": "HIST-BHU-020",
+        "kind": "Evidence",
+        "title": "No Allahabad High Court order, petition or commission report on the BHU events of 21 to 24 September 2017 was found in this research.",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-BHU-020"
+      },
+      {
+        "id": "HIST-JMI-001",
+        "kind": "Evidence",
+        "title": "Delhi Police and paramilitary personnel entered the Jamia Millia Islamia campus in the evening of 15 December 2019 and used force and tear gas there. The Delhi ",
+        "state": "VERIFIED",
+        "url": "evidence.html?id=HIST-JMI-001"
+      },
+      {
+        "id": "HIST-JMI-002",
+        "kind": "Evidence",
+        "title": "On 13 December 2019 a march by Jamia students towards Parliament was stopped near the campus. The petitioners' case, as recited in the Delhi High Court judgment",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-JMI-002"
+      },
+      {
+        "id": "HIST-JMI-003",
+        "kind": "Evidence",
+        "title": "Who gave the order to enter the campus on 15 December 2019: NOT ESTABLISHED. No document read for this record names the person or the office that ordered the en",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-JMI-003"
+      },
+      {
+        "id": "HIST-JMI-004",
+        "kind": "Evidence",
+        "title": "Who gave the order to use tear gas, including inside the library: NOT ESTABLISHED. The Delhi Police action taken report, as reported, says officials 'used tear ",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-JMI-004"
+      },
+      {
+        "id": "HIST-JMI-005",
+        "kind": "Evidence",
+        "title": "Who gave the order to use lathis or other force against students, and who ordered detentions: NOT ESTABLISHED. The Delhi Police action taken report, as reported",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-JMI-005"
+      },
+      {
+        "id": "HIST-JMI-006",
+        "kind": "Evidence",
+        "title": "Who gave the order to fire gunshots on 15 December 2019, if any were fired: NOT ESTABLISHED. The Indian Express, as relayed by Scroll.in on 5 January 2020, repo",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-JMI-006"
+      },
+      {
+        "id": "HIST-JMI-007",
+        "kind": "Evidence",
+        "title": "Jamia's Vice-Chancellor, Najma Akhtar, said on 16 December 2019: 'Police entered the campus without permission.' The Chief Proctor, Waseem Ahmed Khan, is report",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-JMI-007"
+      },
+      {
+        "id": "HIST-JMI-008",
+        "kind": "Evidence",
+        "title": "The Delhi Police position is that entry was necessary. Action taken report of 16 March 2020, as reported: police were 'forced to enter' Jamia 'to rescue the inn",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-JMI-008"
+      },
+      {
+        "id": "HIST-JMI-009",
+        "kind": "Evidence",
+        "title": "Detention counts for 15 December 2019 conflict. Delhi Police action taken report (16 March 2020), as reported by The Quint: 52 persons temporarily apprehended u",
+        "state": "DISPUTED",
+        "url": "evidence.html?id=HIST-JMI-009"
+      },
+      {
+        "id": "HIST-JMI-010",
+        "kind": "Evidence",
+        "title": "Injury counts conflict. Home Ministry written reply in the Lok Sabha, as reported by The Leaflet on 4 February 2020: 62 police personnel and 127 persons, includ",
+        "state": "DISPUTED",
+        "url": "evidence.html?id=HIST-JMI-010"
+      },
+      {
+        "id": "HIST-JMI-011",
+        "kind": "Evidence",
+        "title": "FIRs on the 15 December 2019 violence: FIR No. 242/2019 at Police Station New Friends Colony and FIR No. 298/2019 at Police Station Jamia Nagar, both under IPC ",
+        "state": "VERIFIED",
+        "url": "evidence.html?id=HIST-JMI-011"
+      },
+      {
+        "id": "HIST-JMI-012",
+        "kind": "Evidence",
+        "title": "No FIR has been registered against any police officer for the 15 December 2019 campus action, on the documents read. Jamia Millia Islamia applied under section ",
+        "state": "VERIFIED",
+        "url": "evidence.html?id=HIST-JMI-012"
+      },
+      {
+        "id": "HIST-JMI-013",
+        "kind": "Evidence",
+        "title": "The NHRC acted on complaints about Jamia. Press release of 20 December 2019: the Commission received complaints alleging illegal detention of students and denia",
+        "state": "VERIFIED",
+        "url": "evidence.html?id=HIST-JMI-013"
+      },
+      {
+        "id": "HIST-JMI-014",
+        "kind": "Evidence",
+        "title": "The NHRC report dated 18 May 2020, as summarised by LiveLaw, The Wire and The Leaflet, found the protest had turned unlawful and violent; said police 'seeing no",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-JMI-014"
+      },
+      {
+        "id": "HIST-JMI-015",
+        "kind": "Evidence",
+        "title": "Delhi Police inquiries into its own conduct: (1) an administrative inquiry into alleged police atrocities in the library by the Additional Commissioner of Polic",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-JMI-015"
+      },
+      {
+        "id": "HIST-JMI-016",
+        "kind": "Evidence",
+        "title": "Delhi High Court judgment of 5 October 2026 (Justices Vivek Chaudhary and Manoj Jain; reserved 24 July 2026) dismissed the batch of eight writ petitions (lead: ",
+        "state": "VERIFIED",
+        "url": "evidence.html?id=HIST-JMI-016"
+      },
+      {
+        "id": "HIST-JMI-017",
+        "kind": "Evidence",
+        "title": "Earlier court steps. Supreme Court order of 17 December 2019 in W.P.(Crl) 370/2019 (Alumni Association, Jamia Millia Islamia University v. Union of India) decli",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-JMI-017"
+      },
+      {
+        "id": "HIST-JMI-018",
+        "kind": "Evidence",
+        "title": "No disciplinary, criminal or departmental action against any police or RAF personnel for the Jamia campus events has been found in any document read. The Delhi ",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-JMI-018"
+      },
+      {
+        "id": "HIST-JMI-019",
+        "kind": "Evidence",
+        "title": "Civil society and press documentation on Jamia, 13 and 15 December 2019: (a) People's Union for Democratic Rights fact-finding report 'Bloody Sunday', released ",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-JMI-019"
+      },
+      {
+        "id": "HIST-JMI-020",
+        "kind": "Evidence",
+        "title": "Records that could be requested to answer who gave the order: the Delhi Police action taken report filed on 16 March 2020 before Metropolitan Magistrate Rajat G",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-JMI-020"
+      },
+      {
+        "id": "HIST-JMI-021",
+        "kind": "Evidence",
+        "title": "Records that could be requested from Delhi Police and the Home Ministry: duty rosters for 15 December 2019 at the Jamia Nagar, New Friends Colony and Kalkaji po",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-JMI-021"
+      },
+      {
+        "id": "HIST-JMI-022",
+        "kind": "Evidence",
+        "title": "Records that could be requested from the NHRC: the case file for the Jamia complaints, the investigation team's report, the report of the Commission dated 18 Ma",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-JMI-022"
+      },
+      {
+        "id": "HIST-JMI-023",
+        "kind": "Evidence",
+        "title": "Records that could be requested from Jamia Millia Islamia: the university's complaint and executive council resolution (January 2020), the Registrar's letter of",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-JMI-023"
+      },
+      {
+        "id": "HIST-JMI-024",
+        "kind": "Evidence",
+        "title": "Level of office at which the decision to enter, to use force and to use tear gas was taken, summary: ESTABLISHED that the actors were Delhi Police and Rapid Act",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-JMI-024"
+      },
+      {
+        "id": "HIST-AMU-001",
+        "kind": "Evidence",
+        "title": "Police and paramilitary personnel (Rapid Action Force) entered the Aligarh Muslim University campus on the evening and night of 15 December 2019 during an anti-",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-AMU-001"
+      },
+      {
+        "id": "HIST-AMU-002",
+        "kind": "Evidence",
+        "title": "The Registrar of Aligarh Muslim University issued a notice on 15 or 16 December 2019 closing the university until 5 January 2020 and asking students to vacate h",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-AMU-002"
+      },
+      {
+        "id": "HIST-AMU-003",
+        "kind": "Evidence",
+        "title": "Internet services in Aligarh were suspended from 10 pm on 15 December 2019 to 10 pm on 16 December 2019, on the order of the District Magistrate of Aligarh, Cha",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-AMU-003"
+      },
+      {
+        "id": "HIST-AMU-004",
+        "kind": "Evidence",
+        "title": "The State of Uttar Pradesh's counter affidavit in the Allahabad High Court, filed for the Inspector General (Law and Order) and the SSP Aligarh, as reported, st",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-AMU-004"
+      },
+      {
+        "id": "HIST-AMU-005",
+        "kind": "Evidence",
+        "title": "The Vice Chancellor of AMU, Tariq Mansoor, said publicly that the administration was 'left with no other choice but to call the police' and that the decision wa",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-AMU-005"
+      },
+      {
+        "id": "HIST-AMU-006",
+        "kind": "Evidence",
+        "title": "Counts disputed. Detained: 26 persons detained, 15 of them not University students according to the University and the State's affidavit as reported; the AMU De",
+        "state": "DISPUTED",
+        "url": "evidence.html?id=HIST-AMU-006"
+      },
+      {
+        "id": "HIST-AMU-007",
+        "kind": "Evidence",
+        "title": "FIRs: the SSP told PTI an FIR was lodged against 56 persons and others unidentified. The Karwan e Mohabbat report says FIRs named 12 to 13 students and about 70",
+        "state": "DISPUTED",
+        "url": "evidence.html?id=HIST-AMU-007"
+      },
+      {
+        "id": "HIST-AMU-008",
+        "kind": "Evidence",
+        "title": "Section 144 CrPC prohibitory orders were in force in Aligarh on 15 December 2019, according to the State's counter affidavit as reported. Who issued the order, ",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-AMU-008"
+      },
+      {
+        "id": "HIST-AMU-009",
+        "kind": "Evidence",
+        "title": "On 19 December 2019 the Allahabad High Court (Chief Justice Govind Mathur and Justice Vivek Varma) in a PIL by Mohd. Aman Khan issued notice to the Uttar Prades",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-AMU-009"
+      },
+      {
+        "id": "HIST-AMU-010",
+        "kind": "Evidence",
+        "title": "On 7 January 2020 the Allahabad High Court asked the National Human Rights Commission to inquire into the alleged police violence at AMU and report preferably w",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-AMU-010"
+      },
+      {
+        "id": "HIST-AMU-011",
+        "kind": "Evidence",
+        "title": "On 24 February 2020 the Allahabad High Court, recording the NHRC's report, directed the Chief Secretary of Uttar Pradesh to provide suitable compensation to six",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-AMU-011"
+      },
+      {
+        "id": "HIST-AMU-012",
+        "kind": "Evidence",
+        "title": "The NHRC findings, as reported, do not state who gave the order for police entry, for use of force, for the internet suspension or for Section 144. The orders a",
+        "state": "UNVERIFIED",
+        "url": "evidence.html?id=HIST-AMU-012"
+      },
+      {
+        "id": "HIST-AMU-013",
+        "kind": "Evidence",
+        "title": "The Registrar of AMU is described in the Karwan e Mohabbat fact-finding report as a serving Uttar Pradesh police officer on deputation. The report also says the",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-AMU-013"
+      },
+      {
+        "id": "HIST-AMU-014",
+        "kind": "Evidence",
+        "title": "Statements on stone pelting: the SSP of Aligarh, Akash Kulhari, alleged students pelted security forces with stones, injuring policemen and RAF personnel; polic",
+        "state": "DISPUTED",
+        "url": "evidence.html?id=HIST-AMU-014"
+      },
+      {
+        "id": "HIST-JNU20-001",
+        "kind": "Evidence",
+        "title": "On 5 January 2020 a group of masked people armed with sticks and rods entered the Jawaharlal Nehru University campus, New Delhi, and attacked students and teach",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-JNU20-001"
+      },
+      {
+        "id": "HIST-JNU20-002",
+        "kind": "Evidence",
+        "title": "Injury count on 5 January 2020 differs by source: at least 34 (NDTV, 6 January 2020); about 35 (ETV Bharat, 9 January 2020); at least 32 students (Al Jazeera, 7",
+        "state": "DISPUTED",
+        "url": "evidence.html?id=HIST-JNU20-002"
+      },
+      {
+        "id": "HIST-JNU20-003",
+        "kind": "Evidence",
+        "title": "A Delhi Police spokesperson, Mandeep Singh Randhawa, said on 6 January 2020 that police 'can go to this area only with a written permission from the JNU adminis",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-JNU20-003"
+      },
+      {
+        "id": "HIST-JNU20-004",
+        "kind": "Evidence",
+        "title": "A Delhi Police fact-finding committee headed by the Joint Commissioner of Police (Western Range), Shalini Singh, set up on the orders of the then Police Commiss",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-JNU20-004"
+      },
+      {
+        "id": "HIST-JNU20-005",
+        "kind": "Evidence",
+        "title": "A Delhi Police spokesperson rejected allegations that police reached the campus late, saying on 6 January 2020: 'We have responded to PCR calls, and law-and-ord",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-JNU20-005"
+      },
+      {
+        "id": "HIST-JNU20-006",
+        "kind": "Evidence",
+        "title": "The timing and authority for police entry is DISPUTED. The Vice-Chancellor's press release of 5 January 2020 said the administration called police at about 4.30",
+        "state": "DISPUTED",
+        "url": "evidence.html?id=HIST-JNU20-006"
+      },
+      {
+        "id": "HIST-JNU20-007",
+        "kind": "Evidence",
+        "title": "The Times of India reported on 7 January 2020 that police officials said they were treading with caution after the Jamia protests, and that 'Many men from the j",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-JNU20-007"
+      },
+      {
+        "id": "HIST-JNU20-008",
+        "kind": "Evidence",
+        "title": "In a written Rajya Sabha reply reported on 18 March 2020, the Minister of State for Home Affairs, G. Kishan Reddy, said per Delhi Police that the North Gate was",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-JNU20-008"
+      },
+      {
+        "id": "HIST-JNU20-009",
+        "kind": "Evidence",
+        "title": "On 3 August 2021 the Minister of State for Home, Nityanand Rai, in a written Lok Sabha reply to Dayanidhi Maran, said as reported by Delhi Police that no arrest",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-JNU20-009"
+      },
+      {
+        "id": "HIST-JNU20-010",
+        "kind": "Evidence",
+        "title": "Delhi Police registered a case on 6 January 2020 at Vasant Kunj (North) police station on the 5 January violence, under sections reported as rioting and damagin",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-JNU20-010"
+      },
+      {
+        "id": "HIST-JNU20-011",
+        "kind": "Evidence",
+        "title": "The FIR on Prof. Sucharita Sen's complaint, as recorded before the Duty Metropolitan Magistrate at Patiala House Courts (reported May 2020), was registered at V",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-JNU20-011"
+      },
+      {
+        "id": "HIST-JNU20-012",
+        "kind": "Evidence",
+        "title": "Separate FIRs against students: a Delhi Police case was filed against the JNU Students' Union president and 19 others over vandalism of a server room on 4 Janua",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-JNU20-012"
+      },
+      {
+        "id": "HIST-JNU20-013",
+        "kind": "Evidence",
+        "title": "On 13 January 2020 Justice Brijesh Sethi of the Delhi High Court issued notices to Google, WhatsApp and Apple on a petition by three JNU professors (Ameet Param",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-JNU20-013"
+      },
+      {
+        "id": "HIST-JNU20-014",
+        "kind": "Evidence",
+        "title": "On 14 January 2020 the Delhi High Court (Justice Brijesh Sethi) directed Delhi Police to summon the members of the two WhatsApp groups and seize their phones, a",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-JNU20-014"
+      },
+      {
+        "id": "HIST-JNU20-015",
+        "kind": "Evidence",
+        "title": "Records of what Delhi Police and JNU said to the Delhi High Court about CCTV: police said in January 2020 they had asked the university for CCTV and had not rec",
+        "state": "UNVERIFIED",
+        "url": "evidence.html?id=HIST-JNU20-015"
+      },
+      {
+        "id": "HIST-JNU20-016",
+        "kind": "Evidence",
+        "title": "JNU's Vice-Chancellor M. Jagadesh Kumar announced a five-member committee to probe the 5 January violence, recommend safety measures and examine lapses. Members",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-JNU20-016"
+      },
+      {
+        "id": "HIST-JNU20-017",
+        "kind": "Evidence",
+        "title": "A Delhi Police fact-finding committee headed by JCP (Western Range) Shalini Singh was set up on 6 January 2020 to examine the police response, in addition to th",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-JNU20-017"
+      },
+      {
+        "id": "HIST-JNU20-018",
+        "kind": "Evidence",
+        "title": "The Congress fact-finding committee report (Sushmita Dev, Syed Nasir Hussain, Hibi Eden, Amrita Dhawan), dated 13 January 2020 in the source, alleges that the V",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-JNU20-018"
+      },
+      {
+        "id": "HIST-JNU20-019",
+        "kind": "Evidence",
+        "title": "The Commonwealth Human Rights Initiative published a press release calling for an independent judicial inquiry into police 'inaction' at JNU, alleging police st",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-JNU20-019"
+      },
+      {
+        "id": "HIST-JNU20-020",
+        "kind": "Evidence",
+        "title": "Delhi Police senior officials said they had written at least four letters to the JNU registrar between November and December 2019 urging dialogue with the Stude",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-JNU20-020"
+      },
+      {
+        "id": "HIST-JNU20-021",
+        "kind": "Evidence",
+        "title": "On 5 January 2020 the Delhi Police presence on campus before the attack: Delhi Police said a team including an inspector was deployed at the administrative bloc",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-JNU20-021"
+      },
+      {
+        "id": "HIST-JNU20-022",
+        "kind": "Evidence",
+        "title": "Who gave the order that police would or would not enter the JNU campus, or hold at the gates, on 5 January 2020: no order, written or oral, and no named person ",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-JNU20-022"
+      },
+      {
+        "id": "HIST-JNU20-023",
+        "kind": "Evidence",
+        "title": "Whether a charge sheet has been filed against anyone in the Crime Branch investigation into the 5 January 2020 JNU violence, and the current status of the three",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-JNU20-023"
+      },
+      {
+        "id": "HIST-NAB-001",
+        "kind": "Evidence",
+        "title": "On 27 August 2024 a march called the Nabanna Abhijan, organised by the student group Paschim Banga Chhatra Samaj and the state employees' platform Sangrami Jout",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-NAB-001"
+      },
+      {
+        "id": "HIST-NAB-002",
+        "kind": "Evidence",
+        "title": "Police used lathicharge, water cannon and tear gas against marchers on 27 August 2024, at locations reported as MG Road, Hastings Road, near Princep Ghat, Howra",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-NAB-002"
+      },
+      {
+        "id": "HIST-NAB-003",
+        "kind": "Evidence",
+        "title": "Police said they began lathicharge and tear gas after marchers breached barricades at some locations and attacked security personnel; marchers said police actio",
+        "state": "DISPUTED",
+        "url": "evidence.html?id=HIST-NAB-003"
+      },
+      {
+        "id": "HIST-NAB-004",
+        "kind": "Evidence",
+        "title": "ADG (Law and Order) Manoj Verma stated on 26 August 2024, as reported, that no individual or organisation had applied for permission, that the police learned of",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-NAB-004"
+      },
+      {
+        "id": "HIST-NAB-005",
+        "kind": "Evidence",
+        "title": "WHO ISSUED THE SECTION 163 BNSS PROHIBITORY ORDER NEAR NABANNA: NOT ESTABLISHED. Reports attribute it variously to 'the government' (Tribune, Business Today, ET",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-NAB-005"
+      },
+      {
+        "id": "HIST-NAB-006",
+        "kind": "Evidence",
+        "title": "ADG (South Bengal) Supratim Sarkar said police had rejected applications from both organisations, which arrived late; that the Chhatra Samaj email was an intima",
+        "state": "DISPUTED",
+        "url": "evidence.html?id=HIST-NAB-006"
+      },
+      {
+        "id": "HIST-NAB-007",
+        "kind": "Evidence",
+        "title": "On 23 August 2024 a Calcutta High Court Division Bench, reported as Justice Harish Tandon and Justice Bhattacharyya, refused to entertain the State of West Beng",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-NAB-007"
+      },
+      {
+        "id": "HIST-NAB-008",
+        "kind": "Evidence",
+        "title": "Barricading: reports say police put up aluminium guard walls with wooden barricades at at least five Kolkata approach points including the foot of Howrah Bridge",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-NAB-008"
+      },
+      {
+        "id": "HIST-NAB-009",
+        "kind": "Evidence",
+        "title": "Deployment as reported before the march: Tribune reports at least 25 DCP-ranked officers in Kolkata Police jurisdiction and over 2,000 personnel at Howrah appro",
+        "state": "DISPUTED",
+        "url": "evidence.html?id=HIST-NAB-009"
+      },
+      {
+        "id": "HIST-NAB-010",
+        "kind": "Evidence",
+        "title": "Injured, as reported: PTI via The Hitavada says police told reporters 15 Kolkata Police personnel and 14 state police personnel were injured; protesters were al",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-NAB-010"
+      },
+      {
+        "id": "HIST-NAB-011",
+        "kind": "Evidence",
+        "title": "Arrests and detentions, as reported: IANS and Morung Express report 220 arrests in connection with the clashes plus 25 preventive arrests before the march. Hita",
+        "state": "DISPUTED",
+        "url": "evidence.html?id=HIST-NAB-011"
+      },
+      {
+        "id": "HIST-NAB-012",
+        "kind": "Evidence",
+        "title": "Four persons (named in reports as Subhojit Ghosh, Pulokesh Pandit, Goutam Senapati and Pritam Sarkar) were reported missing before the march. West Bengal Police",
+        "state": "DISPUTED",
+        "url": "evidence.html?id=HIST-NAB-012"
+      },
+      {
+        "id": "HIST-NAB-013",
+        "kind": "Evidence",
+        "title": "On 2 September 2024 Justice Rajarshi Bharadwaj of the Calcutta High Court, hearing the petition on the four persons, asked the State to produce the relevant doc",
+        "state": "UNVERIFIED",
+        "url": "evidence.html?id=HIST-NAB-013"
+      },
+      {
+        "id": "HIST-NAB-014",
+        "kind": "Evidence",
+        "title": "On 30 August 2024 Justice Amrita Sinha of the Calcutta High Court directed Kolkata Police to release Sayan Lahiri, a Nabanna Abhijan convenor, and ordered no co",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-NAB-014"
+      },
+      {
+        "id": "HIST-NAB-015",
+        "kind": "Evidence",
+        "title": "Whether the State of West Bengal challenged the Calcutta High Court's order in the Sayan Lahiri matter before the Supreme Court, and with what result, is not es",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-NAB-015"
+      },
+      {
+        "id": "HIST-NAB-016",
+        "kind": "Evidence",
+        "title": "The NHRC issued a notice to the Commissioner of Police, Kolkata, on or about 29 August 2024, as reported on 30 and 31 August 2024, seeking an action taken repor",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-NAB-016"
+      },
+      {
+        "id": "HIST-NAB-017",
+        "kind": "Evidence",
+        "title": "Chief Minister Mamata Banerjee, speaking at the 27th Foundation Day of the West Bengal Trinamool Chhatra Parishad, as quoted by Swarajya on 28 August 2024: 'We ",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-NAB-017"
+      },
+      {
+        "id": "HIST-NAB-018",
+        "kind": "Evidence",
+        "title": "Opposition and BJP statements as reported: BJP's Amit Malviya alleged the Chief Minister ordered police to place containers on the road to stop protesters; BJP ",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-NAB-018"
+      },
+      {
+        "id": "HIST-NAB-019",
+        "kind": "Evidence",
+        "title": "WHO GAVE THE ORDER for tear gas, water cannon and lathicharge on 27 August 2024: NOT ESTABLISHED. Every report read says police used them and records police say",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-NAB-019"
+      },
+      {
+        "id": "HIST-NAB-020",
+        "kind": "Evidence",
+        "title": "Documents that would settle the order question and were not found or read: the Section 163 BNSS order (issuer, date, area); the deployment order and requisition",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-NAB-020"
+      },
+      {
+        "id": "SRC-0133",
+        "kind": "Source",
+        "title": "Indian Kanoon, reproducing Delhi High Court order of 2 March 2016, Kanhaiya Kumar v. State (NCT of Delhi), W.P.(Crl.) 558/2016",
+        "state": null,
+        "url": "https://indiankanoon.org/doc/77368780/"
+      },
+      {
+        "id": "SRC-0134",
+        "kind": "Source",
+        "title": "Indian Kanoon, reproducing Supreme Court record of proceedings, N.D. Jayaprakash v. Union of India, W.P.(Crl.) 25/2016, 17 February 2016",
+        "state": null,
+        "url": "https://indiankanoon.org/doc/37231111/"
+      },
+      {
+        "id": "SRC-0135",
+        "kind": "Source",
+        "title": "LiveLaw, 14 January 2019",
+        "state": null,
+        "url": "https://www.livelaw.in/amp/news-updates/jnu-sedition-case-delhi-police-files-chargesheet-against-kanhaiya-kumar-umar-khalid-and-others-142103"
+      },
+      {
+        "id": "SRC-0136",
+        "kind": "Source",
+        "title": "The Quint, 16 February 2016, updated 16 January 2019",
+        "state": null,
+        "url": "https://www.thequint.com/news/india/how-the-jnu-protest-turned-into-a-sedition-case"
+      },
+      {
+        "id": "SRC-0137",
+        "kind": "Source",
+        "title": "The News Minute, 25 February 2016 (TNM Staff)",
+        "state": null,
+        "url": "https://www.thenewsminute.com/news/police-did-nothing-stop-attacks-kanhaiya-finds-sc-appointed-panel-39359"
+      },
+      {
+        "id": "SRC-0138",
+        "kind": "Source",
+        "title": "The Quint, 20 February 2016 (Aviral Virk)",
+        "state": null,
+        "url": "https://www.thequint.com/amp/story/news/india/ill-advised-or-biased-the-tragedy-of-being-jnus-vice-chancellor"
+      },
+      {
+        "id": "SRC-0139",
+        "kind": "Source",
+        "title": "Onmanorama, 15 February 2016",
+        "state": null,
+        "url": "https://www.onmanorama.com/news/nation/afzal-guru-row-jnu-sends-status-report-to-hrd-ministry.html"
+      },
+      {
+        "id": "SRC-0140",
+        "kind": "Source",
+        "title": "The Quint live blog, 22 February 2016",
+        "state": null,
+        "url": "https://thequint.com/news/india/live-umar-khaled-4-others-back-at-jnu-campus-told-to-surrender"
+      },
+      {
+        "id": "SRC-0141",
+        "kind": "Source",
+        "title": "ummid.com, 22 February 2016 (IANS)",
+        "state": null,
+        "url": "https://ummid.com/news/2016/February/22.02.2016/delhi-police-chief-asks-jnu-students-to-join-probe.html"
+      },
+      {
+        "id": "SRC-0142",
+        "kind": "Source",
+        "title": "Legally India, 23 July 2016 (IANS)",
+        "state": null,
+        "url": "https://www.legallyindia.com/the-bench-and-the-bar/delhi-cops-finally-file-chargesheets-vs-alleged-patiala-house-thug-vocates-20160723-7864"
+      },
+      {
+        "id": "SRC-0143",
+        "kind": "Source",
+        "title": "The News Minute, 24 February 2016 (PTI)",
+        "state": null,
+        "url": "https://www.thenewsminute.com/news/patiala-house-court-scuffle-lawyer-caught-camera-thrashing-journos-students-arrested-39280"
+      },
+      {
+        "id": "SRC-0144",
+        "kind": "Source",
+        "title": "Indian Kanoon, reproducing Supreme Court record of proceedings, 22 February 2016",
+        "state": null,
+        "url": "https://indiankanoon.org/doc/55375055/"
+      },
+      {
+        "id": "SRC-0145",
+        "kind": "Source",
+        "title": "Indian Kanoon, reproducing Supreme Court record of proceedings, 18 February 2016",
+        "state": null,
+        "url": "https://indiankanoon.org/doc/101836268/"
+      },
+      {
+        "id": "SRC-0146",
+        "kind": "Source",
+        "title": "Indian Kanoon, reproducing Supreme Court record of proceedings, 23 February 2016",
+        "state": null,
+        "url": "https://indiankanoon.org/doc/76768152/"
+      },
+      {
+        "id": "SRC-0147",
+        "kind": "Source",
+        "title": "India.com, 17 February 2016 (PTI)",
+        "state": null,
+        "url": "https://www.india.com/news/india/fear-terror-in-patiala-court-senior-lawyers-to-supreme-court-957246/"
+      },
+      {
+        "id": "SRC-0148",
+        "kind": "Source",
+        "title": "LiveLaw, 27 January 2018 (opinion by Manu Sebastian)",
+        "state": null,
+        "url": "https://www.livelaw.in/amp/rule-law-becomes-dead-horse-sc-order-refusing-probe-attack-kanhaiya-kumar-unfortunate"
+      },
+      {
+        "id": "SRC-0149",
+        "kind": "Source",
+        "title": "National Human Rights Commission, press release of 17 February 2016",
+        "state": null,
+        "url": "https://nhrc.nic.in/media/press-release/nhrc-notice-to-the-union-home-secretary-chief-secretary-delhi-police-commisioner-on-allegations-beating-journalist-students-outside-patiala-house-court"
+      },
+      {
+        "id": "SRC-0150",
+        "kind": "Source",
+        "title": "LiveLaw, 26 February 2016",
+        "state": null,
+        "url": "https://www.livelaw.in/amp/patiala-house-violence-sc-issues-notice-kamini-jaiswals-plea-sit-contempt-three-lawyers"
+      },
+      {
+        "id": "SRC-0151",
+        "kind": "Source",
+        "title": "Indian Kanoon, reproducing Lok Sabha Debates, 24 February 2016",
+        "state": null,
+        "url": "https://indiankanoon.org/doc/196436808/"
+      },
+      {
+        "id": "SRC-0152",
+        "kind": "Source",
+        "title": "Legally India, 15 May 2016 (IANS)",
+        "state": null,
+        "url": "https://www.legallyindia.com/the-bench-and-the-bar/after-3-months-cops-manage-to-id-patiala-house-thug-vocates-but-not-much-else-20160515-7591"
+      },
+      {
+        "id": "SRC-0153",
+        "kind": "Source",
+        "title": "India Legal, 26 February 2016",
+        "state": null,
+        "url": "https://indialegallive.com/top-news-of-the-day/breaking-news-articles/patiala-house-violence-supreme-court-directs-delhi-police-to-form-sit/"
+      },
+      {
+        "id": "SRC-0154",
+        "kind": "Source",
+        "title": "Indian Kanoon, reproducing Supreme Court order of 14 November 2017",
+        "state": null,
+        "url": "https://indiankanoon.org/doc/82485087/"
+      },
+      {
+        "id": "SRC-0155",
+        "kind": "Source",
+        "title": "Indian Kanoon, reproducing Supreme Court order of 14 March 2018 in R.P.(C) 411/2018",
+        "state": null,
+        "url": "https://indiankanoon.org/doc/29930163/"
+      },
+      {
+        "id": "SRC-0156",
+        "kind": "Source",
+        "title": "Indian Kanoon, reproducing Supreme Court record of proceedings, 31 August 2016",
+        "state": null,
+        "url": "https://indiankanoon.org/doc/120612237/"
+      },
+      {
+        "id": "SRC-0157",
+        "kind": "Source",
+        "title": "Indian Kanoon, reproducing Supreme Court record of proceedings, 4 May 2017",
+        "state": null,
+        "url": "https://indiankanoon.org/doc/40838362/"
+      },
+      {
+        "id": "SRC-0158",
+        "kind": "Source",
+        "title": "Indian Kanoon, reproducing Supreme Court record of proceedings, 11 September 2017",
+        "state": null,
+        "url": "https://indiankanoon.org/doc/83982682/"
+      },
+      {
+        "id": "SRC-0159",
+        "kind": "Source",
+        "title": "Round Table India (Amar Khade, 23 March 2016)",
+        "state": null,
+        "url": "https://www.roundtableindia.co.in/?p=8521"
+      },
+      {
+        "id": "SRC-0160",
+        "kind": "Source",
+        "title": "Newslaundry (26 March 2016)",
+        "state": null,
+        "url": "https://www.newslaundry.com/2016/03/26/inside-hyderabad-central-university-its-like-being-in-a-gulag"
+      },
+      {
+        "id": "SRC-0161",
+        "kind": "Source",
+        "title": "The Wire (26 March 2016)",
+        "state": null,
+        "url": "https://m.thewire.in/article/education/an-eyewitness-account-of-the-violence-in-hyderabad-university"
+      },
+      {
+        "id": "SRC-0162",
+        "kind": "Source",
+        "title": "Sabrang India (29 March 2016)",
+        "state": null,
+        "url": "https://sabrangindia.in/bail-granted-students-and-faculty-hcu/"
+      },
+      {
+        "id": "SRC-0163",
+        "kind": "Source",
+        "title": "The News Minute (23 March 2016)",
+        "state": null,
+        "url": "https://www.thenewsminute.com/telangana/hyd-uni-protest-committee-alleges-police-brutality-says-vc-knowingly-caused-law-and-order"
+      },
+      {
+        "id": "SRC-0164",
+        "kind": "Source",
+        "title": "Round Table India (republishing the Independent Fact Finding Team press statement, 26 March 2016)",
+        "state": null,
+        "url": "https://www.roundtableindia.co.in/?p=8534"
+      },
+      {
+        "id": "SRC-0165",
+        "kind": "Source",
+        "title": "People's Union for Democratic Rights (press statement, 23 March 2016)",
+        "state": null,
+        "url": "https://www.pudr.org/press-statements/condemn-police-brutality-on-students-and-teachers-in-university-of-hyderabad/"
+      },
+      {
+        "id": "SRC-0166",
+        "kind": "Source",
+        "title": "National Human Rights Commission (press release, 25 March 2016)",
+        "state": null,
+        "url": "https://nhrc.nic.in/media/press-release/nhrc-issues-notices-to-union-hrd-secretary-chief-secretary-telangana-police-commissioner-hyderabad-over-reports-emergency-like-situation-in-hyderabad-university-25-3-2016"
+      },
+      {
+        "id": "SRC-0167",
+        "kind": "Source",
+        "title": "The News Minute (19 July 2016)",
+        "state": null,
+        "url": "https://www.thenewsminute.com/telangana/hyderabad-hc-asks-kcr-government-explain-police-brutality-hyd-uni-campus-46731"
+      },
+      {
+        "id": "SRC-0168",
+        "kind": "Source",
+        "title": "The Quint (25 March 2016)",
+        "state": null,
+        "url": "https://thequint.com/photos/in-pictures-hyderabad-central-university-students-clash-with-cops"
+      },
+      {
+        "id": "SRC-0169",
+        "kind": "Source",
+        "title": "Countercurrents.org (statement of SC and ST Faculty Forum and Concerned Teachers, 26 March 2016)",
+        "state": null,
+        "url": "https://countercurrents.org/thcu260316.htm"
+      },
+      {
+        "id": "SRC-0170",
+        "kind": "Source",
+        "title": "Sabrang India (interim fact-finding report, 26 March 2016)",
+        "state": null,
+        "url": "https://sabrangindia.in/suspend-appa-rao-vc-step-investigations-violations-against-atrocities-act/"
+      },
+      {
+        "id": "SRC-0171",
+        "kind": "Source",
+        "title": "Kafila (guest post by HCU students, 23 March 2016)",
+        "state": null,
+        "url": "https://kafila.online/2016/03/23/students-testify-to-police-brutality-on-the-hcu-campus-in-hyderabad-guest-post-from-hcu-students/"
+      },
+      {
+        "id": "SRC-0172",
+        "kind": "Source",
+        "title": "Outlook (PTI)",
+        "state": null,
+        "url": "https://www.outlookindia.com/national/yogi-adityanath-orders-probe-into-bhu-violence-news-302168"
+      },
+      {
+        "id": "SRC-0173",
+        "kind": "Source",
+        "title": "Outlook",
+        "state": null,
+        "url": "https://outlookindia.com/national/bhu-vc-orders-inquiry-into-violence-on-campus-retired-hc-judge-to-head-panel-news-302263"
+      },
+      {
+        "id": "SRC-0174",
+        "kind": "Source",
+        "title": "The Quint",
+        "state": null,
+        "url": "https://www.thequint.com/news/india/bhu-lathicharge-protest"
+      },
+      {
+        "id": "SRC-0175",
+        "kind": "Source",
+        "title": "Morung Express (IANS)",
+        "state": null,
+        "url": "https://morungexpress.com/varanasi-commissioner-submits-report-bhu-violence-blames-varsity-administration"
+      },
+      {
+        "id": "SRC-0176",
+        "kind": "Source",
+        "title": "Newslaundry",
+        "state": null,
+        "url": "https://www.newslaundry.com/2017/09/24/banaras-hindu-university-molestation-timeline"
+      },
+      {
+        "id": "SRC-0177",
+        "kind": "Source",
+        "title": "National Herald",
+        "state": null,
+        "url": "https://www.nationalheraldindia.com/amp/story/campus/bhu-vc-tries-to-downplay-the-incident-commissioner-blames-uni-for-mishandling-the-situation"
+      },
+      {
+        "id": "SRC-0178",
+        "kind": "Source",
+        "title": "The Tribune",
+        "state": null,
+        "url": "https://www.tribuneindia.com/news/archive/nation/bhu-violence-vc-orders-judicial-probe-473533/"
+      },
+      {
+        "id": "SRC-0179",
+        "kind": "Source",
+        "title": "Indian Awaaz",
+        "state": null,
+        "url": "https://theindianawaaz.com/?p=99217"
+      },
+      {
+        "id": "SRC-0180",
+        "kind": "Source",
+        "title": "Outlook",
+        "state": null,
+        "url": "https://www.outlookindia.com/national/firs-against-1000-bhu-students-on-arson-charges-among-others-after-weekend-viole-news-302178"
+      },
+      {
+        "id": "SRC-0181",
+        "kind": "Source",
+        "title": "Aaj Tak",
+        "state": null,
+        "url": "https://www.aajtak.in/india/story/bhu-student-protest-police-lathicharge-probe-yogi-adityanath-congress-student-hostels-464091-2017-09-25"
+      },
+      {
+        "id": "SRC-0182",
+        "kind": "Source",
+        "title": "Dynamite News",
+        "state": null,
+        "url": "https://www.dynamitenews.com/story/bhu-protests-sho-circle-officer-additional-city-magistrate-removed"
+      },
+      {
+        "id": "SRC-0183",
+        "kind": "Source",
+        "title": "The Tribune",
+        "state": null,
+        "url": "https://www.tribuneindia.com/news/archive/nation/bhu-chief-proctor-takes-moral-responsibility-quits-474112"
+      },
+      {
+        "id": "SRC-0184",
+        "kind": "Source",
+        "title": "Eastern Mirror (PTI)",
+        "state": null,
+        "url": "https://www.easternmirrornagaland.com/fir-against-1000-students-for-bhu-violence"
+      },
+      {
+        "id": "SRC-0185",
+        "kind": "Source",
+        "title": "The Wire (LiveWire)",
+        "state": null,
+        "url": "https://livewire.thewire.in/campus/a-year-ago-bhu-students-protested-against-the-administration-now-theyre-getting-debarred/"
+      },
+      {
+        "id": "SRC-0186",
+        "kind": "Source",
+        "title": "Delhi High Court judgment of 5 October 2026 in W.P.(C) 13468/2019 and connected matters, copy hosted by Verdictum (not the court's own site)",
+        "state": null,
+        "url": "https://www.verdictum.in/pdf_upload/2026/10/06/74905102026cw134682019155525watermark-1785722.pdf"
+      },
+      {
+        "id": "SRC-0187",
+        "kind": "Source",
+        "title": "Scroll.in",
+        "state": null,
+        "url": "https://scroll.in/latest/956412/jamia-violence-forced-to-enter-university-to-rescue-innocent-students-say-delhi-police"
+      },
+      {
+        "id": "SRC-0188",
+        "kind": "Source",
+        "title": "LiveLaw",
+        "state": null,
+        "url": "https://www.livelaw.in/amp/top-stories/in-complaints-against-police-violence-in-jamia-nhrc-recommends-sit-probe-158976"
+      },
+      {
+        "id": "SRC-0189",
+        "kind": "Source",
+        "title": "Wikipedia",
+        "state": null,
+        "url": "https://en.wikipedia.org/wiki/2019_Jamia_Millia_Islamia_attack"
+      },
+      {
+        "id": "SRC-0190",
+        "kind": "Source",
+        "title": "The Quint",
+        "state": null,
+        "url": "https://thequint.com/amp/story/news/india/delhi-police-atr-forced-to-enter-jmi-to-save-innocent-students"
+      },
+      {
+        "id": "SRC-0191",
+        "kind": "Source",
+        "title": "The Leaflet",
+        "state": null,
+        "url": "https://theleaflet.in/governance-and-policy/jamia-violence-a-total-of-15-people-arrested-by-delhi-police"
+      },
+      {
+        "id": "SRC-0192",
+        "kind": "Source",
+        "title": "The Wire",
+        "state": null,
+        "url": "https://m.thewire.in/article/rights/nhrc-blames-jamia-students-for-police-violence-wants-real-motive-of-anti-caa-protest-probed"
+      },
+      {
+        "id": "SRC-0193",
+        "kind": "Source",
+        "title": "The Quint",
+        "state": null,
+        "url": "https://www.thequint.com/amp/story/news/india/delhi-police-jamia-violence-reply-to-high-court-police-brutality-claims-false"
+      },
+      {
+        "id": "SRC-0194",
+        "kind": "Source",
+        "title": "Scroll.in",
+        "state": null,
+        "url": "https://scroll.in/latest/948825/jamia-violence-two-delhi-police-officers-fired-guns-during-caa-protests-reveals-internal-inquiry"
+      },
+      {
+        "id": "SRC-0195",
+        "kind": "Source",
+        "title": "The Tribune (PTI)",
+        "state": null,
+        "url": "https://www.tribuneindia.com/news/nation/police-entered-campus-without-permission-jamia-vc-11798"
+      },
+      {
+        "id": "SRC-0196",
+        "kind": "Source",
+        "title": "Bar & Bench",
+        "state": null,
+        "url": "https://barandbench.com/jamia-violence-live-updates-from-the-hearing-in-delhi-high-court/"
+      },
+      {
+        "id": "SRC-0197",
+        "kind": "Source",
+        "title": "Maktoob",
+        "state": null,
+        "url": "https://maktoobmedia.com/india/in-jamia-on-15-dec-2019-police-was-acting-to-prevent-violence-court/"
+      },
+      {
+        "id": "SRC-0198",
+        "kind": "Source",
+        "title": "National Human Rights Commission press release, 20 December 2019",
+        "state": null,
+        "url": "https://nhrc.nic.in/media/press-release/nhrc-deputes-a-fact-finding-team-to-know-whether-incidents-in-jamia-millia-islamia-involved-violation-human-rights-20-12-2019"
+      },
+      {
+        "id": "SRC-0199",
+        "kind": "Source",
+        "title": "The Leaflet",
+        "state": null,
+        "url": "https://theleaflet.in/delhi-hc-hears-petition-seeking-court-monitored-probe-on-2019-jamia-police-attack"
+      },
+      {
+        "id": "SRC-0200",
+        "kind": "Source",
+        "title": "Scroll.in",
+        "state": null,
+        "url": "https://scroll.in/latest/953747/jamia-video-controversy-sit-asks-for-duty-roster-of-policemen-on-day-of-violence-says-report"
+      },
+      {
+        "id": "SRC-0201",
+        "kind": "Source",
+        "title": "The Wire",
+        "state": null,
+        "url": "https://m.thewire.in/article_pdf/communalism/jamia-police-attack-report"
+      },
+      {
+        "id": "SRC-0202",
+        "kind": "Source",
+        "title": "The Leaflet",
+        "state": null,
+        "url": "https://theleaflet.in/allahabad-hc-asks-nhrc-to-probe-into-police-action-against-amu-students-amidst-anti-caa-agitation"
+      },
+      {
+        "id": "SRC-0203",
+        "kind": "Source",
+        "title": "SCC Online Times",
+        "state": null,
+        "url": "https://www.scconline.com/blog/post/2020/01/07/all-hc-nhrc-to-conduct-inquiry-on-alleged-violation-of-human-rights-negligence-in-prevention-of-same-by-police-officials-during-caa-protests-at-amu/"
+      },
+      {
+        "id": "SRC-0204",
+        "kind": "Source",
+        "title": "The Caravan",
+        "state": null,
+        "url": "https://caravanmagazine.in/politics/aligarh-muslim-university-students-union-president"
+      },
+      {
+        "id": "SRC-0205",
+        "kind": "Source",
+        "title": "ETV Bharat",
+        "state": null,
+        "url": "https://etvbharat.com/english/state/delhi/internet-services-suspended-in-aligarh-meerut/na20191216061906247"
+      },
+      {
+        "id": "SRC-0206",
+        "kind": "Source",
+        "title": "WION",
+        "state": null,
+        "url": "https://www.wionews.com/india-news/uttar-pradesh-internet-services-resumed-in-aligarh-269540"
+      },
+      {
+        "id": "SRC-0207",
+        "kind": "Source",
+        "title": "Sabrang India",
+        "state": null,
+        "url": "https://sabrangindia.in/allahabad-hc-nhrc-directed-probe-amu-police-excess/"
+      },
+      {
+        "id": "SRC-0208",
+        "kind": "Source",
+        "title": "The Quint",
+        "state": null,
+        "url": "https://www.thequint.com/amp/story/news/india/aligarh-december-now-all-you-need-to-know-about-amu-anti-citizenship-amendment-act-protests-students-police-teachers"
+      },
+      {
+        "id": "SRC-0209",
+        "kind": "Source",
+        "title": "Sabrang India",
+        "state": null,
+        "url": "https://sabrangindia.in/article/aftermath-clashes-amu"
+      },
+      {
+        "id": "SRC-0210",
+        "kind": "Source",
+        "title": "Indian Cultural Forum (Karwan e Mohabbat report)",
+        "state": null,
+        "url": "https://indianculturalforum.in/2019/12/24/the-siege-of-aligarh-muslim-university-a-fact-finding-report/"
+      },
+      {
+        "id": "SRC-0211",
+        "kind": "Source",
+        "title": "SCC Online Times",
+        "state": null,
+        "url": "https://www.scconline.com/blog/post/2020/02/24/all-hc-caa-protests-amu-nhrc-recommends-compensation-to-6-students-action-to-be-taken-against-policemen-involved-in-unnecessarily-caning-apprehended-students"
+      },
+      {
+        "id": "SRC-0212",
+        "kind": "Source",
+        "title": "SCC Online Times",
+        "state": null,
+        "url": "https://www.scconline.com/blog/post/2020/01/04/all-hc-caa-protests-up-governments-reply-sought-on-alleged-acts-of-violence-and-arbitrary-detention-of-amu-students/"
+      },
+      {
+        "id": "SRC-0213",
+        "kind": "Source",
+        "title": "The Leaflet",
+        "state": null,
+        "url": "https://theleaflet.in/amu-protest-allahabad-high-court-directs-medical-assistance-to-the-injured-students-puts-up-government-and-amu-admin-on-notice"
+      },
+      {
+        "id": "SRC-0214",
+        "kind": "Source",
+        "title": "Scroll.in",
+        "state": null,
+        "url": "https://scroll.in/latest/954191/amu-violence-court-orders-up-police-chief-to-act-against-police-officials-who-attacked-students"
+      },
+      {
+        "id": "SRC-0215",
+        "kind": "Source",
+        "title": "NDTV",
+        "state": null,
+        "url": "https://www.ndtv.com/india-news/on-campus-but-cops-did-nothing-unanswered-questions-after-jnu-attack-2159313"
+      },
+      {
+        "id": "SRC-0216",
+        "kind": "Source",
+        "title": "Al Jazeera",
+        "state": null,
+        "url": "https://www.aljazeera.com/news/2020/1/7/jnu-attack-india-police-file-case-against-injured-student-leader"
+      },
+      {
+        "id": "SRC-0217",
+        "kind": "Source",
+        "title": "The Tribune",
+        "state": null,
+        "url": "https://www.tribuneindia.com/news/jnu-violence-case-transferred-to-dp-crime-branch-registrar-pro-vc-meet-l-g-22291"
+      },
+      {
+        "id": "SRC-0218",
+        "kind": "Source",
+        "title": "ETV Bharat",
+        "state": null,
+        "url": "https://www.etvbharat.com/amp/english/bharat/bharat-news/jnu-forms-panel-to-probe-jan-5-violence-on-campus-vc/na20200109143830667"
+      },
+      {
+        "id": "SRC-0219",
+        "kind": "Source",
+        "title": "National Herald",
+        "state": null,
+        "url": "https://www.nationalheraldindia.com/amp/story/india/no-inciting-slogans-violence-at-jnu-gate-on-january-5-govt"
+      },
+      {
+        "id": "SRC-0220",
+        "kind": "Source",
+        "title": "SabrangIndia",
+        "state": null,
+        "url": "https://sabrangindia.in/18-months-no-arrests-jnu-violence-case/"
+      },
+      {
+        "id": "SRC-0221",
+        "kind": "Source",
+        "title": "National Herald",
+        "state": null,
+        "url": "https://www.nationalheraldindia.com/amp/story/india/a-month-passes-after-masked-goons-injured-51-students-teachers-no-fir-no-arrest-yet"
+      },
+      {
+        "id": "SRC-0222",
+        "kind": "Source",
+        "title": "Times of India",
+        "state": null,
+        "url": "https://timesofindia.indiatimes.com/india/goons-ran-riot-as-cops-awaited-jnu-nod/articleshow/73130234.cms"
+      },
+      {
+        "id": "SRC-0223",
+        "kind": "Source",
+        "title": "SabrangIndia",
+        "state": null,
+        "url": "https://sabrangindia.in/jnu-violence-delhi-police-probes-negligence-accusations-gives-itself-clean-chit"
+      },
+      {
+        "id": "SRC-0224",
+        "kind": "Source",
+        "title": "The Logical Indian",
+        "state": null,
+        "url": "https://thelogicalindian.com/delhi-police-jnu-attack-24935/"
+      },
+      {
+        "id": "SRC-0225",
+        "kind": "Source",
+        "title": "The Tribune",
+        "state": null,
+        "url": "https://www.tribuneindia.com/news/nation/jnu-violence-delhi-police-set-up-fact-finding-committee-say-they-have-vital-links-22319"
+      },
+      {
+        "id": "SRC-0226",
+        "kind": "Source",
+        "title": "National Herald",
+        "state": null,
+        "url": "https://www.nationalheraldindia.com/amp/story/india/jnu-masked-goons-attack-students-and-teachers-police-wait-for-vcs-permission-to-enter-campus"
+      },
+      {
+        "id": "SRC-0227",
+        "kind": "Source",
+        "title": "SabrangIndia",
+        "state": null,
+        "url": "https://sabrangindia.in/congs-fact-finding-report-questions-role-jnu-admin-right-wing-groups/"
+      },
+      {
+        "id": "SRC-0228",
+        "kind": "Source",
+        "title": "ETV Bharat",
+        "state": null,
+        "url": "https://etvbharat.com/english/bharat/no-one-arrested-for-2020-violence-at-jnu-govt-in-lok-sabha/na20210803155113922"
+      },
+      {
+        "id": "SRC-0229",
+        "kind": "Source",
+        "title": "LiveLaw",
+        "state": null,
+        "url": "https://www.livelaw.in/news-updates/patiala-house-court-allows-early-hearing-of-plea-seeking-investigation-into-jnu-violence-156295"
+      },
+      {
+        "id": "SRC-0230",
+        "kind": "Source",
+        "title": "National Herald",
+        "state": null,
+        "url": "https://www.nationalheraldindia.com/amp/story/india/jnu-violence-delhi-court-calls-for-status-report-from-police-on-action-taken-on-fir"
+      },
+      {
+        "id": "SRC-0231",
+        "kind": "Source",
+        "title": "The Quint",
+        "state": null,
+        "url": "https://thequint.com/news/india/jnu-police-name-9-suspects-skip-affiliation-of-2-abvp-students"
+      },
+      {
+        "id": "SRC-0232",
+        "kind": "Source",
+        "title": "Wikipedia",
+        "state": null,
+        "url": "https://en.wikipedia.org/wiki/2020_Jawaharlal_Nehru_University_attack"
+      },
+      {
+        "id": "SRC-0233",
+        "kind": "Source",
+        "title": "LiveLaw",
+        "state": null,
+        "url": "https://www.livelaw.in/amp/news-updates/jnu-violence-delhi-hc-issues-notices-to-whatsapp-apple-and-google-in-a-plea-seeking-preservation-of-evidence-151566"
+      },
+      {
+        "id": "SRC-0234",
+        "kind": "Source",
+        "title": "The Hindu",
+        "state": null,
+        "url": "https://www.thehindu.com/news/cities/Delhi/jnu-violence-delhi-hc-directs-police-to-seize-phones-of-members-of-two-whatsapp-groups/article30565507.ece"
+      },
+      {
+        "id": "SRC-0235",
+        "kind": "Source",
+        "title": "Bar & Bench",
+        "state": null,
+        "url": "https://barandbench.com/news/litigation/jnu-violence-seize-mobile-phones-of-members-of-whatsapp-groups-delhi-hc-directs-police"
+      },
+      {
+        "id": "SRC-0236",
+        "kind": "Source",
+        "title": "Commonwealth Human Rights Initiative",
+        "state": null,
+        "url": "https://humanrightsinitiative.org/press-releases/police-inaction-at-jnu-is-complicity-chri-calls-for-a-judicial-inquiry.html"
+      },
+      {
+        "id": "SRC-0237",
+        "kind": "Source",
+        "title": "Devdiscourse",
+        "state": null,
+        "url": "https://www.devdiscourse.com/article/education/840588-before-jnu-violence-wrote-4-letters-urging-admin-to-hold-talks-with-students-delhi-police"
+      },
+      {
+        "id": "SRC-0238",
+        "kind": "Source",
+        "title": "The Tribune (PTI report)",
+        "state": null,
+        "url": "https://www.tribuneindia.com/news/india/nabanna-abhijan-protest-turns-violent-kolkota-police-lathi-charge-protestors/amp"
+      },
+      {
+        "id": "SRC-0239",
+        "kind": "Source",
+        "title": "Business Today",
+        "state": null,
+        "url": "https://www.businesstoday.in/amp/india/story/kolkata-rape-murder-march-to-nabanna-turns-ugly-near-howrah-as-protestors-break-barricades-police-fires-tear-gas-shells-443160-2024-08-27"
+      },
+      {
+        "id": "SRC-0240",
+        "kind": "Source",
+        "title": "News On AIR (All India Radio)",
+        "state": null,
+        "url": "https://www.newsonair.gov.in/student-groups-in-kolkata-set-to-hold-rally-despite-police-denial"
+      },
+      {
+        "id": "SRC-0241",
+        "kind": "Source",
+        "title": "IANS",
+        "state": null,
+        "url": "https://ianslive.in/calcutta-hc-directs-immediate-release-of-convenor-of-nabanna-abhijan--20240830210306"
+      },
+      {
+        "id": "SRC-0242",
+        "kind": "Source",
+        "title": "Republic World",
+        "state": null,
+        "url": "https://www.republicworld.com/india/breaking-lathicharge-and-water-cannon-used-against-protesters-in-kolkata-during-march-to-nabanna"
+      },
+      {
+        "id": "SRC-0243",
+        "kind": "Source",
+        "title": "Onmanorama",
+        "state": null,
+        "url": "https://www.onmanorama.com/news/india/2024/08/27/kolkata-student-march-clash-injury.html"
+      },
+      {
+        "id": "SRC-0244",
+        "kind": "Source",
+        "title": "Orissa Post",
+        "state": null,
+        "url": "https://www.orissapost.com/march-to-state-secretariat-illegal-no-permission-given-bengal-police/amp/"
+      },
+      {
+        "id": "SRC-0245",
+        "kind": "Source",
+        "title": "The Tribune",
+        "state": null,
+        "url": "https://www.tribuneindia.com/news/india/kolkata-horror-students-firm-on-march-to-nabanna-police-call-it-illegal-and-potentially-disruptive-deploy-6000-cops/amp"
+      },
+      {
+        "id": "SRC-0246",
+        "kind": "Source",
+        "title": "ETV Bharat",
+        "state": null,
+        "url": "https://www.etvbharat.com/en/!state/kolkata-doctor-rape-murder-chhatra-samaj-students-march-to-nabanna-today-enn24082608055"
+      },
+      {
+        "id": "SRC-0247",
+        "kind": "Source",
+        "title": "Sakshi Post",
+        "state": null,
+        "url": "https://www.sakshipost.com/news/calcutta-hc-rejects-bengal-govt-s-plea-ban-march-secretariat-326096"
+      },
+      {
+        "id": "SRC-0248",
+        "kind": "Source",
+        "title": "The Hitavada",
+        "state": null,
+        "url": "https://www.thehitavada.com/Encyc/2024/8/28/Nabanna-Abhijan-Rally.html"
+      },
+      {
+        "id": "SRC-0249",
+        "kind": "Source",
+        "title": "ETV Bharat",
+        "state": null,
+        "url": "https://www.etvbharat.com/amp/en/!state/nhrc-issues-notice-to-kolkata-police-chief-over-brutal-force-used-during-protests-enn24083100217"
+      },
+      {
+        "id": "SRC-0250",
+        "kind": "Source",
+        "title": "Morung Express",
+        "state": null,
+        "url": "https://mail.morungexpress.com/nabanna-abhijan-nhrc-issues-notice-to-kolkata-police"
+      },
+      {
+        "id": "SRC-0251",
+        "kind": "Source",
+        "title": "Orissa Post",
+        "state": null,
+        "url": "https://www.orissapost.com/nabanna-abhijan-bengal-lop-approaches-calcutta-hc-on-four-missing-students-cops-confirm-arrests/amp/"
+      },
+      {
+        "id": "SRC-0252",
+        "kind": "Source",
+        "title": "LawTrend",
+        "state": null,
+        "url": "https://lawtrend.in/calcutta-high-court-grants-bail-to-student-leader-involved-in-nabanna-abhijan"
+      },
+      {
+        "id": "SRC-0253",
+        "kind": "Source",
+        "title": "Swarajya",
+        "state": null,
+        "url": "https://swarajyamag.com/amp/story/news-brief/mamata-banerjee-praises-kolkata-police-for-suppressing-nabanna-march-claims-bjp-defaming-west-bengal-in-rg-kar-case"
+      },
+      {
+        "id": "SRC-0254",
+        "kind": "Source",
+        "title": "LiveLaw",
+        "state": null,
+        "url": "https://www.livelaw.in/amp/top-stories/pil-in-calcutta-high-court-challenges-12-hour-bandh-called-by-bjp-to-protest-police-action-during-nabanna-march-over-rg-kar-incident-267832"
+      }
+    ],
+    "removed": [],
+    "changed": [],
+    "summary": "286 records added"
+  },
+  {
     "commit": "dbc9db7fbb",
     "date": "2026-10-10T06:15:04Z",
     "subject": "Record the INDIA bloc march of 6 and 7 October as INC-0008",
