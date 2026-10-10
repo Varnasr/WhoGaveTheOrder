@@ -9152,7 +9152,7 @@ WGO.importedEvidence = [
   },
   {
     "id": "HIST-JNU16-006",
-    "title": "A letter dated 11 February 2016 from the JNU Registrar to the Deputy Commissioner of Police, South District, is reported to have said that the Vice-Chancellor g",
+    "title": "A letter from the JNU Registrar is reported by The Quint to have said that the Vice-Chancellor granted the police permission to enter the campus 'if need be and",
     "type": "OTHER_DOCUMENT",
     "verification": "REPORTED",
     "incidentId": "INC-0009",
@@ -9162,7 +9162,7 @@ WGO.importedEvidence = [
       "SRC-0138"
     ],
     "origin": "",
-    "establishes": "Single secondary source read (The Quint, 20 February 2016, which calls it a 'virtual carte blanche'). The letter itself has not been seen; HuffPost India, citing NDTV, is reported in search snippets to describe it as 'purportedly' written by the Registrar, but that page could not be fetched (404 on the redirect) and is not cited as read. The Vice-Chancellor is reported in snippets to have said at a press conference that he did not invite the police; no fetched page carries that statement, so no DISPUTED record can be made yet. Obtain the letter by RTI to JNU and to the Office of the Commissioner of Police, Delhi, and the register entry for it. The Quint also reports a senior professor's claim that the Vice-Chancellor first refused and relented after the Security Officer and the Registrar stressed the gravity of the charges; that is one person's account and is not established.",
+    "establishes": "Single secondary source read (The Quint, 20 February 2016, which calls it a 'virtual carte blanche'). The letter itself has not been seen; HuffPost India, citing NDTV, is reported in search snippets to describe it as 'purportedly' written by the Registrar, but that page could not be fetched (404 on the redirect) and is not cited as read. The Vice-Chancellor is reported in snippets to have said at a press conference that he did not invite the police; no fetched page carries that statement, so no DISPUTED record can be made yet. Obtain the letter by RTI to JNU and to the Office of the Commissioner of Police, Delhi, and the register entry for it. The Quint also reports a senior professor's claim that the Vice-Chancellor first refused and relented after the Security Officer and the Registrar stressed the gravity of the charges; that is one person's account and is not established. Quote check, 10 October 2026: The Quint page does not give the letter's date (earlier drafts said 11 February 2016) or name its addressee (earlier drafts said the Deputy Commissioner of Police, South District), so both were removed. Establish them from the letter itself.",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -11986,7 +11986,7 @@ WGO.importedEvidence = [
       "SRC-0254"
     ],
     "origin": "",
-    "establishes": "All allegations by named party figures, reported by Business Today and LiveLaw. No document supports the claim that the Chief Minister gave an order about containers. Governor CV Ananda Bose urged the state not to use force (Tribune, News On AIR, paraphrased).",
+    "establishes": "All allegations by named party figures, reported by Business Today and LiveLaw. No document supports the claim that the Chief Minister gave an order about containers. Governor CV Ananda Bose urged the state not to use force (Tribune, News On AIR, paraphrased). Quote check, 10 October 2026: neither cited page gives the bandh date, so the date was removed.",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -15224,7 +15224,7 @@ WGO.importedEvidence = [
       "SRC-0380"
     ],
     "origin": "",
-    "establishes": "Single outlet for the DM's words (ETV Bharat). The quote was taken from a summarised read of the page and should be checked against the page text before publication. Protesters and opposition figures describe the force as excessive; those are their allegations, not findings.",
+    "establishes": "Single outlet for the DM's words (ETV Bharat). The quote was checked against the raw page text on 10 October 2026. Protesters and opposition figures describe the force as excessive; those are their allegations, not findings.",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -18341,7 +18341,7 @@ WGO.importedEvidence = [
   },
   {
     "id": "HIST-BLR-003",
-    "title": "What force was used, and how to describe it: DISPUTED. Deccan Herald reports that after students 'slammed down the police barricades' the police 'beat them with",
+    "title": "What force was used, and how to describe it: DISPUTED. Deccan Herald reports that after students 'slamming down the police barricades' the police 'beat them wit",
     "type": "OTHER_DOCUMENT",
     "verification": "DISPUTED",
     "incidentId": "INC-0036",
@@ -23044,7 +23044,7 @@ WGO.importedEvidence = [
   },
   {
     "id": "HIST-SSC-016",
-    "title": "How the people at the protest are labelled by the sources: PTI says 'SSC aspirants and teachers' and 'SSC students and trainers'; Newslaundry says 'students and",
+    "title": "How the people at the protest are labelled by the sources: PTI (on The Week) says 'SSC aspirants and teachers'; Newslaundry says 'students and teachers'; The Lo",
     "type": "OTHER_DOCUMENT",
     "verification": "REPORTED",
     "incidentId": "INC-0047",

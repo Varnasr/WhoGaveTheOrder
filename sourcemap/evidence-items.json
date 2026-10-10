@@ -4508,7 +4508,7 @@
     "jurisdiction": "delhi",
     "incident": "INC-0009",
     "category": "incident",
-    "claim": "A letter dated 11 February 2016 from the JNU Registrar to the Deputy Commissioner of Police, South District, is reported to have said that the Vice-Chancellor granted the police permission to enter the campus 'if need be and as you may deem fit'.",
+    "claim": "A letter from the JNU Registrar is reported by The Quint to have said that the Vice-Chancellor granted the police permission to enter the campus 'if need be and as you may deem fit'.",
     "confidence": "REPORTED",
     "sources": [
       {
@@ -4518,7 +4518,7 @@
         "retrieved_on": "2026-10-10"
       }
     ],
-    "notes": "Single secondary source read (The Quint, 20 February 2016, which calls it a 'virtual carte blanche'). The letter itself has not been seen; HuffPost India, citing NDTV, is reported in search snippets to describe it as 'purportedly' written by the Registrar, but that page could not be fetched (404 on the redirect) and is not cited as read. The Vice-Chancellor is reported in snippets to have said at a press conference that he did not invite the police; no fetched page carries that statement, so no DISPUTED record can be made yet. Obtain the letter by RTI to JNU and to the Office of the Commissioner of Police, Delhi, and the register entry for it. The Quint also reports a senior professor's claim that the Vice-Chancellor first refused and relented after the Security Officer and the Registrar stressed the gravity of the charges; that is one person's account and is not established.",
+    "notes": "Single secondary source read (The Quint, 20 February 2016, which calls it a 'virtual carte blanche'). The letter itself has not been seen; HuffPost India, citing NDTV, is reported in search snippets to describe it as 'purportedly' written by the Registrar, but that page could not be fetched (404 on the redirect) and is not cited as read. The Vice-Chancellor is reported in snippets to have said at a press conference that he did not invite the police; no fetched page carries that statement, so no DISPUTED record can be made yet. Obtain the letter by RTI to JNU and to the Office of the Commissioner of Police, Delhi, and the register entry for it. The Quint also reports a senior professor's claim that the Vice-Chancellor first refused and relented after the Security Officer and the Registrar stressed the gravity of the charges; that is one person's account and is not established. Quote check, 10 October 2026: The Quint page does not give the letter's date (earlier drafts said 11 February 2016) or name its addressee (earlier drafts said the Deputy Commissioner of Police, South District), so both were removed. Establish them from the letter itself.",
     "volatility": "low"
   },
   {
@@ -8264,7 +8264,7 @@
     "jurisdiction": "west-bengal",
     "category": "incident",
     "incident": "INC-0015",
-    "claim": "Opposition and BJP statements as reported: BJP's Amit Malviya alleged the Chief Minister ordered police to place containers on the road to stop protesters; BJP leader Shehzad Poonawalla said the government 'has protected the rapists, destroyed evidence, and suppressed the voice of truth'. The BJP called a 12-hour Bengal bandh on 28 August 2024 against the police action.",
+    "claim": "Opposition and BJP statements as reported: BJP's Amit Malviya alleged the Chief Minister ordered police to place containers on the road to stop protesters; BJP leader Shehzad Poonawalla said the government 'has protected the rapists, destroyed evidence, and suppressed the voice of truth'. The BJP called a 12-hour Bengal bandh against the police action (LiveLaw).",
     "confidence": "REPORTED",
     "sources": [
       {
@@ -8280,7 +8280,7 @@
         "retrieved_on": "2026-10-10"
       }
     ],
-    "notes": "All allegations by named party figures, reported by Business Today and LiveLaw. No document supports the claim that the Chief Minister gave an order about containers. Governor CV Ananda Bose urged the state not to use force (Tribune, News On AIR, paraphrased).",
+    "notes": "All allegations by named party figures, reported by Business Today and LiveLaw. No document supports the claim that the Chief Minister gave an order about containers. Governor CV Ananda Bose urged the state not to use force (Tribune, News On AIR, paraphrased). Quote check, 10 October 2026: neither cited page gives the bandh date, so the date was removed.",
     "volatility": "low"
   },
   {
@@ -9535,7 +9535,7 @@
     "id": "HIST-C17A-001",
     "jurisdiction": "tamil-nadu",
     "category": "incident",
-    "claim": "Police cleared the Marina Beach protest camp in Chennai on the morning of 23 January 2017 using force, including batons and, in some reports, tear gas, on protesters who had gathered since mid-January against the ban on Jallikattu. The Tribune's agency report says police 'fired teargas shells and used lathicharge to disperse crowds' on that day in Chennai and other cities. Police told PTI they used 'mild force' after protesters threw sand and water packets; a protester told PTI police used tear gas and batons.",
+    "claim": "Police cleared the Marina Beach protest camp in Chennai on the morning of 23 January 2017 using force, including batons and, in some reports, tear gas, on protesters who had gathered since mid-January against the ban on Jallikattu. The Tribune's agency report says police 'fired teargas shells and resorted to lathicharge to disperse crowds' on that day in Chennai and other cities. Police told PTI they used 'mild force' after protesters threw sand and water packets; a protester told PTI police used tear gas and batons.",
     "confidence": "CORROBORATED",
     "sources": [
       {
@@ -12575,7 +12575,7 @@
     "id": "HIST-BPSC-002",
     "jurisdiction": "bihar",
     "category": "incident",
-    "claim": "Patna's District Magistrate was reported as saying water cannon and 'mild force' were used to disperse protesters who had blocked traffic near JP Golambar. ETV Bharat's report quotes him: 'Water cannons and mild force were used to disperse protestors.' Other outlets, including The Logical Indian, report a 'controlled lathi charge' and ANI's wording 'mild-lathi charge'.",
+    "claim": "Patna's District Magistrate was reported as saying water cannon and 'mild force' were used to disperse protesters who had blocked traffic near JP Golambar. ETV Bharat's report quotes him: 'Water cannons and mild force were used to disperse protestors as some of them blocked traffic by lying on the roads near JP Golumber, the DM said.' (the page names the DM as Chandrashekhar Singh) Other outlets, including The Logical Indian, report a 'controlled lathi charge' and ANI's wording 'mild-lathi charge'.",
     "confidence": "REPORTED",
     "sources": [
       {
@@ -12591,7 +12591,7 @@
         "retrieved_on": "2026-10-10"
       }
     ],
-    "notes": "Single outlet for the DM's words (ETV Bharat). The quote was taken from a summarised read of the page and should be checked against the page text before publication. Protesters and opposition figures describe the force as excessive; those are their allegations, not findings.",
+    "notes": "Single outlet for the DM's words (ETV Bharat). The quote was checked against the raw page text on 10 October 2026. Protesters and opposition figures describe the force as excessive; those are their allegations, not findings.",
     "volatility": "low",
     "incident": "INC-0026"
   },
@@ -15664,7 +15664,7 @@
     "id": "HIST-VNS-003",
     "jurisdiction": "uttar-pradesh",
     "category": "incident",
-    "claim": "The number of BHU students among those arrested on 19 December 2019 is DISPUTED. Versions: 19 BHU students (The Wire and Madhyamam); 25 of about 70 from BHU, from unnamed sources (The Quint, 20 December 2019); 'around 20 students' (a later Quint video page, which says eight were released five days later); 'around 35 from BHU' of 69, in a tweet by the Quint's reporter quoted on that page; 12 BHU students (SabrangIndia, 2 January 2020; the same figure appears in an embedded tweet on the Wire page: 'About 12 BHU students'); 'more than 25 students and activists' (Sajha Sanskriti Manch, as quoted by SabrangIndia); and 'many' without a number (Scroll.in).",
+    "claim": "The number of BHU students among those arrested on 19 December 2019 is DISPUTED. Versions: 19 BHU students (The Wire and Madhyamam); 25 of about 70 from BHU, from unnamed sources (The Quint, 20 December 2019); 'around 20 students' (a later Quint video page, which says eight were released five days later); 'around 35 from BHU' of 69, in a tweet by the Quint's reporter quoted on that page; 12 BHU students (SabrangIndia, 2 January 2020; the same figure appears in an embedded tweet on the Wire page: 'About 12 BHU students'); 'over 25 students and activists' (Sajha Sanskriti Manch, as quoted by SabrangIndia); and 'many' without a number (Scroll.in).",
     "confidence": "DISPUTED",
     "sources": [
       {
@@ -17106,7 +17106,7 @@
     "id": "HIST-BLR-003",
     "jurisdiction": "karnataka",
     "category": "incident",
-    "claim": "What force was used, and how to describe it: DISPUTED. Deccan Herald reports that after students 'slammed down the police barricades' the police 'beat them with lathis, triggering a commotion', and headlines it a 'lathi-charge'; The Hindu says police 'resorted to caning'; The New Indian Express says students were 'thrashed' (photo caption) and 'lathicharged' (text). The Times of India calls it a 'mild lathi-charge' in its own voice and quotes unnamed senior police officers who say the students pushed the barricades and 'attacked cops who tried to stop them'. A CFI state leader, quoted by the Times of India, said police 'unnecessarily used force'. ETV Bharat reports students alleging they were beaten 'as part of a planned conspiracy' and that some policemen deliberately hit them on the head with sticks; this is the students' allegation, not a finding.",
+    "claim": "What force was used, and how to describe it: DISPUTED. Deccan Herald reports that after students 'slamming down the police barricades' the police 'beat them with lathis, triggering a commotion', and headlines it a 'lathi-charge'; The Hindu says police 'resorted to caning'; The New Indian Express says students were 'thrashed' (photo caption) and 'lathicharged' (text). The Times of India calls it a 'mild lathi-charge' in its own voice and quotes unnamed senior police officers who say the students pushed the barricades and 'attacked cops who tried to stop them'. A CFI state leader, quoted by the Times of India, said police 'unnecessarily used force'. ETV Bharat reports students alleging they were beaten 'as part of a planned conspiracy' and that some policemen deliberately hit them on the head with sticks; this is the students' allegation, not a finding.",
     "confidence": "DISPUTED",
     "sources": [
       {
@@ -18213,7 +18213,7 @@
     "id": "HIST-LKO-011",
     "jurisdiction": "uttar-pradesh",
     "category": "incident",
-    "claim": "Politicians' statements after the incident, each attributed. Samajwadi Party tweet of 4 December 2021: 'The CM who denied backward-Dalit reservation in the hiring of 69,000 teachers is now getting them beaten up' (NDTV's rendering). Akhilesh Yadav (SP): the 'future teachers are being lathi-charged under the BJP regime'. Rahul Gandhi (Congress): 'The UP government served lathi-charge to those seeking employment' (as quoted by Sabrang, similar in NDTV and Deccan Herald). Varun Gandhi (BJP MP): called it a 'barbaric lathi charge' in a tweet of 5 December. Mayawati (BSP): said it was 'very sad and condemnable'. Sanjay Singh (AAP) tweeted, in Hindi, telling Adityanath to have 'these unemployed youth' beaten as much as he liked but to remember that they had brought him to power (ABP Live, paraphrased). All are opinions or allegations of the speaker.",
+    "claim": "Politicians' statements after the incident, each attributed. Samajwadi Party tweet of 4 December 2021: 'The CM who denied backward-Dalit reservation in the hiring of 69,000 teachers is now getting them beaten up' (NDTV's rendering). Akhilesh Yadav (SP): the 'future teachers are being lathi-charged under the BP regime' (sic, as printed by Deccan Herald). Rahul Gandhi (Congress): 'The UP government served lathi-charge to those seeking employment' (as quoted by Sabrang, similar in NDTV and Deccan Herald). Varun Gandhi (BJP MP): called it a 'barbaric lathi charge' in a tweet of 5 December. Mayawati (BSP): said it was 'very sad and condemnable'. Sanjay Singh (AAP) tweeted, in Hindi, telling Adityanath to have 'these unemployed youth' beaten as much as he liked but to remember that they had brought him to power (ABP Live, paraphrased). All are opinions or allegations of the speaker.",
     "confidence": "REPORTED",
     "sources": [
       {
@@ -23795,7 +23795,7 @@
     "id": "HIST-SSC-016",
     "jurisdiction": "delhi",
     "category": "incident",
-    "claim": "How the people at the protest are labelled by the sources: PTI says 'SSC aspirants and teachers' and 'SSC students and trainers'; Newslaundry says 'students and teachers'; The Logical Indian says 'students' and '44 students'; Free Press Journal says 'protesters', 'aspirants' and 'students'; the police statements say 'protesters' and separately 'organisers' and 'teachers' (the DCP's 'instigating teachers'). Some aspirants quoted by PTI and Newslaundry say teachers took over the protest, and PTI adds that police in civil dress attacked protesters, per an unnamed aspirant. These are the quoted people's claims.",
+    "claim": "How the people at the protest are labelled by the sources: PTI (on The Week) says 'SSC aspirants and teachers'; Newslaundry says 'students and teachers'; The Logical Indian says 'students' and '44 students'; Free Press Journal says 'protesters', 'aspirants' and 'students'; the police statements say 'protesters' and separately 'organisers' and 'teachers' (the DCP's 'instigating teachers'). Some aspirants quoted by PTI and Newslaundry say teachers took over the protest, and PTI adds that police in civil dress attacked protesters, per an unnamed aspirant. These are the quoted people's claims.",
     "confidence": "REPORTED",
     "sources": [
       {
