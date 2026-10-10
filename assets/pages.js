@@ -69,7 +69,7 @@
     ui.mount('[data-region="hero-facts"]',
       '<ul class="hero__list">' + lines.join('') +
         (earlierCount ? '<li><span class="hero__fact">' + earlierCount +
-          ' earlier incidents are on the record, back to 2016.</span></li>' : '') +
+          ' earlier incidents are on the record, back to 2014.</span></li>' : '') +
         '<li><span class="hero__fact"><strong>No order authorising it has been found.</strong></span> ' +
           ui.chip('UNKNOWN') + '</li>' +
       '</ul>' +
