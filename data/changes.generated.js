@@ -5,6 +5,91 @@ window.WGO = window.WGO || {};
 
 WGO.changes = [
   {
+    "commit": "f6da3c2fd1",
+    "date": "2026-10-10T09:42:53Z",
+    "subject": "Correct eight evidence items after raw-page quote check",
+    "added": [],
+    "removed": [],
+    "changed": [
+      {
+        "id": "HIST-JNU16-006",
+        "kind": "Evidence",
+        "title": "A letter from the JNU Registrar is reported by The Quint to have said that the Vice-Chancellor granted the police permission to enter the campus 'if need be and",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-JNU16-006",
+        "fields": [
+          {
+            "field": "title",
+            "from": "A letter dated 11 February 2016 from the JNU Registrar to the Deputy Commissioner of Police, South District, is reported to have said that the Vice-Chancellor g",
+            "to": "A letter from the JNU Registrar is reported by The Quint to have said that the Vice-Chancellor granted the police permission to enter the campus 'if need be and"
+          },
+          {
+            "field": "establishes",
+            "from": "Single secondary source read (The Quint, 20 February 2016, which calls it a 'virtual carte blanche'). The letter itself has not been seen; HuffPost India, citing NDTV, is reported in search snippets to describe it as 'purportedly' writte…",
+            "to": "Single secondary source read (The Quint, 20 February 2016, which calls it a 'virtual carte blanche'). The letter itself has not been seen; HuffPost India, citing NDTV, is reported in search snippets to describe it as 'purportedly' writte…"
+          }
+        ]
+      },
+      {
+        "id": "HIST-NAB-018",
+        "kind": "Evidence",
+        "title": "Opposition and BJP statements as reported: BJP's Amit Malviya alleged the Chief Minister ordered police to place containers on the road to stop protesters; BJP ",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-NAB-018",
+        "fields": [
+          {
+            "field": "establishes",
+            "from": "All allegations by named party figures, reported by Business Today and LiveLaw. No document supports the claim that the Chief Minister gave an order about containers. Governor CV Ananda Bose urged the state not to use force (Tribune, New…",
+            "to": "All allegations by named party figures, reported by Business Today and LiveLaw. No document supports the claim that the Chief Minister gave an order about containers. Governor CV Ananda Bose urged the state not to use force (Tribune, New…"
+          }
+        ]
+      },
+      {
+        "id": "HIST-BPSC-002",
+        "kind": "Evidence",
+        "title": "Patna's District Magistrate was reported as saying water cannon and 'mild force' were used to disperse protesters who had blocked traffic near JP Golambar. ETV ",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-BPSC-002",
+        "fields": [
+          {
+            "field": "establishes",
+            "from": "Single outlet for the DM's words (ETV Bharat). The quote was taken from a summarised read of the page and should be checked against the page text before publication. Protesters and opposition figures describe the force as excessive; thos…",
+            "to": "Single outlet for the DM's words (ETV Bharat). The quote was checked against the raw page text on 10 October 2026. Protesters and opposition figures describe the force as excessive; those are their allegations, not findings."
+          }
+        ]
+      },
+      {
+        "id": "HIST-BLR-003",
+        "kind": "Evidence",
+        "title": "What force was used, and how to describe it: DISPUTED. Deccan Herald reports that after students 'slamming down the police barricades' the police 'beat them wit",
+        "state": "DISPUTED",
+        "url": "evidence.html?id=HIST-BLR-003",
+        "fields": [
+          {
+            "field": "title",
+            "from": "What force was used, and how to describe it: DISPUTED. Deccan Herald reports that after students 'slammed down the police barricades' the police 'beat them with",
+            "to": "What force was used, and how to describe it: DISPUTED. Deccan Herald reports that after students 'slamming down the police barricades' the police 'beat them wit"
+          }
+        ]
+      },
+      {
+        "id": "HIST-SSC-016",
+        "kind": "Evidence",
+        "title": "How the people at the protest are labelled by the sources: PTI (on The Week) says 'SSC aspirants and teachers'; Newslaundry says 'students and teachers'; The Lo",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-SSC-016",
+        "fields": [
+          {
+            "field": "title",
+            "from": "How the people at the protest are labelled by the sources: PTI says 'SSC aspirants and teachers' and 'SSC students and trainers'; Newslaundry says 'students and",
+            "to": "How the people at the protest are labelled by the sources: PTI (on The Week) says 'SSC aspirants and teachers'; Newslaundry says 'students and teachers'; The Lo"
+          }
+        ]
+      }
+    ],
+    "summary": "5 records edited"
+  },
+  {
     "commit": "b54f783b79",
     "date": "2026-10-10T09:26:20Z",
     "subject": "Add twenty-one more cases (2018 to 2025) as INC-0028 to INC-0048",
