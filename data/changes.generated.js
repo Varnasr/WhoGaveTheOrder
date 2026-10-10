@@ -5,6 +5,5259 @@ window.WGO = window.WGO || {};
 
 WGO.changes = [
   {
+    "commit": "b54f783b79",
+    "date": "2026-10-10T09:26:20Z",
+    "subject": "Add twenty-one more cases (2018 to 2025) as INC-0028 to INC-0048",
+    "added": [
+      {
+        "id": "INC-0028",
+        "kind": "Incident",
+        "title": "Police action at Darivit High School, Islampur",
+        "state": "REPORTED",
+        "url": "investigation.html?id=darivit-2018"
+      },
+      {
+        "id": "INC-0029",
+        "kind": "Incident",
+        "title": "Police action on students at Aligarh Muslim University",
+        "state": "REPORTED",
+        "url": "investigation.html?id=amu-2018"
+      },
+      {
+        "id": "INC-0030",
+        "kind": "Incident",
+        "title": "Police stop a JNU march to Parliament",
+        "state": "REPORTED",
+        "url": "investigation.html?id=jnu-2018"
+      },
+      {
+        "id": "INC-0031",
+        "kind": "Incident",
+        "title": "Police stop JNU fee-hike marches to Parliament and Rashtrapati Bhavan",
+        "state": "REPORTED",
+        "url": "investigation.html?id=jnu-fee-2019"
+      },
+      {
+        "id": "INC-0032",
+        "kind": "Incident",
+        "title": "Police on the Cotton University students march to Dispur",
+        "state": "REPORTED",
+        "url": "investigation.html?id=cotton-university-2019"
+      },
+      {
+        "id": "INC-0033",
+        "kind": "Incident",
+        "title": "Arrests of protesters including BHU students in Varanasi",
+        "state": "REPORTED",
+        "url": "investigation.html?id=varanasi-bhu-2019"
+      },
+      {
+        "id": "INC-0034",
+        "kind": "Incident",
+        "title": "Police on the University of Madras campus",
+        "state": "REPORTED",
+        "url": "investigation.html?id=madras-university-2019"
+      },
+      {
+        "id": "INC-0035",
+        "kind": "Incident",
+        "title": "Police stop a Jamia march to Parliament",
+        "state": "REPORTED",
+        "url": "investigation.html?id=jamia-march-2020"
+      },
+      {
+        "id": "INC-0036",
+        "kind": "Incident",
+        "title": "Baton charge on students marching to the Vidhana Soudha",
+        "state": "REPORTED",
+        "url": "investigation.html?id=bengaluru-nep-2021"
+      },
+      {
+        "id": "INC-0037",
+        "kind": "Incident",
+        "title": "Lathi charge on girl students at the Dhanbad collectorate",
+        "state": "REPORTED",
+        "url": "investigation.html?id=dhanbad-2021"
+      },
+      {
+        "id": "INC-0038",
+        "kind": "Incident",
+        "title": "Lathi charge on a candlelight march of recruitment aspirants",
+        "state": "REPORTED",
+        "url": "investigation.html?id=lucknow-2021"
+      },
+      {
+        "id": "INC-0039",
+        "kind": "Incident",
+        "title": "Lathi charge on teacher-trainees outside Siksha Bhawan",
+        "state": "REPORTED",
+        "url": "investigation.html?id=agartala-2021"
+      },
+      {
+        "id": "INC-0040",
+        "kind": "Incident",
+        "title": "Detentions at screenings of the BBC documentary",
+        "state": "REPORTED",
+        "url": "investigation.html?id=bbc-screenings-2023"
+      },
+      {
+        "id": "INC-0041",
+        "kind": "Incident",
+        "title": "Detentions at the TSPSC paper-leak protests",
+        "state": "REPORTED",
+        "url": "investigation.html?id=tspsc-2023"
+      },
+      {
+        "id": "INC-0042",
+        "kind": "Incident",
+        "title": "Lathi charge on teacher-eligibility aspirants at Dak Bungalow Chowk",
+        "state": "REPORTED",
+        "url": "investigation.html?id=patna-domicile-2023"
+      },
+      {
+        "id": "INC-0043",
+        "kind": "Incident",
+        "title": "Detentions at a march to the Israeli embassy",
+        "state": "REPORTED",
+        "url": "investigation.html?id=israeli-embassy-2023"
+      },
+      {
+        "id": "INC-0044",
+        "kind": "Incident",
+        "title": "Removal of protesters at Indraprastha College",
+        "state": "REPORTED",
+        "url": "investigation.html?id=du-indraprastha-2023"
+      },
+      {
+        "id": "INC-0045",
+        "kind": "Incident",
+        "title": "Police and students at Kancha Gachibowli",
+        "state": "REPORTED",
+        "url": "investigation.html?id=hcu-2025"
+      },
+      {
+        "id": "INC-0046",
+        "kind": "Incident",
+        "title": "Removal of BPSC protesters from Gandhi Maidan",
+        "state": "REPORTED",
+        "url": "investigation.html?id=bpsc-gandhi-maidan-2025"
+      },
+      {
+        "id": "INC-0047",
+        "kind": "Incident",
+        "title": "Dispersal of the SSC protest at Ramlila Maidan",
+        "state": "REPORTED",
+        "url": "investigation.html?id=ssc-ramlila-2025"
+      },
+      {
+        "id": "INC-0048",
+        "kind": "Incident",
+        "title": "Lathicharge and detentions at Panjab University",
+        "state": "REPORTED",
+        "url": "investigation.html?id=panjab-university-2025"
+      },
+      {
+        "id": "HIST-DAR-001",
+        "kind": "Evidence",
+        "title": "On 20 September 2018 a protest by students and parents against the posting of Urdu and Sanskrit teachers at Darivit High School, Islampur block, Uttar Dinajpur ",
+        "state": "VERIFIED",
+        "url": "evidence.html?id=HIST-DAR-001"
+      },
+      {
+        "id": "HIST-DAR-002",
+        "kind": "Evidence",
+        "title": "Police used tear gas and rubber bullets at Darivit High School on 20 September 2018. This is stated by the police themselves: the High Court records the gist of",
+        "state": "VERIFIED",
+        "url": "evidence.html?id=HIST-DAR-002"
+      },
+      {
+        "id": "HIST-DAR-003",
+        "kind": "Evidence",
+        "title": "Whether police use of force on 20 September 2018 was excessive, and what it included, is DISPUTED. (a) Police and State version: police were 'suddenly attacked ",
+        "state": "DISPUTED",
+        "url": "evidence.html?id=HIST-DAR-003"
+      },
+      {
+        "id": "HIST-DAR-004",
+        "kind": "Evidence",
+        "title": "Who fired the bullets that killed two men is DISPUTED. (a) Police and State: police deny firing bullets (SP quoted in Indian Express, 20 September 2018, and Hin",
+        "state": "DISPUTED",
+        "url": "evidence.html?id=HIST-DAR-004"
+      },
+      {
+        "id": "HIST-DAR-005",
+        "kind": "Evidence",
+        "title": "Who gave the order for police to go to Darivit High School, to enter or break through to the school gate, and to use lathis, tear gas and rubber bullets: NOT ES",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-DAR-005"
+      },
+      {
+        "id": "HIST-DAR-006",
+        "kind": "Evidence",
+        "title": "Who gave the order to fire live ammunition, if police did so: NOT ESTABLISHED. Police deny that any live firing by police took place. The High Court says in a p",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-DAR-006"
+      },
+      {
+        "id": "HIST-DAR-007",
+        "kind": "Evidence",
+        "title": "On 23 September 2018 the father of one of the dead men made a complaint that named four people as responsible for the incident: Sumit Kumar, Superintendent of P",
+        "state": "DISPUTED",
+        "url": "evidence.html?id=HIST-DAR-007"
+      },
+      {
+        "id": "HIST-DAR-008",
+        "kind": "Evidence",
+        "title": "FIR No. 611 of 2018 was registered on 20 September 2018 at Islampur police station by the police themselves (suo motu; the judgment says 'The original FIR was r",
+        "state": "VERIFIED",
+        "url": "evidence.html?id=HIST-DAR-008"
+      },
+      {
+        "id": "HIST-DAR-009",
+        "kind": "Evidence",
+        "title": "No FIR or case was registered on the separate assault at Golapara village, in which the families say the two injured men were waylaid and beaten while being tak",
+        "state": "VERIFIED",
+        "url": "evidence.html?id=HIST-DAR-009"
+      },
+      {
+        "id": "HIST-DAR-010",
+        "kind": "Evidence",
+        "title": "Injury counts conflict. CID report as recorded by the court: 12 police personnel and 3 civilians injured (para 10). FIR gist: three civilians and one police off",
+        "state": "DISPUTED",
+        "url": "evidence.html?id=HIST-DAR-010"
+      },
+      {
+        "id": "HIST-DAR-011",
+        "kind": "Evidence",
+        "title": "Inquiries into police conduct. (1) State Human Rights Commission: took cognisance on 25 September 2018 after a report in a local Bengali newspaper and has since",
+        "state": "VERIFIED",
+        "url": "evidence.html?id=HIST-DAR-011"
+      },
+      {
+        "id": "HIST-DAR-012",
+        "kind": "Evidence",
+        "title": "Calcutta High Court, single judge Rajasekhar Mantha, judgment of 10 May 2023 (hearing concluded 1 May 2023) in three writ petitions filed on 4 October 2018 (WPA",
+        "state": "VERIFIED",
+        "url": "evidence.html?id=HIST-DAR-012"
+      },
+      {
+        "id": "HIST-DAR-013",
+        "kind": "Evidence",
+        "title": "Appeal and aftermath. REPORTED (Law Trend, 3 April 2024): a Division Bench headed by Chief Justice T.S. Sivagnanam did not stay the single-bench order but agree",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-DAR-013"
+      },
+      {
+        "id": "HIST-DAR-014",
+        "kind": "Evidence",
+        "title": "Records that could be requested to answer who gave the order, drawn from the documents the NHRC team says it asked for in October 2018 and did not receive (judg",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-DAR-014"
+      },
+      {
+        "id": "HIST-DAR-015",
+        "kind": "Evidence",
+        "title": "Other records that could be requested: (a) the State's affidavit in opposition and the CID report filed in WPA 20733 of 2018 and connected petitions, and the NH",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-DAR-015"
+      },
+      {
+        "id": "HIST-DAR-016",
+        "kind": "Evidence",
+        "title": "Level of office at which the decisions to deploy, use force and fire were taken, summary: ESTABLISHED that the force at the school was the West Bengal Police fr",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-DAR-016"
+      },
+      {
+        "id": "HIST-AMU18-001",
+        "kind": "Evidence",
+        "title": "On 2 May 2018 a group of Hindu right-wing activists came to the Aligarh Muslim University campus over the portrait of Muhammad Ali Jinnah in the students' union",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-AMU18-001"
+      },
+      {
+        "id": "HIST-AMU18-002",
+        "kind": "Evidence",
+        "title": "How the activists left police custody on 2 May 2018 is DISPUTED. (a) AMU's proctor, per PTI: security staff overpowered a small group around 2 p.m. and handed t",
+        "state": "DISPUTED",
+        "url": "evidence.html?id=HIST-AMU18-002"
+      },
+      {
+        "id": "HIST-AMU18-003",
+        "kind": "Evidence",
+        "title": "Police used a lathi charge and tear gas on AMU students on 2 May 2018 after the students demanded action against the activists. Reports differ on which was used",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-AMU18-003"
+      },
+      {
+        "id": "HIST-AMU18-004",
+        "kind": "Evidence",
+        "title": "Where the students were heading when they were stopped is reported as the Dodhpur police station by VICE. Other outlets read say only that students were marchin",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-AMU18-004"
+      },
+      {
+        "id": "HIST-AMU18-005",
+        "kind": "Evidence",
+        "title": "Injury figures for 2 May 2018 are DISPUTED: at least three students (Deccan Chronicle, 2 May); at least six people, with hospital sources saying about 20 studen",
+        "state": "DISPUTED",
+        "url": "evidence.html?id=HIST-AMU18-005"
+      },
+      {
+        "id": "HIST-AMU18-006",
+        "kind": "Evidence",
+        "title": "The news reports read record no detention or arrest of students by police on 2 May 2018. Police later arrested two people from the activists' side (reported 6 M",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-AMU18-006"
+      },
+      {
+        "id": "HIST-AMU18-007",
+        "kind": "Evidence",
+        "title": "A magisterial inquiry into the 2 May 2018 violence was ordered by the District Magistrate, Aligarh, on Friday 4 May 2018 (Hindustan Times, 5 May, headline 'Magi",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-AMU18-007"
+      },
+      {
+        "id": "HIST-AMU18-008",
+        "kind": "Evidence",
+        "title": "Outcome of the magisterial probe: the Additional District Magistrate (Finance) who conducted it told Newsclick in January 2019 that his report, submitted to the",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-AMU18-008"
+      },
+      {
+        "id": "HIST-AMU18-009",
+        "kind": "Evidence",
+        "title": "WHO GAVE THE ORDER for the lathi charge and tear gas on students on 2 May 2018: NOT ESTABLISHED. No FIR, order, affidavit, judgment or inquiry report was found ",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-AMU18-009"
+      },
+      {
+        "id": "HIST-AMU18-010",
+        "kind": "Evidence",
+        "title": "WHO GAVE THE ORDER to release the activists from police custody on 2 May 2018: NOT ESTABLISHED, and the fact of a police release is itself DISPUTED (item 2). No",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-AMU18-010"
+      },
+      {
+        "id": "HIST-AMU18-011",
+        "kind": "Evidence",
+        "title": "AMU Students' Union said it would petition the Allahabad High Court against the district administration and police for inaction (The Quint, 3 May 2018, citing t",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-AMU18-011"
+      },
+      {
+        "id": "HIST-AMU18-012",
+        "kind": "Evidence",
+        "title": "Whether any court petition, High Court or Supreme Court proceeding, judicial inquiry, National Human Rights Commission complaint, disciplinary action against po",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-AMU18-012"
+      },
+      {
+        "id": "HIST-JNU18-001",
+        "kind": "Evidence",
+        "title": "On Friday 23 March 2018 a march of students and teachers from Jawaharlal Nehru University towards Parliament, called by the JNU Students' Union and the JNU Teac",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-JNU18-001"
+      },
+      {
+        "id": "HIST-JNU18-002",
+        "kind": "Evidence",
+        "title": "Size of the march: the Indian Express, NewsClick and the New Indian Express put it at more than 1,000 students and teachers; Sabrang India says 'thousands'; the",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-JNU18-002"
+      },
+      {
+        "id": "HIST-JNU18-003",
+        "kind": "Evidence",
+        "title": "Who gave the order to stop the march near INA Market: NOT ESTABLISHED. No document read for this record names a person or an office that ordered the stop. The o",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-JNU18-003"
+      },
+      {
+        "id": "HIST-JNU18-004",
+        "kind": "Evidence",
+        "title": "Permission for the march is DISPUTED. Version A (Delhi Police chief spokesperson, The Hindu): 'Permission for the protest march was denied but the students star",
+        "state": "DISPUTED",
+        "url": "evidence.html?id=HIST-JNU18-004"
+      },
+      {
+        "id": "HIST-JNU18-005",
+        "kind": "Evidence",
+        "title": "Use of lathis or batons is DISPUTED. Students and their union say police baton-charged the marchers (Scroll.in: 'baton charged the protestors, injuring many, th",
+        "state": "DISPUTED",
+        "url": "evidence.html?id=HIST-JNU18-005"
+      },
+      {
+        "id": "HIST-JNU18-006",
+        "kind": "Evidence",
+        "title": "Account of what provoked the force is DISPUTED. Delhi Police version: students 'turned violent, broke barricades and assaulted policemen' (chief spokesperson, T",
+        "state": "DISPUTED",
+        "url": "evidence.html?id=HIST-JNU18-006"
+      },
+      {
+        "id": "HIST-JNU18-007",
+        "kind": "Evidence",
+        "title": "Injury counts. Police claim: 41 police personnel were injured, including the station house officers of Hauz Khas and Safdarjung Enclave (chief spokesperson, The",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-JNU18-007"
+      },
+      {
+        "id": "HIST-JNU18-008",
+        "kind": "Evidence",
+        "title": "Detention counts are DISPUTED. The Hindu (citing police): 23 students detained around 6.30 p.m., released later, protesters dispersed around 9.30 p.m. Hindustan",
+        "state": "DISPUTED",
+        "url": "evidence.html?id=HIST-JNU18-008"
+      },
+      {
+        "id": "HIST-JNU18-009",
+        "kind": "Evidence",
+        "title": "Allegations that women students were manhandled. National Herald reports JNU students saying 'several girl students were molested by policemen', that a woman st",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-JNU18-009"
+      },
+      {
+        "id": "HIST-JNU18-010",
+        "kind": "Evidence",
+        "title": "Allegations by journalists. Several journalists said they were manhandled or molested by police at the march: a reporter of the Indian Express alleged an office",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-JNU18-010"
+      },
+      {
+        "id": "HIST-JNU18-011",
+        "kind": "Evidence",
+        "title": "Internal police action after the march: Delhi Police ordered a vigilance inquiry into the complaint against the SHO of Delhi Cantt police station; the SHO was s",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-JNU18-011"
+      },
+      {
+        "id": "HIST-JNU18-012",
+        "kind": "Evidence",
+        "title": "On Monday 26 March 2018 Delhi Police registered an FIR at Sarojini Nagar police station on the journalist's complaint against the SHO of Delhi Cantt police stat",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-JNU18-012"
+      },
+      {
+        "id": "HIST-JNU18-013",
+        "kind": "Evidence",
+        "title": "Delhi Police registered an FIR against JNU students over the march at Sarojini Nagar police station: at least 22 identified students and several unidentified (S",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-JNU18-013"
+      },
+      {
+        "id": "HIST-JNU18-014",
+        "kind": "Evidence",
+        "title": "The JNU Students' Union filed a complaint at Sarojini Nagar police station on Monday 26 March 2018 against Delhi Police for 'brutally assaulting students and mo",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-JNU18-014"
+      },
+      {
+        "id": "HIST-JNU18-015",
+        "kind": "Evidence",
+        "title": "The National Commission for Women ordered a probe. The NCW Acting Chairperson Rekha Sharma said: 'We have ordered a probe and sent a team today to meet the poli",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-JNU18-015"
+      },
+      {
+        "id": "HIST-JNU18-016",
+        "kind": "Evidence",
+        "title": "Journalists' bodies petitioned the Union Home Minister's office. The Times of India reports a group of journalists went to the Union home minister's office on M",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-JNU18-016"
+      },
+      {
+        "id": "HIST-JNU18-017",
+        "kind": "Evidence",
+        "title": "Who gave the order for water cannons and for the lathi charge (or whatever force was used): NOT ESTABLISHED. The Delhi Police posts quoted by Newslaundry say po",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-JNU18-017"
+      },
+      {
+        "id": "HIST-JNU18-018",
+        "kind": "Evidence",
+        "title": "Whether any prohibitory order (a section 144 order of the former Code of Criminal Procedure) was in force on 23 March 2018 along the route or around Parliament:",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-JNU18-018"
+      },
+      {
+        "id": "HIST-JNU18-019",
+        "kind": "Evidence",
+        "title": "Records that could be requested to answer who gave the order. From Delhi Police, through the Union RTI route for Delhi described in this archive: the JNU Studen",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-JNU18-019"
+      },
+      {
+        "id": "HIST-JNU18-020",
+        "kind": "Evidence",
+        "title": "Records that could be requested on the injuries and the inquiries: the vigilance inquiry report on the complaint against the SHO (Delhi Police); the Crime Branc",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-JNU18-020"
+      },
+      {
+        "id": "HIST-JNU18-021",
+        "kind": "Evidence",
+        "title": "Records that could be requested from the courts and the Ministry: certified copies of the FIR registered against the students and the FIR registered against the",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-JNU18-021"
+      },
+      {
+        "id": "HIST-JNU18-022",
+        "kind": "Evidence",
+        "title": "Level of office at which each decision was taken, summary. ESTABLISHED to the standard of news reports: the actor is the Delhi Police (CORROBORATED, HIST-JNU18-",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-JNU18-022"
+      },
+      {
+        "id": "HIST-JNUF-001",
+        "kind": "Evidence",
+        "title": "On 18 November 2019, the first day of the Winter Session of Parliament, students of Jawaharlal Nehru University (JNU) marched from the campus towards Parliament",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-JNUF-001"
+      },
+      {
+        "id": "HIST-JNUF-002",
+        "kind": "Evidence",
+        "title": "Number detained on 18 November 2019 differs between reports. Newslaundry and Onmanorama say about 100. The Indian Express reports a Delhi Police Additional PRO ",
+        "state": "DISPUTED",
+        "url": "evidence.html?id=HIST-JNUF-002"
+      },
+      {
+        "id": "HIST-JNUF-003",
+        "kind": "Evidence",
+        "title": "Whether police used lathis on 18 November 2019 is disputed. Newslaundry, The Wire LiveWire, Scroll.in, the Deccan Herald and The Indian Express report a lathich",
+        "state": "DISPUTED",
+        "url": "evidence.html?id=HIST-JNUF-003"
+      },
+      {
+        "id": "HIST-JNUF-004",
+        "kind": "Evidence",
+        "title": "Injury figures for 18 November 2019 conflict. Police, per PTI text in The Tribune: 'nearly 30 police personnel and 15 students were injured during the eight-hou",
+        "state": "DISPUTED",
+        "url": "evidence.html?id=HIST-JNUF-004"
+      },
+      {
+        "id": "HIST-JNUF-005",
+        "kind": "Evidence",
+        "title": "Reports say Section 144 of the Code of Criminal Procedure (a prohibition on assembly of four or more people) was in force around the Parliament area on 18 Novem",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-JNUF-005"
+      },
+      {
+        "id": "HIST-JNUF-006",
+        "kind": "Evidence",
+        "title": "Who imposed or issued the Section 144 prohibition, or other prohibitory 'general orders', applying to the 18 November 2019 march: NOT ESTABLISHED. Scroll.in att",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-JNUF-006"
+      },
+      {
+        "id": "HIST-JNUF-007",
+        "kind": "Evidence",
+        "title": "Who ordered the detentions on 18 November 2019: NOT ESTABLISHED. A Delhi Police Additional PRO is quoted by The Indian Express as saying 100 students were detai",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-JNUF-007"
+      },
+      {
+        "id": "HIST-JNUF-008",
+        "kind": "Evidence",
+        "title": "Who ordered any use of force (lathi blows, pushing back, water cannon) on 18 November 2019: NOT ESTABLISHED. Delhi Police deny that lathicharge or force was use",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-JNUF-008"
+      },
+      {
+        "id": "HIST-JNUF-009",
+        "kind": "Evidence",
+        "title": "Level of police presence on 18 November 2019, per police statements reported by The Indian Express: 'At least 15 senior police officers were present at the prot",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-JNUF-009"
+      },
+      {
+        "id": "HIST-JNUF-010",
+        "kind": "Evidence",
+        "title": "Students and the Newslaundry reporter's diary allege that streetlights were switched off near Safdarjung during the evening of 18 November 2019 as police began ",
+        "state": "UNVERIFIED",
+        "url": "evidence.html?id=HIST-JNUF-010"
+      },
+      {
+        "id": "HIST-JNUF-011",
+        "kind": "Evidence",
+        "title": "Delhi Police registered two FIRs over the 18 November 2019 protest, on 19 November 2019: one at Kishangarh police station and one at Lodhi Colony police station",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-JNUF-011"
+      },
+      {
+        "id": "HIST-JNUF-012",
+        "kind": "Evidence",
+        "title": "On 19 November 2019 opposition members raised the police action against JNU students in Parliament. The Deccan Herald reports that Rajya Sabha proceedings were ",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-JNUF-012"
+      },
+      {
+        "id": "HIST-JNUF-013",
+        "kind": "Evidence",
+        "title": "Delhi Police inquiry into the lathicharge allegations of 18 November 2019: the Newslaundry reporter's diary quotes a post by the Delhi Police PRO, via ANI, sayi",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-JNUF-013"
+      },
+      {
+        "id": "HIST-JNUF-014",
+        "kind": "Evidence",
+        "title": "On 9 December 2019 JNU students marched from the campus towards Rashtrapati Bhavan to petition the President over the hostel fee hike. Reports that police lathi",
+        "state": "DISPUTED",
+        "url": "evidence.html?id=HIST-JNUF-014"
+      },
+      {
+        "id": "HIST-JNUF-015",
+        "kind": "Evidence",
+        "title": "Detentions on 9 December 2019: the students' union president said 'Several students, including women, have been detained by police' (The Tribune). The Hindu rep",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-JNUF-015"
+      },
+      {
+        "id": "HIST-JNUF-016",
+        "kind": "Evidence",
+        "title": "Injuries on 9 December 2019: The Tribune quotes a protester saying 'Over 30 students were injured'; The Hindu says 'Several students were injured'; Newslaundry ",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-JNUF-016"
+      },
+      {
+        "id": "HIST-JNUF-017",
+        "kind": "Evidence",
+        "title": "Who gave the order for the lathicharges, the detentions or the stopping of the 9 December 2019 march: NOT ESTABLISHED. The Hindu names no officer. Newslaundry q",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-JNUF-017"
+      },
+      {
+        "id": "HIST-JNUF-018",
+        "kind": "Evidence",
+        "title": "Whether any prohibitory order (Section 144 or equivalent) was in force for the 9 December 2019 march: no page read states one. The Hindu, The Tribune, NewsMobil",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-JNUF-018"
+      },
+      {
+        "id": "HIST-JNUF-019",
+        "kind": "Evidence",
+        "title": "Whether an FIR was registered over the 9 December 2019 march: none was found in any page read or search result.",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-JNUF-019"
+      },
+      {
+        "id": "HIST-JNUF-020",
+        "kind": "Evidence",
+        "title": "The place of the first 9 December 2019 lathicharge differs between reports. Newslaundry says it was as students came out under the flyover near Bhikaji Cama Pla",
+        "state": "DISPUTED",
+        "url": "evidence.html?id=HIST-JNUF-020"
+      },
+      {
+        "id": "HIST-JNUF-021",
+        "kind": "Evidence",
+        "title": "Delhi High Court, single judge (Justice Rajiv Shakdher), 24 January 2020, on a petition by the JNU Students' Union through its president and office bearers chal",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-JNUF-021"
+      },
+      {
+        "id": "HIST-JNUF-022",
+        "kind": "Evidence",
+        "title": "Court proceedings about police conduct on 18 November or 9 December 2019, and the outcome of the FIRs of 19 November 2019 (charge sheet, closure, withdrawal, di",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-JNUF-022"
+      },
+      {
+        "id": "HIST-JNUF-023",
+        "kind": "Evidence",
+        "title": "Who could be asked for the order and the records: the pages read show Delhi Police as the acting force, with the Ministry of Home Affairs as the ministry Parlia",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-JNUF-023"
+      },
+      {
+        "id": "HIST-JNUF-024",
+        "kind": "Evidence",
+        "title": "Records that could be requested to settle who gave the order, for both dates: (1) copies of the two FIRs registered at Kishangarh and Lodhi Colony police statio",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-JNUF-024"
+      },
+      {
+        "id": "HIST-JNUF-025",
+        "kind": "Evidence",
+        "title": "Summary of the order question for the JNU fee-hike marches of 18 November and 9 December 2019: ESTABLISHED, per reporting, that Delhi Police (with paramilitary ",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-JNUF-025"
+      },
+      {
+        "id": "HIST-COT-001",
+        "kind": "Evidence",
+        "title": "Students from Cotton University and other Guwahati colleges marched towards the state secretariat at Dispur on 11 December 2019 and police used lathis and tear ",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-COT-001"
+      },
+      {
+        "id": "HIST-COT-002",
+        "kind": "Evidence",
+        "title": "Injuries at the 11 December 2019 Dispur march: Deccan Herald reports 'at least two TV journalists were hurt in the police lathi-charge'. A later complaint by th",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-COT-002"
+      },
+      {
+        "id": "HIST-COT-003",
+        "kind": "Evidence",
+        "title": "Detentions at the 11 December 2019 Dispur march: India Blooms (UNI/IBNS) reports that 'a number of student union leaders were arrested by the police during the ",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-COT-003"
+      },
+      {
+        "id": "HIST-COT-004",
+        "kind": "Evidence",
+        "title": "Who gave the order for the lathicharge and tear gas against the Cotton University and Guwahati students' march on 11 December 2019: NOT ESTABLISHED. No document",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-COT-004"
+      },
+      {
+        "id": "HIST-COT-005",
+        "kind": "Evidence",
+        "title": "A curfew was imposed in Guwahati on the evening of 11 December 2019. The Assam Tribune says 'Curfew has been imposed for an indefinite period in Guwahati from 6",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-COT-005"
+      },
+      {
+        "id": "HIST-COT-006",
+        "kind": "Evidence",
+        "title": "On the evening of 12 December 2019, Deccan Herald reports a unified command meeting in Guwahati 'decided to hand over the charge of law and order to the Army', ",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-COT-006"
+      },
+      {
+        "id": "HIST-COT-007",
+        "kind": "Evidence",
+        "title": "Complaints to the Assam Human Rights Commission (AHRC). PTI reports (19 December 2019) that the Cotton University Students' Union and students of other colleges",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-COT-007"
+      },
+      {
+        "id": "HIST-COT-008",
+        "kind": "Evidence",
+        "title": "AHRC response: PTI reports the AHRC 'has taken suo-motu cognizance' and issued notice to the Assam Chief Secretary to constitute a high level committee to probe",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-COT-008"
+      },
+      {
+        "id": "HIST-COT-009",
+        "kind": "Evidence",
+        "title": "FIR and case counts, state-wide (not specific to the Cotton University march). PTI reports the Chief Minister told the Assembly in a written reply on 20 Decembe",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-COT-009"
+      },
+      {
+        "id": "HIST-COT-010",
+        "kind": "Evidence",
+        "title": "Any FIR registered over the 11 December 2019 Dispur march, whether against students, organisers or police, and any FIR against police for the lathicharge or tea",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-COT-010"
+      },
+      {
+        "id": "HIST-COT-011",
+        "kind": "Evidence",
+        "title": "State-wide force figures for 9 to 20 December 2019, as stated by the Chief Minister in the Assam Assembly (reported by PTI): 25 incidents of firing, 19 cases of",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-COT-011"
+      },
+      {
+        "id": "HIST-COT-012",
+        "kind": "Evidence",
+        "title": "SEPARATE FROM THE MARCH: firing deaths of 11 and 12 December 2019 in Guwahati. The number killed by police fire is DISPUTED. Assam government, via the parliamen",
+        "state": "DISPUTED",
+        "url": "evidence.html?id=HIST-COT-012"
+      },
+      {
+        "id": "HIST-COT-013",
+        "kind": "Evidence",
+        "title": "Whether any of the firing victims were students: a Gauhati High Court public interest petition, as reported by North East Now on 27 February 2022, describes one",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-COT-013"
+      },
+      {
+        "id": "HIST-COT-014",
+        "kind": "Evidence",
+        "title": "Gauhati High Court public interest petition on the deaths of 12 December 2019. North East Now reports that on a Friday in February 2022 a bench of the then Chie",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-COT-014"
+      },
+      {
+        "id": "HIST-COT-015",
+        "kind": "Evidence",
+        "title": "Magisterial inquiry: EastMojo reports the parliamentary affairs minister told the Assembly on 2 March 2020 that 'a high-level magisterial inquiry into the CAA p",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-COT-015"
+      },
+      {
+        "id": "HIST-COT-016",
+        "kind": "Evidence",
+        "title": "Outcomes: the Chief Secretary's report to the AHRC, any AHRC order, the magisterial inquiry report, any prosecution or disciplinary action against police for th",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-COT-016"
+      },
+      {
+        "id": "HIST-VNS-001",
+        "kind": "Evidence",
+        "title": "Police in Varanasi arrested a group of anti-CAA protesters in the Chetganj area on 19 December 2019, as they were marching towards the Beniabagh ground. Several",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-VNS-001"
+      },
+      {
+        "id": "HIST-VNS-002",
+        "kind": "Evidence",
+        "title": "The number arrested on 19 December 2019 is DISPUTED. Versions: 59 (The Wire, citing the court bail hearing; PTI via Deccan Herald: 'Fifty-nine people were arres",
+        "state": "DISPUTED",
+        "url": "evidence.html?id=HIST-VNS-002"
+      },
+      {
+        "id": "HIST-VNS-003",
+        "kind": "Evidence",
+        "title": "The number of BHU students among those arrested on 19 December 2019 is DISPUTED. Versions: 19 BHU students (The Wire and Madhyamam); 25 of about 70 from BHU, fr",
+        "state": "DISPUTED",
+        "url": "evidence.html?id=HIST-VNS-003"
+      },
+      {
+        "id": "HIST-VNS-004",
+        "kind": "Evidence",
+        "title": "What police did at the time of the arrests is thinly documented. The FIR, as described by Scroll.in, says the protesters 'became aggressive, attacked the police",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-VNS-004"
+      },
+      {
+        "id": "HIST-VNS-005",
+        "kind": "Evidence",
+        "title": "Police and the protesters' supporters give opposing accounts of the 19 December 2019 protest. Police position, as reported: the group violated prohibitory order",
+        "state": "DISPUTED",
+        "url": "evidence.html?id=HIST-VNS-005"
+      },
+      {
+        "id": "HIST-VNS-006",
+        "kind": "Evidence",
+        "title": "Who gave the order to arrest the group on 19 December 2019: NOT ESTABLISHED. No source read names the officer or office that ordered the arrests. Reports name o",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-VNS-006"
+      },
+      {
+        "id": "HIST-VNS-007",
+        "kind": "Evidence",
+        "title": "Who gave the order for any force used against the group: NOT ESTABLISHED. No source read documents the use of force at Chetganj on 19 December 2019 beyond the F",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-VNS-007"
+      },
+      {
+        "id": "HIST-VNS-008",
+        "kind": "Evidence",
+        "title": "A statewide Section 144 CrPC order was announced for Uttar Pradesh for 19 December 2019. The Director General of Police, O. P. Singh, tweeted on 18 December 201",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-VNS-008"
+      },
+      {
+        "id": "HIST-VNS-009",
+        "kind": "Evidence",
+        "title": "Separate local Section 144 orders were also in force in Varanasi in December 2019. SabrangIndia (4 January 2020) reports orders from 11 December 2019 to 5 Febru",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-VNS-009"
+      },
+      {
+        "id": "HIST-VNS-010",
+        "kind": "Evidence",
+        "title": "FIR and charges. Scroll.in (25 December 2019) reports that 56 activists were charged under Indian Penal Code sections 147, 148, 149, 188, 332, 353 and 341, plus",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-VNS-010"
+      },
+      {
+        "id": "HIST-VNS-011",
+        "kind": "Evidence",
+        "title": "A separate case concerned pamphlets: SabrangIndia (2 January 2020) reports that three of those granted bail were taken into custody on another charge over distr",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-VNS-011"
+      },
+      {
+        "id": "HIST-VNS-012",
+        "kind": "Evidence",
+        "title": "Bail. A Varanasi Additional Sessions Judge granted bail around 1 to 2 January 2020 to most of those held. The Wire: 57 of the 59 who applied, on two bonds of Rs",
+        "state": "DISPUTED",
+        "url": "evidence.html?id=HIST-VNS-012"
+      },
+      {
+        "id": "HIST-VNS-013",
+        "kind": "Evidence",
+        "title": "Length of detention. The arrested were held for roughly two weeks: the couple released on bail had been in custody for nearly two weeks (The Wire; PTI). Amnesty",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-VNS-013"
+      },
+      {
+        "id": "HIST-VNS-014",
+        "kind": "Evidence",
+        "title": "BHU administration. Scroll.in (24 December 2019) reports that the BHU administration 'issued a statement barring students from participating in the protests'. O",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-VNS-014"
+      },
+      {
+        "id": "HIST-VNS-015",
+        "kind": "Evidence",
+        "title": "Outcome of the case: not established. No source read reports a charge sheet, framing of charges, trial, discharge, acquittal, quashing or withdrawal in the FIR ",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-VNS-015"
+      },
+      {
+        "id": "HIST-VNS-016",
+        "kind": "Evidence",
+        "title": "Records that could be requested to establish who gave the order. (1) Chetganj police station: the FIR and its date and time, the general diary (GD) entries of 1",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-VNS-016"
+      },
+      {
+        "id": "HIST-MAD-001",
+        "kind": "Evidence",
+        "title": "Chennai city police entered the Marina campus of the University of Madras on the evening of 17 December 2019, during a student protest against the Citizenship (",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-MAD-001"
+      },
+      {
+        "id": "HIST-MAD-002",
+        "kind": "Evidence",
+        "title": "Two students of the University of Madras were taken into police custody on 17 December 2019 and held at a police station for questioning or detention. The Hindu",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-MAD-002"
+      },
+      {
+        "id": "HIST-MAD-003",
+        "kind": "Evidence",
+        "title": "Number and place of persons detained around 1:30 p.m. on 17 December 2019 is DISPUTED. The Hindu (18 December 2019) says police 'detained four persons' and that",
+        "state": "DISPUTED",
+        "url": "evidence.html?id=HIST-MAD-003"
+      },
+      {
+        "id": "HIST-MAD-004",
+        "kind": "Evidence",
+        "title": "Allegation of force on 17 December 2019. A witness named in The News Minute said police 'used their lathis to hit the students when they refused to get into the",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-MAD-004"
+      },
+      {
+        "id": "HIST-MAD-005",
+        "kind": "Evidence",
+        "title": "About 70 students of the Tata Institute of Social Sciences, Kelambakkam campus (Chennai), were stopped by police near Marina Beach at about 1:30 p.m. on 17 Dece",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-MAD-005"
+      },
+      {
+        "id": "HIST-MAD-006",
+        "kind": "Evidence",
+        "title": "Whether the university asked for police entry on 17 December 2019 is DISPUTED. Police version: a senior police official told PTI police came 'following a repres",
+        "state": "DISPUTED",
+        "url": "evidence.html?id=HIST-MAD-006"
+      },
+      {
+        "id": "HIST-MAD-007",
+        "kind": "Evidence",
+        "title": "Who gave the order for police to enter the campus, to pick up the two students on 17 December 2019, and for any force used: NOT ESTABLISHED. The only attributio",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-MAD-007"
+      },
+      {
+        "id": "HIST-MAD-008",
+        "kind": "Evidence",
+        "title": "On the night of 18 December 2019 police removed students who were protesting inside the University of Madras campus and took them to Triplicane police station. ",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-MAD-008"
+      },
+      {
+        "id": "HIST-MAD-009",
+        "kind": "Evidence",
+        "title": "Who gave the order to remove the students on the night of 18 December 2019: NOT ESTABLISHED. None of The Hindu, The News Minute, Madhyamam or The Quint states w",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-MAD-009"
+      },
+      {
+        "id": "HIST-MAD-010",
+        "kind": "Evidence",
+        "title": "The university announced a holiday from 18 December to 23 December 2019, extended the already scheduled break to 2 January 2020, and closed the hostel. The Hind",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-MAD-010"
+      },
+      {
+        "id": "HIST-MAD-011",
+        "kind": "Evidence",
+        "title": "Detention counts differ across sources and no official figure was found. Reported figures for 17 and 18 December 2019: two (NDTV, PTI, Scroll, The Hindu Chennai",
+        "state": "DISPUTED",
+        "url": "evidence.html?id=HIST-MAD-011"
+      },
+      {
+        "id": "HIST-MAD-012",
+        "kind": "Evidence",
+        "title": "FIR or case against students: The Hindu (police official) and The News Minute report that no case or FIR was registered after the night removal of 18 December 2",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-MAD-012"
+      },
+      {
+        "id": "HIST-MAD-013",
+        "kind": "Evidence",
+        "title": "Court, human rights commission or inquiry proceedings concerning the Madras University events of 17 and 18 December 2019: none found. No Madras High Court petit",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-MAD-013"
+      },
+      {
+        "id": "HIST-MAD-014",
+        "kind": "Evidence",
+        "title": "Kamal Haasan, founder of a political party, was barred from entering the Madras University campus on 18 December 2019 and spoke from the gate. A police official",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-MAD-014"
+      },
+      {
+        "id": "HIST-JMA-001",
+        "kind": "Evidence",
+        "title": "On Monday 10 February 2020 a march called by the Jamia Coordination Committee set off from gate number 7 of Jamia Millia Islamia towards Parliament, against the",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-JMA-001"
+      },
+      {
+        "id": "HIST-JMA-002",
+        "kind": "Evidence",
+        "title": "Police told the marchers on the day that they had no permission to march to Parliament. Reported statements: the Deputy Commissioner of Police (South East), spe",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-JMA-002"
+      },
+      {
+        "id": "HIST-JMA-003",
+        "kind": "Evidence",
+        "title": "PTI reported that police stopped the marchers and 'appealed them not to go further as there was no permission and prohibitory orders had been imposed'. PTI's li",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-JMA-003"
+      },
+      {
+        "id": "HIST-JMA-004",
+        "kind": "Evidence",
+        "title": "Which office issued any prohibitory order in force around the march route on 10 February 2020, under which provision, covering which area and from which date: N",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-JMA-004"
+      },
+      {
+        "id": "HIST-JMA-005",
+        "kind": "Evidence",
+        "title": "Who decided to refuse permission for the march and to stop it at Holy Family Hospital, and at what level of office: NOT ESTABLISHED. Reports show officers of th",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-JMA-005"
+      },
+      {
+        "id": "HIST-JMA-006",
+        "kind": "Evidence",
+        "title": "The Deputy Commissioner of Police (South East) and the Station House Officer of Jamia Nagar were at the barricades and addressed the marchers. The Deputy Commis",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-JMA-006"
+      },
+      {
+        "id": "HIST-JMA-007",
+        "kind": "Evidence",
+        "title": "In the evening the Joint Commissioner of Police (Southern Range) addressed the protesters near Holy Family Hospital and asked them to call off the protest, sayi",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-JMA-007"
+      },
+      {
+        "id": "HIST-JMA-008",
+        "kind": "Evidence",
+        "title": "Force used by police at the barricades is DISPUTED. Delhi Police version: the Deputy Commissioner (South East) said 'There was no lathicharge', 'There was a min",
+        "state": "DISPUTED",
+        "url": "evidence.html?id=HIST-JMA-008"
+      },
+      {
+        "id": "HIST-JMA-009",
+        "kind": "Evidence",
+        "title": "Specific allegations made by students at the Jamia Coordination Committee press conference of 12 February 2020, reported by PTI: that police kicked students on ",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-JMA-009"
+      },
+      {
+        "id": "HIST-JMA-010",
+        "kind": "Evidence",
+        "title": "Injury counts are DISPUTED and none rests on a document read. Al-Shifa Hospital: its director told the Indian Express that 29 protesters came, four were admitte",
+        "state": "DISPUTED",
+        "url": "evidence.html?id=HIST-JMA-010"
+      },
+      {
+        "id": "HIST-JMA-011",
+        "kind": "Evidence",
+        "title": "Nine protesters were detained on 10 February 2020 and later let go. Delhi Police gave the figure of nine (Deputy Commissioner South East to the Indian Express; ",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-JMA-011"
+      },
+      {
+        "id": "HIST-JMA-012",
+        "kind": "Evidence",
+        "title": "Detained students alleged they were beaten, threatened and made to sit on the bus floor so that onlookers could not see them, and were mocked at Badarpur police",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-JMA-012"
+      },
+      {
+        "id": "HIST-JMA-013",
+        "kind": "Evidence",
+        "title": "Who gave the order to detain the nine protesters, to take them to Badarpur police station, and to use any force at the barricades: NOT ESTABLISHED. No source re",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-JMA-013"
+      },
+      {
+        "id": "HIST-JMA-014",
+        "kind": "Evidence",
+        "title": "Delhi Police said on the evening of 10 February 2020 that a case was being registered against the 'violent crowd'. The Indian Express reports the sections as IP",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-JMA-014"
+      },
+      {
+        "id": "HIST-JMA-015",
+        "kind": "Evidence",
+        "title": "FIR number, police station of registration, date, complainant, named accused and any chargesheet for the case registered after the 10 February 2020 march: NOT E",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-JMA-015"
+      },
+      {
+        "id": "HIST-JMA-016",
+        "kind": "Evidence",
+        "title": "Any FIR, complaint, court petition, commission inquiry, parliamentary question or departmental action about police conduct on 10 February 2020: NONE FOUND. Sear",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-JMA-016"
+      },
+      {
+        "id": "HIST-JMA-017",
+        "kind": "Evidence",
+        "title": "Jamia's Chief Proctor, at the scene at about 3:00 p.m., appealed to students to retreat: 'You have registered your protest, now please move back. Don't get into",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-JMA-017"
+      },
+      {
+        "id": "HIST-JMA-018",
+        "kind": "Evidence",
+        "title": "The students allege the police action was 'preplanned' to stop the march by attacking them. Delhi Police say the students were aggressive and forced their way t",
+        "state": "DISPUTED",
+        "url": "evidence.html?id=HIST-JMA-018"
+      },
+      {
+        "id": "HIST-JMA-019",
+        "kind": "Evidence",
+        "title": "SUMMARY on the order question for 10 February 2020. ESTABLISHED by reporting: Delhi Police stopped the march at barricades near Holy Family Hospital, told march",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-JMA-019"
+      },
+      {
+        "id": "HIST-JMA-020",
+        "kind": "Evidence",
+        "title": "Where the permission request for the 10 February 2020 march was made, to whom, and what the refusal said: NOT ESTABLISHED. Reports say the police 'rejected' or ",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-JMA-020"
+      },
+      {
+        "id": "HIST-JMA-021",
+        "kind": "Evidence",
+        "title": "Records that could be requested from Delhi Police and the Union Home Ministry (the route for Delhi Police under SOURCING.md): the deployment or bandobast order ",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-JMA-021"
+      },
+      {
+        "id": "HIST-JMA-022",
+        "kind": "Evidence",
+        "title": "Court and oversight records that could be requested or searched: the Metropolitan Magistrate or court record of the case registered after the march (FIR copy, a",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-JMA-022"
+      },
+      {
+        "id": "HIST-JMA-023",
+        "kind": "Evidence",
+        "title": "The Deputy Commissioner of Police (South East) told the Indian Express that over 350 Delhi Police personnel, including 12 Station House Officers and eight compa",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-JMA-023"
+      },
+      {
+        "id": "HIST-BLR-001",
+        "kind": "Evidence",
+        "title": "Police in Bengaluru used lathis (batons) on students who tried to march from Mysore Bank Circle towards the Vidhana Soudha on Tuesday 14 September 2021, in a pr",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-BLR-001"
+      },
+      {
+        "id": "HIST-BLR-002",
+        "kind": "Evidence",
+        "title": "The march was organised by the Campus Front of India (CFI), a student organisation. Deccan Herald, The Hindu, the Times of India and The New Indian Express each",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-BLR-002"
+      },
+      {
+        "id": "HIST-BLR-003",
+        "kind": "Evidence",
+        "title": "What force was used, and how to describe it: DISPUTED. Deccan Herald reports that after students 'slammed down the police barricades' the police 'beat them with",
+        "state": "DISPUTED",
+        "url": "evidence.html?id=HIST-BLR-003"
+      },
+      {
+        "id": "HIST-BLR-004",
+        "kind": "Evidence",
+        "title": "Injuries: DISPUTED. Deccan Herald's standfirst says 'Several protesters suffered injuries, including head wounds and fractures, and had to be hospitalised', but",
+        "state": "DISPUTED",
+        "url": "evidence.html?id=HIST-BLR-004"
+      },
+      {
+        "id": "HIST-BLR-005",
+        "kind": "Evidence",
+        "title": "Detentions: DISPUTED on the count. Deccan Herald: 'More than 50 were detained by police but released in the evening.' The New Indian Express: 'All the protester",
+        "state": "DISPUTED",
+        "url": "evidence.html?id=HIST-BLR-005"
+      },
+      {
+        "id": "HIST-BLR-006",
+        "kind": "Evidence",
+        "title": "The Deputy Commissioner of Police (Central) publicly justified the baton charge. Deccan Herald reports that this officer said the protesters 'had defied the pro",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-BLR-006"
+      },
+      {
+        "id": "HIST-BLR-007",
+        "kind": "Evidence",
+        "title": "Who gave the order for the baton charge: NOT ESTABLISHED. No document and no named person is given in any source read. The New Indian Express quotes an unnamed ",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-BLR-007"
+      },
+      {
+        "id": "HIST-BLR-008",
+        "kind": "Evidence",
+        "title": "Who ordered the detentions: NOT ESTABLISHED. The Hindu says police 'bundled them into the vehicles and took them away as part of preventive detention'; The New ",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-BLR-008"
+      },
+      {
+        "id": "HIST-BLR-009",
+        "kind": "Evidence",
+        "title": "The prohibitory order the DCP cited: its issuer, date, area and number are NOT ESTABLISHED. Deccan Herald says police stopped the students 'citing prohibitory o",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-BLR-009"
+      },
+      {
+        "id": "HIST-BLR-010",
+        "kind": "Evidence",
+        "title": "A separate, city-wide Covid-period prohibitory order by the Bengaluru Police Commissioner was in force around the date. The Hindu, in a report first published a",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-BLR-010"
+      },
+      {
+        "id": "HIST-BLR-011",
+        "kind": "Evidence",
+        "title": "First information report: as of late on Tuesday 14 September 2021 none had been registered. Deccan Herald reports that police 'promised to register a case again",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-BLR-011"
+      },
+      {
+        "id": "HIST-BLR-012",
+        "kind": "Evidence",
+        "title": "Whether any FIR or case was registered afterwards against the organisers or participants, or against any police officer, over the 14 September 2021 events: UNKN",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-BLR-012"
+      },
+      {
+        "id": "HIST-BLR-013",
+        "kind": "Evidence",
+        "title": "Complaints and court proceedings: CFI said it would complain; whether anything was filed or decided is UNKNOWN. ETV Bharat reports that a CFI office-bearer said",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-BLR-013"
+      },
+      {
+        "id": "HIST-BLR-014",
+        "kind": "Evidence",
+        "title": "Time of the confrontation: DISPUTED. Deccan Herald (published 15:26 IST on 14 September 2021) says students were baton-charged 'on Tuesday morning'. The Times o",
+        "state": "DISPUTED",
+        "url": "evidence.html?id=HIST-BLR-014"
+      },
+      {
+        "id": "HIST-BLR-015",
+        "kind": "Evidence",
+        "title": "Statements by the state Home Minister, the Chief Minister, the Police Commissioner or the legislature about who authorised the action: UNKNOWN. No such statemen",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-BLR-015"
+      },
+      {
+        "id": "HIST-DHN-001",
+        "kind": "Evidence",
+        "title": "Police and district administration personnel used lathis on protesting girl students at the Dhanbad collectorate (District Collectorate, Dhanbad) on Friday 6 Au",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-DHN-001"
+      },
+      {
+        "id": "HIST-DHN-002",
+        "kind": "Evidence",
+        "title": "Date of the lathi charge: 6 August 2021 (a Friday). Five outlets give it; no source puts the lathi charge itself on 5 August, which appears only for the precedi",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-DHN-002"
+      },
+      {
+        "id": "HIST-DHN-003",
+        "kind": "Evidence",
+        "title": "Who gave the order for the lathi charge, at the level of office: the sources name the Sub-Divisional Officer (Sadar), Dhanbad, an officer of the district admini",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-DHN-003"
+      },
+      {
+        "id": "HIST-DHN-004",
+        "kind": "Evidence",
+        "title": "Whether the officer acted on an instruction from anyone senior (Deputy Commissioner, Superintendent of Police, or the minister present), and whether any written",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-DHN-004"
+      },
+      {
+        "id": "HIST-DHN-005",
+        "kind": "Evidence",
+        "title": "Injuries reported on 6 August 2021: the Times of India reports that at least two girl students fainted and nearly half a dozen were injured, and that six injure",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-DHN-005"
+      },
+      {
+        "id": "HIST-DHN-006",
+        "kind": "Evidence",
+        "title": "Custody on 6 August 2021: the Times of India reports eight of the protesting girl students were 'arrested' and that the Deputy Commissioner assured MLAs the eig",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-DHN-006"
+      },
+      {
+        "id": "HIST-DHN-007",
+        "kind": "Evidence",
+        "title": "Accounts of what led to the force are DISPUTED. Administration and police version as reported: students tried to forcibly enter the conference room where the mi",
+        "state": "DISPUTED",
+        "url": "evidence.html?id=HIST-DHN-007"
+      },
+      {
+        "id": "HIST-DHN-008",
+        "kind": "Evidence",
+        "title": "An enquiry into the lathi charge was set up. The Jharkhand Education Minister told ANI on 9 August 2021 that the Dhanbad Deputy Commissioner 'has constituted an",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-DHN-008"
+      },
+      {
+        "id": "HIST-DHN-009",
+        "kind": "Evidence",
+        "title": "What the enquiry found: NOT ESTABLISHED. No published report, finding, or statement of outcome was located in any source read. Dainik Jagran (9 August 2021) rep",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-DHN-009"
+      },
+      {
+        "id": "HIST-DHN-010",
+        "kind": "Evidence",
+        "title": "Dainik Jagran reports that injured girls gave statements to the Deputy Commissioner's enquiry team that the lathi charge was done at the officer's word, that th",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-DHN-010"
+      },
+      {
+        "id": "HIST-DHN-011",
+        "kind": "Evidence",
+        "title": "A Dhanbad lawyer raised the lathi charge before the National Human Rights Commission, calling it, in SheThePeople's report of 7 August 2021, 'barbaric and not a",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-DHN-011"
+      },
+      {
+        "id": "HIST-DHN-012",
+        "kind": "Evidence",
+        "title": "Any NHRC response to the Dhanbad complaint (registration, diary number, direction to the Deputy Commissioner or police, report received, closure): NOT ESTABLISH",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-DHN-012"
+      },
+      {
+        "id": "HIST-DHN-013",
+        "kind": "Evidence",
+        "title": "Dainik Jagran reports (9 August 2021, evening) that the National Commission for Protection of Child Rights took cognisance of the Dhanbad lathi charge on the ba",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-DHN-013"
+      },
+      {
+        "id": "HIST-DHN-014",
+        "kind": "Evidence",
+        "title": "Transfer of the officer: Dainik Bhaskar reports a Jharkhand government personnel department notification issued on Wednesday 11 August 2021 transferring the Dha",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-DHN-014"
+      },
+      {
+        "id": "HIST-DHN-015",
+        "kind": "Evidence",
+        "title": "Political demands and statements after the lathi charge, attributed to those who made them: the state health minister (quoted by Avenue Mail) said the lathi cha",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-DHN-015"
+      },
+      {
+        "id": "HIST-DHN-016",
+        "kind": "Evidence",
+        "title": "On Saturday 7 August 2021, during the Dhanbad bandh called against the girls' lathi charge, Zee News reports police used lathis on ABVP workers who tried to ent",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-DHN-016"
+      },
+      {
+        "id": "HIST-DHN-017",
+        "kind": "Evidence",
+        "title": "FIRs relating to the 6 August 2021 events (against protesters, against officials, or on any complainant's application): NOT ESTABLISHED. No FIR number, police s",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-DHN-017"
+      },
+      {
+        "id": "HIST-DHN-018",
+        "kind": "Evidence",
+        "title": "Court proceedings (High Court writ, magistrate's court, or any other) arising from the 6 August 2021 Dhanbad lathi charge, and any outcome or disciplinary actio",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-DHN-018"
+      },
+      {
+        "id": "HIST-LKO-001",
+        "kind": "Evidence",
+        "title": "Police in Lucknow used lathis on people taking part in a candlelight march on the evening of Saturday 4 December 2021. The march was by candidates protesting al",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-LKO-001"
+      },
+      {
+        "id": "HIST-LKO-002",
+        "kind": "Evidence",
+        "title": "Date of the incident. Version A: Saturday 4 December 2021 (NDTV published at 10:48 p.m. IST on 4 December; Aaj Tak published at 9:58 p.m. IST on 4 December and ",
+        "state": "DISPUTED",
+        "url": "evidence.html?id=HIST-LKO-002"
+      },
+      {
+        "id": "HIST-LKO-003",
+        "kind": "Evidence",
+        "title": "Who gave the order for the lathi charge: not established. None of the pages read (NDTV, Aaj Tak, Deccan Herald, NewsClick, Hindustan Times, ABP Live, The Quint,",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-LKO-003"
+      },
+      {
+        "id": "HIST-LKO-004",
+        "kind": "Evidence",
+        "title": "Whether any prohibitory order or permission refusal covered the march, and whether any police or district administration statement was issued about the lathi ch",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-LKO-004"
+      },
+      {
+        "id": "HIST-LKO-005",
+        "kind": "Evidence",
+        "title": "Number injured. Version A: 'about a dozen protesters injured' (NewsClick, 6 December 2021, reporter's text; the article attributes the lathi-charge details to e",
+        "state": "DISPUTED",
+        "url": "evidence.html?id=HIST-LKO-005"
+      },
+      {
+        "id": "HIST-LKO-006",
+        "kind": "Evidence",
+        "title": "Detentions on 4 December 2021: no source read reports any detention in connection with the lathi charge. Whether anyone was detained, arrested or booked that ev",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-LKO-006"
+      },
+      {
+        "id": "HIST-LKO-007",
+        "kind": "Evidence",
+        "title": "HRDA alleges that on 2 December 2021, two days before the march, police stopped a jobs protest near the Gandhi Statue in Lucknow and held protesters at Eco Park",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-LKO-007"
+      },
+      {
+        "id": "HIST-LKO-008",
+        "kind": "Evidence",
+        "title": "HRDA addressed an 'Urgent Appeal for Action' dated 10 December 2021 to the HRD Focal Point at the National Human Rights Commission, asking the NHRC to direct th",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-LKO-008"
+      },
+      {
+        "id": "HIST-LKO-009",
+        "kind": "Evidence",
+        "title": "How the sources describe the people on the march (exact wording). The Quint: 'protesters', 'the protesters'. NDTV: 'a group of people holding a sustained protes",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-LKO-009"
+      },
+      {
+        "id": "HIST-LKO-010",
+        "kind": "Evidence",
+        "title": "Whether anything preceded the lathi charge. Version A: the march was peaceful and police broke it up (NDTV 'the police lathi-charged them to break up the protes",
+        "state": "DISPUTED",
+        "url": "evidence.html?id=HIST-LKO-010"
+      },
+      {
+        "id": "HIST-LKO-011",
+        "kind": "Evidence",
+        "title": "Politicians' statements after the incident, each attributed. Samajwadi Party tweet of 4 December 2021: 'The CM who denied backward-Dalit reservation in the hiri",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-LKO-011"
+      },
+      {
+        "id": "HIST-LKO-012",
+        "kind": "Evidence",
+        "title": "FIRs or criminal cases connected to the 4 December 2021 march, either against police or against marchers: none found. Court proceedings about the lathi charge i",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-LKO-012"
+      },
+      {
+        "id": "HIST-AGT-001",
+        "kind": "Evidence",
+        "title": "On the evening of about 7 September 2021, police and CRPF personnel lathi-charged final-year D.El.Ed teacher-trainees protesting in front of Siksha Bhawan, Agar",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-AGT-001"
+      },
+      {
+        "id": "HIST-AGT-002",
+        "kind": "Evidence",
+        "title": "Who gave the order for the lathi charge: NOT ESTABLISHED. No document read names any officer or office that gave it.",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-AGT-002"
+      },
+      {
+        "id": "HIST-AGT-003",
+        "kind": "Evidence",
+        "title": "Whether any prohibitory order or dispersal order was issued or announced before the charge: NOT ESTABLISHED. No document read mentions one.",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-AGT-003"
+      },
+      {
+        "id": "HIST-AGT-004",
+        "kind": "Evidence",
+        "title": "Number injured on about 7 September 2021 in Agartala: ETV Bharat gives 'over 20' in its own voice and quotes an ABVP office-holder as saying 'more than 23'. No ",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-AGT-004"
+      },
+      {
+        "id": "HIST-AGT-005",
+        "kind": "Evidence",
+        "title": "Detentions or arrests of students: NOT ESTABLISHED. The page read mentions none; no other source found.",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-AGT-005"
+      },
+      {
+        "id": "HIST-AGT-006",
+        "kind": "Evidence",
+        "title": "FIR or case registered over the protest or the lathi charge: NOT ESTABLISHED. None found.",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-AGT-006"
+      },
+      {
+        "id": "HIST-AGT-007",
+        "kind": "Evidence",
+        "title": "Court proceedings (Tripura High Court or any other) concerning the lathi charge or the online-exam demand in September 2021: NOT ESTABLISHED. None found.",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-AGT-007"
+      },
+      {
+        "id": "HIST-AGT-008",
+        "kind": "Evidence",
+        "title": "Outcome (whether online exams were granted, any inquiry, any action against personnel): NOT ESTABLISHED. Nothing found.",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-AGT-008"
+      },
+      {
+        "id": "HIST-AGT-009",
+        "kind": "Evidence",
+        "title": "Records that could be requested: Tripura Police (SDPO Sadar and the concerned station) for the deployment order, GD entries, wireless logs and any use-of-force ",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-AGT-009"
+      },
+      {
+        "id": "HIST-BBC-001",
+        "kind": "Evidence",
+        "title": "The Ministry of Information and Broadcasting directed YouTube and Twitter to block links to the first episode of the BBC documentary 'India: The Modi Question',",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-BBC-001"
+      },
+      {
+        "id": "HIST-BBC-002",
+        "kind": "Evidence",
+        "title": "Date the blocking directions were issued: DISPUTED between sources. Frontline (a column by N. Ram, who is a petitioner against the order) says the Secretary of ",
+        "state": "DISPUTED",
+        "url": "evidence.html?id=HIST-BBC-002"
+      },
+      {
+        "id": "HIST-BBC-003",
+        "kind": "Evidence",
+        "title": "Level of office that gave the blocking order: Frontline, in a column by a petitioner, states that the 'Secretary, Ministry of Information and Broadcasting, issu",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-BBC-003"
+      },
+      {
+        "id": "HIST-BBC-004",
+        "kind": "Evidence",
+        "title": "Ministry's stated basis, as relayed: the Senior Adviser said that multiple ministries, which TechCrunch lists as the Ministry of External Affairs, the Home Mini",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-BBC-004"
+      },
+      {
+        "id": "HIST-BBC-005",
+        "kind": "Evidence",
+        "title": "The blocking order was not public. The Leaflet reported that no press release or copy of the order had been issued by the Ministry or the Press Information Bure",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-BBC-005"
+      },
+      {
+        "id": "HIST-BBC-006",
+        "kind": "Evidence",
+        "title": "The Ministry refused a Right to Information request on earlier blocking orders. The Leaflet reports that the Commonwealth Human Rights Initiative filed an RTI a",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-BBC-006"
+      },
+      {
+        "id": "HIST-BBC-007",
+        "kind": "Evidence",
+        "title": "Whether the blocking directions were addressed to Delhi Police, to universities or to any authority other than YouTube and Twitter, and whether any Union docume",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-BBC-007"
+      },
+      {
+        "id": "HIST-BBC-008",
+        "kind": "Evidence",
+        "title": "The text, reasons and signatory of the blocking order, any Inter-Departmental Committee or Review Committee record, and whether the order has been published sin",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-BBC-008"
+      },
+      {
+        "id": "HIST-BBC-009",
+        "kind": "Evidence",
+        "title": "On 25 January 2023 Delhi Police detained students at or near the gates of Jamia Millia Islamia, New Delhi, ahead of a 6 p.m. screening of the BBC documentary an",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-BBC-009"
+      },
+      {
+        "id": "HIST-BBC-010",
+        "kind": "Evidence",
+        "title": "Detention counts for Jamia on 25 January 2023 conflict. Four students from the Students' Federation of India, in the morning, per Delhi Police as relayed by ANI",
+        "state": "DISPUTED",
+        "url": "evidence.html?id=HIST-BBC-010"
+      },
+      {
+        "id": "HIST-BBC-011",
+        "kind": "Evidence",
+        "title": "Police account of the Jamia detentions: the DCP (Southeast) said that a screening 'was to be organised by a group of Jamia students inside the university today,",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-BBC-011"
+      },
+      {
+        "id": "HIST-BBC-012",
+        "kind": "Evidence",
+        "title": "ANI reported that the Delhi Police action against the first four detained students 'was initiated on the request of the Chief Proctor of the University after th",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-BBC-012"
+      },
+      {
+        "id": "HIST-BBC-013",
+        "kind": "Evidence",
+        "title": "Allegation by a detained student, reported by The Quint: 'We believe and assert the fact that Jamia administration issued the order' for the detentions. The sam",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-BBC-013"
+      },
+      {
+        "id": "HIST-BBC-014",
+        "kind": "Evidence",
+        "title": "Jamia's public position on 25 January 2023: a university statement said that the administration had earlier issued a memorandum and circular and 'once again rei",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-BBC-014"
+      },
+      {
+        "id": "HIST-BBC-015",
+        "kind": "Evidence",
+        "title": "A notice by Jamia's Chief Proctor on the same subject is reported. Times of India says that 'on January 24, the chief proctor had issued a notice reiterating th",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-BBC-015"
+      },
+      {
+        "id": "HIST-BBC-016",
+        "kind": "Evidence",
+        "title": "According to students quoted by The Hindu, they had proposed a protest at 4 p.m. on 25 January 2023 and 'permission was denied by the Delhi police'; some studen",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-BBC-016"
+      },
+      {
+        "id": "HIST-BBC-017",
+        "kind": "Evidence",
+        "title": "Detained Jamia students were taken to Fatehpur Beri police station, according to three student-side accounts: a detained student to The Quint, a post by the All",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-BBC-017"
+      },
+      {
+        "id": "HIST-BBC-018",
+        "kind": "Evidence",
+        "title": "Release: University World News reports that many of the detained students were released on 26 January 2023 and that no charges were pressed. The Quint reports o",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-BBC-018"
+      },
+      {
+        "id": "HIST-BBC-019",
+        "kind": "Evidence",
+        "title": "Force and treatment allegations at Jamia on 25 January 2023, all attributed. The Students' Federation of India said in a statement that one student 'was also ma",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-BBC-019"
+      },
+      {
+        "id": "HIST-BBC-020",
+        "kind": "Evidence",
+        "title": "Police deployment at Jamia on 25 January 2023: Times of India reports Delhi Police and the 'Vajra special force' deployed on the campus; PTI reports Rapid Actio",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-BBC-020"
+      },
+      {
+        "id": "HIST-BBC-021",
+        "kind": "Evidence",
+        "title": "WHO GAVE THE ORDER, Jamia detentions of 25 January 2023: NOT ESTABLISHED. The versions are: the DCP (Southeast) says the university administration informed poli",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-BBC-021"
+      },
+      {
+        "id": "HIST-BBC-022",
+        "kind": "Evidence",
+        "title": "The number of persons injured at Jamia on 25 January 2023, and any medical records: UNKNOWN. None of the reports read gives an injury count.",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-BBC-022"
+      },
+      {
+        "id": "HIST-BBC-023",
+        "kind": "Evidence",
+        "title": "Any FIR, complaint, court petition or inquiry arising from the Jamia detentions of 25 January 2023: UNKNOWN. None was found in the sources read. University Worl",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-BBC-023"
+      },
+      {
+        "id": "HIST-BBC-024",
+        "kind": "Evidence",
+        "title": "Records that could be requested to answer who gave the order at Jamia: (1) from Jamia Millia Islamia, a central university, the Chief Proctor's notice and the e",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-BBC-024"
+      },
+      {
+        "id": "HIST-BBC-025",
+        "kind": "Evidence",
+        "title": "On 27 January 2023 Delhi Police detained 24 students and activists outside the Faculty of Arts at the University of Delhi when student groups, including the Nat",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-BBC-025"
+      },
+      {
+        "id": "HIST-BBC-026",
+        "kind": "Evidence",
+        "title": "The University of Delhi Proctor's office wrote to Delhi Police about the proposed screening before the detentions. IANS reports police were deployed in large nu",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-BBC-026"
+      },
+      {
+        "id": "HIST-BBC-027",
+        "kind": "Evidence",
+        "title": "The DCP (North) account of the DU detentions on 27 January 2023: around 4 p.m. some 20 people came to the Arts Faculty gate to screen the documentary; 'as it ca",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-BBC-027"
+      },
+      {
+        "id": "HIST-BBC-028",
+        "kind": "Evidence",
+        "title": "The University of Delhi Proctor's statements on 27 and 28 January 2023: no permission 'had ever been sought from us, no permission was given'; 'Whatever the cou",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-BBC-028"
+      },
+      {
+        "id": "HIST-BBC-029",
+        "kind": "Evidence",
+        "title": "Whether permission was sought, and whether outsiders were involved at DU on 27 January 2023: DISPUTED. The Proctor says no permission was sought or given. Stude",
+        "state": "DISPUTED",
+        "url": "evidence.html?id=HIST-BBC-029"
+      },
+      {
+        "id": "HIST-BBC-030",
+        "kind": "Evidence",
+        "title": "Section 144 of the Code of Criminal Procedure at DU: DISPUTED on when it applied. ANI reports that it was 'imposed outside the Faculty of Arts' as part of the r",
+        "state": "DISPUTED",
+        "url": "evidence.html?id=HIST-BBC-030"
+      },
+      {
+        "id": "HIST-BBC-031",
+        "kind": "Evidence",
+        "title": "Force at DU on 27 January 2023: Times of India reported that police 'were seen dragging students away' and that university security personnel 'were also seen cl",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-BBC-031"
+      },
+      {
+        "id": "HIST-BBC-032",
+        "kind": "Evidence",
+        "title": "An FIR was registered over the DU screening attempt on 27 January 2023, according to The Indian Express. The Proctor said the eight students recommended for pun",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-BBC-032"
+      },
+      {
+        "id": "HIST-BBC-033",
+        "kind": "Evidence",
+        "title": "The University of Delhi set up a seven-member committee on 28 January 2023, headed by the Proctor, to look into the events of 27 January. It recommended punishm",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-BBC-033"
+      },
+      {
+        "id": "HIST-BBC-034",
+        "kind": "Evidence",
+        "title": "On 24 March 2023 Delhi Police detained 11 Delhi University students protesting at the Faculty of Arts against the penalties. The DCP (North) said they were remo",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-BBC-034"
+      },
+      {
+        "id": "HIST-BBC-035",
+        "kind": "Evidence",
+        "title": "WHO GAVE THE ORDER, DU detentions of 27 January 2023: NOT ESTABLISHED as a document. Agency reports say the Proctor's office wrote to Delhi Police and the DCP (",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-BBC-035"
+      },
+      {
+        "id": "HIST-BBC-036",
+        "kind": "Evidence",
+        "title": "Records that could be requested for DU: from the University of Delhi, the Proctor's letter to police and its date and time, any reply, the committee's report an",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-BBC-036"
+      },
+      {
+        "id": "HIST-BBC-037",
+        "kind": "Evidence",
+        "title": "On 21 January 2023 a student group, the Fraternity Movement, screened the BBC documentary at the University of Hyderabad without permission. After a complaint b",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-BBC-037"
+      },
+      {
+        "id": "HIST-BBC-038",
+        "kind": "Evidence",
+        "title": "Events at the University of Hyderabad on 26 January 2023: DISPUTED. The Indian Express and BW Police World report that police arrived in large numbers and confi",
+        "state": "DISPUTED",
+        "url": "evidence.html?id=HIST-BBC-038"
+      },
+      {
+        "id": "HIST-BBC-039",
+        "kind": "Evidence",
+        "title": "Who called the police at the University of Hyderabad on 26 January 2023: an unnamed university official told The Indian Express 'The University of Hyderabad has",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-BBC-039"
+      },
+      {
+        "id": "HIST-BBC-040",
+        "kind": "Evidence",
+        "title": "WHO GAVE THE ORDER, University of Hyderabad police presence of 26 January 2023: the administration's own unnamed official says the university called the police;",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-BBC-040"
+      },
+      {
+        "id": "HIST-BBC-041",
+        "kind": "Evidence",
+        "title": "Supreme Court of India, 3 February 2023: a bench of Justices Sanjiv Khanna and M. M. Sundresh issued formal notice to the Union of India through the Ministry of",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-BBC-041"
+      },
+      {
+        "id": "HIST-BBC-042",
+        "kind": "Evidence",
+        "title": "Supreme Court of India, 21 October 2024: a bench of Justices Sanjiv Khanna and Sanjay Kumar asked the Centre to produce within three weeks the original records ",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-BBC-042"
+      },
+      {
+        "id": "HIST-BBC-043",
+        "kind": "Evidence",
+        "title": "What happened in the Supreme Court case after the January 2025 listing, including whether the Union produced the original records or filed a reply, whether the ",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-BBC-043"
+      },
+      {
+        "id": "HIST-BBC-044",
+        "kind": "Evidence",
+        "title": "SUMMARY, order question across the January 2023 BBC documentary events. ESTABLISHED by secondary reports: the Ministry of Information and Broadcasting directed ",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-BBC-044"
+      },
+      {
+        "id": "HIST-TSP-001",
+        "kind": "Evidence",
+        "title": "On 14 March 2023 youth-wing activists protested at the Telangana State Public Service Commission (TSPSC) office, Nampally Road, Hyderabad, over the leak of the ",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-TSP-001"
+      },
+      {
+        "id": "HIST-TSP-002",
+        "kind": "Evidence",
+        "title": "Counts of people held at the TSPSC office protests of 14 and 15 March 2023 differ by source and are not reconciled. Deccan Chronicle (14 March 2023): 'Around 25",
+        "state": "DISPUTED",
+        "url": "evidence.html?id=HIST-TSP-002"
+      },
+      {
+        "id": "HIST-TSP-003",
+        "kind": "Evidence",
+        "title": "Seven BJYM activists, including state president A. Bhanu Prakash, were arrested by Begum Bazaar police over the 14 March 2023 TSPSC office protest, and were pro",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-TSP-003"
+      },
+      {
+        "id": "HIST-TSP-004",
+        "kind": "Evidence",
+        "title": "The sections of the FIR against the BJYM activists differ between reports. Siasat (15 March 2023): case booked at Begum Bazaar police station under 'Sections 14",
+        "state": "DISPUTED",
+        "url": "evidence.html?id=HIST-TSP-004"
+      },
+      {
+        "id": "HIST-TSP-005",
+        "kind": "Evidence",
+        "title": "Police imposed Section 144 of the Code of Criminal Procedure in the area around the TSPSC office from 15 March 2023, per Press Trust of India: 'Police imposed s",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-TSP-005"
+      },
+      {
+        "id": "HIST-TSP-006",
+        "kind": "Evidence",
+        "title": "On 17 March 2023 police took into preventive custody or blocked several opposition groups marching to the TSPSC office, among them Telangana BJP president Bandi",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-TSP-006"
+      },
+      {
+        "id": "HIST-TSP-007",
+        "kind": "Evidence",
+        "title": "On 24 March 2023 police at Osmania University (OU), Hyderabad, detained student leaders and others to stop a protest by the OU Joint Action Committee (JAC) of s",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-TSP-007"
+      },
+      {
+        "id": "HIST-TSP-008",
+        "kind": "Evidence",
+        "title": "The number detained at Osmania University on 24 March 2023 is not established. ANI (ThePrint, 24 March 2023) quotes Kacheguda Assistant Commissioner of Police a",
+        "state": "DISPUTED",
+        "url": "evidence.html?id=HIST-TSP-008"
+      },
+      {
+        "id": "HIST-TSP-009",
+        "kind": "Evidence",
+        "title": "On 24 March 2023 Telangana Congress president A. Revanth Reddy and other Congress leaders were put under house arrest in Hyderabad to stop them reaching the Osm",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-TSP-009"
+      },
+      {
+        "id": "HIST-TSP-010",
+        "kind": "Evidence",
+        "title": "How the sources describe the people held, kept apart. Party workers and activists: BJYM activists and Youth Congress workers (14 March); BJP leaders and 'youth ",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-TSP-010"
+      },
+      {
+        "id": "HIST-TSP-011",
+        "kind": "Evidence",
+        "title": "Who gave the order for the detentions of 14 and 15 March 2023 at the TSPSC office: NOT ESTABLISHED. Reports attribute the detentions to 'police' and to 'a polic",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-TSP-011"
+      },
+      {
+        "id": "HIST-TSP-012",
+        "kind": "Evidence",
+        "title": "Who issued the Section 144 CrPC order around the TSPSC office from 15 March 2023: NOT ESTABLISHED. PTI says 'police imposed' it; no page read names the issuing ",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-TSP-012"
+      },
+      {
+        "id": "HIST-TSP-013",
+        "kind": "Evidence",
+        "title": "Who gave the order to take into preventive custody or to block the marches of 17 March 2023: NOT ESTABLISHED. South First quotes police as saying there was 'no ",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-TSP-013"
+      },
+      {
+        "id": "HIST-TSP-014",
+        "kind": "Evidence",
+        "title": "Who gave the order to detain students at Osmania University and to deny permission for the JAC protest on 24 March 2023: NOT ESTABLISHED. IANS attributes the de",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-TSP-014"
+      },
+      {
+        "id": "HIST-TSP-015",
+        "kind": "Evidence",
+        "title": "Who gave the order for the house arrests of Revanth Reddy and other Congress leaders on 24 March 2023: NOT ESTABLISHED. ANI (ThePrint) reports that a Banjara Hi",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-TSP-015"
+      },
+      {
+        "id": "HIST-TSP-016",
+        "kind": "Evidence",
+        "title": "Injuries: no injury to any detainee or protester is reported in the pages read for 14, 17 and 24 March 2023. The Hans India reports a 'scuffle' between BJYM wor",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-TSP-016"
+      },
+      {
+        "id": "HIST-TSP-017",
+        "kind": "Evidence",
+        "title": "Telangana High Court proceedings on the TSPSC leak (not on the detentions). On 22 March 2023 a single judge, Justice B. Vijaysen Reddy, on a plea by the Nationa",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-TSP-017"
+      },
+      {
+        "id": "HIST-TSP-018",
+        "kind": "Evidence",
+        "title": "The leak investigation by the Hyderabad Police SIT: nine people, 'including an Assistant Section Officer in the TSPSC, two candidates and a police constable', w",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-TSP-018"
+      },
+      {
+        "id": "HIST-TSP-019",
+        "kind": "Evidence",
+        "title": "No FIR, complaint, court petition or inquiry about the preventive detentions of 14, 15, 17 and 24 March 2023 or the house arrests of 24 March 2023 has been foun",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-TSP-019"
+      },
+      {
+        "id": "HIST-TSP-020",
+        "kind": "Evidence",
+        "title": "Records that could be requested to answer who gave the order, from the Hyderabad City Police: for 14-15 March 2023 the Begum Bazaar police station FIR, General ",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-TSP-020"
+      },
+      {
+        "id": "HIST-TSP-021",
+        "kind": "Evidence",
+        "title": "Level of office at which the decision to detain, deny permission or place under house arrest was taken, summary: ESTABLISHED that the acting force was Hyderabad",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-TSP-021"
+      },
+      {
+        "id": "HIST-PDM-001",
+        "kind": "Evidence",
+        "title": "Police used lathis on candidates protesting at and near Dak Bungalow crossing (Dak Bungalow Chowk), Patna, on Saturday 1 July 2023, against the Bihar cabinet's ",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-PDM-001"
+      },
+      {
+        "id": "HIST-PDM-002",
+        "kind": "Evidence",
+        "title": "Who gave the order for the lathi charge on 1 July 2023 is not established by any document found. No order, GD entry, deployment order, dispersal order or prohib",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-PDM-002"
+      },
+      {
+        "id": "HIST-PDM-003",
+        "kind": "Evidence",
+        "title": "The reports record a Deputy Superintendent of Police, Law and Order (Patna; described by The Statesman/ANI as 'DSP Law and Order Kotwali'), speaking to reporter",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-PDM-003"
+      },
+      {
+        "id": "HIST-PDM-004",
+        "kind": "Evidence",
+        "title": "Injuries on 1 July 2023 are reported with different counts. LatestLY (IANS) says six job aspirants sustained injuries. The Indian Express says seven teachers we",
+        "state": "DISPUTED",
+        "url": "evidence.html?id=HIST-PDM-004"
+      },
+      {
+        "id": "HIST-PDM-005",
+        "kind": "Evidence",
+        "title": "Detentions on 1 July 2023 are reported with different counts. LatestLY (IANS) says over 36 were detained. The Times of India quotes Patna Senior Superintendent ",
+        "state": "DISPUTED",
+        "url": "evidence.html?id=HIST-PDM-005"
+      },
+      {
+        "id": "HIST-PDM-006",
+        "kind": "Evidence",
+        "title": "Two First Information Reports were registered on 1 July 2023, one at Kotwali police station and one at Gandhi Maidan police station, for obstruction in governme",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-PDM-006"
+      },
+      {
+        "id": "HIST-PDM-007",
+        "kind": "Evidence",
+        "title": "The police and the protesters give different accounts of what led to the lathi charge. Police version (TOI report, SSP on FIRs): protesters pelted stones at pol",
+        "state": "DISPUTED",
+        "url": "evidence.html?id=HIST-PDM-007"
+      },
+      {
+        "id": "HIST-PDM-008",
+        "kind": "Evidence",
+        "title": "The Education Department of Bihar is reported by Organiser to have issued a notice warning of strict action against candidates taking part in the protest, citin",
+        "state": "UNVERIFIED",
+        "url": "evidence.html?id=HIST-PDM-008"
+      },
+      {
+        "id": "HIST-PDM-009",
+        "kind": "Evidence",
+        "title": "Organiser reports that 'several petitions have been filed' against the new recruitment rules requiring future school teacher appointments through a BPSC examina",
+        "state": "UNVERIFIED",
+        "url": "evidence.html?id=HIST-PDM-009"
+      },
+      {
+        "id": "HIST-PDM-010",
+        "kind": "Evidence",
+        "title": "No source read says that any prohibitory order, dispersal order or order to assemble lawfully was issued, read out or recorded on 1 July 2023. The Indian Expres",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-PDM-010"
+      },
+      {
+        "id": "HIST-ISR-001",
+        "kind": "Evidence",
+        "title": "On Monday 23 October 2023 Delhi Police detained students from Jawaharlal Nehru University, Jamia Millia Islamia and Delhi University who were marching towards t",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-ISR-001"
+      },
+      {
+        "id": "HIST-ISR-002",
+        "kind": "Evidence",
+        "title": "The number of students detained on 23 October 2023 is given differently by different accounts. PTI, quoting a police officer, says 'Nearly 200 students were det",
+        "state": "DISPUTED",
+        "url": "evidence.html?id=HIST-ISR-002"
+      },
+      {
+        "id": "HIST-ISR-003",
+        "kind": "Evidence",
+        "title": "Delhi Police's stated position, as reported by PTI: an unnamed police officer said the students were detained 'as they did not have the required permission to h",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-ISR-003"
+      },
+      {
+        "id": "HIST-ISR-004",
+        "kind": "Evidence",
+        "title": "Allegation of force: the protesting students alleged they were 'manhandled' by police. The JNU Students' Union president said many students sustained injuries a",
+        "state": "DISPUTED",
+        "url": "evidence.html?id=HIST-ISR-004"
+      },
+      {
+        "id": "HIST-ISR-005",
+        "kind": "Evidence",
+        "title": "The number and nature of injuries on 23 October 2023, and whether anyone was treated in hospital: NOT ESTABLISHED. The only statement found is the JNU Students'",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-ISR-005"
+      },
+      {
+        "id": "HIST-ISR-006",
+        "kind": "Evidence",
+        "title": "Which police stations the detainees were taken to, and when each person was released: NOT ESTABLISHED. PTI says the students were taken to 'different police sta",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-ISR-006"
+      },
+      {
+        "id": "HIST-ISR-007",
+        "kind": "Evidence",
+        "title": "Whether any detained student was formally arrested, booked or charged after 23 October 2023: NOT ESTABLISHED. Sputnik India wrote on the day that it was 'unclea",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-ISR-007"
+      },
+      {
+        "id": "HIST-ISR-008",
+        "kind": "Evidence",
+        "title": "Who gave the order to detain the students on 23 October 2023: NOT ESTABLISHED. The only attribution in any source read is to 'a police officer' (PTI), unnamed a",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-ISR-008"
+      },
+      {
+        "id": "HIST-ISR-009",
+        "kind": "Evidence",
+        "title": "Sputnik India reported that, in anticipation of the protest, Delhi Police 'imposed Section 144 of the Criminal Procedure Code (CrPC)', which it described as pre",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-ISR-009"
+      },
+      {
+        "id": "HIST-ISR-010",
+        "kind": "Evidence",
+        "title": "Who issued any prohibitory order covering the Israeli embassy area on or before 23 October 2023, and at what level of office: NOT ESTABLISHED. Sputnik India say",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-ISR-010"
+      },
+      {
+        "id": "HIST-ISR-011",
+        "kind": "Evidence",
+        "title": "Further action on 24 October 2023: Peoples Dispatch reported that students marched near the Israeli embassy and chanted on 24 October, after hundreds of student",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-ISR-011"
+      },
+      {
+        "id": "HIST-ISR-012",
+        "kind": "Evidence",
+        "title": "Court proceedings arising from the 23 October 2023 detentions (writ petition, bail application, quashing petition, or contempt): NOT ESTABLISHED. None was found",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-ISR-012"
+      },
+      {
+        "id": "HIST-ISR-013",
+        "kind": "Evidence",
+        "title": "Records that could be requested to establish who gave the order and what was done, none of which has been seen: (1) any prohibitory order under CrPC s.144 cover",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-ISR-013"
+      },
+      {
+        "id": "HIST-IPC-001",
+        "kind": "Evidence",
+        "title": "On 28 March 2023, during the annual fest of Indraprastha College for Women (IPCW), Delhi University, men allegedly scaled the boundary walls and harassed studen",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-IPC-001"
+      },
+      {
+        "id": "HIST-IPC-002",
+        "kind": "Evidence",
+        "title": "On Wednesday 29 March 2023, members of the All India Students' Association (AISA) and, per Hindustan Times, the Students' Federation of India (SFI) protested ou",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-IPC-002"
+      },
+      {
+        "id": "HIST-IPC-003",
+        "kind": "Evidence",
+        "title": "Whether the 29 March 2023 removal was a detention is DISPUTED. Police version (ANI via DailyO; DCP North via The Quint): protesters were asked to disperse and w",
+        "state": "DISPUTED",
+        "url": "evidence.html?id=HIST-IPC-003"
+      },
+      {
+        "id": "HIST-IPC-004",
+        "kind": "Evidence",
+        "title": "Counts for 29 March 2023 conflict or concern other people. Police: about 30 AISA protesters gathered at around 11 am (ANI via DailyO). Quint summary: 26 release",
+        "state": "DISPUTED",
+        "url": "evidence.html?id=HIST-IPC-004"
+      },
+      {
+        "id": "HIST-IPC-005",
+        "kind": "Evidence",
+        "title": "Who gave the order to remove or detain the AISA and SFI protesters on 29 March 2023: NOT ESTABLISHED. The only statements read are police statements in the pass",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-IPC-005"
+      },
+      {
+        "id": "HIST-IPC-006",
+        "kind": "Evidence",
+        "title": "On Friday 31 March 2023, over 200 students, led by AISA with SFI and IPCW students, marched from Miranda House towards the Delhi University Arts Faculty demandi",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-IPC-006"
+      },
+      {
+        "id": "HIST-IPC-007",
+        "kind": "Evidence",
+        "title": "Counts and custody for 31 March 2023 are not established. No source read gives an exact number detained. DU Beat says 'numerous individuals' or 'several student",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-IPC-007"
+      },
+      {
+        "id": "HIST-IPC-008",
+        "kind": "Evidence",
+        "title": "Who gave the order to detain or remove the marchers on 31 March 2023: NOT ESTABLISHED. An AISA Delhi University release of 31 March 2023, reproduced by DU Beat ",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-IPC-008"
+      },
+      {
+        "id": "HIST-IPC-009",
+        "kind": "Evidence",
+        "title": "A prohibitory order under section 144 of the Code of Criminal Procedure covering the Delhi University North Campus on 31 March 2023: UNVERIFIED. Scholars at Ris",
+        "state": "UNVERIFIED",
+        "url": "evidence.html?id=HIST-IPC-009"
+      },
+      {
+        "id": "HIST-IPC-010",
+        "kind": "Evidence",
+        "title": "A second AISA protest outside IPCW on Monday 3 April 2023 ended with protesters being taken to Burari police station. The count and the word for it are DISPUTED",
+        "state": "DISPUTED",
+        "url": "evidence.html?id=HIST-IPC-010"
+      },
+      {
+        "id": "HIST-IPC-011",
+        "kind": "Evidence",
+        "title": "Who gave the order to remove the protesters on 3 April 2023: NOT ESTABLISHED. The police statements read say protesters 'were asked to disperse but they did not",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-IPC-011"
+      },
+      {
+        "id": "HIST-IPC-012",
+        "kind": "Evidence",
+        "title": "The college administration's role in police action against protesters is alleged, not established. A first-year student told PTI: 'She called police on the camp",
+        "state": "UNVERIFIED",
+        "url": "evidence.html?id=HIST-IPC-012"
+      },
+      {
+        "id": "HIST-IPC-013",
+        "kind": "Evidence",
+        "title": "A first information report was registered in the fest case on 28 March 2023. The sections and arrests are DISPUTED. The Quint, Outlook and PTI say sections 337 ",
+        "state": "DISPUTED",
+        "url": "evidence.html?id=HIST-IPC-013"
+      },
+      {
+        "id": "HIST-IPC-014",
+        "kind": "Evidence",
+        "title": "Any FIR, case or preventive arrest record against the AISA, SFI or IPCW protesters on 29 March, 31 March or 3 April 2023: not found. Scholars at Risk says that ",
+        "state": "UNVERIFIED",
+        "url": "evidence.html?id=HIST-IPC-014"
+      },
+      {
+        "id": "HIST-IPC-015",
+        "kind": "Evidence",
+        "title": "The Delhi Commission for Women issued notices to the Delhi Police and the college administration on 29 March 2023 over the fest incident, seeking an explanation",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-IPC-015"
+      },
+      {
+        "id": "HIST-IPC-016",
+        "kind": "Evidence",
+        "title": "The Delhi Commission for Women's interim report, as reported by PTI on 12 April 2023, said poor coordination between police and the college over the fest, with ",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-IPC-016"
+      },
+      {
+        "id": "HIST-IPC-017",
+        "kind": "Evidence",
+        "title": "Delhi University formed a five-member committee on 3 April 2023, chaired by the director of the South Delhi Campus with the Proctor, Dean of Students' Welfare, ",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-IPC-017"
+      },
+      {
+        "id": "HIST-IPC-018",
+        "kind": "Evidence",
+        "title": "Court proceedings about the removal or detention of protesters on 29 March, 31 March or 3 April 2023 (writ petition, habeas corpus, complaint to a magistrate, o",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-IPC-018"
+      },
+      {
+        "id": "HIST-IPC-019",
+        "kind": "Evidence",
+        "title": "Outcome of any complaint about police conduct on 31 March 2023, including AISA's demand for action against the ACP Civil Lines and its Delhi University secretar",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-IPC-019"
+      },
+      {
+        "id": "HIST-HCU25-001",
+        "kind": "Evidence",
+        "title": "On Sunday 30 March 2025 Cyberabad police took University of Hyderabad students into custody on the East Campus side of the university while they protested again",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-HCU25-001"
+      },
+      {
+        "id": "HIST-HCU25-002",
+        "kind": "Evidence",
+        "title": "The number of people taken into custody on 30 March 2025 is DISPUTED. Police version: 53 people taken for preventive arrest under BNSS section 170 and released ",
+        "state": "DISPUTED",
+        "url": "evidence.html?id=HIST-HCU25-002"
+      },
+      {
+        "id": "HIST-HCU25-003",
+        "kind": "Evidence",
+        "title": "The Cyberabad Police Commissioner, Avinash Mohanty, is quoted by The Indian Express on 30 March 2025 justifying the custody: 'They were taken into preventive cu",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-HCU25-003"
+      },
+      {
+        "id": "HIST-HCU25-004",
+        "kind": "Evidence",
+        "title": "The News Minute reports, from an FIR it says it reviewed, that police registered a second FIR at Gachibowli on 30 March 2025 naming 54 University of Hyderabad s",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-HCU25-004"
+      },
+      {
+        "id": "HIST-HCU25-005",
+        "kind": "Evidence",
+        "title": "Two people, described by police as former students and by the university students' union as an alumnus and a PhD scholar, were arrested in the night of 30 March",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-HCU25-005"
+      },
+      {
+        "id": "HIST-HCU25-006",
+        "kind": "Evidence",
+        "title": "Police state that the case is Crime No. 608/2025 at Gachibowli police station, registered on a complaint by the Telangana Industrial Infrastructure Corporation ",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-HCU25-006"
+      },
+      {
+        "id": "HIST-HCU25-007",
+        "kind": "Evidence",
+        "title": "The list of sections in the Gachibowli case is DISPUTED between sources. Police statement as relayed by The Hans India, Deccan Chronicle and The News Minute: 32",
+        "state": "DISPUTED",
+        "url": "evidence.html?id=HIST-HCU25-007"
+      },
+      {
+        "id": "HIST-HCU25-008",
+        "kind": "Evidence",
+        "title": "Whether the two arrested people were students is DISPUTED. Police say they were not students any more. Deccan Chronicle reports that the remand report said they",
+        "state": "DISPUTED",
+        "url": "evidence.html?id=HIST-HCU25-008"
+      },
+      {
+        "id": "HIST-HCU25-009",
+        "kind": "Evidence",
+        "title": "The complaint that began the Gachibowli case is attributed to TGIIC. Deccan Chronicle quotes a TGIIC project engineer as stating in the complaint: 'As per G.O. ",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-HCU25-009"
+      },
+      {
+        "id": "HIST-HCU25-010",
+        "kind": "Evidence",
+        "title": "Injuries on 30 March 2025 are DISPUTED. Police say the Assistant Commissioner of Police, Madhapur, was seriously injured, on his right knee and ankle (The Hans ",
+        "state": "DISPUTED",
+        "url": "evidence.html?id=HIST-HCU25-010"
+      },
+      {
+        "id": "HIST-HCU25-011",
+        "kind": "Evidence",
+        "title": "Whether police used a lathi charge on students and faculty on Wednesday 2 April 2025 is DISPUTED. Version A: The Hindu, The News Minute, The New Indian Express,",
+        "state": "DISPUTED",
+        "url": "evidence.html?id=HIST-HCU25-011"
+      },
+      {
+        "id": "HIST-HCU25-012",
+        "kind": "Evidence",
+        "title": "At least 20 students were injured on 2 April 2025, according to The Hindu ('At least 20 students sustained injuries'), The News Minute (at least 20, two reporte",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-HCU25-012"
+      },
+      {
+        "id": "HIST-HCU25-013",
+        "kind": "Evidence",
+        "title": "The number held on Thursday 3 April 2025 is DISPUTED. The Hindu reported that over 80 individuals, including students and members of student unions, were put un",
+        "state": "DISPUTED",
+        "url": "evidence.html?id=HIST-HCU25-013"
+      },
+      {
+        "id": "HIST-HCU25-014",
+        "kind": "Evidence",
+        "title": "On 3 April 2025 the Cyberabad Police Commissioner, Avinash Mohanty, is quoted by The Hindu saying that police had exercised restraint, refraining from filing ca",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-HCU25-014"
+      },
+      {
+        "id": "HIST-HCU25-015",
+        "kind": "Evidence",
+        "title": "Cyberabad police restricted entry to the disputed 400-acre land from Friday 4 April 2025 until 16 April 2025. Siasat.com reports that the Cyberabad DCP invoked ",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-HCU25-015"
+      },
+      {
+        "id": "HIST-HCU25-016",
+        "kind": "Evidence",
+        "title": "On 8 April 2025 University of Hyderabad students protested at the administration block alleging that the university registrar called for the police deployment o",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-HCU25-016"
+      },
+      {
+        "id": "HIST-HCU25-017",
+        "kind": "Evidence",
+        "title": "On 7 April 2025 a Telangana ministers' committee, headed by Deputy Chief Minister Mallu Bhatti Vikramarka, told the University of Hyderabad Teachers Association",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-HCU25-017"
+      },
+      {
+        "id": "HIST-HCU25-018",
+        "kind": "Evidence",
+        "title": "What the Telangana government decided on 7 April 2025 about the cases against students is DISPUTED. PTI, in The Federal, reports that the Deputy Chief Minister ",
+        "state": "DISPUTED",
+        "url": "evidence.html?id=HIST-HCU25-018"
+      },
+      {
+        "id": "HIST-HCU25-019",
+        "kind": "Evidence",
+        "title": "Whether any of the cases against University of Hyderabad students from 30 March to 3 April 2025 was in fact withdrawn or closed is not established.",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-HCU25-019"
+      },
+      {
+        "id": "HIST-HCU25-020",
+        "kind": "Evidence",
+        "title": "The National Human Rights Commission sought a report from the police on a complaint by two University of Hyderabad students alleging intimidation, excessive for",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-HCU25-020"
+      },
+      {
+        "id": "HIST-HCU25-021",
+        "kind": "Evidence",
+        "title": "Whether the police filed the NHRC action taken report, what it said, and any further NHRC or State Human Rights Commission step on the University of Hyderabad e",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-HCU25-021"
+      },
+      {
+        "id": "HIST-HCU25-022",
+        "kind": "Evidence",
+        "title": "The Supreme Court order of 3 April 2025 in Suo Motu Writ Petition (Civil) No. 3/2025 (In re Kancha Gachibowli Forest, State of Telangana), by Justices B. R. Gav",
+        "state": "VERIFIED",
+        "url": "evidence.html?id=HIST-HCU25-022"
+      },
+      {
+        "id": "HIST-HCU25-023",
+        "kind": "Evidence",
+        "title": "LiveLaw reports that at the 3 April 2025 hearing senior advocate Gopal Sankaranarayanan, appearing for certain intervenors, told the bench that students protest",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-HCU25-023"
+      },
+      {
+        "id": "HIST-HCU25-024",
+        "kind": "Evidence",
+        "title": "On Wednesday 2 April 2025 a Telangana High Court bench of Acting Chief Justice Sujoy Paul and Justice Renuka Yara, hearing two public interest petitions against",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-HCU25-024"
+      },
+      {
+        "id": "HIST-HCU25-025",
+        "kind": "Evidence",
+        "title": "On 24 March 2025 the Telangana High Court division bench of Acting Chief Justice Sujoy Paul and Justice Renuka Yara directed the State and TGIIC to file content",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-HCU25-025"
+      },
+      {
+        "id": "HIST-HCU25-026",
+        "kind": "Evidence",
+        "title": "The Government Order that gave the 400 acres to TGIIC is Government Order Ms No. 54 dated 26 June 2024, issued by the Principal Secretary (Revenue). A Telangana",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-HCU25-026"
+      },
+      {
+        "id": "HIST-HCU25-027",
+        "kind": "Evidence",
+        "title": "The Telangana government's affidavit to the Supreme Court, as reported by Deccan Chronicle on 16 May 2025, says the matter concerns 'the decision taken by the s",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-HCU25-027"
+      },
+      {
+        "id": "HIST-HCU25-028",
+        "kind": "Evidence",
+        "title": "The South First reports from a Central Empowered Committee report it says it accessed that TGIIC's Zonal Manager filed a tree-felling application with the Shams",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-HCU25-028"
+      },
+      {
+        "id": "HIST-HCU25-029",
+        "kind": "Evidence",
+        "title": "The Central Empowered Committee wrote to the Telangana Chief Secretary on 4 April 2025, after the Supreme Court order of 3 April 2025, to say it would inspect t",
+        "state": "VERIFIED",
+        "url": "evidence.html?id=HIST-HCU25-029"
+      },
+      {
+        "id": "HIST-HCU25-030",
+        "kind": "Evidence",
+        "title": "At the Supreme Court hearing of 15 May 2025 the bench headed by Chief Justice B. R. Gavai said orally that the Kancha Gachibowli deforestation appeared 'pre-pla",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-HCU25-030"
+      },
+      {
+        "id": "HIST-HCU25-031",
+        "kind": "Evidence",
+        "title": "At the hearing of Wednesday 13 August 2025 the Supreme Court bench of Chief Justice B. R. Gavai and Justice K. Vinod Chandran said the Kancha Gachibowli forest ",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-HCU25-031"
+      },
+      {
+        "id": "HIST-HCU25-032",
+        "kind": "Evidence",
+        "title": "Who gave the order to take University of Hyderabad students into preventive custody on 30 March 2025, at the level of office, is not established.",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-HCU25-032"
+      },
+      {
+        "id": "HIST-HCU25-033",
+        "kind": "Evidence",
+        "title": "Who gave the order for the police action on the University of Hyderabad campus on 2 April 2025, including the barricading of the East Campus area and any use of",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-HCU25-033"
+      },
+      {
+        "id": "HIST-HCU25-034",
+        "kind": "Evidence",
+        "title": "Who gave the order to deploy police to the University of Hyderabad East Campus and the Kancha Gachibowli site in the days before and on 30 March 2025, at the le",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-HCU25-034"
+      },
+      {
+        "id": "HIST-HCU25-035",
+        "kind": "Evidence",
+        "title": "Who decided that clearing at Kancha Gachibowli would start on 30 March 2025, the first day of a holiday weekend, is not established. A Government Order (Ms No. ",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-HCU25-035"
+      },
+      {
+        "id": "HIST-HCU25-036",
+        "kind": "Evidence",
+        "title": "Records that could be requested to answer who gave the orders. From Cyberabad Commissionerate and Gachibowli police station: the Gachibowli General Diary entrie",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-HCU25-036"
+      },
+      {
+        "id": "HIST-HCU25-037",
+        "kind": "Evidence",
+        "title": "Summary of the order question for the University of Hyderabad events of 30 March to 3 April 2025, by level of office. ESTABLISHED by a primary document read: on",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-HCU25-037"
+      },
+      {
+        "id": "HIST-BPSC25-001",
+        "kind": "Evidence",
+        "title": "In the early hours of Monday 6 January 2025, Patna Police removed Jan Suraaj Party founder Prashant Kishor, who had been on a fast-unto-death at Gandhi Maidan, ",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-BPSC25-001"
+      },
+      {
+        "id": "HIST-BPSC25-002",
+        "kind": "Evidence",
+        "title": "The time of the operation is reported differently. Hindustan Times says a contingent arrived at Gandhi Maidan around 3.45am. Kishor said he was picked up at 4 A",
+        "state": "DISPUTED",
+        "url": "evidence.html?id=HIST-BPSC25-002"
+      },
+      {
+        "id": "HIST-BPSC25-003",
+        "kind": "Evidence",
+        "title": "Hindustan Times reports that the contingent that took Kishor away included personnel from over 10 police stations, and ETV Bharat (Hindi) puts it at police from",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-BPSC25-003"
+      },
+      {
+        "id": "HIST-BPSC25-004",
+        "kind": "Evidence",
+        "title": "Hindustan Times reports that magistrates were part of the contingent that arrived at Gandhi Maidan around 3.45am. It does not name them or say which magistrate,",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-BPSC25-004"
+      },
+      {
+        "id": "HIST-BPSC25-005",
+        "kind": "Evidence",
+        "title": "The Patna District Magistrate, Chandrashekhar Singh, said publicly on 6 January 2025 that Kishor and others were protesting illegally in front of the Gandhi sta",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-BPSC25-005"
+      },
+      {
+        "id": "HIST-BPSC25-006",
+        "kind": "Evidence",
+        "title": "On 6 January 2025 the Patna District Magistrate gave figures for those detained, in versions that differ as reported. ANI and CNBC-TV18 quote him as saying 43 p",
+        "state": "DISPUTED",
+        "url": "evidence.html?id=HIST-BPSC25-006"
+      },
+      {
+        "id": "HIST-BPSC25-007",
+        "kind": "Evidence",
+        "title": "On 6 January 2025 the Patna District Magistrate gave a breakdown of the 30 detainees whose identities he said had been verified: five from Patna, 25 from outsid",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-BPSC25-007"
+      },
+      {
+        "id": "HIST-BPSC25-008",
+        "kind": "Evidence",
+        "title": "The CNBC-TV18 live blog quotes the Patna District Magistrate as saying the detained 'are all workers of a particular party', that 'only five of them are from Pa",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-BPSC25-008"
+      },
+      {
+        "id": "HIST-BPSC25-009",
+        "kind": "Evidence",
+        "title": "The number of people detained is reported differently. ANI's headline says Kishor 'and 42 others' and its text says '43 individuals, including Kishor'; the New ",
+        "state": "DISPUTED",
+        "url": "evidence.html?id=HIST-BPSC25-009"
+      },
+      {
+        "id": "HIST-BPSC25-010",
+        "kind": "Evidence",
+        "title": "Whether those detained were released, and when, is reported differently. The Indian Express quotes the District Magistrate as saying the students among those de",
+        "state": "DISPUTED",
+        "url": "evidence.html?id=HIST-BPSC25-010"
+      },
+      {
+        "id": "HIST-BPSC25-011",
+        "kind": "Evidence",
+        "title": "The number of vehicles seized is reported as 15 by the Patna District Magistrate (ANI, PTI, Live Hindustan, ETV Bharat, New Indian Express). PTI says the 15 inc",
+        "state": "DISPUTED",
+        "url": "evidence.html?id=HIST-BPSC25-011"
+      },
+      {
+        "id": "HIST-BPSC25-012",
+        "kind": "Evidence",
+        "title": "WHO GAVE THE ORDER for the removal of Kishor and his supporters from Gandhi Maidan on 6 January 2025, and for the detentions, is NOT ESTABLISHED. No page read r",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-BPSC25-012"
+      },
+      {
+        "id": "HIST-BPSC25-013",
+        "kind": "Evidence",
+        "title": "The Patna District Magistrate and the Patna Senior Superintendent of Police each gave an account of the action on 6 January 2025 in terms of notices served, an ",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-BPSC25-013"
+      },
+      {
+        "id": "HIST-BPSC25-014",
+        "kind": "Evidence",
+        "title": "Kishor, as quoted by PTI after his bail hearing on 6 January 2025, said policemen were 'doing what they have been told by higher authorities' and that the gover",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-BPSC25-014"
+      },
+      {
+        "id": "HIST-BPSC25-015",
+        "kind": "Evidence",
+        "title": "The New Indian Express reports, in indirect speech, that Kishor said some officers in the government were trying to become heroes and that the court showed the ",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-BPSC25-015"
+      },
+      {
+        "id": "HIST-BPSC25-016",
+        "kind": "Evidence",
+        "title": "A Jan Suraaj Party post on X, quoted by Hindustan Times, said 'chief minister Nitish Kumar's police' detained Kishor at 4 am and took 'thousands of youths' to a",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-BPSC25-016"
+      },
+      {
+        "id": "HIST-BPSC25-017",
+        "kind": "Evidence",
+        "title": "The text, date and signatory of the notice or notices said to have been served on Kishor and the protesters before 6 January 2025, and the provision of law they",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-BPSC25-017"
+      },
+      {
+        "id": "HIST-BPSC25-018",
+        "kind": "Evidence",
+        "title": "The Patna High Court ruling or order relied on to say protests are confined to Gardanibagh is described differently. The Patna District Magistrate, per IANS, sa",
+        "state": "DISPUTED",
+        "url": "evidence.html?id=HIST-BPSC25-018"
+      },
+      {
+        "id": "HIST-BPSC25-019",
+        "kind": "Evidence",
+        "title": "An FIR was lodged at Gandhi Maidan police station before 6 January 2025 for protesting in a restricted area of Gandhi Maidan. The Patna District Magistrate (ANI",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-BPSC25-019"
+      },
+      {
+        "id": "HIST-BPSC25-020",
+        "kind": "Evidence",
+        "title": "India Today reports that an FIR was filed against Kishor and 'his 150 supporters' by the district administration, which asserted that the protest at the site wa",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-BPSC25-020"
+      },
+      {
+        "id": "HIST-BPSC25-021",
+        "kind": "Evidence",
+        "title": "Swarajya reports that Section 132 of the Bharatiya Nyaya Sanhita 'has been imposed' on Kishor and 150 others named in an FIR filed by the district administratio",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-BPSC25-021"
+      },
+      {
+        "id": "HIST-BPSC25-022",
+        "kind": "Evidence",
+        "title": "Kishor's lawyer said after the bail hearing on 6 January 2025 that 'all the sections under which Prashant Kishor was booked, are bailable' and that he should ha",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-BPSC25-022"
+      },
+      {
+        "id": "HIST-BPSC25-023",
+        "kind": "Evidence",
+        "title": "The FIR number, date of registration, sections, complainant, and the names or description of all accused for the case under which Kishor was arrested on 6 Janua",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-BPSC25-023"
+      },
+      {
+        "id": "HIST-BPSC25-024",
+        "kind": "Evidence",
+        "title": "On 6 January 2025 Kishor was produced before a court in Patna, which granted him bail on a personal bond of Rs 25,000 with a condition, as his lawyer described ",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-BPSC25-024"
+      },
+      {
+        "id": "HIST-BPSC25-025",
+        "kind": "Evidence",
+        "title": "The bail order of 6 January 2025 (both the conditional order and the order removing the condition), the remand order, and the name, designation and case number ",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-BPSC25-025"
+      },
+      {
+        "id": "HIST-BPSC25-026",
+        "kind": "Evidence",
+        "title": "Whether the other people detained on 6 January 2025 were produced before a magistrate, charged, booked under the same FIR, or released without charge, and under",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-BPSC25-026"
+      },
+      {
+        "id": "HIST-BPSC25-027",
+        "kind": "Evidence",
+        "title": "Live Hindustan (Hindi) reports that a constable on duty at Patna Civil Court had his hand broken in a scuffle between police and Kishor's supporters who had gat",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-BPSC25-027"
+      },
+      {
+        "id": "HIST-BPSC25-028",
+        "kind": "Evidence",
+        "title": "Whether Kishor was slapped by a police officer during the removal is disputed. Jan Suraaj supporters alleged a police officer slapped him (Hindustan Times, ETV ",
+        "state": "DISPUTED",
+        "url": "evidence.html?id=HIST-BPSC25-028"
+      },
+      {
+        "id": "HIST-BPSC25-029",
+        "kind": "Evidence",
+        "title": "The force used outside AIIMS Patna on 6 January 2025 is described differently. A Jan Suraaj Party post, reported by ANI, says police 'brutally lathicharged' a c",
+        "state": "DISPUTED",
+        "url": "evidence.html?id=HIST-BPSC25-029"
+      },
+      {
+        "id": "HIST-BPSC25-030",
+        "kind": "Evidence",
+        "title": "The CNBC-TV18 live blog quotes an unnamed Jan Suraaj supporter as saying Kishor's spectacles were thrown when he was detained and that he was injured when he we",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-BPSC25-030"
+      },
+      {
+        "id": "HIST-BPSC25-031",
+        "kind": "Evidence",
+        "title": "Swarajya reports that reporters' equipment was snatched at Gandhi Maidan during the operation and that a viral video shows police kicking an Akashvani Patna rep",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-BPSC25-031"
+      },
+      {
+        "id": "HIST-BPSC25-032",
+        "kind": "Evidence",
+        "title": "An official count of people injured on 6 January 2025 (protesters, bystanders, journalists or police), and any medico-legal records, are NOT ESTABLISHED. No suc",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-BPSC25-032"
+      },
+      {
+        "id": "HIST-BPSC25-033",
+        "kind": "Evidence",
+        "title": "What happened between the removal and the court appearance on 6 January 2025 is disputed. Kishor said he was picked up at 4 AM, taken to AIIMS Patna where docto",
+        "state": "DISPUTED",
+        "url": "evidence.html?id=HIST-BPSC25-033"
+      },
+      {
+        "id": "HIST-BPSC25-034",
+        "kind": "Evidence",
+        "title": "The Hindu reported that on Tuesday 7 January 2025 Kishor was found to be suffering from dehydration and infection and was taken to a private hospital in Patna, ",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-BPSC25-034"
+      },
+      {
+        "id": "HIST-BPSC25-035",
+        "kind": "Evidence",
+        "title": "On 7 January 2025 the Supreme Court (bench of the Chief Justice of India Sanjiv Khanna, Justice Sanjay Kumar and Justice KV Vishvanathan) refused to entertain a",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-BPSC25-035"
+      },
+      {
+        "id": "HIST-BPSC25-036",
+        "kind": "Evidence",
+        "title": "Whether any court, commission or authority has examined, inquired into or ordered a report on the removal and detentions of 6 January 2025 (a magisterial or dep",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-BPSC25-036"
+      },
+      {
+        "id": "HIST-SSC-001",
+        "kind": "Evidence",
+        "title": "A protest by Staff Selection Commission (SSC) exam candidates and teachers took place at Ramlila Maidan, New Delhi, on 24 August 2025 over alleged irregularitie",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-SSC-001"
+      },
+      {
+        "id": "HIST-SSC-002",
+        "kind": "Evidence",
+        "title": "Number of people detained on 24 August 2025: DISPUTED. Version A: DCP Central, in a statement reported on 25 August 2025, said 40 individuals were detained duri",
+        "state": "DISPUTED",
+        "url": "evidence.html?id=HIST-SSC-002"
+      },
+      {
+        "id": "HIST-SSC-003",
+        "kind": "Evidence",
+        "title": "Whether police used a lathi charge on 24 August 2025: DISPUTED. Version A (police): DCP Central said 'No lathi charge was done by police' (Indian Express, Times",
+        "state": "DISPUTED",
+        "url": "evidence.html?id=HIST-SSC-003"
+      },
+      {
+        "id": "HIST-SSC-004",
+        "kind": "Evidence",
+        "title": "Allegations about the conditions before and during dispersal, as made by protesters and politicians: that the power or lights at the venue were cut (PTI quotes ",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-SSC-004"
+      },
+      {
+        "id": "HIST-SSC-005",
+        "kind": "Evidence",
+        "title": "Injuries to police: Delhi Police say five police personnel, including three women constables, were injured 'due to aggressive behaviour by some protesters'. The",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-SSC-005"
+      },
+      {
+        "id": "HIST-SSC-006",
+        "kind": "Evidence",
+        "title": "Injuries to protesters, detainees or journalists: the number is UNKNOWN. No official or medical count was found in any page read. Newslaundry says only that pol",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-SSC-006"
+      },
+      {
+        "id": "HIST-SSC-007",
+        "kind": "Evidence",
+        "title": "Police account of the dispersal: after 5:00 pm around 300 protesters stayed on despite repeated requests; 'Both ACP of Kamla Market and DCP personally appealed ",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-SSC-007"
+      },
+      {
+        "id": "HIST-SSC-008",
+        "kind": "Evidence",
+        "title": "Who gave the order to disperse the gathering and to detain people on 24 August 2025: NOT ESTABLISHED. No written order, deployment order, or named commander was",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-SSC-008"
+      },
+      {
+        "id": "HIST-SSC-009",
+        "kind": "Evidence",
+        "title": "Section 163 BNSS (power to issue orders in urgent cases of nuisance or apprehended danger) was said by Delhi Police to be 'in force' at Ramlila Maidan and the p",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-SSC-009"
+      },
+      {
+        "id": "HIST-SSC-010",
+        "kind": "Evidence",
+        "title": "Who issued the Section 163 BNSS order invoked at Ramlila Maidan on 24 August 2025, on what date, and for what area: NOT ESTABLISHED. No page read names the issu",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-SSC-010"
+      },
+      {
+        "id": "HIST-SSC-011",
+        "kind": "Evidence",
+        "title": "Permission for the protest: police say it was permitted for 10:00 am to 5:00 pm under an undertaking from the organisers. Per Times of India, the undertaking sa",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-SSC-011"
+      },
+      {
+        "id": "HIST-SSC-012",
+        "kind": "Evidence",
+        "title": "Delhi Police registered an FIR in connection with the 24 August 2025 protest. Police statements reported on 25 August 2025 say it was registered under Section 2",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-SSC-012"
+      },
+      {
+        "id": "HIST-SSC-013",
+        "kind": "Evidence",
+        "title": "Who is named in the FIR: Times of India reports police said they 'booked two organisers, 18 teachers, and 40 people' under Section 223B BNS. ANI quotes DCP Cent",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-SSC-013"
+      },
+      {
+        "id": "HIST-SSC-014",
+        "kind": "Evidence",
+        "title": "Court proceedings arising from the 24 August 2025 protest or police action (petitions, bail, remand, habeas, quashing, or a magistrate's inquiry): none found.",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-SSC-014"
+      },
+      {
+        "id": "HIST-SSC-015",
+        "kind": "Evidence",
+        "title": "Outcome of the FIR and any inquiry into the police action (charge sheet, closure, departmental or magisterial inquiry, NHRC complaint): none found.",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-SSC-015"
+      },
+      {
+        "id": "HIST-SSC-016",
+        "kind": "Evidence",
+        "title": "How the people at the protest are labelled by the sources: PTI says 'SSC aspirants and teachers' and 'SSC students and trainers'; Newslaundry says 'students and",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-SSC-016"
+      },
+      {
+        "id": "HIST-PU25-001",
+        "kind": "Evidence",
+        "title": "On 10 November 2025 protesters demanding that Panjab University announce its Senate election schedule broke through police barricades and forced Gate No. 1 of t",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-PU25-001"
+      },
+      {
+        "id": "HIST-PU25-002",
+        "kind": "Evidence",
+        "title": "The protest followed the Union government's 28 October 2025 notification restructuring Panjab University's Senate and Syndicate. The Indian Express reports the ",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-PU25-002"
+      },
+      {
+        "id": "HIST-PU25-003",
+        "kind": "Evidence",
+        "title": "Size of the police deployment on 10 November 2025 is given differently: about 2,500 Union Territory police personnel at the gates and inside campus from 5:30 am",
+        "state": "DISPUTED",
+        "url": "evidence.html?id=HIST-PU25-003"
+      },
+      {
+        "id": "HIST-PU25-004",
+        "kind": "Evidence",
+        "title": "Hindustan Times reports that the Union Territory administration had imposed 'Section 223 of the Bharatiya Nagarik Suraksha Sanhita (BNSS) across Chandigarh, pro",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-PU25-004"
+      },
+      {
+        "id": "HIST-PU25-005",
+        "kind": "Evidence",
+        "title": "Detentions on 10 November 2025. The Indian Express reports 'Around 80 protesters were detained under preventive measures but were released later in the evening'",
+        "state": "DISPUTED",
+        "url": "evidence.html?id=HIST-PU25-005"
+      },
+      {
+        "id": "HIST-PU25-006",
+        "kind": "Evidence",
+        "title": "Injuries on 10 November 2025. Hindustan Times, citing the FIR, and the Tribune report four police personnel injured at Gate No. 1: a DSP, an inspector, a senior",
+        "state": "DISPUTED",
+        "url": "evidence.html?id=HIST-PU25-006"
+      },
+      {
+        "id": "HIST-PU25-007",
+        "kind": "Evidence",
+        "title": "Sources describe the crowd on 10 November 2025 as a mix: students including leaders of the Panjab University Bachao Morcha, farmer union members (including Bhar",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-PU25-007"
+      },
+      {
+        "id": "HIST-PU25-008",
+        "kind": "Evidence",
+        "title": "The Indian Express reports that police 'failed to stop the large group from entering the campus, many of whom were reportedly not students', and quotes the IG a",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-PU25-008"
+      },
+      {
+        "id": "HIST-PU25-009",
+        "kind": "Evidence",
+        "title": "Who gave the order for the lathicharge and for the preventive detentions on 10 November 2025: no page read names the officer or office that ordered either. The ",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-PU25-009"
+      },
+      {
+        "id": "HIST-PU25-010",
+        "kind": "Evidence",
+        "title": "Who requested or ordered the 10 November 2025 police deployment, and whether Panjab University's administration asked for police: no page read says. Hindustan H",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-PU25-010"
+      },
+      {
+        "id": "HIST-PU25-011",
+        "kind": "Evidence",
+        "title": "Hindustan Times reports that 'On Saturday', 15 November 2025, the university filed a police complaint alleging trespassing and destruction of property during th",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-PU25-011"
+      },
+      {
+        "id": "HIST-PU25-012",
+        "kind": "Evidence",
+        "title": "Before the protest the university announced holidays on 10 and 11 November 2025 and allowed only people with university ID cards to enter campus; police barrica",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-PU25-012"
+      },
+      {
+        "id": "HIST-PU25-013",
+        "kind": "Evidence",
+        "title": "Chandigarh Police registered an FIR against unidentified students and outsiders for the 10 November 2025 events at Gate No. 1. Hindustan Times reports it was lo",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-PU25-013"
+      },
+      {
+        "id": "HIST-PU25-014",
+        "kind": "Evidence",
+        "title": "Punjab and Haryana High Court, Harpreet Singh Dua and another v. Panjab University and others (a 2024 petition seeking Senate elections): a bench of Chief Justi",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-PU25-014"
+      },
+      {
+        "id": "HIST-PU25-015",
+        "kind": "Evidence",
+        "title": "In January 2026 a public interest litigation was filed in the Punjab and Haryana High Court by an Amritsar resident, represented by advocates L.M. Gulati and Di",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-PU25-015"
+      },
+      {
+        "id": "HIST-PU25-016",
+        "kind": "Evidence",
+        "title": "No court proceeding challenging the police use of force or the preventive detentions of 10 November 2025 at Panjab University was found in the searches run.",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-PU25-016"
+      },
+      {
+        "id": "HIST-PU25-017",
+        "kind": "Evidence",
+        "title": "The 27-day Panjab University Bachao Morcha dharna ended on the night of 28 November 2025 after the Vice-Chancellor handed over a written resolution. The Tribune",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-PU25-017"
+      },
+      {
+        "id": "HIST-PU25-018",
+        "kind": "Evidence",
+        "title": "The time of the lathicharge and gate breach on 10 November 2025 differs by source: the Tribune live blog places students entering Gate 1 at 11:41 am and a 'mild",
+        "state": "DISPUTED",
+        "url": "evidence.html?id=HIST-PU25-018"
+      },
+      {
+        "id": "HIST-PU25-019",
+        "kind": "Evidence",
+        "title": "Arrests and notices under the FIR: HT reports police said a probe was under way to identify those who stormed the gate, with notices and arrests expected per th",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-PU25-019"
+      },
+      {
+        "id": "SRC-0388",
+        "kind": "Source",
+        "title": "Calcutta High Court judgment of 10 May 2023 (Justice Rajasekhar Mantha) in WPA 20733, 20734 and 20938 of 2018, Nilkamal Sarkar, Badal Barman and Subhash Sarkar v. State of West Bengal, copy hosted by Verdictum (not the court's own site)",
+        "state": null,
+        "url": "https://www.verdictum.in/pdf_upload/death-of-2-students-calcutta-hc-judgmentwatermark-1500229.pdf"
+      },
+      {
+        "id": "SRC-0389",
+        "kind": "Source",
+        "title": "The Indian Express (Express News Service), 20 September 2018",
+        "state": null,
+        "url": "https://indianexpress.com/article/cities/kolkata/west-bengal-students-clash-with-police-north-dinajpur-school-5367166/"
+      },
+      {
+        "id": "SRC-0390",
+        "kind": "Source",
+        "title": "Hindustan Times (Pramod Giri), 23 September 2018",
+        "state": null,
+        "url": "https://www.hindustantimes.com/india-news/kin-of-students-killed-in-bengal-s-islampur-school-agitation-refuse-to-cremate-bodies-demand-cbi-probe/story-dIzH2TApuWegU8mUiOW8HN.html"
+      },
+      {
+        "id": "SRC-0391",
+        "kind": "Source",
+        "title": "NDTV, 23 September 2018",
+        "state": null,
+        "url": "https://www.ndtv.com/india-news/islampur-in-west-bengal-is-turning-out-to-be-the-new-political-flashpoint-after-the-death-of-2-youth-1920871"
+      },
+      {
+        "id": "SRC-0392",
+        "kind": "Source",
+        "title": "LiveLaw (Udit Singh), 11 May 2023, partly paywalled",
+        "state": null,
+        "url": "https://www.livelaw.in/amp/high-court/calcutta-high-court/calcutta-high-court-darivit-firing-incident-nia-probe-228457"
+      },
+      {
+        "id": "SRC-0393",
+        "kind": "Source",
+        "title": "The Week (PTI), 10 May 2023",
+        "state": null,
+        "url": "https://www.theweek.in/wire-updates/national/2023/05/10/cal33-wb-hc-firing-nia.html"
+      },
+      {
+        "id": "SRC-0394",
+        "kind": "Source",
+        "title": "Millennium Post (Team MP), 7 January 2026",
+        "state": null,
+        "url": "https://www.millenniumpost.in/bengal/high-court-upholds-nia-probe-in-darivit-school-firing-case-642928"
+      },
+      {
+        "id": "SRC-0395",
+        "kind": "Source",
+        "title": "Times of India report of 7 January 2026, as reproduced by BengalInfo.com",
+        "state": null,
+        "url": "https://bengalinfo.com/newsdetail.php?newsid=454167"
+      },
+      {
+        "id": "SRC-0396",
+        "kind": "Source",
+        "title": "Law Trend, 3 April 2024",
+        "state": null,
+        "url": "https://lawtrend.in/calcutta-high-court-directs-state-government-to-transfer-darivit-high-school-violence-case-to-nia"
+      },
+      {
+        "id": "SRC-0397",
+        "kind": "Source",
+        "title": "Tribune News Service, Shahira Naim, 2 May 2018 (updated 3 May 2018)",
+        "state": null,
+        "url": "https://www.tribuneindia.com/news/archive/nation/amu-jinnah-row-turns-violent-583533"
+      },
+      {
+        "id": "SRC-0398",
+        "kind": "Source",
+        "title": "The Week, PTI copy, 3 May 2018",
+        "state": null,
+        "url": "https://www.theweek.in/news/india/2018/05/03/violence-hits-amu-campus-over-jinnah-portrait.html"
+      },
+      {
+        "id": "SRC-0399",
+        "kind": "Source",
+        "title": "VICE, Zeyad Masroor Khan, 3 May 2018",
+        "state": null,
+        "url": "https://vice.com/en/article/hindutva-and-police-violence-have-amu-students-bleeding-for-an-80-year-old-portrait"
+      },
+      {
+        "id": "SRC-0400",
+        "kind": "Source",
+        "title": "Newslaundry, Sharjeel Usmani, 3 May 2018 (analysis piece)",
+        "state": null,
+        "url": "https://www.newslaundry.com/amp/story/2018%2F05%2F03%2Famu-jinnah-row-media-right-wingers-hyv-abvp-misreporting"
+      },
+      {
+        "id": "SRC-0401",
+        "kind": "Source",
+        "title": "SabrangIndia, Sushmita, 7 May 2018",
+        "state": null,
+        "url": "https://sabrangindia.in/article/struggle-not-jinnah-against-hindutva-goons-who-created-nuisance-amu-students"
+      },
+      {
+        "id": "SRC-0402",
+        "kind": "Source",
+        "title": "Newsclick, Abdul Alim Jafri, 8 January 2019",
+        "state": null,
+        "url": "https://www.newsclick.in/jinnah-portrait-magisterial-probe-suggests-police-intelligence-lapses-behind-amu-violence"
+      },
+      {
+        "id": "SRC-0403",
+        "kind": "Source",
+        "title": "Deccan Chronicle, DC Correspondent, 2 May 2018",
+        "state": null,
+        "url": "https://www.deccanchronicle.com/nation/current-affairs/020518/protests-clashes-aligarh-muslim-university-muhammad-ali-jinnah-photo.html"
+      },
+      {
+        "id": "SRC-0404",
+        "kind": "Source",
+        "title": "The Quint, 3 May 2018",
+        "state": null,
+        "url": "https://www.thequint.com/news/india/amu-jinnah-portrait-violence"
+      },
+      {
+        "id": "SRC-0405",
+        "kind": "Source",
+        "title": "The Wire LiveWire, Mohd Umair Khan, 8 May 2018",
+        "state": null,
+        "url": "https://livewire.thewire.in/livewire/why-are-aligarh-muslim-universitys-students-protesting/"
+      },
+      {
+        "id": "SRC-0406",
+        "kind": "Source",
+        "title": "india.com, PTI copy, 9 May 2018",
+        "state": null,
+        "url": "https://www.india.com/news/agencies/strong-action-against-those-involved-in-amu-campus-violence-dm-3043533/"
+      },
+      {
+        "id": "SRC-0407",
+        "kind": "Source",
+        "title": "The Quint, Mohd Asim Khan (IANS), 12 May 2018",
+        "state": null,
+        "url": "https://www.thequint.com/amp/story/hotwire-text/it-s-about-anything-but-jinnah-says-amu-community-over-controversy"
+      },
+      {
+        "id": "SRC-0408",
+        "kind": "Source",
+        "title": "Hindustan Times (Lucknow), 5 May 2018, page 1 (only the opening lines are free to read)",
+        "state": null,
+        "url": "https://www.pressreader.com/india/hindustan-times-lucknow/20180505/281496456911694"
+      },
+      {
+        "id": "SRC-0409",
+        "kind": "Source",
+        "title": "The Week, Ajay Uprety, 4 May 2018",
+        "state": null,
+        "url": "https://www.theweek.in/news/india/2018/05/04/BJP-jinnah-row-amu-students-SC.html"
+      },
+      {
+        "id": "SRC-0410",
+        "kind": "Source",
+        "title": "SabrangIndia, Siddhant Mohan (Two Circles), 4 May 2018",
+        "state": null,
+        "url": "https://sabrangindia.in/amu-violence-attempt-strengthen-anti-muslim-narrative-members-society-condemn-police"
+      },
+      {
+        "id": "SRC-0411",
+        "kind": "Source",
+        "title": "National Herald, Bhasha Singh, 6 May 2018",
+        "state": null,
+        "url": "https://www.nationalheraldindia.com/india/amu-violence-bjp-rss-attempt-to-communalise-incident-ably-foiled"
+      },
+      {
+        "id": "SRC-0412",
+        "kind": "Source",
+        "title": "Hindustan Times (Lucknow), HT Correspondent, 9 May 2018 (only the opening lines are free to read)",
+        "state": null,
+        "url": "https://www.pressreader.com/india/hindustan-times-lucknow/20180509/281694025414801"
+      },
+      {
+        "id": "SRC-0413",
+        "kind": "Source",
+        "title": "The Hindu, 'Cops halt mass JNU protest; many hurt in the melee', published 24 March 2018",
+        "state": null,
+        "url": "https://www.thehindu.com/news/cities/Delhi/cops-halt-mass-jnu-protest-many-hurt-in-the-melee/article23337651.ece"
+      },
+      {
+        "id": "SRC-0414",
+        "kind": "Source",
+        "title": "Hindustan Times, 'JNU teachers, students face lathi-charge, water canons as march to Parliament stopped', updated 23 March 2018",
+        "state": null,
+        "url": "https://www.hindustantimes.com/delhi-news/jnu-teachers-students-face-lathi-charge-water-canons-as-march-to-parliament-stopped/story-34MBzSg2oMbcISUhzJf7QJ.html"
+      },
+      {
+        "id": "SRC-0415",
+        "kind": "Source",
+        "title": "The Indian Express, 'Police lathicharge as 1,000 JNU students take out march', 24 March 2018",
+        "state": null,
+        "url": "https://indianexpress.com/article/delhi/delhi-police-lathicharge-as-jnu-students-take-out-march-5109349/"
+      },
+      {
+        "id": "SRC-0416",
+        "kind": "Source",
+        "title": "Scroll.in, 'Delhi Police stop JNU students, teachers marching to Parliament to protest varsity's policies', 23 March 2018",
+        "state": null,
+        "url": "https://scroll.in/latest/873088/delhi-police-stop-jnu-students-teachers-marching-to-parliament-to-protest-varsitys-policies"
+      },
+      {
+        "id": "SRC-0417",
+        "kind": "Source",
+        "title": "Times of India (TNN), 'Cops stall JNU student-teacher march to Parliament', updated 23 March 2018",
+        "state": null,
+        "url": "https://timesofindia.indiatimes.com/city/delhi/cops-stall-jnu-student-teacher-march-to-parliament/articleshow/63431838.cms"
+      },
+      {
+        "id": "SRC-0418",
+        "kind": "Source",
+        "title": "NewsClick, 'Delhi Police Books 25 JNU Students, But Refuse to File FIR Against Officer Who Molested Journo', 26 March 2018",
+        "state": null,
+        "url": "https://www.newsclick.in/delhi-police-books-25-jnu-students-refuse-file-fir-against-officer-who-molested-journo"
+      },
+      {
+        "id": "SRC-0419",
+        "kind": "Source",
+        "title": "The New Indian Express, 'Delhi cop accused of molesting journalist during JNU march booked', updated 27 March 2018",
+        "state": null,
+        "url": "https://www.newindianexpress.com/cities/delhi/2018/Mar/26/delhi-cop-accused-of-molesting-journalist-during-jnu-march-booked-1792846.html"
+      },
+      {
+        "id": "SRC-0420",
+        "kind": "Source",
+        "title": "Sabrang India, 'Delhi Police Turns on JNU: Open Lathi Charge on Student-Teacher Long March', 23 March 2018",
+        "state": null,
+        "url": "https://sabrangindia.in/delhi-police-turns-jnu-open-lathi-charge-student-teacher-long-march/"
+      },
+      {
+        "id": "SRC-0421",
+        "kind": "Source",
+        "title": "National Herald, 'Delhi Police and JNU students trade charges and videos', 24 March 2018",
+        "state": null,
+        "url": "https://www.nationalheraldindia.com/national/delhi-police-and-jnu-students-trade-charges-and-videos"
+      },
+      {
+        "id": "SRC-0422",
+        "kind": "Source",
+        "title": "Newslaundry, 'Delhi Police accused of molesting journalist covering the JNU Long March', 24 March 2018",
+        "state": null,
+        "url": "https://www.newslaundry.com/2018/03/24/delhi-police-accused-of-molesting-journalist-covering-the-jnu-long-march"
+      },
+      {
+        "id": "SRC-0423",
+        "kind": "Source",
+        "title": "Scroll.in, 'Delhi Police file case against officer for allegedly molesting journalist during JNU students' march', March 2018",
+        "state": null,
+        "url": "https://scroll.in/latest/873422/delhi-police-file-case-against-officer-for-allegedly-molesting-journalist-during-jnu-students-march"
+      },
+      {
+        "id": "SRC-0424",
+        "kind": "Source",
+        "title": "Citizens for Justice and Peace (CJP), 'Delhi Police target students and media at JNU Long March', 24 March 2018",
+        "state": null,
+        "url": "https://cjp.org.in/delhi-police-target-students-and-media-at-jnu-long-march/"
+      },
+      {
+        "id": "SRC-0425",
+        "kind": "Source",
+        "title": "Times of India, 'JNU protest: SHO booked for harassing journalist', 27 March 2018",
+        "state": null,
+        "url": "https://timesofindia.indiatimes.com/city/delhi/sho-booked-for-harassing-journalist/articleshow/63472568.cms"
+      },
+      {
+        "id": "SRC-0426",
+        "kind": "Source",
+        "title": "The Hindu, 'FIR registered in journalist's molestation case', published 27 March 2018",
+        "state": null,
+        "url": "https://www.thehindu.com/news/cities/Delhi/fir-registered-in-journalists-molestation-case/article23360760.ece"
+      },
+      {
+        "id": "SRC-0427",
+        "kind": "Source",
+        "title": "The Indian Express (PTI), 'NCW orders probe into police lathicharge at JNU protest march', 24 March 2018",
+        "state": null,
+        "url": "https://indianexpress.com/article/cities/delhi/ncw-orders-probe-into-police-lathicharge-at-jnu-protest-march-5109909/"
+      },
+      {
+        "id": "SRC-0428",
+        "kind": "Source",
+        "title": "Hindustan Times (PTI), 'NCW orders probe into police lathicharge at JNU protest march'",
+        "state": null,
+        "url": "https://www.hindustantimes.com/delhi-news/ncw-orders-probe-into-police-lathicharge-at-jnu-protest-march/story-mloOGNN7xIJAosaJ5Ud2fJ.html"
+      },
+      {
+        "id": "SRC-0429",
+        "kind": "Source",
+        "title": "Newslaundry, 18 November 2019",
+        "state": null,
+        "url": "https://www.newslaundry.com/amp/story/2019%2F11%2F18%2Fjnu-protest-police-parliament"
+      },
+      {
+        "id": "SRC-0430",
+        "kind": "Source",
+        "title": "Onmanorama (page carries a December 2020 stamp that conflicts with its URL date of 18 November 2019)",
+        "state": null,
+        "url": "https://www.onmanorama.com/news/india/2019/11/18/jnu-protest-new-delhi-hrd-ministry.html"
+      },
+      {
+        "id": "SRC-0431",
+        "kind": "Source",
+        "title": "NDTV, 18 November 2019",
+        "state": null,
+        "url": "https://www.ndtv.com/india-news/jnu-students-protesting-over-fee-hike-stopped-by-police-near-the-university-while-trying-to-march-to-2134263"
+      },
+      {
+        "id": "SRC-0432",
+        "kind": "Source",
+        "title": "Scroll.in, 18 November 2019",
+        "state": null,
+        "url": "https://scroll.in/latest/944113/in-photos-jnu-students-protesting-against-fee-hike-break-barricades-march-towards-parliament"
+      },
+      {
+        "id": "SRC-0433",
+        "kind": "Source",
+        "title": "The Wire LiveWire, 18 November 2019",
+        "state": null,
+        "url": "https://livewire.thewire.in/livewire/emergency-in-jnu-section-144-lathi-charge-protest/"
+      },
+      {
+        "id": "SRC-0434",
+        "kind": "Source",
+        "title": "The Indian Express, 19 November 2019",
+        "state": null,
+        "url": "https://indianexpress.com/article/cities/delhi/jnu-protests-delhi-police-students-injuries-fee-hike-parliament-march-6126394/"
+      },
+      {
+        "id": "SRC-0435",
+        "kind": "Source",
+        "title": "Deccan Herald, 19 November 2019",
+        "state": null,
+        "url": "https://www.deccanherald.com/india/ls-oppn-condemns-police-action-against-jnu-students-777612.html"
+      },
+      {
+        "id": "SRC-0436",
+        "kind": "Source",
+        "title": "The Tribune (PTI text), 19 to 20 November 2019",
+        "state": null,
+        "url": "https://www.tribuneindia.com/news/nation/jnu-protest-police-register-two-firs-2156"
+      },
+      {
+        "id": "SRC-0437",
+        "kind": "Source",
+        "title": "Newslaundry reporter's diary, 20 November 2019",
+        "state": null,
+        "url": "https://www.newslaundry.com/2019/11/20/jnuprotests-a-reporters-diary"
+      },
+      {
+        "id": "SRC-0438",
+        "kind": "Source",
+        "title": "Careers360, 19 November 2019, citing India Today",
+        "state": null,
+        "url": "https://news.careers360.com/jnu-students-demand-withdrawal-of-fir-says-protests-continue/amp"
+      },
+      {
+        "id": "SRC-0439",
+        "kind": "Source",
+        "title": "The Hindu, 9 December 2019",
+        "state": null,
+        "url": "https://www.thehindu.com/news/cities/Delhi/jnu-students-lathi-charged-by-police-during-march-to-rashtrapati-bhavan/article30251755.ece"
+      },
+      {
+        "id": "SRC-0440",
+        "kind": "Source",
+        "title": "Newslaundry, 9 December 2019",
+        "state": null,
+        "url": "https://www.newslaundry.com/2019/12/09/jnu-students-rashtrapati-bhavan-police-lathi-charge"
+      },
+      {
+        "id": "SRC-0441",
+        "kind": "Source",
+        "title": "NewsMobile, 9 December 2019",
+        "state": null,
+        "url": "https://www.newsmobile.in/nation/delhi-police-lathicharge-jnu-students-during-protest-march-to-rashtrapati-bhavan/"
+      },
+      {
+        "id": "SRC-0442",
+        "kind": "Source",
+        "title": "Gulf News, 9 December 2019",
+        "state": null,
+        "url": "https://gulfnews.com/world/asia/india/india-jnu-students-baton-charged-by-police-in-delhi-1.1575907216625"
+      },
+      {
+        "id": "SRC-0443",
+        "kind": "Source",
+        "title": "The Tribune (Tribune Web Desk, with PTI), 9 December 2019",
+        "state": null,
+        "url": "https://www.tribuneindia.com/news/nation/jnu-students-battle-police-lathicharge-on-way-to-rashtrapati-bhawan-city-traffic-affected-8844"
+      },
+      {
+        "id": "SRC-0444",
+        "kind": "Source",
+        "title": "Onmanorama (page carries a December 2020 stamp that conflicts with its URL date of 9 December 2019)",
+        "state": null,
+        "url": "https://www.onmanorama.com/news/india/2019/12/09/jnu-students-battle-police-lathicharge-on-way-to-rashtrapati-bha.html"
+      },
+      {
+        "id": "SRC-0445",
+        "kind": "Source",
+        "title": "Newslaundry, 27 January 2020",
+        "state": null,
+        "url": "https://www.newslaundry.com/2020/01/27/when-you-dont-have-a-choice-what-do-you-do-delhi-high-court-directs-jnu-to-register-students-at-old-rates"
+      },
+      {
+        "id": "SRC-0446",
+        "kind": "Source",
+        "title": "Deccan Herald (Sumir Karmakar, DHNS), 11 December 2019, 13:12 IST",
+        "state": null,
+        "url": "https://www.deccanherald.com/amp/story/india%2Fguwahati-police-lathi-charge-students-opposing-cab-784554.html"
+      },
+      {
+        "id": "SRC-0447",
+        "kind": "Source",
+        "title": "India Blooms (UNI/IBNS), 11 December 2019, 5:43 pm",
+        "state": null,
+        "url": "https://www.indiablooms.com/phoenix/public/news/army-on-stand-by-in-dibrugarh-aeurdispur-chaloaeur-paralyses-guwahati-curfew-imposed/details"
+      },
+      {
+        "id": "SRC-0448",
+        "kind": "Source",
+        "title": "The Sentinel (Assam), 11 January 2020",
+        "state": null,
+        "url": "https://sentinelassam.com/guwahati-city/cotton-university-organized-photo-exhibition-on-anti-caa-agitation"
+      },
+      {
+        "id": "SRC-0449",
+        "kind": "Source",
+        "title": "The Sentinel (Assam), 20 December 2019",
+        "state": null,
+        "url": "https://sentinelassam.com/guwahati-city/delegation-of-assam-students-forum-move-ahrc-against-police-atrocities"
+      },
+      {
+        "id": "SRC-0450",
+        "kind": "Source",
+        "title": "The Assam Tribune, dateline 11 December (page byline date is wrong)",
+        "state": null,
+        "url": "https://assamtribune.com/indefinite-curfew-clamped-in-guwahati"
+      },
+      {
+        "id": "SRC-0451",
+        "kind": "Source",
+        "title": "The Tribune (India), 11 December 2019",
+        "state": null,
+        "url": "https://www.tribuneindia.com/news/nation/assam-burns-over-citizenship-bill-guwahati-under-indefinite-curfew-9545"
+      },
+      {
+        "id": "SRC-0452",
+        "kind": "Source",
+        "title": "The News Mill, 11 December 2019",
+        "state": null,
+        "url": "https://thenewsmill.com/?p=20186"
+      },
+      {
+        "id": "SRC-0453",
+        "kind": "Source",
+        "title": "Deccan Herald (Sumir Karmakar, DHNS), 12 December 2019",
+        "state": null,
+        "url": "https://www.deccanherald.com/amp/story/india%2Fcab-protest-three-killed-assam-remains-volatile-784985.html"
+      },
+      {
+        "id": "SRC-0454",
+        "kind": "Source",
+        "title": "LatestLY, PTI copy, 19 December 2019",
+        "state": null,
+        "url": "https://www.latestly.com/agency-news/students-file-complaint-with-ahrc-against-police-1415895.html"
+      },
+      {
+        "id": "SRC-0455",
+        "kind": "Source",
+        "title": "The Assam Tribune, dateline 19 December 2019 (page byline date is wrong)",
+        "state": null,
+        "url": "https://assamtribune.com/ahrc-moved-over-police-firing-during-stir"
+      },
+      {
+        "id": "SRC-0456",
+        "kind": "Source",
+        "title": "Morung Express, 20 December 2021",
+        "state": null,
+        "url": "https://morungexpress.com/1026-persons-arrested-in-12-days-for-anti-caa-stir-in-assam-cm"
+      },
+      {
+        "id": "SRC-0457",
+        "kind": "Source",
+        "title": "EastMojo, 2 March 2020",
+        "state": null,
+        "url": "https://eastmojo.com/news/2020/03/02/how-many-died-in-police-firing-during-assam-caa-stir-3-says-govt/"
+      },
+      {
+        "id": "SRC-0458",
+        "kind": "Source",
+        "title": "The Sentinel (Assam), 14 September 2020",
+        "state": null,
+        "url": "https://sentinelassam.com/topheadlines/anti-caa-stir-institute-probe-into-death-of-five-youths-501440"
+      },
+      {
+        "id": "SRC-0459",
+        "kind": "Source",
+        "title": "North East Now, 27 February 2022",
+        "state": null,
+        "url": "https://nenow.in/north-east-news/assam/gauhati-hc-seeks-affidavit-from-assam-govt-on-death-of-five-persons-during-anti-caa-protest.html"
+      },
+      {
+        "id": "SRC-0460",
+        "kind": "Source",
+        "title": "The Sentinel (Assam), 12 December 2020",
+        "state": null,
+        "url": "https://sentinelassam.com/topheadlines/judicial-probe-must-into-the-death-of-five-anti-caa-martyrs-aasu-515937"
+      },
+      {
+        "id": "SRC-0461",
+        "kind": "Source",
+        "title": "The Wire (staff), dated 3 January 2020 on the page",
+        "state": null,
+        "url": "https://cms.thewire.in/law/bhu-students-protesters"
+      },
+      {
+        "id": "SRC-0462",
+        "kind": "Source",
+        "title": "The Quint (Aishwarya S Iyer), 20 December 2019",
+        "state": null,
+        "url": "https://thequint.com/news/india/citizenship-amendment-act-caa-and-nrc-protests-in-varanasi-several-people-arrested"
+      },
+      {
+        "id": "SRC-0463",
+        "kind": "Source",
+        "title": "Scroll.in (Shoaib Daniyal), 25 December 2019",
+        "state": null,
+        "url": "https://scroll.in/article/947814/shock-in-varanasi-as-56-social-activists-charged-with-violent-rioting-after-a-peaceful-protest"
+      },
+      {
+        "id": "SRC-0464",
+        "kind": "Source",
+        "title": "Deccan Herald (PTI), 2 January 2020",
+        "state": null,
+        "url": "https://www.deccanherald.com/india/anti-caa-protests-up-court-grants-bail-to-56-790689.html"
+      },
+      {
+        "id": "SRC-0465",
+        "kind": "Source",
+        "title": "Scroll.in (Scroll Staff), 24 December 2019",
+        "state": null,
+        "url": "https://scroll.in/video/947783/watch-bhu-student-refuses-to-accept-his-degree-in-solidarity-with-students-arrested-for-protesting"
+      },
+      {
+        "id": "SRC-0466",
+        "kind": "Source",
+        "title": "Madhyamam, 2 January 2020",
+        "state": null,
+        "url": "https://madhyamamonline.com/national/2020/jan/2/57-arrested-anti-caa-protesters-released-bail-varanasi"
+      },
+      {
+        "id": "SRC-0467",
+        "kind": "Source",
+        "title": "SabrangIndia, 2 January 2020",
+        "state": null,
+        "url": "https://sabrangindia.in/article/56-activists-arrested-anti-caa-protests-varanasi-released"
+      },
+      {
+        "id": "SRC-0468",
+        "kind": "Source",
+        "title": "The Quint video page, 2 January 2020",
+        "state": null,
+        "url": "https://www.thequint.com/videos/news-videos/up-police-were-the-bhu-students-targeted-for-taking-part-in-caa-protests"
+      },
+      {
+        "id": "SRC-0469",
+        "kind": "Source",
+        "title": "National Herald (NH Web Desk), 17 January 2020",
+        "state": null,
+        "url": "https://www.nationalheraldindia.com/india/peaceful-protests-against-caa-in-varanasi-suppressed-amnesty-india-urges-modi-yogi-to-allow-right-to-protest"
+      },
+      {
+        "id": "SRC-0470",
+        "kind": "Source",
+        "title": "Amnesty International UK press release, 16 January 2020",
+        "state": null,
+        "url": "https://www.amnesty.org.uk/press-releases/india-citizenship-act-protesters-tortured-detention-new-testimony"
+      },
+      {
+        "id": "SRC-0471",
+        "kind": "Source",
+        "title": "Deccan Herald (PTI), 18 December 2019",
+        "state": null,
+        "url": "https://www.deccanherald.com/india/no-permission-given-for-protests-as-sec-144-in-place-786836.html"
+      },
+      {
+        "id": "SRC-0472",
+        "kind": "Source",
+        "title": "Madhyamam, 19 December 2019",
+        "state": null,
+        "url": "https://madhyamamonline.com/national/2019/dec/19/prohibitory-orders-2-days-schools-shut"
+      },
+      {
+        "id": "SRC-0473",
+        "kind": "Source",
+        "title": "SabrangIndia, 4 January 2020",
+        "state": null,
+        "url": "https://www.sabrangindia.in/article/varanasi-being-stifled-under-section-144"
+      },
+      {
+        "id": "SRC-0474",
+        "kind": "Source",
+        "title": "NDTV, 17 December 2019",
+        "state": null,
+        "url": "https://www.ndtv.com/india-news/chennai-police-enter-madras-university-as-students-protest-against-citizenship-act-2150340"
+      },
+      {
+        "id": "SRC-0475",
+        "kind": "Source",
+        "title": "ThePrint, 18 December 2019",
+        "state": null,
+        "url": "https://theprint.in/india/police-enter-madras-university-as-students-continue-protest-against-citizenship-act/336900/"
+      },
+      {
+        "id": "SRC-0476",
+        "kind": "Source",
+        "title": "The Week, 17 December 2019",
+        "state": null,
+        "url": "https://www.theweek.in/news/india/2019/12/17/police-enter-madras-university-campus-as-students-protest-agains.amp.html"
+      },
+      {
+        "id": "SRC-0477",
+        "kind": "Source",
+        "title": "The Hindu, 18 December 2019 (Chennai edition)",
+        "state": null,
+        "url": "https://www.thehindu.com/news/cities/chennai/caa-spirited-protest-by-students-at-madras-university/article30334069.ece"
+      },
+      {
+        "id": "SRC-0478",
+        "kind": "Source",
+        "title": "Scroll.in, 18 December 2019",
+        "state": null,
+        "url": "https://scroll.in/latest/947156/citizenship-act-police-enter-madras-university-refuse-to-release-two-students-until-protest-stops"
+      },
+      {
+        "id": "SRC-0479",
+        "kind": "Source",
+        "title": "The News Minute, 18 December 2019",
+        "state": null,
+        "url": "https://www.thenewsminute.com/amp/story/tamil-nadu/police-dragged-us-our-hair-and-collar-detained-madras-uni-student-tnm-114327"
+      },
+      {
+        "id": "SRC-0480",
+        "kind": "Source",
+        "title": "The Hindu, 18 December 2019 (updated 20 December 2019)",
+        "state": null,
+        "url": "https://www.thehindu.com/news/national/tamil-nadu/caa-students-in-chennai-vellore-continue-to-protest/article30336645.ece"
+      },
+      {
+        "id": "SRC-0481",
+        "kind": "Source",
+        "title": "The News Minute, 17 December 2019",
+        "state": null,
+        "url": "https://www.thenewsminute.com/amp/story/tamil-nadu/madras-university-caa-protest-students-wont-give-till-those-detained-are-released-114275"
+      },
+      {
+        "id": "SRC-0482",
+        "kind": "Source",
+        "title": "Onmanorama, 18 December 2019",
+        "state": null,
+        "url": "https://onmanorama.com/news/india/2019/12/18/student-protest-against-caa-universities.html"
+      },
+      {
+        "id": "SRC-0483",
+        "kind": "Source",
+        "title": "The News Minute, 19 December 2019",
+        "state": null,
+        "url": "https://www.thenewsminute.com/amp/story/tamil-nadu/madras-university-students-protesting-against-caa-detained-night-released-later-114346"
+      },
+      {
+        "id": "SRC-0484",
+        "kind": "Source",
+        "title": "Madhyamam (IANS), 19 December 2019",
+        "state": null,
+        "url": "https://madhyamamonline.com/national/2019/dec/19/police-remove-protesting-students-madras-varsity-campus"
+      },
+      {
+        "id": "SRC-0485",
+        "kind": "Source",
+        "title": "The Quint, 17 December 2019 (updated 19 December 2019; partly paywalled, only the visible part was read)",
+        "state": null,
+        "url": "https://thequint.com/news/politics/caa-protests-chennai-madras-university-police-enter"
+      },
+      {
+        "id": "SRC-0486",
+        "kind": "Source",
+        "title": "The Indian Express, 11 February 2020 (Aranya Shankar; fetched version carries two bylines)",
+        "state": null,
+        "url": "https://indianexpress.com/article/cities/delhi/anti-caa-protest-march-delhi-police-6261392/"
+      },
+      {
+        "id": "SRC-0487",
+        "kind": "Source",
+        "title": "Hindustan Times, 10 February 2020",
+        "state": null,
+        "url": "https://www.hindustantimes.com/cities/jamia-students-get-into-scuffle-with-cops-as-they-try-to-march-to-parliament/story-BzPADokf7Axw0EMe2Pn3IN.html"
+      },
+      {
+        "id": "SRC-0488",
+        "kind": "Source",
+        "title": "India Today, 10 February 2020",
+        "state": null,
+        "url": "https://www.indiatoday.in/india/story/jamia-students-delhi-police-face-off-over-anti-caa-march-to-parliament-1644996-2020-02-10"
+      },
+      {
+        "id": "SRC-0489",
+        "kind": "Source",
+        "title": "Times of India, 10 February 2020 (PTI wire copy)",
+        "state": null,
+        "url": "https://timesofindia.indiatimes.com/city/delhi/police-stop-jamia-protesters-from-marching-to-parliament-standoff-continues-for-hours/articleshow/74070585.cms"
+      },
+      {
+        "id": "SRC-0490",
+        "kind": "Source",
+        "title": "Times of India live blog, 10 February 2020",
+        "state": null,
+        "url": "https://timesofindia.indiatimes.com/city/delhi/jamia-students-anti-caa-march-to-parliament-live-updates/liveblog/74065928.cms"
+      },
+      {
+        "id": "SRC-0491",
+        "kind": "Source",
+        "title": "Rediff.com, 10 February 2020 (PTI wire copy)",
+        "state": null,
+        "url": "https://m.rediff.com/news/report/jamia-protesters-march-to-parliament-stopped/20200210.htm"
+      },
+      {
+        "id": "SRC-0492",
+        "kind": "Source",
+        "title": "The Hindu, 13 February 2020 (Staff Reporter)",
+        "state": null,
+        "url": "https://www.thehindu.com/news/cities/Delhi/police-stomped-on-us-hurled-abuses-at-us-jamia-students/article30804953.ece"
+      },
+      {
+        "id": "SRC-0493",
+        "kind": "Source",
+        "title": "Times of India, 12 February 2020 (PTI wire copy)",
+        "state": null,
+        "url": "https://timesofindia.indiatimes.com/city/delhi/jamia-students-allege-cops-kicked-them-on-private-parts-tore-their-hijab-during-feb-10-protest/articleshow/74106138.cms"
+      },
+      {
+        "id": "SRC-0494",
+        "kind": "Source",
+        "title": "Times of India, 13 February 2020 (TNN, Shradha Chettri)",
+        "state": null,
+        "url": "https://timesofindia.indiatimes.com/city/delhi/jamia-students-allege-assault-by-cops-crpf-men-during-march/articleshow/74108158.cms"
+      },
+      {
+        "id": "SRC-0495",
+        "kind": "Source",
+        "title": "Scholars at Risk, Academic Freedom Monitoring Project incident page",
+        "state": null,
+        "url": "https://www.scholarsatrisk.org/report/2020-02-10-jamia-millia-islamia/"
+      },
+      {
+        "id": "SRC-0496",
+        "kind": "Source",
+        "title": "India Today, 10 and 11 February 2020",
+        "state": null,
+        "url": "https://www.indiatoday.in/india/story/female-jamia-students-private-parts-delhi-police-anti-caa-protest-1645059-2020-02-10"
+      },
+      {
+        "id": "SRC-0497",
+        "kind": "Source",
+        "title": "Times of India, 11 February 2020 (TNN)",
+        "state": null,
+        "url": "https://timesofindia.indiatimes.com/city/delhi/jamia-students-hurt-during-caa-protest-march-to-parliament/articleshow/74072010.cms"
+      },
+      {
+        "id": "SRC-0498",
+        "kind": "Source",
+        "title": "India Today, 10 February 2020",
+        "state": null,
+        "url": "https://www.indiatoday.in/india/story/delhi-police-registers-case-against-anti-caa-protesters-for-violence-during-march-from-jamia-to-parliament-1645141-2020-02-10"
+      },
+      {
+        "id": "SRC-0499",
+        "kind": "Source",
+        "title": "Deccan Herald (DHNS), published 14 September 2021, 15:26 IST; read via Firecrawl because a direct fetch returned HTTP 403",
+        "state": null,
+        "url": "https://www.deccanherald.com/india/karnataka/bengaluru/police-use-lathi-charge-to-break-up-students-protest-against-nep-1030476.html"
+      },
+      {
+        "id": "SRC-0500",
+        "kind": "Source",
+        "title": "The New Indian Express (Express News Service), 15 September 2021",
+        "state": null,
+        "url": "https://www.newindianexpress.com/states/karnataka/2021/sep/15/students-protesting-against-nep-caned-near-vidhana-soudha-2358872.html"
+      },
+      {
+        "id": "SRC-0501",
+        "kind": "Source",
+        "title": "The Hindu (Special Correspondent), published 14 September 2021, 10:56 pm IST",
+        "state": null,
+        "url": "https://www.thehindu.com/news/cities/bangalore/police-cane-cfi-members-protesting-against-nep/article36462354.ece"
+      },
+      {
+        "id": "SRC-0502",
+        "kind": "Source",
+        "title": "The Times of India (TNN), 14 September 2021",
+        "state": null,
+        "url": "https://timesofindia.indiatimes.com/city/bengaluru/bengaluru-police-resort-to-lathi-charge-to-disperse-students-protesting-against-national-education-policy/articleshow/86199742.cms"
+      },
+      {
+        "id": "SRC-0503",
+        "kind": "Source",
+        "title": "ETV Bharat, 16 September 2021",
+        "state": null,
+        "url": "https://www.etvbharat.com/english/bharat/bengaluru-students-protesting-against-nep-injured-in-lathicharge/na20210916101957177"
+      },
+      {
+        "id": "SRC-0504",
+        "kind": "Source",
+        "title": "The Hindu (Special Correspondent), first published 14 September 2021, 12:43 am IST; the page also carries an 'updated' stamp of 22 November 2021",
+        "state": null,
+        "url": "https://www.thehindu.com/news/cities/bangalore/prohibitory-orders-extended-till-sept-27/article36443509.ece"
+      },
+      {
+        "id": "SRC-0505",
+        "kind": "Source",
+        "title": "The Hindu (Special Correspondent), 31 August 2021",
+        "state": null,
+        "url": "https://www.thehindu.com/news/national/karnataka/prohibitory-orders-extended-till-september-13/article36210364.ece"
+      },
+      {
+        "id": "SRC-0506",
+        "kind": "Source",
+        "title": "NDTV (syndicated ANI copy), 10 August 2021",
+        "state": null,
+        "url": "https://www.ndtv.com/india-news/jharkhand-police-lathi-charge-girl-students-protesting-at-dhanbad-enquiry-constituted-2506674"
+      },
+      {
+        "id": "SRC-0507",
+        "kind": "Source",
+        "title": "Times of India (Ranchi), 7 August 2021",
+        "state": null,
+        "url": "https://timesofindia.indiatimes.com/city/ranchi/6-girl-students-injured-in-dhanbad-lathicharge/articleshow/85112788.cms"
+      },
+      {
+        "id": "SRC-0508",
+        "kind": "Source",
+        "title": "The Avenue Mail, 6 August 2021",
+        "state": null,
+        "url": "https://avenuemail.in/police-lathicharge-on-agitating-students-in-dhanbad-health-minister-orders-probe-on-the-incident-promises-action/"
+      },
+      {
+        "id": "SRC-0509",
+        "kind": "Source",
+        "title": "Zee News Hindi, 7 August 2021",
+        "state": null,
+        "url": "https://zeenews.india.com/hindi/india/bihar-jharkhand/dhanbad/police-lathicharge-on-the-second-day-of-students-protest-in-dhanbad/959890"
+      },
+      {
+        "id": "SRC-0510",
+        "kind": "Source",
+        "title": "Dainik Bhaskar (Hindi), 12 August 2021",
+        "state": null,
+        "url": "https://www.bhaskar.com/local/jharkhand/dhanbad/news/sdo-surendra-kumar-who-lathi-charged-girl-students-transferred-128806937.html"
+      },
+      {
+        "id": "SRC-0511",
+        "kind": "Source",
+        "title": "Organiser, 9 August 2021",
+        "state": null,
+        "url": "https://organiser.org/2021/08/09/21825/bharat/jharkhand-police-lathi-charge-girls-at-dhanbad-collectorate-babulal-marandi-says-atrocities-against-women-increasing/"
+      },
+      {
+        "id": "SRC-0512",
+        "kind": "Source",
+        "title": "India Today, 9 August 2021",
+        "state": null,
+        "url": "https://www.indiatoday.in/india/story/jharkhand-several-students-injured-as-police-lathicharge-during-protest-over-class-12-marks-1838844-2021-08-09"
+      },
+      {
+        "id": "SRC-0513",
+        "kind": "Source",
+        "title": "Dainik Jagran (Hindi), 9 August 2021",
+        "state": null,
+        "url": "https://www.jagran.com/jharkhand/dhanbad-dhanbad-sdm-surendra-kumar-accused-of-lathi-charging-girl-students-city-sp-and-ac-dhanbad-are-investigating-21910590.html"
+      },
+      {
+        "id": "SRC-0514",
+        "kind": "Source",
+        "title": "Panchjanya (Hindi), 11 August 2021",
+        "state": null,
+        "url": "https://panchjanya.com/2021/08/11/183544/bharat/the-badshah-of-controversies-the-sdm-of-dhanbad-sdm-surendra-kumar-jaridih-of-bokaro/"
+      },
+      {
+        "id": "SRC-0515",
+        "kind": "Source",
+        "title": "ANI, 9 August 2021",
+        "state": null,
+        "url": "https://www.aninews.in/news/national/general-news/bjp-spokesperson-pratul-shahdeo-demands-action-against-dhanbad-sdm-in-alleged-lathicharge-on-protesting-students-in-doranda20210809184623/"
+      },
+      {
+        "id": "SRC-0516",
+        "kind": "Source",
+        "title": "Dainik Jagran (Hindi), 9 August 2021, evening report",
+        "state": null,
+        "url": "https://www.jagran.com/jharkhand/dhanbad-conflicts-and-dhanbad-sdo-surendra-kumar-are-synonymous-of-each-other-21912026.html"
+      },
+      {
+        "id": "SRC-0517",
+        "kind": "Source",
+        "title": "SheThePeople, 7 August 2021",
+        "state": null,
+        "url": "https://www.shethepeople.tv/news/dhanbad-police-lathicharge-female-examinees-assaulted/"
+      },
+      {
+        "id": "SRC-0518",
+        "kind": "Source",
+        "title": "NDTV, 'Lucknow Protest Over Jobs Irregularities Faces Crackdown With Lathis', published 4 December 2021, 10:48 p.m. IST (page metadata)",
+        "state": null,
+        "url": "https://www.ndtv.com/india-news/up-assistant-teachers-recruitment-police-lathicharge-on-candlelight-march-in-lucknow-2637487"
+      },
+      {
+        "id": "SRC-0519",
+        "kind": "Source",
+        "title": "Aaj Tak (Hindi), by Ashish Srivastava, published 4 December 2021, 9:58 p.m. IST (page metadata)",
+        "state": null,
+        "url": "https://www.aajtak.in/india/uttar-pradesh/story/police-lathi-charge-lucknow-candidates-alleged-rigging-69000-teacher-recruitment-ntc-1368066-2021-12-04"
+      },
+      {
+        "id": "SRC-0520",
+        "kind": "Source",
+        "title": "Deccan Herald, by Sanjay Pandey, published 5 December 2021, 04:23 IST (fetched through Firecrawl; a direct fetch returned HTTP 403)",
+        "state": null,
+        "url": "https://www.deccanherald.com/national/north-and-central/opposition-attacks-yogi-as-up-police-cane-aspirants-protesting-irregularities-in-teachers-recruitment-1057831.html"
+      },
+      {
+        "id": "SRC-0521",
+        "kind": "Source",
+        "title": "NewsClick, by Abdul Alim Jafri, 6 December 2021 (fetched through Firecrawl; a direct fetch returned HTTP 403)",
+        "state": null,
+        "url": "https://www.newsclick.in/node/43942"
+      },
+      {
+        "id": "SRC-0522",
+        "kind": "Source",
+        "title": "The Quint, published 5 December 2021, 10:43 a.m. IST",
+        "state": null,
+        "url": "https://thequint.com/news/india/protest-over-job-exam-irregularities-faces-lathi-charge-from-up-police"
+      },
+      {
+        "id": "SRC-0523",
+        "kind": "Source",
+        "title": "Hindustan Times, published 5 December 2021, 10:15 IST",
+        "state": null,
+        "url": "https://www.hindustantimes.com/india-news/lucknow-police-lathi-charge-on-teachers-protesting-over-job-irregularities-101638675398058.html"
+      },
+      {
+        "id": "SRC-0524",
+        "kind": "Source",
+        "title": "Sabrang India, published 8 December 2021",
+        "state": null,
+        "url": "https://sabrangindia.in/aspiring-teachers-call-mass-protests-following-brutal-lathi-charge/"
+      },
+      {
+        "id": "SRC-0525",
+        "kind": "Source",
+        "title": "HRD Alert India (HRDA), letter dated 10 December 2021 to the NHRC HRD Focal Point, PDF of 3 pages",
+        "state": null,
+        "url": "https://hrdaindia.org/assets/upload/708548675HRDA-UA-North-UP-Lucknow_Peaceful_Protestors.pdf"
+      },
+      {
+        "id": "SRC-0526",
+        "kind": "Source",
+        "title": "HRD Alert India (HRDA), web posting of an urgent appeal",
+        "state": null,
+        "url": "https://hrdaindia.org/brutal-lathicharge-on-protestors-for-holding-peaceful-protests-by-the-up-police"
+      },
+      {
+        "id": "SRC-0527",
+        "kind": "Source",
+        "title": "ABP Live (Hindi), updated 5 December 2021, 07:07 IST",
+        "state": null,
+        "url": "https://www.abplive.com/news/india/up-police-lathi-charge-protesting-teachers-in-lucknow-over-recruitment-issue-sp-aap-slams-govt-2010747"
+      },
+      {
+        "id": "SRC-0528",
+        "kind": "Source",
+        "title": "ETV Bharat",
+        "state": null,
+        "url": "https://etvbharat.com/english/bharat/over-20-students-injured-in-police-lathi-charge-in-tripura/na20210908092129051"
+      },
+      {
+        "id": "SRC-0529",
+        "kind": "Source",
+        "title": "TechCrunch, 21 January 2023",
+        "state": null,
+        "url": "https://techcrunch.com/2023/01/21/india-blocks-youtube-videos-and-twitter-posts-on-bbc-modi-documentary/"
+      },
+      {
+        "id": "SRC-0530",
+        "kind": "Source",
+        "title": "The Guardian, 23 January 2023",
+        "state": null,
+        "url": "https://www.theguardian.com/world/2023/jan/23/india-emergency-laws-to-ban-bbc-narendra-modi-documentary"
+      },
+      {
+        "id": "SRC-0531",
+        "kind": "Source",
+        "title": "The Leaflet, about 23 January 2023 (no dateline in the fetched text)",
+        "state": null,
+        "url": "https://theleaflet.in/freedom/union-government-uses-emergency-powers-to-bury-bbc-documentary-on-the-prime-minister"
+      },
+      {
+        "id": "SRC-0532",
+        "kind": "Source",
+        "title": "Business Insider, January 2023",
+        "state": null,
+        "url": "https://www.businessinsider.com/youtube-twitter-blocking-bbc-documentary-indian-prime-minister-modi-2023-1"
+      },
+      {
+        "id": "SRC-0533",
+        "kind": "Source",
+        "title": "Frontline (The Hindu group), guest column by N. Ram",
+        "state": null,
+        "url": "https://frontline.thehindu.com/columns/guest-column-media-n-ram-a-new-phase-of-censorship-creep-in-india-it-rules-2021-ban-bbc-documentary/article66463846.ece"
+      },
+      {
+        "id": "SRC-0534",
+        "kind": "Source",
+        "title": "MediaNama, February 2023",
+        "state": null,
+        "url": "https://www.medianama.com/2023/02/223-sc-indian-government-records-block-bbc-documentary/"
+      },
+      {
+        "id": "SRC-0535",
+        "kind": "Source",
+        "title": "Supreme Court Observer, case page",
+        "state": null,
+        "url": "https://www.scobserver.in/cases/n-ram-v-union-of-india-bbc-modi-documentary/"
+      },
+      {
+        "id": "SRC-0536",
+        "kind": "Source",
+        "title": "University World News, 26 January 2023",
+        "state": null,
+        "url": "https://www.universityworldnews.com/post.php?story=20230126171926755"
+      },
+      {
+        "id": "SRC-0537",
+        "kind": "Source",
+        "title": "The Hindu, 3 February 2023",
+        "state": null,
+        "url": "https://www.thehindu.com/news/national/sc-issues-notice-to-centre-on-pils-challenging-the-censoring-of-bbc-documentary/article66466406.ece"
+      },
+      {
+        "id": "SRC-0538",
+        "kind": "Source",
+        "title": "Reuters, 25 January 2023",
+        "state": null,
+        "url": "https://www.reuters.com/world/india/defiant-indian-students-hold-more-screenings-bbc-documentary-modi-2023-01-25/"
+      },
+      {
+        "id": "SRC-0539",
+        "kind": "Source",
+        "title": "The Hindu, 25 January 2023 (updated 26 January 2023)",
+        "state": null,
+        "url": "https://www.thehindu.com/news/cities/Delhi/sfi-small-group-with-no-following-wont-allow-it-to-screen-bbc-documentary-jamia-vc/article66432565.ece"
+      },
+      {
+        "id": "SRC-0540",
+        "kind": "Source",
+        "title": "Times of India, 26 January 2023",
+        "state": null,
+        "url": "https://timesofindia.indiatimes.com/city/delhi/bbc-documentary-bbc-documentary-on-prime-minister-narendra-modi-jamia-millia-islamia-student-detained/articleshow/97334444.cms"
+      },
+      {
+        "id": "SRC-0541",
+        "kind": "Source",
+        "title": "NDTV, 26 January 2023 (syndicated feed)",
+        "state": null,
+        "url": "https://www.ndtv.com/india-news/bbc-modi-documentary-13-students-detained-for-organising-bbc-docu-screening-at-jamia-not-yet-released-by-police-sfi-3725922"
+      },
+      {
+        "id": "SRC-0542",
+        "kind": "Source",
+        "title": "TwoCircles.net, 26 January 2023",
+        "state": null,
+        "url": "https://twocircles.net/2023jan26/448101.html"
+      },
+      {
+        "id": "SRC-0543",
+        "kind": "Source",
+        "title": "ThePrint, 25 January 2023 (ANI copy)",
+        "state": null,
+        "url": "https://theprint.in/india/no-screening-of-film-will-be-allowed-without-permission-jamia-university-administration-on-bbc-documentary/1334636/"
+      },
+      {
+        "id": "SRC-0544",
+        "kind": "Source",
+        "title": "National Herald, 25 January 2023 (PTI copy)",
+        "state": null,
+        "url": "https://www.nationalheraldindia.com/national/bbc-docu-screening-at-jamia-70-students-detained-for-protesting-says-sfi"
+      },
+      {
+        "id": "SRC-0545",
+        "kind": "Source",
+        "title": "The Quint, 27 January 2023",
+        "state": null,
+        "url": "https://www.thequint.com/news/india/sfi-jamia-students-detained-bbc-documentary-screening"
+      },
+      {
+        "id": "SRC-0546",
+        "kind": "Source",
+        "title": "ANI, 25 January 2023",
+        "state": null,
+        "url": "https://www.aninews.in/news/national/general-news/bbc-documentary-row-jamia-university-admin-says-no-screening-allowed-warns-of-action-against-organisers20230125191513/"
+      },
+      {
+        "id": "SRC-0547",
+        "kind": "Source",
+        "title": "India Today live updates, 25 January 2023",
+        "state": null,
+        "url": "https://www.indiatoday.in/india/story/bbc-modi-documentary-jamia-sfi-plans-screening-jnu-delhi-police-live-updates-2326269-2023-01-25"
+      },
+      {
+        "id": "SRC-0548",
+        "kind": "Source",
+        "title": "Maktoob, 25 January 2023",
+        "state": null,
+        "url": "https://maktoobmedia.com/post?id=60200&slug=jamia-students-detained-ahead-of-documentary-screening-still-in-custody-allege-police-misbehavior"
+      },
+      {
+        "id": "SRC-0549",
+        "kind": "Source",
+        "title": "CBS News, 25 January 2023",
+        "state": null,
+        "url": "https://www.cbsnews.com/news/india-narendra-modi-bbc-documentary-police-block-screening-gujarat-riots/"
+      },
+      {
+        "id": "SRC-0550",
+        "kind": "Source",
+        "title": "The Hindu, 27 January 2023",
+        "state": null,
+        "url": "https://www.thehindu.com/news/national/24-delhi-university-students-detained-over-bbc-documentray-screening-section-144-imposed-near-faculty-of-arts/article66440209.ece"
+      },
+      {
+        "id": "SRC-0551",
+        "kind": "Source",
+        "title": "India New England News, 27 January 2023 (IANS copy)",
+        "state": null,
+        "url": "https://indianewengland.com/bbc-docu-screening-several-students-detained-at-du-crpc-sec-144-imposed/"
+      },
+      {
+        "id": "SRC-0552",
+        "kind": "Source",
+        "title": "The Federal, 27 January 2023",
+        "state": null,
+        "url": "https://thefederal.com/states/north/delhi/24-du-students-detained-for-bid-to-screen-bbc-documentary"
+      },
+      {
+        "id": "SRC-0553",
+        "kind": "Source",
+        "title": "Times of India, 30 January 2023",
+        "state": null,
+        "url": "https://timesofindia.indiatimes.com/city/delhi/probe-panel-submits-preliminary-report-on-du-ruckus-over-screening-of-bbc-documentary-on-pm-narendra-modi-to-question-students/articleshow/97455874.cms"
+      },
+      {
+        "id": "SRC-0554",
+        "kind": "Source",
+        "title": "ANI, 27 January 2023",
+        "state": null,
+        "url": "https://www.aninews.in/news/national/general-news/delhi-police-detain-around-20-people-from-delhi-universitys-arts-faculty-for-planning-to-screen-bbc-documentary20230127190040/"
+      },
+      {
+        "id": "SRC-0555",
+        "kind": "Source",
+        "title": "The Hindu, 29 January 2023",
+        "state": null,
+        "url": "https://www.thehindu.com/news/cities/Delhi/du-sets-up-7-member-panel-to-probe-ruckus-over-bbc-documentary-screening/article66444505.ece"
+      },
+      {
+        "id": "SRC-0556",
+        "kind": "Source",
+        "title": "The Indian Express, 18 March 2023",
+        "state": null,
+        "url": "https://indianexpress.com/article/cities/delhi/bbc-documentary-du-panel-punishment-8504662/"
+      },
+      {
+        "id": "SRC-0557",
+        "kind": "Source",
+        "title": "The Indian Express, 23 March 2023",
+        "state": null,
+        "url": "https://indianexpress.com/article/cities/delhi/for-8-students-punished-by-delhi-university-over-bbc-documentary-futures-at-stake-8513474/"
+      },
+      {
+        "id": "SRC-0558",
+        "kind": "Source",
+        "title": "The Hindu, 25 March 2023",
+        "state": null,
+        "url": "https://www.thehindu.com/news/cities/Delhi/11-detained-at-protest-against-du-action-over-bbc-film/article66657873.ece"
+      },
+      {
+        "id": "SRC-0559",
+        "kind": "Source",
+        "title": "The News Minute, about 24 January 2023 (no dateline in the fetched text)",
+        "state": null,
+        "url": "https://www.thenewsminute.com/telangana/university-hyderabad-students-screen-bbc-s-pm-modi-documentary-report-sought-172397"
+      },
+      {
+        "id": "SRC-0560",
+        "kind": "Source",
+        "title": "The Indian Express, about 24 January 2023",
+        "state": null,
+        "url": "https://indianexpress.com/article/cities/hyderabad/bbc-documentary-narendra-modi-hyderabad-university-screening-abvp-complaint-8400912/"
+      },
+      {
+        "id": "SRC-0561",
+        "kind": "Source",
+        "title": "Madhyamam, 24 January 2023",
+        "state": null,
+        "url": "https://madhyamamonline.com/india/abvp-raises-complaint-against-screening-of-bbc-documentary-on-pm-modi-at-hyderabad-varsity-1121247"
+      },
+      {
+        "id": "SRC-0562",
+        "kind": "Source",
+        "title": "The Indian Express, 26 January 2023 (updated 27 January 2023)",
+        "state": null,
+        "url": "https://indianexpress.com/article/cities/hyderabad/bbc-documentary-modi-hyderabad-university-screening-8406716/"
+      },
+      {
+        "id": "SRC-0563",
+        "kind": "Source",
+        "title": "BW Police World",
+        "state": null,
+        "url": "https://www.bwpoliceworld.com/article/tension-erupts-in-hyd-university-over-screening-attempt-of-bbc-documentary-kashmir-files--463516"
+      },
+      {
+        "id": "SRC-0564",
+        "kind": "Source",
+        "title": "India Today, 27 January 2023",
+        "state": null,
+        "url": "https://www.indiatoday.in/india/story/bbc-documentary-pm-modi-screened-university-of-hyderabad-kashmir-files-sfi-abvp-scuffle-2326958-2023-01-27"
+      },
+      {
+        "id": "SRC-0565",
+        "kind": "Source",
+        "title": "Muslim Mirror, January 2023 (IANS style copy)",
+        "state": null,
+        "url": "https://muslimmirror.com/rival-groups-screen-bbc-documentary-the-kashmir-files-at-hyderabad-university/"
+      },
+      {
+        "id": "SRC-0566",
+        "kind": "Source",
+        "title": "ThePrint, 21 October 2024 (PTI copy)",
+        "state": null,
+        "url": "https://theprint.in/india/bring-original-records-of-decision-blocking-2023-bbc-documentary-on-guj-riots-sc-to-centre/2321814/"
+      },
+      {
+        "id": "SRC-0567",
+        "kind": "Source",
+        "title": "The Hans India, Pavan Kumar Bandari, 14 March 2023",
+        "state": null,
+        "url": "https://www.thehansindia.com/telangana/telangana-opposition-parties-along-with-student-union-protest-at-tspsc-office-arrested-787788"
+      },
+      {
+        "id": "SRC-0568",
+        "kind": "Source",
+        "title": "Deccan Chronicle, DC Correspondent, 14 March 2023",
+        "state": null,
+        "url": "https://www.deccanchronicle.com/nation/current-affairs/140323/protests-rock-tspsc-office-after-exam-paper-leak.html"
+      },
+      {
+        "id": "SRC-0569",
+        "kind": "Source",
+        "title": "The Siasat Daily (archive copy), Mir Alamgir, 15 March 2023",
+        "state": null,
+        "url": "https://archive.siasat.com/news/hyderabad-police-arrest-bjym-activists-for-rioting-damaging-public-property-at-tspsc-2547428/"
+      },
+      {
+        "id": "SRC-0570",
+        "kind": "Source",
+        "title": "Careers360 (Press Trust of India), 15 March 2023",
+        "state": null,
+        "url": "https://news.careers360.com/telangana-tspsc-cancels-assistant-engineers-ae-exam-following-question-paper-leak"
+      },
+      {
+        "id": "SRC-0571",
+        "kind": "Source",
+        "title": "Deccan Chronicle, DC Correspondent, 16 March 2023",
+        "state": null,
+        "url": "https://deccanchronicle.com/nation/in-other-news/160323/bjym-workers-storm-psc-office-arrested.html"
+      },
+      {
+        "id": "SRC-0572",
+        "kind": "Source",
+        "title": "Careers360 (Press Trust of India), 17 March 2023",
+        "state": null,
+        "url": "https://news.careers360.com/tspsc-cancels-3-more-recruitment-tests-amid-opposition-protests-over-exam-paper-leak"
+      },
+      {
+        "id": "SRC-0573",
+        "kind": "Source",
+        "title": "National Herald (IANS), 17 March 2023",
+        "state": null,
+        "url": "https://www.nationalheraldindia.com/india/telangana-bjp-chief-detained-during-protest-over-paper-leak"
+      },
+      {
+        "id": "SRC-0574",
+        "kind": "Source",
+        "title": "ummid.com (IANS), 17 March 2023",
+        "state": null,
+        "url": "https://ummid.com/news/2023/march/17.03.2023/telanganas-vyapam-tspsc-paper-leak-snowballs-into-major-political-row.html"
+      },
+      {
+        "id": "SRC-0575",
+        "kind": "Source",
+        "title": "The South First, Sumit Jha, 17 March 2023",
+        "state": null,
+        "url": "https://thesouthfirst.com/news/telangana-tspsc-cancels-group-1-exam-politicians-across-parties-protest-against-paper-leak"
+      },
+      {
+        "id": "SRC-0576",
+        "kind": "Source",
+        "title": "ummid.com (IANS), 24 March 2023",
+        "state": null,
+        "url": "https://ummid.com/news/2023/march/24.03.2023/tspsc-paper-leak-police-foil-protest-by-unemployed-students-at-osmania-university.html"
+      },
+      {
+        "id": "SRC-0577",
+        "kind": "Source",
+        "title": "The Siasat Daily (archive copy, IANS), 24 March 2023",
+        "state": null,
+        "url": "https://archive.siasat.com/news/hyderabad-cops-foil-protest-by-unemployed-students-at-osmania-university-2554327/"
+      },
+      {
+        "id": "SRC-0578",
+        "kind": "Source",
+        "title": "The News Minute (TNM Staff with IANS inputs), 25 March 2023",
+        "state": null,
+        "url": "https://www.thenewsminute.com/article/tension-prevails-osmania-university-hyderabad-over-tspsc-paper-leak-175034"
+      },
+      {
+        "id": "SRC-0579",
+        "kind": "Source",
+        "title": "NewsMeter, Nikisha Uddagiri, 24 March 2023",
+        "state": null,
+        "url": "https://newsmeter.in/hyderabad/tspsc-paper-leak-osmania-students-launch-2day-protest-seek-cbi-probe-709893"
+      },
+      {
+        "id": "SRC-0580",
+        "kind": "Source",
+        "title": "ThePrint (ANI), 25 March 2023",
+        "state": null,
+        "url": "https://theprint.in/politics/hyderabad-osmania-university-students-stage-protest-over-tspsc-paper-leak/1471112/"
+      },
+      {
+        "id": "SRC-0581",
+        "kind": "Source",
+        "title": "ThePrint (ANI), 24 March 2023",
+        "state": null,
+        "url": "https://theprint.in/india/telangana-congress-chief-revanth-reddy-placed-under-house-arrest/1469285/"
+      },
+      {
+        "id": "SRC-0582",
+        "kind": "Source",
+        "title": "Careers360 (Press Trust of India), 24 March 2023",
+        "state": null,
+        "url": "https://news.careers360.com/tspsc-paper-leak-cong-leaders-in-telangana-put-under-house-arrest"
+      },
+      {
+        "id": "SRC-0583",
+        "kind": "Source",
+        "title": "AP7AM (IANS), 24 March 2023",
+        "state": null,
+        "url": "https://www.ap7am.com/english-news-63418/telangana-congress-leaders-placed-under-house-arrest"
+      },
+      {
+        "id": "SRC-0584",
+        "kind": "Source",
+        "title": "The News Minute (IANS), 22 March 2023",
+        "state": null,
+        "url": "https://www.thenewsminute.com/telangana/telangana-hc-rules-out-cbi-probe-tspsc-question-paper-leak-174899"
+      },
+      {
+        "id": "SRC-0585",
+        "kind": "Source",
+        "title": "Telangana Today, updated 28 April 2023",
+        "state": null,
+        "url": "https://telanganatoday.com/tspsc-paper-leak-case-high-court-refuses-to-transfer-case-to-cbi"
+      },
+      {
+        "id": "SRC-0586",
+        "kind": "Source",
+        "title": "Careers360 (Press Trust of India), 21 March 2023",
+        "state": null,
+        "url": "https://news.careers360.com/tspsc-paper-leak-case-sit-issues-notice-telangana-bjp-chief/amp"
+      },
+      {
+        "id": "SRC-0587",
+        "kind": "Source",
+        "title": "The Hindu, PTI report, 1 July 2023",
+        "state": null,
+        "url": "https://www.thehindu.com/news/national/other-states/patna-rocked-by-protests-against-opening-teachers-jobs-for-those-not-from-bihar/article67030620.ece"
+      },
+      {
+        "id": "SRC-0588",
+        "kind": "Source",
+        "title": "The Indian Express, Express News Service with PTI inputs, 1 July 2023",
+        "state": null,
+        "url": "https://indianexpress.com/article/india/teachers-lathicharged-patna-protest-nitish-kumar-govt-8696274/"
+      },
+      {
+        "id": "SRC-0589",
+        "kind": "Source",
+        "title": "The Times of India, reporter BK Mishra, 2 July 2023",
+        "state": null,
+        "url": "https://timesofindia.indiatimes.com/city/patna/patna-police-cane-teacher-aspirants-seeking-domicile-policy-back/articleshow/101425636.cms"
+      },
+      {
+        "id": "SRC-0590",
+        "kind": "Source",
+        "title": "The Statesman, ANI report, 1 July 2023",
+        "state": null,
+        "url": "https://www.thestatesman.com/india/bihar-police-lathi-charge-ctet-aspirants-protesting-against-ending-of-domicile-rule-in-recruitments-1503195862.html"
+      },
+      {
+        "id": "SRC-0591",
+        "kind": "Source",
+        "title": "LatestLY, IANS report, 1 July 2023",
+        "state": null,
+        "url": "https://www.latestly.com/india/news/bihar-domicile-policy-protests-six-job-aspirants-injured-over-36-detained-over-ending-of-domicile-rule-in-recruitments-in-patna-5237702.html/amp"
+      },
+      {
+        "id": "SRC-0592",
+        "kind": "Source",
+        "title": "Organiser (Bharat Prakashan, a publication associated with the RSS; partisan outlet), 1 July 2023",
+        "state": null,
+        "url": "https://organiser.org/2023/07/01/181634/bharat/bihar-police-lathi-charge-ctet-aspirants-protesting-against-ending-of-domicile-rule-in-recruitments/"
+      },
+      {
+        "id": "SRC-0593",
+        "kind": "Source",
+        "title": "The Telegraph (India), PTI copy, published 23 October 2023, 4:39 p.m. IST, early version",
+        "state": null,
+        "url": "https://www.telegraphindia.com/india/students-from-jnu-jamia-millia-islamia-and-delhi-university-detained-as-they-try-to-hold-protest-near-israeli-embassy/cid/1975018"
+      },
+      {
+        "id": "SRC-0594",
+        "kind": "Source",
+        "title": "Sputnik India, own reporter, 23 October 2023, 6:07 p.m. IST (updated 7:23 p.m.)",
+        "state": null,
+        "url": "https://sputniknews.in/20231023/delhites-hold-anti-israel-protest-at-embassy-call-for-ceasefire-in-gaza-5025204.html"
+      },
+      {
+        "id": "SRC-0595",
+        "kind": "Source",
+        "title": "DU Beat (Delhi University student newspaper), own reporting, 24 October 2023",
+        "state": null,
+        "url": "https://dubeat.com/2023/10/24/stop-genocide-in-palestine-sfi-protests-at-embassy-of-israel/"
+      },
+      {
+        "id": "SRC-0596",
+        "kind": "Source",
+        "title": "Peoples Dispatch, 24 October 2023",
+        "state": null,
+        "url": "https://peoplesdispatch.org/2023/10/24/pro-palestine-solidarity-protest-by-indian-students-suppressed-by-force/"
+      },
+      {
+        "id": "SRC-0597",
+        "kind": "Source",
+        "title": "India Today, PTI copy, updated 23 October 2023, 11:37 p.m. IST, later version",
+        "state": null,
+        "url": "https://www.indiatoday.in/india/story/students-detained-while-trying-to-march-to-israeli-embassy-palestine-support-2452843-2023-10-23"
+      },
+      {
+        "id": "SRC-0598",
+        "kind": "Source",
+        "title": "Scholars at Risk, Academic Freedom Monitoring Project record",
+        "state": null,
+        "url": "https://www.scholarsatrisk.org/report/2023-10-23-multiple-institutions/"
+      },
+      {
+        "id": "SRC-0599",
+        "kind": "Source",
+        "title": "Madhyamam, PTI copy with Madhyamam web desk byline, 23 October 2023",
+        "state": null,
+        "url": "https://madhyamamonline.com/india/jnu-jamia-du-students-pro-palestine-protest-israeli-embassy-1217835"
+      },
+      {
+        "id": "SRC-0600",
+        "kind": "Source",
+        "title": "Hindustan Times, Delhi, 30 March 2023, by Shiv Sunny (copy on Magzter; truncated, subscriber wall after the opening paragraphs)",
+        "state": null,
+        "url": "https://www.magzter.com/stories/newspaper/Hindustan-Times/DAY-AFTER-IP-STUDENTS-PROTEST-HARASSMENT-AT-FEST-11-DETAINED"
+      },
+      {
+        "id": "SRC-0601",
+        "kind": "Source",
+        "title": "DailyO, 29 March 2023, by Shaurya Thapa",
+        "state": null,
+        "url": "https://www.dailyo.in/news/day-after-harassment-at-ip-college-fest-police-detain-protesting-students-39328"
+      },
+      {
+        "id": "SRC-0602",
+        "kind": "Source",
+        "title": "Deccan Herald (PTI), 3 April 2023",
+        "state": null,
+        "url": "https://www.deccanherald.com/amp/story/india/students-group-claims-15-activists-detained-during-protest-outside-ip-college-police-deny-charge-1206219.html"
+      },
+      {
+        "id": "SRC-0603",
+        "kind": "Source",
+        "title": "The Quint, 29 March 2023 (read through the fetch tool's summary, not verbatim)",
+        "state": null,
+        "url": "https://www.thequint.com/news/education/ip-college-aisa-sfi-students-protest-detained-day-after-scaled-walls-harassment"
+      },
+      {
+        "id": "SRC-0604",
+        "kind": "Source",
+        "title": "Scholars at Risk, Academic Freedom Monitoring Project report for 29 March 2023",
+        "state": null,
+        "url": "https://www.scholarsatrisk.org/report/2023-03-29-university-of-delhi/"
+      },
+      {
+        "id": "SRC-0605",
+        "kind": "Source",
+        "title": "DU Beat, 31 March 2023 (read through the fetch tool's summary, not verbatim)",
+        "state": null,
+        "url": "https://dubeat.com/2023/03/31/student-protesters-at-arts-faculty-brutally-detained-by-delhi-police/"
+      },
+      {
+        "id": "SRC-0606",
+        "kind": "Source",
+        "title": "Scholars at Risk, Academic Freedom Monitoring Project report for 31 March 2023",
+        "state": null,
+        "url": "https://www.scholarsatrisk.org/report/2023-03-31-university-of-delhi/"
+      },
+      {
+        "id": "SRC-0607",
+        "kind": "Source",
+        "title": "ThePrint (PTI feed), 31 March 2023 (read through the fetch tool's summary, not verbatim)",
+        "state": null,
+        "url": "https://theprint.in/india/campus-harassment-human-chain-marches-as-students-demand-ipcw-principals-resignation/1487473/"
+      },
+      {
+        "id": "SRC-0608",
+        "kind": "Source",
+        "title": "Outlook India, Outlook News Desk, 31 March 2023 (updated 18 January 2024) (read through the fetch tool's summary, not verbatim)",
+        "state": null,
+        "url": "https://www.outlookindia.com/national/delhi-students-protest-against-harassment-at-du-women-college-fest-call-for-principal-resignation-news-275106"
+      },
+      {
+        "id": "SRC-0609",
+        "kind": "Source",
+        "title": "The Mooknayak, by Kashish Singh, 1 April 2023 (read through the fetch tool's summary, not verbatim)",
+        "state": null,
+        "url": "https://en.themooknayak.com/education/campus-harassment-delhi-police-thrashes-du-students-as-they-protest-demanding-ipcw-principals-resignation"
+      },
+      {
+        "id": "SRC-0610",
+        "kind": "Source",
+        "title": "Careers360 (PTI), 27 January 2023 (read through the fetch tool's summary, not verbatim)",
+        "state": null,
+        "url": "https://news.careers360.com/bbc-documentary-delhi-police-detains-24-students-from-du-arts-faculty-for-planning-screen-film/amp"
+      },
+      {
+        "id": "SRC-0611",
+        "kind": "Source",
+        "title": "National Herald (IANS), 3 April 2023",
+        "state": null,
+        "url": "https://www.nationalheraldindia.com/national/protest-against-sexual-harassment-aisa-claims-15-of-its-activists-detained-police-deny"
+      },
+      {
+        "id": "SRC-0612",
+        "kind": "Source",
+        "title": "Scholars at Risk, Academic Freedom Monitoring Project report for 3 April 2023",
+        "state": null,
+        "url": "https://www.scholarsatrisk.org/report/2023-04-03-university-of-delhi/"
+      },
+      {
+        "id": "SRC-0613",
+        "kind": "Source",
+        "title": "Careers360 (PTI), 3 April 2023",
+        "state": null,
+        "url": "https://news.careers360.com/students-group-claims-15-activists-detained-during-protest-outside-ip-college-police-deny-charge"
+      },
+      {
+        "id": "SRC-0614",
+        "kind": "Source",
+        "title": "The New Indian Express (PTI), 3 April 2023",
+        "state": null,
+        "url": "https://www.newindianexpress.com/cities/delhi/2023/apr/03/protest-over-harassment-atfest-aisa-claims-15-activists-detainedoutside-delhis-ip-college-2562291.html"
+      },
+      {
+        "id": "SRC-0615",
+        "kind": "Source",
+        "title": "ThePrint, by Debdutta Chakraborty, 5 April 2023 (read through the fetch tool's summary, not verbatim)",
+        "state": null,
+        "url": "https://theprint.in/india/education/why-students-of-dus-ip-college-for-women-are-protesting-men-barged-in-during-fest-harassed-girls-for-2-hrs/1498585/"
+      },
+      {
+        "id": "SRC-0616",
+        "kind": "Source",
+        "title": "The Wire, by Sagarika Chaudhary, 5 April 2023 (read through the fetch tool's summary, not verbatim)",
+        "state": null,
+        "url": "https://m.thewire.in/article/education/indraprastha-college-for-women-delhi-harassment"
+      },
+      {
+        "id": "SRC-0617",
+        "kind": "Source",
+        "title": "National Herald (PTI), 12 April 2023 (read through the fetch tool's summary, not verbatim)",
+        "state": null,
+        "url": "https://www.nationalheraldindia.com/national/ipcw-row-du-committee-misses-deadline-for-first-report-yet-to-meet-students"
+      },
+      {
+        "id": "SRC-0618",
+        "kind": "Source",
+        "title": "The Quint, 3 April 2023 (read through the fetch tool's summary, not verbatim)",
+        "state": null,
+        "url": "https://www.thequint.com/gender/indraprastha-college-for-women-harassment-allegations-fest-delhi-university-enquiry"
+      },
+      {
+        "id": "SRC-0619",
+        "kind": "Source",
+        "title": "The Indian Express, Rahul V Pisharody, first published 30 March 2025, updated 31 March 2025",
+        "state": null,
+        "url": "https://indianexpress.com/article/cities/hyderabad/university-students-protest-kancha-gachibowli-land-detained-9914701/"
+      },
+      {
+        "id": "SRC-0620",
+        "kind": "Source",
+        "title": "The Times of India, Hyderabad, dated 31 March 2025",
+        "state": null,
+        "url": "https://timesofindia.indiatimes.com/city/hyderabad/uoh-students-detained-for-protesting/articleshow/119769857.cms"
+      },
+      {
+        "id": "SRC-0621",
+        "kind": "Source",
+        "title": "Deccan Chronicle, 1 April 2025",
+        "state": null,
+        "url": "https://www.deccanchronicle.com/southern-states/telangana/2-arrested-in-kancha-gachibowli-protest-1870114"
+      },
+      {
+        "id": "SRC-0622",
+        "kind": "Source",
+        "title": "The Hans India, 1 April 2025",
+        "state": null,
+        "url": "https://www.thehansindia.com/news/cities/hyderabad/2-arrested-in-uoh-row-cyberabad-police-958862"
+      },
+      {
+        "id": "SRC-0623",
+        "kind": "Source",
+        "title": "Scholars at Risk, Academic Freedom Monitoring Project report dated 30 March 2025 (its page says it was drafted in part with AI tools and reviewed by staff; fetched through Firecrawl because the publisher refused a direct request)",
+        "state": null,
+        "url": "https://www.scholarsatrisk.org/report/2025-03-30-university-of-hyderabad/"
+      },
+      {
+        "id": "SRC-0624",
+        "kind": "Source",
+        "title": "The South First, Sumit Jha, 31 March 2025",
+        "state": null,
+        "url": "https://thesouthfirst.com/telangana/two-university-of-hyderabad-scholars-remain-in-custody-after-fir-filed-following-protest-detention/"
+      },
+      {
+        "id": "SRC-0625",
+        "kind": "Source",
+        "title": "Siasat.com, Mir Alamgir, 12 April 2025",
+        "state": null,
+        "url": "https://www.siasat.com/kancha-gachibowli-row-university-of-hyderabad-student-gets-bail-3206067/"
+      },
+      {
+        "id": "SRC-0626",
+        "kind": "Source",
+        "title": "The News Minute, Anjana Meenakshi, 5 April 2025 (says it reviewed the FIRs)",
+        "state": null,
+        "url": "https://www.thenewsminute.com/telangana/kancha-gachibowli-protests-what-firs-against-students-from-uoh-other-universities-say"
+      },
+      {
+        "id": "SRC-0627",
+        "kind": "Source",
+        "title": "The Hindu, The Hindu Bureau, 13 April 2025",
+        "state": null,
+        "url": "https://www.thehindu.com/news/cities/Hyderabad/kancha-gachibowli-row-research-scholar-arrested-for-attacking-police-officials-gets-bail/article69444049.ece"
+      },
+      {
+        "id": "SRC-0628",
+        "kind": "Source",
+        "title": "Newslaundry, 3 April 2025",
+        "state": null,
+        "url": "https://www.newslaundry.com/2025/04/03/explained-the-kancha-gachibowli-row-and-why-university-of-hyderabad-students-are-protesting"
+      },
+      {
+        "id": "SRC-0629",
+        "kind": "Source",
+        "title": "The News Minute, 31 March 2025",
+        "state": null,
+        "url": "https://www.thenewsminute.com/telangana/two-former-university-of-hyderabad-students-arrested-over-kancha-gachibowli-protest"
+      },
+      {
+        "id": "SRC-0630",
+        "kind": "Source",
+        "title": "The Hindu, Mini Muringatheri, 2 April 2025",
+        "state": null,
+        "url": "https://www.thehindu.com/news/cities/Hyderabad/hyderabad-university-protest-20-students-injured-as-police-resort-to-lathi-charge/article69403189.ece"
+      },
+      {
+        "id": "SRC-0631",
+        "kind": "Source",
+        "title": "The News Minute, 2 April 2025",
+        "state": null,
+        "url": "https://www.thenewsminute.com/telangana/20-injured-as-police-lathi-charge-uoh-students-faculty-protesting-400-acre-land-auction"
+      },
+      {
+        "id": "SRC-0632",
+        "kind": "Source",
+        "title": "The New Indian Express, Express News Service, 2 April 2025",
+        "state": null,
+        "url": "https://www.newindianexpress.com/states/telangana/2025/Apr/02/police-clash-with-students-at-university-of-hyderabad-over-20-injured-2"
+      },
+      {
+        "id": "SRC-0633",
+        "kind": "Source",
+        "title": "India Today, 2 April 2025",
+        "state": null,
+        "url": "https://www.indiatoday.in/india/telangana/story/hyderabad-police-lathi-charge-on-hyderabad-central-university-students-over-deforestation-2703094-2025-04-02"
+      },
+      {
+        "id": "SRC-0634",
+        "kind": "Source",
+        "title": "Scholars at Risk, Academic Freedom Monitoring Project report dated 2 April 2025 (fetched through Firecrawl because the publisher refused a direct request)",
+        "state": null,
+        "url": "https://www.scholarsatrisk.org/report/2025-04-02-university-of-hyderabad/"
+      },
+      {
+        "id": "SRC-0635",
+        "kind": "Source",
+        "title": "The Hindu, The Hindu Bureau, 3 April 2025",
+        "state": null,
+        "url": "https://www.thehindu.com/news/cities/Hyderabad/uoh-students-celebrate-as-sc-intervenes-in-kancha-gachibowli-over-80-protestors-detained/article69409326.ece"
+      },
+      {
+        "id": "SRC-0636",
+        "kind": "Source",
+        "title": "Siasat.com, 4 April 2025",
+        "state": null,
+        "url": "https://www.siasat.com/police-restrict-movement-at-kancha-gachibowli-land-amid-protests-3203113/"
+      },
+      {
+        "id": "SRC-0637",
+        "kind": "Source",
+        "title": "The Federal, PTI report dated 7 April 2025",
+        "state": null,
+        "url": "https://thefederal.com/category/states/south/telangana/telangana-govt-withdraws-cases-against-students-180643"
+      },
+      {
+        "id": "SRC-0638",
+        "kind": "Source",
+        "title": "The Times of India, Hyderabad, dated 9 April 2025",
+        "state": null,
+        "url": "https://timesofindia.indiatimes.com/city/hyderabad/uoh-students-blame-univ-registrar-for-police-deployment-on-campus/articleshow/120104611.cms"
+      },
+      {
+        "id": "SRC-0639",
+        "kind": "Source",
+        "title": "The Hindu, 7 April 2025",
+        "state": null,
+        "url": "https://www.thehindu.com/news/cities/Hyderabad/telangana-ministers-committee-assures-to-withdraw-police-from-univ-of-hyderabad-campus-except-for-kancha-gachibowli-lands/article69422958.ece"
+      },
+      {
+        "id": "SRC-0640",
+        "kind": "Source",
+        "title": "Telangana Today, 10 April 2025",
+        "state": null,
+        "url": "https://telanganatoday.com/university-of-hyderabad-students-approach-nhrc-over-alleged-police-distressing-conduct"
+      },
+      {
+        "id": "SRC-0641",
+        "kind": "Source",
+        "title": "Supreme Court of India record of proceedings and order of 3 April 2025 in Suo Motu Writ Petition (Civil) No. 3/2025, In re Kancha Gachibowli Forest, State of Telangana; copy hosted by LiveLaw (not the Court's own site)",
+        "state": null,
+        "url": "https://www.livelaw.in/pdf_upload/gc3202560673213-594276.pdf"
+      },
+      {
+        "id": "SRC-0642",
+        "kind": "Source",
+        "title": "LiveLaw, 3 April 2025 (Debby Jain)",
+        "state": null,
+        "url": "https://www.livelaw.in/top-stories/supreme-court-kancha-gachibowli-hyderabad-telangana-tree-felling-288352"
+      },
+      {
+        "id": "SRC-0643",
+        "kind": "Source",
+        "title": "The Hindu, 2 April 2025",
+        "state": null,
+        "url": "https://www.thehindu.com/news/cities/Hyderabad/telangana-hc-issues-direction-to-stop-levelling-land-and-cutting-trees-in-kancha-gachibowli/article69403958.ece"
+      },
+      {
+        "id": "SRC-0644",
+        "kind": "Source",
+        "title": "Scroll.in, 3 April 2025",
+        "state": null,
+        "url": "https://scroll.in/latest/1080967/telangana-sc-stays-tree-felling-in-kancha-gachibowli-asks-hc-registrar-for-report"
+      },
+      {
+        "id": "SRC-0645",
+        "kind": "Source",
+        "title": "Deccan Chronicle, 25 March 2025",
+        "state": null,
+        "url": "https://www.deccanchronicle.com/southern-states/telangana/alienating-400-acres-to-tgiic-state-asked-to-file-contentions-by-april-7-1868828"
+      },
+      {
+        "id": "SRC-0646",
+        "kind": "Source",
+        "title": "The New Indian Express, 31 March 2025, reporting a Telangana government press statement",
+        "state": null,
+        "url": "https://www.newindianexpress.com/states/telangana/2025/Mar/31/telangana-government-says-its-sole-owner-of-kancha-gachibowli-land"
+      },
+      {
+        "id": "SRC-0647",
+        "kind": "Source",
+        "title": "Deccan Chronicle, 16 May 2025",
+        "state": null,
+        "url": "https://www.deccanchronicle.com/southern-states/telangana/kancha-gachibowli-is-not-forest-land-says-telangana-govt-1879144"
+      },
+      {
+        "id": "SRC-0648",
+        "kind": "Source",
+        "title": "The South First, Saicharan Sana, 17 April 2025 (reports on a Central Empowered Committee report it says it accessed)",
+        "state": null,
+        "url": "https://thesouthfirst.com/telangana/cec-report-exposes-how-tgiic-bypassed-laws-in-kancha-gachibowli-rejects-cm-and-congress-claims-of-no-wildlife/"
+      },
+      {
+        "id": "SRC-0649",
+        "kind": "Source",
+        "title": "Central Empowered Committee letter F.No. 1-25/CEC/SC/2025 Pt-VI dated 4 April 2025 to the Chief Secretary, Telangana, with tour programme; copy on cecindia.in",
+        "state": null,
+        "url": "https://cecindia.in/view-media/af5d761d-db16-4dc9-90a9-764e62b29b6a"
+      },
+      {
+        "id": "SRC-0650",
+        "kind": "Source",
+        "title": "The Indian Express, 15 May 2025",
+        "state": null,
+        "url": "https://indianexpress.com/article/india/forest-kancha-gachibowli-supreme-court-telangana-government-10008430/"
+      },
+      {
+        "id": "SRC-0651",
+        "kind": "Source",
+        "title": "LiveLaw topic listing page for Kancha Gachibowli (headline of 15 May 2025 only; the article itself was not read)",
+        "state": null,
+        "url": "https://www.livelaw.in/tags/kancha-gachibowli"
+      },
+      {
+        "id": "SRC-0652",
+        "kind": "Source",
+        "title": "The Times of India, Hyderabad, 13 August 2025",
+        "state": null,
+        "url": "https://timesofindia.indiatimes.com/city/hyderabad/supreme-court-clarifies-kancha-gachibowli-forest-must-be-restored/articleshow/123274621.cms"
+      },
+      {
+        "id": "SRC-0653",
+        "kind": "Source",
+        "title": "The New Indian Express, Suchitra Kalyan Mohanty, 14 August 2025",
+        "state": null,
+        "url": "https://www.newindianexpress.com/india/2025/Aug/14/sc-gives-telangana-six-weeks-to-come-up-with-kancha-gachibowli-forest-restoration-plan"
+      },
+      {
+        "id": "SRC-0654",
+        "kind": "Source",
+        "title": "ANI, 6 January 2025",
+        "state": null,
+        "url": "https://www.aninews.in/news/national/general-news/15-vehicles-seized-prashant-kishor-and-42-others-detained-for-protesting-patna-dm20250106131450/"
+      },
+      {
+        "id": "SRC-0655",
+        "kind": "Source",
+        "title": "ThePrint, carrying PTI, 6 January 2025",
+        "state": null,
+        "url": "https://theprint.in/india/bpsc-exam-row-jan-suraaj-chief-prashant-kishor-arrested-43-supporters-detained/2433120/"
+      },
+      {
+        "id": "SRC-0656",
+        "kind": "Source",
+        "title": "Hindustan Times, 6 January 2025 (reporter Avinash Kumar)",
+        "state": null,
+        "url": "https://www.hindustantimes.com/india-news/prashant-kishor-arrested-from-hunger-strike-site-in-patna-101736133674253.html"
+      },
+      {
+        "id": "SRC-0657",
+        "kind": "Source",
+        "title": "ETV Bharat (Hindi), 6 January 2025",
+        "state": null,
+        "url": "https://www.etvbharat.com/hi/!bharat/patna-police-detained-jan-suraaj-chief-prashant-kishor-from-gandhi-maidan-patna-hindi-news-brn25010600516"
+      },
+      {
+        "id": "SRC-0658",
+        "kind": "Source",
+        "title": "ThePrint, carrying PTI, 6 January 2025",
+        "state": null,
+        "url": "https://theprint.in/india/prashant-kishor-arrested-for-illegal-protest-refuses-bail-alleges-conditions-unreasonable/2433699/"
+      },
+      {
+        "id": "SRC-0659",
+        "kind": "Source",
+        "title": "ThePrint, 6 January 2025",
+        "state": null,
+        "url": "https://theprint.in/india/prashant-kishor-arrested-for-protesting-in-restricted-area-amid-hunger-strike-backing-bpsc-aspirants/2432835/"
+      },
+      {
+        "id": "SRC-0660",
+        "kind": "Source",
+        "title": "CNBC-TV18 live blog, 6 January 2025",
+        "state": null,
+        "url": "https://www.cnbctv18.com/india/politics/prashant-kishor-bpsc-student-protest-live-updates-patna-hunger-strike-gandhi-maidan-liveblog-19534849.htm"
+      },
+      {
+        "id": "SRC-0661",
+        "kind": "Source",
+        "title": "Live Hindustan (Hindi), 6 January 2025",
+        "state": null,
+        "url": "https://www.livehindustan.com/bihar/policeman-hand-broken-15-vehicles-seized-43-supporters-detained-know-what-happened-in-prashant-kishor-case-201736180012697.html"
+      },
+      {
+        "id": "SRC-0662",
+        "kind": "Source",
+        "title": "ABP Live (Hindi), 6 January 2025",
+        "state": null,
+        "url": "https://www.abplive.com/states/bihar/patna-dm-chandrashekhar-singh-reaction-on-prashant-kishor-arrest-2857200"
+      },
+      {
+        "id": "SRC-0663",
+        "kind": "Source",
+        "title": "The Indian Express, 6 January 2025",
+        "state": null,
+        "url": "https://indianexpress.com/article/india/prashant-kishor-detained-bpsc-student-protest-patna-hunger-strike-9761896/"
+      },
+      {
+        "id": "SRC-0664",
+        "kind": "Source",
+        "title": "ETV Bharat (Hindi), 7 January 2025",
+        "state": null,
+        "url": "https://www.etvbharat.com/hi/!state/bpsc-student-protest-prashant-kishor-hunger-strik-plan-after-coming-out-of-jail-bihar-news-brs25010701052"
+      },
+      {
+        "id": "SRC-0665",
+        "kind": "Source",
+        "title": "The New Indian Express, 6 January 2025",
+        "state": null,
+        "url": "https://www.newindianexpress.com/india/2025/Jan/06/prashant-kishor-granted-unconditional-bail-vows-to-continue-his-fast-unto-death-protest"
+      },
+      {
+        "id": "SRC-0666",
+        "kind": "Source",
+        "title": "Swarajya",
+        "state": null,
+        "url": "https://swarajyamag.com/news-brief/prashant-kishor-arrested-everything-you-need-to-know"
+      },
+      {
+        "id": "SRC-0667",
+        "kind": "Source",
+        "title": "AP7AM, carrying IANS, 6 January 2025",
+        "state": null,
+        "url": "https://www.ap7am.com/en/93008/prashant-kishor-arrested-in-patna-for-protesting-in-unauthorised-location"
+      },
+      {
+        "id": "SRC-0668",
+        "kind": "Source",
+        "title": "ThePrint, carrying PTI, 6 January 2025",
+        "state": null,
+        "url": "https://theprint.in/india/pk-arrested-for-illegal-protest-claims-he-got-unconditional-bail-hours-after-judicial-remand/2434020/"
+      },
+      {
+        "id": "SRC-0669",
+        "kind": "Source",
+        "title": "The Times of India, Patna, 20 April 2026",
+        "state": null,
+        "url": "https://timesofindia.indiatimes.com/city/patna/nda-opposition-spar-over-march-venue/articleshow/130400831.cms"
+      },
+      {
+        "id": "SRC-0670",
+        "kind": "Source",
+        "title": "Hindustan Times explainer (HT News Desk)",
+        "state": null,
+        "url": "https://www.hindustantimes.com/india-news/whats-behind-the-bpsc-protests-prashant-kishor-and-students-demands-explained-101736130043699.html"
+      },
+      {
+        "id": "SRC-0671",
+        "kind": "Source",
+        "title": "India Today, 6 January 2025",
+        "state": null,
+        "url": "https://www.indiatoday.in/india/story/prashant-kishor-sitting-on-fast-unto-death-for-cancellation-of-bpsc-exam-detained-2660149-2025-01-06"
+      },
+      {
+        "id": "SRC-0672",
+        "kind": "Source",
+        "title": "Mint, 6 January 2025",
+        "state": null,
+        "url": "https://www.livemint.com/news/bpsc-exam-protest-prasant-kishor-sent-to-jail-after-he-refuses-to-sign-bail-bond-11736158514649.html"
+      },
+      {
+        "id": "SRC-0673",
+        "kind": "Source",
+        "title": "India TV, 6 January 2025",
+        "state": null,
+        "url": "https://www.indiatvnews.com/bihar/news-prashant-kishor-sent-to-14-day-judiciary-custody-after-he-refuses-to-accept-bail-bpsc-exam-row-2025-01-06-969840"
+      },
+      {
+        "id": "SRC-0674",
+        "kind": "Source",
+        "title": "Bar & Bench, 6 January 2025",
+        "state": null,
+        "url": "https://www.barandbench.com/news/bpsc-protest-patna-court-grants-unconditional-bail-prashant-kishor"
+      },
+      {
+        "id": "SRC-0675",
+        "kind": "Source",
+        "title": "The Hindu, 7 January 2025",
+        "state": null,
+        "url": "https://www.thehindu.com/news/national/bihar/prashant-kishor-hospitalised-says-his-fast-unto-death-will-continue/article69071585.ece"
+      },
+      {
+        "id": "SRC-0676",
+        "kind": "Source",
+        "title": "LiveLaw, 7 January 2025",
+        "state": null,
+        "url": "https://www.livelaw.in/top-stories/bpsc-paper-leak-supreme-court-refuses-to-entertain-plea-challenging-bpsc-exam-asks-petitioner-to-approach-patna-hc-280200"
+      },
+      {
+        "id": "SRC-0677",
+        "kind": "Source",
+        "title": "Bhaskar English",
+        "state": null,
+        "url": "https://www.bhaskarenglish.in/national/news/sc-rejects-plea-over-alleged-malpractices-in-bpsc-exam-134252603.html"
+      },
+      {
+        "id": "SRC-0678",
+        "kind": "Source",
+        "title": "The Indian Express (Express News Service)",
+        "state": null,
+        "url": "https://indianexpress.com/article/cities/delhi/clashes-break-delhi-ramlila-maidan-ssc-aspirants-protest-irregularities-exams-detained-10209886/"
+      },
+      {
+        "id": "SRC-0679",
+        "kind": "Source",
+        "title": "The Times of India",
+        "state": null,
+        "url": "https://timesofindia.indiatimes.com/city/delhi/delhi-police-registers-case-after-ssc-protest-violates-peaceful-demonstration-undertaking/articleshow/123506148.cms"
+      },
+      {
+        "id": "SRC-0680",
+        "kind": "Source",
+        "title": "Newslaundry",
+        "state": null,
+        "url": "https://www.newslaundry.com/2025/08/26/ssc-protest-students-allege-teachers-ruined-movement"
+      },
+      {
+        "id": "SRC-0681",
+        "kind": "Source",
+        "title": "The Week (PTI wire)",
+        "state": null,
+        "url": "https://www.theweek.in/wire-updates/national/2025/08/25/des84-dl-ssc-aspirants.html"
+      },
+      {
+        "id": "SRC-0682",
+        "kind": "Source",
+        "title": "BW Police World",
+        "state": null,
+        "url": "https://www.bwpoliceworld.com/article/ssc-aspirants-protest-at-ramlila-maidan-40-detained-for-protesting-beyond-permitted-time-568715"
+      },
+      {
+        "id": "SRC-0683",
+        "kind": "Source",
+        "title": "The Hindu (PTI)",
+        "state": null,
+        "url": "https://www.thehindu.com/news/cities/Delhi/opposition-parties-slam-delhi-police-for-using-force-against-ssc-aspirants-police-deny-charge/article69974186.ece"
+      },
+      {
+        "id": "SRC-0684",
+        "kind": "Source",
+        "title": "Business Standard (PTI)",
+        "state": null,
+        "url": "https://www.business-standard.com/india-news/political-parties-slam-delhi-police-for-using-force-against-ssc-aspirants-125082500335_1.html"
+      },
+      {
+        "id": "SRC-0685",
+        "kind": "Source",
+        "title": "ANI post on X, 25 August 2025 15:21 UTC",
+        "state": null,
+        "url": "https://x.com/ANI/status/1959999541756735569"
+      },
+      {
+        "id": "SRC-0686",
+        "kind": "Source",
+        "title": "The Logical Indian",
+        "state": null,
+        "url": "https://thelogicalindian.com/delhi-police-detain-44-amid-alleged-lathi-charge-on-1500-ssc-aspirants-at-ramlila-maidan/"
+      },
+      {
+        "id": "SRC-0687",
+        "kind": "Source",
+        "title": "The Week (PTI wire)",
+        "state": null,
+        "url": "https://www.theweek.in/wire-updates/national/2025/08/25/des96-dl-ssc-protest-police.html"
+      },
+      {
+        "id": "SRC-0688",
+        "kind": "Source",
+        "title": "Free Press Journal",
+        "state": null,
+        "url": "https://www.freepressjournal.in/amp/education/over-15000-ssc-aspirants-protest-at-delhis-ramlila-maidan-against-exam-mismanagement-many-students-detained"
+      },
+      {
+        "id": "SRC-0689",
+        "kind": "Source",
+        "title": "The Hindu (PTI), 10 November 2025, updated 4:39 pm IST",
+        "state": null,
+        "url": "https://www.thehindu.com/news/national/chandigarh/pu-protests-heavy-police-deployment-made-as-university-braces-for-shutdown/article70261873.ece"
+      },
+      {
+        "id": "SRC-0690",
+        "kind": "Source",
+        "title": "The Indian Express, Jagpreet Singh Sandhu, 11 November 2025",
+        "state": null,
+        "url": "https://indianexpress.com/article/cities/chandigarh/protest-in-pu-students-break-through-barricades-scale-entry-gate-as-stir-intensifies-10358337/"
+      },
+      {
+        "id": "SRC-0691",
+        "kind": "Source",
+        "title": "The Tribune, Deepankar Sharda and Tribune News Service, updated 11 November 2025",
+        "state": null,
+        "url": "https://www.tribuneindia.com/news/chandigarh/tension-as-cops-use-mild-force"
+      },
+      {
+        "id": "SRC-0692",
+        "kind": "Source",
+        "title": "The Times of India (TNN), Akashdeep Virk, 10 November 2025, 13:10 IST",
+        "state": null,
+        "url": "https://timesofindia.indiatimes.com/city/chandigarh/protesters-breach-gate-no-1-at-panjab-university-over-2000-storm-inside/articleshow/125218349.cms"
+      },
+      {
+        "id": "SRC-0693",
+        "kind": "Source",
+        "title": "LiveLaw, 18 November 2025",
+        "state": null,
+        "url": "https://www.livelaw.in/high-court/punjab-and-haryana-high-court/punjab-haryana-high-court-panjab-university-students-focus-should-be-on-education-academics-cant-be-compromised-for-political-aspirations-310382"
+      },
+      {
+        "id": "SRC-0694",
+        "kind": "Source",
+        "title": "The Tribune, Sheetal, Tribune News Service, updated 11 November 2025",
+        "state": null,
+        "url": "https://www.tribuneindia.com/news/chandigarh/police-struggle-to-contain-violent-protest"
+      },
+      {
+        "id": "SRC-0695",
+        "kind": "Source",
+        "title": "The Tribune, Nitin Jain and Tribune News Service, updated 11 November 2025",
+        "state": null,
+        "url": "https://www.tribuneindia.com/news/chandigarh/campus-stormed-pu-on-the-boil/"
+      },
+      {
+        "id": "SRC-0696",
+        "kind": "Source",
+        "title": "Hindustan Herald, Herald Desk, 10 November 2025",
+        "state": null,
+        "url": "https://hindustanherald.in/panjab-university-protest-senate-elections-chaos-chandigarh/"
+      },
+      {
+        "id": "SRC-0697",
+        "kind": "Source",
+        "title": "Hindustan Times, HT Correspondent, 17 November 2025",
+        "state": null,
+        "url": "https://www.hindustantimes.com/cities/chandigarh-news/panjab-university-bachao-morcha-november-10-protest-police-book-unidentified-protesters-for-attacking-cops-101763321284964.html"
+      },
+      {
+        "id": "SRC-0698",
+        "kind": "Source",
+        "title": "The Tribune live blog, 10 November 2025",
+        "state": null,
+        "url": "https://www.tribuneindia.com/live-blog/chandigarh/panjab-university-live-protesters-storm-varsity-clash-with-chandigarh-police-amid-pu-bandh"
+      },
+      {
+        "id": "SRC-0699",
+        "kind": "Source",
+        "title": "The Tribune, Tribune News Service, updated 17 November 2025",
+        "state": null,
+        "url": "https://www.tribuneindia.com/news/chandigarh/fir-against-unidentified-outsiders-students-for-nov-10-violence-at-pu"
+      },
+      {
+        "id": "SRC-0700",
+        "kind": "Source",
+        "title": "Careers360 (PTI-based), 10 November 2025",
+        "state": null,
+        "url": "https://news.careers360.com/panjab-university-protests-senate-elections-heavy-police-deployment-on-pu-campus-ahead-of-shutdown"
+      },
+      {
+        "id": "SRC-0701",
+        "kind": "Source",
+        "title": "The Tribune, 24 January 2026",
+        "state": null,
+        "url": "https://www.tribuneindia.com/news/chandigarh/pil-filed-in-high-court-for-banning-outsiders-to-hold-protests-in-panjab-university/"
+      },
+      {
+        "id": "SRC-0702",
+        "kind": "Source",
+        "title": "The Tribune, Nitin Jain and Tribune News Service, updated 29 November 2025",
+        "state": null,
+        "url": "https://www.tribuneindia.com/news/chandigarh/27-day-pu-dharna-ends-in-fateh"
+      }
+    ],
+    "removed": [],
+    "changed": [],
+    "summary": "749 records added"
+  },
+  {
     "commit": "f98f53aed9",
     "date": "2026-10-10T09:00:36Z",
     "subject": "Add twelve more cases (2014 to 2026) as INC-0016 to INC-0027",
