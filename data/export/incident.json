@@ -669,5 +669,170 @@
     "date": "15 to 20 June 2022",
     "dateState": "CORROBORATED",
     "summary": null
+  },
+  {
+    "id": "INC-0062",
+    "kind": "Incident",
+    "title": "Water cannon and detentions at the HRD Ministry after Rohith Vemula's death",
+    "state": "CORROBORATED",
+    "url": "https://www.whogavetheorder.in/investigation.html?id=hrd-ministry-january-2016",
+    "place": "Shastri Bhawan, New Delhi",
+    "date": "18, 22 and 27 January 2016",
+    "dateState": "CORROBORATED",
+    "summary": null
+  },
+  {
+    "id": "INC-0063",
+    "kind": "Incident",
+    "title": "Lathicharge on students marching to the RSS office at Jhandewalan",
+    "state": "CORROBORATED",
+    "url": "https://www.whogavetheorder.in/investigation.html?id=jhandewalan-march-january-2016",
+    "place": "Jhandewalan, New Delhi",
+    "date": "30 January 2016",
+    "dateState": "CORROBORATED",
+    "summary": null
+  },
+  {
+    "id": "INC-0064",
+    "kind": "Incident",
+    "title": "Police baton charge on SFI protesters at Burdwan University",
+    "state": "CORROBORATED",
+    "url": "https://www.whogavetheorder.in/investigation.html?id=burdwan-university-february-2016",
+    "place": "Burdwan University, Rajbati, West Bengal",
+    "date": "23 February 2016",
+    "dateState": "CORROBORATED",
+    "summary": null
+  },
+  {
+    "id": "INC-0065",
+    "kind": "Incident",
+    "title": "Lathicharge on outstation students at NIT Srinagar",
+    "state": "CORROBORATED",
+    "url": "https://www.whogavetheorder.in/investigation.html?id=nit-srinagar-april-2016",
+    "place": "NIT Srinagar campus, Hazratbal, Srinagar",
+    "date": "5 April 2016",
+    "dateState": "CORROBORATED",
+    "summary": null
+  },
+  {
+    "id": "INC-0066",
+    "kind": "Incident",
+    "title": "JNU students detained over the missing student Najeeb Ahmed",
+    "state": "CORROBORATED",
+    "url": "https://www.whogavetheorder.in/investigation.html?id=jnu-home-ministry-march-october-2016",
+    "place": "Near the Home Ministry and Parliament Street, New Delhi",
+    "date": "21 October 2016, with related detentions on 28 October and 6 November",
+    "dateState": "CORROBORATED",
+    "summary": null
+  },
+  {
+    "id": "INC-0067",
+    "kind": "Incident",
+    "title": "Police detain civil services aspirants protesting the coaching-centre deaths",
+    "state": "CORROBORATED",
+    "url": "https://www.whogavetheorder.in/investigation.html?id=rajinder-nagar-protest-july-2024",
+    "place": "Old Rajinder Nagar and Karol Bagh Metro, New Delhi",
+    "date": "28 to 31 July 2024",
+    "dateState": "CORROBORATED",
+    "summary": null
+  },
+  {
+    "id": "INC-0068",
+    "kind": "Incident",
+    "title": "Tear gas on students marching to Raj Bhavan, Imphal",
+    "state": "CORROBORATED",
+    "url": "https://www.whogavetheorder.in/investigation.html?id=manipur-students-march-september-2024",
+    "place": "BT Road near Congress Bhavan, Imphal",
+    "date": "10 September 2024",
+    "dateState": "CORROBORATED",
+    "summary": null
+  },
+  {
+    "id": "INC-0069",
+    "kind": "Incident",
+    "title": "Lathicharge and detentions of Group-1 aspirants at Ashok Nagar",
+    "state": "CORROBORATED",
+    "url": "https://www.whogavetheorder.in/investigation.html?id=tgpsc-group-1-aspirants-october-2024",
+    "place": "Ashok Nagar, Hyderabad",
+    "date": "18 to 20 October 2024",
+    "dateState": "CORROBORATED",
+    "summary": null
+  },
+  {
+    "id": "INC-0070",
+    "kind": "Incident",
+    "title": "Police action on UPPSC aspirants in Prayagraj",
+    "state": "CORROBORATED",
+    "url": "https://www.whogavetheorder.in/investigation.html?id=uppsc-aspirants-november-2024",
+    "place": "UPPSC office, Prayagraj",
+    "date": "11 to 14 November 2024",
+    "dateState": "CORROBORATED",
+    "summary": null
+  },
+  {
+    "id": "INC-0071",
+    "kind": "Incident",
+    "title": "Lathicharge on JSSC CGL candidates in Ranchi",
+    "state": "CORROBORATED",
+    "url": "https://www.whogavetheorder.in/investigation.html?id=ranchi-jssc-protest-december-2024",
+    "place": "Namkum, Ranchi, near the JSSC office",
+    "date": "16 December 2024",
+    "dateState": "CORROBORATED",
+    "summary": null
+  },
+  {
+    "id": "INC-0072",
+    "kind": "Incident",
+    "title": "Students detained and arrested after the JNU long march to the Education Ministry",
+    "state": "CORROBORATED",
+    "url": "https://www.whogavetheorder.in/investigation.html?id=jnu-long-march-february-2026",
+    "place": "JNU North Gate and Vasant Kunj, New Delhi",
+    "date": "26 February 2026",
+    "dateState": "CORROBORATED",
+    "summary": null
+  },
+  {
+    "id": "INC-0073",
+    "kind": "Incident",
+    "title": "Students detained while protesting an RSS event at Ambedkar College",
+    "state": "CORROBORATED",
+    "url": "https://www.whogavetheorder.in/investigation.html?id=ambedkar-college-april-2026",
+    "place": "Dr. B R Ambedkar College, University of Delhi, Delhi",
+    "date": "13 April 2026",
+    "dateState": "CORROBORATED",
+    "summary": null
+  },
+  {
+    "id": "INC-0074",
+    "kind": "Incident",
+    "title": "Water cannon, lathicharge and tear gas on aspirants marching to the Jharkhand Assembly",
+    "state": "CORROBORATED",
+    "url": "https://www.whogavetheorder.in/investigation.html?id=ranchi-aspirants-august-2026",
+    "place": "Near the Jharkhand Assembly, Ranchi",
+    "date": "10 August 2026",
+    "dateState": "CORROBORATED",
+    "summary": null
+  },
+  {
+    "id": "INC-0075",
+    "kind": "Incident",
+    "title": "Water cannon and lathicharge on SFI marches in Thiruvananthapuram and Palakkad",
+    "state": "CORROBORATED",
+    "url": "https://www.whogavetheorder.in/investigation.html?id=sfi-kerala-september-2026",
+    "place": "Kerala University, Palayam, the Secretariat in Thiruvananthapuram, and Palakkad",
+    "date": "1 and 2 September 2026",
+    "dateState": "CORROBORATED",
+    "summary": null
+  },
+  {
+    "id": "INC-0076",
+    "kind": "Incident",
+    "title": "Lathicharge after a highway blockade by Lovely Professional University students",
+    "state": "CORROBORATED",
+    "url": "https://www.whogavetheorder.in/investigation.html?id=lpu-phagwara-september-2026",
+    "place": "Lovely Professional University and NH-44, Phagwara",
+    "date": "27 September 2026",
+    "dateState": "CORROBORATED",
+    "summary": null
   }
 ]

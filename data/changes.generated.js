@@ -5,6 +5,1864 @@ window.WGO = window.WGO || {};
 
 WGO.changes = [
   {
+    "commit": "fc817c5756",
+    "date": "2026-10-10T10:11:06Z",
+    "subject": "Add 13 incidents from 2014, 2015 and 2022 with 152 evidence items",
+    "added": [
+      {
+        "id": "INC-0049",
+        "kind": "Incident",
+        "title": "Police water cannon on ABVP and NSUI students at Delhi University",
+        "state": "CORROBORATED",
+        "url": "investigation.html?id=du-vc-office-june-2014"
+      },
+      {
+        "id": "INC-0050",
+        "kind": "Incident",
+        "title": "Police action against UPSC CSAT protesters in Delhi",
+        "state": "CORROBORATED",
+        "url": "investigation.html?id=upsc-csat-july-2014"
+      },
+      {
+        "id": "INC-0051",
+        "kind": "Incident",
+        "title": "Lathicharge and water cannon on the SFI march to the Vidhan Sabha",
+        "state": "CORROBORATED",
+        "url": "investigation.html?id=sfi-shimla-march-2015"
+      },
+      {
+        "id": "INC-0052",
+        "kind": "Incident",
+        "title": "Police action on University of Kashmir students protesting a classmate's arrest",
+        "state": "CORROBORATED",
+        "url": "investigation.html?id=kashmir-university-june-2015"
+      },
+      {
+        "id": "INC-0053",
+        "kind": "Incident",
+        "title": "Lathicharge on Presidency College students demanding union elections",
+        "state": "CORROBORATED",
+        "url": "investigation.html?id=presidency-college-october-2015"
+      },
+      {
+        "id": "INC-0054",
+        "kind": "Incident",
+        "title": "Baton charge on students protesting offline board exams",
+        "state": "CORROBORATED",
+        "url": "investigation.html?id=board-exam-protests-january-2022"
+      },
+      {
+        "id": "INC-0055",
+        "kind": "Incident",
+        "title": "Lathi charge on protesting students at Bangalore University",
+        "state": "CORROBORATED",
+        "url": "investigation.html?id=bangalore-university-january-2022"
+      },
+      {
+        "id": "INC-0056",
+        "kind": "Incident",
+        "title": "Lathicharge and tear gas at hijab-dispute protests in Karnataka",
+        "state": "CORROBORATED",
+        "url": "investigation.html?id=karnataka-hijab-protests-february-2022"
+      },
+      {
+        "id": "INC-0057",
+        "kind": "Incident",
+        "title": "Police stop Aliah University students marching after a student leader's death",
+        "state": "CORROBORATED",
+        "url": "investigation.html?id=aliah-university-february-2022"
+      },
+      {
+        "id": "INC-0058",
+        "kind": "Incident",
+        "title": "Police detain students protesting offline exams at Delhi University",
+        "state": "CORROBORATED",
+        "url": "investigation.html?id=du-sol-april-2022"
+      },
+      {
+        "id": "INC-0059",
+        "kind": "Incident",
+        "title": "Students detained outside Delhi Police headquarters after the JNU Kaveri Hostel clash",
+        "state": "CORROBORATED",
+        "url": "investigation.html?id=jnu-detentions-april-2022"
+      },
+      {
+        "id": "INC-0060",
+        "kind": "Incident",
+        "title": "Police stop Panjab University students marching to Punjab Raj Bhavan",
+        "state": "CORROBORATED",
+        "url": "investigation.html?id=panjab-university-june-2022"
+      },
+      {
+        "id": "INC-0061",
+        "kind": "Incident",
+        "title": "Police action against Agnipath protesters in Bihar and Uttar Pradesh",
+        "state": "CORROBORATED",
+        "url": "investigation.html?id=agnipath-bihar-up-june-2022"
+      },
+      {
+        "id": "HIST-FYUP14-001",
+        "kind": "Evidence",
+        "title": "On Saturday 21 June 2014, during an Academic Council meeting at Delhi University, ABVP and NSUI students who marched to the Vice-Chancellor's office in North Ca",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-FYUP14-001"
+      },
+      {
+        "id": "HIST-FYUP14-002",
+        "kind": "Evidence",
+        "title": "Injuries on 21 June 2014: Deccan Herald reports two ABVP and four NSUI members injured, so six in total; The Indian Express reports 'a few' ABVP members injured",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-FYUP14-002"
+      },
+      {
+        "id": "HIST-FYUP14-003",
+        "kind": "Evidence",
+        "title": "Five ABVP members were detained by Delhi Police on 21 June 2014. Deccan Herald states it as its own report; The Indian Express attributes the figure to ABVP pre",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-FYUP14-003"
+      },
+      {
+        "id": "HIST-FYUP14-004",
+        "kind": "Evidence",
+        "title": "Allegation about who requested the force, 21 June 2014: ABVP Delhi state secretary Saket Bahuguna told IANS 'The administration asked police to do this', and NS",
+        "state": "UNVERIFIED",
+        "url": "evidence.html?id=HIST-FYUP14-004"
+      },
+      {
+        "id": "HIST-FYUP14-005",
+        "kind": "Evidence",
+        "title": "Deccan Herald reports that on 21 June 2014 'cops videotaped every negotiation, a call for peaceful march, with the student and teacher groups to keep as evidenc",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-FYUP14-005"
+      },
+      {
+        "id": "HIST-FYUP14-006",
+        "kind": "Evidence",
+        "title": "On Thursday 26 June 2014, about 25 to 30 AISA students were detained near Central Secretariat metro station in Delhi around 11:30 AM as they tried to march to R",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-FYUP14-006"
+      },
+      {
+        "id": "HIST-FYUP14-007",
+        "kind": "Evidence",
+        "title": "On 26 June 2014 ABVP, INSO and KYS members held demonstrations outside Vice-Chancellor Dinesh Singh's residence demanding FYUP rollback; police presence was inc",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-FYUP14-007"
+      },
+      {
+        "id": "HIST-FYUP14-008",
+        "kind": "Evidence",
+        "title": "Records to request for 21 June 2014: Delhi Police control-room and PCR logs, any deployment order and requisition for the water cannon, the Station House Office",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-FYUP14-008"
+      },
+      {
+        "id": "HIST-FYUP14-009",
+        "kind": "Evidence",
+        "title": "Records to request for 26 June 2014: the prohibitory order covering the Central Secretariat / Rashtrapati Bhavan area (issuing officer, section, date), the dete",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-FYUP14-009"
+      },
+      {
+        "id": "HIST-CSAT14-001",
+        "kind": "Evidence",
+        "title": "On the evening of 24 July 2014, about 700 civil services aspirants gathered on National Highway 1 between Gandhi Vihar and Wazirabad in north Delhi. Delhi Polic",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-CSAT14-001"
+      },
+      {
+        "id": "HIST-CSAT14-002",
+        "kind": "Evidence",
+        "title": "Delhi Police say they lobbed tear gas shells to disperse aspirants on NH-1 on the night of 24 July 2014. This is the Tribune's report of the police account, not",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-CSAT14-002"
+      },
+      {
+        "id": "HIST-CSAT14-003",
+        "kind": "Evidence",
+        "title": "Aspirants and members of the Rajya Sabha alleged that police lathicharged students on the night of 24 July 2014. An aspirant told the Tribune that police stoppe",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-CSAT14-003"
+      },
+      {
+        "id": "HIST-CSAT14-004",
+        "kind": "Evidence",
+        "title": "On 26 July 2014 the Aam Aadmi Party released photographs of students it said were injured in Mukherjee Nagar on the night of 24 July and demanded a judicial pro",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-CSAT14-004"
+      },
+      {
+        "id": "HIST-CSAT14-005",
+        "kind": "Evidence",
+        "title": "A case was registered at Timarpur police station in north Delhi under unspecified Indian Penal Code sections over the violence of 24 July 2014. Gulf News report",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-CSAT14-005"
+      },
+      {
+        "id": "HIST-CSAT14-006",
+        "kind": "Evidence",
+        "title": "On 25 July 2014, police detained civil services aspirants who tried to march to Parliament against the CSAT. Additional Commissioner of Police (New Delhi Distri",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-CSAT14-006"
+      },
+      {
+        "id": "HIST-CSAT14-007",
+        "kind": "Evidence",
+        "title": "Sources differ on how many aspirants were detained on 25 July 2014: the Tribune reports 'more than 200' and an Additional Commissioner of Police's figure of 235",
+        "state": "DISPUTED",
+        "url": "evidence.html?id=HIST-CSAT14-007"
+      },
+      {
+        "id": "HIST-CSAT14-008",
+        "kind": "Evidence",
+        "title": "Detained aspirants alleged on 25 July 2014 that police beat them; Additional CP Tyagi denied it. One detained aspirant told reporters they were taken to the pol",
+        "state": "DISPUTED",
+        "url": "evidence.html?id=HIST-CSAT14-008"
+      },
+      {
+        "id": "HIST-CSAT14-009",
+        "kind": "Evidence",
+        "title": "The Tribune reports, in its own voice and not as a quotation, that the 25 July 2014 marchers 'had violated Section 144 of the Code of Criminal Procedure by marc",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-CSAT14-009"
+      },
+      {
+        "id": "HIST-CSAT14-010",
+        "kind": "Evidence",
+        "title": "On 25 July 2014 the Rajya Sabha was disrupted over the CSAT. Minister of State Jitendra Singh made a statement in the House that the three-member committee shou",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-CSAT14-010"
+      },
+      {
+        "id": "HIST-CSAT14-011",
+        "kind": "Evidence",
+        "title": "On 28 July 2014 aspirants protested outside the UPSC office; police put up barricades and took protesters away in a bus. IANS says police detained 'about 40' an",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-CSAT14-011"
+      },
+      {
+        "id": "HIST-CSAT14-012",
+        "kind": "Evidence",
+        "title": "IANS reports that on 28 July 2014 police used water cannons to disperse aspirants outside the UPSC office before detaining about 40. The PTI report in the Tribu",
+        "state": "DISPUTED",
+        "url": "evidence.html?id=HIST-CSAT14-012"
+      },
+      {
+        "id": "HIST-CSAT14-013",
+        "kind": "Evidence",
+        "title": "On 30 July 2014 in the Rajya Sabha, Sharad Yadav said that children who had been on hunger strike had been 'picked up' by the government side. The Official Repo",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-CSAT14-013"
+      },
+      {
+        "id": "HIST-CSAT14-014",
+        "kind": "Evidence",
+        "title": "Adjacent events outside the 24 to 28 July window. Deccan Herald (published 2 August 2014) reports that a 22-year-old Manipuri youth was beaten with batons by tw",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-CSAT14-014"
+      },
+      {
+        "id": "HIST-CSAT14-015",
+        "kind": "Evidence",
+        "title": "Lead outside the window: Oneindia (15 July 2014) says 'several civil services aspirants' were lathi charged by Delhi Police the day before for protesting agains",
+        "state": "UNVERIFIED",
+        "url": "evidence.html?id=HIST-CSAT14-015"
+      },
+      {
+        "id": "HIST-CSAT14-016",
+        "kind": "Evidence",
+        "title": "Who ordered what is not established. No source read names the officer who ordered the crackdown on 24 July, the Section 144 order or its issuer on 25 July, the ",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-CSAT14-016"
+      },
+      {
+        "id": "HIST-CSAT14-017",
+        "kind": "Evidence",
+        "title": "Parliament question or answer on police action against CSAT protesters in July to August 2014: none found.",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-CSAT14-017"
+      },
+      {
+        "id": "HIST-SHM15-001",
+        "kind": "Evidence",
+        "title": "On 18 March 2015 SFI activists protesting against RUSA, a fee hike and the deferment of Students Central Association elections marched from Panchayat Bhawan to ",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-SHM15-001"
+      },
+      {
+        "id": "HIST-SHM15-002",
+        "kind": "Evidence",
+        "title": "The Tribune reported 24 people injured, including policemen and students, and one fire tender damaged. Police said six police personnel, including a woman const",
+        "state": "DISPUTED",
+        "url": "evidence.html?id=HIST-SHM15-002"
+      },
+      {
+        "id": "HIST-SHM15-003",
+        "kind": "Evidence",
+        "title": "Police registered a case of rioting and damage to public property under IPC sections 147, 148, 149, 109, 188, 353 and 352 and Section 3 of the Prevention of Dam",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-SHM15-003"
+      },
+      {
+        "id": "HIST-SHM15-004",
+        "kind": "Evidence",
+        "title": "Six SFI activists, including state president Puneet Dhanta, were arrested on charges of rioting and lawlessness, and a Shimla court rejected their bail on Frida",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-SHM15-004"
+      },
+      {
+        "id": "HIST-SHM15-005",
+        "kind": "Evidence",
+        "title": "The CPI(M) says police broke into its Himachal state office in Shimla about three hours after the clash, taking away staff and SFI national president Sivadasan,",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-SHM15-005"
+      },
+      {
+        "id": "HIST-SHM15-006",
+        "kind": "Evidence",
+        "title": "The CPI(M) names three police officers, a DSP Shimla, an SHO of Boileauganj and an ASI, with about 30 policemen some in plain clothes, as leading the entry into",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-SHM15-006"
+      },
+      {
+        "id": "HIST-SHM15-007",
+        "kind": "Evidence",
+        "title": "The CPI(M) said Chief Minister Virbhadra Singh claimed the students met him at 10 am carrying stones in their bags and pelted police afterwards; the party calle",
+        "state": "UNVERIFIED",
+        "url": "evidence.html?id=HIST-SHM15-007"
+      },
+      {
+        "id": "HIST-SHM15-008",
+        "kind": "Evidence",
+        "title": "The CPI(M) state committee demanded a judicial inquiry by a sitting High Court judge, rejecting a magisterial inquiry, and sought action against named police of",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-SHM15-008"
+      },
+      {
+        "id": "HIST-SHM15-009",
+        "kind": "Evidence",
+        "title": "The CPI(M) leader and Shimla Deputy Mayor Tikender Singh Panwar, quoted by the Tribune, said the police attack on party activists in the office was 'at the behe",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-SHM15-009"
+      },
+      {
+        "id": "HIST-SHM15-010",
+        "kind": "Evidence",
+        "title": "UNKNOWN: who gave the order for the lathi charge and water cannon, whether permission or a prohibitory order covered the Vidhan Sabha march, and who authorised ",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-SHM15-010"
+      },
+      {
+        "id": "HIST-KU15-001",
+        "kind": "Evidence",
+        "title": "On 25 June 2015 a protest at the University of Kashmir, Srinagar, over the arrest of an English Department student turned violent and police fired aerial shots ",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-KU15-001"
+      },
+      {
+        "id": "HIST-KU15-002",
+        "kind": "Evidence",
+        "title": "Police said the arrested student (named in the sources, and not named here), was arrested for links with militants and was wanted in a case under FIR number 90 ",
+        "state": "DISPUTED",
+        "url": "evidence.html?id=HIST-KU15-002"
+      },
+      {
+        "id": "HIST-KU15-003",
+        "kind": "Evidence",
+        "title": "A lawyers' body (the Kashmir Bar, per Kashmir Life) alleged that the vice-chancellor permitted the university police to fire gunshots in the air and let them be",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-KU15-003"
+      },
+      {
+        "id": "HIST-KU15-004",
+        "kind": "Evidence",
+        "title": "The university's official handout, quoted by the Tribune, says the vice-chancellor took up the matter with the state Chief Secretary, the Director General of Po",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-KU15-004"
+      },
+      {
+        "id": "HIST-KU15-005",
+        "kind": "Evidence",
+        "title": "Students alleged to the Tribune that there was firing inside the campus and that the university authorities looked on; a member of the Kashmir University Studen",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-KU15-005"
+      },
+      {
+        "id": "HIST-KU15-006",
+        "kind": "Evidence",
+        "title": "A student participant told Scroll the students had gathered peacefully outside the vice-chancellor's office and that the situation turned violent when 'the secu",
+        "state": "DISPUTED",
+        "url": "evidence.html?id=HIST-KU15-006"
+      },
+      {
+        "id": "HIST-KU15-007",
+        "kind": "Evidence",
+        "title": "SP Hazratbal Rayees Bhat visited the campus on 25 June to pacify the students, according to the Tribune; his efforts did not succeed. Police separately said the",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-KU15-007"
+      },
+      {
+        "id": "HIST-KU15-008",
+        "kind": "Evidence",
+        "title": "The university suspended class work till 27 June and asked hostellers to leave; Scroll reports gates locked on Friday 26 June with hundreds of policemen outside",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-KU15-008"
+      },
+      {
+        "id": "HIST-KU15-009",
+        "kind": "Evidence",
+        "title": "Kashmir Life reports the Kashmir lawyers' body condemned police use of force against KU students and demanded immediate release of the arrested student.",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-KU15-009"
+      },
+      {
+        "id": "HIST-KU15-010",
+        "kind": "Evidence",
+        "title": "Following the Thursday events, Srinagar observed a complete shutdown on Saturday 27 June 2015 against alleged police atrocities at Jamia Masjid and Kashmir Univ",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-KU15-010"
+      },
+      {
+        "id": "HIST-KU15-011",
+        "kind": "Evidence",
+        "title": "No permission or prohibitory order (Section 144 / CrPC), no named order-giver for the use of force, no FIR over the campus clash, no inquiry, NHRC or court reco",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-KU15-011"
+      },
+      {
+        "id": "HIST-PCC15-001",
+        "kind": "Evidence",
+        "title": "Police lathicharged students of Presidency College, Chennai, on Monday 12 October 2015 on Kamarajar Salai, after a protest demanding college union elections. De",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-PCC15-001"
+      },
+      {
+        "id": "HIST-PCC15-002",
+        "kind": "Evidence",
+        "title": "Injury count is disputed: Deccan Chronicle reports 'according to students as many as 20' were injured and treated at Government Stanley Hospital; The News Minut",
+        "state": "DISPUTED",
+        "url": "evidence.html?id=HIST-PCC15-002"
+      },
+      {
+        "id": "HIST-PCC15-003",
+        "kind": "Evidence",
+        "title": "Deccan Chronicle reports students stoned an MTC bus and a police patrol vehicle, damaging them, and 'allegedly assaulting police personnel'; police say a traffi",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-PCC15-003"
+      },
+      {
+        "id": "HIST-PCC15-004",
+        "kind": "Evidence",
+        "title": "Triplicane Assistant Commissioner M. Peer Mohammed said on record: 'We had to use minimum required force to control the situation.'",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-PCC15-004"
+      },
+      {
+        "id": "HIST-PCC15-005",
+        "kind": "Evidence",
+        "title": "Arrests: a senior police officer, unnamed, said 'Two post graduate students were arrested. A few others are likely to be arrested.' Police booked students under",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-PCC15-005"
+      },
+      {
+        "id": "HIST-PCC15-006",
+        "kind": "Evidence",
+        "title": "The protest arose from a demand for student union elections. Per Deccan Chronicle, students said they had demanded elections since August and held silent protes",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-PCC15-006"
+      },
+      {
+        "id": "HIST-PCC15-007",
+        "kind": "Evidence",
+        "title": "The News Minute, citing the New Indian Express, reports the Presidency College management had been avoiding elections despite the Lyngdoh committee recommendati",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-PCC15-007"
+      },
+      {
+        "id": "HIST-PCC15-008",
+        "kind": "Evidence",
+        "title": "Whether the principal or college management called the police: neither source says so. Deccan Chronicle reports the college declared a holiday and closed the ga",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-PCC15-008"
+      },
+      {
+        "id": "HIST-PCC15-009",
+        "kind": "Evidence",
+        "title": "Records to request: FIR and charge sheet (Triplicane or the local station), Greater Chennai Police control-room log and deployment orders for 12 October 2015, S",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-PCC15-009"
+      },
+      {
+        "id": "HIST-BRD22-001",
+        "kind": "Evidence",
+        "title": "On 31 January 2022 hundreds of students, described as Class 10 and 12 students, protested at Ashok Mill Naka in Dharavi, Mumbai, near the residence of School Ed",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-BRD22-001"
+      },
+      {
+        "id": "HIST-BRD22-002",
+        "kind": "Evidence",
+        "title": "Police said the students had no permission to protest and had gathered from Mumbai, Thane and Nashik on information shared on social media. DailyO reports the p",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-BRD22-002"
+      },
+      {
+        "id": "HIST-BRD22-003",
+        "kind": "Evidence",
+        "title": "Injuries and detentions. An officer told PTI/FPJ: 'No student was injured in the lathicharge. Some of them were brought to the local police station and released",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-BRD22-003"
+      },
+      {
+        "id": "HIST-BRD22-004",
+        "kind": "Evidence",
+        "title": "DCP Zone V, Mumbai, Pranay Ashok, said on the day: 'We tried convincing & dispersing them' (ANI post, 31 January 2022, as embedded by Careers360), and 'The acti",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-BRD22-004"
+      },
+      {
+        "id": "HIST-BRD22-005",
+        "kind": "Evidence",
+        "title": "An FIR was registered at Dharavi police station against YouTuber Vikas Fhatak ('Hindustani Bhau') and others, and he and one other man were arrested on 1 Februa",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-BRD22-005"
+      },
+      {
+        "id": "HIST-BRD22-006",
+        "kind": "Evidence",
+        "title": "Maharashtra Home Minister Dilip Walse Patil ordered a police inquiry into the 31 January protests. FPJ: he 'had ordered an inquiry by the police department'. Ca",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-BRD22-006"
+      },
+      {
+        "id": "HIST-BRD22-007",
+        "kind": "Evidence",
+        "title": "In Nagpur around 100 students protested near a mall at Medical Square on 31 January 2022. DCP (Zone 4) Gajanan Rajmane said windshields of a city bus and a scho",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-BRD22-007"
+      },
+      {
+        "id": "HIST-BRD22-008",
+        "kind": "Evidence",
+        "title": "Opposition leader Pravin Darekar (Leader of the Opposition in the state legislative council) criticised the police lathicharge on protesting students and said t",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-BRD22-008"
+      },
+      {
+        "id": "HIST-BRD22-009",
+        "kind": "Evidence",
+        "title": "Vikas Fhatak was produced before a Bandra magistrate court and remanded to police custody; the Dharavi police prosecutor Prasad Joshi called him a habitual offe",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-BRD22-009"
+      },
+      {
+        "id": "HIST-BRD22-010",
+        "kind": "Evidence",
+        "title": "UNKNOWN: who ordered or authorised the baton charge at Ashok Mill Naka. No page read names an order-giver; the only named officers are DCP Zone V Pranay Ashok (",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-BRD22-010"
+      },
+      {
+        "id": "HIST-BRD22-011",
+        "kind": "Evidence",
+        "title": "UNKNOWN: outcome of the Home Minister's ordered inquiry. No page read reports the findings, whether a report was submitted, or any action against police or orga",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-BRD22-011"
+      },
+      {
+        "id": "HIST-BU22-001",
+        "kind": "Evidence",
+        "title": "On the morning of Monday 31 January 2022, Bengaluru city police used lathis on protesting students at the Jnanabharathi campus of Bangalore University. Deccan H",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-BU22-001"
+      },
+      {
+        "id": "HIST-BU22-002",
+        "kind": "Evidence",
+        "title": "Two student groups were protesting at the campus. The ABVP protested delay in issuing marks cards, which Deccan Herald described as almost two years. The Bangal",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-BU22-002"
+      },
+      {
+        "id": "HIST-BU22-003",
+        "kind": "Evidence",
+        "title": "Deccan Herald quoted ABVP member Tejas Reddy: 'There was another protest led by a different students' organisation and they wanted us to call off our protests. ",
+        "state": "DISPUTED",
+        "url": "evidence.html?id=HIST-BU22-003"
+      },
+      {
+        "id": "HIST-BU22-004",
+        "kind": "Evidence",
+        "title": "Deccan Herald reported student leaders as saying several students, especially women, were severely hurt and hospitalised, and that one female student was bleedi",
+        "state": "DISPUTED",
+        "url": "evidence.html?id=HIST-BU22-004"
+      },
+      {
+        "id": "HIST-BU22-005",
+        "kind": "Evidence",
+        "title": "Police said none of the groups had sought the permission required to hold a protest. BW reported police saying they tried to convince ABVP members to leave, off",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-BU22-005"
+      },
+      {
+        "id": "HIST-BU22-006",
+        "kind": "Evidence",
+        "title": "On Tuesday 1 February 2022 about 300 students gathered near the administrative block to condemn the lathicharge, and submitted a memorandum to the vice-chancell",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-BU22-006"
+      },
+      {
+        "id": "HIST-BU22-007",
+        "kind": "Evidence",
+        "title": "ABVP's Bengaluru regional secretary Bhuvan Gowda said, as quoted by Deccan Herald: 'Instead of considering such demands, the vice-chancellor instigated the poli",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-BU22-007"
+      },
+      {
+        "id": "HIST-BU22-008",
+        "kind": "Evidence",
+        "title": "SabrangIndia's December 2022 compilation of ABVP-related incidents includes this event, repeating the Deccan Herald wording that police used violence to control",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-BU22-008"
+      },
+      {
+        "id": "HIST-BU22-009",
+        "kind": "Evidence",
+        "title": "No source read names who ordered or authorised the lathi charge at the campus. The only attributed claim is ABVP's allegation against the vice-chancellor. Polic",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-BU22-009"
+      },
+      {
+        "id": "HIST-HJB22-001",
+        "kind": "Evidence",
+        "title": "On 8 February 2022, police in Shivamogga city lathi-charged protesters after stone-pelting at and near the Government First Grade College, Bapujinagar, during t",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-HJB22-001"
+      },
+      {
+        "id": "HIST-HJB22-002",
+        "kind": "Evidence",
+        "title": "Shivamogga SP B M Laxmi Prasad said on record, as quoted by The Quint from ANI, that 'Some outside elements pelted stones, we'll be making arrest very shortly',",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-HJB22-002"
+      },
+      {
+        "id": "HIST-HJB22-003",
+        "kind": "Evidence",
+        "title": "The Quint reported that eight students were detained in Shimoga and 'as many as 20 people' in total were detained on 8 February 2022, and that Section 144 CrPC ",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-HJB22-003"
+      },
+      {
+        "id": "HIST-HJB22-004",
+        "kind": "Evidence",
+        "title": "Prohibitory orders under Section 144 CrPC were put in force in Shivamogga city for 8 and 9 February 2022, banning assembly of five or more people in public plac",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-HJB22-004"
+      },
+      {
+        "id": "HIST-HJB22-005",
+        "kind": "Evidence",
+        "title": "Davanagere district police fired tear gas shells and carried out a baton charge at the Harihar First Grade College campus on 8 February 2022, and Section 144 wa",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-HJB22-005"
+      },
+      {
+        "id": "HIST-HJB22-006",
+        "kind": "Evidence",
+        "title": "Deccan Herald reported that Davanagere SP C B Rishyanth and in-charge IGP (Eastern Range) N Satheesh Kumar inspected the Harihar college on Wednesday 9 February",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-HJB22-006"
+      },
+      {
+        "id": "HIST-HJB22-007",
+        "kind": "Evidence",
+        "title": "Bagalkot district (Banhatti / Rabakavibanahatti, Government Pre-University College): two groups of students threw stones at each other on 8 February 2022. Wheth",
+        "state": "DISPUTED",
+        "url": "evidence.html?id=HIST-HJB22-007"
+      },
+      {
+        "id": "HIST-HJB22-008",
+        "kind": "Evidence",
+        "title": "The Quint reported that 'As many as 18 students were detained in Raichur' amid the 8 February 2022 demonstrations.",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-HJB22-008"
+      },
+      {
+        "id": "HIST-HJB22-009",
+        "kind": "Evidence",
+        "title": "Bengaluru Police Commissioner Kamal Pant, signing as 'Commissioner of Police and Additional District Magistrate, Bengaluru City', issued an order under Section ",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-HJB22-009"
+      },
+      {
+        "id": "HIST-HJB22-010",
+        "kind": "Evidence",
+        "title": "Commissioner Kamal Pant extended the Bengaluru 200-metre prohibitory order by an order dated Monday 7 March 2022, to 22 March 2022.",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-HJB22-010"
+      },
+      {
+        "id": "HIST-HJB22-011",
+        "kind": "Evidence",
+        "title": "The Karnataka government's Advocate General told the High Court on 10 February 2022 that there were counter-agitations by students seeking entry in saffron and ",
+        "state": "VERIFIED",
+        "url": "evidence.html?id=HIST-HJB22-011"
+      },
+      {
+        "id": "HIST-HJB22-012",
+        "kind": "Evidence",
+        "title": "On 10 February 2022 a three-judge Special Bench of the Karnataka High Court (Chief Justice and two judges, initials CJ, KSDJ, JMKJ on the order) requested the S",
+        "state": "VERIFIED",
+        "url": "evidence.html?id=HIST-HJB22-012"
+      },
+      {
+        "id": "HIST-HJB22-013",
+        "kind": "Evidence",
+        "title": "No fetched source names who ordered the lathi-charges in Shivamogga, the tear gas and baton charge at Harihar, or the Raichur detentions, and none names the mag",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-HJB22-013"
+      },
+      {
+        "id": "HIST-ALU22-001",
+        "kind": "Evidence",
+        "title": "On 19 February 2022 about 500 Aliah University students marching with candles from the campus towards Entally were stopped at a police barricade near Padmapukur",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-ALU22-001"
+      },
+      {
+        "id": "HIST-ALU22-002",
+        "kind": "Evidence",
+        "title": "On 22 February 2022 Aliah University students marching from Park Circus towards Writers' Buildings were stopped by police barricades on College Street. PTI repo",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-ALU22-002"
+      },
+      {
+        "id": "HIST-ALU22-003",
+        "kind": "Evidence",
+        "title": "Students were detained on 22 February 2022 after the College Street clash. PTI: 'Police said some of the activists were detained.' BOOM says they were released ",
+        "state": "DISPUTED",
+        "url": "evidence.html?id=HIST-ALU22-003"
+      },
+      {
+        "id": "HIST-ALU22-004",
+        "kind": "Evidence",
+        "title": "eNewsroom reports that students re-routed through Moulali, Sealdah and Rajabazar to College Street, where police stopped them again, and that Jadavpur Universit",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-ALU22-004"
+      },
+      {
+        "id": "HIST-ALU22-005",
+        "kind": "Evidence",
+        "title": "Official statements on record: after the 19 February clash a police officer told PTI the situation was 'quickly brought under control' and the police 'asserted ",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-ALU22-005"
+      },
+      {
+        "id": "HIST-ALU22-006",
+        "kind": "Evidence",
+        "title": "The state government set up a special investigation team after the death, on the chief minister's direction, headed by CID ADG Gyanwant Singh. On 22 February it",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-ALU22-006"
+      },
+      {
+        "id": "HIST-ALU22-007",
+        "kind": "Evidence",
+        "title": "No source read states who ordered or authorised the police action on 19 or 22 February, whether permission or a prohibitory order covered the march, or whether ",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-ALU22-007"
+      },
+      {
+        "id": "HIST-ALU22-008",
+        "kind": "Evidence",
+        "title": "On 21 February 2022 Justice Rajasekhar Mantha of the Calcutta High Court took suo motu cognisance of the alleged murder of Anis Khan after an oral plea, called ",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-ALU22-008"
+      },
+      {
+        "id": "HIST-ALU22-009",
+        "kind": "Evidence",
+        "title": "On 21 June 2022 the High Court refused to transfer the investigation to the CBI, noting the SIT 'itself has implicated some police officials in its investigatio",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-ALU22-009"
+      },
+      {
+        "id": "HIST-ALU22-010",
+        "kind": "Evidence",
+        "title": "Records still to request: Kolkata Police control-room log and deployment order for 22 February 2022 on College Street; any permission or refusal for the Park Ci",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-ALU22-010"
+      },
+      {
+        "id": "HIST-SOL22-001",
+        "kind": "Evidence",
+        "title": "On Monday 4 April 2022 students from several student bodies, including School of Open Learning students, protested outside the Arts Faculty on the Delhi Univers",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-SOL22-001"
+      },
+      {
+        "id": "HIST-SOL22-002",
+        "kind": "Evidence",
+        "title": "Police detained protesters on 4 April 2022. PTI quotes a senior police officer: 'Some of them were taken to the police station. The protesters will be released ",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-SOL22-002"
+      },
+      {
+        "id": "HIST-SOL22-003",
+        "kind": "Evidence",
+        "title": "Total number detained on 4 April 2022 (and any later detentions on 6 April) is not stated in any source read.",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-SOL22-003"
+      },
+      {
+        "id": "HIST-SOL22-004",
+        "kind": "Evidence",
+        "title": "A police case was registered after the 4 April 2022 protest. The Quint reports that 'a case was registered against five students under Section 188 of the Indian",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-SOL22-004"
+      },
+      {
+        "id": "HIST-SOL22-005",
+        "kind": "Evidence",
+        "title": "The Quint reports that on Monday 4 April a case under IPC Section 188 was registered against five students.",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-SOL22-005"
+      },
+      {
+        "id": "HIST-SOL22-006",
+        "kind": "Evidence",
+        "title": "Force is disputed. KYS activist Bhim Kumar said: 'Police initiated violence against us. KYS activists and SOL students were manhandled, assaulted and detained b",
+        "state": "DISPUTED",
+        "url": "evidence.html?id=HIST-SOL22-006"
+      },
+      {
+        "id": "HIST-SOL22-007",
+        "kind": "Evidence",
+        "title": "PTI quotes a senior police officer on 4 April 2022: 'The protesters were creating chaos all over the place outside the arts faculty causing inconvenience and ob",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-SOL22-007"
+      },
+      {
+        "id": "HIST-SOL22-008",
+        "kind": "Evidence",
+        "title": "Who called the police to the Arts Faculty on 4 April 2022 is not stated in any source read. Delhi University's proctor, Rajni Abbi, said in an advisory reported",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-SOL22-008"
+      },
+      {
+        "id": "HIST-SOL22-009",
+        "kind": "Evidence",
+        "title": "Earlier, on the SOL premises (not the Arts Faculty), SOL Officiating Principal Uma Shankar Pandey wrote to police in late February 2022 asking them to act on a ",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-SOL22-009"
+      },
+      {
+        "id": "HIST-SOL22-010",
+        "kind": "Evidence",
+        "title": "After the protest, a video reported by The Quint on 7 April 2022 showed three students demanding offline open-book exams. One said he was being harassed by the ",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-SOL22-010"
+      },
+      {
+        "id": "HIST-SOL22-011",
+        "kind": "Evidence",
+        "title": "Request records: FIR and its section(s) for the 4 April 2022 case; detention memos and release time; daily diary entries; any Section 144 or other prohibitory o",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-SOL22-011"
+      },
+      {
+        "id": "HIST-JNU22-001",
+        "kind": "Evidence",
+        "title": "On 11 April 2022 AISA-affiliated JNU students protested near Delhi Police headquarters on Jai Singh Road, New Delhi, demanding arrests after the 10 April clash ",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-JNU22-001"
+      },
+      {
+        "id": "HIST-JNU22-002",
+        "kind": "Evidence",
+        "title": "Detention counts conflict. The Quint says police said 70 people were detained across Tughlak Road, Chanakyapuri and Parliament Street police stations. Careers36",
+        "state": "DISPUTED",
+        "url": "evidence.html?id=HIST-JNU22-002"
+      },
+      {
+        "id": "HIST-JNU22-003",
+        "kind": "Evidence",
+        "title": "The Quint reports police saying AISA members gathered around Jai Singh Road against the mandate of Section 144 CrPC in force in the area, did not leave when ask",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-JNU22-003"
+      },
+      {
+        "id": "HIST-JNU22-004",
+        "kind": "Evidence",
+        "title": "The Quint reports police said a case under IPC Sections 188 and 323 was being registered over the protest, and that the detainees were released later.",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-JNU22-004"
+      },
+      {
+        "id": "HIST-JNU22-005",
+        "kind": "Evidence",
+        "title": "The Quint reports the CRPF was called in to contain the situation at the protest.",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-JNU22-005"
+      },
+      {
+        "id": "HIST-JNU22-006",
+        "kind": "Evidence",
+        "title": "AISA activists alleged that women protesters were manhandled by male security personnel, their clothes pulled, and several injured by Delhi Police; the group sa",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-JNU22-006"
+      },
+      {
+        "id": "HIST-JNU22-007",
+        "kind": "Evidence",
+        "title": "AISA president N Sai Balaji said the protest at police headquarters was to ensure accountability by Delhi Police, and Dhatri, an MA sociology student, said the ",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-JNU22-007"
+      },
+      {
+        "id": "HIST-JNU22-008",
+        "kind": "Evidence",
+        "title": "Delhi Police registered an FIR against unidentified ABVP students on a complaint by JNUSU, SFI, DSF and AISA members, under IPC 323, 341, 509 and 34 (Oneindia a",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-JNU22-008"
+      },
+      {
+        "id": "HIST-JNU22-009",
+        "kind": "Evidence",
+        "title": "The 10 April 2022 clash at Kaveri Hostel, JNU, over non-vegetarian food on Ram Navami injured six students according to police; JNUSU blamed ABVP and ABVP blame",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-JNU22-009"
+      },
+      {
+        "id": "HIST-JNU22-010",
+        "kind": "Evidence",
+        "title": "Section 144 order: the issuing officer and post, date, validity and area of the order cited by police for Jai Singh Road on 11 April 2022 are not established.",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-JNU22-010"
+      },
+      {
+        "id": "HIST-JNU22-011",
+        "kind": "Evidence",
+        "title": "Delhi High Court or other court record of the 11 April 2022 detentions or Section 188 case.",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-JNU22-011"
+      },
+      {
+        "id": "HIST-PU22-001",
+        "kind": "Evidence",
+        "title": "Around nine student organisations from Punjab, including PSU-Lalkaar, PSU (Shaheed Randhawa), SFI and Students For Society, gathered at Amb Sahib Gurdwara in Ph",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-PU22-001"
+      },
+      {
+        "id": "HIST-PU22-002",
+        "kind": "Evidence",
+        "title": "Students alleged police used lathicharge at the barricades near the YPS roundabout, leaving several injured (Hindustan Times). Careers360 states without qualifi",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-PU22-002"
+      },
+      {
+        "id": "HIST-PU22-003",
+        "kind": "Evidence",
+        "title": "Injuries: PSU-Lalkaar's Aman told HT 'A female student also fell unconscious and was taken to the hospital'. Student leader Amandeep Kaur (PSU Lalkaar) told Car",
+        "state": "DISPUTED",
+        "url": "evidence.html?id=HIST-PU22-003"
+      },
+      {
+        "id": "HIST-PU22-004",
+        "kind": "Evidence",
+        "title": "DSP (City 1) Sukhnaaz Singh told Hindustan Times there was no lathicharge at the YPS roundabout: 'Police only stopped the students from entering Chandigarh. Pol",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-PU22-004"
+      },
+      {
+        "id": "HIST-PU22-005",
+        "kind": "Evidence",
+        "title": "Which force acted is disputed. HT says students were stopped at the YPS roundabout 'with the help of barricades' and, after crossing them, 'were stopped by Chan",
+        "state": "DISPUTED",
+        "url": "evidence.html?id=HIST-PU22-005"
+      },
+      {
+        "id": "HIST-PU22-006",
+        "kind": "Evidence",
+        "title": "Memorandum and meeting: PSU Lalkaar's Amandeep Kaur said the students gave a memorandum to a central government official, that Punjab Police officials took the ",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-PU22-006"
+      },
+      {
+        "id": "HIST-PU22-007",
+        "kind": "Evidence",
+        "title": "Political reaction: the Shiromani Akali Dal on Friday 10 June condemned the 'alleged lathicharge' and asked the Union government to withdraw the proposal; Livew",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-PU22-007"
+      },
+      {
+        "id": "HIST-PU22-008",
+        "kind": "Evidence",
+        "title": "Permission and prohibitory orders: no source read says whether permission for the march was sought or refused, whether any Section 144 or CrPC order covered the",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-PU22-008"
+      },
+      {
+        "id": "HIST-PU22-009",
+        "kind": "Evidence",
+        "title": "FIR or case: no FIR against or by the students was found in any source read.",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-PU22-009"
+      },
+      {
+        "id": "HIST-PU22-010",
+        "kind": "Evidence",
+        "title": "Named order-giver: no source read names any officer, SSP, DGP, minister or civil authority as having ordered or authorised force against the marchers. The Chand",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-PU22-010"
+      },
+      {
+        "id": "HIST-AGP22-001",
+        "kind": "Evidence",
+        "title": "On 16 June 2022, the second day of protests in Bihar against the Agnipath recruitment scheme, police fired tear gas shells and charged with batons to disperse y",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-AGP22-001"
+      },
+      {
+        "id": "HIST-AGP22-002",
+        "kind": "Evidence",
+        "title": "ETV Bharat reported that sixteen people were arrested for vandalism at Arrah railway station on Thursday 16 June 2022 and that police had registered cases again",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-AGP22-002"
+      },
+      {
+        "id": "HIST-AGP22-003",
+        "kind": "Evidence",
+        "title": "On 17 June 2022 in Ballia, youths described as protesting against Agnipath set an empty train on fire and vandalised others, and police used lathis. PTI reporte",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-AGP22-003"
+      },
+      {
+        "id": "HIST-AGP22-004",
+        "kind": "Evidence",
+        "title": "On Sunday 19 June 2022 in Bhadohi, UP, police 'resorted to lathicharge to disperse protesters and arrested four youths'. SHO Gopiganj Brijesh Kumar Singh said 3",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-AGP22-004"
+      },
+      {
+        "id": "HIST-AGP22-005",
+        "kind": "Evidence",
+        "title": "Bihar police arrest and FIR counts rose over the week. On 17 June ADG (Law and Order) Sanjay Singh told ANI 24 cases and more than 125 detained. On 18 June he t",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-AGP22-005"
+      },
+      {
+        "id": "HIST-AGP22-006",
+        "kind": "Evidence",
+        "title": "Bihar's Additional Chief Home Secretary Chaitanya Prasad said those targeting public property would not be spared and, per Scroll, 'District police have been di",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-AGP22-006"
+      },
+      {
+        "id": "HIST-AGP22-007",
+        "kind": "Evidence",
+        "title": "Sanjay Singh, Bihar ADG (Law and Order), told ANI on 17 June 2022, as Scroll reports it, that the violence took place because some anti-social elements had ente",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-AGP22-007"
+      },
+      {
+        "id": "HIST-AGP22-008",
+        "kind": "Evidence",
+        "title": "Bihar's Home Department ordered internet suspension in 12 districts (Kaimur, Bhojpur, Aurangabad, Rohtas, Buxar, Nawada, West Champaran, Samastipur, Lakhisarai,",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-AGP22-008"
+      },
+      {
+        "id": "HIST-AGP22-009",
+        "kind": "Evidence",
+        "title": "Patna's district magistrate, Chandrashekhar Singh, said the alleged role of 7 to 8 coaching centres in provoking violence was being ascertained from WhatsApp me",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-AGP22-009"
+      },
+      {
+        "id": "HIST-AGP22-010",
+        "kind": "Evidence",
+        "title": "UP state figures reported on Sunday 19 June 2022: 387 arrested across 11 districts, 34 FIRs in 14 districts, and 145 of the 387 arrested as a preventive measure",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-AGP22-010"
+      },
+      {
+        "id": "HIST-AGP22-011",
+        "kind": "Evidence",
+        "title": "On Monday 20 June 2022 a senior UP police officer said 39 cases had been lodged and 475 people arrested, 330 of them under serious sections, for protesting agai",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-AGP22-011"
+      },
+      {
+        "id": "HIST-AGP22-012",
+        "kind": "Evidence",
+        "title": "UP ADG (Law and Order) Prashant Kumar said police 'had acted with sensitivity up to the time only students were involved in the agitation', but took 'a strong v",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-AGP22-012"
+      },
+      {
+        "id": "HIST-AGP22-013",
+        "kind": "Evidence",
+        "title": "Saharanpur SSP Akash Tomar said five people arrested on 19 June 2022 were all above 25 and connected to different political parties and that 'Posing as Army asp",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-AGP22-013"
+      },
+      {
+        "id": "HIST-AGP22-014",
+        "kind": "Evidence",
+        "title": "Protesters, described as Army job aspirants, set trains on fire, attacked the house of Deputy CM Renu Devi and BJP state president Sanjay Jaiswal in Bettiah, an",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-AGP22-014"
+      },
+      {
+        "id": "HIST-AGP22-015",
+        "kind": "Evidence",
+        "title": "The sources call those protesting 'Army job aspirants', 'youths', 'agitated aspirants' and, for UP, 'students'. Bihar's opposition leader Tejashwi Yadav describ",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-AGP22-015"
+      },
+      {
+        "id": "HIST-AGP22-016",
+        "kind": "Evidence",
+        "title": "Lt Gen Anil Puri of the Department of Military Affairs said on 19 June 2022 'Everyone who aspires to join Agnipath will give an undertaking that they have not t",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-AGP22-016"
+      },
+      {
+        "id": "HIST-AGP22-017",
+        "kind": "Evidence",
+        "title": "The Patna High Court, bench of Chief Justice Sanjay Karol and Justice S Kumar, dismissed on 1 July 2022 a PIL seeking recovery of damages from agitators and cri",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-AGP22-017"
+      },
+      {
+        "id": "HIST-AGP22-018",
+        "kind": "Evidence",
+        "title": "Railways Minister Ashwini Vaishnaw's written reply in the Lok Sabha, reported on Wednesday 20 July 2022, said two people died, 35 were injured and 2,642 were ar",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-AGP22-018"
+      },
+      {
+        "id": "HIST-AGP22-019",
+        "kind": "Evidence",
+        "title": "Record to request: Bihar Home Department internet suspension order (12 districts, later 20), district magistrates' prohibitory orders under Section 144 CrPC or ",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-AGP22-019"
+      },
+      {
+        "id": "HIST-AGP22-020",
+        "kind": "Evidence",
+        "title": "Record to request: Ballia SP and DM logs and the instruction behind the 17 June lathi-charge; the 34 to 39 FIRs; the Section 151 CrPC arrest list and magistrate",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-AGP22-020"
+      },
+      {
+        "id": "HIST-AGP22-021",
+        "kind": "Evidence",
+        "title": "Records to check: Supreme Court order of July 2022 transferring pending Agnipath PILs from High Courts including Patna to the Delhi High Court; any Rajya Sabha ",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-AGP22-021"
+      },
+      {
+        "id": "SRC-0742",
+        "kind": "Source",
+        "title": "ummid.com, 21 June 2014 (IANS copy, 'Violent protest against Delhi University's four-year programme')",
+        "state": null,
+        "url": "https://www.ummid.com/news/2014/June/21.06.2014/du-violence.html"
+      },
+      {
+        "id": "SRC-0743",
+        "kind": "Source",
+        "title": "Deccan Herald (DHNS), 21 June 2014, 19:58 IST (article text read from the page's embedded articleBody field)",
+        "state": null,
+        "url": "https://www.deccanherald.com/content/415178/six-anti-fyup-protesters-hurt.html"
+      },
+      {
+        "id": "SRC-0744",
+        "kind": "Source",
+        "title": "The Indian Express (Express News Service), 22 June 2014",
+        "state": null,
+        "url": "https://indianexpress.com/article/cities/delhi/fyup-faceoff-students-teachers-protest-at-du/"
+      },
+      {
+        "id": "SRC-0745",
+        "kind": "Source",
+        "title": "Business Standard, 26 June 2014, 9:12 PM IST ('FYUP issue: Over 25 protesting students detained')",
+        "state": null,
+        "url": "https://www.business-standard.com/article/pti-stories/fyup-issue-over-25-protesting-students-detained-114062601243_1.html"
+      },
+      {
+        "id": "SRC-0746",
+        "kind": "Source",
+        "title": "Hindustan Times, 26 June 2014 ('30 students detained after protest over FYUP row'; byline IANS / HT Correspondent)",
+        "state": null,
+        "url": "https://www.hindustantimes.com/delhi/30-students-detained-after-protest-over-fyup-row/story-8BrGdKkztynrjAzmDh4F5M.html"
+      },
+      {
+        "id": "SRC-0747",
+        "kind": "Source",
+        "title": "The Indian Express, 27 June 2014 (Shikha Sharma)",
+        "state": null,
+        "url": "https://indianexpress.com/article/cities/delhi/protests-continue-against-fyup-students-detained/"
+      },
+      {
+        "id": "SRC-0748",
+        "kind": "Source",
+        "title": "Business Standard, 26 June 2014, 3:53 PM IST",
+        "state": null,
+        "url": "https://www.business-standard.com/article/current-affairs/student-bodies-protest-against-fyup-outside-vc-residence-114062600632_1.html"
+      },
+      {
+        "id": "SRC-0749",
+        "kind": "Source",
+        "title": "The Tribune (Delhi edition), 26 July 2014, reports datelined New Delhi, July 25",
+        "state": null,
+        "url": "https://www.tribuneindia.com/2014/20140726/delhi.htm"
+      },
+      {
+        "id": "SRC-0750",
+        "kind": "Source",
+        "title": "Gulf News, 25 July 2014",
+        "state": null,
+        "url": "https://gulfnews.com/world/asia/india/civil-service-aspirants-wont-suffer-indian-government-1.1363940"
+      },
+      {
+        "id": "SRC-0751",
+        "kind": "Source",
+        "title": "Rajya Sabha Official Report, Vol. 232 No. 15, Friday 25 July 2014 (PDF read with pdftotext; Hindi text has spacing artefacts)",
+        "state": null,
+        "url": "https://cms.rajyasabha.nic.in/UploadedFiles/Debates/OfficialDebatesDatewise/Floor/232/F25.07.2014.pdf"
+      },
+      {
+        "id": "SRC-0752",
+        "kind": "Source",
+        "title": "The Tribune (Delhi edition), 27 July 2014, report 'CSAT row: AAP seeks judicial probe', New Delhi, July 26",
+        "state": null,
+        "url": "https://www.tribuneindia.com/2014/20140727/delhi.htm"
+      },
+      {
+        "id": "SRC-0753",
+        "kind": "Source",
+        "title": "Sambad English, 25 July 2014, 14:38 IST",
+        "state": null,
+        "url": "https://sambadenglish.com/protesting-upsc-aspirants-detained-delhi/"
+      },
+      {
+        "id": "SRC-0754",
+        "kind": "Source",
+        "title": "The News Minute, dated in text 28 July 2014 7.30 pm IST (page metadata shows 17 Jan 2015)",
+        "state": null,
+        "url": "https://www.thenewsminute.com/news/government-promises-resolve-upsc-issue-soon-25627"
+      },
+      {
+        "id": "SRC-0755",
+        "kind": "Source",
+        "title": "The Tribune (Nation page), 29 July 2014, 'UPSC row will be resolved soon: Govt', New Delhi/Lucknow, July 28",
+        "state": null,
+        "url": "https://www.tribuneindia.com/2014/20140729/nation.htm"
+      },
+      {
+        "id": "SRC-0756",
+        "kind": "Source",
+        "title": "Rajya Sabha Official Report, Vol. 232 No. 16, Wednesday 30 July 2014, 'Re. Need to solve UPSC's CSAT matter expeditiously', pp. 622-630",
+        "state": null,
+        "url": "https://cms.rajyasabha.nic.in/UploadedFiles/Debates/OfficialDebatesDatewise/Floor/232/F30.07.2014.pdf"
+      },
+      {
+        "id": "SRC-0757",
+        "kind": "Source",
+        "title": "Deccan Herald, published 2 August 2014 (structured-data date), about events of 'Thursday' and the 'late Wednesday' crackdown",
+        "state": null,
+        "url": "https://www.deccanherald.com/archives/mistaken-identity-cops-thrash-manipur-2202734"
+      },
+      {
+        "id": "SRC-0758",
+        "kind": "Source",
+        "title": "Oneindia, 15 July 2014, 17:09 IST",
+        "state": null,
+        "url": "https://www.oneindia.com/feature/activists-political-groups-protest-outside-upsc-1483250.html"
+      },
+      {
+        "id": "SRC-0759",
+        "kind": "Source",
+        "title": "The Tribune (Tribune News Service), Shimla, 18 March 2015, updated 19 March 2015",
+        "state": null,
+        "url": "https://www.tribuneindia.com/news/archive/features/24-hurt-in-cops-students-clash-near-vidhan-sabha-55499"
+      },
+      {
+        "id": "SRC-0760",
+        "kind": "Source",
+        "title": "The Peninsula (Qatar), 22 March 2015, page credited to The Indian Express",
+        "state": null,
+        "url": "https://thepeninsulaqatar.com/article/22/03/2015/they-treated-us-worse-than-animals"
+      },
+      {
+        "id": "SRC-0761",
+        "kind": "Source",
+        "title": "CPI(M) Polit Bureau statement, 18-19 March 2015 (party statement, one-sided)",
+        "state": null,
+        "url": "https://cpim.org/?p=4228"
+      },
+      {
+        "id": "SRC-0762",
+        "kind": "Source",
+        "title": "CPI(M) Himachal state committee memorandum to the Governor, 20 March 2015 (party document, one-sided)",
+        "state": null,
+        "url": "https://cpim.org/?p=4242"
+      },
+      {
+        "id": "SRC-0763",
+        "kind": "Source",
+        "title": "CPI(M) website, 19 March 2015 (party statement, one-sided)",
+        "state": null,
+        "url": "https://cpim.org/?p=4233"
+      },
+      {
+        "id": "SRC-0764",
+        "kind": "Source",
+        "title": "CPI(M) statement, 31 March 2015 (party statement, one-sided)",
+        "state": null,
+        "url": "https://cpim.org/?p=4257"
+      },
+      {
+        "id": "SRC-0765",
+        "kind": "Source",
+        "title": "The Tribune (Bismah Malik, Tribune News Service), 26 Jun 2015 (datelined Srinagar, June 25)",
+        "state": null,
+        "url": "https://www.tribuneindia.com/news/archive/education/protests-continue-in-kashmir-university-over-arrest-of-student-98620"
+      },
+      {
+        "id": "SRC-0766",
+        "kind": "Source",
+        "title": "Scroll.in (Fahad Shah), 27 Jun 2015",
+        "state": null,
+        "url": "https://scroll.in/article/737078/kashmir-university-locks-out-students-as-protests-against-yoga-day-snowball"
+      },
+      {
+        "id": "SRC-0767",
+        "kind": "Source",
+        "title": "Kashmir Life, 27 Jun 2015",
+        "state": null,
+        "url": "https://kashmirlife.net/srinagar-shuts-against-atrocities-in-jamia-masjid-ku-81355/"
+      },
+      {
+        "id": "SRC-0768",
+        "kind": "Source",
+        "title": "The Weekend Leader, 25 Jun 2015",
+        "state": null,
+        "url": "https://www.theweekendleader.com/Headlines/4681/protests-rock-kashmir-university-classes-suspended.html"
+      },
+      {
+        "id": "SRC-0769",
+        "kind": "Source",
+        "title": "Deccan Chronicle, 13 October 2015 (DC Correspondent)",
+        "state": null,
+        "url": "https://www.deccanchronicle.com/amp/151013/nation-current-affairs/article/chennai-policemen-lathicharge-students"
+      },
+      {
+        "id": "SRC-0770",
+        "kind": "Source",
+        "title": "The News Minute, 16 October 2015 (TNM Staff)",
+        "state": null,
+        "url": "https://www.thenewsminute.com/tamil-nadu/chennai-s-presidency-college-students-demand-elections-be-held-management-unwilling-35187"
+      },
+      {
+        "id": "SRC-0771",
+        "kind": "Source",
+        "title": "Careers360, 31 January 2022 (Press Trust of India copy)",
+        "state": null,
+        "url": "https://news.careers360.com/maharashtra-10th-12th-board-exams-students-protest-over-offline-exams-government-defends-decision"
+      },
+      {
+        "id": "SRC-0772",
+        "kind": "Source",
+        "title": "Free Press Journal, 31 January 2022",
+        "state": null,
+        "url": "https://www.freepressjournal.in/education/students-protest-near-maha-ministers-residence-against-class-x-xii-exams"
+      },
+      {
+        "id": "SRC-0773",
+        "kind": "Source",
+        "title": "The Tribune, 1 February 2022",
+        "state": null,
+        "url": "https://www.tribuneindia.com/news/nation/youtuber-hindustani-bhau-arrested-over-students-protest-near-maharashtra-ministers-residence-in-mumbai-366100"
+      },
+      {
+        "id": "SRC-0774",
+        "kind": "Source",
+        "title": "Careers360, 2 February 2022",
+        "state": null,
+        "url": "https://news.careers360.com/maharashtra-students-protest-against-offline-exams-for-class-10-12-story-so-far-cancel-demand-online-exam-varsha-gaikwad-mumbai-police"
+      },
+      {
+        "id": "SRC-0775",
+        "kind": "Source",
+        "title": "DailyO, 1 February 2022",
+        "state": null,
+        "url": "https://dailyo.in/variety/hindustani-bhau-arrested-35303"
+      },
+      {
+        "id": "SRC-0776",
+        "kind": "Source",
+        "title": "Business Today, 1 February 2022",
+        "state": null,
+        "url": "https://www.businesstoday.in/trending/story/youtuber-hindustani-bhau-arrested-for-instigating-students-321030-2022-02-01"
+      },
+      {
+        "id": "SRC-0777",
+        "kind": "Source",
+        "title": "SabrangIndia, early February 2022 (no dateline in fetched text)",
+        "state": null,
+        "url": "https://sabrangindia.in/maharashtra-students-demand-cancellation-physical-exams/"
+      },
+      {
+        "id": "SRC-0778",
+        "kind": "Source",
+        "title": "ETV Bharat, 17 February 2022",
+        "state": null,
+        "url": "https://www.etvbharat.com/english/bharat/hindustani-bhau-granted-bail-in-dharavi-students-protest-case/na20220217201408210"
+      },
+      {
+        "id": "SRC-0779",
+        "kind": "Source",
+        "title": "Deccan Herald, 31 January 2022",
+        "state": null,
+        "url": "https://www.deccanherald.com/india/karnataka/bengaluru/violence-at-bangalore-university-campus-many-hurt-as-police-lathi-charge-students-1076460.html"
+      },
+      {
+        "id": "SRC-0780",
+        "kind": "Source",
+        "title": "BW Police World, 1 February 2022",
+        "state": null,
+        "url": "https://www.bwpoliceworld.com/article/bengaluru-police-resorted-to-lathi-charge-during-student-protests-inside-bengaluru-univ-policemen-injured-419340"
+      },
+      {
+        "id": "SRC-0781",
+        "kind": "Source",
+        "title": "Deccan Herald, 2 February 2022",
+        "state": null,
+        "url": "https://www.deccanherald.com/india/karnataka/bengaluru/abvp-nsui-hold-protests-on-bangalore-university-campus-1077213.html"
+      },
+      {
+        "id": "SRC-0782",
+        "kind": "Source",
+        "title": "SabrangIndia, 13 December 2022",
+        "state": null,
+        "url": "https://sabrangindia.in/abvps-strong-arm-tactics-have-received-soft-touch-law-enforcement-indian-state-2014-2022/"
+      },
+      {
+        "id": "SRC-0783",
+        "kind": "Source",
+        "title": "The News Minute, 8 Feb 2022",
+        "state": null,
+        "url": "https://www.thenewsminute.com/article/protest-over-hijab-turn-violent-karnataka-stones-pelted-saffron-flag-hoisted-college-160740"
+      },
+      {
+        "id": "SRC-0784",
+        "kind": "Source",
+        "title": "National Herald (copy also on OrissaPOST), 8 Feb 2022",
+        "state": null,
+        "url": "https://www.nationalheraldindia.com/national/hijab-row-turns-violent-in-karnataka-stone-pelting-lathi-charge-incidents-reported"
+      },
+      {
+        "id": "SRC-0785",
+        "kind": "Source",
+        "title": "The Quint, Feb 2022",
+        "state": null,
+        "url": "https://www.thequint.com/news/india/hijab-row-saffron-flag-hoisted-in-karnataka-college"
+      },
+      {
+        "id": "SRC-0786",
+        "kind": "Source",
+        "title": "Deccan Herald, 8 Feb 2022",
+        "state": null,
+        "url": "https://www.deccanherald.com/india/karnataka/hijab-row-escalates-sec-144-in-shivamogga-after-students-hurl-stones-at-college-1079266.html"
+      },
+      {
+        "id": "SRC-0787",
+        "kind": "Source",
+        "title": "The News Minute, 8 Feb 2022",
+        "state": null,
+        "url": "https://www.thenewsminute.com/karnataka/section-144-protests-and-stone-pelting-10-developments-karnataka-hijab-row-160758"
+      },
+      {
+        "id": "SRC-0788",
+        "kind": "Source",
+        "title": "The Quint, Feb 2022",
+        "state": null,
+        "url": "https://www.thequint.com/news/india/karnataka-hijab-row-tear-gas-shells-fired-protestors-lathi-charged"
+      },
+      {
+        "id": "SRC-0789",
+        "kind": "Source",
+        "title": "Deccan Herald, 10 Feb 2022 (page lists no date in raw text; event 'Wednesday')",
+        "state": null,
+        "url": "https://www.deccanherald.com/india/karnataka/storekeeper-uploads-controversial-whatsapp-statusattacked-1079855.html"
+      },
+      {
+        "id": "SRC-0790",
+        "kind": "Source",
+        "title": "The News Minute, 9 Feb 2022",
+        "state": null,
+        "url": "https://www.thenewsminute.com/karnataka/bengaluru-police-impose-prohibitory-orders-near-schools-and-colleges-amid-hijab-row-160798"
+      },
+      {
+        "id": "SRC-0791",
+        "kind": "Source",
+        "title": "Deccan Herald, 9 Feb 2022",
+        "state": null,
+        "url": "https://www.deccanherald.com/city/bengaluru-gatherings-banned-within-200-metres-of-educational-institutions-1079953.html"
+      },
+      {
+        "id": "SRC-0792",
+        "kind": "Source",
+        "title": "The Quint, Mar 2022",
+        "state": null,
+        "url": "https://www.thequint.com/news/education/karnataka-hijab-row-prohibitory-orders-around-bengaluru-schools-colleges-extended-22-march"
+      },
+      {
+        "id": "SRC-0793",
+        "kind": "Source",
+        "title": "Karnataka High Court, order in WP 2347/2022 (Smt Resham v State of Karnataka), 10.02.2022, paragraph 6; PDF as hosted by Supreme Court Observer",
+        "state": null,
+        "url": "https://www.scobserver.in/wp-content/uploads/2022/02/Karnataka-High-Court-Interim-Order.pdf"
+      },
+      {
+        "id": "SRC-0794",
+        "kind": "Source",
+        "title": "Supreme Court Observer, Feb 2022",
+        "state": null,
+        "url": "https://www.scobserver.in/journal/karnatakas-hijab-ban-proceedings-at-the-high-court-and-the-interim-order/"
+      },
+      {
+        "id": "SRC-0795",
+        "kind": "Source",
+        "title": "Factly, Feb 2022",
+        "state": null,
+        "url": "https://factly.in/no-karnataka-high-court-did-not-pass-a-verdict-allowing-hijab-practice-in-educational-institutions"
+      },
+      {
+        "id": "SRC-0796",
+        "kind": "Source",
+        "title": "Careers360, 19 Feb 2022",
+        "state": null,
+        "url": "https://news.careers360.com/stir-over-student-leaders-death-in-kolkata-agitators-clash-cops/amp"
+      },
+      {
+        "id": "SRC-0797",
+        "kind": "Source",
+        "title": "EastMojo, 20 Feb 2022",
+        "state": null,
+        "url": "https://eastmojo.com/national-news/2022/02/20/sfi-to-organise-protests-across-bengal-over-mysterious-death-of-anti-caa-leader/"
+      },
+      {
+        "id": "SRC-0798",
+        "kind": "Source",
+        "title": "Sabrang India, 21 Feb 2022",
+        "state": null,
+        "url": "https://sabrangindia.in/kolkata-student-unions-protest-alleged-murder-activist-anis-khan/"
+      },
+      {
+        "id": "SRC-0799",
+        "kind": "Source",
+        "title": "The Tribune, 22 Feb 2022",
+        "state": null,
+        "url": "https://www.tribuneindia.com/news/nation/anish-khan-death-police-student-clash-in-kolkata-372098/"
+      },
+      {
+        "id": "SRC-0800",
+        "kind": "Source",
+        "title": "Outlook India, 22 Feb 2022",
+        "state": null,
+        "url": "https://outlookindia.com/national/anish-khan-death-police-student-clash-in-kolkata-news-183544"
+      },
+      {
+        "id": "SRC-0801",
+        "kind": "Source",
+        "title": "eNewsroom, 22 Feb 2022",
+        "state": null,
+        "url": "https://enewsroom.in/student-leader-anish-khan-murder-case-bengal"
+      },
+      {
+        "id": "SRC-0802",
+        "kind": "Source",
+        "title": "BOOM, Feb 2022",
+        "state": null,
+        "url": "https://boomlive.in/web-stories/anish-khan-kolkata-murder-student-protest-633"
+      },
+      {
+        "id": "SRC-0803",
+        "kind": "Source",
+        "title": "The Quint, updated 24 Feb 2022",
+        "state": null,
+        "url": "https://www.thequint.com/amp/story/news/india/the-case-of-west-bengal-student-activist-anish-khans-death"
+      },
+      {
+        "id": "SRC-0804",
+        "kind": "Source",
+        "title": "LiveLaw, 21 Feb 2022 (quotes the order)",
+        "state": null,
+        "url": "https://www.livelaw.in/amp/news-updates/alleged-murder-of-student-leader-anish-khan-calcutta-hc-initiates-suo-moto-proceedings-192459"
+      },
+      {
+        "id": "SRC-0805",
+        "kind": "Source",
+        "title": "EastMojo, 21 Feb 2022",
+        "state": null,
+        "url": "https://www.eastmojo.com/national-news/west-bengal/2022/02/21/plea-in-calcutta-hc-in-student-leader-anish-khan-death-case/"
+      },
+      {
+        "id": "SRC-0806",
+        "kind": "Source",
+        "title": "LiveLaw, 21 Jun 2022 (quotes the order)",
+        "state": null,
+        "url": "https://www.livelaw.in/amp/news-updates/anis-khan-death-calcutta-high-court-refuses-cbi-probe-201977"
+      },
+      {
+        "id": "SRC-0807",
+        "kind": "Source",
+        "title": "Careers360 (Press Trust of India), 4 April 2022",
+        "state": null,
+        "url": "https://news.careers360.com/delhi-university-du-students-ask-authorities-hold-final-year-exams-in-online-exams-likely-in-may-june"
+      },
+      {
+        "id": "SRC-0808",
+        "kind": "Source",
+        "title": "The Quint, 7 April 2022",
+        "state": null,
+        "url": "https://www.thequint.com/news/india/delhi-university-students-allege-harassment-political-pressure-offline-exams-demand"
+      },
+      {
+        "id": "SRC-0809",
+        "kind": "Source",
+        "title": "DU Beat, 4 April 2022 (quotes an AISA press release)",
+        "state": null,
+        "url": "https://dubeat.com/2022/04/04/protest-for-obe-police-violently-hauls-the-students/"
+      },
+      {
+        "id": "SRC-0810",
+        "kind": "Source",
+        "title": "Careers360 (Press Trust of India), 8 April 2022",
+        "state": null,
+        "url": "https://news.careers360.com/delhi-university-du-advises-students-maintain-law-and-order-focus-on-exam-preparation"
+      },
+      {
+        "id": "SRC-0811",
+        "kind": "Source",
+        "title": "Careers360 (Press Trust of India), 6 April 2022",
+        "state": null,
+        "url": "https://news.careers360.com/manhandled-by-delhi-police-du-delhi-university-students-protesting-against-offline-exams-allege-police-denies"
+      },
+      {
+        "id": "SRC-0812",
+        "kind": "Source",
+        "title": "Careers360 (Press Trust of India), 2 March 2022",
+        "state": null,
+        "url": "https://news.careers360.com/du-school-of-open-learning-prohibits-protests-outside-campus-says-demonstrations-disturbing-academic-activities"
+      },
+      {
+        "id": "SRC-0813",
+        "kind": "Source",
+        "title": "The Quint, 11 April 2022",
+        "state": null,
+        "url": "https://thequint.com/news/india/students-protest-over-jnu-violence-in-delhi-lucknow-detained"
+      },
+      {
+        "id": "SRC-0814",
+        "kind": "Source",
+        "title": "Careers360, 11 April 2022 (PTI-style copy)",
+        "state": null,
+        "url": "https://news.careers360.com/jnu-violence-20-aisa-members-detained-for-protesting-about-jnu-scuffle-jnusu-abvp-over-non-veg-food"
+      },
+      {
+        "id": "SRC-0815",
+        "kind": "Source",
+        "title": "National Herald, 11 April 2022",
+        "state": null,
+        "url": "https://www.nationalheraldindia.com/amp/story/national/jnu-students-detained-for-protesting-ram-navami-violence-over-non-veg-food"
+      },
+      {
+        "id": "SRC-0816",
+        "kind": "Source",
+        "title": "Deccan Herald, 11 April 2022",
+        "state": null,
+        "url": "https://www.deccanherald.com/amp/story/india%2Fjnu-students-protest-near-delhi-police-headquarters-1099740.html"
+      },
+      {
+        "id": "SRC-0817",
+        "kind": "Source",
+        "title": "DT Next, 11 April 2022",
+        "state": null,
+        "url": "https://www.dtnext.in/news/national/jnu-students-protest-near-delhi-police-headquarters"
+      },
+      {
+        "id": "SRC-0818",
+        "kind": "Source",
+        "title": "Oneindia, 11 April 2022",
+        "state": null,
+        "url": "https://www.oneindia.com/india/jnu-violence-fir-against-unknown-abvp-students-3394545.html"
+      },
+      {
+        "id": "SRC-0819",
+        "kind": "Source",
+        "title": "Hindustan Times (Chandigarh), 10 Jun 2022",
+        "state": null,
+        "url": "https://www.hindustantimes.com/cities/chandigarh-news/central-status-for-pu-protesting-students-allege-lathicharge-by-police-101654808735312.html"
+      },
+      {
+        "id": "SRC-0820",
+        "kind": "Source",
+        "title": "Careers360, 10 Jun 2022",
+        "state": null,
+        "url": "https://news.careers360.com/savepufromcentre-panjab-university-students-protest-against-conversion-central-university"
+      },
+      {
+        "id": "SRC-0821",
+        "kind": "Source",
+        "title": "The Wire Livewire, 27 Jun 2022 (by Kusum Arora)",
+        "state": null,
+        "url": "https://livewire.thewire.in/livewire/teachers-pay-parity-row-central-university-status-panjab-university/"
+      },
+      {
+        "id": "SRC-0822",
+        "kind": "Source",
+        "title": "Hindustan Times (Chandigarh), 11 Jun 2022",
+        "state": null,
+        "url": "https://www.hindustantimes.com/cities/chandigarh-news/sad-warns-of-agitation-against-move-for-central-status-to-pu-101654890580538.html"
+      },
+      {
+        "id": "SRC-0823",
+        "kind": "Source",
+        "title": "Careers360, 16 Jun 2022",
+        "state": null,
+        "url": "https://news.careers360.com/agnipath-scheme-protests-sparked-turn-violent-in-bihar-trains-set-afire-bjp-mla-injured/amp"
+      },
+      {
+        "id": "SRC-0824",
+        "kind": "Source",
+        "title": "Deccan Chronicle, 16 Jun 2022",
+        "state": null,
+        "url": "https://deccanchronicle.com/nation/crime/160622/violent-protests-in-bihar-over-agnipath-scheme.html"
+      },
+      {
+        "id": "SRC-0825",
+        "kind": "Source",
+        "title": "ETV Bharat, 17 Jun 2022",
+        "state": null,
+        "url": "https://etvbharat.com/english/bharat/day-3-of-agnipath-protests/na20220617092855538538620"
+      },
+      {
+        "id": "SRC-0826",
+        "kind": "Source",
+        "title": "Careers360, 17 Jun 2022",
+        "state": null,
+        "url": "https://news.careers360.com/agnipath-scheme-protesters-set-empty-train-on-fire-vandalise-railway-station-in-ups-ballia/amp"
+      },
+      {
+        "id": "SRC-0827",
+        "kind": "Source",
+        "title": "Morung Express, 17 Jun 2022",
+        "state": null,
+        "url": "https://mail.morungexpress.com/agnipath-protest-spreads-train-coach-torched-buses-vandalised"
+      },
+      {
+        "id": "SRC-0828",
+        "kind": "Source",
+        "title": "The Tribune, 20 Jun 2022 (dated 19 Jun)",
+        "state": null,
+        "url": "https://www.tribuneindia.com/news/nation/387-arrested-so-far-in-up-as-protests-over-agnipath-continue-405252"
+      },
+      {
+        "id": "SRC-0829",
+        "kind": "Source",
+        "title": "Scroll.in, 17 Jun 2022 (updated), citing ANI and Hindustan Times",
+        "state": null,
+        "url": "https://scroll.in/latest/1026366/violent-protests-against-agnipath-scheme-enters-third-day-trains-set-on-fire-in-bihar-and-up"
+      },
+      {
+        "id": "SRC-0830",
+        "kind": "Source",
+        "title": "The Quint live blog, 18 Jun 2022, citing ANI",
+        "state": null,
+        "url": "https://www.thequint.com/amp/story/news/india/agnipath-scheme-protests-live-updates-agneepath-yojana-latest-news-telangana-bihar-up-delhi-haryana-punjab-18-june"
+      },
+      {
+        "id": "SRC-0831",
+        "kind": "Source",
+        "title": "Devdiscourse, 18 Jun 2022",
+        "state": null,
+        "url": "https://www.devdiscourse.com/article/law-order/2078096-agnipath-protests-250-arrested-in-bihar-as-violence-continues-for-4th-day"
+      },
+      {
+        "id": "SRC-0832",
+        "kind": "Source",
+        "title": "Scroll.in, 20 Jun 2022, citing Hindustan Times",
+        "state": null,
+        "url": "https://scroll.in/latest/1026507/agnipath-protests-1238-persons-arrested-across-india"
+      },
+      {
+        "id": "SRC-0833",
+        "kind": "Source",
+        "title": "National Herald, 18 Jun 2022",
+        "state": null,
+        "url": "https://www.nationalheraldindia.com/national/violent-anti-agnipath-protests-continue-rocking-bihar-agitators-torch-vehicles-in-police-outpost"
+      },
+      {
+        "id": "SRC-0834",
+        "kind": "Source",
+        "title": "Deccan Herald, 20 Jun 2022 (headline and standfirst only retrieved)",
+        "state": null,
+        "url": "https://www.deccanherald.com/india/bihar-suspends-internet-in-20-districts-amid-agnipath-protests-1119745.html"
+      },
+      {
+        "id": "SRC-0835",
+        "kind": "Source",
+        "title": "Morung Express, 20 Jun 2022",
+        "state": null,
+        "url": "https://mail.morungexpress.com/bharat-bandh-contained-with-effect-no-trouble-reported-from-anywhere-up-top-cop"
+      },
+      {
+        "id": "SRC-0836",
+        "kind": "Source",
+        "title": "LatestLY (PTI), 22 Jun 2022",
+        "state": null,
+        "url": "https://www.latestly.com/agency-news/india-news-oppn-protests-in-patna-over-agnipath-demands-withdrawal-of-police-cases-against-agitators-3858041.html/amp"
+      },
+      {
+        "id": "SRC-0837",
+        "kind": "Source",
+        "title": "The Tribune, 20 Jun 2022",
+        "state": null,
+        "url": "https://www.tribuneindia.com/news/nation/agnipath-recruitment-plan-out-protesters-barred-405259/amp"
+      },
+      {
+        "id": "SRC-0838",
+        "kind": "Source",
+        "title": "National Herald, 2 Jul 2022",
+        "state": null,
+        "url": "https://www.nationalheraldindia.com/amp/story/national/patna-hc-junks-pil-related-to-agnipath-protest"
+      },
+      {
+        "id": "SRC-0839",
+        "kind": "Source",
+        "title": "Law Insider India, 3 Jul 2022",
+        "state": null,
+        "url": "https://lawinsider.in/news/patna-high-court-dismissed-the-pil-that-sought-to-impose-penalties-on-those-involved-in-agnipath-protest/amp"
+      },
+      {
+        "id": "SRC-0840",
+        "kind": "Source",
+        "title": "National Herald, 20 Jul 2022 (report of Lok Sabha written reply)",
+        "state": null,
+        "url": "https://www.nationalheraldindia.com/national/2-dead-over-2600-people-arrested-from-railway-premises-over-agnipath-protests-govt"
+      }
+    ],
+    "removed": [],
+    "changed": [],
+    "summary": "264 records added"
+  },
+  {
     "commit": "9ed5021dc3",
     "date": "2026-10-10T09:53:09Z",
     "subject": "Add 28 primary-document evidence items from NHRC and court records",

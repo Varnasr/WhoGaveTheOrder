@@ -185,6 +185,13 @@ WGO.rtiRoutes = {
   'INC-0058': { police: 'delhi-police' },
   'INC-0059': { police: 'delhi-police' },
   'INC-0060': { police: 'chandigarh-police', also: ['panjab-university'] },
+  'INC-0062': { police: 'delhi-police' },
+  'INC-0063': { police: 'delhi-police' },
+  'INC-0066': { police: 'delhi-police', also: ['jnu'] },
+  'INC-0067': { police: 'delhi-police' },
+  'INC-0069': { police: 'unverified' },
+  'INC-0072': { police: 'delhi-police', also: ['jnu'] },
+  'INC-0073': { police: 'delhi-police' },
   'INC-0015': { police: 'unverified', nhrc: '2363/25/5/2024' },
   'INC-0028': { police: 'unverified', nhrc: '1511/25/16/2018' }
 };
