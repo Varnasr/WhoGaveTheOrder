@@ -163,5 +163,137 @@
     "date": "27 August 2024",
     "dateState": "CORROBORATED",
     "summary": null
+  },
+  {
+    "id": "INC-0016",
+    "kind": "Incident",
+    "title": "Police entry at Jadavpur University after a gherao",
+    "state": "REPORTED",
+    "url": "https://www.whogavetheorder.in/investigation.html?id=jadavpur-2014",
+    "place": "Jadavpur University, Kolkata",
+    "date": "16 and 17 September 2014",
+    "dateState": "CORROBORATED",
+    "summary": null
+  },
+  {
+    "id": "INC-0017",
+    "kind": "Incident",
+    "title": "Police action during the FTII strike",
+    "state": "REPORTED",
+    "url": "https://www.whogavetheorder.in/investigation.html?id=ftii-2015",
+    "place": "FTII, Pune, and Shastri Bhavan, New Delhi",
+    "date": "3 July 2015 to 7 January 2016",
+    "dateState": "CORROBORATED",
+    "summary": null
+  },
+  {
+    "id": "INC-0018",
+    "kind": "Incident",
+    "title": "Occupy UGC: detentions and lathi charges",
+    "state": "REPORTED",
+    "url": "https://www.whogavetheorder.in/investigation.html?id=occupy-ugc-2015",
+    "place": "UGC office near ITO, New Delhi",
+    "date": "21 October to 9 December 2015",
+    "dateState": "CORROBORATED",
+    "summary": null
+  },
+  {
+    "id": "INC-0019",
+    "kind": "Incident",
+    "title": "Police clearance of the Marina Beach Jallikattu protest",
+    "state": "REPORTED",
+    "url": "https://www.whogavetheorder.in/investigation.html?id=marina-beach-2017",
+    "place": "Marina Beach, Chennai",
+    "date": "23 January 2017",
+    "dateState": "CORROBORATED",
+    "summary": null
+  },
+  {
+    "id": "INC-0020",
+    "kind": "Incident",
+    "title": "Police action after the Ramjas College clash",
+    "state": "REPORTED",
+    "url": "https://www.whogavetheorder.in/investigation.html?id=ramjas-2017",
+    "place": "Ramjas College and Maurice Nagar police station, New Delhi",
+    "date": "21 and 22 February 2017",
+    "dateState": "CORROBORATED",
+    "summary": null
+  },
+  {
+    "id": "INC-0021",
+    "kind": "Incident",
+    "title": "Police force on Panjab University students",
+    "state": "REPORTED",
+    "url": "https://www.whogavetheorder.in/investigation.html?id=panjab-university-2017",
+    "place": "Panjab University, Chandigarh",
+    "date": "6 to 11 April 2017",
+    "dateState": "CORROBORATED",
+    "summary": null
+  },
+  {
+    "id": "INC-0022",
+    "kind": "Incident",
+    "title": "Shooting near Jamia during an anti-CAA march",
+    "state": "REPORTED",
+    "url": "https://www.whogavetheorder.in/investigation.html?id=jamia-firing-2020",
+    "place": "Jamia Nagar, New Delhi",
+    "date": "30 January 2020",
+    "dateState": "CORROBORATED",
+    "summary": null
+  },
+  {
+    "id": "INC-0023",
+    "kind": "Incident",
+    "title": "Police action against railway recruitment exam aspirants",
+    "state": "REPORTED",
+    "url": "https://www.whogavetheorder.in/investigation.html?id=rrb-ntpc-2022",
+    "place": "Rajendra Nagar Terminal, Patna, and Prayagraj",
+    "date": "24 to 26 January 2022",
+    "dateState": "CORROBORATED",
+    "summary": null
+  },
+  {
+    "id": "INC-0024",
+    "kind": "Incident",
+    "title": "Firing at Secunderabad station during the Agnipath protest",
+    "state": "REPORTED",
+    "url": "https://www.whogavetheorder.in/investigation.html?id=agnipath-2022",
+    "place": "Secunderabad railway station",
+    "date": "17 June 2022",
+    "dateState": "CORROBORATED",
+    "summary": null
+  },
+  {
+    "id": "INC-0025",
+    "kind": "Incident",
+    "title": "Detentions and force at the NEET-UG 2024 protests",
+    "state": "REPORTED",
+    "url": "https://www.whogavetheorder.in/investigation.html?id=neet-2024",
+    "place": "Delhi",
+    "date": "20 June to 2 July 2024",
+    "dateState": "CORROBORATED",
+    "summary": null
+  },
+  {
+    "id": "INC-0026",
+    "kind": "Incident",
+    "title": "Water cannon and lathicharge on BPSC aspirants in Patna",
+    "state": "REPORTED",
+    "url": "https://www.whogavetheorder.in/investigation.html?id=bpsc-2024",
+    "place": "Gandhi Maidan to JP Golambar, Patna",
+    "date": "29 December 2024",
+    "dateState": "CORROBORATED",
+    "summary": null
+  },
+  {
+    "id": "INC-0027",
+    "kind": "Incident",
+    "title": "Lathicharge on teacher-recruitment aspirants in Patna",
+    "state": "REPORTED",
+    "url": "https://www.whogavetheorder.in/investigation.html?id=bpsc-tre4-2026",
+    "place": "Patna",
+    "date": "May 2026 (7 or 8 May)",
+    "dateState": "DISPUTED",
+    "summary": null
   }
 ]
