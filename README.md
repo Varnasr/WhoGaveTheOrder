@@ -15,7 +15,7 @@ apex redirecting to `www`.
 
 **Nothing renders as a fact without a source, including in its own seed data.**
 
-Dates and locations are established for all seven incidents (five from July 2026, two from 2 October 2026). Beyond those, most factual fields
+Dates and locations are established for all eight incidents (five from July 2026, three from October 2026). Beyond those, most factual fields
 still read `UNKNOWN`: **no order authorising the use of force has been found**, and that count is
 still zero.
 

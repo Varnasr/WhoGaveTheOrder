@@ -1094,6 +1094,17 @@ WGO.importedSources = [
     "originatesFrom": null
   },
   {
+    "id": "SRC-0130",
+    "name": "Deccan Chronicle",
+    "kind": "SECONDARY",
+    "url": "https://www.deccanchronicle.com/nation/delhi-hc-refuses-urgent-hearing-on-youth-congress-plea-for-cec-protest-1994386",
+    "retrievedOn": "2026-10-10",
+    "archiveUrl": null,
+    "archivedOn": null,
+    "sha256": null,
+    "originatesFrom": "PTI"
+  },
+  {
     "id": "SRC-0129",
     "name": "LiveLaw",
     "kind": "SECONDARY",
@@ -1103,6 +1114,28 @@ WGO.importedSources = [
     "archivedOn": "2026-10-08",
     "sha256": null,
     "originatesFrom": null
+  },
+  {
+    "id": "SRC-0131",
+    "name": "The Tribune",
+    "kind": "SECONDARY",
+    "url": "https://www.tribuneindia.com/news/india/rahul-priyanka-detained-again-on-2nd-day-of-street-showdown-for-cecs-ouster/",
+    "retrievedOn": "2026-10-10",
+    "archiveUrl": null,
+    "archivedOn": null,
+    "sha256": null,
+    "originatesFrom": null
+  },
+  {
+    "id": "SRC-0132",
+    "name": "Siasat",
+    "kind": "SECONDARY",
+    "url": "https://www.siasat.com/anti-cec-stir-delhi-police-detains-rahul-gandhi-priyanka-again-3553845/",
+    "retrievedOn": "2026-10-10",
+    "archiveUrl": "http://web.archive.org/web/20261007155618/https://www.siasat.com/anti-cec-stir-delhi-police-detains-rahul-gandhi-priyanka-again-3553845/",
+    "archivedOn": "2026-10-10",
+    "sha256": null,
+    "originatesFrom": "PTI inputs, as stated in the article"
   },
   {
     "id": "SRC-0056",
@@ -2648,15 +2681,16 @@ WGO.importedEvidence = [
     "id": "PROC-DEL-005",
     "title": "Bar and Bench reports that the president of the Indian Youth Congress moved the Delhi High Court on 3 October 2026 against Delhi Police's order of 1 October 202",
     "type": "COURT_DOCUMENT",
-    "verification": "REPORTED",
+    "verification": "CORROBORATED",
     "incidentId": "INC-0006",
     "dateOfItem": null,
     "dateAdded": "2026-10-05",
     "sourceIds": [
-      "SRC-0125"
+      "SRC-0125",
+      "SRC-0130"
     ],
     "origin": "",
-    "establishes": "One source. The article gives no case number, bench or listing date, and none is recorded here. Retrieving the petition and the order of 1 October is FQ-023.",
+    "establishes": "Two outlets with different origins report the petition and the order of 1 October. The case number is not reported in either. No order on the merits exists yet. The hearing of 12 October is a date to check. Retrieving the petition and the order of 1 October is FQ-023.",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -2675,6 +2709,79 @@ WGO.importedEvidence = [
     ],
     "origin": "",
     "establishes": "One source retrieved. Other outlets carry the story and were not read. Listing is not a hearing and no order on the merits is recorded. The petition and any order are to be retrieved from the Court's own site, as for FQ-016 and FQ-018.",
+    "doesNotEstablish": "",
+    "relatedIds": [],
+    "accessNote": "",
+    "volatility": "high"
+  },
+  {
+    "id": "INC-DEL-023",
+    "title": "The Tribune reports that on Tuesday 6 October 2026 about 300 opposition MPs marched from Parliament towards the Election Commission headquarters, that police st",
+    "type": "OTHER_DOCUMENT",
+    "verification": "REPORTED",
+    "incidentId": "INC-0008",
+    "dateOfItem": null,
+    "dateAdded": "2026-10-10",
+    "sourceIds": [
+      "SRC-0131"
+    ],
+    "origin": "",
+    "establishes": "One outlet, and the account of the first day is a summary inside a report about the second. The Wire carries a report headlined as Delhi Police detaining Rahul and Priyanka Gandhi during the INDIA bloc protest, but only its headline could be read, so it is not cited for anything here. The Election Commission is reported elsewhere to have said no party had sought an appointment before the march; that is not recorded here because the page carrying it was not read.",
+    "doesNotEstablish": "",
+    "relatedIds": [],
+    "accessNote": "",
+    "volatility": "medium"
+  },
+  {
+    "id": "INC-DEL-024",
+    "title": "On Wednesday 7 October 2026 Delhi Police detained opposition leaders near Jantar Mantar, among them Rahul Gandhi and Priyanka Gandhi Vadra. The Tribune and Sias",
+    "type": "OTHER_DOCUMENT",
+    "verification": "CORROBORATED",
+    "incidentId": "INC-0008",
+    "dateOfItem": null,
+    "dateAdded": "2026-10-10",
+    "sourceIds": [
+      "SRC-0131",
+      "SRC-0132"
+    ],
+    "origin": "",
+    "establishes": "Two outlets agree on who was detained, where they were taken and that they were released the same day. Neither quotes a police statement. Siasat's wording is 'BNS 163', which is the section of the Bharatiya Nagarik Suraksha Sanhita and not of the Nyaya Sanhita; the archive records it as section 163 and has not corrected the source. Whether an order was in force on 7 October, and whether it is the order of 2 October recorded at INC-DEL-012, is part of OQ-055.",
+    "doesNotEstablish": "",
+    "relatedIds": [],
+    "accessNote": "",
+    "volatility": "medium"
+  },
+  {
+    "id": "INC-DEL-025",
+    "title": "The Tribune reports that Priyanka Gandhi Vadra said police assaulted protesters and that she had been scratched and thrown to the ground, that Mahua Moitra alle",
+    "type": "OTHER_DOCUMENT",
+    "verification": "REPORTED",
+    "incidentId": "INC-0008",
+    "dateOfItem": null,
+    "dateAdded": "2026-10-10",
+    "sourceIds": [
+      "SRC-0131"
+    ],
+    "origin": "",
+    "establishes": "These are allegations by named politicians, reported as theirs. The Tribune also reports that women police personnel removed Priyanka Gandhi Vadra from the road where she was lying down, which is the police side of the same event and is not an allegation. No footage, medical record or police account is held.",
+    "doesNotEstablish": "",
+    "relatedIds": [],
+    "accessNote": "",
+    "volatility": "high"
+  },
+  {
+    "id": "INC-DEL-026",
+    "title": "Siasat, with PTI inputs, refers to an FIR registered against Rahul Gandhi, which Akhilesh Yadav is reported to have tied to the protest of Tuesday 6 October 202",
+    "type": "OTHER_DOCUMENT",
+    "verification": "REPORTED",
+    "incidentId": "INC-0008",
+    "dateOfItem": null,
+    "dateAdded": "2026-10-10",
+    "sourceIds": [
+      "SRC-0132"
+    ],
+    "origin": "",
+    "establishes": "The FIR is mentioned in a photo caption and in a politician's remark, and the article does not describe it. A search result summarised it as an FIR for entering Akashvani Bhawan without permission; the page read does not say that, and the archive does not record it. See OQ-062.",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -4238,7 +4345,7 @@ WGO.importedQuestions = [
     "incidentId": "INC-0001",
     "text": "Which office issued the section 163 BNSS order in force across New Delhi district on 2 October 2026, on what date, covering what area and hours, and what does its text say?",
     "priority": "HIGH",
-    "whyItMatters": "The sources split on whether Delhi Police or the Delhi government issued it (INC-DEL-013), and the two answers lead to different custodians. Unlike a lathi charge, a prohibitory order is a written instrument with a date, a signatory and a stated ground, so this is a question a document can answer. No copy has been found.",
+    "whyItMatters": "The sources split on whether Delhi Police or the Delhi government issued it (INC-DEL-013), and the two answers lead to different custodians. Unlike a lathi charge, a prohibitory order is a written instrument with a date, a signatory and a stated ground, so this is a question a document can answer. No copy has been found. Siasat reports that security personnel told protesters on 7 October that section 163 was in force (INC-DEL-024). Whether that is the order of 2 October extended or a new one is not established, and the sources read do not say how long the order ran.",
     "lawfulRoute": "FQ-020. The route differs by custodian: Delhi Police uses the Union RTI portal; this archive has not established the Delhi government route.",
     "state": "UNANSWERED",
     "wants": [
@@ -4247,7 +4354,8 @@ WGO.importedQuestions = [
     "evidenceIds": [],
     "blocks": [
       "INC-DEL-012",
-      "INC-DEL-013"
+      "INC-DEL-013",
+      "INC-DEL-024"
     ],
     "category": "document_custody"
   },
@@ -4356,6 +4464,23 @@ WGO.importedQuestions = [
       "PROC-DEL-005"
     ],
     "category": "court_records"
+  },
+  {
+    "id": "OQ-062",
+    "incidentId": "INC-0001",
+    "text": "Was an FIR registered against Rahul Gandhi over the protest of 6 October 2026, at which police station, under which sections, and on whose complaint?",
+    "priority": "MEDIUM",
+    "whyItMatters": "Siasat mentions the FIR without describing it (INC-DEL-026). An FIR against the Leader of the Opposition in the Lok Sabha is a written instrument with a station, sections and a complainant, and one search result gave a different account of what it alleges that the page read does not support. The FIR settles it. No route to Delhi Police FIRs has been established by this archive.",
+    "lawfulRoute": "Establish the publication route first; an RTI application is the fallback.",
+    "state": "UNANSWERED",
+    "wants": [
+      "Establish the publication route first; an RTI application is the fallback."
+    ],
+    "evidenceIds": [],
+    "blocks": [
+      "INC-DEL-026"
+    ],
+    "category": "incident"
   }
 ];
 
@@ -5226,6 +5351,20 @@ WGO.importedIncidentFacts = {
     "state": [
       "CORROBORATED",
       "DISPUTED"
+    ]
+  },
+  "INC-0008": {
+    "dates": [],
+    "places": [],
+    "evidenceIds": [
+      "INC-DEL-023",
+      "INC-DEL-024",
+      "INC-DEL-025",
+      "INC-DEL-026"
+    ],
+    "state": [
+      "CORROBORATED",
+      "REPORTED"
     ]
   }
 };

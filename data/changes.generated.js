@@ -5,6 +5,222 @@ window.WGO = window.WGO || {};
 
 WGO.changes = [
   {
+    "commit": "dbc9db7fbb",
+    "date": "2026-10-10T06:15:04Z",
+    "subject": "Record the INDIA bloc march of 6 and 7 October as INC-0008",
+    "added": [
+      {
+        "id": "INC-0008",
+        "kind": "Incident",
+        "title": "Opposition MPs detained during the INDIA bloc march to the Election Commission",
+        "state": "REPORTED",
+        "url": "investigation.html?id=opposition-march-6-7-october"
+      },
+      {
+        "id": "INC-DEL-023",
+        "kind": "Evidence",
+        "title": "The Tribune reports that on Tuesday 6 October 2026 about 300 opposition MPs marched from Parliament towards the Election Commission headquarters, that police st",
+        "state": "REPORTED",
+        "url": "evidence.html?id=INC-DEL-023"
+      },
+      {
+        "id": "INC-DEL-024",
+        "kind": "Evidence",
+        "title": "On Wednesday 7 October 2026 Delhi Police detained opposition leaders near Jantar Mantar, among them Rahul Gandhi and Priyanka Gandhi Vadra. The Tribune and Sias",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=INC-DEL-024"
+      },
+      {
+        "id": "INC-DEL-025",
+        "kind": "Evidence",
+        "title": "The Tribune reports that Priyanka Gandhi Vadra said police assaulted protesters and that she had been scratched and thrown to the ground, that Mahua Moitra alle",
+        "state": "REPORTED",
+        "url": "evidence.html?id=INC-DEL-025"
+      },
+      {
+        "id": "INC-DEL-026",
+        "kind": "Evidence",
+        "title": "Siasat, with PTI inputs, refers to an FIR registered against Rahul Gandhi, which Akhilesh Yadav is reported to have tied to the protest of Tuesday 6 October 202",
+        "state": "REPORTED",
+        "url": "evidence.html?id=INC-DEL-026"
+      },
+      {
+        "id": "SRC-0130",
+        "kind": "Source",
+        "title": "Deccan Chronicle",
+        "state": null,
+        "url": "https://www.deccanchronicle.com/nation/delhi-hc-refuses-urgent-hearing-on-youth-congress-plea-for-cec-protest-1994386"
+      },
+      {
+        "id": "SRC-0131",
+        "kind": "Source",
+        "title": "The Tribune",
+        "state": null,
+        "url": "https://www.tribuneindia.com/news/india/rahul-priyanka-detained-again-on-2nd-day-of-street-showdown-for-cecs-ouster/"
+      },
+      {
+        "id": "SRC-0132",
+        "kind": "Source",
+        "title": "Siasat",
+        "state": null,
+        "url": "https://www.siasat.com/anti-cec-stir-delhi-police-detains-rahul-gandhi-priyanka-again-3553845/"
+      },
+      {
+        "id": "OQ-062",
+        "kind": "Question",
+        "title": "Was an FIR registered against Rahul Gandhi over the protest of 6 October 2026, at which police station, under which sections, and on whose complaint?",
+        "state": "UNANSWERED",
+        "url": "investigation.html?id=jantar-mantar#OQ-062"
+      }
+    ],
+    "removed": [],
+    "changed": [
+      {
+        "id": "PROC-DEL-005",
+        "kind": "Evidence",
+        "title": "Bar and Bench reports that the president of the Indian Youth Congress moved the Delhi High Court on 3 October 2026 against Delhi Police's order of 1 October 202",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=PROC-DEL-005",
+        "fields": [
+          {
+            "field": "state",
+            "from": "REPORTED",
+            "to": "CORROBORATED"
+          },
+          {
+            "field": "establishes",
+            "from": "One source. The article gives no case number, bench or listing date, and none is recorded here. Retrieving the petition and the order of 1 October is FQ-023.",
+            "to": "Two outlets with different origins report the petition and the order of 1 October. The case number is not reported in either. No order on the merits exists yet. The hearing of 12 October is a date to check. Retrieving the petition and th…"
+          },
+          {
+            "field": "sourceIds",
+            "from": "SRC-0125",
+            "to": "SRC-0125, SRC-0130"
+          }
+        ]
+      },
+      {
+        "id": "OFC-0001",
+        "kind": "Office",
+        "title": "Union Ministry of Home Affairs",
+        "state": null,
+        "url": null,
+        "fields": [
+          {
+            "field": "appliesTo",
+            "from": "INC-0001, INC-0002, INC-0003, INC-0006",
+            "to": "INC-0001, INC-0002, INC-0003, INC-0006, INC-0008"
+          }
+        ]
+      },
+      {
+        "id": "OFC-0004",
+        "kind": "Office",
+        "title": "Commissioner of Police",
+        "state": null,
+        "url": null,
+        "fields": [
+          {
+            "field": "appliesTo",
+            "from": "INC-0001, INC-0003, INC-0006, INC-0007",
+            "to": "INC-0001, INC-0003, INC-0006, INC-0007, INC-0008"
+          }
+        ]
+      },
+      {
+        "id": "OFC-0006",
+        "kind": "Office",
+        "title": "Superintendent of Police / Deputy Commissioner of Police (District)",
+        "state": null,
+        "url": null,
+        "fields": [
+          {
+            "field": "appliesTo",
+            "from": "INC-0001, INC-0002, INC-0003, INC-0006, INC-0007",
+            "to": "INC-0001, INC-0002, INC-0003, INC-0006, INC-0007, INC-0008"
+          }
+        ]
+      },
+      {
+        "id": "OFC-0007",
+        "kind": "Office",
+        "title": "Officer commanding the deployment on site",
+        "state": null,
+        "url": null,
+        "fields": [
+          {
+            "field": "appliesTo",
+            "from": "INC-0001, INC-0002, INC-0003, INC-0006, INC-0007",
+            "to": "INC-0001, INC-0002, INC-0003, INC-0006, INC-0007, INC-0008"
+          }
+        ]
+      },
+      {
+        "id": "OFC-0008",
+        "kind": "Office",
+        "title": "Field personnel and units deployed",
+        "state": null,
+        "url": null,
+        "fields": [
+          {
+            "field": "appliesTo",
+            "from": "INC-0001, INC-0002, INC-0003, INC-0006, INC-0007",
+            "to": "INC-0001, INC-0002, INC-0003, INC-0006, INC-0007, INC-0008"
+          }
+        ]
+      }
+    ],
+    "summary": "9 records added · 1 state changed · 5 records edited"
+  },
+  {
+    "commit": "514b7a0008",
+    "date": "2026-10-09T09:24:03Z",
+    "subject": "Sweep log and archived copies for 2026-10-09 [skip ci]",
+    "added": [],
+    "removed": [],
+    "changed": [
+      {
+        "id": "SRC-0127",
+        "kind": "Source",
+        "title": "ThePrint",
+        "state": null,
+        "url": "https://theprint.in/india/3-women-journalists-allege-sexual-harassment-by-police-crime-branch-to-launch-probe/3061828/",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20261008091432/https://theprint.in/india/3-women-journalists-allege-sexual-harassment-by-police-crime-branch-to-launch-probe/3061828/"
+          }
+        ]
+      }
+    ],
+    "summary": "1 record edited"
+  },
+  {
+    "commit": "af27248192",
+    "date": "2026-10-08T09:15:39Z",
+    "subject": "Sweep log and archived copies for 2026-10-08 [skip ci]",
+    "added": [],
+    "removed": [],
+    "changed": [
+      {
+        "id": "SRC-0129",
+        "kind": "Source",
+        "title": "LiveLaw",
+        "state": null,
+        "url": "https://www.livelaw.in/amp/top-stories/supreme-court-agrees-to-list-plea-seeking-permission-for-peaceful-protests-in-delhi-amid-agitation-against-cec-gyanesh-kumar-553087",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20261005114124/https://www.livelaw.in/amp/top-stories/supreme-court-agrees-to-list-plea-seeking-permission-for-peaceful-protests-in-delhi-amid-agitation-against-cec-gyanesh-kumar-553087"
+          }
+        ]
+      }
+    ],
+    "summary": "1 record edited"
+  },
+  {
     "commit": "194ec079ce",
     "date": "2026-10-07T09:01:40Z",
     "subject": "Sweep log and archived copies for 2026-10-07 [skip ci]",

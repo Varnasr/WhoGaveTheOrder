@@ -590,5 +590,15 @@
     "incidentId": "INC-0001",
     "level": null,
     "evidenceIds": []
+  },
+  {
+    "id": "OQ-062",
+    "kind": "Question",
+    "title": "Was an FIR registered against Rahul Gandhi over the protest of 6 October 2026, at which police station, under which sections, and on whose complaint?",
+    "state": "UNANSWERED",
+    "url": "https://www.whogavetheorder.in/investigation.html?id=jantar-mantar#OQ-062",
+    "incidentId": "INC-0001",
+    "level": null,
+    "evidenceIds": []
   }
 ]
