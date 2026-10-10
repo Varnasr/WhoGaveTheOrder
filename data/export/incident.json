@@ -526,5 +526,148 @@
     "date": "10 November 2025",
     "dateState": "CORROBORATED",
     "summary": null
+  },
+  {
+    "id": "INC-0049",
+    "kind": "Incident",
+    "title": "Police water cannon on ABVP and NSUI students at Delhi University",
+    "state": "CORROBORATED",
+    "url": "https://www.whogavetheorder.in/investigation.html?id=du-vc-office-june-2014",
+    "place": "Vice-Chancellor's office, North Campus, Delhi University, New Delhi",
+    "date": "21 and 26 June 2014",
+    "dateState": "CORROBORATED",
+    "summary": null
+  },
+  {
+    "id": "INC-0050",
+    "kind": "Incident",
+    "title": "Police action against UPSC CSAT protesters in Delhi",
+    "state": "CORROBORATED",
+    "url": "https://www.whogavetheorder.in/investigation.html?id=upsc-csat-july-2014",
+    "place": "Gandhi Vihar and Mukherjee Nagar; the approach to Parliament; the UPSC office on Shahjahan Road, New Delhi",
+    "date": "24 to 28 July 2014",
+    "dateState": "CORROBORATED",
+    "summary": null
+  },
+  {
+    "id": "INC-0051",
+    "kind": "Incident",
+    "title": "Lathicharge and water cannon on the SFI march to the Vidhan Sabha",
+    "state": "CORROBORATED",
+    "url": "https://www.whogavetheorder.in/investigation.html?id=sfi-shimla-march-2015",
+    "place": "Vidhan Sabha, Shimla",
+    "date": "18 March 2015",
+    "dateState": "CORROBORATED",
+    "summary": null
+  },
+  {
+    "id": "INC-0052",
+    "kind": "Incident",
+    "title": "Police action on University of Kashmir students protesting a classmate's arrest",
+    "state": "CORROBORATED",
+    "url": "https://www.whogavetheorder.in/investigation.html?id=kashmir-university-june-2015",
+    "place": "University of Kashmir, Hazratbal, Srinagar",
+    "date": "25 June 2015",
+    "dateState": "CORROBORATED",
+    "summary": null
+  },
+  {
+    "id": "INC-0053",
+    "kind": "Incident",
+    "title": "Lathicharge on Presidency College students demanding union elections",
+    "state": "CORROBORATED",
+    "url": "https://www.whogavetheorder.in/investigation.html?id=presidency-college-october-2015",
+    "place": "Kamarajar Salai, Chennai",
+    "date": "12 October 2015",
+    "dateState": "CORROBORATED",
+    "summary": null
+  },
+  {
+    "id": "INC-0054",
+    "kind": "Incident",
+    "title": "Baton charge on students protesting offline board exams",
+    "state": "CORROBORATED",
+    "url": "https://www.whogavetheorder.in/investigation.html?id=board-exam-protests-january-2022",
+    "place": "Ashok Mill Naka, Dharavi, Mumbai, and Medical Square, Nagpur",
+    "date": "31 January 2022",
+    "dateState": "CORROBORATED",
+    "summary": null
+  },
+  {
+    "id": "INC-0055",
+    "kind": "Incident",
+    "title": "Lathi charge on protesting students at Bangalore University",
+    "state": "CORROBORATED",
+    "url": "https://www.whogavetheorder.in/investigation.html?id=bangalore-university-january-2022",
+    "place": "Jnanabharathi campus, Bangalore University, Bengaluru",
+    "date": "31 January 2022",
+    "dateState": "CORROBORATED",
+    "summary": null
+  },
+  {
+    "id": "INC-0056",
+    "kind": "Incident",
+    "title": "Lathicharge and tear gas at hijab-dispute protests in Karnataka",
+    "state": "CORROBORATED",
+    "url": "https://www.whogavetheorder.in/investigation.html?id=karnataka-hijab-protests-february-2022",
+    "place": "Shivamogga, Harihar, Bagalkot and Raichur",
+    "date": "8 February 2022",
+    "dateState": "CORROBORATED",
+    "summary": null
+  },
+  {
+    "id": "INC-0057",
+    "kind": "Incident",
+    "title": "Police stop Aliah University students marching after a student leader's death",
+    "state": "CORROBORATED",
+    "url": "https://www.whogavetheorder.in/investigation.html?id=aliah-university-february-2022",
+    "place": "College Street and Park Circus, Kolkata",
+    "date": "19 and 22 February 2022",
+    "dateState": "CORROBORATED",
+    "summary": null
+  },
+  {
+    "id": "INC-0058",
+    "kind": "Incident",
+    "title": "Police detain students protesting offline exams at Delhi University",
+    "state": "CORROBORATED",
+    "url": "https://www.whogavetheorder.in/investigation.html?id=du-sol-april-2022",
+    "place": "Arts Faculty, North Campus, University of Delhi, New Delhi",
+    "date": "4 April 2022",
+    "dateState": "CORROBORATED",
+    "summary": null
+  },
+  {
+    "id": "INC-0059",
+    "kind": "Incident",
+    "title": "Students detained outside Delhi Police headquarters after the JNU Kaveri Hostel clash",
+    "state": "CORROBORATED",
+    "url": "https://www.whogavetheorder.in/investigation.html?id=jnu-detentions-april-2022",
+    "place": "Jai Singh Road and Delhi Police headquarters, New Delhi",
+    "date": "11 April 2022",
+    "dateState": "CORROBORATED",
+    "summary": null
+  },
+  {
+    "id": "INC-0060",
+    "kind": "Incident",
+    "title": "Police stop Panjab University students marching to Punjab Raj Bhavan",
+    "state": "CORROBORATED",
+    "url": "https://www.whogavetheorder.in/investigation.html?id=panjab-university-june-2022",
+    "place": "YPS roundabout, Mohali, on the Chandigarh border",
+    "date": "9 June 2022",
+    "dateState": "CORROBORATED",
+    "summary": null
+  },
+  {
+    "id": "INC-0061",
+    "kind": "Incident",
+    "title": "Police action against Agnipath protesters in Bihar and Uttar Pradesh",
+    "state": "CORROBORATED",
+    "url": "https://www.whogavetheorder.in/investigation.html?id=agnipath-bihar-up-june-2022",
+    "place": "Arrah and other districts of Bihar; Ballia, Bhadohi and other districts of Uttar Pradesh",
+    "date": "15 to 20 June 2022",
+    "dateState": "CORROBORATED",
+    "summary": null
   }
 ]
