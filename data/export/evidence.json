@@ -1201,13 +1201,13 @@
   {
     "id": "HIST-JNU16-006",
     "kind": "Evidence",
-    "title": "A letter dated 11 February 2016 from the JNU Registrar to the Deputy Commissioner of Police, South District, is reported to have said that the Vice-Chancellor g",
+    "title": "A letter from the JNU Registrar is reported by The Quint to have said that the Vice-Chancellor granted the police permission to enter the campus 'if need be and",
     "state": "REPORTED",
     "url": "https://www.whogavetheorder.in/evidence.html?id=HIST-JNU16-006",
     "type": "OTHER_DOCUMENT",
     "incidentId": "INC-0009",
     "dateOfItem": null,
-    "establishes": "Single secondary source read (The Quint, 20 February 2016, which calls it a 'virtual carte blanche'). The letter itself has not been seen; HuffPost India, citing NDTV, is reported in search snippets to describe it as 'purportedly' written by the Registrar, but that page could not be fetched (404 on the redirect) and is not cited as read. The Vice-Chancellor is reported in snippets to have said at a press conference that he did not invite the police; no fetched page carries that statement, so no DISPUTED record can be made yet. Obtain the letter by RTI to JNU and to the Office of the Commissioner of Police, Delhi, and the register entry for it. The Quint also reports a senior professor's claim that the Vice-Chancellor first refused and relented after the Security Officer and the Registrar stressed the gravity of the charges; that is one person's account and is not established.",
+    "establishes": "Single secondary source read (The Quint, 20 February 2016, which calls it a 'virtual carte blanche'). The letter itself has not been seen; HuffPost India, citing NDTV, is reported in search snippets to describe it as 'purportedly' written by the Registrar, but that page could not be fetched (404 on the redirect) and is not cited as read. The Vice-Chancellor is reported in snippets to have said at a press conference that he did not invite the police; no fetched page carries that statement, so no DISPUTED record can be made yet. Obtain the letter by RTI to JNU and to the Office of the Commissioner of Police, Delhi, and the register entry for it. The Quint also reports a senior professor's claim that the Vice-Chancellor first refused and relented after the Security Officer and the Registrar stressed the gravity of the charges; that is one person's account and is not established. Quote check, 10 October 2026: The Quint page does not give the letter's date (earlier drafts said 11 February 2016) or name its addressee (earlier drafts said the Deputy Commissioner of Police, South District), so both were removed. Establish them from the letter itself.",
     "doesNotEstablish": null,
     "sourceIds": [
       "SRC-0138"
@@ -2527,7 +2527,7 @@
     "type": "OTHER_DOCUMENT",
     "incidentId": "INC-0012",
     "dateOfItem": null,
-    "establishes": "The report itself was not read. Three outlets summarise it consistently and the judgment confirms the core (violence by protesters, lack of restraint in the library, tear gas avoidable, university lapses, compensation and accountability recommendations). Critics, including petitioners, said it favoured the police; that is their allegation. The report is described as neutral by the High Court (para 68). It names no officer who ordered entry or force, as far as the summaries show.",
+    "establishes": "Update 10 October 2026: the NHRC's own account of these findings, from its newsletter and Annual Report, is now in the archive (HIST-HRC-002 to HIST-HRC-004) and is the better source. The words attributed to the report here come from press summaries and differ in places from the NHRC's own wording, for example 'not a state policy rather it was an individual act' for the tear gas. The report itself was not read. Three outlets summarise it consistently and the judgment confirms the core (violence by protesters, lack of restraint in the library, tear gas avoidable, university lapses, compensation and accountability recommendations). Critics, including petitioners, said it favoured the police; that is their allegation. The report is described as neutral by the High Court (para 68). It names no officer who ordered entry or force, as far as the summaries show.",
     "doesNotEstablish": null,
     "sourceIds": [
       "SRC-0188",
@@ -3405,13 +3405,13 @@
   {
     "id": "HIST-NAB-007",
     "kind": "Evidence",
-    "title": "On 23 August 2024 a Calcutta High Court Division Bench, reported as Justice Harish Tandon and Justice Bhattacharyya, refused to entertain the State of West Beng",
+    "title": "On 23 August 2024 a Division Bench of the Calcutta High Court (Harish Tandon and Hiranmay Bhattacharyya JJ.), in the public interest petition WPA(P) 360 of 2024",
     "state": "REPORTED",
     "url": "https://www.whogavetheorder.in/evidence.html?id=HIST-NAB-007",
     "type": "COURT_DOCUMENT",
     "incidentId": "INC-0015",
     "dateOfItem": null,
-    "establishes": "Single report read (IANS via Sakshi Post). Second judge's name inconsistent across search snippets. Order text not read. Directly bears on the 'permission' question: the court declined to ban, which is not the same as granting permission. Primary source: Calcutta High Court order of 23 August 2024, to be obtained via the High Court website or Indian Kanoon.",
+    "establishes": "Corrected 10 October 2026 against the order itself (HIST-CRT-004). An earlier version of this item, built on a news report, said the court refused the State's plea for a ban. The order shows the petitioner was a private litigant who sought the ban and that the State argued against the rally. Single report read (IANS via Sakshi Post). Second judge's name inconsistent across search snippets. Order text not read. Directly bears on the 'permission' question: the court declined to ban, which is not the same as granting permission. Primary source: Calcutta High Court order of 23 August 2024, to be obtained via the High Court website or Indian Kanoon.",
     "doesNotEstablish": null,
     "sourceIds": [
       "SRC-0247"
@@ -3583,7 +3583,7 @@
     "type": "OTHER_DOCUMENT",
     "incidentId": "INC-0015",
     "dateOfItem": null,
-    "establishes": "All allegations by named party figures, reported by Business Today and LiveLaw. No document supports the claim that the Chief Minister gave an order about containers. Governor CV Ananda Bose urged the state not to use force (Tribune, News On AIR, paraphrased).",
+    "establishes": "All allegations by named party figures, reported by Business Today and LiveLaw. No document supports the claim that the Chief Minister gave an order about containers. Governor CV Ananda Bose urged the state not to use force (Tribune, News On AIR, paraphrased). Quote check, 10 October 2026: neither cited page gives the bandh date, so the date was removed.",
     "doesNotEstablish": null,
     "sourceIds": [
       "SRC-0239",
@@ -4483,7 +4483,7 @@
     "type": "COURT_DOCUMENT",
     "incidentId": "INC-0019",
     "dateOfItem": null,
-    "establishes": "VERIFIED only for what the judgment records the State as saying. The order itself was not read, and the paragraph gives two end dates (rescinded 4 February; ended 12 February). The order is dated five days AFTER the 23 January operation, so it is not the authority for that operation. The paragraph also records the State's account that the January 2017 gathering involved 'anti-social elements' causing 'large scale violence and damage of public property' and that a commission under Justice S. Rajeswaran (Retd.) was then in progress. Those are the State's statements, not findings of the court. The fetched copy was hashed at retrieval. Under CrPC as it then stood; BNSS does not apply to 2017.",
+    "establishes": "Update 10 October 2026: the 28 April 2018 judgment this item cites was set aside by a Division Bench on 3 September 2018 (W.A. 1042 of 2018; see HIST-CRT-001). The Section 144 recital here is the State's counter-affidavit account only, and the appeal judgment does not repeat it. VERIFIED only for what the judgment records the State as saying. The order itself was not read, and the paragraph gives two end dates (rescinded 4 February; ended 12 February). The order is dated five days AFTER the 23 January operation, so it is not the authority for that operation. The paragraph also records the State's account that the January 2017 gathering involved 'anti-social elements' causing 'large scale violence and damage of public property' and that a commission under Justice S. Rajeswaran (Retd.) was then in progress. Those are the State's statements, not findings of the court. The fetched copy was hashed at retrieval. Under CrPC as it then stood; BNSS does not apply to 2017.",
     "doesNotEstablish": null,
     "sourceIds": [
       "SRC-0297"
@@ -6305,7 +6305,7 @@
     "type": "OTHER_DOCUMENT",
     "incidentId": "INC-0026",
     "dateOfItem": null,
-    "establishes": "Single outlet for the DM's words (ETV Bharat). The quote was taken from a summarised read of the page and should be checked against the page text before publication. Protesters and opposition figures describe the force as excessive; those are their allegations, not findings.",
+    "establishes": "Single outlet for the DM's words (ETV Bharat). The quote was checked against the raw page text on 10 October 2026. Protesters and opposition figures describe the force as excessive; those are their allegations, not findings.",
     "doesNotEstablish": null,
     "sourceIds": [
       "SRC-0379",
@@ -8941,7 +8941,7 @@
   {
     "id": "HIST-BLR-003",
     "kind": "Evidence",
-    "title": "What force was used, and how to describe it: DISPUTED. Deccan Herald reports that after students 'slammed down the police barricades' the police 'beat them with",
+    "title": "What force was used, and how to describe it: DISPUTED. Deccan Herald reports that after students 'slamming down the police barricades' the police 'beat them wit",
     "state": "DISPUTED",
     "url": "https://www.whogavetheorder.in/evidence.html?id=HIST-BLR-003",
     "type": "OTHER_DOCUMENT",
@@ -12903,7 +12903,7 @@
   {
     "id": "HIST-SSC-016",
     "kind": "Evidence",
-    "title": "How the people at the protest are labelled by the sources: PTI says 'SSC aspirants and teachers' and 'SSC students and trainers'; Newslaundry says 'students and",
+    "title": "How the people at the protest are labelled by the sources: PTI (on The Week) says 'SSC aspirants and teachers'; Newslaundry says 'students and teachers'; The Lo",
     "state": "REPORTED",
     "url": "https://www.whogavetheorder.in/evidence.html?id=HIST-SSC-016",
     "type": "OTHER_DOCUMENT",
@@ -13219,5 +13219,444 @@
     "establishes": "Status of the FIR after 17 November 2025 not found.",
     "doesNotEstablish": null,
     "sourceIds": []
+  },
+  {
+    "id": "HIST-HRC-001",
+    "kind": "Evidence",
+    "title": "On 2 January 2020 the NHRC issued a press release saying it had been brought to its notice that certain individuals were attributing to it a condemnation of pol",
+    "state": "VERIFIED",
+    "url": "https://www.whogavetheorder.in/evidence.html?id=HIST-HRC-001",
+    "type": "OTHER_DOCUMENT",
+    "incidentId": "INC-0012",
+    "dateOfItem": null,
+    "establishes": "Establishes that as of 2 January 2020 the Commission itself had made no finding. Useful against any claim that the NHRC condemned the police in December 2019. The file hash on the newsletter source is of the February 2020 issue.",
+    "doesNotEstablish": null,
+    "sourceIds": [
+      "SRC-0703",
+      "SRC-0704"
+    ]
+  },
+  {
+    "id": "HIST-HRC-002",
+    "kind": "Evidence",
+    "title": "The NHRC's own Human Rights Newsletter of July 2020 (pp. 8 to 10) summarises the Commission's Jamia inquiry (Case No. 5630/30/0/2019). It says the team found th",
+    "state": "VERIFIED",
+    "url": "https://www.whogavetheorder.in/evidence.html?id=HIST-HRC-002",
+    "type": "OTHER_DOCUMENT",
+    "incidentId": "INC-0012",
+    "dateOfItem": null,
+    "establishes": "Primary: the Commission's own publication, read in full for this case. The newsletter does not say who ordered the entry or the tear gas; it attributes the library tear gas to 'an individual act' and says the 'officer on the spot' decides. That is the nearest the Commission comes to the order question and it names no officer. Recommendations listed: compensation to injured students; identify Delhi Police and RAF members seen damaging CCTV cameras and caning inside reading rooms; sensitisation training; SIT of Crime Branch to investigate all cases; expedite the administrative enquiry on the library; an SOP.",
+    "doesNotEstablish": null,
+    "sourceIds": [
+      "SRC-0705"
+    ]
+  },
+  {
+    "id": "HIST-HRC-003",
+    "kind": "Evidence",
+    "title": "The NHRC Annual Report 2020-21 (pp. 128 to 129, Case No. 5630/30/0/2019) records that after a spot visit the Investigation team 'found the incident to be of law",
+    "state": "VERIFIED",
+    "url": "https://www.whogavetheorder.in/evidence.html?id=HIST-HRC-003",
+    "type": "OTHER_DOCUMENT",
+    "incidentId": "INC-0012",
+    "dateOfItem": null,
+    "establishes": "Primary and in the Commission's own words. Differs in tone from the high-profile press summaries: it explicitly proposes action against police and paramilitary members. It still names no individual or ordering officer.",
+    "doesNotEstablish": null,
+    "sourceIds": [
+      "SRC-0706"
+    ]
+  },
+  {
+    "id": "HIST-HRC-004",
+    "kind": "Evidence",
+    "title": "NHRC records identify the Jamia matter as Case No. 5630/30/0/2019. The Annual Report 2019-20 lists it as 'Illegal detention of 34 students of Jamia Millia Islam",
+    "state": "VERIFIED",
+    "url": "https://www.whogavetheorder.in/evidence.html?id=HIST-HRC-004",
+    "type": "OTHER_DOCUMENT",
+    "incidentId": "INC-0012",
+    "dateOfItem": null,
+    "establishes": "Fills the case number HIST-JMI-013 and HIST-JMI-022 said was missing. The NHRC spot-enquiry page prints the visit as '14-Jan-2019 - 17-Jan-2019' which is an evident typo for 2020 (the February 2020 newsletter gives 14.01.2020 to 17.01.2020 and 22.01.2020 to 24.01.2020). The page entry is recorded as printed. Complaint 14926/IN/2019 is the HRD complaint and is a different number from the case number.",
+    "doesNotEstablish": null,
+    "sourceIds": [
+      "SRC-0707",
+      "SRC-0708",
+      "SRC-0198"
+    ]
+  },
+  {
+    "id": "HIST-HRC-005",
+    "kind": "Evidence",
+    "title": "The NHRC lists the Aligarh Muslim University matter as Case No. 1018/24/3/2020, 'Aligarh Muslim University Police atroites on students who were protesting intro",
+    "state": "VERIFIED",
+    "url": "https://www.whogavetheorder.in/evidence.html?id=HIST-HRC-005",
+    "type": "OTHER_DOCUMENT",
+    "incidentId": "INC-0013",
+    "dateOfItem": null,
+    "establishes": "Confirms the Allahabad High Court reference in HIST-AMU-010 from the Commission's side and supplies the case number. Spot-enquiry page row text quoted with the NHRC's own spelling.",
+    "doesNotEstablish": null,
+    "sourceIds": [
+      "SRC-0708",
+      "SRC-0704"
+    ]
+  },
+  {
+    "id": "HIST-HRC-006",
+    "kind": "Evidence",
+    "title": "The NHRC's April 2020 newsletter and Annual Report 2020-21 (Case No. 1018/24/3/2020) give the findings of its AMU inquiry. It found 'purely a law and order situ",
+    "state": "VERIFIED",
+    "url": "https://www.whogavetheorder.in/evidence.html?id=HIST-HRC-006",
+    "type": "OTHER_DOCUMENT",
+    "incidentId": "INC-0013",
+    "dateOfItem": null,
+    "establishes": "Important for the order question: the Commission records that the Registrar requested police entry and that the District Magistrate deputed executive magistrates. These are the NHRC's findings, not court findings, and it names no officer who ordered force. The Annual Report misdates the incident as December 2020 (evident typo).",
+    "doesNotEstablish": null,
+    "sourceIds": [
+      "SRC-0709",
+      "SRC-0706"
+    ]
+  },
+  {
+    "id": "HIST-HRC-007",
+    "kind": "Evidence",
+    "title": "On 24 January 2017 the NHRC took suo motu cognizance of media reports that police, 'without any prior caution, resorted to beating, arresting and damaging priva",
+    "state": "VERIFIED",
+    "url": "https://www.whogavetheorder.in/evidence.html?id=HIST-HRC-007",
+    "type": "OTHER_DOCUMENT",
+    "incidentId": "INC-0019",
+    "dateOfItem": null,
+    "establishes": "Replaces the Deccan Chronicle secondary in HIST-C17A-008 with the NHRC's own text and confirms the date. The statement is based on media reports and is not a finding after inquiry. Replies from the three offices not found.",
+    "doesNotEstablish": null,
+    "sourceIds": [
+      "SRC-0710"
+    ]
+  },
+  {
+    "id": "HIST-HRC-008",
+    "kind": "Evidence",
+    "title": "On 28 February 2017 the NHRC issued a notice to the Delhi Police Commissioner on a complaint that police personnel attacked a female student and snatched camera",
+    "state": "VERIFIED",
+    "url": "https://www.whogavetheorder.in/evidence.html?id=HIST-HRC-008",
+    "type": "OTHER_DOCUMENT",
+    "incidentId": "INC-0020",
+    "dateOfItem": null,
+    "establishes": "Resolves HIST-RAM-016 and HIST-RAM-023, which said the NHRC page was not located. Allegations are the complainant's. No case number is printed. The March 2017 newsletter source is the file identified from the archive listing; its hash was not recorded.",
+    "doesNotEstablish": null,
+    "sourceIds": [
+      "SRC-0711",
+      "SRC-0712"
+    ]
+  },
+  {
+    "id": "HIST-HRC-009",
+    "kind": "Evidence",
+    "title": "On 26 September 2017 the NHRC took suo motu cognizance of media reports of inaction by BHU on an eve-teasing complaint and 'unwarranted manhandling and thrashin",
+    "state": "VERIFIED",
+    "url": "https://www.whogavetheorder.in/evidence.html?id=HIST-HRC-009",
+    "type": "OTHER_DOCUMENT",
+    "incidentId": "INC-0011",
+    "dateOfItem": null,
+    "establishes": "Upgrades HIST-BHU-018 (The Quint) to the Commission's own text and supplies the case number. The observation is based on media reports. Replies not found.",
+    "doesNotEstablish": null,
+    "sourceIds": [
+      "SRC-0713",
+      "SRC-0714"
+    ]
+  },
+  {
+    "id": "HIST-HRC-010",
+    "kind": "Evidence",
+    "title": "On 3 October 2018 the NHRC decided to send its own team headed by a DIG (Investigation) for a spot enquiry into the deaths of two school students and injuries t",
+    "state": "VERIFIED",
+    "url": "https://www.whogavetheorder.in/evidence.html?id=HIST-HRC-010",
+    "type": "OTHER_DOCUMENT",
+    "incidentId": "INC-0028",
+    "dateOfItem": null,
+    "establishes": "Supplies the NHRC case number that HIST-DAR-011 and HIST-DAR-015 lacked. The release repeats the complainants' account; it is not a finding. The NHRC spot-enquiry report is described in the Calcutta High Court judgment already in HIST-DAR-011; the report itself was not found on the NHRC site.",
+    "doesNotEstablish": null,
+    "sourceIds": [
+      "SRC-0715",
+      "SRC-0708",
+      "SRC-0716"
+    ]
+  },
+  {
+    "id": "HIST-HRC-011",
+    "kind": "Evidence",
+    "title": "The NHRC lists the Nabanna Abhijan complaint as Case No. 2363/25/5/2024: a complaint received on 28 August 2024 from O.P. Vyas, Bharatiya Human Rights Initiativ",
+    "state": "VERIFIED",
+    "url": "https://www.whogavetheorder.in/evidence.html?id=HIST-HRC-011",
+    "type": "OTHER_DOCUMENT",
+    "incidentId": "INC-0015",
+    "dateOfItem": null,
+    "establishes": "Upgrades HIST-NAB-016 (secondary) and gives the case number. The two NHRC sources disagree on the visit dates (5 to 9 October 2025 against 3 to 7 November 2025); recorded as printed, unresolved. The spot-enquiry report and any NHRC finding were not found. The allegation is the complainant's.",
+    "doesNotEstablish": null,
+    "sourceIds": [
+      "SRC-0708",
+      "SRC-0717"
+    ]
+  },
+  {
+    "id": "HIST-HRC-012",
+    "kind": "Evidence",
+    "title": "On 17 February 2016 the NHRC issued a notice to the Union Home Secretary, Delhi Chief Secretary, Delhi Police Commissioner and the JNU Registrar over police act",
+    "state": "VERIFIED",
+    "url": "https://www.whogavetheorder.in/evidence.html?id=HIST-HRC-012",
+    "type": "OTHER_DOCUMENT",
+    "incidentId": "INC-0009",
+    "dateOfItem": null,
+    "establishes": "A second NHRC notice of the same date, on police action in the campus, complements HIST-JNU16-019 (Patiala House). The reports called for were not found.",
+    "doesNotEstablish": null,
+    "sourceIds": [
+      "SRC-0718"
+    ]
+  },
+  {
+    "id": "HIST-CRT-001",
+    "kind": "Evidence",
+    "title": "A Division Bench of the Madras High Court (K.K. Sasidharan and R. Subramanian JJ.) allowed the State's appeal W.A. No. 1042 of 2018 on 3 September 2018, set asi",
+    "state": "VERIFIED",
+    "url": "https://www.whogavetheorder.in/evidence.html?id=HIST-CRT-001",
+    "type": "COURT_DOCUMENT",
+    "incidentId": "INC-0019",
+    "dateOfItem": null,
+    "establishes": "This matters for HIST-C17A-006, which cites the 28 April 2018 judgment for the State's recital of a Section 144 order of 28 January 2017. That judgment no longer stands as a decision: it was reversed on appeal. The recital was only ever the State's counter-affidavit account, and the appeal judgment does not repeat it. The word Jallikattu does not appear in the appeal judgment, and it makes no finding on the 23 January 2017 clearance. The appeal's paras 3, 6 and 7 record the State's position that no protest permission had been given on the Marina sands since 2003, and para 10 records the Additional Advocate General's argument that Section 41 of the Chennai City Police Act, 1888 bars any protest without the Commissioner of Police's permission. The hash is of the HTML page fetched from Indian Kanoon.",
+    "doesNotEstablish": null,
+    "sourceIds": [
+      "SRC-0719"
+    ]
+  },
+  {
+    "id": "HIST-CRT-002",
+    "kind": "Evidence",
+    "title": "On 9 October 2020 the Madras High Court (P.N. Prakash J.), in Crl.O.P. No. 1680 of 2017, closed a petition by eight accused in Crime No. 92 of 2017 of the D-5 M",
+    "state": "VERIFIED",
+    "url": "https://www.whogavetheorder.in/evidence.html?id=HIST-CRT-002",
+    "type": "COURT_DOCUMENT",
+    "incidentId": "INC-0019",
+    "dateOfItem": null,
+    "establishes": "VERIFIED only for what the order records: the petitioners' allegation of assault and the court's refusal to decide disputed facts. It is not a finding that police assaulted anyone and it does not say who gave any order. The sections listed for Crime No. 92 of 2017 are IPC 147, 148, 294(b), 323, 324, 353, 447, 435, 436, 506(II), 306 and Section 3 of the Tamil Nadu Public Property (Prevention of Damage and Loss) Act. The order does not state the date of arrest or tie the crime number to the 23 January 2017 clearance. Its mention of the Rajeswaran Commission is a passing recital, not a statement of what the Commission found.",
+    "doesNotEstablish": null,
+    "sourceIds": [
+      "SRC-0720"
+    ]
+  },
+  {
+    "id": "HIST-CRT-003",
+    "kind": "Evidence",
+    "title": "On 30 April 2025 the Madras High Court (G.K. Ilanthiraiyan J.), in Crl.O.P. No. 13797 of 2025, quashed Crime No. 202 of 2017 (registered 24 January 2017 at MKB ",
+    "state": "VERIFIED",
+    "url": "https://www.whogavetheorder.in/evidence.html?id=HIST-CRT-003",
+    "type": "COURT_DOCUMENT",
+    "incidentId": "INC-0019",
+    "dateOfItem": null,
+    "establishes": "This supplies what HIST-C17A-013 lacked: the number and date of the Government Order (G.O.Ms.No.99, Home (Courts-IV) Department, 20 February 2021) and the figure of 308 cases, which the order attributes to counsel and the State's Government Advocate rather than quoting from the G.O. itself. The G.O. text was not read. MKB Nagar is in north Chennai, not at Marina, and the order does not link Crime No. 202 of 2017 to the 23 January 2017 clearance; it describes only 'wide spread agitation' against the ban. The 26,460 accused named in HIST-C17A-013 is not in this order.",
+    "doesNotEstablish": null,
+    "sourceIds": [
+      "SRC-0721"
+    ]
+  },
+  {
+    "id": "HIST-CRT-004",
+    "kind": "Evidence",
+    "title": "On 23 August 2024 a Division Bench of the Calcutta High Court (Harish Tandon and Hiranmay Bhattacharyya JJ.), in the public interest petition WPA(P) 360 of 2024",
+    "state": "VERIFIED",
+    "url": "https://www.whogavetheorder.in/evidence.html?id=HIST-CRT-004",
+    "type": "COURT_DOCUMENT",
+    "incidentId": "INC-0015",
+    "dateOfItem": null,
+    "establishes": "Corrects HIST-NAB-007, which reports this order as a refusal to entertain 'the State of West Bengal's plea' for a ban. The order shows the petitioner was a private person, Debranjan Banerjee, described as a lawyer and resident of Shibpur, Howrah, who sought the prohibition; the State, through the Advocate General, argued that permission from police was needed and that the sensitive zone could be protected. The court did not grant permission to the marchers either: it only declined to prohibit. The order does not mention Section 163 BNSS or Section 144 CrPC at all, and records the State arguing for restraint of the rally. Later hearings of WPA(P) 360 of 2024 on 24 July and 18 August 2025 were adjournments (Indian Kanoon docs 102233875 and 104392020, not hashed here).",
+    "doesNotEstablish": null,
+    "sourceIds": [
+      "SRC-0722"
+    ]
+  },
+  {
+    "id": "HIST-CRT-005",
+    "kind": "Evidence",
+    "title": "The Calcutta High Court's order of 30 August 2024 in WPA 22026 of 2024 (Anjali Lahiri v. State of West Bengal, Amrita Sinha J.) records a police memo to the org",
+    "state": "VERIFIED",
+    "url": "https://www.whogavetheorder.in/evidence.html?id=HIST-CRT-005",
+    "type": "COURT_DOCUMENT",
+    "incidentId": "INC-0015",
+    "dateOfItem": null,
+    "establishes": "VERIFIED for what the order records, including the memo's wording as the order reproduces it. The memo itself was not read. The order does not give the date, number or author of the Section 163 BNSS order that the memo says applied at Nabanna, so which officer issued it and when on or before 24 August 2024 is still not established. The court also records that Paschim Banga Chhatra Samaj is not a registered association. On the point of permission the State and the organisers' side give different accounts and the order does not decide it. Compare HIST-CRT-007 for the Howrah memos.",
+    "doesNotEstablish": null,
+    "sourceIds": [
+      "SRC-0723"
+    ]
+  },
+  {
+    "id": "HIST-CRT-006",
+    "kind": "Evidence",
+    "title": "In the same order of 30 August 2024 the Calcutta High Court (Amrita Sinha J.) directed that the student organiser Sayan Lahiri, detained on the evening of 27 Au",
+    "state": "VERIFIED",
+    "url": "https://www.whogavetheorder.in/evidence.html?id=HIST-CRT-006",
+    "type": "COURT_DOCUMENT",
+    "incidentId": "INC-0015",
+    "dateOfItem": null,
+    "establishes": "The order names the offences in Maidan PS Case No. 35 of 2024 (BNS 189, 191(3), 190, 121(1), 132, 109, 326(1), 161(2); Prevention of Damage to Public Property Act s. 3; West Bengal Maintenance of Public Order Act s. 9) and New Market PS Case No. 114 of 2024, as the petition described them. The observation on force is the court's general comment on how protests should be handled; it is not a finding on what police did on 27 August, which the State disputed, and it names no officer. The order is silent on who ordered the lathicharge, water cannon or tear gas, and no later affidavit or order in this series has been located. A related order of 4 September 2024 is in HIST-CRT-007.",
+    "doesNotEstablish": null,
+    "sourceIds": [
+      "SRC-0723",
+      "SRC-0724",
+      "SRC-0725"
+    ]
+  },
+  {
+    "id": "HIST-CRT-007",
+    "kind": "Evidence",
+    "title": "On 4 September 2024 the Calcutta High Court (Rajarshi Bharadwaj J.), in WPA 22182 of 2024 (Bhaskar Ghosh v. State of West Bengal), recorded the convenor of Sang",
+    "state": "VERIFIED",
+    "url": "https://www.whogavetheorder.in/evidence.html?id=HIST-CRT-007",
+    "type": "COURT_DOCUMENT",
+    "incidentId": "INC-0015",
+    "dateOfItem": null,
+    "establishes": "The memo contents are given as the order reproduces them; the memos were not read. The order's own statement that conditional approval had been granted sits uneasily with the petitioner's account that permission was denied the next day, and with the State's account in HIST-CRT-005 that no permission was sought; the order does not reconcile them. It identifies the Howrah Police Commissionerate as the issuer of both memos, which is the only document-level answer yet found to who decided on the rally permission at Howrah. It says nothing on who ordered force against marchers. Interim protection was an interim order and the order says its observations are only for that purpose.",
+    "doesNotEstablish": null,
+    "sourceIds": [
+      "SRC-0726"
+    ]
+  },
+  {
+    "id": "HIST-CRT-008",
+    "kind": "Evidence",
+    "title": "Later Calcutta High Court orders record a Section 163 BNSS order covering the Nabanna area, with no issue date given in the 2026 orders. On 7 August 2025 (WPA(P",
+    "state": "VERIFIED",
+    "url": "https://www.whogavetheorder.in/evidence.html?id=HIST-CRT-008",
+    "type": "COURT_DOCUMENT",
+    "incidentId": "INC-0015",
+    "dateOfItem": null,
+    "establishes": "These are 2025 and 2026 orders and do not show what restrictions applied on 27 August 2024. The 47 injured police and the officer who lost an eye are the Advocate General's statement to the court in 2025, not a court finding. The police letter of 12 January 2026 and an SOP of the Commissioner of Police, Howrah of 9 September 2025 (cited in the 15 January 2026 order) are the State's recitals. The order of 15 January 2026 leaves open whether the SOP 'has any legal sanction', a point it says is for 'the appropriate forum'. The 7 August 2025 order says a policy dated 31.07.2025 set aside Mandirtala Bus Station, Howrah Maidan and under Bankim Setu Flyover for protests.",
+    "doesNotEstablish": null,
+    "sourceIds": [
+      "SRC-0727",
+      "SRC-0728",
+      "SRC-0729"
+    ]
+  },
+  {
+    "id": "HIST-CRT-009",
+    "kind": "Evidence",
+    "title": "The Allahabad High Court (Govind Mathur CJ and Vivek Varma J.) on 19 December 2019, in Criminal Misc. Writ Petition No. 26085 of 2019 (Mohd. Aman Khan v. Union ",
+    "state": "VERIFIED",
+    "url": "https://www.whogavetheorder.in/evidence.html?id=HIST-CRT-009",
+    "type": "COURT_DOCUMENT",
+    "incidentId": "INC-0013",
+    "dateOfItem": null,
+    "establishes": "The allegations of lathi charge, tear gas, rubber bullets and pellets are the petitioner's averments as the order recites them ('As per the averments'); the court made no finding. The order names no officer and says nothing about who authorised entry. It describes the force as 'Para Military Force and the State Police' and the petition as concerning 12 to 15 December 2019. The order of 7 January 2020 (NHRC to inquire) and of 24 February 2020 (compliance with NHRC recommendations) were not obtained: the copy linked from The Leaflet is on cdn.theleaflet.in, which this environment's proxy refused, and no other full copy was found. Those two remain REPORTED.",
+    "doesNotEstablish": null,
+    "sourceIds": [
+      "SRC-0730"
+    ]
+  },
+  {
+    "id": "HIST-CRT-010",
+    "kind": "Evidence",
+    "title": "The Allahabad High Court (Rajesh Bindal CJ and J.J. Munir J.) disposed of the AMU petitions on 8 September 2022 (Crl. Misc. Writ Petition No. 26085 of 2019 with",
+    "state": "VERIFIED",
+    "url": "https://www.whogavetheorder.in/evidence.html?id=HIST-CRT-010",
+    "type": "COURT_DOCUMENT",
+    "incidentId": "INC-0013",
+    "dateOfItem": null,
+    "establishes": "This is the court's own confirmation that the 7 January 2020 order requesting an NHRC inquiry was made and that the NHRC inquiry and report were completed (previously known only from news reports). The order does not reproduce the NHRC report, does not say what recommendations a, b, d and e were, and does not state what compliance was shown beyond the State's say-so. It makes no finding on any police officer or on who ordered the 15 December 2019 action. It also says students should not 'fall in the trap of unscrupulous persons operating outside the University', which is the court's general remark. The Delhi High Court's judgment of 5 October 2026 (HIST-CRT-012, para 3) also records that the Allahabad Division Bench 'declined to constitute a Special Investigating Team at that stage'.",
+    "doesNotEstablish": null,
+    "sourceIds": [
+      "SRC-0731"
+    ]
+  },
+  {
+    "id": "HIST-CRT-011",
+    "kind": "Evidence",
+    "title": "On 17 December 2019 the Supreme Court (a bench of the Chief Justice, B.R. Gavai and Surya Kant JJ.), in W.P.(Crl.) No. 370/2019 (Alumni Association Jamia Millia",
+    "state": "VERIFIED",
+    "url": "https://www.whogavetheorder.in/evidence.html?id=HIST-CRT-011",
+    "type": "COURT_DOCUMENT",
+    "incidentId": "INC-0013",
+    "dateOfItem": null,
+    "establishes": "This order covers the Jamia (INC-0012) and AMU (INC-0013) incidents together and is the source of the route to the Delhi and Allahabad High Courts. Every figure in it is the Solicitor General's statement on 17 December 2019; the order says 'almost each fact alleged by the petitioners is disputed' and makes no finding. The text names the Chief Justice only by office. The Delhi High Court judgment of 5 October 2026 (HIST-CRT-012) cites this order in its para 2.",
+    "doesNotEstablish": null,
+    "sourceIds": [
+      "SRC-0732"
+    ]
+  },
+  {
+    "id": "HIST-CRT-012",
+    "kind": "Evidence",
+    "title": "A second copy of the Delhi High Court judgment of 5 October 2026 in W.P.(C) 13468/2019 (Manoj Dhiryan v. Union of India) and connected matters, by Vivek Chaudha",
+    "state": "VERIFIED",
+    "url": "https://www.whogavetheorder.in/evidence.html?id=HIST-CRT-012",
+    "type": "COURT_DOCUMENT",
+    "incidentId": "INC-0012",
+    "dateOfItem": null,
+    "establishes": "A cross-check against a second host; the court's own copy on the Delhi High Court website was not located, so neither copy is the court's own. The hash is of the HTML page, and the judgment is reserved on 24.07.2026 and decided 05.10.2026 per its header. Para 3 of the judgment also records, of the Allahabad petition (Criminal Misc. Writ Petition No. 26085 of 2019), that 'The Division Bench declined to constitute a Special Investigating Team at that stage and the NHRC was requested to undertake a complete inquiry/investigation'. The judgment cites the NHRC report as 'contemporaneous material' and says 'We do not treat its findings as conclusive of any individual criminal or other proceedings' (para 83).",
+    "doesNotEstablish": null,
+    "sourceIds": [
+      "SRC-0733"
+    ]
+  },
+  {
+    "id": "HIST-CRT-013",
+    "kind": "Evidence",
+    "title": "The Delhi High Court judgment of 5 October 2026 on the Jamia petitions does not name any officer, office or authority that ordered the police to enter the campu",
+    "state": "VERIFIED",
+    "url": "https://www.whogavetheorder.in/evidence.html?id=HIST-CRT-013",
+    "type": "COURT_DOCUMENT",
+    "incidentId": "INC-0012",
+    "dateOfItem": null,
+    "establishes": "A recorded negative: the judgment is silent on who gave the order. VERIFIED here means the text was searched, not that no such order exists. Para 86 holds that informing and consulting university authorities 'cannot, however, operate as an absolute condition in every situation', and para 82 that the police 'did not enter the University premises at the outset to deal with an otherwise peaceful assembly confined to the campus'. Both are the court's conclusions from the NHRC material and the State's account. The Chief Proctor's statement that police entered without permission is recorded as the petitioners' reliance; the court did not decide it.",
+    "doesNotEstablish": null,
+    "sourceIds": [
+      "SRC-0733"
+    ]
+  },
+  {
+    "id": "HIST-CRT-014",
+    "kind": "Evidence",
+    "title": "On 14 January 2020 the Delhi High Court (Brijesh Sethi J.), in W.P.(CRL) 80/2020 (Ameet Parmeswaran and others v. Commissioner of Police, Delhi and others), dis",
+    "state": "VERIFIED",
+    "url": "https://www.whogavetheorder.in/evidence.html?id=HIST-CRT-014",
+    "type": "COURT_DOCUMENT",
+    "incidentId": "INC-0014",
+    "dateOfItem": null,
+    "establishes": "Supplies the case number, petitioners and respondents that HIST-JNU20-014 lacked. Respondent no. 1 is the Commissioner of Police, Delhi; respondents 3 and 4 are WhatsApp and Google; Apple (no. 5) was dropped at the petitioners' request. It is a direction on evidence preservation and makes no finding on police conduct, on police inaction on 5 January 2020, or on who authorised any police step. The 13 January 2020 order (notice to WhatsApp, Google and Apple) was not obtained: Indian Kanoon returned only the 14 January order and the Delhi High Court site was not searchable here. HIST-JNU20-013 stays REPORTED.",
+    "doesNotEstablish": null,
+    "sourceIds": [
+      "SRC-0734"
+    ]
+  },
+  {
+    "id": "HIST-CRT-015",
+    "kind": "Evidence",
+    "title": "The Patna High Court's judgment of 28 March 2025 (Acting Chief Justice Ashutosh Kumar and Partha Sarthy J.) in CWJC No. 752 of 2025 (Anand Legal Aid Forum Trust",
+    "state": "VERIFIED",
+    "url": "https://www.whogavetheorder.in/evidence.html?id=HIST-CRT-015",
+    "type": "COURT_DOCUMENT",
+    "incidentId": "INC-0026",
+    "dateOfItem": null,
+    "establishes": "VERIFIED only that the allegation is recited in the judgment, not that it is true. The judgment makes no finding on the lathi-charge and issues no direction about it or about the criminal cases; the dates it gives (25 and 29 December 2024) are the petitioners'. The archive's HIST-BPSC-001 dates the Patna water cannon and lathicharge 29 December 2024; the court's 25.12.2024 date is not otherwise corroborated here. The allegation blames 'the District Administration', not any named officer. The judgment's own account of the protests (paras 83 and 94) is about students agitating against normalisation of the result and the Commission's press note of 06.12.2024; it names no police official. A Supreme Court order of 7 January 2025 (W.P.(C) Diary 717/2025) simply declined to entertain the petition and sent the petitioner to the Patna High Court.",
+    "doesNotEstablish": null,
+    "sourceIds": [
+      "SRC-0735"
+    ]
+  },
+  {
+    "id": "HIST-CRT-016",
+    "kind": "Evidence",
+    "title": "The Supreme Court's orders in Suo Motu Writ Petition (Civil) No. 3/2025, In re Kancha Gachibowli Forest, of 3 April, 16 April, 15 May, 23 July and 13 August 202",
+    "state": "VERIFIED",
+    "url": "https://www.whogavetheorder.in/evidence.html?id=HIST-CRT-016",
+    "type": "COURT_DOCUMENT",
+    "incidentId": "INC-0045",
+    "dateOfItem": null,
+    "establishes": "A recorded negative over six orders as reproduced on Indian Kanoon: a case-insensitive search for student, police, detain, arrest, lathi and custody finds nothing in any of them. The benches were B.R. Gavai and Augustine George Masih JJ. (3 and 16 April 2025), the Chief Justice with Augustine George Masih J. (15 May), the Chief Justice with K. Vinod Chandran and Joymalya Bagchi JJ. (23 July), the Chief Justice with K. Vinod Chandran J. (13 August), and the Chief Justice with Joymalya Bagchi and V. Mohana JJ. (9 September 2026), as the CORAM lines of the orders read. The 3 April 2025 order is already carried by HIST-HCU25-022, with its direction in para 16 that 'no activity of any sort, except the protection of the trees already existing shall be undertaken by the State or any of the authorities subordinate to it'. Oral remarks reported by LiveLaw (HIST-HCU25-023, HIST-HCU25-030) are not in these written orders. The Telangana High Court's orders of 2 and 3 April 2025 were not obtained: only news reports of them were found.",
+    "doesNotEstablish": null,
+    "sourceIds": [
+      "SRC-0736",
+      "SRC-0737",
+      "SRC-0738",
+      "SRC-0739",
+      "SRC-0740",
+      "SRC-0741"
+    ]
   }
 ]

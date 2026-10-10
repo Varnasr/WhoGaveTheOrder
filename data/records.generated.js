@@ -1860,7 +1860,7 @@ WGO.importedSources = [
     "retrievedOn": "2026-10-10",
     "archiveUrl": null,
     "archivedOn": null,
-    "sha256": null,
+    "sha256": "0e34bdf60e1b4773fea49efee7c7b1ef78f46e39cae69b3db2e797d46318ef51",
     "originatesFrom": null
   },
   {
@@ -7408,6 +7408,435 @@ WGO.importedSources = [
     "originatesFrom": null
   },
   {
+    "id": "SRC-0703",
+    "name": "NHRC press release, New Delhi, 2 January 2020",
+    "kind": "PRIMARY",
+    "url": "https://nhrc.nic.in/media/press-release/nhrc-rebuts-statement-that-it-has-condemned-police-action-in-the-jamia-millia-islamia-02-01-2020",
+    "retrievedOn": "2026-10-10",
+    "archiveUrl": null,
+    "archivedOn": null,
+    "sha256": "852c5c3dd37f4cd301c1099cd69d9d27efeea27980ac9656d15c09c07dcd1288",
+    "originatesFrom": null
+  },
+  {
+    "id": "SRC-0704",
+    "name": "NHRC Human Rights Newsletter, February 2020 (reprints the rebuttal)",
+    "kind": "PRIMARY",
+    "url": "https://nhrc.nic.in/assets/uploads/news_letter/1730807564_c3006d24663892e95070.pdf",
+    "retrievedOn": "2026-10-10",
+    "archiveUrl": null,
+    "archivedOn": null,
+    "sha256": "4470e88f1dc536ecfe280873acbf4cf726eb565d466271d92d881d2dea278c5a",
+    "originatesFrom": null
+  },
+  {
+    "id": "SRC-0705",
+    "name": "NHRC, Human Rights Newsletter, July 2020, Important case from Investigation Division files",
+    "kind": "PRIMARY",
+    "url": "https://nhrc.nic.in/assets/uploads/news_letter/1730807888_5dba6f42f13736e8bd35.pdf",
+    "retrievedOn": "2026-10-10",
+    "archiveUrl": null,
+    "archivedOn": null,
+    "sha256": "5c834732627c08c59b8382bb4265edf8bfc00dc9850800bdffce0baedac2e8a9",
+    "originatesFrom": null
+  },
+  {
+    "id": "SRC-0706",
+    "name": "NHRC Annual Report 2020-21, illustrative cases (PDF page 145)",
+    "kind": "PRIMARY",
+    "url": "https://nhrc.nic.in/assets/uploads/annual_reports/1755187451_5cfa27627613119e844f.pdf",
+    "retrievedOn": "2026-10-10",
+    "archiveUrl": null,
+    "archivedOn": null,
+    "sha256": "ef3303cdc005962a2c98c969c36252d4082af56ee0f9243f4882f5fd6b8fa940",
+    "originatesFrom": null
+  },
+  {
+    "id": "SRC-0707",
+    "name": "NHRC Annual Report 2019-20 (pp. 220, 283)",
+    "kind": "PRIMARY",
+    "url": "https://nhrc.nic.in/assets/uploads/annual_reports/AR_2019-2020_EN.pdf",
+    "retrievedOn": "2026-10-10",
+    "archiveUrl": null,
+    "archivedOn": null,
+    "sha256": "7042620539b2e6a6087f0ab5c16dcf5ef55c113d863b9731562ad582e89287df",
+    "originatesFrom": null
+  },
+  {
+    "id": "SRC-0708",
+    "name": "NHRC Spot Inquiries page (row 264)",
+    "kind": "PRIMARY",
+    "url": "https://nhrc.nic.in/spot-enquiry",
+    "retrievedOn": "2026-10-10",
+    "archiveUrl": null,
+    "archivedOn": null,
+    "sha256": null,
+    "originatesFrom": null
+  },
+  {
+    "id": "SRC-0709",
+    "name": "NHRC Human Rights Newsletter, April 2020, From NHRC Investigation Files (pp. 8 to 9)",
+    "kind": "PRIMARY",
+    "url": "https://nhrc.nic.in/assets/uploads/news_letter/1730807675_72ee6677abbb396c810e.pdf",
+    "retrievedOn": "2026-10-10",
+    "archiveUrl": null,
+    "archivedOn": null,
+    "sha256": "30002722b03cbee3d2a62cb4121478df6b4fc1cf8818b3bdd57cd4dc29a09ea2",
+    "originatesFrom": null
+  },
+  {
+    "id": "SRC-0710",
+    "name": "NHRC press release, 24 January 2017",
+    "kind": "PRIMARY",
+    "url": "https://nhrc.nic.in/media/press-release/nhrc-takes-suo-motu-cognizance-media-reports-about-police-excesses-on-peaceful-protestors-in-support-jallikattu-in-chennai-issues-notices-to-chief-secretary-dgp-tamil-nadu-chennai-police-commissioner-24-01-2017",
+    "retrievedOn": "2026-10-10",
+    "archiveUrl": null,
+    "archivedOn": null,
+    "sha256": "4dbe732e03154ea9282355ac64ec603b6e558497ae04113701a86cff3aaaf9b3",
+    "originatesFrom": null
+  },
+  {
+    "id": "SRC-0711",
+    "name": "NHRC press release, 28 February 2017",
+    "kind": "PRIMARY",
+    "url": "https://nhrc.nic.in/media/press-release/nhrc-notice-to-the-delhi-police-commissioner-over-allegations-police-excesses-outside-ramjas-college-in-delhi-university-campus-on-the-22nd-february-2017-28-02-2017",
+    "retrievedOn": "2026-10-10",
+    "archiveUrl": null,
+    "archivedOn": null,
+    "sha256": "3345c3f06a96dab3640a6023160c8605ee8e5e72730b0ecc69c8dadfea4edffc",
+    "originatesFrom": null
+  },
+  {
+    "id": "SRC-0712",
+    "name": "NHRC Human Rights Newsletter, March 2017",
+    "kind": "PRIMARY",
+    "url": "https://nhrc.nic.in/assets/uploads/news_letter/1730870477_f823750cb55e929dc5be.pdf",
+    "retrievedOn": "2026-10-10",
+    "archiveUrl": null,
+    "archivedOn": null,
+    "sha256": null,
+    "originatesFrom": null
+  },
+  {
+    "id": "SRC-0713",
+    "name": "NHRC press release, 26 September 2017",
+    "kind": "PRIMARY",
+    "url": "https://nhrc.nic.in/media/press-release/nhrc-takes-suo-motu-cognizance-reported-inaction-the-bhu-on-a-complaint-eve-teasing-harsh-police-action-against-the-agitating-students-issues-notices-to-the-government-uttar-pradesh-the-vc-bhu-26-09-2017",
+    "retrievedOn": "2026-10-10",
+    "archiveUrl": null,
+    "archivedOn": null,
+    "sha256": "a7d79d4563f8ee90f66c507421e62ad3bdcafd5a4a092fbe3211efbcee8cca17",
+    "originatesFrom": null
+  },
+  {
+    "id": "SRC-0714",
+    "name": "NHRC Human Rights Newsletter, October 2017, p. 3",
+    "kind": "PRIMARY",
+    "url": "https://nhrc.nic.in/assets/uploads/news_letter/1730870758_fcf6c5a983f74b69de57.pdf",
+    "retrievedOn": "2026-10-10",
+    "archiveUrl": null,
+    "archivedOn": null,
+    "sha256": null,
+    "originatesFrom": null
+  },
+  {
+    "id": "SRC-0715",
+    "name": "NHRC press release, 3 October 2018",
+    "kind": "PRIMARY",
+    "url": "https://nhrc.nic.in/media/press-release/nhrc-decides-to-send-its-own-team-headed-by-dig-investigation-to-conduct-an-on-the-spot-enquiry-into-death-two-school-students-severe-injury-to-many-others-in-police-action-in-uttar-dinajpur-in-west-bengal-03-10-2018",
+    "retrievedOn": "2026-10-10",
+    "archiveUrl": null,
+    "archivedOn": null,
+    "sha256": "7c5f4240bb013af3080b64c56ab906b5944fe873afa3b7422f96620e8b78f33f",
+    "originatesFrom": null
+  },
+  {
+    "id": "SRC-0716",
+    "name": "NHRC Human Rights Newsletter, November 2018, p. 6",
+    "kind": "PRIMARY",
+    "url": "https://nhrc.nic.in/assets/uploads/news_letter/1730870238_ad857fd4f54df373acfc.pdf",
+    "retrievedOn": "2026-10-10",
+    "archiveUrl": null,
+    "archivedOn": null,
+    "sha256": null,
+    "originatesFrom": null
+  },
+  {
+    "id": "SRC-0717",
+    "name": "NHRC Human Rights Newsletter, December 2025, Spot enquiries, p. 10",
+    "kind": "PRIMARY",
+    "url": "https://nhrc.nic.in/assets/uploads/news_letter/1765203293_2447abeb3245055f5b0b.pdf",
+    "retrievedOn": "2026-10-10",
+    "archiveUrl": null,
+    "archivedOn": null,
+    "sha256": null,
+    "originatesFrom": null
+  },
+  {
+    "id": "SRC-0718",
+    "name": "NHRC press release, 17 February 2016",
+    "kind": "PRIMARY",
+    "url": "https://nhrc.nic.in/media/press-release/nhrc-notice-to-the-union-home-secretary-chief-secretary-delhi-police-commissioner-registrar-jawahar-lal-nehru-university-over-police-action-in-jnu",
+    "retrievedOn": "2026-10-10",
+    "archiveUrl": null,
+    "archivedOn": null,
+    "sha256": "141b86132bde897b522542a075f56f69af374b9a94819621e32d6b99caeb2f8c",
+    "originatesFrom": null
+  },
+  {
+    "id": "SRC-0719",
+    "name": "Madras High Court, Government of Tamil Nadu v. P. Ayyakannu, W.A. No. 1042 of 2018, judgment of 3 September 2018 (K.K. Sasidharan and R. Subramanian JJ.), copy on Indian Kanoon (a third-party host, not the court's own site); the hash is of the HTML page fetched",
+    "kind": "PRIMARY",
+    "url": "https://indiankanoon.org/doc/36417994/",
+    "retrievedOn": "2026-10-10",
+    "archiveUrl": null,
+    "archivedOn": null,
+    "sha256": "8095b00b1cf88d4ff69d167978d0018f6702fe54b745b83937e3bc056b830292",
+    "originatesFrom": null
+  },
+  {
+    "id": "SRC-0720",
+    "name": "Madras High Court, P. Tamilmani and others v. Government of Tamil Nadu and others, Crl.O.P. No. 1680 of 2017, order of 9 October 2020 (P.N. Prakash J.), copy on Indian Kanoon (a third-party host, not the court's own site); the hash is of the HTML page fetched",
+    "kind": "PRIMARY",
+    "url": "https://indiankanoon.org/doc/194250907/",
+    "retrievedOn": "2026-10-10",
+    "archiveUrl": null,
+    "archivedOn": null,
+    "sha256": "891e9f5f1ec8f20ec59ece2c95cac34d0576ee2872ceebc0f032723d0e5e6668",
+    "originatesFrom": null
+  },
+  {
+    "id": "SRC-0721",
+    "name": "Madras High Court, A. Rajesh v. State, Crl.O.P. No. 13797 of 2025, order of 30 April 2025 (G.K. Ilanthiraiyan J.), copy on Indian Kanoon (a third-party host, not the court's own site); the hash is of the HTML page fetched",
+    "kind": "PRIMARY",
+    "url": "https://indiankanoon.org/doc/105490092/",
+    "retrievedOn": "2026-10-10",
+    "archiveUrl": null,
+    "archivedOn": null,
+    "sha256": "f0f3d3b1460ab9328c926a930700195403737c42fbb81e29af3bf72091fad36b",
+    "originatesFrom": null
+  },
+  {
+    "id": "SRC-0722",
+    "name": "Calcutta High Court, Debranjan Banerjee v. State of West Bengal and others, WPA(P) 360 of 2024, order of 23 August 2024 (Harish Tandon and Hiranmay Bhattacharyya JJ.), copy on Indian Kanoon (a third-party host, not the court's own site); the hash is of the HTML page fetched",
+    "kind": "PRIMARY",
+    "url": "https://indiankanoon.org/doc/96156292/",
+    "retrievedOn": "2026-10-10",
+    "archiveUrl": null,
+    "archivedOn": null,
+    "sha256": "4eed174959fd0f5d02b23973f49ae1d35cbf2ace4f9ffdd61d0c662b2de43efb",
+    "originatesFrom": null
+  },
+  {
+    "id": "SRC-0723",
+    "name": "Calcutta High Court, Anjali Lahiri v. State of West Bengal and others, WPA 22026 of 2024, order of 30 August 2024 (Amrita Sinha J.), copy on Indian Kanoon (a third-party host, not the court's own site); the hash is of the HTML page fetched",
+    "kind": "PRIMARY",
+    "url": "https://indiankanoon.org/doc/98292575/",
+    "retrievedOn": "2026-10-10",
+    "archiveUrl": null,
+    "archivedOn": null,
+    "sha256": "7acc17c4e8d7b5d3144814bc1dd6634dd5d02bdd35142eae8e8266850579cd4a",
+    "originatesFrom": null
+  },
+  {
+    "id": "SRC-0724",
+    "name": "Calcutta High Court, Anjali Lahiri v. State of West Bengal and others, WPA 22026 of 2024, correction order of 2 September 2024 (Amrita Sinha J.), copy on Indian Kanoon (a third-party host, not the court's own site); the hash is of the HTML page fetched",
+    "kind": "PRIMARY",
+    "url": "https://indiankanoon.org/doc/173813662/",
+    "retrievedOn": "2026-10-10",
+    "archiveUrl": null,
+    "archivedOn": null,
+    "sha256": "786a0bea4fac89f828056db97bb317f57d21ee47c63d2dfa9cbc105d66a133e3",
+    "originatesFrom": null
+  },
+  {
+    "id": "SRC-0725",
+    "name": "Supreme Court of India, State of West Bengal v. Anjali Lahiri, SLP (Crl.) No. 11938/2024, order of 2 September 2024 (J.B. Pardiwala and Manoj Misra JJ.), copy on Indian Kanoon (a third-party host, not the court's own site); the hash is of the HTML page fetched",
+    "kind": "PRIMARY",
+    "url": "https://indiankanoon.org/doc/74425983/",
+    "retrievedOn": "2026-10-10",
+    "archiveUrl": null,
+    "archivedOn": null,
+    "sha256": "74570042ea3fe448b695a4be6c6f177539df10cc71c46e389282d097a7a5cbd5",
+    "originatesFrom": null
+  },
+  {
+    "id": "SRC-0726",
+    "name": "Calcutta High Court, Bhaskar Ghosh v. State of West Bengal and others, WPA 22182 of 2024, order of 4 September 2024 (Rajarshi Bharadwaj J.), copy on Indian Kanoon (a third-party host, not the court's own site); the hash is of the HTML page fetched",
+    "kind": "PRIMARY",
+    "url": "https://indiankanoon.org/doc/20615629/",
+    "retrievedOn": "2026-10-10",
+    "archiveUrl": null,
+    "archivedOn": null,
+    "sha256": "3598bcded74d99b5d25c9e37d665f403f67a99297737f64f4c2d8062ad82196f",
+    "originatesFrom": null
+  },
+  {
+    "id": "SRC-0727",
+    "name": "Calcutta High Court, Sanjay Kumar Shaw v. State of West Bengal and others, WPA(P) 311 of 2025, order of 7 August 2025 (Court No. 8), copy on Indian Kanoon (a third-party host, not the court's own site); the hash is of the HTML page fetched",
+    "kind": "PRIMARY",
+    "url": "https://indiankanoon.org/doc/152387072/",
+    "retrievedOn": "2026-10-10",
+    "archiveUrl": null,
+    "archivedOn": null,
+    "sha256": "89696c52f017cc47ed902c2b19f3cea8619177a9e9765dc82cfa96849b7790fe",
+    "originatesFrom": null
+  },
+  {
+    "id": "SRC-0728",
+    "name": "Calcutta High Court, Sankar Ghosh v. State of West Bengal and others, WPA No. 736 of 2026, order of 15 January 2026 (Suvra Ghosh J.), copy on Indian Kanoon (a third-party host, not the court's own site); the hash is of the HTML page fetched",
+    "kind": "PRIMARY",
+    "url": "https://indiankanoon.org/doc/37486897/",
+    "retrievedOn": "2026-10-10",
+    "archiveUrl": null,
+    "archivedOn": null,
+    "sha256": "236a4eb9a43a780b0d0e7d81e8d15c6db503fac511da99e8eb246e1199622cfb",
+    "originatesFrom": null
+  },
+  {
+    "id": "SRC-0729",
+    "name": "Calcutta High Court, Sankar Ghosh v. State of West Bengal and others, MAT 67 of 2026, judgment of 29 January 2026 (Sujoy Paul CJ and Partha Sarathi Sen J.), copy on Indian Kanoon (a third-party host, not the court's own site); the hash is of the HTML page fetched",
+    "kind": "PRIMARY",
+    "url": "https://indiankanoon.org/doc/56721438/",
+    "retrievedOn": "2026-10-10",
+    "archiveUrl": null,
+    "archivedOn": null,
+    "sha256": "7dd7b61c2d9c54b0a129381d215cd4fbbffa16ce417f23d918fa803a7f6002ed",
+    "originatesFrom": null
+  },
+  {
+    "id": "SRC-0730",
+    "name": "Allahabad High Court, Mohd. Aman Khan v. Union of India and 4 others, Criminal Misc. Writ Petition No. 26085 of 2019, order of 19 December 2019 (Govind Mathur CJ and Vivek Varma J.), PDF of the court order hosted on Bar and Bench's image CDN (not the court's own site)",
+    "kind": "PRIMARY",
+    "url": "https://images.assettype.com/barandbench/2019-12/2667cdc4-863e-4bab-81a0-16fff6c4e4ea/Allahabad_HC___AMU_Violence___December_19_Order.pdf",
+    "retrievedOn": "2026-10-10",
+    "archiveUrl": null,
+    "archivedOn": null,
+    "sha256": "b208ccdbf20fbbb7706ede0ef263a2705f01f0440bd975ede81df919c7944eda",
+    "originatesFrom": null
+  },
+  {
+    "id": "SRC-0731",
+    "name": "Allahabad High Court, Mohd. Aman Khan v. Union of India and others, Criminal Misc. Writ Petition No. 26085 of 2019 with CRPIL No. 1 of 2020, WPIL Nos. 8, 10, 18 and 44 of 2020 and CRLP No. 392 of 2020, order of 8 September 2022 (Rajesh Bindal CJ and J.J. Munir J.), PDF hosted by LiveLaw (not the court's own site)",
+    "kind": "PRIMARY",
+    "url": "https://www.livelaw.in/pdf_upload/mohd-aman-khan-v-union-of-india-and-others-allahabad-high-court-434994.pdf",
+    "retrievedOn": "2026-10-10",
+    "archiveUrl": null,
+    "archivedOn": null,
+    "sha256": "92d1327f74e0733358223febd14df75592e5ea58100e51abfb246f2d7d4c1577",
+    "originatesFrom": null
+  },
+  {
+    "id": "SRC-0732",
+    "name": "Supreme Court of India, Alumni Association Jamia Millia Islamia University and others v. Union of India and others, W.P.(Crl.) No. 370/2019 with connected matters, order of 17 December 2019 (bench of the Chief Justice, B.R. Gavai and Surya Kant JJ.), copy on Indian Kanoon (a third-party host, not the court's own site); the hash is of the HTML page fetched",
+    "kind": "PRIMARY",
+    "url": "https://indiankanoon.org/doc/88395142/",
+    "retrievedOn": "2026-10-10",
+    "archiveUrl": null,
+    "archivedOn": null,
+    "sha256": "8733a29058e189dc28b1a288209552fb78e22e3bd3be740f8c2214ab47c6934f",
+    "originatesFrom": null
+  },
+  {
+    "id": "SRC-0733",
+    "name": "Delhi High Court, Manoj Dhiryan v. Union of India and others, W.P.(C) 13468/2019 and connected matters, judgment of 5 October 2026 (Vivek Chaudhary and Manoj Jain JJ.), copy on Indian Kanoon (a third-party host, not the court's own site); the hash is of the HTML page fetched",
+    "kind": "PRIMARY",
+    "url": "https://indiankanoon.org/doc/198135893/",
+    "retrievedOn": "2026-10-10",
+    "archiveUrl": null,
+    "archivedOn": null,
+    "sha256": "3a89861a813474984cdf65fa3195cb38c9268873759d20c54624070342c605ca",
+    "originatesFrom": null
+  },
+  {
+    "id": "SRC-0734",
+    "name": "Delhi High Court, Ameet Parmeswaran and others v. Commissioner of Police, Delhi and others, W.P.(CRL) 80/2020, order of 14 January 2020 (Brijesh Sethi J.), copy on Indian Kanoon (a third-party host, not the court's own site); the hash is of the HTML page fetched",
+    "kind": "PRIMARY",
+    "url": "https://indiankanoon.org/doc/98493591/",
+    "retrievedOn": "2026-10-10",
+    "archiveUrl": null,
+    "archivedOn": null,
+    "sha256": "cc20f9d990ac625a5739a3e998d5f9ca6f68ed91527346ddd19af7371260c061",
+    "originatesFrom": null
+  },
+  {
+    "id": "SRC-0735",
+    "name": "Patna High Court, Anand Legal Aid Forum Trust v. Bihar Public Service Commission and others, CWJC No. 752 of 2025 with connected petitions, judgment of 28 March 2025 (Acting Chief Justice Ashutosh Kumar and Partha Sarthy J.), PDF hosted by LiveLaw (not the court's own site)",
+    "kind": "PRIMARY",
+    "url": "https://www.livelaw.in/pdf_upload/bpsc-pt-re-exam-patna-hc-judgement-593427.pdf",
+    "retrievedOn": "2026-10-10",
+    "archiveUrl": null,
+    "archivedOn": null,
+    "sha256": "1e9408cf8b30b722b190c07321ccfd1f7da23e46a1576c1697b3101ac0b7dc9a",
+    "originatesFrom": null
+  },
+  {
+    "id": "SRC-0736",
+    "name": "Supreme Court of India, In re Kancha Gachibowli Forest, Suo Motu Writ Petition (Civil) No. 3/2025, order of 3 April 2025, copy on Indian Kanoon (a third-party host, not the court's own site); the hash is of the HTML page fetched",
+    "kind": "PRIMARY",
+    "url": "https://indiankanoon.org/doc/98526788/",
+    "retrievedOn": "2026-10-10",
+    "archiveUrl": null,
+    "archivedOn": null,
+    "sha256": "373d2aeabb13f87278b54c7582bb9ad2987decb2ef596310bd63a17c5a4facc9",
+    "originatesFrom": null
+  },
+  {
+    "id": "SRC-0737",
+    "name": "Supreme Court of India, In re Kancha Gachibowli Forest, order of 16 April 2025, copy on Indian Kanoon (a third-party host, not the court's own site); the hash is of the HTML page fetched",
+    "kind": "PRIMARY",
+    "url": "https://indiankanoon.org/doc/10637646/",
+    "retrievedOn": "2026-10-10",
+    "archiveUrl": null,
+    "archivedOn": null,
+    "sha256": "1a0a7947798f2acd9acf3433f9ddab283f46945d2ac33cb054621b4e4050e82b",
+    "originatesFrom": null
+  },
+  {
+    "id": "SRC-0738",
+    "name": "Supreme Court of India, In re Kancha Gachibowli Forest, order of 15 May 2025, copy on Indian Kanoon (a third-party host, not the court's own site); the hash is of the HTML page fetched",
+    "kind": "PRIMARY",
+    "url": "https://indiankanoon.org/doc/109155719/",
+    "retrievedOn": "2026-10-10",
+    "archiveUrl": null,
+    "archivedOn": null,
+    "sha256": "35af69587a17af30160244dbc977bc13ee60c7d9038d9f301777b001515a68f2",
+    "originatesFrom": null
+  },
+  {
+    "id": "SRC-0739",
+    "name": "Supreme Court of India, In re Kancha Gachibowli Forest, order of 23 July 2025, copy on Indian Kanoon (a third-party host, not the court's own site); the hash is of the HTML page fetched",
+    "kind": "PRIMARY",
+    "url": "https://indiankanoon.org/doc/56356422/",
+    "retrievedOn": "2026-10-10",
+    "archiveUrl": null,
+    "archivedOn": null,
+    "sha256": "b4ce4512e2948d5cd5d775e8fd4acfb93cf1a49ad95be09e5da04bae8d904187",
+    "originatesFrom": null
+  },
+  {
+    "id": "SRC-0740",
+    "name": "Supreme Court of India, In re Kancha Gachibowli Forest, order of 13 August 2025, copy on Indian Kanoon (a third-party host, not the court's own site); the hash is of the HTML page fetched",
+    "kind": "PRIMARY",
+    "url": "https://indiankanoon.org/doc/12138643/",
+    "retrievedOn": "2026-10-10",
+    "archiveUrl": null,
+    "archivedOn": null,
+    "sha256": "9052513eb72dfbe71e776a2a35ac832ed738170281db02d3c041aa31f0c38c9b",
+    "originatesFrom": null
+  },
+  {
+    "id": "SRC-0741",
+    "name": "Supreme Court of India, In re Kancha Gachibowli Forest, order of 9 September 2026, copy on Indian Kanoon (a third-party host, not the court's own site); the hash is of the HTML page fetched",
+    "kind": "PRIMARY",
+    "url": "https://indiankanoon.org/doc/121234163/",
+    "retrievedOn": "2026-10-10",
+    "archiveUrl": null,
+    "archivedOn": null,
+    "sha256": "32ae6593130243fd1d3e90ccbd468e0949ec8645f0200c2bb441816a8da7ad54",
+    "originatesFrom": null
+  },
+  {
     "id": "SRC-0056",
     "name": "India Code",
     "kind": "PRIMARY",
@@ -9152,7 +9581,7 @@ WGO.importedEvidence = [
   },
   {
     "id": "HIST-JNU16-006",
-    "title": "A letter dated 11 February 2016 from the JNU Registrar to the Deputy Commissioner of Police, South District, is reported to have said that the Vice-Chancellor g",
+    "title": "A letter from the JNU Registrar is reported by The Quint to have said that the Vice-Chancellor granted the police permission to enter the campus 'if need be and",
     "type": "OTHER_DOCUMENT",
     "verification": "REPORTED",
     "incidentId": "INC-0009",
@@ -9162,7 +9591,7 @@ WGO.importedEvidence = [
       "SRC-0138"
     ],
     "origin": "",
-    "establishes": "Single secondary source read (The Quint, 20 February 2016, which calls it a 'virtual carte blanche'). The letter itself has not been seen; HuffPost India, citing NDTV, is reported in search snippets to describe it as 'purportedly' written by the Registrar, but that page could not be fetched (404 on the redirect) and is not cited as read. The Vice-Chancellor is reported in snippets to have said at a press conference that he did not invite the police; no fetched page carries that statement, so no DISPUTED record can be made yet. Obtain the letter by RTI to JNU and to the Office of the Commissioner of Police, Delhi, and the register entry for it. The Quint also reports a senior professor's claim that the Vice-Chancellor first refused and relented after the Security Officer and the Registrar stressed the gravity of the charges; that is one person's account and is not established.",
+    "establishes": "Single secondary source read (The Quint, 20 February 2016, which calls it a 'virtual carte blanche'). The letter itself has not been seen; HuffPost India, citing NDTV, is reported in search snippets to describe it as 'purportedly' written by the Registrar, but that page could not be fetched (404 on the redirect) and is not cited as read. The Vice-Chancellor is reported in snippets to have said at a press conference that he did not invite the police; no fetched page carries that statement, so no DISPUTED record can be made yet. Obtain the letter by RTI to JNU and to the Office of the Commissioner of Police, Delhi, and the register entry for it. The Quint also reports a senior professor's claim that the Vice-Chancellor first refused and relented after the Security Officer and the Registrar stressed the gravity of the charges; that is one person's account and is not established. Quote check, 10 October 2026: The Quint page does not give the letter's date (earlier drafts said 11 February 2016) or name its addressee (earlier drafts said the Deputy Commissioner of Police, South District), so both were removed. Establish them from the letter itself.",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -10737,7 +11166,7 @@ WGO.importedEvidence = [
       "SRC-0186"
     ],
     "origin": "",
-    "establishes": "The report itself was not read. Three outlets summarise it consistently and the judgment confirms the core (violence by protesters, lack of restraint in the library, tear gas avoidable, university lapses, compensation and accountability recommendations). Critics, including petitioners, said it favoured the police; that is their allegation. The report is described as neutral by the High Court (para 68). It names no officer who ordered entry or force, as far as the summaries show.",
+    "establishes": "Update 10 October 2026: the NHRC's own account of these findings, from its newsletter and Annual Report, is now in the archive (HIST-HRC-002 to HIST-HRC-004) and is the better source. The words attributed to the report here come from press summaries and differ in places from the NHRC's own wording, for example 'not a state policy rather it was an individual act' for the tear gas. The report itself was not read. Three outlets summarise it consistently and the judgment confirms the core (violence by protesters, lack of restraint in the library, tear gas avoidable, university lapses, compensation and accountability recommendations). Critics, including petitioners, said it favoured the police; that is their allegation. The report is described as neutral by the High Court (para 68). It names no officer who ordered entry or force, as far as the summaries show.",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -11770,7 +12199,7 @@ WGO.importedEvidence = [
   },
   {
     "id": "HIST-NAB-007",
-    "title": "On 23 August 2024 a Calcutta High Court Division Bench, reported as Justice Harish Tandon and Justice Bhattacharyya, refused to entertain the State of West Beng",
+    "title": "On 23 August 2024 a Division Bench of the Calcutta High Court (Harish Tandon and Hiranmay Bhattacharyya JJ.), in the public interest petition WPA(P) 360 of 2024",
     "type": "COURT_DOCUMENT",
     "verification": "REPORTED",
     "incidentId": "INC-0015",
@@ -11780,7 +12209,7 @@ WGO.importedEvidence = [
       "SRC-0247"
     ],
     "origin": "",
-    "establishes": "Single report read (IANS via Sakshi Post). Second judge's name inconsistent across search snippets. Order text not read. Directly bears on the 'permission' question: the court declined to ban, which is not the same as granting permission. Primary source: Calcutta High Court order of 23 August 2024, to be obtained via the High Court website or Indian Kanoon.",
+    "establishes": "Corrected 10 October 2026 against the order itself (HIST-CRT-004). An earlier version of this item, built on a news report, said the court refused the State's plea for a ban. The order shows the petitioner was a private litigant who sought the ban and that the State argued against the rally. Single report read (IANS via Sakshi Post). Second judge's name inconsistent across search snippets. Order text not read. Directly bears on the 'permission' question: the court declined to ban, which is not the same as granting permission. Primary source: Calcutta High Court order of 23 August 2024, to be obtained via the High Court website or Indian Kanoon.",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -11986,7 +12415,7 @@ WGO.importedEvidence = [
       "SRC-0254"
     ],
     "origin": "",
-    "establishes": "All allegations by named party figures, reported by Business Today and LiveLaw. No document supports the claim that the Chief Minister gave an order about containers. Governor CV Ananda Bose urged the state not to use force (Tribune, News On AIR, paraphrased).",
+    "establishes": "All allegations by named party figures, reported by Business Today and LiveLaw. No document supports the claim that the Chief Minister gave an order about containers. Governor CV Ananda Bose urged the state not to use force (Tribune, News On AIR, paraphrased). Quote check, 10 October 2026: neither cited page gives the bandh date, so the date was removed.",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -13056,7 +13485,7 @@ WGO.importedEvidence = [
       "SRC-0297"
     ],
     "origin": "",
-    "establishes": "VERIFIED only for what the judgment records the State as saying. The order itself was not read, and the paragraph gives two end dates (rescinded 4 February; ended 12 February). The order is dated five days AFTER the 23 January operation, so it is not the authority for that operation. The paragraph also records the State's account that the January 2017 gathering involved 'anti-social elements' causing 'large scale violence and damage of public property' and that a commission under Justice S. Rajeswaran (Retd.) was then in progress. Those are the State's statements, not findings of the court. The fetched copy was hashed at retrieval. Under CrPC as it then stood; BNSS does not apply to 2017.",
+    "establishes": "Update 10 October 2026: the 28 April 2018 judgment this item cites was set aside by a Division Bench on 3 September 2018 (W.A. 1042 of 2018; see HIST-CRT-001). The Section 144 recital here is the State's counter-affidavit account only, and the appeal judgment does not repeat it. VERIFIED only for what the judgment records the State as saying. The order itself was not read, and the paragraph gives two end dates (rescinded 4 February; ended 12 February). The order is dated five days AFTER the 23 January operation, so it is not the authority for that operation. The paragraph also records the State's account that the January 2017 gathering involved 'anti-social elements' causing 'large scale violence and damage of public property' and that a commission under Justice S. Rajeswaran (Retd.) was then in progress. Those are the State's statements, not findings of the court. The fetched copy was hashed at retrieval. Under CrPC as it then stood; BNSS does not apply to 2017.",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -15224,7 +15653,7 @@ WGO.importedEvidence = [
       "SRC-0380"
     ],
     "origin": "",
-    "establishes": "Single outlet for the DM's words (ETV Bharat). The quote was taken from a summarised read of the page and should be checked against the page text before publication. Protesters and opposition figures describe the force as excessive; those are their allegations, not findings.",
+    "establishes": "Single outlet for the DM's words (ETV Bharat). The quote was checked against the raw page text on 10 October 2026. Protesters and opposition figures describe the force as excessive; those are their allegations, not findings.",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -18341,7 +18770,7 @@ WGO.importedEvidence = [
   },
   {
     "id": "HIST-BLR-003",
-    "title": "What force was used, and how to describe it: DISPUTED. Deccan Herald reports that after students 'slammed down the police barricades' the police 'beat them with",
+    "title": "What force was used, and how to describe it: DISPUTED. Deccan Herald reports that after students 'slamming down the police barricades' the police 'beat them wit",
     "type": "OTHER_DOCUMENT",
     "verification": "DISPUTED",
     "incidentId": "INC-0036",
@@ -23044,7 +23473,7 @@ WGO.importedEvidence = [
   },
   {
     "id": "HIST-SSC-016",
-    "title": "How the people at the protest are labelled by the sources: PTI says 'SSC aspirants and teachers' and 'SSC students and trainers'; Newslaundry says 'students and",
+    "title": "How the people at the protest are labelled by the sources: PTI (on The Week) says 'SSC aspirants and teachers'; Newslaundry says 'students and teachers'; The Lo",
     "type": "OTHER_DOCUMENT",
     "verification": "REPORTED",
     "incidentId": "INC-0047",
@@ -23417,6 +23846,529 @@ WGO.importedEvidence = [
     "sourceIds": [],
     "origin": "",
     "establishes": "Status of the FIR after 17 November 2025 not found.",
+    "doesNotEstablish": "",
+    "relatedIds": [],
+    "accessNote": "",
+    "volatility": "low"
+  },
+  {
+    "id": "HIST-HRC-001",
+    "title": "On 2 January 2020 the NHRC issued a press release saying it had been brought to its notice that certain individuals were attributing to it a condemnation of pol",
+    "type": "OTHER_DOCUMENT",
+    "verification": "VERIFIED",
+    "incidentId": "INC-0012",
+    "dateOfItem": null,
+    "dateAdded": "2026-08-16",
+    "sourceIds": [
+      "SRC-0703",
+      "SRC-0704"
+    ],
+    "origin": "",
+    "establishes": "Establishes that as of 2 January 2020 the Commission itself had made no finding. Useful against any claim that the NHRC condemned the police in December 2019. The file hash on the newsletter source is of the February 2020 issue.",
+    "doesNotEstablish": "",
+    "relatedIds": [],
+    "accessNote": "",
+    "volatility": "low"
+  },
+  {
+    "id": "HIST-HRC-002",
+    "title": "The NHRC's own Human Rights Newsletter of July 2020 (pp. 8 to 10) summarises the Commission's Jamia inquiry (Case No. 5630/30/0/2019). It says the team found th",
+    "type": "OTHER_DOCUMENT",
+    "verification": "VERIFIED",
+    "incidentId": "INC-0012",
+    "dateOfItem": null,
+    "dateAdded": "2026-08-16",
+    "sourceIds": [
+      "SRC-0705"
+    ],
+    "origin": "",
+    "establishes": "Primary: the Commission's own publication, read in full for this case. The newsletter does not say who ordered the entry or the tear gas; it attributes the library tear gas to 'an individual act' and says the 'officer on the spot' decides. That is the nearest the Commission comes to the order question and it names no officer. Recommendations listed: compensation to injured students; identify Delhi Police and RAF members seen damaging CCTV cameras and caning inside reading rooms; sensitisation training; SIT of Crime Branch to investigate all cases; expedite the administrative enquiry on the library; an SOP.",
+    "doesNotEstablish": "",
+    "relatedIds": [],
+    "accessNote": "",
+    "volatility": "low"
+  },
+  {
+    "id": "HIST-HRC-003",
+    "title": "The NHRC Annual Report 2020-21 (pp. 128 to 129, Case No. 5630/30/0/2019) records that after a spot visit the Investigation team 'found the incident to be of law",
+    "type": "OTHER_DOCUMENT",
+    "verification": "VERIFIED",
+    "incidentId": "INC-0012",
+    "dateOfItem": null,
+    "dateAdded": "2026-08-16",
+    "sourceIds": [
+      "SRC-0706"
+    ],
+    "origin": "",
+    "establishes": "Primary and in the Commission's own words. Differs in tone from the high-profile press summaries: it explicitly proposes action against police and paramilitary members. It still names no individual or ordering officer.",
+    "doesNotEstablish": "",
+    "relatedIds": [],
+    "accessNote": "",
+    "volatility": "low"
+  },
+  {
+    "id": "HIST-HRC-004",
+    "title": "NHRC records identify the Jamia matter as Case No. 5630/30/0/2019. The Annual Report 2019-20 lists it as 'Illegal detention of 34 students of Jamia Millia Islam",
+    "type": "OTHER_DOCUMENT",
+    "verification": "VERIFIED",
+    "incidentId": "INC-0012",
+    "dateOfItem": null,
+    "dateAdded": "2026-08-16",
+    "sourceIds": [
+      "SRC-0707",
+      "SRC-0708",
+      "SRC-0198"
+    ],
+    "origin": "",
+    "establishes": "Fills the case number HIST-JMI-013 and HIST-JMI-022 said was missing. The NHRC spot-enquiry page prints the visit as '14-Jan-2019 - 17-Jan-2019' which is an evident typo for 2020 (the February 2020 newsletter gives 14.01.2020 to 17.01.2020 and 22.01.2020 to 24.01.2020). The page entry is recorded as printed. Complaint 14926/IN/2019 is the HRD complaint and is a different number from the case number.",
+    "doesNotEstablish": "",
+    "relatedIds": [],
+    "accessNote": "",
+    "volatility": "low"
+  },
+  {
+    "id": "HIST-HRC-005",
+    "title": "The NHRC lists the Aligarh Muslim University matter as Case No. 1018/24/3/2020, 'Aligarh Muslim University Police atroites on students who were protesting intro",
+    "type": "OTHER_DOCUMENT",
+    "verification": "VERIFIED",
+    "incidentId": "INC-0013",
+    "dateOfItem": null,
+    "dateAdded": "2026-08-16",
+    "sourceIds": [
+      "SRC-0708",
+      "SRC-0704"
+    ],
+    "origin": "",
+    "establishes": "Confirms the Allahabad High Court reference in HIST-AMU-010 from the Commission's side and supplies the case number. Spot-enquiry page row text quoted with the NHRC's own spelling.",
+    "doesNotEstablish": "",
+    "relatedIds": [],
+    "accessNote": "",
+    "volatility": "low"
+  },
+  {
+    "id": "HIST-HRC-006",
+    "title": "The NHRC's April 2020 newsletter and Annual Report 2020-21 (Case No. 1018/24/3/2020) give the findings of its AMU inquiry. It found 'purely a law and order situ",
+    "type": "OTHER_DOCUMENT",
+    "verification": "VERIFIED",
+    "incidentId": "INC-0013",
+    "dateOfItem": null,
+    "dateAdded": "2026-08-16",
+    "sourceIds": [
+      "SRC-0709",
+      "SRC-0706"
+    ],
+    "origin": "",
+    "establishes": "Important for the order question: the Commission records that the Registrar requested police entry and that the District Magistrate deputed executive magistrates. These are the NHRC's findings, not court findings, and it names no officer who ordered force. The Annual Report misdates the incident as December 2020 (evident typo).",
+    "doesNotEstablish": "",
+    "relatedIds": [],
+    "accessNote": "",
+    "volatility": "low"
+  },
+  {
+    "id": "HIST-HRC-007",
+    "title": "On 24 January 2017 the NHRC took suo motu cognizance of media reports that police, 'without any prior caution, resorted to beating, arresting and damaging priva",
+    "type": "OTHER_DOCUMENT",
+    "verification": "VERIFIED",
+    "incidentId": "INC-0019",
+    "dateOfItem": null,
+    "dateAdded": "2026-08-16",
+    "sourceIds": [
+      "SRC-0710"
+    ],
+    "origin": "",
+    "establishes": "Replaces the Deccan Chronicle secondary in HIST-C17A-008 with the NHRC's own text and confirms the date. The statement is based on media reports and is not a finding after inquiry. Replies from the three offices not found.",
+    "doesNotEstablish": "",
+    "relatedIds": [],
+    "accessNote": "",
+    "volatility": "low"
+  },
+  {
+    "id": "HIST-HRC-008",
+    "title": "On 28 February 2017 the NHRC issued a notice to the Delhi Police Commissioner on a complaint that police personnel attacked a female student and snatched camera",
+    "type": "OTHER_DOCUMENT",
+    "verification": "VERIFIED",
+    "incidentId": "INC-0020",
+    "dateOfItem": null,
+    "dateAdded": "2026-08-16",
+    "sourceIds": [
+      "SRC-0711",
+      "SRC-0712"
+    ],
+    "origin": "",
+    "establishes": "Resolves HIST-RAM-016 and HIST-RAM-023, which said the NHRC page was not located. Allegations are the complainant's. No case number is printed. The March 2017 newsletter source is the file identified from the archive listing; its hash was not recorded.",
+    "doesNotEstablish": "",
+    "relatedIds": [],
+    "accessNote": "",
+    "volatility": "low"
+  },
+  {
+    "id": "HIST-HRC-009",
+    "title": "On 26 September 2017 the NHRC took suo motu cognizance of media reports of inaction by BHU on an eve-teasing complaint and 'unwarranted manhandling and thrashin",
+    "type": "OTHER_DOCUMENT",
+    "verification": "VERIFIED",
+    "incidentId": "INC-0011",
+    "dateOfItem": null,
+    "dateAdded": "2026-08-16",
+    "sourceIds": [
+      "SRC-0713",
+      "SRC-0714"
+    ],
+    "origin": "",
+    "establishes": "Upgrades HIST-BHU-018 (The Quint) to the Commission's own text and supplies the case number. The observation is based on media reports. Replies not found.",
+    "doesNotEstablish": "",
+    "relatedIds": [],
+    "accessNote": "",
+    "volatility": "low"
+  },
+  {
+    "id": "HIST-HRC-010",
+    "title": "On 3 October 2018 the NHRC decided to send its own team headed by a DIG (Investigation) for a spot enquiry into the deaths of two school students and injuries t",
+    "type": "OTHER_DOCUMENT",
+    "verification": "VERIFIED",
+    "incidentId": "INC-0028",
+    "dateOfItem": null,
+    "dateAdded": "2026-08-16",
+    "sourceIds": [
+      "SRC-0715",
+      "SRC-0708",
+      "SRC-0716"
+    ],
+    "origin": "",
+    "establishes": "Supplies the NHRC case number that HIST-DAR-011 and HIST-DAR-015 lacked. The release repeats the complainants' account; it is not a finding. The NHRC spot-enquiry report is described in the Calcutta High Court judgment already in HIST-DAR-011; the report itself was not found on the NHRC site.",
+    "doesNotEstablish": "",
+    "relatedIds": [],
+    "accessNote": "",
+    "volatility": "low"
+  },
+  {
+    "id": "HIST-HRC-011",
+    "title": "The NHRC lists the Nabanna Abhijan complaint as Case No. 2363/25/5/2024: a complaint received on 28 August 2024 from O.P. Vyas, Bharatiya Human Rights Initiativ",
+    "type": "OTHER_DOCUMENT",
+    "verification": "VERIFIED",
+    "incidentId": "INC-0015",
+    "dateOfItem": null,
+    "dateAdded": "2026-08-16",
+    "sourceIds": [
+      "SRC-0708",
+      "SRC-0717"
+    ],
+    "origin": "",
+    "establishes": "Upgrades HIST-NAB-016 (secondary) and gives the case number. The two NHRC sources disagree on the visit dates (5 to 9 October 2025 against 3 to 7 November 2025); recorded as printed, unresolved. The spot-enquiry report and any NHRC finding were not found. The allegation is the complainant's.",
+    "doesNotEstablish": "",
+    "relatedIds": [],
+    "accessNote": "",
+    "volatility": "low"
+  },
+  {
+    "id": "HIST-HRC-012",
+    "title": "On 17 February 2016 the NHRC issued a notice to the Union Home Secretary, Delhi Chief Secretary, Delhi Police Commissioner and the JNU Registrar over police act",
+    "type": "OTHER_DOCUMENT",
+    "verification": "VERIFIED",
+    "incidentId": "INC-0009",
+    "dateOfItem": null,
+    "dateAdded": "2026-08-16",
+    "sourceIds": [
+      "SRC-0718"
+    ],
+    "origin": "",
+    "establishes": "A second NHRC notice of the same date, on police action in the campus, complements HIST-JNU16-019 (Patiala House). The reports called for were not found.",
+    "doesNotEstablish": "",
+    "relatedIds": [],
+    "accessNote": "",
+    "volatility": "low"
+  },
+  {
+    "id": "HIST-CRT-001",
+    "title": "A Division Bench of the Madras High Court (K.K. Sasidharan and R. Subramanian JJ.) allowed the State's appeal W.A. No. 1042 of 2018 on 3 September 2018, set asi",
+    "type": "COURT_DOCUMENT",
+    "verification": "VERIFIED",
+    "incidentId": "INC-0019",
+    "dateOfItem": null,
+    "dateAdded": "2026-10-10",
+    "sourceIds": [
+      "SRC-0719"
+    ],
+    "origin": "",
+    "establishes": "This matters for HIST-C17A-006, which cites the 28 April 2018 judgment for the State's recital of a Section 144 order of 28 January 2017. That judgment no longer stands as a decision: it was reversed on appeal. The recital was only ever the State's counter-affidavit account, and the appeal judgment does not repeat it. The word Jallikattu does not appear in the appeal judgment, and it makes no finding on the 23 January 2017 clearance. The appeal's paras 3, 6 and 7 record the State's position that no protest permission had been given on the Marina sands since 2003, and para 10 records the Additional Advocate General's argument that Section 41 of the Chennai City Police Act, 1888 bars any protest without the Commissioner of Police's permission. The hash is of the HTML page fetched from Indian Kanoon.",
+    "doesNotEstablish": "",
+    "relatedIds": [],
+    "accessNote": "",
+    "volatility": "low"
+  },
+  {
+    "id": "HIST-CRT-002",
+    "title": "On 9 October 2020 the Madras High Court (P.N. Prakash J.), in Crl.O.P. No. 1680 of 2017, closed a petition by eight accused in Crime No. 92 of 2017 of the D-5 M",
+    "type": "COURT_DOCUMENT",
+    "verification": "VERIFIED",
+    "incidentId": "INC-0019",
+    "dateOfItem": null,
+    "dateAdded": "2026-10-10",
+    "sourceIds": [
+      "SRC-0720"
+    ],
+    "origin": "",
+    "establishes": "VERIFIED only for what the order records: the petitioners' allegation of assault and the court's refusal to decide disputed facts. It is not a finding that police assaulted anyone and it does not say who gave any order. The sections listed for Crime No. 92 of 2017 are IPC 147, 148, 294(b), 323, 324, 353, 447, 435, 436, 506(II), 306 and Section 3 of the Tamil Nadu Public Property (Prevention of Damage and Loss) Act. The order does not state the date of arrest or tie the crime number to the 23 January 2017 clearance. Its mention of the Rajeswaran Commission is a passing recital, not a statement of what the Commission found.",
+    "doesNotEstablish": "",
+    "relatedIds": [],
+    "accessNote": "",
+    "volatility": "low"
+  },
+  {
+    "id": "HIST-CRT-003",
+    "title": "On 30 April 2025 the Madras High Court (G.K. Ilanthiraiyan J.), in Crl.O.P. No. 13797 of 2025, quashed Crime No. 202 of 2017 (registered 24 January 2017 at MKB ",
+    "type": "COURT_DOCUMENT",
+    "verification": "VERIFIED",
+    "incidentId": "INC-0019",
+    "dateOfItem": null,
+    "dateAdded": "2026-10-10",
+    "sourceIds": [
+      "SRC-0721"
+    ],
+    "origin": "",
+    "establishes": "This supplies what HIST-C17A-013 lacked: the number and date of the Government Order (G.O.Ms.No.99, Home (Courts-IV) Department, 20 February 2021) and the figure of 308 cases, which the order attributes to counsel and the State's Government Advocate rather than quoting from the G.O. itself. The G.O. text was not read. MKB Nagar is in north Chennai, not at Marina, and the order does not link Crime No. 202 of 2017 to the 23 January 2017 clearance; it describes only 'wide spread agitation' against the ban. The 26,460 accused named in HIST-C17A-013 is not in this order.",
+    "doesNotEstablish": "",
+    "relatedIds": [],
+    "accessNote": "",
+    "volatility": "low"
+  },
+  {
+    "id": "HIST-CRT-004",
+    "title": "On 23 August 2024 a Division Bench of the Calcutta High Court (Harish Tandon and Hiranmay Bhattacharyya JJ.), in the public interest petition WPA(P) 360 of 2024",
+    "type": "COURT_DOCUMENT",
+    "verification": "VERIFIED",
+    "incidentId": "INC-0015",
+    "dateOfItem": null,
+    "dateAdded": "2026-10-10",
+    "sourceIds": [
+      "SRC-0722"
+    ],
+    "origin": "",
+    "establishes": "Corrects HIST-NAB-007, which reports this order as a refusal to entertain 'the State of West Bengal's plea' for a ban. The order shows the petitioner was a private person, Debranjan Banerjee, described as a lawyer and resident of Shibpur, Howrah, who sought the prohibition; the State, through the Advocate General, argued that permission from police was needed and that the sensitive zone could be protected. The court did not grant permission to the marchers either: it only declined to prohibit. The order does not mention Section 163 BNSS or Section 144 CrPC at all, and records the State arguing for restraint of the rally. Later hearings of WPA(P) 360 of 2024 on 24 July and 18 August 2025 were adjournments (Indian Kanoon docs 102233875 and 104392020, not hashed here).",
+    "doesNotEstablish": "",
+    "relatedIds": [],
+    "accessNote": "",
+    "volatility": "low"
+  },
+  {
+    "id": "HIST-CRT-005",
+    "title": "The Calcutta High Court's order of 30 August 2024 in WPA 22026 of 2024 (Anjali Lahiri v. State of West Bengal, Amrita Sinha J.) records a police memo to the org",
+    "type": "COURT_DOCUMENT",
+    "verification": "VERIFIED",
+    "incidentId": "INC-0015",
+    "dateOfItem": null,
+    "dateAdded": "2026-10-10",
+    "sourceIds": [
+      "SRC-0723"
+    ],
+    "origin": "",
+    "establishes": "VERIFIED for what the order records, including the memo's wording as the order reproduces it. The memo itself was not read. The order does not give the date, number or author of the Section 163 BNSS order that the memo says applied at Nabanna, so which officer issued it and when on or before 24 August 2024 is still not established. The court also records that Paschim Banga Chhatra Samaj is not a registered association. On the point of permission the State and the organisers' side give different accounts and the order does not decide it. Compare HIST-CRT-007 for the Howrah memos.",
+    "doesNotEstablish": "",
+    "relatedIds": [],
+    "accessNote": "",
+    "volatility": "low"
+  },
+  {
+    "id": "HIST-CRT-006",
+    "title": "In the same order of 30 August 2024 the Calcutta High Court (Amrita Sinha J.) directed that the student organiser Sayan Lahiri, detained on the evening of 27 Au",
+    "type": "COURT_DOCUMENT",
+    "verification": "VERIFIED",
+    "incidentId": "INC-0015",
+    "dateOfItem": null,
+    "dateAdded": "2026-10-10",
+    "sourceIds": [
+      "SRC-0723",
+      "SRC-0724",
+      "SRC-0725"
+    ],
+    "origin": "",
+    "establishes": "The order names the offences in Maidan PS Case No. 35 of 2024 (BNS 189, 191(3), 190, 121(1), 132, 109, 326(1), 161(2); Prevention of Damage to Public Property Act s. 3; West Bengal Maintenance of Public Order Act s. 9) and New Market PS Case No. 114 of 2024, as the petition described them. The observation on force is the court's general comment on how protests should be handled; it is not a finding on what police did on 27 August, which the State disputed, and it names no officer. The order is silent on who ordered the lathicharge, water cannon or tear gas, and no later affidavit or order in this series has been located. A related order of 4 September 2024 is in HIST-CRT-007.",
+    "doesNotEstablish": "",
+    "relatedIds": [],
+    "accessNote": "",
+    "volatility": "low"
+  },
+  {
+    "id": "HIST-CRT-007",
+    "title": "On 4 September 2024 the Calcutta High Court (Rajarshi Bharadwaj J.), in WPA 22182 of 2024 (Bhaskar Ghosh v. State of West Bengal), recorded the convenor of Sang",
+    "type": "COURT_DOCUMENT",
+    "verification": "VERIFIED",
+    "incidentId": "INC-0015",
+    "dateOfItem": null,
+    "dateAdded": "2026-10-10",
+    "sourceIds": [
+      "SRC-0726"
+    ],
+    "origin": "",
+    "establishes": "The memo contents are given as the order reproduces them; the memos were not read. The order's own statement that conditional approval had been granted sits uneasily with the petitioner's account that permission was denied the next day, and with the State's account in HIST-CRT-005 that no permission was sought; the order does not reconcile them. It identifies the Howrah Police Commissionerate as the issuer of both memos, which is the only document-level answer yet found to who decided on the rally permission at Howrah. It says nothing on who ordered force against marchers. Interim protection was an interim order and the order says its observations are only for that purpose.",
+    "doesNotEstablish": "",
+    "relatedIds": [],
+    "accessNote": "",
+    "volatility": "low"
+  },
+  {
+    "id": "HIST-CRT-008",
+    "title": "Later Calcutta High Court orders record a Section 163 BNSS order covering the Nabanna area, with no issue date given in the 2026 orders. On 7 August 2025 (WPA(P",
+    "type": "COURT_DOCUMENT",
+    "verification": "VERIFIED",
+    "incidentId": "INC-0015",
+    "dateOfItem": null,
+    "dateAdded": "2026-10-10",
+    "sourceIds": [
+      "SRC-0727",
+      "SRC-0728",
+      "SRC-0729"
+    ],
+    "origin": "",
+    "establishes": "These are 2025 and 2026 orders and do not show what restrictions applied on 27 August 2024. The 47 injured police and the officer who lost an eye are the Advocate General's statement to the court in 2025, not a court finding. The police letter of 12 January 2026 and an SOP of the Commissioner of Police, Howrah of 9 September 2025 (cited in the 15 January 2026 order) are the State's recitals. The order of 15 January 2026 leaves open whether the SOP 'has any legal sanction', a point it says is for 'the appropriate forum'. The 7 August 2025 order says a policy dated 31.07.2025 set aside Mandirtala Bus Station, Howrah Maidan and under Bankim Setu Flyover for protests.",
+    "doesNotEstablish": "",
+    "relatedIds": [],
+    "accessNote": "",
+    "volatility": "low"
+  },
+  {
+    "id": "HIST-CRT-009",
+    "title": "The Allahabad High Court (Govind Mathur CJ and Vivek Varma J.) on 19 December 2019, in Criminal Misc. Writ Petition No. 26085 of 2019 (Mohd. Aman Khan v. Union ",
+    "type": "COURT_DOCUMENT",
+    "verification": "VERIFIED",
+    "incidentId": "INC-0013",
+    "dateOfItem": null,
+    "dateAdded": "2026-10-10",
+    "sourceIds": [
+      "SRC-0730"
+    ],
+    "origin": "",
+    "establishes": "The allegations of lathi charge, tear gas, rubber bullets and pellets are the petitioner's averments as the order recites them ('As per the averments'); the court made no finding. The order names no officer and says nothing about who authorised entry. It describes the force as 'Para Military Force and the State Police' and the petition as concerning 12 to 15 December 2019. The order of 7 January 2020 (NHRC to inquire) and of 24 February 2020 (compliance with NHRC recommendations) were not obtained: the copy linked from The Leaflet is on cdn.theleaflet.in, which this environment's proxy refused, and no other full copy was found. Those two remain REPORTED.",
+    "doesNotEstablish": "",
+    "relatedIds": [],
+    "accessNote": "",
+    "volatility": "low"
+  },
+  {
+    "id": "HIST-CRT-010",
+    "title": "The Allahabad High Court (Rajesh Bindal CJ and J.J. Munir J.) disposed of the AMU petitions on 8 September 2022 (Crl. Misc. Writ Petition No. 26085 of 2019 with",
+    "type": "COURT_DOCUMENT",
+    "verification": "VERIFIED",
+    "incidentId": "INC-0013",
+    "dateOfItem": null,
+    "dateAdded": "2026-10-10",
+    "sourceIds": [
+      "SRC-0731"
+    ],
+    "origin": "",
+    "establishes": "This is the court's own confirmation that the 7 January 2020 order requesting an NHRC inquiry was made and that the NHRC inquiry and report were completed (previously known only from news reports). The order does not reproduce the NHRC report, does not say what recommendations a, b, d and e were, and does not state what compliance was shown beyond the State's say-so. It makes no finding on any police officer or on who ordered the 15 December 2019 action. It also says students should not 'fall in the trap of unscrupulous persons operating outside the University', which is the court's general remark. The Delhi High Court's judgment of 5 October 2026 (HIST-CRT-012, para 3) also records that the Allahabad Division Bench 'declined to constitute a Special Investigating Team at that stage'.",
+    "doesNotEstablish": "",
+    "relatedIds": [],
+    "accessNote": "",
+    "volatility": "low"
+  },
+  {
+    "id": "HIST-CRT-011",
+    "title": "On 17 December 2019 the Supreme Court (a bench of the Chief Justice, B.R. Gavai and Surya Kant JJ.), in W.P.(Crl.) No. 370/2019 (Alumni Association Jamia Millia",
+    "type": "COURT_DOCUMENT",
+    "verification": "VERIFIED",
+    "incidentId": "INC-0013",
+    "dateOfItem": null,
+    "dateAdded": "2026-10-10",
+    "sourceIds": [
+      "SRC-0732"
+    ],
+    "origin": "",
+    "establishes": "This order covers the Jamia (INC-0012) and AMU (INC-0013) incidents together and is the source of the route to the Delhi and Allahabad High Courts. Every figure in it is the Solicitor General's statement on 17 December 2019; the order says 'almost each fact alleged by the petitioners is disputed' and makes no finding. The text names the Chief Justice only by office. The Delhi High Court judgment of 5 October 2026 (HIST-CRT-012) cites this order in its para 2.",
+    "doesNotEstablish": "",
+    "relatedIds": [],
+    "accessNote": "",
+    "volatility": "low"
+  },
+  {
+    "id": "HIST-CRT-012",
+    "title": "A second copy of the Delhi High Court judgment of 5 October 2026 in W.P.(C) 13468/2019 (Manoj Dhiryan v. Union of India) and connected matters, by Vivek Chaudha",
+    "type": "COURT_DOCUMENT",
+    "verification": "VERIFIED",
+    "incidentId": "INC-0012",
+    "dateOfItem": null,
+    "dateAdded": "2026-10-10",
+    "sourceIds": [
+      "SRC-0733"
+    ],
+    "origin": "",
+    "establishes": "A cross-check against a second host; the court's own copy on the Delhi High Court website was not located, so neither copy is the court's own. The hash is of the HTML page, and the judgment is reserved on 24.07.2026 and decided 05.10.2026 per its header. Para 3 of the judgment also records, of the Allahabad petition (Criminal Misc. Writ Petition No. 26085 of 2019), that 'The Division Bench declined to constitute a Special Investigating Team at that stage and the NHRC was requested to undertake a complete inquiry/investigation'. The judgment cites the NHRC report as 'contemporaneous material' and says 'We do not treat its findings as conclusive of any individual criminal or other proceedings' (para 83).",
+    "doesNotEstablish": "",
+    "relatedIds": [],
+    "accessNote": "",
+    "volatility": "low"
+  },
+  {
+    "id": "HIST-CRT-013",
+    "title": "The Delhi High Court judgment of 5 October 2026 on the Jamia petitions does not name any officer, office or authority that ordered the police to enter the campu",
+    "type": "COURT_DOCUMENT",
+    "verification": "VERIFIED",
+    "incidentId": "INC-0012",
+    "dateOfItem": null,
+    "dateAdded": "2026-10-10",
+    "sourceIds": [
+      "SRC-0733"
+    ],
+    "origin": "",
+    "establishes": "A recorded negative: the judgment is silent on who gave the order. VERIFIED here means the text was searched, not that no such order exists. Para 86 holds that informing and consulting university authorities 'cannot, however, operate as an absolute condition in every situation', and para 82 that the police 'did not enter the University premises at the outset to deal with an otherwise peaceful assembly confined to the campus'. Both are the court's conclusions from the NHRC material and the State's account. The Chief Proctor's statement that police entered without permission is recorded as the petitioners' reliance; the court did not decide it.",
+    "doesNotEstablish": "",
+    "relatedIds": [],
+    "accessNote": "",
+    "volatility": "low"
+  },
+  {
+    "id": "HIST-CRT-014",
+    "title": "On 14 January 2020 the Delhi High Court (Brijesh Sethi J.), in W.P.(CRL) 80/2020 (Ameet Parmeswaran and others v. Commissioner of Police, Delhi and others), dis",
+    "type": "COURT_DOCUMENT",
+    "verification": "VERIFIED",
+    "incidentId": "INC-0014",
+    "dateOfItem": null,
+    "dateAdded": "2026-10-10",
+    "sourceIds": [
+      "SRC-0734"
+    ],
+    "origin": "",
+    "establishes": "Supplies the case number, petitioners and respondents that HIST-JNU20-014 lacked. Respondent no. 1 is the Commissioner of Police, Delhi; respondents 3 and 4 are WhatsApp and Google; Apple (no. 5) was dropped at the petitioners' request. It is a direction on evidence preservation and makes no finding on police conduct, on police inaction on 5 January 2020, or on who authorised any police step. The 13 January 2020 order (notice to WhatsApp, Google and Apple) was not obtained: Indian Kanoon returned only the 14 January order and the Delhi High Court site was not searchable here. HIST-JNU20-013 stays REPORTED.",
+    "doesNotEstablish": "",
+    "relatedIds": [],
+    "accessNote": "",
+    "volatility": "low"
+  },
+  {
+    "id": "HIST-CRT-015",
+    "title": "The Patna High Court's judgment of 28 March 2025 (Acting Chief Justice Ashutosh Kumar and Partha Sarthy J.) in CWJC No. 752 of 2025 (Anand Legal Aid Forum Trust",
+    "type": "COURT_DOCUMENT",
+    "verification": "VERIFIED",
+    "incidentId": "INC-0026",
+    "dateOfItem": null,
+    "dateAdded": "2026-10-10",
+    "sourceIds": [
+      "SRC-0735"
+    ],
+    "origin": "",
+    "establishes": "VERIFIED only that the allegation is recited in the judgment, not that it is true. The judgment makes no finding on the lathi-charge and issues no direction about it or about the criminal cases; the dates it gives (25 and 29 December 2024) are the petitioners'. The archive's HIST-BPSC-001 dates the Patna water cannon and lathicharge 29 December 2024; the court's 25.12.2024 date is not otherwise corroborated here. The allegation blames 'the District Administration', not any named officer. The judgment's own account of the protests (paras 83 and 94) is about students agitating against normalisation of the result and the Commission's press note of 06.12.2024; it names no police official. A Supreme Court order of 7 January 2025 (W.P.(C) Diary 717/2025) simply declined to entertain the petition and sent the petitioner to the Patna High Court.",
+    "doesNotEstablish": "",
+    "relatedIds": [],
+    "accessNote": "",
+    "volatility": "low"
+  },
+  {
+    "id": "HIST-CRT-016",
+    "title": "The Supreme Court's orders in Suo Motu Writ Petition (Civil) No. 3/2025, In re Kancha Gachibowli Forest, of 3 April, 16 April, 15 May, 23 July and 13 August 202",
+    "type": "COURT_DOCUMENT",
+    "verification": "VERIFIED",
+    "incidentId": "INC-0045",
+    "dateOfItem": null,
+    "dateAdded": "2026-10-10",
+    "sourceIds": [
+      "SRC-0736",
+      "SRC-0737",
+      "SRC-0738",
+      "SRC-0739",
+      "SRC-0740",
+      "SRC-0741"
+    ],
+    "origin": "",
+    "establishes": "A recorded negative over six orders as reproduced on Indian Kanoon: a case-insensitive search for student, police, detain, arrest, lathi and custody finds nothing in any of them. The benches were B.R. Gavai and Augustine George Masih JJ. (3 and 16 April 2025), the Chief Justice with Augustine George Masih J. (15 May), the Chief Justice with K. Vinod Chandran and Joymalya Bagchi JJ. (23 July), the Chief Justice with K. Vinod Chandran J. (13 August), and the Chief Justice with Joymalya Bagchi and V. Mohana JJ. (9 September 2026), as the CORAM lines of the orders read. The 3 April 2025 order is already carried by HIST-HCU25-022, with its direction in para 16 that 'no activity of any sort, except the protection of the trees already existing shall be undertaken by the State or any of the authorities subordinate to it'. Oral remarks reported by LiveLaw (HIST-HCU25-023, HIST-HCU25-030) are not in these written orders. The Telangana High Court's orders of 2 and 3 April 2025 were not obtained: only news reports of them were found.",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -26035,7 +26987,8 @@ WGO.importedIncidentFacts = {
       "HIST-JNU16-021",
       "HIST-JNU16-022",
       "HIST-JNU16-027",
-      "HIST-JNU16-028"
+      "HIST-JNU16-028",
+      "HIST-HRC-012"
     ],
     "state": [
       "CORROBORATED",
@@ -26121,13 +27074,15 @@ WGO.importedIncidentFacts = {
       "HIST-BHU-016",
       "HIST-BHU-017",
       "HIST-BHU-018",
-      "HIST-BHU-019"
+      "HIST-BHU-019",
+      "HIST-HRC-009"
     ],
     "state": [
       "CORROBORATED",
       "DISPUTED",
       "REPORTED",
-      "UNKNOWN"
+      "UNKNOWN",
+      "VERIFIED"
     ]
   },
   "INC-0012": {
@@ -26144,6 +27099,7 @@ WGO.importedIncidentFacts = {
     "places": [
       "could be requested from Delhi Police and the Home Ministry: duty rosters for 15 December 2019 at the Jamia Nagar, New Friends Colony and Kalkaji police areas (the Crime Branch SIT reportedly collected them in February 2020); station diary (daily diary) entries and wireless or control-room logs for 15 December 2019; the deployment order and any requisition of Rapid Action Force companies; the Southeast district inquiry and case diary",
       "could be requested to answer who gave the order: the Delhi Police action taken report filed",
+      "tear gas shells lobbed inside the libraries 'were avoidable. However, these actions were not a state policy rather it was an individual act seeing a violent protest. Law & Order is a state subject but the officer",
       "the petitioners rely"
     ],
     "evidenceIds": [
@@ -26166,7 +27122,11 @@ WGO.importedIncidentFacts = {
       "HIST-JMI-021",
       "HIST-JMI-022",
       "HIST-JMI-023",
-      "HIST-JMI-024"
+      "HIST-JMI-024",
+      "HIST-HRC-001",
+      "HIST-HRC-002",
+      "HIST-HRC-003",
+      "HIST-HRC-004"
     ],
     "state": [
       "CORROBORATED",
@@ -26199,13 +27159,16 @@ WGO.importedIncidentFacts = {
       "HIST-AMU-011",
       "HIST-AMU-012",
       "HIST-AMU-013",
-      "HIST-AMU-014"
+      "HIST-AMU-014",
+      "HIST-HRC-005",
+      "HIST-HRC-006"
     ],
     "state": [
       "CORROBORATED",
       "DISPUTED",
       "REPORTED",
-      "UNVERIFIED"
+      "UNVERIFIED",
+      "VERIFIED"
     ]
   },
   "INC-0014": {
@@ -26260,6 +27223,7 @@ WGO.importedIncidentFacts = {
     ],
     "places": [
       "four spots in Howrah including the Kona Expressway, and cargo containers and 10-foot iron guard walls",
+      "on 27 August 2024 police used excessive and brutal force",
       "the 27th Foundation Day of the West Bengal Trinamool Chhatra Parishad, as quoted by Swarajya"
     ],
     "evidenceIds": [
@@ -26278,13 +27242,15 @@ WGO.importedIncidentFacts = {
       "HIST-NAB-017",
       "HIST-NAB-018",
       "HIST-NAB-019",
-      "HIST-NAB-020"
+      "HIST-NAB-020",
+      "HIST-HRC-011"
     ],
     "state": [
       "CORROBORATED",
       "DISPUTED",
       "REPORTED",
-      "UNKNOWN"
+      "UNKNOWN",
+      "VERIFIED"
     ]
   },
   "INC-0016": {
@@ -26409,14 +27375,16 @@ WGO.importedIncidentFacts = {
       "HIST-C17A-005",
       "HIST-C17A-009",
       "HIST-C17A-015",
-      "HIST-C17A-016"
+      "HIST-C17A-016",
+      "HIST-HRC-007"
     ],
     "state": [
       "CORROBORATED",
       "DISPUTED",
       "REPORTED",
       "UNKNOWN",
-      "UNVERIFIED"
+      "UNVERIFIED",
+      "VERIFIED"
     ]
   },
   "INC-0020": {
@@ -26429,6 +27397,7 @@ WGO.importedIncidentFacts = {
       "'no First Information Reports were filed' against those who caused damage or assaulted students that day. At the Metropolitan Magistrate's court",
       "Delhi Police headquarters",
       "ordered the students to be picked up, put",
+      "police personnel attacked a female student and snatched cameras from media persons outside Ramjas College",
       "which the decisions were taken, summary: ESTABLISHED"
     ],
     "evidenceIds": [
@@ -26449,13 +27418,15 @@ WGO.importedIncidentFacts = {
       "HIST-RAM-021",
       "HIST-RAM-022",
       "HIST-RAM-023",
-      "HIST-RAM-024"
+      "HIST-RAM-024",
+      "HIST-HRC-008"
     ],
     "state": [
       "CORROBORATED",
       "DISPUTED",
       "REPORTED",
-      "UNKNOWN"
+      "UNKNOWN",
+      "VERIFIED"
     ]
   },
   "INC-0021": {
@@ -26663,6 +27634,7 @@ WGO.importedIncidentFacts = {
     ],
     "places": [
       "Darivit High School on 20 September 2018. This is stated by the police themselves: the High Court records the gist of the police FIR as saying 'The police too fired tear gas and rubber bullets' (para 4), and the Superintendent of Police of the district was quoted",
+      "Uttar Dinajpur, West Bengal on 20 September 2018",
       "any live firing by police took place. The High Court says in a passage",
       "no complainant or petitioner alleged molestation of girl students and that the complainants did not come forward to depose (para 42). The court did not make its own finding",
       "the force at the school was the West Bengal Police from Islampur police station, led"
@@ -26678,7 +27650,8 @@ WGO.importedIncidentFacts = {
       "HIST-DAR-011",
       "HIST-DAR-014",
       "HIST-DAR-015",
-      "HIST-DAR-016"
+      "HIST-DAR-016",
+      "HIST-HRC-010"
     ],
     "state": [
       "DISPUTED",
