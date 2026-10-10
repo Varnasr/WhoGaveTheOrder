@@ -663,11 +663,12 @@
     "category": "document_custody",
     "jurisdiction": "delhi",
     "question": "Which office issued the section 163 BNSS order in force across New Delhi district on 2 October 2026, on what date, covering what area and hours, and what does its text say?",
-    "why_it_matters": "The sources split on whether Delhi Police or the Delhi government issued it (INC-DEL-013), and the two answers lead to different custodians. Unlike a lathi charge, a prohibitory order is a written instrument with a date, a signatory and a stated ground, so this is a question a document can answer. No copy has been found.",
+    "why_it_matters": "The sources split on whether Delhi Police or the Delhi government issued it (INC-DEL-013), and the two answers lead to different custodians. Unlike a lathi charge, a prohibitory order is a written instrument with a date, a signatory and a stated ground, so this is a question a document can answer. No copy has been found. Siasat reports that security personnel told protesters on 7 October that section 163 was in force (INC-DEL-024). Whether that is the order of 2 October extended or a new one is not established, and the sources read do not say how long the order ran.",
     "lawful_route": "FQ-020. The route differs by custodian: Delhi Police uses the Union RTI portal; this archive has not established the Delhi government route.",
     "blocks": [
       "INC-DEL-012",
-      "INC-DEL-013"
+      "INC-DEL-013",
+      "INC-DEL-024"
     ]
   },
   {
@@ -744,6 +745,18 @@
     "blocks": [
       "INC-DEL-020",
       "PROC-DEL-005"
+    ]
+  },
+  {
+    "id": "OQ-062",
+    "priority": "medium",
+    "category": "incident",
+    "jurisdiction": "delhi",
+    "question": "Was an FIR registered against Rahul Gandhi over the protest of 6 October 2026, at which police station, under which sections, and on whose complaint?",
+    "why_it_matters": "Siasat mentions the FIR without describing it (INC-DEL-026). An FIR against the Leader of the Opposition in the Lok Sabha is a written instrument with a station, sections and a complainant, and one search result gave a different account of what it alleges that the page read does not support. The FIR settles it. No route to Delhi Police FIRs has been established by this archive.",
+    "lawful_route": "Establish the publication route first; an RTI application is the fallback.",
+    "blocks": [
+      "INC-DEL-026"
     ]
   }
 ]

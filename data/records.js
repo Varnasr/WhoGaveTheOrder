@@ -55,7 +55,7 @@ WGO.offices = [
     shortTitle: 'Union Home Ministry',
     level: 'UNION',
     jurisdiction: 'Union of India',
-    appliesTo: ['INC-0001', 'INC-0002', 'INC-0003', 'INC-0006'],
+    appliesTo: ['INC-0001', 'INC-0002', 'INC-0003', 'INC-0006', 'INC-0008'],
     statutoryBasis: [
       { text: 'Union ministry responsible for internal security and, for Union Territories including Delhi, for the police force itself.', sourceIds: [] }
     ],
@@ -109,7 +109,7 @@ WGO.offices = [
     shortTitle: 'Commissioner of Police',
     level: 'SENIOR',
     jurisdiction: 'Commissionerate cities, including Delhi',
-    appliesTo: ['INC-0001', 'INC-0003', 'INC-0006', 'INC-0007'],
+    appliesTo: ['INC-0001', 'INC-0003', 'INC-0006', 'INC-0007', 'INC-0008'],
     statutoryBasis: [
       { text: 'Head of a city police force under the commissionerate system; in Delhi, the Commissioner of Police heads a force under the Union Home Ministry rather than a state government.', sourceIds: [] },
       { text: 'Exercises certain magisterial powers, including powers relating to public order and assemblies, that are held elsewhere by the District Magistrate.', sourceIds: [] }
@@ -146,7 +146,7 @@ WGO.offices = [
     shortTitle: 'SP / DCP',
     level: 'OPERATIONAL',
     jurisdiction: 'District or police district',
-    appliesTo: ['INC-0001', 'INC-0002', 'INC-0003', 'INC-0006', 'INC-0007'],
+    appliesTo: ['INC-0001', 'INC-0002', 'INC-0003', 'INC-0006', 'INC-0007', 'INC-0008'],
     statutoryBasis: [
       { text: 'Officer in operational command of the district police; ordinarily approves deployment strength, the composition of the force and its equipment.', sourceIds: [] }
     ],
@@ -164,7 +164,7 @@ WGO.offices = [
     shortTitle: 'On-site commanding officer',
     level: 'OPERATIONAL',
     jurisdiction: 'The site of the incident',
-    appliesTo: ['INC-0001', 'INC-0002', 'INC-0003', 'INC-0006', 'INC-0007'],
+    appliesTo: ['INC-0001', 'INC-0002', 'INC-0003', 'INC-0006', 'INC-0007', 'INC-0008'],
     statutoryBasis: [
       { text: 'The senior police officer present is ordinarily responsible for decisions on the escalation of force at the scene, within standing orders and any specific direction received.', sourceIds: [] }
     ],
@@ -183,7 +183,7 @@ WGO.offices = [
     shortTitle: 'Field personnel',
     level: 'FIELD',
     jurisdiction: 'The site of the incident',
-    appliesTo: ['INC-0001', 'INC-0002', 'INC-0003', 'INC-0006', 'INC-0007'],
+    appliesTo: ['INC-0001', 'INC-0002', 'INC-0003', 'INC-0006', 'INC-0007', 'INC-0008'],
     statutoryBasis: [
       { text: 'Constabulary, armed reserve and any central armed police units present act under the direction of the officer commanding them.', sourceIds: [] }
     ],
@@ -233,6 +233,12 @@ WGO.offices = [
    flagged entry stays out of the Latest stream, and that the log it moves to
    actually exists. */
 WGO.updates = [
+  {
+    date: '2026-10-10',
+    title: 'Opposition MPs were detained on 6 and 7 October, and the Delhi High Court will hear the Youth Congress plea on Monday',
+    body: 'About 300 opposition MPs marched from Parliament towards the Election Commission on 6 October and were stopped near NITI Aayog, the Tribune reports. On 7 October Delhi Police detained Rahul Gandhi, Priyanka Gandhi Vadra and other leaders near Jantar Mantar, and released them within hours. The Tribune and Siasat agree on where each was taken. The leaders say they were manhandled and Priyanka Gandhi Vadra says she was thrown to the ground, and the report carries no police account. Siasat mentions an FIR against Rahul Gandhi and gives no station or sections. On 9 October the Delhi High Court declined an urgent hearing of the Youth Congress challenge to the refusal of permission and listed it for Monday 12 October.',
+    recordId: 'INC-DEL-024'
+  },
   {
     date: '2026-10-05',
     title: 'The Jantar Mantar protests ran for three days, and two courts have now been asked about the right to protest there',
@@ -662,6 +668,37 @@ WGO.incidents = [
        (OFC-0005) is left off: Mumbai is a commissionerate. */
     orderTrail: { reached: null, rungs: {}, next: 'OQ-059' },
     openedOn: '2026-10-05'
+  },
+  /* Opened 10 October 2026. The INDIA bloc's march on the Election Commission
+     is its own incident, not more of INC-0006: a different organiser, a
+     different route (Parliament towards Nirvachan Sadan, then the approach to
+     Jantar Mantar) and detainees who are sitting members of Parliament. It is
+     the same kind of record as INC-0006, detention with force alleged by the
+     people detained and no police account in the sources read. */
+  {
+    id: 'INC-0008',
+    slug: 'opposition-march-6-7-october',
+    kind: 'DETENTIONS',
+    title: 'Opposition MPs detained during the INDIA bloc march to the Election Commission',
+    place: 'From Parliament towards the Election Commission, and near Jantar Mantar, New Delhi',
+    state: 'Delhi',
+    coords: [28.6270, 77.2166],           // Jantar Mantar, the approach on the second day
+    coordsState: 'REPORTED',
+    incidentState: 'REPORTED',
+    dateState: 'REPORTED',
+    date: '6 and 7 October 2026',
+    summaryState: 'UNKNOWN',
+    summary: null,
+    forcesInvolved: { state: 'REPORTED', items: [
+      { text: 'Delhi Police, including women police personnel', state: 'REPORTED' }
+    ] },
+    crowdControl:   { state: 'UNKNOWN', items: [] },
+    injuries:       { state: 'REPORTED', note: 'Priyanka Gandhi Vadra said she was scratched and thrown to the ground; other MPs allege manhandling. Allegations by named politicians, with no police account in the source. See INC-DEL-025.' },
+    detentions:     { state: 'CORROBORATED', note: 'Rahul Gandhi, Priyanka Gandhi Vadra and other opposition leaders were detained on 7 October and released within hours, and several leaders on 6 October. No count is reported. See INC-DEL-023 and INC-DEL-024.' },
+    firs:           { state: 'REPORTED', note: 'An FIR against Rahul Gandhi is mentioned by Siasat without station, sections or complainant. See INC-DEL-026.' },
+    officeIds: ['OFC-0001', 'OFC-0004', 'OFC-0006', 'OFC-0007', 'OFC-0008'],
+    orderTrail: { reached: null, rungs: {}, next: 'OQ-055' },
+    openedOn: '2026-10-10'
   }
 ];
 
@@ -773,6 +810,15 @@ WGO.questionsExtra = [
     state: 'UNANSWERED',
     wants: ['The written refusal, with its date and signatory', 'The order it relies on'],
     evidenceIds: ['INC-MAH-003']
+  },
+  {
+    id: 'QST-X006',
+    incidentId: 'INC-0008',
+    text: 'Which office ordered the detention of opposition MPs on 6 and 7 October, and under what power?',
+    level: 'SENIOR',
+    state: 'UNANSWERED',
+    wants: ['Detention memos or the order to detain', 'The section 163 order covering the area on those days'],
+    evidenceIds: ['INC-DEL-024']
   }
 ];
 
