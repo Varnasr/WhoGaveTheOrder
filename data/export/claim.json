@@ -4,7 +4,7 @@
     "kind": "Claim",
     "title": "Police used force against students at Jantar Mantar.",
     "state": "UNVERIFIED",
-    "url": "https://www.whogavetheorder.in/investigation.html?id=jantar-mantar#what-happened",
+    "url": "https://www.whogavetheorder.in/incident/jantar-mantar.html#what-happened",
     "incidentId": "INC-0001",
     "evidenceIds": []
   },
@@ -13,7 +13,7 @@
     "kind": "Claim",
     "title": "Police used force against students in Bihar.",
     "state": "UNVERIFIED",
-    "url": "https://www.whogavetheorder.in/investigation.html?id=bihar#what-happened",
+    "url": "https://www.whogavetheorder.in/incident/bihar.html#what-happened",
     "incidentId": "INC-0002",
     "evidenceIds": []
   },
@@ -22,7 +22,7 @@
     "kind": "Claim",
     "title": "Police used force against students in Maharashtra.",
     "state": "UNVERIFIED",
-    "url": "https://www.whogavetheorder.in/investigation.html?id=maharashtra#what-happened",
+    "url": "https://www.whogavetheorder.in/incident/maharashtra.html#what-happened",
     "incidentId": "INC-0003",
     "evidenceIds": []
   },
@@ -31,7 +31,7 @@
     "kind": "Claim",
     "title": "Police used force on protesters near Jantar Mantar on 2 October 2026, beyond moving them onto buses.",
     "state": "UNVERIFIED",
-    "url": "https://www.whogavetheorder.in/investigation.html?id=jantar-mantar-2-october#what-happened",
+    "url": "https://www.whogavetheorder.in/incident/jantar-mantar-2-october.html#what-happened",
     "incidentId": "INC-0006",
     "evidenceIds": []
   }

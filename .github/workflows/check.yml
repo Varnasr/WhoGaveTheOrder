@@ -56,6 +56,15 @@ jobs:
             exit 1
           fi
 
+      # Search and sharing: the static incident pages, the head tags on every page,
+      # the sitemap and the share images. Crawlers and link previews read none of
+      # the site's JavaScript, so a page that loses its title, canonical link or
+      # image fails here and nowhere else would say so. The share images are
+      # drawn by tools/build-og.js, which needs a browser; this only checks that
+      # each one exists and was drawn from the words now in og/cards.json.
+      - name: Search and share tags are current
+        run: node tools/build-seo.js --check
+
       # letters.html composes from data/letters.generated.js, which is parsed out
       # of correspondence/*.md. If those drift, the page mails a letter the
       # repository does not hold, and nothing on screen would show it.

@@ -148,7 +148,7 @@
       el.style.height = 'auto';
       el.innerHTML = '<h4 class="kicker">Locations</h4><ul class="stack-sm" style="margin-top:0.6rem">' +
         model.incidents.map(function (i) {
-          return '<li><a href="investigation.html?id=' + ui.esc(i.slug) + '">' + ui.esc(i.place) + '</a> ' +
+          return '<li><a href="incident/' + ui.esc(i.slug + '.html') + '">' + ui.esc(i.place) + '</a> ' +
             ui.chip(i.incidentState) +
             (i.coordsState === 'UNKNOWN' ? ' ' + ui.chip('UNKNOWN', { prefix: 'Location' }) : '') + '</li>';
         }).join('') + '</ul>';
@@ -180,7 +180,7 @@
           (incident.coordsState === 'UNKNOWN'
             ? '<em>Precise location not established. The pin shows the state only.</em><br>'
             : '') +
-          '<a href="investigation.html?id=' + ui.esc(incident.slug) + '">Open the investigation</a>');
+          '<a href="incident/' + ui.esc(incident.slug + '.html') + '">Open the investigation</a>');
       });
     } catch (err) {
       fallback();
@@ -192,7 +192,7 @@
      ======================================================================= */
 
   pages.investigation = function () {
-    var incident = model.incident(ui.param('id') || 'jantar-mantar');
+    var incident = model.incident(ui.param('id') || document.body.getAttribute('data-incident') || 'jantar-mantar');
 
     if (!incident) {
       ui.mount('[data-region="investigation"]',
@@ -205,6 +205,17 @@
     ui.mount('[data-region="incident-meta"]',
       ui.idChip(incident.id) + ' ' + ui.chip(incident.incidentState) + ' ' +
       ui.plainChip(incident.place));
+
+    var shareHost = document.querySelector('[data-region="share"]');
+    if (shareHost) {
+      shareHost.innerHTML = ui.shareLinks({
+        title: incident.title,
+        text: 'Who gave the order? ' + incident.title + '. What is established, what is reported and what is not yet known, with sources:',
+        url: WGO.config.siteUrl + '/incident/' + incident.slug + '.html',
+        label: ui.t('share.record', 'Share this record')
+      });
+      ui.bindShare(shareHost);
+    }
 
     /* 01: WHAT HAPPENED */
     var events = model.eventsFor(incident.id);
@@ -286,7 +297,7 @@
       })() +
       '<div style="margin-top:1.5rem">' + ui.citeBlock({
         id: incident.id, title: incident.title, state: incident.incidentState,
-        path: 'investigation.html?id=' + incident.slug
+        path: 'incident/' + incident.slug + '.html'
       }) + '</div>');
 
     ui.bindCopy(document);
@@ -506,7 +517,7 @@
         row('Evidence type', ui.esc(model.typeLabel(item.type))) +
         row('Incident', (function () {
           var inc = model.incident(item.incidentId);
-          return inc ? '<a href="investigation.html?id=' + ui.esc(inc.slug) + '">' + ui.esc(inc.place) + '</a>' : 'Unassigned';
+          return inc ? '<a href="incident/' + ui.esc(inc.slug + '.html') + '">' + ui.esc(inc.place) + '</a>' : 'Unassigned';
         })()) +
         row('Source', ui.sourceDetail(item.sourceIds)) +
         row('How we obtained it', ui.esc(item.origin || 'Not recorded')) +
@@ -628,7 +639,7 @@
         var rtis = model.rtisFor(m.q.id);
         return '<tr>' +
           '<td>' + ui.esc((m.q.wants && m.q.wants.join(', ')) || 'none') + '</td>' +
-          '<td><a href="investigation.html?id=' + ui.esc(m.inc ? m.inc.slug : '') + '#' + ui.esc(m.q.id) + '">' +
+          '<td><a href="incident/' + ui.esc(m.inc ? m.inc.slug : '') + '.html#' + ui.esc(m.q.id) + '">' +
             ui.esc(m.q.text) + '</a></td>' +
           '<td>' + ui.esc(m.inc ? m.inc.state : 'none') + '</td>' +
           '<td>' + (rtis.length
@@ -783,7 +794,7 @@
       var q = model.index.question[qid];
       var inc = q ? model.incident(q.incidentId) : null;
       return q
-        ? '<li><a href="investigation.html?id=' + ui.esc(inc ? inc.slug : '') + '#' + ui.esc(q.id) + '">' +
+        ? '<li><a href="incident/' + ui.esc(inc ? inc.slug : '') + '.html#' + ui.esc(q.id) + '">' +
             ui.esc(q.text) + '</a></li>'
         : '<li class="small">' + ui.esc(qid) + ': missing question record</li>';
     }).join('');
@@ -1081,6 +1092,7 @@
 
     var page = document.body.getAttribute('data-page');
     if (pages[page]) { pages[page](); }
+    ui.initShare();
 
     /* Definitions used by the About page, generated from the taxonomy. */
     var glossary = document.querySelector('[data-region="glossary"]');

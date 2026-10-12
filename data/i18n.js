@@ -61,6 +61,15 @@ WGO.I18N = {
       hindiEntry: 'यह अभिलेख क्या है'
     },
 
+    share: {
+      label: 'साझा करें',
+      record: 'इस अभिलेख को साझा करें',
+      email: 'ईमेल',
+      copy: 'लिंक कॉपी करें',
+      copied: 'लिंक कॉपी हो गया',
+      more: 'और विकल्प'
+    },
+
     footer: {
       investigation: 'अभिलेख',
       archive: 'अभिलेख',

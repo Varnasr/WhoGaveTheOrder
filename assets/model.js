@@ -441,7 +441,7 @@
       docs.push({
         id: i.id, kind: 'Incident', title: i.title,
         subtitle: i.place, state: i.incidentState,
-        url: 'investigation.html?id=' + i.slug,
+        url: 'incident/' + i.slug + '.html',
         text: docText(i.id, i.title, i.place, i.state, i.summary, i.slug)
       });
     });
@@ -471,7 +471,7 @@
       docs.push({
         id: q.id, kind: 'Question', title: q.text,
         subtitle: inc ? inc.place : '', state: q.state,
-        url: 'investigation.html?id=' + (inc ? inc.slug : '') + '#questions',
+        url: 'incident/' + (inc ? inc.slug : '') + '.html#questions',
         text: docText(q.id, q.text, (q.wants || []).join(' '), inc && inc.place)
       });
     });
@@ -481,7 +481,7 @@
       docs.push({
         id: c.id, kind: 'Claim', title: c.text,
         subtitle: inc ? inc.place : '', state: c.state,
-        url: 'investigation.html?id=' + (inc ? inc.slug : '') + '#what-happened',
+        url: 'incident/' + (inc ? inc.slug : '') + '.html#what-happened',
         text: docText(c.id, c.text, c.note)
       });
     });
@@ -494,7 +494,7 @@
       docs.push({
         id: r.id, kind: 'Government response', title: r.respondingOffice,
         subtitle: r.channel, demo: r.demo,
-        url: 'investigation.html?id=' + (inc ? inc.slug : '') + '#evidence',
+        url: 'incident/' + (inc ? inc.slug : '') + '.html#evidence',
         text: docText(r.id, r.respondingOffice, r.channel, r.quote, r.stillUnanswered)
       });
     });
@@ -502,7 +502,7 @@
     model.orders.forEach(function (o) {
       docs.push({
         id: o.id, kind: 'Order', title: o.title, subtitle: o.issuedBy, state: o.state,
-        url: 'investigation.html?id=' + (model.incident(o.incidentId) || {}).slug + '#orders',
+        url: 'incident/' + (model.incident(o.incidentId) || {}).slug + '.html#orders',
         text: docText(o.id, o.title, o.issuedBy, o.summary)
       });
     });

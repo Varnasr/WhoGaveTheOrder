@@ -69,7 +69,7 @@ map tiles and the Netlify Forms submission endpoints.
 |---|---|
 | `index.html` | Homepage: what the record holds, what it does not, and the letter |
 | `investigations.html` | Investigation index and the incident map |
-| `investigation.html?id=<slug>` | The five-section incident page: what happened, what evidence exists, has anyone said who authorised it, what remains unknown, what would close the gap |
+| `incident/<slug>.html` | The five-section incident page: what happened, what evidence exists, has anyone said who authorised it, what remains unknown, what would close the gap |
 | `evidence.html` | Evidence library; `?id=WGO-0001` renders a single evidence record |
 | `letters.html` | The four Bihar preservation representations, composed and opened in a mail window |
 | `submit.html` | Submission form, the gap list, and the public demand |
@@ -460,3 +460,26 @@ or its tiles fail to load.
 One, and it is optional: Leaflet 1.9.4 from unpkg, for the incident map on `investigations.html`.
 If it fails to load, the map renders as a linked list of locations. Everything else is vanilla
 HTML, CSS and JavaScript with no build step, consistent with the rest of this repository.
+
+## Search and sharing
+
+Crawlers and link previews run none of the site's JavaScript, so everything they
+read has to be in the HTML the server sends. `tools/build-seo.js` writes it:
+
+- `incident/<slug>.html`, one static page per incident, with its own title,
+  description, canonical link, Open Graph and Twitter tags and JSON-LD. The page
+  loads the same scripts, which replace the static summary with the full record.
+  `investigation.html?id=<slug>` redirects to it (see `netlify.toml`).
+- A head block between `seo:begin` and `seo:end` markers on every root page.
+- `sitemap.xml` and `robots.txt`.
+- `og/cards.json`, what each share image must say.
+
+`node tools/build-og.js` draws the 1200x630 images into `og/`. It needs a
+browser, so CI does not run it; CI runs `node tools/build-seo.js --check`, which
+fails when a page lost its tags or an image was drawn from older words. After any
+change to an incident title, place, date or state, run both scripts and commit
+the result.
+
+Share links (WhatsApp, X, email, copy) come from `ui.shareLinks` in
+`assets/ui.js`. A page asks for them with `<div data-share data-share-text="...">`.
+The text is written to make sense as a chat message before the link is opened.
