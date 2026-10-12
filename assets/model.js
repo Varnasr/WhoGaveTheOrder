@@ -291,7 +291,7 @@
         note: second.note
       };
     } else if (rti.status === 'SECOND_APPEAL' || rti.status === 'WITHDRAWN') {
-      return { available: false, reason: 'The appeal route has already been taken as far as this register tracks it.' };
+      return { available: false, reason: 'The appeal route has already been taken as far as this log tracks it.' };
     } else if (clock.overdue || rti.status === 'LAPSED' ||
                ['REFUSED', 'NO_RECORD_HELD', 'REPLY_RECEIVED'].indexOf(rti.status) !== -1) {
       /* A reply on the merits can be appealed too — an incomplete answer, or a
@@ -639,9 +639,9 @@
          nothing is the real breach. */
       if (e.verification === 'UNKNOWN') {
         problem('warning', e.id, 'sourceIds', 'UNKNOWN',
-          'Evidence record with no source — reads as a recorded absence. Confirm that is what it is.');
+          'Evidence record with no source: reads as a recorded absence. Confirm that is what it is.');
       } else {
-        problem('error', e.id, 'sourceIds', e.verification || '—',
+        problem('error', e.id, 'sourceIds', e.verification || 'none',
           'Published evidence with no source on record');
       }
     });
@@ -656,12 +656,12 @@
            so the missing date is a gap in the note, not a broken rule. */
         problem(s.url ? 'error' : 'warning', s.id, 'retrievedOn', '—',
           s.url
-            ? 'Online source with no retrieval date — nothing records when this page was read'
-            : 'Source with neither a URL nor a retrieval date — nothing records where or when it was consulted');
+            ? 'Online source with no retrieval date: nothing records when this page was read'
+            : 'Source with neither a URL nor a retrieval date: nothing records where or when it was consulted');
       }
       if (s.url && !s.archiveUrl) {
         problem('warning', s.id, 'archiveUrl', '—',
-          'Online source with no archived copy — it can be edited or removed without trace');
+          'Online source with no archived copy: it can be edited or removed without trace');
       }
       /* A checksum only means something for a file that should be byte-identical
          every time it is fetched. A PDF of an order is such a file. A news page
@@ -670,7 +670,7 @@
          and a check nobody can satisfy is a check that gets ignored. */
       if (s.url && /\.pdf($|\?)/i.test(s.url) && !s.sha256) {
         problem('warning', s.id, 'sha256', '—',
-          'Document source with no checksum — a fetched file should be hashed so a later copy can be compared');
+          'Document source with no checksum: a fetched file should be hashed so a later copy can be compared');
       }
     });
 
@@ -721,7 +721,7 @@
       }
       if (!r.filedOn) {
         problem('error', r.id, 'filedOn', '—',
-          'RTI record with no filing date — the clock cannot be computed');
+          'RTI record with no filing date: the clock cannot be computed');
       }
       /* The register's own claim about itself. An application whose statutory
          period has run out but still reads FILED is telling the reader it is
@@ -730,7 +730,7 @@
       if (r.status === 'FILED' && clock.known && clock.overdue) {
         problem('error', r.id, 'status', 'FILED',
           'Statutory period expired ' + clock.overdueDays + ' day' + (clock.overdueDays === 1 ? '' : 's') +
-          ' ago — this is a deemed refusal and should read LAPSED');
+          ' ago: this is a deemed refusal and should read LAPSED');
       }
     });
 

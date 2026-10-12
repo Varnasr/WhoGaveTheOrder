@@ -47,7 +47,7 @@ get the address from the district site when it is back up.
 
 ## Copies, if you want them
 
-- **City SP (Central), Patna** `spcity-patna-bih@nic.in`, 0612-2219423 — the two
+- **City SP (Central), Patna** `spcity-patna-bih@nic.in`, 0612-2219423: the two
   Patna incidents (JP Golambar, Dakbungalow Square) are both in central Patna, so
   this is the officer closest to the records. A copy here is reasonable; the SSP
   stays the addressee.

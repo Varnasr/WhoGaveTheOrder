@@ -66,7 +66,7 @@
 
   function message(letter, state, copyDgp) {
     var body = fill(letter.text, state);
-    if (copyDgp) { body += '\nCopy to: ' + DGP.name + ' — ' + DGP.email + '\n'; }
+    if (copyDgp) { body += '\nCopy to: ' + DGP.name + ': ' + DGP.email + '\n'; }
     return {
       to: letter.email,
       cc: copyDgp ? DGP.email : '',
@@ -78,7 +78,7 @@
   /* README.md step 5: record the despatch date in correspondence/sent.md
      afterwards. A line nobody has to compose is a line that gets written. */
   function sentLine(letter, state, copyDgp) {
-    return '- ' + (state.date || today()) + ' — Preservation representation to ' + letter.addressee +
+    return '- ' + (state.date || today()) + ': Preservation representation to ' + letter.addressee +
       ', sent by email to ' + letter.email + (copyDgp ? ', copied to ' + DGP.email : '') +
       '. Sent by ' + (state.name || '[sender name]') + '.';
   }
@@ -97,8 +97,7 @@
     '<label class="row" style="gap:0.5rem;margin-top:1rem;align-items:flex-start">' +
       '<input type="checkbox" data-field="copyDgp"' + (state.copyDgp ? ' checked' : '') + '>' +
       '<span class="small">Copy ' + ui.esc(DGP.name) + ' (<span class="mono">' + ui.esc(DGP.email) +
-      '</span>) on all four. Each draft carries this as an optional line; decide once and apply it ' +
-      'to every letter rather than copying some and not others.</span>' +
+      '</span>) on all four. Each draft carries this as an optional line; decide once and apply it ' + 'to every letter, so the copy appears on all four or on none.</span>' +
     '</label>';
   }
 

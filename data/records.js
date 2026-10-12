@@ -111,7 +111,7 @@ WGO.offices = [
     jurisdiction: 'Commissionerate cities, including Delhi',
     appliesTo: ['INC-0001', 'INC-0003', 'INC-0006', 'INC-0007', 'INC-0008'],
     statutoryBasis: [
-      { text: 'Head of a city police force under the commissionerate system; in Delhi, the Commissioner of Police heads a force under the Union Home Ministry rather than a state government.', sourceIds: [] },
+      { text: 'Head of a city police force under the commissionerate system; in Delhi, the Commissioner of Police heads a force under the Union Home Ministry, and the Delhi state government does not control it.', sourceIds: [] },
       { text: 'Exercises certain magisterial powers, including powers relating to public order and assemblies, that are held elsewhere by the District Magistrate.', sourceIds: [] }
     ],
     whatWeKnow: [],
@@ -285,7 +285,7 @@ WGO.updates = [
   {
     date: '2026-09-23',
     title: 'What the states did outside Delhi was paperwork, and paperwork has an author',
-    body: 'Across five states the response to these protests was the registration of cases rather than the use of force: 694 detained and 355 booked in Bihar, more than 400 booked in Mumbai, 101 in Kochi, about 70 named in seven files in Kolkata, 13 arrested in Assam. Bihar and Assam then withdrew theirs by written notification, Maharashtra by a direction to its home department, and the Supreme Court closed the rest on 1 September. That is the opposite of this archive\'s usual problem. A lathi charge leaves no order and no author; a refusal of permission, an FIR and a withdrawal notification are each written by somebody, carry a date and sit in a file. Note also that Bihar and West Bengal are both reported to have drawn their line at 6 pm on 26 July, which is an odd thing for two states to arrive at separately, and the file noting is where that would be answered.',
+    body: 'Across five states the response to these protests was the registration of cases: 694 detained and 355 booked in Bihar, more than 400 booked in Mumbai, 101 in Kochi, about 70 named in seven files in Kolkata, 13 arrested in Assam. Bihar and Assam then withdrew theirs by written notification, Maharashtra by a direction to its home department, and the Supreme Court closed the rest on 1 September. That is the opposite of this archive\'s usual problem. A lathi charge leaves no order and no author; a refusal of permission, an FIR and a withdrawal notification are each written by somebody, carry a date and sit in a file. Note also that Bihar and West Bengal are both reported to have drawn their line at 6 pm on 26 July, which is an odd thing for two states to arrive at separately, and the file noting is where that would be answered.',
     recordId: 'INC-BIH-007'
   },
   {
@@ -316,13 +316,13 @@ WGO.updates = [
     date: '2026-08-26',
     correction: true,
     title: 'The Siwan record presented the State\'s figures as the fact',
-    body: 'Until 26 August this archive\'s Siwan record carried four rounds near JP Chowk as what happened, rather than as what the State of Bihar had told the Supreme Court happened. The sourcing was right and the framing was not. Corrected on 26 August: both accounts are on the record and the conflict is marked disputed.',
+    body: 'Until 26 August this archive\'s Siwan record carried four rounds near JP Chowk as what happened. It was in fact what the State of Bihar had told the Supreme Court happened. The sourcing was right and the framing was not. Corrected on 26 August: both accounts are on the record and the conflict is marked disputed.',
     recordId: 'INC-SIW-003'
   },
   {
     date: '2026-08-26',
-    title: 'Bihar has an account that is not the government\'s',
-    body: 'A public hearing convened by PUCL in Patna on 22 August heard nineteen people who said police assaulted them between 21 and 27 July, before a named four-member panel. Until now almost everything this archive held about Bihar was the State describing its own conduct, which is a bad position for a record to be in. It adds a place we did not have — Sitamarhi — a figure of 64 FIRs, and the reported detention of two lawyers who were assisting detained protesters. What is established is that the hearing happened and what the panel found, not that the findings are true. Sitamarhi is not opened as its own incident on one account, because Siwan was not.',
+    title: 'Bihar now has an account from outside the government',
+    body: 'A public hearing convened by PUCL in Patna on 22 August heard nineteen people who said police assaulted them between 21 and 27 July, before a named four-member panel. Until now almost everything this archive held about Bihar was the State describing its own conduct, which is a bad position for a record to be in. It adds three things we did not have: a place (Sitamarhi), a figure of 64 FIRs, and the reported detention of two lawyers who were assisting detained protesters. What is established is that the hearing happened and what the panel found. That does not make the findings true. Sitamarhi is not opened as its own incident on one account, because Siwan was not.',
     recordId: 'INC-BIH-005'
   },
   {
@@ -334,7 +334,7 @@ WGO.updates = [
   {
     date: '2026-08-21',
     title: 'Hospital records obtained under RTI put at least ten people in hospital with pellet injuries',
-    body: 'Saket Gokhale asked four Delhi hospitals how many people they treated for pellet, shot or projectile injuries on 20 July. Lady Hardinge Medical College answered nine, recorded as pellet or projectile injuries. Safdarjung answered one. AIIMS refused under section 8(1)(j), saying a number could identify a patient. Ram Manohar Lohia had not answered. This is the best-sourced thing on the pellet question and it is not our work, so it is credited to him. Hospital records are independent of both the police and the petitioners \u2014 but a clinical category is not a finding about a weapon, and what was fired is still recorded as disputed.',
+    body: 'Saket Gokhale asked four Delhi hospitals how many people they treated for pellet, shot or projectile injuries on 20 July. Lady Hardinge Medical College answered nine, recorded as pellet or projectile injuries. Safdarjung answered one. AIIMS refused under section 8(1)(j), saying a number could identify a patient. Ram Manohar Lohia had not answered. This is the best-sourced thing on the pellet question and it is not our work, so it is credited to him. Hospital records are independent of both the police and the petitioners. A clinical category is not a finding about a weapon, and what was fired is still recorded as disputed.',
     recordId: 'INC-DEL-006'
   },
   {
@@ -347,25 +347,25 @@ WGO.updates = [
     date: '2026-08-21',
     title: 'The committee exists now, and our earlier record was overtaken',
     correction: true,
-    body: 'This archive recorded on 19 August that a high-powered committee had been decided on but was not shown to have been constituted. It has been, by an order reported dated 18 August: five members, chaired by a former Supreme Court judge, with the deployment of pellet guns inside its mandate by name and a first interim report due at the earliest. The record has been corrected and says what it used to say. We hold reporting of the order, not the order.',
+    body: 'This archive recorded on 19 August that a high-powered committee had been decided on but was not shown to have been constituted. It has been, by an order reported dated 18 August: five members, chaired by a former Supreme Court judge, with the deployment of pellet guns inside its mandate by name and a first interim report due at the earliest. The record has been corrected and says what it used to say. We hold reporting of the order and do not hold the order.',
     recordId: 'PROC-SC-006'
   },
   {
     date: '2026-08-21',
     title: 'A police diary entry is reported to record whose orders the munitions were used under',
-    body: 'Two outlets say they have read a Delhi Police General Diary entry of 22 July which records what was used at Jantar Mantar on 20 July — tear smoke, shells, an anti-riot gun and two rounds of plastic pellets — and records that it was used under the orders of a Deputy Commissioner of Police. That is the first time anything on this record connects the force used to an officer who ordered it. It is still not an order, and this archive does not hold the entry: it holds two reports of it. The count of orders found stays at zero, because that number counts orders we hold.',
+    body: 'Two outlets say they have read a Delhi Police General Diary entry of 22 July which records what was used at Jantar Mantar on 20 July (tear smoke, shells, an anti-riot gun and two rounds of plastic pellets) and records that it was used under the orders of a Deputy Commissioner of Police. That is the first time anything on this record connects the force used to an officer who ordered it. It is still not an order, and this archive does not hold the entry: it holds two reports of it. The count of orders found stays at zero, because that number counts orders we hold.',
     recordId: 'INC-DEL-004'
   },
   {
     date: '2026-08-21',
     title: 'The Supreme Court has asked for the pellet gun procedure, and for a log to be kept',
-    body: 'In a petition brought by a former IPS officer and two injured protesters, the Court is reported to have directed Delhi Police to place its standard operating procedure on pellet-firing weapons on record, to have ordered the Rapid Action Force ammunition log for 20 July preserved, and to have said it will lay down a protocol. Counsel told the Court that from 1967 to now there is not a single standing order or regulation mentioning pellet guns. That is a submission, not a finding, and the archive records it as one. Both documents the Court asked for are now open questions here.',
+    body: 'In a petition brought by a former IPS officer and two injured protesters, the Court is reported to have directed Delhi Police to place its standard operating procedure on pellet-firing weapons on record, to have ordered the Rapid Action Force ammunition log for 20 July preserved, and to have said it will lay down a protocol. Counsel told the Court that from 1967 to now there is not a single standing order or regulation mentioning pellet guns. That is a submission, and the archive records it as one. Both documents the Court asked for are now open questions here.',
     recordId: 'PROC-SC-008'
   },
   {
     date: '2026-08-21',
     title: 'A petition on the facial recognition is before the Supreme Court',
-    body: 'A public interest petition asks the Court to hold the deployment of facial recognition against a peaceful assembly unconstitutional, and to order disclosure of the systems, procedures and vendor agreements used at Jantar Mantar. That disclosure is the same document this archive has been unable to obtain by any other route. The Court is reported to have agreed on 13 August to hear it. What the petition alleges was deployed is a party\'s case, not a finding, and the record says so.',
+    body: 'A public interest petition asks the Court to hold the deployment of facial recognition against a peaceful assembly unconstitutional, and to order disclosure of the systems, procedures and vendor agreements used at Jantar Mantar. That disclosure is the same document this archive has been unable to obtain by any other route. The Court is reported to have agreed on 13 August to hear it. What the petition alleges was deployed is a party\'s case, and the record says so.',
     recordId: 'PROC-SC-007'
   },
   {
@@ -377,7 +377,7 @@ WGO.updates = [
   {
     date: '2026-08-19',
     title: 'A fourth incident is open: Siwan',
-    body: 'The daily sweep found the State of Bihar telling the Supreme Court that police discharged firearms at a student protest at Siwan on 25 July — four rounds from an AK-47 and two from a pistol, with three protesters injured. Siwan was not on this archive before today and has been opened as its own record rather than added to the Bihar one: a different town, a different date and a different weapon is a different incident. These are the first firearms in the archive.',
+    body: 'The daily sweep found the State of Bihar telling the Supreme Court that police discharged firearms at a student protest at Siwan on 25 July: four rounds from an AK-47 and two from a pistol, with three protesters injured. Siwan was not on this archive before today and has been opened as its own record, separate from the Bihar one: a different town, a different date and a different weapon is a different incident. These are the first firearms in the archive.',
     recordId: 'INC-SIW-001'
   },
   {
@@ -390,7 +390,7 @@ WGO.updates = [
   {
     date: '2026-08-19',
     title: 'Delhi Police has admitted using facial recognition at Jantar Mantar',
-    body: 'On affidavit before the Supreme Court, the force said facial recognition technology was deployed at the protest. That it was used is now the police\'s own statement and is recorded as corroborated. Whether it was confined to people with criminal records, as the police say, or ran on the crowd, as the petitioners say, is recorded as disputed — the court has not decided it and neither has this archive.',
+    body: 'On affidavit before the Supreme Court, the force said facial recognition technology was deployed at the protest. That it was used is now the police\'s own statement and is recorded as corroborated. Whether it was confined to people with criminal records, as the police say, or ran on the crowd, as the petitioners say, is recorded as disputed: the court has not decided it and neither has this archive.',
     recordId: 'PROC-SC-002'
   },
   {
@@ -402,7 +402,7 @@ WGO.updates = [
   {
     date: '2026-08-18',
     title: 'Nothing on these incidents has been answered in Parliament yet',
-    body: 'The parliamentary record was searched for a question on the police action. Nothing on any of these incidents is indexed as answered. The search is dated and recorded rather than repeated silently, and it will be run again when the next session opens.'
+    body: 'The parliamentary record was searched for a question on the police action. Nothing on any of these incidents is indexed as answered. The search is dated and recorded, and it will be run again when the next session opens.'
   },
   {
     date: '2026-08-18',

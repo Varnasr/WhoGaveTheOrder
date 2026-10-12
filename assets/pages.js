@@ -178,7 +178,7 @@
           '<strong>' + ui.esc(incident.title) + '</strong><br>' +
           ui.esc(incident.place) + '<br>' +
           (incident.coordsState === 'UNKNOWN'
-            ? '<em>Precise location not established. The pin shows the state, not the site.</em><br>'
+            ? '<em>Precise location not established. The pin shows the state only.</em><br>'
             : '') +
           '<a href="investigation.html?id=' + ui.esc(incident.slug) + '">Open the investigation</a>');
       });
@@ -200,7 +200,7 @@
       return;
     }
 
-    document.title = incident.title + ' — WhoGaveTheOrder.in';
+    document.title = incident.title + ' | WhoGaveTheOrder.in';
     ui.mount('[data-region="incident-title"]', ui.esc(incident.title));
     ui.mount('[data-region="incident-meta"]',
       ui.idChip(incident.id) + ' ' + ui.chip(incident.incidentState) + ' ' +
@@ -493,7 +493,7 @@
       return;
     }
 
-    document.title = item.id + ' — evidence — WhoGaveTheOrder.in';
+    document.title = item.id + ': evidence | WhoGaveTheOrder.in';
 
     ui.mount(region,
       (item.demo ? '<p class="chip chip--sample" style="margin-bottom:0.75rem">Sample record. Layout only.</p>' : '') +
@@ -627,10 +627,10 @@
       missing.map(function (m) {
         var rtis = model.rtisFor(m.q.id);
         return '<tr>' +
-          '<td>' + ui.esc((m.q.wants && m.q.wants.join(', ')) || '—') + '</td>' +
+          '<td>' + ui.esc((m.q.wants && m.q.wants.join(', ')) || 'none') + '</td>' +
           '<td><a href="investigation.html?id=' + ui.esc(m.inc ? m.inc.slug : '') + '#' + ui.esc(m.q.id) + '">' +
             ui.esc(m.q.text) + '</a></td>' +
-          '<td>' + ui.esc(m.inc ? m.inc.state : '—') + '</td>' +
+          '<td>' + ui.esc(m.inc ? m.inc.state : 'none') + '</td>' +
           '<td>' + (rtis.length
             ? rtis.map(function (r) {
                 return '<a class="chip chip--plain mono" href="rti.html#' + ui.esc(r.id) + '">' +
@@ -645,8 +645,8 @@
     if (demandSelect) {
       missing.forEach(function (m) {
         var opt = document.createElement('option');
-        opt.value = m.q.id + ' — ' + m.q.text + ' (' + (m.inc ? m.inc.place : 'unassigned') + ')';
-        opt.textContent = m.q.text + ' — ' + (m.inc ? m.inc.state : '');
+        opt.value = m.q.id + ': ' + m.q.text + ' (' + (m.inc ? m.inc.place : 'unassigned') + ')';
+        opt.textContent = m.q.text + ': ' + (m.inc ? m.inc.state : '');
         demandSelect.appendChild(opt);
       });
     }
@@ -757,7 +757,7 @@
                   (doc.state ? ui.chip(doc.state) : '') +
                   (doc.demo ? ui.plainChip('sample', 'chip--sample') : '') +
                   '<br><span class="small mono">' + ui.esc(doc.id) + '</span>' +
-                  (doc.subtitle ? ' <span class="small">— ' + ui.esc(doc.subtitle) + '</span>' : '') +
+                  (doc.subtitle ? ' <span class="small">(' + ui.esc(doc.subtitle) + ')</span>' : '') +
                 '</div>';
               }).join('') + '</div></section>';
           }).join('')
@@ -785,7 +785,7 @@
       return q
         ? '<li><a href="investigation.html?id=' + ui.esc(inc ? inc.slug : '') + '#' + ui.esc(q.id) + '">' +
             ui.esc(q.text) + '</a></li>'
-        : '<li class="small">' + ui.esc(qid) + ' — missing question record</li>';
+        : '<li class="small">' + ui.esc(qid) + ': missing question record</li>';
     }).join('');
 
     return '<article class="card' + (r.demo ? ' card--sample' : '') + '" id="' + ui.esc(r.id) + '">' +
@@ -855,7 +855,7 @@
 
       ui.mount('[data-region="rti-count"]',
         '<strong>' + counts.rtis + '</strong> application' + (counts.rtis === 1 ? '' : 's') +
-        ' in the register' +
+        ' in the log' +
         (counts.rtisShown > counts.rtis
           ? ' · <strong>' + (counts.rtisShown - counts.rtis) + '</strong> layout samples shown'
           : '') +
@@ -865,7 +865,7 @@
         rows.length
           ? rows.map(rtiCard).join('')
           : ui.empty('No applications match',
-              'Nothing in the register matches this filter. The register fills up as applications are filed.'));
+              'Nothing in the log matches this filter. The log fills up as applications are filed.'));
     }
 
     draw();
@@ -906,7 +906,7 @@
     return '<li>' +
       '<span class="change__verb">' + ui.esc(verb) + '</span> ' +
       ui.plainChip(rec.kind) + ' ' +
-      '<span class="mono">' + ui.esc(rec.id) + '</span> — ' + link +
+      '<span class="mono">' + ui.esc(rec.id) + '</span>: ' + link +
     '</li>';
   }
 
@@ -956,7 +956,7 @@
       : ui.esc(rec.title || rec.id);
     return '<li>' +
       '<span class="change__verb">Changed</span> ' + ui.plainChip(rec.kind) + ' ' +
-      '<span class="mono">' + ui.esc(rec.id) + '</span> — ' + link +
+      '<span class="mono">' + ui.esc(rec.id) + '</span>: ' + link +
       '<ul class="change__fields">' + rec.fields.map(fieldLine).join('') + '</ul>' +
     '</li>';
   }
@@ -1059,7 +1059,7 @@
     ui.mount('[data-region="changes-help"]', ui.explainer('What counts as a change here?',
       '<p>Anything that alters a record the site renders: a new document, a claim moving between ' +
       'states, an edit to what a document establishes. Changes to the site\'s wording or design ' +
-      'are not listed — they are in the repository, but they do not change what the archive ' +
+      'are in the repository but are not listed here, because they do not change what the archive ' +
       'says.</p>' +
       '<p style="margin-top:0.5rem">Each entry names the commit it came from. The commit is the ' +
       'authoritative version; this page is derived from it.</p>'));

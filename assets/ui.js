@@ -151,13 +151,13 @@
     }
     return ids.map(function (id) {
       var source = WGO.model.index.source[id];
-      if (!source) { return ui.plainChip(id + ' — missing source record'); }
+      if (!source) { return ui.plainChip(id + ': missing source record'); }
       var label = ui.esc(source.name);
       /* The retrieval date rides along in the tooltip. It is the difference
          between "this page says" and "this page said, on this date". */
       var title = source.retrievedOn
-        ? ' title="' + ui.esc(source.id + ' — retrieved ' + source.retrievedOn) + '"'
-        : ' title="' + ui.esc(source.id + ' — retrieval date not recorded') + '"';
+        ? ' title="' + ui.esc(source.id + ': retrieved ' + source.retrievedOn) + '"'
+        : ' title="' + ui.esc(source.id + ': retrieval date not recorded') + '"';
       return source.url
         ? '<a class="chip chip--plain" href="' + ui.esc(source.url) + '" rel="noopener nofollow" target="_blank"' + title + '>' + label + '</a>'
         : '<span class="chip chip--plain"' + title + '>' + label + '</span>';
@@ -172,12 +172,12 @@
     var ids = sourceIds || [];
     if (!ids.length) {
       return '<p class="small">' + ui.chip('UNKNOWN') +
-        ' Nothing sourced this record. It renders as an absence, not as a fact.</p>';
+        ' Nothing sourced this record. It renders as an absence.</p>';
     }
     return '<ul class="source-detail">' + ids.map(function (id) {
       var s = WGO.model.index.source[id];
       if (!s) {
-        return '<li><span class="mono">' + ui.esc(id) + '</span> — ' +
+        return '<li><span class="mono">' + ui.esc(id) + '</span>: ' +
           ui.plainChip('missing source record') + '</li>';
       }
       var bits = [];
@@ -221,7 +221,7 @@
     return '<ul class="pill-list">' + ids.map(function (id) {
       var item = WGO.model.evidenceItem(id);
       return '<li><a class="chip chip--plain" href="evidence.html?id=' + ui.esc(id) + '">' +
-        ui.esc(id) + (item ? ' — ' + ui.esc(item.title) : ' — missing record') + '</a></li>';
+        ui.esc(id) + (item ? ': ' + ui.esc(item.title) : ': missing record') + '</a></li>';
     }).join('') + '</ul>';
   };
 
@@ -295,23 +295,21 @@
     unknown: function () {
       return ui.explainer(ui.t('explain.unknownSummary', 'Why is so much of this page UNKNOWN?'),
         '<p>' + ui.esc(ui.t('explain.unknownBody',
-          'Because nothing has been established yet, and the site says so rather than filling the ' +
-          'space with a plausible reconstruction. A claim without a source does not render as a fact ' +
+          'Because nothing has been established yet, and the site says so and leaves the ' + 'space empty. A claim without a source does not render as a fact ' +
           'here, including in our own starting data.')) + '</p>' +
-        '<p style="margin-top:0.5rem">These fields fill in when a document arrives, not before. ' +
+        '<p style="margin-top:0.5rem">These fields fill in when a document arrives. ' +
         'If you hold one, <a href="submit.html">send it</a>.</p>');
     },
 
     clock: function () {
       return ui.explainer(ui.t('explain.clockSummary', 'How does the reply clock work?'),
         '<p>' + ui.esc(ui.t('explain.clockBody',
-          'Filing a statutory information request puts a public office on a deadline. The register ' +
+          'Filing a statutory information request puts a public office on a deadline. The log ' +
           'computes the reply-due date from the filing date every time the page loads, so it cannot ' +
           'go stale.')) + '</p>' +
         '<p style="margin-top:0.5rem">' + ui.esc(ui.t('explain.clockBody2',
           'The clock stops when an office replies, even if the reply came late. Silence past the ' +
-          'statutory period counts as a refusal and opens an appeal, which is why an unanswered ' +
-          'request is published rather than hidden.')) + '</p>');
+          'statutory period counts as a refusal and opens an appeal, which is why an unanswered ' + 'request is published.')) + '</p>');
     }
   };
 
@@ -383,7 +381,7 @@
     var notice =
       '<div class="notice-bar"><div class="shell notice-bar__inner">' +
         '<span>' +
-          (cfg.archiveStage ? '<strong>' + ui.esc(cfg.archiveStage) + '</strong> — ' : '') +
+          (cfg.archiveStage ? '<strong>' + ui.esc(cfg.archiveStage) + '</strong>: ' : '') +
           status +
           (cfg.demoMode ? ' Records marked <em>sample</em> show the layout only.' : '') +
         '</span>' +
@@ -449,7 +447,7 @@
             '<div><h4>' + ui.esc(ui.t('footer.archive', 'The archive')) + '</h4><ul>' +
               '<li>' + fl('search.html', 'Search') + '</li>' +
               '<li>' + fl('changes.html', 'What changed') + '</li>' +
-              '<li>' + fl('rti.html', 'RTI register') + '</li>' +
+              '<li>' + fl('rti.html', 'RTI log') + '</li>' +
               '<li>' + fl('data/export/archive.json', 'Download the data') + '</li>' +
             '</ul></div>' +
             '<div><h4>' + ui.esc(ui.t('footer.howWeWork', 'How we work')) + '</h4><ul>' +
@@ -539,7 +537,7 @@
               ui.esc(u.recordId) +
               /* Record titles are full claims and run to a couple of hundred
                  characters. The link is a pointer, not the record. */
-              (record ? ' — ' + ui.esc(record.title.length > 64
+              (record ? ': ' + ui.esc(record.title.length > 64
                 ? record.title.slice(0, 61).replace(/[\s,;:]+$/, '') + '…'
                 : record.title) : '') +
               ' &rarr;</a></p>'
@@ -603,8 +601,7 @@
           '<button class="btn btn--small btn--ghost" type="button" data-copy="' + id + '">Copy the citation</button>' +
         '</div>' +
         '<p class="small" style="margin-top:0.6rem">' +
-          'Records change state when a document arrives, so the retrieval date is part of the ' +
-          'citation rather than a courtesy. What this record said on any earlier date is in ' +
+          'Records change state when a document arrives, so the retrieval date is part of the ' + 'citation. What this record said on any earlier date is in ' +
           '<a href="changes.html">the change log</a>. ' +
           ui.esc(((cfg.licence || {}).note) || '') +
         '</p>' +
@@ -810,7 +807,7 @@
         '<summary>Draft the ' + stageLabel + '</summary>' +
         '<div class="explainer__body">' +
           '<p class="small">Assembled from this record. Anything in [brackets] is for you to fill ' +
-          'in — the archive does not know it and will not guess. ' +
+          'in: the archive does not know it and will not guess. ' +
           ui.esc(appeal.note || '') + '</p>' +
           '<pre class="appeal__draft" id="' + id + '" tabindex="0" role="region" aria-label="Draft letter, scrolls horizontally">' + ui.esc(draft) + '</pre>' +
           '<div class="row" style="margin-top:0.6rem">' +

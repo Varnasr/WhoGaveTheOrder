@@ -1,4 +1,4 @@
-# Preservation representation — Katihar
+# Preservation representation: Katihar
 
 **Status: DRAFT. Not sent.** Fill every `[ ]` before use. See `README.md`.
 
@@ -6,7 +6,7 @@
 
 To,
 The Superintendent of Police, Katihar
-[postal address — NOT held by this archive; see contacts.md]
+[postal address: NOT held by this archive; see contacts.md]
 Email: sp-katihar-bih@nic.in · Tel: 06452-230601 · Fax: 06452-245065
 *(contacts verified 18 September 2026 from police.bihar.gov.in; see contacts.md)*
 
@@ -57,4 +57,4 @@ Yours faithfully,
 
 ---
 
-*Note before sending: this archive holds the date (23 July 2026) and the district, but not the specific location within Katihar. If you know it, name it in paragraph 2 and paragraph 5 — a request tied to a place is harder to mislay than one tied to a district. If you do not know it, leave it as drafted rather than guessing.*
+*Note before sending: this archive holds the date (23 July 2026) and the district, but not the specific location within Katihar. If you know it, name it in paragraph 2 and paragraph 5: a request tied to a place is harder to mislay than one tied to a district. If you do not know it, leave it as drafted rather than guessing.*

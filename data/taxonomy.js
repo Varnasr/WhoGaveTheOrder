@@ -108,12 +108,12 @@ WGO.ORDER_LADDER = [
   {
     key: 'REFERRED',
     label: 'A document refers to the order',
-    definition: 'A record made by somebody other than us refers to the order having been given — a diary entry, a log, an affidavit. The reference is reported to us; we have not read the record ourselves.'
+    definition: 'A record made by somebody other than us refers to the order having been given: a diary entry, a log, an affidavit. The reference is reported to us; we have not read the record ourselves.'
   },
   {
     key: 'REFERRING_DOC_HELD',
     label: 'We hold the document that refers to it',
-    definition: 'The referring record is in our possession and we have read it against its source, rather than reading a report of it.'
+    definition: 'The referring record is in our possession and we have read it against its source.'
   },
   {
     key: 'IDENTIFIED',
@@ -188,7 +188,7 @@ WGO.EVIDENCE_TYPES = [
 /* --- Citizen submission workflow (section 11) ----------------------------- *
    Nothing the public sends us goes live automatically. */
 WGO.SUBMISSION_WORKFLOW = [
-  { key: 'RECEIVED',     label: 'Received',     note: 'Logged, not public. Contact details are never published.' },
+  { key: 'RECEIVED',     label: 'Received',     note: 'Logged and kept private. Contact details are never published.' },
   { key: 'UNDER_REVIEW', label: 'Under review', note: 'Checked against its original source; privacy and legal risk assessed.' },
   { key: 'VERIFIED',     label: 'Verified',     note: 'Provenance established, or downgraded to a lesser state with reasons.' },
   { key: 'PUBLISHED',    label: 'Published',    note: 'Given an evidence ID and entered into the public archive.' }
@@ -210,7 +210,7 @@ WGO.REVIEWER_ACTIONS = [
    and it has a name in the Act. */
 WGO.RTI_STATES = {
   FILED: {
-    label: 'Filed — awaiting reply',
+    label: 'Filed: awaiting reply',
     definition: 'Application filed and within the statutory period for a reply.'
   },
   REPLY_RECEIVED: {
@@ -230,7 +230,7 @@ WGO.RTI_STATES = {
     definition: 'Application transferred to another public authority as holding the record. The transfer itself narrows where the record sits.'
   },
   LAPSED: {
-    label: 'No reply — deemed refusal',
+    label: 'No reply: deemed refusal',
     definition: 'The statutory period passed with no reply. Under the Act this is treated as a refusal, and it opens the appeal.'
   },
   FIRST_APPEAL: {
@@ -253,9 +253,9 @@ WGO.RTI_STATES = {
    explicitly when it applies. Verify the current provision before relying on
    it in an application. */
 WGO.RTI_PERIODS = [
-  { key: 'STANDARD',      days: 30, label: '30 days — standard' },
-  { key: 'LIFE_LIBERTY',  days: 2,  label: '48 hours — life or liberty' },
-  { key: 'THIRD_PARTY',   days: 40, label: '40 days — third-party information involved' }
+  { key: 'STANDARD',      days: 30, label: '30 days: standard' },
+  { key: 'LIFE_LIBERTY',  days: 2,  label: '48 hours: life or liberty' },
+  { key: 'THIRD_PARTY',   days: 40, label: '40 days: third-party information involved' }
 ];
 
 /* --- The appeal windows --------------------------------------------------- *

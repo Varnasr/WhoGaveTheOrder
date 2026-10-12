@@ -1,4 +1,4 @@
-# Preservation representation — Siwan
+# Preservation representation: Siwan
 
 **Status: DRAFT. Not sent.** Fill every `[ ]` before use. See `README.md`.
 
@@ -12,7 +12,7 @@ representation queued. Send this one first if you send only one.
 
 To,
 The Superintendent of Police, Siwan
-[postal address — NOT held by this archive; see contacts.md]
+[postal address: NOT held by this archive; see contacts.md]
 Email: sp-siwan-bih@nic.in · Tel: 06154-242060 · Fax: 06154-242977
 *(contacts verified 18 September 2026 from police.bihar.gov.in; see contacts.md)*
 
@@ -67,4 +67,4 @@ Yours faithfully,
 
 ---
 
-*Copy to: [Director General of Police, Bihar — address] (optional; decide before sending)*
+*Copy to: [Director General of Police, Bihar: address] (optional; decide before sending)*

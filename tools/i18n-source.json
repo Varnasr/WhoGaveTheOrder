@@ -39,7 +39,7 @@
     "Government response": "Government response",
     "Others are investigating": "Others are investigating",
     "Evidence library": "Evidence library",
-    "RTI register": "RTI register",
+    "RTI log": "RTI log",
     "Search": "Search",
     "What changed": "What changed",
     "Download the data": "Download the data",
@@ -66,7 +66,7 @@
     "unknownSummary": "Why is so much of this page UNKNOWN?",
     "unknownBody": "Because nothing has been established yet, and the site says so rather than filling the space with a plausible reconstruction. A claim without a source does not render as a fact here, including in our own starting data.",
     "clockSummary": "How does the reply clock work?",
-    "clockBody": "Filing a statutory information request puts a public office on a deadline. The register computes the reply-due date from the filing date every time the page loads, so it cannot go stale.",
+    "clockBody": "Filing a statutory information request puts a public office on a deadline. The log computes the reply-due date from the filing date every time the page loads, so it cannot go stale.",
     "clockBody2": "The clock stops when an office replies, even if the reply came late. Silence past the statutory period counts as a refusal and opens an appeal, which is why an unanswered request is published rather than hidden."
   },
   "EVIDENCE_STATES": {

@@ -1,4 +1,4 @@
-# Preservation representation — Munger
+# Preservation representation: Munger
 
 **Status: DRAFT. Not sent.** Fill every `[ ]` before use. See `README.md`.
 
