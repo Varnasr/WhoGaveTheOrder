@@ -5,6 +5,226 @@ window.WGO = window.WGO || {};
 
 WGO.changes = [
   {
+    "commit": "34a0b5c252",
+    "date": "2026-10-12T12:50:51Z",
+    "subject": "Bring site copy to the authoring standard: no em dashes, no contrast constructions, RTI register renamed to RTI log",
+    "added": [],
+    "removed": [],
+    "changed": [
+      {
+        "id": "PROC-DEL-001",
+        "kind": "Evidence",
+        "title": "Delhi High Court issued notice to Delhi Police and the Union on PILs concerning the 20 and 21 July 2026 police action, directed preservation of records includin",
+        "state": "DISPUTED",
+        "url": "evidence.html?id=PROC-DEL-001",
+        "fields": [
+          {
+            "field": "establishes",
+            "from": "Cause title and case number are now established from the court's own cause list at PROC-DEL-002: Shakeel Abbas v. Union of India and Ors., W.P.(CRL) 2127/2026, listed 22 July 2026 before the Chief Justice and Justice Tejas Karia. That re…",
+            "to": "Cause title and case number are now established from the court's own cause list at PROC-DEL-002: Shakeel Abbas v. Union of India and Ors., W.P.(CRL) 2127/2026, listed 22 July 2026 before the Chief Justice and Justice Tejas Karia. That re…"
+          }
+        ]
+      },
+      {
+        "id": "PROC-BIH-001",
+        "kind": "Evidence",
+        "title": "Court proceedings concerning the Bihar incidents. The State of Bihar is a respondent in the Supreme Court proceedings on the CJP student protests and has filed ",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=PROC-BIH-001",
+        "fields": [
+          {
+            "field": "establishes",
+            "from": "Supersedes the earlier finding on this record, which read 'searched, none found' as at 16 August 2026 and was true when written. On 18 August 2026 the State of Bihar was reported to have filed an affidavit in the Supreme Court proceeding…",
+            "to": "Supersedes the earlier finding on this record, which read 'searched, none found' as at 16 August 2026 and was true when written. On 18 August 2026 the State of Bihar was reported to have filed an affidavit in the Supreme Court proceeding…"
+          }
+        ]
+      },
+      {
+        "id": "OVR-NHRC-001",
+        "kind": "Evidence",
+        "title": "NHRC took suo motu cognisance by order dated 25 July 2026 and issued notice to the Commissioner of Police, Delhi, directing a detailed report within two weeks. ",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=OVR-NHRC-001",
+        "fields": [
+          {
+            "field": "establishes",
+            "from": "Two-week deadline expired approximately 8 August 2026. Diary/case number UNKNOWN. NHRC order text not held. Searched on 18 August 2026: nhrc.nic.in/media/press-release does not list this matter. Its entries for 20 and 24 July 2026 carry …",
+            "to": "Two-week deadline expired approximately 8 August 2026. Diary/case number UNKNOWN. NHRC order text not held. Searched on 18 August 2026: nhrc.nic.in/media/press-release does not list this matter. Its entries for 20 and 24 July 2026 carry …"
+          }
+        ]
+      },
+      {
+        "id": "PROC-DEL-002",
+        "kind": "Evidence",
+        "title": "Delhi High Court listed W.P.(CRL) 2127/2026 with CRL.M.A. 21282/2026 and CRL.M.A. 21283/2026, Shakeel Abbas v. Union of India and Ors., at item 54 of the supple",
+        "state": "VERIFIED",
+        "url": "evidence.html?id=PROC-DEL-002",
+        "fields": [
+          {
+            "field": "establishes",
+            "from": "The court's own record, and the first primary document in this archive for the Delhi proceeding. What it establishes: the cause title, the writ petition and application numbers, the date of listing, and the bench. It settles two things t…",
+            "to": "The court's own record, and the first primary document in this archive for the Delhi proceeding. What it establishes: the cause title, the writ petition and application numbers, the date of listing, and the bench. It settles two things t…"
+          }
+        ]
+      },
+      {
+        "id": "PROC-SC-002",
+        "kind": "Evidence",
+        "title": "Delhi Police stated on affidavit before the Supreme Court, at a hearing on 18 August 2026 in Shailendra Mani Tripathi v. Union of India and Ors., W.P.(C) 280/20",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=PROC-SC-002",
+        "fields": [
+          {
+            "field": "establishes",
+            "from": "That the technology was deployed is the police's own statement to a court, reported by independent outlets, and nobody in the proceeding contests it. It is the first thing in this archive that the force has admitted about its own conduct…",
+            "to": "That the technology was deployed is the police's own statement to a court, reported by independent outlets, and nobody in the proceeding contests it. It is the first thing in this archive that the force has admitted about its own conduct…"
+          }
+        ]
+      },
+      {
+        "id": "INC-SIW-001",
+        "kind": "Evidence",
+        "title": "Police discharged firearms during the student protest at Siwan on 25 July 2026. The State of Bihar's account, given on affidavit to the Supreme Court, is four r",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=INC-SIW-001",
+        "fields": [
+          {
+            "field": "establishes",
+            "from": "Amended 26 August 2026. This record previously stated the State's figures as the claim itself: 'four rounds from an AK-47 near JP Chowk, and two rounds from a 9mm pistol near Hathi Chowk'. An open-source investigation published on 4 Augu…",
+            "to": "Amended 26 August 2026. This record previously stated the State's figures as the claim itself: 'four rounds from an AK-47 near JP Chowk, and two rounds from a 9mm pistol near Hathi Chowk'. An open-source investigation published on 4 Augu…"
+          }
+        ]
+      },
+      {
+        "id": "PROC-SC-004",
+        "kind": "Evidence",
+        "title": "The State of Bihar filed an affidavit in the Supreme Court proceedings on the CJP student protests, reported on 18 August 2026, setting out its account of the p",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=PROC-SC-004",
+        "fields": [
+          {
+            "field": "establishes",
+            "from": "As stated by the state of bihar: a constable named in the affidavit as Abhishek Kumar fired four rounds from an AK-47 into the air, and only after he was surrounded or trapped by the crowd near JP Chowk; no protester was hit by rifle fir…",
+            "to": "As stated by the state of bihar: a constable named in the affidavit as Abhishek Kumar fired four rounds from an AK-47 into the air, and only after he was surrounded or trapped by the crowd near JP Chowk; no protester was hit by rifle fir…"
+          }
+        ]
+      },
+      {
+        "id": "PROC-SC-005",
+        "kind": "Evidence",
+        "title": "Delhi Police filed an affidavit in the Supreme Court proceedings, reported on 18 August 2026, stating that no excessive force was used at Jantar Mantar on 20 Ju",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=PROC-SC-005",
+        "fields": [
+          {
+            "field": "establishes",
+            "from": "As stated by delhi police: about 5,000 police were managing a crowd reported at over 30,000 across roughly three kilometres; the agitation was hijacked by anti-social elements and history-sheeters; more than 240 police personnel were inj…",
+            "to": "As stated by delhi police: about 5,000 police were managing a crowd reported at over 30,000 across roughly three kilometres; the agitation was hijacked by anti-social elements and history-sheeters; more than 240 police personnel were inj…"
+          }
+        ]
+      },
+      {
+        "id": "PROC-SC-009",
+        "kind": "Evidence",
+        "title": "Counsel for the petitioners in W.P.(C) 917/2026 submitted before the Supreme Court, reported on 3 August 2026, that 'from 1967 to now, there is not a single sta",
+        "state": "REPORTED",
+        "url": "evidence.html?id=PROC-SC-009",
+        "fields": [
+          {
+            "field": "establishes",
+            "from": "A submission by counsel is a party's assertion made in court. It is not a finding, it is not evidence that no such order exists, and it does not establish an absence. What it establishes is that the absence was asserted, on the record, b…",
+            "to": "A submission by counsel is a party's assertion made in court. It is neither a finding nor evidence that no such order exists, and it does not establish an absence. What it establishes is that the absence was asserted, on the record, by c…"
+          }
+        ]
+      },
+      {
+        "id": "INC-DEL-004",
+        "kind": "Evidence",
+        "title": "A Delhi Police General Diary entry numbered 0008A, recorded at Parliament Street police station at 1.24 am on 22 July 2026, is reported to record that a Rapid A",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=INC-DEL-004",
+        "fields": [
+          {
+            "field": "establishes",
+            "from": "A General Diary entry is a police record of what an officer reported, made two days after the event by a duty officer writing down what a deputy commander told him. The words that matter are 'under the orders of' a Deputy Commissioner of…",
+            "to": "A General Diary entry is a police record of what an officer reported, made two days after the event by a duty officer writing down what a deputy commander told him. The words that matter are 'under the orders of' a Deputy Commissioner of…"
+          }
+        ]
+      },
+      {
+        "id": "INC-SIW-002",
+        "kind": "Evidence",
+        "title": "An open-source investigation published by Alt News on 4 August 2026, based on geolocated bystander video from several angles, reports at least nine rounds fired",
+        "state": "REPORTED",
+        "url": "evidence.html?id=INC-SIW-002",
+        "fields": [
+          {
+            "field": "establishes",
+            "from": "One publication, but not of the usual kind. This is not a report of somebody else's document; it is the outlet's own analysis of video it geolocated, which makes it primary work by a secondary source. The archive cannot check it without …",
+            "to": "One publication, but not of the usual kind. This is the outlet's own analysis of video it geolocated, which makes it primary work by a secondary source. It does not report somebody else's document. The archive cannot check it without the…"
+          }
+        ]
+      },
+      {
+        "id": "INC-BIH-005",
+        "kind": "Evidence",
+        "title": "A public hearing convened by the Bihar unit of the People's Union for Civil Liberties at the IMA Hall, Gandhi Maidan, Patna, on 22 August 2026 heard 19 people w",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=INC-BIH-005",
+        "fields": [
+          {
+            "field": "establishes",
+            "from": "What is established here is that the hearing happened and what it found — not that the findings are true. A fact-finding panel is not a court and its conclusions are not evidence of the events; they are the considered account of named pe…",
+            "to": "What is established here is that the hearing happened and what it found. That does not make the findings true. A fact-finding panel has no judicial standing, and its conclusions are not evidence of the events. They are the considered acc…"
+          }
+        ]
+      },
+      {
+        "id": "HIST-AGT-004",
+        "kind": "Evidence",
+        "title": "Number injured on about 7 September 2021 in Agartala: ETV Bharat gives 'over 20' in its own voice and quotes an ABVP office-holder as saying 'more than 23'. No ",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-AGT-004",
+        "fields": [
+          {
+            "field": "establishes",
+            "from": "The two figures are not in conflict but both are unverified.",
+            "to": "The two figures do not conflict, and both are unverified."
+          }
+        ]
+      },
+      {
+        "id": "HIST-SOL22-002",
+        "kind": "Evidence",
+        "title": "Police detained protesters on 4 April 2022. PTI quotes a senior police officer: 'Some of them were taken to the police station. The protesters will be released ",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-SOL22-002",
+        "fields": [
+          {
+            "field": "establishes",
+            "from": "Detention is supported by three different publishers, including a police quote. The total number detained is not given by any source. 'Some', 'a few' and 'two AISA activists' are not in conflict but are not a count. The police station is…",
+            "to": "Detention is supported by three different publishers, including a police quote. The total number detained is not given by any source. 'Some', 'a few' and 'two AISA activists' do not conflict, and none of them is a count. The police stati…"
+          }
+        ]
+      },
+      {
+        "id": "HIST-RNCH26-004",
+        "kind": "Evidence",
+        "title": "More than 500 students were detained on 10 August 2026 and taken in buses to a designated camp jail, per UNI. Leader of Opposition Babulal Marandi and other BJP",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-RNCH26-004",
+        "fields": [
+          {
+            "field": "establishes",
+            "from": "One source for the 500 figure. The PTI-based Deccan Herald piece of 13 Aug quotes DSP Neeraj Kumar: 'No detention or arrest was made in connection with the case', which refers to the FIR, not the day's detentions; the two are not in dire…",
+            "to": "One source for the 500 figure. The PTI-based Deccan Herald piece of 13 Aug quotes DSP Neeraj Kumar: 'No detention or arrest was made in connection with the case', which refers to the FIR, not the day's detentions; the two do not directly…"
+          }
+        ]
+      }
+    ],
+    "summary": "15 records edited"
+  },
+  {
     "commit": "893443d02e",
     "date": "2026-10-12T09:38:43Z",
     "subject": "Sweep log and archived copies for 2026-10-12 [skip ci]",
