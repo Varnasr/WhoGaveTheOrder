@@ -5,8 +5,8 @@
    That is deliberate: the site has no build step and opening index.html off the
    filesystem has to work. It also means the model cannot be `require`d.
 
-   Rather than duplicate the model in Node — which would give the tooling its
-   own idea of what the archive says, and eventually a different one — this
+   Rather than duplicate the model in Node: which would give the tooling its
+   own idea of what the archive says, and eventually a different one: this
    evaluates the same files the browser loads, in a sandbox with a `window`, and
    hands back the built model. Every tool in this directory reads the archive
    through here, so a rule enforced in assets/model.js is enforced in CI too.

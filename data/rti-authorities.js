@@ -1,5 +1,5 @@
 /* =============================================================================
-   rti-authorities.js — who an RTI application goes to, and how
+   rti-authorities.js: who an RTI application goes to, and how
    -----------------------------------------------------------------------------
    Hand-written. Every field here was read from the authority's own page on the
    date in `checked`, or it is absent. A missing field means "not verified", never

@@ -7,7 +7,7 @@
    schedule and reports what has changed state overnight:
 
      · applications whose statutory period has expired while the record still
-       says FILED — under section 7(2) that silence is a refusal, and the
+       says FILED: under section 7(2) that silence is a refusal, and the
        register should say so
      · appeal windows about to close
      · appeal windows that have closed unnoticed
@@ -46,7 +46,7 @@ function main() {
     if (!clock.known) {
       findings.push({
         kind: 'NO_FILING_DATE', id: rti.id, office: rti.office || null, subject: rti.subject || null,
-        headline: `${rti.id} has no filing date — its clock cannot be computed`
+        headline: `${rti.id} has no filing date: its clock cannot be computed`
       });
       continue;
     }
@@ -58,7 +58,7 @@ function main() {
       findings.push({
         kind: 'DEEMED_REFUSAL', id: rti.id, office: rti.office || null, subject: rti.subject || null,
         filedOn: rti.filedOn, dueOn: clock.dueOn, overdueDays: clock.overdueDays,
-        headline: `${rti.id} is ${clock.overdueDays} day${clock.overdueDays === 1 ? '' : 's'} past its statutory period — deemed refusal`,
+        headline: `${rti.id} is ${clock.overdueDays} day${clock.overdueDays === 1 ? '' : 's'} past its statutory period: deemed refusal`,
         action: `Set status to LAPSED in data/records.js, and file the first appeal (draft on rti.html#${rti.id}).`
       });
     }

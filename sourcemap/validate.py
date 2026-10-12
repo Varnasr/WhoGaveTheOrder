@@ -142,7 +142,7 @@ def main():
         for check, rid, detail in failures:
             by_check[check].append((rid, detail))
         for check in sorted(by_check):
-            print(f"\n  [{check}] — {len(by_check[check])}")
+            print(f"\n  [{check}]: {len(by_check[check])}")
             for rid, detail in by_check[check]:
                 print(f"    {rid}: {detail}")
     else:
@@ -156,7 +156,7 @@ def main():
         print(f"OBSERVATIONS (not rule breaches): {len(observations)}")
         for check in sorted(by_check):
             items = by_check[check]
-            print(f"\n  [{check}] — {len(items)}")
+            print(f"\n  [{check}]: {len(items)}")
             for rid, detail in items[:12]:
                 print(f"    {rid}: {detail}")
             if len(items) > 12:

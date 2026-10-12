@@ -2,7 +2,7 @@
 #
 # Goes to the places a document about these incidents could appear and reports
 # what is new. It opens an issue when there is something to look at, and it
-# commits the log every day whether or not there was — because "we looked on
+# commits the log every day whether or not there was: because "we looked on
 # this date and found nothing" is a finding in this archive, and an undated
 # absence is worth much less than a dated one.
 #
@@ -13,7 +13,7 @@ name: Sweep
 
 on:
   schedule:
-    # 02:30 UTC — 08:00 in India, so the candidates are waiting at the start of
+    # 02:30 UTC: 08:00 in India, so the candidates are waiting at the start of
     # the day and an hour before the deadline robot runs.
     - cron: '30 2 * * *'
   workflow_dispatch:
@@ -137,7 +137,7 @@ jobs:
               lines.push('Recorded rather than retried silently. "We could not look" is not the same as "we looked and it was empty", and the archive should not blur them.');
               lines.push('');
               for (const f of unreachable) {
-                lines.push(`- **${f.label}** — ${f.detail}`);
+                lines.push(`- **${f.label}**: ${f.detail}`);
                 lines.push(`  ${f.url}`);
               }
               lines.push('');

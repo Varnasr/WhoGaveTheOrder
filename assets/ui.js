@@ -1,5 +1,5 @@
 /* =============================================================================
-   WhoGaveTheOrder.in — shared interface pieces
+   WhoGaveTheOrder.in: shared interface pieces
    -----------------------------------------------------------------------------
    Chrome, evidence chips, source lines and empty states. Anything that carries
    the site's evidence grammar is built here once, so that a status label cannot
@@ -241,7 +241,7 @@
   };
 
   /* A field that has no established value yet. Used everywhere an incident
-     record is still a shell, which — before launch — is everywhere. */
+     record is still a shell, which, before launch, is everywhere. */
   ui.field = function (value, state, fallback) {
     if (value === null || value === undefined || value === '') {
       return ui.chip(state || 'UNKNOWN') + ' <span class="small">' +
@@ -492,8 +492,8 @@
   /* The five-rung "distance to the order" ladder was removed on 2026-09-23
      along with chain.html. It reported that one of four incidents had reached
      rung two and the other three rung zero, which is a progress bar on an
-     investigation nobody is conducting. The fact it carried — that a police
-     diary entry is reported to refer to an order nobody here has read — is
+     investigation nobody is conducting. The fact it carried: that a police
+     diary entry is reported to refer to an order nobody here has read: is
      stated in plain words on the incident page and on the front page, where
      it does not need a diagram. WGO.model.orderLadder() is kept: the export
      and the record model still use the rung a record has reached. */
@@ -570,8 +570,8 @@
      make a citation harder than a URL: whoever cites this needs to say which
      version they read, and on what day it said what it said.
 
-     The retrieval date is the reader's own — taken from their clock, not from
-     the record — because that is what a citation is recording. */
+     The retrieval date is the reader's own: taken from their clock, not from
+     the record: because that is what a citation is recording. */
 
   ui.citeBlock = function (record) {
     var cfg = WGO.config || {};

@@ -1,5 +1,5 @@
 /* =============================================================================
-   WhoGaveTheOrder.in — model layer
+   WhoGaveTheOrder.in: model layer
    -----------------------------------------------------------------------------
    Turns the flat record store into the relational graph the brief asks for:
 
@@ -77,7 +77,7 @@
       ? (WGO.importedQuestions || []).slice()
       : expandQuestions();
 
-    /* Published pools — the real archive.
+    /* Published pools: the real archive.
        Hand-entered records first, then anything imported from the source map.
        The import never upgrades a state: a claim arrives at whatever confidence
        the source map gave it. */
@@ -88,7 +88,7 @@
     model.framework          = (WGO.importedFramework || []).slice();
     model.filings            = (WGO.importedFilings || []).slice();
 
-    /* Display pools — published records, plus layout samples while demoMode is
+    /* Display pools: published records, plus layout samples while demoMode is
        on. Counts always come from the published pools above. */
     var demo = isDemo();
     model.publishedRtis = (WGO.rtis || []).slice();
@@ -182,7 +182,7 @@
   };
 
   /* Has any evidence in the archive been recorded as placing this office
-     behind this specific action? Absent that, the answer is NOT ESTABLISHED —
+     behind this specific action? Absent that, the answer is NOT ESTABLISHED:
      and it is the model, not the page, that decides. */
   model.authorisationStatus = function (office, incidentId) {
     var links = (office.authorisationEvidence || []).filter(function (link) {
@@ -268,8 +268,8 @@
     var faa = windows.FAA_DECISION || { days: 30, extendedDays: 45 };
     var second = windows.SECOND || { days: 90 };
 
-    /* The first appeal runs from the day a decision was received, or — where
-       nothing came — from the day the reply fell due. Section 7(2) treats that
+    /* The first appeal runs from the day a decision was received, or: where
+       nothing came: from the day the reply fell due. Section 7(2) treats that
        silence as a refusal, which is what makes the appeal available at all. */
     var runsFrom = rti.repliedOn || clock.dueOn;
     var stage = null;
@@ -294,7 +294,7 @@
       return { available: false, reason: 'The appeal route has already been taken as far as this log tracks it.' };
     } else if (clock.overdue || rti.status === 'LAPSED' ||
                ['REFUSED', 'NO_RECORD_HELD', 'REPLY_RECEIVED'].indexOf(rti.status) !== -1) {
-      /* A reply on the merits can be appealed too — an incomplete answer, or a
+      /* A reply on the merits can be appealed too: an incomplete answer, or a
          refusal under a claimed exemption, is exactly what section 19(1) is
          for. Only an application still inside its statutory period has nothing
          to appeal yet. */
@@ -457,7 +457,7 @@
 
     /* Offices and persons are not in the search index and have no page of
        their own. The eight offices are the generic structure of who may
-       authorise force in India — a textbook diagram, identical for every
+       authorise force in India: a textbook diagram, identical for every
        incident, and true whether or not anything happened. Indexing it put
        "Superintendent of Police" in the results for a reader searching an
        incident, as though the archive held something about that office. It
@@ -652,15 +652,15 @@
     model.publishedSources.forEach(function (s) {
       if (!s.retrievedOn) {
         /* retrievedOn records the day a URL was fetched. A source with no URL
-           was not fetched from anywhere — a printed manual, a case citation —
+           was not fetched from anywhere: a printed manual, a case citation:
            so the missing date is a gap in the note, not a broken rule. */
-        problem(s.url ? 'error' : 'warning', s.id, 'retrievedOn', '—',
+        problem(s.url ? 'error' : 'warning', s.id, 'retrievedOn', 'none',
           s.url
             ? 'Online source with no retrieval date: nothing records when this page was read'
             : 'Source with neither a URL nor a retrieval date: nothing records where or when it was consulted');
       }
       if (s.url && !s.archiveUrl) {
-        problem('warning', s.id, 'archiveUrl', '—',
+        problem('warning', s.id, 'archiveUrl', 'none',
           'Online source with no archived copy: it can be edited or removed without trace');
       }
       /* A checksum only means something for a file that should be byte-identical
@@ -669,7 +669,7 @@
          asking for its hash would be asking for a number that can never match,
          and a check nobody can satisfy is a check that gets ignored. */
       if (s.url && /\.pdf($|\?)/i.test(s.url) && !s.sha256) {
-        problem('warning', s.id, 'sha256', '—',
+        problem('warning', s.id, 'sha256', 'none',
           'Document source with no checksum: a fetched file should be hashed so a later copy can be compared');
       }
     });
@@ -720,7 +720,7 @@
         problem('error', r.id, 'evidenceIds', r.status, 'RTI reply received but not filed as evidence');
       }
       if (!r.filedOn) {
-        problem('error', r.id, 'filedOn', '—',
+        problem('error', r.id, 'filedOn', 'none',
           'RTI record with no filing date: the clock cannot be computed');
       }
       /* The register's own claim about itself. An application whose statutory

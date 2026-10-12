@@ -33,7 +33,7 @@ jobs:
         with:
           node-version: '22'
 
-      - name: Record integrity — the model's own checks
+      - name: Record integrity: the model's own checks
         run: node tools/check.js
 
       - name: Source map validation
@@ -43,8 +43,8 @@ jobs:
       # was built out of. Regenerating and diffing is the only way to know the
       # published site matches what it claims to be built from.
       #
-      # This used to run the import alone, which left the build's outputs — the
-      # change log, the Atom feed and data/export/ — checked by nothing at all,
+      # This used to run the import alone, which left the build's outputs: the
+      # change log, the Atom feed and data/export/: checked by nothing at all,
       # while the README said CI failed if either was stale. It did not: the
       # change log was wrong for weeks and every run here was green.
       - name: Generated records are current

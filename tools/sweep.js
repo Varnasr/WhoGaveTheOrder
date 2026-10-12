@@ -2,9 +2,9 @@
 /* =============================================================================
    The daily sweep
    -----------------------------------------------------------------------------
-   Goes to the places a document about these incidents could appear — court
+   Goes to the places a document about these incidents could appear: court
    listings, the Commission's press page, the parliamentary library, legal
-   reporting, news — and reports what is new since yesterday.
+   reporting, news: and reports what is new since yesterday.
 
    THE SWEEP NEVER WRITES A RECORD. It writes candidates and a dated log, and a
    person decides what becomes evidence and at what confidence. That is not
@@ -14,7 +14,7 @@
    claim into a fact, which is the one thing this archive exists to prevent.
 
    What it does record, every run, is that it looked. A search that finds
-   nothing is a dated negative, and this archive treats those as findings —
+   nothing is a dated negative, and this archive treats those as findings:
    PROC-BIH-001 and LEG-010 are both absences with a date on them.
 
        node tools/sweep.js                 # human summary
@@ -192,7 +192,7 @@ function expand(url, date) {
    update a list. */
 /* A city or a state is not a search term. "New Delhi" matches every article
    filed from New Delhi and "Patna" matched a story about a job quota in the
-   Patna High Court on the first run — a sweep that reports everything reports
+   Patna High Court on the first run: a sweep that reports everything reports
    nothing. Only the specific sites are watched; the jurisdictions are already
    covered by the news queries in the watchlist, which pair them with a verb. */
 const TOO_GENERIC = new Set([
@@ -352,7 +352,7 @@ async function main() {
     return;
   }
 
-  console.log(`Sweep ${DATE} — ${config.targets.length} targets, ${terms.length} watch terms.`);
+  console.log(`Sweep ${DATE}: ${config.targets.length} targets, ${terms.length} watch terms.`);
   /* The item counts are printed because "the feed was empty" and "the feed was
      full and nothing matched" are the same line without them, and one of those
      is a broken route. */

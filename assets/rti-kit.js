@@ -1,5 +1,5 @@
 /* =============================================================================
-   rti-kit.html — a drafted RTI application for every incident
+   rti-kit.html: a drafted RTI application for every incident
    -----------------------------------------------------------------------------
    The archive's method ends where the records start, and the records are held by
    offices that answer only when asked in the statute's form. This page writes the

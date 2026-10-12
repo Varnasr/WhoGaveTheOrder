@@ -2,7 +2,7 @@
 #
 # The RTI register computes its clocks in the browser, which means a deadline is
 # only noticed if somebody happens to load the page on the right day. An office
-# that stays silent past the statutory period has, under section 7(2), refused —
+# that stays silent past the statutory period has, under section 7(2), refused:
 # and the appeal that opens has its own thirty-day clock running against it.
 #
 # So the clocks run here too, every morning, and anything that has tipped over
@@ -12,7 +12,7 @@ name: Deadlines
 
 on:
   schedule:
-    # 03:30 UTC — early morning in India, so the issue is waiting at the start
+    # 03:30 UTC: early morning in India, so the issue is waiting at the start
     # of the working day rather than arriving in the middle of it.
     - cron: '30 3 * * *'
   workflow_dispatch:

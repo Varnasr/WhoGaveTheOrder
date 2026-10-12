@@ -45,14 +45,14 @@ function main() {
   report('Warnings', warnings);
 
   if (errors.length) {
-    console.error(`\nFAIL — ${errors.length} error${errors.length === 1 ? '' : 's'}.`);
+    console.error(`\nFAIL: ${errors.length} error${errors.length === 1 ? '' : 's'}.`);
     process.exit(1);
   }
   if (strict && warnings.length) {
-    console.error(`\nFAIL (--strict) — ${warnings.length} warning${warnings.length === 1 ? '' : 's'}.`);
+    console.error(`\nFAIL (--strict): ${warnings.length} warning${warnings.length === 1 ? '' : 's'}.`);
     process.exit(1);
   }
-  console.log(`\nOK — no errors.${warnings.length ? ` ${warnings.length} warning(s) above.` : ''}`);
+  console.log(`\nOK: no errors.${warnings.length ? ` ${warnings.length} warning(s) above.` : ''}`);
 }
 
 function report(heading, list) {
@@ -82,7 +82,7 @@ function structural(WGO) {
     if (seen.has(rec.id)) {
       found.push({
         severity: 'error', record: rec.id, field: 'id', ref: seen.get(rec.id),
-        message: `Duplicate record ID — also used by a ${seen.get(rec.id)} record`
+        message: `Duplicate record ID: also used by a ${seen.get(rec.id)} record`
       });
     }
     seen.set(rec.id, rec.kind);
@@ -101,7 +101,7 @@ function structural(WGO) {
     if (rec.state && !known.has(rec.state)) {
       found.push({
         severity: 'error', record: rec.id, field: 'state', ref: rec.state,
-        message: 'State is not defined in taxonomy.js — it will render as a raw key'
+        message: 'State is not defined in taxonomy.js: it will render as a raw key'
       });
     }
   }
@@ -112,7 +112,7 @@ function structural(WGO) {
   if (model.orders.length) {
     found.push({
       severity: 'warning', record: 'index.html', field: 'copy', ref: `${model.orders.length} orders`,
-      message: 'Orders exist in the archive — check the homepage copy still matches the count'
+      message: 'Orders exist in the archive: check the homepage copy still matches the count'
     });
   }
 
@@ -359,7 +359,7 @@ function letterJoin(WGO) {
     if (!offered.has(l.id)) {
       found.push({
         severity: 'error', record: l.id, field: 'LETTERS_FOR_INCIDENT', ref: l.district,
-        message: 'A drafted letter no incident page offers — it is reachable only from letters.html'
+        message: 'A drafted letter no incident page offers: it is reachable only from letters.html'
       });
     }
   }

@@ -1,5 +1,5 @@
 /* =============================================================================
-   WhoGaveTheOrder.in — the record store
+   WhoGaveTheOrder.in: the record store
    -----------------------------------------------------------------------------
    THE SEED RULE
    This file ships EMPTY OF FACTUAL ASSERTIONS. The three investigations exist
@@ -211,10 +211,10 @@ WGO.offices = [
    "Police used tear gas" is a claim about an incident, and it belongs in an
    evidence record with a source behind it, never here. Without that line an
    updates feed becomes the running commentary this archive exists not to
-   write — and the fastest way to launder an unsourced claim into a fact is to
+   write: and the fastest way to launder an unsourced claim into a fact is to
    put it in a news item nobody thinks to check.
 
-   Fields: date (ISO), title, body, and optionally recordId — the record the
+   Fields: date (ISO), title, body, and optionally recordId: the record the
    update concerns, which is rendered as a link so a reader can go and check
    the thing itself rather than take the note's word for it.
 

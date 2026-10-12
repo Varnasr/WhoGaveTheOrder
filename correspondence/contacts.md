@@ -7,7 +7,7 @@ application bundle at `https://police.bihar.gov.in/js/index.uxDv338t.js`, as a
 `districts` array of 45 districts, each with an `officers` list carrying
 designation, STD code, office and residence numbers, fax, mobile and email. The
 bundle filename is content-hashed and will change when the site is rebuilt, so
-cite the site and the retrieval date, not that URL.
+cite the site and the retrieval date; that URL will not stay valid.
 
 **Munger is independently cross-confirmed.** The district site
 `https://munger.nic.in/superintendent-of-police/` gives the same email, the same
@@ -29,7 +29,7 @@ cross-checked. Try again before sending.
 | **SP, Siwan** | `sp-siwan-bih@nic.in` | 06154-242060 | 06154-242977 | 9031827200 |
 
 `FQ-001` named the Patna addressee as the **SSP**, and the directory confirms
-Patna has a Senior Superintendent of Police rather than a Commissioner of Police.
+Patna has a Senior Superintendent of Police and no Commissioner of Police.
 The archive's rule that a commissionerate and a district are structurally
 different does not bite here.
 
@@ -53,7 +53,7 @@ get the address from the district site when it is back up.
   stays the addressee.
 - **DGP (Crime), Bihar** `dgpcr.pat-bih@gov.in` appears in the same directory. The
   drafts each carry an optional "copy to DGP" line. Decide once and apply it to
-  all four rather than copying some and not others.
+  all four.
 
 ## A note on sending by email
 

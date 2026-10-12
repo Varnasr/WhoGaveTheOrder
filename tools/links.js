@@ -8,8 +8,8 @@
    source could rot indefinitely and the archive would keep citing it.
 
    It did. On 18 September 2026 the India Code URLs for the Delhi Police Act
-   and the Bihar Police Act — the statutory basis of two of the three
-   jurisdictions in the chain of command — had been returning 404 for an
+   and the Bihar Police Act: the statutory basis of two of the three
+   jurisdictions in the chain of command: had been returning 404 for an
    unknown length of time. India Code had migrated to indiacode.gov.in.
 
    WHY A STATUS CODE IS NOT ENOUGH
@@ -20,7 +20,7 @@
    answers 200 with an identical 2,338-byte shell for every path, including
    paths that do not exist. A status check reports the whole host as healthy.
 
-   So this probes a control URL — a path on the same origin that cannot exist —
+   So this probes a control URL: a path on the same origin that cannot exist:
    and compares it against the real response. If a host answers the nonsense
    path with the same body it gives the real one, its status codes carry no
    information and the source is reported as UNCHECKABLE rather than as either
@@ -108,8 +108,8 @@ async function fetchUrl(url) {
 /* A second opinion, from a different HTTP client.
 
    Two clients do not always agree, and the disagreement is not academic: on
-   https://www.indiacode.nic.in/bitstream/123456789/20340/1/bnss,_2023.pdf —
-   a live source in this archive — curl returns 200 with a 2 MB PDF and Node's
+   https://www.indiacode.nic.in/bitstream/123456789/20340/1/bnss,_2023.pdf:
+   a live source in this archive: curl returns 200 with a 2 MB PDF and Node's
    fetch returns 404 with a 686-byte error page, same URL, same user agent.
    Whatever the cause (the literal comma in the path is the obvious suspect),
    a verdict that depends on which library made the request is not a finding
@@ -162,7 +162,7 @@ function classify(url, res, control) {
      reporting that as a dead citation would train the reader to ignore the
      report. Only 4xx can fail a run. */
   if (res.status >= 500) {
-    return { verdict: 'TRANSIENT', detail: `HTTP ${res.status} — server error, not a missing document` };
+    return { verdict: 'TRANSIENT', detail: `HTTP ${res.status}: server error, not a missing document` };
   }
   if (res.status >= 400) {
     return { verdict: 'DEAD', detail: `HTTP ${res.status}` };
@@ -224,7 +224,7 @@ async function main() {
         verdict = 'CONFLICT';
         detail = `fetch says ${detail}, curl says HTTP ${second.status} ` +
                  `${second.type || 'no content-type'}. Two clients disagree, so this ` +
-                 `establishes nothing either way — open it by hand.`;
+                 `establishes nothing either way: open it by hand.`;
       } else {
         detail += `; confirmed by curl (HTTP ${second.status})`;
       }
@@ -254,7 +254,7 @@ async function main() {
         console.log(`\n  ${r.url}`);
         console.log(`    ${r.detail}`);
         console.log(`    cited by: ${r.citedBy.join(', ')}`);
-        console.log(`    archived copy on record: ${r.archived ? 'yes' : 'NO — this citation has no fallback'}`);
+        console.log(`    archived copy on record: ${r.archived ? 'yes' : 'NO: this citation has no fallback'}`);
       }
       console.log('\nThese are not fixed automatically. Find where the document lives now, add the');
       console.log('new URL beside the old one rather than replacing it (the earlier retrieval did');

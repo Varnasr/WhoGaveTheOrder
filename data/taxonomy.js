@@ -1,5 +1,5 @@
 /* =============================================================================
-   WhoGaveTheOrder.in — taxonomy and site configuration
+   WhoGaveTheOrder.in: taxonomy and site configuration
    -----------------------------------------------------------------------------
    Every controlled vocabulary the platform uses lives here. Nothing in the UI
    invents a status string: if a label is not defined in this file, it does not
@@ -42,7 +42,7 @@ WGO.config = {
 
   /* Terms for reuse, in one place because the export manifest and the citation
      block both have to state them and must not state them differently. This
-     restates about.html#licence — it does not add a licence the project has not
+     restates about.html#licence: it does not add a licence the project has not
      granted, and naming a formal one here would do exactly that. */
   licence: {
     name: 'Reuse with attribution',
@@ -90,7 +90,7 @@ WGO.EVIDENCE_STATES = {
    how much work nobody has scoped? Nobody knows, so the number would be
    invented, and an invented number on this site is the one thing that would
    discredit every sourced one next to it. It would also be the sentence that
-   gets quoted — "archive says it is 80% of the way to proving who ordered it" —
+   gets quoted: "archive says it is 80% of the way to proving who ordered it":
    and no document would exist behind it.
 
    Each rung is instead a fact with a record behind it. A rung is reached only
@@ -148,7 +148,7 @@ WGO.QUESTION_STATES = {
   }
 };
 
-/* --- Authority levels — the chain of command rungs (section 6) ------------- */
+/* --- Authority levels: the chain of command rungs (section 6) ------------- */
 WGO.AUTHORITY_LEVELS = [
   { key: 'UNION',       label: 'Union level',                             note: 'Ministries and Union authorities' },
   { key: 'STATE',       label: 'State level',                             note: 'State government and its home department' },
@@ -248,7 +248,7 @@ WGO.RTI_STATES = {
 };
 
 /* Statutory reply periods, in days. The shorter period applies where the
-   information sought concerns the life or liberty of a person — which is
+   information sought concerns the life or liberty of a person: which is
    arguable for several questions in this archive, and worth claiming
    explicitly when it applies. Verify the current provision before relying on
    it in an application. */
@@ -296,7 +296,7 @@ WGO.config.applicant = {
   email: 'evidence@whogavetheorder.in'
 };
 
-/* --- Incident states (used by the map — section 12) ----------------------- */
+/* --- Incident states (used by the map: section 12) ----------------------- */
 WGO.INCIDENT_STATES = {
   VERIFIED:            { label: 'Verified' },
   REPORTED:            { label: 'Reported' },
@@ -331,13 +331,13 @@ WGO.LETTERS_FOR_INCIDENT = {
   'INC-0004': ['bihar-preservation-siwan']
 };
 
-/* --- Primary navigation (section 18) — deliberately short ----------------- */
+/* --- Primary navigation (section 18): deliberately short ----------------- */
 /* Five items, and the third is the only one a reader can act on.
    It used to be seven, three of which pointed at pages holding nothing:
    chain.html (0 orders, 0 persons), rti.html (0 applications) and
    response.html (0 official replies). Meanwhile letters.html, which opens a
    preservation request to a district police office addressed and ready to
-   send, was not in the navigation at all — it sat in the fourth column of the
+   send, was not in the navigation at all: it sat in the fourth column of the
    footer. A site that asks people to do something has to put the doing in
    reach of the reading. */
 WGO.NAV = [

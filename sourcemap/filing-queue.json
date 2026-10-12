@@ -140,7 +140,7 @@
     "cost": "Free",
     "legal_basis": "Published under Supreme Court and High Court orders per the SCRB's own statement.",
     "exposure_risk": false,
-    "notes": "Portal copies are REPORTED, not VERIFIED. Certified copies must come from the district or unit. Search multiple transliterations.",
+    "notes": "Portal copies carry the label REPORTED. Certified copies must come from the district or unit. Search multiple transliterations.",
     "resolves": [
       "CRT-003",
       "OQ-020"
@@ -220,7 +220,7 @@
     "jurisdiction": "delhi",
     "action": "Obtain every order suspending telecommunications in Central Delhi during July 2026: the order of 23 July 2026 recorded at INC-DEL-007, and any other order made in the same period. Ask for the order copies, the officer's designation, and the Review Committee's proceedings under rule 3(2) of the Telecommunications (Temporary Suspension of Services) Rules 2024.",
     "authority": "Ministry of Home Affairs, Union of India, as the reported issuing authority. The Department of Telecommunications and the Commissioner of Delhi Police, as reported recipient, are alternative custodians if MHA transfers the application under section 6(3).",
-    "method": "RTI application. One subject matter. Ask for the documents, not for an explanation: 'a copy of each order' and 'a copy of the Review Committee proceedings', not 'why was the internet suspended'.",
+    "method": "RTI application. One subject matter. Ask for the documents, using the wording 'a copy of each order' and 'a copy of the Review Committee proceedings'. A question such as 'why was the internet suspended' asks for an explanation.",
     "cost": "Rs 10 application fee",
     "legal_basis": "Right to Information Act 2005. Note that Anuradha Bhasin v. Union of India (2020) 3 SCC 637 requires such orders to be published, so this asks for a document the state was already obliged to make public. That is the strongest position an applicant can be in, and it should be said in the application.",
     "exposure_risk": false,
