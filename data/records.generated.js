@@ -11999,7 +11999,7 @@ WGO.importedEvidence = [
       "SRC-0084"
     ],
     "origin": "",
-    "establishes": "Cause title and case number are now established from the court's own cause list at PROC-DEL-002: Shakeel Abbas v. Union of India and Ors., W.P.(CRL) 2127/2026, listed 22 July 2026 before the Chief Justice and Justice Tejas Karia. That resolves both conflicts this record used to carry. Verdictum's cause title was right; LiveLaw's date of '23 July 2026 (Wednesday)' was wrong on its own terms, since 23 July was a Thursday and the matter was listed on Wednesday the 22nd. LiveLaw's Umesh Kumar v. Delhi Police is a different petition, most likely one of the connected matters all three reports describe; which petitions were heard together is still not established. The directions below (notice to Delhi Police and the Union, preservation of records including CCTV footage and videography in accordance with the SOP in place, four weeks for a counter affidavit, and the 11 September 2026 listing) still rest on three news reports and stay CORROBORATED. A cause list does not say what was ordered. See OQ-004 for the order itself.\n\nMOVED TO DISPUTED, 18 September 2026, on retrieving the order itself (PROC-DEL-004). The order in W.P.(CRL) 2127/2026 dated 22 July 2026 dismisses the petition and contains no notice, no preservation direction, no four-week counter affidavit and no 11 September listing. It is also about a different incident: the 18 July removal of Sonam Wangchuk, not the 20 and 21 July action against students.\n\nNot resolved by preferring the order. Four outlets reported a hearing on the police action at Jantar Mantar, and one element they reported (the BNSS s.173 observation) is in this order, so they were not describing a different day's work entirely. The likeliest reading is that a direction made in another matter before the same bench was attached to this case number in the reporting, but the archive holds no such matter and will not name one it has not seen. OQ-053 asks which proceeding, if any, carries the preservation direction.\n\nThis record is the archive's own warning arriving: CORROBORATED meant four independent outlets agreeing, and four outlets agreeing about a court order is corroboration of the reporting, not of what the court did.",
+    "establishes": "Cause title and case number are now established from the court's own cause list at PROC-DEL-002: Shakeel Abbas v. Union of India and Ors., W.P.(CRL) 2127/2026, listed 22 July 2026 before the Chief Justice and Justice Tejas Karia. That resolves both conflicts this record used to carry. Verdictum's cause title was right; LiveLaw's date of '23 July 2026 (Wednesday)' was wrong on its own terms, since 23 July was a Thursday and the matter was listed on Wednesday the 22nd. LiveLaw's Umesh Kumar v. Delhi Police is a different petition, most likely one of the connected matters all three reports describe; which petitions were heard together is still not established. The directions below (notice to Delhi Police and the Union, preservation of records including CCTV footage and videography in accordance with the SOP in place, four weeks for a counter affidavit, and the 11 September 2026 listing) still rest on three news reports and stay CORROBORATED. A cause list does not say what was ordered. See OQ-004 for the order itself.\n\nMOVED TO DISPUTED, 18 September 2026, on retrieving the order itself (PROC-DEL-004). The order in W.P.(CRL) 2127/2026 dated 22 July 2026 dismisses the petition and contains no notice, no preservation direction, no four-week counter affidavit and no 11 September listing. It is also about a different incident: the 18 July removal of Sonam Wangchuk, not the 20 and 21 July action against students.\n\nNot resolved by preferring the order. Four outlets reported a hearing on the police action at Jantar Mantar, and one element they reported (the BNSS s.173 observation) is in this order, so they were not describing a different day's work entirely. The likeliest reading is that a direction made in another matter before the same bench was attached to this case number in the reporting, but the archive holds no such matter and will not name one it has not seen. OQ-053 asks which proceeding, if any, carries the preservation direction.\n\nThis record is the archive's own warning arriving: CORROBORATED meant four independent outlets agreeing, and four outlets agreeing about a court order is corroboration of the reporting only.",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -12018,7 +12018,7 @@ WGO.importedEvidence = [
       "SRC-0011"
     ],
     "origin": "",
-    "establishes": "The writ petition number W.P.(C) 280/2026 and the composition of the bench come from reporting of the 18 August 2026 hearing, which is also the source for PROC-SC-002 and PROC-SC-003. The SCC OnLine citation is a commercial reporter's, not a primary source. No order of this Court is held. The Supreme Court is reported to have proposed a High-Powered Committee to examine the police action, which the petitioners opposed as to the facial recognition issues; whether such a committee has been constituted is not established.",
+    "establishes": "The writ petition number W.P.(C) 280/2026 and the composition of the bench come from reporting of the 18 August 2026 hearing, which is also the source for PROC-SC-002 and PROC-SC-003. The SCC OnLine citation is a secondary source from a commercial reporter. No order of this Court is held. The Supreme Court is reported to have proposed a High-Powered Committee to examine the police action, which the petitioners opposed as to the facial recognition issues; whether such a committee has been constituted is not established.",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -12167,7 +12167,7 @@ WGO.importedEvidence = [
       "SRC-0021"
     ],
     "origin": "",
-    "establishes": "As stated by delhi police, on affidavit: the software 'only captured the images of criminals or history sheeters'; it 'does not automatically capture profile of every individual present at the protest site'; 'no action is taken solely on the basis of facial recognition software' and a match is followed by field verification; it captures only those with a past record for serious offences, not petty ones. The Solicitor General said the technology 'captures the faces of only those persons who are recorded in the crime database'. Figures reported from the same hearing, and they are the police's own: 2,873 persons identified, 2,402 through a 'Crime Kundli' database and 471 through dossier records, of whom 92 are said to be involved in more than ten cases and 47 to be history-sheeters. This archive records those numbers as the police's assertion, not as established fact. As stated by the petitioners, through Senior Advocates N. Hariharan and Menaka Guruswamy: 'that is not how the technology works', and a private company was engaged to process the data collected through the software. Neither is adopted here. The Chief Justice is reported to have said that constitutional issues would be determined by the Court alone. Until the affidavit and any finding on it are held, this stays DISPUTED. Updated 23 September 2026. This is no longer evenly balanced and the record should stop presenting it as though it were. Delhi Police's own affidavit of 17 August 2026 is reported to state that the system identified 2,873 persons with criminal antecedents at the protest site between 20 and 26 July, 2,402 of them matched against Crime Kundli. A system cannot return 2,873 matches against a database without comparing the faces it is matching, and the faces it is matching are the ones in front of the cameras. The police assertion and the petitioners' allegation turn out not to be alternatives: the deployment was confined to criminal records in what it searched for and ran on the crowd in what it looked at, and the ambiguity lived in the word 'confined'. Held DISPUTED rather than moved, because the affidavit is not in this archive's hands and because what follows about lawfulness is a question for the High Powered Enquiry Committee, which has surveillance in its terms of reference. See INC-DEL-008 and INC-DEL-009, and FQ-017.",
+    "establishes": "As stated by delhi police, on affidavit: the software 'only captured the images of criminals or history sheeters'; it 'does not automatically capture profile of every individual present at the protest site'; 'no action is taken solely on the basis of facial recognition software' and a match is followed by field verification; it captures only those with a past record for serious offences. The Solicitor General said the technology 'captures the faces of only those persons who are recorded in the crime database'. Figures reported from the same hearing, and they are the police's own: 2,873 persons identified, 2,402 through a 'Crime Kundli' database and 471 through dossier records, of whom 92 are said to be involved in more than ten cases and 47 to be history-sheeters. This archive records those numbers as the police's assertion, not as established fact. As stated by the petitioners, through Senior Advocates N. Hariharan and Menaka Guruswamy: 'that is not how the technology works', and a private company was engaged to process the data collected through the software. Neither is adopted here. The Chief Justice is reported to have said that constitutional issues would be determined by the Court alone. Until the affidavit and any finding on it are held, this stays DISPUTED. Updated 23 September 2026. This is no longer evenly balanced and the record should stop presenting it as though it were. Delhi Police's own affidavit of 17 August 2026 is reported to state that the system identified 2,873 persons with criminal antecedents at the protest site between 20 and 26 July, 2,402 of them matched against Crime Kundli. A system cannot return 2,873 matches against a database without comparing the faces it is matching, and the faces it is matching are the ones in front of the cameras. The police assertion and the petitioners' allegation turn out not to be alternatives: the deployment was confined to criminal records in what it searched for and ran on the crowd in what it looked at, and the ambiguity lived in the word 'confined'. Held at DISPUTED, because the affidavit is not in this archive's hands and because what follows about lawfulness is a question for the High Powered Enquiry Committee, which has surveillance in its terms of reference. See INC-DEL-008 and INC-DEL-009, and FQ-017.",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -12188,7 +12188,7 @@ WGO.importedEvidence = [
       "SRC-0014"
     ],
     "origin": "",
-    "establishes": "Amended 26 August 2026. This record previously stated the State's figures as the claim itself: 'four rounds from an AK-47 near JP Chowk, and two rounds from a 9mm pistol near Hathi Chowk'. An open-source investigation published on 4 August, which the archive found late, puts the count higher and at different places (INC-SIW-002). The discharge of firearms is not in doubt and remains established; the count and the locations have been moved out of the claim and attributed to the State, and the conflict is recorded at INC-SIW-003. The sourcing was sound. What this archive got wrong was the framing: a number that only one interested party had given was written as though it were the fact. The source of all of this is one document, the State of Bihar's affidavit to the Supreme Court, reported on 18 August 2026, and the outlets are independent reports of that document, not independent knowledge of the events. What is corroborated is therefore what the State has said, which for the discharge of firearms is an admission against itself and is recorded as established. ANI is a wire; outlets carrying its copy are not additional sources. The first firearms in this archive. Everything on the record until now concerned lathis, tear gas and detentions. Not established, and deliberately not written above: whether the AK-47 rounds were fired into the air, whether the constable was surrounded, and whether the three injured were hit by the pistol. Those are the State's characterisations and sit at PROC-SC-004. Nor is anything established about who authorised an armed deployment at a student protest.",
+    "establishes": "Amended 26 August 2026. This record previously stated the State's figures as the claim itself: 'four rounds from an AK-47 near JP Chowk, and two rounds from a 9mm pistol near Hathi Chowk'. An open-source investigation published on 4 August, which the archive found late, puts the count higher and at different places (INC-SIW-002). The discharge of firearms is not in doubt and remains established; the count and the locations have been moved out of the claim and attributed to the State, and the conflict is recorded at INC-SIW-003. The sourcing was sound. What this archive got wrong was the framing: a number that only one interested party had given was written as though it were the fact. The source of all of this is one document, the State of Bihar's affidavit to the Supreme Court, reported on 18 August 2026, and the outlets are independent reports of that document. What is corroborated is therefore what the State has said, which for the discharge of firearms is an admission against itself and is recorded as established. ANI is a wire; outlets carrying its copy are not additional sources. The first firearms in this archive. Everything on the record until now concerned lathis, tear gas and detentions. Not established, and deliberately not written above: whether the AK-47 rounds were fired into the air, whether the constable was surrounded, and whether the three injured were hit by the pistol. Those are the State's characterisations and sit at PROC-SC-004. Nor is anything established about who authorised an armed deployment at a student protest.",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -12228,7 +12228,7 @@ WGO.importedEvidence = [
       "SRC-0024"
     ],
     "origin": "",
-    "establishes": "As stated by delhi police: about 5,000 police were managing a crowd reported at over 30,000 across roughly three kilometres; the agitation was hijacked by anti-social elements and history-sheeters; more than 240 police personnel were injured; the force acted with maximum restraint. A figure this archive cannot reconcile: the police injury count reported here is 'more than 240'. The Wikipedia account of the same events, sourced to earlier reporting, gives 118 police personnel injured. Both cannot be the count on the same date unless one covers a longer period or a wider set of incidents, and neither report says which. The discrepancy is recorded, not resolved by preferring the larger or the later number: see OQ-036. The protester injury figures are separately contested and are not restated here.",
+    "establishes": "As stated by delhi police: about 5,000 police were managing a crowd reported at over 30,000 across roughly three kilometres; the agitation was hijacked by anti-social elements and history-sheeters; more than 240 police personnel were injured; the force acted with maximum restraint. A figure this archive cannot reconcile: the police injury count reported here is 'more than 240'. The Wikipedia account of the same events, sourced to earlier reporting, gives 118 police personnel injured. Both cannot be the count on the same date unless one covers a longer period or a wider set of incidents, and neither report says which. The discrepancy is recorded with both numbers kept: see OQ-036. The protester injury figures are separately contested and are not restated here.",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -12249,7 +12249,7 @@ WGO.importedEvidence = [
       "SRC-0028"
     ],
     "origin": "",
-    "establishes": "Updated 21 August 2026, and the earlier version of this record is now wrong. It said a committee had been decided on but not shown to be constituted, and that whether it existed was not established. It has since been constituted, by an order reported dated 18 August 2026, and five members are named. The record has been corrected, not replaced, and this note says what it used to say. Why this matters more than any other proceeding here: a committee with terms of reference and a reporting obligation generates documents. Its constitution order, its terms of reference and its interim reports are all records that can be asked for, and the deployment of pellet guns is inside its mandate by name. What is not held: the order itself. Everything above is reporting of it. No terms of reference document is in this archive, and the wording quoted by outlets is theirs, not ours. See OQ-045. A discrepancy worth recording: this matter is cited as W.P.(C) 280/2026 at PROC-SC-001 and as W.P.(Crl) 280/2026 in the reporting of this order. One of them is wrong and the archive does not know which. The cause list or the order itself would settle it, as a cause list already settled the Delhi numbering at PROC-DEL-002.",
+    "establishes": "Updated 21 August 2026, and the earlier version of this record is now wrong. It said a committee had been decided on but not shown to be constituted, and that whether it existed was not established. It has since been constituted, by an order reported dated 18 August 2026, and five members are named. The record has been corrected in place, and this note says what it used to say. Why this matters more than any other proceeding here: a committee with terms of reference and a reporting obligation generates documents. Its constitution order, its terms of reference and its interim reports are all records that can be asked for, and the deployment of pellet guns is inside its mandate by name. What is not held: the order itself. Everything above is reporting of it. No terms of reference document is in this archive, and the wording quoted by outlets is theirs. See OQ-045. A discrepancy worth recording: this matter is cited as W.P.(C) 280/2026 at PROC-SC-001 and as W.P.(Crl) 280/2026 in the reporting of this order. One of them is wrong and the archive does not know which. The cause list or the order itself would settle it, as a cause list already settled the Delhi numbering at PROC-DEL-002.",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -12289,7 +12289,7 @@ WGO.importedEvidence = [
       "SRC-0034"
     ],
     "origin": "",
-    "establishes": "One publication, two articles. Both are The Tribune, so this is a single account and stays REPORTED. India TV News is listed by search as having published the full list on 18 August; our fetch of it returned HTTP 403 and it is therefore not cited. What this adds: two named officers held two named posts at the time of the 20 July police action, which is chain-of-command information the archive did not have from any other source. What it does not establish, and is deliberately not written into the claim: any link between the transfers and the protest, any finding against either officer, or that either gave any order. Forty-three officers moved in the same order, across the Economic Offences Wing, traffic, vigilance, the Special Branch, crime, intelligence, licensing and the districts. The Tribune reports separately that Banthia's name figured in the controversy over the alleged use of pellet guns on 20 July and that he said he was not present when pellets were fired; that is the paper's reporting of an allegation and a denial, and neither is adopted here. Neither officer is added to the chain of command. The chain records offices shown to have had authority, not individuals named in news reports. The order itself is not held: see OQ-038.",
+    "establishes": "One publication, two articles. Both are The Tribune, so this is a single account and stays REPORTED. India TV News is listed by search as having published the full list on 18 August; our fetch of it returned HTTP 403 and it is therefore not cited. What this adds: two named officers held two named posts at the time of the 20 July police action, which is chain-of-command information the archive did not have from any other source. What it does not establish, and is deliberately not written into the claim: any link between the transfers and the protest, any finding against either officer, or that either gave any order. Forty-three officers moved in the same order, across the Economic Offences Wing, traffic, vigilance, the Special Branch, crime, intelligence, licensing and the districts. The Tribune reports separately that Banthia's name figured in the controversy over the alleged use of pellet guns on 20 July and that he said he was not present when pellets were fired; that is the paper's reporting of an allegation and a denial, and neither is adopted here. Neither officer is added to the chain of command. The chain records offices shown to have had authority. The order itself is not held: see OQ-038.",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -12307,7 +12307,7 @@ WGO.importedEvidence = [
       "SRC-0035"
     ],
     "origin": "",
-    "establishes": "One source, and its source is the police. Outlook attributes the account to police sources; no FIR number, police station or section is given, and no copy of any FIR is held. This is the state's side of 22 July and it belongs here. An archive that recorded only force used by police, and never violence recorded against them, would be a case, not a record. It is filed at the same standard as everything else and at the same confidence the evidence supports. What it does not establish: who was named in any FIR, what was alleged, whether any of them concerns the police action itself, or anything about the 20 July events. The organisers' account, reported in the same piece, attributes the violence to others; that is an allegation and is not adopted. FIRs are required to be published online (CRT-006), and the Delhi Police publication route is UNKNOWN (CRT-005), so these ten are checkable in principle and not in practice: see OQ-039.",
+    "establishes": "One source, and its source is the police. Outlook attributes the account to police sources; no FIR number, police station or section is given, and no copy of any FIR is held. This is the state's side of 22 July and it belongs here. An archive that recorded only force used by police, and never violence recorded against them, would be a case. It is filed at the same standard as everything else and at the same confidence the evidence supports. What it does not establish: who was named in any FIR, what was alleged, whether any of them concerns the police action itself, or anything about the 20 July events. The organisers' account, reported in the same piece, attributes the violence to others; that is an allegation and is not adopted. FIRs are required to be published online (CRT-006), and the Delhi Police publication route is UNKNOWN (CRT-005), so these ten are checkable in principle only: see OQ-039.",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -12328,7 +12328,7 @@ WGO.importedEvidence = [
       "SRC-0039"
     ],
     "origin": "",
-    "establishes": "Two hearings, and the reporting splits between them. The Federal and The Week carry the SOP direction and the preservation of the ammunition log from 30 July; LiveLaw carries the protocol observation and the direction to the Union from 3 August. Both dates are recorded rather than merged, because merging them would invent a single hearing that did not happen. It is the only proceeding here reported to have ordered production of the two documents that bear directly on authorisation: a standing operating procedure that either authorises pellet-firing weapons or does not, and a contemporaneous ammunition log for the unit deployed. Justice Bagchi is reported to have observed that 'police rules allow the use in exceptional circumstances unless you challenge the rules themselves' and that 'one of the steps of the graded approach is use of pellet guns'; that is an observation about what the rules are said to permit, not a finding about what happened on 20 July. What is not held: no order of this Court, and neither of the two documents it is reported to have called for. See OQ-041 and OQ-042.",
+    "establishes": "Two hearings, and the reporting splits between them. The Federal and The Week carry the SOP direction and the preservation of the ammunition log from 30 July; LiveLaw carries the protocol observation and the direction to the Union from 3 August. Both dates are recorded separately, because merging them would invent a single hearing that did not happen. It is the only proceeding here reported to have ordered production of the two documents that bear directly on authorisation: a standing operating procedure that either authorises pellet-firing weapons or does not, and a contemporaneous ammunition log for the unit deployed. Justice Bagchi is reported to have observed that 'police rules allow the use in exceptional circumstances unless you challenge the rules themselves' and that 'one of the steps of the graded approach is use of pellet guns'; that is an observation about what the rules are said to permit, not a finding about what happened on 20 July. What is not held: no order of this Court, and neither of the two documents it is reported to have called for. See OQ-041 and OQ-042.",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -12385,7 +12385,7 @@ WGO.importedEvidence = [
       "SRC-0036"
     ],
     "origin": "",
-    "establishes": "Three accounts that cannot all be right, Which is why this is DISPUTED, not UNKNOWN. One: Delhi Police, publicly on 22 July, 'Claims of pellet guns being used against peaceful protesters by Delhi Police on Monday are completely false and misleading. Delhi Police neither possesses pellet guns nor were they used during the ongoing protest.' Two: the force's own General Diary entry, as reported, records two rounds of plastic pellets and an anti-riot gun used under a DCP's orders (INC-DEL-004). Three: the petitioners' case in the Supreme Court is that metallic pellets were fired and that fragments were found in injured people. The denial and the diary entry are not reconcilable on any reading the archive can make: either the entry says something other than what two outlets report it says, or the public denial was wrong. The archive does not choose between them and does not hold the entry. On the injured: BOOM carries a named account of a man treated at Lady Hardinge Medical College with fragments near the left eyebrow, in the neck and near the eye, operated on 21 July. His name is deliberately not recorded here. He gave it to a news outlet, not to this archive; the record needs the injury, the hospital and the date, and does not need him. What would settle it: the ammunition log ordered preserved (OQ-042), the General Diary entry (OQ-040), and medico-legal records recording what was removed from anyone's body.",
+    "establishes": "Three accounts that cannot all be right, Which is why this is DISPUTED, not UNKNOWN. One: Delhi Police, publicly on 22 July, 'Claims of pellet guns being used against peaceful protesters by Delhi Police on Monday are completely false and misleading. Delhi Police neither possesses pellet guns nor were they used during the ongoing protest.' Two: the force's own General Diary entry, as reported, records two rounds of plastic pellets and an anti-riot gun used under a DCP's orders (INC-DEL-004). Three: the petitioners' case in the Supreme Court is that metallic pellets were fired and that fragments were found in injured people. The denial and the diary entry are not reconcilable on any reading the archive can make: either the entry says something other than what two outlets report it says, or the public denial was wrong. The archive does not choose between them and does not hold the entry. On the injured: BOOM carries a named account of a man treated at Lady Hardinge Medical College with fragments near the left eyebrow, in the neck and near the eye, operated on 21 July. His name is deliberately not recorded here. He gave it to a news outlet; the record needs only the injury, the hospital and the date. What would settle it: the ammunition log ordered preserved (OQ-042), the General Diary entry (OQ-040), and medico-legal records recording what was removed from anyone's body.",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -12405,7 +12405,7 @@ WGO.importedEvidence = [
       "SRC-0044"
     ],
     "origin": "",
-    "establishes": "This is the first criminal case in this archive about the police action itself. Everything else recorded here is a writ petition, a commission proceeding or an affidavit. An FIR is an investigation with a file, a case diary and a chargesheet or a closure report at the end of it, and every one of those is a document that can be asked for. It is also registered against unidentified persons, which means the question of who is being investigated is open. The complainant is named in every report and is not named here. He is a private individual and what the record needs is the complaint, the station, the dates and the injury, not him. The same choice was made at INC-DEL-005 for a different injured man, and it is made the same way each time, not case by case. Anyone who needs his name to obtain the FIR will find it in the sources cited above. Not adopted, and deliberately not in the claim: the figure of more than 200 pellets attributed to an AIIMS medical report, which this archive has not seen and which reaches it through a political statement rather than through the document; and the allegation that the police initially refused to register the case on instructions. Both may be true. Neither is established here. What would settle the first: the FIR itself and the medico-legal case record. See OQ-046.",
+    "establishes": "This is the first criminal case in this archive about the police action itself. Everything else recorded here is a writ petition, a commission proceeding or an affidavit. An FIR is an investigation with a file, a case diary and a chargesheet or a closure report at the end of it, and every one of those is a document that can be asked for. It is also registered against unidentified persons, which means the question of who is being investigated is open. The complainant is named in every report and is not named here. He is a private individual and what the record needs is the complaint, the station, the dates and the injury only. The same choice was made at INC-DEL-005 for a different injured man, and it is made the same way each time. Anyone who needs his name to obtain the FIR will find it in the sources cited above. Not adopted, and deliberately not in the claim: the figure of more than 200 pellets attributed to an AIIMS medical report, which this archive has not seen and which reaches it through a political statement; and the allegation that the police initially refused to register the case on instructions. Both may be true. Neither is established here. What would settle the first: the FIR itself and the medico-legal case record. See OQ-046.",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -12444,7 +12444,7 @@ WGO.importedEvidence = [
       "SRC-0048"
     ],
     "origin": "",
-    "establishes": "Saket Gokhale asked four Delhi hospitals a narrow question and two answered it. The archive credits him by name because attribution is how this project treats work it did not do, and because a document obtained by an identified person under a statute is worth more than an anonymous account. What it establishes: that ten people were treated for injuries the hospitals themselves categorised as pellet or projectile injuries, on that date, at those two hospitals. Hospital records are independent of both the police and the petitioners, which is why this sits at CORROBORATED while the question of what was fired stays DISPUTED at INC-DEL-005. What it does not establish: who or what caused the injuries. 'Pellet/projectile' is a clinical category, not a finding about a weapon or about who fired it. It does not say the police fired anything, and it does not distinguish plastic from metallic. It establishes that people arrived at hospital with those injuries on the day of the police action. At least ten, not ten. AIIMS refused (OVR-DEL-002) and Ram Manohar Lohia Hospital had not replied when this was reported. The number is a floor set by which hospitals chose to answer, and the archive states it as one. Not held: the replies themselves. No outlet reproduces them. Obtaining copies would move this to VERIFIED, and it is one of the few claims here where that is straightforwardly achievable: see OQ-047.",
+    "establishes": "Saket Gokhale asked four Delhi hospitals a narrow question and two answered it. The archive credits him by name because attribution is how this project treats work it did not do, and because a document obtained by an identified person under a statute is worth more than an anonymous account. What it establishes: that ten people were treated for injuries the hospitals themselves categorised as pellet or projectile injuries, on that date, at those two hospitals. Hospital records are independent of both the police and the petitioners, which is why this sits at CORROBORATED while the question of what was fired stays DISPUTED at INC-DEL-005. What it does not establish: who or what caused the injuries. 'Pellet/projectile' is a clinical category, not a finding about a weapon or about who fired it. It does not say the police fired anything, and it does not distinguish plastic from metallic. It establishes that people arrived at hospital with those injuries on the day of the police action. At least ten. AIIMS refused (OVR-DEL-002) and Ram Manohar Lohia Hospital had not replied when this was reported. The number is a floor set by which hospitals chose to answer, and the archive states it as one. Not held: the replies themselves. No outlet reproduces them. Obtaining copies would move this to VERIFIED, and it is one of the few claims here where that is straightforwardly achievable: see OQ-047.",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -12462,7 +12462,7 @@ WGO.importedEvidence = [
       "SRC-0049"
     ],
     "origin": "",
-    "establishes": "One publication, but not of the usual kind. This is the outlet's own analysis of video it geolocated, which makes it primary work by a secondary source. It does not report somebody else's document. The archive cannot check it without the footage, so it stays REPORTED, and REPORTED here means 'we have not verified this', not 'we doubt it'. Why it matters: it is the first account of Siwan that does not come from the State of Bihar. Everything else this archive holds about that day is the State describing its own conduct. What it conflicts with: the State's affidavit figure of four AK-47 rounds at JP Chowk. Nine is not four, and the district commandant's office is not JP Chowk. Both cannot be complete. The conflict is recorded at INC-SIW-003, not resolved here. On the named constable: the article identifies in one video the constable the State named and suspended. This archive named him because the State did; it does not add anything to that on the strength of a video it has not seen. What would settle it: the armoury issue and return register for the units deployed at Siwan on 25 July, and any ballistics or forensic report. See OQ-052.",
+    "establishes": "One publication, but not of the usual kind. This is the outlet's own analysis of video it geolocated, which makes it primary work by a secondary source. It does not report somebody else's document. The archive cannot check it without the footage, so it stays REPORTED, and REPORTED here means 'we have not verified this', not 'we doubt it'. Why it matters: it is the first account of Siwan that does not come from the State of Bihar. Everything else this archive holds about that day is the State describing its own conduct. What it conflicts with: the State's affidavit figure of four AK-47 rounds at JP Chowk. Nine is not four, and the district commandant's office is not JP Chowk. Both cannot be complete. The conflict is recorded at INC-SIW-003. On the named constable: the article identifies in one video the constable the State named and suspended. This archive named him because the State did; it does not add anything to that on the strength of a video it has not seen. What would settle it: the armoury issue and return register for the units deployed at Siwan on 25 July, and any ballistics or forensic report. See OQ-052.",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -12482,7 +12482,7 @@ WGO.importedEvidence = [
       "SRC-0050"
     ],
     "origin": "",
-    "establishes": "The state says four ak-47 rounds at one place. An open-source investigation says at least nine at two places, neither of them the place the State names, plus two separate pistol incidents. A civil liberties body's public hearing records firing on students without warning and AK-47 use, but gives no count. A member of Parliament is reported to have denied that AK-47s were used at all. The archive does not split the difference. Averaging four and nine would produce a number nobody has claimed and no document supports. What is not disputed, and is recorded separately at INC-SIW-001: that police discharged firearms at a student protest that day. Everyone accepts that, including the State, which is why it is established while the count is not. The accounts differ in kind, not only in number: four rounds from one trapped constable, or nine from more than one officer at two locations. Armoury records would settle it: see OQ-052.",
+    "establishes": "The state says four ak-47 rounds at one place. An open-source investigation says at least nine at two places, neither of them the place the State names, plus two separate pistol incidents. A civil liberties body's public hearing records firing on students without warning and AK-47 use, but gives no count. A member of Parliament is reported to have denied that AK-47s were used at all. The archive does not split the difference. Averaging four and nine would produce a number nobody has claimed and no document supports. What is not disputed, and is recorded separately at INC-SIW-001: that police discharged firearms at a student protest that day. Everyone accepts that, including the State, which is why it is established while the count is not. The accounts differ in kind as well as in number: four rounds from one trapped constable, or nine from more than one officer at two locations. Armoury records would settle it: see OQ-052.",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -12561,7 +12561,7 @@ WGO.importedEvidence = [
       "SRC-0089"
     ],
     "origin": "",
-    "establishes": "This closes a thread the archive left open twice. PROC-SC-006 recorded that the Court listed the matter for 10 September 2026; PROC-SC-010 recorded that a plea challenging the committee's composition was before the Court. This is what happened to both. The refusal is reported on the ground that “there was no basis for changing the panel merely on the strength of preconceived assumptions”. The confidential portal is the part that bears on this archive's own users. Somebody who was assaulted by police and is also named in an FIR has an obvious reason not to depose through ordinary channels. Whether the portal now exists, and at what address, is NOT established: see OQ-054. This archive will not direct anyone to a portal it has not confirmed. Recorded as REPORTED, not CORROBORATED, on a deliberate reading of this archive's own rule. Three outlets carry it, but they are three accounts of one order, and the order is not held. Where the underlying document is a single court order, multiple outlets are multiple reports of one thing, not independent knowledge. The upgrade is the order copy from the Supreme Court's own site: see FQ-014. Amended 23 September 2026 to name the full bench and both amici, and to record the member-secretary direction, all of which the first version of this record left out. The order is dated 10 September and was reported on 16 September; the archive had the order date right and that was worth re-checking, because it was inferred from the listing date at PROC-SC-006 before any source confirmed it.",
+    "establishes": "This closes a thread the archive left open twice. PROC-SC-006 recorded that the Court listed the matter for 10 September 2026; PROC-SC-010 recorded that a plea challenging the committee's composition was before the Court. This is what happened to both. The refusal is reported on the ground that “there was no basis for changing the panel merely on the strength of preconceived assumptions”. The confidential portal is the part that bears on this archive's own users. Somebody who was assaulted by police and is also named in an FIR has an obvious reason not to depose through ordinary channels. Whether the portal now exists, and at what address, is NOT established: see OQ-054. This archive will not direct anyone to a portal it has not confirmed. Recorded as REPORTED, not CORROBORATED, on a deliberate reading of this archive's own rule. Three outlets carry it, but they are three accounts of one order, and the order is not held. Where the underlying document is a single court order, multiple outlets are multiple reports of one thing. The upgrade is the order copy from the Supreme Court's own site: see FQ-014. Amended 23 September 2026 to name the full bench and both amici, and to record the member-secretary direction, all of which the first version of this record left out. The order is dated 10 September and was reported on 16 September; the archive had the order date right and that was worth re-checking, because it was inferred from the listing date at PROC-SC-006 before any source confirmed it.",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -12579,7 +12579,7 @@ WGO.importedEvidence = [
       "SRC-0090"
     ],
     "origin": "",
-    "establishes": "Recorded rather than resolved, and INC-BIH-005 is left exactly as it stands. Averaging the counts, or quietly adopting whichever was read most recently, would destroy the only useful thing here: that two accounts of one afternoon disagree about a countable fact. Little turns on whether it was 16, 17 or 19 people. What turns on it is that this archive holds no copy of the panel's own report, so every figure it carries about that hearing is an outlet's account of it. OQ-049 already asks for the report. This record is the concrete reason that question is worth answering, and the name disagreement is the sharper half: two of the sources cannot both have the panel right. The thirteen types, as the BiharWatch report lists them: brutal lathi charge injuring students and youth; firing on students and youth resulting in some injuries; using a lethal firearm, an AK-47, on students and youth; custodial torture; illegal detention without production before a magistrate; families not informed of detainees' whereabouts; detainees denied access to family; judicial custody without being informed of the charges; judicial custody without access to a lawyer; destruction of evidence, such as seizing mobile phones; raiding the homes of students and activists without search warrants; obstructing advocates on record and filing unsubstantiated charges against lawyers; and releasing photographs and videos of protesters to the media. These are the panel's characterisations of what it heard from witnesses. They are not findings of this archive, and a fact-finding panel is not a court. The hearing is recorded as held at the IMA Hall, Gandhi Maidan, Patna, on 22 August 2026, which both accounts agree on.",
+    "establishes": "Recorded as found, and INC-BIH-005 is left exactly as it stands. Averaging the counts, or quietly adopting whichever was read most recently, would destroy the only useful thing here: that two accounts of one afternoon disagree about a countable fact. Little turns on whether it was 16, 17 or 19 people. What turns on it is that this archive holds no copy of the panel's own report, so every figure it carries about that hearing is an outlet's account of it. OQ-049 already asks for the report. This record is the concrete reason that question is worth answering, and the name disagreement is the sharper half: two of the sources cannot both have the panel right. The thirteen types, as the BiharWatch report lists them: brutal lathi charge injuring students and youth; firing on students and youth resulting in some injuries; using a lethal firearm, an AK-47, on students and youth; custodial torture; illegal detention without production before a magistrate; families not informed of detainees' whereabouts; detainees denied access to family; judicial custody without being informed of the charges; judicial custody without access to a lawyer; destruction of evidence, such as seizing mobile phones; raiding the homes of students and activists without search warrants; obstructing advocates on record and filing unsubstantiated charges against lawyers; and releasing photographs and videos of protesters to the media. These are the panel's characterisations of what it heard from witnesses. They are not findings of this archive, and a fact-finding panel is not a court. The hearing is recorded as held at the IMA Hall, Gandhi Maidan, Patna, on 22 August 2026, which both accounts agree on.",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -12617,7 +12617,7 @@ WGO.importedEvidence = [
       "SRC-0096"
     ],
     "origin": "",
-    "establishes": "A clarification issued because the 28 July carve-out was being read widely. That is worth recording as a fact about how an order of this kind travels: an exception written for people with criminal antecedents was applied to people with any antecedents until the Court said otherwise. The second half matters for the state records: it puts the decision to withdraw back on each state, which is why the withdrawals that follow are executive notifications rather than judicial ones, and an executive notification has an author and a file.",
+    "establishes": "A clarification issued because the 28 July carve-out was being read widely. That is worth recording as a fact about how an order of this kind travels: an exception written for people with criminal antecedents was applied to people with any antecedents until the Court said otherwise. The second half matters for the state records: it puts the decision to withdraw back on each state, which is why the withdrawals that follow are executive notifications, and an executive notification has an author and a file.",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -12636,7 +12636,7 @@ WGO.importedEvidence = [
       "SRC-0099"
     ],
     "origin": "",
-    "establishes": "The single largest legal event on this record and the archive held nothing on it. Applications had been moved by the Centre for Delhi Police and by Bihar, West Bengal, Maharashtra and Assam. The order is reported to be expressly confined to the peculiar facts and not to be treated as a precedent, which is the usual form of an Article 142 direction and should be quoted that way if it is quoted. Two consequences for this archive. First, the FIR records held here for Mumbai, Kochi, Kolkata, Assam and Bihar describe cases that are now closed, and the records say so rather than being deleted: a case that was registered and then closed is a fact about a police force, and removing it would erase the thing worth knowing. Second, the carve-out survives everything else in the order, so the one criminal file still live out of the whole country is the one built on a facial recognition list. See INC-DEL-008 and INC-DEL-009.",
+    "establishes": "The single largest legal event on this record and the archive held nothing on it. Applications had been moved by the Centre for Delhi Police and by Bihar, West Bengal, Maharashtra and Assam. The order is reported to be expressly confined to the peculiar facts and not to be treated as a precedent, which is the usual form of an Article 142 direction and should be quoted that way if it is quoted. Two consequences for this archive. First, the FIR records held here for Mumbai, Kochi, Kolkata, Assam and Bihar describe cases that are now closed, and the records say so and are kept: a case that was registered and then closed is a fact about a police force, and removing it would erase the thing worth knowing. Second, the carve-out survives everything else in the order, so the one criminal file still live out of the whole country is the one built on a facial recognition list. See INC-DEL-008 and INC-DEL-009.",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -12656,7 +12656,7 @@ WGO.importedEvidence = [
       "SRC-0101"
     ],
     "origin": "",
-    "establishes": "This answers a question this archive had recorded as disputed and could not settle, and it answers it out of the force's own affidavit rather than out of a petitioner's case. PROC-SC-003 asks whether the facial recognition was confined to persons with existing criminal records, as Delhi Police asserted, or ran on the crowd. To return 2,873 matches against a criminal database, a system must first capture and compare the faces it is matching, which is every face it sees. Being confined to persons with criminal records describes what the system was asked to look for, not whom it looked at, and the two have been used interchangeably. The archive does not hold the affidavit: FQ-017 is the copy from the Supreme Court's record. Recorded as REPORTED.",
+    "establishes": "This answers a question this archive had recorded as disputed and could not settle, and it answers it out of the force's own affidavit rather than out of a petitioner's case. PROC-SC-003 asks whether the facial recognition was confined to persons with existing criminal records, as Delhi Police asserted, or ran on the crowd. To return 2,873 matches against a criminal database, a system must first capture and compare the faces it is matching, which is every face it sees. Being confined to persons with criminal records describes what the system was asked to look for. Whom it looked at is a separate question, and the two have been used interchangeably. The archive does not hold the affidavit: FQ-017 is the copy from the Supreme Court's record. Recorded as REPORTED.",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -12676,7 +12676,7 @@ WGO.importedEvidence = [
       "SRC-0103"
     ],
     "origin": "",
-    "establishes": "A measured error rate in a live police identification system, obtained by the cheapest possible method: comparing one government list against another government list. It is one in eight of a sample chosen for the gravity of the charge rather than at random, so it is not an estimate of the error rate across all 2,873 and should not be quoted as one. What it does establish is that the list was published to a court without that comparison having been made, because the comparison takes custody records that the police and the prisons both already hold. The force's own answer, that verification is pending and no action rests on a match alone, is the admission that matters: the list went to the Supreme Court, and became the basis of the one FIR the Court left standing, before anyone checked it. Credited to The Indian Express; this archive did not do this work and holds neither the list nor the affidavit. The outlets cited below are accounts of one investigation, which is why this is REPORTED.",
+    "establishes": "A measured error rate in a live police identification system, obtained by the cheapest possible method: comparing one government list against another government list. It is one in eight of a sample chosen for the gravity of the charge, so it describes that sample only and should not be quoted as an error rate across all 2,873. What it does establish is that the list was published to a court without that comparison having been made, because the comparison takes custody records that the police and the prisons both already hold. The force's own answer, that verification is pending and no action rests on a match alone, is the admission that matters: the list went to the Supreme Court, and became the basis of the one FIR the Court left standing, before anyone checked it. Credited to The Indian Express; this archive did not do this work and holds neither the list nor the affidavit. The outlets cited below are accounts of one investigation, which is why this is REPORTED.",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -12696,7 +12696,7 @@ WGO.importedEvidence = [
       "SRC-0106"
     ],
     "origin": "",
-    "establishes": "Recorded because the pellet question on this record has until now been a dispute between a police denial and a medical category. This is the injury itself, with a date, a procedure and an outcome. It does not establish what was fired: a perforating fragment injury is consistent with more than one munition, and INC-DEL-005 stays disputed. It is the reason the question is worth the work. He is named in every source cited and has spoken publicly under his own name; this archive still does not reproduce the name, on the same rule applied to the complainant at PROC-DEL-003, because a record that outlives the news cycle should not be the thing that keeps a medical fact about a private person searchable. The name is one click away in the sources, which is where the decision belongs to him rather than to us.",
+    "establishes": "Recorded because the pellet question on this record has until now been a dispute between a police denial and a medical category. This is the injury itself, with a date, a procedure and an outcome. It does not establish what was fired: a perforating fragment injury is consistent with more than one munition, and INC-DEL-005 stays disputed. It is the reason the question is worth the work. He is named in every source cited and has spoken publicly under his own name; this archive still does not reproduce the name, on the same rule applied to the complainant at PROC-DEL-003, because a record that outlives the news cycle should not be the thing that keeps a medical fact about a private person searchable. The name is one click away in the sources, and the decision to follow it belongs to him.",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -12716,7 +12716,7 @@ WGO.importedEvidence = [
       "SRC-0094"
     ],
     "origin": "",
-    "establishes": "This closes INC-MAH-001 and PUB-MAH-001, which have read UNKNOWN since 15 August, and it closes them with an answer nobody was looking for. The archive held open a Maharashtra shell on the strength of a Supreme Court petition saying disturbances had spread there, and went looking for a lathi charge. What is on the record instead is thirteen FIRs against four hundred people for assembling without permission. No use of force in Maharashtra is established here and none is alleged in these sources. That distinction is the finding and the record keeps it: the shell is filled with what happened, not with what the archive expected. It also puts Maharashtra in the same class as Kochi, Kolkata and Assam rather than in the same class as Patna, and that class is the one where a document with an author exists, because a refusal of permission and an FIR are both written by somebody.",
+    "establishes": "This closes INC-MAH-001 and PUB-MAH-001, which have read UNKNOWN since 15 August, and it closes them with an answer nobody was looking for. The archive held open a Maharashtra shell on the strength of a Supreme Court petition saying disturbances had spread there, and went looking for a lathi charge. What is on the record instead is thirteen FIRs against four hundred people for assembling without permission. No use of force in Maharashtra is established here and none is alleged in these sources. That distinction is the finding and the record keeps it: the shell is filled with what happened. It also puts Maharashtra in the same class as Kochi, Kolkata and Assam rather than in the same class as Patna, and that class is the one where a document with an author exists, because a refusal of permission and an FIR are both written by somebody.",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -12792,7 +12792,7 @@ WGO.importedEvidence = [
       "SRC-0110"
     ],
     "origin": "",
-    "establishes": "The largest set of figures the archive holds for Bihar, and the first that comes from the state rather than from a fact-finding panel. It does not contradict the 64 FIRs the PUCL hearing reported at INC-BIH-005: an FIR can name many people, so 355 booked in an unstated number of files and 64 FIRs are not two answers to one question. The cut-off is the part to keep. A withdrawal expressed as a time on a date, 6 pm on 26 July, is drawn from a file, and the file is obtainable from the Bihar Home Department. It is also the same cut-off West Bengal is reported to have used, which is worth knowing when asking either state where the line came from.",
+    "establishes": "The largest set of figures the archive holds for Bihar, and the first that comes from the state itself. It does not contradict the 64 FIRs the PUCL hearing reported at INC-BIH-005: an FIR can name many people, so 355 booked in an unstated number of files and 64 FIRs are not two answers to one question. The cut-off is the part to keep. A withdrawal expressed as a time on a date, 6 pm on 26 July, is drawn from a file, and the file is obtainable from the Bihar Home Department. It is also the same cut-off West Bengal is reported to have used, which is worth knowing when asking either state where the line came from.",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -13672,7 +13672,7 @@ WGO.importedEvidence = [
       "SRC-0134"
     ],
     "origin": "",
-    "establishes": "The court's statement is a direction about the office from 17 February onward. It is not a finding about 15 February or about who commanded the earlier deployment. The Wire (Jahnavi Sen, 17 February 2016) reports that although the CRPF had been deployed at the court, Kumar was roughed up and hit on 17 February, and that the Commissioner cited 'jostling' and said there was no option but to take Kumar through the crowd; a single secondary report, not recorded as established. Routes: RTI to the Office of the Commissioner of Police, Delhi and the DCP, New Delhi district, for the deployment order and duty rosters; to the CRPF for any requisition; to the Delhi High Court Registrar General for communications with police about security of the complex; and the statutory basis in the Delhi Police Act 1978 for the allocation of command.",
+    "establishes": "The court's statement is a direction about the office from 17 February onward. It is not a finding about 15 February or about who commanded the earlier deployment. The Wire (Jahnavi Sen, 17 February 2016) reports that although the CRPF had been deployed at the court, Kumar was roughed up and hit on 17 February, and that the Commissioner cited 'jostling' and said there was no option but to take Kumar through the crowd; a single secondary report, recorded as unestablished. Routes: RTI to the Office of the Commissioner of Police, Delhi and the DCP, New Delhi district, for the deployment order and duty rosters; to the CRPF for any requisition; to the Delhi High Court Registrar General for communications with police about security of the complex; and the statutory basis in the Delhi Police Act 1978 for the allocation of command.",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -14149,7 +14149,7 @@ WGO.importedEvidence = [
       "SRC-0162"
     ],
     "origin": "",
-    "establishes": "A court-room statement of the prosecution at the bail hearing as reported by Sabrang. It speaks to the purpose of the arrests, not to who ordered them.",
+    "establishes": "A court-room statement of the prosecution at the bail hearing as reported by Sabrang. It speaks to the purpose of the arrests only.",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -14415,7 +14415,7 @@ WGO.importedEvidence = [
       "SRC-0181"
     ],
     "origin": "",
-    "establishes": "Several of these detentions are of political workers on 24 and 25 September, not of students on the night of the lathicharge.",
+    "establishes": "Several of these detentions are of political workers on 24 and 25 September.",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -14603,7 +14603,7 @@ WGO.importedEvidence = [
       "SRC-0187"
     ],
     "origin": "",
-    "establishes": "The occurrence is established by a court judgment that recites the NHRC's findings and by the police's own account to a magistrate (secondary report of the action taken report). The court makes no finding that any individual officer acted unlawfully and says its conclusion is not an approval of every act attributed to police (para 92). Time of entry is DISPUTED between sources: the petitioners' case in the judgment (para 12) says about 4:00 p.m.; Wikipedia (tertiary, not independently checked) says 6:46 p.m. The judgment does not fix a time.",
+    "establishes": "The occurrence is established by a court judgment that recites the NHRC's findings and by the police's own account to a magistrate (secondary report of the action taken report). The court makes no finding that any individual officer acted unlawfully and says its conclusion is not an approval of every act attributed to police (para 92). Time of entry is DISPUTED between sources: the petitioners' case in the judgment (para 12) says about 4:00 p.m.; Wikipedia (tertiary and independently unchecked) says 6:46 p.m. The judgment does not fix a time.",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -14998,7 +14998,7 @@ WGO.importedEvidence = [
       "SRC-0192"
     ],
     "origin": "",
-    "establishes": "Existence of the rosters, the firing inquiry and the administrative inquiry is reported by the cited outlets, not seen. Delhi Police reports to the Union Home Ministry, so an RTI to Delhi Police and a parallel one to the Ministry of Home Affairs is the pattern described in SOURCING.md. No RTI has been filed from this research. Exemptions for investigations may be claimed.",
+    "establishes": "Existence of the rosters, the firing inquiry and the administrative inquiry is reported by the cited outlets and remains unseen. Delhi Police reports to the Union Home Ministry, so an RTI to Delhi Police and a parallel one to the Ministry of Home Affairs is the pattern described in SOURCING.md. No RTI has been filed from this research. Exemptions for investigations may be claimed.",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -15098,7 +15098,7 @@ WGO.importedEvidence = [
       "SRC-0203"
     ],
     "origin": "",
-    "establishes": "The Caravan interview (31 December 2019) says the university was closed until 5 January. A search summary, not a fetched page, attributed a closure notice to Registrar Abdul Hamid citing 'disturbances created by certain anti-social elements'; that attribution is unverified. SCC Online Times reports the petitioner's account that notices to vacate hostels were issued on 16 December 2019. The notice itself was not seen. Date of the notice varies by source.",
+    "establishes": "The Caravan interview (31 December 2019) says the university was closed until 5 January. A search summary alone attributed a closure notice to Registrar Abdul Hamid citing 'disturbances created by certain anti-social elements'; that attribution is unverified. SCC Online Times reports the petitioner's account that notices to vacate hostels were issued on 16 December 2019. The notice itself was not seen. Date of the notice varies by source.",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -15136,7 +15136,7 @@ WGO.importedEvidence = [
       "SRC-0207"
     ],
     "origin": "",
-    "establishes": "OFFICE-LEVEL ANSWER (State's account): the State says the district administration entered the campus after a request from the University Registrar. It attributes the decision to 'the administration', not to a named officer. The affidavit was not read; this is SCC Online Times' summary of the January 2020 order (Mohd. Aman Khan v. Union of India, Criminal Misc. PIL/Petition No. 26085 of 2019). Sabrang's report confirms the affidavit was filed for the IG (Law and Order) and the SSP and that it alleges breach of Section 144, but did not state the Registrar-letter detail in the text fetched. An allegation by the State, attributed to it.",
+    "establishes": "OFFICE-LEVEL ANSWER (State's account): the State says the district administration entered the campus after a request from the University Registrar. It attributes the decision to 'the administration' only. The affidavit was not read; this is SCC Online Times' summary of the January 2020 order (Mohd. Aman Khan v. Union of India, Criminal Misc. PIL/Petition No. 26085 of 2019). Sabrang's report confirms the affidavit was filed for the IG (Law and Order) and the SSP and that it alleges breach of Section 144, but did not state the Registrar-letter detail in the text fetched. An allegation by the State, attributed to it.",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -15294,7 +15294,7 @@ WGO.importedEvidence = [
       "SRC-0214"
     ],
     "origin": "",
-    "establishes": "This is a record of absence in secondary summaries, not of the NHRC report itself, which was not obtained. A magisterial inquiry may exist and was not found; absence of a hit is not proof. Next steps: RTI to NHRC for its report (case reference from the High Court order); RTI to the District Magistrate and Home Department UP for any inquiry notification, the Section 144 order and the internet suspension order.",
+    "establishes": "This is a record of absence in secondary summaries. The NHRC report itself was not obtained. A magisterial inquiry may exist and was not found; absence of a hit is not proof. Next steps: RTI to NHRC for its report (case reference from the High Court order); RTI to the District Magistrate and Home Department UP for any inquiry notification, the Section 144 order and the internet suspension order.",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -15505,7 +15505,7 @@ WGO.importedEvidence = [
       "SRC-0220"
     ],
     "origin": "",
-    "establishes": "Two outlets agree on one parliamentary reply, so this is corroboration of the reporting and not of the reply. The reply text was not retrieved. Note a discrepancy reported by SabrangIndia: Delhi Police had spoken of four FIRs, the reply says three cases.",
+    "establishes": "Two outlets agree on one parliamentary reply, so this corroborates the reporting. The reply text was not retrieved. Note a discrepancy reported by SabrangIndia: Delhi Police had spoken of four FIRs, the reply says three cases.",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -16226,7 +16226,7 @@ WGO.importedEvidence = [
     "dateAdded": "2026-08-16",
     "sourceIds": [],
     "origin": "",
-    "establishes": "A commissioner-level or additional-commissioner-level operational order, the deployment order, and the station diary are the missing records. DNA (HIST-JU14-006) names an Additional Commissioner of Police as leading the contingent; that is a report of presence, not of who gave an order to use force.",
+    "establishes": "A commissioner-level or additional-commissioner-level operational order, the deployment order, and the station diary are the missing records. DNA (HIST-JU14-006) names an Additional Commissioner of Police as leading the contingent; that is a report of presence only.",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -16245,7 +16245,7 @@ WGO.importedEvidence = [
       "SRC-0262"
     ],
     "origin": "",
-    "establishes": "Allegation by the petitioners, unsupported by a document. The Minister's quote shows a public position after the event, not a prior order. Office-level only: Education Minister, Government of West Bengal.",
+    "establishes": "Allegation by the petitioners, unsupported by a document. The Minister's quote shows a public position after the event. Office-level only: Education Minister, Government of West Bengal.",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -16360,7 +16360,7 @@ WGO.importedEvidence = [
     "dateAdded": "2026-08-16",
     "sourceIds": [],
     "origin": "",
-    "establishes": "A model-written summary (Grokipedia, not cited as a source) listed an India Today article about a PIL and an order for affidavits on 19 September 2014. India Today could not be fetched (blocked), the claim was not independently found, and a search of the Calcutta High Court coverage found only unrelated later cases (2023 and 2025). Treat as a lead to check on the court's case status portal and Indian Kanoon, not as a fact.",
+    "establishes": "A model-written summary (Grokipedia, not cited as a source) listed an India Today article about a PIL and an order for affidavits on 19 September 2014. India Today could not be fetched (blocked), the claim was not independently found, and a search of the Calcutta High Court coverage found only unrelated later cases (2023 and 2025). Treat as a lead to check on the court's case status portal and Indian Kanoon.",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -16770,7 +16770,7 @@ WGO.importedEvidence = [
       "SRC-0277"
     ],
     "origin": "",
-    "establishes": "Single source, partly paywalled. The petition is about the appointment and the strike, not about the police action. No order was read.",
+    "establishes": "Single source, partly paywalled. The petition concerns the appointment and the strike only. No order was read.",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -16870,7 +16870,7 @@ WGO.importedEvidence = [
       "SRC-0283"
     ],
     "origin": "",
-    "establishes": "This is a public statement after the event, not an order. Both secondary sources name the officer; the name is left out here because no primary document names him. The Kafila post gives the quote second-hand from an Indian Express report that was not read; PUDR paraphrases it. The Kafila author calls the statement false on the strength of video footage by a photojournalist. No finding is made here on either side.",
+    "establishes": "This is a public statement after the event. Both secondary sources name the officer; the name is left out here because no primary document names him. The Kafila post gives the quote second-hand from an Indian Express report that was not read; PUDR paraphrases it. The Kafila author calls the statement false on the strength of video footage by a photojournalist. No finding is made here on either side.",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -16908,7 +16908,7 @@ WGO.importedEvidence = [
       "SRC-0278"
     ],
     "origin": "",
-    "establishes": "Outcome of the policy demand, not of the police question. The orders themselves were not read. The dates differ in how the two sources frame the sequence, and the HRD Minister's earlier tweet of 26 October is described by The Wire.",
+    "establishes": "Outcome of the policy demand only. The orders themselves were not read. The dates differ in how the two sources frame the sequence, and the HRD Minister's earlier tweet of 26 October is described by The Wire.",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -17033,7 +17033,7 @@ WGO.importedEvidence = [
       "SRC-0290"
     ],
     "origin": "",
-    "establishes": "The letter is a complaint, not a case. The document proves what PUDR asked for; it does not prove the allegations. The letter names police personnel; those names were not checked against any record and are not repeated here. Any reply from the Commission is not known.",
+    "establishes": "The letter is a complaint. The document proves what PUDR asked for; it does not prove the allegations. The letter names police personnel; those names were not checked against any record and are not repeated here. Any reply from the Commission is not known.",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -17127,7 +17127,7 @@ WGO.importedEvidence = [
       "SRC-0291"
     ],
     "origin": "",
-    "establishes": "The figures may measure different things (Marina only against statewide, injured against admitted), so they are listed side by side rather than reconciled. Hospital admission registers and police casualty reports would settle it.",
+    "establishes": "The figures may measure different things (Marina only against statewide, injured against admitted), so they are listed side by side. Hospital admission registers and police casualty reports would settle it.",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -17344,7 +17344,7 @@ WGO.importedEvidence = [
       "SRC-0303"
     ],
     "origin": "",
-    "establishes": "An allegation by a rights organisation, not a finding. Source type is secondary because it is an advocacy summary, not an official document.",
+    "establishes": "An allegation by a rights organisation, not a finding. Source type is secondary because it is an advocacy summary.",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -17387,7 +17387,7 @@ WGO.importedEvidence = [
   },
   {
     "id": "HIST-RAM-002",
-    "title": "On 22 February 2017 AISA students and teachers at Ramjas College set out to march to Maurice Nagar police station (not a 'Kamla Nagar' station; no source read u",
+    "title": "On 22 February 2017 AISA students and teachers at Ramjas College set out to march to Maurice Nagar police station (no source read uses the name 'Kamla Nagar') t",
     "type": "OTHER_DOCUMENT",
     "verification": "CORROBORATED",
     "incidentId": "INC-0020",
@@ -17575,7 +17575,7 @@ WGO.importedEvidence = [
     "dateAdded": "2026-08-16",
     "sourceIds": [],
     "origin": "",
-    "establishes": "A lead, not a fact: a search-result summary, read on 10 October 2026, said The Indian Express relayed unnamed sources to that effect. The Indian Express page on PressReader returned HTTP 403 and was not read, and no page the archive read contains the claim. If the report can be opened, it would be the first documented source for an order in this record. Encountered only in the text of a web search-result summary on 10 October 2026, which quoted the Indian Express as relaying 'sources'. The Indian Express page on PressReader returned HTTP 403 and was not read. No page the archive read contains this claim, so it is not sourced here and sources is empty. Newslaundry's live account was checked for it and does not contain it. Treat as a lead to find the original article, not as a fact. If confirmed it would still be unnamed sourcing, not a document.",
+    "establishes": "A lead: a search-result summary, read on 10 October 2026, said The Indian Express relayed unnamed sources to that effect. The Indian Express page on PressReader returned HTTP 403 and was not read, and no page the archive read contains the claim. If the report can be opened, it would be the first documented source for an order in this record. Encountered only in the text of a web search-result summary on 10 October 2026, which quoted the Indian Express as relaying 'sources'. The Indian Express page on PressReader returned HTTP 403 and was not read. No page the archive read contains this claim, so it is not sourced here and sources is empty. Newslaundry's live account was checked for it and does not contain it. Treat as a lead to find the original article. If confirmed it would still be unnamed sourcing, not a document.",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -17594,7 +17594,7 @@ WGO.importedEvidence = [
       "SRC-0314"
     ],
     "origin": "",
-    "establishes": "The no-FIR statement for 21 February is Newslaundry's narration and a lawyer's argument in court, not a police or court finding. The one FIR later registered (HIST-RAM-013) is described as covering the 22 February clash. The Newslaundry text places the lathicharge under 21 February in its summary but is a rolling account dated 22 February, so the day of the lathicharge it mentions is not firmly fixed. See HIST-RAM-015 for who ordered.",
+    "establishes": "The no-FIR statement for 21 February is Newslaundry's narration and a lawyer's argument in court. The one FIR later registered (HIST-RAM-013) is described as covering the 22 February clash. The Newslaundry text places the lathicharge under 21 February in its summary but is a rolling account dated 22 February, so the day of the lathicharge it mentions is not firmly fixed. See HIST-RAM-015 for who ordered.",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -17633,7 +17633,7 @@ WGO.importedEvidence = [
       "SRC-0309"
     ],
     "origin": "",
-    "establishes": "The office-level facts (Commissioner constituted the team; Joint CP Crime heads it) rest on press reporting, not on the constitution order. The order setting up the team was not found. The outcome of both inquiries was not found in any source read. Names of officers appear in the press reports; no primary document naming them was read.",
+    "establishes": "The office-level facts (Commissioner constituted the team; Joint CP Crime heads it) rest on press reporting. The order setting up the team was not found. The outcome of both inquiries was not found in any source read. Names of officers appear in the press reports; no primary document naming them was read.",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -17706,7 +17706,7 @@ WGO.importedEvidence = [
     "dateAdded": "2026-08-16",
     "sourceIds": [],
     "origin": "",
-    "establishes": "A lead, not a fact: search-result summaries said the court disposed of the petition on or about 7 March 2017. The Business Standard and ANI report returned HTTP 403 and was not read. Sources is empty because no page read states the outcome. Lead for the filing team: Business Standard/ANI story of about 7 March 2017 headed 'Ramjas row: Delhi HC disposes off plea seeking action against cops for assaulting students'; a Bar & Bench cause-list entry; the High Court's case status record and order. A search-result summary also mentioned a four-week direction to Delhi Police; it is not confirmed and may have been confused with the NHRC's four weeks.",
+    "establishes": "A lead: search-result summaries said the court disposed of the petition on or about 7 March 2017. The Business Standard and ANI report returned HTTP 403 and was not read. Sources is empty because no page read states the outcome. Lead for the filing team: Business Standard/ANI story of about 7 March 2017 headed 'Ramjas row: Delhi HC disposes off plea seeking action against cops for assaulting students'; a Bar & Bench cause-list entry; the High Court's case status record and order. A search-result summary also mentioned a four-week direction to Delhi Police; it is not confirmed and may have been confused with the NHRC's four weeks.",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -17778,7 +17778,7 @@ WGO.importedEvidence = [
     "dateAdded": "2026-08-16",
     "sourceIds": [],
     "origin": "",
-    "establishes": "These are lawful acquisition targets, not claims. Whether each exists, and whether it is still retained, is unknown; retention destruction is itself documentable. Delhi Police reports to the Ministry of Home Affairs, so the RTI route is the Union portal, per the repo's own rules. Do not borrow fees or form details from other states.",
+    "establishes": "These are lawful acquisition targets. Whether each exists, and whether it is still retained, is unknown; retention destruction is itself documentable. Delhi Police reports to the Ministry of Home Affairs, so the RTI route is the Union portal, per the repo's own rules. Do not borrow fees or form details from other states.",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -18118,7 +18118,7 @@ WGO.importedEvidence = [
       "SRC-0330"
     ],
     "origin": "",
-    "establishes": "This is an after-the-fact direction to the investigation, not an order governing deployment or conduct on the day. The Tribune (PTI) records the Home Minister's statement as he gave it. The Federal says the Crime Branch was to present the accused before the Juvenile Justice Board on 31 January 2020. The Crime Branch transfer as an order was not seen in any document.",
+    "establishes": "This is an after-the-fact direction to the investigation. The Tribune (PTI) records the Home Minister's statement as he gave it. The Federal says the Crime Branch was to present the accused before the Juvenile Justice Board on 31 January 2020. The Crime Branch transfer as an order was not seen in any document.",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -18205,7 +18205,7 @@ WGO.importedEvidence = [
       "SRC-0335"
     ],
     "origin": "",
-    "establishes": "Two secondary sources, not independent enough to rise higher since neither cites a document. No FIR, Board order, or age-determination record was read. Search listings for Deccan Herald and Hindustan Times carry headlines naming 14 and 28 days of protective custody; those pages were blocked and are not cited, so the custody period is not treated as settled. The Federal says police alleged the attack was premeditated; that is a police allegation, not a finding.",
+    "establishes": "Two secondary sources, each citing no document, which caps the rating. No FIR, Board order, or age-determination record was read. Search listings for Deccan Herald and Hindustan Times carry headlines naming 14 and 28 days of protective custody; those pages were blocked and are not cited, so the custody period is not treated as settled. The Federal says police alleged the attack was premeditated; that is a police allegation, not a finding.",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -18287,7 +18287,7 @@ WGO.importedEvidence = [
     "dateAdded": "2026-08-16",
     "sourceIds": [],
     "origin": "",
-    "establishes": "Route: RTI to the Delhi Police and to the Ministry of Home Affairs (the ministry Delhi Police reports to), filed at both offices at once per SOURCING.md, and a Lok Sabha or Rajya Sabha question to the Ministry of Home Affairs. Juvenile Board records are likely to be withheld; ask for the existence and date of the order instead of the content.",
+    "establishes": "Route: RTI to the Delhi Police and to the Ministry of Home Affairs (the ministry Delhi Police reports to), filed at both offices at once per SOURCING.md, and a Lok Sabha or Rajya Sabha question to the Ministry of Home Affairs. Juvenile Board records are likely to be withheld; ask only for the existence and date of the order.",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -18694,7 +18694,7 @@ WGO.importedEvidence = [
       "SRC-0344"
     ],
     "origin": "",
-    "establishes": "Recorded at the level of office: the Prayagraj district police leadership (SSP). Nothing reaches above the district in the sources read. An 11-member police team was set up, per the SSP, but to investigate the alleged funding of the protest, not the police conduct (see HIST-RRB-022). Whether an inquiry into police conduct was held and who led it was not found: Deccan Herald (26 January) says one 'would be conducted'.",
+    "establishes": "Recorded at the level of office: the Prayagraj district police leadership (SSP). Nothing reaches above the district in the sources read. An 11-member police team was set up, per the SSP, to investigate the alleged funding of the protest (see HIST-RRB-022). Whether an inquiry into police conduct was held and who led it was not found: Deccan Herald (26 January) says one 'would be conducted'.",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -18772,7 +18772,7 @@ WGO.importedEvidence = [
       "SRC-0357"
     ],
     "origin": "",
-    "establishes": "Occurrence corroborated by several outlets. The Tribune copy is PTI; the others are separate reports. Cause of death is as reported, from hospital staff quoted by the press; no post-mortem report was read. Who fired is DISPUTED, see HIST-AGN-002. The victim is described in every report as an army job aspirant (some say he had cleared the medical test and was awaiting the written exam). No source read here calls him a student. Interpretation of the scope note: he qualifies as a person who faced violence, not as a student.",
+    "establishes": "Occurrence corroborated by several outlets. The Tribune copy is PTI; the others are separate reports. Cause of death is as reported, from hospital staff quoted by the press; no post-mortem report was read. Who fired is DISPUTED, see HIST-AGN-002. The victim is described in every report as an army job aspirant (some say he had cleared the medical test and was awaiting the written exam). No source read here calls him a student. Interpretation of the scope note: he qualifies as a person who faced violence.",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -18795,7 +18795,7 @@ WGO.importedEvidence = [
       "SRC-0359"
     ],
     "origin": "",
-    "establishes": "All officials in these reports are unnamed, except Railway SP B. Anuradha, who is quoted on cases booked and not on who fired. Reports also differ on ammunition (rubber bullets, aerial firing, bullet injuries reported by the hospital). No source read here gives a ballistic or post-mortem finding. Tribune and Careers360 may share PTI origin. A tweet or statement attributing the firing to state police by a political figure was seen only in a search snippet and is not recorded.",
+    "establishes": "All officials in these reports are unnamed, except Railway SP B. Anuradha, who is quoted on cases booked only. Reports also differ on ammunition (rubber bullets, aerial firing, bullet injuries reported by the hospital). No source read here gives a ballistic or post-mortem finding. Tribune and Careers360 may share PTI origin. A tweet or statement attributing the firing to state police by a political figure was seen only in a search snippet and is not recorded.",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -18815,7 +18815,7 @@ WGO.importedEvidence = [
       "SRC-0355"
     ],
     "origin": "",
-    "establishes": "These are attributed press accounts from unnamed officials, not documents. They place the decision at the level of 'higher' offices in the railway police and/or state police without identifying the office. Do not read the two named officers as having given any order: the source says only that they held talks.",
+    "establishes": "These are attributed press accounts from unnamed officials. They place the decision at the level of 'higher' offices in the railway police and/or state police without identifying the office. Do not read the two named officers as having given any order: the source says only that they held talks.",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -18987,7 +18987,7 @@ WGO.importedEvidence = [
       "SRC-0367"
     ],
     "origin": "",
-    "establishes": "All four pages derive from the PTI wire, so this counts as one source family, not four. The count is not established: 'more than two dozen' and 'around 50 / over 50' both appear. Maktoob adds that protesters were pushed into buses after NSUI president Varun Choudhary was dragged away; that is the outlet's account and is attributed to no document. Deccan Herald's version of this story returned HTTP 403 and was not read. The protest is about the UGC-NET cancellation as well as NEET-UG; it is recorded because the same groups were protesting NEET-UG.",
+    "establishes": "All four pages derive from the PTI wire, so this counts as one source family. The count is not established: 'more than two dozen' and 'around 50 / over 50' both appear. Maktoob adds that protesters were pushed into buses after NSUI president Varun Choudhary was dragged away; that is the outlet's account and is attributed to no document. Deccan Herald's version of this story returned HTTP 403 and was not read. The protest is about the UGC-NET cancellation as well as NEET-UG; it is recorded because the same groups were protesting NEET-UG.",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -19148,7 +19148,7 @@ WGO.importedEvidence = [
       "SRC-0375"
     ],
     "origin": "",
-    "establishes": "Sections are as Dinamalar prints them; they were not checked against an FIR copy. No FIR number, police station, date or copy was found. A separate Careers360 report of 9 July 2024 (not cited as a source here beyond this note) quotes Choudhary saying he was summoned by Delhi Police on 7 July, without naming a case. Whether any case was registered against the IYC is not established.",
+    "establishes": "Sections are as Dinamalar prints them; they were not checked against an FIR copy. No FIR number, police station, date or copy was found. A separate Careers360 report of 9 July 2024, cited here only in this note, quotes Choudhary saying he was summoned by Delhi Police on 7 July, without naming a case. Whether any case was registered against the IYC is not established.",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -19330,7 +19330,7 @@ WGO.importedEvidence = [
       "SRC-0381"
     ],
     "origin": "",
-    "establishes": "Four outlets agree on the date, the place, the water cannon and the lathicharge. Scroll's account of the DM's statement comes from PTI; the others report on their own. No primary document (order, report, court record) was read. One source (Drishti IAS, summarising a complaint) dates the lathi charge to 28 December 2024; the four above and the other outlets read say Sunday, which is 29 December 2024. The pages were read through a summarising fetch tool, not saved as files, so no sha256 is recorded.",
+    "establishes": "Four outlets agree on the date, the place, the water cannon and the lathicharge. Scroll's account of the DM's statement comes from PTI; the others report on their own. No primary document (order, report, court record) was read. One source (Drishti IAS, summarising a complaint) dates the lathi charge to 28 December 2024; the four above and the other outlets read say Sunday, which is 29 December 2024. The pages were read through a summarising fetch tool with no files saved, so no sha256 is recorded.",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -19385,7 +19385,7 @@ WGO.importedEvidence = [
       "SRC-0381"
     ],
     "origin": "",
-    "establishes": "Scroll and Careers360 both attribute the DM's words to PTI, so they are one origin, not two independent sources. The administration's account, that protesters went to JP Golambar without permission, blocked the road and argued with magistrates on duty, comes from the administration through Patna Press and is its allegation. Protest-side accounts say the march was peaceful.",
+    "establishes": "Scroll and Careers360 both attribute the DM's words to PTI, so they share one origin. The administration's account, that protesters went to JP Golambar without permission, blocked the road and argued with magistrates on duty, comes from the administration through Patna Press and is its allegation. Protest-side accounts say the march was peaceful.",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -19450,7 +19450,7 @@ WGO.importedEvidence = [
   },
   {
     "id": "HIST-BPSC-008",
-    "title": "A Bihar-based advocate, not named in the page read, filed a complaint with the National Human Rights Commission over the police action against BPSC aspirants in",
+    "title": "A Bihar-based advocate, unnamed in the page read, filed a complaint with the National Human Rights Commission over the police action against BPSC aspirants in P",
     "type": "COURT_DOCUMENT",
     "verification": "REPORTED",
     "incidentId": "INC-0026",
@@ -19830,7 +19830,7 @@ WGO.importedEvidence = [
       "SRC-0388"
     ],
     "origin": "",
-    "establishes": "The NHRC report itself and its case number were not read or found; only the conclusions quoted at para 25. The NHRC conclusions include findings on the school's teacher-posting decisions (a decision on 18 September 2018 to withdraw the posting, reversed on 20 September 2018 by the district education department) that bear on cause, not on who ordered force. No departmental, magisterial or judicial inquiry by the State into the police conduct is recorded in the judgment. The NHRC extract says senior officers could have ordered 'an impartial enquiry by a senior officer of another range or a magistrate' and did not (para 25, viii).",
+    "establishes": "The NHRC report itself and its case number were not read or found; only the conclusions quoted at para 25. The NHRC conclusions include findings on the school's teacher-posting decisions (a decision on 18 September 2018 to withdraw the posting, reversed on 20 September 2018 by the district education department) that bear on cause only. No departmental, magisterial or judicial inquiry by the State into the police conduct is recorded in the judgment. The NHRC extract says senior officers could have ordered 'an impartial enquiry by a senior officer of another range or a magistrate' and did not (para 25, viii).",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -19858,7 +19858,7 @@ WGO.importedEvidence = [
   },
   {
     "id": "HIST-DAR-013",
-    "title": "Appeal and aftermath. REPORTED (Law Trend, 3 April 2024): a Division Bench headed by Chief Justice T.S. Sivagnanam did not stay the single-bench order but agree",
+    "title": "Appeal and aftermath. REPORTED (Law Trend, 3 April 2024): a Division Bench headed by Chief Justice T.S. Sivagnanam left the single-bench order in force, agreed ",
     "type": "COURT_DOCUMENT",
     "verification": "CORROBORATED",
     "incidentId": "INC-0028",
@@ -19970,7 +19970,7 @@ WGO.importedEvidence = [
       "SRC-0402"
     ],
     "origin": "",
-    "establishes": "Version (c) is from an official who conducted the probe but is reported in a single interview; the report was not read. Version (a) is the university's account relayed by PTI. No document read records who at the police station decided to let them go, or on whose instruction. Level of office: unknown. The Newsclick article places the failure with 'the then Station House Officer of Civil Lines police station' regarding the earlier entry onto campus, not regarding the release; it does not say the SHO ordered the release.",
+    "establishes": "Version (c) is from an official who conducted the probe but is reported in a single interview; the report was not read. Version (a) is the university's account relayed by PTI. No document read records who at the police station decided to let them go, or on whose instruction. Level of office: unknown. The Newsclick article places the failure with 'the then Station House Officer of Civil Lines police station' regarding the earlier entry onto campus only. The article does not say the SHO ordered the release.",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -20076,7 +20076,7 @@ WGO.importedEvidence = [
       "SRC-0404"
     ],
     "origin": "",
-    "establishes": "The order itself (number, date, terms of reference, named officer) was not found or read. Date of order as 4 May comes from the Hindustan Times headline and opening line only; VICE says the Chief Minister promised an inquiry by 4 May, which is a different thing. The Week (4 May) gives no deadline; no source read states a deadline. Office: District Magistrate, Aligarh. Whether the 'magisterial inquiry' is the same as the 'probe' in item 8 is assumed by the sources, not shown by a document.",
+    "establishes": "The order itself (number, date, terms of reference, named officer) was not found or read. Date of order as 4 May comes from the Hindustan Times headline and opening line only; VICE says the Chief Minister promised an inquiry by 4 May, which is a different thing. The Week (4 May) gives no deadline; no source read states a deadline. Office: District Magistrate, Aligarh. Whether the 'magisterial inquiry' is the same as the 'probe' in item 8 rests on an assumption made by the sources.",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -20421,7 +20421,7 @@ WGO.importedEvidence = [
       "SRC-0425"
     ],
     "origin": "",
-    "establishes": "The section number conflicts inside The Hindu report (354A in the narration, 354 in the PRO quote). The FIR number, date of registration beyond 'Monday', and the copy of the FIR were not found. The outcome of the Crime Branch investigation (chargesheet, closure report, trial, departmental result) was searched for and not found: UNKNOWN. The officer is not named in this record because the sources read are news reports of an allegation, not a court document.",
+    "establishes": "The section number conflicts inside The Hindu report (354A in the narration, 354 in the PRO quote). The FIR number, date of registration beyond 'Monday', and the copy of the FIR were not found. The outcome of the Crime Branch investigation (chargesheet, closure report, trial, departmental result) was searched for and not found: UNKNOWN. The officer is unnamed in this record because the sources read are news reports of an allegation.",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -20787,7 +20787,7 @@ WGO.importedEvidence = [
       "SRC-0430"
     ],
     "origin": "",
-    "establishes": "This establishes who was present according to the police, not who gave any order. Single-origin claim (police statement relayed by two outlets). No deployment order was found.",
+    "establishes": "This establishes who was present according to the police. Single-origin claim (police statement relayed by two outlets). No deployment order was found.",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -21660,7 +21660,7 @@ WGO.importedEvidence = [
       "SRC-0470"
     ],
     "origin": "",
-    "establishes": "The Amnesty claim is an NGO allegation about Varanasi arrests between 11 and 23 December 2019 generally, not only the 19 December group. The Quint video page says eight students were released five days after the arrests; that is not consistent with the general two-week figure and is not reconciled in any source read.",
+    "establishes": "The Amnesty claim is an NGO allegation about Varanasi arrests between 11 and 23 December 2019 generally, including the 19 December group. The Quint video page says eight students were released five days after the arrests; that is not consistent with the general two-week figure and is not reconciled in any source read.",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -21752,7 +21752,7 @@ WGO.importedEvidence = [
       "SRC-0479"
     ],
     "origin": "",
-    "establishes": "Whether this was a detention or an inquiry is the police's characterisation against the students' and the press's. Station is DISPUTED between reports: Triplicane (Scroll, The News Minute 17 December), Mylapore (The News Minute 18 December), Kotturpuram (The Hindu 18 December, for a group of four). Release time: PTI says late that night; The News Minute 18 December says 1:00 a.m. on 18 December after the college administration phoned the station. The two are not named here; the names appear only in press reports, not in an official document.",
+    "establishes": "Whether this was a detention or an inquiry is the police's characterisation against the students' and the press's. Station is DISPUTED between reports: Triplicane (Scroll, The News Minute 17 December), Mylapore (The News Minute 18 December), Kotturpuram (The Hindu 18 December, for a group of four). Release time: PTI says late that night; The News Minute 18 December says 1:00 a.m. on 18 December after the college administration phoned the station. The two are unnamed here; the names appear only in press reports.",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -21850,7 +21850,7 @@ WGO.importedEvidence = [
     "dateAdded": "2026-08-16",
     "sourceIds": [],
     "origin": "",
-    "establishes": "Searched for a named officer, a commissioner's statement, a university letter, a court filing and a human rights commission notice and found none. The News Minute reports the Greater Chennai police deployment was for 'safety of the students' (19 December 2019 piece), which describes a purpose and not an order. Records that could settle it are listed in madras2019-notes.md.",
+    "establishes": "Searched for a named officer, a commissioner's statement, a university letter, a court filing and a human rights commission notice and found none. The News Minute reports the Greater Chennai police deployment was for 'safety of the students' (19 December 2019 piece), which describes a purpose. Records that could settle it are listed in madras2019-notes.md.",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -21950,7 +21950,7 @@ WGO.importedEvidence = [
       "SRC-0484"
     ],
     "origin": "",
-    "establishes": "Madhyamam quotes a Madras University professor saying police left the students without registering any case. All three are press statements of police or witnesses, not a station record. A search of Triplicane, Mylapore and Kotturpuram station registers, or a Chennai police FIR portal search, was not done.",
+    "establishes": "Madhyamam quotes a Madras University professor saying police left the students without registering any case. All three are press statements of police or witnesses. A search of Triplicane, Mylapore and Kotturpuram station registers, or a Chennai police FIR portal search, was not done.",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -22277,7 +22277,7 @@ WGO.importedEvidence = [
     "dateAdded": "2026-08-16",
     "sourceIds": [],
     "origin": "",
-    "establishes": "The Indian Express reported that a case was being registered; neither it nor India Today or PTI names the station. A search for later bail, chargesheet or court reports on this march found none. Sukhdev Vihar police station is named in reports as the place where protesters gathered in the evening, not as the station of registration.",
+    "establishes": "The Indian Express reported that a case was being registered; neither it nor India Today or PTI names the station. A search for later bail, chargesheet or court reports on this march found none. Sukhdev Vihar police station is named in reports as the place where protesters gathered in the evening.",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -22924,7 +22924,7 @@ WGO.importedEvidence = [
       "SRC-0517"
     ],
     "origin": "",
-    "establishes": "Single secondary source, read through an automated page summary, not in full. The lawyer's statement is an allegation. Whether a complaint was registered, a diary number assigned, or a report called from the Dhanbad authorities: UNKNOWN, see HIST-DHN-012.",
+    "establishes": "Single secondary source, read only through an automated page summary. The lawyer's statement is an allegation. Whether a complaint was registered, a diary number assigned, or a report called from the Dhanbad authorities: UNKNOWN, see HIST-DHN-012.",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -23226,7 +23226,7 @@ WGO.importedEvidence = [
       "SRC-0525"
     ],
     "origin": "",
-    "establishes": "They were applicants in a recruitment process, not employed teachers, so 'teachers' in the Hindustan Times headline and the HRDA letter is loose wording. 'Peaceful' is used by the Samajwadi Party, Deccan Herald, Hindustan Times, Sabrang and HRDA; see HIST-LKO-010 for a report of a clash. No source read gives ages, and no minors are named. No injured or detained individual is named here.",
+    "establishes": "They were applicants in a recruitment process, so 'teachers' in the Hindustan Times headline and the HRDA letter is loose wording. 'Peaceful' is used by the Samajwadi Party, Deccan Herald, Hindustan Times, Sabrang and HRDA; see HIST-LKO-010 for a report of a clash. No source read gives ages, and no minors are named. No injured or detained individual is named here.",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -23319,7 +23319,7 @@ WGO.importedEvidence = [
     "dateAdded": "2026-08-16",
     "sourceIds": [],
     "origin": "",
-    "establishes": "The one page read (ETV Bharat) says only that 'police and CRPF personnel resorted to lathi-charge'. Attributed allegation in that page: the ABVP state secretary (named there) said police acted without warning and that the SDPO Sadar used abusive words. That is an allegation about conduct, not a statement of who ordered force. Level of office unknown (SDPO, district, state home department, or CRPF chain).",
+    "establishes": "The one page read (ETV Bharat) says only that 'police and CRPF personnel resorted to lathi-charge'. Attributed allegation in that page: the ABVP state secretary (named there) said police acted without warning and that the SDPO Sadar used abusive words. That is an allegation about conduct. Level of office unknown (SDPO, district, state home department, or CRPF chain).",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -23454,7 +23454,7 @@ WGO.importedEvidence = [
       "SRC-0532"
     ],
     "origin": "",
-    "establishes": "All four outlets trace the facts to the Ministry's own public statement, so the independence is in the reporting and not in the origin. The order itself was not read (see HIST-BBC-005). A Lumen database record of the notice to Twitter is mentioned by TechCrunch but could not be opened (the site served a bot challenge).",
+    "establishes": "All four outlets trace the facts to the Ministry's own public statement, so the independence lies in the reporting. The order itself was not read (see HIST-BBC-005). A Lumen database record of the notice to Twitter is mentioned by TechCrunch but could not be opened (the site served a bot challenge).",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -23651,7 +23651,7 @@ WGO.importedEvidence = [
       "SRC-0538"
     ],
     "origin": "",
-    "establishes": "This corroborates what the police said, not that it is accurate. It is the police version that the administration supplied the information; it does not say the administration asked for detentions. The statutory power used is not stated in any source read.",
+    "establishes": "This corroborates only what the police said. It is the police version that the administration supplied the information; it does not say the administration asked for detentions. The statutory power used is not stated in any source read.",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -23688,7 +23688,7 @@ WGO.importedEvidence = [
       "SRC-0545"
     ],
     "origin": "",
-    "establishes": "These are statements of belief by two detained students, not documents. They are not named here. No source read shows the Jamia administration confirming or denying a request to police.",
+    "establishes": "These are statements of belief by two detained students. They are not named here. No source read shows the Jamia administration confirming or denying a request to police.",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -23806,7 +23806,7 @@ WGO.importedEvidence = [
       "SRC-0548"
     ],
     "origin": "",
-    "establishes": "Allegations, not findings. The first two concern university security or proctorial staff, not police. No injury count or hospital record was found (HIST-BBC-022).",
+    "establishes": "Allegations, not findings. The first two concern university security or proctorial staff. No injury count or hospital record was found (HIST-BBC-022).",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -23932,7 +23932,7 @@ WGO.importedEvidence = [
       "SRC-0552"
     ],
     "origin": "",
-    "establishes": "The two agencies agree a letter was sent. Only IANS says it asked police to take action. The letter was not seen and its date, time and addressee are unknown. This archive names the office, not the officer, because no primary document was read.",
+    "establishes": "The two agencies agree a letter was sent. Only IANS says it asked police to take action. The letter was not seen and its date, time and addressee are unknown. This archive names the office only, because no primary document was read.",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -24599,7 +24599,7 @@ WGO.importedEvidence = [
   },
   {
     "id": "HIST-TSP-017",
-    "title": "Telangana High Court proceedings on the TSPSC leak (not on the detentions). On 22 March 2023 a single judge, Justice B. Vijaysen Reddy, on a plea by the Nationa",
+    "title": "Telangana High Court proceedings on the TSPSC leak only. On 22 March 2023 a single judge, Justice B. Vijaysen Reddy, on a plea by the National Students' Union o",
     "type": "COURT_DOCUMENT",
     "verification": "CORROBORATED",
     "incidentId": "INC-0041",
@@ -24646,7 +24646,7 @@ WGO.importedEvidence = [
     "dateAdded": "2026-08-16",
     "sourceIds": [],
     "origin": "",
-    "establishes": "Search covered news outlets only. No search of eCourts, the Telangana High Court case status system, or the Telangana State Human Rights Commission or NHRC was possible, so the absence is of a published report, not shown by a record search. No NHRC or Telangana human rights commission action on these detentions was found.",
+    "establishes": "Search covered news outlets only. No search of eCourts, the Telangana High Court case status system, or the Telangana State Human Rights Commission or NHRC was possible, so the absence is that of a published report, found without a record search. No NHRC or Telangana human rights commission action on these detentions was found.",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -24863,7 +24863,7 @@ WGO.importedEvidence = [
       "SRC-0592"
     ],
     "origin": "",
-    "establishes": "Single partisan source, no case number. These would be petitions about the recruitment rules, not about police action. Searches of news results returned later Patna High Court and Supreme Court matters about teachers (2024 and 2025) that were not read and are not linked to this incident. Eligible route: Patna High Court case status and the Indian Kanoon API (SOURCING.md section 3). No NHRC or Bihar Human Rights Commission case on this incident was found.",
+    "establishes": "Single partisan source, no case number. These would be petitions about the recruitment rules. Searches of news results returned later Patna High Court and Supreme Court matters about teachers (2024 and 2025) that were not read and are not linked to this incident. Eligible route: Patna High Court case status and the Indian Kanoon API (SOURCING.md section 3). No NHRC or Bihar Human Rights Commission case on this incident was found.",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -25143,7 +25143,7 @@ WGO.importedEvidence = [
       "SRC-0602"
     ],
     "origin": "",
-    "establishes": "Background only. This record is about the fest incident, not about police action on protesters. Hindustan Times (30 March) and DailyO (29 March) date the fest incident to Tuesday 28 March. The Quint's 3 April article on the university inquiry, as read through a summary, says the incident occurred on 29 March, which conflicts with those two and with the PTI text (Tuesday, 28 March). The allegations of harassment are the students'; no court has found anything. The DCP North is recorded here as a speaker for police only.",
+    "establishes": "Background only. This record is about the fest incident. Hindustan Times (30 March) and DailyO (29 March) date the fest incident to Tuesday 28 March. The Quint's 3 April article on the university inquiry, as read through a summary, says the incident occurred on 29 March, which conflicts with those two and with the PTI text (Tuesday, 28 March). The allegations of harassment are the students'; no court has found anything. The DCP North is recorded here as a speaker for police only.",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -25388,7 +25388,7 @@ WGO.importedEvidence = [
       "SRC-0600"
     ],
     "origin": "",
-    "establishes": "This FIR concerns the harassment at the fest, not the protesters. Scholars at Risk says students were 'reportedly' registered under sections 337 and 188 for the 31 March march; every other source read ties those sections to the fest case, and no source read shows a case against any protester. That reading is unconfirmed (HIST-IPC-014).",
+    "establishes": "This FIR concerns the harassment at the fest only. Scholars at Risk says students were 'reportedly' registered under sections 337 and 188 for the 31 March march; every other source read ties those sections to the fest case, and no source read shows a case against any protester. That reading is unconfirmed (HIST-IPC-014).",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -25425,7 +25425,7 @@ WGO.importedEvidence = [
       "SRC-0603"
     ],
     "origin": "",
-    "establishes": "Hindustan Times (own reporting) and The Quint (via summary). The notice concerns the fest and security lapse, not the removal of protesters. Outcome of the notice not found.",
+    "establishes": "Hindustan Times (own reporting) and The Quint (via summary). The notice concerns the fest and security lapse only. Outcome of the notice not found.",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -25443,7 +25443,7 @@ WGO.importedEvidence = [
       "SRC-0617"
     ],
     "origin": "",
-    "establishes": "One agency (PTI), via a summary of the page. These injuries are from the fest, not from police action on protesters. The Outlook and Deccan Herald versions of the same report were not fetched (one returned HTTP 503, the other was not tried), so this is single-source.",
+    "establishes": "One agency (PTI), via a summary of the page. These injuries are from the fest. The Outlook and Deccan Herald versions of the same report were not fetched (one returned HTTP 503, the other was not tried), so this is single-source.",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -25780,7 +25780,7 @@ WGO.importedEvidence = [
       "SRC-0635"
     ],
     "origin": "",
-    "establishes": "A speaker, not an orderer. The 'no cases or arrests' statement sits against two people arrested and remanded on a case registered from 30 March 2025 (HIST-HCU25-005) and FIRs registered by 3 April (HIST-HCU25-004, 013); the Hindu text does not say which period he meant. The Hindu is the only source for this record.",
+    "establishes": "A speaker. The 'no cases or arrests' statement sits against two people arrested and remanded on a case registered from 30 March 2025 (HIST-HCU25-005) and FIRs registered by 3 April (HIST-HCU25-004, 013); the Hindu text does not say which period he meant. The Hindu is the only source for this record.",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -26073,7 +26073,7 @@ WGO.importedEvidence = [
       "SRC-0651"
     ],
     "origin": "",
-    "establishes": "These are the bench's oral remarks as reported, not a written finding. The LiveLaw listing page was read for its headline only. No written order of 15 May 2025 was read. The remarks bear on the clearing, not on the police action, and name no individual.",
+    "establishes": "These are the bench's oral remarks as reported, not a written finding. The LiveLaw listing page was read for its headline only. No written order of 15 May 2025 was read. The remarks bear on the clearing only. They name no individual.",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -26108,7 +26108,7 @@ WGO.importedEvidence = [
     "dateAdded": "2026-08-16",
     "sourceIds": [],
     "origin": "",
-    "establishes": "Read and silent on the point: the Supreme Court order of 3 April 2025; the Central Empowered Committee letter of 4 April 2025; and the press accounts of the police statements. What the record does say: the Cyberabad Police Commissioner defended the custody (a speaker, HIST-HCU25-003); an FIR as reported by The News Minute records a Detective Inspector taking students into custody with his staff on his own information (HIST-HCU25-004); and the Gachibowli case was filed on a TGIIC complaint (HIST-HCU25-009). None of these says that a named officer, a Commissioner, the Home Department or a minister directed the custody. The Chief Minister's public remarks on the protesters (calling them 'cunning foxes', per The Indian Express) are political statements, not orders.",
+    "establishes": "Read and silent on the point: the Supreme Court order of 3 April 2025; the Central Empowered Committee letter of 4 April 2025; and the press accounts of the police statements. What the record does say: the Cyberabad Police Commissioner defended the custody (a speaker, HIST-HCU25-003); an FIR as reported by The News Minute records a Detective Inspector taking students into custody with his staff on his own information (HIST-HCU25-004); and the Gachibowli case was filed on a TGIIC complaint (HIST-HCU25-009). None of these says that a named officer, a Commissioner, the Home Department or a minister directed the custody. The Chief Minister's public remarks on the protesters (calling them 'cunning foxes', per The Indian Express) are political statements.",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -26172,7 +26172,7 @@ WGO.importedEvidence = [
     "dateAdded": "2026-08-16",
     "sourceIds": [],
     "origin": "",
-    "establishes": "This lists documents to ask for, not documents seen. No filing portal address or fee for Telangana is established in this work, and nothing from Delhi, Bihar or Maharashtra may be used to fill that gap. A request touching an investigation said to be ongoing may be refused; the appeal route is part of the plan.",
+    "establishes": "This lists documents to ask for. No filing portal address or fee for Telangana is established in this work, and nothing from Delhi, Bihar or Maharashtra may be used to fill that gap. A request touching an investigation said to be ongoing may be refused; the appeal route is part of the plan.",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -26729,7 +26729,7 @@ WGO.importedEvidence = [
       "SRC-0666"
     ],
     "origin": "",
-    "establishes": "Version 1: slapped (supporters; Swarajya describing a video). Version 2: not slapped, a supporter's hand was slapped (Kishor, PTI); not manhandled (District Magistrate, PTI). No video was viewed by the researcher and none is cited. Neither version is chosen.",
+    "establishes": "Version 1: slapped (supporters; Swarajya describing a video). Version 2: no slap (a supporter's hand was slapped, per Kishor, PTI); no manhandling (District Magistrate, PTI). No video was viewed by the researcher and none is cited. Neither version is chosen.",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -27016,7 +27016,7 @@ WGO.importedEvidence = [
       "SRC-0685"
     ],
     "origin": "",
-    "establishes": "The speakers are the ACP Kamla Market and the DCP Central (Nidhin Valsan is named as the person making the statement, spelled 'Vasan' in the Indian Express). Under this archive's rule they are speakers, not orderers. Protesters' counter-claims (power cut, handling) are at HIST-SSC-003 and HIST-SSC-004. The Indian Express quotes an SSC chairman separately on exam rescheduling; that is not about the police action.",
+    "establishes": "The speakers are the ACP Kamla Market and the DCP Central (Nidhin Valsan is named as the person making the statement, spelled 'Vasan' in the Indian Express). Under this archive's rule they are speakers. Protesters' counter-claims (power cut, handling) are at HIST-SSC-003 and HIST-SSC-004. The Indian Express quotes an SSC chairman separately on exam rescheduling; that is not about the police action.",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -27282,7 +27282,7 @@ WGO.importedEvidence = [
       "SRC-0698"
     ],
     "origin": "",
-    "establishes": "The 80 figure appears in one source (Indian Express, in its own voice, not attributed to a named police officer). Other Tribune pieces say 'several' students were detained or taken away and give no number. The SSP's reported denial that anyone was detained conflicts with the Indian Express wording 'detained under preventive measures'. No legal provision for the detentions is named in any source; no detention memo or list was found. The SSP quotes come from a summarising fetch of the Tribune page and should be checked verbatim.",
+    "establishes": "The 80 figure appears in one source (Indian Express, in its own voice). Other Tribune pieces say 'several' students were detained or taken away and give no number. The SSP's reported denial that anyone was detained conflicts with the Indian Express wording 'detained under preventive measures'. No legal provision for the detentions is named in any source; no detention memo or list was found. The SSP quotes come from a summarising fetch of the Tribune page and should be checked verbatim.",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -27451,7 +27451,7 @@ WGO.importedEvidence = [
       "SRC-0697"
     ],
     "origin": "",
-    "establishes": "The order was not read. LiveLaw's article is dated 18 November 2025; HT of 17 November 2025 says Friday, which is 14 November 2025, so the hearing date is inferred and unconfirmed. Per LiveLaw's summary the order does not mention 10 November, police action, outsiders or any FIR. It concerns the delay in Senate elections, not police conduct.",
+    "establishes": "The order was not read. LiveLaw's article is dated 18 November 2025; HT of 17 November 2025 says Friday, which is 14 November 2025, so the hearing date is inferred and unconfirmed. Per LiveLaw's summary the order does not mention 10 November, police action, outsiders or any FIR. It concerns the delay in Senate elections only.",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -27469,7 +27469,7 @@ WGO.importedEvidence = [
       "SRC-0701"
     ],
     "origin": "",
-    "establishes": "Single source dated 24 January 2026; case number, bench and next date not reported; outcome unknown. The article as summarised does not mention 10 November. It is a petition to restrict protest, not one challenging police force. Petitioner is named in the source; not named here.",
+    "establishes": "Single source dated 24 January 2026; case number, bench and next date not reported; outcome unknown. The article as summarised does not mention 10 November. It is a petition to restrict protest. Petitioner is named in the source; the name is omitted here.",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -27821,7 +27821,7 @@ WGO.importedEvidence = [
       "SRC-0721"
     ],
     "origin": "",
-    "establishes": "This supplies what HIST-C17A-013 lacked: the number and date of the Government Order (G.O.Ms.No.99, Home (Courts-IV) Department, 20 February 2021) and the figure of 308 cases, which the order attributes to counsel and the State's Government Advocate rather than quoting from the G.O. itself. The G.O. text was not read. MKB Nagar is in north Chennai, not at Marina, and the order does not link Crime No. 202 of 2017 to the 23 January 2017 clearance; it describes only 'wide spread agitation' against the ban. The 26,460 accused named in HIST-C17A-013 is not in this order.",
+    "establishes": "This supplies what HIST-C17A-013 lacked: the number and date of the Government Order (G.O.Ms.No.99, Home (Courts-IV) Department, 20 February 2021) and the figure of 308 cases, which the order attributes to counsel and the State's Government Advocate. The G.O. text was not read. MKB Nagar is in north Chennai, not at Marina, and the order does not link Crime No. 202 of 2017 to the 23 January 2017 clearance; it describes only 'wide spread agitation' against the ban. The 26,460 accused named in HIST-C17A-013 is not in this order.",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -27839,7 +27839,7 @@ WGO.importedEvidence = [
       "SRC-0722"
     ],
     "origin": "",
-    "establishes": "Corrects HIST-NAB-007, which reports this order as a refusal to entertain 'the State of West Bengal's plea' for a ban. The order shows the petitioner was a private person, Debranjan Banerjee, described as a lawyer and resident of Shibpur, Howrah, who sought the prohibition; the State, through the Advocate General, argued that permission from police was needed and that the sensitive zone could be protected. The court did not grant permission to the marchers either: it only declined to prohibit. The order does not mention Section 163 BNSS or Section 144 CrPC at all, and records the State arguing for restraint of the rally. Later hearings of WPA(P) 360 of 2024 on 24 July and 18 August 2025 were adjournments (Indian Kanoon docs 102233875 and 104392020, not hashed here).",
+    "establishes": "Corrects HIST-NAB-007, which reports this order as a refusal to entertain 'the State of West Bengal's plea' for a ban. The order shows the petitioner was a private person, Debranjan Banerjee, described as a lawyer and resident of Shibpur, Howrah, who sought the prohibition; the State, through the Advocate General, argued that permission from police was needed and that the sensitive zone could be protected. The court did not grant permission to the marchers either: it only declined to prohibit. The order does not mention Section 163 BNSS or Section 144 CrPC at all, and records the State arguing for restraint of the rally. Later hearings of WPA(P) 360 of 2024 on 24 July and 18 August 2025 were adjournments (Indian Kanoon docs 102233875 and 104392020, unhashed here).",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -28005,7 +28005,7 @@ WGO.importedEvidence = [
       "SRC-0733"
     ],
     "origin": "",
-    "establishes": "A recorded negative: the judgment is silent on who gave the order. VERIFIED here means the text was searched, not that no such order exists. Para 86 holds that informing and consulting university authorities 'cannot, however, operate as an absolute condition in every situation', and para 82 that the police 'did not enter the University premises at the outset to deal with an otherwise peaceful assembly confined to the campus'. Both are the court's conclusions from the NHRC material and the State's account. The Chief Proctor's statement that police entered without permission is recorded as the petitioners' reliance; the court did not decide it.",
+    "establishes": "A recorded negative: the judgment is silent on who gave the order. VERIFIED here means the text was searched; whether such an order exists remains open. Para 86 holds that informing and consulting university authorities 'cannot, however, operate as an absolute condition in every situation', and para 82 that the police 'did not enter the University premises at the outset to deal with an otherwise peaceful assembly confined to the campus'. Both are the court's conclusions from the NHRC material and the State's account. The Chief Proctor's statement that police entered without permission is recorded as the petitioners' reliance; the court did not decide it.",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -28041,7 +28041,7 @@ WGO.importedEvidence = [
       "SRC-0735"
     ],
     "origin": "",
-    "establishes": "VERIFIED only that the allegation is recited in the judgment, not that it is true. The judgment makes no finding on the lathi-charge and issues no direction about it or about the criminal cases; the dates it gives (25 and 29 December 2024) are the petitioners'. The archive's HIST-BPSC-001 dates the Patna water cannon and lathicharge 29 December 2024; the court's 25.12.2024 date is not otherwise corroborated here. The allegation blames 'the District Administration', not any named officer. The judgment's own account of the protests (paras 83 and 94) is about students agitating against normalisation of the result and the Commission's press note of 06.12.2024; it names no police official. A Supreme Court order of 7 January 2025 (W.P.(C) Diary 717/2025) simply declined to entertain the petition and sent the petitioner to the Patna High Court.",
+    "establishes": "VERIFIED only that the allegation is recited in the judgment. The judgment makes no finding on the lathi-charge and issues no direction about it or about the criminal cases; the dates it gives (25 and 29 December 2024) are the petitioners'. The archive's HIST-BPSC-001 dates the Patna water cannon and lathicharge 29 December 2024; the court's 25.12.2024 date is not otherwise corroborated here. The allegation blames 'the District Administration' only. The judgment's own account of the protests (paras 83 and 94) is about students agitating against normalisation of the result and the Commission's press note of 06.12.2024; it names no police official. A Supreme Court order of 7 January 2025 (W.P.(C) Diary 717/2025) simply declined to entertain the petition and sent the petitioner to the Patna High Court.",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -28201,7 +28201,7 @@ WGO.importedEvidence = [
       "SRC-0747"
     ],
     "origin": "",
-    "establishes": "PTI's two reports of 26 June describe sloganeering, an effigy burning by Krantikari Yuva Sanghtan and parents denied a meeting by security guards. The 'about 30 students detained' on 26 June in other reports refers to the AISA march at Central Secretariat, not the V-C residence.",
+    "establishes": "PTI's two reports of 26 June describe sloganeering, an effigy burning by Krantikari Yuva Sanghtan and parents denied a meeting by security guards. The 'about 30 students detained' on 26 June in other reports refers to the AISA march at Central Secretariat.",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -28260,7 +28260,7 @@ WGO.importedEvidence = [
   },
   {
     "id": "HIST-CSAT14-002",
-    "title": "Delhi Police say they lobbed tear gas shells to disperse aspirants on NH-1 on the night of 24 July 2014. This is the Tribune's report of the police account, not",
+    "title": "Delhi Police say they lobbed tear gas shells to disperse aspirants on NH-1 on the night of 24 July 2014. This is the Tribune's report of the police account.",
     "type": "OTHER_DOCUMENT",
     "verification": "REPORTED",
     "incidentId": "INC-0050",
@@ -28289,7 +28289,7 @@ WGO.importedEvidence = [
       "SRC-0751"
     ],
     "origin": "",
-    "establishes": "These are allegations attributed to the speakers. The Rajya Sabha Official Report is a primary record that the statements were made, not of the facts. No police source read uses the word lathi; the police word is 'crackdown' (item 001). The Hindu, Indian Express and Times of India reports could not be located through search. The aspirant who gave the Tribune the Gandhi Vihar account is a witness named in the source; not named here. The Rajya Sabha Hindi text extracted with spacing artefacts, so only the phrase 'बर्बरतापूर्वक लाठीचार्ज किया गया' is quoted.",
+    "establishes": "These are allegations attributed to the speakers. The Rajya Sabha Official Report is a primary record that the statements were made. No police source read uses the word lathi; the police word is 'crackdown' (item 001). The Hindu, Indian Express and Times of India reports could not be located through search. The aspirant who gave the Tribune the Gandhi Vihar account is a witness named in the source; the name is omitted here. The Rajya Sabha Hindi text extracted with spacing artefacts, so only the phrase 'बर्बरतापूर्वक लाठीचार्ज किया गया' is quoted.",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -28476,7 +28476,7 @@ WGO.importedEvidence = [
       "SRC-0756"
     ],
     "origin": "",
-    "establishes": "Paraphrase of a Hindi remark in a primary document; the Hindi text extracted with spacing artefacts so no exact quote is given. Which hunger strikers, where and when are not stated in the passage. This is a lead, not a detention count.",
+    "establishes": "Paraphrase of a Hindi remark in a primary document; the Hindi text extracted with spacing artefacts so no exact quote is given. Which hunger strikers, where and when are not stated in the passage. This is a lead.",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -28512,7 +28512,7 @@ WGO.importedEvidence = [
       "SRC-0758"
     ],
     "origin": "",
-    "establishes": "Single source, one sentence, no detail on place or officers. Oneindia is dated Tuesday 15 July, so the incident would be 14 July. Not part of this case but relevant to the pattern of policing.",
+    "establishes": "Single source, one sentence, no detail on place or officers. Oneindia is dated Tuesday 15 July, so the incident would be 14 July. Relevant to the pattern of policing; outside this case.",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -28730,7 +28730,7 @@ WGO.importedEvidence = [
     "dateAdded": "2026-08-16",
     "sourceIds": [],
     "origin": "",
-    "establishes": "Records to request: Shimla police control-room log and wireless messages for 18 March 2015; any Section 144 CrPC order or permission for the march; the FIR and case diary; the arrest memos and custody medical records for Boileauganj; any Vidhan Sabha (assembly) question and answer on the incident; any inquiry order; the Lok Sabha item (possible mention by M B Rajesh MP, seen only as a search result, not fetched, eparlib.nic.in unreachable).",
+    "establishes": "Records to request: Shimla police control-room log and wireless messages for 18 March 2015; any Section 144 CrPC order or permission for the march; the FIR and case diary; the arrest memos and custody medical records for Boileauganj; any Vidhan Sabha (assembly) question and answer on the incident; any inquiry order; the Lok Sabha item (possible mention by M B Rajesh MP, seen only as a search result, unfetched, eparlib.nic.in unreachable).",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -29028,7 +29028,7 @@ WGO.importedEvidence = [
       "SRC-0769"
     ],
     "origin": "",
-    "establishes": "Only the Deccan Chronicle reports arrests and sections. The full list of sections, the FIR number, the police station and whether further arrests followed are not known. Date of arrest presumed 12 October, not stated.",
+    "establishes": "Only the Deccan Chronicle reports arrests and sections. The full list of sections, the FIR number, the police station and whether further arrests followed are not known. Date of arrest presumed 12 October, unstated in the source.",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -29198,7 +29198,7 @@ WGO.importedEvidence = [
       "SRC-0777"
     ],
     "origin": "",
-    "establishes": "Section numbers are not given in any page read. The FIR text and number were not found. Sabrang's list is longer than the Tribune's; treat the exact charge set as unconfirmed. The FIR targets the YouTuber and 'others', not the students; Sabrang says most of the minors were not arrested.",
+    "establishes": "Section numbers are not given in any page read. The FIR text and number were not found. Sabrang's list is longer than the Tribune's; treat the exact charge set as unconfirmed. The FIR targets the YouTuber and 'others'. Sabrang says most of the minors were not arrested.",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -29218,7 +29218,7 @@ WGO.importedEvidence = [
       "SRC-0775"
     ],
     "origin": "",
-    "establishes": "The inquiry is into who organised the protest, as he framed it, not into the baton charge. No source says an inquiry into police conduct was ordered. The name of the officer who conducted it is not stated.",
+    "establishes": "The inquiry is into who organised the protest, as he framed it. No source says an inquiry into police conduct was ordered. The name of the officer who conducted it is not stated.",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -29400,7 +29400,7 @@ WGO.importedEvidence = [
       "SRC-0780"
     ],
     "origin": "",
-    "establishes": "Single source, attributed to unnamed police. No prohibitory order (Section 144 / BNSS 163) was mentioned in any source read. The police statement as reported names the vice-chancellor or registrar as people who could receive a memorandum, not as people who called police.",
+    "establishes": "Single source, attributed to unnamed police. No prohibitory order (Section 144 / BNSS 163) was mentioned in any source read. The police statement as reported names the vice-chancellor or registrar as people who could receive a memorandum.",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -29869,7 +29869,7 @@ WGO.importedEvidence = [
       "SRC-0803"
     ],
     "origin": "",
-    "establishes": "Concerns the death, not the lathicharge. Order text read only as quoted by LiveLaw; the order itself was not read. WPA number came from a search summary of a court cause list that was not fetched; treat as unconfirmed. Indian Kanoon search returned no matching result.",
+    "establishes": "Concerns the death only. Order text read only as quoted by LiveLaw; the order itself was not read. WPA number came from a search summary of a court cause list that was not fetched; treat as unconfirmed. Indian Kanoon search returned no matching result.",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -30087,7 +30087,7 @@ WGO.importedEvidence = [
       "SRC-0808"
     ],
     "origin": "",
-    "establishes": "Sensitive. Names are omitted here by policy; The Quint names them. It is a single source reporting the students' own claims. The outcome is not known from sources read. This is a second reference to an FIR against an individual student; it is not linked to a section or number. Treat with care; not suitable for the main incident claim.",
+    "establishes": "Sensitive. Names are omitted here by policy; The Quint names them. It is a single source reporting the students' own claims. The outcome is not known from sources read. This is a second reference to an FIR against an individual student; it is not linked to a section or number. Treat with care; unsuitable for the main incident claim.",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -30259,7 +30259,7 @@ WGO.importedEvidence = [
       "SRC-0818"
     ],
     "origin": "",
-    "establishes": "National Herald quotes DCP Manoj C. (jurisdiction not stated in the page; likely South West, unconfirmed). Section 506 appears in two sources and not in National Herald. The Quint adds a counter-FIR on ABVP's complaint against unidentified JNUSU, SFI and DSF members. FIR numbers not read.",
+    "establishes": "National Herald quotes DCP Manoj C. (jurisdiction not stated in the page; likely South West, unconfirmed). Section 506 appears in two sources; National Herald omits it. The Quint adds a counter-FIR on ABVP's complaint against unidentified JNUSU, SFI and DSF members. FIR numbers not read.",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -30531,7 +30531,7 @@ WGO.importedEvidence = [
       "SRC-0825"
     ],
     "origin": "",
-    "establishes": "Single source. The 655 figure is cases against people, not arrests. Not matched to an FIR number. Check Arrah GRP/Bhojpur police records.",
+    "establishes": "Single source. The 655 figure is a count of cases against people. Not matched to an FIR number. Check Arrah GRP/Bhojpur police records.",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -30590,7 +30590,7 @@ WGO.importedEvidence = [
       "SRC-0832"
     ],
     "origin": "",
-    "establishes": "These are cumulative counts at different times, not conflicting counts of one moment. Hindustan Times page itself was not retrieved (PressReader copy returned no text), so 805 and 148 rest on Scroll's report of it. The Devdiscourse/PTI statement said more people would be rounded up after 'thorough examination of CCTV footage and videography'. No FIR text, section list or arrest list seen. The 805 includes Bihar only; Scroll's total of 1,238 adds 387 UP and 46 Secunderabad (the last is a separate archive case, INC-0024).",
+    "establishes": "These are cumulative counts at different times. Hindustan Times page itself was not retrieved (PressReader copy returned no text), so 805 and 148 rest on Scroll's report of it. The Devdiscourse/PTI statement said more people would be rounded up after 'thorough examination of CCTV footage and videography'. No FIR text, section list or arrest list seen. The 805 includes Bihar only; Scroll's total of 1,238 adds 387 UP and 46 Secunderabad (the last is a separate archive case, INC-0024).",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -30721,7 +30721,7 @@ WGO.importedEvidence = [
       "SRC-0835"
     ],
     "origin": "",
-    "establishes": "PTI via Morung Express, 20 June. The CM directive named concerns outreach to coaching centres, not force or arrests. No source read says who ordered lathi-charges or arrests in UP. Saharanpur SSP Akash Tomar said five arrested were over 25, linked to political parties, and 'Posing as Army aspirants' (Tribune).",
+    "establishes": "PTI via Morung Express, 20 June. The CM directive named concerns outreach to coaching centres. No source read says who ordered lathi-charges or arrests in UP. Saharanpur SSP Akash Tomar said five arrested were over 25, linked to political parties, and 'Posing as Army aspirants' (Tribune).",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -30943,7 +30943,7 @@ WGO.importedEvidence = [
       "SRC-0846"
     ],
     "origin": "",
-    "establishes": "The 70 figure is a running police count in PTI and may have changed later. Scroll gives no source for its number. Sabrang's claim that 'over 500 students were water cannoned and brutally lathi charged' is an advocacy outlet's figure with no named source and is not used as a count; Deccan Herald 19 January says 'over 500 students of Delhi University and Jawaharlal Nehru University staged an protest' under the banner of Krantikari Yuva Sangthan (KYS), a crowd figure, not a detention figure. Crowd size is therefore described as 'scores' (PTI), 'hundreds' (Gulf Times) and 'over 500' (DH 19 Jan, Sabrang).",
+    "establishes": "The 70 figure is a running police count in PTI and may have changed later. Scroll gives no source for its number. Sabrang's claim that 'over 500 students were water cannoned and brutally lathi charged' is an advocacy outlet's figure with no named source and is not used as a count; Deccan Herald 19 January says 'over 500 students of Delhi University and Jawaharlal Nehru University staged an protest' under the banner of Krantikari Yuva Sangthan (KYS), a crowd figure. Crowd size is therefore described as 'scores' (PTI), 'hundreds' (Gulf Times) and 'over 500' (DH 19 Jan, Sabrang).",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -30981,7 +30981,7 @@ WGO.importedEvidence = [
       "SRC-0847"
     ],
     "origin": "",
-    "establishes": "These statements concern the university, not the policing of the protest. No Delhi Police, MHRD or Home Ministry statement read says who authorised the water cannon.",
+    "establishes": "These statements concern the university only. No Delhi Police, MHRD or Home Ministry statement read says who authorised the water cannon.",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -31149,7 +31149,7 @@ WGO.importedEvidence = [
       "SRC-0856"
     ],
     "origin": "",
-    "establishes": "Passive voice, no order-giver named. The SHO is named only as being present in the video, not as having ordered anything. Original Indian Express page not read (403); read through CJP's reproduction.",
+    "establishes": "Passive voice, no order-giver named. The SHO is named only as being present in the video. Original Indian Express page not read (403); read through CJP's reproduction.",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -31210,7 +31210,7 @@ WGO.importedEvidence = [
       "SRC-0857"
     ],
     "origin": "",
-    "establishes": "Deccan Herald and PTI are independent. The outcome of Gautam's inquiry was not found in any source read. The chain named here (Bassi, Mishra, Gautam) is the inquiry chain, not an order-giving chain for the force.",
+    "establishes": "Deccan Herald and PTI are independent. The outcome of Gautam's inquiry was not found in any source read. The chain named here (Bassi, Mishra, Gautam) is the inquiry chain.",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -31379,7 +31379,7 @@ WGO.importedEvidence = [
   },
   {
     "id": "HIST-BURD16-002",
-    "title": "Whether police used a lathicharge: DISPUTED on the word, not on the event. IBNS quotes an unnamed 'senior official of Burdwan district police' as saying 'Police",
+    "title": "Whether police used a lathicharge: DISPUTED on the word alone. IBNS quotes an unnamed 'senior official of Burdwan district police' as saying 'Police did not res",
     "type": "OTHER_DOCUMENT",
     "verification": "DISPUTED",
     "incidentId": "INC-0064",
@@ -31666,7 +31666,7 @@ WGO.importedEvidence = [
       "SRC-0868"
     ],
     "origin": "",
-    "establishes": "BJP spokesperson Virender Gupta is a party source, not an independent one. Tear gas shells are alleged only by the BJP in fetched pages; not corroborated.",
+    "establishes": "BJP spokesperson Virender Gupta is a party source. Tear gas shells are alleged only by the BJP in fetched pages; not corroborated.",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -31686,7 +31686,7 @@ WGO.importedEvidence = [
       "SRC-0868"
     ],
     "origin": "",
-    "establishes": "The 1 April clash is described by Kashmir Life as non-local students allegedly beating local students; PTI describes 'clashes between local and outstation students'. Accounts of 1 April differ in who started it; not examined here.",
+    "establishes": "The 1 April clash is described by Kashmir Life as non-local students allegedly beating local students; PTI describes 'clashes between local and outstation students'. Accounts of 1 April differ in who started it; unexamined here.",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -31929,7 +31929,7 @@ WGO.importedEvidence = [
       "SRC-0876"
     ],
     "origin": "",
-    "establishes": "The accounts may describe one march seen from different points. The sources do not say where the students started, which route they took or where police stopped them. The Getty caption is a photo caption, not reporting, and gives no number or police statement.",
+    "establishes": "The accounts may describe one march seen from different points. The sources do not say where the students started, which route they took or where police stopped them. The Getty caption is a photo caption and gives no number or police statement.",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -32036,7 +32036,7 @@ WGO.importedEvidence = [
       "SRC-0875"
     ],
     "origin": "",
-    "establishes": "Context only, not the police action on 21 October. Wikipedia is a secondary compilation; The Quint states the CBI closure date as 15 October 2018 citing PTI. Scroll (6 November 2016) says the Delhi Police formed a special team 'Following orders from Union Home Minister Rajnath Singh', which is an order about the search, not about the detentions.",
+    "establishes": "Context only, not the police action on 21 October. Wikipedia is a secondary compilation; The Quint states the CBI closure date as 15 October 2018 citing PTI. Scroll (6 November 2016) says the Delhi Police formed a special team 'Following orders from Union Home Minister Rajnath Singh', which is an order about the search.",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -32189,7 +32189,7 @@ WGO.importedEvidence = [
       "SRC-0886"
     ],
     "origin": "",
-    "establishes": "Source is PTI (National Herald credits PTI, published 31 Jul 2024 3:21 PM). The text says 'Wednesday, 30 July', but 31 July 2024 was the Wednesday and the item is dated 31 July; the date slip is in the source. The Careers360 PTI copy fetched covers the MCD meeting but not the removal sentence, so it is the same wire and not an independent second source. The Week also carries the PTI item but blocked direct fetch, so it is not cited. The police officer is unnamed. How the people were identified and where they were taken is not stated.",
+    "establishes": "Source is PTI (National Herald credits PTI, published 31 Jul 2024 3:21 PM). The text says 'Wednesday, 30 July', but 31 July 2024 was the Wednesday and the item is dated 31 July; the date slip is in the source. The Careers360 PTI copy fetched covers the MCD meeting but omits the removal sentence, so it is a copy of the same wire. The Week also carries the PTI item but blocked direct fetch, so it is not cited. The police officer is unnamed. How the people were identified and where they were taken is not stated.",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -32244,7 +32244,7 @@ WGO.importedEvidence = [
       "SRC-0887"
     ],
     "origin": "",
-    "establishes": "DCP M Harsha Vardhan quoted by Free Press Journal. This FIR concerns the deaths, not the protest. No FIR against protesters was found in any fetched page. A later report (Careers360, PTI) says five people were arrested including four basement co-owners and an SUV driver.",
+    "establishes": "DCP M Harsha Vardhan quoted by Free Press Journal. This FIR concerns the deaths only. No FIR against protesters was found in any fetched page. A later report (Careers360, PTI) says five people were arrested including four basement co-owners and an SUV driver.",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -32382,7 +32382,7 @@ WGO.importedEvidence = [
       "SRC-0889"
     ],
     "origin": "",
-    "establishes": "The Federal reports the Thoubal order is by the district; the PTI copy gives the section but not the issuer. Issuer inferred as the Thoubal district magistrate from district-level pattern only, not stated in a fetched source. The police claim of a bullet is attributed to police.",
+    "establishes": "The Federal reports the Thoubal order is by the district; the PTI copy gives the section but not the issuer. Issuer inferred as the Thoubal district magistrate from district-level pattern only. The police claim of a bullet is attributed to police.",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -32611,7 +32611,7 @@ WGO.importedEvidence = [
       "SRC-0907"
     ],
     "origin": "",
-    "establishes": "Detention is corroborated by two independent outlets. The figure 'over 700' appears only in the News Minute and has no attributed source; treat it as REPORTED once, not as a police figure. PTI (ThePrint) adds that BRS claimed its leaders including MLA Muta Gopal were taken into custody when they marched toward the Secretariat; that is BRS's claim. No FIR or release record fetched.",
+    "establishes": "Detention is corroborated by two independent outlets. The figure 'over 700' appears only in the News Minute and has no attributed source; treat it as REPORTED once. PTI (ThePrint) adds that BRS claimed its leaders including MLA Muta Gopal were taken into custody when they marched toward the Secretariat; that is BRS's claim. No FIR or release record fetched.",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -32867,7 +32867,7 @@ WGO.importedEvidence = [
       "SRC-0921"
     ],
     "origin": "",
-    "establishes": "Deccan Herald (own reporter) states the lathi charge as fact and gives the trigger as students trying to break the cordon. PTI (Tribune) describes police chasing the crowd, not a lathi charge. The Wire hedges with 'reportedly'. Injury figures, units used and the officer who directed the dispersal are not in these pages. The Deccan Herald text was read in the page's embedded article body (JSON-LD), as the visible page was truncated. No police denial of the 11 November lathi charge was found in a fetched page.",
+    "establishes": "Deccan Herald (own reporter) states the lathi charge as fact and gives the trigger as students trying to break the cordon. PTI (Tribune) describes police chasing the crowd. The Wire hedges with 'reportedly'. Injury figures, units used and the officer who directed the dispersal are not in these pages. The Deccan Herald text was read in the page's embedded article body (JSON-LD), as the visible page was truncated. No police denial of the 11 November lathi charge was found in a fetched page.",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -32983,7 +32983,7 @@ WGO.importedEvidence = [
       "SRC-0921"
     ],
     "origin": "",
-    "establishes": "This is the only on-record statement found from a senior government figure about policing. It reads as an instruction to police, but the page does not say to whom it was addressed or whether it followed the 11 November force. It is a statement of intent, not a record of what was ordered on the ground.",
+    "establishes": "This is the only on-record statement found from a senior government figure about policing. It reads as an instruction to police, but the page does not say to whom it was addressed or whether it followed the 11 November force. It is a statement of intent.",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -33057,7 +33057,7 @@ WGO.importedEvidence = [
       "SRC-0921"
     ],
     "origin": "",
-    "establishes": "These concern the exam concession, not the policing. DD News is the state broadcaster's site quoting ANI. No source read shows the Chief Minister, the Commission or the district administration speaking about the force used.",
+    "establishes": "These concern the exam concession only. DD News is the state broadcaster's site quoting ANI. No source read shows the Chief Minister, the Commission or the district administration speaking about the force used.",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -33281,7 +33281,7 @@ WGO.importedEvidence = [
       "SRC-0931"
     ],
     "origin": "",
-    "establishes": "Separate incident. Both fetched sentences are background lines in the 15/16 Dec stories, not reports of the event; the ETV item is a headline only and was not opened. Treat as a lead for a separate entry. Another outlet (SocialNews.xyz, per research4) reported the blockade with no police action.",
+    "establishes": "Separate incident. Both fetched sentences are background lines in the 15/16 Dec stories; the ETV item is a headline only and was not opened. Treat as a lead for a separate entry. Another outlet (SocialNews.xyz, per research4) reported the blockade with no police action.",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -33648,7 +33648,7 @@ WGO.importedEvidence = [
       "SRC-0949"
     ],
     "origin": "",
-    "establishes": "The alleged force is by guards and event organisers, not by police in either source. The videos were not seen by this researcher. No injury count, medical record or complaint found. Maktoob's video description is the outlet's own and the videos are not linked on the page.",
+    "establishes": "The alleged force is by guards and event organisers in both sources. The videos were not seen by this researcher. No injury count, medical record or complaint found. Maktoob's video description is the outlet's own and the videos are not linked on the page.",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -33794,7 +33794,7 @@ WGO.importedEvidence = [
       "SRC-0955"
     ],
     "origin": "",
-    "establishes": "One source for the 500 figure. The PTI-based Deccan Herald piece of 13 Aug quotes DSP Neeraj Kumar: 'No detention or arrest was made in connection with the case', which refers to the FIR, not the day's detentions; the two do not directly conflict, and they should not be conflated.",
+    "establishes": "One source for the 500 figure. The PTI-based Deccan Herald piece of 13 Aug quotes DSP Neeraj Kumar: 'No detention or arrest was made in connection with the case', which refers to the FIR only; the two do not directly conflict, and they should not be conflated.",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -33890,7 +33890,7 @@ WGO.importedEvidence = [
       "SRC-0951"
     ],
     "origin": "",
-    "establishes": "Shows who spoke for the deployment, not who authorised force.",
+    "establishes": "Shows who spoke for the deployment only.",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -34374,7 +34374,7 @@ WGO.importedEvidence = [
     "dateAdded": "2026-08-16",
     "sourceIds": [],
     "origin": "",
-    "establishes": "The sources name officers present, not an officer who ordered force. Records to request: control-room and wireless logs for 27 September, daily diary entries, any order under BNSS 163, correspondence between LPU and Punjab Police, the SIT constitution order, any magisterial or judicial inquiry.",
+    "establishes": "The sources name officers present only. Records to request: control-room and wireless logs for 27 September, daily diary entries, any order under BNSS 163, correspondence between LPU and Punjab Police, the SIT constitution order, any magisterial or judicial inquiry.",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -34396,7 +34396,7 @@ WGO.importedEvidence = [
       "SRC-0982"
     ],
     "origin": "",
-    "establishes": "Independent publishers: The Asian Age (own correspondent), IANS (Business Standard, Gulf Times), PTI (Aapka Times), Scroll, SabrangIndia. This is a separate incident from the 21 October 2016 events in HIST-JNUH16 items. The Aapka Times copy is PTI, not an agency-free report.",
+    "establishes": "Independent publishers: The Asian Age (own correspondent), IANS (Business Standard, Gulf Times), PTI (Aapka Times), Scroll, SabrangIndia. This is a separate incident from the 21 October 2016 events in HIST-JNUH16 items. The Aapka Times copy is PTI, an agency report.",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -34666,7 +34666,7 @@ WGO.importedEvidence = [
       "SRC-0985"
     ],
     "origin": "",
-    "establishes": "This is the case against officials and ABVP students, not against protesters. It is recorded because the 18 January police posture on campus followed registration of this FIR the same day. Deccan Herald (DHNS) lists four names; PTI lists five; IANS lists four. The FIR text, crime number and date-time were not found.",
+    "establishes": "This is the case against officials and ABVP students. It is recorded because the 18 January police posture on campus followed registration of this FIR the same day. Deccan Herald (DHNS) lists four names; PTI lists five; IANS lists four. The FIR text, crime number and date-time were not found.",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -34760,7 +34760,7 @@ WGO.importedEvidence = [
       "SRC-0999"
     ],
     "origin": "",
-    "establishes": "That the strikers were removed is corroborated by publishers with different reporters (PTI, Gulf News, Al Jazeera). Who removed them is described differently: 'officials' (PTI), 'police' (Scroll, Gulf News), 'university police' (Al Jazeera caption). The stated reason is medical. Students resisted according to PTI and the caption. This is a medical removal, not a detention, and is recorded as the 'days after' police contact on campus. Who gave the instruction (university administration, doctors or police) is not stated. A fresh hunger strike began on 24 January.",
+    "establishes": "That the strikers were removed is corroborated by publishers with different reporters (PTI, Gulf News, Al Jazeera). Who removed them is described differently: 'officials' (PTI), 'police' (Scroll, Gulf News), 'university police' (Al Jazeera caption). The stated reason is medical. Students resisted according to PTI and the caption. This is a medical removal, recorded as the 'days after' police contact on campus. Who gave the instruction (university administration, doctors or police) is not stated. A fresh hunger strike began on 24 January.",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -34796,7 +34796,7 @@ WGO.importedEvidence = [
       "SRC-1001"
     ],
     "origin": "",
-    "establishes": "Later in the same movement and outside the January window; included for completeness. One source. The march was in Hyderabad city, not on the campus. Permission was refused or not sought according to the SHO; who refused it is not stated.",
+    "establishes": "Later in the same movement and outside the January window; included for completeness. One source. The march was in Hyderabad city. Permission was refused or not sought according to the SHO; who refused it is not stated.",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -34920,7 +34920,7 @@ WGO.importedEvidence = [
       "SRC-1006"
     ],
     "origin": "",
-    "establishes": "NHRC carries the allegation (from AIDWA) that many youth, including girl students, were brutally beaten by police and some hospitalised. The exact PTI wording of the lathi-charge sentence and the quoted police statement were taken from a WebFetch summary, not raw text; re-check on a browser.",
+    "establishes": "NHRC carries the allegation (from AIDWA) that many youth, including girl students, were brutally beaten by police and some hospitalised. The exact PTI wording of the lathi-charge sentence and the quoted police statement were taken from a WebFetch summary; re-check on a browser.",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -35293,7 +35293,7 @@ WGO.importedEvidence = [
       "SRC-1019"
     ],
     "origin": "",
-    "establishes": "All four pages carry the same Press Trust of India text, so this is one source, not four. The detention is NSUI's claim (\"The student wing claimed that several NSUI members, including Jakhar, were detained by the Delhi Police\"). No count, no police statement, no place of detention and no force are reported. Whether the detainees are students rests on NSUI's own description of its members. A UNI item of 2 October describes a different, larger NSUI march (hundreds detained on Friday 2 October) and must not be merged with this. Lead: ANI or police posts for 5 October; NSUI media in-charge Ravi Hanuman Pandey is quoted.",
+    "establishes": "All four pages carry the same Press Trust of India text, so this is a single source. The detention is NSUI's claim (\"The student wing claimed that several NSUI members, including Jakhar, were detained by the Delhi Police\"). No count, no police statement, no place of detention and no force are reported. Whether the detainees are students rests on NSUI's own description of its members. A UNI item of 2 October describes a different, larger NSUI march (hundreds detained on Friday 2 October) and must not be merged with this. Lead: ANI or police posts for 5 October; NSUI media in-charge Ravi Hanuman Pandey is quoted.",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -35439,7 +35439,7 @@ WGO.importedEvidence = [
       "SRC-1030"
     ],
     "origin": "",
-    "establishes": "ThePrint is the only page read with detail; the Madhyamam page lists a headline on four arrests but its article was not read. The assailants were civilians, not police. The CJP statement alleges police tolerance of the assault ('with an officer seemingly guiding them to stop the recording' is ThePrint's description of one video). Police reaction to that allegation not found.",
+    "establishes": "ThePrint is the only page read with detail; the Madhyamam page lists a headline on four arrests but its article was not read. The assailants were civilians. The CJP statement alleges police tolerance of the assault ('with an officer seemingly guiding them to stop the recording' is ThePrint's description of one video). Police reaction to that allegation not found.",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -35479,7 +35479,7 @@ WGO.importedEvidence = [
       "SRC-1022"
     ],
     "origin": "",
-    "establishes": "The statement is quoted by ABC, which says the police did not return its calls. The statement does not name an officer or say who decided on the security operation. Spokesperson for the BJP Sambit Patra called the protesters 'anarchists' who had 'failed'; that is a party statement, not an order.",
+    "establishes": "The statement is quoted by ABC, which says the police did not return its calls. The statement does not name an officer or say who decided on the security operation. Spokesperson for the BJP Sambit Patra called the protesters 'anarchists' who had 'failed'; that is a party statement.",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -35562,7 +35562,7 @@ WGO.importedEvidence = [
       "SRC-1029"
     ],
     "origin": "",
-    "establishes": "Paswan's and the Pioneer's wording attribute the operation to the central government in general terms, which is not an order by a named officer. Das's statement is an allegation by a political opponent. The Supreme Court's notice to the MHA Secretary and the Delhi Police Commissioner (HIST-DEL26-011) shows whom the court regards as respondents, not who gave the order. No FIR, order or affidavit naming the decision-maker has been read.",
+    "establishes": "Paswan's and the Pioneer's wording attribute the operation to the central government in general terms, which is not an order by a named officer. Das's statement is an allegation by a political opponent. The Supreme Court's notice to the MHA Secretary and the Delhi Police Commissioner (HIST-DEL26-011) shows whom the court regards as respondents. No FIR, order or affidavit naming the decision-maker has been read.",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -35616,7 +35616,7 @@ WGO.importedEvidence = [
       "SRC-1038"
     ],
     "origin": "",
-    "establishes": "Statements, not findings. Patra is a party spokesman, not an order-giver.",
+    "establishes": "Statements, not findings. Patra is a party spokesman.",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -35714,7 +35714,7 @@ WGO.importedEvidence = [
       "SRC-1044"
     ],
     "origin": "",
-    "establishes": "Baliyan is described as a CJP organiser, not clearly a student. Alwar SP Sudheer Chaudhary had not responded to ThePrint at publication.",
+    "establishes": "Baliyan is described as a CJP organiser. Alwar SP Sudheer Chaudhary had not responded to ThePrint at publication.",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -36054,7 +36054,7 @@ WGO.importedEvidence = [
       "SRC-1055"
     ],
     "origin": "",
-    "establishes": "Patna Press: 'The action was taken following directions from Bihar Police Headquarters.' This is an order about discipline after the fact, not an order about the firing. The two pages describe the same event from different sources and agree on the suspension; they do not conflict.",
+    "establishes": "Patna Press: 'The action was taken following directions from Bihar Police Headquarters.' This is an order about discipline after the fact. The two pages describe the same event from different sources and agree on the suspension; they do not conflict.",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -36318,7 +36318,7 @@ WGO.importedEvidence = [
       "SRC-1070"
     ],
     "origin": "",
-    "establishes": "Extends INC-BIH-007. PTI (DT Next) and IANS (Telangana Today) are different wires. The notification itself has not been read; the Home Department can supply it. The Bihar Advocate General's letter to DMs and public prosecutors (The Wire, 30 Jul) refers to the '[the] decision taken by [the] Government of Bihar regarding withdrawal of all cases registered before 6 pm of 26 July, 2026'. This is the first document-level order in the Bihar record that carries a named office-holder (the Special Secretary) and an attribution to the Chief Minister, but it concerns withdrawal of cases, not the use of force.",
+    "establishes": "Extends INC-BIH-007. PTI (DT Next) and IANS (Telangana Today) are different wires. The notification itself has not been read; the Home Department can supply it. The Bihar Advocate General's letter to DMs and public prosecutors (The Wire, 30 Jul) refers to the '[the] decision taken by [the] Government of Bihar regarding withdrawal of all cases registered before 6 pm of 26 July, 2026'. This is the first document-level order in the Bihar record that carries a named office-holder (the Special Secretary) and an attribution to the Chief Minister, but it concerns withdrawal of cases only.",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -36359,7 +36359,7 @@ WGO.importedEvidence = [
       "SRC-0013"
     ],
     "origin": "",
-    "establishes": "Extends PROC-SC-004 and PROC-BIH-001. Bar & Bench and The Federal report the same affidavit, so they corroborate what the State said, not the underlying events (ANI carries the same wire story on the Siwan firing). The affidavit has not been read. Whether the affidavit names any officer or office as having authorised force at Patna, Katihar, Darbhanga, Begusarai or Jehanabad is not reported. It addresses Siwan most fully.",
+    "establishes": "Extends PROC-SC-004 and PROC-BIH-001. Bar & Bench and The Federal report the same affidavit, so they corroborate what the State said (ANI carries the same wire story on the Siwan firing). The affidavit has not been read. Whether the affidavit names any officer or office as having authorised force at Patna, Katihar, Darbhanga, Begusarai or Jehanabad is not reported. It addresses Siwan most fully.",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -36642,7 +36642,7 @@ WGO.importedExternal = [
     "incidentIds": [
       "INC-0001"
     ],
-    "note": "Flagged 18 September 2026 against the order itself (PROC-DEL-004). The BNSS s.173 observation is in the order. The four-week counter affidavit and the 11 September listing are not: the petition was dismissed on 22 July 2026. Both were reported together, which is why this item is worth keeping as published rather than corrected away.",
+    "note": "Flagged 18 September 2026 against the order itself (PROC-DEL-004). The BNSS s.173 observation is in the order. The four-week counter affidavit and the 11 September listing are not: the petition was dismissed on 22 July 2026. Both were reported together, which is why this item is worth keeping as published.",
     "confidence": "REPORTED"
   },
   {
@@ -37043,7 +37043,7 @@ WGO.importedFramework = [
     "sourceIds": [],
     "category": "statute",
     "jurisdiction": "all",
-    "note": "None located. What exists is the reverse: BNSS s.151 protects officers acting in good faith under ss.148 to 150. Command responsibility in Indian police accountability appears to be constructed from BNS abetment and common intention provisions, departmental rules and Supreme Court directions, not from a police act. That is an analytical view, not a sourced claim."
+    "note": "None located. What exists is the reverse: BNSS s.151 protects officers acting in good faith under ss.148 to 150. Command responsibility in Indian police accountability appears to be constructed from BNS abetment and common intention provisions, departmental rules and Supreme Court directions. That is an analytical view."
   },
   {
     "id": "MAN-DEL-001",
@@ -37063,7 +37063,7 @@ WGO.importedFramework = [
     ],
     "category": "police_manual",
     "jurisdiction": "bihar",
-    "note": "Whether the full text is published online is UNKNOWN. Archive significance: if the manual is issued under statutory power, a departure from it is a breach of a rule, not of internal guidance."
+    "note": "Whether the full text is published online is UNKNOWN. Archive significance: if the manual is issued under statutory power, a departure from it is a breach of a rule."
   },
   {
     "id": "MAN-MAH-001",
@@ -37136,7 +37136,7 @@ WGO.importedFramework = [
     "sourceIds": [],
     "category": "guideline",
     "jurisdiction": "all",
-    "note": "Searched, none found. Tentative finding, held loosely: the Indian accountability architecture is built around deaths. A lathi charge that injures without killing sits in thinner regulatory space, and BNSS s.151 protects officers acting in good faith. This may be the most substantively important thing the archive has to say, and it is also the claim most likely to be wrong through my failure to search well. Treat as an open question, not a settled absence."
+    "note": "Searched, none found. Tentative finding, held loosely: the Indian accountability architecture is built around deaths. A lathi charge that injures without killing sits in thinner regulatory space, and BNSS s.151 protects officers acting in good faith. This may be the most substantively important thing the archive has to say, and it is also the claim most likely to be wrong through my failure to search well. Treat as an open question."
   },
   {
     "id": "PREC-001",
@@ -37169,7 +37169,7 @@ WGO.importedFramework = [
     ],
     "category": "precedent",
     "jurisdiction": "india",
-    "note": "Build into design now: expect holes in the eCourts route and design for absence, not treating it as failure. Search multiple transliterations of every name, especially in Bihar."
+    "note": "Build into design now: expect holes in the eCourts route and design for absence. Search multiple transliterations of every name, especially in Bihar."
   },
   {
     "id": "PREC-004",
@@ -37191,7 +37191,7 @@ WGO.importedFramework = [
     ],
     "category": "precedent",
     "jurisdiction": "india",
-    "note": "Not a primary-document archive, but the closest systematic Indian evidence base, and its bibliography is a route to earlier fact-finding."
+    "note": "A secondary source and the closest systematic Indian evidence base; its bibliography is a route to earlier fact-finding."
   },
   {
     "id": "PREC-006",
@@ -37202,7 +37202,7 @@ WGO.importedFramework = [
     ],
     "category": "precedent",
     "jurisdiction": "india",
-    "note": "Paywalled. Academic, not operational, but directly on what an FIR archive can and cannot show."
+    "note": "Paywalled. Academic work, directly on what an FIR archive can and cannot show."
   },
   {
     "id": "PREC-007",
@@ -37211,11 +37211,11 @@ WGO.importedFramework = [
     "sourceIds": [],
     "category": "precedent",
     "jurisdiction": "india",
-    "note": "Only the Polis Project's general reflection at PREC-003 was found, and that is a reflection, not an account of a particular incident. Treat the absence as a failure to find, not as evidence that it has not happened."
+    "note": "Only the Polis Project's general reflection at PREC-003 was found. Treat the absence as a failure to find, not as evidence that it has not happened."
   },
   {
     "id": "OVR-DEL-003",
-    "text": "An advisory on handling protests, reported as framed by central agencies, has been circulated to Delhi Police personnel across all 15 districts and the Railway and Metro units following the Jantar Mantar police action. It is reported to instruct personnel to stay calm before protesters' cameras, not to argue or engage, to avoid touching women protesters and to leave such situations to women officers, and to assist anyone who faints or is injured.",
+    "text": "An advisory on handling protests, reported as framed by central agencies, has been circulated to Delhi Police personnel across all 15 districts and the Railway and Metro units following the Jantar Mantar police action. It is reported to instruct personnel to stay calm before protesters' cameras, to avoid arguing or engaging, to avoid touching women protesters and to leave such situations to women officers, and to assist anyone who faints or is injured.",
     "confidence": "REPORTED",
     "sourceIds": [
       "SRC-0079",
@@ -37223,7 +37223,7 @@ WGO.importedFramework = [
     ],
     "category": "guideline",
     "jurisdiction": "delhi",
-    "note": "Read what this advisory is about, and then read what it is not about. As reported, it concerns how officers appear on camera: composure, tone, not being filmed losing one's temper. 'Your angry face is their content' is the line every outlet has quoted. Nothing in any account of it addresses crowd-control weapons, when force may be used, who may authorise it, or what happened on 20 July. The archive draws no conclusion from that absence, because the archive has not read the document and an advisory on conduct is not the place a weapons authority would necessarily sit. What it does record is that this is the only instruction to Delhi Police personnel reported to have issued since 20 July, and that as reported it is about presentation. It is a written instruction to a police force about handling protests, issued by an identifiable authority on an identifiable date. If such an advisory can be circulated to 15 districts, so could an instruction on the use of force, which sharpens the question of whether one governed 20 July. See OQ-053."
+    "note": "Read what this advisory is about, and then read what it is not about. As reported, it concerns how officers appear on camera: composure, tone and keeping one's temper while filmed. 'Your angry face is their content' is the line every outlet has quoted. Nothing in any account of it addresses crowd-control weapons, when force may be used, who may authorise it, or what happened on 20 July. The archive draws no conclusion from that absence, because the archive has not read the document and an advisory on conduct is not the place a weapons authority would necessarily sit. What it does record is that this is the only instruction to Delhi Police personnel reported to have issued since 20 July, and that as reported it is about presentation. It is a written instruction to a police force about handling protests, issued by an identifiable authority on an identifiable date. If such an advisory can be circulated to 15 districts, so could an instruction on the use of force, which sharpens the question of whether one governed 20 July. See OQ-053."
   },
   {
     "id": "PREC-SHUT-001",
@@ -37443,7 +37443,7 @@ WGO.importedQuestions = [
   {
     "id": "OQ-012",
     "incidentId": null,
-    "text": "BNSS s.196 verified against India Code, not secondary sources.",
+    "text": "BNSS s.196 verified against India Code.",
     "priority": "MEDIUM",
     "whyItMatters": "Currently REPORTED only.",
     "lawfulRoute": "India Code.",
@@ -37808,7 +37808,7 @@ WGO.importedQuestions = [
     "incidentId": "INC-0002",
     "text": "Who authorised an AK-47, described by the State as a platoon-level weapon for special operations, to be carried on law-and-order duty at a student protest at Siwan on 25 July 2026.",
     "priority": "TIME_CRITICAL",
-    "whyItMatters": "This is the archive's question in its purest form, and the State has opened the door to it by admitting the weapon should not have been there. Somebody decided the deployment, drew the weapon from an armoury and recorded the issue. Arms issue registers, deployment orders and the daily diary are records, and they are the kind of record that answers who gave the order, not who pulled the trigger.",
+    "whyItMatters": "This is the archive's question in its purest form, and the State has opened the door to it by admitting the weapon should not have been there. Somebody decided the deployment, drew the weapon from an armoury and recorded the issue. Arms issue registers, deployment orders and the daily diary are records, and they are the kind of record that answers who gave the order.",
     "lawfulRoute": "RTI to the Superintendent of Police, Siwan, and to the District Magistrate, Siwan, for the deployment order for 25 July 2026, the arms and ammunition issue register entry, the daily diary entries for the relevant hours, and any requisition of armed force. Separately, the suspension order and the departmental proceeding record for the named constable. File before any retention period runs: no court is known to have ordered preservation in Bihar.",
     "state": "UNANSWERED",
     "wants": [
@@ -37861,10 +37861,10 @@ WGO.importedQuestions = [
     "text": "The Delhi Government (Home Department) order of 18 August 2026 transferring 43 IPS and DANIPS officers, and any file noting recording the reason for the two postings reported as connected to the Jantar Mantar policing.",
     "priority": "MEDIUM",
     "whyItMatters": "The order is the only document that could show whether the two moves had anything to do with the protest, and reporting says on its face it does not. Either answer is worth having: a routine rejig closes a line of speculation, and a noting that says otherwise is the first record of an office acting on the police action.",
-    "lawfulRoute": "Transfer and posting orders of this kind are ordinarily published by the Home Department, Government of NCT of Delhi, on delhi.gov.in. If it is not there, RTI to the Public Information Officer, Home Department, GNCTD, for the order dated 18 August 2026 and the Police Establishment Board recommendation behind it. Ask for the order, not for an opinion about it.",
+    "lawfulRoute": "Transfer and posting orders of this kind are ordinarily published by the Home Department, Government of NCT of Delhi, on delhi.gov.in. If it is not there, RTI to the Public Information Officer, Home Department, GNCTD, for the order dated 18 August 2026 and the Police Establishment Board recommendation behind it. Ask for the order.",
     "state": "UNANSWERED",
     "wants": [
-      "Transfer and posting orders of this kind are ordinarily published by the Home Department, Government of NCT of Delhi, on delhi.gov.in. If it is not there, RTI to the Public Information Officer, Home Department, GNCTD, for the order dated 18 August 2026 and the Police Establishment Board recommendation behind it. Ask for the order, not for an opinion about it."
+      "Transfer and posting orders of this kind are ordinarily published by the Home Department, Government of NCT of Delhi, on delhi.gov.in. If it is not there, RTI to the Public Information Officer, Home Department, GNCTD, for the order dated 18 August 2026 and the Police Establishment Board recommendation behind it. Ask for the order."
     ],
     "evidenceIds": [],
     "blocks": [
@@ -37878,10 +37878,10 @@ WGO.importedQuestions = [
     "text": "Which database the facial recognition at Jantar Mantar matched faces against, which body supplied the images in it, and under what authority they were shared.",
     "priority": "HIGH",
     "whyItMatters": "Delhi Police has admitted the deployment and says it matched only against crime records. A matching system needs a set of images to match against, and where that set came from is an authorisation question of exactly the kind this archive exists to ask. Nothing on the record answers it. Saket Gokhale, a Trinamool Congress leader and former Rajya Sabha member, publicly put the same question to the Election Commission, UIDAI, the Income Tax Department, the Transport Department and Delhi Police in August 2026, and has separately obtained hospital records on the pellet injuries by Right to Information (INC-DEL-006); no reply from any of them is on this record, and a question asked in public is not an answer.",
-    "lawfulRoute": "RTI to the Public Information Officer, Delhi Police, for the name of the database or databases used for facial recognition at Jantar Mantar in July 2026 and for any memorandum of understanding or data-sharing arrangement under which images were obtained; and to the Election Commission of India and the NCRB for any arrangement to share photographic records with Delhi Police that was in force in July 2026. Ask for documents and dates, not for confirmation of a theory. The disclosure sought in PROC-SC-007 covers the same ground and may answer it first.",
+    "lawfulRoute": "RTI to the Public Information Officer, Delhi Police, for the name of the database or databases used for facial recognition at Jantar Mantar in July 2026 and for any memorandum of understanding or data-sharing arrangement under which images were obtained; and to the Election Commission of India and the NCRB for any arrangement to share photographic records with Delhi Police that was in force in July 2026. Ask for documents and dates. The disclosure sought in PROC-SC-007 covers the same ground and may answer it first.",
     "state": "UNANSWERED",
     "wants": [
-      "RTI to the Public Information Officer, Delhi Police, for the name of the database or databases used for facial recognition at Jantar Mantar in July 2026 and for any memorandum of understanding or data-sharing arrangement under which images were obtained; and to the Election Commission of India and the NCRB for any arrangement to share photographic records with Delhi Police that was in force in July 2026. Ask for documents and dates, not for confirmation of a theory. The disclosure sought in PROC-SC-007 covers the same ground and may answer it first."
+      "RTI to the Public Information Officer, Delhi Police, for the name of the database or databases used for facial recognition at Jantar Mantar in July 2026 and for any memorandum of understanding or data-sharing arrangement under which images were obtained; and to the Election Commission of India and the NCRB for any arrangement to share photographic records with Delhi Police that was in force in July 2026. Ask for documents and dates. The disclosure sought in PROC-SC-007 covers the same ground and may answer it first."
     ],
     "evidenceIds": [],
     "blocks": [
@@ -37895,7 +37895,7 @@ WGO.importedQuestions = [
     "incidentId": "INC-0001",
     "text": "Delhi Police General Diary entry 0008A of 22 July 2026, Parliament Street police station, recording the munitions used at Jantar Mantar on 20 July 2026 and the Deputy Commissioner of Police under whose orders they were used.",
     "priority": "HIGH",
-    "whyItMatters": "Two outlets report having read it and this archive has not. It is the only document described anywhere that ties the use of force at Jantar Mantar to an officer who ordered it, and it is a routine police record, not a leak or a reconstruction. Holding it would move the archive from reporting what a newspaper says a record says to holding the record.",
+    "whyItMatters": "Two outlets report having read it and this archive has not. It is the only document described anywhere that ties the use of force at Jantar Mantar to an officer who ordered it, and it is a routine police record. Holding it would move the archive from reporting what a newspaper says a record says to holding the record.",
     "lawfulRoute": "RTI to the Public Information Officer, Delhi Police, for a copy of General Diary entry 0008A dated 22 July 2026 of Parliament Street police station. Ask for the entry by its number and date. If exemption is claimed under section 8, the refusal is itself a record worth publishing and opens a first appeal. The same entry may be produced in W.P.(C) 917/2026, in which case the court record is the better route.",
     "state": "UNANSWERED",
     "wants": [
@@ -37950,10 +37950,10 @@ WGO.importedQuestions = [
     "text": "Which Deputy Commissioner of Police gave the order recorded in General Diary entry 0008A, and whether that order was written or oral.",
     "priority": "HIGH",
     "whyItMatters": "This is the question the site is named after, narrowed for the first time to a rank, a date and a police record that is said to name the office. Everything else in this archive asks who authorised the use of force in general terms. This asks it of one entry in one diary.",
-    "lawfulRoute": "It follows OQ-040: obtain the entry first, since it is reported to record the office. Alt News says it is withholding the officers' names, so the names are in the document and not in the reporting. If the entry records an oral order, the wireless log and the control room recording for 20 July become the next request, and both are subject to short retention periods.",
+    "lawfulRoute": "It follows OQ-040: obtain the entry first, since it is reported to record the office. Alt News says it is withholding the officers' names, so the names are in the document. If the entry records an oral order, the wireless log and the control room recording for 20 July become the next request, and both are subject to short retention periods.",
     "state": "UNANSWERED",
     "wants": [
-      "It follows OQ-040: obtain the entry first, since it is reported to record the office. Alt News says it is withholding the officers' names, so the names are in the document and not in the reporting. If the entry records an oral order, the wireless log and the control room recording for 20 July become the next request, and both are subject to short retention periods."
+      "It follows OQ-040: obtain the entry first, since it is reported to record the office. Alt News says it is withholding the officers' names, so the names are in the document. If the entry records an oral order, the wireless log and the control room recording for 20 July become the next request, and both are subject to short retention periods."
     ],
     "evidenceIds": [],
     "blocks": [
@@ -37966,7 +37966,7 @@ WGO.importedQuestions = [
     "incidentId": null,
     "text": "The standard operating procedure prepared in 2011 by a Union High Task Force on crowd control, and the report of the High Powered Committee of 2016, which counsel told the Supreme Court is not available.",
     "priority": "MEDIUM",
-    "whyItMatters": "If a national protocol on these weapons was written in 2011 and reviewed in 2016, then what any force may lawfully do is not an open question but a buried one. A report that a party's counsel could not obtain is worth obtaining.",
+    "whyItMatters": "If a national protocol on these weapons was written in 2011 and reviewed in 2016, then what any force may lawfully do is a buried question. A report that a party's counsel could not obtain is worth obtaining.",
     "lawfulRoute": "RTI to the Ministry of Home Affairs for the 2011 standard operating procedure and for the report of the High Powered Committee of 2016, by name and year. Also worth checking the Bureau of Police Research and Development, which publishes work of this kind. This is a records request about policy documents and touches no individual.",
     "state": "UNANSWERED",
     "wants": [
@@ -37981,7 +37981,7 @@ WGO.importedQuestions = [
   {
     "id": "OQ-045",
     "incidentId": "INC-0001",
-    "text": "The Supreme Court's order of 18 August 2026 constituting the High Powered Enquiry Committee, and the committee's terms of reference as issued, not as reported.",
+    "text": "The Supreme Court's order of 18 August 2026 constituting the High Powered Enquiry Committee, and the committee's terms of reference as issued.",
     "priority": "HIGH",
     "whyItMatters": "The committee's mandate is reported to include the deployment of pellet guns by name. What it may and may not examine, what powers it has and what it must report on are all fixed by the order, and this archive holds only journalists' accounts of it. The order is also the document that would settle whether this matter is a civil or a criminal writ, which the reporting cites both ways.",
     "lawfulRoute": "Supreme Court orders are published on the Court's own site and are free. Retrieve it by case number and date of order and record the URL actually fetched. Do not reconstruct a path. If the number is wrong, search the cause list for 10 September 2026, the reported next date.",
@@ -38001,11 +38001,11 @@ WGO.importedQuestions = [
     "incidentId": "INC-0001",
     "text": "The First Information Report registered at Parliament Street police station on 21 August 2026 on the complaint of a student injured at Jantar Mantar: its number, the sections invoked, and who it names.",
     "priority": "HIGH",
-    "whyItMatters": "It is the first criminal case in this archive about the police action, not about the protest. The sections invoked will show whether it is being investigated as an offence by identified persons or as an incident by persons unknown, and an FIR against unidentified persons can stay that way indefinitely unless somebody is watching.",
-    "lawfulRoute": "FIRs are required to be published online within a fixed period (CRT-006), and the Delhi Police publication route is recorded as UNKNOWN (CRT-005), so establishing that route is the first step and is useful well beyond this FIR. Failing that, RTI to the Public Information Officer, Delhi Police, for FIRs registered at Parliament Street police station on 21 August 2026. Ask by station and date, not by the complainant's name.",
+    "whyItMatters": "It is the first criminal case in this archive about the police action. The sections invoked will show whether it is being investigated as an offence by identified persons or as an incident by persons unknown, and an FIR against unidentified persons can stay that way indefinitely unless somebody is watching.",
+    "lawfulRoute": "FIRs are required to be published online within a fixed period (CRT-006), and the Delhi Police publication route is recorded as UNKNOWN (CRT-005), so establishing that route is the first step and is useful well beyond this FIR. Failing that, RTI to the Public Information Officer, Delhi Police, for FIRs registered at Parliament Street police station on 21 August 2026. Ask by station and date.",
     "state": "UNANSWERED",
     "wants": [
-      "FIRs are required to be published online within a fixed period (CRT-006), and the Delhi Police publication route is recorded as UNKNOWN (CRT-005), so establishing that route is the first step and is useful well beyond this FIR. Failing that, RTI to the Public Information Officer, Delhi Police, for FIRs registered at Parliament Street police station on 21 August 2026. Ask by station and date, not by the complainant's name."
+      "FIRs are required to be published online within a fixed period (CRT-006), and the Delhi Police publication route is recorded as UNKNOWN (CRT-005), so establishing that route is the first step and is useful well beyond this FIR. Failing that, RTI to the Public Information Officer, Delhi Police, for FIRs registered at Parliament Street police station on 21 August 2026. Ask by station and date."
     ],
     "evidenceIds": [],
     "blocks": [
@@ -38019,7 +38019,7 @@ WGO.importedQuestions = [
     "incidentId": "INC-0001",
     "text": "Copies of the Right to Information replies from Lady Hardinge Medical College and Safdarjung Hospital recording pellet or projectile injuries treated on 20 July 2026.",
     "priority": "HIGH",
-    "whyItMatters": "This is the shortest path from CORROBORATED to VERIFIED anywhere in the archive. The replies exist, an identified person holds them, and every outlet that reported them worked from the same two documents without reproducing either. Holding the replies would mean the archive was reading the hospitals, not reading the news about the hospitals.",
+    "whyItMatters": "This is the shortest path from CORROBORATED to VERIFIED anywhere in the archive. The replies exist, an identified person holds them, and every outlet that reported them worked from the same two documents without reproducing either. Holding the replies would mean the archive was reading the hospitals.",
     "lawfulRoute": "Two routes, and the first is a courtesy, not a statute: ask Saket Gokhale, who obtained them and has publicised them, for copies. Failing that, file the same applications directly with the Public Information Officers of Lady Hardinge Medical College and Safdarjung Hospital, asking only for the number of persons treated for pellet, shot or projectile injuries on 20 July 2026. Ask for a number. Do not ask for anything that identifies a patient, both because it is wrong and because it invites the refusal recorded at OVR-DEL-002.",
     "state": "UNANSWERED",
     "wants": [
@@ -38037,7 +38037,7 @@ WGO.importedQuestions = [
     "incidentId": "INC-0001",
     "text": "The AIIMS refusal letter of about 20 August 2026, whether a first appeal was filed against it, and the reply from Ram Manohar Lohia Hospital.",
     "priority": "TIME_CRITICAL",
-    "whyItMatters": "Two hospitals answered a question the third refused, so the refusal is testable, not merely regrettable. It is marked time critical because a first appeal under section 19(1) must be filed within thirty days of the refusal and that window closes in the second half of September 2026. If no appeal is filed the refusal simply stands, and the count of people treated at the largest hospital in the group is never established.",
+    "whyItMatters": "Two hospitals answered a question the third refused, so the refusal is testable. It is marked time critical because a first appeal under section 19(1) must be filed within thirty days of the refusal and that window closes in the second half of September 2026. If no appeal is filed the refusal simply stands, and the count of people treated at the largest hospital in the group is never established.",
     "lawfulRoute": "The appeal is the applicant's to file and this project cannot file it for him. What this project can do is ask AIIMS the same question itself, which restarts a clock of its own and produces either the number or a second refusal on the same ground, and either outcome is a record. RML can be asked directly for the reply that was never sent. Ask for numbers only.",
     "state": "UNANSWERED",
     "wants": [
@@ -38053,13 +38053,13 @@ WGO.importedQuestions = [
   {
     "id": "OQ-049",
     "incidentId": "INC-0002",
-    "text": "The fact-finding report of the PUCL Bihar public hearing of 22 August 2026, as a document, not as reported.",
+    "text": "The fact-finding report of the PUCL Bihar public hearing of 22 August 2026, as a document.",
     "priority": "HIGH",
     "whyItMatters": "It is the only sustained account of the Bihar police action that does not come from the State of Bihar, and it names its panel, which means it can be weighed. Three outlets have described it and none has published it. A report that exists and cannot be read is a gap this archive can close by asking.",
-    "lawfulRoute": "Write to the People's Union for Civil Liberties, Bihar unit, and ask for the report and any annexures. This is a request to a civil society organisation for its own published work, not a statutory request, and it should be made as one: say what the archive is, say that the report would be indexed and attributed to PUCL, and say that testimony identifying individuals will not be republished.",
+    "lawfulRoute": "Write to the People's Union for Civil Liberties, Bihar unit, and ask for the report and any annexures. This is a non-statutory request to a civil society organisation for its own published work, and it should be made as one: say what the archive is, say that the report would be indexed and attributed to PUCL, and say that testimony identifying individuals will not be republished.",
     "state": "UNANSWERED",
     "wants": [
-      "Write to the People's Union for Civil Liberties, Bihar unit, and ask for the report and any annexures. This is a request to a civil society organisation for its own published work, not a statutory request, and it should be made as one: say what the archive is, say that the report would be indexed and attributed to PUCL, and say that testimony identifying individuals will not be republished."
+      "Write to the People's Union for Civil Liberties, Bihar unit, and ask for the report and any annexures. This is a non-statutory request to a civil society organisation for its own published work, and it should be made as one: say what the archive is, say that the report would be indexed and attributed to PUCL, and say that testimony identifying individuals will not be republished."
     ],
     "evidenceIds": [],
     "blocks": [
@@ -38107,10 +38107,10 @@ WGO.importedQuestions = [
     "text": "The armoury issue and return registers for the police units deployed at Siwan on 25 July 2026, and any ballistics or forensic examination of the rounds fired.",
     "priority": "TIME_CRITICAL",
     "whyItMatters": "The State says four AK-47 rounds at one location. An open-source investigation says at least nine at two others. An issue and return register settles how many rounds left the armoury and how many came back, and it does so without anybody's account being believed. It is marked time critical because these registers are working documents on ordinary retention schedules and nobody has been reported to have asked for them.",
-    "lawfulRoute": "RTI to the Public Information Officer, Superintendent of Police, Siwan, for the armoury issue and return register entries for 25 July 2026 and for any forensic or ballistics report on rounds recovered. Ask for the register entries, not for a summary of them. If exemption is claimed, the ground is itself worth publishing.",
+    "lawfulRoute": "RTI to the Public Information Officer, Superintendent of Police, Siwan, for the armoury issue and return register entries for 25 July 2026 and for any forensic or ballistics report on rounds recovered. Ask for the register entries. If exemption is claimed, the ground is itself worth publishing.",
     "state": "UNANSWERED",
     "wants": [
-      "RTI to the Public Information Officer, Superintendent of Police, Siwan, for the armoury issue and return register entries for 25 July 2026 and for any forensic or ballistics report on rounds recovered. Ask for the register entries, not for a summary of them. If exemption is claimed, the ground is itself worth publishing."
+      "RTI to the Public Information Officer, Superintendent of Police, Siwan, for the armoury issue and return register entries for 25 July 2026 and for any forensic or ballistics report on rounds recovered. Ask for the register entries. If exemption is claimed, the ground is itself worth publishing."
     ],
     "evidenceIds": [],
     "blocks": [
@@ -38143,7 +38143,7 @@ WGO.importedQuestions = [
     "incidentId": "INC-0001",
     "text": "Were any of the July 2026 telecommunications suspension orders for Central Delhi published, and if so where; and does the confidential witness portal directed by the Supreme Court on 10 September 2026 now exist, at what address?",
     "priority": "HIGH",
-    "whyItMatters": "Two halves of the same problem. CUS-SHUT-001 records the Internet Freedom Foundation's observation on 20 July that no suspension order had been published; this archive has not itself searched every gazette and portal, so it records that as reported rather than as an established absence. An absence is the hardest thing to prove and the easiest to assert. The portal matters for a different reason: it is the one route this archive could point a frightened witness to, and pointing anyone at a portal whose existence is unconfirmed would be worse than saying nothing.",
+    "whyItMatters": "Two halves of the same problem. CUS-SHUT-001 records the Internet Freedom Foundation's observation on 20 July that no suspension order had been published; this archive has not itself searched every gazette and portal, so it records that as reported. An absence is the hardest thing to prove and the easiest to assert. The portal matters for a different reason: it is the one route this archive could point a frightened witness to, and pointing anyone at a portal whose existence is unconfirmed would be worse than saying nothing.",
     "lawfulRoute": "Search the MHA, DoT, GNCTD and Delhi Police sites; FQ-014 for the orders; FQ-016 for the order copy.",
     "state": "UNANSWERED",
     "wants": [
@@ -38308,12 +38308,12 @@ WGO.importedFilings = [
     "incidentId": null,
     "jurisdiction": "all",
     "action": "Retrieve an authoritative text of the Right to Information Act 2005 and record the URL actually fetched, to restore RTI-ACT-001 and RTI-ACT-002 to VERIFIED.",
-    "authority": "India Code. If India Code cannot serve the Act, the alternative official publisher is UNKNOWN and becomes an open question rather than a guess.",
+    "authority": "India Code. If India Code cannot serve the Act, the alternative official publisher is UNKNOWN and becomes an open question.",
     "method": "indiacode.nic.in, navigating from its Central Acts listing. Do not reconstruct a bitstream path by editing the one that failed.",
     "cost": "Free",
     "legalBasis": "Published primary legislation. Not an application.",
     "exposureRisk": false,
-    "notes": "SEQUENCE 0 so this precedes FQ-001 without renumbering the queue. Every deadline in this queue is computed from RTI Act timelines that are currently UNVERIFIED: s.7(1) thirty days, the s.7(1) proviso forty-eight hours, s.7(7) with s.11 forty days, the s.5(2) proviso thirty-five days, s.19(1) and s.19(3) appeal windows, and s.7(2) deemed refusal. The previously recorded URL https://www.indiacode.nic.in/bitstream/123456789/2013/1/A2005-22.pdf was fetched on 16 August 2026 and returned HTTP 302 to a page titled 'India Code: Invalid URL or Argument(s)' containing no text of the Act. That failure is itself recorded rather than papered over. Free, needs no application, and blocks nothing while it is done.",
+    "notes": "SEQUENCE 0 so this precedes FQ-001 without renumbering the queue. Every deadline in this queue is computed from RTI Act timelines that are currently UNVERIFIED: s.7(1) thirty days, the s.7(1) proviso forty-eight hours, s.7(7) with s.11 forty days, the s.5(2) proviso thirty-five days, s.19(1) and s.19(3) appeal windows, and s.7(2) deemed refusal. The previously recorded URL https://www.indiacode.nic.in/bitstream/123456789/2013/1/A2005-22.pdf was fetched on 16 August 2026 and returned HTTP 302 to a page titled 'India Code: Invalid URL or Argument(s)' containing no text of the Act. That failure is itself recorded. Free, needs no application, and blocks nothing while it is done.",
     "resolves": [
       "RTI-ACT-001",
       "RTI-ACT-002"
@@ -38331,7 +38331,7 @@ WGO.importedFilings = [
     "cost": "Free",
     "legalBasis": "Published judgment. Not an application.",
     "exposureRisk": false,
-    "notes": "SEQUENCE 0, same reasoning as FQ-013: it costs nothing, needs no third party, and upgrades a claim this archive is relying on. PREC-SHUT-001 currently rests on the Internet Freedom Foundation's citation of the case rather than on the case. The proposition is well known, which is exactly why it is easy to leave unverified. FQ-014 leans on it.",
+    "notes": "SEQUENCE 0, same reasoning as FQ-013: it costs nothing, needs no third party, and upgrades a claim this archive is relying on. PREC-SHUT-001 currently rests on the Internet Freedom Foundation's citation of the case. The proposition is well known, which is exactly why it is easy to leave unverified. FQ-014 leans on it.",
     "resolves": []
   },
   {
@@ -38346,7 +38346,7 @@ WGO.importedFilings = [
     "cost": "Postage only",
     "legalBasis": "Not a statutory instrument. A representation puts the authority on notice; destruction after notice is itself a documentable fact.",
     "exposureRisk": false,
-    "notes": "MOST URGENT ITEM. Drafts for all four are in correspondence/ and are unsent.\n\nCORRECTED 18 September 2026. This item used to read 'No court is seized of the Bihar incidents. Nothing currently interrupts any retention schedule.' The first half is no longer true and the correction strengthens the representations rather than weakening them: the State of Bihar is a respondent in the Supreme Court proceedings on the protests and has filed an affidavit there (PROC-BIH-001, PROC-SC-004), and the Court constituted a High Powered Enquiry Committee by order reported 18 August 2026 (PROC-SC-006). The drafts are addressed on that footing.\n\nThe second half stands. No preservation order for any Bihar location is held by this archive (RET-007, UNKNOWN), and an inquiry existing is not the same as a direction to preserve having been made and communicated to a district police office.\n\nSiwan added. It carries CORROBORATED evidence of firearms discharged and injuries, on the State's own affidavit, and had no representation queued. Sitamarhi appears in the PUCL panel findings (INC-BIH-005) and nowhere else, so there is no dated incident record to write from and none is invented; that gap is real.\n\nMunger is UNVERIFIED as to whether force was used (INC-BIH-003) and its draft says so in terms. Do not firm that up.",
+    "notes": "MOST URGENT ITEM. Drafts for all four are in correspondence/ and are unsent.\n\nCORRECTED 18 September 2026. This item used to read 'No court is seized of the Bihar incidents. Nothing currently interrupts any retention schedule.' The first half is no longer true and the correction strengthens the representations: the State of Bihar is a respondent in the Supreme Court proceedings on the protests and has filed an affidavit there (PROC-BIH-001, PROC-SC-004), and the Court constituted a High Powered Enquiry Committee by order reported 18 August 2026 (PROC-SC-006). The drafts are addressed on that footing.\n\nThe second half stands. No preservation order for any Bihar location is held by this archive (RET-007, UNKNOWN), and an inquiry existing is not the same as a direction to preserve having been made and communicated to a district police office.\n\nSiwan added. It carries CORROBORATED evidence of firearms discharged and injuries, on the State's own affidavit, and had no representation queued. Sitamarhi appears in the PUCL panel findings (INC-BIH-005) and nowhere else, so there is no dated incident record to write from and none is invented; that gap is real.\n\nMunger is UNVERIFIED as to whether force was used (INC-BIH-003) and its draft says so in terms. Do not firm that up.",
     "resolves": [
       "OQ-002"
     ]
@@ -38363,7 +38363,7 @@ WGO.importedFilings = [
     "cost": "Free",
     "legalBasis": "Published judicial record.",
     "exposureRisk": false,
-    "notes": "Every Supreme Court record in this archive is an outlet's account of an order rather than the order. That is a weakness across the whole supreme_court category, not a gap in one record, and it is cheap to fix because the orders are public. Getting the 10 September order would also settle whether the confidential witness portal at OQ-054 exists and where.",
+    "notes": "Every Supreme Court record in this archive is an outlet's account of an order. That is a weakness across the whole supreme_court category and is cheap to fix because the orders are public. Getting the 10 September order would also settle whether the confidential witness portal at OQ-054 exists and where.",
     "resolves": []
   },
   {
@@ -38374,7 +38374,7 @@ WGO.importedFilings = [
     "jurisdiction": "delhi",
     "action": "Obtain the Delhi Police affidavit dated 17 August 2026 filed before the Supreme Court, and the application of 31 August 2026 with the affidavit of Joint Commissioner Ajay Krishna Sharma, from the Court's own record. Then ask Delhi Police, under the Right to Information Act, for the standard operating procedure governing the Facial Recognition System, the record of what was captured at Jantar Mantar between 20 and 26 July 2026, the retention period applied to it, and the verification protocol the force says is pending.",
     "authority": "Supreme Court of India for the filings. Commissioner of Police, Delhi, through the Ministry of Home Affairs route, for the procedure and retention.",
-    "method": "The filings are on the Court's record and need no application. The RTI goes to rtionline.gov.in. Ask for the procedure and the retention period, not for the list: a list of 2,873 named people is the last thing this archive should hold or ask to be published.",
+    "method": "The filings are on the Court's record and need no application. The RTI goes to rtionline.gov.in. Ask for the procedure and the retention period: a list of 2,873 named people is the last thing this archive should hold or ask to be published.",
     "cost": "Rs 10 application fee for the RTI; the filings are free",
     "legalBasis": "Published judicial record; Right to Information Act for the procedure and retention.",
     "exposureRisk": false,
@@ -38497,7 +38497,7 @@ WGO.importedFilings = [
     "jurisdiction": "delhi",
     "action": "Obtain any order suspending telecommunications in the Jantar Mantar area on 2 October 2026, the officer's designation, and the Review Committee proceedings under rule 3(2) of the Telecommunications (Temporary Suspension of Services) Rules 2024, as for FQ-014.",
     "authority": "Ministry of Home Affairs as the issuing authority for the July order; the Department of Telecommunications and the Commissioner of Delhi Police as alternatives. Whether the same office acted on 2 October is not established.",
-    "method": "RTI application, one subject matter, asking for the documents and not for an explanation.",
+    "method": "RTI application, one subject matter, asking for the documents.",
     "cost": "Rs 10 application fee",
     "legalBasis": "Right to Information Act 2005; Anuradha Bhasin v. Union of India (2020) 3 SCC 637 requires such orders to be published.",
     "exposureRisk": false,
@@ -38953,7 +38953,7 @@ WGO.importedPrecedents = [
     ],
     "category": "precedent",
     "jurisdiction": "india",
-    "note": "Build into design now: expect holes in the eCourts route and design for absence, not treating it as failure. Search multiple transliterations of every name, especially in Bihar."
+    "note": "Build into design now: expect holes in the eCourts route and design for absence. Search multiple transliterations of every name, especially in Bihar."
   },
   {
     "id": "PREC-004",
@@ -38975,7 +38975,7 @@ WGO.importedPrecedents = [
     ],
     "category": "precedent",
     "jurisdiction": "india",
-    "note": "Not a primary-document archive, but the closest systematic Indian evidence base, and its bibliography is a route to earlier fact-finding."
+    "note": "A secondary source and the closest systematic Indian evidence base; its bibliography is a route to earlier fact-finding."
   },
   {
     "id": "PREC-006",
@@ -38986,7 +38986,7 @@ WGO.importedPrecedents = [
     ],
     "category": "precedent",
     "jurisdiction": "india",
-    "note": "Paywalled. Academic, not operational, but directly on what an FIR archive can and cannot show."
+    "note": "Paywalled. Academic work, directly on what an FIR archive can and cannot show."
   },
   {
     "id": "PREC-007",
@@ -38995,7 +38995,7 @@ WGO.importedPrecedents = [
     "sourceIds": [],
     "category": "precedent",
     "jurisdiction": "india",
-    "note": "Only the Polis Project's general reflection at PREC-003 was found, and that is a reflection, not an account of a particular incident. Treat the absence as a failure to find, not as evidence that it has not happened."
+    "note": "Only the Polis Project's general reflection at PREC-003 was found. Treat the absence as a failure to find, not as evidence that it has not happened."
   },
   {
     "id": "PREC-SHUT-001",
