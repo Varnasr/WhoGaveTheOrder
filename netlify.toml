@@ -45,7 +45,7 @@
 [[redirects]]
   from = "/investigation.html"
   query = {id = ":id"}
-  to = "/incident/:id.html?"
+  to = "/incident/:id.html"
   status = 301
   force = true
 
