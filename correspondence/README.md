@@ -23,7 +23,7 @@ no clock. `FQ-002` is the RTI that follows.
 ## Before sending
 
 1. **Fill every `[ ]` placeholder.** Sender name, address and contact. The
-   drafts leave these blank rather than invent them.
+   drafts leave these blank and invent nothing.
 2. **Check the office address and the name of the current officeholder.** This
    archive holds neither, and neither is guessed here. A letter to a
    misidentified officer is a letter that can be ignored for a good reason.
@@ -47,7 +47,7 @@ if the two drift, so the page cannot send a letter this repository does not hold
 Change a letter here, run the builder, commit both.
 
 The send buttons stay off until every `[ ]` is filled, which is step 1 above
-enforced rather than asked for. Steps 2 and 3 are not enforced and cannot be:
+enforced by the page itself. Steps 2 and 3 are not enforced and cannot be:
 nothing here knows who holds the office today, and nothing here can read the
 letter for you.
 

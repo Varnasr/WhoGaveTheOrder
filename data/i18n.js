@@ -1,5 +1,5 @@
 /* =============================================================================
-   WhoGaveTheOrder.in — Hindi interface
+   WhoGaveTheOrder.in: Hindi interface
    -----------------------------------------------------------------------------
    What is translated, and what deliberately is not.
 
@@ -11,7 +11,7 @@
 
    NOT TRANSLATED: the records. An evidence item says what its source says, in
    the language the source said it. Translating a record would put a sentence in
-   the archive that no document supports — which is the one thing this site does
+   the archive that no document supports: which is the one thing this site does
    not do. Where a source is in Hindi and the record is in English, that is a
    gap in the record, not something to paper over here.
 
@@ -59,6 +59,15 @@ WGO.I18N = {
       readInHindi: 'हिन्दी में पढ़ें',
       readInEnglish: 'Read in English',
       hindiEntry: 'यह अभिलेख क्या है'
+    },
+
+    share: {
+      label: 'साझा करें',
+      record: 'इस अभिलेख को साझा करें',
+      email: 'ईमेल',
+      copy: 'लिंक कॉपी करें',
+      copied: 'लिंक कॉपी हो गया',
+      more: 'और विकल्प'
     },
 
     footer: {

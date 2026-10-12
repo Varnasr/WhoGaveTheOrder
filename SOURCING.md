@@ -40,7 +40,7 @@ own files, on the record and attributably. An RTI never comes back empty.
 ### Where to file
 
 - **Union ministries** (including MHA, which is the route for Delhi, since Delhi Police reports to
-  it rather than to a state government): `rtionline.gov.in`
+  it directly, with no state government in between): `rtionline.gov.in`
 - **Bihar and Maharashtra**: each state has its own mechanism. Check whether the state offers online
   filing or requires postal filing with a court-fee stamp, because that changes the volunteer
   workflow and the turnaround.
@@ -51,7 +51,7 @@ own files, on the record and attributably. An RTI never comes back empty.
   arguably qualify. Claim it explicitly in the application when it applies, and say why.
 - **The appeal ladder**: First Appellate Authority inside the office, then the Information
   Commission. Expect refusals on anything touching an investigation said to be ongoing, and treat
-  the appeal as part of the plan rather than as a failure.
+  the appeal as a planned part of the process.
 
 ### The technique that actually cracks "who gave the order"
 
@@ -65,7 +65,7 @@ contradiction between two replies goes in as evidence, against the incident, lik
 
 ### Log it the day you file
 
-Add an `RTI-` record to `data/records.js` on the **day of filing**, not the day a reply arrives. The
+Add an `RTI-` record to `data/records.js` on the **day of filing**; the day a reply arrives does not set its date. The
 register computes the reply-due date and any overdue count from `filedOn`, so an application that is
 40 days late says so on the public page by itself. See the [RTI register](rti.html).
 
@@ -102,9 +102,9 @@ be replaced.
 
 | Route | What it is | Cost | Use it for |
 |---|---|---|---|
-| **Indian Kanoon API** (`api.indiankanoon.org`) | Search and document API over the Supreme Court, every High Court and the tribunals. JSON or XML, token or key-signed auth. | ₹0.50 a search, ₹0.20 a document, ₹0.05 a fragment. **Non-commercial projects get ₹10,000 of free credit a month** after the administrator verifies the use case, which is roughly 20,000 documents. | Standing searches. The right way to keep re-asking "has anything been filed in Bihar yet?" instead of asking once by hand. |
-| **eCourts judgment search** (`judgments.ecourts.gov.in/pdfsearch`) and the **SCR portal** (`scr.sci.gov.in`, which replaced eSCR and DigiSCR) | The official free portals. No API; a search form and a PDF. | Free | The certified copy. When a court order becomes evidence here, this is the source to cite, not a report about it. |
-| **Development Data Lab judicial data** (`devdatalab.org/judicial-data`) | 81 million district court cases, 2010–2018, derived from eCourts. Filing, registration, hearing and decision dates, acts and sections, disposition. Open Database License. | Free | Pattern, not documents. How cases of a given kind move through a given district's courts. It will not contain anything from 2026. |
+| **Indian Kanoon API** (`api.indiankanoon.org`) | Search and document API over the Supreme Court, every High Court and the tribunals. JSON or XML, token or key-signed auth. | ₹0.50 a search, ₹0.20 a document, ₹0.05 a fragment. **Non-commercial projects get ₹10,000 of free credit a month** after the administrator verifies the use case, which is roughly 20,000 documents. | Standing searches. The right way to keep re-asking "has anything been filed in Bihar yet?" automatically on a repeating basis. |
+| **eCourts judgment search** (`judgments.ecourts.gov.in/pdfsearch`) and the **SCR portal** (`scr.sci.gov.in`, which replaced eSCR and DigiSCR) | The official free portals. No API; a search form and a PDF. | Free | The certified copy. When a court order becomes evidence here, this is the source to cite, and any report about it is secondary. |
+| **Development Data Lab judicial data** (`devdatalab.org/judicial-data`) | 81 million district court cases, 2010–2018, derived from eCourts. Filing, registration, hearing and decision dates, acts and sections, disposition. Open Database License. | Free | Shows patterns and supplies no documents. How cases of a given kind move through a given district's courts. It will not contain anything from 2026. |
 
 Two things to avoid. **`caselaw.in` is not a case-law database**: it is KanoonGPT, an AI chat
 product over bare acts, freemium and without an API. And no AI summary of a judgment is a source:
@@ -144,7 +144,7 @@ pending. State Human Rights Commissions in Bihar and Maharashtra work the same w
 concern, which the site's privacy policy already commits to. Aggregate admission figures via RTI to
 government hospitals give you numbers without identities.
 
-**Media**: original files, not forwards. A WhatsApp forward is stripped of the metadata that fixes
+**Media**: obtain the original files. A WhatsApp forward is stripped of the metadata that fixes
 time and place, which is why submitted footage of unknown provenance stays UNVERIFIED, sometimes
 permanently. Ask contributors for the file off the device that recorded it.
 
@@ -177,7 +177,7 @@ REPORTED in the evidence library.
 
 - **Oral orders leave no paper.** Where an order was given orally, the most this archive may
   establish is who was present and what was logged. That is a real ceiling, and the site says so on
-  the About page rather than pretending otherwise.
+  the About page.
 - **Exemptions will be claimed hard** on anything touching an investigation described as ongoing.
   Budget for the appeal.
 

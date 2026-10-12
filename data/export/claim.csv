@@ -1,5 +1,5 @@
 id,kind,title,state,url,incidentId,evidenceIds
-CLM-0001,Claim,Police used force against students at Jantar Mantar.,UNVERIFIED,https://www.whogavetheorder.in/investigation.html?id=jantar-mantar#what-happened,INC-0001,
-CLM-0002,Claim,Police used force against students in Bihar.,UNVERIFIED,https://www.whogavetheorder.in/investigation.html?id=bihar#what-happened,INC-0002,
-CLM-0003,Claim,Police used force against students in Maharashtra.,UNVERIFIED,https://www.whogavetheorder.in/investigation.html?id=maharashtra#what-happened,INC-0003,
-CLM-0004,Claim,"Police used force on protesters near Jantar Mantar on 2 October 2026, beyond moving them onto buses.",UNVERIFIED,https://www.whogavetheorder.in/investigation.html?id=jantar-mantar-2-october#what-happened,INC-0006,
+CLM-0001,Claim,Police used force against students at Jantar Mantar.,UNVERIFIED,https://www.whogavetheorder.in/incident/jantar-mantar.html#what-happened,INC-0001,
+CLM-0002,Claim,Police used force against students in Bihar.,UNVERIFIED,https://www.whogavetheorder.in/incident/bihar.html#what-happened,INC-0002,
+CLM-0003,Claim,Police used force against students in Maharashtra.,UNVERIFIED,https://www.whogavetheorder.in/incident/maharashtra.html#what-happened,INC-0003,
+CLM-0004,Claim,"Police used force on protesters near Jantar Mantar on 2 October 2026, beyond moving them onto buses.",UNVERIFIED,https://www.whogavetheorder.in/incident/jantar-mantar-2-october.html#what-happened,INC-0006,

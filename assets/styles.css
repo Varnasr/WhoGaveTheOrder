@@ -1,5 +1,5 @@
 /* ==========================================================================
-   WhoGaveTheOrder.in — design system
+   WhoGaveTheOrder.in: design system
    Editorial / investigative / civic. Public archive x newsroom x evidence room.
    No party colours, no outrage aesthetics, no stock imagery, no dependencies.
    Mobile-first: base rules are phone rules; media queries add width.
@@ -31,7 +31,7 @@
 
      The values are pitched to be seen. An earlier pass held the blue at a tint
      so pale that on most screens it read as grey, which is a colour scheme
-     nobody notices — worse than no colour at all. */
+     nobody notices: worse than no colour at all. */
   --brand-blue:        #3d8dc4;   /* the signature blue: marks, rules, borders */
   --brand-blue-ink:    #10527d;   /* text-safe on light ground */
   --brand-blue-soft:   #d8e9f6;   /* tinted surface */
@@ -45,7 +45,7 @@
      that sits on whichever ground the block is showing. */
   --gap-kicker:        var(--brand-yellow);
 
-  /* Evidence states — restrained accents, never decorative */
+  /* Evidence states: restrained accents, never decorative */
   --verified-fg:      #0f5132;  --verified-bg:      #e6f2ea;  --verified-br:      #a9cfba;
   --corroborated-fg:  #0b4f6c;  --corroborated-bg:  #e2eff5;  --corroborated-br:  #a4c9d9;
   --reported-fg:      #7c5300;  --reported-bg:      #fbf1dc;  --reported-br:      #dfc9a0;
@@ -208,7 +208,7 @@ section + section { border-top: 1px solid var(--rule); }
    alone: 137px, because the track shrinks and the checksum still overflows its
    own card. `overflow-wrap` alone: 0. Both: 0. So the second line is the one
    doing the work here, and the first is there for the next item that cannot
-   shrink and is not text — an image, an iframe, a wide table. */
+   shrink and is not text: an image, an iframe, a wide table. */
 .grid > * { min-width: 0; }
 .card, .question, .stack > * { overflow-wrap: anywhere; }
 @media (min-width: 720px) {
@@ -351,8 +351,8 @@ section + section { border-top: 1px solid var(--rule); }
 .chip--sample       { background: repeating-linear-gradient(45deg, var(--paper-3), var(--paper-3) 6px, var(--paper-2) 6px, var(--paper-2) 12px); color: var(--ink-2); border-color: var(--rule-strong); }
 
 /* Status chips hold two or three words and must never break mid-label. The
-   plain and sample chips carry arbitrary text — an office name, an evidence
-   title, a channel description — so they wrap instead of pushing the page out. */
+   plain and sample chips carry arbitrary text: an office name, an evidence
+   title, a channel description: so they wrap instead of pushing the page out. */
 .chip--plain, .chip--sample {
   white-space: normal;
   max-width: 100%;
@@ -395,7 +395,7 @@ a.card:hover { border-color: var(--rule-strong); }
   color: var(--ink-3);
 }
 
-/* Three-column fact frame — the defining homepage device */
+/* Three-column fact frame: the defining homepage device */
 .frame { border: 1px solid var(--rule); border-radius: var(--radius); background: var(--paper-2); overflow: hidden; }
 .frame__col { padding: 1.25rem; border-top: 1px solid var(--rule); }
 .frame__col:first-child { border-top: 0; }
@@ -410,7 +410,7 @@ a.card:hover { border-color: var(--rule-strong); }
   .frame__col:first-child { border-left: 0; }
 }
 
-/* The UNKNOWN block — a strong state, never an apology */
+/* The UNKNOWN block: a strong state, never an apology */
 .gap-block {
   background: var(--unknown-bg); color: var(--unknown-fg);
   border-radius: var(--radius); padding: 1.25rem;
@@ -460,7 +460,7 @@ a.card:hover { border-color: var(--rule-strong); }
 .ladder__cite { font-size: 0.8125rem; margin: 0.35rem 0 0; font-family: var(--mono); }
 .ladder__next { font-size: 0.8125rem; margin-top: 1rem; color: var(--ink-2); }
 
-/* Empty-state — used everywhere the record is genuinely bare */
+/* Empty-state: used everywhere the record is genuinely bare */
 .empty {
   border: 1px dashed var(--rule-strong); border-radius: var(--radius);
   padding: 1.15rem; background: var(--paper-2);
@@ -535,7 +535,7 @@ a.card:hover { border-color: var(--rule-strong); }
 .node__body p, .node__body li { font-size: 0.875rem; color: var(--ink-2); }
 .node__body ul { list-style: none; }
 .node__body ul li { padding-left: 0.9rem; position: relative; margin-bottom: 0.25rem; }
-.node__body ul li::before { content: "—"; position: absolute; left: 0; color: var(--ink-4); }
+.node__body ul li::before { content: "\2022"; position: absolute; left: 0; color: var(--ink-4); }
 
 /* The two claims that must never be conflated */
 .authority-split { display: grid; gap: 0.6rem; margin-top: 0.9rem; }
@@ -962,7 +962,7 @@ blockquote.official cite { display: block; margin-top: 0.4rem; font-family: var(
   max-height: 24rem;
   overflow-y: auto;
 }
-/* A citation is three lines, not a document — it does not need the scroll box. */
+/* A citation is three lines, not a document: it does not need the scroll box. */
 .cite__text { max-height: none; }
 
 /* --- Footer legal row ----------------------------------------------------- */
@@ -988,7 +988,7 @@ blockquote.official cite { display: block; margin-top: 0.4rem; font-family: var(
    ========================================================================== */
 
 /* A two-band rule across the very top: blue over yellow. Yellow is allowed
-   three jobs on the page and no more — this stripe, the section mark that
+   three jobs on the page and no more: this stripe, the section mark that
    echoes it, and the rule under the zero. Everywhere else it appears only
    behind dark text, where its own contrast against the paper does not matter
    but the text's contrast against it does. */
@@ -1022,7 +1022,7 @@ blockquote.official cite { display: block; margin-top: 0.4rem; font-family: var(
 a { color: var(--brand-blue-ink); }
 a:hover { color: var(--ink); text-decoration-color: var(--brand-yellow); }
 
-/* The wordmark is an anchor, but it is not a link being offered to the reader —
+/* The wordmark is an anchor, but it is not a link being offered to the reader:
    it is the masthead of the publication. It stays ink, so the top of the page
    reads as a nameplate rather than as navigation. */
 .wordmark, .wordmark:hover { color: var(--ink); }
@@ -1078,7 +1078,7 @@ blockquote.official { border-left: 4px solid var(--brand-blue); }
 
 /* Every section opens on a short brand mark. Sections that already carry a
    kicker have their colour from it, so the mark only applies where the heading
-   stands alone — otherwise the bar would sit between the kicker and the
+   stands alone: otherwise the bar would sit between the kicker and the
    heading and read as a divider rather than as a mark. */
 .section-head > h2:first-child::before {
   content: "";
@@ -1093,7 +1093,7 @@ blockquote.official { border-left: 4px solid var(--brand-blue); }
 }
 
 /* The counts are information; the zero is the argument. Blue on the first two
-   and ink under yellow on the last keeps that order legible — .stat--zero b
+   and ink under yellow on the last keeps that order legible: .stat--zero b
    below restores the ink. */
 .stat b { color: var(--brand-blue-ink); }
 
@@ -1122,7 +1122,7 @@ blockquote.official { border-left: 4px solid var(--brand-blue); }
 .explainer { border-left: 4px solid var(--brand-blue); }
 
 /* Timeline and chain connectors, previously grey. The rail is the spine of a
-   sequence — it should be as visible as the entries hanging off it. */
+   sequence: it should be as visible as the entries hanging off it. */
 .timeline { border-left-color: var(--brand-blue); }
 .timeline li::before { border-color: var(--brand-blue); }
 .chain__rung { color: var(--brand-blue-ink); }
@@ -1149,7 +1149,7 @@ blockquote.official { border-left: 4px solid var(--brand-blue); }
 
 /* Tables: banded with the brand tint rather than grey. A 55% grey band on a
    near-grey paper was invisible on anything but a calibrated screen. The row
-   headings step up from --ink-3, which measures 4.23:1 on the band — they are
+   headings step up from --ink-3, which measures 4.23:1 on the band: they are
    11px uppercase, so they do not qualify as large text and need the full 4.5. */
 /* --ink-3 is measured against the page, not against this tint: on the banded
    rows it came to 4.22:1, and those cells carry the "not established" notes,
@@ -1162,3 +1162,7 @@ blockquote.official { border-left: 4px solid var(--brand-blue); }
    4px is worth more than any change of hue: it is the difference between a
    border that happens to be coloured and a stripe that is read as one. */
 .question { border-left-width: 4px; }
+
+/* --- share bar -------------------------------------------------------------- */
+.share { display: flex; flex-wrap: wrap; gap: 0.5rem; align-items: center; margin-top: 1rem; }
+.share__label { font-family: var(--mono); font-size: 0.6875rem; letter-spacing: 0.06em; text-transform: uppercase; color: var(--ink-3); margin-right: 0.25rem; }

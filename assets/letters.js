@@ -1,5 +1,5 @@
 /* =============================================================================
-   letters.html — the preservation representations, ready to send
+   letters.html: the preservation representations, ready to send
    -----------------------------------------------------------------------------
    FQ-001 is the archive's most urgent open item and its method has read "speed
    post to each office" since it was written, with four unsent drafts sitting in
@@ -23,7 +23,7 @@
      directory as the four addressees (contacts.md, retrieved 18 September 2026).
      Each draft carries an optional "copy to DGP" line, and contacts.md asks for
      the decision to be made once and applied to all four rather than copying
-     some and not others — so this is one switch on the page, not four. */
+     some and not others: so this is one switch on the page, not four. */
   var DGP = { name: 'The Director General of Police (Crime), Bihar', email: 'dgpcr.pat-bih@gov.in' };
 
   var FIELDS = [

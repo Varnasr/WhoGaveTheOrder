@@ -42,11 +42,11 @@ The `UNKNOWN` count is high and is meant to be. It is not a backlog to be cleare
 
 **Maharashtra's RTI rules were remade twice in one month.** The rules gazetted 7 July 2026 supersede rules published 12 June 2026. Both bear the year 2026, so always specify the date. Rule 3(b) caps an application at one subject matter and 150 words, which means a bundled request is lawfully answerable in part only.
 
-**No PIO designation was established for any office.** The whole document-custody category is `UNKNOWN`. The route out is s.4(1)(b) proactive disclosure, which is published rather than requested. `FQ-005` blocks most of the rest of the queue.
+**No PIO designation was established for any office.** The whole document-custody category is `UNKNOWN`. The route out is s.4(1)(b) proactive disclosure, which is published without any request. `FQ-005` blocks most of the rest of the queue.
 
 ## One negative finding worth treating as substantive
 
-No Supreme Court or NHRC guideline was found addressing the use of force against assemblies as distinct from custody and encounter deaths. The Indian accountability architecture is built around deaths, and BNSS s.151 protects officers acting in good faith under ss.148 to 150. See `GUI-GAP-001`, recorded as `UNVERIFIED` rather than as an established absence, because it is also the claim most likely to be wrong through a failure to search well.
+No Supreme Court or NHRC guideline was found addressing the use of force against assemblies as distinct from custody and encounter deaths. The Indian accountability architecture is built around deaths, and BNSS s.151 protects officers acting in good faith under ss.148 to 150. See `GUI-GAP-001`, recorded as `UNVERIFIED`, which leaves the absence unestablished, because it is also the claim most likely to be wrong through a failure to search well.
 
 ## Verification debt
 

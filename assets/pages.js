@@ -1,5 +1,5 @@
 /* =============================================================================
-   WhoGaveTheOrder.in — page controllers
+   WhoGaveTheOrder.in: page controllers
    -----------------------------------------------------------------------------
    Each page declares itself with <body data-page="..."> and the matching
    controller below fills in the data-driven regions. Static editorial copy
@@ -148,7 +148,7 @@
       el.style.height = 'auto';
       el.innerHTML = '<h4 class="kicker">Locations</h4><ul class="stack-sm" style="margin-top:0.6rem">' +
         model.incidents.map(function (i) {
-          return '<li><a href="investigation.html?id=' + ui.esc(i.slug) + '">' + ui.esc(i.place) + '</a> ' +
+          return '<li><a href="incident/' + ui.esc(i.slug + '.html') + '">' + ui.esc(i.place) + '</a> ' +
             ui.chip(i.incidentState) +
             (i.coordsState === 'UNKNOWN' ? ' ' + ui.chip('UNKNOWN', { prefix: 'Location' }) : '') + '</li>';
         }).join('') + '</ul>';
@@ -180,7 +180,7 @@
           (incident.coordsState === 'UNKNOWN'
             ? '<em>Precise location not established. The pin shows the state only.</em><br>'
             : '') +
-          '<a href="investigation.html?id=' + ui.esc(incident.slug) + '">Open the investigation</a>');
+          '<a href="incident/' + ui.esc(incident.slug + '.html') + '">Open the investigation</a>');
       });
     } catch (err) {
       fallback();
@@ -188,11 +188,11 @@
   }
 
   /* ======================================================================= *
-     INVESTIGATION PAGE — the heart of the product
+     INVESTIGATION PAGE: the heart of the product
      ======================================================================= */
 
   pages.investigation = function () {
-    var incident = model.incident(ui.param('id') || 'jantar-mantar');
+    var incident = model.incident(ui.param('id') || document.body.getAttribute('data-incident') || 'jantar-mantar');
 
     if (!incident) {
       ui.mount('[data-region="investigation"]',
@@ -206,7 +206,18 @@
       ui.idChip(incident.id) + ' ' + ui.chip(incident.incidentState) + ' ' +
       ui.plainChip(incident.place));
 
-    /* 01 — WHAT HAPPENED */
+    var shareHost = document.querySelector('[data-region="share"]');
+    if (shareHost) {
+      shareHost.innerHTML = ui.shareLinks({
+        title: incident.title,
+        text: 'Who gave the order? ' + incident.title + '. What is established, what is reported and what is not yet known, with sources:',
+        url: WGO.config.siteUrl + '/incident/' + incident.slug + '.html',
+        label: ui.t('share.record', 'Share this record')
+      });
+      ui.bindShare(shareHost);
+    }
+
+    /* 01: WHAT HAPPENED */
     var events = model.eventsFor(incident.id);
     ui.mount('[data-region="what-happened"]',
       ui.EXPLAIN.unknown() +
@@ -236,7 +247,7 @@
             'Nothing dated has been established yet. This section fills in when we hold a stamped document, an original recording with intact metadata, or a court record that fixes a time.',
             '<a class="btn btn--small btn--ghost" href="submit.html">Send us dated evidence</a>') + '</div>'));
 
-    /* 02 — WHAT EVIDENCE EXISTS */
+    /* 02: WHAT EVIDENCE EXISTS */
     var evidence = model.evidenceFor(incident.id);
     var published = evidence.filter(function (e) { return !e.demo; });
     ui.mount('[data-region="evidence"]',
@@ -248,7 +259,7 @@
         ? '<p class="small" style="margin-top:0.9rem">Published evidence items for this incident: <strong>0</strong>.</p>'
         : ''));
 
-    /* 03 — HAS ANYONE SAID WHO AUTHORISED THIS?
+    /* 03: HAS ANYONE SAID WHO AUTHORISED THIS?
        One section where there used to be two, plus a chain-of-command map on
        its own page. The map listed the eight offices empowered to authorise
        force anywhere in India and reported "authorisation not established" on
@@ -258,7 +269,7 @@
        the letter asking that office to keep it. */
     ui.mount('[data-region="authorisation"]', authorisationHtml(incident));
 
-    /* 04 — WHAT REMAINS UNKNOWN */
+    /* 04: WHAT REMAINS UNKNOWN */
     var questions = model.questionsFor(incident.id);
     var open = questions.filter(function (q) { return q.state === 'UNANSWERED'; });
     ui.mount('[data-region="questions"]',
@@ -266,7 +277,7 @@
         '</strong> questions on this incident are unanswered. Each one names the document that would answer it.</p>' +
       questions.map(ui.questionCard).join(''));
 
-    /* 05 — HELP FIND THE MISSING EVIDENCE */
+    /* 05: HELP FIND THE MISSING EVIDENCE */
     // The container in investigation.html is already the <ul>, as it is for
     // [data-region="wanted"]. Wrapping the items in a second <ul> put a list
     // inside a list, which is invalid and which a screen reader announces as
@@ -286,7 +297,7 @@
       })() +
       '<div style="margin-top:1.5rem">' + ui.citeBlock({
         id: incident.id, title: incident.title, state: incident.incidentState,
-        path: 'investigation.html?id=' + incident.slug
+        path: 'incident/' + incident.slug + '.html'
       }) + '</div>');
 
     ui.bindCopy(document);
@@ -297,12 +308,12 @@
   }
 
   /* ======================================================================= *
-     WHO AUTHORISED IT — the orders we hold, and the letter where we hold none
+     WHO AUTHORISED IT: the orders we hold, and the letter where we hold none
      ----------------------------------------------------------------------- *
      This replaced chain.html and its expandable eight-office map on
      2026-09-23. The map was not wrong. It was a diagram of the statutory
-     structure — Union Home, State Home, DGP, Commissioner, District
-     Magistrate, SP, the officer commanding on site, the units deployed —
+     structure: Union Home, State Home, DGP, Commissioner, District
+     Magistrate, SP, the officer commanding on site, the units deployed:
      rendered identically for every incident because nothing in this archive
      distinguishes them. Every node reported "authorisation not established",
      which was honest and, repeated eight times on a page in the primary
@@ -506,7 +517,7 @@
         row('Evidence type', ui.esc(model.typeLabel(item.type))) +
         row('Incident', (function () {
           var inc = model.incident(item.incidentId);
-          return inc ? '<a href="investigation.html?id=' + ui.esc(inc.slug) + '">' + ui.esc(inc.place) + '</a>' : 'Unassigned';
+          return inc ? '<a href="incident/' + ui.esc(inc.slug + '.html') + '">' + ui.esc(inc.place) + '</a>' : 'Unassigned';
         })()) +
         row('Source', ui.sourceDetail(item.sourceIds)) +
         row('How we obtained it', ui.esc(item.origin || 'Not recorded')) +
@@ -517,7 +528,7 @@
       /* The two lines that are the whole point of an evidence record. They were
          two identical grey cards among several, so the page's most important
          claim carried no more weight than its metadata. They are now a matched
-         pair, marked and set apart: what it proves, and — the harder half —
+         pair, marked and set apart: what it proves, and: the harder half:
          what it does not. */
       '<div class="finding" style="margin-top:1.75rem">' +
         '<div class="finding__half finding__half--does">' +
@@ -628,7 +639,7 @@
         var rtis = model.rtisFor(m.q.id);
         return '<tr>' +
           '<td>' + ui.esc((m.q.wants && m.q.wants.join(', ')) || 'none') + '</td>' +
-          '<td><a href="investigation.html?id=' + ui.esc(m.inc ? m.inc.slug : '') + '#' + ui.esc(m.q.id) + '">' +
+          '<td><a href="incident/' + ui.esc(m.inc ? m.inc.slug : '') + '.html#' + ui.esc(m.q.id) + '">' +
             ui.esc(m.q.text) + '</a></td>' +
           '<td>' + ui.esc(m.inc ? m.inc.state : 'none') + '</td>' +
           '<td>' + (rtis.length
@@ -783,7 +794,7 @@
       var q = model.index.question[qid];
       var inc = q ? model.incident(q.incidentId) : null;
       return q
-        ? '<li><a href="investigation.html?id=' + ui.esc(inc ? inc.slug : '') + '#' + ui.esc(q.id) + '">' +
+        ? '<li><a href="incident/' + ui.esc(inc ? inc.slug : '') + '.html#' + ui.esc(q.id) + '">' +
             ui.esc(q.text) + '</a></li>'
         : '<li class="small">' + ui.esc(qid) + ': missing question record</li>';
     }).join('');
@@ -932,7 +943,7 @@
   }
 
   /* One import can move a hundred and forty records. Listing them all leaves a
-     page ten thousand pixels tall, which is not a change log, it is a dump —
+     page ten thousand pixels tall, which is not a change log, it is a dump:
      so each group shows its first few and folds the rest away. */
   var CHANGE_PREVIEW = 6;
 
@@ -1081,6 +1092,7 @@
 
     var page = document.body.getAttribute('data-page');
     if (pages[page]) { pages[page](); }
+    ui.initShare();
 
     /* Definitions used by the About page, generated from the taxonomy. */
     var glossary = document.querySelector('[data-region="glossary"]');

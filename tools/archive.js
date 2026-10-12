@@ -5,8 +5,8 @@
    That is deliberate: the site has no build step and opening index.html off the
    filesystem has to work. It also means the model cannot be `require`d.
 
-   Rather than duplicate the model in Node — which would give the tooling its
-   own idea of what the archive says, and eventually a different one — this
+   Rather than duplicate the model in Node: which would give the tooling its
+   own idea of what the archive says, and eventually a different one: this
    evaluates the same files the browser loads, in a sandbox with a `window`, and
    hands back the built model. Every tool in this directory reads the archive
    through here, so a rule enforced in assets/model.js is enforced in CI too.
@@ -88,7 +88,7 @@ function records(WGO) {
   add('Incident', m.incidents, i => ({
     title: i.title,
     state: i.incidentState,
-    url: `investigation.html?id=${i.slug}`,
+    url: `incident/${i.slug}.html`,
     fields: { place: i.place, date: i.date || null, dateState: i.dateState || null, summary: i.summary || null }
   }));
 
@@ -122,7 +122,7 @@ function records(WGO) {
   add('Question', m.questions, q => ({
     title: q.text,
     state: q.state,
-    url: `investigation.html?id=${incidentSlug(m, q.incidentId)}#${q.id}`,
+    url: `incident/${incidentSlug(m, q.incidentId)}.html#${q.id}`,
     fields: { incidentId: q.incidentId || null, level: q.level || null, evidenceIds: q.evidenceIds || [] }
   }));
 
@@ -139,7 +139,7 @@ function records(WGO) {
   add('Claim', m.claims, c => ({
     title: c.text,
     state: c.state,
-    url: `investigation.html?id=${incidentSlug(m, c.incidentId)}#what-happened`,
+    url: `incident/${incidentSlug(m, c.incidentId)}.html#what-happened`,
     fields: { incidentId: c.incidentId || null, evidenceIds: c.evidenceIds || [] }
   }));
 
@@ -159,7 +159,7 @@ function records(WGO) {
   add('Government response', m.publishedResponses, r => ({
     title: r.respondingOffice,
     state: null,
-    url: `investigation.html?id=${incidentSlug(m, r.incidentId)}#evidence`,
+    url: `incident/${incidentSlug(m, r.incidentId)}.html#evidence`,
     fields: { channel: r.channel || null, quote: r.quote || null }
   }));
 
@@ -173,7 +173,7 @@ function records(WGO) {
   add('Order', m.orders, o => ({
     title: o.title,
     state: o.state,
-    url: `investigation.html?id=${incidentSlug(m, o.incidentId)}#orders`,
+    url: `incident/${incidentSlug(m, o.incidentId)}.html#orders`,
     fields: { issuedBy: o.issuedBy || null, incidentId: o.incidentId || null }
   }));
 

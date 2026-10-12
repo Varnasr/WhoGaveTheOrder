@@ -1,5 +1,5 @@
 /* =============================================================================
-   WhoGaveTheOrder.in — shared interface pieces
+   WhoGaveTheOrder.in: shared interface pieces
    -----------------------------------------------------------------------------
    Chrome, evidence chips, source lines and empty states. Anything that carries
    the site's evidence grammar is built here once, so that a status label cannot
@@ -22,6 +22,72 @@
 
   ui.param = function (name) {
     return new URLSearchParams(window.location.search).get(name);
+  };
+
+  /* --- sharing ------------------------------------------------------------ *
+     Plain links, so they work without a script and nothing is sent anywhere
+     until the reader taps one. The text is written to make sense as a message
+     in a chat before anyone has opened the link: it says what the page is and
+     what it contains, and the link comes last. */
+  ui.shareLinks = function (o) {
+    var text = o.text, url = o.url, title = o.title || o.text;
+    var wa = 'https://wa.me/?text=' + encodeURIComponent(text + '\n' + url);
+    var x = 'https://twitter.com/intent/tweet?text=' + encodeURIComponent(text) + '&url=' + encodeURIComponent(url);
+    var mail = 'mailto:?subject=' + encodeURIComponent(title) + '&body=' + encodeURIComponent(text + '\n\n' + url);
+    var label = o.label || ui.t('share.label', 'Share');
+    return '<div class="share" role="group" aria-label="' + ui.esc(label) + '"' +
+        ' data-share-url="' + ui.esc(url) + '" data-share-title="' + ui.esc(title) + '"' +
+        ' data-share-text="' + ui.esc(text) + '">' +
+      '<span class="share__label">' + ui.esc(label) + '</span>' +
+      '<a class="btn btn--small btn--ghost" href="' + ui.esc(wa) + '" target="_blank" rel="noopener noreferrer">WhatsApp</a>' +
+      '<a class="btn btn--small btn--ghost" href="' + ui.esc(x) + '" target="_blank" rel="noopener noreferrer">X</a>' +
+      '<a class="btn btn--small btn--ghost" href="' + ui.esc(mail) + '">' + ui.esc(ui.t('share.email', 'Email')) + '</a>' +
+      '<button type="button" class="btn btn--small btn--ghost" data-share-copy>' + ui.esc(ui.t('share.copy', 'Copy link')) + '</button>' +
+    '</div>';
+  };
+
+  ui.bindShare = function (root) {
+    var bar = root.querySelector('.share');
+    if (!bar) { return; }
+    if (navigator.share) {
+      var native = document.createElement('button');
+      native.type = 'button';
+      native.className = 'btn btn--small btn--ghost';
+      native.textContent = ui.t('share.more', 'More');
+      native.setAttribute('data-share-native', '');
+      bar.appendChild(native);
+    }
+    bar.addEventListener('click', function (event) {
+      var target = event.target;
+      if (target.hasAttribute('data-share-copy') && navigator.clipboard) {
+        navigator.clipboard.writeText(bar.getAttribute('data-share-url')).then(function () {
+          target.textContent = ui.t('share.copied', 'Link copied');
+          setTimeout(function () { target.textContent = ui.t('share.copy', 'Copy link'); }, 2000);
+        });
+      } else if (target.hasAttribute('data-share-native')) {
+        navigator.share({
+          title: bar.getAttribute('data-share-title'),
+          text: bar.getAttribute('data-share-text'),
+          url: bar.getAttribute('data-share-url')
+        }).catch(function () { /* dismissed */ });
+      }
+    });
+  };
+
+  /* A page asks for a share bar with <div data-share data-share-text="...">.
+     The address defaults to the page's own canonical link. */
+  ui.initShare = function () {
+    var canonical = document.querySelector('link[rel="canonical"]');
+    Array.prototype.forEach.call(document.querySelectorAll('[data-share]'), function (el) {
+      var url = el.getAttribute('data-share-url') || (canonical ? canonical.getAttribute('href') : window.location.href.split('#')[0]);
+      el.innerHTML = ui.shareLinks({
+        title: el.getAttribute('data-share-title') || document.title,
+        text: el.getAttribute('data-share-text') || document.title,
+        url: url,
+        label: el.getAttribute('data-share-label') || 'Share'
+      });
+      ui.bindShare(el);
+    });
   };
 
   /* --- language ----------------------------------------------------------- *
@@ -241,7 +307,7 @@
   };
 
   /* A field that has no established value yet. Used everywhere an incident
-     record is still a shell, which — before launch — is everywhere. */
+     record is still a shell, which, before launch, is everywhere. */
   ui.field = function (value, state, fallback) {
     if (value === null || value === undefined || value === '') {
       return ui.chip(state || 'UNKNOWN') + ' <span class="small">' +
@@ -331,7 +397,12 @@
   /* The switch is a link, not a control: it points at this same page in the
      other language, so it works without JavaScript and can be bookmarked. */
   function languageHtml() {
-    var here = window.location.pathname.split('/').pop() || 'index.html';
+    var file = window.location.pathname.split('/').pop() || 'index.html';
+    /* Incident pages live one folder down and resolve against a base of "../",
+       so their own address has to carry the folder. */
+    var here = /\/incident\/[^/]+$/.test(window.location.pathname)
+      ? 'incident/' + file.replace(/(\.html)?$/, '.html')
+      : file;
     var query = new URLSearchParams(window.location.search);
     var current = ui.lang();
 
@@ -492,8 +563,8 @@
   /* The five-rung "distance to the order" ladder was removed on 2026-09-23
      along with chain.html. It reported that one of four incidents had reached
      rung two and the other three rung zero, which is a progress bar on an
-     investigation nobody is conducting. The fact it carried — that a police
-     diary entry is reported to refer to an order nobody here has read — is
+     investigation nobody is conducting. The fact it carried: that a police
+     diary entry is reported to refer to an order nobody here has read: is
      stated in plain words on the incident page and on the front page, where
      it does not need a diagram. WGO.model.orderLadder() is kept: the export
      and the record model still use the rung a record has reached. */
@@ -570,8 +641,8 @@
      make a citation harder than a URL: whoever cites this needs to say which
      version they read, and on what day it said what it said.
 
-     The retrieval date is the reader's own — taken from their clock, not from
-     the record — because that is what a citation is recording. */
+     The retrieval date is the reader's own: taken from their clock, not from
+     the record: because that is what a citation is recording. */
 
   ui.citeBlock = function (record) {
     var cfg = WGO.config || {};
@@ -639,7 +710,7 @@
     var open = questions.filter(function (q) { return q.state === 'UNANSWERED'; }).length;
     var evidence = WGO.model.evidenceFor(incident.id).filter(function (e) { return !e.demo; }).length;
 
-    return '<a class="card" href="investigation.html?id=' + ui.esc(incident.slug) + '">' +
+    return '<a class="card" href="incident/' + ui.esc(incident.slug + '.html') + '">' +
       '<div class="row">' + ui.idChip(incident.id) + ui.chip(incident.incidentState) + '</div>' +
       '<h3>' + ui.esc(incident.title) + '</h3>' +
       '<p>' + ui.esc(incident.place) + '</p>' +

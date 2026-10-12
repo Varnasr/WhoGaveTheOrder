@@ -30,13 +30,13 @@ facing the gravest charges found at least 25 who were in jail on the day the sof
 
 A second wave began on 2 October 2026, over the Chief Election Commissioner and the revision of the
 electoral rolls. It is recorded as two incidents of its own, apart from the July ones: mass
-detention at Jantar Mantar under a section 163 order (force alleged by protesters, not established),
+detention at Jantar Mantar under a section 163 order (force alleged by protesters; the allegation is NOT ESTABLISHED),
 and an FIR over the Shivaji Park gathering in Mumbai (no force alleged). The Supreme Court order of
 1 September is reported to cover only the protests of 20 to 25 July.
 
 An FIR, a refusal of permission and a withdrawal notification are each written by somebody. A baton
 is not. That asymmetry is the archive's subject and the records now keep the two apart: a shell
-recording cases rather than force says so in its title and in every field.
+that records cases and records no force says so in its title and in every field.
 
 That is not an unfinished seed to be tidied up. It is the product working as designed. The brief's own rule (§23) is that the site must never manufacture certainty, and the
 fastest way to violate it would have been to ship plausible-looking placeholder facts about real
@@ -57,8 +57,8 @@ python3 -m http.server 8000
 # then open http://localhost:8000/
 ```
 
-Opening `index.html` directly off the filesystem also works: the data is loaded as plain scripts
-rather than fetched JSON, so there is no CORS problem. The only things that need a server are the
+Opening `index.html` directly off the filesystem also works: the data is loaded as plain scripts,
+so no JSON is fetched and there is no CORS problem. The only things that need a server are the
 map tiles and the Netlify Forms submission endpoints.
 
 ---
@@ -69,7 +69,7 @@ map tiles and the Netlify Forms submission endpoints.
 |---|---|
 | `index.html` | Homepage: what the record holds, what it does not, and the letter |
 | `investigations.html` | Investigation index and the incident map |
-| `investigation.html?id=<slug>` | The five-section incident page: what happened, what evidence exists, has anyone said who authorised it, what remains unknown, what would close the gap |
+| `incident/<slug>.html` | The five-section incident page: what happened, what evidence exists, has anyone said who authorised it, what remains unknown, what would close the gap |
 | `evidence.html` | Evidence library; `?id=WGO-0001` renders a single evidence record |
 | `letters.html` | The four Bihar preservation representations, composed and opened in a mail window |
 | `submit.html` | Submission form, the gap list, and the public demand |
@@ -95,7 +95,7 @@ column of the footer under "Take part".
 `chain.html` in particular was not wrong. It mapped the eight offices empowered to authorise force
 in India and reported "authorisation not established" on every node, which is true. Rendered
 identically for every incident, in the second navigation slot, eight times down the page, it read
-as an investigation rather than as the absence of one. The specific half of it, which office
+as an investigation when it in fact marked the absence of one. The specific half of it, which office
 holds the records for *this* incident, and the letter asking that office to keep them, is now on
 the incident page, in section 03, where somebody has just finished reading what happened.
 
@@ -110,7 +110,7 @@ permits the redeclaration, so nothing had ever errored. `assets/pages.js` went f
 
 ## Content model
 
-Structured and relational, not a pile of pages. Two chains, and no page may skip a link in either:
+Structured and relational: a connected set of records. Two chains, and no page may skip a link in either:
 
 ```
 Incident → Claim    → Evidence  → Source
@@ -177,10 +177,10 @@ boundary commit reports no parent, so every record reads as added by it. The dai
 sweep ran at `actions/checkout`'s default depth of 1 and committed the result with
 `[skip ci]`: the published change log became a single entry claiming a sweep-log
 commit had created all 201 records, and the Atom feed told subscribers the same.
-Both workflows now set `fetch-depth: 0`, and `build.js` exits rather than writing a
+Both workflows now set `fetch-depth: 0`, and `build.js` exits without writing a
 false history if one is missed.
 
-**`SRC-` ids are allocated in `sourcemap/source-ids.json`, not recomputed.** They
+**`SRC-` ids are allocated once in `sourcemap/source-ids.json` and stored there.** They
 used to be positional, so adding a source to an early record renumbered every id
 after it: the first real content edit moved 18 of them, and these ids are published
 in `feed.xml` and the change log. A key in the ledger keeps its id wherever its
@@ -198,17 +198,17 @@ evidence about the incidents:
 | | | |
 |---|---|---|
 | 32 | about the incidents | incidents, evidence, external index |
-| 75 | how to obtain documents | `SOURCING.md`, not the evidence library |
+| 75 | how to obtain documents | `SOURCING.md` (the evidence library does not hold this) |
 | 29 | the legal framework | the offices' `statutoryBasis` |
 
-**Which provision binds which office is a reading, not a lookup.** `OFFICE_FRAMEWORK` in
+**Which provision binds which office is a matter of reading the statutes.** `OFFICE_FRAMEWORK` in
 `import.py` carries the assignment and, for each one, the reason. Two rules govern it: a provision
 goes to the office the provision itself names or empowers, and a commissionerate is not a district;
 the Commissioner concentrates powers that a district splits between the DM and the SP. The chain
-page shows the reasoning rather than hiding it.
+page shows its reasoning openly.
 
 `PREC-*` records are excluded from that mapping on purpose: they document how other archives were
-built, which is methodology, not the statutory basis of an office.
+built, which is methodology that says nothing about the statutory basis of an office.
 
 Re-run after editing `sourcemap/*.json`:
 
@@ -262,11 +262,11 @@ code alone would not have done the job, in both directions:
   identical 2,338-byte shell for every path**, including paths that do not exist.
   A status check calls the whole host healthy. So the tool probes a control path
   on the same origin that cannot exist, and where the host answers it with the
-  same body, reports `UNCHECKABLE` rather than guessing.
+  same body, reports `UNCHECKABLE` and makes no guess.
 - Two HTTP clients disagree about a live source: on the BNSS PDF, `curl` returns
   200 with 2 MB and Node's `fetch` returns 404 with an error page, same URL, same
   user agent. A `DEAD` verdict is therefore confirmed with a second client, and a
-  disagreement is reported as `CONFLICT` rather than as a dead link.
+  disagreement is reported as `CONFLICT`, which makes no claim that the link is dead.
 - Naming itself got it blocked. A `User-Agent` of
   `WhoGaveTheOrder-link-check (+https://www.whogavetheorder.in)` draws a 403 from
   `www.indiacode.nic.in` on URLs that serve 200 to curl's default, which would have
@@ -280,8 +280,7 @@ node tools/links.js --json
 node tools/links.js --no-fail    # report only
 ```
 
-It never edits a record. Where a source has moved, add the new URL **beside** the
-old one rather than replacing it: the earlier retrieval did happen, and the date
+It never edits a record. Where a source has moved, add the new URL **beside** the old one and leave the old one in place: the earlier retrieval did happen, and the date
 the old URL was found dead is itself worth recording.
 
 ### Keeping sources checkable
@@ -322,20 +321,20 @@ then flags any `CORROBORATED` record whose sources all trace back to a single or
 > CORROBORATED, but every source traces to one origin: Delhi Police affidavit to the Supreme Court.
 > Fine if the claim is what that source says; one source if the claim is what happened.
 
-It is a warning rather than an error because the answer depends on the claim. If the claim is that a
+It is a warning because the answer depends on the claim. If the claim is that a
 document says something, several people reading that document do corroborate it. If the claim is about
 what happened, they do not. The check states the question; a person answers it.
 
 ### Explaining the archive
 
-Two layers, not three. The nine-step walkthrough was the third and it is gone.
+Two layers. The nine-step walkthrough was the third and it is gone.
 
 1. **Inline explainers**: collapsed `<details>` blocks placed where the confusion actually lands:
    the UNKNOWN shells on an incident, the six states in the evidence library, the reply clock on
    the log and the gap list. Defined once in `ui.EXPLAIN` and read from the same taxonomy the
    chips do. `EXPLAIN.authority` went with `chain.html`, which was its only caller.
 2. **The homepage**: what the record holds, what it does not, and what a reader can do about it,
-   so a first-time visitor is oriented in one screen rather than sent on a tour.
+   so a first-time visitor is oriented in one screen.
 
 If a status label is not defined in `taxonomy.js`, it does not render anywhere. That is what keeps
 the evidence grammar from drifting page to page as the archive grows.
@@ -361,7 +360,7 @@ the evidence grammar from drifting page to page as the archive grows.
 Records with an empty `sourceIds` render a **NO SOURCE ON RECORD** marker. Don't remove the
 marker: fill the array.
 
-### The two rules the code enforces, not the editor
+### The two rules the code enforces whoever edits
 
 - **Sample records never enter a published count.** `model.counts()` reads the published pools only.
 - **A record with no evidence and no source resolves to `UNKNOWN`.** The model never upgrades a
@@ -373,7 +372,7 @@ marker: fill the array.
 ## Outstanding
 
 - [x] `demoMode: false`: layout samples removed, 17 August 2026.
-- [x] `archiveStage: null`: the masthead now shows a live status line rather than a launch banner.
+- [x] `archiveStage: null`: the masthead now shows a live status line and the launch banner is gone.
 - [x] `about.html`: who runs this project, and funding, both written.
 - [x] `evidence@`, `corrections@` and `legal@whogavetheorder.in` provisioned, 17 August 2026.
       Microsoft 365 mailbox on `legal@`, with the other two as aliases.
@@ -416,7 +415,7 @@ marker: fill the array.
 ## The RTI log
 
 `rti.html` lists every Right to Information application the project has filed. Add an `RTI-` record
-on the **day you file**, not the day a reply arrives.
+on the **day you file**; the day a reply arrives does not set its date.
 
 The reply-due date and any overdue count are computed from `filedOn` on every page load and are
 never stored: a stored deadline goes stale, and a stale deadline in an accountability archive is
@@ -442,13 +441,12 @@ no outrage red. The tone is editorial and civic: a serif display face, generous 
 hairline rules, restrained accents used only to carry evidence states. Public archive × newsroom ×
 evidence room.
 
-**`UNKNOWN` is the strongest visual state on the site**: inverted black, not a grey apology. It is
-a finding, not an omission, and the interface treats it that way.
+**`UNKNOWN` is the strongest visual state on the site**: inverted black, a state built to be seen. It is a finding, and the interface treats it as one.
 
 **Two claims the chain-of-command interface never merges:** *has authority* is a statement about
 law and administrative structure; *is evidenced to have authorised this action* requires a
 document. They are separate fields, separately displayed. There is not a single individual named
-anywhere in the chain, and that is a rule rather than an oversight: a person is added to an office
+anywhere in the chain, and that is a deliberate rule: a person is added to an office
 only when a sourced document places them in it at the relevant time.
 
 **Mobile first.** Most readers arrive from WhatsApp, X or Instagram on a phone. Verified at 320,
@@ -462,3 +460,26 @@ or its tiles fail to load.
 One, and it is optional: Leaflet 1.9.4 from unpkg, for the incident map on `investigations.html`.
 If it fails to load, the map renders as a linked list of locations. Everything else is vanilla
 HTML, CSS and JavaScript with no build step, consistent with the rest of this repository.
+
+## Search and sharing
+
+Crawlers and link previews run none of the site's JavaScript, so everything they
+read has to be in the HTML the server sends. `tools/build-seo.js` writes it:
+
+- `incident/<slug>.html`, one static page per incident, with its own title,
+  description, canonical link, Open Graph and Twitter tags and JSON-LD. The page
+  loads the same scripts, which replace the static summary with the full record.
+  `investigation.html?id=<slug>` redirects to it (see `netlify.toml`).
+- A head block between `seo:begin` and `seo:end` markers on every root page.
+- `sitemap.xml` and `robots.txt`.
+- `og/cards.json`, what each share image must say.
+
+`node tools/build-og.js` draws the 1200x630 images into `og/`. It needs a
+browser, so CI does not run it; CI runs `node tools/build-seo.js --check`, which
+fails when a page lost its tags or an image was drawn from older words. After any
+change to an incident title, place, date or state, run both scripts and commit
+the result.
+
+Share links (WhatsApp, X, email, copy) come from `ui.shareLinks` in
+`assets/ui.js`. A page asks for them with `<div data-share data-share-text="...">`.
+The text is written to make sense as a chat message before the link is opened.

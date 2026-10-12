@@ -1,4 +1,4 @@
-/* Dyslexia-friendly reading font — self-contained, no dependencies.
+/* Dyslexia-friendly reading font: self-contained, no dependencies.
  *
  * Drop-in: <script src="/js/dyslexia-font.js" defer></script>
  * Fonts:   /fonts/opendyslexic-{400,700}[-italic].woff2

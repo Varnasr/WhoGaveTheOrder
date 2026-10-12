@@ -205,7 +205,7 @@
         "archived_on": "2026-09-20"
       }
     ],
-    "notes": "Cause title and case number are now established from the court's own cause list at PROC-DEL-002: Shakeel Abbas v. Union of India and Ors., W.P.(CRL) 2127/2026, listed 22 July 2026 before the Chief Justice and Justice Tejas Karia. That resolves both conflicts this record used to carry. Verdictum's cause title was right; LiveLaw's date of '23 July 2026 (Wednesday)' was wrong on its own terms, since 23 July was a Thursday and the matter was listed on Wednesday the 22nd. LiveLaw's Umesh Kumar v. Delhi Police is a different petition, most likely one of the connected matters all three reports describe; which petitions were heard together is still not established. The directions below (notice to Delhi Police and the Union, preservation of records including CCTV footage and videography in accordance with the SOP in place, four weeks for a counter affidavit, and the 11 September 2026 listing) still rest on three news reports and stay CORROBORATED. A cause list does not say what was ordered. See OQ-004 for the order itself.\n\nMOVED TO DISPUTED, 18 September 2026, on retrieving the order itself (PROC-DEL-004). The order in W.P.(CRL) 2127/2026 dated 22 July 2026 dismisses the petition and contains no notice, no preservation direction, no four-week counter affidavit and no 11 September listing. It is also about a different incident: the 18 July removal of Sonam Wangchuk, not the 20 and 21 July action against students.\n\nNot resolved by preferring the order. Four outlets reported a hearing on the police action at Jantar Mantar, and one element they reported (the BNSS s.173 observation) is in this order, so they were not describing a different day's work entirely. The likeliest reading is that a direction made in another matter before the same bench was attached to this case number in the reporting, but the archive holds no such matter and will not name one it has not seen. OQ-053 asks which proceeding, if any, carries the preservation direction.\n\nThis record is the archive's own warning arriving: CORROBORATED meant four independent outlets agreeing, and four outlets agreeing about a court order is corroboration of the reporting only.",
+    "notes": "Cause title and case number are now established from the court's own cause list at PROC-DEL-002: Shakeel Abbas v. Union of India and Ors., W.P.(CRL) 2127/2026, listed 22 July 2026 before the Chief Justice and Justice Tejas Karia. That resolves both conflicts this record used to carry. Verdictum's cause title was right; LiveLaw's date of '23 July 2026 (Wednesday)' was wrong on its own terms, since 23 July was a Thursday and the matter was listed on Wednesday the 22nd. LiveLaw's Umesh Kumar v. Delhi Police is a different petition, most likely one of the connected matters all three reports describe; which petitions were heard together is still not established. The directions below (notice to Delhi Police and the Union, preservation of records including CCTV footage and videography in accordance with the SOP in place, four weeks for a counter affidavit, and the 11 September 2026 listing) still rest on three news reports and stay CORROBORATED. A cause list does not say what was ordered. See OQ-004 for the order itself.\n\nMOVED TO DISPUTED, 18 September 2026, on retrieving the order itself (PROC-DEL-004). The order in W.P.(CRL) 2127/2026 dated 22 July 2026 dismisses the petition and contains no notice, no preservation direction, no four-week counter affidavit and no 11 September listing. It is also about a different incident: the 18 July removal of Sonam Wangchuk, which is separate from the 20 and 21 July action against students.\n\nNot resolved by preferring the order. Four outlets reported a hearing on the police action at Jantar Mantar, and one element they reported (the BNSS s.173 observation) is in this order, so they were not describing a different day's work entirely. The likeliest reading is that a direction made in another matter before the same bench was attached to this case number in the reporting, but the archive holds no such matter and will not name one it has not seen. OQ-053 asks which proceeding, if any, carries the preservation direction.\n\nThis record is the archive's own warning arriving: CORROBORATED meant four independent outlets agreeing, and four outlets agreeing about a court order is corroboration of the reporting only.",
     "volatility": "high"
   },
   {
@@ -361,7 +361,7 @@
         "archived_on": "2026-08-19"
       }
     ],
-    "notes": "The MHA-parentage inference is structural, not stated on the portal.",
+    "notes": "The MHA-parentage inference is structural; the portal does not state it.",
     "volatility": "medium"
   },
   {
@@ -540,7 +540,7 @@
         "archived_on": "2026-08-19"
       }
     ],
-    "notes": "Vendor blog. Treat as a flag to verify, not authority. Several third-party guides still wrongly assert Bihar has no online RTI facility.",
+    "notes": "Vendor blog. Treat as a flag to verify; it carries no authority. Several third-party guides still wrongly assert Bihar has no online RTI facility.",
     "volatility": "high"
   },
   {
@@ -924,7 +924,7 @@
         "archived_on": "2026-09-04"
       }
     ],
-    "notes": "Secondary summary. Verify against the gazette before quoting. Minimum-force obligation being statutory, not guidance matters for framing proportionality.",
+    "notes": "Secondary summary. Verify against the gazette before quoting. The minimum-force obligation is statutory, and that matters for framing proportionality.",
     "volatility": "low"
   },
   {
@@ -1122,7 +1122,7 @@
         "archived_on": "2026-09-20"
       }
     ],
-    "notes": "India Code header reads BIHAR ACT 1, 2007. The Bihar Police (Amendment) Act 2014 refers to Bihar Act 7, 2007. Do not cite the act number until checked against the Bihar gazette. Re-checked 18 September 2026 and deliberately left DISPUTED. India Code's current record for the Act (handle 123456789/494691) carries dc.identifier.act_number = 279, which is neither 1 nor 7 and is an internal India Code sequence for Bihar enactments rather than the Bihar Act number: the same field reads 34 for the Delhi Police Act 1978 (Act 34 of 1978) and 22 for the Central RTI Act (Act 22 of 2005), where it does match. A field that is a sequence in one state and the statutory number in another cannot resolve this dispute, and using 279 to pick a side would be resolving it on a misread. The dispute stands until the Bihar Gazette notification is held. Note also that the previously cited bitstream URL now 404s; see CUS-011.",
+    "notes": "India Code header reads BIHAR ACT 1, 2007. The Bihar Police (Amendment) Act 2014 refers to Bihar Act 7, 2007. Do not cite the act number until checked against the Bihar gazette. Re-checked 18 September 2026 and deliberately left DISPUTED. India Code's current record for the Act (handle 123456789/494691) carries dc.identifier.act_number = 279, which is neither 1 nor 7 and is an internal India Code sequence for Bihar enactments that differs from the Bihar Act number: the same field reads 34 for the Delhi Police Act 1978 (Act 34 of 1978) and 22 for the Central RTI Act (Act 22 of 2005), where it does match. A field that is a sequence in one state and the statutory number in another cannot resolve this dispute, and using 279 to pick a side would be resolving it on a misread. The dispute stands until the Bihar Gazette notification is held. Note also that the previously cited bitstream URL now 404s; see CUS-011.",
     "volatility": "medium"
   },
   {
@@ -1339,7 +1339,7 @@
         "archived_on": "2026-08-19"
       }
     ],
-    "notes": "Archive rule: a downloaded FIR from this portal is REPORTED, not VERIFIED, until a certified copy is held from the district or unit. The portal says so itself.",
+    "notes": "Archive rule: a downloaded FIR from this portal is REPORTED until a certified copy is held from the district or unit, and only then can it be VERIFIED. The portal says so itself.",
     "volatility": "low"
   },
   {
@@ -1626,7 +1626,7 @@
     "claim": "Whether any question on these incidents has already been tabled or answered in any of the four houses.",
     "confidence": "UNKNOWN",
     "sources": [],
-    "notes": "Searched 18 August 2026, nothing found, and the absence is dated. A search of sansad.in for these incidents returns only unrelated Ministry of Home Affairs questions about Delhi Police: recruitment, verification, traffic. No tabled or answered question on the police action of 20 July 2026 at Jantar Mantar, or on the Bihar incidents, is indexed. That is consistent with the reported course of the session: both Houses were repeatedly adjourned over this in the week of 23 July, leaving it untaken as a question, and answers reach the library weeks after they are given. The finding is that nothing is on the record yet. It says nothing about whether anything was asked. Route, confirmed as far as this environment allows: answered questions are published as PDFs at eparlib.sansad.in/bitstream/123456789/<id>/1/<file>.pdf, and the search index carries many Ministry of Home Affairs answers in exactly that form. Eparlib.sansad.in could not be fetched from the machine this search was run on (every request reset the connection), so the route is recorded on the strength of the index and needs a retrieval before it is relied on. The Q&A search at sansad.in/rs/questions/questions-and-answers and its Lok Sabha equivalent is a JavaScript form with no linkable result URL. Why this matters here: Delhi Police reports to the Ministry of Home Affairs, not to the Delhi government (LAW-DEL-001), so a Home Ministry answer would be the Union speaking on its own record about the force it controls, which is the strongest kind of document this archive can hold short of the order itself. Re-run at the start of the next session.",
+    "notes": "Searched 18 August 2026, nothing found, and the absence is dated. A search of sansad.in for these incidents returns only unrelated Ministry of Home Affairs questions about Delhi Police: recruitment, verification, traffic. No tabled or answered question on the police action of 20 July 2026 at Jantar Mantar, or on the Bihar incidents, is indexed. That is consistent with the reported course of the session: both Houses were repeatedly adjourned over this in the week of 23 July, leaving it untaken as a question, and answers reach the library weeks after they are given. The finding is that nothing is on the record yet. It says nothing about whether anything was asked. Route, confirmed as far as this environment allows: answered questions are published as PDFs at eparlib.sansad.in/bitstream/123456789/<id>/1/<file>.pdf, and the search index carries many Ministry of Home Affairs answers in exactly that form. Eparlib.sansad.in could not be fetched from the machine this search was run on (every request reset the connection), so the route is recorded on the strength of the index and needs a retrieval before it is relied on. The Q&A search at sansad.in/rs/questions/questions-and-answers and its Lok Sabha equivalent is a JavaScript form with no linkable result URL. Why this matters here: Delhi Police reports to the Ministry of Home Affairs and has no reporting line to the Delhi government (LAW-DEL-001), so a Home Ministry answer would be the Union speaking on its own record about the force it controls, which is the strongest kind of document this archive can hold short of the order itself. Re-run at the start of the next session.",
     "volatility": "high"
   },
   {
@@ -1900,7 +1900,7 @@
     "id": "CUS-012",
     "jurisdiction": "bihar",
     "category": "document_custody",
-    "claim": "Contact details for the district police offices to which the Bihar preservation representations are addressed, from the Bihar Police district officer directory: SSP Patna, ssp-patna-bih@nic.in, 0612-2214318 / 2219745, fax 0612-2217744; SP Katihar, sp-katihar-bih@nic.in, 06452-230601, fax 06452-245065; SP Munger, sp-munger-bih@nic.in, 06344-222406, fax 06344-222444; SP Siwan, sp-siwan-bih@nic.in, 06154-242060, fax 06154-242977. Patna's senior district officer is a Senior Superintendent of Police, not a Commissioner of Police.",
+    "claim": "Contact details for the district police offices to which the Bihar preservation representations are addressed, from the Bihar Police district officer directory: SSP Patna, ssp-patna-bih@nic.in, 0612-2214318 / 2219745, fax 0612-2217744; SP Katihar, sp-katihar-bih@nic.in, 06452-230601, fax 06452-245065; SP Munger, sp-munger-bih@nic.in, 06344-222406, fax 06344-222444; SP Siwan, sp-siwan-bih@nic.in, 06154-242060, fax 06154-242977. Patna's senior district officer is a Senior Superintendent of Police; the post of Commissioner of Police does not apply there.",
     "confidence": "VERIFIED",
     "sources": [
       {
@@ -1920,7 +1920,7 @@
         "archived_on": "2026-09-19"
       }
     ],
-    "notes": "Retrieved 18 September 2026. The directory is not a linkable page: police.bihar.gov.in is a single-page application and the 45-district officer list ships inside its application bundle as a `districts` array carrying designation, STD code, office and residence numbers, fax, mobile and email. The bundle filename is content-hashed and changes when the site is rebuilt, so the site and the retrieval date are what is citable, not the asset URL. This is the same shape of problem as CUS-011: a government source whose content cannot be addressed by URL.\n\nMunger is cross-confirmed independently by the district site, which gives the same email, office number and mobile and adds the officeholder (Syed Imran Masood, I.P.S.) and a postal address, Fort Area, S.P. Office, Munger. Two official sources agreeing on one district is why the directory is treated as reliable for the other three; it is not proof of them.\n\nPatna, Katihar and Siwan could not be cross-checked: patna.nic.in, katihar.nic.in and siwan.nic.in all returned HTTP 503 from their own nginx at the time of retrieval, while munger.nic.in served normally through the same path, so the failure was theirs.\n\nNo postal address is held for Patna, Katihar or Siwan. The police directory carries no street address and the three district sites were down. None is invented here, and the drafts in correspondence/ carry an explicit placeholder saying so. That matters for FQ-001, whose method is speed post with proof of despatch: three of the four cannot be posted until an address is obtained.\n\nEvery address is @nic.in or @gov.in, so these are government mail systems, which are the ones most likely to evaluate SPF independently of DMARC alignment. The domain's SPF record was corrected before this was recorded and now authorises the Microsoft 365 servers the domain sends from.",
+    "notes": "Retrieved 18 September 2026. The directory is not a linkable page: police.bihar.gov.in is a single-page application and the 45-district officer list ships inside its application bundle as a `districts` array carrying designation, STD code, office and residence numbers, fax, mobile and email. The bundle filename is content-hashed and changes when the site is rebuilt, so the site and the retrieval date are what is citable, and the asset URL is unsuitable for citation. This is the same shape of problem as CUS-011: a government source whose content cannot be addressed by URL.\n\nMunger is cross-confirmed independently by the district site, which gives the same email, office number and mobile and adds the officeholder (Syed Imran Masood, I.P.S.) and a postal address, Fort Area, S.P. Office, Munger. Two official sources agreeing on one district is why the directory is treated as reliable for the other three; it is not proof of them.\n\nPatna, Katihar and Siwan could not be cross-checked: patna.nic.in, katihar.nic.in and siwan.nic.in all returned HTTP 503 from their own nginx at the time of retrieval, while munger.nic.in served normally through the same path, so the failure was theirs.\n\nNo postal address is held for Patna, Katihar or Siwan. The police directory carries no street address and the three district sites were down. None is invented here, and the drafts in correspondence/ carry an explicit placeholder saying so. That matters for FQ-001, whose method is speed post with proof of despatch: three of the four cannot be posted until an address is obtained.\n\nEvery address is @nic.in or @gov.in, so these are government mail systems, which are the ones most likely to evaluate SPF independently of DMARC alignment. The domain's SPF record was corrected before this was recorded and now authorises the Microsoft 365 servers the domain sends from.",
     "volatility": "medium"
   },
   {
@@ -2504,7 +2504,7 @@
     "claim": "Any documented instance of an Indian accountability archive facing a takedown notice, defamation suit, criminal complaint, or source exposure.",
     "confidence": "UNKNOWN",
     "sources": [],
-    "notes": "Only the Polis Project's general reflection at PREC-003 was found. Treat the absence as a failure to find, not as evidence that it has not happened.",
+    "notes": "Only the Polis Project's general reflection at PREC-003 was found. Treat the absence as a failure to find, which says nothing about whether it has happened.",
     "volatility": "low"
   },
   {
@@ -2524,7 +2524,7 @@
         "archived_on": "2026-09-06"
       }
     ],
-    "notes": "The court's own record, and the first primary document in this archive for the Delhi proceeding. What it establishes: the cause title, the writ petition and application numbers, the date of listing, and the bench. It settles two things the news reports disagreed about: the cause title is Shakeel Abbas v. Union of India and Ors. as Verdictum reported, and the date is 22 July 2026, not the 23rd. What it does not establish: anything at all about what was ordered. A cause list records that a matter was listed and before whom. The directions at PROC-DEL-001 still rest on news reports and stay CORROBORATED until the order itself is held. Retrieval: the file is 21MB and its sha256 is recorded above. Delhi High Court cause lists are directly downloadable at delhihighcourt.nic.in/files/YYYY-MM/cause-list/ as combined_cause_list_DD.MM.YYYY.pdf, and per-court lists as rlDDMMYYYY.pdf. The earlier guess of c_DDMMYYYY.pdf is the format for some dates but not this one.",
+    "notes": "The court's own record, and the first primary document in this archive for the Delhi proceeding. What it establishes: the cause title, the writ petition and application numbers, the date of listing, and the bench. It settles two things the news reports disagreed about: the cause title is Shakeel Abbas v. Union of India and Ors. as Verdictum reported, and the date is 22 July 2026; reports giving the 23rd are mistaken. What it does not establish: anything at all about what was ordered. A cause list records that a matter was listed and before whom. The directions at PROC-DEL-001 still rest on news reports and stay CORROBORATED until the order itself is held. Retrieval: the file is 21MB and its sha256 is recorded above. Delhi High Court cause lists are directly downloadable at delhihighcourt.nic.in/files/YYYY-MM/cause-list/ as combined_cause_list_DD.MM.YYYY.pdf, and per-court lists as rlDDMMYYYY.pdf. The earlier guess of c_DDMMYYYY.pdf is the format for some dates but not this one.",
     "volatility": "low"
   },
   {
@@ -2600,7 +2600,7 @@
         "archived_on": "2026-09-05"
       }
     ],
-    "notes": "As stated by delhi police, on affidavit: the software 'only captured the images of criminals or history sheeters'; it 'does not automatically capture profile of every individual present at the protest site'; 'no action is taken solely on the basis of facial recognition software' and a match is followed by field verification; it captures only those with a past record for serious offences. The Solicitor General said the technology 'captures the faces of only those persons who are recorded in the crime database'. Figures reported from the same hearing, and they are the police's own: 2,873 persons identified, 2,402 through a 'Crime Kundli' database and 471 through dossier records, of whom 92 are said to be involved in more than ten cases and 47 to be history-sheeters. This archive records those numbers as the police's assertion, not as established fact. As stated by the petitioners, through Senior Advocates N. Hariharan and Menaka Guruswamy: 'that is not how the technology works', and a private company was engaged to process the data collected through the software. Neither is adopted here. The Chief Justice is reported to have said that constitutional issues would be determined by the Court alone. Until the affidavit and any finding on it are held, this stays DISPUTED. Updated 23 September 2026. This is no longer evenly balanced and the record should stop presenting it as though it were. Delhi Police's own affidavit of 17 August 2026 is reported to state that the system identified 2,873 persons with criminal antecedents at the protest site between 20 and 26 July, 2,402 of them matched against Crime Kundli. A system cannot return 2,873 matches against a database without comparing the faces it is matching, and the faces it is matching are the ones in front of the cameras. The police assertion and the petitioners' allegation turn out not to be alternatives: the deployment was confined to criminal records in what it searched for and ran on the crowd in what it looked at, and the ambiguity lived in the word 'confined'. Held at DISPUTED, because the affidavit is not in this archive's hands and because what follows about lawfulness is a question for the High Powered Enquiry Committee, which has surveillance in its terms of reference. See INC-DEL-008 and INC-DEL-009, and FQ-017.",
+    "notes": "As stated by delhi police, on affidavit: the software 'only captured the images of criminals or history sheeters'; it 'does not automatically capture profile of every individual present at the protest site'; 'no action is taken solely on the basis of facial recognition software' and a match is followed by field verification; it captures only those with a past record for serious offences. The Solicitor General said the technology 'captures the faces of only those persons who are recorded in the crime database'. Figures reported from the same hearing, and they are the police's own: 2,873 persons identified, 2,402 through a 'Crime Kundli' database and 471 through dossier records, of whom 92 are said to be involved in more than ten cases and 47 to be history-sheeters. This archive records those numbers as the police's assertion, which remains unestablished. As stated by the petitioners, through Senior Advocates N. Hariharan and Menaka Guruswamy: 'that is not how the technology works', and a private company was engaged to process the data collected through the software. Neither is adopted here. The Chief Justice is reported to have said that constitutional issues would be determined by the Court alone. Until the affidavit and any finding on it are held, this stays DISPUTED. Updated 23 September 2026. This is no longer evenly balanced and the record should stop presenting it as though it were. Delhi Police's own affidavit of 17 August 2026 is reported to state that the system identified 2,873 persons with criminal antecedents at the protest site between 20 and 26 July, 2,402 of them matched against Crime Kundli. A system cannot return 2,873 matches against a database without comparing the faces it is matching, and the faces it is matching are the ones in front of the cameras. The police assertion and the petitioners' allegation turn out not to be alternatives: the deployment was confined to criminal records in what it searched for and ran on the crowd in what it looked at, and the ambiguity lived in the word 'confined'. Held at DISPUTED, because the affidavit is not in this archive's hands and because what follows about lawfulness is a question for the High Powered Enquiry Committee, which has surveillance in its terms of reference. See INC-DEL-008 and INC-DEL-009, and FQ-017.",
     "volatility": "high"
   },
   {
@@ -2906,7 +2906,7 @@
         "archived_on": "2026-09-11"
       }
     ],
-    "notes": "Two hearings, and the reporting splits between them. The Federal and The Week carry the SOP direction and the preservation of the ammunition log from 30 July; LiveLaw carries the protocol observation and the direction to the Union from 3 August. Both dates are recorded separately, because merging them would invent a single hearing that did not happen. It is the only proceeding here reported to have ordered production of the two documents that bear directly on authorisation: a standing operating procedure that either authorises pellet-firing weapons or does not, and a contemporaneous ammunition log for the unit deployed. Justice Bagchi is reported to have observed that 'police rules allow the use in exceptional circumstances unless you challenge the rules themselves' and that 'one of the steps of the graded approach is use of pellet guns'; that is an observation about what the rules are said to permit, not a finding about what happened on 20 July. What is not held: no order of this Court, and neither of the two documents it is reported to have called for. See OQ-041 and OQ-042.",
+    "notes": "Two hearings, and the reporting splits between them. The Federal and The Week carry the SOP direction and the preservation of the ammunition log from 30 July; LiveLaw carries the protocol observation and the direction to the Union from 3 August. Both dates are recorded separately, because merging them would invent a single hearing that did not happen. It is the only proceeding here reported to have ordered production of the two documents that bear directly on authorisation: a standing operating procedure that either authorises pellet-firing weapons or does not, and a contemporaneous ammunition log for the unit deployed. Justice Bagchi is reported to have observed that 'police rules allow the use in exceptional circumstances unless you challenge the rules themselves' and that 'one of the steps of the graded approach is use of pellet guns'; that is an observation about what the rules are said to permit, and it says nothing about what happened on 20 July. What is not held: no order of this Court, and neither of the two documents it is reported to have called for. See OQ-041 and OQ-042.",
     "volatility": "high"
   },
   {
@@ -2992,7 +2992,7 @@
         "archived_on": "2026-09-08"
       }
     ],
-    "notes": "Three accounts that cannot all be right, Which is why this is DISPUTED, not UNKNOWN. One: Delhi Police, publicly on 22 July, 'Claims of pellet guns being used against peaceful protesters by Delhi Police on Monday are completely false and misleading. Delhi Police neither possesses pellet guns nor were they used during the ongoing protest.' Two: the force's own General Diary entry, as reported, records two rounds of plastic pellets and an anti-riot gun used under a DCP's orders (INC-DEL-004). Three: the petitioners' case in the Supreme Court is that metallic pellets were fired and that fragments were found in injured people. The denial and the diary entry are not reconcilable on any reading the archive can make: either the entry says something other than what two outlets report it says, or the public denial was wrong. The archive does not choose between them and does not hold the entry. On the injured: BOOM carries a named account of a man treated at Lady Hardinge Medical College with fragments near the left eyebrow, in the neck and near the eye, operated on 21 July. His name is deliberately not recorded here. He gave it to a news outlet; the record needs only the injury, the hospital and the date. What would settle it: the ammunition log ordered preserved (OQ-042), the General Diary entry (OQ-040), and medico-legal records recording what was removed from anyone's body.",
+    "notes": "Three accounts that cannot all be right, which is why this is DISPUTED. One: Delhi Police, publicly on 22 July, 'Claims of pellet guns being used against peaceful protesters by Delhi Police on Monday are completely false and misleading. Delhi Police neither possesses pellet guns nor were they used during the ongoing protest.' Two: the force's own General Diary entry, as reported, records two rounds of plastic pellets and an anti-riot gun used under a DCP's orders (INC-DEL-004). Three: the petitioners' case in the Supreme Court is that metallic pellets were fired and that fragments were found in injured people. The denial and the diary entry are not reconcilable on any reading the archive can make: either the entry says something other than what two outlets report it says, or the public denial was wrong. The archive does not choose between them and does not hold the entry. On the injured: BOOM carries a named account of a man treated at Lady Hardinge Medical College with fragments near the left eyebrow, in the neck and near the eye, operated on 21 July. His name is deliberately not recorded here. He gave it to a news outlet; the record needs only the injury, the hospital and the date. What would settle it: the ammunition log ordered preserved (OQ-042), the General Diary entry (OQ-040), and medico-legal records recording what was removed from anyone's body.",
     "volatility": "high"
   },
   {
@@ -3095,7 +3095,7 @@
         "archived_on": "2026-09-11"
       }
     ],
-    "notes": "Saket Gokhale asked four Delhi hospitals a narrow question and two answered it. The archive credits him by name because attribution is how this project treats work it did not do, and because a document obtained by an identified person under a statute is worth more than an anonymous account. What it establishes: that ten people were treated for injuries the hospitals themselves categorised as pellet or projectile injuries, on that date, at those two hospitals. Hospital records are independent of both the police and the petitioners, which is why this sits at CORROBORATED while the question of what was fired stays DISPUTED at INC-DEL-005. What it does not establish: who or what caused the injuries. 'Pellet/projectile' is a clinical category, not a finding about a weapon or about who fired it. It does not say the police fired anything, and it does not distinguish plastic from metallic. It establishes that people arrived at hospital with those injuries on the day of the police action. At least ten. AIIMS refused (OVR-DEL-002) and Ram Manohar Lohia Hospital had not replied when this was reported. The number is a floor set by which hospitals chose to answer, and the archive states it as one. Not held: the replies themselves. No outlet reproduces them. Obtaining copies would move this to VERIFIED, and it is one of the few claims here where that is straightforwardly achievable: see OQ-047.",
+    "notes": "Saket Gokhale asked four Delhi hospitals a narrow question and two answered it. The archive credits him by name because attribution is how this project treats work it did not do, and because a document obtained by an identified person under a statute is worth more than an anonymous account. What it establishes: that ten people were treated for injuries the hospitals themselves categorised as pellet or projectile injuries, on that date, at those two hospitals. Hospital records are independent of both the police and the petitioners, which is why this sits at CORROBORATED while the question of what was fired stays DISPUTED at INC-DEL-005. What it does not establish: who or what caused the injuries. 'Pellet/projectile' is a clinical category that says nothing about a weapon or about who fired it. It does not say the police fired anything, and it does not distinguish plastic from metallic. It establishes that people arrived at hospital with those injuries on the day of the police action. At least ten. AIIMS refused (OVR-DEL-002) and Ram Manohar Lohia Hospital had not replied when this was reported. The number is a floor set by which hospitals chose to answer, and the archive states it as one. Not held: the replies themselves. No outlet reproduces them. Obtaining copies would move this to VERIFIED, and it is one of the few claims here where that is straightforwardly achievable: see OQ-047.",
     "volatility": "medium"
   },
   {
@@ -3363,7 +3363,7 @@
     "category": "legal_proceeding",
     "claim": "By an order reported dated 10 September 2026, a three-judge bench of the Chief Justice of India Surya Kant, Justice Joymalya Bagchi and Justice V. Mohana declined to reconstitute the High Powered Enquiry Committee; directed that a separate online portal be created through which vulnerable witnesses may confidentially submit statements, documents and other evidence; directed the committee to protect the identity and participation of such witnesses; appointed Senior Advocate Monika Gusain and Advocate-on-Record C. Solomon as amici curiae to act as independent intermediaries; and directed the committee to appoint a member secretary for secretarial and logistical support.",
     "confidence": "REPORTED",
-    "notes": "This closes a thread the archive left open twice. PROC-SC-006 recorded that the Court listed the matter for 10 September 2026; PROC-SC-010 recorded that a plea challenging the committee's composition was before the Court. This is what happened to both. The refusal is reported on the ground that “there was no basis for changing the panel merely on the strength of preconceived assumptions”. The confidential portal is the part that bears on this archive's own users. Somebody who was assaulted by police and is also named in an FIR has an obvious reason not to depose through ordinary channels. Whether the portal now exists, and at what address, is NOT established: see OQ-054. This archive will not direct anyone to a portal it has not confirmed. Recorded as REPORTED, not CORROBORATED, on a deliberate reading of this archive's own rule. Three outlets carry it, but they are three accounts of one order, and the order is not held. Where the underlying document is a single court order, multiple outlets are multiple reports of one thing. The upgrade is the order copy from the Supreme Court's own site: see FQ-014. Amended 23 September 2026 to name the full bench and both amici, and to record the member-secretary direction, all of which the first version of this record left out. The order is dated 10 September and was reported on 16 September; the archive had the order date right and that was worth re-checking, because it was inferred from the listing date at PROC-SC-006 before any source confirmed it.",
+    "notes": "This closes a thread the archive left open twice. PROC-SC-006 recorded that the Court listed the matter for 10 September 2026; PROC-SC-010 recorded that a plea challenging the committee's composition was before the Court. This is what happened to both. The refusal is reported on the ground that “there was no basis for changing the panel merely on the strength of preconceived assumptions”. The confidential portal is the part that bears on this archive's own users. Somebody who was assaulted by police and is also named in an FIR has an obvious reason not to depose through ordinary channels. Whether the portal now exists, and at what address, is NOT established: see OQ-054. This archive will not direct anyone to a portal it has not confirmed. Recorded as REPORTED on a deliberate reading of this archive's own rule, which withholds CORROBORATED here. Three outlets carry it, but they are three accounts of one order, and the order is not held. Where the underlying document is a single court order, multiple outlets are multiple reports of one thing. The upgrade is the order copy from the Supreme Court's own site: see FQ-014. Amended 23 September 2026 to name the full bench and both amici, and to record the member-secretary direction, all of which the first version of this record left out. The order is dated 10 September and was reported on 16 September; the archive had the order date right and that was worth re-checking, because it was inferred from the listing date at PROC-SC-006 before any source confirmed it.",
     "volatility": "medium",
     "sources": [
       {
@@ -3418,7 +3418,7 @@
     "category": "legal_proceeding",
     "claim": "By an interim order reported dated 28 July 2026, the Supreme Court directed that no coercive action be taken against the student protesters save those with criminal antecedents, directed the release of detained minors, directed police to preserve CCTV footage, drone recordings and call logs, restrained publication of protesters' personal data, and recorded a prima facie case for an independent inquiry.",
     "confidence": "REPORTED",
-    "notes": "The preservation direction is the part that bears directly on this archive. It is a court order, given eight days after the Delhi incident, to keep the exact categories of record the preservation letters here ask offices to keep: CCTV, drone footage and call logs. An office that destroys any of them on an ordinary retention cycle is now destroying material a court directed it to preserve, which is a different thing to allege and a different thing to ask about. Note also what it does not cover: a deployment order, a wireless log, an armoury issue register. Those still rest on the letters. Recorded as REPORTED rather than CORROBORATED: two outlets carry it, and they are two accounts of one order this archive does not hold.",
+    "notes": "The preservation direction is the part that bears directly on this archive. It is a court order, given eight days after the Delhi incident, to keep the exact categories of record the preservation letters here ask offices to keep: CCTV, drone footage and call logs. An office that destroys any of them on an ordinary retention cycle is now destroying material a court directed it to preserve, which is a different thing to allege and a different thing to ask about. Note also what it does not cover: a deployment order, a wireless log, an armoury issue register. Those still rest on the letters. Recorded as REPORTED, with CORROBORATED withheld: two outlets carry it, and they are two accounts of one order this archive does not hold.",
     "volatility": "medium",
     "sources": [
       {
@@ -3620,7 +3620,7 @@
     "claim": "Mumbai Police registered 13 First Information Reports between 18 and 22 July 2026 against more than 400 people for taking part in protests over the NEET examination without police permission, at Shivaji Park, Chaityabhoomi, Chembur and Shiv Sena Bhavan, on charges reported as unlawful assembly, disobedience of an order duly promulgated by a public servant and wrongful restraint; those named were served notices and released, the offences being bailable and carrying a maximum of two years.",
     "incident": "INC-0003",
     "confidence": "REPORTED",
-    "notes": "This closes INC-MAH-001 and PUB-MAH-001, which have read UNKNOWN since 15 August, and it closes them with an answer nobody was looking for. The archive held open a Maharashtra shell on the strength of a Supreme Court petition saying disturbances had spread there, and went looking for a lathi charge. What is on the record instead is thirteen FIRs against four hundred people for assembling without permission. No use of force in Maharashtra is established here and none is alleged in these sources. That distinction is the finding and the record keeps it: the shell is filled with what happened. It also puts Maharashtra in the same class as Kochi, Kolkata and Assam rather than in the same class as Patna, and that class is the one where a document with an author exists, because a refusal of permission and an FIR are both written by somebody.",
+    "notes": "This closes INC-MAH-001 and PUB-MAH-001, which have read UNKNOWN since 15 August, and it closes them with an answer nobody was looking for. The archive held open a Maharashtra shell on the strength of a Supreme Court petition saying disturbances had spread there, and went looking for a lathi charge. What is on the record instead is thirteen FIRs against four hundred people for assembling without permission. No use of force in Maharashtra is established here and none is alleged in these sources. That distinction is the finding and the record keeps it: the shell is filled with what happened. It also puts Maharashtra in the same class as Kochi, Kolkata and Assam, and Patna sits in a different class; the class with Maharashtra is the one where a document with an author exists, because a refusal of permission and an FIR are both written by somebody.",
     "volatility": "medium",
     "sources": [
       {
@@ -3921,7 +3921,7 @@
     "incident": "INC-0006",
     "claim": "Outlook reports that protesters alleged they were dragged along the road and beaten with batons during the detentions of 2 October 2026, and that a history student from Miranda House reported bruises. Reuters, as carried by Al Jazeera and The Kathmandu Post, reports protesters shoved and bundled onto buses, and says police prevented gatherings without describing other physical force.",
     "confidence": "REPORTED",
-    "notes": "These are allegations made by protesters, reported by one outlet, beside a wire report that describes shoving and no more. The archive does not hold footage, a medical record or a police account. None of the articles read for this entry mentions tear gas, pellets or firearms; that is an absence in those articles and not a finding that none were used. See OQ-060.",
+    "notes": "These are allegations made by protesters, reported by one outlet, beside a wire report that describes shoving and no more. The archive does not hold footage, a medical record or a police account. None of the articles read for this entry mentions tear gas, pellets or firearms; that is an absence in those articles, and it says nothing about whether any were used. See OQ-060.",
     "volatility": "medium",
     "sources": [
       {
@@ -4466,7 +4466,7 @@
         "archived_on": "2026-10-11"
       }
     ],
-    "notes": "VERIFIED only as to what the order records the State as having submitted. The order does not find these facts. It also records the petitioner's contrary account (that he raised no anti-national slogans, that the campus stayed peaceful, and that the video was reported to be doctored) in paragraphs 7 to 9, and the Standing Counsel for the Government of NCT of Delhi saying the petitioner could be released on bail (paragraph 25). This is the only primary document read that describes who informed the police before 12 February; it describes a call to police on 9 February, not an order to enter the campus on 12 February.",
+    "notes": "VERIFIED only as to what the order records the State as having submitted. The order does not find these facts. It also records the petitioner's contrary account (that he raised no anti-national slogans, that the campus stayed peaceful, and that the video was reported to be doctored) in paragraphs 7 to 9, and the Standing Counsel for the Government of NCT of Delhi saying the petitioner could be released on bail (paragraph 25). This is the only primary document read that describes who informed the police before 12 February; it describes a call to police on 9 February and says nothing about an order to enter the campus on 12 February.",
     "volatility": "low"
   },
   {
@@ -4522,7 +4522,7 @@
         "originates_from": "JNU status report to the HRD ministry, as reported"
       }
     ],
-    "notes": "The claim is widely repeated, but no source fetched for this file states the place, time and manner of the arrest in terms. The Quint (20 February 2016) says the Vice-Chancellor was criticised for not following protocol before police were allowed onto the campus, and gives no date. Onmanorama (15 February 2016) reports a JNU status report saying a letter was sent to police asking them to take utmost precautions before entering the campus, and that police told the university they would enter only if absolutely necessary. Search-result snippets, not read as pages, describe a plainclothes arrest from the campus and raids on hostels on 12 and 13 February; they are not relied on. Not found: a police arrest memo, the case diary entry, or a court record of the place of arrest.",
+    "notes": "The claim is widely repeated, but no source fetched for this file states the place, time and manner of the arrest in terms. The Quint (20 February 2016) says the Vice-Chancellor was criticised for not following protocol before police were allowed onto the campus, and gives no date. Onmanorama (15 February 2016) reports a JNU status report saying a letter was sent to police asking them to take utmost precautions before entering the campus, and that police told the university they would enter only if absolutely necessary. Search-result snippets, which were not read as pages, describe a plainclothes arrest from the campus and raids on hostels on 12 and 13 February; they are not relied on. Not found: a police arrest memo, the case diary entry, or a court record of the place of arrest.",
     "volatility": "low"
   },
   {
@@ -4577,7 +4577,7 @@
     "claim": "Who gave the order for Delhi Police to enter the JNU campus on 12 February 2016, and who gave the order to arrest Kanhaiya Kumar, is not established by any document read for this file.",
     "confidence": "UNKNOWN",
     "sources": [],
-    "notes": "No order, requisition, case-diary entry, deployment record or affidavit naming the authorising office has been found. What the documents read do show: (a) the State's account in the High Court of events up to 10 February (HIST-JNU16-003); (b) a reported Registrar's letter of 11 February about university permission (HIST-JNU16-006), which would show the university's consent and does not show who in the police or the Ministry decided to go in; (c) in Parliament, members of the Lok Sabha on 24 February 2016 criticised the Home Minister's public statements and the Commissioner's, and the Minister of Human Resource Development spoke about the permission slip and the university's own enquiry, but the record read contains no statement by the Government on who authorised the entry or the arrest (HIST-JNU16-021). Delhi Police reports to the Ministry of Home Affairs; that structure is stated in this repository's own notes, not established from a source fetched for this file. Routes: RTI to the Ministry of Home Affairs and to the Office of the Commissioner of Police, Delhi, for the arrest memo, the case diary, any requisition to or from JNU, and communications between the two; a question in Parliament; the Delhi High Court record of W.P.(Crl.) 558/2016, including the State's status report.",
+    "notes": "No order, requisition, case-diary entry, deployment record or affidavit naming the authorising office has been found. What the documents read do show: (a) the State's account in the High Court of events up to 10 February (HIST-JNU16-003); (b) a reported Registrar's letter of 11 February about university permission (HIST-JNU16-006), which would show the university's consent and does not show who in the police or the Ministry decided to go in; (c) in Parliament, members of the Lok Sabha on 24 February 2016 criticised the Home Minister's public statements and the Commissioner's, and the Minister of Human Resource Development spoke about the permission slip and the university's own enquiry, but the record read contains no statement by the Government on who authorised the entry or the arrest (HIST-JNU16-021). Delhi Police reports to the Ministry of Home Affairs; that structure is stated in this repository's own notes, and no source fetched for this file establishes it. Routes: RTI to the Ministry of Home Affairs and to the Office of the Commissioner of Police, Delhi, for the arrest memo, the case diary, any requisition to or from JNU, and communications between the two; a question in Parliament; the Delhi High Court record of W.P.(Crl.) 558/2016, including the State's status report.",
     "volatility": "medium"
   },
   {
@@ -4799,7 +4799,7 @@
         "retrieved_on": "2026-10-10"
       }
     ],
-    "notes": "These are statements by Committee members as reported, and allegations from them. The Supreme Court order of the same day records only that the accused was manhandled (HIST-JNU16-015). The News Minute quotes the written report as saying 'the atmosphere outside was surcharged and intimidating' and that there was 'an effort to create an atmosphere of fear and terror', quoted via LiveLaw, and says the report records that Mr Dhawan and Mr Sibal asked police how a person not on the Supreme Court's list could enter the courtroom without a satisfactory reply. The LiveLaw piece (27 January 2018) is an opinion article by a lawyer. The three sources all depend on the same oral and written report and are not independent of it; they are independent of one another as outlets. The 17 February events concern Kanhaiya Kumar's court appearance, not the 15 February attack.",
+    "notes": "These are statements by Committee members as reported, and allegations from them. The Supreme Court order of the same day records only that the accused was manhandled (HIST-JNU16-015). The News Minute quotes the written report as saying 'the atmosphere outside was surcharged and intimidating' and that there was 'an effort to create an atmosphere of fear and terror', quoted via LiveLaw, and says the report records that Mr Dhawan and Mr Sibal asked police how a person not on the Supreme Court's list could enter the courtroom without a satisfactory reply. The LiveLaw piece (27 January 2018) is an opinion article by a lawyer. The three sources all depend on the same oral and written report and are not independent of it; they are independent of one another as outlets. The 17 February events concern Kanhaiya Kumar's court appearance and are separate from the 15 February attack.",
     "volatility": "low"
   },
   {
@@ -4828,7 +4828,7 @@
         "retrieved_on": "2026-10-10"
       }
     ],
-    "notes": "VERIFIED as to what the Commission's press release says; the allegations are the complainant's, not a finding. The reply reports are not found. LiveLaw (26 February 2016) says the NHRC report said Kumar was subjected to psychological pressure during questioning and cited serious dereliction of duty by Delhi Police for not preventing the assault or apprehending attackers; this is one secondary report of an NHRC team report, which has not been seen, and is not recorded as established. Obtain the NHRC case file and reply from the Delhi Police Commissioner.",
+    "notes": "VERIFIED as to what the Commission's press release says; the allegations are the complainant's and remain unproven. The reply reports are not found. LiveLaw (26 February 2016) says the NHRC report said Kumar was subjected to psychological pressure during questioning and cited serious dereliction of duty by Delhi Police for not preventing the assault or apprehending attackers; this is one secondary report of an NHRC team report, which has not been seen, and is not recorded as established. Obtain the NHRC case file and reply from the Delhi Police Commissioner.",
     "volatility": "medium"
   },
   {
@@ -4865,7 +4865,7 @@
         "originates_from": "Lok Sabha debates; the Lok Sabha's own copy was not fetched"
       }
     ],
-    "notes": "VERIFIED as to the content of the debate record, which is a primary document. The statements are members' statements, not findings. The record is long (several hundred thousand characters) and was searched for the Home Minister, police, Commissioner, Patiala House, permission and Vice-Chancellor, not read in full. A written reply by the Ministry of Home Affairs to a Lok Sabha or Rajya Sabha question on these events was not found; searching sansad.in for starred and unstarred questions of the February to March 2016 sessions is the route.",
+    "notes": "VERIFIED as to the content of the debate record, which is a primary document. The statements are members' statements and establish no findings. The record is long (several hundred thousand characters) and was searched for the Home Minister, police, Commissioner, Patiala House, permission and Vice-Chancellor; it was not read in full. A written reply by the Ministry of Home Affairs to a Lok Sabha or Rajya Sabha question on these events was not found; searching sansad.in for starred and unstarred questions of the February to March 2016 sessions is the route.",
     "volatility": "medium"
   },
   {
@@ -4911,7 +4911,7 @@
         "archived_on": "2026-10-12"
       }
     ],
-    "notes": "Single secondary source (Legally India, from IANS, 23 July 2016); statute numbers are not given. The chargesheets themselves have not been seen. Later outcomes (search snippets, not read as pages, mention an acquittal in October 2021 in a separate case) are not recorded. Obtain the chargesheets and orders from the Patiala House court record.",
+    "notes": "Single secondary source (Legally India, from IANS, 23 July 2016); statute numbers are not given. The chargesheets themselves have not been seen. Later outcomes (search snippets, which were not read as pages, mention an acquittal in October 2021 in a separate case) are not recorded. Obtain the chargesheets and orders from the Patiala House court record.",
     "volatility": "low"
   },
   {
@@ -5188,7 +5188,7 @@
         "archived_on": null
       }
     ],
-    "notes": "Allegation by the committee, not a finding. No police or government response appears in the article.",
+    "notes": "Unproven allegation by the committee. No police or government response appears in the article.",
     "volatility": "low"
   },
   {
@@ -5208,7 +5208,7 @@
         "archived_on": null
       }
     ],
-    "notes": "Team members named on the page: Henri Tiphagne, Asha Kowtal, Paul Divakar, Burnard Fatima, V A Ramesh Nathan, Tara Rao (Amnesty International India). Allegations of the team, not findings.",
+    "notes": "Team members named on the page: Henri Tiphagne, Asha Kowtal, Paul Divakar, Burnard Fatima, V A Ramesh Nathan, Tara Rao (Amnesty International India). Unproven allegations of the team.",
     "volatility": "low"
   },
   {
@@ -6245,7 +6245,7 @@
         "retrieved_on": "2026-10-10"
       }
     ],
-    "notes": "The judgment (para 11) states this as the petitioners' case, not as a finding. Wikipedia (tertiary) says 50 students were detained on 13 December; that count was not checked against its cited news sources and is not repeated as established. No document read here says who gave any order on 13 December. The 13 December events are far less documented than 15 December.",
+    "notes": "The judgment (para 11) records this as the petitioners' case only. Wikipedia (tertiary) says 50 students were detained on 13 December; that count was not checked against its cited news sources and is not repeated as established. No document read here says who gave any order on 13 December. The 13 December events are far less documented than 15 December.",
     "volatility": "medium",
     "incident": "INC-0012"
   },
@@ -6662,7 +6662,7 @@
         "originates_from": "Unnamed Delhi Police officials, reported 20 February 2020"
       }
     ],
-    "notes": "The Leaflet writes that no punitive action appears to have been taken after the administrative inquiry; that is the outlet's reading, not a document. The Delhi High Court judgment mentions none of these inquiries by name. Scroll.in reported Special CP (Crime Branch) Praveer Ranjan saying 'Sequence of events to be established' and that the crowd in the library 'includes students as well as outsiders'.",
+    "notes": "The Leaflet writes that no punitive action appears to have been taken after the administrative inquiry; that is the outlet's reading only. The Delhi High Court judgment mentions none of these inquiries by name. Scroll.in reported Special CP (Crime Branch) Praveer Ranjan saying 'Sequence of events to be established' and that the crowd in the library 'includes students as well as outsiders'.",
     "volatility": "high",
     "incident": "INC-0012"
   },
@@ -7008,7 +7008,7 @@
         "retrieved_on": "2026-10-10"
       }
     ],
-    "notes": "OFFICE-LEVEL ANSWER: District Magistrate, Aligarh. ETV Bharat (16 December 2019) names DM Chandra Bhushan Singh; WION (22 December 2019) says the District Magistrate ordered it and quotes him that services stay suspended 'from 10 pm tonight till 10 pm tomorrow'. The order itself was not seen, so its legal basis (statute and rules invoked) and any confirmation by the state Home Department are not established. Name given by one outlet only; both outlets attribute to the DM. Both are news reports of a statement, not a primary document. The shutdown tracker internetshutdowns.in lists the same hours and classes it as mobile, citing News18, but its entry is dated 14 December 2019 on its face, which is before the event; treated as unreliable for date and not used for confidence.",
+    "notes": "OFFICE-LEVEL ANSWER: District Magistrate, Aligarh. ETV Bharat (16 December 2019) names DM Chandra Bhushan Singh; WION (22 December 2019) says the District Magistrate ordered it and quotes him that services stay suspended 'from 10 pm tonight till 10 pm tomorrow'. The order itself was not seen, so its legal basis (statute and rules invoked) and any confirmation by the state Home Department are not established. Name given by one outlet only; both outlets attribute to the DM. Both are news reports of a statement, which makes them secondary sources. The shutdown tracker internetshutdowns.in lists the same hours and classes it as mobile, citing News18, but its entry is dated 14 December 2019 on its face, which is before the event; treated as unreliable for date and not used for confidence.",
     "volatility": "medium"
   },
   {
@@ -7056,7 +7056,7 @@
         "retrieved_on": "2026-10-10"
       }
     ],
-    "notes": "OFFICE-LEVEL ANSWER (University's account): the University administration says it called the police. The Quint (25 December 2019, updated 6 January 2020) quotes the Vice Chancellor; The Leaflet reports the University's position as 'being called by the University authorities'. The written request or letter was not seen. Contested by the AMU Students' Union president, who told The Caravan (31 December 2019) that the Vice Chancellor and Registrar had accepted giving written permission for police to enter and use 'appropriate force'; this is a claim by the student leader and is not independently confirmed in that article. The Karwan e Mohabbat fact-finding report (17 December 2019 visit) records that the Vice Chancellor claims to have invited the forces, says the Registrar, Proctor and Vice Chancellor cited stone throwing, and states the team suspected the invitation papers may have been signed after entry, which it said needs verification. That is the report's suspicion, not a finding. Scroll.in reports that AMU said police entered a hostel without permission, which is a separate point from the call for police. Who inside the University signed is not established. Timing of the request relative to entry is not established.",
+    "notes": "OFFICE-LEVEL ANSWER (University's account): the University administration says it called the police. The Quint (25 December 2019, updated 6 January 2020) quotes the Vice Chancellor; The Leaflet reports the University's position as 'being called by the University authorities'. The written request or letter was not seen. Contested by the AMU Students' Union president, who told The Caravan (31 December 2019) that the Vice Chancellor and Registrar had accepted giving written permission for police to enter and use 'appropriate force'; this is a claim by the student leader and is not independently confirmed in that article. The Karwan e Mohabbat fact-finding report (17 December 2019 visit) records that the Vice Chancellor claims to have invited the forces, says the Registrar, Proctor and Vice Chancellor cited stone throwing, and states the team suspected the invitation papers may have been signed after entry, which it said needs verification. That is the report's suspicion and remains unproven. Scroll.in reports that AMU said police entered a hostel without permission, which is a separate point from the call for police. Who inside the University signed is not established. Timing of the request relative to entry is not established.",
     "volatility": "medium"
   },
   {
@@ -7098,7 +7098,7 @@
         "retrieved_on": "2026-10-10"
       }
     ],
-    "notes": "Versions: (a) State and University, via the court record: 26 detained, 15 non-students (Leaflet). (b) AMU Deputy Proctor Azam Malik Khan, 18 December 2019: 'Out of the 26 people arrested, only 6 were AMU students' (Sabrang). (c) SSP: 21 arrested, FIR against 56 and others unidentified (Quint). (d) Teachers and doctors in the fact-finding report: around 100 picked up, around 100 injured, 20 seriously (a team estimate, not a count). (e) Quint: around 70 students wounded, DIG Aligarh and SP City among injured. (f) NHRC recommendation as reported by SCC Online Times: compensation for six grievously injured students. No official hospital or police tally was seen. Do not choose between them.",
+    "notes": "Versions: (a) State and University, via the court record: 26 detained, 15 non-students (Leaflet). (b) AMU Deputy Proctor Azam Malik Khan, 18 December 2019: 'Out of the 26 people arrested, only 6 were AMU students' (Sabrang). (c) SSP: 21 arrested, FIR against 56 and others unidentified (Quint). (d) Teachers and doctors in the fact-finding report: around 100 picked up, around 100 injured, 20 seriously (an estimate by the team, unsupported by a count). (e) Quint: around 70 students wounded, DIG Aligarh and SP City among injured. (f) NHRC recommendation as reported by SCC Online Times: compensation for six grievously injured students. No official hospital or police tally was seen. Do not choose between them.",
     "volatility": "low"
   },
   {
@@ -7128,7 +7128,7 @@
         "retrieved_on": "2026-10-10"
       }
     ],
-    "notes": "These may describe different FIRs on different dates (the 1,200 figure is tied by two outlets to the 23 December march, the 56 figure to 15 December, the 700 figure by The Caravan to a 10 December march). Whether they are the same FIR is not established. FIR copies were not seen. Allegations of offences are the police's, not findings.",
+    "notes": "These may describe different FIRs on different dates (the 1,200 figure is tied by two outlets to the 23 December march, the 56 figure to 15 December, the 700 figure by The Caravan to a 10 December march). Whether they are the same FIR is not established. FIR copies were not seen. Allegations of offences are the police's and remain unproven.",
     "volatility": "low"
   },
   {
@@ -7577,7 +7577,7 @@
         "originates_from": "MoS Home written reply as reported by National Herald"
       }
     ],
-    "notes": "FIR number not found in any source read. Times of India says the FIR states violence began around 3.45 pm and that the complainant inspector describes 40 to 50 masked persons at Periyar Hostel who ran when police arrived. That description is the FIR content as reported, not a finding. National Herald a month later reported complainants saying no FIR on their complaints had been registered; these accounts conflict about whether the 6 January case counts as the FIR on the teachers' and students' complaints. Obtain the FIR text from the Delhi Police e-FIR portal or by RTI.",
+    "notes": "FIR number not found in any source read. Times of India says the FIR states violence began around 3.45 pm and that the complainant inspector describes 40 to 50 masked persons at Periyar Hostel who ran when police arrived. That description is the FIR content as reported and remains unproven. National Herald a month later reported complainants saying no FIR on their complaints had been registered; these accounts conflict about whether the 6 January case counts as the FIR on the teachers' and students' complaints. Obtain the FIR text from the Delhi Police e-FIR portal or by RTI.",
     "volatility": "medium"
   },
   {
@@ -7634,7 +7634,7 @@
         "retrieved_on": "2026-10-10"
       }
     ],
-    "notes": "These are police allegations and complaints, not findings of guilt. The Quint article says Tirkey named nine students and did not specify two of their affiliations. Wikipedia's FIR timing is a lead only, not read from a primary source. The DCP Crime Branch is named because the article names him as the speaker at the briefing.",
+    "notes": "These are police allegations and complaints, which establish no guilt. The Quint article says Tirkey named nine students and did not specify two of their affiliations. Wikipedia's FIR timing is a lead only; no primary source was read for it. The DCP Crime Branch is named because the article names him as the speaker at the briefing.",
     "volatility": "low"
   },
   {
@@ -8030,7 +8030,7 @@
         "originates_from": "Not stated on the page"
       }
     ],
-    "notes": "Section 163 BNSS orders are made by authorised executive magistrates, which is a statutory point to be checked against the current text, not a finding about this order. Nabanna is in Howrah district, so the Howrah Police Commissionerate area is the likelier jurisdiction, but that is inference and no document was read. Lawful routes: RTI to the Howrah Police Commissionerate and Kolkata Police, and to the Home and Hill Affairs Department, asking for the order, its date and the issuing authority; the same question at each office.",
+    "notes": "Section 163 BNSS orders are made by authorised executive magistrates, which is a statutory point to be checked against the current text and implies nothing about this order. Nabanna is in Howrah district, so the Howrah Police Commissionerate area is the likelier jurisdiction, but that is inference and no document was read. Lawful routes: RTI to the Howrah Police Commissionerate and Kolkata Police, and to the Home and Hill Affairs Department, asking for the order, its date and the issuing authority; the same question at each office.",
     "volatility": "low"
   },
   {
@@ -8160,7 +8160,7 @@
         "retrieved_on": "2026-10-10"
       }
     ],
-    "notes": "Police injury figure is from police, unattributed to a named officer, one outlet. No count of injured protesters found from any official source. The NHRC complaint wording is the complainant's allegation, not an NHRC finding.",
+    "notes": "Police injury figure is from police, unattributed to a named officer, one outlet. No count of injured protesters found from any official source. The NHRC complaint wording is the complainant's unproven allegation.",
     "volatility": "low"
   },
   {
@@ -8209,7 +8209,7 @@
         "retrieved_on": "2026-10-10"
       }
     ],
-    "notes": "Attributed: Adhikari's statement and the police statement are as reported by Orissa Post. Names are as reported and are not independently confirmed. The police allegation of conspiracy is an allegation, not a finding.",
+    "notes": "Attributed: Adhikari's statement and the police statement are as reported by Orissa Post. Names are as reported and are not independently confirmed. The police allegation of conspiracy is an unproven allegation.",
     "volatility": "low"
   },
   {
@@ -8713,7 +8713,7 @@
     "claim": "No criminal case, departmental action or court finding against any police officer or university official for the events of 17 September 2014 was found in the sources read.",
     "confidence": "UNKNOWN",
     "sources": [],
-    "notes": "This records absence of what was found, not a finding that none exists. Check: eCourts and the Calcutta High Court cause lists for 2014 and 2015, the West Bengal Human Rights Commission, the National Human Rights Commission case search, and RTI to Kolkata Police.",
+    "notes": "This records the absence of what was found and says nothing about whether any exists. Check: eCourts and the Calcutta High Court cause lists for 2014 and 2015, the West Bengal Human Rights Commission, the National Human Rights Commission case search, and RTI to Kolkata Police.",
     "volatility": "low",
     "incident": "INC-0016"
   },
@@ -8937,7 +8937,7 @@
         "originates_from": "PTI, as quoted in the article (DCP T Tushar Doshi)"
       }
     ],
-    "notes": "Single source, and the section list is the newspaper's, not read from the FIR. Other outlets say only 'rioting' and 'illegal confinement' without section numbers. Allegations are the complainant's; no court has been found to have made findings on them.",
+    "notes": "Single source, and the section list is the newspaper's; the FIR itself was not read for it. Other outlets say only 'rioting' and 'illegal confinement' without section numbers. Allegations are the complainant's; no court has been found to have made findings on them.",
     "volatility": "low",
     "incident": "INC-0017"
   },
@@ -9086,7 +9086,7 @@
         "retrieved_on": "2026-10-10"
       }
     ],
-    "notes": "Moneylife names Delhi Police; The Tribune does not name the force and quotes the students' association as saying the protest was disrupted by 'police and CRPF'. Gulf Times refers to the detentions as happening 'yesterday' while carrying a 3 July dateline, so its date is uncertain. Delhi Police reports to the Ministry of Home Affairs, not the Delhi government.",
+    "notes": "Moneylife names Delhi Police; The Tribune does not name the force and quotes the students' association as saying the protest was disrupted by 'police and CRPF'. Gulf Times refers to the detentions as happening 'yesterday' while carrying a 3 July dateline, so its date is uncertain. Delhi Police reports to the Ministry of Home Affairs and has no reporting line to the Delhi government.",
     "volatility": "low",
     "incident": "INC-0017"
   },
@@ -9725,7 +9725,7 @@
     "claim": "Who gave the order to clear Marina Beach on 23 January 2017, and in what form (written or oral): NOT ESTABLISHED. No document read names an officer or office as the source of the order. Pages read that are silent on it: Tribune (23 January 2017), Gulf News/PTI, Deccan Chronicle (17 February 2017), The Federal (14 January 2021), Sri Lanka Guardian (22 January 2025), the Madras High Court judgment of 28 April 2018, and Wikipedia.",
     "confidence": "UNKNOWN",
     "sources": [],
-    "notes": "Recorded at the level of office: the police operation in Chennai falls within the Greater Chennai Police, whose head is the Commissioner of Police (the office the High Court judgment records as issuing the later section 144 order). That is an inference about where the chain runs, not a finding that the Commissioner gave the order. The Chief Minister is reported by two outlets to have defended the operation in the Assembly (see HIST-C17A-009); a defence after the event is not an order. People's Watch states that the Commissioner declined to meet its fact-finding team; that is not an attribution of the order.",
+    "notes": "Recorded at the level of office: the police operation in Chennai falls within the Greater Chennai Police, whose head is the Commissioner of Police (the office the High Court judgment records as issuing the later section 144 order). That is an inference about where the chain runs and establishes nothing about whether the Commissioner gave the order. The Chief Minister is reported by two outlets to have defended the operation in the Assembly (see HIST-C17A-009); a defence after the event is not an order. People's Watch states that the Commissioner declined to meet its fact-finding team; that is not an attribution of the order.",
     "volatility": "low",
     "incident": "INC-0019"
   },
@@ -9744,7 +9744,7 @@
         "sha256": "32aa411e7c746b6808cecfa5e9e9bc06b27d2ab69226189e810da984313808cf"
       }
     ],
-    "notes": "Update 10 October 2026: the 28 April 2018 judgment this item cites was set aside by a Division Bench on 3 September 2018 (W.A. 1042 of 2018; see HIST-CRT-001). The Section 144 recital here is the State's counter-affidavit account only, and the appeal judgment does not repeat it. VERIFIED only for what the judgment records the State as saying. The order itself was not read, and the paragraph gives two end dates (rescinded 4 February; ended 12 February). The order is dated five days AFTER the 23 January operation, so it is not the authority for that operation. The paragraph also records the State's account that the January 2017 gathering involved 'anti-social elements' causing 'large scale violence and damage of public property' and that a commission under Justice S. Rajeswaran (Retd.) was then in progress. Those are the State's statements, not findings of the court. The fetched copy was hashed at retrieval. Under CrPC as it then stood; BNSS does not apply to 2017.",
+    "notes": "Update 10 October 2026: the 28 April 2018 judgment this item cites was set aside by a Division Bench on 3 September 2018 (W.A. 1042 of 2018; see HIST-CRT-001). The Section 144 recital here is the State's counter-affidavit account only, and the appeal judgment does not repeat it. VERIFIED only for what the judgment records the State as saying. The order itself was not read, and the paragraph gives two end dates (rescinded 4 February; ended 12 February). The order is dated five days AFTER the 23 January operation, so it is not the authority for that operation. The paragraph also records the State's account that the January 2017 gathering involved 'anti-social elements' causing 'large scale violence and damage of public property' and that a commission under Justice S. Rajeswaran (Retd.) was then in progress. Those are the State's statements and carry no finding of the court. The fetched copy was hashed at retrieval. Under CrPC as it then stood; BNSS does not apply to 2017.",
     "volatility": "low",
     "incident": "INC-0019"
   },
@@ -9763,7 +9763,7 @@
     "id": "HIST-C17A-008",
     "jurisdiction": "tamil-nadu",
     "category": "legal_proceeding",
-    "claim": "The National Human Rights Commission took suo motu cognisance of media reports of police action against Jallikattu protesters in Chennai and issued notices on Tuesday 24 January 2017 (date inferred from 'on Tuesday' in a report of 25 January) to the Chief Secretary, the Director General of Police and the Chennai Police Commissioner, asking for reports within two weeks. The NHRC statement as quoted says it 'has taken a serious view of the unprovoked police excesses'. That is the NHRC's stated view on media reports, not a finding after inquiry.",
+    "claim": "The National Human Rights Commission took suo motu cognisance of media reports of police action against Jallikattu protesters in Chennai and issued notices on Tuesday 24 January 2017 (date inferred from 'on Tuesday' in a report of 25 January) to the Chief Secretary, the Director General of Police and the Chennai Police Commissioner, asking for reports within two weeks. The NHRC statement as quoted says it 'has taken a serious view of the unprovoked police excesses'. That is the NHRC's stated view on media reports and reflects no finding after inquiry.",
     "confidence": "REPORTED",
     "sources": [
       {
@@ -9867,7 +9867,7 @@
         "originates_from": "Frontline interview with Justice S. Rajeswaran, as relayed; not read"
       }
     ],
-    "notes": "Attributed to the commission head through a third-hand relay. The Federal (2021) records the same judge as saying he could not comment on the report. The article does not say who ordered the police action. These are the commission's reported conclusions, not established fact, and no document read tests them.",
+    "notes": "Attributed to the commission head through a third-hand relay. The Federal (2021) records the same judge as saying he could not comment on the report. The article does not say who ordered the police action. These are the commission's reported conclusions, which remain unestablished, and no document read tests them.",
     "volatility": "low",
     "incident": "INC-0019"
   },
@@ -9892,7 +9892,7 @@
         "originates_from": "Republished from The News Minute"
       }
     ],
-    "notes": "The Quint item is a republication, so this is one source. The Government Order number was not given in either. The scope covers all protests in the state, not Marina alone, and says nothing about which cases arose from the 23 January eviction.",
+    "notes": "The Quint item is a republication, so this is one source. The Government Order number was not given in either. The scope covers all protests in the state, Marina among them, and says nothing about which cases arose from the 23 January eviction.",
     "volatility": "low",
     "incident": "INC-0019"
   },
@@ -9900,7 +9900,7 @@
     "id": "HIST-C17A-014",
     "jurisdiction": "tamil-nadu",
     "category": "legal_proceeding",
-    "claim": "The Federal reports (14 January 2021) that 179 people were charged for the Madurai agitations, 64 of them at Alanganallur under IPC section 307, the rest under the Railways Act and the Tamil Nadu Property (Prevention of Damages and Loss) Act, and that the Alanganallur cases were with the CB-CID. This concerns Madurai, not Marina.",
+    "claim": "The Federal reports (14 January 2021) that 179 people were charged for the Madurai agitations, 64 of them at Alanganallur under IPC section 307, the rest under the Railways Act and the Tamil Nadu Property (Prevention of Damages and Loss) Act, and that the Alanganallur cases were with the CB-CID. This concerns Madurai, which is a separate place from Marina.",
     "confidence": "REPORTED",
     "sources": [
       {
@@ -9910,7 +9910,7 @@
         "retrieved_on": "2026-10-10"
       }
     ],
-    "notes": "Included because it is the only per-case count read for any location. Protesters' claim that people not directly involved were also booked is an allegation reported by the outlet, not a finding.",
+    "notes": "Included because it is the only per-case count read for any location. Protesters' claim that people not directly involved were also booked is an unproven allegation reported by the outlet.",
     "volatility": "low",
     "incident": "INC-0019"
   },
@@ -9929,7 +9929,7 @@
         "originates_from": "Organisation's own summary page; interim report PDF linked but not fetched"
       }
     ],
-    "notes": "An allegation by a rights organisation, not a finding. Source type is secondary because it is an advocacy summary.",
+    "notes": "An unproven allegation by a rights organisation. Source type is secondary because it is an advocacy summary.",
     "volatility": "low",
     "incident": "INC-0019"
   },
@@ -9964,7 +9964,7 @@
         "retrieved_on": "2026-10-10"
       }
     ],
-    "notes": "Occurrence of the disruption and cancellation is corroborated by two outlets. Who threw what is an allegation made by students and reported by Newslaundry, not a finding. The Wikipedia background section (tertiary, citing The Wire) says the principal and a professor tried to reason with the protesters, that police formed a cordon to let attendees into the venue, and that a mob pelted them with stones; that text was read but is not counted as a corroborating source because it is a summary of one cited article. The Wire article was not read.",
+    "notes": "Occurrence of the disruption and cancellation is corroborated by two outlets. Who threw what is an unproven allegation made by students and reported by Newslaundry. The Wikipedia background section (tertiary, citing The Wire) says the principal and a professor tried to reason with the protesters, that police formed a cordon to let attendees into the venue, and that a mob pelted them with stones; that text was read but is not counted as a corroborating source because it is a summary of one cited article. The Wire article was not read.",
     "volatility": "low",
     "incident": "INC-0020"
   },
@@ -10208,7 +10208,7 @@
         "originates_from": "IANS wire copy, 23 February 2017"
       }
     ],
-    "notes": "This establishes only what an officer said on the record to students and the press. It is a statement by an office-holder that he did not give the order and could not name who did. It is not an order and not an inquiry finding. The Asian Age quote and the IANS paraphrase come from the same event but different reporters; the Oman Observer and Peninsula pieces are the same IANS wire. The word 'lathicharge' is as used by the reporters.",
+    "notes": "This establishes only what an officer said on the record to students and the press. It is a statement by an office-holder that he did not give the order and could not name who did. It has no standing as an order or as an inquiry finding. The Asian Age quote and the IANS paraphrase come from the same event but different reporters; the Oman Observer and Peninsula pieces are the same IANS wire. The word 'lathicharge' is as used by the reporters.",
     "volatility": "medium",
     "incident": "INC-0020"
   },
@@ -10250,7 +10250,7 @@
     "claim": "Whether Police Headquarters ordered a 'mild lathicharge' on 22 February 2017 is not established by any page read.",
     "confidence": "UNKNOWN",
     "sources": [],
-    "notes": "A lead: a search-result summary, read on 10 October 2026, said The Indian Express relayed unnamed sources to that effect. The Indian Express page on PressReader returned HTTP 403 and was not read, and no page the archive read contains the claim. If the report can be opened, it would be the first documented source for an order in this record. Encountered only in the text of a web search-result summary on 10 October 2026, which quoted the Indian Express as relaying 'sources'. The Indian Express page on PressReader returned HTTP 403 and was not read. No page the archive read contains this claim, so it is not sourced here and sources is empty. Newslaundry's live account was checked for it and does not contain it. Treat as a lead to find the original article. If confirmed it would still be unnamed sourcing, not a document.",
+    "notes": "A lead: a search-result summary, read on 10 October 2026, said The Indian Express relayed unnamed sources to that effect. The Indian Express page on PressReader returned HTTP 403 and was not read, and no page the archive read contains the claim. If the report can be opened, it would be the first documented source for an order in this record. Encountered only in the text of a web search-result summary on 10 October 2026, which quoted the Indian Express as relaying 'sources'. The Indian Express page on PressReader returned HTTP 403 and was not read. No page the archive read contains this claim, so it is not sourced here and sources is empty. Newslaundry's live account was checked for it and does not contain it. Treat as a lead to find the original article. If confirmed it would remain unnamed sourcing and would supply no document.",
     "volatility": "medium",
     "incident": "INC-0020"
   },
@@ -10440,7 +10440,7 @@
         "originates_from": "IANS syndicated feed, auto-generated and not edited by the publisher"
       }
     ],
-    "notes": "This proceeding concerns the slogans complaint and the FIR sought, not police conduct on 21 and 22 February. Court order text not read. Both articles are secondary; one is auto-generated IANS copy.",
+    "notes": "This proceeding concerns the slogans complaint and the FIR sought; it has no bearing on police conduct on 21 and 22 February. Court order text not read. Both articles are secondary; one is auto-generated IANS copy.",
     "volatility": "low",
     "incident": "INC-0020"
   },
@@ -10690,7 +10690,7 @@
         "originates_from": "Student council president, as quoted"
       }
     ],
-    "notes": "The sections are the student leader's account, not a document. The FIR itself was not read. Under the IPC as it stood in 2017.",
+    "notes": "The sections come from the student leader's account only. The FIR itself was not read. Under the IPC as it stood in 2017.",
     "volatility": "low",
     "incident": "INC-0021"
   },
@@ -10757,7 +10757,7 @@
     "claim": "Who gave the order for police to use force on 6, 10 and 11 April 2017, who requested police presence on campus, and whether any order was written: NOT ESTABLISHED. No document read names an officer or office as giving it. Pages read that are silent on it: both Newslaundry articles, Zee News, Kafila, Democracy Now and the Tribune of 27 April 2017. The Newslaundry article on 10 April says outright that it does not say who requested the Raj Bhavan deployment.",
     "confidence": "UNKNOWN",
     "sources": [],
-    "notes": "At the level of office, the police in Chandigarh answer to the Senior Superintendent of Police, Chandigarh (an office named in Newslaundry). The campus is under the university's Vice Chancellor and Chief Security Officer, who complained to police after the event according to Zee. Those are the offices in the picture, not findings that any of them gave the order.",
+    "notes": "At the level of office, the police in Chandigarh answer to the Senior Superintendent of Police, Chandigarh (an office named in Newslaundry). The campus is under the university's Vice Chancellor and Chief Security Officer, who complained to police after the event according to Zee. Those are the offices in the picture; nothing here finds that any of them gave the order.",
     "volatility": "low",
     "incident": "INC-0021"
   },
@@ -10776,7 +10776,7 @@
         "originates_from": "Unnamed student, as quoted"
       }
     ],
-    "notes": "Recorded because it is the only attribution of the order in any source read. It is an allegation by a student, not a finding, and the Vice Chancellor's response to it was not found. Newslaundry's other piece says the Vice Chancellor 'never came out to meet the protesters' on 6 April.",
+    "notes": "Recorded because it is the only attribution of the order in any source read. It is an unproven allegation by a student, and the Vice Chancellor's response to it was not found. Newslaundry's other piece says the Vice Chancellor 'never came out to meet the protesters' on 6 April.",
     "volatility": "low",
     "incident": "INC-0021"
   },
@@ -11016,7 +11016,7 @@
         "originates_from": "Election Commission statement of 2 February 2020; unnamed EC officials speaking to NDTV for the motive"
       }
     ],
-    "notes": "Single fetched source; Hindustan Times pages that carry the same story could not be read (blocked). The Commission's own statement is quoted secondhand, and the stated reason in the order is 'the ongoing situation', not the Jamia firing. This was an election-period removal by the Election Commission, not a disciplinary finding about the police response. The Delhi Police did not announce it as one in any source read.",
+    "notes": "Single fetched source; Hindustan Times pages that carry the same story could not be read (blocked). The Commission's own statement is quoted secondhand, and the stated reason in the order is 'the ongoing situation'; the order does not cite the Jamia firing. This was an election-period removal by the Election Commission and makes no disciplinary finding about the police response. The Delhi Police did not announce it as one in any source read.",
     "volatility": "low",
     "incident": "INC-0022"
   },
@@ -11040,7 +11040,7 @@
         "retrieved_on": "2026-10-10"
       }
     ],
-    "notes": "Two secondary sources, each citing no document, which caps the rating. No FIR, Board order, or age-determination record was read. Search listings for Deccan Herald and Hindustan Times carry headlines naming 14 and 28 days of protective custody; those pages were blocked and are not cited, so the custody period is not treated as settled. The Federal says police alleged the attack was premeditated; that is a police allegation, not a finding.",
+    "notes": "Two secondary sources, each citing no document, which caps the rating. No FIR, Board order, or age-determination record was read. Search listings for Deccan Herald and Hindustan Times carry headlines naming 14 and 28 days of protective custody; those pages were blocked and are not cited, so the custody period is not treated as settled. The Federal says police alleged the attack was premeditated; that is an unproven police allegation.",
     "volatility": "low",
     "incident": "INC-0022"
   },
@@ -11580,7 +11580,7 @@
     "id": "HIST-RRB-018",
     "jurisdiction": "uttar-pradesh",
     "category": "incident",
-    "claim": "How the victims are described in the sources: Deccan Herald says 'several students' on the tracks were injured, 'some seriously', and that videos showed police forcing students out of rooms in inns and guesthouses and hitting them. Newslaundry describes residents of two lodges, mostly students living in single rooms, who told it police 'stormed inside and began beating everyone with lathis'; one resident said he had sat the NTPC exam but 'had nothing to do with protests' and was hit; another said students were treated 'in a similar way' to how terrorists are weeded out. These are interviews, not findings.",
+    "claim": "How the victims are described in the sources: Deccan Herald says 'several students' on the tracks were injured, 'some seriously', and that videos showed police forcing students out of rooms in inns and guesthouses and hitting them. Newslaundry describes residents of two lodges, mostly students living in single rooms, who told it police 'stormed inside and began beating everyone with lathis'; one resident said he had sat the NTPC exam but 'had nothing to do with protests' and was hit; another said students were treated 'in a similar way' to how terrorists are weeded out. These are interviews that make no findings.",
     "confidence": "REPORTED",
     "sources": [
       {
@@ -12066,7 +12066,7 @@
         "retrieved_on": "2026-10-10"
       }
     ],
-    "notes": "Single source, and the commission's own order was not found or read. This is the state commission, not the NHRC. No NHRC action, Telangana High Court petition or magisterial inquiry was found. The report's contents and the commission's outcome are unknown.",
+    "notes": "Single source, and the commission's own order was not found or read. This is the state commission, a body separate from the NHRC. No NHRC action, Telangana High Court petition or magisterial inquiry was found. The report's contents and the commission's outcome are unknown.",
     "volatility": "low",
     "incident": "INC-0024"
   },
@@ -12090,7 +12090,7 @@
         "retrieved_on": "2026-10-10"
       }
     ],
-    "notes": "The Government Order itself was not read; the account is from press. The Chief Minister is also quoted by Careers360 as blaming the Centre's 'faulty procedures' for the death. That is a political statement and not a finding.",
+    "notes": "The Government Order itself was not read; the account is from press. The Chief Minister is also quoted by Careers360 as blaming the Centre's 'faulty procedures' for the death. That is a political statement with no standing as a finding.",
     "volatility": "low",
     "incident": "INC-0024"
   },
@@ -12101,7 +12101,7 @@
     "claim": "Whether any magisterial inquiry, judicial inquiry, NHRC case, Telangana High Court petition, or prosecution or departmental action over the firing exists is not established.",
     "confidence": "UNKNOWN",
     "sources": [],
-    "notes": "Searches for these returned nothing relating to this incident. Treat as a gap to fill by RTI and eCourts search, not as evidence none exists.",
+    "notes": "Searches for these returned nothing relating to this incident. Treat as a gap to fill by RTI and eCourts search. The gap leaves open whether any exists.",
     "volatility": "medium",
     "incident": "INC-0024"
   },
@@ -12558,7 +12558,7 @@
     "claim": "Inquiry, NHRC action, High Court or Supreme Court proceedings about police action against NEET protesters in June 2024: none found.",
     "confidence": "UNKNOWN",
     "sources": [],
-    "notes": "Searches returned only proceedings about a different, 2026 protest wave, which are not read or cited here. Nothing was found for June 2024. This is a finding of absence in the pages found, not proof that none exists.",
+    "notes": "Searches returned only proceedings about a different, 2026 protest wave, which are not read or cited here. Nothing was found for June 2024. This is a finding of absence in the pages found only; it leaves open whether any exists.",
     "volatility": "low",
     "incident": "INC-0025"
   },
@@ -12641,7 +12641,7 @@
         "retrieved_on": "2026-10-10"
       }
     ],
-    "notes": "Single outlet for the DM's words (ETV Bharat). The quote was checked against the raw page text on 10 October 2026. Protesters and opposition figures describe the force as excessive; those are their allegations, not findings.",
+    "notes": "Single outlet for the DM's words (ETV Bharat). The quote was checked against the raw page text on 10 October 2026. Protesters and opposition figures describe the force as excessive; those are their unproven allegations.",
     "volatility": "low",
     "incident": "INC-0026"
   },
@@ -12762,7 +12762,7 @@
         "retrieved_on": "2026-10-10"
       }
     ],
-    "notes": "Number of unidentified persons differs: 'nearly 600' (Scroll) and '600 to 700' (Patna Press and ETV Bharat). The DM is reported as the source for the FIR in ETV Bharat and Careers360 coverage. Sections of law, FIR number and date were not stated in any page read. The FIR targets the organisers and is an allegation, not a finding. Two Patna tutors were also arrested and later granted conditional bail, per Scroll and ETV Bharat.",
+    "notes": "Number of unidentified persons differs: 'nearly 600' (Scroll) and '600 to 700' (Patna Press and ETV Bharat). The DM is reported as the source for the FIR in ETV Bharat and Careers360 coverage. Sections of law, FIR number and date were not stated in any page read. The FIR targets the organisers and is an unproven allegation. Two Patna tutors were also arrested and later granted conditional bail, per Scroll and ETV Bharat.",
     "volatility": "medium",
     "incident": "INC-0026"
   },
@@ -12788,7 +12788,7 @@
     "id": "HIST-BPSC-009",
     "jurisdiction": "bihar",
     "category": "incident",
-    "claim": "Independent MP Pappu Yadav is reported as saying that Bihar's Governor spoke to the BPSC chairman and said he would ask the District Magistrate and the Superintendent of Police on what basis lathis were used and the FIR was filed. This is a politician's account of a conversation, not a statement by the Governor.",
+    "claim": "Independent MP Pappu Yadav is reported as saying that Bihar's Governor spoke to the BPSC chairman and said he would ask the District Magistrate and the Superintendent of Police on what basis lathis were used and the FIR was filed. This is a politician's account of a conversation, relayed without any statement from the Governor.",
     "confidence": "REPORTED",
     "sources": [
       {
@@ -13291,7 +13291,7 @@
         "retrieved_on": "2026-10-10"
       }
     ],
-    "notes": "The Division Bench orders themselves were not found or read. The 2024 item rests on one outlet. The statement that compensation was not paid is the families' counsel's, as reported, and is not established. Millennium Post and the Times of India report the same hearing, so they may share a source in court; they are separate publications and are treated here as two reports, not as proof the facts are correct. Search found no report of an NIA charge sheet, arrest, or any action against a police officer.",
+    "notes": "The Division Bench orders themselves were not found or read. The 2024 item rests on one outlet. The statement that compensation was not paid is the families' counsel's, as reported, and is not established. Millennium Post and the Times of India report the same hearing, so they may share a source in court; they are separate publications and are treated here as two reports that leave the facts unproven. Search found no report of an NIA charge sheet, arrest, or any action against a police officer.",
     "volatility": "high",
     "incident": "INC-0028"
   },
@@ -13404,7 +13404,7 @@
         "retrieved_on": "2026-10-10"
       }
     ],
-    "notes": "The occurrence on 2 May is agreed. The group's size and organisation are DISPUTED between outlets and no source read here is a primary document. Arms: Tribune says pistols and revolvers, VICE says witnesses described hockey sticks and guns; these are student and witness accounts as reported, not findings. The Newsclick article quotes the Additional District Magistrate as saying the probe found no plan to attack Mr Ansari; AMU students' union and teachers' association said the opposite (see Quint 3 May). No finding on intent is made here.",
+    "notes": "The occurrence on 2 May is agreed. The group's size and organisation are DISPUTED between outlets and no source read here is a primary document. Arms: Tribune says pistols and revolvers, VICE says witnesses described hockey sticks and guns; these are unproven student and witness accounts as reported. The Newsclick article quotes the Additional District Magistrate as saying the probe found no plan to attack Mr Ansari; AMU students' union and teachers' association said the opposite (see Quint 3 May). No finding on intent is made here.",
     "volatility": "medium",
     "incident": "INC-0029"
   },
@@ -13610,7 +13610,7 @@
         "originates_from": "IANS"
       }
     ],
-    "notes": "No FIR copy, FIR number, police station or section was seen. A search snippet mentioned Sections 147 and 153A for the two arrested; the pages fetched did not confirm sections, so none are recorded. 'No detention of students found' is an absence in the pages read, not a finding that none happened. The Wire LiveWire (8 May) also reports the union demanding that the FIR against AMU students be revoked, which is the same claim from the same side. Whether an FIR was registered against the activists is not shown by any page read: students say police refused (Tribune, Newslaundry); the later arrests suggest some case existed but the case is not identified.",
+    "notes": "No FIR copy, FIR number, police station or section was seen. A search snippet mentioned Sections 147 and 153A for the two arrested; the pages fetched did not confirm sections, so none are recorded. 'No detention of students found' is an absence in the pages read only; it leaves open whether any happened. The Wire LiveWire (8 May) also reports the union demanding that the FIR against AMU students be revoked, which is the same claim from the same side. Whether an FIR was registered against the activists is not shown by any page read: students say police refused (Tribune, Newslaundry); the later arrests suggest some case existed but the case is not identified.",
     "volatility": "medium",
     "incident": "INC-0029"
   },
@@ -13828,7 +13828,7 @@
         "sha256": "8a6484d54222b8f2ff1fcbf18bee8c3b9dedcf0a14bb8b546f5035e407b1d839"
       }
     ],
-    "notes": "The figure of about 500 supplied in the research brief was not found in any source read, and the sources read give a higher number. These are reporters' and officials' estimates, not a count from a record. Treat the 500 figure as UNVERIFIED unless a source for it is found.",
+    "notes": "The figure of about 500 supplied in the research brief was not found in any source read, and the sources read give a higher number. These are reporters' and officials' estimates, with no count from a record behind them. Treat the 500 figure as UNVERIFIED unless a source for it is found.",
     "volatility": "low",
     "incident": "INC-0030"
   },
@@ -13881,7 +13881,7 @@
     "id": "HIST-JNU18-004",
     "jurisdiction": "delhi",
     "category": "incident",
-    "claim": "Permission for the march is DISPUTED. Version A (Delhi Police chief spokesperson, The Hindu): 'Permission for the protest march was denied but the students started the march at 3.30 p.m.' Version B (same spokesperson, Hindustan Times): it was 'mutually agreed' in meetings that this would be a 'symbolic march' ending at INA, not at Parliament. Version C (JNU students, Hindustan Times and National Herald): the students had permission to march all the way to Parliament along a route fixed with police; a JNU Students' Union leader said 'We were only marching ahead on the route pre-decided with the police'.",
+    "claim": "Permission for the march is DISPUTED. Version A (Delhi Police chief spokesperson, The Hindu): 'Permission for the protest march was denied but the students started the march at 3.30 p.m.' Version B (same spokesperson, Hindustan Times): it was 'mutually agreed' in meetings that this would be a 'symbolic march' ending at INA, short of Parliament. Version C (JNU students, Hindustan Times and National Herald): the students had permission to march all the way to Parliament along a route fixed with police; a JNU Students' Union leader said 'We were only marching ahead on the route pre-decided with the police'.",
     "confidence": "DISPUTED",
     "sources": [
       {
@@ -14446,7 +14446,7 @@
     "claim": "Records that could be requested from the courts and the Ministry: certified copies of the FIR registered against the students and the FIR registered against the SHO, both at Sarojini Nagar police station, with any chargesheet or closure report filed in the court of the metropolitan magistrate; the journalist's statement before the magistrate on 26 March 2018 (The Hindu); the Ministry of Home Affairs file on the journalists' memorandum of 26 March 2018 (Times of India) and on the Delhi Police report it may have called for.",
     "confidence": "UNKNOWN",
     "sources": [],
-    "notes": "The statement before a magistrate is a court record, not an RTI record. Whether the Delhi Police publish FIRs online for 2018 was not checked here. The case numbers, court names and dates other than 26 March 2018 are not known.",
+    "notes": "The statement before a magistrate is a court record and falls outside RTI records. Whether the Delhi Police publish FIRs online for 2018 was not checked here. The case numbers, court names and dates other than 26 March 2018 are not known.",
     "volatility": "medium",
     "incident": "INC-0030"
   },
@@ -15184,7 +15184,7 @@
         "retrieved_on": "2026-10-10"
       }
     ],
-    "notes": "Records, not facts: nothing here is claimed to exist. FIRs are generally public documents. Expect refusals on investigation-related material and plan an appeal. Retention periods may have run since 2019, and a destruction answer is itself evidence.",
+    "notes": "These are records only; nothing here is claimed to exist. FIRs are generally public documents. Expect refusals on investigation-related material and plan an appeal. Retention periods may have run since 2019, and a destruction answer is itself evidence.",
     "volatility": "medium",
     "incident": "INC-0031"
   },
@@ -15425,7 +15425,7 @@
         "retrieved_on": "2026-10-10"
       }
     ],
-    "notes": "Single wire source for the notice; the AHRC order was not read. The notice as reported concerns the state-wide protest, mainly the deaths, not the Dispur march specifically. Whether the Chief Secretary's report was filed, and any AHRC outcome, was not found (see HIST-COT-016).",
+    "notes": "Single wire source for the notice; the AHRC order was not read. The notice as reported concerns the state-wide protest, mainly the deaths, and does not address the Dispur march specifically. Whether the Chief Secretary's report was filed, and any AHRC outcome, was not found (see HIST-COT-016).",
     "volatility": "medium",
     "incident": "INC-0032"
   },
@@ -15433,7 +15433,7 @@
     "id": "HIST-COT-009",
     "jurisdiction": "assam",
     "category": "legal_proceeding",
-    "claim": "FIR and case counts, state-wide (not specific to the Cotton University march). PTI reports the Chief Minister told the Assembly in a written reply on 20 December 2021 that police registered 406 cases related to the anti-CAA protests, 1,026 people were arrested between 9 and 20 December 2019, cases under the Unlawful Activities (Prevention) Act were registered against 11, and an NIA probe was ordered against six. EastMojo reports that on 2 March 2020 the state home minister told the Assembly 430 cases were registered and 573 people arrested, of whom about 384 were released on bail.",
+    "claim": "FIR and case counts, state-wide, covering the whole state and extending beyond the Cotton University march. PTI reports the Chief Minister told the Assembly in a written reply on 20 December 2021 that police registered 406 cases related to the anti-CAA protests, 1,026 people were arrested between 9 and 20 December 2019, cases under the Unlawful Activities (Prevention) Act were registered against 11, and an NIA probe was ordered against six. EastMojo reports that on 2 March 2020 the state home minister told the Assembly 430 cases were registered and 573 people arrested, of whom about 384 were released on bail.",
     "confidence": "REPORTED",
     "sources": [
       {
@@ -15488,7 +15488,7 @@
         "originates_from": "Assam Assembly replies of 2 March 2020, as reported; the replies were not read"
       }
     ],
-    "notes": "The December 2021 and March 2020 injury figures differ (20 civilians against about 48), and cover different periods or counting; the difference is not explained in either report. Neither is specific to the Dispur march. Marked REPORTED rather than DISPUTED because the periods stated differ.",
+    "notes": "The December 2021 and March 2020 injury figures differ (20 civilians against about 48), and cover different periods or counting; the difference is not explained in either report. Neither is specific to the Dispur march. Marked REPORTED because the periods stated differ, so the label DISPUTED is withheld.",
     "volatility": "medium",
     "incident": "INC-0032"
   },
@@ -15528,7 +15528,7 @@
         "originates_from": "PTI report of a written reply by the Chief Minister in the Assam Assembly; the reply was not read"
       }
     ],
-    "notes": "Victims are not named here: at least one was reported to be a minor and the rest were not confirmed from an official document by this research. These deaths occurred on 12 December (and in one report 11 December) at separate places and are not part of the Cotton University march record. Who ordered the firing is not established in any source read (the Sentinel report of the Lok Sabha member's demand, and the AASU report, both say nothing on who ordered it). The government's reported explanation in March 2020, per a paywalled Millennium Post abstract only (not read in full, not cited), was that police fired in the air and missed.",
+    "notes": "Victims are not named here: at least one was reported to be a minor and the rest were not confirmed from an official document by this research. These deaths occurred on 12 December (and in one report 11 December) at separate places and are not part of the Cotton University march record. Who ordered the firing is not established in any source read (the Sentinel report of the Lok Sabha member's demand, and the AASU report, both say nothing on who ordered it). The government's reported explanation in March 2020, per a paywalled Millennium Post abstract only (unread beyond the abstract and uncited), was that police fired in the air and missed.",
     "volatility": "medium",
     "incident": "INC-0032"
   },
@@ -15573,7 +15573,7 @@
         "originates_from": "Gauhati High Court hearing, as reported; the order was not read"
       }
     ],
-    "notes": "Single secondary source; order and petition not read; the case number is not given. This concerns the firing deaths, not the Dispur march lathicharge. The state's affidavit, if filed, would be the highest value document on who authorised force (see SOURCING.md section 3). Outcome not found.",
+    "notes": "Single secondary source; order and petition not read; the case number is not given. This concerns the firing deaths and leaves the Dispur march lathicharge out of scope. The state's affidavit, if filed, would be the highest value document on who authorised force (see SOURCING.md section 3). Outcome not found.",
     "volatility": "medium",
     "incident": "INC-0032"
   },
@@ -15605,7 +15605,7 @@
         "retrieved_on": "2026-10-10"
       }
     ],
-    "notes": "The inquiry concerns the killings, not the Dispur march. Who ordered the inquiry and who conducts it are not stated in the reports read; its report was not found. The AASU statement conflicts in tone with the minister's statement and the two are not reconciled by any source read, so whether an inquiry was effectively under way by December 2020 is not established.",
+    "notes": "The inquiry concerns the killings and leaves the Dispur march out of scope. Who ordered the inquiry and who conducts it are not stated in the reports read; its report was not found. The AASU statement conflicts in tone with the minister's statement and the two are not reconciled by any source read, so whether an inquiry was effectively under way by December 2020 is not established.",
     "volatility": "medium",
     "incident": "INC-0032"
   },
@@ -16088,7 +16088,7 @@
     "claim": "Records that could be requested to establish who gave the order. (1) Chetganj police station: the FIR and its date and time, the general diary (GD) entries of 19 December 2019, the arrest memos, the case diary. (2) Varanasi police control room logs and the deployment order for 19 December 2019. (3) Office of the Varanasi district magistrate: any Section 144 order in force that day, with signatory and date, and any magisterial instruction on the Beniabagh march. (4) UP Home Department and DGP office: the written basis of the statewide order announced on 18 December 2019. (5) Varanasi Additional Sessions court: the bail order and the list of applicants. (6) Varanasi district jail: admission and release register. (7) BHU: any communication to police about the protest, and any list of students arrested.",
     "confidence": "UNKNOWN",
     "sources": [],
-    "notes": "This is a request list, not a finding. No document on it was obtained or has been seen. Routes: RTI to each public information officer; the UP RTI rules and fee should be checked against current text before filing. Ask the same question at each rung (station, circle, SSP, DM, Home Department) so that any 'not us' reply is itself evidence.",
+    "notes": "This is a request list. It asserts no finding. No document on it was obtained or has been seen. Routes: RTI to each public information officer; the UP RTI rules and fee should be checked against current text before filing. Ask the same question at each rung (station, circle, SSP, DM, Home Department) so that any 'not us' reply is itself evidence.",
     "volatility": "high",
     "incident": "INC-0033"
   },
@@ -16882,7 +16882,7 @@
         "retrieved_on": "2026-10-10"
       }
     ],
-    "notes": "The three reports carry statements by detained students (Hindustan Times on 10 February 2020, then PTI and the Times of India on the 12 and 13 February press conference). That the allegations were made is reported; whether they are true is not established. Treated as an allegation, not as a finding. No complaint or inquiry specific to treatment in custody was found.",
+    "notes": "The three reports carry statements by detained students (Hindustan Times on 10 February 2020, then PTI and the Times of India on the 12 and 13 February press conference). That the allegations were made is reported; whether they are true is not established. Treated as an unproven allegation. No complaint or inquiry specific to treatment in custody was found.",
     "volatility": "high",
     "incident": "INC-0035"
   },
@@ -16946,7 +16946,7 @@
     "claim": "Any FIR, complaint, court petition, commission inquiry, parliamentary question or departmental action about police conduct on 10 February 2020: NONE FOUND. Searches of news from 10 February to 31 December 2020 and of the Scholars at Risk page found no such step. The students said at the 12 February 2020 press conference that they could identify the policemen involved if asked.",
     "confidence": "UNKNOWN",
     "sources": [],
-    "notes": "This is the absence of a finding, not a finding of absence: the searches were made in English through a general search engine and the Firecrawl index, and cannot reach eCourts, NHRC or sansad.in case or question records directly. The Delhi High Court judgment of 5 October 2026 on the December 2019 Jamia events (HIST-JMI-016) was not found to mention the 10 February march in the text previously saved by the archive; that was a keyword search for 'Holy Family', '10.02.2020' and 'Badarpur' and is not a reading of the whole judgment. Filing suggestions are at HIST-JMA-022.",
+    "notes": "This is the absence of a finding. The searches were made in English through a general search engine and the Firecrawl index, and cannot reach eCourts, NHRC or sansad.in case or question records directly, so they establish nothing about whether such records exist. The Delhi High Court judgment of 5 October 2026 on the December 2019 Jamia events (HIST-JMI-016) was not found to mention the 10 February march in the text previously saved by the archive; that was a keyword search for 'Holy Family', '10.02.2020' and 'Badarpur' and is not a reading of the whole judgment. Filing suggestions are at HIST-JMA-022.",
     "volatility": "medium",
     "incident": "INC-0035"
   },
@@ -17148,7 +17148,7 @@
         "retrieved_on": "2026-10-10"
       }
     ],
-    "notes": "The archive records the organiser only as the sources name it and makes no characterisation of CFI. The Hindu says 'hundreds'. TNIE reports that CFI office-bearers, including its general secretary, were among those taken into custody; individuals are not named here. Crowd size is a range across outlets, not a count from any official record.",
+    "notes": "The archive records the organiser only as the sources name it and makes no characterisation of CFI. The Hindu says 'hundreds'. TNIE reports that CFI office-bearers, including its general secretary, were among those taken into custody; individuals are not named here. Crowd size is a range across outlets, with no count from any official record.",
     "volatility": "low",
     "incident": "INC-0036"
   },
@@ -17156,7 +17156,7 @@
     "id": "HIST-BLR-003",
     "jurisdiction": "karnataka",
     "category": "incident",
-    "claim": "What force was used, and how to describe it: DISPUTED. Deccan Herald reports that after students 'slamming down the police barricades' the police 'beat them with lathis, triggering a commotion', and headlines it a 'lathi-charge'; The Hindu says police 'resorted to caning'; The New Indian Express says students were 'thrashed' (photo caption) and 'lathicharged' (text). The Times of India calls it a 'mild lathi-charge' in its own voice and quotes unnamed senior police officers who say the students pushed the barricades and 'attacked cops who tried to stop them'. A CFI state leader, quoted by the Times of India, said police 'unnecessarily used force'. ETV Bharat reports students alleging they were beaten 'as part of a planned conspiracy' and that some policemen deliberately hit them on the head with sticks; this is the students' allegation, not a finding.",
+    "claim": "What force was used, and how to describe it: DISPUTED. Deccan Herald reports that after students 'slamming down the police barricades' the police 'beat them with lathis, triggering a commotion', and headlines it a 'lathi-charge'; The Hindu says police 'resorted to caning'; The New Indian Express says students were 'thrashed' (photo caption) and 'lathicharged' (text). The Times of India calls it a 'mild lathi-charge' in its own voice and quotes unnamed senior police officers who say the students pushed the barricades and 'attacked cops who tried to stop them'. A CFI state leader, quoted by the Times of India, said police 'unnecessarily used force'. ETV Bharat reports students alleging they were beaten 'as part of a planned conspiracy' and that some policemen deliberately hit them on the head with sticks; this is the students' unproven allegation.",
     "confidence": "DISPUTED",
     "sources": [
       {
@@ -17358,7 +17358,7 @@
         "retrieved_on": "2026-10-10"
       }
     ],
-    "notes": "No page read here says who issued the session order. In 2021 the CrPC, not the BNSS, governed. An order of this kind is a written instrument with an issuer, a date and an area, obtainable by RTI from the Commissioner's office; the press reports do not mention one, which leaves the question open.",
+    "notes": "No page read here says who issued the session order. In 2021 the CrPC governed, and the BNSS did not apply. An order of this kind is a written instrument with an issuer, a date and an area, obtainable by RTI from the Commissioner's office; the press reports do not mention one, which leaves the question open.",
     "volatility": "medium",
     "incident": "INC-0036"
   },
@@ -17973,7 +17973,7 @@
         "retrieved_on": "2026-10-10"
       }
     ],
-    "notes": "Independence: NDTV and Aaj Tak have their own reporting and their own timestamps on the evening of 4 December. Deccan Herald has its own byline. NewsClick carries eyewitness accounts. The Quint and Hindustan Times lean on the Samajwadi Party video and are listed in HIST-LKO-002 and HIST-LKO-005 instead. This is a finding that force was reported, not a finding on whether it was lawful or proportionate. The video itself was not viewed. No police or government document was found.",
+    "notes": "Independence: NDTV and Aaj Tak have their own reporting and their own timestamps on the evening of 4 December. Deccan Herald has its own byline. NewsClick carries eyewitness accounts. The Quint and Hindustan Times lean on the Samajwadi Party video and are listed in HIST-LKO-002 and HIST-LKO-005 instead. This finds only that force was reported; it makes no finding on whether the force was lawful or proportionate. The video itself was not viewed. No police or government document was found.",
     "volatility": "low",
     "incident": "INC-0038"
   },
@@ -18349,7 +18349,7 @@
     "claim": "Whether any prohibitory order or dispersal order was issued or announced before the charge: NOT ESTABLISHED. No document read mentions one.",
     "confidence": "UNKNOWN",
     "sources": [],
-    "notes": "The ABVP allegation of no warning is a party claim, not verified, and no police reply was found.",
+    "notes": "The ABVP allegation of no warning is an unverified party claim, and no police reply was found.",
     "volatility": "medium",
     "incident": "INC-0039"
   },
@@ -18423,7 +18423,7 @@
     "claim": "Records that could be requested: Tripura Police (SDPO Sadar and the concerned station) for the deployment order, GD entries, wireless logs and any use-of-force report; CRPF unit records for the deployment requisition; Directorate of School and Elementary Education and SCERT Tripura for correspondence on the exam mode and any police request; district magistrate for any prohibitory order; Tripura Human Rights Commission for any complaint.",
     "confidence": "UNKNOWN",
     "sources": [],
-    "notes": "This is a work-list, not a finding that these records exist. Filing channel details were not researched here.",
+    "notes": "This is a work-list. It asserts nothing about whether these records exist. Filing channel details were not researched here.",
     "volatility": "medium",
     "incident": "INC-0039"
   },
@@ -18594,7 +18594,7 @@
         "retrieved_on": "2026-10-10"
       }
     ],
-    "notes": "This concerns earlier orders, not the BBC order. It is relevant to how an RTI for the BBC order is likely to be answered. The reply itself was not read.",
+    "notes": "This concerns earlier orders and leaves the BBC order aside. It is relevant to how an RTI for the BBC order is likely to be answered. The reply itself was not read.",
     "volatility": "medium",
     "incident": "INC-0040"
   },
@@ -18987,7 +18987,7 @@
         "originates_from": "Posts on social media by a student organisation president and a student leader, plus an Indian Express quote of the DCP (Southeast)"
       }
     ],
-    "notes": "Allegations, not findings. The first two concern university security or proctorial staff. No injury count or hospital record was found (HIST-BBC-022).",
+    "notes": "Unproven allegations. The first two concern university security or proctorial staff. No injury count or hospital record was found (HIST-BBC-022).",
     "volatility": "medium",
     "incident": "INC-0040"
   },
@@ -19461,7 +19461,7 @@
         "originates_from": "Statement by the University registrar"
       }
     ],
-    "notes": "BW Police World appears to repeat The Indian Express and is not an independent source. India Today and Muslim Mirror do not mention a police seizure; that is silence and not a denial. No detentions and no injuries were reported in any version.",
+    "notes": "BW Police World appears to repeat The Indian Express and is not an independent source. India Today and Muslim Mirror do not mention a police seizure; their silence leaves the point open. No detentions and no injuries were reported in any version.",
     "volatility": "low",
     "incident": "INC-0040"
   },
@@ -20017,7 +20017,7 @@
     "id": "HIST-TSP-014",
     "jurisdiction": "telangana",
     "category": "incident",
-    "claim": "Who gave the order to detain students at Osmania University and to deny permission for the JAC protest on 24 March 2023: NOT ESTABLISHED. IANS attributes the denial of permission to 'police'. ANI quotes the Kacheguda ACP as the source of the figure of six JAC activists taken by OU police; that is a spokesperson statement of what occurred, not a document showing who ordered it. No order, notice or prohibitory order is cited in any page read.",
+    "claim": "Who gave the order to detain students at Osmania University and to deny permission for the JAC protest on 24 March 2023: NOT ESTABLISHED. IANS attributes the denial of permission to 'police'. ANI quotes the Kacheguda ACP as the source of the figure of six JAC activists taken by OU police; that is a spokesperson statement of what occurred, with no document showing who ordered it. No order, notice or prohibitory order is cited in any page read.",
     "confidence": "UNKNOWN",
     "sources": [
       {
@@ -20743,7 +20743,7 @@
         "originates_from": "Statements and social media posts by student organisations, and a statement by the JNU Students' Union president"
       }
     ],
-    "notes": "Level of office: the institution all accounts name is Delhi Police, which reports to the Union Home Ministry rather than to the Government of NCT of Delhi (see sourcemap/CLAUDE.md). Whether the decision was taken at station, district (the embassy area is in New Delhi district, which this research did not confirm from a document), range or headquarters level is unknown, and the same goes for who commanded the barricade line. No individual is named because no primary document names one.",
+    "notes": "Level of office: the institution all accounts name is Delhi Police, which reports to the Union Home Ministry and has no reporting line to the Government of NCT of Delhi (see sourcemap/CLAUDE.md). Whether the decision was taken at station, district (the embassy area is in New Delhi district, which this research did not confirm from a document), range or headquarters level is unknown, and the same goes for who commanded the barricade line. No individual is named because no primary document names one.",
     "volatility": "medium",
     "incident": "INC-0043"
   },
@@ -20841,7 +20841,7 @@
         "originates_from": "PTI wire copy"
       }
     ],
-    "notes": "Delhi Police is a Union authority for RTI purposes, so requests go through the Union portal (see sourcemap/CLAUDE.md). Retention schedules may already have destroyed some of these three years on, and a reply saying so is itself a record. An RTI applicant's name can be disclosed under section 11 where third-party information is involved, so any task here carries exposure_risk. Note that at the 2023 date the CrPC provisions, not BNSS, apply to the order's legal basis.",
+    "notes": "Delhi Police is a Union authority for RTI purposes, so requests go through the Union portal (see sourcemap/CLAUDE.md). Retention schedules may already have destroyed some of these three years on, and a reply saying so is itself a record. An RTI applicant's name can be disclosed under section 11 where third-party information is involved, so any task here carries exposure_risk. Note that at the 2023 date the CrPC provisions apply to the order's legal basis, and the BNSS does not.",
     "volatility": "high",
     "incident": "INC-0043"
   },
@@ -21189,7 +21189,7 @@
         "originates_from": "PTI"
       }
     ],
-    "notes": "DH, TNIE and Careers360 carry the same PTI text; National Herald carries IANS, a separate agency. Scholars at Risk repeats the AISA claim and adds that police reportedly said the students were brought to the police station and later released. Police statements within the same day differ on numbers (10-15 versus 27) and on whether the people were taken to a police station. Police personnel were deployed in large numbers and the gates barricaded (PTI). Note that this event is dated 3 April, not 29 March; the user's brief said police and unions contradict each other on detained versus removed, which holds on 29 March (HIST-IPC-003) and on 3 April.",
+    "notes": "DH, TNIE and Careers360 carry the same PTI text; National Herald carries IANS, a separate agency. Scholars at Risk repeats the AISA claim and adds that police reportedly said the students were brought to the police station and later released. Police statements within the same day differ on numbers (10-15 versus 27) and on whether the people were taken to a police station. Police personnel were deployed in large numbers and the gates barricaded (PTI). Note that this event is dated 3 April, and the 29 March event is a separate entry; the user's brief said police and unions contradict each other on detained versus removed, which holds on 29 March (HIST-IPC-003) and on 3 April.",
     "volatility": "medium",
     "incident": "INC-0044"
   },
@@ -21223,7 +21223,7 @@
     "id": "HIST-IPC-012",
     "jurisdiction": "delhi",
     "category": "incident",
-    "claim": "The college administration's role in police action against protesters is alleged, not established. A first-year student told PTI: 'She called police on the campus, who are lenient on the perpetrators and are pushing and shoving students', referring to the principal. The principal did not respond to PTI's calls and texts. ThePrint reports students saying the administration sent disciplinary notices. The Wire's article does not say whether the administration called the police; it reports students saying the administration locked hostel residents inside. No document shows the administration asking police to remove protesters.",
+    "claim": "The college administration's role in police action against protesters is alleged and remains NOT ESTABLISHED. A first-year student told PTI: 'She called police on the campus, who are lenient on the perpetrators and are pushing and shoving students', referring to the principal. The principal did not respond to PTI's calls and texts. ThePrint reports students saying the administration sent disciplinary notices. The Wire's article does not say whether the administration called the police; it reports students saying the administration locked hostel residents inside. No document shows the administration asking police to remove protesters.",
     "confidence": "UNVERIFIED",
     "sources": [
       {
@@ -21394,7 +21394,7 @@
     "claim": "Court proceedings about the removal or detention of protesters on 29 March, 31 March or 3 April 2023 (writ petition, habeas corpus, complaint to a magistrate, or Delhi High Court order): none found.",
     "confidence": "UNKNOWN",
     "sources": [],
-    "notes": "Searches on 10 October 2026 returned no High Court or magistrate proceedings tied to these events. This is an absence in the search results, not proof that none exists; eCourts and Delhi High Court case-status searches by party name were not run.",
+    "notes": "Searches on 10 October 2026 returned no High Court or magistrate proceedings tied to these events. This is an absence in the search results; it leaves open whether any exists. eCourts and Delhi High Court case-status searches by party name were not run.",
     "volatility": "medium",
     "incident": "INC-0044"
   },
@@ -22080,7 +22080,7 @@
         "sha256": "f992a9f3905a28e0f5d6916680f76c52d5de36b423cd0b1a6620dd10fb4220c3"
       }
     ],
-    "notes": "Read in full. The order addresses 'the State' and 'authorities subordinate to it' and names no official as having ordered the felling. It does not mention police, students, detentions or the lathi charge. The copy is hosted by LiveLaw, not the Court's own portal; the Court's own copy should be fetched from the Supreme Court registry for citation. The order records that a committee to identify forests was constituted on 15 March 2025 and asks why felling began immediately afterwards.",
+    "notes": "Read in full. The order addresses 'the State' and 'authorities subordinate to it' and names no official as having ordered the felling. It does not mention police, students, detentions or the lathi charge. The copy is hosted by LiveLaw and sits outside the Court's own portal; the Court's own copy should be fetched from the Supreme Court registry for citation. The order records that a committee to identify forests was constituted on 15 March 2025 and asks why felling began immediately afterwards.",
     "volatility": "low",
     "incident": "INC-0045"
   },
@@ -22264,7 +22264,7 @@
         "sha256": "395e56627f795b6134cee8d84dbe2cde908141e98e5f955a7e5b3efc92f7132a"
       }
     ],
-    "notes": "These are the bench's oral remarks as reported, not a written finding. The LiveLaw listing page was read for its headline only. No written order of 15 May 2025 was read. The remarks bear on the clearing only. They name no individual.",
+    "notes": "These are the bench's oral remarks as reported, and they make no written finding. The LiveLaw listing page was read for its headline only. No written order of 15 May 2025 was read. The remarks bear on the clearing only. They name no individual.",
     "volatility": "low",
     "incident": "INC-0045"
   },
@@ -22356,7 +22356,7 @@
     "claim": "Summary of the order question for the University of Hyderabad events of 30 March to 3 April 2025, by level of office. ESTABLISHED by a primary document read: on 3 April 2025 the Supreme Court stayed all activity by 'the State or any of the authorities subordinate to it' and made the Chief Secretary a respondent. CORROBORATED by news reports only: the land was alienated to TGIIC by a Revenue Department Government Order, text unread. REPORTED only: the custody FIR names an Inspector and staff as acting on the Inspector's information; police restrictions from 4 April were issued by a DCP under BNSS section 163; the State's affidavit attributes the development decision to the state government and TGIIC. NOT ESTABLISHED: who ordered the custody on 30 March, the police action on 2 April, the police deployment, and the start of clearing on 30 March.",
     "confidence": "UNKNOWN",
     "sources": [],
-    "notes": "The Commissioner of Police and the Madhapur DCP appear as speakers who defended or denied conduct. No document read names an individual who gave any order. The Chief Secretary being named by the Supreme Court is a respondent in a case about the land, not a finding about police orders. Conflicts on counts and on whether a lathi charge occurred are at HIST-HCU25-002, 010, 011 and 013.",
+    "notes": "The Commissioner of Police and the Madhapur DCP appear as speakers who defended or denied conduct. No document read names an individual who gave any order. The Chief Secretary being named by the Supreme Court makes the Chief Secretary a respondent in a case about the land, which says nothing about police orders. Conflicts on counts and on whether a lathi charge occurred are at HIST-HCU25-002, 010, 011 and 013.",
     "volatility": "medium",
     "incident": "INC-0045"
   },
@@ -22596,7 +22596,7 @@
         "sha256": "ac6b2f2966be474cc23742e535758eb526454775c829cd6b3a1f22ed151470e8"
       }
     ],
-    "notes": "Version A (ANI, CNBC-TV18): 30 of the 43 are not students. Version B (PTI, ABP Live): 30 identities were verified and none of the 30 is a student, which leaves 13 unverified. Version C (Indian Express): the 43 were mainly BPSC students. Versions A and B differ in meaning, and Version C conflicts with both. ABP Live says the statement came before Kishor was produced in court, so the Indian Express quote may be from a different time. Neither version is chosen. No list, identity check or document supports any of them. These are the District Magistrate's statements, not findings.",
+    "notes": "Version A (ANI, CNBC-TV18): 30 of the 43 are not students. Version B (PTI, ABP Live): 30 identities were verified and none of the 30 is a student, which leaves 13 unverified. Version C (Indian Express): the 43 were mainly BPSC students. Versions A and B differ in meaning, and Version C conflicts with both. ABP Live says the statement came before Kishor was produced in court, so the Indian Express quote may be from a different time. Neither version is chosen. No list, identity check or document supports any of them. These are the District Magistrate's statements, which are untested.",
     "volatility": "high",
     "incident": "INC-0046"
   },
@@ -23666,7 +23666,7 @@
     "claim": "Who gave the order to disperse the gathering and to detain people on 24 August 2025: NOT ESTABLISHED. No written order, deployment order, or named commander was found. The police statements describe the dispersal and detentions as acts of 'police' and say the ACP Kamla Market and the DCP appealed to the crowd to leave. They do not say who ordered removal.",
     "confidence": "UNKNOWN",
     "sources": [],
-    "notes": "Level of office: the only offices that sources place at the scene are the ACP Kamla Market and the DCP (Central district, per BW Police World's 'DCP Central Nidhin Valsan'). That they were present and spoke is the police's own account (HIST-SSC-007); it is not a finding that either gave the order. Delhi Police report to the Union Home Ministry, not the Delhi government. Documents that could settle it are listed in the notes file.",
+    "notes": "Level of office: the only offices that sources place at the scene are the ACP Kamla Market and the DCP (Central district, per BW Police World's 'DCP Central Nidhin Valsan'). That they were present and spoke is the police's own account (HIST-SSC-007); it is not a finding that either gave the order. Delhi Police report to the Union Home Ministry. The Delhi government is outside that reporting line. Documents that could settle it are listed in the notes file.",
     "volatility": "high",
     "incident": "INC-0047"
   },
@@ -23940,7 +23940,7 @@
         "retrieved_on": "2026-10-10"
       }
     ],
-    "notes": "Context record. LiveLaw's report of the High Court order says the amendments were withdrawn on 4 November and notifications reserving the right to constitute the Senate were rescinded on 7 November 2025; the sources differ on the 4 November step, not on 7 November. Hindustan Times adds that the university sent a poll schedule to the Vice-President's office on 9 November 2025.",
+    "notes": "Context record. LiveLaw's report of the High Court order says the amendments were withdrawn on 4 November and notifications reserving the right to constitute the Senate were rescinded on 7 November 2025; the sources differ on the 4 November step and agree on 7 November. Hindustan Times adds that the university sent a poll schedule to the Vice-President's office on 9 November 2025.",
     "volatility": "low",
     "incident": "INC-0048"
   },
@@ -24120,7 +24120,7 @@
         "retrieved_on": "2026-10-10"
       }
     ],
-    "notes": "'Reportedly' is the Indian Express's own hedge; it names no source. The FIR account (as reported by HT) alleges students inside the campus broke the chain and lock with stones while outsiders outside removed barricades, which is an allegation by police, not a finding. Student leaders told the Tribune live blog the police and administration were 'controlling tents, sound systems, and logistics without Vice Chancellor approval' (summarised, unverified). The 'not students' statement is therefore attributed and unquantified.",
+    "notes": "'Reportedly' is the Indian Express's own hedge; it names no source. The FIR account (as reported by HT) alleges students inside the campus broke the chain and lock with stones while outsiders outside removed barricades, which is an unproven allegation by police. Student leaders told the Tribune live blog the police and administration were 'controlling tents, sound systems, and logistics without Vice Chancellor approval' (summarised, unverified). The 'not students' statement is therefore attributed and unquantified.",
     "volatility": "low",
     "incident": "INC-0048"
   },
@@ -24485,7 +24485,7 @@
         "sha256": "ef3303cdc005962a2c98c969c36252d4082af56ee0f9243f4882f5fd6b8fa940"
       }
     ],
-    "notes": "Important for the order question: the Commission records that the Registrar requested police entry and that the District Magistrate deputed executive magistrates. These are the NHRC's findings, not court findings, and it names no officer who ordered force. The Annual Report misdates the incident as December 2020 (evident typo).",
+    "notes": "Important for the order question: the Commission records that the Registrar requested police entry and that the District Magistrate deputed executive magistrates. These are the NHRC's own findings, made outside any court, and it names no officer who ordered force. The Annual Report misdates the incident as December 2020 (evident typo).",
     "volatility": "low",
     "incident": "INC-0013"
   },
@@ -24617,7 +24617,7 @@
     "id": "HIST-HRC-012",
     "jurisdiction": "delhi",
     "category": "incident",
-    "claim": "On 17 February 2016 the NHRC issued a notice to the Union Home Secretary, Delhi Chief Secretary, Delhi Police Commissioner and the JNU Registrar over police action in JNU after the arrest of the students' union president on a sedition charge, calling for a report within two weeks. The release records it is 'widely alleged that the action of the police was illegal and high-handed' and that the sedition charge was added to intimidate dissent. These are allegations noted by the Commission from media reports, not findings.",
+    "claim": "On 17 February 2016 the NHRC issued a notice to the Union Home Secretary, Delhi Chief Secretary, Delhi Police Commissioner and the JNU Registrar over police action in JNU after the arrest of the students' union president on a sedition charge, calling for a report within two weeks. The release records it is 'widely alleged that the action of the police was illegal and high-handed' and that the sedition charge was added to intimidate dissent. These are allegations noted by the Commission from media reports and remain unproven.",
     "confidence": "VERIFIED",
     "sources": [
       {
@@ -24667,7 +24667,7 @@
         "sha256": "891e9f5f1ec8f20ec59ece2c95cac34d0576ee2872ceebc0f032723d0e5e6668"
       }
     ],
-    "notes": "VERIFIED only for what the order records: the petitioners' allegation of assault and the court's refusal to decide disputed facts. It is not a finding that police assaulted anyone and it does not say who gave any order. The sections listed for Crime No. 92 of 2017 are IPC 147, 148, 294(b), 323, 324, 353, 447, 435, 436, 506(II), 306 and Section 3 of the Tamil Nadu Public Property (Prevention of Damage and Loss) Act. The order does not state the date of arrest or tie the crime number to the 23 January 2017 clearance. Its mention of the Rajeswaran Commission is a passing recital, not a statement of what the Commission found.",
+    "notes": "VERIFIED only for what the order records: the petitioners' allegation of assault and the court's refusal to decide disputed facts. It is not a finding that police assaulted anyone and it does not say who gave any order. The sections listed for Crime No. 92 of 2017 are IPC 147, 148, 294(b), 323, 324, 353, 447, 435, 436, 506(II), 306 and Section 3 of the Tamil Nadu Public Property (Prevention of Damage and Loss) Act. The order does not state the date of arrest or tie the crime number to the 23 January 2017 clearance. Its mention of the Rajeswaran Commission is a passing recital that says nothing about what the Commission found.",
     "volatility": "low",
     "incident": "INC-0019",
     "added_on": "2026-10-10"
@@ -24687,7 +24687,7 @@
         "sha256": "f0f3d3b1460ab9328c926a930700195403737c42fbb81e29af3bf72091fad36b"
       }
     ],
-    "notes": "This supplies what HIST-C17A-013 lacked: the number and date of the Government Order (G.O.Ms.No.99, Home (Courts-IV) Department, 20 February 2021) and the figure of 308 cases, which the order attributes to counsel and the State's Government Advocate. The G.O. text was not read. MKB Nagar is in north Chennai, not at Marina, and the order does not link Crime No. 202 of 2017 to the 23 January 2017 clearance; it describes only 'wide spread agitation' against the ban. The 26,460 accused named in HIST-C17A-013 is not in this order.",
+    "notes": "This supplies what HIST-C17A-013 lacked: the number and date of the Government Order (G.O.Ms.No.99, Home (Courts-IV) Department, 20 February 2021) and the figure of 308 cases, which the order attributes to counsel and the State's Government Advocate. The G.O. text was not read. MKB Nagar is in north Chennai, in a different part of the city from Marina, and the order does not link Crime No. 202 of 2017 to the 23 January 2017 clearance; it describes only 'wide spread agitation' against the ban. The 26,460 accused named in HIST-C17A-013 is not in this order.",
     "volatility": "low",
     "incident": "INC-0019",
     "added_on": "2026-10-10"
@@ -24815,7 +24815,7 @@
         "sha256": "7dd7b61c2d9c54b0a129381d215cd4fbbffa16ce417f23d918fa803a7f6002ed"
       }
     ],
-    "notes": "These are 2025 and 2026 orders and do not show what restrictions applied on 27 August 2024. The 47 injured police and the officer who lost an eye are the Advocate General's statement to the court in 2025, not a court finding. The police letter of 12 January 2026 and an SOP of the Commissioner of Police, Howrah of 9 September 2025 (cited in the 15 January 2026 order) are the State's recitals. The order of 15 January 2026 leaves open whether the SOP 'has any legal sanction', a point it says is for 'the appropriate forum'. The 7 August 2025 order says a policy dated 31.07.2025 set aside Mandirtala Bus Station, Howrah Maidan and under Bankim Setu Flyover for protests.",
+    "notes": "These are 2025 and 2026 orders and do not show what restrictions applied on 27 August 2024. The 47 injured police and the officer who lost an eye are the Advocate General's statement to the court in 2025, an untested statement. The police letter of 12 January 2026 and an SOP of the Commissioner of Police, Howrah of 9 September 2025 (cited in the 15 January 2026 order) are the State's recitals. The order of 15 January 2026 leaves open whether the SOP 'has any legal sanction', a point it says is for 'the appropriate forum'. The 7 August 2025 order says a policy dated 31.07.2025 set aside Mandirtala Bus Station, Howrah Maidan and under Bankim Setu Flyover for protests.",
     "volatility": "low",
     "incident": "INC-0015",
     "added_on": "2026-10-10"
@@ -25159,7 +25159,7 @@
         "sha256": "34dc21585df4e128bfc092fd790c6a1d25b1558333ea358365e7ae8ef908dc8e"
       }
     ],
-    "notes": "Single source. Implies police video exists of the negotiations at the Vice-Chancellor's office; a lead for a records request, not a confirmed record.",
+    "notes": "Single source. Implies police video exists of the negotiations at the Vice-Chancellor's office; this is a lead for a records request, and the existence of the record is unconfirmed.",
     "volatility": "low",
     "incident": "INC-0049"
   },
@@ -25991,7 +25991,7 @@
         "sha256": "0752b11bd9c2c4a41855d8f275ef3e5157845c10fb1699f14711c0cdffde6b95"
       }
     ],
-    "notes": "Attributed to an unnamed member of the Kashmir University Students Union. Allegation, not established.",
+    "notes": "Attributed to an unnamed member of the Kashmir University Students Union. Unproven allegation.",
     "volatility": "low",
     "incident": "INC-0052"
   },
@@ -26370,7 +26370,7 @@
         "sha256": "1f9e40d8f70b6b3b2af2ebbe7676d3e598951dece1f35c0eab6668769cf36db3"
       }
     ],
-    "notes": "Careers360 (31 Jan) carries PTI copy; FPJ carries an officer's account that appears to be the same PTI wire. Tribune and Careers360 (2 Feb) are separate publishers. 'Mild' is the police or press characterisation, not an independent finding. Which unit or officer ordered the baton charge is not stated in any page read.",
+    "notes": "Careers360 (31 Jan) carries PTI copy; FPJ carries an officer's account that appears to be the same PTI wire. Tribune and Careers360 (2 Feb) are separate publishers. 'Mild' is the police or press characterisation and has no independent finding behind it. Which unit or officer ordered the baton charge is not stated in any page read.",
     "volatility": "medium",
     "incident": "INC-0054"
   },
@@ -26793,7 +26793,7 @@
         "originates_from": "Text matches the Deccan Herald report of 31 January 2022"
       }
     ],
-    "notes": "Not independent of Deccan Herald; counted only as a record that the event was later listed, not as corroboration. Sabrang's phrasing 'denied any such incident took place' broadens the Deccan Herald sentence, which concerns the head-injury allegation.",
+    "notes": "Not independent of Deccan Herald; counted only as a record that the event was later listed, and it adds no corroboration. Sabrang's phrasing 'denied any such incident took place' broadens the Deccan Herald sentence, which concerns the head-injury allegation.",
     "volatility": "medium",
     "incident": "INC-0055"
   },
@@ -27301,7 +27301,7 @@
         "sha256": "cf42f06860e5244edbb5be42c327fa11c79234251c7325397260965a830c0f94"
       }
     ],
-    "notes": "Concerns the death at Amta, not the 22 February crowd control. Included because it is the only state action on record.",
+    "notes": "Concerns only the death at Amta; the 22 February crowd control is a separate matter. Included because it is the only state action on record.",
     "volatility": "medium",
     "incident": "INC-0057"
   },
@@ -27574,7 +27574,7 @@
     "id": "HIST-SOL22-009",
     "jurisdiction": "delhi",
     "category": "incident",
-    "claim": "Earlier, on the SOL premises (not the Arts Faculty), SOL Officiating Principal Uma Shankar Pandey wrote to police in late February 2022 asking them to act on a 2006 Delhi High Court order restraining demonstrations within 200 metres of the SOL building, and said he had filed a police complaint on 18 February alleging that agitating students had misbehaved with women guards and manhandled staff. KYS had accused authorities of attacking students and fracturing a student's arm.",
+    "claim": "Earlier, on the SOL premises (a separate site from the Arts Faculty), SOL Officiating Principal Uma Shankar Pandey wrote to police in late February 2022 asking them to act on a 2006 Delhi High Court order restraining demonstrations within 200 metres of the SOL building, and said he had filed a police complaint on 18 February alleging that agitating students had misbehaved with women guards and manhandled staff. KYS had accused authorities of attacking students and fracturing a student's arm.",
     "confidence": "REPORTED",
     "sources": [
       {
@@ -27586,7 +27586,7 @@
         "originates_from": "Press Trust of India wire copy"
       }
     ],
-    "notes": "Context for how the university and police related before 4 April. It concerns the SOL gate, not the Arts Faculty. The 2006 order itself was not read. The principal said no official notification was issued. This is the only fetched source in which a university official is on record asking police to act; it does not cover 4 April.",
+    "notes": "Context for how the university and police related before 4 April. It concerns the SOL gate; the Arts Faculty is a separate site. The 2006 order itself was not read. The principal said no official notification was issued. This is the only fetched source in which a university official is on record asking police to act; it does not cover 4 April.",
     "volatility": "medium",
     "incident": "INC-0058"
   },
@@ -27788,7 +27788,7 @@
         "sha256": "76fb769903c6fc85482b21c29d13c02958c7a5604805ed424a5c46e184cc5ed7"
       }
     ],
-    "notes": "Allegation by AISA (statement; activist Neha quoted by PTI). PTI wrote there was no immediate police reaction. No police response or medical record read. Force is therefore alleged, not corroborated.",
+    "notes": "Allegation by AISA (statement; activist Neha quoted by PTI). PTI wrote there was no immediate police reaction. No police response or medical record read. Force is therefore alleged and uncorroborated.",
     "volatility": "medium",
     "incident": "INC-0059"
   },
@@ -28106,7 +28106,7 @@
         "sha256": "b1b05479c94ca95296c79c153dbfd5a2f205ed74afc876aabb708546a89c0a5d"
       }
     ],
-    "notes": "Political statements, not evidence of who gave the order.",
+    "notes": "Political statements, which say nothing about who gave the order.",
     "volatility": "low",
     "incident": "INC-0060"
   },
@@ -28319,7 +28319,7 @@
         "sha256": "c020bffa930e0fe0e35fed6ce5a389e7271b0e2fc95150512bc0d3a385b03dc7"
       }
     ],
-    "notes": "Scroll paraphrases ANI; the words 'some anti-social elements had entered the protests' are Scroll's wording, not a verbatim quotation of Singh. Original ANI video not seen.",
+    "notes": "Scroll paraphrases ANI; the words 'some anti-social elements had entered the protests' are Scroll's wording and a paraphrase of Singh. Original ANI video not seen.",
     "volatility": "medium",
     "incident": "INC-0061"
   },
@@ -29202,7 +29202,7 @@
         "sha256": "44d944b01e40b87c4c98e4de193a242ac28e688c7292e4d4a8fda08a68163c44"
       }
     ],
-    "notes": "Statements of political opponents. No document or on-record police statement links the action to any political direction. The Delhi Police report to the Union Home Ministry (SabrangIndia states this in a photo caption), not to the Delhi government.",
+    "notes": "Statements of political opponents. No document or on-record police statement links the action to any political direction. The Delhi Police report to the Union Home Ministry (SabrangIndia states this in a photo caption), and the Delhi government is outside that line.",
     "volatility": "medium",
     "incident": "INC-0063"
   },
@@ -29249,7 +29249,7 @@
     "id": "HIST-JHAN16-013",
     "jurisdiction": "delhi",
     "category": "incident",
-    "claim": "On 2 February 2016 students from JNUSU, Krantikari Yuva Sangathan and AISA protested outside Delhi Police headquarters at ITO over the Jhandewalan action; Deccan Herald says police 'clamp[ed] prohibitory orders under section 144 in the area'. This concerns the follow-up protest, not the Jhandewalan march. The issuing officer is not named.",
+    "claim": "On 2 February 2016 students from JNUSU, Krantikari Yuva Sangathan and AISA protested outside Delhi Police headquarters at ITO over the Jhandewalan action; Deccan Herald says police 'clamp[ed] prohibitory orders under section 144 in the area'. This concerns the follow-up protest, which is a separate event from the Jhandewalan march. The issuing officer is not named.",
     "confidence": "REPORTED",
     "sources": [
       {
@@ -29726,7 +29726,7 @@
         "sha256": "c59261e1216373fa3213483dbf016e43323fab5e97377bb3a63c7f8d9b124778"
       }
     ],
-    "notes": "BJP spokesperson Virender Gupta is a party source. Tear gas shells are alleged only by the BJP in fetched pages; not corroborated.",
+    "notes": "BJP spokesperson Virender Gupta is a party source. Tear gas shells are alleged only by the BJP in fetched pages and remain uncorroborated.",
     "volatility": "low",
     "incident": "INC-0065"
   },
@@ -30154,7 +30154,7 @@
         "sha256": "35c19a69c849feb8694a3a4a022e5af44c80fa11463f81674e1765a8cc2ff75d"
       }
     ],
-    "notes": "This records an absence in the sources read, not a finding that no force was used. Video of the day exists (the Quint describes an Indian Express video titled 'JNU Students Protesting Outside Home Ministry, Detained By Police'). Request footage and any medical records.",
+    "notes": "This records an absence in the sources read. It asserts nothing about whether force was used. Video of the day exists (the Quint describes an Indian Express video titled 'JNU Students Protesting Outside Home Ministry, Detained By Police'). Request footage and any medical records.",
     "volatility": "medium",
     "incident": "INC-0066"
   },
@@ -30250,7 +30250,7 @@
         "sha256": "d9802659a53845b4b3ea9a0f622e5c0bc1f7111e295bf0c01d41507807905caa"
       }
     ],
-    "notes": "Separate incident from 21 October and a candidate for its own record. Scroll and Aapka Times are different publishers, but the Aapka text reads as agency copy, so independence is not certain. The beating is an allegation by the students' union general secretary, not a finding. Scroll says the family was released; Aapka Times says they were detained at Mayapuri police station.",
+    "notes": "Separate incident from 21 October and a candidate for its own record. Scroll and Aapka Times are different publishers, but the Aapka text reads as agency copy, so independence is not certain. The beating is an allegation by the students' union general secretary and remains unproven. Scroll says the family was released; Aapka Times says they were detained at Mayapuri police station.",
     "volatility": "low",
     "incident": "INC-0066"
   },
@@ -30474,7 +30474,7 @@
         "sha256": "8faddc5e17a6cbe177084fdd2d5632538c22cefddc7bce3345795c0fc2bdec99"
       }
     ],
-    "notes": "National Herald (PTI): 'entered the fourth day'. ETV Bharat 29 July: students sat on the ground behind police barricades and ID cards were initially checked at the site, per a protester, Ankit Singh (allegation, not confirmed by police).",
+    "notes": "National Herald (PTI): 'entered the fourth day'. ETV Bharat 29 July: students sat on the ground behind police barricades and ID cards were initially checked at the site, per a protester, Ankit Singh (an allegation that police have not confirmed).",
     "volatility": "low",
     "incident": "INC-0067"
   },
@@ -32018,7 +32018,7 @@
         "sha256": "26ac414ebb482ede"
       }
     ],
-    "notes": "These are allegations by JNUSU office bearers, not findings. The Wire's own text says students 'alleged' a lathi-charge; its own narration says 'scuffles broke out' as police began detaining. JNUSU president Aditi Mishra said water cannons and tear gas were 'kept ready'; no source fetched reports that water cannon or tear gas was actually used. Whether lathis were used is asserted by students and the JNU teachers' association, and denied or not addressed by police (police say protesters were 'pushed back'). Force is therefore reported by one side only with direct sourcing; independent verification (video, medical records) is not in the sources.",
+    "notes": "These are allegations by JNUSU office bearers and remain unproven. The Wire's own text says students 'alleged' a lathi-charge; its own narration says 'scuffles broke out' as police began detaining. JNUSU president Aditi Mishra said water cannons and tear gas were 'kept ready'; no source fetched reports that water cannon or tear gas was actually used. Whether lathis were used is asserted by students and the JNU teachers' association, and denied or not addressed by police (police say protesters were 'pushed back'). Force is therefore reported by one side only with direct sourcing; independent verification (video, medical records) is not in the sources.",
     "volatility": "medium",
     "incident": "INC-0072"
   },
@@ -32328,7 +32328,7 @@
         "sha256": "85ab5c20b8a0b119"
       }
     ],
-    "notes": "The permission claim reaches the record through police, not through a fetched JNU document. The administration's statement is quoted by PTI, ETV Bharat and National Herald; the original JNU post (embedded in Free Press Journal) was not read in full. Defence counsel told the court that students 'had been confined within the campus without any prohibitory orders' (CSR Journal), and nothing fetched shows a Section 163 BNSS order for the JNU gate area. Whether Delhi Police sought or refused permission from its own side is not stated.",
+    "notes": "The permission claim reaches the record through police alone; no fetched JNU document carries it. The administration's statement is quoted by PTI, ETV Bharat and National Herald; the original JNU post (embedded in Free Press Journal) was not read in full. Defence counsel told the court that students 'had been confined within the campus without any prohibitory orders' (CSR Journal), and nothing fetched shows a Section 163 BNSS order for the JNU gate area. Whether Delhi Police sought or refused permission from its own side is not stated.",
     "volatility": "medium",
     "incident": "INC-0072"
   },
@@ -32477,7 +32477,7 @@
         "sha256": "f81bf4b1cb8d69e745ca504b0103d5a3ed052810284655c4b5b62c8c0c96ce2a"
       }
     ],
-    "notes": "Two publishers, but both appear to draw on SFI and Fraternity statements and videos. Count conflicts only in wording (four named by Maktoob, \"several\" by South First), not a true dispute. No police statement, FIR, release time or section of law found. Whether this was detention or arrest is not stated.",
+    "notes": "Two publishers, but both appear to draw on SFI and Fraternity statements and videos. Count conflicts only in wording (four named by Maktoob, \"several\" by South First); the sources do not truly dispute it. No police statement, FIR, release time or section of law found. Whether this was detention or arrest is not stated.",
     "volatility": "medium",
     "incident": "INC-0073"
   },
@@ -32642,7 +32642,7 @@
         "originates_from": "ANI"
       }
     ],
-    "notes": "These are allegations by named protesters and an opposition MLA, not findings. No hospital or medical figures for protesters were found. Mahato says the lathicharge happened 'at night, with the lights turned off' and after students were told to sit for dialogue; Hitavada and Bhaskar describe it during the day march; the timing conflict is unresolved. Protester Shivam says police acted 'without any warning'; police say they acted after repeated attempts to breach barricades.",
+    "notes": "These are allegations by named protesters and an opposition MLA and remain unproven. No hospital or medical figures for protesters were found. Mahato says the lathicharge happened 'at night, with the lights turned off' and after students were told to sit for dialogue; Hitavada and Bhaskar describe it during the day march; the timing conflict is unresolved. Protester Shivam says police acted 'without any warning'; police say they acted after repeated attempts to breach barricades.",
     "volatility": "low",
     "incident": "INC-0074"
   },
@@ -32902,7 +32902,7 @@
         "sha256": "3413ec08587e01356e52cc0b83efeeaa92fb56f4d9ac8c70aef8293bce92f7e2"
       }
     ],
-    "notes": "Water cannon on 1 September rests on the Home Minister's own statement (ANI, carried by The Tribune, Asianet Newsable and The News Mill, one origin) and on Press Trust of India's report of what the protesters said (Deccan Chronicle). Deccan Chronicle/PTI: 'Police first used water cannons to disperse the protesters and later resorted to lathicharge, according to the protesters.' The lathicharge on 1 September is an SFI allegation, not confirmed by any police or government statement read. Police later said four police personnel were hurt (HIST-KERL26-005).",
+    "notes": "Water cannon on 1 September rests on the Home Minister's own statement (ANI, carried by The Tribune, Asianet Newsable and The News Mill, one origin) and on Press Trust of India's report of what the protesters said (Deccan Chronicle). Deccan Chronicle/PTI: 'Police first used water cannons to disperse the protesters and later resorted to lathicharge, according to the protesters.' The lathicharge on 1 September is an SFI allegation that no police or government statement read has confirmed. Police later said four police personnel were hurt (HIST-KERL26-005).",
     "volatility": "medium",
     "incident": "INC-0075"
   },
@@ -33257,7 +33257,7 @@
         "sha256": "2ee825348bd0311696cd8f2e84856baf07509cab5f0851559af88a9d79b959b9"
       }
     ],
-    "notes": "An allegation, not an established fact. See the items on the university denial and the police preliminary finding.",
+    "notes": "An unproven allegation. See the items on the university denial and the police preliminary finding.",
     "volatility": "medium",
     "incident": "INC-0076"
   },
@@ -33459,7 +33459,7 @@
     "id": "HIST-LPU26-008",
     "jurisdiction": "punjab",
     "category": "incident",
-    "claim": "Police preliminary finding: Jagran reports, citing jagran.com's reporting of police, that 'the preliminary investigation has not found any evidence supporting the rape allegations', while the SIT would investigate in detail. A Phagwara SP is reported elsewhere as saying it appears a false rumour (search result summary only, not read).",
+    "claim": "Police preliminary finding: Jagran reports, citing jagran.com's reporting of police, that 'the preliminary investigation has not found any evidence supporting the rape allegations', while the SIT would investigate in detail. A Phagwara SP is reported elsewhere as saying it appears a false rumour (search result summary only; the page itself was unread).",
     "confidence": "REPORTED",
     "sources": [
       {
@@ -33892,7 +33892,7 @@
         "sha256": "b793d5b45bb33a231415a82dfd3337f3c7ad06054b035ad103b57b439ae7f040"
       }
     ],
-    "notes": "This is a political allegation by an elected official, not evidence of who gave an order. He names no officer. The Business Standard IANS copy carries his 'why is he so scared of students' remark about Prime Minister Narendra Modi. The Centre controls Delhi Police through the Home Ministry; no source fetched links any named person to this operation.",
+    "notes": "This is a political allegation by an elected official, which says nothing about who gave an order. He names no officer. The Business Standard IANS copy carries his 'why is he so scared of students' remark about Prime Minister Narendra Modi. The Centre controls Delhi Police through the Home Ministry; no source fetched links any named person to this operation.",
     "volatility": "low",
     "incident": "INC-0077"
   },
@@ -34023,7 +34023,7 @@
         "originates_from": "PTI"
       }
     ],
-    "notes": "This matters to the order question because the police account used to justify the 18 January removal of the body rests on the students having blocked access. The Lok Sabha text was not read; Irani's words are taken from Deccan Herald and Deccan Chronicle as reported. The Gachibowli police report she cited was not found. The doctor's account is also reported, not a document read. Whether police acted on a requisition by university officials or on their own initiative is not stated in any page.",
+    "notes": "This matters to the order question because the police account used to justify the 18 January removal of the body rests on the students having blocked access. The Lok Sabha text was not read; Irani's words are taken from Deccan Herald and Deccan Chronicle as reported. The Gachibowli police report she cited was not found. The doctor's account is also reported, and no document was read. Whether police acted on a requisition by university officials or on their own initiative is not stated in any page.",
     "volatility": "medium",
     "incident": "INC-0078"
   },
@@ -34105,7 +34105,7 @@
         "originates_from": "PTI (text matches Deccan Herald PTI copy)"
       }
     ],
-    "notes": "One wire report on two mastheads, so REPORTED. PTI describes the protesters as activists of the Telangana Jagruti Youth Front (TJYF), a cultural outfit headed by TRS MP K. Kavitha, and not as University of Hyderabad students. The legal basis (CrPC section, Section 144 order) is not stated. The date follows Sakshi's 'Tuesday' and DH timestamp of 19 January 2016. This is Hyderabad city police (Central Zone), not Cyberabad. Records to request: Ram Nagar or Musheerabad station records of the 19 January preventive custody.",
+    "notes": "One wire report on two mastheads, so REPORTED. PTI describes the protesters as activists of the Telangana Jagruti Youth Front (TJYF), a cultural outfit headed by TRS MP K. Kavitha, and not as University of Hyderabad students. The legal basis (CrPC section, Section 144 order) is not stated. The date follows Sakshi's 'Tuesday' and DH timestamp of 19 January 2016. This is Hyderabad city police (Central Zone), a different force from Cyberabad. Records to request: Ram Nagar or Musheerabad station records of the 19 January preventive custody.",
     "volatility": "medium",
     "incident": "INC-0078"
   },
@@ -34359,7 +34359,7 @@
         "sha256": "f3f756b656fce6b460d1e53908b21ee1d4c29dc4463a97621dd9bd3809bb5367"
       }
     ],
-    "notes": "The NHRC release describes the protesters as 'youth, including girl students' protesting on 9 March against irregularities and corruption in primary teacher appointments. PTI names the organisations; the NHRC does not. Sources describe them as student and youth organisation activists, not as TET or SSC candidates.",
+    "notes": "The NHRC release describes the protesters as 'youth, including girl students' protesting on 9 March against irregularities and corruption in primary teacher appointments. PTI names the organisations; the NHRC does not. Sources describe them as student and youth organisation activists, and none calls them TET or SSC candidates.",
     "volatility": "low",
     "incident": "INC-0079"
   },
@@ -34494,7 +34494,7 @@
         "sha256": "f3f756b656fce6b460d1e53908b21ee1d4c29dc4463a97621dd9bd3809bb5367"
       }
     ],
-    "notes": "Primary page read in full on raw text. This is a directive to enquire, not a finding. Enquiry report not found.",
+    "notes": "Primary page read in full on raw text. This is a directive to enquire and makes no finding. Enquiry report not found.",
     "volatility": "low",
     "incident": "INC-0079"
   },
@@ -35038,7 +35038,7 @@
         "originates_from": "cites Hindustan Times for the Sunday detentions"
       }
     ],
-    "notes": "Student status here is how the outlets and organisations describe people (student union office-bearers, 'student activists', a named college student), not a verified enrolment. ABC quotes a detainee, Aditi Subramanian, who does not say she is a student. Outlook (\"Police also detained students, lawyers and politicians\") is a third description. Many named detainees are party or union office-bearers; do not generalise to 'students' without the source's wording.",
+    "notes": "Student status here is how the outlets and organisations describe people (student union office-bearers, 'student activists', a named college student), and enrolment is unverified. ABC quotes a detainee, Aditi Subramanian, who does not say she is a student. Outlook (\"Police also detained students, lawyers and politicians\") is a third description. Many named detainees are party or union office-bearers; do not generalise to 'students' without the source's wording.",
     "volatility": "medium",
     "incident": "INC-0081"
   },
@@ -35113,7 +35113,7 @@
         "sha256": "d17370fbcc8513e407cc2c5b6e0afe79971ebc872d2930a99bbea01cf4bf036b"
       }
     ],
-    "notes": "Madhyamam's account is attributed to 'the account' of the activists, and its text carries no police response. ABC's quote is from a named protester describing her own detention. These are allegations, not findings. A second independent publisher for the stripping and boots allegations was not found. Mark the claim UNVERIFIED until one is.",
+    "notes": "Madhyamam's account is attributed to 'the account' of the activists, and its text carries no police response. ABC's quote is from a named protester describing her own detention. These are unproven allegations. A second independent publisher for the stripping and boots allegations was not found. Mark the claim UNVERIFIED until one is.",
     "volatility": "high",
     "incident": "INC-0081"
   },
@@ -35432,7 +35432,7 @@
         "originates_from": "The Associated Press"
       }
     ],
-    "notes": "Statements, not findings. Patra is a party spokesman.",
+    "notes": "Untested statements. Patra is a party spokesman.",
     "volatility": "high",
     "incident": "INC-0081"
   },
@@ -35958,7 +35958,7 @@
     "id": "HIST-BIHJ26-021",
     "jurisdiction": "bihar",
     "category": "incident",
-    "claim": "Siwan, 25 July 2026: the injuries from police firing are DISPUTED. Siwan SP Puran Kumar Jha told PTI 'No one was injured in the firing'. The State's affidavit to the Supreme Court (reported 18 August) says three protesters 'suffered minor firearms injuries' from a pistol, not the AK-47. Patna Press (27 July) says three injured protesters were being treated at Jayprabha Medanta Hospital in Patna, and Prabhat Khabar (29 July) says three youths were injured in police firing, two still in treatment at Medanta in Patna.",
+    "claim": "Siwan, 25 July 2026: the injuries from police firing are DISPUTED. Siwan SP Puran Kumar Jha told PTI 'No one was injured in the firing'. The State's affidavit to the Supreme Court (reported 18 August) says three protesters 'suffered minor firearms injuries' from a pistol, which the affidavit distinguishes from the AK-47. Patna Press (27 July) says three injured protesters were being treated at Jayprabha Medanta Hospital in Patna, and Prabhat Khabar (29 July) says three youths were injured in police firing, two still in treatment at Medanta in Patna.",
     "confidence": "DISPUTED",
     "sources": [
       {
@@ -36093,7 +36093,7 @@
         "sha256": "afc2ba2473ca5c04cfee3c50b6497bbaf4271544e51fab1a61808fb8da38bcb3"
       }
     ],
-    "notes": "ANI copy on Asianet Newsable. This is an allegation and a demand by a political opponent, not a finding. He names no officer who gave an order. A Siwan activist quoted by PTI on 4 August (HIST-BIHJ26-031) separately seeks action against the SP, saying he is 'responsible for making his subordinates trigger-happy'. Congress, in National Herald (10 Aug), frames the question as 'who ordered the crackdown' and directs it at Chief Minister Choudhary and Union Home Minister Amit Shah. No source read reports any of the three answering the question.",
+    "notes": "ANI copy on Asianet Newsable. This is an allegation and a demand by a political opponent, and it is unproven. He names no officer who gave an order. A Siwan activist quoted by PTI on 4 August (HIST-BIHJ26-031) separately seeks action against the SP, saying he is 'responsible for making his subordinates trigger-happy'. Congress, in National Herald (10 Aug), frames the question as 'who ordered the crackdown' and directs it at Chief Minister Choudhary and Union Home Minister Amit Shah. No source read reports any of the three answering the question.",
     "volatility": "low",
     "incident": "INC-0004"
   },
@@ -36632,7 +36632,7 @@
         "retrieved_on": "2026-10-12"
       }
     ],
-    "notes": "Both outlets report the notice; the NHRC page itself was not read. The notice names no officer. The report is due about 22 October 2026. Journalists, not students, were the people harassed, so this belongs to the 3 October protest record as the first official oversight step.",
+    "notes": "Both outlets report the notice; the NHRC page itself was not read. The notice names no officer. The report is due about 22 October 2026. The people harassed were journalists, so this belongs to the 3 October protest record as the first official oversight step.",
     "volatility": "medium",
     "incident": "INC-0006"
   },

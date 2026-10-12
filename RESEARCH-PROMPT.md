@@ -34,7 +34,7 @@ site is currently served from before running this prompt)
 
 Do not treat anything on that site as established fact: every factual field
 currently reads UNKNOWN by design. Use it to understand the archive's structure
-and its open questions, not as a source.
+and its open questions. It carries no weight as a source.
 
 The first investigation covers police action against students at Jantar Mantar
 (Delhi), and in Bihar and Maharashtra.
@@ -53,8 +53,7 @@ exactly how to obtain them. I am not asking you to tell me what happened.
 ### 1. RTI filing mechanics, per jurisdiction
 
 For each of: (a) Union ministries via rtionline.gov.in: the route for Delhi,
-since Delhi Police reports to the Ministry of Home Affairs rather than a state
-government; (b) Bihar; (c) Maharashtra.
+since Delhi Police reports directly to the Ministry of Home Affairs, with no state government in between; (b) Bihar; (c) Maharashtra.
 
 - Exact filing URL, or confirmation that no online portal exists and postal
   filing is required
@@ -122,8 +121,7 @@ For each of the three incidents, what already exists in the public domain:
 news reports, video, legal filings, fact-finding reports by civil society.
 
 **For this section only, list nothing you cannot link to.** If you are unsure
-whether a specific report exists, say "not found" rather than describing a
-plausible one. I would rather receive an empty section than one item I have to
+whether a specific report exists, say "not found" and describe nothing further. I would rather receive an empty section than one item I have to
 discover is invented. Where you do find something, give: publication, author,
 date, URL, and one line on what it documents.
 
@@ -150,7 +148,7 @@ Use these confidence values, matching my archive's own vocabulary:
 ## Rules
 
 1. **Every factual claim gets a URL.** A claim without one is not useful to me;
-   mark it UNKNOWN instead of asserting it.
+   mark it UNKNOWN.
 2. **Do not invent** URLs, portal names, section numbers, office designations,
    case numbers, report titles or publication names. If you are unsure whether
    something exists, say so. This is the single most important instruction here:
@@ -159,7 +157,7 @@ Use these confidence values, matching my archive's own vocabulary:
    fees get revised, and the CrPC→BNSS transition renumbered a lot of provisions.
 4. **Prefer the official source** over an explainer article, always.
 5. Where a state's process differs materially from the Union's, say so
-   explicitly rather than generalising across India.
+   explicitly and confine the statement to that state.
 6. End with a section titled **"What I could not establish"**, listing every
    question above you were unable to answer from a citable source. I need that
    list as much as the answers: it becomes the next round of work.
@@ -182,7 +180,7 @@ propose must be a lawful route available to an ordinary citizen.
 | 4, 5, 6 | `SOURCING.md`, and new `RTI-`-adjacent routes for questions RTI cannot reach |
 | 7 | `EXT-` records on `others.html`: each credited and linked, never mirrored |
 | 8 | Editorial judgement; some of it belongs in the About page's risk section |
-| "What I could not establish" | The next round of work. Treat it as a backlog, not a failure. |
+| "What I could not establish" | The next round of work. Treat it as a backlog. |
 
 ## A note on pasting the live URL
 

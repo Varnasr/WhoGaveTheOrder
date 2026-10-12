@@ -1,5 +1,5 @@
 /* =============================================================================
-   rti-kit.html — a drafted RTI application for every incident
+   rti-kit.html: a drafted RTI application for every incident
    -----------------------------------------------------------------------------
    The archive's method ends where the records start, and the records are held by
    offices that answer only when asked in the statute's form. This page writes the
@@ -217,7 +217,7 @@
     return '<details class="explainer" id="' + ui.esc(inc.id) + '" style="margin-top:0.8rem">' +
       '<summary>' + ui.esc(inc.date + ' · ' + inc.title) + '</summary>' +
       '<div class="explainer__body">' +
-        '<p class="small">' + ui.esc(inc.place + ', ' + inc.state) + ' · <a href="investigation.html?id=' + ui.esc(inc.slug) + '">Incident record</a></p>' +
+        '<p class="small">' + ui.esc(inc.place + ', ' + inc.state) + ' · <a href="incident/' + ui.esc(inc.slug + '.html') + '">Incident record</a></p>' +
         parts.join('') +
       '</div></details>';
   }

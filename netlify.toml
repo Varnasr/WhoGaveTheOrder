@@ -37,6 +37,23 @@
   to = "/about.html"
   status = 301
 
+# ---- incident pages are static files now --------------------------------------
+# investigation.html?id=<slug> was filled in by the browser, so a crawler and a
+# link preview saw one page for every incident. Each incident has its own page,
+# incident/<slug>.html, written by tools/build-seo.js. Old links and any that
+# were already shared keep working: a request with an id is sent to the page.
+[[redirects]]
+  from = "/investigation.html"
+  query = {id = ":id"}
+  to = "/incident/:id.html"
+  status = 301
+  force = true
+
+[[headers]]
+  for = "/og/*"
+  [headers.values]
+    Cache-Control = "public, max-age=86400"
+
 # ---- the source map is committed, not published ----
 # sourcemap/ holds the research behind the archive, including the filing queue:
 # which office is about to be written to, on what deadline, and where no court

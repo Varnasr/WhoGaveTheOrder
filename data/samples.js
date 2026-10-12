@@ -1,5 +1,5 @@
 /* =============================================================================
-   WhoGaveTheOrder.in — layout samples
+   WhoGaveTheOrder.in: layout samples
    -----------------------------------------------------------------------------
    These records exist so the interface can be reviewed, tested and handed to a
    designer before any real evidence has been collected. They are not evidence.
@@ -142,7 +142,7 @@ WGO.sampleResponses = [
 /* Sample RTI applications. The dates are relative offsets resolved at load
    time, so the sample register always shows a live clock: one application
    inside its statutory window, one overdue, one answered with "no record
-   held" — the three states the real register will spend most of its time in. */
+   held": the three states the real register will spend most of its time in. */
 WGO.sampleRtis = (function () {
   function daysAgo(n) {
     var d = new Date();
