@@ -10,7 +10,7 @@
     "cost": "Postage only",
     "legal_basis": "Not a statutory instrument. A representation puts the authority on notice; destruction after notice is itself a documentable fact.",
     "exposure_risk": false,
-    "notes": "MOST URGENT ITEM. Drafts for all four are in correspondence/ and are unsent.\n\nCORRECTED 18 September 2026. This item used to read 'No court is seized of the Bihar incidents. Nothing currently interrupts any retention schedule.' The first half is no longer true and the correction strengthens the representations rather than weakening them: the State of Bihar is a respondent in the Supreme Court proceedings on the protests and has filed an affidavit there (PROC-BIH-001, PROC-SC-004), and the Court constituted a High Powered Enquiry Committee by order reported 18 August 2026 (PROC-SC-006). The drafts are addressed on that footing.\n\nThe second half stands. No preservation order for any Bihar location is held by this archive (RET-007, UNKNOWN), and an inquiry existing is not the same as a direction to preserve having been made and communicated to a district police office.\n\nSiwan added. It carries CORROBORATED evidence of firearms discharged and injuries, on the State's own affidavit, and had no representation queued. Sitamarhi appears in the PUCL panel findings (INC-BIH-005) and nowhere else, so there is no dated incident record to write from and none is invented; that gap is real.\n\nMunger is UNVERIFIED as to whether force was used (INC-BIH-003) and its draft says so in terms. Do not firm that up.",
+    "notes": "MOST URGENT ITEM. Drafts for all four are in correspondence/ and are unsent.\n\nCORRECTED 18 September 2026. This item used to read 'No court is seized of the Bihar incidents. Nothing currently interrupts any retention schedule.' The first half is no longer true and the correction strengthens the representations: the State of Bihar is a respondent in the Supreme Court proceedings on the protests and has filed an affidavit there (PROC-BIH-001, PROC-SC-004), and the Court constituted a High Powered Enquiry Committee by order reported 18 August 2026 (PROC-SC-006). The drafts are addressed on that footing.\n\nThe second half stands. No preservation order for any Bihar location is held by this archive (RET-007, UNKNOWN), and an inquiry existing is not the same as a direction to preserve having been made and communicated to a district police office.\n\nSiwan added. It carries CORROBORATED evidence of firearms discharged and injuries, on the State's own affidavit, and had no representation queued. Sitamarhi appears in the PUCL panel findings (INC-BIH-005) and nowhere else, so there is no dated incident record to write from and none is invented; that gap is real.\n\nMunger is UNVERIFIED as to whether force was used (INC-BIH-003) and its draft says so in terms. Do not firm that up.",
     "resolves": [
       "OQ-002"
     ]
@@ -202,12 +202,12 @@
     "deadline_driven": false,
     "jurisdiction": "all",
     "action": "Retrieve an authoritative text of the Right to Information Act 2005 and record the URL actually fetched, to restore RTI-ACT-001 and RTI-ACT-002 to VERIFIED.",
-    "authority": "India Code. If India Code cannot serve the Act, the alternative official publisher is UNKNOWN and becomes an open question rather than a guess.",
+    "authority": "India Code. If India Code cannot serve the Act, the alternative official publisher is UNKNOWN and becomes an open question.",
     "method": "indiacode.nic.in, navigating from its Central Acts listing. Do not reconstruct a bitstream path by editing the one that failed.",
     "cost": "Free",
     "legal_basis": "Published primary legislation. Not an application.",
     "exposure_risk": false,
-    "notes": "SEQUENCE 0 so this precedes FQ-001 without renumbering the queue. Every deadline in this queue is computed from RTI Act timelines that are currently UNVERIFIED: s.7(1) thirty days, the s.7(1) proviso forty-eight hours, s.7(7) with s.11 forty days, the s.5(2) proviso thirty-five days, s.19(1) and s.19(3) appeal windows, and s.7(2) deemed refusal. The previously recorded URL https://www.indiacode.nic.in/bitstream/123456789/2013/1/A2005-22.pdf was fetched on 16 August 2026 and returned HTTP 302 to a page titled 'India Code: Invalid URL or Argument(s)' containing no text of the Act. That failure is itself recorded rather than papered over. Free, needs no application, and blocks nothing while it is done.",
+    "notes": "SEQUENCE 0 so this precedes FQ-001 without renumbering the queue. Every deadline in this queue is computed from RTI Act timelines that are currently UNVERIFIED: s.7(1) thirty days, the s.7(1) proviso forty-eight hours, s.7(7) with s.11 forty days, the s.5(2) proviso thirty-five days, s.19(1) and s.19(3) appeal windows, and s.7(2) deemed refusal. The previously recorded URL https://www.indiacode.nic.in/bitstream/123456789/2013/1/A2005-22.pdf was fetched on 16 August 2026 and returned HTTP 302 to a page titled 'India Code: Invalid URL or Argument(s)' containing no text of the Act. That failure is itself recorded. Free, needs no application, and blocks nothing while it is done.",
     "resolves": [
       "RTI-ACT-001",
       "RTI-ACT-002"
@@ -237,7 +237,7 @@
     "cost": "Free",
     "legal_basis": "Published judgment. Not an application.",
     "exposure_risk": false,
-    "notes": "SEQUENCE 0, same reasoning as FQ-013: it costs nothing, needs no third party, and upgrades a claim this archive is relying on. PREC-SHUT-001 currently rests on the Internet Freedom Foundation's citation of the case rather than on the case. The proposition is well known, which is exactly why it is easy to leave unverified. FQ-014 leans on it."
+    "notes": "SEQUENCE 0, same reasoning as FQ-013: it costs nothing, needs no third party, and upgrades a claim this archive is relying on. PREC-SHUT-001 currently rests on the Internet Freedom Foundation's citation of the case. The proposition is well known, which is exactly why it is easy to leave unverified. FQ-014 leans on it."
   },
   {
     "id": "FQ-016",
@@ -250,7 +250,7 @@
     "cost": "Free",
     "legal_basis": "Published judicial record.",
     "exposure_risk": false,
-    "notes": "Every Supreme Court record in this archive is an outlet's account of an order rather than the order. That is a weakness across the whole supreme_court category, not a gap in one record, and it is cheap to fix because the orders are public. Getting the 10 September order would also settle whether the confidential witness portal at OQ-054 exists and where."
+    "notes": "Every Supreme Court record in this archive is an outlet's account of an order. That is a weakness across the whole supreme_court category and is cheap to fix because the orders are public. Getting the 10 September order would also settle whether the confidential witness portal at OQ-054 exists and where."
   },
   {
     "id": "FQ-017",
@@ -259,7 +259,7 @@
     "jurisdiction": "delhi",
     "action": "Obtain the Delhi Police affidavit dated 17 August 2026 filed before the Supreme Court, and the application of 31 August 2026 with the affidavit of Joint Commissioner Ajay Krishna Sharma, from the Court's own record. Then ask Delhi Police, under the Right to Information Act, for the standard operating procedure governing the Facial Recognition System, the record of what was captured at Jantar Mantar between 20 and 26 July 2026, the retention period applied to it, and the verification protocol the force says is pending.",
     "authority": "Supreme Court of India for the filings. Commissioner of Police, Delhi, through the Ministry of Home Affairs route, for the procedure and retention.",
-    "method": "The filings are on the Court's record and need no application. The RTI goes to rtionline.gov.in. Ask for the procedure and the retention period, not for the list: a list of 2,873 named people is the last thing this archive should hold or ask to be published.",
+    "method": "The filings are on the Court's record and need no application. The RTI goes to rtionline.gov.in. Ask for the procedure and the retention period: a list of 2,873 named people is the last thing this archive should hold or ask to be published.",
     "cost": "Rs 10 application fee for the RTI; the filings are free",
     "legal_basis": "Published judicial record; Right to Information Act for the procedure and retention.",
     "exposure_risk": false,
@@ -311,7 +311,7 @@
     "jurisdiction": "delhi",
     "action": "Obtain any order suspending telecommunications in the Jantar Mantar area on 2 October 2026, the officer's designation, and the Review Committee proceedings under rule 3(2) of the Telecommunications (Temporary Suspension of Services) Rules 2024, as for FQ-014.",
     "authority": "Ministry of Home Affairs as the issuing authority for the July order; the Department of Telecommunications and the Commissioner of Delhi Police as alternatives. Whether the same office acted on 2 October is not established.",
-    "method": "RTI application, one subject matter, asking for the documents and not for an explanation.",
+    "method": "RTI application, one subject matter, asking for the documents.",
     "cost": "Rs 10 application fee",
     "legal_basis": "Right to Information Act 2005; Anuradha Bhasin v. Union of India (2020) 3 SCC 637 requires such orders to be published.",
     "exposure_risk": false,
