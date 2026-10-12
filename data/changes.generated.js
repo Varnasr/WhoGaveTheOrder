@@ -5,6 +5,1669 @@ window.WGO = window.WGO || {};
 
 WGO.changes = [
   {
+    "commit": "6dc7f3dcb8",
+    "date": "2026-10-12T09:28:05Z",
+    "subject": "Add 10 incidents and 118 evidence items from the 12 October sweep",
+    "added": [
+      {
+        "id": "INC-0077",
+        "kind": "Incident",
+        "title": "Delhi Police stop a JNU march to India Gate over the missing student Najeeb Ahmed",
+        "state": "CORROBORATED",
+        "url": "investigation.html?id=india-gate-march-november-2016"
+      },
+      {
+        "id": "INC-0078",
+        "kind": "Incident",
+        "title": "Police on the University of Hyderabad campus after Rohith Vemula's death",
+        "state": "CORROBORATED",
+        "url": "investigation.html?id=university-of-hyderabad-january-2016"
+      },
+      {
+        "id": "INC-0079",
+        "kind": "Incident",
+        "title": "Lathicharge on SFI and DYFI activists marching to Raj Bhavan over teacher recruitment",
+        "state": "CORROBORATED",
+        "url": "investigation.html?id=kolkata-raj-bhavan-march-march-2017"
+      },
+      {
+        "id": "INC-0080",
+        "kind": "Incident",
+        "title": "Lathicharge and tear gas on students blocking NH-33 at Hazaribagh over the JSSC CGL result",
+        "state": "CORROBORATED",
+        "url": "investigation.html?id=hazaribagh-jssc-december-2024"
+      },
+      {
+        "id": "INC-0081",
+        "kind": "Incident",
+        "title": "Mass detentions to stop the Cockroach Janta Party rally at Jantar Mantar",
+        "state": "CORROBORATED",
+        "url": "investigation.html?id=cjp-rally-detentions-october-2026"
+      },
+      {
+        "id": "INC-0082",
+        "kind": "Incident",
+        "title": "Students from Pune removed from a train at Itarsi on the way to the Delhi rally",
+        "state": "CORROBORATED",
+        "url": "investigation.html?id=students-removed-from-train-itarsi-october-2026"
+      },
+      {
+        "id": "INC-0083",
+        "kind": "Incident",
+        "title": "Lathicharge on students marching against the NEET paper leak at Darbhanga",
+        "state": "CORROBORATED",
+        "url": "investigation.html?id=darbhanga-neet-march-july-2026"
+      },
+      {
+        "id": "INC-0084",
+        "kind": "Incident",
+        "title": "Lathicharge on a students' march at Begusarai",
+        "state": "CORROBORATED",
+        "url": "investigation.html?id=begusarai-march-july-2026"
+      },
+      {
+        "id": "INC-0085",
+        "kind": "Incident",
+        "title": "Police fire shots at a student protest at Jehanabad",
+        "state": "CORROBORATED",
+        "url": "investigation.html?id=jehanabad-firing-july-2026"
+      },
+      {
+        "id": "INC-0086",
+        "kind": "Incident",
+        "title": "Water cannon on a second students' march to the Chief Minister's residence in Patna",
+        "state": "CORROBORATED",
+        "url": "investigation.html?id=patna-chief-minister-march-august-2026"
+      },
+      {
+        "id": "HIST-INDG16-001",
+        "kind": "Evidence",
+        "title": "On Sunday 6 November 2016 Delhi Police detained JNU students, Najeeb Ahmed's mother and his sister on their way to a protest at India Gate over the failure to t",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-INDG16-001"
+      },
+      {
+        "id": "HIST-INDG16-002",
+        "kind": "Evidence",
+        "title": "The number detained is given differently: IANS (Business Standard) says 'Around 200 Jawaharlal Nehru University (JNU) students as well as missing JNU student Na",
+        "state": "DISPUTED",
+        "url": "evidence.html?id=HIST-INDG16-002"
+      },
+      {
+        "id": "HIST-INDG16-003",
+        "kind": "Evidence",
+        "title": "Force and treatment are disputed. Reporters describe physical removal: IANS (Gulf Times) wrote 'Policewomen physically lifted a weeping Fatima Nafees' and 'She ",
+        "state": "DISPUTED",
+        "url": "evidence.html?id=HIST-INDG16-003"
+      },
+      {
+        "id": "HIST-INDG16-004",
+        "kind": "Evidence",
+        "title": "As the sources describe them, those detained were JNU students (Sabrang reports the JNU Students' Union president Mohit Pandey was among those detained), Najeeb",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-INDG16-004"
+      },
+      {
+        "id": "HIST-INDG16-005",
+        "kind": "Evidence",
+        "title": "On permission and the prohibitory order the accounts differ. Aapka Times (PTI): 'Delhi Police, which blocked all roads leading to the area since afternoon, said",
+        "state": "DISPUTED",
+        "url": "evidence.html?id=HIST-INDG16-005"
+      },
+      {
+        "id": "HIST-INDG16-006",
+        "kind": "Evidence",
+        "title": "Delhi Police issued a statement on the day, quoted as: 'During protest by JNU students today, none have been manhandled. A group of JNU students along with Naje",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-INDG16-006"
+      },
+      {
+        "id": "HIST-INDG16-007",
+        "kind": "Evidence",
+        "title": "Delhi Chief Minister Arvind Kejriwal said of the police action: 'It is obvious police doesn't act it own, it follows its bosses.' He went to Mayapuri police sta",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-INDG16-007"
+      },
+      {
+        "id": "HIST-INDG16-008",
+        "kind": "Evidence",
+        "title": "The Section 144 CrPC order for the India Gate area (issuer, post, date and time), the written notice Delhi Police say they sent to JNUSU, any record refusing pe",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-INDG16-008"
+      },
+      {
+        "id": "HIST-INDG16-009",
+        "kind": "Evidence",
+        "title": "No court order, NHRC record, Parliament answer or inquiry report specific to the 6 November 2016 India Gate detentions was found in the fetched sources or the s",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-INDG16-009"
+      },
+      {
+        "id": "HIST-HCU16-001",
+        "kind": "Evidence",
+        "title": "On the morning of Monday 18 January 2016, the day after Rohith Vemula was found hanging in a hostel room at the University of Hyderabad, police used force again",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-HCU16-001"
+      },
+      {
+        "id": "HIST-HCU16-002",
+        "kind": "Evidence",
+        "title": "IANS reports that police 'arrested eight' students at the University of Hyderabad on 18 January 2016 before shifting Rohith Vemula's body to Osmania Hospital.",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-HCU16-002"
+      },
+      {
+        "id": "HIST-HCU16-003",
+        "kind": "Evidence",
+        "title": "PTI quotes an unnamed police official on 18 January 2016: 'The body was sent for postmortem. Though there is no untoward incident being reported on the campus, ",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-HCU16-003"
+      },
+      {
+        "id": "HIST-HCU16-004",
+        "kind": "Evidence",
+        "title": "The night of 17 to 18 January 2016 is DISPUTED. Union HRD Minister Smriti Irani told the Lok Sabha on Wednesday 24 February 2016, quoting the Gachibowli police ",
+        "state": "DISPUTED",
+        "url": "evidence.html?id=HIST-HCU16-004"
+      },
+      {
+        "id": "HIST-HCU16-005",
+        "kind": "Evidence",
+        "title": "A statement issued by a group of academics (signatories including Sumit Sarkar, Tanika Sarkar and Achin Vanaik, with teachers from Jadavpur and Presidency unive",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-HCU16-005"
+      },
+      {
+        "id": "HIST-HCU16-006",
+        "kind": "Evidence",
+        "title": "On Monday 18 January 2016 Gachibowli police registered an FIR under IPC section 306 (abetment of suicide) and the SC/ST (Prevention of Atrocities) Act on a stud",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-HCU16-006"
+      },
+      {
+        "id": "HIST-HCU16-007",
+        "kind": "Evidence",
+        "title": "On Tuesday 19 January 2016 Hyderabad police took 37 protesters into preventive custody for a dharna near Union Minister Bandaru Dattatreya's house at Ram Nagar,",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-HCU16-007"
+      },
+      {
+        "id": "HIST-HCU16-008",
+        "kind": "Evidence",
+        "title": "Governance Now (GN Bureau) writes on 19 January 2016 that 'students scuffled with police on Tuesday outside union minister Bandaru Dattatreya's residence in Hyd",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-HCU16-008"
+      },
+      {
+        "id": "HIST-HCU16-009",
+        "kind": "Evidence",
+        "title": "Sakshi Post, 20 January 2016, reports that 'a group of students belonging All India Students Federation (AISF) besieged Dattatreya's house in Ram Nagar in the c",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-HCU16-009"
+      },
+      {
+        "id": "HIST-HCU16-010",
+        "kind": "Evidence",
+        "title": "On 19 January 2016, according to an agency report in Gulf Times, ABVP activists tried to stop Congress vice-president Rahul Gandhi's convoy when he reached Begu",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-HCU16-010"
+      },
+      {
+        "id": "HIST-HCU16-011",
+        "kind": "Evidence",
+        "title": "On Saturday 23 January 2016 seven hunger-striking students (the Joint Action Committee camp at the University of Hyderabad) were removed from the camp and taken",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-HCU16-011"
+      },
+      {
+        "id": "HIST-HCU16-012",
+        "kind": "Evidence",
+        "title": "On 21 January 2016 PTI reported that a University of Hyderabad faculty body expressing solidarity with the agitating students demanded 'immediate revocation of ",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-HCU16-012"
+      },
+      {
+        "id": "HIST-HCU16-013",
+        "kind": "Evidence",
+        "title": "On 4 April 2016 twenty CPI activists, including national executive member K. Narayana, were taken into preventive custody at Khairatabad railway station, Hydera",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-HCU16-013"
+      },
+      {
+        "id": "HIST-HCU16-014",
+        "kind": "Evidence",
+        "title": "On Wednesday 6 April 2016, during a 'Chalo HCU' call by the Joint Action Committee for Social Justice, police took protesters into preventive custody at the mai",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-HCU16-014"
+      },
+      {
+        "id": "HIST-HCU16-015",
+        "kind": "Evidence",
+        "title": "ORDER QUESTION, 6 April 2016. ACP Bhujanga Rao is reported by PTI as saying 'there was no permission for outsiders to enter the HCU campus'. PTI separately reco",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-HCU16-015"
+      },
+      {
+        "id": "HIST-HCU16-016",
+        "kind": "Evidence",
+        "title": "ORDER QUESTION, 18 January 2016. Who gave the order for police to remove Rohith Vemula's body from the University of Hyderabad against students' resistance, and",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-HCU16-016"
+      },
+      {
+        "id": "HIST-HCU16-017",
+        "kind": "Evidence",
+        "title": "ORDER QUESTION, 19 January 2016. Who ordered the 37 protesters near Bandaru Dattatreya's house to be taken into preventive custody is not established. The only ",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-HCU16-017"
+      },
+      {
+        "id": "HIST-HCU16-018",
+        "kind": "Evidence",
+        "title": "Records still to request for the January 2016 police actions at and around the University of Hyderabad: Gachibowli General Diary entries of 17 to 19 January and",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-HCU16-018"
+      },
+      {
+        "id": "HIST-KOLK17-001",
+        "kind": "Evidence",
+        "title": "On 9 March 2017 SFI and DYFI activists, the student and youth wings of the CPI(M), marched in Kolkata toward Raj Bhavan over alleged irregularities in the recru",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-KOLK17-001"
+      },
+      {
+        "id": "HIST-KOLK17-002",
+        "kind": "Evidence",
+        "title": "PTI reported that police 'resorted to lathi charge' to disperse the crowd at the Esplanade crossing on 9 March 2017. A Kolkata police official said some activis",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-KOLK17-002"
+      },
+      {
+        "id": "HIST-KOLK17-003",
+        "kind": "Evidence",
+        "title": "The NHRC states that allegedly many youth, including girl students, were brutally beaten by police and some had to be hospitalised. This is an allegation made i",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-KOLK17-003"
+      },
+      {
+        "id": "HIST-KOLK17-004",
+        "kind": "Evidence",
+        "title": "One later report says 123 people were detained on 9 March 2017 during the SFI and DYFI protest; on 10 March eight of them (four men, four women) were charged wi",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-KOLK17-004"
+      },
+      {
+        "id": "HIST-KOLK17-005",
+        "kind": "Evidence",
+        "title": "A Kolkata court (Chief Metropolitan Magistrate, Bankshall Court) granted bail on 14 March 2017 to eight SFI and DYFI leaders arrested for damaging government pr",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-KOLK17-005"
+      },
+      {
+        "id": "HIST-KOLK17-006",
+        "kind": "Evidence",
+        "title": "The NHRC states that four girl students were arrested, held in a police station and remanded to magisterial custody till 14 March 2017, and that at Alipore Wome",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-KOLK17-006"
+      },
+      {
+        "id": "HIST-KOLK17-007",
+        "kind": "Evidence",
+        "title": "On 21 March 2017 the NHRC directed its Director General (Investigation) to depute a senior female officer for an on-spot enquiry into the allegations of police ",
+        "state": "VERIFIED",
+        "url": "evidence.html?id=HIST-KOLK17-007"
+      },
+      {
+        "id": "HIST-KOLK17-008",
+        "kind": "Evidence",
+        "title": "Who ordered or authorised the police action is not stated in any source read. The only official voice is an unnamed Kolkata police official quoted by PTI saying",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-KOLK17-008"
+      },
+      {
+        "id": "HIST-HAZA24-001",
+        "kind": "Evidence",
+        "title": "On 10 December 2024 students and candidates protesting the JSSC CGL result blocked NH-33 at Hazaribagh during a Hazaribagh bandh. ETV Bharat gives the start as ",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-HAZA24-001"
+      },
+      {
+        "id": "HIST-HAZA24-002",
+        "kind": "Evidence",
+        "title": "Police used force on the protesters at Hazaribagh on 10 December 2024 to clear the blockade. ETV Bharat reports that police lathicharged and used tear gas for a",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-HAZA24-002"
+      },
+      {
+        "id": "HIST-HAZA24-003",
+        "kind": "Evidence",
+        "title": "Students were injured. Prabhat Khabar says more than half a dozen students were hurt and names JLKM leader Uday Mehta and others among those treated at Sheikh B",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-HAZA24-003"
+      },
+      {
+        "id": "HIST-HAZA24-004",
+        "kind": "Evidence",
+        "title": "Police and vehicles were hit by stone throwing. ETV Bharat says more than a dozen vehicles were damaged, including police vehicles and public transport; Prabhat",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-HAZA24-004"
+      },
+      {
+        "id": "HIST-HAZA24-005",
+        "kind": "Evidence",
+        "title": "Hazaribagh Sadar SDO Ashok Kumar said, per ETV Bharat, that despite repeated persuasion the situation went out of control and mild force had to be used to dispe",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-HAZA24-005"
+      },
+      {
+        "id": "HIST-HAZA24-006",
+        "kind": "Evidence",
+        "title": "Hazaribagh SP Arvind Kumar Singh is reported by Prabhat Khabar as saying no lathicharge was done on those blocking the road and that the blockade was ended by p",
+        "state": "DISPUTED",
+        "url": "evidence.html?id=HIST-HAZA24-006"
+      },
+      {
+        "id": "HIST-HAZA24-007",
+        "kind": "Evidence",
+        "title": "Students allege police rained lathis on them; police say agitated students threw stones. Prabhat Khabar reports both positions in the same article, and says inj",
+        "state": "DISPUTED",
+        "url": "evidence.html?id=HIST-HAZA24-007"
+      },
+      {
+        "id": "HIST-HAZA24-008",
+        "kind": "Evidence",
+        "title": "The students had told the SDO office of the bandh in advance, per ETV Bharat. The fetched pages do not mention any prohibitory order or refusal of permission fo",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-HAZA24-008"
+      },
+      {
+        "id": "HIST-HAZA24-009",
+        "kind": "Evidence",
+        "title": "On 11 December 2024 Jharkhand Education Minister Ramdas Soren said, per ETV Bharat, that the lathicharge would be investigated and that the government was serio",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-HAZA24-009"
+      },
+      {
+        "id": "HIST-HAZA24-010",
+        "kind": "Evidence",
+        "title": "Political reaction on 11 December 2024: BJP MLA Babulal Marandi accused the administration of ordering the lathicharge (IANS); AJSU MLA Nirmal Mahto sat on a dh",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-HAZA24-010"
+      },
+      {
+        "id": "HIST-HAZA24-011",
+        "kind": "Evidence",
+        "title": "Students and the JLKM leader Devendra Nath Mahto protested the Hazaribagh lathicharge with a candle march in Ranchi on 11 December 2024 and demanded action agai",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-HAZA24-011"
+      },
+      {
+        "id": "HIST-HAZA24-012",
+        "kind": "Evidence",
+        "title": "No FIR, arrest or detention count for the 10 December 2024 Hazaribagh events was found in any fetched page. The SDO said lawful action would follow.",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-HAZA24-012"
+      },
+      {
+        "id": "HIST-HAZA24-013",
+        "kind": "Evidence",
+        "title": "Who ordered or authorised the Hazaribagh force is not named. ETV Bharat says 'the administration' (prashasan) lathicharged when the situation worsened and that ",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-HAZA24-013"
+      },
+      {
+        "id": "HIST-DEL26-001",
+        "kind": "Evidence",
+        "title": "On Monday 5 October 2026 several members of the National Students' Union of India (NSUI), the Congress party's student wing, were reported as allegedly detained",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-DEL26-001"
+      },
+      {
+        "id": "HIST-DEL26-015",
+        "kind": "Evidence",
+        "title": "On 17 September 2026, in the Delhi High Court, Additional Solicitor General Chetan Sharma said no permission is being given for protests at Jantar Mantar as the",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-DEL26-015"
+      },
+      {
+        "id": "HIST-DEL26-002",
+        "kind": "Evidence",
+        "title": "On Saturday 10 October 2026 Delhi Police and paramilitary forces detained very large numbers of people in New Delhi to stop a Cockroach Janta Party (CJP) rally ",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-DEL26-002"
+      },
+      {
+        "id": "HIST-DEL26-003",
+        "kind": "Evidence",
+        "title": "Counts of people detained in Delhi on 10 October 2026 conflict: more than 2,000 (Reuters via CGTN; Al Jazeera citing AP and Reuters), 'hundreds' (ABC, Tribune),",
+        "state": "DISPUTED",
+        "url": "evidence.html?id=HIST-DEL26-003"
+      },
+      {
+        "id": "HIST-DEL26-004",
+        "kind": "Evidence",
+        "title": "Students are described as students by two independent publishers among the people detained on 10 October 2026. The Tribune lists AISA president Neha Bora, AISA ",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-DEL26-004"
+      },
+      {
+        "id": "HIST-DEL26-005",
+        "kind": "Evidence",
+        "title": "Protesters were forcibly moved into police vehicles on 10 October 2026. Videos showed unarmed protesters carried by arms and legs; a detainee told Al Jazeera po",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-DEL26-005"
+      },
+      {
+        "id": "HIST-DEL26-006",
+        "kind": "Evidence",
+        "title": "Allegations of beating, tearing of clothes and abuse in custody on 10 October 2026 were published by Madhyamam, which names SFI state president Adarsh M. Saji (",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-DEL26-006"
+      },
+      {
+        "id": "HIST-DEL26-007",
+        "kind": "Evidence",
+        "title": "Four men linked to a faction of the Hindu Raksha Dal were arrested on 11 October 2026 over a viral video of an assault on a protester on 10 October at Deen Daya",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-DEL26-007"
+      },
+      {
+        "id": "HIST-DEL26-008",
+        "kind": "Evidence",
+        "title": "Delhi Police refused permission for the CJP protests of 10 and 11 October 2026, and a Section 163 BNSS prohibitory order was in force in New Delhi district. Rea",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-DEL26-008"
+      },
+      {
+        "id": "HIST-DEL26-009",
+        "kind": "Evidence",
+        "title": "Delhi Police issued a statement on 10 October 2026 saying protesters had not secured required permission: \"Delhi being capital of the fastest growing economy of",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-DEL26-009"
+      },
+      {
+        "id": "HIST-DEL26-010",
+        "kind": "Evidence",
+        "title": "Wide restrictions were imposed around the 10 October 2026 protest: at least 45 Metro stations closed, more than 240 trains to New Delhi and Nizamuddin cancelled",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-DEL26-010"
+      },
+      {
+        "id": "HIST-DEL26-011",
+        "kind": "Evidence",
+        "title": "On 11 October 2026 the Supreme Court (Justices Joymalya Bagchi and V Mohana), in a special Sunday sitting, held that peaceful, unarmed protesters cannot be deta",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-DEL26-011"
+      },
+      {
+        "id": "HIST-DEL26-012",
+        "kind": "Evidence",
+        "title": "On 11 October 2026 detentions continued in central Delhi: AISA president Neha Bora and CPI(M) MP John Brittas were picked up at Connaught Place, NSUI workers we",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-DEL26-012"
+      },
+      {
+        "id": "HIST-DEL26-013",
+        "kind": "Evidence",
+        "title": "Nobody is named as having ordered the 10 October 2026 operation in the pages read. The Deccan Chronicle (PTI) quotes Union minister Chirag Paswan: \"the central ",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-DEL26-013"
+      },
+      {
+        "id": "HIST-DEL26-016",
+        "kind": "Evidence",
+        "title": "Records still to request for 5 and 10 to 11 October 2026: the Section 163 BNSS order for New Delhi district covering 10 and 11 October (text, date, signatory), ",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-DEL26-016"
+      },
+      {
+        "id": "HIST-OCT12-005",
+        "kind": "Evidence",
+        "title": "CJP founder Abhijeet Dipke and associates Saurav Das and Ashutosh Ranka were detained when their flight from Mumbai landed in Delhi. A court (an executive magis",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-OCT12-005"
+      },
+      {
+        "id": "HIST-OCT12-007",
+        "kind": "Evidence",
+        "title": "The UN Human Rights Office expressed concern at mass detentions before and during the protests and called on authorities to respect the right of peaceful assemb",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-OCT12-007"
+      },
+      {
+        "id": "HIST-OCT12-009",
+        "kind": "Evidence",
+        "title": "On the night of Thursday 8 October 2026, 12 to 22 students and activists from Pune, described as members of the All India Students' Federation and the New Stude",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-OCT12-009"
+      },
+      {
+        "id": "HIST-OCT12-010",
+        "kind": "Evidence",
+        "title": "UNKNOWN: Who instructed Itarsi/GRP police to remove the students. CJP posted asking who had ordered their detention; Newslaundry emailed the Narmadapuram SP and",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-OCT12-010"
+      },
+      {
+        "id": "HIST-OCT12-011",
+        "kind": "Evidence",
+        "title": "CJP volunteers claim a 10-member CJP team was picked up on Thursday 8 October from a hotel in New Town, Kolkata, held for about 13 hours and released at Bidhann",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-OCT12-011"
+      },
+      {
+        "id": "HIST-OCT12-012",
+        "kind": "Evidence",
+        "title": "SFI says Saharanpur district convenor Arif was picked up at his village by police and held at a sarpanch's residence; a senior UP officer told ThePrint 'We have",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-OCT12-012"
+      },
+      {
+        "id": "HIST-OCT12-013",
+        "kind": "Evidence",
+        "title": "CJP co-in-charge Deepak Baliyan says Alwar police took him from his home on 8 October, dropped him back that night and then kept 40-plus police in civil dress a",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-OCT12-013"
+      },
+      {
+        "id": "HIST-OCT12-014",
+        "kind": "Evidence",
+        "title": "Delhi Police officials visited paying-guest hostels and colleges before 10 October asking students not to join. A student near Delhi University said police warn",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-OCT12-014"
+      },
+      {
+        "id": "HIST-BIHJ26-001",
+        "kind": "Evidence",
+        "title": "On Thursday 23 July 2026 in Darbhanga, a march by students against the NEET paper leak, demanding the resignation of the Union Education Minister, ended in a la",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-BIHJ26-001"
+      },
+      {
+        "id": "HIST-BIHJ26-002",
+        "kind": "Evidence",
+        "title": "Darbhanga, 23 July 2026: the police account is that about 2,000 students gathered at Karpoori Chowk without prior permission and marched to Collectorate Road, a",
+        "state": "DISPUTED",
+        "url": "evidence.html?id=HIST-BIHJ26-002"
+      },
+      {
+        "id": "HIST-BIHJ26-003",
+        "kind": "Evidence",
+        "title": "Darbhanga, 23 to 24 July 2026: police injuries and arrests. IANS reports that the City SP was injured near the foot during stone-pelting and a constable was als",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-BIHJ26-003"
+      },
+      {
+        "id": "HIST-BIHJ26-004",
+        "kind": "Evidence",
+        "title": "Darbhanga, 23 July 2026, officials named in the sources: District Magistrate Kaushal Kumar, SSP Jagunath Reddy Jalareddy and a DIG. IANS says the DM and SSP 'ru",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-BIHJ26-004"
+      },
+      {
+        "id": "HIST-BIHJ26-005",
+        "kind": "Evidence",
+        "title": "On Thursday 23 July 2026 in Begusarai, a march of students from GD College to the District Magistrate's office ended with police using force at the Collectorate",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-BIHJ26-005"
+      },
+      {
+        "id": "HIST-BIHJ26-006",
+        "kind": "Evidence",
+        "title": "Begusarai, after 23 July 2026: arrests and photographs. Aaj Tak (24 July) says police released photographs of 30 people accused of stone-pelting and that four h",
+        "state": "DISPUTED",
+        "url": "evidence.html?id=HIST-BIHJ26-006"
+      },
+      {
+        "id": "HIST-BIHJ26-009",
+        "kind": "Evidence",
+        "title": "On Thursday 23 July 2026 in Jehanabad, police fired shots at a protest by students and others. Aaj Tak reports the District Magistrate confirmed that police had",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-BIHJ26-009"
+      },
+      {
+        "id": "HIST-BIHJ26-010",
+        "kind": "Evidence",
+        "title": "The number of rounds fired by police in Jehanabad on 23 July 2026 is DISPUTED. Aaj Tak says the District Magistrate confirmed 10 rounds of aerial firing. A CPI(",
+        "state": "DISPUTED",
+        "url": "evidence.html?id=HIST-BIHJ26-010"
+      },
+      {
+        "id": "HIST-BIHJ26-011",
+        "kind": "Evidence",
+        "title": "In the Bihar Assembly on Friday 24 July 2026, RJD MLA Alok Mehta raised the Jehanabad police firing and alleged students had been fired upon; BJP members object",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-BIHJ26-011"
+      },
+      {
+        "id": "HIST-BIHJ26-012",
+        "kind": "Evidence",
+        "title": "Date conflict for the Jehanabad incident: Aaj Tak, Scroll and Free Press Journal place the police firing and the attack at the District Magistrate's residence o",
+        "state": "DISPUTED",
+        "url": "evidence.html?id=HIST-BIHJ26-012"
+      },
+      {
+        "id": "HIST-BIHJ26-039",
+        "kind": "Evidence",
+        "title": "Armoury issue and return registers and ammunition expenditure records for Jehanabad on 23 July 2026 and Siwan on 25 July 2026.",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-BIHJ26-039"
+      },
+      {
+        "id": "HIST-BIHJ26-029",
+        "kind": "Evidence",
+        "title": "On Tuesday 4 August 2026 in Patna, police used water cannon on hundreds of students and youth marching from Gandhi Maidan towards Chief Minister Samrat Choudhar",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-BIHJ26-029"
+      },
+      {
+        "id": "HIST-BIHJ26-030",
+        "kind": "Evidence",
+        "title": "Detentions at the Patna march of 4 August 2026 are DISPUTED. Sub-Divisional Police Officer Amarendra Kumar Jha told PTI: 'We have not detained anyone but only h",
+        "state": "DISPUTED",
+        "url": "evidence.html?id=HIST-BIHJ26-030"
+      },
+      {
+        "id": "HIST-BIHJ26-031",
+        "kind": "Evidence",
+        "title": "Statements by protesters at the 4 August 2026 march: PTI quotes one demonstrator, 'The police are lying. We are worried about our friends,' and an activist from",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-BIHJ26-031"
+      },
+      {
+        "id": "HIST-BIHJ26-021",
+        "kind": "Evidence",
+        "title": "Siwan, 25 July 2026: the injuries from police firing are DISPUTED. Siwan SP Puran Kumar Jha told PTI 'No one was injured in the firing'. The State's affidavit t",
+        "state": "DISPUTED",
+        "url": "evidence.html?id=HIST-BIHJ26-021"
+      },
+      {
+        "id": "HIST-BIHJ26-022",
+        "kind": "Evidence",
+        "title": "Siwan, 25 July 2026, on-record statements about instructions to police. Siwan SP Puran Kumar Jha told PTI: 'There were clear instructions to the police force no",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-BIHJ26-022"
+      },
+      {
+        "id": "HIST-BIHJ26-023",
+        "kind": "Evidence",
+        "title": "The suspension of the Siwan constable followed 'directions from Bihar Police Headquarters', according to Patna Press (27 July 2026), which also says police offi",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-BIHJ26-023"
+      },
+      {
+        "id": "HIST-BIHJ26-024",
+        "kind": "Evidence",
+        "title": "Siwan FIRs and custody after 25 July 2026: Prabhat Khabar (29 July) reports 17 people arrested over stone-pelting and attacks on police during the Bihar Bandh r",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-BIHJ26-024"
+      },
+      {
+        "id": "HIST-BIHJ26-025",
+        "kind": "Evidence",
+        "title": "Tejashwi Yadav, Leader of the Opposition in Bihar, said on 27 July 2026: 'But on whose orders was the action taken? Was action taken against the Superintendent ",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-BIHJ26-025"
+      },
+      {
+        "id": "HIST-BIHJ26-007",
+        "kind": "Evidence",
+        "title": "On Thursday 23 July 2026 at the Katihar Collectorate, police lathi-charged students and other protesters. India TV says police intervened when protesters tried ",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-BIHJ26-007"
+      },
+      {
+        "id": "HIST-BIHJ26-008",
+        "kind": "Evidence",
+        "title": "Katihar, after 23 July 2026: Aaj Tak (24 July) says police had arrested 14 accused so far on the basis of video, had released some photographs and were looking ",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-BIHJ26-008"
+      },
+      {
+        "id": "HIST-BIHJ26-013",
+        "kind": "Evidence",
+        "title": "On Wednesday 22 July 2026 in Patna, police used tear gas shells, water cannon and a baton charge against an AISA-led 'Lok Bhavan march' over the NEET paper leak",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-BIHJ26-013"
+      },
+      {
+        "id": "HIST-BIHJ26-014",
+        "kind": "Evidence",
+        "title": "Patna, 22 July 2026: how far the march got is described differently as reporting developed. The first PTI report (22 July) has police stopping it near Gandhi Ma",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-BIHJ26-014"
+      },
+      {
+        "id": "HIST-BIHJ26-015",
+        "kind": "Evidence",
+        "title": "Patna Senior Superintendent of Police Kartikeya Sharma said on 22 to 23 July 2026: 'The police exercised maximum patience and repeatedly appealed to the protest",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-BIHJ26-015"
+      },
+      {
+        "id": "HIST-BIHJ26-016",
+        "kind": "Evidence",
+        "title": "Patna FIRs after 22 July 2026 are given in conflicting numbers. Aaj Tak (23 July): FIRs in three police stations (Kotwali, Gandhi Maidan, Secretariat) against 2",
+        "state": "DISPUTED",
+        "url": "evidence.html?id=HIST-BIHJ26-016"
+      },
+      {
+        "id": "HIST-BIHJ26-017",
+        "kind": "Evidence",
+        "title": "On Wednesday 22 July 2026 the Bihar Legislative Council saw an angry exchange over the 'brutal police action' raised by RJD MLC Sunil Kumar Singh, and the entir",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-BIHJ26-017"
+      },
+      {
+        "id": "HIST-BIHJ26-018",
+        "kind": "Evidence",
+        "title": "On Saturday 25 July 2026, the day of the Bihar Bandh, police at the Dak Bungalow crossing in Patna used force on a crowd of students and youth. Patna Press says",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-BIHJ26-018"
+      },
+      {
+        "id": "HIST-BIHJ26-019",
+        "kind": "Evidence",
+        "title": "Patna detentions on 25 July 2026 are given as 21 by Patna Press (17 from the Gandhi Maidan police station area and four from Kotwali). The archive already holds",
+        "state": "DISPUTED",
+        "url": "evidence.html?id=HIST-BIHJ26-019"
+      },
+      {
+        "id": "HIST-BIHJ26-020",
+        "kind": "Evidence",
+        "title": "Patna SSP Kartikeya K Sharma on 25 July 2026 (PTI): 'They pelted us with stones. They even tried to break the barricade. We have detained several students. Poli",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-BIHJ26-020"
+      },
+      {
+        "id": "HIST-BIHJ26-026",
+        "kind": "Evidence",
+        "title": "Bandh day, 25 July 2026, other districts (PTI): Bhagalpur police baton-charged a crowd after bricks were thrown, according to PTI's account of the Bhagalpur DM ",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-BIHJ26-026"
+      },
+      {
+        "id": "HIST-BIHJ26-027",
+        "kind": "Evidence",
+        "title": "On Monday 27 July 2026 the Bihar Home Department issued a statement withdrawing criminal cases against protesters. It said 'no adverse legal action ... shall be",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-BIHJ26-027"
+      },
+      {
+        "id": "HIST-BIHJ26-028",
+        "kind": "Evidence",
+        "title": "Statewide detention figures for the Bihar student protests are in conflict. PTI (28 July) quotes police: 694 detained for enforcing the Bihar bandh, 339 minors ",
+        "state": "DISPUTED",
+        "url": "evidence.html?id=HIST-BIHJ26-028"
+      },
+      {
+        "id": "HIST-BIHJ26-032",
+        "kind": "Evidence",
+        "title": "The State of Bihar's affidavit to the Supreme Court, filed 17 August 2026 and reported 18 August, gives a district-wise account of the student protests. As repo",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-BIHJ26-032"
+      },
+      {
+        "id": "HIST-BIHJ26-033",
+        "kind": "Evidence",
+        "title": "The Supreme Court's order constituting the High Powered Enquiry Committee (reported 18 August 2026) covers protests at Jantar Mantar 'and in Bihar and other par",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-BIHJ26-033"
+      },
+      {
+        "id": "HIST-BIHJ26-034",
+        "kind": "Evidence",
+        "title": "Any Section 163 BNSS (prohibitory) order, permission letter or refusal covering the 22 July Patna march, the 23 July marches at Darbhanga, Begusarai and Katihar",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-BIHJ26-034"
+      },
+      {
+        "id": "HIST-BIHJ26-035",
+        "kind": "Evidence",
+        "title": "Control-room logs, wireless messages, diary entries and instructions to officers on duty for Patna on 22 July and 25 July 2026, including the 'repeated requests",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-BIHJ26-035"
+      },
+      {
+        "id": "HIST-BIHJ26-036",
+        "kind": "Evidence",
+        "title": "FIR copies for Patna (24 FIRs per the affidavit), Darbhanga, Begusarai, Katihar, Jehanabad and Siwan, with sections invoked and the officer who lodged each comp",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-BIHJ26-036"
+      },
+      {
+        "id": "HIST-BIHJ26-037",
+        "kind": "Evidence",
+        "title": "The Bihar Home Department notification of 27 July 2026, the Advocate General's letter of 28 July to District Magistrates and public prosecutors, and the Chief M",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-BIHJ26-037"
+      },
+      {
+        "id": "HIST-BIHJ26-038",
+        "kind": "Evidence",
+        "title": "The State of Bihar's counter affidavit to the Supreme Court filed 17 August 2026, and the Supreme Court order of 18 August 2026 constituting the High Powered En",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-BIHJ26-038"
+      },
+      {
+        "id": "HIST-BIHJ26-040",
+        "kind": "Evidence",
+        "title": "Whether police used force at Munger on 23 July 2026, and whether there was a hostel entry and beating of students at Sitamarhi on 21 July as the PUCL hearing is",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-BIHJ26-040"
+      },
+      {
+        "id": "HIST-BIHJ26-041",
+        "kind": "Evidence",
+        "title": "Hospital records and medico-legal certificates for protesters injured at Patna (22 and 25 July), Darbhanga, Begusarai, Katihar, Jehanabad and Siwan; Patna Medic",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-BIHJ26-041"
+      },
+      {
+        "id": "HIST-BIHJ26-042",
+        "kind": "Evidence",
+        "title": "Court remand records at Patna for the night of 22 to 23 July 2026, said by Prabhat Khabar's live coverage to show 87 protesters produced at a judge's residence ",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-BIHJ26-042"
+      },
+      {
+        "id": "HIST-BIHJ26-043",
+        "kind": "Evidence",
+        "title": "Any NHRC, Bihar State Human Rights Commission or Patna High Court action on any of these incidents.",
+        "state": "UNKNOWN",
+        "url": "evidence.html?id=HIST-BIHJ26-043"
+      },
+      {
+        "id": "HIST-DEV12-001",
+        "kind": "Evidence",
+        "title": "On 8 October 2026 the National Human Rights Commission took suo motu cognisance of a media report of 5 October alleging sexual harassment of three women journal",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-DEV12-001"
+      },
+      {
+        "id": "HIST-DEV12-002",
+        "kind": "Evidence",
+        "title": "On 7 October 2026 DCP New Delhi Sachin Sharma told PTI on record: \"Section 163 of the BNSS is in force here\", adding that protest marches or demonstrations were",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-DEV12-002"
+      },
+      {
+        "id": "HIST-DEV12-003",
+        "kind": "Evidence",
+        "title": "On 8 October 2026 Delhi Police said three FIRs had been registered over the 7 October protest, \"with more cases being registered\", described as assault on polic",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-DEV12-003"
+      },
+      {
+        "id": "HIST-DEV12-004",
+        "kind": "Evidence",
+        "title": "On 30 September 2026 the Punjab and Haryana High Court (Chief Justice Ashwani Kumar Mishra and Justice Rohit Kapoor), on a PIL by an LPU student seeking a CBI p",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-DEV12-004"
+      },
+      {
+        "id": "SRC-0980",
+        "kind": "Source",
+        "title": "The Asian Age, 7 November 2016",
+        "state": null,
+        "url": "https://www.asianage.com/delhi/najeeb-ahmed-mom-sister-detained-over-stir-119"
+      },
+      {
+        "id": "SRC-0981",
+        "kind": "Source",
+        "title": "Business Standard (IANS), 6 November 2016",
+        "state": null,
+        "url": "https://www.business-standard.com/article/news-ians/200-jnu-students-najeeb-s-mother-detained-in-delhi-before-protest-116110600597_1.html"
+      },
+      {
+        "id": "SRC-0982",
+        "kind": "Source",
+        "title": "SabrangIndia, 7 November 2016",
+        "state": null,
+        "url": "https://sabrangindia.in/abvp-delhi-police-speaking-one-language-jnusu-president-mohit-pandey/"
+      },
+      {
+        "id": "SRC-0983",
+        "kind": "Source",
+        "title": "Gulf Times (IANS), 6 November 2016",
+        "state": null,
+        "url": "https://www.gulf-times.com/story/520218/missing-jnu-students-mother-protesters-held"
+      },
+      {
+        "id": "SRC-0984",
+        "kind": "Source",
+        "title": "Deccan Herald (DHNS), 19 January 2016",
+        "state": null,
+        "url": "https://www.deccanherald.com/amp/story/india%2Fminister-booked-abetting-dalit-students-2044801"
+      },
+      {
+        "id": "SRC-0985",
+        "kind": "Source",
+        "title": "The Weekend Leader (IANS), dated 18 January 2016",
+        "state": null,
+        "url": "https://www.theweekendleader.com/Headlines/6145/protests-over-dalit-students-suicide-central-minister-booked.html"
+      },
+      {
+        "id": "SRC-0986",
+        "kind": "Source",
+        "title": "Deccan Herald (PTI), 18 January 2016",
+        "state": null,
+        "url": "https://www.deccanherald.com/india/union-minister-bandaru-dattatreya-booked-2043845"
+      },
+      {
+        "id": "SRC-0987",
+        "kind": "Source",
+        "title": "Deccan Herald (DHNS), 26 February 2016",
+        "state": null,
+        "url": "https://www.deccanherald.com/amp/story/india%2Fuoh-doctor-challenges-smritis-statement-2050893"
+      },
+      {
+        "id": "SRC-0988",
+        "kind": "Source",
+        "title": "Deccan Chronicle, 26 February 2016",
+        "state": null,
+        "url": "https://www.deccanchronicle.com/nation/current-affairs/260216/rohith-vemula-suicide-row-hcu-doctor-nails-smriti-irani-s-statement-in-house.html"
+      },
+      {
+        "id": "SRC-0989",
+        "kind": "Source",
+        "title": "Deccan Herald (PTI), February 2016",
+        "state": null,
+        "url": "https://www.deccanherald.com/india/hrd-mins-claims-factually-incorrect-2051548"
+      },
+      {
+        "id": "SRC-0990",
+        "kind": "Source",
+        "title": "Statement issued by Concerned Academics on the Suicide of Rohith Vemula (PDF, undated, reproduced by Feminist Law Archives)",
+        "state": null,
+        "url": "http://feministlawarchives.pldindia.org/wp-content/uploads/Statement-Issued-by-Concerned-Academics-on-the-Suicide-of-Rohith-Vemula.pdf"
+      },
+      {
+        "id": "SRC-0991",
+        "kind": "Source",
+        "title": "Deccan Herald (PTI), 19 January 2016",
+        "state": null,
+        "url": "https://www.deccanherald.com/content/523980/dalit-student-death-protests-spread.html"
+      },
+      {
+        "id": "SRC-0992",
+        "kind": "Source",
+        "title": "Sakshi Post, 19 January 2016",
+        "state": null,
+        "url": "https://www.sakshipost.com/dalit-student-s-death-protest-escalates,-rahul-visits-campus"
+      },
+      {
+        "id": "SRC-0993",
+        "kind": "Source",
+        "title": "Governance Now (GN Bureau), 19 January 2016",
+        "state": null,
+        "url": "https://governancenow.com/news/regular-story/fresh-protests-erupt-hyderabad-dalit-scholars-suicide"
+      },
+      {
+        "id": "SRC-0994",
+        "kind": "Source",
+        "title": "Sakshi Post, 20 January 2016",
+        "state": null,
+        "url": "https://www.sakshipost.com/nation-wide-clamour-for-dattatreya%2C-smriti-irani-heads-gets-louder"
+      },
+      {
+        "id": "SRC-0995",
+        "kind": "Source",
+        "title": "Gulf Times (agencies), 19 January 2016",
+        "state": null,
+        "url": "https://www.gulf-times.com/story/475639/protests-escalate-overdalit-students-death"
+      },
+      {
+        "id": "SRC-0996",
+        "kind": "Source",
+        "title": "Deccan Herald (PTI), 23 January 2016",
+        "state": null,
+        "url": "https://www.deccanherald.com/india/rohiths-kin-spurns-solatium-fasting-2045053"
+      },
+      {
+        "id": "SRC-0997",
+        "kind": "Source",
+        "title": "Scroll.in, 24 January 2016",
+        "state": null,
+        "url": "https://scroll.in/latest/802396/rohith-vemula-suicide-students-launch-another-hunger-strike-demand-vice-chancellors-resignation"
+      },
+      {
+        "id": "SRC-0998",
+        "kind": "Source",
+        "title": "Gulf News (own correspondent), January 2016",
+        "state": null,
+        "url": "https://gulfnews.com/amp/story/world%2Fasia%2Findia%2Fhyderabad-university-students-reject-interim-vc-1.1659981"
+      },
+      {
+        "id": "SRC-0999",
+        "kind": "Source",
+        "title": "Al Jazeera photo gallery, 1 February 2016",
+        "state": null,
+        "url": "https://www.aljazeera.com/indepth/inpictures/2016/01/rohith-vemula-dalit-scholar-hanged-protest-160131120758202.html"
+      },
+      {
+        "id": "SRC-1000",
+        "kind": "Source",
+        "title": "Deccan Herald (PTI), 21 January 2016",
+        "state": null,
+        "url": "https://www.deccanherald.com/amp/story/india%2Ffaculty-members-threaten-quit-posts-2044380"
+      },
+      {
+        "id": "SRC-1001",
+        "kind": "Source",
+        "title": "Sakshi Post, 4 April 2016",
+        "state": null,
+        "url": "https://www.sakshipost.com/cpi-activists-held-for-taking-out-march-seeking-vcs-removal"
+      },
+      {
+        "id": "SRC-1002",
+        "kind": "Source",
+        "title": "Deccan Herald (PTI), 6 April 2016",
+        "state": null,
+        "url": "https://www.deccanherald.com/amp/story/india%2Fprotesting-students-detained-bid-enter-2058399"
+      },
+      {
+        "id": "SRC-1003",
+        "kind": "Source",
+        "title": "DT Next, 6 April 2016",
+        "state": null,
+        "url": "https://www.dtnext.in/news/national/hcu-students-held-professor-quits"
+      },
+      {
+        "id": "SRC-1004",
+        "kind": "Source",
+        "title": "ummid.com (IANS), 6 April 2016",
+        "state": null,
+        "url": "https://ummid.com/news/2016/April/06.04.2016/clashes-erupt-again-in-hyderabad-uv.html"
+      },
+      {
+        "id": "SRC-1005",
+        "kind": "Source",
+        "title": "PTI via india.com, 9 March 2017",
+        "state": null,
+        "url": "https://www.india.com/news/agencies/sfi-dyfi-activists-detained-by-police-1908883/"
+      },
+      {
+        "id": "SRC-1006",
+        "kind": "Source",
+        "title": "NHRC press release, 21 March 2017",
+        "state": null,
+        "url": "https://nhrc.nic.in/media/press-release/nhrc-to-conduct-spot-enquiry-into-allegations-police-atrocities-on-students-protesting-against-irregularities-in-appointments-primary-teachers-in-west-bengal-21-03-2017"
+      },
+      {
+        "id": "SRC-1007",
+        "kind": "Source",
+        "title": "india.com (Pinaki Bhattacharyya), 19 March 2017",
+        "state": null,
+        "url": "https://www.india.com/news/india/west-bengal-sfi-members-allegedly-strip-searched-by-police-claim-one-of-them-menstruating-was-asked-to-remove-innerwear-1939621/"
+      },
+      {
+        "id": "SRC-1008",
+        "kind": "Source",
+        "title": "PTI via india.com, 14 March 2017",
+        "state": null,
+        "url": "https://www.india.com/news/agencies/sfi-dyfi-activists-get-bail-1924999/"
+      },
+      {
+        "id": "SRC-1009",
+        "kind": "Source",
+        "title": "ETV Bharat, 10 Dec 2024",
+        "state": null,
+        "url": "https://www.etvbharat.com/hi/!state/police-lathi-charge-on-students-protest-in-hazaribag-jharkhand-news-jhs24121005616"
+      },
+      {
+        "id": "SRC-1010",
+        "kind": "Source",
+        "title": "The Hans India (IANS), 10 Dec 2024",
+        "state": null,
+        "url": "https://www.thehansindia.com/news/national/students-protest-in-hazaribagh-alleging-irregularities-in-jharkhand-cgl-exam-results-928595"
+      },
+      {
+        "id": "SRC-1011",
+        "kind": "Source",
+        "title": "Prabhat Khabar, 11 Dec 2024",
+        "state": null,
+        "url": "https://www.prabhatkhabar.com/state/jharkhand/ranchi/police-released-tear-gas-shells"
+      },
+      {
+        "id": "SRC-1012",
+        "kind": "Source",
+        "title": "CityAirNews (IANS text), 15 Dec 2024",
+        "state": null,
+        "url": "https://www.cityairnews.com/content/jharkhand-cgl-exam-controversy-escalates-students-to-stage-protest-in-ranchi-tomorrow"
+      },
+      {
+        "id": "SRC-1013",
+        "kind": "Source",
+        "title": "Mangalorean.com (IANS), 11 Dec 2024",
+        "state": null,
+        "url": "https://www.mangalorean.com/lathi-charge-on-students-in-hazaribagh-kicks-up-political-row-demand-for-cbi-probe-grows/"
+      },
+      {
+        "id": "SRC-1014",
+        "kind": "Source",
+        "title": "ETV Bharat, 11 Dec 2024",
+        "state": null,
+        "url": "https://www.etvbharat.com/hi/!state/mlas-demanded-cancellation-of-jssc-cgl-exam-jharkhand-news-jhs24121104196"
+      },
+      {
+        "id": "SRC-1015",
+        "kind": "Source",
+        "title": "ETV Bharat, 11 Dec 2024",
+        "state": null,
+        "url": "https://www.etvbharat.com/hi/!state/students-got-angry-after-results-of-jssc-cgl-exam-declared-jharkhand-news-jhs24121105937"
+      },
+      {
+        "id": "SRC-1016",
+        "kind": "Source",
+        "title": "Siasat.com, 5 October 2026",
+        "state": null,
+        "url": "https://www.siasat.com/anti-cec-stir-several-detained-at-nsuis-living-dead-protest-3552760/"
+      },
+      {
+        "id": "SRC-1017",
+        "kind": "Source",
+        "title": "Outlook India, 5 October 2026",
+        "state": null,
+        "url": "https://www.outlookindia.com/national/delhi-nsui-stages-living-dead-protest-seeking-gyanesh-kumar-s-resignation-several-detained"
+      },
+      {
+        "id": "SRC-1018",
+        "kind": "Source",
+        "title": "DT Next, 5 October 2026",
+        "state": null,
+        "url": "https://www.dtnext.in/news/national/delhi-nsui-stages-living-dead-protest-seeking-gyanesh-kumars-resignation-several-detained"
+      },
+      {
+        "id": "SRC-1019",
+        "kind": "Source",
+        "title": "Madhyamam, 5 October 2026",
+        "state": null,
+        "url": "https://madhyamamonline.com/india/several-nsui-members-detained-during-protest-cecs-removal-1560735"
+      },
+      {
+        "id": "SRC-1020",
+        "kind": "Source",
+        "title": "Deccan Chronicle, 17 September 2026",
+        "state": null,
+        "url": "https://www.deccanchronicle.com/nation/delhi-hc-questions-police-over-denying-ugc-related-protest-at-jantar-mantar-1988190"
+      },
+      {
+        "id": "SRC-1021",
+        "kind": "Source",
+        "title": "ABC News (Australia), 11 October 2026",
+        "state": null,
+        "url": "https://www.abc.net.au/news/2026-10-11/cockroach-party-india-protesters-against-modi-vow-to-return/107252114"
+      },
+      {
+        "id": "SRC-1022",
+        "kind": "Source",
+        "title": "Al Jazeera photo gallery, 11 October 2026",
+        "state": null,
+        "url": "https://www.aljazeera.com/gallery/2026/10/11/photos-thousands-detained-as-new-delhi-cracks-down-on-youth-protest"
+      },
+      {
+        "id": "SRC-1023",
+        "kind": "Source",
+        "title": "CGTN, 11 October 2026",
+        "state": null,
+        "url": "https://news.cgtn.com/news/2026-10-11/India-detains-thousands-locks-down-Delhi-over-election-chief-protest-1R96MYgPvaM/p.html"
+      },
+      {
+        "id": "SRC-1024",
+        "kind": "Source",
+        "title": "Outlook India, 11 October 2026",
+        "state": null,
+        "url": "https://www.outlookindia.com/national/protesters-detained-journalists-held-as-delhis-anti-cec-stir-faces-police-crackdown"
+      },
+      {
+        "id": "SRC-1025",
+        "kind": "Source",
+        "title": "The Tribune, 11 October 2026 (Tribune News Service)",
+        "state": null,
+        "url": "https://www.tribuneindia.com/news/delhi/left-leaders-students-detained-during-anti-sir-protests-in-delhi"
+      },
+      {
+        "id": "SRC-1026",
+        "kind": "Source",
+        "title": "The Pioneer, 12 October 2026 (Pioneer News Service)",
+        "state": null,
+        "url": "https://dailypioneer.com/news/sc-tells-delhi-to-lift-the-barriers"
+      },
+      {
+        "id": "SRC-1027",
+        "kind": "Source",
+        "title": "CIVICUS Monitor, 11 October 2026",
+        "state": null,
+        "url": "https://monitor.civicus.org/explore/india-thousands-detained-in-crackdown-on-mass-protests-against-electoral-roll-manipulation-while-activists-and-journalists-are-criminalised/"
+      },
+      {
+        "id": "SRC-1028",
+        "kind": "Source",
+        "title": "Deccan Chronicle, 11 October 2026",
+        "state": null,
+        "url": "https://deccanchronicle.com/amp/nation/cjp-protest-over-100-detained-dipke-vows-to-protest-again-1994849"
+      },
+      {
+        "id": "SRC-1029",
+        "kind": "Source",
+        "title": "Al Jazeera, 11 October 2026",
+        "state": null,
+        "url": "https://www.aljazeera.com/news/2026/10/11/indias-crackdown-on-youth-protesters-what-next"
+      },
+      {
+        "id": "SRC-1030",
+        "kind": "Source",
+        "title": "Madhyamam, 11 October 2026",
+        "state": null,
+        "url": "https://madhyamamonline.com/india/delhi-police-accused-of-brutal-assault-stripping-detained-protesters-1562475"
+      },
+      {
+        "id": "SRC-1031",
+        "kind": "Source",
+        "title": "ThePrint, 11 October 2026",
+        "state": null,
+        "url": "https://theprint.in/india/delhi-police-arrests-4-members-of-fringe-hindu-right-wing-group-for-assaulting-protesters/3066857/"
+      },
+      {
+        "id": "SRC-1032",
+        "kind": "Source",
+        "title": "Outlook India, 9 October 2026",
+        "state": null,
+        "url": "https://www.outlookindia.com/national/section-163-imposed-in-delhi-ahead-of-cjp-stir-why-it-matters-for-the-right-to-protest-in-india"
+      },
+      {
+        "id": "SRC-1033",
+        "kind": "Source",
+        "title": "The News Mill, 9 October 2026",
+        "state": null,
+        "url": "https://thenewsmill.com/2026/10/delhi-police-declares-october-10-cjp-protest-illegal-under-section-163/"
+      },
+      {
+        "id": "SRC-1034",
+        "kind": "Source",
+        "title": "Outlook India, 11 October 2026",
+        "state": null,
+        "url": "https://www.outlookindia.com/national/no-detention-except-under-law-supreme-court-issues-directions-on-delhi-curbs"
+      },
+      {
+        "id": "SRC-1035",
+        "kind": "Source",
+        "title": "Asianet Newsable, 11 October 2026",
+        "state": null,
+        "url": "https://newsable.asianetnews.com/india/sc-raps-police-over-curbs-detentions-orders-removal-of-notices-articleshow-hg4gnxt"
+      },
+      {
+        "id": "SRC-1036",
+        "kind": "Source",
+        "title": "Inshorts, 11 October 2026",
+        "state": null,
+        "url": "https://inshorts.com/en/news/nsui-workers-detained-during-protest-against-cec-gyanesh-kumar--1791717835000"
+      },
+      {
+        "id": "SRC-1037",
+        "kind": "Source",
+        "title": "Al Jazeera, updated 11 Oct 2026",
+        "state": null,
+        "url": "https://www.aljazeera.com/news/2026/10/10/indias-cockroach-leaders-detained-new-delhi-in-lockdown"
+      },
+      {
+        "id": "SRC-1038",
+        "kind": "Source",
+        "title": "NBC News, 10 Oct 2026",
+        "state": null,
+        "url": "https://www.nbcnews.com/world/india/india-cracks-cockroach-youth-protests-anger-grows-modi-election-chief-rcna602636"
+      },
+      {
+        "id": "SRC-1039",
+        "kind": "Source",
+        "title": "Deccan Chronicle, 9 Oct 2026",
+        "state": null,
+        "url": "https://www.deccanchronicle.com/nation/15-pune-students-travelling-to-delhi-for-cjp-protest-stopped-at-itarsi-1994397"
+      },
+      {
+        "id": "SRC-1040",
+        "kind": "Source",
+        "title": "Punekar News, 9 Oct 2026",
+        "state": null,
+        "url": "https://www.punekarnews.in/?p=246620"
+      },
+      {
+        "id": "SRC-1041",
+        "kind": "Source",
+        "title": "The News Minute, 9-10 Oct 2026",
+        "state": null,
+        "url": "https://www.thenewsminute.com/news/how-police-are-trying-to-stop-protesters-from-reaching-delhi-for-october-10-march"
+      },
+      {
+        "id": "SRC-1042",
+        "kind": "Source",
+        "title": "ThePrint, 9 Oct 2026",
+        "state": null,
+        "url": "https://theprint.in/india/picked-up-from-trains-cjp-sfi-others-claim-1000s-detained-to-prevent-jantar-mantar-2-0-attendance/3066543/"
+      },
+      {
+        "id": "SRC-1043",
+        "kind": "Source",
+        "title": "The South First, 8-9 Oct 2026",
+        "state": null,
+        "url": "https://thesouthfirst.com/beyond-south/opposition-gets-to-rajghat-without-a-fight-capital-locked-down-ahead-of-cjps-october-10-protest/"
+      },
+      {
+        "id": "SRC-1044",
+        "kind": "Source",
+        "title": "Daily Jagran, 9 Oct 2026",
+        "state": null,
+        "url": "https://www.thedailyjagran.com/india/news/cjp-protest-delhi-jantar-mantar-abhijeet-dipke-alleges-brutal-action-on-members-ahead-of-protest-10332128"
+      },
+      {
+        "id": "SRC-1045",
+        "kind": "Source",
+        "title": "Telangana Today, 23 Jul 2026",
+        "state": null,
+        "url": "https://telanganatoday.com/neet-protest-turns-violent-in-bihar-as-students-clash-with-police-in-darbhanga-begusarai"
+      },
+      {
+        "id": "SRC-1046",
+        "kind": "Source",
+        "title": "Aaj Tak, 23 Jul 2026",
+        "state": null,
+        "url": "https://www.aajtak.in/bihar/story/bihar-neet-paper-leak-protest-violence-jehanabad-patna-lathicharge-firing-ntc-drmt-rpti-2607986-2026-07-23"
+      },
+      {
+        "id": "SRC-1047",
+        "kind": "Source",
+        "title": "Aaj Tak, 23 Jul 2026",
+        "state": null,
+        "url": "https://www.aajtak.in/bihar/story/darbhanga-stone-pelting-market-shut-dm-ssp-flag-march-cctv-investigation-lclcn-strc-2607998-2026-07-23"
+      },
+      {
+        "id": "SRC-1048",
+        "kind": "Source",
+        "title": "Aaj Tak, 24 Jul 2026",
+        "state": null,
+        "url": "https://www.aajtak.in/bihar/story/bihar-student-protest-crackdown-begusarai-katihar-police-release-photos-lcla-strc-2608116-2026-07-24"
+      },
+      {
+        "id": "SRC-1049",
+        "kind": "Source",
+        "title": "Prabhat Khabar, 29 Jul 2026",
+        "state": null,
+        "url": "https://www.prabhatkhabar.com/state/bihar/begusarai/protesters-remain-in-jail-after-arrests"
+      },
+      {
+        "id": "SRC-1050",
+        "kind": "Source",
+        "title": "Scroll, 24 Jul 2026",
+        "state": null,
+        "url": "https://scroll.in/latest/1094501/bihar-police-open-fire-at-paper-leak-protesters-in-jehanabad"
+      },
+      {
+        "id": "SRC-1051",
+        "kind": "Source",
+        "title": "Free Press Journal, 24 Jul 2026",
+        "state": null,
+        "url": "https://freepressjournal.in/bihar/bihar-assembly-adjourned-amid-uproar-over-jehanabad-police-firing-during-student-protests"
+      },
+      {
+        "id": "SRC-1052",
+        "kind": "Source",
+        "title": "Deccan Herald, 4 Aug 2026",
+        "state": null,
+        "url": "https://www.deccanherald.com/amp/story/india/bihar/neet-protests-patna-police-use-water-cannons-to-disperse-students-who-took-to-streets-marching-towards-bihar-cms-residence-4098640"
+      },
+      {
+        "id": "SRC-1053",
+        "kind": "Source",
+        "title": "Patna Press, 4 Aug 2026",
+        "state": null,
+        "url": "https://patnapress.com/patna-student-protest-cm-residence-water-cannon-paper-leak-jobs/"
+      },
+      {
+        "id": "SRC-1054",
+        "kind": "Source",
+        "title": "News Arena India, 4 Aug 2026",
+        "state": null,
+        "url": "https://newsarenaindia.com/nation/cops-use-water-cannons-to-thwart-cm-gherao-march-in-patna/83849"
+      },
+      {
+        "id": "SRC-1055",
+        "kind": "Source",
+        "title": "Deccan Herald, 27 Jul 2026",
+        "state": null,
+        "url": "https://deccanherald.com/india/bihar/ak-47-rifle-used-during-student-protest-in-bihars-siwan-constable-suspended-amid-viral-video-of-incident-4088712"
+      },
+      {
+        "id": "SRC-1056",
+        "kind": "Source",
+        "title": "Patna Press, 27 Jul 2026",
+        "state": null,
+        "url": "https://patnapress.com/bihar-police-jawan-suspended-ak47-firing-siwan/"
+      },
+      {
+        "id": "SRC-1057",
+        "kind": "Source",
+        "title": "Prabhat Khabar, 29 Jul 2026",
+        "state": null,
+        "url": "https://www.prabhatkhabar.com/state/bihar/siwan/bihar-bandh-protest-second-day-no-release/amp"
+      },
+      {
+        "id": "SRC-1058",
+        "kind": "Source",
+        "title": "Siasat Daily, 25 Jul 2026",
+        "state": null,
+        "url": "https://www.siasat.com/bihar-police-use-tear-gas-baton-charge-as-neet-bandh-turns-violent-3513523/"
+      },
+      {
+        "id": "SRC-1059",
+        "kind": "Source",
+        "title": "The Wire, 30 Jul 2026",
+        "state": null,
+        "url": "https://thewire.in/news/bihar-police-withdraws-firs-against-neet-protesters-except-those-with-criminal-antecedents"
+      },
+      {
+        "id": "SRC-1060",
+        "kind": "Source",
+        "title": "Asianet Newsable, 27 Jul 2026",
+        "state": null,
+        "url": "https://newsable.asianetnews.com/india/tejashwi-yadav-demands-judicial-inquiry-into-ak-47-firing-in-siwan-articleshow-owxe1k2"
+      },
+      {
+        "id": "SRC-1061",
+        "kind": "Source",
+        "title": "Aaj Tak, 23 Jul 2026",
+        "state": null,
+        "url": "https://www.aajtak.in/bihar/story/patna-students-protest-neet-paper-leak-katihar-violence-co-injured-ntc-bktw-rpti-2607859-2026-07-23"
+      },
+      {
+        "id": "SRC-1062",
+        "kind": "Source",
+        "title": "Deccan Chronicle, 22 Jul 2026",
+        "state": null,
+        "url": "https://www.deccanchronicle.com/nation/current-affairs/bihar-police-fire-tear-gas-shells-lathicharge-students-demanding-resignation-of-pradhan-1972974"
+      },
+      {
+        "id": "SRC-1063",
+        "kind": "Source",
+        "title": "Outlook, 22 Jul 2026",
+        "state": null,
+        "url": "https://www.outlookindia.com/national/patna-student-protest-turns-violent-police-use-tear-gas-and-water-cannons"
+      },
+      {
+        "id": "SRC-1064",
+        "kind": "Source",
+        "title": "Patna Press, 23 Jul 2026",
+        "state": null,
+        "url": "https://patnapress.com/patna-neet-protest-police-suspect-pre-planned-violence-investigate-stone-pelting/"
+      },
+      {
+        "id": "SRC-1065",
+        "kind": "Source",
+        "title": "DT Next, 28 Jul 2026",
+        "state": null,
+        "url": "https://www.dtnext.in/amp/story/news/national/bihar-govt-to-withdraw-cases-lodged-against-protesters-over-neet-paper-leak-release-those-jailed"
+      },
+      {
+        "id": "SRC-1066",
+        "kind": "Source",
+        "title": "Telangana Today, 22 Jul 2026",
+        "state": null,
+        "url": "https://telanganatoday.com/police-crack-down-on-aisa-student-protest-in-patna-over-neet-paper-leak-opposition-stages-walkout"
+      },
+      {
+        "id": "SRC-1067",
+        "kind": "Source",
+        "title": "Patna Press, 25 Jul 2026",
+        "state": null,
+        "url": "https://patnapress.com/bihar-bandh-patna-neet-protest-lathi-charge/"
+      },
+      {
+        "id": "SRC-1068",
+        "kind": "Source",
+        "title": "Patna Press, 25 Jul 2026",
+        "state": null,
+        "url": "https://patnapress.com/bihar-bandh-protests-patna-21-detained-security-tightened/"
+      },
+      {
+        "id": "SRC-1069",
+        "kind": "Source",
+        "title": "National Herald, 10 Aug 2026",
+        "state": null,
+        "url": "https://www.nationalheraldindia.com/politics/congress-presents-proof-of-bihar-police-alleged-brutality-demands-samrat-choudhary-amit-shah-exit"
+      },
+      {
+        "id": "SRC-1070",
+        "kind": "Source",
+        "title": "Telangana Today, 28 Jul 2026",
+        "state": null,
+        "url": "https://telanganatoday.com/bihar-govt-withdraws-cases-against-neet-protesters"
+      },
+      {
+        "id": "SRC-1071",
+        "kind": "Source",
+        "title": "DT Next",
+        "state": null,
+        "url": "https://www.dtnext.in/news/national/nhrc-takes-suo-motu-cognisance-of-alleged-sexual-harassment-of-three-women-journalists-during-october-3-protest"
+      },
+      {
+        "id": "SRC-1072",
+        "kind": "Source",
+        "title": "Deccan Chronicle",
+        "state": null,
+        "url": "https://www.deccanchronicle.com/nation/3-women-journalists-allegedly-harassed-at-protest-nhrc-takes-suo-motu-notice-1994138"
+      },
+      {
+        "id": "SRC-1073",
+        "kind": "Source",
+        "title": "Business Today, 7 October 2026",
+        "state": null,
+        "url": "https://www.businesstoday.in/india/story/delhi-police-impose-curfew-at-jantar-manta-amid-congress-protest-dcp-urges-respectful-treatment-of-mps-560233-2026-10-07"
+      },
+      {
+        "id": "SRC-1074",
+        "kind": "Source",
+        "title": "Asianet Newsable, 8 October 2026 (syndicated feed, probably PTI)",
+        "state": null,
+        "url": "https://newsable.asianetnews.com/india/firs-against-rahul-priyanka-gandhi-over-protest-against-cec-in-delhi-articleshow-ac3mdw6"
+      },
+      {
+        "id": "SRC-1075",
+        "kind": "Source",
+        "title": "LiveLaw",
+        "state": null,
+        "url": "https://www.livelaw.in/high-court/punjab-and-haryana-high-court/punjab-haryana-high-court-seeks-status-report-from-punjab-government-lpu-violence-552419"
+      },
+      {
+        "id": "SRC-1076",
+        "kind": "Source",
+        "title": "Madhyamam",
+        "state": null,
+        "url": "https://madhyamamonline.com/india/lpu-unrest-hc-seeks-punjab-response-alleged-rape-university-1559293"
+      },
+      {
+        "id": "SRC-1077",
+        "kind": "Source",
+        "title": "Careers360",
+        "state": null,
+        "url": "https://news.careers360.com/lovely-professional-university-lpu-protest-hc-seeks-status-report-from-punjab-govt"
+      }
+    ],
+    "removed": [],
+    "changed": [
+      {
+        "id": "SRC-0005",
+        "kind": "Source",
+        "title": "India TV",
+        "state": null,
+        "url": "https://www.indiatvnews.com/bihar/news-bihar-students-protest-turns-violent-in-katihar-patna-munger-police-lathicharge-protesters-hurl-stones-latest-updates-2026-07-23-1049145",
+        "fields": [
+          {
+            "field": "sha256",
+            "from": null,
+            "to": "183da84940be42b2a04a0447f069d52e30c8707f7b6b4379b83a71ecfe2f4468"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0012",
+        "kind": "Source",
+        "title": "Bar & Bench",
+        "state": null,
+        "url": "https://www.barandbench.com/news/litigation/police-fired-ak-47-after-constable-was-trapped-by-crowd-no-cjp-protestor-was-injured-bihar-to-supreme-court",
+        "fields": [
+          {
+            "field": "sha256",
+            "from": null,
+            "to": "c086e06b14519d8154c2e20b012584e2f65d8402490eccbce3958bbccad120ec"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0013",
+        "kind": "Source",
+        "title": "The Federal",
+        "state": null,
+        "url": "https://thefederal.com/category/news/constable-fired-four-ak-47-shots-in-air-during-siwan-protest-no-injuries-bihat-govt-to-sc-253871",
+        "fields": [
+          {
+            "field": "sha256",
+            "from": null,
+            "to": "12315ce1af40cec99ed23058c0bb7c345654554beb1785569e400b77ecc4357a"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0025",
+        "kind": "Source",
+        "title": "Bar & Bench",
+        "state": null,
+        "url": "https://www.barandbench.com/news/cjp-protests-supreme-court-to-form-high-powered-panel-to-probe-police-excesses-violence-against-cops",
+        "fields": [
+          {
+            "field": "sha256",
+            "from": null,
+            "to": "b44f1c9bd490677ee3b877203a13f5a968096ea958bff5b5e5ab8e2cee4a7e71"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0027",
+        "kind": "Source",
+        "title": "LiveLaw",
+        "state": null,
+        "url": "https://www.livelaw.in/top-stories/supreme-court-forms-5-member-committee-led-by-ex-sc-judge-subhash-reddy-to-probe-student-protest-violence-546666",
+        "fields": [
+          {
+            "field": "sha256",
+            "from": null,
+            "to": "d30ad122b6598f2da34f8113a1758314a1e6898d9824e265956e462fc5c993f9"
+          }
+        ]
+      }
+    ],
+    "summary": "226 records added · 5 records edited"
+  },
+  {
     "commit": "477d1ad30e",
     "date": "2026-10-11T09:10:24Z",
     "subject": "Sweep log and archived copies for 2026-10-11 [skip ci]",
