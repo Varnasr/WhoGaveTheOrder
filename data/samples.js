@@ -37,7 +37,7 @@ WGO.sampleEvidence = [
     sourceIds: ['SRC-S001'],
     origin: '[Where this document came from, and how]',
     establishes: 'What a verified primary document establishes is written here in one sentence, in plain language.',
-    doesNotEstablish: 'And what it does not establish is written here — the harder and more important half of the record.',
+    doesNotEstablish: 'And what it does not establish is written here: the harder and more important half of the record.',
     relatedIds: ['WGO-S002'],
     accessNote: 'Original made available where it is lawful and safe to do so.'
   },
@@ -198,7 +198,7 @@ WGO.sampleExternal = [
     date: '[date]',
     url: null,
     incidentIds: ['INC-0001'],
-    note: 'Indexed, not reproduced. The work belongs to whoever did it and the link goes to them.'
+    note: 'Indexed only. The work belongs to whoever did it and the link goes to them.'
   },
   {
     id: 'EXT-S002',
@@ -209,6 +209,6 @@ WGO.sampleExternal = [
     date: '[date]',
     url: null,
     incidentIds: ['INC-0001', 'INC-0002', 'INC-0003'],
-    note: 'Indexed because it helps a reader understand the statutory questions, not because we endorse its conclusions.'
+    note: 'Indexed because it helps a reader understand the statutory questions. Indexing is no endorsement of its conclusions.'
   }
 ];

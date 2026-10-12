@@ -27,7 +27,7 @@ WGO.rtiAuthorities = {
     portal: { label: 'rtionline.gov.in', url: 'https://rtionline.gov.in/' },
     fee: 'Rs 10 on the portal (central RTI Rules 2012; Delhi Police pages do not restate it).',
     pio: 'Public Information Officer of the police district that covers the place. Each of the 15 districts has an Additional DCP-I as PIO and the DCP as first appellate authority. Headquarters: DCP/HQ-II, Delhi Police Headquarters, Jai Singh Road, New Delhi 110001.',
-    note: 'The list names no police-station PIO, so a request about a station appears to go to its district PIO. That routing is an inference from the list, not a stated rule. Pick the district on the portal, or use the list below.',
+    note: 'The list names no police-station PIO, so a request about a station appears to go to its district PIO. That routing is an inference from the list, and no rule states it. Pick the district on the portal, or use the list below.',
     list: { label: 'Delhi Police PIO and appellate list (Manual 16)', url: 'https://delhipolice.gov.in/RTImanualFiles/92021_Manual%20-16%20New.pdf' },
     checked: '10 October 2026',
     caveat: 'The list is dated 3 April 2025. Check the current designation before you file.'
@@ -39,7 +39,7 @@ WGO.rtiAuthorities = {
     fee: 'Rs 10 under the UP RTI Rules 2015, rule 5. Online payment by net banking, card or UPI. Offline: cash, demand draft, banker\'s cheque or Indian postal order.',
     pio: 'Police Headquarters: Additional Superintendent of Police (Public Grievance), with the Deputy Inspector General in charge (Public Grievance) as first appellate authority. Lucknow Commissionerate: first appeal to the Police Commissioner. Aligarh: Additional SP as PIO, SSP as first appellate authority.',
     address: 'Police Headquarters, 9th Floor, Tower 2, Gomtinagar Extension, Shahid Path, Lucknow.',
-    note: 'The state portal says not to use it for central bodies or the Allahabad High Court. Lucknow\'s PIO is ambiguous between two posts in the manual, so confirm it. The DGP email on the headquarters site is a control-room address, not an RTI address.',
+    note: 'The state portal says not to use it for central bodies or the Allahabad High Court. Lucknow\'s PIO is ambiguous between two posts in the manual, so confirm it. The DGP email on the headquarters site is a control-room address.',
     checked: '10 October 2026'
   },
   'mumbai-police': {

@@ -6,7 +6,7 @@ A citizen-led public accountability platform. One question, asked systematically
 
 **Stage:** Live at [www.whogavetheorder.in](https://www.whogavetheorder.in) · Own repository since
 17 August 2026, split out of the `Varnasr/Experiments` sandbox with its history intact. Served by
-Netlify from external DNS — an apex A record to Netlify's load balancer, `www` as a CNAME — with the
+Netlify from external DNS (an apex A record to Netlify's load balancer, `www` as a CNAME) with the
 apex redirecting to `www`.
 
 ---
@@ -40,7 +40,7 @@ recording cases rather than force says so in its title and in every field.
 
 That is not an unfinished seed to be tidied up. It is the product working as designed. The brief's own rule (§23) is that the site must never manufacture certainty, and the
 fastest way to violate it would have been to ship plausible-looking placeholder facts about real
-events. A claim without a source ID does not render as a fact anywhere on this site — including in
+events. A claim without a source ID does not render as a fact anywhere on this site, including in
 its own seed data.
 
 What is real here is the machinery: the content model, the evidence grammar, the integrity checks,
@@ -57,7 +57,7 @@ python3 -m http.server 8000
 # then open http://localhost:8000/
 ```
 
-Opening `index.html` directly off the filesystem also works — the data is loaded as plain scripts
+Opening `index.html` directly off the filesystem also works: the data is loaded as plain scripts
 rather than fetched JSON, so there is no CORS problem. The only things that need a server are the
 map tiles and the Netlify Forms submission endpoints.
 
@@ -67,7 +67,7 @@ map tiles and the Netlify Forms submission endpoints.
 
 | File | What it is |
 |---|---|
-| `index.html` | Homepage — what the record holds, what it does not, and the letter |
+| `index.html` | Homepage: what the record holds, what it does not, and the letter |
 | `investigations.html` | Investigation index and the incident map |
 | `investigation.html?id=<slug>` | The five-section incident page: what happened, what evidence exists, has anyone said who authorised it, what remains unknown, what would close the gap |
 | `evidence.html` | Evidence library; `?id=WGO-0001` renders a single evidence record |
@@ -76,10 +76,10 @@ map tiles and the Netlify Forms submission endpoints.
 | `others.html` | Index of other people's investigations, credited to them |
 | `about.html` | Transparency: who runs it, funding, methodology, standards, corrections, privacy, takedown |
 | `search.html` | One index across every entity |
-| `rti.html` | How to ask a public office, and the register of what has been asked |
+| `rti.html` | How to ask a public office, and the log of what has been asked |
 | `press.html` | Press kit |
-| `changes.html` | What changed — every record added, every state moved, derived from git history. Atom feed at `feed.xml` |
-| `hi.html` | यह अभिलेख क्या है — the Hindi entry page |
+| `changes.html` | What changed: every record added, every state moved, derived from git history. Atom feed at `feed.xml` |
+| `hi.html` | यह अभिलेख क्या है: the Hindi entry page |
 
 ### Four pages removed on 2026-09-23
 
@@ -89,14 +89,14 @@ map tiles and the Netlify Forms submission endpoints.
 The primary navigation had seven items. Three of them led to pages holding nothing: `chain.html`
 (0 orders, 0 persons), `rti.html` (0 applications) and `response.html` (0 official replies). Each
 carried several hundred words explaining what would be in it. Meanwhile `letters.html`, the one
-page on the site a reader can act on, was not in the navigation at all — it sat in the fourth
+page on the site a reader can act on, was not in the navigation at all: it sat in the fourth
 column of the footer under "Take part".
 
 `chain.html` in particular was not wrong. It mapped the eight offices empowered to authorise force
 in India and reported "authorisation not established" on every node, which is true. Rendered
 identically for every incident, in the second navigation slot, eight times down the page, it read
-as an investigation rather than as the absence of one. The specific half of it — which office
-holds the records for *this* incident, and the letter asking that office to keep them — is now on
+as an investigation rather than as the absence of one. The specific half of it, which office
+holds the records for *this* incident, and the letter asking that office to keep them, is now on
 the incident page, in section 03, where somebody has just finished reading what happened.
 
 `walkthrough.html` was a nine-step manual for reading nineteen records. `admin.html` published an
@@ -136,7 +136,7 @@ Incident → Question → Authority → Evidence → Answer state
 ├── data/
 │   ├── taxonomy.js    # every controlled vocabulary + site config. Start here.
 │   ├── records.js     # the record store. Add real content here.
-│   ├── i18n.js        # the Hindi interface. Grammar only — records are never translated.
+│   ├── i18n.js        # the Hindi interface. Grammar only. Records are never translated.
 │   ├── samples.js     # layout samples, loaded only while demoMode is on
 │   └── export/        # GENERATED. The archive as JSON and CSV.
 ├── assets/
@@ -182,7 +182,7 @@ false history if one is missed.
 
 **`SRC-` ids are allocated in `sourcemap/source-ids.json`, not recomputed.** They
 used to be positional, so adding a source to an early record renumbered every id
-after it — the first real content edit moved 18 of them, and these ids are published
+after it: the first real content edit moved 18 of them, and these ids are published
 in `feed.xml` and the change log. A key in the ledger keeps its id wherever its
 record moves; a new key gets the next id after the highest ever issued. Do not
 delete an entry unless you mean to retire the id, and do not reuse a retired one.
@@ -203,7 +203,7 @@ evidence about the incidents:
 
 **Which provision binds which office is a reading, not a lookup.** `OFFICE_FRAMEWORK` in
 `import.py` carries the assignment and, for each one, the reason. Two rules govern it: a provision
-goes to the office the provision itself names or empowers, and a commissionerate is not a district —
+goes to the office the provision itself names or empowers, and a commissionerate is not a district;
 the Commissioner concentrates powers that a district splits between the DM and the SP. The chain
 page shows the reasoning rather than hiding it.
 
@@ -218,9 +218,9 @@ python3 sourcemap/import.py
 
 ### The daily sweep
 
-`tools/sweep.js` goes to the places a document about these incidents could appear — the Delhi High
+`tools/sweep.js` goes to the places a document about these incidents could appear (the Delhi High
 Court cause list and judgments page, the NHRC press releases, the parliamentary library, Bar & Bench,
-and four news queries — and reports what is new since yesterday. It runs at 02:30 UTC and opens an
+and four news queries) and reports what is new since yesterday. It runs at 02:30 UTC and opens an
 issue when there is something to look at.
 
 **It never writes a record.** It writes candidates and a dated log, and a person decides what becomes
@@ -229,7 +229,7 @@ independent and what a document does and does not establish; a feed that could s
 route for laundering an unsourced claim into a fact.
 
 What it does record every day is that it looked. `sourcemap/watch-log.json` is committed daily, so an
-absence in this archive has a date on it — the same discipline as PROC-BIH-001 and LEG-010, which are
+absence in this archive has a date on it: the same discipline as PROC-BIH-001 and LEG-010, which are
 both searches that found nothing.
 
 ```bash
@@ -238,8 +238,8 @@ node tools/sweep.js --json     # what the workflow reads
 node tools/sweep.js --date 2026-09-11   # the next Delhi High Court listing
 ```
 
-Watch terms come partly from `tools/watchlist.json` and partly from the records themselves — incident
-places and case numbers — so a new incident starts being watched without anyone updating a list. City
+Watch terms come partly from `tools/watchlist.json` and partly from the records themselves: incident
+places and case numbers: so a new incident starts being watched without anyone updating a list. City
 and state names are deliberately excluded: "New Delhi" matches every article filed from New Delhi, and
 a sweep that reports everything reports nothing.
 
@@ -302,7 +302,7 @@ Without them the tool still does the useful half, which is finding the snapshots
 `tools/translate.js` sends the English in `tools/i18n-source.json` to Sarvam and writes the Hindi to
 `data/i18n.generated.js`. **The site never calls Sarvam.** Translation happens once, the result is
 committed, and every reader gets a static file. That keeps the cost to one run per change, keeps the
-privacy note true — the site makes no third-party request on a reader's behalf — and keeps the site
+privacy note true, the site makes no third-party request on a reader's behalf, and keeps the site
 working if the API is down.
 
 Only strings whose English has changed are sent, so a second run costs nothing. The workflow is
@@ -316,7 +316,7 @@ in `data/i18n.js`, so a page is never half-translated.
 `CORROBORATED` means two or more **independent** sources. That is easy to get wrong. Four outlets
 reporting one affidavit look like four sources; a wire story carried by three papers looks like three.
 
-A source may record `originates_from` — the document or wire it actually read. The integrity check
+A source may record `originates_from`: the document or wire it actually read. The integrity check
 then flags any `CORROBORATED` record whose sources all trace back to a single origin:
 
 > CORROBORATED, but every source traces to one origin: Delhi Police affidavit to the Supreme Court.
@@ -330,11 +330,11 @@ what happened, they do not. The check states the question; a person answers it.
 
 Two layers, not three. The nine-step walkthrough was the third and it is gone.
 
-1. **Inline explainers** — collapsed `<details>` blocks placed where the confusion actually lands:
+1. **Inline explainers**: collapsed `<details>` blocks placed where the confusion actually lands:
    the UNKNOWN shells on an incident, the six states in the evidence library, the reply clock on
-   the register and the gap list. Defined once in `ui.EXPLAIN` and read from the same taxonomy the
+   the log and the gap list. Defined once in `ui.EXPLAIN` and read from the same taxonomy the
    chips do. `EXPLAIN.authority` went with `chain.html`, which was its only caller.
-2. **The homepage** — what the record holds, what it does not, and what a reader can do about it,
+2. **The homepage**: what the record holds, what it does not, and what a reader can do about it,
    so a first-time visitor is oriented in one screen rather than sent on a tour.
 
 If a status label is not defined in `taxonomy.js`, it does not render anywhere. That is what keeps
@@ -346,7 +346,7 @@ the evidence grammar from drifting page to page as the archive grows.
 
 1. **Add a `SRC-` record first.** Nothing can cite what does not exist.
 2. **Add the `WGO-` evidence record**, pointing at that source. Fill in both `establishes` and
-   `doesNotEstablish` — the second one is the harder half and is not optional in practice.
+   `doesNotEstablish`: the second one is the harder half and is not optional in practice.
 3. **Only then** set a claim, timeline event or authority link to a state other than `UNKNOWN`,
    listing the evidence IDs that carry it.
 
@@ -359,7 +359,7 @@ the evidence grammar from drifting page to page as the archive grows.
 - a question marked `ANSWERED` with no evidence attached
 
 Records with an empty `sourceIds` render a **NO SOURCE ON RECORD** marker. Don't remove the
-marker — fill the array.
+marker: fill the array.
 
 ### The two rules the code enforces, not the editor
 
@@ -372,21 +372,21 @@ marker — fill the array.
 
 ## Outstanding
 
-- [x] `demoMode: false` — layout samples removed, 17 August 2026.
-- [x] `archiveStage: null` — the masthead now shows a live status line rather than a launch banner.
-- [x] `about.html` — who runs this project, and funding, both written.
+- [x] `demoMode: false`: layout samples removed, 17 August 2026.
+- [x] `archiveStage: null`: the masthead now shows a live status line rather than a launch banner.
+- [x] `about.html`: who runs this project, and funding, both written.
 - [x] `evidence@`, `corrections@` and `legal@whogavetheorder.in` provisioned, 17 August 2026.
       Microsoft 365 mailbox on `legal@`, with the other two as aliases.
 - [ ] **Fix the SPF record before emailing any public authority.** The domain publishes
-      `v=spf1 include:secureserver.net -all`, but the mail is Microsoft 365 — the MX points at
+      `v=spf1 include:secureserver.net -all`, but the mail is Microsoft 365: the MX points at
       `mail.protection.outlook.com` and DKIM is signed by Microsoft. `secureserver.net` resolves to
       GoDaddy's own ranges and does not authorise Microsoft's outbound servers, so mail sent from
       these addresses fails SPF against a hard `-all`, with DMARC at `p=quarantine`. DKIM alignment
-      should still carry DMARC, but a receiver that checks SPF on its own — which government mail
-      systems do — may quarantine an RTI appeal. The record should read
+      should still carry DMARC, but a receiver that checks SPF on its own, which government mail
+      systems do, may quarantine an RTI appeal. The record should read
       `v=spf1 include:secureserver.net include:spf.protection.outlook.com -all`.
 - [ ] A postal address for legal service. Still printed on the site with no address behind it.
-- [ ] Enable **Netlify Analytics** on the site (dashboard only — it is a paid add-on, so the API
+- [ ] Enable **Netlify Analytics** on the site (dashboard only: it is a paid add-on, so the API
       cannot turn it on). Server-side, read from CDN logs: no cookies, no script, no consent banner,
       nothing added to the page. The privacy section is already written to describe this accurately.
       Deliberately not Google Analytics: this archive's likely readers are people who attended the
@@ -398,13 +398,13 @@ marker — fill the array.
 - [ ] Have a Hindi-speaking editor read `data/i18n.generated.js` and `hi.html`. The interface is
       machine-translated, now by a model built for Indian languages, and the page says so. That is
       better than it was and is still not the same as a person having read it.
-- [x] `config.siteUrl` pointed at `https://www.whogavetheorder.in`, 17 August 2026 — the day the
+- [x] `config.siteUrl` pointed at `https://www.whogavetheorder.in`, 17 August 2026: the day the
       domain began serving. The Atom feed and every citation build absolute URLs out of it.
 - [ ] Backfill `archiveUrl` and `sha256` on the 32 imported sources. Every one is a live URL with a
       retrieval date and no archived copy, which the integrity check reports as a warning: a link is
       not a citation, because a page can be edited or taken down.
 - [ ] Replace the Delhi High Court directions currently sourced to a news report with the order
-      itself. See the case-law routes in [SOURCING.md](SOURCING.md#where-to-actually-get-the-text) —
+      itself. See the case-law routes in [SOURCING.md](SOURCING.md#where-to-actually-get-the-text):
       the Indian Kanoon API gives non-commercial projects ₹10,000 of free credit a month.
 - [x] Netlify forms `wgo-evidence` and `wgo-demand` are registered, with email notifications
       routed to the project reviewer. The address is held in Netlify's site config and deliberately
@@ -413,13 +413,13 @@ marker — fill the array.
 
 ---
 
-## The RTI register
+## The RTI log
 
 `rti.html` lists every Right to Information application the project has filed. Add an `RTI-` record
 on the **day you file**, not the day a reply arrives.
 
 The reply-due date and any overdue count are computed from `filedOn` on every page load and are
-never stored — a stored deadline goes stale, and a stale deadline in an accountability archive is
+never stored: a stored deadline goes stale, and a stale deadline in an accountability archive is
 worse than none. An application that is 40 days late says so by itself, on a public page.
 
 The clock stops when an office replies, even if the reply came late. Outcomes that count as replies
@@ -438,17 +438,17 @@ incident.
 ## Design notes
 
 **Not a campaign site.** No party colours, no politician photographs, no protest-poster language,
-no outrage red. The register is editorial and civic: a serif display face, generous whitespace,
+no outrage red. The tone is editorial and civic: a serif display face, generous whitespace,
 hairline rules, restrained accents used only to carry evidence states. Public archive × newsroom ×
 evidence room.
 
-**`UNKNOWN` is the strongest visual state on the site** — inverted black, not a grey apology. It is
+**`UNKNOWN` is the strongest visual state on the site**: inverted black, not a grey apology. It is
 a finding, not an omission, and the interface treats it that way.
 
 **Two claims the chain-of-command interface never merges:** *has authority* is a statement about
 law and administrative structure; *is evidenced to have authorised this action* requires a
 document. They are separate fields, separately displayed. There is not a single individual named
-anywhere in the chain, and that is a rule rather than an oversight — a person is added to an office
+anywhere in the chain, and that is a rule rather than an oversight: a person is added to an office
 only when a sourced document places them in it at the relevant time.
 
 **Mobile first.** Most readers arrive from WhatsApp, X or Instagram on a phone. Verified at 320,

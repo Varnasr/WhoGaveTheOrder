@@ -66,8 +66,8 @@ function parse(file) {
 
   const title = (header.match(/^#\s+(.+)$/m) || [])[1];
   if (!title) { throw new Error(`${file}: no level-one heading`); }
-  const district = (title.split('—')[1] || '').trim();
-  if (!district) { throw new Error(`${file}: heading does not name a district after an em dash`); }
+  const district = (title.split(':')[1] || '').trim();
+  if (!district) { throw new Error(`${file}: heading does not name a district after a colon`); }
 
   /* The addressee is everything between "To," and the contact line. Munger is
      the only one of the four with a postal address, because munger.nic.in

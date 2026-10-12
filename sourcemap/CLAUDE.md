@@ -129,9 +129,9 @@ Any record whose `volatility` field is `high` must be re-verified before it is u
 
 ## Files
 
-- `evidence-items.json` — sourced claims, each with a state
-- `open-questions.json` — everything that could not be established
-- `filing-queue.json` — lawful acquisition tasks, ordered by deadline
+- `evidence-items.json`: sourced claims, each with a state
+- `open-questions.json`: everything that could not be established
+- `filing-queue.json`: lawful acquisition tasks, ordered by deadline
 
 ## Reporting
 

@@ -32,7 +32,7 @@ citizens and tracing the chain of authority behind them. It is live at:
 (the project's own domain is not registered yet; substitute whatever URL the
 site is currently served from before running this prompt)
 
-Do not treat anything on that site as established fact — every factual field
+Do not treat anything on that site as established fact: every factual field
 currently reads UNKNOWN by design. Use it to understand the archive's structure
 and its open questions, not as a source.
 
@@ -40,8 +40,8 @@ The first investigation covers police action against students at Jantar Mantar
 (Delhi), and in Bihar and Maharashtra.
 
 The archive's governing rule: **a claim without a source does not render as a
-fact.** Every statement carries one of six states — VERIFIED, CORROBORATED,
-REPORTED, DISPUTED, UNVERIFIED, UNKNOWN — and moving a claim between them
+fact.** Every statement carries one of six states: VERIFIED, CORROBORATED,
+REPORTED, DISPUTED, UNVERIFIED, UNKNOWN: and moving a claim between them
 requires a document. It currently holds zero evidence items and 38 unanswered
 questions, and says so publicly.
 
@@ -52,7 +52,7 @@ exactly how to obtain them. I am not asking you to tell me what happened.
 
 ### 1. RTI filing mechanics, per jurisdiction
 
-For each of: (a) Union ministries via rtionline.gov.in — the route for Delhi,
+For each of: (a) Union ministries via rtionline.gov.in: the route for Delhi,
 since Delhi Police reports to the Ministry of Home Affairs rather than a state
 government; (b) Bihar; (c) Maharashtra.
 
@@ -81,13 +81,13 @@ and the correct PIO to address:
 - Magisterial inquiry orders and their findings
 - Standing orders on crowd control and the use of force
 
-### 3. Statutory framework — current text only
+### 3. Statutory framework: current text only
 
 - The provisions of the **Bharatiya Nagarik Suraksha Sanhita (BNSS), 2023** that
   govern unlawful assembly, dispersal, and the use of force in aid of civil
   power. Give current section numbers and note which CrPC sections they replaced.
   **Flag explicitly if you are not confident of the current numbering.**
-- Delhi Police Act 1978, Bihar Police Act 2007, Maharashtra Police Act 1951 —
+- Delhi Police Act 1978, Bihar Police Act 2007, Maharashtra Police Act 1951:
   the provisions bearing on command responsibility and the use of force
 - Whether the State Police Manuals for Delhi, Bihar and Maharashtra are publicly
   available, and where. If they are obtainable only by RTI, say so.
@@ -98,7 +98,7 @@ and the correct PIO to address:
 
 - How to search eCourts for cases by district, party name and case type
 - Access to Delhi High Court, Patna High Court, Bombay High Court and Supreme
-  Court records — what is free, what is paywalled, what needs a registry visit
+  Court records: what is free, what is paywalled, what needs a registry visit
 - Whether FIRs are published online by Delhi Police, Bihar Police and
   Maharashtra Police, and at what URL
 - How to obtain a State's counter-affidavit in a pending writ or PIL
@@ -118,7 +118,7 @@ and the correct PIO to address:
 
 ### 7. What is already publicly documented
 
-For each of the three incidents, what already exists in the public domain —
+For each of the three incidents, what already exists in the public domain:
 news reports, video, legal filings, fact-finding reports by civil society.
 
 **For this section only, list nothing you cannot link to.** If you are unsure
@@ -131,7 +131,7 @@ date, URL, and one line on what it documents.
 
 Comparable accountability archives in India or elsewhere that have documented
 state violence through primary documents. What their sourcing strategy was, and
-what went wrong for them — legal pressure, takedowns, source exposure.
+what went wrong for them: legal pressure, takedowns, source exposure.
 
 ## Output format
 
@@ -142,10 +142,10 @@ can act on:
 
 Use these confidence values, matching my archive's own vocabulary:
 
-- **VERIFIED** — you have an official or primary source, and you are giving me
+- **VERIFIED**: you have an official or primary source, and you are giving me
   its URL
-- **REPORTED** — a credible secondary source says so; give the URL
-- **UNKNOWN** — you could not establish it
+- **REPORTED**: a credible secondary source says so; give the URL
+- **UNKNOWN**: you could not establish it
 
 ## Rules
 
@@ -155,14 +155,14 @@ Use these confidence values, matching my archive's own vocabulary:
    case numbers, report titles or publication names. If you are unsure whether
    something exists, say so. This is the single most important instruction here:
    an archive built on a fabricated citation is worse than an empty one.
-3. **Flag anything that may have changed recently** — RTI portals get migrated,
+3. **Flag anything that may have changed recently**: RTI portals get migrated,
    fees get revised, and the CrPC→BNSS transition renumbered a lot of provisions.
 4. **Prefer the official source** over an explainer article, always.
 5. Where a state's process differs materially from the Union's, say so
    explicitly rather than generalising across India.
 6. End with a section titled **"What I could not establish"**, listing every
    question above you were unable to answer from a citable source. I need that
-   list as much as the answers — it becomes the next round of work.
+   list as much as the answers: it becomes the next round of work.
 
 ## Safety constraint
 
@@ -177,10 +177,10 @@ propose must be a lawful route available to an ordinary citizen.
 
 | Section | Destination |
 |---|---|
-| 1, 2 | `SOURCING.md` — replaces the places it currently hedges on state-level filing |
+| 1, 2 | `SOURCING.md`: replaces the places it currently hedges on state-level filing |
 | 3 | `statutoryBasis` on the offices in `data/records.js`, with `sourceIds`. These render **NO SOURCE ON RECORD** today because the build refused to guess at BNSS numbering. |
 | 4, 5, 6 | `SOURCING.md`, and new `RTI-`-adjacent routes for questions RTI cannot reach |
-| 7 | `EXT-` records on `others.html` — each credited and linked, never mirrored |
+| 7 | `EXT-` records on `others.html`: each credited and linked, never mirrored |
 | 8 | Editorial judgement; some of it belongs in the About page's risk section |
 | "What I could not establish" | The next round of work. Treat it as a backlog, not a failure. |
 

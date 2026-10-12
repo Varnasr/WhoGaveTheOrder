@@ -1,4 +1,4 @@
-# Preservation representation — Patna
+# Preservation representation: Patna
 
 **Status: DRAFT. Not sent.** Fill every `[ ]` before use. See `README.md`.
 
@@ -6,7 +6,7 @@
 
 To,
 The Senior Superintendent of Police, Patna
-[postal address — NOT held by this archive; see contacts.md]
+[postal address: NOT held by this archive; see contacts.md]
 Email: ssp-patna-bih@nic.in · Tel: 0612-2214318 / 2219745 · Fax: 0612-2217744
 *(contacts verified 18 September 2026 from police.bihar.gov.in; see contacts.md)*
 
@@ -63,4 +63,4 @@ Yours faithfully,
 
 ---
 
-*Copy to: [Director General of Police, Bihar — address] (optional; decide before sending)*
+*Copy to: [Director General of Police, Bihar: address] (optional; decide before sending)*

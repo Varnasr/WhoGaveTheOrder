@@ -19,7 +19,7 @@ row it returns before committing any of it.
 
 ---
 
-## 1. RTI — the workhorse
+## 1. RTI: the workhorse
 
 The archive is built around one property of the Right to Information Act: **a reply saying "no such
 record exists" is itself primary evidence.** It establishes what a public office has said about its
@@ -32,7 +32,7 @@ own files, on the record and attributably. An RTI never comes back empty.
 | Deployment order, force requisition | District police HQ / Commissionerate |
 | Station diary (roznamcha / GD) entries | The police station with jurisdiction |
 | Wireless and control-room logs | Police control room |
-| Armoury issue register | District armoury — *what equipment went out, and to whom* |
+| Armoury issue register | District armoury: *what equipment went out, and to whom* |
 | Post-incident situation reports, and their routing | State home department; MHA for Delhi |
 | Inquiry orders, magisterial inquiry notifications | District Magistrate / home department |
 | Standing orders on crowd control | State police headquarters |
@@ -59,7 +59,7 @@ own files, on the record and attributably. An RTI never comes back empty.
 
 If the Union ministry says it is a state matter and the state says the force was Union-directed,
 that contradiction is a finding. It narrows the chain without a single leaked document. Ten offices
-each saying "not us" is a map — though it is a map only once ten offices have actually said it.
+each saying "not us" is a map: though it is a map only once ten offices have actually said it.
 Until then it is a diagram of the offices, which is why `chain.html` was removed on 2026-09-23. A
 contradiction between two replies goes in as evidence, against the incident, like anything else.
 
@@ -71,7 +71,7 @@ register computes the reply-due date and any overdue count from `filedOn`, so an
 
 ---
 
-## 2. Legislature questions — the underrated route
+## 2. Legislature questions: the underrated route
 
 A question tabled by an MP or MLA forces a **written, attributable answer from the ministry itself**.
 For "who authorised the deployment", this is often faster and more citable than RTI, and it cannot be
@@ -106,19 +106,19 @@ be replaced.
 | **eCourts judgment search** (`judgments.ecourts.gov.in/pdfsearch`) and the **SCR portal** (`scr.sci.gov.in`, which replaced eSCR and DigiSCR) | The official free portals. No API; a search form and a PDF. | Free | The certified copy. When a court order becomes evidence here, this is the source to cite, not a report about it. |
 | **Development Data Lab judicial data** (`devdatalab.org/judicial-data`) | 81 million district court cases, 2010–2018, derived from eCourts. Filing, registration, hearing and decision dates, acts and sections, disposition. Open Database License. | Free | Pattern, not documents. How cases of a given kind move through a given district's courts. It will not contain anything from 2026. |
 
-Two things to avoid. **`caselaw.in` is not a case-law database** — it is KanoonGPT, an AI chat
+Two things to avoid. **`caselaw.in` is not a case-law database**: it is KanoonGPT, an AI chat
 product over bare acts, freemium and without an API. And no AI summary of a judgment is a source:
 what goes in the archive is the order, with the paragraph that carries the finding.
 
 Whatever the route, a court document enters the archive under the same rule as everything else: a
-`SRC-` record with `retrievedOn`, and — because court portals reorganise — an `archiveUrl` and a
+`SRC-` record with `retrievedOn`, and, because court portals reorganise, an `archiveUrl` and a
 `sha256` of the file as fetched.
 
 ---
 
 ## 4. The statutory layer
 
-This is what answers *"was written authorisation required?"* — question 4 of the standard twelve.
+This is what answers *"was written authorisation required?"*: question 4 of the standard twelve.
 
 - **State Police Manuals** carry the actual crowd-control standing orders. Often obtainable,
   sometimes already published.
