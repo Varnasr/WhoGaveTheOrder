@@ -33,7 +33,7 @@ jobs:
         with:
           node-version: '22'
 
-      - name: Record integrity: the model's own checks
+      - name: Record integrity (the model's own checks)
         run: node tools/check.js
 
       - name: Source map validation
