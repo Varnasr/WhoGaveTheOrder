@@ -5,6 +5,86 @@ window.WGO = window.WGO || {};
 
 WGO.changes = [
   {
+    "commit": "893443d02e",
+    "date": "2026-10-12T09:38:43Z",
+    "subject": "Sweep log and archived copies for 2026-10-12 [skip ci]",
+    "added": [],
+    "removed": [],
+    "changed": [
+      {
+        "id": "SRC-0135",
+        "kind": "Source",
+        "title": "LiveLaw, 14 January 2019",
+        "state": null,
+        "url": "https://www.livelaw.in/amp/news-updates/jnu-sedition-case-delhi-police-files-chargesheet-against-kanhaiya-kumar-umar-khalid-and-others-142103",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20261011090840/https://www.livelaw.in/amp/news-updates/jnu-sedition-case-delhi-police-files-chargesheet-against-kanhaiya-kumar-umar-khalid-and-others-142103"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0138",
+        "kind": "Source",
+        "title": "The Quint, 20 February 2016 (Aviral Virk)",
+        "state": null,
+        "url": "https://www.thequint.com/amp/story/news/india/ill-advised-or-biased-the-tragedy-of-being-jnus-vice-chancellor",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "https://web.archive.org/web/20261012093114/https://www.thequint.com/amp/story/news/india/ill-advised-or-biased-the-tragedy-of-being-jnus-vice-chancellor"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0142",
+        "kind": "Source",
+        "title": "Legally India, 23 July 2016 (IANS)",
+        "state": null,
+        "url": "https://www.legallyindia.com/the-bench-and-the-bar/delhi-cops-finally-file-chargesheets-vs-alleged-patiala-house-thug-vocates-20160723-7864",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20240422232403/https://www.legallyindia.com/the-bench-and-the-bar/delhi-cops-finally-file-chargesheets-vs-alleged-patiala-house-thug-vocates-20160723-7864"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0143",
+        "kind": "Source",
+        "title": "The News Minute, 24 February 2016 (PTI)",
+        "state": null,
+        "url": "https://www.thenewsminute.com/news/patiala-house-court-scuffle-lawyer-caught-camera-thrashing-journos-students-arrested-39280",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "https://web.archive.org/web/20261012093513/https://www.thenewsminute.com/news/patiala-house-court-scuffle-lawyer-caught-camera-thrashing-journos-students-arrested-39280"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0144",
+        "kind": "Source",
+        "title": "Indian Kanoon, reproducing Supreme Court record of proceedings, 22 February 2016",
+        "state": null,
+        "url": "https://indiankanoon.org/doc/55375055/",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "https://web.archive.org/web/20261012093627/https://indiankanoon.org/doc/55375055/"
+          }
+        ]
+      }
+    ],
+    "summary": "5 records edited"
+  },
+  {
     "commit": "6dc7f3dcb8",
     "date": "2026-10-12T09:28:05Z",
     "subject": "Add 10 incidents and 118 evidence items from the 12 October sweep",
