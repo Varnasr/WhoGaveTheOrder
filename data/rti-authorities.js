@@ -192,6 +192,10 @@ WGO.rtiRoutes = {
   'INC-0069': { police: 'unverified' },
   'INC-0072': { police: 'delhi-police', also: ['jnu'] },
   'INC-0073': { police: 'delhi-police' },
+  'INC-0077': { police: 'delhi-police', also: ['jnu'] },
+  'INC-0081': { police: 'delhi-police' },
+  'INC-0083': { police: 'unverified' },
+  'INC-0086': { police: 'patna-police' },
   'INC-0015': { police: 'unverified', nhrc: '2363/25/5/2024' },
   'INC-0028': { police: 'unverified', nhrc: '1511/25/16/2018' }
 };
