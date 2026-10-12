@@ -5,6 +5,100 @@ window.WGO = window.WGO || {};
 
 WGO.changes = [
   {
+    "commit": "477d1ad30e",
+    "date": "2026-10-11T09:10:24Z",
+    "subject": "Sweep log and archived copies for 2026-10-11 [skip ci]",
+    "added": [],
+    "removed": [],
+    "changed": [
+      {
+        "id": "SRC-0130",
+        "kind": "Source",
+        "title": "Deccan Chronicle",
+        "state": null,
+        "url": "https://www.deccanchronicle.com/nation/delhi-hc-refuses-urgent-hearing-on-youth-congress-plea-for-cec-protest-1994386",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20261009090622/https://www.deccanchronicle.com/nation/delhi-hc-refuses-urgent-hearing-on-youth-congress-plea-for-cec-protest-1994386"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0131",
+        "kind": "Source",
+        "title": "The Tribune",
+        "state": null,
+        "url": "https://www.tribuneindia.com/news/india/rahul-priyanka-detained-again-on-2nd-day-of-street-showdown-for-cecs-ouster/",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20261009092854/https://www.tribuneindia.com/news/india/rahul-priyanka-detained-again-on-2nd-day-of-street-showdown-for-cecs-ouster/"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0133",
+        "kind": "Source",
+        "title": "Indian Kanoon, reproducing Delhi High Court order of 2 March 2016, Kanhaiya Kumar v. State (NCT of Delhi), W.P.(Crl.) 558/2016",
+        "state": null,
+        "url": "https://indiankanoon.org/doc/77368780/",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20210718194314/https://indiankanoon.org/doc/77368780/"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0134",
+        "kind": "Source",
+        "title": "Indian Kanoon, reproducing Supreme Court record of proceedings, N.D. Jayaprakash v. Union of India, W.P.(Crl.) 25/2016, 17 February 2016",
+        "state": null,
+        "url": "https://indiankanoon.org/doc/37231111/",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "https://web.archive.org/web/20261011090725/https://indiankanoon.org/doc/37231111/"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0136",
+        "kind": "Source",
+        "title": "The Quint, 16 February 2016, updated 16 January 2019",
+        "state": null,
+        "url": "https://www.thequint.com/news/india/how-the-jnu-protest-turned-into-a-sedition-case",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20190203025622/https://www.thequint.com/news/india/how-the-jnu-protest-turned-into-a-sedition-case"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0137",
+        "kind": "Source",
+        "title": "The News Minute, 25 February 2016 (TNM Staff)",
+        "state": null,
+        "url": "https://www.thenewsminute.com/news/police-did-nothing-stop-attacks-kanhaiya-finds-sc-appointed-panel-39359",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20241007042503/https://www.thenewsminute.com/news/police-did-nothing-stop-attacks-kanhaiya-finds-sc-appointed-panel-39359"
+          }
+        ]
+      }
+    ],
+    "summary": "6 records edited"
+  },
+  {
     "commit": "b153030e80",
     "date": "2026-10-10T10:34:54Z",
     "subject": "Add 15 incidents from 2016, 2024 and 2026 with 185 evidence items",

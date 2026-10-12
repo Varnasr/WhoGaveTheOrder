@@ -3,10 +3,19 @@
   <title>WhoGaveTheOrder.in — changes to the record</title>
   <subtitle>Every record that has been added, moved between states, or edited.</subtitle>
   <id>tag:whogavetheorder.in,2026:feed</id>
-  <updated>2026-10-10T10:34:54Z</updated>
+  <updated>2026-10-11T09:10:24Z</updated>
   <link href="https://www.whogavetheorder.in/"/>
   <link rel="self" href="https://www.whogavetheorder.in/feed.xml"/>
   <rights>Reuse with attribution</rights>
+  <entry>
+    <title>6 records edited</title>
+    <id>tag:whogavetheorder.in,2026:change/477d1ad30e</id>
+    <updated>2026-10-11T09:10:24Z</updated>
+    <link href="https://www.whogavetheorder.in/changes.html#477d1ad30e"/>
+    <content type="html">
+      &lt;p&gt;Sweep log and archived copies for 2026-10-11 [skip ci]&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Edited Source SRC-0130: Deccan Chronicle&lt;/li&gt;&lt;li&gt;Edited Source SRC-0131: The Tribune&lt;/li&gt;&lt;li&gt;Edited Source SRC-0133: Indian Kanoon, reproducing Delhi High Court order of 2 March 2016, Kanhaiya Kumar v. State (NCT of Delhi), W.P.(Crl.) 558/2016&lt;/li&gt;&lt;li&gt;Edited Source SRC-0134: Indian Kanoon, reproducing Supreme Court record of proceedings, N.D. Jayaprakash v. Union of India, W.P.(Crl.) 25/2016, 17 February 2016&lt;/li&gt;&lt;li&gt;Edited Source SRC-0136: The Quint, 16 February 2016, updated 16 January 2019&lt;/li&gt;&lt;li&gt;Edited Source SRC-0137: The News Minute, 25 February 2016 (TNM Staff)&lt;/li&gt;&lt;/ul&gt;
+    </content>
+  </entry>
   <entry>
     <title>339 records added</title>
     <id>tag:whogavetheorder.in,2026:change/b153030e80</id>
@@ -446,15 +455,6 @@
     <link href="https://www.whogavetheorder.in/changes.html#57cdcc175b"/>
     <content type="html">
       &lt;p&gt;The archive&apos;s first primary document, and it settles a conflict&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Added Evidence PROC-DEL-002: Delhi High Court listed W.P.(CRL) 2127/2026 with CRL.M.A. 21282/2026 and CRL.M.A. 21283/2026, Shakeel Abbas v. Union of India and Ors., at item 54 of the supple&lt;/li&gt;&lt;li&gt;Added Source SRC-0038: Sage&lt;/li&gt;&lt;li&gt;Edited Evidence PROC-DEL-001: Delhi High Court issued notice to Delhi Police and the Union on PILs concerning the 20 and 21 July 2026 police action, directed preservation of records includin&lt;/li&gt;&lt;li&gt;Edited Source SRC-0015: High Court of Delhi&lt;/li&gt;&lt;li&gt;Edited Source SRC-0016: India Code&lt;/li&gt;&lt;li&gt;Edited Source SRC-0017: Bureau of Police Research and Development&lt;/li&gt;&lt;li&gt;Edited Source SRC-0018: Uttar Pradesh Police&lt;/li&gt;&lt;li&gt;Edited Source SRC-0019: onlinelawconnect&lt;/li&gt;&lt;li&gt;Edited Source SRC-0020: Justice Definitions Project&lt;/li&gt;&lt;li&gt;Edited Source SRC-0021: ApniLaw&lt;/li&gt;&lt;li&gt;Edited Source SRC-0022: India Code&lt;/li&gt;&lt;li&gt;Edited Source SRC-0023: indianemployees.com&lt;/li&gt;&lt;li&gt;Edited Source SRC-0024: India Code&lt;/li&gt;&lt;li&gt;Edited Source SRC-0025: Gurukul Nexus&lt;/li&gt;&lt;li&gt;Edited Source SRC-0026: India Code&lt;/li&gt;&lt;li&gt;Edited Source SRC-0027: LegitQuest&lt;/li&gt;&lt;li&gt;Edited Source SRC-0028: CaseMine&lt;/li&gt;&lt;li&gt;Edited Source SRC-0029: Ministry of Home Affairs&lt;/li&gt;&lt;li&gt;Edited Source SRC-0030: NHRC&lt;/li&gt;&lt;li&gt;Edited Source SRC-0031: NHRC&lt;/li&gt;&lt;li&gt;Edited Source SRC-0032: commoner-law.com&lt;/li&gt;&lt;li&gt;Edited Source SRC-0033: Bellingcat&lt;/li&gt;&lt;li&gt;Edited Source SRC-0034: GIJN&lt;/li&gt;&lt;li&gt;Edited Source SRC-0035: The Polis Project&lt;/li&gt;&lt;li&gt;Edited Source SRC-0036: Wikipedia&lt;/li&gt;&lt;li&gt;Edited Source SRC-0037: Common Cause and CSDS&lt;/li&gt;&lt;li&gt;Edited Question OQ-004: The TEXT of the Delhi High Court order of 22 July 2026 in W.P.(CRL) 2127/2026, and which petitions were heard with it.&lt;/li&gt;&lt;/ul&gt;
-    </content>
-  </entry>
-  <entry>
-    <title>8 records added · 23 records edited</title>
-    <id>tag:whogavetheorder.in,2026:change/ea36e76409</id>
-    <updated>2026-08-18T02:04:42Z</updated>
-    <link href="https://www.whogavetheorder.in/changes.html#ea36e76409"/>
-    <content type="html">
-      &lt;p&gt;Put the NHRC proceeding on the website, where it was never reaching&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Added Evidence OVR-NHRC-001: NHRC took suo motu cognisance by order dated 25 July 2026 and issued notice to the Commissioner of Police, Delhi, directing a detailed report within two weeks. &lt;/li&gt;&lt;li&gt;Added Evidence OVR-NHRC-002: A complaint was filed with the NHRC by Supreme Court advocate Virender Vashisht on or about 22 July 2026 seeking an independent inquiry by the Commission&apos;s Inve&lt;/li&gt;&lt;li&gt;Added Evidence OVR-BIH-001: Whether NHRC or Bihar SHRC has taken cognisance of the Bihar incidents.&lt;/li&gt;&lt;li&gt;Added Evidence OVR-007: NHRC diary or case numbers for the suo motu proceeding at OVR-NHRC-001 and the complaint at OVR-NHRC-002.&lt;/li&gt;&lt;li&gt;Added Source SRC-0034: The Polis Project&lt;/li&gt;&lt;li&gt;Added Source SRC-0035: Wikipedia&lt;/li&gt;&lt;li&gt;Added Source SRC-0036: Common Cause and CSDS&lt;/li&gt;&lt;li&gt;Added Source SRC-0037: Sage&lt;/li&gt;&lt;li&gt;Edited Source SRC-0011: Bar &amp;amp; Bench&lt;/li&gt;&lt;li&gt;Edited Source SRC-0012: India Legal&lt;/li&gt;&lt;li&gt;Edited Source SRC-0013: Deccan Chronicle&lt;/li&gt;&lt;li&gt;Edited Source SRC-0014: ANI via IndiasNews&lt;/li&gt;&lt;li&gt;Edited Source SRC-0015: India Code&lt;/li&gt;&lt;li&gt;Edited Source SRC-0016: Bureau of Police Research and Development&lt;/li&gt;&lt;li&gt;Edited Source SRC-0017: Uttar Pradesh Police&lt;/li&gt;&lt;li&gt;Edited Source SRC-0018: onlinelawconnect&lt;/li&gt;&lt;li&gt;Edited Source SRC-0019: Justice Definitions Project&lt;/li&gt;&lt;li&gt;Edited Source SRC-0020: ApniLaw&lt;/li&gt;&lt;li&gt;Edited Source SRC-0021: India Code&lt;/li&gt;&lt;li&gt;Edited Source SRC-0022: indianemployees.com&lt;/li&gt;&lt;li&gt;Edited Source SRC-0023: India Code&lt;/li&gt;&lt;li&gt;Edited Source SRC-0024: Gurukul Nexus&lt;/li&gt;&lt;li&gt;Edited Source SRC-0025: India Code&lt;/li&gt;&lt;li&gt;Edited Source SRC-0026: LegitQuest&lt;/li&gt;&lt;li&gt;Edited Source SRC-0027: CaseMine&lt;/li&gt;&lt;li&gt;Edited Source SRC-0028: Ministry of Home Affairs&lt;/li&gt;&lt;li&gt;Edited Source SRC-0029: NHRC&lt;/li&gt;&lt;li&gt;Edited Source SRC-0030: NHRC&lt;/li&gt;&lt;li&gt;Edited Source SRC-0031: commoner-law.com&lt;/li&gt;&lt;li&gt;Edited Source SRC-0032: Bellingcat&lt;/li&gt;&lt;li&gt;Edited Source SRC-0033: GIJN&lt;/li&gt;&lt;/ul&gt;
     </content>
   </entry>
 </feed>
