@@ -704,6 +704,17 @@
     "archiveUrl": "http://web.archive.org/web/20260924074344/https://lawchakra.in/supreme-court/pellet-guns-police-surveillance-supreme-court-told-constitutional-questions-from-student-protests-are-outside-committees-remit/"
   },
   {
+    "id": "SRC-1079",
+    "kind": "Source",
+    "title": "Supreme Court of India, Record of Proceedings of 10 September 2026, W.P.(Crl.) No. 280/2026 and connected matters (PDF)",
+    "state": null,
+    "url": "https://hpec.nic.in/supreme-court-orders",
+    "publisher": null,
+    "retrievedOn": "2026-10-14",
+    "sha256": "36ef25c5b08dea93e17161c18076f30d2848a605682bb7d7206e444b46ac0e61",
+    "archiveUrl": null
+  },
+  {
     "id": "SRC-0090",
     "kind": "Source",
     "title": "BiharWatch",
@@ -1317,6 +1328,17 @@
     "publisher": null,
     "retrievedOn": "2026-10-10",
     "sha256": null,
+    "archiveUrl": null
+  },
+  {
+    "id": "SRC-1085",
+    "kind": "Source",
+    "title": "National Human Rights Commission, press release, New Delhi, 19 February 2016",
+    "state": null,
+    "url": "https://nhrc.nic.in/media/press-release/nhrc-team-visits-central-prison-tihar-to-inquire-into-important-issues-pertaining-to-shri-kanhaiya-kumar-inquiry-report-forwarded-to-commission-police-delhi-director-general-prisons-tihar-jail-for-comments-19-02-2016",
+    "publisher": null,
+    "retrievedOn": "2026-10-14",
+    "sha256": "bbc4e1cc2910b65fafae4352265d967f242197fbac8ac1c495f88da3fdd5c440",
     "archiveUrl": null
   },
   {
@@ -11533,6 +11555,72 @@
     "title": "High Powered Enquiry Committee (hpec.nic.in), home page",
     "state": null,
     "url": "https://hpec.nic.in/",
+    "publisher": null,
+    "retrievedOn": "2026-10-14",
+    "sha256": null,
+    "archiveUrl": null
+  },
+  {
+    "id": "SRC-1080",
+    "kind": "Source",
+    "title": "Careers360, 13 Feb 2025",
+    "state": null,
+    "url": "https://news.careers360.com/security-stepped-up-at-jamia-10-students-detained-for-protest/amp",
+    "publisher": null,
+    "retrievedOn": "2026-10-14",
+    "sha256": null,
+    "archiveUrl": null
+  },
+  {
+    "id": "SRC-1081",
+    "kind": "Source",
+    "title": "Scroll, 13 Feb 2025",
+    "state": null,
+    "url": "https://scroll.in/latest/1079125/jamia-students-detained-while-protesting-show-cause-notices-to-2-phd-scholars",
+    "publisher": null,
+    "retrievedOn": "2026-10-14",
+    "sha256": null,
+    "archiveUrl": null
+  },
+  {
+    "id": "SRC-1082",
+    "kind": "Source",
+    "title": "SabrangIndia, 14 Feb 2025",
+    "state": null,
+    "url": "https://sabrangindia.in/crackdown-on-student-dissent-jamia-millia-islamias-heavy-handed-response-to-peaceful-protests",
+    "publisher": null,
+    "retrievedOn": "2026-10-14",
+    "sha256": null,
+    "archiveUrl": null
+  },
+  {
+    "id": "SRC-1083",
+    "kind": "Source",
+    "title": "The Tribune, 20 Sept 2014 (dateline 19 Sept)",
+    "state": null,
+    "url": "https://www.tribuneindia.com/2014/20140920/himachal.htm",
+    "publisher": null,
+    "retrievedOn": "2026-10-14",
+    "sha256": null,
+    "archiveUrl": null
+  },
+  {
+    "id": "SRC-1084",
+    "kind": "Source",
+    "title": "The Tribune, 11 Oct 2014 (dateline 10 Oct)",
+    "state": null,
+    "url": "https://www.tribuneindia.com/2014/20141011/himachal.htm",
+    "publisher": null,
+    "retrievedOn": "2026-10-14",
+    "sha256": null,
+    "archiveUrl": null
+  },
+  {
+    "id": "SRC-1086",
+    "kind": "Source",
+    "title": "National Herald (NH Digital), 25 Jul 2026",
+    "state": null,
+    "url": "https://www.nationalheraldindia.com/national/bihar-bandh-over-exam-turns-violent-as-students-clash-with-police-across-districts",
     "publisher": null,
     "retrievedOn": "2026-10-14",
     "sha256": null,

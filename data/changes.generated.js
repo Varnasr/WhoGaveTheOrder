@@ -5,6 +5,451 @@ window.WGO = window.WGO || {};
 
 WGO.changes = [
   {
+    "commit": "2347d00c52",
+    "date": "2026-10-14T07:56:22Z",
+    "subject": "Sweep log and archived copies for 2026-10-14 [skip ci]",
+    "added": [],
+    "removed": [],
+    "changed": [
+      {
+        "id": "SRC-0146",
+        "kind": "Source",
+        "title": "Indian Kanoon, reproducing Supreme Court record of proceedings, 23 February 2016",
+        "state": null,
+        "url": "https://indiankanoon.org/doc/76768152/",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20261013093909/https://indiankanoon.org/doc/76768152/"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0150",
+        "kind": "Source",
+        "title": "LiveLaw, 26 February 2016",
+        "state": null,
+        "url": "https://www.livelaw.in/amp/patiala-house-violence-sc-issues-notice-kamini-jaiswals-plea-sit-contempt-three-lawyers",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20261013094055/https://www.livelaw.in/amp/patiala-house-violence-sc-issues-notice-kamini-jaiswals-plea-sit-contempt-three-lawyers"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0152",
+        "kind": "Source",
+        "title": "Legally India, 15 May 2016 (IANS)",
+        "state": null,
+        "url": "https://www.legallyindia.com/the-bench-and-the-bar/after-3-months-cops-manage-to-id-patiala-house-thug-vocates-but-not-much-else-20160515-7591",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20201001015904/https://www.legallyindia.com/the-bench-and-the-bar/after-3-months-cops-manage-to-id-patiala-house-thug-vocates-but-not-much-else-20160515-7591"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0153",
+        "kind": "Source",
+        "title": "India Legal, 26 February 2016",
+        "state": null,
+        "url": "https://indialegallive.com/top-news-of-the-day/breaking-news-articles/patiala-house-violence-supreme-court-directs-delhi-police-to-form-sit/",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20240913040401/https://indialegallive.com/top-news-of-the-day/breaking-news-articles/patiala-house-violence-supreme-court-directs-delhi-police-to-form-sit/"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0155",
+        "kind": "Source",
+        "title": "Indian Kanoon, reproducing Supreme Court order of 14 March 2018 in R.P.(C) 411/2018",
+        "state": null,
+        "url": "https://indiankanoon.org/doc/29930163/",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "https://web.archive.org/web/20261014075518/https://indiankanoon.org/doc/29930163/"
+          }
+        ]
+      }
+    ],
+    "summary": "5 records edited"
+  },
+  {
+    "commit": "0421d2c36c",
+    "date": "2026-10-14T05:37:53Z",
+    "subject": "Open Bhagalpur, 25 July 2026, as its own incident on a second report",
+    "added": [
+      {
+        "id": "INC-0089",
+        "kind": "Incident",
+        "title": "Police baton-charge a bandh march at Bhagalpur",
+        "state": "CORROBORATED",
+        "url": "incident/bhagalpur-bandh-july-2026.html"
+      },
+      {
+        "id": "HIST-BIHJ26-044",
+        "kind": "Evidence",
+        "title": "On Saturday 25 July 2026, during the statewide bandh called by left student organisations, a protest march at Bhagalpur that began at Station Chowk turned viole",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-BIHJ26-044"
+      },
+      {
+        "id": "SRC-1086",
+        "kind": "Source",
+        "title": "National Herald (NH Digital), 25 Jul 2026",
+        "state": null,
+        "url": "https://www.nationalheraldindia.com/national/bihar-bandh-over-exam-turns-violent-as-students-clash-with-police-across-districts"
+      }
+    ],
+    "removed": [],
+    "changed": [
+      {
+        "id": "INC-BIH-003",
+        "kind": "Evidence",
+        "title": "Protest activity at Munger on 23 July 2026. Whether police force was used at Munger is not established by the source.",
+        "state": "UNVERIFIED",
+        "url": "evidence.html?id=INC-BIH-003",
+        "fields": [
+          {
+            "field": "establishes",
+            "from": "Source names Munger among protest locations but does not clearly attribute a lathi charge there. Do not promote without a second source.",
+            "to": "Source names Munger among protest locations but does not clearly attribute a lathi charge there. Do not promote without a second source. SEARCHED 14 October 2026: two further searches for Munger-specific reporting on 23 July 2026 found o…"
+          }
+        ]
+      },
+      {
+        "id": "HIST-BIHJ26-026",
+        "kind": "Evidence",
+        "title": "Bandh day, 25 July 2026, other districts (PTI): Bhagalpur police baton-charged a crowd after bricks were thrown, according to PTI's account of the Bhagalpur DM ",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-BIHJ26-026",
+        "fields": [
+          {
+            "field": "establishes",
+            "from": "Police-side accounts from one wire (PTI on Siasat). The Purnia permission and beating claim is Congress's allegation, with visuals said to be held by Congress and not seen here. Bhagalpur: 'Police had to resort to baton-charging to dispe…",
+            "to": "Police-side accounts from one wire (PTI on Siasat). The Purnia permission and beating claim is Congress's allegation, with visuals said to be held by Congress and not seen here. Bhagalpur: 'Police had to resort to baton-charging to dispe…"
+          }
+        ]
+      }
+    ],
+    "summary": "3 records added · 2 records edited"
+  },
+  {
+    "commit": "a342ac934e",
+    "date": "2026-10-14T05:20:04Z",
+    "subject": "Trace the NHRC Kanhaiya Kumar findings to the NHRC's own press release",
+    "added": [
+      {
+        "id": "SRC-1085",
+        "kind": "Source",
+        "title": "National Human Rights Commission, press release, New Delhi, 19 February 2016",
+        "state": null,
+        "url": "https://nhrc.nic.in/media/press-release/nhrc-team-visits-central-prison-tihar-to-inquire-into-important-issues-pertaining-to-shri-kanhaiya-kumar-inquiry-report-forwarded-to-commission-police-delhi-director-general-prisons-tihar-jail-for-comments-19-02-2016"
+      }
+    ],
+    "removed": [],
+    "changed": [
+      {
+        "id": "HIST-JNU16-020",
+        "kind": "Evidence",
+        "title": "The National Human Rights Commission's press release of 19 February 2016 states that its inquiry team found that the physical assault on Kanhaiya Kumar in the P",
+        "state": "VERIFIED",
+        "url": "evidence.html?id=HIST-JNU16-020",
+        "fields": [
+          {
+            "field": "state",
+            "from": "UNVERIFIED",
+            "to": "VERIFIED"
+          },
+          {
+            "field": "title",
+            "from": "An NHRC fact-finding team report is reported to have found the assault on Kanhaiya Kumar in the court premises 'organized and pre-planned' and to have recorded ",
+            "to": "The National Human Rights Commission's press release of 19 February 2016 states that its inquiry team found that the physical assault on Kanhaiya Kumar in the P"
+          },
+          {
+            "field": "establishes",
+            "from": "Reported by LiveLaw on 26 February 2016 as part of a petition's attachments. Other outlets (India TV, Hindustan Times via PressReader) could not be read (403). The NHRC report itself has not been seen. Locate it through the NHRC case rec…",
+            "to": "Reported by LiveLaw on 26 February 2016 as part of a petition's attachments. Other outlets (India TV, Hindustan Times via PressReader) could not be read (403). The NHRC report itself has not been seen. Locate it through the NHRC case rec…"
+          },
+          {
+            "field": "sourceIds",
+            "from": "SRC-0150",
+            "to": "SRC-1085, SRC-0150"
+          }
+        ]
+      },
+      {
+        "id": "HIST-PDM-008",
+        "kind": "Evidence",
+        "title": "The Education Department of Bihar is reported by Organiser to have issued a notice warning of strict action against candidates taking part in the protest, citin",
+        "state": "UNVERIFIED",
+        "url": "evidence.html?id=HIST-PDM-008",
+        "fields": [
+          {
+            "field": "establishes",
+            "from": "Single source and a partisan outlet; no independent source found for the notice and the notice itself was not seen. The Deccan Herald (PTI, 13 July 2023) separately reports the education department cancelling leave and asking Patna's dis…",
+            "to": "Single source and a partisan outlet; no independent source found for the notice and the notice itself was not seen. The Deccan Herald (PTI, 13 July 2023) separately reports the education department cancelling leave and asking Patna's dis…"
+          }
+        ]
+      },
+      {
+        "id": "HIST-BURD16-008",
+        "kind": "Evidence",
+        "title": "A university complaint against the protesters was announced. The text carried by the Free Press Journal says the Vice-Chancellor said that 'the authorities will",
+        "state": "UNVERIFIED",
+        "url": "evidence.html?id=HIST-BURD16-008",
+        "fields": [
+          {
+            "field": "establishes",
+            "from": "The arrest claim rests on The Logical Indian alone and gives no date, names or source for the arrests; the Telegraph report it relies on was not opened. Whether an FIR exists, its number, sections and complainant are UNKNOWN (HIST-BURD16…",
+            "to": "The arrest claim rests on The Logical Indian alone and gives no date, names or source for the arrests; the Telegraph report it relies on was not opened. Whether an FIR exists, its number, sections and complainant are UNKNOWN (HIST-BURD16…"
+          }
+        ]
+      }
+    ],
+    "summary": "1 record added · 1 state changed · 2 records edited"
+  },
+  {
+    "commit": "0dcd15b37c",
+    "date": "2026-10-14T05:05:44Z",
+    "subject": "Add two historical incidents: Jamia, 13 February 2025, and Himachal Pradesh University, 2014",
+    "added": [
+      {
+        "id": "INC-0087",
+        "kind": "Incident",
+        "title": "Delhi Police detain Jamia students protesting disciplinary notices",
+        "state": "CORROBORATED",
+        "url": "incident/jamia-detentions-february-2025.html"
+      },
+      {
+        "id": "INC-0088",
+        "kind": "Incident",
+        "title": "Police clear students at Himachal Pradesh University, Shimla",
+        "state": "REPORTED",
+        "url": "incident/himachal-pradesh-university-september-2014.html"
+      },
+      {
+        "id": "HIST-JMI25-001",
+        "kind": "Evidence",
+        "title": "Early on Thursday 13 February 2025, Delhi Police removed and detained Jamia Millia Islamia students who had been protesting on campus since 10 February against ",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-JMI25-001"
+      },
+      {
+        "id": "HIST-JMI25-002",
+        "kind": "Evidence",
+        "title": "The number detained, the time and the length of detention are reported differently. PTI and a police official say 'over 10 students' were removed at about 4 am.",
+        "state": "DISPUTED",
+        "url": "evidence.html?id=HIST-JMI25-002"
+      },
+      {
+        "id": "HIST-HPU14-001",
+        "kind": "Evidence",
+        "title": "The Tribune, Shimla, 19 September 2014, headlined 'Students lathicharged, 220 rounded up', reported that police allegedly lathicharged students at Himachal Prad",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-HPU14-001"
+      },
+      {
+        "id": "HIST-HPU14-002",
+        "kind": "Evidence",
+        "title": "The Tribune, Shimla, 10 October 2014, reported that over 70 students, including 19 girls, were arrested at Himachal Pradesh University for defying prohibitory o",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-HPU14-002"
+      },
+      {
+        "id": "SRC-1080",
+        "kind": "Source",
+        "title": "Careers360, 13 Feb 2025",
+        "state": null,
+        "url": "https://news.careers360.com/security-stepped-up-at-jamia-10-students-detained-for-protest/amp"
+      },
+      {
+        "id": "SRC-1081",
+        "kind": "Source",
+        "title": "Scroll, 13 Feb 2025",
+        "state": null,
+        "url": "https://scroll.in/latest/1079125/jamia-students-detained-while-protesting-show-cause-notices-to-2-phd-scholars"
+      },
+      {
+        "id": "SRC-1082",
+        "kind": "Source",
+        "title": "SabrangIndia, 14 Feb 2025",
+        "state": null,
+        "url": "https://sabrangindia.in/crackdown-on-student-dissent-jamia-millia-islamias-heavy-handed-response-to-peaceful-protests"
+      },
+      {
+        "id": "SRC-1083",
+        "kind": "Source",
+        "title": "The Tribune, 20 Sept 2014 (dateline 19 Sept)",
+        "state": null,
+        "url": "https://www.tribuneindia.com/2014/20140920/himachal.htm"
+      },
+      {
+        "id": "SRC-1084",
+        "kind": "Source",
+        "title": "The Tribune, 11 Oct 2014 (dateline 10 Oct)",
+        "state": null,
+        "url": "https://www.tribuneindia.com/2014/20141011/himachal.htm"
+      }
+    ],
+    "removed": [],
+    "changed": [],
+    "summary": "11 records added"
+  },
+  {
+    "commit": "d71c9f510f",
+    "date": "2026-10-14T05:00:10Z",
+    "subject": "Record the Supreme Court orders of 18 August and 10 September 2026 from the PDFs",
+    "added": [
+      {
+        "id": "PROC-SC-018",
+        "kind": "Evidence",
+        "title": "By its order of 18 August 2026 in W.P.(Crl.) No. 280/2026 (Shailendra Mani Tripathi v. Union of India and Ors.) and connected matters, a bench of the Chief Just",
+        "state": "VERIFIED",
+        "url": "evidence.html?id=PROC-SC-018"
+      },
+      {
+        "id": "PROC-SC-019",
+        "kind": "Evidence",
+        "title": "By its order of 10 September 2026 in the same batch, the Court recorded that the Union had complied with paragraph 24 of the 18 August order (infrastructure and",
+        "state": "VERIFIED",
+        "url": "evidence.html?id=PROC-SC-019"
+      },
+      {
+        "id": "SRC-1079",
+        "kind": "Source",
+        "title": "Supreme Court of India, Record of Proceedings of 10 September 2026, W.P.(Crl.) No. 280/2026 and connected matters (PDF)",
+        "state": null,
+        "url": "https://hpec.nic.in/supreme-court-orders"
+      },
+      {
+        "id": "OQ-063",
+        "kind": "Question",
+        "title": "What did the Supreme Court do on 9 October 2026, the date the 10 September order listed W.P.(Crl.) No. 280/2026 and connected matters for further consideration, and has the Committee filed or been asked for a first interim report?",
+        "state": "UNANSWERED",
+        "url": "incident/.html#OQ-063"
+      }
+    ],
+    "removed": [],
+    "changed": [
+      {
+        "id": "PROC-SC-001",
+        "kind": "Evidence",
+        "title": "Supreme Court proceedings on petitions concerning police action at Jantar Mantar and elsewhere; petitions allege lathi charge, pellet guns, rubber bullets, tear",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=PROC-SC-001",
+        "fields": [
+          {
+            "field": "establishes",
+            "from": "The writ petition number W.P.(C) 280/2026 and the composition of the bench come from reporting of the 18 August 2026 hearing, which is also the source for PROC-SC-002 and PROC-SC-003. The SCC OnLine citation is a secondary source from a …",
+            "to": "The writ petition number W.P.(Crl.) 280/2026 and the composition of the bench come from reporting of the 18 August 2026 hearing, which is also the source for PROC-SC-002 and PROC-SC-003. The SCC OnLine citation is a secondary source from…"
+          }
+        ]
+      },
+      {
+        "id": "PROC-SC-002",
+        "kind": "Evidence",
+        "title": "Delhi Police stated on affidavit before the Supreme Court, at a hearing on 18 August 2026 in Shailendra Mani Tripathi v. Union of India and Ors., W.P.(Crl.) 280",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=PROC-SC-002",
+        "fields": [
+          {
+            "field": "title",
+            "from": "Delhi Police stated on affidavit before the Supreme Court, at a hearing on 18 August 2026 in Shailendra Mani Tripathi v. Union of India and Ors., W.P.(C) 280/20",
+            "to": "Delhi Police stated on affidavit before the Supreme Court, at a hearing on 18 August 2026 in Shailendra Mani Tripathi v. Union of India and Ors., W.P.(Crl.) 280"
+          }
+        ]
+      },
+      {
+        "id": "PROC-SC-006",
+        "kind": "Evidence",
+        "title": "The Supreme Court constituted a five-member High Powered Enquiry Committee by order reported dated 18 August 2026 to inquire into the police action against the ",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=PROC-SC-006",
+        "fields": [
+          {
+            "field": "establishes",
+            "from": "Updated 21 August 2026, and the earlier version of this record is now wrong. It said a committee had been decided on but not shown to be constituted, and that whether it existed was not established. It has since been constituted, by an o…",
+            "to": "Updated 21 August 2026, and the earlier version of this record is now wrong. It said a committee had been decided on but not shown to be constituted, and that whether it existed was not established. It has since been constituted, by an o…"
+          }
+        ]
+      },
+      {
+        "id": "PROC-SC-011",
+        "kind": "Evidence",
+        "title": "By an order dated 10 September 2026, a three-judge bench of the Chief Justice of India Surya Kant, Justice Joymalya Bagchi and Justice V. Mohana declined to rec",
+        "state": "VERIFIED",
+        "url": "evidence.html?id=PROC-SC-011",
+        "fields": [
+          {
+            "field": "state",
+            "from": "REPORTED",
+            "to": "VERIFIED"
+          },
+          {
+            "field": "title",
+            "from": "By an order reported dated 10 September 2026, a three-judge bench of the Chief Justice of India Surya Kant, Justice Joymalya Bagchi and Justice V. Mohana declin",
+            "to": "By an order dated 10 September 2026, a three-judge bench of the Chief Justice of India Surya Kant, Justice Joymalya Bagchi and Justice V. Mohana declined to rec"
+          },
+          {
+            "field": "establishes",
+            "from": "This closes a thread the archive left open twice. PROC-SC-006 recorded that the Court listed the matter for 10 September 2026; PROC-SC-010 recorded that a plea challenging the committee's composition was before the Court. This is what ha…",
+            "to": "This closes a thread the archive left open twice. PROC-SC-006 recorded that the Court listed the matter for 10 September 2026; PROC-SC-010 recorded that a plea challenging the committee's composition was before the Court. This is what ha…"
+          },
+          {
+            "field": "sourceIds",
+            "from": "SRC-0087, SRC-0088, SRC-0089",
+            "to": "SRC-0087, SRC-0088, SRC-0089, SRC-1079"
+          }
+        ]
+      },
+      {
+        "id": "OQ-033",
+        "kind": "Question",
+        "title": "The Delhi Police affidavit filed in W.P.(Crl.) 280/2026 concerning the use of facial recognition technology at the Jantar Mantar protest.",
+        "state": "UNANSWERED",
+        "url": "incident/jantar-mantar.html#OQ-033",
+        "fields": [
+          {
+            "field": "title",
+            "from": "The Delhi Police affidavit filed in W.P.(C) 280/2026 concerning the use of facial recognition technology at the Jantar Mantar protest.",
+            "to": "The Delhi Police affidavit filed in W.P.(Crl.) 280/2026 concerning the use of facial recognition technology at the Jantar Mantar protest."
+          }
+        ]
+      },
+      {
+        "id": "OQ-045",
+        "kind": "Question",
+        "title": "The Supreme Court's order of 18 August 2026 constituting the High Powered Enquiry Committee, and the committee's terms of reference as issued.",
+        "state": "ANSWERED",
+        "url": "incident/jantar-mantar.html#OQ-045",
+        "fields": [
+          {
+            "field": "state",
+            "from": "UNANSWERED",
+            "to": "ANSWERED"
+          },
+          {
+            "field": "evidenceIds",
+            "from": null,
+            "to": "PROC-SC-018"
+          }
+        ]
+      }
+    ],
+    "summary": "4 records added · 2 states changed · 4 records edited"
+  },
+  {
     "commit": "233d35bb12",
     "date": "2026-10-14T04:48:52Z",
     "subject": "Record the Committee's own site: mandate and submission routes (PROC-SC-016, 017)",

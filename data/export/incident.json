@@ -944,5 +944,38 @@
     "date": "4 August 2026",
     "dateState": "CORROBORATED",
     "summary": null
+  },
+  {
+    "id": "INC-0087",
+    "kind": "Incident",
+    "title": "Delhi Police detain Jamia students protesting disciplinary notices",
+    "state": "CORROBORATED",
+    "url": "https://www.whogavetheorder.in/incident/jamia-detentions-february-2025.html",
+    "place": "Jamia Millia Islamia, New Delhi",
+    "date": "13 February 2025",
+    "dateState": "CORROBORATED",
+    "summary": null
+  },
+  {
+    "id": "INC-0088",
+    "kind": "Incident",
+    "title": "Police clear students at Himachal Pradesh University, Shimla",
+    "state": "REPORTED",
+    "url": "https://www.whogavetheorder.in/incident/himachal-pradesh-university-september-2014.html",
+    "place": "Himachal Pradesh University, Shimla",
+    "date": "19 September 2014",
+    "dateState": "REPORTED",
+    "summary": null
+  },
+  {
+    "id": "INC-0089",
+    "kind": "Incident",
+    "title": "Police baton-charge a bandh march at Bhagalpur",
+    "state": "CORROBORATED",
+    "url": "https://www.whogavetheorder.in/incident/bhagalpur-bandh-july-2026.html",
+    "place": "Tilkamanjhi crossing, Bhagalpur",
+    "date": "25 July 2026",
+    "dateState": "CORROBORATED",
+    "summary": null
   }
 ]

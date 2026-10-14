@@ -296,8 +296,8 @@ WGO.updates = [
   },
   {
     date: '2026-09-23',
-    title: 'The Supreme Court kept the committee and opened a confidential route for witnesses',
-    body: 'On 10 September the Chief Justice\'s bench refused to reconstitute the High Powered Enquiry Committee, directed that an online portal be created for vulnerable witnesses to submit statements and documents confidentially, and appointed two amici curiae as intermediaries. That closes a thread this archive left open twice: the 10 September listing and the plea against the committee\'s composition. Whether the portal now exists, and where, is not established, and this archive will not send anyone to a portal it has not found.',
+    title: 'The Supreme Court kept the committee and said a confidential portal may be created for witnesses',
+    body: 'On 10 September the Chief Justice\'s bench declined to reconstitute the High Powered Enquiry Committee. The order says that "a separate online portal may be created" for vulnerable witnesses to submit documents and evidence, requests the Committee to keep their identities confidential, and appoints two amici curiae to assist the Court. That closes a thread this archive left open twice: the 10 September listing and the plea against the committee\'s composition. Corrected 14 October 2026, when the order was read: this entry first said the bench "directed" that a portal be created and called the amici intermediaries. The order uses the words "may be created" and "request", and describes the amici as a representative of the Committee and an arbiter between the parties. The Committee\'s own website now lists a confidential route, and we have not tested it.',
     recordId: 'PROC-SC-011'
   },
   {
@@ -2567,6 +2567,78 @@ WGO.incidents = [
     officeIds: [],
     orderTrail: { reached: null, rungs: {}, next: null },
     openedOn: '2026-10-12'
+  },
+  {
+    id: 'INC-0087',
+    isoDate: '2025-02-13',   /* first day; used only to order the lists */
+    slug: 'jamia-detentions-february-2025',
+    kind: 'DETENTIONS',
+    title: "Delhi Police detain Jamia students protesting disciplinary notices",
+    place: "Jamia Millia Islamia, New Delhi",
+    state: "Delhi",
+    coords: [28.562, 77.282],
+    coordsState: 'REPORTED',
+    incidentState: 'CORROBORATED',
+    dateState: 'CORROBORATED',
+    date: "13 February 2025",
+    summaryState: 'UNKNOWN',
+    summary: null,
+    forcesInvolved: {"state": "CORROBORATED", "items": [{"text": "Delhi Police, at the university administration's request (HIST-JMI25-001)", "state": "CORROBORATED"}]},
+    crowdControl  : {"state": "UNKNOWN", "note": "No use of force recorded beyond removal and detention; students allege manhandling (HIST-JMI25-002)."},
+    injuries      : {"state": "UNKNOWN", "note": "No injury count found."},
+    detentions    : {"state": "DISPUTED", "note": "Over 10, 14 and over 20 are all reported (HIST-JMI25-002)."},
+    firs          : {"state": "UNKNOWN", "note": "No FIR found."},
+    officeIds: [],
+    orderTrail: { reached: null, rungs: {}, next: null },
+    openedOn: '2026-10-14'
+  },
+  {
+    id: 'INC-0088',
+    isoDate: '2014-09-19',   /* first day; used only to order the lists */
+    slug: 'himachal-pradesh-university-september-2014',
+    kind: 'DETENTIONS',
+    title: "Police clear students at Himachal Pradesh University, Shimla",
+    place: "Himachal Pradesh University, Shimla",
+    state: "Himachal Pradesh",
+    coords: [31.093, 77.131],
+    coordsState: 'REPORTED',
+    incidentState: 'REPORTED',
+    dateState: 'REPORTED',
+    date: "19 September 2014",
+    summaryState: 'UNKNOWN',
+    summary: null,
+    forcesInvolved: {"state": "REPORTED", "items": [{"text": "Himachal Pradesh Police (HIST-HPU14-001)", "state": "REPORTED"}]},
+    crowdControl  : {"state": "DISPUTED", "items": [{"text": "A lathi charge is alleged by the SFI and denied by the police (HIST-HPU14-001)", "state": "DISPUTED"}]},
+    injuries      : {"state": "REPORTED", "note": "The SFI says 17 students were injured, six of them girls; the police figure is not given (HIST-HPU14-001)."},
+    detentions    : {"state": "DISPUTED", "note": "Police say 220 were arrested; the SFI says over 400. A further 70 were arrested on 10 October (HIST-HPU14-001, HIST-HPU14-002)."},
+    firs          : {"state": "REPORTED", "note": "Sections 149, 151, 188 and 341 IPC were reported for the October arrests (HIST-HPU14-002)."},
+    officeIds: [],
+    orderTrail: { reached: null, rungs: {}, next: null },
+    openedOn: '2026-10-14'
+  },
+  {
+    id: 'INC-0089',
+    isoDate: '2026-07-25',   /* first day; used only to order the lists */
+    slug: 'bhagalpur-bandh-july-2026',
+    kind: 'FORCE',
+    title: "Police baton-charge a bandh march at Bhagalpur",
+    place: "Tilkamanjhi crossing, Bhagalpur",
+    state: "Bihar",
+    coords: [25.244, 86.972],
+    coordsState: 'REPORTED',
+    incidentState: 'CORROBORATED',
+    dateState: 'CORROBORATED',
+    date: "25 July 2026",
+    summaryState: 'UNKNOWN',
+    summary: null,
+    forcesInvolved: {"state": "CORROBORATED", "items": [{"text": "Bhagalpur police (HIST-BIHJ26-044)", "state": "CORROBORATED"}]},
+    crowdControl  : {"state": "CORROBORATED", "items": [{"text": "Baton charge on a march near the Tilkamanjhi crossing (HIST-BIHJ26-044)", "state": "CORROBORATED"}]},
+    injuries      : {"state": "REPORTED", "note": "The SSP is reported to have said no one was injured (HIST-BIHJ26-044). No other injury figure found."},
+    detentions    : {"state": "REPORTED", "note": "The DM and SSP are reported to have said several people were detained, with no number given (HIST-BIHJ26-044)."},
+    firs          : {"state": "UNKNOWN", "note": "No FIR found."},
+    officeIds: [],
+    orderTrail: { reached: null, rungs: {}, next: null },
+    openedOn: '2026-10-14'
   }
 ];
 

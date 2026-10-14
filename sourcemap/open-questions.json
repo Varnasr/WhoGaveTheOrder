@@ -384,9 +384,9 @@
     "priority": "high",
     "category": "court_records",
     "jurisdiction": "delhi",
-    "question": "The Delhi Police affidavit filed in W.P.(C) 280/2026 concerning the use of facial recognition technology at the Jantar Mantar protest.",
+    "question": "The Delhi Police affidavit filed in W.P.(Crl.) 280/2026 concerning the use of facial recognition technology at the Jantar Mantar protest.",
     "why_it_matters": "It is the force's own account of what it deployed against a protest, sworn to a court. Everything this archive says about the deployment currently rests on reports of it. An affidavit also fixes who swore it, which is the closest the record has come to a named official taking responsibility for anything at Jantar Mantar.",
-    "lawful_route": "Supreme Court case status and filings for W.P.(C) 280/2026 at sci.gov.in; the SCR portal at scr.sci.gov.in for orders; and, once a diary number is known, a certified copy from the registry. Parties' counsel are on the record and the pleadings are public documents in a public interest matter.",
+    "lawful_route": "Supreme Court case status and filings for W.P.(Crl.) 280/2026 at sci.gov.in; the SCR portal at scr.sci.gov.in for orders; and, once a diary number is known, a certified copy from the registry. Parties' counsel are on the record and the pleadings are public documents in a public interest matter.",
     "blocks": [
       "PROC-SC-002",
       "PROC-SC-003"
@@ -535,11 +535,14 @@
     "category": "court_records",
     "jurisdiction": "delhi",
     "question": "The Supreme Court's order of 18 August 2026 constituting the High Powered Enquiry Committee, and the committee's terms of reference as issued.",
-    "why_it_matters": "The committee's mandate is reported to include the deployment of pellet guns by name. What it may and may not examine, what powers it has and what it must report on are all fixed by the order, and this archive holds only journalists' accounts of it. The order is also the document that would settle whether this matter is a civil or a criminal writ, which the reporting cites both ways. PARTLY INFORMED 14 October 2026: the Committee's own site states the mandate and the priority paragraphs (PROC-SC-016). The order itself is still unheld; the site links it at hpec.nic.in/supreme-court-orders.",
+    "why_it_matters": "The committee's mandate is reported to include the deployment of pellet guns by name. What it may and may not examine, what powers it has and what it must report on are all fixed by the order, and this archive holds only journalists' accounts of it. The order is also the document that would settle whether this matter is a civil or a criminal writ, which the reporting cites both ways. PARTLY INFORMED 14 October 2026: the Committee's own site states the mandate and the priority paragraphs (PROC-SC-016). The order itself is still unheld; the site links it at hpec.nic.in/supreme-court-orders. ANSWERED 14 October 2026: the order of 18 August 2026 was supplied and read in full, and is at PROC-SC-018. The Committee's mandate, powers and reporting duty are fixed by paragraphs 12 to 27 of that order. The caption shows the lead matter as a criminal writ petition, W.P.(Crl.) No. 280/2026, with civil writ petitions connected.",
     "lawful_route": "Supreme Court orders are published on the Court's own site and are free. Retrieve it by case number and date of order and record the URL actually fetched. Do not reconstruct a path. If the number is wrong, search the cause list for 10 September 2026, the reported next date.",
     "blocks": [
       "PROC-SC-006",
       "PROC-SC-001"
+    ],
+    "answered_by": [
+      "PROC-SC-018"
     ]
   },
   {
@@ -650,7 +653,7 @@
     "category": "document_custody",
     "jurisdiction": "delhi",
     "question": "Were any of the July 2026 telecommunications suspension orders for Central Delhi published, and if so where; and does the confidential witness portal directed by the Supreme Court on 10 September 2026 now exist, at what address?",
-    "why_it_matters": "Two halves of the same problem. CUS-SHUT-001 records the Internet Freedom Foundation's observation on 20 July that no suspension order had been published; this archive has not itself searched every gazette and portal, so it records that as reported. An absence is the hardest thing to prove and the easiest to assert. The portal matters for a different reason: it is the one route this archive could point a frightened witness to, and pointing anyone at a portal whose existence is unconfirmed would be worse than saying nothing. PARTLY ANSWERED 14 October 2026: the Committee's own site, hpec.nic.in, advertises a confidential route for vulnerable witnesses and names a Member Secretary (PROC-SC-017). Whether the route works has not been tested, and the second-order question of whether it is the portal the Court directed is an inference. The telecommunications-suspension half is unchanged.",
+    "why_it_matters": "Two halves of the same problem. CUS-SHUT-001 records the Internet Freedom Foundation's observation on 20 July that no suspension order had been published; this archive has not itself searched every gazette and portal, so it records that as reported. An absence is the hardest thing to prove and the easiest to assert. The portal matters for a different reason: it is the one route this archive could point a frightened witness to, and pointing anyone at a portal whose existence is unconfirmed would be worse than saying nothing. PARTLY ANSWERED 14 October 2026: the Committee's own site, hpec.nic.in, advertises a confidential route for vulnerable witnesses and names a Member Secretary (PROC-SC-017). Whether the route works has not been tested, and the second-order question of whether it is the portal the Court directed is an inference. The telecommunications-suspension half is unchanged. The order of 10 September, now held (PROC-SC-019), says only that a portal 'may be created'. It directs nothing and names no address. So the portal half rests on the Committee's own site (PROC-SC-017) and on whether that route works.",
     "lawful_route": "Search the MHA, DoT, GNCTD and Delhi Police sites; FQ-014 for the orders; FQ-016 for the order copy.",
     "blocks": [
       "CUS-SHUT-001",
@@ -757,6 +760,18 @@
     "lawful_route": "Establish the publication route first; an RTI application is the fallback.",
     "blocks": [
       "INC-DEL-026"
+    ]
+  },
+  {
+    "id": "OQ-063",
+    "priority": "high",
+    "category": "legal_proceeding",
+    "jurisdiction": "supreme_court",
+    "question": "What did the Supreme Court do on 9 October 2026, the date the 10 September order listed W.P.(Crl.) No. 280/2026 and connected matters for further consideration, and has the Committee filed or been asked for a first interim report?",
+    "why_it_matters": "The Committee's first report on issues (i) and (vi) of paragraph 12 was requested 'at the earliest' on 18 August and again on 10 September. The 9 October listing is the next point at which the Court could set a date for it, say anything about the confidential portal, or deal with the Delhi Police status report on the protection of the 14-year-old protester ordered in W.P.(C) No. 324/2026. No order of that date is held and no report of it has been found.",
+    "lawful_route": "The order of 9 October will appear on the Supreme Court's site and, as the two earlier orders did, on the Committee's Supreme Court Orders page (hpec.nic.in/supreme-court-orders). The archive owner can save it from there, the way the earlier two arrived.",
+    "blocks": [
+      "PROC-SC-019"
     ]
   }
 ]

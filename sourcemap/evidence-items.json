@@ -99,7 +99,7 @@
         "archived_on": "2026-08-19"
       }
     ],
-    "notes": "Source names Munger among protest locations but does not clearly attribute a lathi charge there. Do not promote without a second source.",
+    "notes": "Source names Munger among protest locations but does not clearly attribute a lathi charge there. Do not promote without a second source. SEARCHED 14 October 2026: two further searches for Munger-specific reporting on 23 July 2026 found only district lists that do not name Munger, and local-language outlets were not available to the search. Munger stays UNVERIFIED.",
     "volatility": "low"
   },
   {
@@ -212,7 +212,7 @@
     "id": "PROC-SC-001",
     "jurisdiction": "supreme_court",
     "category": "legal_proceeding",
-    "claim": "Supreme Court proceedings on petitions concerning police action at Jantar Mantar and elsewhere; petitions allege lathi charge, pellet guns, rubber bullets, tear gas, electronic batons and nail-embedded lathis. Cause title Shailendra Mani Tripathi v. Union of India and Ors., W.P.(C) 280/2026 and connected matters, before the Chief Justice of India Surya Kant, Justice Joymalya Bagchi and Justice V. Mohana. Cited as 2026 SCC OnLine SC 1409, ordered 28 July 2026, listed for further consideration 3 August 2026, and heard again on 18 August 2026.",
+    "claim": "Supreme Court proceedings on petitions concerning police action at Jantar Mantar and elsewhere; petitions allege lathi charge, pellet guns, rubber bullets, tear gas, electronic batons and nail-embedded lathis. Cause title Shailendra Mani Tripathi v. Union of India and Ors., W.P.(Crl.) 280/2026 and connected matters, before the Chief Justice of India Surya Kant, Justice Joymalya Bagchi and Justice V. Mohana. Cited as 2026 SCC OnLine SC 1409, ordered 28 July 2026, listed for further consideration 3 August 2026, and heard again on 18 August 2026.",
     "confidence": "CORROBORATED",
     "sources": [
       {
@@ -232,7 +232,7 @@
         "archived_on": "2026-08-19"
       }
     ],
-    "notes": "The writ petition number W.P.(C) 280/2026 and the composition of the bench come from reporting of the 18 August 2026 hearing, which is also the source for PROC-SC-002 and PROC-SC-003. The SCC OnLine citation is a secondary source from a commercial reporter. No order of this Court is held. The Supreme Court is reported to have proposed a High-Powered Committee to examine the police action, which the petitioners opposed as to the facial recognition issues; whether such a committee has been constituted is not established.",
+    "notes": "The writ petition number W.P.(Crl.) 280/2026 and the composition of the bench come from reporting of the 18 August 2026 hearing, which is also the source for PROC-SC-002 and PROC-SC-003. The SCC OnLine citation is a secondary source from a commercial reporter. No order of this Court is held. The Supreme Court is reported to have proposed a High-Powered Committee to examine the police action, which the petitioners opposed as to the facial recognition issues; whether such a committee has been constituted is not established.",
     "volatility": "high"
   },
   {
@@ -2531,7 +2531,7 @@
     "id": "PROC-SC-002",
     "jurisdiction": "delhi",
     "category": "legal_proceeding",
-    "claim": "Delhi Police stated on affidavit before the Supreme Court, at a hearing on 18 August 2026 in Shailendra Mani Tripathi v. Union of India and Ors., W.P.(C) 280/2026 and connected matters, that facial recognition technology was deployed at the Jantar Mantar protest.",
+    "claim": "Delhi Police stated on affidavit before the Supreme Court, at a hearing on 18 August 2026 in Shailendra Mani Tripathi v. Union of India and Ors., W.P.(Crl.) 280/2026 and connected matters, that facial recognition technology was deployed at the Jantar Mantar protest.",
     "confidence": "CORROBORATED",
     "sources": [
       {
@@ -2768,7 +2768,7 @@
         "archived_on": "2026-09-09"
       }
     ],
-    "notes": "Updated 21 August 2026, and the earlier version of this record is now wrong. It said a committee had been decided on but not shown to be constituted, and that whether it existed was not established. It has since been constituted, by an order reported dated 18 August 2026, and five members are named. The record has been corrected in place, and this note says what it used to say. Why this matters more than any other proceeding here: a committee with terms of reference and a reporting obligation generates documents. Its constitution order, its terms of reference and its interim reports are all records that can be asked for, and the deployment of pellet guns is inside its mandate by name. What is not held: the order itself. Everything above is reporting of it. No terms of reference document is in this archive, and the wording quoted by outlets is theirs. See OQ-045. A discrepancy worth recording: this matter is cited as W.P.(C) 280/2026 at PROC-SC-001 and as W.P.(Crl) 280/2026 in the reporting of this order. One of them is wrong and the archive does not know which. The cause list or the order itself would settle it, as a cause list already settled the Delhi numbering at PROC-DEL-002.",
+    "notes": "Updated 21 August 2026, and the earlier version of this record is now wrong. It said a committee had been decided on but not shown to be constituted, and that whether it existed was not established. It has since been constituted, by an order reported dated 18 August 2026, and five members are named. The record has been corrected in place, and this note says what it used to say. Why this matters more than any other proceeding here: a committee with terms of reference and a reporting obligation generates documents. Its constitution order, its terms of reference and its interim reports are all records that can be asked for, and the deployment of pellet guns is inside its mandate by name. What is not held: the order itself. Everything above is reporting of it. No terms of reference document is in this archive, and the wording quoted by outlets is theirs. See OQ-045. A discrepancy worth recording: this matter is cited as W.P.(Crl.) 280/2026 at PROC-SC-001 and as W.P.(Crl) 280/2026 in the reporting of this order. One of them is wrong and the archive does not know which. The cause list or the order itself would settle it, as a cause list already settled the Delhi numbering at PROC-DEL-002. 14 October 2026: the order of 18 August is now held (PROC-SC-018). The five members, the chair, the issue list and the request for a first interim report are confirmed. The Article 142 sentence above is not in the order and stays reported only. The case number is W.P.(Crl.) No. 280/2026.",
     "volatility": "high"
   },
   {
@@ -3361,9 +3361,9 @@
     "id": "PROC-SC-011",
     "jurisdiction": "supreme_court",
     "category": "legal_proceeding",
-    "claim": "By an order reported dated 10 September 2026, a three-judge bench of the Chief Justice of India Surya Kant, Justice Joymalya Bagchi and Justice V. Mohana declined to reconstitute the High Powered Enquiry Committee; directed that a separate online portal be created through which vulnerable witnesses may confidentially submit statements, documents and other evidence; directed the committee to protect the identity and participation of such witnesses; appointed Senior Advocate Monika Gusain and Advocate-on-Record C. Solomon as amici curiae to act as independent intermediaries; and directed the committee to appoint a member secretary for secretarial and logistical support.",
-    "confidence": "REPORTED",
-    "notes": "This closes a thread the archive left open twice. PROC-SC-006 recorded that the Court listed the matter for 10 September 2026; PROC-SC-010 recorded that a plea challenging the committee's composition was before the Court. This is what happened to both. The refusal is reported on the ground that “there was no basis for changing the panel merely on the strength of preconceived assumptions”. The confidential portal is the part that bears on this archive's own users. Somebody who was assaulted by police and is also named in an FIR has an obvious reason not to depose through ordinary channels. Whether the portal now exists, and at what address, is NOT established: see OQ-054. This archive will not direct anyone to a portal it has not confirmed. Recorded as REPORTED on a deliberate reading of this archive's own rule, which withholds CORROBORATED here. Three outlets carry it, but they are three accounts of one order, and the order is not held. Where the underlying document is a single court order, multiple outlets are multiple reports of one thing. The upgrade is the order copy from the Supreme Court's own site: see FQ-014. Amended 23 September 2026 to name the full bench and both amici, and to record the member-secretary direction, all of which the first version of this record left out. The order is dated 10 September and was reported on 16 September; the archive had the order date right and that was worth re-checking, because it was inferred from the listing date at PROC-SC-006 before any source confirmed it.",
+    "claim": "By an order dated 10 September 2026, a three-judge bench of the Chief Justice of India Surya Kant, Justice Joymalya Bagchi and Justice V. Mohana declined to reconstitute the High Powered Enquiry Committee; said that a separate online portal may be created through which vulnerable witnesses and other stakeholders can submit documents and evidence; requested the Committee to protect the identity of vulnerable witnesses; appointed Dr Monika Gusain, Senior Advocate, and C. Solomon, Advocate-on-Record, as amici curiae; and requested the Committee to appoint a member secretary.",
+    "confidence": "VERIFIED",
+    "notes": "This closes a thread the archive left open twice. PROC-SC-006 recorded that the Court listed the matter for 10 September 2026; PROC-SC-010 recorded that a plea challenging the committee's composition was before the Court. This is what happened to both. The refusal is reported on the ground that “there was no basis for changing the panel merely on the strength of preconceived assumptions”. The confidential portal is the part that bears on this archive's own users. Somebody who was assaulted by police and is also named in an FIR has an obvious reason not to depose through ordinary channels. Whether the portal now exists, and at what address, is NOT established: see OQ-054. This archive will not direct anyone to a portal it has not confirmed. Recorded as REPORTED on a deliberate reading of this archive's own rule, which withholds CORROBORATED here. Three outlets carry it, but they are three accounts of one order, and the order is not held. Where the underlying document is a single court order, multiple outlets are multiple reports of one thing. The upgrade is the order copy from the Supreme Court's own site: see FQ-014. Amended 23 September 2026 to name the full bench and both amici, and to record the member-secretary direction, all of which the first version of this record left out. The order is dated 10 September and was reported on 16 September; the archive had the order date right and that was worth re-checking, because it was inferred from the listing date at PROC-SC-006 before any source confirmed it. CORRECTED 14 October 2026 from the order itself (PROC-SC-019). The earlier text said the Court 'directed' that a portal be created, 'directed' the committee to protect witnesses and 'directed' it to appoint a member secretary. The order says the portal 'may be created' and uses 'request' for the other two. The press accounts overstated the force of these, and the first version of this record repeated them. The amici are described in the order as acting 'as a representative of the HPEC' and as 'an independent arbiter between the parties', where the press called them intermediaries for witnesses. The record moves from REPORTED to VERIFIED because the order is now held. The three press sources stay as the account the archive first relied on.",
     "volatility": "medium",
     "sources": [
       {
@@ -3389,6 +3389,14 @@
         "retrieved_on": "2026-09-23",
         "archive_url": "http://web.archive.org/web/20260924074344/https://lawchakra.in/supreme-court/pellet-guns-police-surveillance-supreme-court-told-constitutional-questions-from-student-protests-are-outside-committees-remit/",
         "archived_on": "2026-09-25"
+      },
+      {
+        "url": "https://hpec.nic.in/supreme-court-orders",
+        "source_type": "primary",
+        "publication": "Supreme Court of India, Record of Proceedings of 10 September 2026, W.P.(Crl.) No. 280/2026 and connected matters (PDF)",
+        "retrieved_on": "2026-10-14",
+        "sha256": "36ef25c5b08dea93e17161c18076f30d2848a605682bb7d7206e444b46ac0e61",
+        "note": "Read in full from a PDF supplied by the archive owner, who obtained it through the Committee's Supreme Court Orders page (hpec.nic.in/supreme-court-orders). The PDF's own signature block reads 'Signature Not Verified', digitally signed 2026.09.15 (Arjun Bisht). The exact download address was not supplied, so the archive records the page and the file's sha256."
       }
     ],
     "added_on": "2026-09-23"
@@ -4848,9 +4856,17 @@
     "jurisdiction": "delhi",
     "incident": "INC-0009",
     "category": "incident",
-    "claim": "An NHRC fact-finding team report is reported to have found the assault on Kanhaiya Kumar in the court premises 'organized and pre-planned' and to have recorded serious dereliction of duty by Delhi Police.",
-    "confidence": "UNVERIFIED",
+    "claim": "The National Human Rights Commission's press release of 19 February 2016 states that its inquiry team found that the physical assault on Kanhaiya Kumar in the Patiala House court premises on 17 February 2016 'appears to be organized and pre- planned', that what happened there 'was a major security lapse on the part of the police', and that 'there was serious dereliction of duty on the part of the police'. It also states that police were present and 'did not do anything to prevent the assault or apprehend the attackers even though they were identified by Sh. Kanhaiya Kumar then and there', and that a statement issued by police as an appeal on his behalf was 'not written by him voluntarily' and its 'content, construction and framework' were 'as dictated by the police'.",
+    "confidence": "VERIFIED",
     "sources": [
+      {
+        "url": "https://nhrc.nic.in/media/press-release/nhrc-team-visits-central-prison-tihar-to-inquire-into-important-issues-pertaining-to-shri-kanhaiya-kumar-inquiry-report-forwarded-to-commission-police-delhi-director-general-prisons-tihar-jail-for-comments-19-02-2016",
+        "source_type": "primary",
+        "publication": "National Human Rights Commission, press release, New Delhi, 19 February 2016",
+        "retrieved_on": "2026-10-14",
+        "sha256": "bbc4e1cc2910b65fafae4352265d967f242197fbac8ac1c495f88da3fdd5c440",
+        "note": "The page was fetched directly and the quoted wording matched the page text. The sha256 is of the HTML as served, which also carries site chrome and a changing 'last updated' stamp, so it will not match a later fetch."
+      },
       {
         "url": "https://www.livelaw.in/amp/patiala-house-violence-sc-issues-notice-kamini-jaiswals-plea-sit-contempt-three-lawyers",
         "source_type": "secondary",
@@ -4860,7 +4876,7 @@
         "archived_on": "2026-10-14"
       }
     ],
-    "notes": "Reported by LiveLaw on 26 February 2016 as part of a petition's attachments. Other outlets (India TV, Hindustan Times via PressReader) could not be read (403). The NHRC report itself has not been seen. Locate it through the NHRC case record or the petition annexures in the Supreme Court.",
+    "notes": "Reported by LiveLaw on 26 February 2016 as part of a petition's attachments. Other outlets (India TV, Hindustan Times via PressReader) could not be read (403). The NHRC report itself has not been seen. Locate it through the NHRC case record or the petition annexures in the Supreme Court. TRACED 14 October 2026. The quotations were previously known only through LiveLaw's account of a petition's attachments. They are now read from the NHRC's own press release, which lists the team's findings. VERIFIED here means the Commission's release says this. The inquiry report itself has still not been seen, and the release gives the findings as the team's, forwarded to the Commission, Delhi Police and the Director General of Prisons for comments. What the police replied is not held. 'Appears to be' is the team's own hedge and the claim keeps it.",
     "volatility": "low"
   },
   {
@@ -20517,7 +20533,7 @@
         "originates_from": "ANI text with added material"
       }
     ],
-    "notes": "Single source and a partisan outlet; no independent source found for the notice and the notice itself was not seen. The Deccan Herald (PTI, 13 July 2023) separately reports the education department cancelling leave and asking Patna's district administration to identify teachers who had joined street protests, which concerns a later date and is not corroboration of this notice. A copy of the notice could be requested from the Education Department by RTI. Do not promote without a second source.",
+    "notes": "Single source and a partisan outlet; no independent source found for the notice and the notice itself was not seen. The Deccan Herald (PTI, 13 July 2023) separately reports the education department cancelling leave and asking Patna's district administration to identify teachers who had joined street protests, which concerns a later date and is not corroboration of this notice. A copy of the notice could be requested from the Education Department by RTI. Do not promote without a second source. TRACED 14 October 2026, without success: a search for an independent report of this notice, or of the videography instruction, found nothing. A Careers360 report of November 2023 concerns a different warning to newly appointed teachers who form an association and is not this notice. The record stays UNVERIFIED.",
     "volatility": "low",
     "incident": "INC-0042"
   },
@@ -29550,7 +29566,7 @@
         "sha256": "d102273a8d7d2698b09f44cec6636e6ac450e13da0505ae3f6ca4fefcecab044"
       }
     ],
-    "notes": "The arrest claim rests on The Logical Indian alone and gives no date, names or source for the arrests; the Telegraph report it relies on was not opened. Whether an FIR exists, its number, sections and complainant are UNKNOWN (HIST-BURD16-010).",
+    "notes": "The arrest claim rests on The Logical Indian alone and gives no date, names or source for the arrests; the Telegraph report it relies on was not opened. Whether an FIR exists, its number, sections and complainant are UNKNOWN (HIST-BURD16-010). TRACED 14 October 2026, without success on the arrests: a search found the Logical Indian account again and a Gulf Times piece, but no independent report of the two arrests. Gulf Times, which the archive has not read in full, attributes an arrest of 65 agitators to SFI leader Vikas Jha, a different claim. The Telegraph original was not found. The record stays UNVERIFIED.",
     "volatility": "medium",
     "incident": "INC-0064"
   },
@@ -36405,7 +36421,7 @@
         "sha256": "bde9e7fbebfbb41b14b5780afd7b32b0e9bf736ae4ff2d9a0d9a9bb7f17579cc"
       }
     ],
-    "notes": "Police-side accounts from one wire (PTI on Siasat). The Purnia permission and beating claim is Congress's allegation, with visuals said to be held by Congress and not seen here. Bhagalpur: 'Police had to resort to baton-charging to disperse the crowd.' The State's affidavit lists Bhagalpur, Chapra, Sitamarhi, Aurangabad, Katihar and Kishanganj as places of violence. None of these is opened as its own incident; each needs a second independent report.",
+    "notes": "Police-side accounts from one wire (PTI on Siasat). The Purnia permission and beating claim is Congress's allegation, with visuals said to be held by Congress and not seen here. Bhagalpur: 'Police had to resort to baton-charging to disperse the crowd.' The State's affidavit lists Bhagalpur, Chapra, Sitamarhi, Aurangabad, Katihar and Kishanganj as places of violence. None of these is opened as its own incident; each needs a second independent report. 14 October 2026: Bhagalpur now has its own record, HIST-BIHJ26-044, with a second report. The other districts named here still rest on one report each.",
     "volatility": "medium",
     "incident": "INC-0002"
   },
@@ -36765,6 +36781,176 @@
     ],
     "notes": "This answers the second half of OQ-054 in part. PROC-SC-011 recorded a direction that the Court wanted a separate online portal for vulnerable witnesses and that the Committee appoint a member secretary; the Committee's own site now advertises a confidential route and names a Member Secretary. What this archive has not done is use the form, so it cannot say that the confidential route works, how a submission is stored, or who can read it. The archive does not run, endorse or relay these submissions and is independent of the Committee. The telephone number, postal address and generic email address are published by the Committee for the public; the archive reproduces them for that reason only. Whether the confidential route is the portal the Court directed on 10 September is an inference from the matching description and is not stated on the page.",
     "volatility": "medium",
+    "added_on": "2026-10-14"
+  },
+  {
+    "id": "PROC-SC-018",
+    "jurisdiction": "supreme_court",
+    "category": "legal_proceeding",
+    "claim": "By its order of 18 August 2026 in W.P.(Crl.) No. 280/2026 (Shailendra Mani Tripathi v. Union of India and Ors.) and connected matters, a bench of the Chief Justice and Justices Joymalya Bagchi and V. Mohana constituted a High-Powered Enquiry Committee of five: Justice (Retd.) R. Subhash Reddy (Chairperson), Justice Ravi Shankar Jha, Justice Shalinder Kaur, Shri Rishi Kumar Shukla and Dr L. R. Bishnoi. Paragraph 12 lists nine issues raised by the petitioners (including pellet guns, electric batons, lathi charges and tear gas; a ban on metallic kinetic projectiles; visible nameplates; surveillance of protesters; targeted violence against women protesters; compensation; blanket Section 163 BNSS orders; and Section 152 BNS). Paragraph 13 lists three raised by the respondents (violence by protesters against police, damage to public property, and injuries to police personnel and their families). Paragraph 14 says all of them merit analysis, and that the Committee may consider incidental issues. Paragraph 16 makes the enquiry continuous with periodic interim findings. Paragraph 17 recommends priority for targeted violence, harassment and molestation of women protesters, and paragraph 18 lets the Committee examine the chain of command and interim compensation. Paragraph 19 reserves the broader constitutional questions for the Court. Paragraph 20 gives liberty to approach the Committee and allows complaints and material to be provided anonymously. Paragraph 21 appoints nodal counsel. Paragraph 22 directs police, paramilitary and investigating agencies to preserve CCTV, drone and body-worn camera footage, videography, wireless communication records and PCR call logs, and to furnish the entire record to the Committee. Paragraph 26 says the Committee shall employ a Member Secretary chosen by the Chairperson. Paragraph 27 requests a First Interim Report on issues (i) and (vi) of paragraph 12 at the earliest. Paragraph 28 makes notice in fresh matters returnable on 10 September 2026.",
+    "confidence": "VERIFIED",
+    "sources": [
+      {
+        "url": "https://hpec.nic.in/supreme-court-orders",
+        "source_type": "primary",
+        "publication": "Supreme Court of India, Record of Proceedings of 18 August 2026, W.P.(Crl.) No. 280/2026 and connected matters (PDF)",
+        "retrieved_on": "2026-10-14",
+        "sha256": "203c4807fca2abb39b892b40b1e2ee46731e574eb52f87a75ba13b04da96b0ec",
+        "note": "Read in full from a PDF supplied by the archive owner, who obtained it through the Committee's Supreme Court Orders page (hpec.nic.in/supreme-court-orders). The PDF's own signature block reads 'Signature Not Verified', digitally signed 2026.08.20 (Anita Malhotra). The exact download address was not supplied, so the archive records the page and the file's sha256."
+      }
+    ],
+    "notes": "This is the order itself, and it settles OQ-045 and the first half of FQ-016. It corrects three things the archive carried from reporting. First, the lead matter is W.P.(Crl.) No. 280/2026, not W.P.(C), which PROC-SC-001 and others had recorded; the archive has changed those. Second, the preservation direction in paragraph 22 is described in the order as clarifying a direction from the 28 July order, and adds the furnishing of the record to the Committee. Third, nothing in this order mentions an Article 142 power to quash FIRs, which PROC-SC-006 records as separately reported; that remains reported only. Paragraphs 4 and 5 recite what the 28 July order directed (no coercive steps, release of children below 18, protection not extending to those accused of grave and heinous offences with criminal antecedents, and preservation of protesters' personal data); that is the Court describing its own earlier order, and the 28 July order itself is still not held. The order names no pellet-gun SOP and gives no dates for the Committee's reports.",
+    "volatility": "medium",
+    "added_on": "2026-10-14"
+  },
+  {
+    "id": "PROC-SC-019",
+    "jurisdiction": "supreme_court",
+    "category": "legal_proceeding",
+    "claim": "By its order of 10 September 2026 in the same batch, the Court recorded that the Union had complied with paragraph 24 of the 18 August order (infrastructure and facilities for the Committee), and declined to reconstitute the Committee on I.A. No. 258046/2026, saying the prayer rested on 'nothing more than conjecture and preconceived notions' and that aspersions had been cast on the Committee 'in a manner that is both premature and precipitate'. The Court requested the Committee to begin with items (i), (vi) and (vii) of paragraph 12 and item (iii) of paragraph 13, including pellet guns, targeted violence and harassment of women protesters, and 'excessive violence and destruction of property occasioned on either side'; repeated its reservation of the broader constitutional questions; requested that vulnerable witnesses be given protection and have their identities kept confidential and undisclosed; and said that 'a separate online portal may be created' for such witnesses and other stakeholders to submit documents and evidence. It clarified that the nodal counsel's role is confined to assisting the Court and is not a line of communication between the Committee, the Court and the parties; directed the Registry to give them the paperbooks; appointed Dr Monika Gusain, Senior Advocate, and Mr C. Solomon, AOR, as amici curiae 'as a representative of the HPEC' who 'shall further act as an independent arbiter between the parties'; requested the Committee to appoint a Member Secretary at the earliest; and requested its first report at the earliest. In W.P.(C) No. 324/2026 it directed Delhi Police to assess the threat perception and protect a 14-year-old protester and her family, to investigate expeditiously those said to be threatening them, and to file a status report before the next hearing. The matter was listed on 9 October 2026 for further consideration.",
+    "confidence": "VERIFIED",
+    "sources": [
+      {
+        "url": "https://hpec.nic.in/supreme-court-orders",
+        "source_type": "primary",
+        "publication": "Supreme Court of India, Record of Proceedings of 10 September 2026, W.P.(Crl.) No. 280/2026 and connected matters (PDF)",
+        "retrieved_on": "2026-10-14",
+        "sha256": "36ef25c5b08dea93e17161c18076f30d2848a605682bb7d7206e444b46ac0e61",
+        "note": "Read in full from a PDF supplied by the archive owner, who obtained it through the Committee's Supreme Court Orders page (hpec.nic.in/supreme-court-orders). The PDF's own signature block reads 'Signature Not Verified', digitally signed 2026.09.15 (Arjun Bisht). The exact download address was not supplied, so the archive records the page and the file's sha256."
+      }
+    ],
+    "notes": "The order uses the language of request and permission in several places where the earlier record said 'directed'. The portal 'may be created', the Committee is 'requested' to protect witnesses and to appoint a Member Secretary, and the first report is 'requested'. PROC-SC-011 has been corrected to match. The order does not direct that a portal be built, does not name an address, and does not say the portal exists. The Committee's own site now advertises a confidential route (PROC-SC-017); whether that is the portal the Court contemplated is still an inference. The order does not name the child, and the archive records only what the order says about her protection. The next date, 9 October 2026, has passed; what happened then is not held (OQ-063).",
+    "volatility": "high",
+    "added_on": "2026-10-14"
+  },
+  {
+    "id": "HIST-JMI25-001",
+    "jurisdiction": "delhi",
+    "category": "incident",
+    "incident": "INC-0087",
+    "claim": "Early on Thursday 13 February 2025, Delhi Police removed and detained Jamia Millia Islamia students who had been protesting on campus since 10 February against show-cause notices issued to two PhD scholars over a 15 December 2024 demonstration marking the fifth anniversary of the 2019 campus violence. A police official told PTI: 'We removed over 10 students at around 4 am after receiving a request from the university administration.' The students were taken to police stations in South East Delhi and held for hours before release.",
+    "confidence": "CORROBORATED",
+    "volatility": "medium",
+    "sources": [
+      {
+        "url": "https://news.careers360.com/security-stepped-up-at-jamia-10-students-detained-for-protest/amp",
+        "source_type": "secondary",
+        "publication": "Careers360, 13 Feb 2025",
+        "retrieved_on": "2026-10-14",
+        "originates_from": "PTI"
+      },
+      {
+        "url": "https://scroll.in/latest/1079125/jamia-students-detained-while-protesting-show-cause-notices-to-2-phd-scholars",
+        "source_type": "secondary",
+        "publication": "Scroll, 13 Feb 2025",
+        "retrieved_on": "2026-10-14",
+        "originates_from": "The Indian Express, as cited by Scroll"
+      },
+      {
+        "url": "https://sabrangindia.in/crackdown-on-student-dissent-jamia-millia-islamias-heavy-handed-response-to-peaceful-protests",
+        "source_type": "secondary",
+        "publication": "SabrangIndia, 14 Feb 2025",
+        "retrieved_on": "2026-10-14"
+      }
+    ],
+    "notes": "Three outlets, read in full on 14 October 2026. The detention, the police statement that it followed a request from the university, and the reason for the protest agree across them. The Scroll piece attributes its account to The Indian Express, and the PTI piece is a separate wire report, so the first two are not one source repeated. No FIR, detention memo or university order is held. The administration's statement, as quoted by Scroll and SabrangIndia, says a handful of students vandalised property including the central canteen and carried 'objectionable contraband items'; the students deny the vandalism. These are claims by the university and the students and the archive records them without deciding between them.",
+    "added_on": "2026-10-14"
+  },
+  {
+    "id": "HIST-JMI25-002",
+    "jurisdiction": "delhi",
+    "category": "incident",
+    "incident": "INC-0087",
+    "claim": "The number detained, the time and the length of detention are reported differently. PTI and a police official say 'over 10 students' were removed at about 4 am. Scroll reports that students said over 20 were detained at around 5 am, and that they were released after about 12 hours. SabrangIndia says fourteen were detained, removed 'around 5:30 am' by multiple media reports, and held for nearly nine hours until 3:00 pm; it does not say where the figure of fourteen comes from. SabrangIndia also reports that the administration suspended six students hours before the detentions, without citing a document.",
+    "confidence": "DISPUTED",
+    "volatility": "medium",
+    "sources": [
+      {
+        "url": "https://news.careers360.com/security-stepped-up-at-jamia-10-students-detained-for-protest/amp",
+        "source_type": "secondary",
+        "publication": "Careers360, 13 Feb 2025",
+        "retrieved_on": "2026-10-14",
+        "originates_from": "PTI"
+      },
+      {
+        "url": "https://scroll.in/latest/1079125/jamia-students-detained-while-protesting-show-cause-notices-to-2-phd-scholars",
+        "source_type": "secondary",
+        "publication": "Scroll, 13 Feb 2025",
+        "retrieved_on": "2026-10-14",
+        "originates_from": "The Indian Express, as cited by Scroll"
+      },
+      {
+        "url": "https://sabrangindia.in/crackdown-on-student-dissent-jamia-millia-islamias-heavy-handed-response-to-peaceful-protests",
+        "source_type": "secondary",
+        "publication": "SabrangIndia, 14 Feb 2025",
+        "retrieved_on": "2026-10-14"
+      }
+    ],
+    "notes": "The archive records every figure and who gave it. Only a detention register or the Delhi Police's own record can settle the count. Students also alleged that police manhandled them, took their phones and did not let them contact their families, and the Deputy Commissioner of Police (Southeast) is reported by SabrangIndia to have said the detentions were lawful and to have denied misconduct. Those are allegations and a denial; none is established here.",
+    "added_on": "2026-10-14"
+  },
+  {
+    "id": "HIST-HPU14-001",
+    "jurisdiction": "himachal-pradesh",
+    "category": "incident",
+    "incident": "INC-0088",
+    "claim": "The Tribune, Shimla, 19 September 2014, headlined 'Students lathicharged, 220 rounded up', reported that police allegedly lathicharged students at Himachal Pradesh University protesting a fee hike and the delay in Students Central Association elections. It reports SFI secretary Piyush Sewal as saying 17 students, including six girls, were injured and over 400 were arrested and taken to an unknown destination. It reports DSP Shiv Chaudhry as denying a lathi charge, saying students throwing stones were 'forcibly removed' and that 220 were arrested in violation of Section 144 CrPC. It reports the CPI(M) Secretariat as condemning a midnight operation in which police 'lifted eight protesting girls from the HPU campus'.",
+    "confidence": "REPORTED",
+    "volatility": "low",
+    "sources": [
+      {
+        "url": "https://www.tribuneindia.com/2014/20140920/himachal.htm",
+        "source_type": "secondary",
+        "publication": "The Tribune, 20 Sept 2014 (dateline 19 Sept)",
+        "retrieved_on": "2026-10-14"
+      }
+    ],
+    "notes": "One newspaper, one day. The lathi charge, the injury count and the larger arrest figure are the SFI's allegations, and the police deny the lathi charge. The only figure the police themselves give is 220 arrested. The page also carries a second report on 21 September (https://www.tribuneindia.com/2014/20140921/himachal.htm) that has not been read in full, and no inquiry or court outcome was found. REPORTED is the right state: a second independent outlet would be needed for CORROBORATED.",
+    "added_on": "2026-10-14"
+  },
+  {
+    "id": "HIST-HPU14-002",
+    "jurisdiction": "himachal-pradesh",
+    "category": "incident",
+    "incident": "INC-0088",
+    "claim": "The Tribune, Shimla, 10 October 2014, reported that over 70 students, including 19 girls, were arrested at Himachal Pradesh University for defying prohibitory orders under Section 144 CrPC, and were booked under Sections 149, 151, 188 and 341 of the Indian Penal Code. Student leaders alleged that police roughed them up, and a Student Unity Forum spokesman called the arrests of peacefully demonstrating students 'undemocratic and uncalled for'.",
+    "confidence": "REPORTED",
+    "volatility": "low",
+    "sources": [
+      {
+        "url": "https://www.tribuneindia.com/2014/20141011/himachal.htm",
+        "source_type": "secondary",
+        "publication": "The Tribune, 11 Oct 2014 (dateline 10 Oct)",
+        "retrieved_on": "2026-10-14"
+      }
+    ],
+    "notes": "A second event, three weeks after the 19 September action at HIST-HPU14-001, and filed under the same incident because the protest and the university are the same. One outlet. The treatment allegation is the students' and no police response to it is recorded in the report as read.",
+    "added_on": "2026-10-14"
+  },
+  {
+    "id": "HIST-BIHJ26-044",
+    "jurisdiction": "bihar",
+    "category": "incident",
+    "incident": "INC-0089",
+    "claim": "On Saturday 25 July 2026, during the statewide bandh called by left student organisations, a protest march at Bhagalpur that began at Station Chowk turned violent near the Tilkamanjhi crossing, and police used a baton charge to disperse the crowd. PTI reports that protesters pelted police with bricks and blocked roads, that the Bhagalpur District Magistrate Alankrita Pandey said the situation was under control and several protesters had been detained, and that SSP Pramod Kumar Yadav said students pelted stones and vandalised two police vehicles, that no one was injured and that some people identified from CCTV footage had been detained. National Herald (NH Digital) reports, citing police, that protesters blocked roads, pelted stones and overturned a police vehicle, prompting the baton charge, and that the SSP said CCTV footage was being examined to identify those responsible.",
+    "confidence": "CORROBORATED",
+    "volatility": "medium",
+    "sources": [
+      {
+        "url": "https://www.siasat.com/bihar-police-use-tear-gas-baton-charge-as-neet-bandh-turns-violent-3513523/",
+        "source_type": "secondary",
+        "publication": "Siasat Daily, 25 Jul 2026",
+        "retrieved_on": "2026-10-14",
+        "originates_from": "PTI"
+      },
+      {
+        "url": "https://www.nationalheraldindia.com/national/bihar-bandh-over-exam-turns-violent-as-students-clash-with-police-across-districts",
+        "source_type": "secondary",
+        "publication": "National Herald (NH Digital), 25 Jul 2026",
+        "retrieved_on": "2026-10-14"
+      }
+    ],
+    "notes": "Both accounts were read in full on 14 October 2026. They agree on the march, the Tilkamanjhi crossing, the baton charge and the DM and SSP as sources. They differ on details: bricks (PTI) or stones (National Herald), two police vehicles vandalised (PTI) or one overturned (National Herald), and PTI carries the SSP's statement that no one was injured and that some people were detained. National Herald credits no agency, so the archive cannot show that its account does not also come from a police briefing that PTI relied on. The words differ enough, and the time of publication is earlier (17:33 against 22:59), that the archive treats them as two reports. Both are police-side. No account from protesters, no injury count other than the SSP's statement, and no detention figure was found. The State of Bihar's affidavit also lists Bhagalpur among places of violence (HIST-BIHJ26-026).",
     "added_on": "2026-10-14"
   }
 ]
