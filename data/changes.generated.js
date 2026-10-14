@@ -5,6 +5,149 @@ window.WGO = window.WGO || {};
 
 WGO.changes = [
   {
+    "commit": "d71c9f510f",
+    "date": "2026-10-14T05:00:10Z",
+    "subject": "Record the Supreme Court orders of 18 August and 10 September 2026 from the PDFs",
+    "added": [
+      {
+        "id": "PROC-SC-018",
+        "kind": "Evidence",
+        "title": "By its order of 18 August 2026 in W.P.(Crl.) No. 280/2026 (Shailendra Mani Tripathi v. Union of India and Ors.) and connected matters, a bench of the Chief Just",
+        "state": "VERIFIED",
+        "url": "evidence.html?id=PROC-SC-018"
+      },
+      {
+        "id": "PROC-SC-019",
+        "kind": "Evidence",
+        "title": "By its order of 10 September 2026 in the same batch, the Court recorded that the Union had complied with paragraph 24 of the 18 August order (infrastructure and",
+        "state": "VERIFIED",
+        "url": "evidence.html?id=PROC-SC-019"
+      },
+      {
+        "id": "SRC-1079",
+        "kind": "Source",
+        "title": "Supreme Court of India, Record of Proceedings of 10 September 2026, W.P.(Crl.) No. 280/2026 and connected matters (PDF)",
+        "state": null,
+        "url": "https://hpec.nic.in/supreme-court-orders"
+      },
+      {
+        "id": "OQ-063",
+        "kind": "Question",
+        "title": "What did the Supreme Court do on 9 October 2026, the date the 10 September order listed W.P.(Crl.) No. 280/2026 and connected matters for further consideration, and has the Committee filed or been asked for a first interim report?",
+        "state": "UNANSWERED",
+        "url": "incident/.html#OQ-063"
+      }
+    ],
+    "removed": [],
+    "changed": [
+      {
+        "id": "PROC-SC-001",
+        "kind": "Evidence",
+        "title": "Supreme Court proceedings on petitions concerning police action at Jantar Mantar and elsewhere; petitions allege lathi charge, pellet guns, rubber bullets, tear",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=PROC-SC-001",
+        "fields": [
+          {
+            "field": "establishes",
+            "from": "The writ petition number W.P.(C) 280/2026 and the composition of the bench come from reporting of the 18 August 2026 hearing, which is also the source for PROC-SC-002 and PROC-SC-003. The SCC OnLine citation is a secondary source from a …",
+            "to": "The writ petition number W.P.(Crl.) 280/2026 and the composition of the bench come from reporting of the 18 August 2026 hearing, which is also the source for PROC-SC-002 and PROC-SC-003. The SCC OnLine citation is a secondary source from…"
+          }
+        ]
+      },
+      {
+        "id": "PROC-SC-002",
+        "kind": "Evidence",
+        "title": "Delhi Police stated on affidavit before the Supreme Court, at a hearing on 18 August 2026 in Shailendra Mani Tripathi v. Union of India and Ors., W.P.(Crl.) 280",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=PROC-SC-002",
+        "fields": [
+          {
+            "field": "title",
+            "from": "Delhi Police stated on affidavit before the Supreme Court, at a hearing on 18 August 2026 in Shailendra Mani Tripathi v. Union of India and Ors., W.P.(C) 280/20",
+            "to": "Delhi Police stated on affidavit before the Supreme Court, at a hearing on 18 August 2026 in Shailendra Mani Tripathi v. Union of India and Ors., W.P.(Crl.) 280"
+          }
+        ]
+      },
+      {
+        "id": "PROC-SC-006",
+        "kind": "Evidence",
+        "title": "The Supreme Court constituted a five-member High Powered Enquiry Committee by order reported dated 18 August 2026 to inquire into the police action against the ",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=PROC-SC-006",
+        "fields": [
+          {
+            "field": "establishes",
+            "from": "Updated 21 August 2026, and the earlier version of this record is now wrong. It said a committee had been decided on but not shown to be constituted, and that whether it existed was not established. It has since been constituted, by an o…",
+            "to": "Updated 21 August 2026, and the earlier version of this record is now wrong. It said a committee had been decided on but not shown to be constituted, and that whether it existed was not established. It has since been constituted, by an o…"
+          }
+        ]
+      },
+      {
+        "id": "PROC-SC-011",
+        "kind": "Evidence",
+        "title": "By an order dated 10 September 2026, a three-judge bench of the Chief Justice of India Surya Kant, Justice Joymalya Bagchi and Justice V. Mohana declined to rec",
+        "state": "VERIFIED",
+        "url": "evidence.html?id=PROC-SC-011",
+        "fields": [
+          {
+            "field": "state",
+            "from": "REPORTED",
+            "to": "VERIFIED"
+          },
+          {
+            "field": "title",
+            "from": "By an order reported dated 10 September 2026, a three-judge bench of the Chief Justice of India Surya Kant, Justice Joymalya Bagchi and Justice V. Mohana declin",
+            "to": "By an order dated 10 September 2026, a three-judge bench of the Chief Justice of India Surya Kant, Justice Joymalya Bagchi and Justice V. Mohana declined to rec"
+          },
+          {
+            "field": "establishes",
+            "from": "This closes a thread the archive left open twice. PROC-SC-006 recorded that the Court listed the matter for 10 September 2026; PROC-SC-010 recorded that a plea challenging the committee's composition was before the Court. This is what ha…",
+            "to": "This closes a thread the archive left open twice. PROC-SC-006 recorded that the Court listed the matter for 10 September 2026; PROC-SC-010 recorded that a plea challenging the committee's composition was before the Court. This is what ha…"
+          },
+          {
+            "field": "sourceIds",
+            "from": "SRC-0087, SRC-0088, SRC-0089",
+            "to": "SRC-0087, SRC-0088, SRC-0089, SRC-1079"
+          }
+        ]
+      },
+      {
+        "id": "OQ-033",
+        "kind": "Question",
+        "title": "The Delhi Police affidavit filed in W.P.(Crl.) 280/2026 concerning the use of facial recognition technology at the Jantar Mantar protest.",
+        "state": "UNANSWERED",
+        "url": "incident/jantar-mantar.html#OQ-033",
+        "fields": [
+          {
+            "field": "title",
+            "from": "The Delhi Police affidavit filed in W.P.(C) 280/2026 concerning the use of facial recognition technology at the Jantar Mantar protest.",
+            "to": "The Delhi Police affidavit filed in W.P.(Crl.) 280/2026 concerning the use of facial recognition technology at the Jantar Mantar protest."
+          }
+        ]
+      },
+      {
+        "id": "OQ-045",
+        "kind": "Question",
+        "title": "The Supreme Court's order of 18 August 2026 constituting the High Powered Enquiry Committee, and the committee's terms of reference as issued.",
+        "state": "ANSWERED",
+        "url": "incident/jantar-mantar.html#OQ-045",
+        "fields": [
+          {
+            "field": "state",
+            "from": "UNANSWERED",
+            "to": "ANSWERED"
+          },
+          {
+            "field": "evidenceIds",
+            "from": null,
+            "to": "PROC-SC-018"
+          }
+        ]
+      }
+    ],
+    "summary": "4 records added · 2 states changed · 4 records edited"
+  },
+  {
     "commit": "233d35bb12",
     "date": "2026-10-14T04:48:52Z",
     "subject": "Record the Committee's own site: mandate and submission routes (PROC-SC-016, 017)",
