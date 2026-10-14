@@ -11616,6 +11616,17 @@
     "archiveUrl": null
   },
   {
+    "id": "SRC-1086",
+    "kind": "Source",
+    "title": "National Herald (NH Digital), 25 Jul 2026",
+    "state": null,
+    "url": "https://www.nationalheraldindia.com/national/bihar-bandh-over-exam-turns-violent-as-students-clash-with-police-across-districts",
+    "publisher": null,
+    "retrievedOn": "2026-10-14",
+    "sha256": null,
+    "archiveUrl": null
+  },
+  {
     "id": "SRC-0056",
     "kind": "Source",
     "title": "India Code",

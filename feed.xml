@@ -3,10 +3,19 @@
   <title>WhoGaveTheOrder.in: changes to the record</title>
   <subtitle>Every record that has been added, moved between states, or edited.</subtitle>
   <id>tag:whogavetheorder.in,2026:feed</id>
-  <updated>2026-10-14T05:20:04Z</updated>
+  <updated>2026-10-14T05:37:53Z</updated>
   <link href="https://www.whogavetheorder.in/"/>
   <link rel="self" href="https://www.whogavetheorder.in/feed.xml"/>
   <rights>Reuse with attribution</rights>
+  <entry>
+    <title>3 records added · 2 records edited</title>
+    <id>tag:whogavetheorder.in,2026:change/0421d2c36c</id>
+    <updated>2026-10-14T05:37:53Z</updated>
+    <link href="https://www.whogavetheorder.in/changes.html#0421d2c36c"/>
+    <content type="html">
+      &lt;p&gt;Open Bhagalpur, 25 July 2026, as its own incident on a second report&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Added Incident INC-0089: Police baton-charge a bandh march at Bhagalpur&lt;/li&gt;&lt;li&gt;Added Evidence HIST-BIHJ26-044: On Saturday 25 July 2026, during the statewide bandh called by left student organisations, a protest march at Bhagalpur that began at Station Chowk turned viole&lt;/li&gt;&lt;li&gt;Added Source SRC-1086: National Herald (NH Digital), 25 Jul 2026&lt;/li&gt;&lt;li&gt;Edited Evidence INC-BIH-003: Protest activity at Munger on 23 July 2026. Whether police force was used at Munger is not established by the source.&lt;/li&gt;&lt;li&gt;Edited Evidence HIST-BIHJ26-026: Bandh day, 25 July 2026, other districts (PTI): Bhagalpur police baton-charged a crowd after bricks were thrown, according to PTI&apos;s account of the Bhagalpur DM &lt;/li&gt;&lt;/ul&gt;
+    </content>
+  </entry>
   <entry>
     <title>1 record added · 1 state changed · 2 records edited</title>
     <id>tag:whogavetheorder.in,2026:change/a342ac934e</id>
@@ -446,15 +455,6 @@
     <link href="https://www.whogavetheorder.in/changes.html#69aacabd53"/>
     <content type="html">
       &lt;p&gt;Sweep log and archived copies for 2026-09-02 [skip ci]&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Edited Source SRC-0001: Bar &amp;amp; Bench&lt;/li&gt;&lt;li&gt;Edited Source SRC-0015: Bar &amp;amp; Bench&lt;/li&gt;&lt;li&gt;Edited Source SRC-0016: India Legal&lt;/li&gt;&lt;li&gt;Edited Source SRC-0067: LegitQuest&lt;/li&gt;&lt;li&gt;Edited Source SRC-0072: commoner-law.com&lt;/li&gt;&lt;/ul&gt;
-    </content>
-  </entry>
-  <entry>
-    <title>3 records edited</title>
-    <id>tag:whogavetheorder.in,2026:change/92f20519c8</id>
-    <updated>2026-09-01T08:00:28Z</updated>
-    <link href="https://www.whogavetheorder.in/changes.html#92f20519c8"/>
-    <content type="html">
-      &lt;p&gt;Sweep log and archived copies for 2026-09-01 [skip ci]&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Edited Source SRC-0007: Verdictum&lt;/li&gt;&lt;li&gt;Edited Source SRC-0012: Bar &amp;amp; Bench&lt;/li&gt;&lt;li&gt;Edited Source SRC-0013: The Federal&lt;/li&gt;&lt;/ul&gt;
     </content>
   </entry>
 </feed>

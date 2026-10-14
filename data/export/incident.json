@@ -966,5 +966,16 @@
     "date": "19 September 2014",
     "dateState": "REPORTED",
     "summary": null
+  },
+  {
+    "id": "INC-0089",
+    "kind": "Incident",
+    "title": "Police baton-charge a bandh march at Bhagalpur",
+    "state": "CORROBORATED",
+    "url": "https://www.whogavetheorder.in/incident/bhagalpur-bandh-july-2026.html",
+    "place": "Tilkamanjhi crossing, Bhagalpur",
+    "date": "25 July 2026",
+    "dateState": "CORROBORATED",
+    "summary": null
   }
 ]

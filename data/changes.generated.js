@@ -5,6 +5,66 @@ window.WGO = window.WGO || {};
 
 WGO.changes = [
   {
+    "commit": "0421d2c36c",
+    "date": "2026-10-14T05:37:53Z",
+    "subject": "Open Bhagalpur, 25 July 2026, as its own incident on a second report",
+    "added": [
+      {
+        "id": "INC-0089",
+        "kind": "Incident",
+        "title": "Police baton-charge a bandh march at Bhagalpur",
+        "state": "CORROBORATED",
+        "url": "incident/bhagalpur-bandh-july-2026.html"
+      },
+      {
+        "id": "HIST-BIHJ26-044",
+        "kind": "Evidence",
+        "title": "On Saturday 25 July 2026, during the statewide bandh called by left student organisations, a protest march at Bhagalpur that began at Station Chowk turned viole",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-BIHJ26-044"
+      },
+      {
+        "id": "SRC-1086",
+        "kind": "Source",
+        "title": "National Herald (NH Digital), 25 Jul 2026",
+        "state": null,
+        "url": "https://www.nationalheraldindia.com/national/bihar-bandh-over-exam-turns-violent-as-students-clash-with-police-across-districts"
+      }
+    ],
+    "removed": [],
+    "changed": [
+      {
+        "id": "INC-BIH-003",
+        "kind": "Evidence",
+        "title": "Protest activity at Munger on 23 July 2026. Whether police force was used at Munger is not established by the source.",
+        "state": "UNVERIFIED",
+        "url": "evidence.html?id=INC-BIH-003",
+        "fields": [
+          {
+            "field": "establishes",
+            "from": "Source names Munger among protest locations but does not clearly attribute a lathi charge there. Do not promote without a second source.",
+            "to": "Source names Munger among protest locations but does not clearly attribute a lathi charge there. Do not promote without a second source. SEARCHED 14 October 2026: two further searches for Munger-specific reporting on 23 July 2026 found o…"
+          }
+        ]
+      },
+      {
+        "id": "HIST-BIHJ26-026",
+        "kind": "Evidence",
+        "title": "Bandh day, 25 July 2026, other districts (PTI): Bhagalpur police baton-charged a crowd after bricks were thrown, according to PTI's account of the Bhagalpur DM ",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-BIHJ26-026",
+        "fields": [
+          {
+            "field": "establishes",
+            "from": "Police-side accounts from one wire (PTI on Siasat). The Purnia permission and beating claim is Congress's allegation, with visuals said to be held by Congress and not seen here. Bhagalpur: 'Police had to resort to baton-charging to dispe…",
+            "to": "Police-side accounts from one wire (PTI on Siasat). The Purnia permission and beating claim is Congress's allegation, with visuals said to be held by Congress and not seen here. Bhagalpur: 'Police had to resort to baton-charging to dispe…"
+          }
+        ]
+      }
+    ],
+    "summary": "3 records added · 2 records edited"
+  },
+  {
     "commit": "a342ac934e",
     "date": "2026-10-14T05:20:04Z",
     "subject": "Trace the NHRC Kanhaiya Kumar findings to the NHRC's own press release",
