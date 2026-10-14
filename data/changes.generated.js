@@ -5,6 +5,93 @@ window.WGO = window.WGO || {};
 
 WGO.changes = [
   {
+    "commit": "0dcd15b37c",
+    "date": "2026-10-14T05:05:44Z",
+    "subject": "Add two historical incidents: Jamia, 13 February 2025, and Himachal Pradesh University, 2014",
+    "added": [
+      {
+        "id": "INC-0087",
+        "kind": "Incident",
+        "title": "Delhi Police detain Jamia students protesting disciplinary notices",
+        "state": "CORROBORATED",
+        "url": "incident/jamia-detentions-february-2025.html"
+      },
+      {
+        "id": "INC-0088",
+        "kind": "Incident",
+        "title": "Police clear students at Himachal Pradesh University, Shimla",
+        "state": "REPORTED",
+        "url": "incident/himachal-pradesh-university-september-2014.html"
+      },
+      {
+        "id": "HIST-JMI25-001",
+        "kind": "Evidence",
+        "title": "Early on Thursday 13 February 2025, Delhi Police removed and detained Jamia Millia Islamia students who had been protesting on campus since 10 February against ",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-JMI25-001"
+      },
+      {
+        "id": "HIST-JMI25-002",
+        "kind": "Evidence",
+        "title": "The number detained, the time and the length of detention are reported differently. PTI and a police official say 'over 10 students' were removed at about 4 am.",
+        "state": "DISPUTED",
+        "url": "evidence.html?id=HIST-JMI25-002"
+      },
+      {
+        "id": "HIST-HPU14-001",
+        "kind": "Evidence",
+        "title": "The Tribune, Shimla, 19 September 2014, headlined 'Students lathicharged, 220 rounded up', reported that police allegedly lathicharged students at Himachal Prad",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-HPU14-001"
+      },
+      {
+        "id": "HIST-HPU14-002",
+        "kind": "Evidence",
+        "title": "The Tribune, Shimla, 10 October 2014, reported that over 70 students, including 19 girls, were arrested at Himachal Pradesh University for defying prohibitory o",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-HPU14-002"
+      },
+      {
+        "id": "SRC-1080",
+        "kind": "Source",
+        "title": "Careers360, 13 Feb 2025",
+        "state": null,
+        "url": "https://news.careers360.com/security-stepped-up-at-jamia-10-students-detained-for-protest/amp"
+      },
+      {
+        "id": "SRC-1081",
+        "kind": "Source",
+        "title": "Scroll, 13 Feb 2025",
+        "state": null,
+        "url": "https://scroll.in/latest/1079125/jamia-students-detained-while-protesting-show-cause-notices-to-2-phd-scholars"
+      },
+      {
+        "id": "SRC-1082",
+        "kind": "Source",
+        "title": "SabrangIndia, 14 Feb 2025",
+        "state": null,
+        "url": "https://sabrangindia.in/crackdown-on-student-dissent-jamia-millia-islamias-heavy-handed-response-to-peaceful-protests"
+      },
+      {
+        "id": "SRC-1083",
+        "kind": "Source",
+        "title": "The Tribune, 20 Sept 2014 (dateline 19 Sept)",
+        "state": null,
+        "url": "https://www.tribuneindia.com/2014/20140920/himachal.htm"
+      },
+      {
+        "id": "SRC-1084",
+        "kind": "Source",
+        "title": "The Tribune, 11 Oct 2014 (dateline 10 Oct)",
+        "state": null,
+        "url": "https://www.tribuneindia.com/2014/20141011/himachal.htm"
+      }
+    ],
+    "removed": [],
+    "changed": [],
+    "summary": "11 records added"
+  },
+  {
     "commit": "d71c9f510f",
     "date": "2026-10-14T05:00:10Z",
     "subject": "Record the Supreme Court orders of 18 August and 10 September 2026 from the PDFs",
