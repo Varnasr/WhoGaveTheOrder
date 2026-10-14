@@ -36800,5 +36800,109 @@
     "notes": "The order uses the language of request and permission in several places where the earlier record said 'directed'. The portal 'may be created', the Committee is 'requested' to protect witnesses and to appoint a Member Secretary, and the first report is 'requested'. PROC-SC-011 has been corrected to match. The order does not direct that a portal be built, does not name an address, and does not say the portal exists. The Committee's own site now advertises a confidential route (PROC-SC-017); whether that is the portal the Court contemplated is still an inference. The order does not name the child, and the archive records only what the order says about her protection. The next date, 9 October 2026, has passed; what happened then is not held (OQ-063).",
     "volatility": "high",
     "added_on": "2026-10-14"
+  },
+  {
+    "id": "HIST-JMI25-001",
+    "jurisdiction": "delhi",
+    "category": "incident",
+    "incident": "INC-0087",
+    "claim": "Early on Thursday 13 February 2025, Delhi Police removed and detained Jamia Millia Islamia students who had been protesting on campus since 10 February against show-cause notices issued to two PhD scholars over a 15 December 2024 demonstration marking the fifth anniversary of the 2019 campus violence. A police official told PTI: 'We removed over 10 students at around 4 am after receiving a request from the university administration.' The students were taken to police stations in South East Delhi and held for hours before release.",
+    "confidence": "CORROBORATED",
+    "volatility": "medium",
+    "sources": [
+      {
+        "url": "https://news.careers360.com/security-stepped-up-at-jamia-10-students-detained-for-protest/amp",
+        "source_type": "secondary",
+        "publication": "Careers360, 13 Feb 2025",
+        "retrieved_on": "2026-10-14",
+        "originates_from": "PTI"
+      },
+      {
+        "url": "https://scroll.in/latest/1079125/jamia-students-detained-while-protesting-show-cause-notices-to-2-phd-scholars",
+        "source_type": "secondary",
+        "publication": "Scroll, 13 Feb 2025",
+        "retrieved_on": "2026-10-14",
+        "originates_from": "The Indian Express, as cited by Scroll"
+      },
+      {
+        "url": "https://sabrangindia.in/crackdown-on-student-dissent-jamia-millia-islamias-heavy-handed-response-to-peaceful-protests",
+        "source_type": "secondary",
+        "publication": "SabrangIndia, 14 Feb 2025",
+        "retrieved_on": "2026-10-14"
+      }
+    ],
+    "notes": "Three outlets, read in full on 14 October 2026. The detention, the police statement that it followed a request from the university, and the reason for the protest agree across them. The Scroll piece attributes its account to The Indian Express, and the PTI piece is a separate wire report, so the first two are not one source repeated. No FIR, detention memo or university order is held. The administration's statement, as quoted by Scroll and SabrangIndia, says a handful of students vandalised property including the central canteen and carried 'objectionable contraband items'; the students deny the vandalism. These are claims by the university and the students and the archive records them without deciding between them.",
+    "added_on": "2026-10-14"
+  },
+  {
+    "id": "HIST-JMI25-002",
+    "jurisdiction": "delhi",
+    "category": "incident",
+    "incident": "INC-0087",
+    "claim": "The number detained, the time and the length of detention are reported differently. PTI and a police official say 'over 10 students' were removed at about 4 am. Scroll reports that students said over 20 were detained at around 5 am, and that they were released after about 12 hours. SabrangIndia says fourteen were detained, removed 'around 5:30 am' by multiple media reports, and held for nearly nine hours until 3:00 pm; it does not say where the figure of fourteen comes from. SabrangIndia also reports that the administration suspended six students hours before the detentions, without citing a document.",
+    "confidence": "DISPUTED",
+    "volatility": "medium",
+    "sources": [
+      {
+        "url": "https://news.careers360.com/security-stepped-up-at-jamia-10-students-detained-for-protest/amp",
+        "source_type": "secondary",
+        "publication": "Careers360, 13 Feb 2025",
+        "retrieved_on": "2026-10-14",
+        "originates_from": "PTI"
+      },
+      {
+        "url": "https://scroll.in/latest/1079125/jamia-students-detained-while-protesting-show-cause-notices-to-2-phd-scholars",
+        "source_type": "secondary",
+        "publication": "Scroll, 13 Feb 2025",
+        "retrieved_on": "2026-10-14",
+        "originates_from": "The Indian Express, as cited by Scroll"
+      },
+      {
+        "url": "https://sabrangindia.in/crackdown-on-student-dissent-jamia-millia-islamias-heavy-handed-response-to-peaceful-protests",
+        "source_type": "secondary",
+        "publication": "SabrangIndia, 14 Feb 2025",
+        "retrieved_on": "2026-10-14"
+      }
+    ],
+    "notes": "The archive records every figure and who gave it. Only a detention register or the Delhi Police's own record can settle the count. Students also alleged that police manhandled them, took their phones and did not let them contact their families, and the Deputy Commissioner of Police (Southeast) is reported by SabrangIndia to have said the detentions were lawful and to have denied misconduct. Those are allegations and a denial; none is established here.",
+    "added_on": "2026-10-14"
+  },
+  {
+    "id": "HIST-HPU14-001",
+    "jurisdiction": "himachal-pradesh",
+    "category": "incident",
+    "incident": "INC-0088",
+    "claim": "The Tribune, Shimla, 19 September 2014, headlined 'Students lathicharged, 220 rounded up', reported that police allegedly lathicharged students at Himachal Pradesh University protesting a fee hike and the delay in Students Central Association elections. It reports SFI secretary Piyush Sewal as saying 17 students, including six girls, were injured and over 400 were arrested and taken to an unknown destination. It reports DSP Shiv Chaudhry as denying a lathi charge, saying students throwing stones were 'forcibly removed' and that 220 were arrested in violation of Section 144 CrPC. It reports the CPI(M) Secretariat as condemning a midnight operation in which police 'lifted eight protesting girls from the HPU campus'.",
+    "confidence": "REPORTED",
+    "volatility": "low",
+    "sources": [
+      {
+        "url": "https://www.tribuneindia.com/2014/20140920/himachal.htm",
+        "source_type": "secondary",
+        "publication": "The Tribune, 20 Sept 2014 (dateline 19 Sept)",
+        "retrieved_on": "2026-10-14"
+      }
+    ],
+    "notes": "One newspaper, one day. The lathi charge, the injury count and the larger arrest figure are the SFI's allegations, and the police deny the lathi charge. The only figure the police themselves give is 220 arrested. The page also carries a second report on 21 September (https://www.tribuneindia.com/2014/20140921/himachal.htm) that has not been read in full, and no inquiry or court outcome was found. REPORTED is the right state: a second independent outlet would be needed for CORROBORATED.",
+    "added_on": "2026-10-14"
+  },
+  {
+    "id": "HIST-HPU14-002",
+    "jurisdiction": "himachal-pradesh",
+    "category": "incident",
+    "incident": "INC-0088",
+    "claim": "The Tribune, Shimla, 10 October 2014, reported that over 70 students, including 19 girls, were arrested at Himachal Pradesh University for defying prohibitory orders under Section 144 CrPC, and were booked under Sections 149, 151, 188 and 341 of the Indian Penal Code. Student leaders alleged that police roughed them up, and a Student Unity Forum spokesman called the arrests of peacefully demonstrating students 'undemocratic and uncalled for'.",
+    "confidence": "REPORTED",
+    "volatility": "low",
+    "sources": [
+      {
+        "url": "https://www.tribuneindia.com/2014/20141011/himachal.htm",
+        "source_type": "secondary",
+        "publication": "The Tribune, 11 Oct 2014 (dateline 10 Oct)",
+        "retrieved_on": "2026-10-14"
+      }
+    ],
+    "notes": "A second event, three weeks after the 19 September action at HIST-HPU14-001, and filed under the same incident because the protest and the university are the same. One outlet. The treatment allegation is the students' and no police response to it is recorded in the report as read.",
+    "added_on": "2026-10-14"
   }
 ]

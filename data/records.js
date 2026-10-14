@@ -2567,6 +2567,54 @@ WGO.incidents = [
     officeIds: [],
     orderTrail: { reached: null, rungs: {}, next: null },
     openedOn: '2026-10-12'
+  },
+  {
+    id: 'INC-0087',
+    isoDate: '2025-02-13',   /* first day; used only to order the lists */
+    slug: 'jamia-detentions-february-2025',
+    kind: 'DETENTIONS',
+    title: "Delhi Police detain Jamia students protesting disciplinary notices",
+    place: "Jamia Millia Islamia, New Delhi",
+    state: "Delhi",
+    coords: [28.562, 77.282],
+    coordsState: 'REPORTED',
+    incidentState: 'CORROBORATED',
+    dateState: 'CORROBORATED',
+    date: "13 February 2025",
+    summaryState: 'UNKNOWN',
+    summary: null,
+    forcesInvolved: {"state": "CORROBORATED", "items": [{"text": "Delhi Police, at the university administration's request (HIST-JMI25-001)", "state": "CORROBORATED"}]},
+    crowdControl  : {"state": "UNKNOWN", "note": "No use of force recorded beyond removal and detention; students allege manhandling (HIST-JMI25-002)."},
+    injuries      : {"state": "UNKNOWN", "note": "No injury count found."},
+    detentions    : {"state": "DISPUTED", "note": "Over 10, 14 and over 20 are all reported (HIST-JMI25-002)."},
+    firs          : {"state": "UNKNOWN", "note": "No FIR found."},
+    officeIds: [],
+    orderTrail: { reached: null, rungs: {}, next: null },
+    openedOn: '2026-10-14'
+  },
+  {
+    id: 'INC-0088',
+    isoDate: '2014-09-19',   /* first day; used only to order the lists */
+    slug: 'himachal-pradesh-university-september-2014',
+    kind: 'DETENTIONS',
+    title: "Police clear students at Himachal Pradesh University, Shimla",
+    place: "Himachal Pradesh University, Shimla",
+    state: "Himachal Pradesh",
+    coords: [31.093, 77.131],
+    coordsState: 'REPORTED',
+    incidentState: 'REPORTED',
+    dateState: 'REPORTED',
+    date: "19 September 2014",
+    summaryState: 'UNKNOWN',
+    summary: null,
+    forcesInvolved: {"state": "REPORTED", "items": [{"text": "Himachal Pradesh Police (HIST-HPU14-001)", "state": "REPORTED"}]},
+    crowdControl  : {"state": "DISPUTED", "items": [{"text": "A lathi charge is alleged by the SFI and denied by the police (HIST-HPU14-001)", "state": "DISPUTED"}]},
+    injuries      : {"state": "REPORTED", "note": "The SFI says 17 students were injured, six of them girls; the police figure is not given (HIST-HPU14-001)."},
+    detentions    : {"state": "DISPUTED", "note": "Police say 220 were arrested; the SFI says over 400. A further 70 were arrested on 10 October (HIST-HPU14-001, HIST-HPU14-002)."},
+    firs          : {"state": "REPORTED", "note": "Sections 149, 151, 188 and 341 IPC were reported for the October arrests (HIST-HPU14-002)."},
+    officeIds: [],
+    orderTrail: { reached: null, rungs: {}, next: null },
+    openedOn: '2026-10-14'
   }
 ];
 

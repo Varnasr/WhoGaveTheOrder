@@ -11555,6 +11555,61 @@ WGO.importedSources = [
     "originatesFrom": null
   },
   {
+    "id": "SRC-1080",
+    "name": "Careers360, 13 Feb 2025",
+    "kind": "SECONDARY",
+    "url": "https://news.careers360.com/security-stepped-up-at-jamia-10-students-detained-for-protest/amp",
+    "retrievedOn": "2026-10-14",
+    "archiveUrl": null,
+    "archivedOn": null,
+    "sha256": null,
+    "originatesFrom": "PTI"
+  },
+  {
+    "id": "SRC-1081",
+    "name": "Scroll, 13 Feb 2025",
+    "kind": "SECONDARY",
+    "url": "https://scroll.in/latest/1079125/jamia-students-detained-while-protesting-show-cause-notices-to-2-phd-scholars",
+    "retrievedOn": "2026-10-14",
+    "archiveUrl": null,
+    "archivedOn": null,
+    "sha256": null,
+    "originatesFrom": "The Indian Express, as cited by Scroll"
+  },
+  {
+    "id": "SRC-1082",
+    "name": "SabrangIndia, 14 Feb 2025",
+    "kind": "SECONDARY",
+    "url": "https://sabrangindia.in/crackdown-on-student-dissent-jamia-millia-islamias-heavy-handed-response-to-peaceful-protests",
+    "retrievedOn": "2026-10-14",
+    "archiveUrl": null,
+    "archivedOn": null,
+    "sha256": null,
+    "originatesFrom": null
+  },
+  {
+    "id": "SRC-1083",
+    "name": "The Tribune, 20 Sept 2014 (dateline 19 Sept)",
+    "kind": "SECONDARY",
+    "url": "https://www.tribuneindia.com/2014/20140920/himachal.htm",
+    "retrievedOn": "2026-10-14",
+    "archiveUrl": null,
+    "archivedOn": null,
+    "sha256": null,
+    "originatesFrom": null
+  },
+  {
+    "id": "SRC-1084",
+    "name": "The Tribune, 11 Oct 2014 (dateline 10 Oct)",
+    "kind": "SECONDARY",
+    "url": "https://www.tribuneindia.com/2014/20141011/himachal.htm",
+    "retrievedOn": "2026-10-14",
+    "archiveUrl": null,
+    "archivedOn": null,
+    "sha256": null,
+    "originatesFrom": null
+  },
+  {
     "id": "SRC-0056",
     "name": "India Code",
     "kind": "PRIMARY",
@@ -36697,6 +36752,82 @@ WGO.importedEvidence = [
     "relatedIds": [],
     "accessNote": "",
     "volatility": "high"
+  },
+  {
+    "id": "HIST-JMI25-001",
+    "title": "Early on Thursday 13 February 2025, Delhi Police removed and detained Jamia Millia Islamia students who had been protesting on campus since 10 February against ",
+    "type": "OTHER_DOCUMENT",
+    "verification": "CORROBORATED",
+    "incidentId": "INC-0087",
+    "dateOfItem": null,
+    "dateAdded": "2026-10-14",
+    "sourceIds": [
+      "SRC-1080",
+      "SRC-1081",
+      "SRC-1082"
+    ],
+    "origin": "",
+    "establishes": "Three outlets, read in full on 14 October 2026. The detention, the police statement that it followed a request from the university, and the reason for the protest agree across them. The Scroll piece attributes its account to The Indian Express, and the PTI piece is a separate wire report, so the first two are not one source repeated. No FIR, detention memo or university order is held. The administration's statement, as quoted by Scroll and SabrangIndia, says a handful of students vandalised property including the central canteen and carried 'objectionable contraband items'; the students deny the vandalism. These are claims by the university and the students and the archive records them without deciding between them.",
+    "doesNotEstablish": "",
+    "relatedIds": [],
+    "accessNote": "",
+    "volatility": "medium"
+  },
+  {
+    "id": "HIST-JMI25-002",
+    "title": "The number detained, the time and the length of detention are reported differently. PTI and a police official say 'over 10 students' were removed at about 4 am.",
+    "type": "OTHER_DOCUMENT",
+    "verification": "DISPUTED",
+    "incidentId": "INC-0087",
+    "dateOfItem": null,
+    "dateAdded": "2026-10-14",
+    "sourceIds": [
+      "SRC-1080",
+      "SRC-1081",
+      "SRC-1082"
+    ],
+    "origin": "",
+    "establishes": "The archive records every figure and who gave it. Only a detention register or the Delhi Police's own record can settle the count. Students also alleged that police manhandled them, took their phones and did not let them contact their families, and the Deputy Commissioner of Police (Southeast) is reported by SabrangIndia to have said the detentions were lawful and to have denied misconduct. Those are allegations and a denial; none is established here.",
+    "doesNotEstablish": "",
+    "relatedIds": [],
+    "accessNote": "",
+    "volatility": "medium"
+  },
+  {
+    "id": "HIST-HPU14-001",
+    "title": "The Tribune, Shimla, 19 September 2014, headlined 'Students lathicharged, 220 rounded up', reported that police allegedly lathicharged students at Himachal Prad",
+    "type": "OTHER_DOCUMENT",
+    "verification": "REPORTED",
+    "incidentId": "INC-0088",
+    "dateOfItem": null,
+    "dateAdded": "2026-10-14",
+    "sourceIds": [
+      "SRC-1083"
+    ],
+    "origin": "",
+    "establishes": "One newspaper, one day. The lathi charge, the injury count and the larger arrest figure are the SFI's allegations, and the police deny the lathi charge. The only figure the police themselves give is 220 arrested. The page also carries a second report on 21 September (https://www.tribuneindia.com/2014/20140921/himachal.htm) that has not been read in full, and no inquiry or court outcome was found. REPORTED is the right state: a second independent outlet would be needed for CORROBORATED.",
+    "doesNotEstablish": "",
+    "relatedIds": [],
+    "accessNote": "",
+    "volatility": "low"
+  },
+  {
+    "id": "HIST-HPU14-002",
+    "title": "The Tribune, Shimla, 10 October 2014, reported that over 70 students, including 19 girls, were arrested at Himachal Pradesh University for defying prohibitory o",
+    "type": "OTHER_DOCUMENT",
+    "verification": "REPORTED",
+    "incidentId": "INC-0088",
+    "dateOfItem": null,
+    "dateAdded": "2026-10-14",
+    "sourceIds": [
+      "SRC-1084"
+    ],
+    "origin": "",
+    "establishes": "A second event, three weeks after the 19 September action at HIST-HPU14-001, and filed under the same incident because the protest and the university are the same. One outlet. The treatment allegation is the students' and no police response to it is recorded in the report as read.",
+    "doesNotEstablish": "",
+    "relatedIds": [],
+    "accessNote": "",
+    "volatility": "low"
   }
 ];
 
@@ -41739,6 +41870,29 @@ WGO.importedIncidentFacts = {
     "state": [
       "CORROBORATED",
       "DISPUTED",
+      "REPORTED"
+    ]
+  },
+  "INC-0087": {
+    "dates": [],
+    "places": [],
+    "evidenceIds": [
+      "HIST-JMI25-001",
+      "HIST-JMI25-002"
+    ],
+    "state": [
+      "CORROBORATED",
+      "DISPUTED"
+    ]
+  },
+  "INC-0088": {
+    "dates": [],
+    "places": [],
+    "evidenceIds": [
+      "HIST-HPU14-001",
+      "HIST-HPU14-002"
+    ],
+    "state": [
       "REPORTED"
     ]
   }
