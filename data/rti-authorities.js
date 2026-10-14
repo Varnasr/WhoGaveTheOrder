@@ -51,13 +51,13 @@ WGO.rtiAuthorities = {
     address: 'Commissioner of Police office, New Building, D.N. Road, Mumbai 400001. Shivaji Park police station: Ram Niwas, Ram Maruti Road, Dadar (W), Mumbai 400028.',
     note: 'The 150-word guide means a Maharashtra application is better split into one subject per filing than sent as one long list.',
     checked: '10 October 2026',
-    caveat: 'Addresses were read from scanned pages. Check them against the PDFs.'
+    caveat: 'Addresses were read from scanned pages. Check them against the PDFs. The fee and word limit need a second check before you pay. Press reports of 2 July 2026 (National Herald, Moneylife, Free Press Journal) say the Maharashtra RTI Rules notified on 12 June 2026, with an application fee of Rs 30, appeal fees of Rs 50 and Rs 100 and a 150-word limit, were put in abeyance by the Chief Minister, and that the earlier rules stay in force. Those reports give Rs 10 as the application fee that continues. We found no report of a gazette of 7 July 2026 and no source for a Rs 20 first-appeal fee, so the appeal fee and the word limit are unconfirmed. Look at the fee the portal shows before you pay (checked against press reports 14 October 2026).'
   },
   'pune-police': {
     name: 'Pune City Police',
     route: 'state',
     portal: { label: 'rtionline.maharashtra.gov.in', url: 'https://rtionline.maharashtra.gov.in/' },
-    fee: 'As for Mumbai: Rs 10 under the Maharashtra RTI Rules 2026.',
+    fee: 'As for Mumbai: Rs 10 for an application, which press reports say continues because the 2026 rules are in abeyance. See the caveat on the Mumbai entry.',
     pio: 'Assistant Commissioner of Police (Administration), Commissioner\'s office. First appeal: DCP (Headquarters).',
     address: 'Commissioner of Police office, Sadhu Vaswani Chowk, Camp, Pune 411001.',
     note: 'Deccan Gymkhana police station is not on Pune Police\'s RTI disclosure list, so use the Commissioner\'s office row.',
@@ -77,7 +77,7 @@ WGO.rtiAuthorities = {
     name: 'Patna Police',
     route: 'state',
     portal: { label: 'jaankari.bihar.gov.in', url: 'https://jaankari.bihar.gov.in/' },
-    fee: 'Not verified. A search excerpt said Rs 10, but the page was not read.',
+    fee: 'Rs 10 for an application, according to several secondary sources (a state RTI guide and a 2026 how-to page). The Jaankari portal itself was not read, and sources disagree on the appeal fee (Rs 10 in one, Rs 50 in an older one), so confirm both on the portal before paying.',
     pio: 'DIG-cum-Senior Superintendent of Police, Patna. First appeal: Inspector General, Central Range, Patna. Separate PIOs exist for city and rural SPs, traffic and each station house officer.',
     address: 'Opposite Gate No. 5, Gandhi Maidan, Patna 800001 (read from a scanned Hindi letter of 29 July 2024; confirm against the PDF).',
     email: 'ssp-patna-bih@nic.in',
