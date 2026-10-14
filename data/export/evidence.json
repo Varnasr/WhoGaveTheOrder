@@ -20887,5 +20887,69 @@
     "sourceIds": [
       "SRC-1079"
     ]
+  },
+  {
+    "id": "HIST-JMI25-001",
+    "kind": "Evidence",
+    "title": "Early on Thursday 13 February 2025, Delhi Police removed and detained Jamia Millia Islamia students who had been protesting on campus since 10 February against ",
+    "state": "CORROBORATED",
+    "url": "https://www.whogavetheorder.in/evidence.html?id=HIST-JMI25-001",
+    "type": "OTHER_DOCUMENT",
+    "incidentId": "INC-0087",
+    "dateOfItem": null,
+    "establishes": "Three outlets, read in full on 14 October 2026. The detention, the police statement that it followed a request from the university, and the reason for the protest agree across them. The Scroll piece attributes its account to The Indian Express, and the PTI piece is a separate wire report, so the first two are not one source repeated. No FIR, detention memo or university order is held. The administration's statement, as quoted by Scroll and SabrangIndia, says a handful of students vandalised property including the central canteen and carried 'objectionable contraband items'; the students deny the vandalism. These are claims by the university and the students and the archive records them without deciding between them.",
+    "doesNotEstablish": null,
+    "sourceIds": [
+      "SRC-1080",
+      "SRC-1081",
+      "SRC-1082"
+    ]
+  },
+  {
+    "id": "HIST-JMI25-002",
+    "kind": "Evidence",
+    "title": "The number detained, the time and the length of detention are reported differently. PTI and a police official say 'over 10 students' were removed at about 4 am.",
+    "state": "DISPUTED",
+    "url": "https://www.whogavetheorder.in/evidence.html?id=HIST-JMI25-002",
+    "type": "OTHER_DOCUMENT",
+    "incidentId": "INC-0087",
+    "dateOfItem": null,
+    "establishes": "The archive records every figure and who gave it. Only a detention register or the Delhi Police's own record can settle the count. Students also alleged that police manhandled them, took their phones and did not let them contact their families, and the Deputy Commissioner of Police (Southeast) is reported by SabrangIndia to have said the detentions were lawful and to have denied misconduct. Those are allegations and a denial; none is established here.",
+    "doesNotEstablish": null,
+    "sourceIds": [
+      "SRC-1080",
+      "SRC-1081",
+      "SRC-1082"
+    ]
+  },
+  {
+    "id": "HIST-HPU14-001",
+    "kind": "Evidence",
+    "title": "The Tribune, Shimla, 19 September 2014, headlined 'Students lathicharged, 220 rounded up', reported that police allegedly lathicharged students at Himachal Prad",
+    "state": "REPORTED",
+    "url": "https://www.whogavetheorder.in/evidence.html?id=HIST-HPU14-001",
+    "type": "OTHER_DOCUMENT",
+    "incidentId": "INC-0088",
+    "dateOfItem": null,
+    "establishes": "One newspaper, one day. The lathi charge, the injury count and the larger arrest figure are the SFI's allegations, and the police deny the lathi charge. The only figure the police themselves give is 220 arrested. The page also carries a second report on 21 September (https://www.tribuneindia.com/2014/20140921/himachal.htm) that has not been read in full, and no inquiry or court outcome was found. REPORTED is the right state: a second independent outlet would be needed for CORROBORATED.",
+    "doesNotEstablish": null,
+    "sourceIds": [
+      "SRC-1083"
+    ]
+  },
+  {
+    "id": "HIST-HPU14-002",
+    "kind": "Evidence",
+    "title": "The Tribune, Shimla, 10 October 2014, reported that over 70 students, including 19 girls, were arrested at Himachal Pradesh University for defying prohibitory o",
+    "state": "REPORTED",
+    "url": "https://www.whogavetheorder.in/evidence.html?id=HIST-HPU14-002",
+    "type": "OTHER_DOCUMENT",
+    "incidentId": "INC-0088",
+    "dateOfItem": null,
+    "establishes": "A second event, three weeks after the 19 September action at HIST-HPU14-001, and filed under the same incident because the protest and the university are the same. One outlet. The treatment allegation is the students' and no police response to it is recorded in the report as read.",
+    "doesNotEstablish": null,
+    "sourceIds": [
+      "SRC-1084"
+    ]
   }
 ]

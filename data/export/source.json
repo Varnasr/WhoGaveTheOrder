@@ -11550,6 +11550,61 @@
     "archiveUrl": null
   },
   {
+    "id": "SRC-1080",
+    "kind": "Source",
+    "title": "Careers360, 13 Feb 2025",
+    "state": null,
+    "url": "https://news.careers360.com/security-stepped-up-at-jamia-10-students-detained-for-protest/amp",
+    "publisher": null,
+    "retrievedOn": "2026-10-14",
+    "sha256": null,
+    "archiveUrl": null
+  },
+  {
+    "id": "SRC-1081",
+    "kind": "Source",
+    "title": "Scroll, 13 Feb 2025",
+    "state": null,
+    "url": "https://scroll.in/latest/1079125/jamia-students-detained-while-protesting-show-cause-notices-to-2-phd-scholars",
+    "publisher": null,
+    "retrievedOn": "2026-10-14",
+    "sha256": null,
+    "archiveUrl": null
+  },
+  {
+    "id": "SRC-1082",
+    "kind": "Source",
+    "title": "SabrangIndia, 14 Feb 2025",
+    "state": null,
+    "url": "https://sabrangindia.in/crackdown-on-student-dissent-jamia-millia-islamias-heavy-handed-response-to-peaceful-protests",
+    "publisher": null,
+    "retrievedOn": "2026-10-14",
+    "sha256": null,
+    "archiveUrl": null
+  },
+  {
+    "id": "SRC-1083",
+    "kind": "Source",
+    "title": "The Tribune, 20 Sept 2014 (dateline 19 Sept)",
+    "state": null,
+    "url": "https://www.tribuneindia.com/2014/20140920/himachal.htm",
+    "publisher": null,
+    "retrievedOn": "2026-10-14",
+    "sha256": null,
+    "archiveUrl": null
+  },
+  {
+    "id": "SRC-1084",
+    "kind": "Source",
+    "title": "The Tribune, 11 Oct 2014 (dateline 10 Oct)",
+    "state": null,
+    "url": "https://www.tribuneindia.com/2014/20141011/himachal.htm",
+    "publisher": null,
+    "retrievedOn": "2026-10-14",
+    "sha256": null,
+    "archiveUrl": null
+  },
+  {
     "id": "SRC-0056",
     "kind": "Source",
     "title": "India Code",
