@@ -99,7 +99,7 @@
         "archived_on": "2026-08-19"
       }
     ],
-    "notes": "Source names Munger among protest locations but does not clearly attribute a lathi charge there. Do not promote without a second source.",
+    "notes": "Source names Munger among protest locations but does not clearly attribute a lathi charge there. Do not promote without a second source. SEARCHED 14 October 2026: two further searches for Munger-specific reporting on 23 July 2026 found only district lists that do not name Munger, and local-language outlets were not available to the search. Munger stays UNVERIFIED.",
     "volatility": "low"
   },
   {
@@ -36407,7 +36407,7 @@
         "sha256": "bde9e7fbebfbb41b14b5780afd7b32b0e9bf736ae4ff2d9a0d9a9bb7f17579cc"
       }
     ],
-    "notes": "Police-side accounts from one wire (PTI on Siasat). The Purnia permission and beating claim is Congress's allegation, with visuals said to be held by Congress and not seen here. Bhagalpur: 'Police had to resort to baton-charging to disperse the crowd.' The State's affidavit lists Bhagalpur, Chapra, Sitamarhi, Aurangabad, Katihar and Kishanganj as places of violence. None of these is opened as its own incident; each needs a second independent report.",
+    "notes": "Police-side accounts from one wire (PTI on Siasat). The Purnia permission and beating claim is Congress's allegation, with visuals said to be held by Congress and not seen here. Bhagalpur: 'Police had to resort to baton-charging to disperse the crowd.' The State's affidavit lists Bhagalpur, Chapra, Sitamarhi, Aurangabad, Katihar and Kishanganj as places of violence. None of these is opened as its own incident; each needs a second independent report. 14 October 2026: Bhagalpur now has its own record, HIST-BIHJ26-044, with a second report. The other districts named here still rest on one report each.",
     "volatility": "medium",
     "incident": "INC-0002"
   },
@@ -36911,6 +36911,32 @@
       }
     ],
     "notes": "A second event, three weeks after the 19 September action at HIST-HPU14-001, and filed under the same incident because the protest and the university are the same. One outlet. The treatment allegation is the students' and no police response to it is recorded in the report as read.",
+    "added_on": "2026-10-14"
+  },
+  {
+    "id": "HIST-BIHJ26-044",
+    "jurisdiction": "bihar",
+    "category": "incident",
+    "incident": "INC-0089",
+    "claim": "On Saturday 25 July 2026, during the statewide bandh called by left student organisations, a protest march at Bhagalpur that began at Station Chowk turned violent near the Tilkamanjhi crossing, and police used a baton charge to disperse the crowd. PTI reports that protesters pelted police with bricks and blocked roads, that the Bhagalpur District Magistrate Alankrita Pandey said the situation was under control and several protesters had been detained, and that SSP Pramod Kumar Yadav said students pelted stones and vandalised two police vehicles, that no one was injured and that some people identified from CCTV footage had been detained. National Herald (NH Digital) reports, citing police, that protesters blocked roads, pelted stones and overturned a police vehicle, prompting the baton charge, and that the SSP said CCTV footage was being examined to identify those responsible.",
+    "confidence": "CORROBORATED",
+    "volatility": "medium",
+    "sources": [
+      {
+        "url": "https://www.siasat.com/bihar-police-use-tear-gas-baton-charge-as-neet-bandh-turns-violent-3513523/",
+        "source_type": "secondary",
+        "publication": "Siasat Daily, 25 Jul 2026",
+        "retrieved_on": "2026-10-14",
+        "originates_from": "PTI"
+      },
+      {
+        "url": "https://www.nationalheraldindia.com/national/bihar-bandh-over-exam-turns-violent-as-students-clash-with-police-across-districts",
+        "source_type": "secondary",
+        "publication": "National Herald (NH Digital), 25 Jul 2026",
+        "retrieved_on": "2026-10-14"
+      }
+    ],
+    "notes": "Both accounts were read in full on 14 October 2026. They agree on the march, the Tilkamanjhi crossing, the baton charge and the DM and SSP as sources. They differ on details: bricks (PTI) or stones (National Herald), two police vehicles vandalised (PTI) or one overturned (National Herald), and PTI carries the SSP's statement that no one was injured and that some people were detained. National Herald credits no agency, so the archive cannot show that its account does not also come from a police briefing that PTI relied on. The words differ enough, and the time of publication is earlier (17:33 against 22:59), that the archive treats them as two reports. Both are police-side. No account from protesters, no injury count other than the SSP's statement, and no detention figure was found. The State of Bihar's affidavit also lists Bhagalpur among places of violence (HIST-BIHJ26-026).",
     "added_on": "2026-10-14"
   }
 ]

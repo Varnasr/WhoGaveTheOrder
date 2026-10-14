@@ -2615,6 +2615,30 @@ WGO.incidents = [
     officeIds: [],
     orderTrail: { reached: null, rungs: {}, next: null },
     openedOn: '2026-10-14'
+  },
+  {
+    id: 'INC-0089',
+    isoDate: '2026-07-25',   /* first day; used only to order the lists */
+    slug: 'bhagalpur-bandh-july-2026',
+    kind: 'FORCE',
+    title: "Police baton-charge a bandh march at Bhagalpur",
+    place: "Tilkamanjhi crossing, Bhagalpur",
+    state: "Bihar",
+    coords: [25.244, 86.972],
+    coordsState: 'REPORTED',
+    incidentState: 'CORROBORATED',
+    dateState: 'CORROBORATED',
+    date: "25 July 2026",
+    summaryState: 'UNKNOWN',
+    summary: null,
+    forcesInvolved: {"state": "CORROBORATED", "items": [{"text": "Bhagalpur police (HIST-BIHJ26-044)", "state": "CORROBORATED"}]},
+    crowdControl  : {"state": "CORROBORATED", "items": [{"text": "Baton charge on a march near the Tilkamanjhi crossing (HIST-BIHJ26-044)", "state": "CORROBORATED"}]},
+    injuries      : {"state": "REPORTED", "note": "The SSP is reported to have said no one was injured (HIST-BIHJ26-044). No other injury figure found."},
+    detentions    : {"state": "REPORTED", "note": "The DM and SSP are reported to have said several people were detained, with no number given (HIST-BIHJ26-044)."},
+    firs          : {"state": "UNKNOWN", "note": "No FIR found."},
+    officeIds: [],
+    orderTrail: { reached: null, rungs: {}, next: null },
+    openedOn: '2026-10-14'
   }
 ];
 

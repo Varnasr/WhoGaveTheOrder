@@ -1145,6 +1145,19 @@
   },
   {
     "v": 2,
+    "kind": "incident",
+    "name": "incident-bhagalpur-bandh-july-2026",
+    "file": "og/incident-bhagalpur-bandh-july-2026.png",
+    "title": "Police baton-charge a bandh march at Bhagalpur",
+    "line": "25 July 2026  |  Tilkamanjhi crossing, Bhagalpur",
+    "state": "CORROBORATED",
+    "stateLabel": "corroborated",
+    "order": "No order has been found",
+    "count": 1,
+    "hash": "fbcaa3cb6e9928b6"
+  },
+  {
+    "v": 2,
     "kind": "page",
     "name": "about",
     "file": "og/about.png",

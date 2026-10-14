@@ -11621,6 +11621,17 @@ WGO.importedSources = [
     "originatesFrom": null
   },
   {
+    "id": "SRC-1086",
+    "name": "National Herald (NH Digital), 25 Jul 2026",
+    "kind": "SECONDARY",
+    "url": "https://www.nationalheraldindia.com/national/bihar-bandh-over-exam-turns-violent-as-students-clash-with-police-across-districts",
+    "retrievedOn": "2026-10-14",
+    "archiveUrl": null,
+    "archivedOn": null,
+    "sha256": null,
+    "originatesFrom": null
+  },
+  {
     "id": "SRC-0056",
     "name": "India Code",
     "kind": "PRIMARY",
@@ -12027,7 +12038,7 @@ WGO.importedEvidence = [
       "SRC-0005"
     ],
     "origin": "",
-    "establishes": "Source names Munger among protest locations but does not clearly attribute a lathi charge there. Do not promote without a second source.",
+    "establishes": "Source names Munger among protest locations but does not clearly attribute a lathi charge there. Do not promote without a second source. SEARCHED 14 October 2026: two further searches for Munger-specific reporting on 23 July 2026 found only district lists that do not name Munger, and local-language outlets were not available to the search. Munger stays UNVERIFIED.",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -36389,7 +36400,7 @@ WGO.importedEvidence = [
       "SRC-1069"
     ],
     "origin": "",
-    "establishes": "Police-side accounts from one wire (PTI on Siasat). The Purnia permission and beating claim is Congress's allegation, with visuals said to be held by Congress and not seen here. Bhagalpur: 'Police had to resort to baton-charging to disperse the crowd.' The State's affidavit lists Bhagalpur, Chapra, Sitamarhi, Aurangabad, Katihar and Kishanganj as places of violence. None of these is opened as its own incident; each needs a second independent report.",
+    "establishes": "Police-side accounts from one wire (PTI on Siasat). The Purnia permission and beating claim is Congress's allegation, with visuals said to be held by Congress and not seen here. Bhagalpur: 'Police had to resort to baton-charging to disperse the crowd.' The State's affidavit lists Bhagalpur, Chapra, Sitamarhi, Aurangabad, Katihar and Kishanganj as places of violence. None of these is opened as its own incident; each needs a second independent report. 14 October 2026: Bhagalpur now has its own record, HIST-BIHJ26-044, with a second report. The other districts named here still rest on one report each.",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -36840,6 +36851,25 @@ WGO.importedEvidence = [
     "relatedIds": [],
     "accessNote": "",
     "volatility": "low"
+  },
+  {
+    "id": "HIST-BIHJ26-044",
+    "title": "On Saturday 25 July 2026, during the statewide bandh called by left student organisations, a protest march at Bhagalpur that began at Station Chowk turned viole",
+    "type": "OTHER_DOCUMENT",
+    "verification": "CORROBORATED",
+    "incidentId": "INC-0089",
+    "dateOfItem": null,
+    "dateAdded": "2026-10-14",
+    "sourceIds": [
+      "SRC-1058",
+      "SRC-1086"
+    ],
+    "origin": "",
+    "establishes": "Both accounts were read in full on 14 October 2026. They agree on the march, the Tilkamanjhi crossing, the baton charge and the DM and SSP as sources. They differ on details: bricks (PTI) or stones (National Herald), two police vehicles vandalised (PTI) or one overturned (National Herald), and PTI carries the SSP's statement that no one was injured and that some people were detained. National Herald credits no agency, so the archive cannot show that its account does not also come from a police briefing that PTI relied on. The words differ enough, and the time of publication is earlier (17:33 against 22:59), that the archive treats them as two reports. Both are police-side. No account from protesters, no injury count other than the SSP's statement, and no detention figure was found. The State of Bihar's affidavit also lists Bhagalpur among places of violence (HIST-BIHJ26-026).",
+    "doesNotEstablish": "",
+    "relatedIds": [],
+    "accessNote": "",
+    "volatility": "medium"
   }
 ];
 
@@ -41907,6 +41937,16 @@ WGO.importedIncidentFacts = {
     ],
     "state": [
       "REPORTED"
+    ]
+  },
+  "INC-0089": {
+    "dates": [],
+    "places": [],
+    "evidenceIds": [
+      "HIST-BIHJ26-044"
+    ],
+    "state": [
+      "CORROBORATED"
     ]
   }
 };
