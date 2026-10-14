@@ -5,6 +5,88 @@ window.WGO = window.WGO || {};
 
 WGO.changes = [
   {
+    "commit": "08424b7b7e",
+    "date": "2026-10-14T13:50:56Z",
+    "subject": "Next round: Youth Congress plea on 12 October, NHRC journalists notice traced to the NHRC",
+    "added": [
+      {
+        "id": "PROC-DEL-006",
+        "kind": "Evidence",
+        "title": "On Monday 12 October 2026 the Delhi High Court deferred the Indian Youth Congress's plea against the Delhi Police order of 1 October 2026 refusing permission to",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=PROC-DEL-006"
+      },
+      {
+        "id": "SRC-1090",
+        "kind": "Source",
+        "title": "National Human Rights Commission, press release, New Delhi, 8 October 2026",
+        "state": null,
+        "url": "https://nhrc.nic.in/media/press-release/nhrc,-india-takes-suo-motu-cognizance-of-the-reported-sexual-harassment-of-three-journalists-by-delhi-police-personnel-during-a-protest-at-jantar-mantar,-new-delhi-on-3rd-october-2026"
+      },
+      {
+        "id": "SRC-1091",
+        "kind": "Source",
+        "title": "LawChakra, 12 Oct 2026",
+        "state": null,
+        "url": "https://lawchakra.in/high-court/delhi-high-court/delhi-hc-youth-congress-jantar-mantar-plea-tomorrow/"
+      },
+      {
+        "id": "SRC-1092",
+        "kind": "Source",
+        "title": "Asianet News Newsable, 12 Oct 2026",
+        "state": null,
+        "url": "https://newsable.asianetnews.com/india/delhi-hc-defers-hearing-on-iyc-plea-against-protest-denial-by-police-articleshow-g0g4wog"
+      }
+    ],
+    "removed": [],
+    "changed": [
+      {
+        "id": "PROC-DEL-005",
+        "kind": "Evidence",
+        "title": "Bar and Bench reports that the president of the Indian Youth Congress moved the Delhi High Court on 3 October 2026 against Delhi Police's order of 1 October 202",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=PROC-DEL-005",
+        "fields": [
+          {
+            "field": "establishes",
+            "from": "Two outlets with different origins report the petition and the order of 1 October. The case number is not reported in either. No order on the merits exists yet. The hearing of 12 October is a date to check. Retrieving the petition and th…",
+            "to": "Two outlets with different origins report the petition and the order of 1 October. The case number is not reported in either. No order on the merits exists yet. The hearing of 12 October is a date to check. Retrieving the petition and th…"
+          }
+        ]
+      },
+      {
+        "id": "HIST-DEV12-001",
+        "kind": "Evidence",
+        "title": "The National Human Rights Commission's press release of 8 October 2026 states that it has taken suo motu cognisance of a media report that three women journalis",
+        "state": "VERIFIED",
+        "url": "evidence.html?id=HIST-DEV12-001",
+        "fields": [
+          {
+            "field": "state",
+            "from": "REPORTED",
+            "to": "VERIFIED"
+          },
+          {
+            "field": "title",
+            "from": "On 8 October 2026 the National Human Rights Commission took suo motu cognisance of a media report of 5 October alleging sexual harassment of three women journal",
+            "to": "The National Human Rights Commission's press release of 8 October 2026 states that it has taken suo motu cognisance of a media report that three women journalis"
+          },
+          {
+            "field": "establishes",
+            "from": "Both outlets report the notice; the NHRC page itself was not read. The notice names no officer. The report is due about 22 October 2026. The people harassed were journalists, so this belongs to the 3 October protest record as the first o…",
+            "to": "Both outlets report the notice; the NHRC page itself was not read. The notice names no officer. The report is due about 22 October 2026. The people harassed were journalists, so this belongs to the 3 October protest record as the first o…"
+          },
+          {
+            "field": "sourceIds",
+            "from": "SRC-1071, SRC-1072",
+            "to": "SRC-1090, SRC-1071, SRC-1072"
+          }
+        ]
+      }
+    ],
+    "summary": "4 records added · 1 state changed · 1 record edited"
+  },
+  {
     "commit": "1b3ff4d3f8",
     "date": "2026-10-14T13:47:31Z",
     "subject": "Next round: LPU court proceedings, Manipur arrest figure, 9 October search note",

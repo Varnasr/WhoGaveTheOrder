@@ -3,10 +3,19 @@
   <title>WhoGaveTheOrder.in: changes to the record</title>
   <subtitle>Every record that has been added, moved between states, or edited.</subtitle>
   <id>tag:whogavetheorder.in,2026:feed</id>
-  <updated>2026-10-14T13:47:31Z</updated>
+  <updated>2026-10-14T13:50:56Z</updated>
   <link href="https://www.whogavetheorder.in/"/>
   <link rel="self" href="https://www.whogavetheorder.in/feed.xml"/>
   <rights>Reuse with attribution</rights>
+  <entry>
+    <title>4 records added · 1 state changed · 1 record edited</title>
+    <id>tag:whogavetheorder.in,2026:change/08424b7b7e</id>
+    <updated>2026-10-14T13:50:56Z</updated>
+    <link href="https://www.whogavetheorder.in/changes.html#08424b7b7e"/>
+    <content type="html">
+      &lt;p&gt;Next round: Youth Congress plea on 12 October, NHRC journalists notice traced to the NHRC&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Added Evidence PROC-DEL-006: On Monday 12 October 2026 the Delhi High Court deferred the Indian Youth Congress&apos;s plea against the Delhi Police order of 1 October 2026 refusing permission to&lt;/li&gt;&lt;li&gt;Added Source SRC-1090: National Human Rights Commission, press release, New Delhi, 8 October 2026&lt;/li&gt;&lt;li&gt;Added Source SRC-1091: LawChakra, 12 Oct 2026&lt;/li&gt;&lt;li&gt;Added Source SRC-1092: Asianet News Newsable, 12 Oct 2026&lt;/li&gt;&lt;li&gt;Edited Evidence PROC-DEL-005: Bar and Bench reports that the president of the Indian Youth Congress moved the Delhi High Court on 3 October 2026 against Delhi Police&apos;s order of 1 October 202&lt;/li&gt;&lt;li&gt;Evidence HIST-DEV12-001 moved from REPORTED to VERIFIED: The National Human Rights Commission&apos;s press release of 8 October 2026 states that it has taken suo motu cognisance of a media report that three women journalis&lt;/li&gt;&lt;/ul&gt;
+    </content>
+  </entry>
   <entry>
     <title>6 records added · 1 record edited</title>
     <id>tag:whogavetheorder.in,2026:change/1b3ff4d3f8</id>
@@ -446,15 +455,6 @@
     <link href="https://www.whogavetheorder.in/changes.html#8548cee8e6"/>
     <content type="html">
       &lt;p&gt;Sweep log and archived copies for 2026-09-06 [skip ci]&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Edited Source SRC-0019: High Court of Delhi&lt;/li&gt;&lt;li&gt;Edited Source SRC-0026: Supreme Court Observer&lt;/li&gt;&lt;li&gt;Edited Source SRC-0027: LiveLaw&lt;/li&gt;&lt;/ul&gt;
-    </content>
-  </entry>
-  <entry>
-    <title>7 records edited</title>
-    <id>tag:whogavetheorder.in,2026:change/d1a5027846</id>
-    <updated>2026-09-05T07:04:17Z</updated>
-    <link href="https://www.whogavetheorder.in/changes.html#d1a5027846"/>
-    <content type="html">
-      &lt;p&gt;Sweep log and archived copies for 2026-09-05 [skip ci]&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Edited Source SRC-0021: Oneindia&lt;/li&gt;&lt;li&gt;Edited Source SRC-0022: NewsX&lt;/li&gt;&lt;li&gt;Edited Source SRC-0023: Business Standard&lt;/li&gt;&lt;li&gt;Edited Source SRC-0024: LawChakra&lt;/li&gt;&lt;li&gt;Edited Source SRC-0075: The Polis Project&lt;/li&gt;&lt;li&gt;Edited Source SRC-0076: Wikipedia&lt;/li&gt;&lt;li&gt;Edited Source SRC-0077: Common Cause and CSDS&lt;/li&gt;&lt;/ul&gt;
     </content>
   </entry>
 </feed>

@@ -11473,6 +11473,17 @@
     "archiveUrl": null
   },
   {
+    "id": "SRC-1090",
+    "kind": "Source",
+    "title": "National Human Rights Commission, press release, New Delhi, 8 October 2026",
+    "state": null,
+    "url": "https://nhrc.nic.in/media/press-release/nhrc,-india-takes-suo-motu-cognizance-of-the-reported-sexual-harassment-of-three-journalists-by-delhi-police-personnel-during-a-protest-at-jantar-mantar,-new-delhi-on-3rd-october-2026",
+    "publisher": null,
+    "retrievedOn": "2026-10-14",
+    "sha256": "492b912c8ba21d673c08d2b6d6d540971dbffab1b8f76f4e07b5f347e16bc873",
+    "archiveUrl": null
+  },
+  {
     "id": "SRC-1071",
     "kind": "Source",
     "title": "DT Next",
@@ -11654,6 +11665,28 @@
     "title": "EastMojo (Vangamla Salle K S), 12 Sept 2024",
     "state": null,
     "url": "https://eastmojo.com/manipur/2024/09/12/manipur-police-arrest-33-including-7-juveniles-amid-violent-protests/",
+    "publisher": null,
+    "retrievedOn": "2026-10-14",
+    "sha256": null,
+    "archiveUrl": null
+  },
+  {
+    "id": "SRC-1091",
+    "kind": "Source",
+    "title": "LawChakra, 12 Oct 2026",
+    "state": null,
+    "url": "https://lawchakra.in/high-court/delhi-high-court/delhi-hc-youth-congress-jantar-mantar-plea-tomorrow/",
+    "publisher": null,
+    "retrievedOn": "2026-10-14",
+    "sha256": null,
+    "archiveUrl": null
+  },
+  {
+    "id": "SRC-1092",
+    "kind": "Source",
+    "title": "Asianet News Newsable, 12 Oct 2026",
+    "state": null,
+    "url": "https://newsable.asianetnews.com/india/delhi-hc-defers-hearing-on-iyc-plea-against-protest-denial-by-police-articleshow-g0g4wog",
     "publisher": null,
     "retrievedOn": "2026-10-14",
     "sha256": null,
