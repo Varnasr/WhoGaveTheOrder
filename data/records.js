@@ -296,8 +296,8 @@ WGO.updates = [
   },
   {
     date: '2026-09-23',
-    title: 'The Supreme Court kept the committee and opened a confidential route for witnesses',
-    body: 'On 10 September the Chief Justice\'s bench refused to reconstitute the High Powered Enquiry Committee, directed that an online portal be created for vulnerable witnesses to submit statements and documents confidentially, and appointed two amici curiae as intermediaries. That closes a thread this archive left open twice: the 10 September listing and the plea against the committee\'s composition. Whether the portal now exists, and where, is not established, and this archive will not send anyone to a portal it has not found.',
+    title: 'The Supreme Court kept the committee and said a confidential portal may be created for witnesses',
+    body: 'On 10 September the Chief Justice\'s bench declined to reconstitute the High Powered Enquiry Committee. The order says that "a separate online portal may be created" for vulnerable witnesses to submit documents and evidence, requests the Committee to keep their identities confidential, and appoints two amici curiae to assist the Court. That closes a thread this archive left open twice: the 10 September listing and the plea against the committee\'s composition. Corrected 14 October 2026, when the order was read: this entry first said the bench "directed" that a portal be created and called the amici intermediaries. The order uses the words "may be created" and "request", and describes the amici as a representative of the Committee and an arbiter between the parties. The Committee\'s own website now lists a confidential route, and we have not tested it.',
     recordId: 'PROC-SC-011'
   },
   {
