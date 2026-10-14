@@ -30923,7 +30923,7 @@
         "sha256": "6baee337db2f81d6f7601ded2af05da9d833dc4e1ddfd17759b0dab52ceebf67"
       }
     ],
-    "notes": "Only the headline of the fetched page was readable; body text was not available, so the number, dates and whether they were students are not established. Do not use as a detention count.",
+    "notes": "Only the headline of the fetched page was readable; body text was not available, so the number, dates and whether they were students are not established. Do not use as a detention count. 14 October 2026: EastMojo of the same date gives the police figure as 33 including seven juveniles (HIST-MANI24-013). The Deccan Herald page is still unreadable (HTTP 403), so the 40 stays unverified and the gap between 33 and 40 is open.",
     "volatility": "low",
     "incident": "INC-0068"
   },
@@ -36951,6 +36951,69 @@
       }
     ],
     "notes": "Both accounts were read in full on 14 October 2026. They agree on the march, the Tilkamanjhi crossing, the baton charge and the DM and SSP as sources. They differ on details: bricks (PTI) or stones (National Herald), two police vehicles vandalised (PTI) or one overturned (National Herald), and PTI carries the SSP's statement that no one was injured and that some people were detained. National Herald credits no agency, so the archive cannot show that its account does not also come from a police briefing that PTI relied on. The words differ enough, and the time of publication is earlier (17:33 against 22:59), that the archive treats them as two reports. Both are police-side. No account from protesters, no injury count other than the SSP's statement, and no detention figure was found. The State of Bihar's affidavit also lists Bhagalpur among places of violence (HIST-BIHJ26-026).",
+    "added_on": "2026-10-14"
+  },
+  {
+    "id": "HIST-LPU26-014",
+    "jurisdiction": "punjab",
+    "category": "legal_proceeding",
+    "incident": "INC-0076",
+    "claim": "A public interest petition, Ravi Raj v. Union of India and Ors., filed by an LPU student, asks the Punjab and Haryana High Court to transfer the investigation into the violence of 27 September 2026 at Lovely Professional University to the CBI under the Court's supervision. At a hearing reported on 30 September 2026 before Chief Justice Ashwani Kumar Mishra and Justice Rohit Kapoor, the Court sought a detailed report on the status of the investigation and the action taken by police, and directed the Punjab Police to inform it whether any incident of rape took place at the university before the violence. The Additional Advocate General told the Court that FIRs have been registered and the investigation is going on.",
+    "confidence": "CORROBORATED",
+    "volatility": "high",
+    "sources": [
+      {
+        "url": "https://www.livelaw.in/high-court/punjab-and-haryana-high-court/punjab-haryana-high-court-seeks-status-report-from-punjab-government-lpu-violence-552419",
+        "source_type": "secondary",
+        "publication": "LiveLaw, 30 Sept 2026",
+        "retrieved_on": "2026-10-14"
+      },
+      {
+        "url": "https://www.barandbench.com/news/litigation/punjab-haryana-high-court-asks-police-to-clarify-whether-rape-took-place-at-lovely-professional-university",
+        "source_type": "secondary",
+        "publication": "Bar & Bench, 30 Sept 2026",
+        "retrieved_on": "2026-10-14"
+      }
+    ],
+    "notes": "Both articles were read on 14 October 2026; LiveLaw's is partly paywalled. Neither states the hearing date (Bar & Bench says 'on Wednesday'), and neither gives the next date. Bar & Bench tags only Justice Mishra while LiveLaw names the two-judge bench, so the archive takes the bench from LiveLaw. The rape claim came from an unverified online post (HIST-LPU26-002); the Court asked the police to verify it and made no finding. No order copy is held.",
+    "added_on": "2026-10-14"
+  },
+  {
+    "id": "HIST-LPU26-015",
+    "jurisdiction": "punjab",
+    "category": "legal_proceeding",
+    "incident": "INC-0076",
+    "claim": "Bar & Bench reported on 12 October 2026 that, 'on Monday', the Punjab and Haryana High Court pulled up the Punjab Police over lapses in its ongoing investigation into the violence at Lovely Professional University, in Ravi Raj v. Union of India and Ors.",
+    "confidence": "REPORTED",
+    "volatility": "high",
+    "sources": [
+      {
+        "url": "https://www.barandbench.com/news/punjab-haryana-high-court-flags-gaps-in-police-probe-into-lpu-violence",
+        "source_type": "secondary",
+        "publication": "Bar & Bench, 12 Oct 2026",
+        "retrieved_on": "2026-10-14"
+      }
+    ],
+    "notes": "The page loaded with its body incomplete, so the specific lapses, any directions and the next date are not known. 'Monday' would be 12 October 2026 but the article does not say so. The 8 October listing mentioned in earlier reporting could not be confirmed; its outcome is not held. The claim is kept to the single sentence the archive could read.",
+    "added_on": "2026-10-14"
+  },
+  {
+    "id": "HIST-MANI24-013",
+    "jurisdiction": "manipur",
+    "category": "incident",
+    "incident": "INC-0068",
+    "claim": "EastMojo reported from Imphal on 12 September 2024 that Manipur Police said they had arrested 33 people, including seven juveniles, in connection with the recent violent protests across the Imphal Valley, following investigations; that legal proceedings would be initiated against them; that authorities said the incidents were allegedly instigated by unknown individuals; and that a curfew and a five-day internet blackout were in force in the valley districts. The same article reports clashes in which over 70 students and 10 police personnel were injured, without tying that count to the arrests.",
+    "confidence": "REPORTED",
+    "volatility": "low",
+    "sources": [
+      {
+        "url": "https://eastmojo.com/manipur/2024/09/12/manipur-police-arrest-33-including-7-juveniles-amid-violent-protests/",
+        "source_type": "secondary",
+        "publication": "EastMojo (Vangamla Salle K S), 12 Sept 2024",
+        "retrieved_on": "2026-10-14"
+      }
+    ],
+    "notes": "Read in full on 14 October 2026. This is a police-given figure through one outlet. A Deccan Herald headline of the same date says 40 protesters were 'nabbed' (HIST-MANI24-010); the body of that article could not be read (HTTP 403), so the archive cannot tell whether 40 counts seven juveniles in addition to 33 adults or is a different tally. Other search summaries describe '33 arrested and seven juveniles detained', which would total 40, but EastMojo's wording is '33, including seven juveniles'. The two readings are not reconciled.",
     "added_on": "2026-10-14"
   }
 ]

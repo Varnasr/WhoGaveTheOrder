@@ -11632,6 +11632,39 @@ WGO.importedSources = [
     "originatesFrom": null
   },
   {
+    "id": "SRC-1087",
+    "name": "Bar & Bench, 30 Sept 2026",
+    "kind": "SECONDARY",
+    "url": "https://www.barandbench.com/news/litigation/punjab-haryana-high-court-asks-police-to-clarify-whether-rape-took-place-at-lovely-professional-university",
+    "retrievedOn": "2026-10-14",
+    "archiveUrl": null,
+    "archivedOn": null,
+    "sha256": null,
+    "originatesFrom": null
+  },
+  {
+    "id": "SRC-1088",
+    "name": "Bar & Bench, 12 Oct 2026",
+    "kind": "SECONDARY",
+    "url": "https://www.barandbench.com/news/punjab-haryana-high-court-flags-gaps-in-police-probe-into-lpu-violence",
+    "retrievedOn": "2026-10-14",
+    "archiveUrl": null,
+    "archivedOn": null,
+    "sha256": null,
+    "originatesFrom": null
+  },
+  {
+    "id": "SRC-1089",
+    "name": "EastMojo (Vangamla Salle K S), 12 Sept 2024",
+    "kind": "SECONDARY",
+    "url": "https://eastmojo.com/manipur/2024/09/12/manipur-police-arrest-33-including-7-juveniles-amid-violent-protests/",
+    "retrievedOn": "2026-10-14",
+    "archiveUrl": null,
+    "archivedOn": null,
+    "sha256": null,
+    "originatesFrom": null
+  },
+  {
     "id": "SRC-0056",
     "name": "India Code",
     "kind": "PRIMARY",
@@ -32581,7 +32614,7 @@ WGO.importedEvidence = [
       "SRC-0901"
     ],
     "origin": "",
-    "establishes": "Only the headline of the fetched page was readable; body text was not available, so the number, dates and whether they were students are not established. Do not use as a detention count.",
+    "establishes": "Only the headline of the fetched page was readable; body text was not available, so the number, dates and whether they were students are not established. Do not use as a detention count. 14 October 2026: EastMojo of the same date gives the police figure as 33 including seven juveniles (HIST-MANI24-013). The Deccan Herald page is still unreadable (HTTP 403), so the 40 stays unverified and the gap between 33 and 40 is open.",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -36870,6 +36903,61 @@ WGO.importedEvidence = [
     "relatedIds": [],
     "accessNote": "",
     "volatility": "medium"
+  },
+  {
+    "id": "HIST-LPU26-014",
+    "title": "A public interest petition, Ravi Raj v. Union of India and Ors., filed by an LPU student, asks the Punjab and Haryana High Court to transfer the investigation i",
+    "type": "COURT_DOCUMENT",
+    "verification": "CORROBORATED",
+    "incidentId": "INC-0076",
+    "dateOfItem": null,
+    "dateAdded": "2026-10-14",
+    "sourceIds": [
+      "SRC-1075",
+      "SRC-1087"
+    ],
+    "origin": "",
+    "establishes": "Both articles were read on 14 October 2026; LiveLaw's is partly paywalled. Neither states the hearing date (Bar & Bench says 'on Wednesday'), and neither gives the next date. Bar & Bench tags only Justice Mishra while LiveLaw names the two-judge bench, so the archive takes the bench from LiveLaw. The rape claim came from an unverified online post (HIST-LPU26-002); the Court asked the police to verify it and made no finding. No order copy is held.",
+    "doesNotEstablish": "",
+    "relatedIds": [],
+    "accessNote": "",
+    "volatility": "high"
+  },
+  {
+    "id": "HIST-LPU26-015",
+    "title": "Bar & Bench reported on 12 October 2026 that, 'on Monday', the Punjab and Haryana High Court pulled up the Punjab Police over lapses in its ongoing investigatio",
+    "type": "COURT_DOCUMENT",
+    "verification": "REPORTED",
+    "incidentId": "INC-0076",
+    "dateOfItem": null,
+    "dateAdded": "2026-10-14",
+    "sourceIds": [
+      "SRC-1088"
+    ],
+    "origin": "",
+    "establishes": "The page loaded with its body incomplete, so the specific lapses, any directions and the next date are not known. 'Monday' would be 12 October 2026 but the article does not say so. The 8 October listing mentioned in earlier reporting could not be confirmed; its outcome is not held. The claim is kept to the single sentence the archive could read.",
+    "doesNotEstablish": "",
+    "relatedIds": [],
+    "accessNote": "",
+    "volatility": "high"
+  },
+  {
+    "id": "HIST-MANI24-013",
+    "title": "EastMojo reported from Imphal on 12 September 2024 that Manipur Police said they had arrested 33 people, including seven juveniles, in connection with the recen",
+    "type": "OTHER_DOCUMENT",
+    "verification": "REPORTED",
+    "incidentId": "INC-0068",
+    "dateOfItem": null,
+    "dateAdded": "2026-10-14",
+    "sourceIds": [
+      "SRC-1089"
+    ],
+    "origin": "",
+    "establishes": "Read in full on 14 October 2026. This is a police-given figure through one outlet. A Deccan Herald headline of the same date says 40 protesters were 'nabbed' (HIST-MANI24-010); the body of that article could not be read (HTTP 403), so the archive cannot tell whether 40 counts seven juveniles in addition to 33 adults or is a different tally. Other search summaries describe '33 arrested and seven juveniles detained', which would total 40, but EastMojo's wording is '33, including seven juveniles'. The two readings are not reconciled.",
+    "doesNotEstablish": "",
+    "relatedIds": [],
+    "accessNote": "",
+    "volatility": "low"
   }
 ];
 
@@ -38573,7 +38661,7 @@ WGO.importedQuestions = [
     "incidentId": null,
     "text": "What did the Supreme Court do on 9 October 2026, the date the 10 September order listed W.P.(Crl.) No. 280/2026 and connected matters for further consideration, and has the Committee filed or been asked for a first interim report?",
     "priority": "HIGH",
-    "whyItMatters": "The Committee's first report on issues (i) and (vi) of paragraph 12 was requested 'at the earliest' on 18 August and again on 10 September. The 9 October listing is the next point at which the Court could set a date for it, say anything about the confidential portal, or deal with the Delhi Police status report on the protection of the 14-year-old protester ordered in W.P.(C) No. 324/2026. No order of that date is held and no report of it has been found.",
+    "whyItMatters": "The Committee's first report on issues (i) and (vi) of paragraph 12 was requested 'at the earliest' on 18 August and again on 10 September. The 9 October listing is the next point at which the Court could set a date for it, say anything about the confidential portal, or deal with the Delhi Police status report on the protection of the 14-year-old protester ordered in W.P.(C) No. 324/2026. No order of that date is held and no report of it has been found. SEARCHED 14 October 2026: a general search for the Supreme Court's 9 October hearing, the first interim report or any HPEC statement found nothing dated after the 10 September order. Absence from a news search is weak evidence. The order itself will be on the Committee's Supreme Court Orders page.",
     "lawfulRoute": "The order of 9 October will appear on the Supreme Court's site and, as the two earlier orders did, on the Committee's Supreme Court Orders page (hpec.nic.in/supreme-court-orders). The archive owner can save it from there, the way the earlier two arrived.",
     "state": "UNANSWERED",
     "wants": [
@@ -41434,6 +41522,7 @@ WGO.importedIncidentFacts = {
   "INC-0068": {
     "dates": [
       "10 September 2024",
+      "12 September 2024",
       "15 September 2024"
     ],
     "places": [
@@ -41451,7 +41540,8 @@ WGO.importedIncidentFacts = {
       "HIST-MANI24-009",
       "HIST-MANI24-010",
       "HIST-MANI24-011",
-      "HIST-MANI24-012"
+      "HIST-MANI24-012",
+      "HIST-MANI24-013"
     ],
     "state": [
       "CORROBORATED",
