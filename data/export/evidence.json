@@ -17360,7 +17360,7 @@
     "type": "OTHER_DOCUMENT",
     "incidentId": "INC-0068",
     "dateOfItem": null,
-    "establishes": "Only the headline of the fetched page was readable; body text was not available, so the number, dates and whether they were students are not established. Do not use as a detention count.",
+    "establishes": "Only the headline of the fetched page was readable; body text was not available, so the number, dates and whether they were students are not established. Do not use as a detention count. 14 October 2026: EastMojo of the same date gives the police figure as 33 including seven juveniles (HIST-MANI24-013). The Deccan Herald page is still unreadable (HTTP 403), so the 40 stays unverified and the gap between 33 and 40 is open.",
     "doesNotEstablish": null,
     "sourceIds": [
       "SRC-0901"
@@ -20967,6 +20967,52 @@
     "sourceIds": [
       "SRC-1058",
       "SRC-1086"
+    ]
+  },
+  {
+    "id": "HIST-LPU26-014",
+    "kind": "Evidence",
+    "title": "A public interest petition, Ravi Raj v. Union of India and Ors., filed by an LPU student, asks the Punjab and Haryana High Court to transfer the investigation i",
+    "state": "CORROBORATED",
+    "url": "https://www.whogavetheorder.in/evidence.html?id=HIST-LPU26-014",
+    "type": "COURT_DOCUMENT",
+    "incidentId": "INC-0076",
+    "dateOfItem": null,
+    "establishes": "Both articles were read on 14 October 2026; LiveLaw's is partly paywalled. Neither states the hearing date (Bar & Bench says 'on Wednesday'), and neither gives the next date. Bar & Bench tags only Justice Mishra while LiveLaw names the two-judge bench, so the archive takes the bench from LiveLaw. The rape claim came from an unverified online post (HIST-LPU26-002); the Court asked the police to verify it and made no finding. No order copy is held.",
+    "doesNotEstablish": null,
+    "sourceIds": [
+      "SRC-1075",
+      "SRC-1087"
+    ]
+  },
+  {
+    "id": "HIST-LPU26-015",
+    "kind": "Evidence",
+    "title": "Bar & Bench reported on 12 October 2026 that, 'on Monday', the Punjab and Haryana High Court pulled up the Punjab Police over lapses in its ongoing investigatio",
+    "state": "REPORTED",
+    "url": "https://www.whogavetheorder.in/evidence.html?id=HIST-LPU26-015",
+    "type": "COURT_DOCUMENT",
+    "incidentId": "INC-0076",
+    "dateOfItem": null,
+    "establishes": "The page loaded with its body incomplete, so the specific lapses, any directions and the next date are not known. 'Monday' would be 12 October 2026 but the article does not say so. The 8 October listing mentioned in earlier reporting could not be confirmed; its outcome is not held. The claim is kept to the single sentence the archive could read.",
+    "doesNotEstablish": null,
+    "sourceIds": [
+      "SRC-1088"
+    ]
+  },
+  {
+    "id": "HIST-MANI24-013",
+    "kind": "Evidence",
+    "title": "EastMojo reported from Imphal on 12 September 2024 that Manipur Police said they had arrested 33 people, including seven juveniles, in connection with the recen",
+    "state": "REPORTED",
+    "url": "https://www.whogavetheorder.in/evidence.html?id=HIST-MANI24-013",
+    "type": "OTHER_DOCUMENT",
+    "incidentId": "INC-0068",
+    "dateOfItem": null,
+    "establishes": "Read in full on 14 October 2026. This is a police-given figure through one outlet. A Deccan Herald headline of the same date says 40 protesters were 'nabbed' (HIST-MANI24-010); the body of that article could not be read (HTTP 403), so the archive cannot tell whether 40 counts seven juveniles in addition to 33 adults or is a different tally. Other search summaries describe '33 arrested and seven juveniles detained', which would total 40, but EastMojo's wording is '33, including seven juveniles'. The two readings are not reconciled.",
+    "doesNotEstablish": null,
+    "sourceIds": [
+      "SRC-1089"
     ]
   }
 ]

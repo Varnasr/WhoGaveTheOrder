@@ -11627,6 +11627,39 @@
     "archiveUrl": null
   },
   {
+    "id": "SRC-1087",
+    "kind": "Source",
+    "title": "Bar & Bench, 30 Sept 2026",
+    "state": null,
+    "url": "https://www.barandbench.com/news/litigation/punjab-haryana-high-court-asks-police-to-clarify-whether-rape-took-place-at-lovely-professional-university",
+    "publisher": null,
+    "retrievedOn": "2026-10-14",
+    "sha256": null,
+    "archiveUrl": null
+  },
+  {
+    "id": "SRC-1088",
+    "kind": "Source",
+    "title": "Bar & Bench, 12 Oct 2026",
+    "state": null,
+    "url": "https://www.barandbench.com/news/punjab-haryana-high-court-flags-gaps-in-police-probe-into-lpu-violence",
+    "publisher": null,
+    "retrievedOn": "2026-10-14",
+    "sha256": null,
+    "archiveUrl": null
+  },
+  {
+    "id": "SRC-1089",
+    "kind": "Source",
+    "title": "EastMojo (Vangamla Salle K S), 12 Sept 2024",
+    "state": null,
+    "url": "https://eastmojo.com/manipur/2024/09/12/manipur-police-arrest-33-including-7-juveniles-amid-violent-protests/",
+    "publisher": null,
+    "retrievedOn": "2026-10-14",
+    "sha256": null,
+    "archiveUrl": null
+  },
+  {
     "id": "SRC-0056",
     "kind": "Source",
     "title": "India Code",

@@ -5,6 +5,73 @@ window.WGO = window.WGO || {};
 
 WGO.changes = [
   {
+    "commit": "1b3ff4d3f8",
+    "date": "2026-10-14T13:47:31Z",
+    "subject": "Next round: LPU court proceedings, Manipur arrest figure, 9 October search note",
+    "added": [
+      {
+        "id": "HIST-LPU26-014",
+        "kind": "Evidence",
+        "title": "A public interest petition, Ravi Raj v. Union of India and Ors., filed by an LPU student, asks the Punjab and Haryana High Court to transfer the investigation i",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-LPU26-014"
+      },
+      {
+        "id": "HIST-LPU26-015",
+        "kind": "Evidence",
+        "title": "Bar & Bench reported on 12 October 2026 that, 'on Monday', the Punjab and Haryana High Court pulled up the Punjab Police over lapses in its ongoing investigatio",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-LPU26-015"
+      },
+      {
+        "id": "HIST-MANI24-013",
+        "kind": "Evidence",
+        "title": "EastMojo reported from Imphal on 12 September 2024 that Manipur Police said they had arrested 33 people, including seven juveniles, in connection with the recen",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-MANI24-013"
+      },
+      {
+        "id": "SRC-1087",
+        "kind": "Source",
+        "title": "Bar & Bench, 30 Sept 2026",
+        "state": null,
+        "url": "https://www.barandbench.com/news/litigation/punjab-haryana-high-court-asks-police-to-clarify-whether-rape-took-place-at-lovely-professional-university"
+      },
+      {
+        "id": "SRC-1088",
+        "kind": "Source",
+        "title": "Bar & Bench, 12 Oct 2026",
+        "state": null,
+        "url": "https://www.barandbench.com/news/punjab-haryana-high-court-flags-gaps-in-police-probe-into-lpu-violence"
+      },
+      {
+        "id": "SRC-1089",
+        "kind": "Source",
+        "title": "EastMojo (Vangamla Salle K S), 12 Sept 2024",
+        "state": null,
+        "url": "https://eastmojo.com/manipur/2024/09/12/manipur-police-arrest-33-including-7-juveniles-amid-violent-protests/"
+      }
+    ],
+    "removed": [],
+    "changed": [
+      {
+        "id": "HIST-MANI24-010",
+        "kind": "Evidence",
+        "title": "Deccan Herald reported in a 12 September headline that police 'nabbed' 40 protesters for violence in Manipur during the curfew.",
+        "state": "UNVERIFIED",
+        "url": "evidence.html?id=HIST-MANI24-010",
+        "fields": [
+          {
+            "field": "establishes",
+            "from": "Only the headline of the fetched page was readable; body text was not available, so the number, dates and whether they were students are not established. Do not use as a detention count.",
+            "to": "Only the headline of the fetched page was readable; body text was not available, so the number, dates and whether they were students are not established. Do not use as a detention count. 14 October 2026: EastMojo of the same date gives t…"
+          }
+        ]
+      }
+    ],
+    "summary": "6 records added · 1 record edited"
+  },
+  {
     "commit": "2347d00c52",
     "date": "2026-10-14T07:56:22Z",
     "subject": "Sweep log and archived copies for 2026-10-14 [skip ci]",
