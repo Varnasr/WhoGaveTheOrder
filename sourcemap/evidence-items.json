@@ -4268,7 +4268,7 @@
     "incident": "INC-0006",
     "claim": "Bar and Bench reports that the president of the Indian Youth Congress moved the Delhi High Court on 3 October 2026 against Delhi Police's order of 1 October 2026 rejecting the organisation's application for permission to protest against the Chief Election Commissioner at Jantar Mantar. PTI, as carried by Deccan Chronicle, reports that on Friday 9 October 2026 a bench of Acting Chief Justice Nitin Wasudeo Sambre and Justice Sanjay Sharma declined an urgent hearing, with the Acting Chief Justice asking what the urgency was, and said the matter would be listed on Monday 12 October. The same report says the organisation had applied on 25 September for 100 to 150 people from 1 to 25 October, and that the petition asks the Court to quash the police communication of 1 October and direct fresh consideration of the request.",
     "confidence": "CORROBORATED",
-    "notes": "Two outlets with different origins report the petition and the order of 1 October. The case number is not reported in either. No order on the merits exists yet. The hearing of 12 October is a date to check. Retrieving the petition and the order of 1 October is FQ-023.",
+    "notes": "Two outlets with different origins report the petition and the order of 1 October. The case number is not reported in either. No order on the merits exists yet. The hearing of 12 October is a date to check. Retrieving the petition and the order of 1 October is FQ-023. 14 October 2026: the 12 October hearing happened and is recorded at PROC-DEL-006. The matter was deferred to 13 October; that day's outcome is not yet found.",
     "volatility": "medium",
     "sources": [
       {
@@ -36658,9 +36658,17 @@
     "id": "HIST-DEV12-001",
     "jurisdiction": "delhi",
     "category": "incident",
-    "claim": "On 8 October 2026 the National Human Rights Commission took suo motu cognisance of a media report of 5 October alleging sexual harassment of three women journalists by Delhi Police personnel on 3 October 2026, issued a notice to the Commissioner of Police, Delhi, and asked for a report within two weeks.",
-    "confidence": "REPORTED",
+    "claim": "The National Human Rights Commission's press release of 8 October 2026 states that it has taken suo motu cognisance of a media report that three women journalists were subjected to sexual harassment by Delhi Police personnel during a protest at Jantar Mantar, New Delhi, on 3 October 2026; that it observed the contents of the report, if true, raise serious issues of violation of human rights; and that it has issued a notice to the Delhi Police Commissioner calling for a detailed report within two weeks. The release adds that, according to the media report of 5 October 2026, the New Delhi District Police received complaints about the alleged incidents, which were transferred to the Crime Branch of Delhi Police for an enquiry.",
+    "confidence": "VERIFIED",
     "sources": [
+      {
+        "url": "https://nhrc.nic.in/media/press-release/nhrc,-india-takes-suo-motu-cognizance-of-the-reported-sexual-harassment-of-three-journalists-by-delhi-police-personnel-during-a-protest-at-jantar-mantar,-new-delhi-on-3rd-october-2026",
+        "source_type": "primary",
+        "publication": "National Human Rights Commission, press release, New Delhi, 8 October 2026",
+        "retrieved_on": "2026-10-14",
+        "sha256": "492b912c8ba21d673c08d2b6d6d540971dbffab1b8f76f4e07b5f347e16bc873",
+        "note": "Fetched directly and read in full. The sha256 is of the HTML as served, which carries site chrome and a changing 'last updated' stamp, so it will not match a later fetch."
+      },
       {
         "url": "https://www.dtnext.in/news/national/nhrc-takes-suo-motu-cognisance-of-alleged-sexual-harassment-of-three-women-journalists-during-october-3-protest",
         "source_type": "secondary",
@@ -36674,7 +36682,7 @@
         "retrieved_on": "2026-10-12"
       }
     ],
-    "notes": "Both outlets report the notice; the NHRC page itself was not read. The notice names no officer. The report is due about 22 October 2026. The people harassed were journalists, so this belongs to the 3 October protest record as the first official oversight step.",
+    "notes": "Both outlets report the notice; the NHRC page itself was not read. The notice names no officer. The report is due about 22 October 2026. The people harassed were journalists, so this belongs to the 3 October protest record as the first official oversight step. TRACED 14 October 2026. The Commission's own page was read and confirms the notice, the date and the two-week period, so the earlier note that the NHRC page was not read no longer applies. The release does not name any officer, and says the facts of the harassment are as reported in the media, so VERIFIED means the Commission's notice exists as stated, not that the harassment is established. The report is due about 22 October 2026. This is the notice with that deadline; the earlier notice of 25 July 2026 (OVR-NHRC-001) fell due in early August.",
     "volatility": "medium",
     "incident": "INC-0006"
   },
@@ -37014,6 +37022,32 @@
       }
     ],
     "notes": "Read in full on 14 October 2026. This is a police-given figure through one outlet. A Deccan Herald headline of the same date says 40 protesters were 'nabbed' (HIST-MANI24-010); the body of that article could not be read (HTTP 403), so the archive cannot tell whether 40 counts seven juveniles in addition to 33 adults or is a different tally. Other search summaries describe '33 arrested and seven juveniles detained', which would total 40, but EastMojo's wording is '33, including seven juveniles'. The two readings are not reconciled.",
+    "added_on": "2026-10-14"
+  },
+  {
+    "id": "PROC-DEL-006",
+    "jurisdiction": "delhi",
+    "category": "legal_proceeding",
+    "incident": "INC-0006",
+    "claim": "On Monday 12 October 2026 the Delhi High Court deferred the Indian Youth Congress's plea against the Delhi Police order of 1 October 2026 refusing permission to protest against the Chief Election Commissioner at Jantar Mantar. Additional Solicitor General Chetan Sharma, for the police, said he needed to take instructions, and the Court listed the matter for hearing on Tuesday 13 October 2026. LawChakra reports that the matter was taken up in the supplementary list before Justice Amit Mahajan, with Senior Advocates Siddharth Luthra and Vivek Tankha for the Indian Youth Congress, and that the Court issued no direction on protest permission and expressed no view on the merits. ANI, carried by Asianet News, names no bench and reports no direction beyond the adjournment.",
+    "confidence": "CORROBORATED",
+    "volatility": "high",
+    "sources": [
+      {
+        "url": "https://lawchakra.in/high-court/delhi-high-court/delhi-hc-youth-congress-jantar-mantar-plea-tomorrow/",
+        "source_type": "secondary",
+        "publication": "LawChakra, 12 Oct 2026",
+        "retrieved_on": "2026-10-14"
+      },
+      {
+        "url": "https://newsable.asianetnews.com/india/delhi-hc-defers-hearing-on-iyc-plea-against-protest-denial-by-police-articleshow-g0g4wog",
+        "source_type": "secondary",
+        "publication": "Asianet News Newsable, 12 Oct 2026",
+        "retrieved_on": "2026-10-14",
+        "originates_from": "ANI"
+      }
+    ],
+    "notes": "Both articles were read in full on 14 October 2026. The adjournment, the ASG's request and the Tuesday listing agree. The judge's name rests on LawChakra alone, so it is held as that outlet's account; earlier reporting of 9 October had the matter before Acting Chief Justice Nitin Wasudeo Sambre and Justice Sanjay Sharma, who said it would be heard on Monday, which fits a transfer to another bench but the archive has no order showing one. The calendar date 13 October is the archive's inference from 'Tuesday'. What happened on 13 October was searched for on 14 October and not found. No order copy is held (FQ-023).",
     "added_on": "2026-10-14"
   }
 ]

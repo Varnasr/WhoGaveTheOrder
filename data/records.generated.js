@@ -11478,6 +11478,17 @@ WGO.importedSources = [
     "originatesFrom": "IANS"
   },
   {
+    "id": "SRC-1090",
+    "name": "National Human Rights Commission, press release, New Delhi, 8 October 2026",
+    "kind": "PRIMARY",
+    "url": "https://nhrc.nic.in/media/press-release/nhrc,-india-takes-suo-motu-cognizance-of-the-reported-sexual-harassment-of-three-journalists-by-delhi-police-personnel-during-a-protest-at-jantar-mantar,-new-delhi-on-3rd-october-2026",
+    "retrievedOn": "2026-10-14",
+    "archiveUrl": null,
+    "archivedOn": null,
+    "sha256": "492b912c8ba21d673c08d2b6d6d540971dbffab1b8f76f4e07b5f347e16bc873",
+    "originatesFrom": null
+  },
+  {
     "id": "SRC-1071",
     "name": "DT Next",
     "kind": "SECONDARY",
@@ -11663,6 +11674,28 @@ WGO.importedSources = [
     "archivedOn": null,
     "sha256": null,
     "originatesFrom": null
+  },
+  {
+    "id": "SRC-1091",
+    "name": "LawChakra, 12 Oct 2026",
+    "kind": "SECONDARY",
+    "url": "https://lawchakra.in/high-court/delhi-high-court/delhi-hc-youth-congress-jantar-mantar-plea-tomorrow/",
+    "retrievedOn": "2026-10-14",
+    "archiveUrl": null,
+    "archivedOn": null,
+    "sha256": null,
+    "originatesFrom": null
+  },
+  {
+    "id": "SRC-1092",
+    "name": "Asianet News Newsable, 12 Oct 2026",
+    "kind": "SECONDARY",
+    "url": "https://newsable.asianetnews.com/india/delhi-hc-defers-hearing-on-iyc-plea-against-protest-denial-by-police-articleshow-g0g4wog",
+    "retrievedOn": "2026-10-14",
+    "archiveUrl": null,
+    "archivedOn": null,
+    "sha256": null,
+    "originatesFrom": "ANI"
   },
   {
     "id": "SRC-0056",
@@ -13218,7 +13251,7 @@ WGO.importedEvidence = [
       "SRC-0130"
     ],
     "origin": "",
-    "establishes": "Two outlets with different origins report the petition and the order of 1 October. The case number is not reported in either. No order on the merits exists yet. The hearing of 12 October is a date to check. Retrieving the petition and the order of 1 October is FQ-023.",
+    "establishes": "Two outlets with different origins report the petition and the order of 1 October. The case number is not reported in either. No order on the merits exists yet. The hearing of 12 October is a date to check. Retrieving the petition and the order of 1 October is FQ-023. 14 October 2026: the 12 October hearing happened and is recorded at PROC-DEL-006. The matter was deferred to 13 October; that day's outcome is not yet found.",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -36664,18 +36697,19 @@ WGO.importedEvidence = [
   },
   {
     "id": "HIST-DEV12-001",
-    "title": "On 8 October 2026 the National Human Rights Commission took suo motu cognisance of a media report of 5 October alleging sexual harassment of three women journal",
+    "title": "The National Human Rights Commission's press release of 8 October 2026 states that it has taken suo motu cognisance of a media report that three women journalis",
     "type": "OTHER_DOCUMENT",
-    "verification": "REPORTED",
+    "verification": "VERIFIED",
     "incidentId": "INC-0006",
     "dateOfItem": null,
     "dateAdded": "2026-08-16",
     "sourceIds": [
+      "SRC-1090",
       "SRC-1071",
       "SRC-1072"
     ],
     "origin": "",
-    "establishes": "Both outlets report the notice; the NHRC page itself was not read. The notice names no officer. The report is due about 22 October 2026. The people harassed were journalists, so this belongs to the 3 October protest record as the first official oversight step.",
+    "establishes": "Both outlets report the notice; the NHRC page itself was not read. The notice names no officer. The report is due about 22 October 2026. The people harassed were journalists, so this belongs to the 3 October protest record as the first official oversight step. TRACED 14 October 2026. The Commission's own page was read and confirms the notice, the date and the two-week period, so the earlier note that the NHRC page was not read no longer applies. The release does not name any officer, and says the facts of the harassment are as reported in the media, so VERIFIED means the Commission's notice exists as stated, not that the harassment is established. The report is due about 22 October 2026. This is the notice with that deadline; the earlier notice of 25 July 2026 (OVR-NHRC-001) fell due in early August.",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -36958,6 +36992,25 @@ WGO.importedEvidence = [
     "relatedIds": [],
     "accessNote": "",
     "volatility": "low"
+  },
+  {
+    "id": "PROC-DEL-006",
+    "title": "On Monday 12 October 2026 the Delhi High Court deferred the Indian Youth Congress's plea against the Delhi Police order of 1 October 2026 refusing permission to",
+    "type": "COURT_DOCUMENT",
+    "verification": "CORROBORATED",
+    "incidentId": "INC-0006",
+    "dateOfItem": null,
+    "dateAdded": "2026-10-14",
+    "sourceIds": [
+      "SRC-1091",
+      "SRC-1092"
+    ],
+    "origin": "",
+    "establishes": "Both articles were read in full on 14 October 2026. The adjournment, the ASG's request and the Tuesday listing agree. The judge's name rests on LawChakra alone, so it is held as that outlet's account; earlier reporting of 9 October had the matter before Acting Chief Justice Nitin Wasudeo Sambre and Justice Sanjay Sharma, who said it would be heard on Monday, which fits a transfer to another bench but the archive has no order showing one. The calendar date 13 October is the archive's inference from 'Tuesday'. What happened on 13 October was searched for on 14 October and not found. No order copy is held (FQ-023).",
+    "doesNotEstablish": "",
+    "relatedIds": [],
+    "accessNote": "",
+    "volatility": "high"
   }
 ];
 
@@ -39538,6 +39591,7 @@ WGO.importedIncidentFacts = {
       "Jantar Mantar on 2 October 2026. DT Next reports it",
       "an independent journalist accused an Assistant Commissioner of Police of hitting her on the chest while she filmed the detention of a student leader",
       "internet services were suspended in the Jantar Mantar area",
+      "it has taken suo motu cognisance of a media report that three women journalists were subjected to sexual harassment by Delhi Police personnel during a protest at Jantar Mantar, New Delhi",
       "junior personnel were allowed to remove them while most IPS officers kept theirs, and that officials gave the reason as preventing individual officers being identified and targeted",
       "nearly 200 protesters were detained"
     ],
@@ -39561,7 +39615,8 @@ WGO.importedIncidentFacts = {
     "state": [
       "CORROBORATED",
       "DISPUTED",
-      "REPORTED"
+      "REPORTED",
+      "VERIFIED"
     ]
   },
   "INC-0007": {
