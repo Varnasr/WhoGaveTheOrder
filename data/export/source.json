@@ -11528,6 +11528,17 @@
     "archiveUrl": null
   },
   {
+    "id": "SRC-1078",
+    "kind": "Source",
+    "title": "High Powered Enquiry Committee (hpec.nic.in), home page",
+    "state": null,
+    "url": "https://hpec.nic.in/",
+    "publisher": null,
+    "retrievedOn": "2026-10-14",
+    "sha256": null,
+    "archiveUrl": null
+  },
+  {
     "id": "SRC-0056",
     "kind": "Source",
     "title": "India Code",

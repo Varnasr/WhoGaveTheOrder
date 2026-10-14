@@ -36702,5 +36702,43 @@
     "notes": "Three outlets report the hearing; the order itself was not read. The outcome of the 8 October listing was not found. The petition is a second LiveLaw item at https://www.livelaw.in/high-court/punjab-and-haryana-high-court/pil-punjab-haryana-high-court-seeking-cbi-probe-into-lpu-violence-incidents-552209",
     "volatility": "medium",
     "incident": "INC-0076"
+  },
+  {
+    "id": "PROC-SC-016",
+    "jurisdiction": "supreme_court",
+    "category": "legal_proceeding",
+    "claim": "The High Powered Enquiry Committee has a website at hpec.nic.in, with a home page, an About The Committee page, a Supreme Court Orders page, a Submit Information page and a Contact Us page. The home page states that the Committee was constituted by the Supreme Court by order dated 18 August 2026 to inquire into all aspects of the incidents of violence at Jantar Mantar, Delhi, and outside Delhi in July 2026, and that it shall examine all issues in paragraphs 12 and 13 of that order. It names as priorities paragraphs 12(i) (excessive force by police and other agencies, including pellet guns, electric batons, lathi charges and tear gas without adequate warning or proportionality), 12(vi) (targeted violence, harassment, molestation and secondary victimisation of women protesters), 12(vii) (medical and other support, including compensation, to victims of alleged police abuse) and 13(iii) (injuries to police personnel and the trauma borne by their families). It also states that the Committee shall take up, on priority, 'excessive violence and destruction of property occasioned on either side' as directed in paragraph 5(i) of the order dated 10 September 2026.",
+    "confidence": "VERIFIED",
+    "sources": [
+      {
+        "url": "https://hpec.nic.in/",
+        "source_type": "primary",
+        "publication": "High Powered Enquiry Committee (hpec.nic.in), home page",
+        "retrieved_on": "2026-10-14",
+        "note": "Read from a browser snapshot (Chromium, saved 14 October 2026 04:44 GMT) supplied by the archive owner. The site could not be fetched from this archive's build environment. The snapshot was not hashed at capture and is not republished here."
+      }
+    ],
+    "notes": "This is the Committee's own statement of its mandate, and it is the first primary document the archive holds on the Committee. VERIFIED here means only that the home page says this. It does not stand in for the orders. The paragraph text quoted on the page is a summary of paragraphs 12 and 13, and the page links to the order of 18 August and the order of 10 September under its Supreme Court Orders page (https://hpec.nic.in/supreme-court-orders); neither order has been opened by this archive, so OQ-045 is only partly answered and FQ-016 is still open. The home page shows the five paragraphs the Committee chose to quote, not all of paragraphs 12 and 13. The snapshot's browser tab title reads 'HPEC: Admin Console Sign In', which does not match the page content; the archive records that and draws nothing from it.",
+    "volatility": "medium",
+    "added_on": "2026-10-14"
+  },
+  {
+    "id": "PROC-SC-017",
+    "jurisdiction": "supreme_court",
+    "category": "legal_proceeding",
+    "claim": "The Committee's home page lists four ways to give it information. (A) Affected persons, including police personnel, may submit information or a complaint on the priority issues, and the Committee will call them after sufficient notice to appear. (B) A person claiming confidentiality and protection as a vulnerable witness may submit information while keeping identity undisclosed, and the page says the Committee will keep all details confidential and ask the person to appear in camera. (C) Anyone may submit information anonymously on the issues referred to the Committee. (D) Anyone may send suggestions on the other issues in the orders of 18 August and 10 September 2026. Each route is a link to hpec.nic.in/submit-information with the entry parameters priority, confidential, anonymous and others. The Committee gives a postal address (Shiksha Sadan, 17 Rouse Avenue Institutional Area, New Delhi 110002), a telephone number (+91-11-23212718) and a Member Secretary email address (membersecy-hpec@nic.in). It names Srinivasa Kammath as Member Secretary.",
+    "confidence": "VERIFIED",
+    "sources": [
+      {
+        "url": "https://hpec.nic.in/",
+        "source_type": "primary",
+        "publication": "High Powered Enquiry Committee (hpec.nic.in), home page",
+        "retrieved_on": "2026-10-14",
+        "note": "Read from a browser snapshot (Chromium, saved 14 October 2026 04:44 GMT) supplied by the archive owner. The site could not be fetched from this archive's build environment. The snapshot was not hashed at capture and is not republished here."
+      }
+    ],
+    "notes": "This answers the second half of OQ-054 in part. PROC-SC-011 recorded a direction that the Court wanted a separate online portal for vulnerable witnesses and that the Committee appoint a member secretary; the Committee's own site now advertises a confidential route and names a Member Secretary. What this archive has not done is use the form, so it cannot say that the confidential route works, how a submission is stored, or who can read it. The archive does not run, endorse or relay these submissions and is independent of the Committee. The telephone number, postal address and generic email address are published by the Committee for the public; the archive reproduces them for that reason only. Whether the confidential route is the portal the Court directed on 10 September is an inference from the matching description and is not stated on the page.",
+    "volatility": "medium",
+    "added_on": "2026-10-14"
   }
 ]
