@@ -1336,6 +1336,17 @@ WGO.importedSources = [
     "originatesFrom": null
   },
   {
+    "id": "SRC-1085",
+    "name": "National Human Rights Commission, press release, New Delhi, 19 February 2016",
+    "kind": "PRIMARY",
+    "url": "https://nhrc.nic.in/media/press-release/nhrc-team-visits-central-prison-tihar-to-inquire-into-important-issues-pertaining-to-shri-kanhaiya-kumar-inquiry-report-forwarded-to-commission-police-delhi-director-general-prisons-tihar-jail-for-comments-19-02-2016",
+    "retrievedOn": "2026-10-14",
+    "archiveUrl": null,
+    "archivedOn": null,
+    "sha256": "bbc4e1cc2910b65fafae4352265d967f242197fbac8ac1c495f88da3fdd5c440",
+    "originatesFrom": null
+  },
+  {
     "id": "SRC-0150",
     "name": "LiveLaw, 26 February 2016",
     "kind": "SECONDARY",
@@ -13608,17 +13619,18 @@ WGO.importedEvidence = [
   },
   {
     "id": "HIST-JNU16-020",
-    "title": "An NHRC fact-finding team report is reported to have found the assault on Kanhaiya Kumar in the court premises 'organized and pre-planned' and to have recorded ",
+    "title": "The National Human Rights Commission's press release of 19 February 2016 states that its inquiry team found that the physical assault on Kanhaiya Kumar in the P",
     "type": "OTHER_DOCUMENT",
-    "verification": "UNVERIFIED",
+    "verification": "VERIFIED",
     "incidentId": "INC-0009",
     "dateOfItem": null,
     "dateAdded": "2026-08-16",
     "sourceIds": [
+      "SRC-1085",
       "SRC-0150"
     ],
     "origin": "",
-    "establishes": "Reported by LiveLaw on 26 February 2016 as part of a petition's attachments. Other outlets (India TV, Hindustan Times via PressReader) could not be read (403). The NHRC report itself has not been seen. Locate it through the NHRC case record or the petition annexures in the Supreme Court.",
+    "establishes": "Reported by LiveLaw on 26 February 2016 as part of a petition's attachments. Other outlets (India TV, Hindustan Times via PressReader) could not be read (403). The NHRC report itself has not been seen. Locate it through the NHRC case record or the petition annexures in the Supreme Court. TRACED 14 October 2026. The quotations were previously known only through LiveLaw's account of a petition's attachments. They are now read from the NHRC's own press release, which lists the team's findings. VERIFIED here means the Commission's release says this. The inquiry report itself has still not been seen, and the release gives the findings as the team's, forwarded to the Commission, Delhi Police and the Director General of Prisons for comments. What the police replied is not held. 'Appears to be' is the team's own hedge and the claim keeps it.",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -24923,7 +24935,7 @@ WGO.importedEvidence = [
       "SRC-0592"
     ],
     "origin": "",
-    "establishes": "Single source and a partisan outlet; no independent source found for the notice and the notice itself was not seen. The Deccan Herald (PTI, 13 July 2023) separately reports the education department cancelling leave and asking Patna's district administration to identify teachers who had joined street protests, which concerns a later date and is not corroboration of this notice. A copy of the notice could be requested from the Education Department by RTI. Do not promote without a second source.",
+    "establishes": "Single source and a partisan outlet; no independent source found for the notice and the notice itself was not seen. The Deccan Herald (PTI, 13 July 2023) separately reports the education department cancelling leave and asking Patna's district administration to identify teachers who had joined street protests, which concerns a later date and is not corroboration of this notice. A copy of the notice could be requested from the Education Department by RTI. Do not promote without a second source. TRACED 14 October 2026, without success: a search for an independent report of this notice, or of the videography instruction, found nothing. A Careers360 report of November 2023 concerns a different warning to newly appointed teachers who form an association and is not this notice. The record stays UNVERIFIED.",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -31580,7 +31592,7 @@ WGO.importedEvidence = [
       "SRC-0864"
     ],
     "origin": "",
-    "establishes": "The arrest claim rests on The Logical Indian alone and gives no date, names or source for the arrests; the Telegraph report it relies on was not opened. Whether an FIR exists, its number, sections and complainant are UNKNOWN (HIST-BURD16-010).",
+    "establishes": "The arrest claim rests on The Logical Indian alone and gives no date, names or source for the arrests; the Telegraph report it relies on was not opened. Whether an FIR exists, its number, sections and complainant are UNKNOWN (HIST-BURD16-010). TRACED 14 October 2026, without success on the arrests: a search found the Logical Indian account again and a Gulf Times piece, but no independent report of the two arrests. Gulf Times, which the archive has not read in full, attributes an arrest of 65 agitators to SFI leader Vikas Jha, a different claim. The Telegraph original was not found. The record stays UNVERIFIED.",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -39480,7 +39492,8 @@ WGO.importedIncidentFacts = {
       "Patiala House Courts",
       "Patiala House Courts Complex",
       "Patiala House Courts on 15 February 2016, what officers present did or did not do and",
-      "Patiala House, and questioning the Home Minister's reliance on a tweet and the Commissioner's public statements; it shows the Minister of Human Resource Development describing the JNU permission slip and the university's own enquiry committee. The record read contains no statement by the Government that names who ordered the police entry onto the JNU campus on 12 February or the police presence at Patiala House"
+      "Patiala House, and questioning the Home Minister's reliance on a tweet and the Commissioner's public statements; it shows the Minister of Human Resource Development describing the JNU permission slip and the university's own enquiry committee. The record read contains no statement by the Government that names who ordered the police entry onto the JNU campus on 12 February or the police presence at Patiala House",
+      "its inquiry team found that the physical assault on Kanhaiya Kumar in the Patiala House court premises on 17 February 2016 'appears to be organized and pre- planned', that what happened there 'was a major security lapse"
     ],
     "evidenceIds": [
       "HIST-JNU16-001",

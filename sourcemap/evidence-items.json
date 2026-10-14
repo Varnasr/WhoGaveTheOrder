@@ -4854,9 +4854,17 @@
     "jurisdiction": "delhi",
     "incident": "INC-0009",
     "category": "incident",
-    "claim": "An NHRC fact-finding team report is reported to have found the assault on Kanhaiya Kumar in the court premises 'organized and pre-planned' and to have recorded serious dereliction of duty by Delhi Police.",
-    "confidence": "UNVERIFIED",
+    "claim": "The National Human Rights Commission's press release of 19 February 2016 states that its inquiry team found that the physical assault on Kanhaiya Kumar in the Patiala House court premises on 17 February 2016 'appears to be organized and pre- planned', that what happened there 'was a major security lapse on the part of the police', and that 'there was serious dereliction of duty on the part of the police'. It also states that police were present and 'did not do anything to prevent the assault or apprehend the attackers even though they were identified by Sh. Kanhaiya Kumar then and there', and that a statement issued by police as an appeal on his behalf was 'not written by him voluntarily' and its 'content, construction and framework' were 'as dictated by the police'.",
+    "confidence": "VERIFIED",
     "sources": [
+      {
+        "url": "https://nhrc.nic.in/media/press-release/nhrc-team-visits-central-prison-tihar-to-inquire-into-important-issues-pertaining-to-shri-kanhaiya-kumar-inquiry-report-forwarded-to-commission-police-delhi-director-general-prisons-tihar-jail-for-comments-19-02-2016",
+        "source_type": "primary",
+        "publication": "National Human Rights Commission, press release, New Delhi, 19 February 2016",
+        "retrieved_on": "2026-10-14",
+        "sha256": "bbc4e1cc2910b65fafae4352265d967f242197fbac8ac1c495f88da3fdd5c440",
+        "note": "The page was fetched directly and the quoted wording matched the page text. The sha256 is of the HTML as served, which also carries site chrome and a changing 'last updated' stamp, so it will not match a later fetch."
+      },
       {
         "url": "https://www.livelaw.in/amp/patiala-house-violence-sc-issues-notice-kamini-jaiswals-plea-sit-contempt-three-lawyers",
         "source_type": "secondary",
@@ -4864,7 +4872,7 @@
         "retrieved_on": "2026-10-10"
       }
     ],
-    "notes": "Reported by LiveLaw on 26 February 2016 as part of a petition's attachments. Other outlets (India TV, Hindustan Times via PressReader) could not be read (403). The NHRC report itself has not been seen. Locate it through the NHRC case record or the petition annexures in the Supreme Court.",
+    "notes": "Reported by LiveLaw on 26 February 2016 as part of a petition's attachments. Other outlets (India TV, Hindustan Times via PressReader) could not be read (403). The NHRC report itself has not been seen. Locate it through the NHRC case record or the petition annexures in the Supreme Court. TRACED 14 October 2026. The quotations were previously known only through LiveLaw's account of a petition's attachments. They are now read from the NHRC's own press release, which lists the team's findings. VERIFIED here means the Commission's release says this. The inquiry report itself has still not been seen, and the release gives the findings as the team's, forwarded to the Commission, Delhi Police and the Director General of Prisons for comments. What the police replied is not held. 'Appears to be' is the team's own hedge and the claim keeps it.",
     "volatility": "low"
   },
   {
@@ -20511,7 +20519,7 @@
         "originates_from": "ANI text with added material"
       }
     ],
-    "notes": "Single source and a partisan outlet; no independent source found for the notice and the notice itself was not seen. The Deccan Herald (PTI, 13 July 2023) separately reports the education department cancelling leave and asking Patna's district administration to identify teachers who had joined street protests, which concerns a later date and is not corroboration of this notice. A copy of the notice could be requested from the Education Department by RTI. Do not promote without a second source.",
+    "notes": "Single source and a partisan outlet; no independent source found for the notice and the notice itself was not seen. The Deccan Herald (PTI, 13 July 2023) separately reports the education department cancelling leave and asking Patna's district administration to identify teachers who had joined street protests, which concerns a later date and is not corroboration of this notice. A copy of the notice could be requested from the Education Department by RTI. Do not promote without a second source. TRACED 14 October 2026, without success: a search for an independent report of this notice, or of the videography instruction, found nothing. A Careers360 report of November 2023 concerns a different warning to newly appointed teachers who form an association and is not this notice. The record stays UNVERIFIED.",
     "volatility": "low",
     "incident": "INC-0042"
   },
@@ -29544,7 +29552,7 @@
         "sha256": "d102273a8d7d2698b09f44cec6636e6ac450e13da0505ae3f6ca4fefcecab044"
       }
     ],
-    "notes": "The arrest claim rests on The Logical Indian alone and gives no date, names or source for the arrests; the Telegraph report it relies on was not opened. Whether an FIR exists, its number, sections and complainant are UNKNOWN (HIST-BURD16-010).",
+    "notes": "The arrest claim rests on The Logical Indian alone and gives no date, names or source for the arrests; the Telegraph report it relies on was not opened. Whether an FIR exists, its number, sections and complainant are UNKNOWN (HIST-BURD16-010). TRACED 14 October 2026, without success on the arrests: a search found the Logical Indian account again and a Gulf Times piece, but no independent report of the two arrests. Gulf Times, which the archive has not read in full, attributes an arrest of 65 agitators to SFI leader Vikas Jha, a different claim. The Telegraph original was not found. The record stays UNVERIFIED.",
     "volatility": "medium",
     "incident": "INC-0064"
   },
