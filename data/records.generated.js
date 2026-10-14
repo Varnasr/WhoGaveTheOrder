@@ -709,6 +709,17 @@ WGO.importedSources = [
     "originatesFrom": null
   },
   {
+    "id": "SRC-1079",
+    "name": "Supreme Court of India, Record of Proceedings of 10 September 2026, W.P.(Crl.) No. 280/2026 and connected matters (PDF)",
+    "kind": "PRIMARY",
+    "url": "https://hpec.nic.in/supreme-court-orders",
+    "retrievedOn": "2026-10-14",
+    "archiveUrl": null,
+    "archivedOn": null,
+    "sha256": "36ef25c5b08dea93e17161c18076f30d2848a605682bb7d7206e444b46ac0e61",
+    "originatesFrom": null
+  },
+  {
     "id": "SRC-0090",
     "name": "BiharWatch",
     "kind": "SECONDARY",
@@ -12029,7 +12040,7 @@ WGO.importedEvidence = [
       "SRC-0011"
     ],
     "origin": "",
-    "establishes": "The writ petition number W.P.(C) 280/2026 and the composition of the bench come from reporting of the 18 August 2026 hearing, which is also the source for PROC-SC-002 and PROC-SC-003. The SCC OnLine citation is a secondary source from a commercial reporter. No order of this Court is held. The Supreme Court is reported to have proposed a High-Powered Committee to examine the police action, which the petitioners opposed as to the facial recognition issues; whether such a committee has been constituted is not established.",
+    "establishes": "The writ petition number W.P.(Crl.) 280/2026 and the composition of the bench come from reporting of the 18 August 2026 hearing, which is also the source for PROC-SC-002 and PROC-SC-003. The SCC OnLine citation is a secondary source from a commercial reporter. No order of this Court is held. The Supreme Court is reported to have proposed a High-Powered Committee to examine the police action, which the petitioners opposed as to the facial recognition issues; whether such a committee has been constituted is not established.",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -12146,7 +12157,7 @@ WGO.importedEvidence = [
   },
   {
     "id": "PROC-SC-002",
-    "title": "Delhi Police stated on affidavit before the Supreme Court, at a hearing on 18 August 2026 in Shailendra Mani Tripathi v. Union of India and Ors., W.P.(C) 280/20",
+    "title": "Delhi Police stated on affidavit before the Supreme Court, at a hearing on 18 August 2026 in Shailendra Mani Tripathi v. Union of India and Ors., W.P.(Crl.) 280",
     "type": "COURT_DOCUMENT",
     "verification": "CORROBORATED",
     "incidentId": "INC-0001",
@@ -12260,7 +12271,7 @@ WGO.importedEvidence = [
       "SRC-0028"
     ],
     "origin": "",
-    "establishes": "Updated 21 August 2026, and the earlier version of this record is now wrong. It said a committee had been decided on but not shown to be constituted, and that whether it existed was not established. It has since been constituted, by an order reported dated 18 August 2026, and five members are named. The record has been corrected in place, and this note says what it used to say. Why this matters more than any other proceeding here: a committee with terms of reference and a reporting obligation generates documents. Its constitution order, its terms of reference and its interim reports are all records that can be asked for, and the deployment of pellet guns is inside its mandate by name. What is not held: the order itself. Everything above is reporting of it. No terms of reference document is in this archive, and the wording quoted by outlets is theirs. See OQ-045. A discrepancy worth recording: this matter is cited as W.P.(C) 280/2026 at PROC-SC-001 and as W.P.(Crl) 280/2026 in the reporting of this order. One of them is wrong and the archive does not know which. The cause list or the order itself would settle it, as a cause list already settled the Delhi numbering at PROC-DEL-002.",
+    "establishes": "Updated 21 August 2026, and the earlier version of this record is now wrong. It said a committee had been decided on but not shown to be constituted, and that whether it existed was not established. It has since been constituted, by an order reported dated 18 August 2026, and five members are named. The record has been corrected in place, and this note says what it used to say. Why this matters more than any other proceeding here: a committee with terms of reference and a reporting obligation generates documents. Its constitution order, its terms of reference and its interim reports are all records that can be asked for, and the deployment of pellet guns is inside its mandate by name. What is not held: the order itself. Everything above is reporting of it. No terms of reference document is in this archive, and the wording quoted by outlets is theirs. See OQ-045. A discrepancy worth recording: this matter is cited as W.P.(Crl.) 280/2026 at PROC-SC-001 and as W.P.(Crl) 280/2026 in the reporting of this order. One of them is wrong and the archive does not know which. The cause list or the order itself would settle it, as a cause list already settled the Delhi numbering at PROC-DEL-002. 14 October 2026: the order of 18 August is now held (PROC-SC-018). The five members, the chair, the issue list and the request for a first interim report are confirmed. The Article 142 sentence above is not in the order and stays reported only. The case number is W.P.(Crl.) No. 280/2026.",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -12560,19 +12571,20 @@ WGO.importedEvidence = [
   },
   {
     "id": "PROC-SC-011",
-    "title": "By an order reported dated 10 September 2026, a three-judge bench of the Chief Justice of India Surya Kant, Justice Joymalya Bagchi and Justice V. Mohana declin",
+    "title": "By an order dated 10 September 2026, a three-judge bench of the Chief Justice of India Surya Kant, Justice Joymalya Bagchi and Justice V. Mohana declined to rec",
     "type": "COURT_DOCUMENT",
-    "verification": "REPORTED",
+    "verification": "VERIFIED",
     "incidentId": null,
     "dateOfItem": null,
     "dateAdded": "2026-09-23",
     "sourceIds": [
       "SRC-0087",
       "SRC-0088",
-      "SRC-0089"
+      "SRC-0089",
+      "SRC-1079"
     ],
     "origin": "",
-    "establishes": "This closes a thread the archive left open twice. PROC-SC-006 recorded that the Court listed the matter for 10 September 2026; PROC-SC-010 recorded that a plea challenging the committee's composition was before the Court. This is what happened to both. The refusal is reported on the ground that “there was no basis for changing the panel merely on the strength of preconceived assumptions”. The confidential portal is the part that bears on this archive's own users. Somebody who was assaulted by police and is also named in an FIR has an obvious reason not to depose through ordinary channels. Whether the portal now exists, and at what address, is NOT established: see OQ-054. This archive will not direct anyone to a portal it has not confirmed. Recorded as REPORTED on a deliberate reading of this archive's own rule, which withholds CORROBORATED here. Three outlets carry it, but they are three accounts of one order, and the order is not held. Where the underlying document is a single court order, multiple outlets are multiple reports of one thing. The upgrade is the order copy from the Supreme Court's own site: see FQ-014. Amended 23 September 2026 to name the full bench and both amici, and to record the member-secretary direction, all of which the first version of this record left out. The order is dated 10 September and was reported on 16 September; the archive had the order date right and that was worth re-checking, because it was inferred from the listing date at PROC-SC-006 before any source confirmed it.",
+    "establishes": "This closes a thread the archive left open twice. PROC-SC-006 recorded that the Court listed the matter for 10 September 2026; PROC-SC-010 recorded that a plea challenging the committee's composition was before the Court. This is what happened to both. The refusal is reported on the ground that “there was no basis for changing the panel merely on the strength of preconceived assumptions”. The confidential portal is the part that bears on this archive's own users. Somebody who was assaulted by police and is also named in an FIR has an obvious reason not to depose through ordinary channels. Whether the portal now exists, and at what address, is NOT established: see OQ-054. This archive will not direct anyone to a portal it has not confirmed. Recorded as REPORTED on a deliberate reading of this archive's own rule, which withholds CORROBORATED here. Three outlets carry it, but they are three accounts of one order, and the order is not held. Where the underlying document is a single court order, multiple outlets are multiple reports of one thing. The upgrade is the order copy from the Supreme Court's own site: see FQ-014. Amended 23 September 2026 to name the full bench and both amici, and to record the member-secretary direction, all of which the first version of this record left out. The order is dated 10 September and was reported on 16 September; the archive had the order date right and that was worth re-checking, because it was inferred from the listing date at PROC-SC-006 before any source confirmed it. CORRECTED 14 October 2026 from the order itself (PROC-SC-019). The earlier text said the Court 'directed' that a portal be created, 'directed' the committee to protect witnesses and 'directed' it to appoint a member secretary. The order says the portal 'may be created' and uses 'request' for the other two. The press accounts overstated the force of these, and the first version of this record repeated them. The amici are described in the order as acting 'as a representative of the HPEC' and as 'an independent arbiter between the parties', where the press called them intermediaries for witnesses. The record moves from REPORTED to VERIFIED because the order is now held. The three press sources stay as the account the archive first relied on.",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -36649,6 +36661,42 @@ WGO.importedEvidence = [
     "relatedIds": [],
     "accessNote": "",
     "volatility": "medium"
+  },
+  {
+    "id": "PROC-SC-018",
+    "title": "By its order of 18 August 2026 in W.P.(Crl.) No. 280/2026 (Shailendra Mani Tripathi v. Union of India and Ors.) and connected matters, a bench of the Chief Just",
+    "type": "COURT_DOCUMENT",
+    "verification": "VERIFIED",
+    "incidentId": null,
+    "dateOfItem": null,
+    "dateAdded": "2026-10-14",
+    "sourceIds": [
+      "SRC-1079"
+    ],
+    "origin": "",
+    "establishes": "This is the order itself, and it settles OQ-045 and the first half of FQ-016. It corrects three things the archive carried from reporting. First, the lead matter is W.P.(Crl.) No. 280/2026, not W.P.(C), which PROC-SC-001 and others had recorded; the archive has changed those. Second, the preservation direction in paragraph 22 is described in the order as clarifying a direction from the 28 July order, and adds the furnishing of the record to the Committee. Third, nothing in this order mentions an Article 142 power to quash FIRs, which PROC-SC-006 records as separately reported; that remains reported only. Paragraphs 4 and 5 recite what the 28 July order directed (no coercive steps, release of children below 18, protection not extending to those accused of grave and heinous offences with criminal antecedents, and preservation of protesters' personal data); that is the Court describing its own earlier order, and the 28 July order itself is still not held. The order names no pellet-gun SOP and gives no dates for the Committee's reports.",
+    "doesNotEstablish": "",
+    "relatedIds": [],
+    "accessNote": "",
+    "volatility": "medium"
+  },
+  {
+    "id": "PROC-SC-019",
+    "title": "By its order of 10 September 2026 in the same batch, the Court recorded that the Union had complied with paragraph 24 of the 18 August order (infrastructure and",
+    "type": "COURT_DOCUMENT",
+    "verification": "VERIFIED",
+    "incidentId": null,
+    "dateOfItem": null,
+    "dateAdded": "2026-10-14",
+    "sourceIds": [
+      "SRC-1079"
+    ],
+    "origin": "",
+    "establishes": "The order uses the language of request and permission in several places where the earlier record said 'directed'. The portal 'may be created', the Committee is 'requested' to protect witnesses and to appoint a Member Secretary, and the first report is 'requested'. PROC-SC-011 has been corrected to match. The order does not direct that a portal be built, does not name an address, and does not say the portal exists. The Committee's own site now advertises a confidential route (PROC-SC-017); whether that is the portal the Court contemplated is still an inference. The order does not name the child, and the archive records only what the order says about her protection. The next date, 9 October 2026, has passed; what happened then is not held (OQ-063).",
+    "doesNotEstablish": "",
+    "relatedIds": [],
+    "accessNote": "",
+    "volatility": "high"
   }
 ];
 
@@ -37818,13 +37866,13 @@ WGO.importedQuestions = [
   {
     "id": "OQ-033",
     "incidentId": "INC-0001",
-    "text": "The Delhi Police affidavit filed in W.P.(C) 280/2026 concerning the use of facial recognition technology at the Jantar Mantar protest.",
+    "text": "The Delhi Police affidavit filed in W.P.(Crl.) 280/2026 concerning the use of facial recognition technology at the Jantar Mantar protest.",
     "priority": "HIGH",
     "whyItMatters": "It is the force's own account of what it deployed against a protest, sworn to a court. Everything this archive says about the deployment currently rests on reports of it. An affidavit also fixes who swore it, which is the closest the record has come to a named official taking responsibility for anything at Jantar Mantar.",
-    "lawfulRoute": "Supreme Court case status and filings for W.P.(C) 280/2026 at sci.gov.in; the SCR portal at scr.sci.gov.in for orders; and, once a diary number is known, a certified copy from the registry. Parties' counsel are on the record and the pleadings are public documents in a public interest matter.",
+    "lawfulRoute": "Supreme Court case status and filings for W.P.(Crl.) 280/2026 at sci.gov.in; the SCR portal at scr.sci.gov.in for orders; and, once a diary number is known, a certified copy from the registry. Parties' counsel are on the record and the pleadings are public documents in a public interest matter.",
     "state": "UNANSWERED",
     "wants": [
-      "Supreme Court case status and filings for W.P.(C) 280/2026 at sci.gov.in; the SCR portal at scr.sci.gov.in for orders; and, once a diary number is known, a certified copy from the registry. Parties' counsel are on the record and the pleadings are public documents in a public interest matter."
+      "Supreme Court case status and filings for W.P.(Crl.) 280/2026 at sci.gov.in; the SCR portal at scr.sci.gov.in for orders; and, once a diary number is known, a certified copy from the registry. Parties' counsel are on the record and the pleadings are public documents in a public interest matter."
     ],
     "evidenceIds": [],
     "blocks": [
@@ -38030,13 +38078,15 @@ WGO.importedQuestions = [
     "incidentId": "INC-0001",
     "text": "The Supreme Court's order of 18 August 2026 constituting the High Powered Enquiry Committee, and the committee's terms of reference as issued.",
     "priority": "HIGH",
-    "whyItMatters": "The committee's mandate is reported to include the deployment of pellet guns by name. What it may and may not examine, what powers it has and what it must report on are all fixed by the order, and this archive holds only journalists' accounts of it. The order is also the document that would settle whether this matter is a civil or a criminal writ, which the reporting cites both ways. PARTLY INFORMED 14 October 2026: the Committee's own site states the mandate and the priority paragraphs (PROC-SC-016). The order itself is still unheld; the site links it at hpec.nic.in/supreme-court-orders.",
+    "whyItMatters": "The committee's mandate is reported to include the deployment of pellet guns by name. What it may and may not examine, what powers it has and what it must report on are all fixed by the order, and this archive holds only journalists' accounts of it. The order is also the document that would settle whether this matter is a civil or a criminal writ, which the reporting cites both ways. PARTLY INFORMED 14 October 2026: the Committee's own site states the mandate and the priority paragraphs (PROC-SC-016). The order itself is still unheld; the site links it at hpec.nic.in/supreme-court-orders. ANSWERED 14 October 2026: the order of 18 August 2026 was supplied and read in full, and is at PROC-SC-018. The Committee's mandate, powers and reporting duty are fixed by paragraphs 12 to 27 of that order. The caption shows the lead matter as a criminal writ petition, W.P.(Crl.) No. 280/2026, with civil writ petitions connected.",
     "lawfulRoute": "Supreme Court orders are published on the Court's own site and are free. Retrieve it by case number and date of order and record the URL actually fetched. Do not reconstruct a path. If the number is wrong, search the cause list for 10 September 2026, the reported next date.",
-    "state": "UNANSWERED",
+    "state": "ANSWERED",
     "wants": [
       "Supreme Court orders are published on the Court's own site and are free. Retrieve it by case number and date of order and record the URL actually fetched. Do not reconstruct a path. If the number is wrong, search the cause list for 10 September 2026, the reported next date."
     ],
-    "evidenceIds": [],
+    "evidenceIds": [
+      "PROC-SC-018"
+    ],
     "blocks": [
       "PROC-SC-006",
       "PROC-SC-001"
@@ -38190,7 +38240,7 @@ WGO.importedQuestions = [
     "incidentId": "INC-0001",
     "text": "Were any of the July 2026 telecommunications suspension orders for Central Delhi published, and if so where; and does the confidential witness portal directed by the Supreme Court on 10 September 2026 now exist, at what address?",
     "priority": "HIGH",
-    "whyItMatters": "Two halves of the same problem. CUS-SHUT-001 records the Internet Freedom Foundation's observation on 20 July that no suspension order had been published; this archive has not itself searched every gazette and portal, so it records that as reported. An absence is the hardest thing to prove and the easiest to assert. The portal matters for a different reason: it is the one route this archive could point a frightened witness to, and pointing anyone at a portal whose existence is unconfirmed would be worse than saying nothing. PARTLY ANSWERED 14 October 2026: the Committee's own site, hpec.nic.in, advertises a confidential route for vulnerable witnesses and names a Member Secretary (PROC-SC-017). Whether the route works has not been tested, and the second-order question of whether it is the portal the Court directed is an inference. The telecommunications-suspension half is unchanged.",
+    "whyItMatters": "Two halves of the same problem. CUS-SHUT-001 records the Internet Freedom Foundation's observation on 20 July that no suspension order had been published; this archive has not itself searched every gazette and portal, so it records that as reported. An absence is the hardest thing to prove and the easiest to assert. The portal matters for a different reason: it is the one route this archive could point a frightened witness to, and pointing anyone at a portal whose existence is unconfirmed would be worse than saying nothing. PARTLY ANSWERED 14 October 2026: the Committee's own site, hpec.nic.in, advertises a confidential route for vulnerable witnesses and names a Member Secretary (PROC-SC-017). Whether the route works has not been tested, and the second-order question of whether it is the portal the Court directed is an inference. The telecommunications-suspension half is unchanged. The order of 10 September, now held (PROC-SC-019), says only that a portal 'may be created'. It directs nothing and names no address. So the portal half rests on the Committee's own site (PROC-SC-017) and on whether that route works.",
     "lawfulRoute": "Search the MHA, DoT, GNCTD and Delhi Police sites; FQ-014 for the orders; FQ-016 for the order copy.",
     "state": "UNANSWERED",
     "wants": [
@@ -38344,6 +38394,23 @@ WGO.importedQuestions = [
       "INC-DEL-026"
     ],
     "category": "incident"
+  },
+  {
+    "id": "OQ-063",
+    "incidentId": null,
+    "text": "What did the Supreme Court do on 9 October 2026, the date the 10 September order listed W.P.(Crl.) No. 280/2026 and connected matters for further consideration, and has the Committee filed or been asked for a first interim report?",
+    "priority": "HIGH",
+    "whyItMatters": "The Committee's first report on issues (i) and (vi) of paragraph 12 was requested 'at the earliest' on 18 August and again on 10 September. The 9 October listing is the next point at which the Court could set a date for it, say anything about the confidential portal, or deal with the Delhi Police status report on the protection of the 14-year-old protester ordered in W.P.(C) No. 324/2026. No order of that date is held and no report of it has been found.",
+    "lawfulRoute": "The order of 9 October will appear on the Supreme Court's site and, as the two earlier orders did, on the Committee's Supreme Court Orders page (hpec.nic.in/supreme-court-orders). The archive owner can save it from there, the way the earlier two arrived.",
+    "state": "UNANSWERED",
+    "wants": [
+      "The order of 9 October will appear on the Supreme Court's site and, as the two earlier orders did, on the Committee's Supreme Court Orders page (hpec.nic.in/supreme-court-orders). The archive owner can save it from there, the way the earlier two arrived."
+    ],
+    "evidenceIds": [],
+    "blocks": [
+      "PROC-SC-019"
+    ],
+    "category": "legal_proceeding"
   }
 ];
 
@@ -38410,7 +38477,7 @@ WGO.importedFilings = [
     "cost": "Free",
     "legalBasis": "Published judicial record.",
     "exposureRisk": false,
-    "notes": "Every Supreme Court record in this archive is an outlet's account of an order. That is a weakness across the whole supreme_court category and is cheap to fix because the orders are public. Getting the 10 September order would also settle whether the confidential witness portal at OQ-054 exists and where.",
+    "notes": "Every Supreme Court record in this archive is an outlet's account of an order. That is a weakness across the whole supreme_court category and is cheap to fix because the orders are public. Getting the 10 September order would also settle whether the confidential witness portal at OQ-054 exists and where. DONE 14 October 2026: both orders were supplied by the archive owner and are held at PROC-SC-018 and PROC-SC-019. Their download address was not recorded; the file hashes were.",
     "resolves": []
   },
   {

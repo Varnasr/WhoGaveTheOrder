@@ -304,7 +304,7 @@
   {
     "id": "OQ-033",
     "kind": "Question",
-    "title": "The Delhi Police affidavit filed in W.P.(C) 280/2026 concerning the use of facial recognition technology at the Jantar Mantar protest.",
+    "title": "The Delhi Police affidavit filed in W.P.(Crl.) 280/2026 concerning the use of facial recognition technology at the Jantar Mantar protest.",
     "state": "UNANSWERED",
     "url": "https://www.whogavetheorder.in/incident/jantar-mantar.html#OQ-033",
     "incidentId": "INC-0001",
@@ -425,11 +425,13 @@
     "id": "OQ-045",
     "kind": "Question",
     "title": "The Supreme Court's order of 18 August 2026 constituting the High Powered Enquiry Committee, and the committee's terms of reference as issued.",
-    "state": "UNANSWERED",
+    "state": "ANSWERED",
     "url": "https://www.whogavetheorder.in/incident/jantar-mantar.html#OQ-045",
     "incidentId": "INC-0001",
     "level": null,
-    "evidenceIds": []
+    "evidenceIds": [
+      "PROC-SC-018"
+    ]
   },
   {
     "id": "OQ-046",
@@ -598,6 +600,16 @@
     "state": "UNANSWERED",
     "url": "https://www.whogavetheorder.in/incident/jantar-mantar.html#OQ-062",
     "incidentId": "INC-0001",
+    "level": null,
+    "evidenceIds": []
+  },
+  {
+    "id": "OQ-063",
+    "kind": "Question",
+    "title": "What did the Supreme Court do on 9 October 2026, the date the 10 September order listed W.P.(Crl.) No. 280/2026 and connected matters for further consideration, and has the Committee filed or been asked for a first interim report?",
+    "state": "UNANSWERED",
+    "url": "https://www.whogavetheorder.in/incident/.html#OQ-063",
+    "incidentId": null,
     "level": null,
     "evidenceIds": []
   }

@@ -212,7 +212,7 @@
     "id": "PROC-SC-001",
     "jurisdiction": "supreme_court",
     "category": "legal_proceeding",
-    "claim": "Supreme Court proceedings on petitions concerning police action at Jantar Mantar and elsewhere; petitions allege lathi charge, pellet guns, rubber bullets, tear gas, electronic batons and nail-embedded lathis. Cause title Shailendra Mani Tripathi v. Union of India and Ors., W.P.(C) 280/2026 and connected matters, before the Chief Justice of India Surya Kant, Justice Joymalya Bagchi and Justice V. Mohana. Cited as 2026 SCC OnLine SC 1409, ordered 28 July 2026, listed for further consideration 3 August 2026, and heard again on 18 August 2026.",
+    "claim": "Supreme Court proceedings on petitions concerning police action at Jantar Mantar and elsewhere; petitions allege lathi charge, pellet guns, rubber bullets, tear gas, electronic batons and nail-embedded lathis. Cause title Shailendra Mani Tripathi v. Union of India and Ors., W.P.(Crl.) 280/2026 and connected matters, before the Chief Justice of India Surya Kant, Justice Joymalya Bagchi and Justice V. Mohana. Cited as 2026 SCC OnLine SC 1409, ordered 28 July 2026, listed for further consideration 3 August 2026, and heard again on 18 August 2026.",
     "confidence": "CORROBORATED",
     "sources": [
       {
@@ -232,7 +232,7 @@
         "archived_on": "2026-08-19"
       }
     ],
-    "notes": "The writ petition number W.P.(C) 280/2026 and the composition of the bench come from reporting of the 18 August 2026 hearing, which is also the source for PROC-SC-002 and PROC-SC-003. The SCC OnLine citation is a secondary source from a commercial reporter. No order of this Court is held. The Supreme Court is reported to have proposed a High-Powered Committee to examine the police action, which the petitioners opposed as to the facial recognition issues; whether such a committee has been constituted is not established.",
+    "notes": "The writ petition number W.P.(Crl.) 280/2026 and the composition of the bench come from reporting of the 18 August 2026 hearing, which is also the source for PROC-SC-002 and PROC-SC-003. The SCC OnLine citation is a secondary source from a commercial reporter. No order of this Court is held. The Supreme Court is reported to have proposed a High-Powered Committee to examine the police action, which the petitioners opposed as to the facial recognition issues; whether such a committee has been constituted is not established.",
     "volatility": "high"
   },
   {
@@ -2531,7 +2531,7 @@
     "id": "PROC-SC-002",
     "jurisdiction": "delhi",
     "category": "legal_proceeding",
-    "claim": "Delhi Police stated on affidavit before the Supreme Court, at a hearing on 18 August 2026 in Shailendra Mani Tripathi v. Union of India and Ors., W.P.(C) 280/2026 and connected matters, that facial recognition technology was deployed at the Jantar Mantar protest.",
+    "claim": "Delhi Police stated on affidavit before the Supreme Court, at a hearing on 18 August 2026 in Shailendra Mani Tripathi v. Union of India and Ors., W.P.(Crl.) 280/2026 and connected matters, that facial recognition technology was deployed at the Jantar Mantar protest.",
     "confidence": "CORROBORATED",
     "sources": [
       {
@@ -2768,7 +2768,7 @@
         "archived_on": "2026-09-09"
       }
     ],
-    "notes": "Updated 21 August 2026, and the earlier version of this record is now wrong. It said a committee had been decided on but not shown to be constituted, and that whether it existed was not established. It has since been constituted, by an order reported dated 18 August 2026, and five members are named. The record has been corrected in place, and this note says what it used to say. Why this matters more than any other proceeding here: a committee with terms of reference and a reporting obligation generates documents. Its constitution order, its terms of reference and its interim reports are all records that can be asked for, and the deployment of pellet guns is inside its mandate by name. What is not held: the order itself. Everything above is reporting of it. No terms of reference document is in this archive, and the wording quoted by outlets is theirs. See OQ-045. A discrepancy worth recording: this matter is cited as W.P.(C) 280/2026 at PROC-SC-001 and as W.P.(Crl) 280/2026 in the reporting of this order. One of them is wrong and the archive does not know which. The cause list or the order itself would settle it, as a cause list already settled the Delhi numbering at PROC-DEL-002.",
+    "notes": "Updated 21 August 2026, and the earlier version of this record is now wrong. It said a committee had been decided on but not shown to be constituted, and that whether it existed was not established. It has since been constituted, by an order reported dated 18 August 2026, and five members are named. The record has been corrected in place, and this note says what it used to say. Why this matters more than any other proceeding here: a committee with terms of reference and a reporting obligation generates documents. Its constitution order, its terms of reference and its interim reports are all records that can be asked for, and the deployment of pellet guns is inside its mandate by name. What is not held: the order itself. Everything above is reporting of it. No terms of reference document is in this archive, and the wording quoted by outlets is theirs. See OQ-045. A discrepancy worth recording: this matter is cited as W.P.(Crl.) 280/2026 at PROC-SC-001 and as W.P.(Crl) 280/2026 in the reporting of this order. One of them is wrong and the archive does not know which. The cause list or the order itself would settle it, as a cause list already settled the Delhi numbering at PROC-DEL-002. 14 October 2026: the order of 18 August is now held (PROC-SC-018). The five members, the chair, the issue list and the request for a first interim report are confirmed. The Article 142 sentence above is not in the order and stays reported only. The case number is W.P.(Crl.) No. 280/2026.",
     "volatility": "high"
   },
   {
@@ -3361,9 +3361,9 @@
     "id": "PROC-SC-011",
     "jurisdiction": "supreme_court",
     "category": "legal_proceeding",
-    "claim": "By an order reported dated 10 September 2026, a three-judge bench of the Chief Justice of India Surya Kant, Justice Joymalya Bagchi and Justice V. Mohana declined to reconstitute the High Powered Enquiry Committee; directed that a separate online portal be created through which vulnerable witnesses may confidentially submit statements, documents and other evidence; directed the committee to protect the identity and participation of such witnesses; appointed Senior Advocate Monika Gusain and Advocate-on-Record C. Solomon as amici curiae to act as independent intermediaries; and directed the committee to appoint a member secretary for secretarial and logistical support.",
-    "confidence": "REPORTED",
-    "notes": "This closes a thread the archive left open twice. PROC-SC-006 recorded that the Court listed the matter for 10 September 2026; PROC-SC-010 recorded that a plea challenging the committee's composition was before the Court. This is what happened to both. The refusal is reported on the ground that “there was no basis for changing the panel merely on the strength of preconceived assumptions”. The confidential portal is the part that bears on this archive's own users. Somebody who was assaulted by police and is also named in an FIR has an obvious reason not to depose through ordinary channels. Whether the portal now exists, and at what address, is NOT established: see OQ-054. This archive will not direct anyone to a portal it has not confirmed. Recorded as REPORTED on a deliberate reading of this archive's own rule, which withholds CORROBORATED here. Three outlets carry it, but they are three accounts of one order, and the order is not held. Where the underlying document is a single court order, multiple outlets are multiple reports of one thing. The upgrade is the order copy from the Supreme Court's own site: see FQ-014. Amended 23 September 2026 to name the full bench and both amici, and to record the member-secretary direction, all of which the first version of this record left out. The order is dated 10 September and was reported on 16 September; the archive had the order date right and that was worth re-checking, because it was inferred from the listing date at PROC-SC-006 before any source confirmed it.",
+    "claim": "By an order dated 10 September 2026, a three-judge bench of the Chief Justice of India Surya Kant, Justice Joymalya Bagchi and Justice V. Mohana declined to reconstitute the High Powered Enquiry Committee; said that a separate online portal may be created through which vulnerable witnesses and other stakeholders can submit documents and evidence; requested the Committee to protect the identity of vulnerable witnesses; appointed Dr Monika Gusain, Senior Advocate, and C. Solomon, Advocate-on-Record, as amici curiae; and requested the Committee to appoint a member secretary.",
+    "confidence": "VERIFIED",
+    "notes": "This closes a thread the archive left open twice. PROC-SC-006 recorded that the Court listed the matter for 10 September 2026; PROC-SC-010 recorded that a plea challenging the committee's composition was before the Court. This is what happened to both. The refusal is reported on the ground that “there was no basis for changing the panel merely on the strength of preconceived assumptions”. The confidential portal is the part that bears on this archive's own users. Somebody who was assaulted by police and is also named in an FIR has an obvious reason not to depose through ordinary channels. Whether the portal now exists, and at what address, is NOT established: see OQ-054. This archive will not direct anyone to a portal it has not confirmed. Recorded as REPORTED on a deliberate reading of this archive's own rule, which withholds CORROBORATED here. Three outlets carry it, but they are three accounts of one order, and the order is not held. Where the underlying document is a single court order, multiple outlets are multiple reports of one thing. The upgrade is the order copy from the Supreme Court's own site: see FQ-014. Amended 23 September 2026 to name the full bench and both amici, and to record the member-secretary direction, all of which the first version of this record left out. The order is dated 10 September and was reported on 16 September; the archive had the order date right and that was worth re-checking, because it was inferred from the listing date at PROC-SC-006 before any source confirmed it. CORRECTED 14 October 2026 from the order itself (PROC-SC-019). The earlier text said the Court 'directed' that a portal be created, 'directed' the committee to protect witnesses and 'directed' it to appoint a member secretary. The order says the portal 'may be created' and uses 'request' for the other two. The press accounts overstated the force of these, and the first version of this record repeated them. The amici are described in the order as acting 'as a representative of the HPEC' and as 'an independent arbiter between the parties', where the press called them intermediaries for witnesses. The record moves from REPORTED to VERIFIED because the order is now held. The three press sources stay as the account the archive first relied on.",
     "volatility": "medium",
     "sources": [
       {
@@ -3389,6 +3389,14 @@
         "retrieved_on": "2026-09-23",
         "archive_url": "http://web.archive.org/web/20260924074344/https://lawchakra.in/supreme-court/pellet-guns-police-surveillance-supreme-court-told-constitutional-questions-from-student-protests-are-outside-committees-remit/",
         "archived_on": "2026-09-25"
+      },
+      {
+        "url": "https://hpec.nic.in/supreme-court-orders",
+        "source_type": "primary",
+        "publication": "Supreme Court of India, Record of Proceedings of 10 September 2026, W.P.(Crl.) No. 280/2026 and connected matters (PDF)",
+        "retrieved_on": "2026-10-14",
+        "sha256": "36ef25c5b08dea93e17161c18076f30d2848a605682bb7d7206e444b46ac0e61",
+        "note": "Read in full from a PDF supplied by the archive owner, who obtained it through the Committee's Supreme Court Orders page (hpec.nic.in/supreme-court-orders). The PDF's own signature block reads 'Signature Not Verified', digitally signed 2026.09.15 (Arjun Bisht). The exact download address was not supplied, so the archive records the page and the file's sha256."
       }
     ],
     "added_on": "2026-09-23"
@@ -36751,6 +36759,46 @@
     ],
     "notes": "This answers the second half of OQ-054 in part. PROC-SC-011 recorded a direction that the Court wanted a separate online portal for vulnerable witnesses and that the Committee appoint a member secretary; the Committee's own site now advertises a confidential route and names a Member Secretary. What this archive has not done is use the form, so it cannot say that the confidential route works, how a submission is stored, or who can read it. The archive does not run, endorse or relay these submissions and is independent of the Committee. The telephone number, postal address and generic email address are published by the Committee for the public; the archive reproduces them for that reason only. Whether the confidential route is the portal the Court directed on 10 September is an inference from the matching description and is not stated on the page.",
     "volatility": "medium",
+    "added_on": "2026-10-14"
+  },
+  {
+    "id": "PROC-SC-018",
+    "jurisdiction": "supreme_court",
+    "category": "legal_proceeding",
+    "claim": "By its order of 18 August 2026 in W.P.(Crl.) No. 280/2026 (Shailendra Mani Tripathi v. Union of India and Ors.) and connected matters, a bench of the Chief Justice and Justices Joymalya Bagchi and V. Mohana constituted a High-Powered Enquiry Committee of five: Justice (Retd.) R. Subhash Reddy (Chairperson), Justice Ravi Shankar Jha, Justice Shalinder Kaur, Shri Rishi Kumar Shukla and Dr L. R. Bishnoi. Paragraph 12 lists nine issues raised by the petitioners (including pellet guns, electric batons, lathi charges and tear gas; a ban on metallic kinetic projectiles; visible nameplates; surveillance of protesters; targeted violence against women protesters; compensation; blanket Section 163 BNSS orders; and Section 152 BNS). Paragraph 13 lists three raised by the respondents (violence by protesters against police, damage to public property, and injuries to police personnel and their families). Paragraph 14 says all of them merit analysis, and that the Committee may consider incidental issues. Paragraph 16 makes the enquiry continuous with periodic interim findings. Paragraph 17 recommends priority for targeted violence, harassment and molestation of women protesters, and paragraph 18 lets the Committee examine the chain of command and interim compensation. Paragraph 19 reserves the broader constitutional questions for the Court. Paragraph 20 gives liberty to approach the Committee and allows complaints and material to be provided anonymously. Paragraph 21 appoints nodal counsel. Paragraph 22 directs police, paramilitary and investigating agencies to preserve CCTV, drone and body-worn camera footage, videography, wireless communication records and PCR call logs, and to furnish the entire record to the Committee. Paragraph 26 says the Committee shall employ a Member Secretary chosen by the Chairperson. Paragraph 27 requests a First Interim Report on issues (i) and (vi) of paragraph 12 at the earliest. Paragraph 28 makes notice in fresh matters returnable on 10 September 2026.",
+    "confidence": "VERIFIED",
+    "sources": [
+      {
+        "url": "https://hpec.nic.in/supreme-court-orders",
+        "source_type": "primary",
+        "publication": "Supreme Court of India, Record of Proceedings of 18 August 2026, W.P.(Crl.) No. 280/2026 and connected matters (PDF)",
+        "retrieved_on": "2026-10-14",
+        "sha256": "203c4807fca2abb39b892b40b1e2ee46731e574eb52f87a75ba13b04da96b0ec",
+        "note": "Read in full from a PDF supplied by the archive owner, who obtained it through the Committee's Supreme Court Orders page (hpec.nic.in/supreme-court-orders). The PDF's own signature block reads 'Signature Not Verified', digitally signed 2026.08.20 (Anita Malhotra). The exact download address was not supplied, so the archive records the page and the file's sha256."
+      }
+    ],
+    "notes": "This is the order itself, and it settles OQ-045 and the first half of FQ-016. It corrects three things the archive carried from reporting. First, the lead matter is W.P.(Crl.) No. 280/2026, not W.P.(C), which PROC-SC-001 and others had recorded; the archive has changed those. Second, the preservation direction in paragraph 22 is described in the order as clarifying a direction from the 28 July order, and adds the furnishing of the record to the Committee. Third, nothing in this order mentions an Article 142 power to quash FIRs, which PROC-SC-006 records as separately reported; that remains reported only. Paragraphs 4 and 5 recite what the 28 July order directed (no coercive steps, release of children below 18, protection not extending to those accused of grave and heinous offences with criminal antecedents, and preservation of protesters' personal data); that is the Court describing its own earlier order, and the 28 July order itself is still not held. The order names no pellet-gun SOP and gives no dates for the Committee's reports.",
+    "volatility": "medium",
+    "added_on": "2026-10-14"
+  },
+  {
+    "id": "PROC-SC-019",
+    "jurisdiction": "supreme_court",
+    "category": "legal_proceeding",
+    "claim": "By its order of 10 September 2026 in the same batch, the Court recorded that the Union had complied with paragraph 24 of the 18 August order (infrastructure and facilities for the Committee), and declined to reconstitute the Committee on I.A. No. 258046/2026, saying the prayer rested on 'nothing more than conjecture and preconceived notions' and that aspersions had been cast on the Committee 'in a manner that is both premature and precipitate'. The Court requested the Committee to begin with items (i), (vi) and (vii) of paragraph 12 and item (iii) of paragraph 13, including pellet guns, targeted violence and harassment of women protesters, and 'excessive violence and destruction of property occasioned on either side'; repeated its reservation of the broader constitutional questions; requested that vulnerable witnesses be given protection and have their identities kept confidential and undisclosed; and said that 'a separate online portal may be created' for such witnesses and other stakeholders to submit documents and evidence. It clarified that the nodal counsel's role is confined to assisting the Court and is not a line of communication between the Committee, the Court and the parties; directed the Registry to give them the paperbooks; appointed Dr Monika Gusain, Senior Advocate, and Mr C. Solomon, AOR, as amici curiae 'as a representative of the HPEC' who 'shall further act as an independent arbiter between the parties'; requested the Committee to appoint a Member Secretary at the earliest; and requested its first report at the earliest. In W.P.(C) No. 324/2026 it directed Delhi Police to assess the threat perception and protect a 14-year-old protester and her family, to investigate expeditiously those said to be threatening them, and to file a status report before the next hearing. The matter was listed on 9 October 2026 for further consideration.",
+    "confidence": "VERIFIED",
+    "sources": [
+      {
+        "url": "https://hpec.nic.in/supreme-court-orders",
+        "source_type": "primary",
+        "publication": "Supreme Court of India, Record of Proceedings of 10 September 2026, W.P.(Crl.) No. 280/2026 and connected matters (PDF)",
+        "retrieved_on": "2026-10-14",
+        "sha256": "36ef25c5b08dea93e17161c18076f30d2848a605682bb7d7206e444b46ac0e61",
+        "note": "Read in full from a PDF supplied by the archive owner, who obtained it through the Committee's Supreme Court Orders page (hpec.nic.in/supreme-court-orders). The PDF's own signature block reads 'Signature Not Verified', digitally signed 2026.09.15 (Arjun Bisht). The exact download address was not supplied, so the archive records the page and the file's sha256."
+      }
+    ],
+    "notes": "The order uses the language of request and permission in several places where the earlier record said 'directed'. The portal 'may be created', the Committee is 'requested' to protect witnesses and to appoint a Member Secretary, and the first report is 'requested'. PROC-SC-011 has been corrected to match. The order does not direct that a portal be built, does not name an address, and does not say the portal exists. The Committee's own site now advertises a confidential route (PROC-SC-017); whether that is the portal the Court contemplated is still an inference. The order does not name the child, and the archive records only what the order says about her protection. The next date, 9 October 2026, has passed; what happened then is not held (OQ-063).",
+    "volatility": "high",
     "added_on": "2026-10-14"
   }
 ]

@@ -250,7 +250,7 @@
     "cost": "Free",
     "legal_basis": "Published judicial record.",
     "exposure_risk": false,
-    "notes": "Every Supreme Court record in this archive is an outlet's account of an order. That is a weakness across the whole supreme_court category and is cheap to fix because the orders are public. Getting the 10 September order would also settle whether the confidential witness portal at OQ-054 exists and where."
+    "notes": "Every Supreme Court record in this archive is an outlet's account of an order. That is a weakness across the whole supreme_court category and is cheap to fix because the orders are public. Getting the 10 September order would also settle whether the confidential witness portal at OQ-054 exists and where. DONE 14 October 2026: both orders were supplied by the archive owner and are held at PROC-SC-018 and PROC-SC-019. Their download address was not recorded; the file hashes were."
   },
   {
     "id": "FQ-017",
