@@ -5,6 +5,117 @@ window.WGO = window.WGO || {};
 
 WGO.changes = [
   {
+    "commit": "233d35bb12",
+    "date": "2026-10-14T04:48:52Z",
+    "subject": "Record the Committee's own site: mandate and submission routes (PROC-SC-016, 017)",
+    "added": [
+      {
+        "id": "PROC-SC-016",
+        "kind": "Evidence",
+        "title": "The High Powered Enquiry Committee has a website at hpec.nic.in, with a home page, an About The Committee page, a Supreme Court Orders page, a Submit Informatio",
+        "state": "VERIFIED",
+        "url": "evidence.html?id=PROC-SC-016"
+      },
+      {
+        "id": "PROC-SC-017",
+        "kind": "Evidence",
+        "title": "The Committee's home page lists four ways to give it information. (A) Affected persons, including police personnel, may submit information or a complaint on the",
+        "state": "VERIFIED",
+        "url": "evidence.html?id=PROC-SC-017"
+      },
+      {
+        "id": "SRC-1078",
+        "kind": "Source",
+        "title": "High Powered Enquiry Committee (hpec.nic.in), home page",
+        "state": null,
+        "url": "https://hpec.nic.in/"
+      }
+    ],
+    "removed": [],
+    "changed": [],
+    "summary": "3 records added"
+  },
+  {
+    "commit": "6ccfbeb981",
+    "date": "2026-10-13T09:41:54Z",
+    "subject": "Sweep log and archived copies for 2026-10-13 [skip ci]",
+    "added": [],
+    "removed": [],
+    "changed": [
+      {
+        "id": "SRC-0139",
+        "kind": "Source",
+        "title": "Onmanorama, 15 February 2016",
+        "state": null,
+        "url": "https://www.onmanorama.com/news/nation/afzal-guru-row-jnu-sends-status-report-to-hrd-ministry.html",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20261012093303/https://www.onmanorama.com/news/nation/afzal-guru-row-jnu-sends-status-report-to-hrd-ministry.html"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0140",
+        "kind": "Source",
+        "title": "The Quint live blog, 22 February 2016",
+        "state": null,
+        "url": "https://thequint.com/news/india/live-umar-khaled-4-others-back-at-jnu-campus-told-to-surrender",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "https://web.archive.org/web/20261013093741/https://www.thequint.com/news/india/live-umar-khaled-4-others-back-at-jnu-campus-told-to-surrender"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0141",
+        "kind": "Source",
+        "title": "ummid.com, 22 February 2016 (IANS)",
+        "state": null,
+        "url": "https://ummid.com/news/2016/February/22.02.2016/delhi-police-chief-asks-jnu-students-to-join-probe.html",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20160223100159/http://www.ummid.com/news/2016/February/22.02.2016/delhi-police-chief-asks-jnu-students-to-join-probe.html"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0145",
+        "kind": "Source",
+        "title": "Indian Kanoon, reproducing Supreme Court record of proceedings, 18 February 2016",
+        "state": null,
+        "url": "https://indiankanoon.org/doc/101836268/",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20261012093744/https://indiankanoon.org/doc/101836268/"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0147",
+        "kind": "Source",
+        "title": "India.com, 17 February 2016 (PTI)",
+        "state": null,
+        "url": "https://www.india.com/news/india/fear-terror-in-patiala-court-senior-lawyers-to-supreme-court-957246/",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20260613022538/https://www.india.com/news/india/fear-terror-in-patiala-court-senior-lawyers-to-supreme-court-957246/"
+          }
+        ]
+      }
+    ],
+    "summary": "5 records edited"
+  },
+  {
     "commit": "dfadece8c1",
     "date": "2026-10-12T13:29:41Z",
     "subject": "Rewrite caveat sentences and documentation in positive wording; remove em dashes from code comments and workflows",
