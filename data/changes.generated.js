@@ -5,6 +5,86 @@ window.WGO = window.WGO || {};
 
 WGO.changes = [
   {
+    "commit": "2347d00c52",
+    "date": "2026-10-14T07:56:22Z",
+    "subject": "Sweep log and archived copies for 2026-10-14 [skip ci]",
+    "added": [],
+    "removed": [],
+    "changed": [
+      {
+        "id": "SRC-0146",
+        "kind": "Source",
+        "title": "Indian Kanoon, reproducing Supreme Court record of proceedings, 23 February 2016",
+        "state": null,
+        "url": "https://indiankanoon.org/doc/76768152/",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20261013093909/https://indiankanoon.org/doc/76768152/"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0150",
+        "kind": "Source",
+        "title": "LiveLaw, 26 February 2016",
+        "state": null,
+        "url": "https://www.livelaw.in/amp/patiala-house-violence-sc-issues-notice-kamini-jaiswals-plea-sit-contempt-three-lawyers",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20261013094055/https://www.livelaw.in/amp/patiala-house-violence-sc-issues-notice-kamini-jaiswals-plea-sit-contempt-three-lawyers"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0152",
+        "kind": "Source",
+        "title": "Legally India, 15 May 2016 (IANS)",
+        "state": null,
+        "url": "https://www.legallyindia.com/the-bench-and-the-bar/after-3-months-cops-manage-to-id-patiala-house-thug-vocates-but-not-much-else-20160515-7591",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20201001015904/https://www.legallyindia.com/the-bench-and-the-bar/after-3-months-cops-manage-to-id-patiala-house-thug-vocates-but-not-much-else-20160515-7591"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0153",
+        "kind": "Source",
+        "title": "India Legal, 26 February 2016",
+        "state": null,
+        "url": "https://indialegallive.com/top-news-of-the-day/breaking-news-articles/patiala-house-violence-supreme-court-directs-delhi-police-to-form-sit/",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20240913040401/https://indialegallive.com/top-news-of-the-day/breaking-news-articles/patiala-house-violence-supreme-court-directs-delhi-police-to-form-sit/"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0155",
+        "kind": "Source",
+        "title": "Indian Kanoon, reproducing Supreme Court order of 14 March 2018 in R.P.(C) 411/2018",
+        "state": null,
+        "url": "https://indiankanoon.org/doc/29930163/",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "https://web.archive.org/web/20261014075518/https://indiankanoon.org/doc/29930163/"
+          }
+        ]
+      }
+    ],
+    "summary": "5 records edited"
+  },
+  {
     "commit": "0421d2c36c",
     "date": "2026-10-14T05:37:53Z",
     "subject": "Open Bhagalpur, 25 July 2026, as its own incident on a second report",

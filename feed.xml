@@ -3,10 +3,19 @@
   <title>WhoGaveTheOrder.in: changes to the record</title>
   <subtitle>Every record that has been added, moved between states, or edited.</subtitle>
   <id>tag:whogavetheorder.in,2026:feed</id>
-  <updated>2026-10-14T05:37:53Z</updated>
+  <updated>2026-10-14T07:56:22Z</updated>
   <link href="https://www.whogavetheorder.in/"/>
   <link rel="self" href="https://www.whogavetheorder.in/feed.xml"/>
   <rights>Reuse with attribution</rights>
+  <entry>
+    <title>5 records edited</title>
+    <id>tag:whogavetheorder.in,2026:change/2347d00c52</id>
+    <updated>2026-10-14T07:56:22Z</updated>
+    <link href="https://www.whogavetheorder.in/changes.html#2347d00c52"/>
+    <content type="html">
+      &lt;p&gt;Sweep log and archived copies for 2026-10-14 [skip ci]&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Edited Source SRC-0146: Indian Kanoon, reproducing Supreme Court record of proceedings, 23 February 2016&lt;/li&gt;&lt;li&gt;Edited Source SRC-0150: LiveLaw, 26 February 2016&lt;/li&gt;&lt;li&gt;Edited Source SRC-0152: Legally India, 15 May 2016 (IANS)&lt;/li&gt;&lt;li&gt;Edited Source SRC-0153: India Legal, 26 February 2016&lt;/li&gt;&lt;li&gt;Edited Source SRC-0155: Indian Kanoon, reproducing Supreme Court order of 14 March 2018 in R.P.(C) 411/2018&lt;/li&gt;&lt;/ul&gt;
+    </content>
+  </entry>
   <entry>
     <title>3 records added · 2 records edited</title>
     <id>tag:whogavetheorder.in,2026:change/0421d2c36c</id>
@@ -446,15 +455,6 @@
     <link href="https://www.whogavetheorder.in/changes.html#0cd00ccfb2"/>
     <content type="html">
       &lt;p&gt;Sweep log and archived copies for 2026-09-04 [skip ci]&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Edited Source SRC-0059: onlinelawconnect&lt;/li&gt;&lt;li&gt;Edited Source SRC-0073: Bellingcat&lt;/li&gt;&lt;li&gt;Edited Source SRC-0074: GIJN&lt;/li&gt;&lt;/ul&gt;
-    </content>
-  </entry>
-  <entry>
-    <title>5 records edited</title>
-    <id>tag:whogavetheorder.in,2026:change/69aacabd53</id>
-    <updated>2026-09-02T07:20:41Z</updated>
-    <link href="https://www.whogavetheorder.in/changes.html#69aacabd53"/>
-    <content type="html">
-      &lt;p&gt;Sweep log and archived copies for 2026-09-02 [skip ci]&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Edited Source SRC-0001: Bar &amp;amp; Bench&lt;/li&gt;&lt;li&gt;Edited Source SRC-0015: Bar &amp;amp; Bench&lt;/li&gt;&lt;li&gt;Edited Source SRC-0016: India Legal&lt;/li&gt;&lt;li&gt;Edited Source SRC-0067: LegitQuest&lt;/li&gt;&lt;li&gt;Edited Source SRC-0072: commoner-law.com&lt;/li&gt;&lt;/ul&gt;
     </content>
   </entry>
 </feed>
