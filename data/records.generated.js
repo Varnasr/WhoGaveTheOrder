@@ -11533,6 +11533,17 @@ WGO.importedSources = [
     "originatesFrom": null
   },
   {
+    "id": "SRC-1078",
+    "name": "High Powered Enquiry Committee (hpec.nic.in), home page",
+    "kind": "PRIMARY",
+    "url": "https://hpec.nic.in/",
+    "retrievedOn": "2026-10-14",
+    "archiveUrl": null,
+    "archivedOn": null,
+    "sha256": null,
+    "originatesFrom": null
+  },
+  {
     "id": "SRC-0056",
     "name": "India Code",
     "kind": "PRIMARY",
@@ -36602,6 +36613,42 @@ WGO.importedEvidence = [
     "relatedIds": [],
     "accessNote": "",
     "volatility": "medium"
+  },
+  {
+    "id": "PROC-SC-016",
+    "title": "The High Powered Enquiry Committee has a website at hpec.nic.in, with a home page, an About The Committee page, a Supreme Court Orders page, a Submit Informatio",
+    "type": "COURT_DOCUMENT",
+    "verification": "VERIFIED",
+    "incidentId": null,
+    "dateOfItem": null,
+    "dateAdded": "2026-10-14",
+    "sourceIds": [
+      "SRC-1078"
+    ],
+    "origin": "",
+    "establishes": "This is the Committee's own statement of its mandate, and it is the first primary document the archive holds on the Committee. VERIFIED here means only that the home page says this. It does not stand in for the orders. The paragraph text quoted on the page is a summary of paragraphs 12 and 13, and the page links to the order of 18 August and the order of 10 September under its Supreme Court Orders page (https://hpec.nic.in/supreme-court-orders); neither order has been opened by this archive, so OQ-045 is only partly answered and FQ-016 is still open. The home page shows the five paragraphs the Committee chose to quote, not all of paragraphs 12 and 13. The snapshot's browser tab title reads 'HPEC: Admin Console Sign In', which does not match the page content; the archive records that and draws nothing from it.",
+    "doesNotEstablish": "",
+    "relatedIds": [],
+    "accessNote": "",
+    "volatility": "medium"
+  },
+  {
+    "id": "PROC-SC-017",
+    "title": "The Committee's home page lists four ways to give it information. (A) Affected persons, including police personnel, may submit information or a complaint on the",
+    "type": "COURT_DOCUMENT",
+    "verification": "VERIFIED",
+    "incidentId": null,
+    "dateOfItem": null,
+    "dateAdded": "2026-10-14",
+    "sourceIds": [
+      "SRC-1078"
+    ],
+    "origin": "",
+    "establishes": "This answers the second half of OQ-054 in part. PROC-SC-011 recorded a direction that the Court wanted a separate online portal for vulnerable witnesses and that the Committee appoint a member secretary; the Committee's own site now advertises a confidential route and names a Member Secretary. What this archive has not done is use the form, so it cannot say that the confidential route works, how a submission is stored, or who can read it. The archive does not run, endorse or relay these submissions and is independent of the Committee. The telephone number, postal address and generic email address are published by the Committee for the public; the archive reproduces them for that reason only. Whether the confidential route is the portal the Court directed on 10 September is an inference from the matching description and is not stated on the page.",
+    "doesNotEstablish": "",
+    "relatedIds": [],
+    "accessNote": "",
+    "volatility": "medium"
   }
 ];
 
@@ -37983,7 +38030,7 @@ WGO.importedQuestions = [
     "incidentId": "INC-0001",
     "text": "The Supreme Court's order of 18 August 2026 constituting the High Powered Enquiry Committee, and the committee's terms of reference as issued.",
     "priority": "HIGH",
-    "whyItMatters": "The committee's mandate is reported to include the deployment of pellet guns by name. What it may and may not examine, what powers it has and what it must report on are all fixed by the order, and this archive holds only journalists' accounts of it. The order is also the document that would settle whether this matter is a civil or a criminal writ, which the reporting cites both ways.",
+    "whyItMatters": "The committee's mandate is reported to include the deployment of pellet guns by name. What it may and may not examine, what powers it has and what it must report on are all fixed by the order, and this archive holds only journalists' accounts of it. The order is also the document that would settle whether this matter is a civil or a criminal writ, which the reporting cites both ways. PARTLY INFORMED 14 October 2026: the Committee's own site states the mandate and the priority paragraphs (PROC-SC-016). The order itself is still unheld; the site links it at hpec.nic.in/supreme-court-orders.",
     "lawfulRoute": "Supreme Court orders are published on the Court's own site and are free. Retrieve it by case number and date of order and record the URL actually fetched. Do not reconstruct a path. If the number is wrong, search the cause list for 10 September 2026, the reported next date.",
     "state": "UNANSWERED",
     "wants": [
@@ -38143,7 +38190,7 @@ WGO.importedQuestions = [
     "incidentId": "INC-0001",
     "text": "Were any of the July 2026 telecommunications suspension orders for Central Delhi published, and if so where; and does the confidential witness portal directed by the Supreme Court on 10 September 2026 now exist, at what address?",
     "priority": "HIGH",
-    "whyItMatters": "Two halves of the same problem. CUS-SHUT-001 records the Internet Freedom Foundation's observation on 20 July that no suspension order had been published; this archive has not itself searched every gazette and portal, so it records that as reported. An absence is the hardest thing to prove and the easiest to assert. The portal matters for a different reason: it is the one route this archive could point a frightened witness to, and pointing anyone at a portal whose existence is unconfirmed would be worse than saying nothing.",
+    "whyItMatters": "Two halves of the same problem. CUS-SHUT-001 records the Internet Freedom Foundation's observation on 20 July that no suspension order had been published; this archive has not itself searched every gazette and portal, so it records that as reported. An absence is the hardest thing to prove and the easiest to assert. The portal matters for a different reason: it is the one route this archive could point a frightened witness to, and pointing anyone at a portal whose existence is unconfirmed would be worse than saying nothing. PARTLY ANSWERED 14 October 2026: the Committee's own site, hpec.nic.in, advertises a confidential route for vulnerable witnesses and names a Member Secretary (PROC-SC-017). Whether the route works has not been tested, and the second-order question of whether it is the portal the Court directed is an inference. The telecommunications-suspension half is unchanged.",
     "lawfulRoute": "Search the MHA, DoT, GNCTD and Delhi Police sites; FQ-014 for the orders; FQ-016 for the order copy.",
     "state": "UNANSWERED",
     "wants": [

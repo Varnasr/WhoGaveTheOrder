@@ -20826,5 +20826,35 @@
       "SRC-1076",
       "SRC-1077"
     ]
+  },
+  {
+    "id": "PROC-SC-016",
+    "kind": "Evidence",
+    "title": "The High Powered Enquiry Committee has a website at hpec.nic.in, with a home page, an About The Committee page, a Supreme Court Orders page, a Submit Informatio",
+    "state": "VERIFIED",
+    "url": "https://www.whogavetheorder.in/evidence.html?id=PROC-SC-016",
+    "type": "COURT_DOCUMENT",
+    "incidentId": null,
+    "dateOfItem": null,
+    "establishes": "This is the Committee's own statement of its mandate, and it is the first primary document the archive holds on the Committee. VERIFIED here means only that the home page says this. It does not stand in for the orders. The paragraph text quoted on the page is a summary of paragraphs 12 and 13, and the page links to the order of 18 August and the order of 10 September under its Supreme Court Orders page (https://hpec.nic.in/supreme-court-orders); neither order has been opened by this archive, so OQ-045 is only partly answered and FQ-016 is still open. The home page shows the five paragraphs the Committee chose to quote, not all of paragraphs 12 and 13. The snapshot's browser tab title reads 'HPEC: Admin Console Sign In', which does not match the page content; the archive records that and draws nothing from it.",
+    "doesNotEstablish": null,
+    "sourceIds": [
+      "SRC-1078"
+    ]
+  },
+  {
+    "id": "PROC-SC-017",
+    "kind": "Evidence",
+    "title": "The Committee's home page lists four ways to give it information. (A) Affected persons, including police personnel, may submit information or a complaint on the",
+    "state": "VERIFIED",
+    "url": "https://www.whogavetheorder.in/evidence.html?id=PROC-SC-017",
+    "type": "COURT_DOCUMENT",
+    "incidentId": null,
+    "dateOfItem": null,
+    "establishes": "This answers the second half of OQ-054 in part. PROC-SC-011 recorded a direction that the Court wanted a separate online portal for vulnerable witnesses and that the Committee appoint a member secretary; the Committee's own site now advertises a confidential route and names a Member Secretary. What this archive has not done is use the form, so it cannot say that the confidential route works, how a submission is stored, or who can read it. The archive does not run, endorse or relay these submissions and is independent of the Committee. The telephone number, postal address and generic email address are published by the Committee for the public; the archive reproduces them for that reason only. Whether the confidential route is the portal the Court directed on 10 September is an inference from the matching description and is not stated on the page.",
+    "doesNotEstablish": null,
+    "sourceIds": [
+      "SRC-1078"
+    ]
   }
 ]
