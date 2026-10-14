@@ -5,6 +5,81 @@ window.WGO = window.WGO || {};
 
 WGO.changes = [
   {
+    "commit": "a342ac934e",
+    "date": "2026-10-14T05:20:04Z",
+    "subject": "Trace the NHRC Kanhaiya Kumar findings to the NHRC's own press release",
+    "added": [
+      {
+        "id": "SRC-1085",
+        "kind": "Source",
+        "title": "National Human Rights Commission, press release, New Delhi, 19 February 2016",
+        "state": null,
+        "url": "https://nhrc.nic.in/media/press-release/nhrc-team-visits-central-prison-tihar-to-inquire-into-important-issues-pertaining-to-shri-kanhaiya-kumar-inquiry-report-forwarded-to-commission-police-delhi-director-general-prisons-tihar-jail-for-comments-19-02-2016"
+      }
+    ],
+    "removed": [],
+    "changed": [
+      {
+        "id": "HIST-JNU16-020",
+        "kind": "Evidence",
+        "title": "The National Human Rights Commission's press release of 19 February 2016 states that its inquiry team found that the physical assault on Kanhaiya Kumar in the P",
+        "state": "VERIFIED",
+        "url": "evidence.html?id=HIST-JNU16-020",
+        "fields": [
+          {
+            "field": "state",
+            "from": "UNVERIFIED",
+            "to": "VERIFIED"
+          },
+          {
+            "field": "title",
+            "from": "An NHRC fact-finding team report is reported to have found the assault on Kanhaiya Kumar in the court premises 'organized and pre-planned' and to have recorded ",
+            "to": "The National Human Rights Commission's press release of 19 February 2016 states that its inquiry team found that the physical assault on Kanhaiya Kumar in the P"
+          },
+          {
+            "field": "establishes",
+            "from": "Reported by LiveLaw on 26 February 2016 as part of a petition's attachments. Other outlets (India TV, Hindustan Times via PressReader) could not be read (403). The NHRC report itself has not been seen. Locate it through the NHRC case rec…",
+            "to": "Reported by LiveLaw on 26 February 2016 as part of a petition's attachments. Other outlets (India TV, Hindustan Times via PressReader) could not be read (403). The NHRC report itself has not been seen. Locate it through the NHRC case rec…"
+          },
+          {
+            "field": "sourceIds",
+            "from": "SRC-0150",
+            "to": "SRC-1085, SRC-0150"
+          }
+        ]
+      },
+      {
+        "id": "HIST-PDM-008",
+        "kind": "Evidence",
+        "title": "The Education Department of Bihar is reported by Organiser to have issued a notice warning of strict action against candidates taking part in the protest, citin",
+        "state": "UNVERIFIED",
+        "url": "evidence.html?id=HIST-PDM-008",
+        "fields": [
+          {
+            "field": "establishes",
+            "from": "Single source and a partisan outlet; no independent source found for the notice and the notice itself was not seen. The Deccan Herald (PTI, 13 July 2023) separately reports the education department cancelling leave and asking Patna's dis…",
+            "to": "Single source and a partisan outlet; no independent source found for the notice and the notice itself was not seen. The Deccan Herald (PTI, 13 July 2023) separately reports the education department cancelling leave and asking Patna's dis…"
+          }
+        ]
+      },
+      {
+        "id": "HIST-BURD16-008",
+        "kind": "Evidence",
+        "title": "A university complaint against the protesters was announced. The text carried by the Free Press Journal says the Vice-Chancellor said that 'the authorities will",
+        "state": "UNVERIFIED",
+        "url": "evidence.html?id=HIST-BURD16-008",
+        "fields": [
+          {
+            "field": "establishes",
+            "from": "The arrest claim rests on The Logical Indian alone and gives no date, names or source for the arrests; the Telegraph report it relies on was not opened. Whether an FIR exists, its number, sections and complainant are UNKNOWN (HIST-BURD16…",
+            "to": "The arrest claim rests on The Logical Indian alone and gives no date, names or source for the arrests; the Telegraph report it relies on was not opened. Whether an FIR exists, its number, sections and complainant are UNKNOWN (HIST-BURD16…"
+          }
+        ]
+      }
+    ],
+    "summary": "1 record added · 1 state changed · 2 records edited"
+  },
+  {
     "commit": "0dcd15b37c",
     "date": "2026-10-14T05:05:44Z",
     "subject": "Add two historical incidents: Jamia, 13 February 2025, and Himachal Pradesh University, 2014",
