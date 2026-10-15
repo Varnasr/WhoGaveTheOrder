@@ -1319,8 +1319,8 @@ WGO.importedSources = [
     "kind": "SECONDARY",
     "url": "https://www.livelaw.in/amp/rule-law-becomes-dead-horse-sc-order-refusing-probe-attack-kanhaiya-kumar-unfortunate",
     "retrievedOn": "2026-10-10",
-    "archiveUrl": null,
-    "archivedOn": null,
+    "archiveUrl": "http://web.archive.org/web/20261014075310/https://www.livelaw.in/amp/rule-law-becomes-dead-horse-sc-order-refusing-probe-attack-kanhaiya-kumar-unfortunate",
+    "archivedOn": "2026-10-15",
     "sha256": null,
     "originatesFrom": null
   },
