@@ -5,6 +5,57 @@ window.WGO = window.WGO || {};
 
 WGO.changes = [
   {
+    "commit": "44c6b38c7d",
+    "date": "2026-10-15T16:25:26Z",
+    "subject": "Record the Home Ministry committee behind the Jantar Mantar standing order",
+    "added": [
+      {
+        "id": "SRC-1100",
+        "kind": "Source",
+        "title": "ThePrint (Alisha Dutta), 12 Oct 2026, 3:27 pm IST",
+        "state": null,
+        "url": "https://theprint.in/india/amid-daily-protests-govt-denotifies-jantar-mantar-as-protest-venue-which-are-the-3-new-sites/3069058/"
+      }
+    ],
+    "removed": [],
+    "changed": [
+      {
+        "id": "PROC-DEL-007",
+        "kind": "Evidence",
+        "title": "PTI reports that a standing order dated 11 October 2026, issued by Delhi Police Commissioner Anurag Kumar, de-notified Jantar Mantar as a designated protest sit",
+        "state": "REPORTED",
+        "url": "evidence.html?id=PROC-DEL-007",
+        "fields": [
+          {
+            "field": "establishes",
+            "from": "The date is not settled: PTI and The Law Advice say 11 October, another report says 12 October, and counsel's 'Today' on 13 October could mean the order was announced or notified that day. The order itself has not been seen and the archi…",
+            "to": "The date is not settled: PTI and The Law Advice say 11 October, another report says 12 October, and counsel's 'Today' on 13 October could mean the order was announced or notified that day. The order itself has not been seen and the archi…"
+          },
+          {
+            "field": "sourceIds",
+            "from": "SRC-1095, SRC-1096, SRC-1097",
+            "to": "SRC-1095, SRC-1096, SRC-1097, SRC-1100"
+          }
+        ]
+      },
+      {
+        "id": "OQ-064",
+        "kind": "Question",
+        "title": "The Delhi Police Commissioner's standing order of 11 October 2026 de-notifying Jantar Mantar as a protest site: its text, its date of issue and publication, the legal power it cites, the three replacement venues, and the revised SOP for protests said to follow. And the Ministry of Home Affairs committee on alternative venues that the order is reported to rest on: the order constituting it, its members, its terms of reference, its date and its recommendation.",
+        "state": "UNANSWERED",
+        "url": "incident/jantar-mantar.html#OQ-064",
+        "fields": [
+          {
+            "field": "title",
+            "from": "The Delhi Police Commissioner's standing order of 11 October 2026 de-notifying Jantar Mantar as a protest site: its text, its date of issue and publication, the legal power it cites, the three replacement venues, and the revised SOP for protests said to follow.",
+            "to": "The Delhi Police Commissioner's standing order of 11 October 2026 de-notifying Jantar Mantar as a protest site: its text, its date of issue and publication, the legal power it cites, the three replacement venues, and the revised SOP for protests said to follow. And the Ministry of Home Affairs committee on alternative venues that the order is reported to rest on: the order constituting it, its members, its terms of reference, its date and its recommendation."
+          }
+        ]
+      }
+    ],
+    "summary": "1 record added · 2 records edited"
+  },
+  {
     "commit": "d31c7e6745",
     "date": "2026-10-15T16:24:15Z",
     "subject": "Next round: the 9 October Supreme Court order, the Jantar Mantar denotification and the 13 October Delhi High Court hearing",

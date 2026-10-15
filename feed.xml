@@ -3,10 +3,19 @@
   <title>WhoGaveTheOrder.in: changes to the record</title>
   <subtitle>Every record that has been added, moved between states, or edited.</subtitle>
   <id>tag:whogavetheorder.in,2026:feed</id>
-  <updated>2026-10-15T16:24:15Z</updated>
+  <updated>2026-10-15T16:25:26Z</updated>
   <link href="https://www.whogavetheorder.in/"/>
   <link rel="self" href="https://www.whogavetheorder.in/feed.xml"/>
   <rights>Reuse with attribution</rights>
+  <entry>
+    <title>1 record added · 2 records edited</title>
+    <id>tag:whogavetheorder.in,2026:change/44c6b38c7d</id>
+    <updated>2026-10-15T16:25:26Z</updated>
+    <link href="https://www.whogavetheorder.in/changes.html#44c6b38c7d"/>
+    <content type="html">
+      &lt;p&gt;Record the Home Ministry committee behind the Jantar Mantar standing order&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Added Source SRC-1100: ThePrint (Alisha Dutta), 12 Oct 2026, 3:27 pm IST&lt;/li&gt;&lt;li&gt;Edited Evidence PROC-DEL-007: PTI reports that a standing order dated 11 October 2026, issued by Delhi Police Commissioner Anurag Kumar, de-notified Jantar Mantar as a designated protest sit&lt;/li&gt;&lt;li&gt;Edited Question OQ-064: The Delhi Police Commissioner&apos;s standing order of 11 October 2026 de-notifying Jantar Mantar as a protest site: its text, its date of issue and publication, the legal power it cites, the three replacement venues, and the revised SOP for protests said to follow. And the Ministry of Home Affairs committee on alternative venues that the order is reported to rest on: the order constituting it, its members, its terms of reference, its date and its recommendation.&lt;/li&gt;&lt;/ul&gt;
+    </content>
+  </entry>
   <entry>
     <title>12 records added · 2 records edited</title>
     <id>tag:whogavetheorder.in,2026:change/d31c7e6745</id>
@@ -446,15 +455,6 @@
     <link href="https://www.whogavetheorder.in/changes.html#5a19db5201"/>
     <content type="html">
       &lt;p&gt;Sweep log and archived copies for 2026-09-09 [skip ci]&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Edited Source SRC-0028: Bar &amp;amp; Bench&lt;/li&gt;&lt;li&gt;Edited Source SRC-0029: Bar &amp;amp; Bench&lt;/li&gt;&lt;li&gt;Edited Source SRC-0038: The Week&lt;/li&gt;&lt;li&gt;Edited Source SRC-0041: BOOM&lt;/li&gt;&lt;li&gt;Edited Source SRC-0042: India TV News&lt;/li&gt;&lt;/ul&gt;
-    </content>
-  </entry>
-  <entry>
-    <title>5 records edited</title>
-    <id>tag:whogavetheorder.in,2026:change/95494d15ff</id>
-    <updated>2026-09-08T07:26:49Z</updated>
-    <link href="https://www.whogavetheorder.in/changes.html#95494d15ff"/>
-    <content type="html">
-      &lt;p&gt;Sweep log and archived copies for 2026-09-08 [skip ci]&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Edited Source SRC-0020: Bar &amp;amp; Bench&lt;/li&gt;&lt;li&gt;Edited Source SRC-0025: Bar &amp;amp; Bench&lt;/li&gt;&lt;li&gt;Edited Source SRC-0035: Outlook India&lt;/li&gt;&lt;li&gt;Edited Source SRC-0036: LiveLaw&lt;/li&gt;&lt;li&gt;Edited Source SRC-0037: The Federal&lt;/li&gt;&lt;/ul&gt;
     </content>
   </entry>
 </feed>

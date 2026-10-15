@@ -21073,12 +21073,13 @@
     "type": "COURT_DOCUMENT",
     "incidentId": "INC-0001",
     "dateOfItem": null,
-    "establishes": "The date is not settled: PTI and The Law Advice say 11 October, another report says 12 October, and counsel's 'Today' on 13 October could mean the order was announced or notified that day. The order itself has not been seen and the archive does not hold its text, its legal basis, the SOP or any public notice. The police rely on the Supreme Court's order of 9 October (PROC-SC-020), which as reported asks authorities to consider a site with basic amenities and does not itself name or remove any site. Whether the Court's words bear the weight the police put on them is a question for the order text. This is the kind of document the archive exists to find: a written order with an issuing office. See OQ-064.",
+    "establishes": "The date is not settled: PTI and The Law Advice say 11 October, another report says 12 October, and counsel's 'Today' on 13 October could mean the order was announced or notified that day. The order itself has not been seen and the archive does not hold its text, its legal basis, the SOP or any public notice. The police rely on the Supreme Court's order of 9 October (PROC-SC-020), which as reported asks authorities to consider a site with basic amenities and does not itself name or remove any site. Whether the Court's words bear the weight the police put on them is a question for the order text. This is the kind of document the archive exists to find: a written order with an issuing office. See OQ-064. 15 October 2026: ThePrint's quotation gives a different basis from the one counsel gave the High Court. The standing order, as quoted, rests on the recommendations of a Home Ministry committee, while the Delhi Police told the Court the step followed the Supreme Court's order of 9 October. The two can both be true, since the Court's order asked the competent authority to consider alternatives, but the committee's constitution, membership, date, terms of reference and report are not described anywhere the archive has read, and the order text itself is not held. ThePrint gives no date for the standing order and says only that the report was published on 12 October, which is consistent with 11 October and earlier than the 13 October 'Today' in counsel's statement.",
     "doesNotEstablish": null,
     "sourceIds": [
       "SRC-1095",
       "SRC-1096",
-      "SRC-1097"
+      "SRC-1097",
+      "SRC-1100"
     ]
   },
   {

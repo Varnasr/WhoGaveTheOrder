@@ -11748,6 +11748,17 @@
     "archiveUrl": null
   },
   {
+    "id": "SRC-1100",
+    "kind": "Source",
+    "title": "ThePrint (Alisha Dutta), 12 Oct 2026, 3:27 pm IST",
+    "state": null,
+    "url": "https://theprint.in/india/amid-daily-protests-govt-denotifies-jantar-mantar-as-protest-venue-which-are-the-3-new-sites/3069058/",
+    "publisher": null,
+    "retrievedOn": "2026-10-15",
+    "sha256": null,
+    "archiveUrl": null
+  },
+  {
     "id": "SRC-1098",
     "kind": "Source",
     "title": "Asianet News Newsable, 13 Oct 2026",
