@@ -37104,7 +37104,7 @@
     "id": "PROC-DEL-007",
     "jurisdiction": "delhi",
     "category": "legal_proceeding",
-    "claim": "PTI reports that a standing order dated 11 October 2026, issued by Delhi Police Commissioner Anurag Kumar, de-notified Jantar Mantar as a designated protest site and named Ramlila Ground, Burari Ground and CBD Ground in East Delhi as replacement venues. Other reporting dates the removal to 12 October, and on 13 October Additional Solicitor General Chetan Sharma told the Delhi High Court 'Today, we have denotified Jantar Mantar pursuant to orders of the Supreme Court', saying the police acted on the Supreme Court's order of 9 October 2026. A revised standard operating procedure for protests at the three venues is reported as to be issued separately.",
+    "claim": "PTI reports that a standing order dated 11 October 2026, issued by Delhi Police Commissioner Anurag Kumar, de-notified Jantar Mantar as a designated protest site and named Ramlila Ground, Burari Ground and CBD Ground in East Delhi as replacement venues. Other reporting dates the removal to 12 October, and on 13 October Additional Solicitor General Chetan Sharma told the Delhi High Court 'Today, we have denotified Jantar Mantar pursuant to orders of the Supreme Court', saying the police acted on the Supreme Court's order of 9 October 2026. A revised standard operating procedure for protests at the three venues is reported as to be issued separately. ThePrint reports, on 12 October 2026, that the Ministry of Home Affairs had constituted a committee to examine alternative venues, that Delhi Police issued the standing order to implement the decision, and quotes the order as reading in part: 'Based on the Committee's recommendations, Jantar Mantar as a protest venue has been de-notified'.",
     "confidence": "REPORTED",
     "volatility": "high",
     "sources": [
@@ -37127,9 +37127,15 @@
         "publication": "Deccan Chronicle, 13 Oct 2026",
         "retrieved_on": "2026-10-15",
         "originates_from": "PTI"
+      },
+      {
+        "url": "https://theprint.in/india/amid-daily-protests-govt-denotifies-jantar-mantar-as-protest-venue-which-are-the-3-new-sites/3069058/",
+        "source_type": "secondary",
+        "publication": "ThePrint (Alisha Dutta), 12 Oct 2026, 3:27 pm IST",
+        "retrieved_on": "2026-10-15"
       }
     ],
-    "notes": "The date is not settled: PTI and The Law Advice say 11 October, another report says 12 October, and counsel's 'Today' on 13 October could mean the order was announced or notified that day. The order itself has not been seen and the archive does not hold its text, its legal basis, the SOP or any public notice. The police rely on the Supreme Court's order of 9 October (PROC-SC-020), which as reported asks authorities to consider a site with basic amenities and does not itself name or remove any site. Whether the Court's words bear the weight the police put on them is a question for the order text. This is the kind of document the archive exists to find: a written order with an issuing office. See OQ-064.",
+    "notes": "The date is not settled: PTI and The Law Advice say 11 October, another report says 12 October, and counsel's 'Today' on 13 October could mean the order was announced or notified that day. The order itself has not been seen and the archive does not hold its text, its legal basis, the SOP or any public notice. The police rely on the Supreme Court's order of 9 October (PROC-SC-020), which as reported asks authorities to consider a site with basic amenities and does not itself name or remove any site. Whether the Court's words bear the weight the police put on them is a question for the order text. This is the kind of document the archive exists to find: a written order with an issuing office. See OQ-064. 15 October 2026: ThePrint's quotation gives a different basis from the one counsel gave the High Court. The standing order, as quoted, rests on the recommendations of a Home Ministry committee, while the Delhi Police told the Court the step followed the Supreme Court's order of 9 October. The two can both be true, since the Court's order asked the competent authority to consider alternatives, but the committee's constitution, membership, date, terms of reference and report are not described anywhere the archive has read, and the order text itself is not held. ThePrint gives no date for the standing order and says only that the report was published on 12 October, which is consistent with 11 October and earlier than the 13 October 'Today' in counsel's statement.",
     "added_on": "2026-10-15"
   },
   {

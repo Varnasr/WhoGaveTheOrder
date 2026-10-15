@@ -11753,6 +11753,17 @@ WGO.importedSources = [
     "originatesFrom": "PTI"
   },
   {
+    "id": "SRC-1100",
+    "name": "ThePrint (Alisha Dutta), 12 Oct 2026, 3:27 pm IST",
+    "kind": "SECONDARY",
+    "url": "https://theprint.in/india/amid-daily-protests-govt-denotifies-jantar-mantar-as-protest-venue-which-are-the-3-new-sites/3069058/",
+    "retrievedOn": "2026-10-15",
+    "archiveUrl": null,
+    "archivedOn": null,
+    "sha256": null,
+    "originatesFrom": null
+  },
+  {
     "id": "SRC-1098",
     "name": "Asianet News Newsable, 13 Oct 2026",
     "kind": "SECONDARY",
@@ -37138,10 +37149,11 @@ WGO.importedEvidence = [
     "sourceIds": [
       "SRC-1095",
       "SRC-1096",
-      "SRC-1097"
+      "SRC-1097",
+      "SRC-1100"
     ],
     "origin": "",
-    "establishes": "The date is not settled: PTI and The Law Advice say 11 October, another report says 12 October, and counsel's 'Today' on 13 October could mean the order was announced or notified that day. The order itself has not been seen and the archive does not hold its text, its legal basis, the SOP or any public notice. The police rely on the Supreme Court's order of 9 October (PROC-SC-020), which as reported asks authorities to consider a site with basic amenities and does not itself name or remove any site. Whether the Court's words bear the weight the police put on them is a question for the order text. This is the kind of document the archive exists to find: a written order with an issuing office. See OQ-064.",
+    "establishes": "The date is not settled: PTI and The Law Advice say 11 October, another report says 12 October, and counsel's 'Today' on 13 October could mean the order was announced or notified that day. The order itself has not been seen and the archive does not hold its text, its legal basis, the SOP or any public notice. The police rely on the Supreme Court's order of 9 October (PROC-SC-020), which as reported asks authorities to consider a site with basic amenities and does not itself name or remove any site. Whether the Court's words bear the weight the police put on them is a question for the order text. This is the kind of document the archive exists to find: a written order with an issuing office. See OQ-064. 15 October 2026: ThePrint's quotation gives a different basis from the one counsel gave the High Court. The standing order, as quoted, rests on the recommendations of a Home Ministry committee, while the Delhi Police told the Court the step followed the Supreme Court's order of 9 October. The two can both be true, since the Court's order asked the competent authority to consider alternatives, but the committee's constitution, membership, date, terms of reference and report are not described anywhere the archive has read, and the order text itself is not held. ThePrint gives no date for the standing order and says only that the report was published on 12 October, which is consistent with 11 October and earlier than the 13 October 'Today' in counsel's statement.",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -38884,13 +38896,13 @@ WGO.importedQuestions = [
   {
     "id": "OQ-064",
     "incidentId": "INC-0001",
-    "text": "The Delhi Police Commissioner's standing order of 11 October 2026 de-notifying Jantar Mantar as a protest site: its text, its date of issue and publication, the legal power it cites, the three replacement venues, and the revised SOP for protests said to follow.",
+    "text": "The Delhi Police Commissioner's standing order of 11 October 2026 de-notifying Jantar Mantar as a protest site: its text, its date of issue and publication, the legal power it cites, the three replacement venues, and the revised SOP for protests said to follow. And the Ministry of Home Affairs committee on alternative venues that the order is reported to rest on: the order constituting it, its members, its terms of reference, its date and its recommendation.",
     "priority": "HIGH",
-    "whyItMatters": "A written order from a named office removed the capital's designated protest site, and the police justify it by a Supreme Court order of 9 October that, as reported, only asks authorities to consider a site with basic amenities. Whether the standing order cites the Court's words accurately, under which statute it was made, whether it was published, and when it took effect (11 October, 12 October or 13 October, all of which appear in reporting) cannot be answered from news accounts. The SOP for the three new venues will govern the next protest.",
-    "lawfulRoute": "The order and any SOP should be requested from Delhi Police by RTI through the rtionline.gov.in portal (see the Delhi Police entry in the authority list), and checked against Delhi Police's own website. The Delhi High Court file in the Indian Youth Congress matter (PROC-DEL-005, FQ-023) may carry it as an annexure, and the police are likely to place it before the Supreme Court if the application there is heard.",
+    "whyItMatters": "A written order from a named office removed the capital's designated protest site, and the police justify it by a Supreme Court order of 9 October that, as reported, only asks authorities to consider a site with basic amenities. Whether the standing order cites the Court's words accurately, under which statute it was made, whether it was published, and when it took effect (11 October, 12 October or 13 October, all of which appear in reporting) cannot be answered from news accounts. The SOP for the three new venues will govern the next protest. ThePrint quotes the standing order as resting on a Home Ministry committee's recommendations, while counsel told the High Court the step followed the Supreme Court's order of 9 October. A committee that recommended removing the capital's main protest site is a body with a constitution order and a report, both of which should exist on paper.",
+    "lawfulRoute": "The order and any SOP should be requested from Delhi Police by RTI through the rtionline.gov.in portal (see the Delhi Police entry in the authority list), and checked against Delhi Police's own website. The Delhi High Court file in the Indian Youth Congress matter (PROC-DEL-005, FQ-023) may carry it as an annexure, and the police are likely to place it before the Supreme Court if the application there is heard. The Home Ministry's committee order and report can be requested from the Ministry of Home Affairs through rtionline.gov.in.",
     "state": "UNANSWERED",
     "wants": [
-      "The order and any SOP should be requested from Delhi Police by RTI through the rtionline.gov.in portal (see the Delhi Police entry in the authority list), and checked against Delhi Police's own website. The Delhi High Court file in the Indian Youth Congress matter (PROC-DEL-005, FQ-023) may carry it as an annexure, and the police are likely to place it before the Supreme Court if the application there is heard."
+      "The order and any SOP should be requested from Delhi Police by RTI through the rtionline.gov.in portal (see the Delhi Police entry in the authority list), and checked against Delhi Police's own website. The Delhi High Court file in the Indian Youth Congress matter (PROC-DEL-005, FQ-023) may carry it as an annexure, and the police are likely to place it before the Supreme Court if the application there is heard. The Home Ministry's committee order and report can be requested from the Ministry of Home Affairs through rtionline.gov.in."
     ],
     "evidenceIds": [],
     "blocks": [
