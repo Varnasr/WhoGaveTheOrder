@@ -768,10 +768,23 @@
     "category": "legal_proceeding",
     "jurisdiction": "supreme_court",
     "question": "What did the Supreme Court do on 9 October 2026, the date the 10 September order listed W.P.(Crl.) No. 280/2026 and connected matters for further consideration, and has the Committee filed or been asked for a first interim report?",
-    "why_it_matters": "The Committee's first report on issues (i) and (vi) of paragraph 12 was requested 'at the earliest' on 18 August and again on 10 September. The 9 October listing is the next point at which the Court could set a date for it, say anything about the confidential portal, or deal with the Delhi Police status report on the protection of the 14-year-old protester ordered in W.P.(C) No. 324/2026. No order of that date is held and no report of it has been found.",
+    "why_it_matters": "The Committee's first report on issues (i) and (vi) of paragraph 12 was requested 'at the earliest' on 18 August and again on 10 September. The 9 October listing is the next point at which the Court could set a date for it, say anything about the confidential portal, or deal with the Delhi Police status report on the protection of the 14-year-old protester ordered in W.P.(C) No. 324/2026. No order of that date is held and no report of it has been found. SEARCHED 14 October 2026: a general search for the Supreme Court's 9 October hearing, the first interim report or any HPEC statement found nothing dated after the 10 September order. Absence from a news search is weak evidence. The order itself will be on the Committee's Supreme Court Orders page. 15 October 2026: the Supreme Court did hear a separate petition on 9 October (M A Baby v. Union of India, PROC-SC-020), on Metro and train closures and an alternative protest site. That is not the Tripathi batch (W.P.(Crl.) 280/2026), so this question remains open.",
     "lawful_route": "The order of 9 October will appear on the Supreme Court's site and, as the two earlier orders did, on the Committee's Supreme Court Orders page (hpec.nic.in/supreme-court-orders). The archive owner can save it from there, the way the earlier two arrived.",
     "blocks": [
       "PROC-SC-019"
+    ]
+  },
+  {
+    "id": "OQ-064",
+    "priority": "high",
+    "category": "document_custody",
+    "jurisdiction": "delhi",
+    "question": "The Delhi Police Commissioner's standing order of 11 October 2026 de-notifying Jantar Mantar as a protest site: its text, its date of issue and publication, the legal power it cites, the three replacement venues, and the revised SOP for protests said to follow. And the Ministry of Home Affairs committee on alternative venues that the order is reported to rest on: the order constituting it, its members, its terms of reference, its date and its recommendation.",
+    "why_it_matters": "A written order from a named office removed the capital's designated protest site, and the police justify it by a Supreme Court order of 9 October that, as reported, only asks authorities to consider a site with basic amenities. Whether the standing order cites the Court's words accurately, under which statute it was made, whether it was published, and when it took effect (11 October, 12 October or 13 October, all of which appear in reporting) cannot be answered from news accounts. The SOP for the three new venues will govern the next protest. ThePrint quotes the standing order as resting on a Home Ministry committee's recommendations, while counsel told the High Court the step followed the Supreme Court's order of 9 October. A committee that recommended removing the capital's main protest site is a body with a constitution order and a report, both of which should exist on paper.",
+    "lawful_route": "The order and any SOP should be requested from Delhi Police by RTI through the rtionline.gov.in portal (see the Delhi Police entry in the authority list), and checked against Delhi Police's own website. The Delhi High Court file in the Indian Youth Congress matter (PROC-DEL-005, FQ-023) may carry it as an annexure, and the police are likely to place it before the Supreme Court if the application there is heard. The Home Ministry's committee order and report can be requested from the Ministry of Home Affairs through rtionline.gov.in.",
+    "blocks": [
+      "PROC-DEL-007",
+      "PROC-SC-021"
     ]
   }
 ]

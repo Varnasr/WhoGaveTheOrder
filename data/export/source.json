@@ -11473,6 +11473,17 @@
     "archiveUrl": null
   },
   {
+    "id": "SRC-1090",
+    "kind": "Source",
+    "title": "National Human Rights Commission, press release, New Delhi, 8 October 2026",
+    "state": null,
+    "url": "https://nhrc.nic.in/media/press-release/nhrc,-india-takes-suo-motu-cognizance-of-the-reported-sexual-harassment-of-three-journalists-by-delhi-police-personnel-during-a-protest-at-jantar-mantar,-new-delhi-on-3rd-october-2026",
+    "publisher": null,
+    "retrievedOn": "2026-10-14",
+    "sha256": "492b912c8ba21d673c08d2b6d6d540971dbffab1b8f76f4e07b5f347e16bc873",
+    "archiveUrl": null
+  },
+  {
     "id": "SRC-1071",
     "kind": "Source",
     "title": "DT Next",
@@ -11623,6 +11634,149 @@
     "url": "https://www.nationalheraldindia.com/national/bihar-bandh-over-exam-turns-violent-as-students-clash-with-police-across-districts",
     "publisher": null,
     "retrievedOn": "2026-10-14",
+    "sha256": null,
+    "archiveUrl": null
+  },
+  {
+    "id": "SRC-1087",
+    "kind": "Source",
+    "title": "Bar & Bench, 30 Sept 2026",
+    "state": null,
+    "url": "https://www.barandbench.com/news/litigation/punjab-haryana-high-court-asks-police-to-clarify-whether-rape-took-place-at-lovely-professional-university",
+    "publisher": null,
+    "retrievedOn": "2026-10-14",
+    "sha256": null,
+    "archiveUrl": null
+  },
+  {
+    "id": "SRC-1088",
+    "kind": "Source",
+    "title": "Bar & Bench, 12 Oct 2026",
+    "state": null,
+    "url": "https://www.barandbench.com/news/punjab-haryana-high-court-flags-gaps-in-police-probe-into-lpu-violence",
+    "publisher": null,
+    "retrievedOn": "2026-10-14",
+    "sha256": null,
+    "archiveUrl": null
+  },
+  {
+    "id": "SRC-1089",
+    "kind": "Source",
+    "title": "EastMojo (Vangamla Salle K S), 12 Sept 2024",
+    "state": null,
+    "url": "https://eastmojo.com/manipur/2024/09/12/manipur-police-arrest-33-including-7-juveniles-amid-violent-protests/",
+    "publisher": null,
+    "retrievedOn": "2026-10-14",
+    "sha256": null,
+    "archiveUrl": null
+  },
+  {
+    "id": "SRC-1091",
+    "kind": "Source",
+    "title": "LawChakra, 12 Oct 2026",
+    "state": null,
+    "url": "https://lawchakra.in/high-court/delhi-high-court/delhi-hc-youth-congress-jantar-mantar-plea-tomorrow/",
+    "publisher": null,
+    "retrievedOn": "2026-10-14",
+    "sha256": null,
+    "archiveUrl": null
+  },
+  {
+    "id": "SRC-1092",
+    "kind": "Source",
+    "title": "Asianet News Newsable, 12 Oct 2026",
+    "state": null,
+    "url": "https://newsable.asianetnews.com/india/delhi-hc-defers-hearing-on-iyc-plea-against-protest-denial-by-police-articleshow-g0g4wog",
+    "publisher": null,
+    "retrievedOn": "2026-10-14",
+    "sha256": null,
+    "archiveUrl": null
+  },
+  {
+    "id": "SRC-1093",
+    "kind": "Source",
+    "title": "SCC Online blog, 10 Oct 2026 (updated 15 Oct)",
+    "state": null,
+    "url": "https://www.scconline.com/blog/?p=398367",
+    "publisher": null,
+    "retrievedOn": "2026-10-15",
+    "sha256": null,
+    "archiveUrl": null
+  },
+  {
+    "id": "SRC-1094",
+    "kind": "Source",
+    "title": "ThePrint, 9 Oct 2026",
+    "state": null,
+    "url": "https://theprint.in/india/sc-asks-centre-to-consider-alternative-venue-to-jantar-mantar-for-protests-in-delhi/3066947/",
+    "publisher": null,
+    "retrievedOn": "2026-10-15",
+    "sha256": null,
+    "archiveUrl": null
+  },
+  {
+    "id": "SRC-1095",
+    "kind": "Source",
+    "title": "DT Next, 13 Oct 2026",
+    "state": null,
+    "url": "https://www.dtnext.in/news/national/plea-in-sc-challenges-restrictions-on-protests-at-delhis-jantar-mantar",
+    "publisher": null,
+    "retrievedOn": "2026-10-15",
+    "sha256": null,
+    "archiveUrl": null
+  },
+  {
+    "id": "SRC-1096",
+    "kind": "Source",
+    "title": "The Law Advice, 13 Oct 2026",
+    "state": null,
+    "url": "https://www.thelawadvice.com/news/jantar-mantar-no-longer-a-protest-site-plea-moves-supreme-court-against-delhi-police-order",
+    "publisher": null,
+    "retrievedOn": "2026-10-15",
+    "sha256": null,
+    "archiveUrl": null
+  },
+  {
+    "id": "SRC-1097",
+    "kind": "Source",
+    "title": "Deccan Chronicle, 13 Oct 2026",
+    "state": null,
+    "url": "https://www.deccanchronicle.com/nation/jantar-mantar-removed-as-designated-protest-site-after-sc-order-delhi-police-to-delhi-hc-1995546",
+    "publisher": null,
+    "retrievedOn": "2026-10-15",
+    "sha256": null,
+    "archiveUrl": null
+  },
+  {
+    "id": "SRC-1100",
+    "kind": "Source",
+    "title": "ThePrint (Alisha Dutta), 12 Oct 2026, 3:27 pm IST",
+    "state": null,
+    "url": "https://theprint.in/india/amid-daily-protests-govt-denotifies-jantar-mantar-as-protest-venue-which-are-the-3-new-sites/3069058/",
+    "publisher": null,
+    "retrievedOn": "2026-10-15",
+    "sha256": null,
+    "archiveUrl": null
+  },
+  {
+    "id": "SRC-1098",
+    "kind": "Source",
+    "title": "Asianet News Newsable, 13 Oct 2026",
+    "state": null,
+    "url": "https://newsable.asianetnews.com/india/jantar-mantar-protest-row-delhi-hc-seeks-police-response-on-iyc-plea-articleshow-zea87ma",
+    "publisher": null,
+    "retrievedOn": "2026-10-15",
+    "sha256": null,
+    "archiveUrl": null
+  },
+  {
+    "id": "SRC-1099",
+    "kind": "Source",
+    "title": "Bar & Bench, 13 Oct 2026",
+    "state": null,
+    "url": "https://barandbench.com/news/decision-to-de-notify-jantar-mantar-as-protest-site-taken-after-supreme-court-order-delhi-police-to-high-court",
+    "publisher": null,
+    "retrievedOn": "2026-10-15",
     "sha256": null,
     "archiveUrl": null
   },

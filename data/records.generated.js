@@ -11478,6 +11478,17 @@ WGO.importedSources = [
     "originatesFrom": "IANS"
   },
   {
+    "id": "SRC-1090",
+    "name": "National Human Rights Commission, press release, New Delhi, 8 October 2026",
+    "kind": "PRIMARY",
+    "url": "https://nhrc.nic.in/media/press-release/nhrc,-india-takes-suo-motu-cognizance-of-the-reported-sexual-harassment-of-three-journalists-by-delhi-police-personnel-during-a-protest-at-jantar-mantar,-new-delhi-on-3rd-october-2026",
+    "retrievedOn": "2026-10-14",
+    "archiveUrl": null,
+    "archivedOn": null,
+    "sha256": "492b912c8ba21d673c08d2b6d6d540971dbffab1b8f76f4e07b5f347e16bc873",
+    "originatesFrom": null
+  },
+  {
     "id": "SRC-1071",
     "name": "DT Next",
     "kind": "SECONDARY",
@@ -11626,6 +11637,149 @@ WGO.importedSources = [
     "kind": "SECONDARY",
     "url": "https://www.nationalheraldindia.com/national/bihar-bandh-over-exam-turns-violent-as-students-clash-with-police-across-districts",
     "retrievedOn": "2026-10-14",
+    "archiveUrl": null,
+    "archivedOn": null,
+    "sha256": null,
+    "originatesFrom": null
+  },
+  {
+    "id": "SRC-1087",
+    "name": "Bar & Bench, 30 Sept 2026",
+    "kind": "SECONDARY",
+    "url": "https://www.barandbench.com/news/litigation/punjab-haryana-high-court-asks-police-to-clarify-whether-rape-took-place-at-lovely-professional-university",
+    "retrievedOn": "2026-10-14",
+    "archiveUrl": null,
+    "archivedOn": null,
+    "sha256": null,
+    "originatesFrom": null
+  },
+  {
+    "id": "SRC-1088",
+    "name": "Bar & Bench, 12 Oct 2026",
+    "kind": "SECONDARY",
+    "url": "https://www.barandbench.com/news/punjab-haryana-high-court-flags-gaps-in-police-probe-into-lpu-violence",
+    "retrievedOn": "2026-10-14",
+    "archiveUrl": null,
+    "archivedOn": null,
+    "sha256": null,
+    "originatesFrom": null
+  },
+  {
+    "id": "SRC-1089",
+    "name": "EastMojo (Vangamla Salle K S), 12 Sept 2024",
+    "kind": "SECONDARY",
+    "url": "https://eastmojo.com/manipur/2024/09/12/manipur-police-arrest-33-including-7-juveniles-amid-violent-protests/",
+    "retrievedOn": "2026-10-14",
+    "archiveUrl": null,
+    "archivedOn": null,
+    "sha256": null,
+    "originatesFrom": null
+  },
+  {
+    "id": "SRC-1091",
+    "name": "LawChakra, 12 Oct 2026",
+    "kind": "SECONDARY",
+    "url": "https://lawchakra.in/high-court/delhi-high-court/delhi-hc-youth-congress-jantar-mantar-plea-tomorrow/",
+    "retrievedOn": "2026-10-14",
+    "archiveUrl": null,
+    "archivedOn": null,
+    "sha256": null,
+    "originatesFrom": null
+  },
+  {
+    "id": "SRC-1092",
+    "name": "Asianet News Newsable, 12 Oct 2026",
+    "kind": "SECONDARY",
+    "url": "https://newsable.asianetnews.com/india/delhi-hc-defers-hearing-on-iyc-plea-against-protest-denial-by-police-articleshow-g0g4wog",
+    "retrievedOn": "2026-10-14",
+    "archiveUrl": null,
+    "archivedOn": null,
+    "sha256": null,
+    "originatesFrom": "ANI"
+  },
+  {
+    "id": "SRC-1093",
+    "name": "SCC Online blog, 10 Oct 2026 (updated 15 Oct)",
+    "kind": "SECONDARY",
+    "url": "https://www.scconline.com/blog/?p=398367",
+    "retrievedOn": "2026-10-15",
+    "archiveUrl": null,
+    "archivedOn": null,
+    "sha256": null,
+    "originatesFrom": null
+  },
+  {
+    "id": "SRC-1094",
+    "name": "ThePrint, 9 Oct 2026",
+    "kind": "SECONDARY",
+    "url": "https://theprint.in/india/sc-asks-centre-to-consider-alternative-venue-to-jantar-mantar-for-protests-in-delhi/3066947/",
+    "retrievedOn": "2026-10-15",
+    "archiveUrl": null,
+    "archivedOn": null,
+    "sha256": null,
+    "originatesFrom": "PTI"
+  },
+  {
+    "id": "SRC-1095",
+    "name": "DT Next, 13 Oct 2026",
+    "kind": "SECONDARY",
+    "url": "https://www.dtnext.in/news/national/plea-in-sc-challenges-restrictions-on-protests-at-delhis-jantar-mantar",
+    "retrievedOn": "2026-10-15",
+    "archiveUrl": null,
+    "archivedOn": null,
+    "sha256": null,
+    "originatesFrom": "PTI"
+  },
+  {
+    "id": "SRC-1096",
+    "name": "The Law Advice, 13 Oct 2026",
+    "kind": "SECONDARY",
+    "url": "https://www.thelawadvice.com/news/jantar-mantar-no-longer-a-protest-site-plea-moves-supreme-court-against-delhi-police-order",
+    "retrievedOn": "2026-10-15",
+    "archiveUrl": null,
+    "archivedOn": null,
+    "sha256": null,
+    "originatesFrom": null
+  },
+  {
+    "id": "SRC-1097",
+    "name": "Deccan Chronicle, 13 Oct 2026",
+    "kind": "SECONDARY",
+    "url": "https://www.deccanchronicle.com/nation/jantar-mantar-removed-as-designated-protest-site-after-sc-order-delhi-police-to-delhi-hc-1995546",
+    "retrievedOn": "2026-10-15",
+    "archiveUrl": null,
+    "archivedOn": null,
+    "sha256": null,
+    "originatesFrom": "PTI"
+  },
+  {
+    "id": "SRC-1100",
+    "name": "ThePrint (Alisha Dutta), 12 Oct 2026, 3:27 pm IST",
+    "kind": "SECONDARY",
+    "url": "https://theprint.in/india/amid-daily-protests-govt-denotifies-jantar-mantar-as-protest-venue-which-are-the-3-new-sites/3069058/",
+    "retrievedOn": "2026-10-15",
+    "archiveUrl": null,
+    "archivedOn": null,
+    "sha256": null,
+    "originatesFrom": null
+  },
+  {
+    "id": "SRC-1098",
+    "name": "Asianet News Newsable, 13 Oct 2026",
+    "kind": "SECONDARY",
+    "url": "https://newsable.asianetnews.com/india/jantar-mantar-protest-row-delhi-hc-seeks-police-response-on-iyc-plea-articleshow-zea87ma",
+    "retrievedOn": "2026-10-15",
+    "archiveUrl": null,
+    "archivedOn": null,
+    "sha256": null,
+    "originatesFrom": "ANI"
+  },
+  {
+    "id": "SRC-1099",
+    "name": "Bar & Bench, 13 Oct 2026",
+    "kind": "SECONDARY",
+    "url": "https://barandbench.com/news/decision-to-de-notify-jantar-mantar-as-protest-site-taken-after-supreme-court-order-delhi-police-to-high-court",
+    "retrievedOn": "2026-10-15",
     "archiveUrl": null,
     "archivedOn": null,
     "sha256": null,
@@ -13185,7 +13339,7 @@ WGO.importedEvidence = [
       "SRC-0130"
     ],
     "origin": "",
-    "establishes": "Two outlets with different origins report the petition and the order of 1 October. The case number is not reported in either. No order on the merits exists yet. The hearing of 12 October is a date to check. Retrieving the petition and the order of 1 October is FQ-023.",
+    "establishes": "Two outlets with different origins report the petition and the order of 1 October. The case number is not reported in either. No order on the merits exists yet. The hearing of 12 October is a date to check. Retrieving the petition and the order of 1 October is FQ-023. 14 October 2026: the 12 October hearing happened and is recorded at PROC-DEL-006. The matter was deferred to 13 October; that day's outcome is not yet found. 15 October 2026: on 13 October the Court issued notice and listed the matter for 17 November; the police say the plea is infructuous after Jantar Mantar was denotified (PROC-DEL-008, PROC-DEL-007).",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -32581,7 +32735,7 @@ WGO.importedEvidence = [
       "SRC-0901"
     ],
     "origin": "",
-    "establishes": "Only the headline of the fetched page was readable; body text was not available, so the number, dates and whether they were students are not established. Do not use as a detention count.",
+    "establishes": "Only the headline of the fetched page was readable; body text was not available, so the number, dates and whether they were students are not established. Do not use as a detention count. 14 October 2026: EastMojo of the same date gives the police figure as 33 including seven juveniles (HIST-MANI24-013). The Deccan Herald page is still unreadable (HTTP 403), so the 40 stays unverified and the gap between 33 and 40 is open.",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -36631,18 +36785,19 @@ WGO.importedEvidence = [
   },
   {
     "id": "HIST-DEV12-001",
-    "title": "On 8 October 2026 the National Human Rights Commission took suo motu cognisance of a media report of 5 October alleging sexual harassment of three women journal",
+    "title": "The National Human Rights Commission's press release of 8 October 2026 states that it has taken suo motu cognisance of a media report that three women journalis",
     "type": "OTHER_DOCUMENT",
-    "verification": "REPORTED",
+    "verification": "VERIFIED",
     "incidentId": "INC-0006",
     "dateOfItem": null,
     "dateAdded": "2026-08-16",
     "sourceIds": [
+      "SRC-1090",
       "SRC-1071",
       "SRC-1072"
     ],
     "origin": "",
-    "establishes": "Both outlets report the notice; the NHRC page itself was not read. The notice names no officer. The report is due about 22 October 2026. The people harassed were journalists, so this belongs to the 3 October protest record as the first official oversight step.",
+    "establishes": "Both outlets report the notice; the NHRC page itself was not read. The notice names no officer. The report is due about 22 October 2026. The people harassed were journalists, so this belongs to the 3 October protest record as the first official oversight step. TRACED 14 October 2026. The Commission's own page was read and confirms the notice, the date and the two-week period, so the earlier note that the NHRC page was not read no longer applies. The release does not name any officer, and says the facts of the harassment are as reported in the media, so VERIFIED means the Commission's notice exists as stated, not that the harassment is established. The report is due about 22 October 2026. This is the notice with that deadline; the earlier notice of 25 July 2026 (OVR-NHRC-001) fell due in early August.",
     "doesNotEstablish": "",
     "relatedIds": [],
     "accessNote": "",
@@ -36870,6 +37025,159 @@ WGO.importedEvidence = [
     "relatedIds": [],
     "accessNote": "",
     "volatility": "medium"
+  },
+  {
+    "id": "HIST-LPU26-014",
+    "title": "A public interest petition, Ravi Raj v. Union of India and Ors., filed by an LPU student, asks the Punjab and Haryana High Court to transfer the investigation i",
+    "type": "COURT_DOCUMENT",
+    "verification": "CORROBORATED",
+    "incidentId": "INC-0076",
+    "dateOfItem": null,
+    "dateAdded": "2026-10-14",
+    "sourceIds": [
+      "SRC-1075",
+      "SRC-1087"
+    ],
+    "origin": "",
+    "establishes": "Both articles were read on 14 October 2026; LiveLaw's is partly paywalled. Neither states the hearing date (Bar & Bench says 'on Wednesday'), and neither gives the next date. Bar & Bench tags only Justice Mishra while LiveLaw names the two-judge bench, so the archive takes the bench from LiveLaw. The rape claim came from an unverified online post (HIST-LPU26-002); the Court asked the police to verify it and made no finding. No order copy is held.",
+    "doesNotEstablish": "",
+    "relatedIds": [],
+    "accessNote": "",
+    "volatility": "high"
+  },
+  {
+    "id": "HIST-LPU26-015",
+    "title": "Bar & Bench reported on 12 October 2026 that, 'on Monday', the Punjab and Haryana High Court pulled up the Punjab Police over lapses in its ongoing investigatio",
+    "type": "COURT_DOCUMENT",
+    "verification": "REPORTED",
+    "incidentId": "INC-0076",
+    "dateOfItem": null,
+    "dateAdded": "2026-10-14",
+    "sourceIds": [
+      "SRC-1088"
+    ],
+    "origin": "",
+    "establishes": "The page loaded with its body incomplete, so the specific lapses, any directions and the next date are not known. 'Monday' would be 12 October 2026 but the article does not say so. The 8 October listing mentioned in earlier reporting could not be confirmed; its outcome is not held. The claim is kept to the single sentence the archive could read.",
+    "doesNotEstablish": "",
+    "relatedIds": [],
+    "accessNote": "",
+    "volatility": "high"
+  },
+  {
+    "id": "HIST-MANI24-013",
+    "title": "EastMojo reported from Imphal on 12 September 2024 that Manipur Police said they had arrested 33 people, including seven juveniles, in connection with the recen",
+    "type": "OTHER_DOCUMENT",
+    "verification": "REPORTED",
+    "incidentId": "INC-0068",
+    "dateOfItem": null,
+    "dateAdded": "2026-10-14",
+    "sourceIds": [
+      "SRC-1089"
+    ],
+    "origin": "",
+    "establishes": "Read in full on 14 October 2026. This is a police-given figure through one outlet. A Deccan Herald headline of the same date says 40 protesters were 'nabbed' (HIST-MANI24-010); the body of that article could not be read (HTTP 403), so the archive cannot tell whether 40 counts seven juveniles in addition to 33 adults or is a different tally. Other search summaries describe '33 arrested and seven juveniles detained', which would total 40, but EastMojo's wording is '33, including seven juveniles'. The two readings are not reconciled.",
+    "doesNotEstablish": "",
+    "relatedIds": [],
+    "accessNote": "",
+    "volatility": "low"
+  },
+  {
+    "id": "PROC-DEL-006",
+    "title": "On Monday 12 October 2026 the Delhi High Court deferred the Indian Youth Congress's plea against the Delhi Police order of 1 October 2026 refusing permission to",
+    "type": "COURT_DOCUMENT",
+    "verification": "CORROBORATED",
+    "incidentId": "INC-0006",
+    "dateOfItem": null,
+    "dateAdded": "2026-10-14",
+    "sourceIds": [
+      "SRC-1091",
+      "SRC-1092"
+    ],
+    "origin": "",
+    "establishes": "Both articles were read in full on 14 October 2026. The adjournment, the ASG's request and the Tuesday listing agree. The judge's name rests on LawChakra alone, so it is held as that outlet's account; earlier reporting of 9 October had the matter before Acting Chief Justice Nitin Wasudeo Sambre and Justice Sanjay Sharma, who said it would be heard on Monday, which fits a transfer to another bench but the archive has no order showing one. The calendar date 13 October is the archive's inference from 'Tuesday'. What happened on 13 October was searched for on 14 October and not found. No order copy is held (FQ-023). 15 October 2026: PTI and ANI report on the 13 October hearing before Justice Amit Mahajan (PROC-DEL-008), which supports the judge's name.",
+    "doesNotEstablish": "",
+    "relatedIds": [],
+    "accessNote": "",
+    "volatility": "high"
+  },
+  {
+    "id": "PROC-SC-020",
+    "title": "On 9 October 2026 a bench of the Chief Justice Surya Kant and Justices Joymalya Bagchi and V. Mohana heard a plea, reported by SCC Online as M A Baby v. Union o",
+    "type": "COURT_DOCUMENT",
+    "verification": "CORROBORATED",
+    "incidentId": null,
+    "dateOfItem": null,
+    "dateAdded": "2026-10-15",
+    "sourceIds": [
+      "SRC-1093",
+      "SRC-1094"
+    ],
+    "origin": "",
+    "establishes": "Both articles were read in full on 15 October 2026. They differ in what they carry: ThePrint (PTI) does not use the word 'overreaching' and reports no formal directions or timelines, while SCC Online reports the four-day compliance direction. The archive attributes each statement to the outlet that carries it. The order itself is not held. This is a different petition from the batch headed Shailendra Mani Tripathi (W.P.(Crl.) 280/2026), so it does not answer OQ-063. It matters for the archive because the Delhi Police later relied on it as the basis for removing Jantar Mantar as a designated protest site (PROC-DEL-007). The order, as reported, asks authorities to consider alternative sites; it does not itself de-notify Jantar Mantar.",
+    "doesNotEstablish": "",
+    "relatedIds": [],
+    "accessNote": "",
+    "volatility": "high"
+  },
+  {
+    "id": "PROC-SC-021",
+    "title": "PTI reports that an application has been filed in a pending petition in the Supreme Court concerning the protests in Delhi and the police response to them, chal",
+    "type": "COURT_DOCUMENT",
+    "verification": "REPORTED",
+    "incidentId": null,
+    "dateOfItem": null,
+    "dateAdded": "2026-10-15",
+    "sourceIds": [
+      "SRC-1095",
+      "SRC-1096"
+    ],
+    "origin": "",
+    "establishes": "Both articles were read on 15 October 2026. Neither names the applicant or the pending case. The archive has not tied the application to a particular proceeding and does not guess. The factual claim about what the Court earlier held about Jantar Mantar and Ramlila Maidan is the applicant's argument as reported, not a finding.",
+    "doesNotEstablish": "",
+    "relatedIds": [],
+    "accessNote": "",
+    "volatility": "high"
+  },
+  {
+    "id": "PROC-DEL-007",
+    "title": "PTI reports that a standing order dated 11 October 2026, issued by Delhi Police Commissioner Anurag Kumar, de-notified Jantar Mantar as a designated protest sit",
+    "type": "COURT_DOCUMENT",
+    "verification": "REPORTED",
+    "incidentId": "INC-0001",
+    "dateOfItem": null,
+    "dateAdded": "2026-10-15",
+    "sourceIds": [
+      "SRC-1095",
+      "SRC-1096",
+      "SRC-1097",
+      "SRC-1100"
+    ],
+    "origin": "",
+    "establishes": "The date is not settled: PTI and The Law Advice say 11 October, another report says 12 October, and counsel's 'Today' on 13 October could mean the order was announced or notified that day. The order itself has not been seen and the archive does not hold its text, its legal basis, the SOP or any public notice. The police rely on the Supreme Court's order of 9 October (PROC-SC-020), which as reported asks authorities to consider a site with basic amenities and does not itself name or remove any site. Whether the Court's words bear the weight the police put on them is a question for the order text. This is the kind of document the archive exists to find: a written order with an issuing office. See OQ-064. 15 October 2026: ThePrint's quotation gives a different basis from the one counsel gave the High Court. The standing order, as quoted, rests on the recommendations of a Home Ministry committee, while the Delhi Police told the Court the step followed the Supreme Court's order of 9 October. The two can both be true, since the Court's order asked the competent authority to consider alternatives, but the committee's constitution, membership, date, terms of reference and report are not described anywhere the archive has read, and the order text itself is not held. ThePrint gives no date for the standing order and says only that the report was published on 12 October, which is consistent with 11 October and earlier than the 13 October 'Today' in counsel's statement.",
+    "doesNotEstablish": "",
+    "relatedIds": [],
+    "accessNote": "",
+    "volatility": "high"
+  },
+  {
+    "id": "PROC-DEL-008",
+    "title": "On Tuesday 13 October 2026 the Delhi High Court (Justice Amit Mahajan) issued notice on the Indian Youth Congress's plea against the Delhi Police order of 1 Oct",
+    "type": "COURT_DOCUMENT",
+    "verification": "CORROBORATED",
+    "incidentId": "INC-0001",
+    "dateOfItem": null,
+    "dateAdded": "2026-10-15",
+    "sourceIds": [
+      "SRC-1098",
+      "SRC-1097",
+      "SRC-1099"
+    ],
+    "origin": "",
+    "establishes": "Three outlets read in full on 15 October 2026. ANI and PTI are separate agencies and agree on the bench, the police argument and the notice. They differ on the next date: ANI gives 17 November and PTI says only 'in November'. Bar & Bench reports the police statement but names no bench or next date. The 12 October hearing is at PROC-DEL-006, where the judge's name rested on LawChakra alone; ANI's and PTI's naming of Justice Mahajan now supports it. The order of 13 October is not held (FQ-023).",
+    "doesNotEstablish": "",
+    "relatedIds": [],
+    "accessNote": "",
+    "volatility": "high"
   }
 ];
 
@@ -38573,7 +38881,7 @@ WGO.importedQuestions = [
     "incidentId": null,
     "text": "What did the Supreme Court do on 9 October 2026, the date the 10 September order listed W.P.(Crl.) No. 280/2026 and connected matters for further consideration, and has the Committee filed or been asked for a first interim report?",
     "priority": "HIGH",
-    "whyItMatters": "The Committee's first report on issues (i) and (vi) of paragraph 12 was requested 'at the earliest' on 18 August and again on 10 September. The 9 October listing is the next point at which the Court could set a date for it, say anything about the confidential portal, or deal with the Delhi Police status report on the protection of the 14-year-old protester ordered in W.P.(C) No. 324/2026. No order of that date is held and no report of it has been found.",
+    "whyItMatters": "The Committee's first report on issues (i) and (vi) of paragraph 12 was requested 'at the earliest' on 18 August and again on 10 September. The 9 October listing is the next point at which the Court could set a date for it, say anything about the confidential portal, or deal with the Delhi Police status report on the protection of the 14-year-old protester ordered in W.P.(C) No. 324/2026. No order of that date is held and no report of it has been found. SEARCHED 14 October 2026: a general search for the Supreme Court's 9 October hearing, the first interim report or any HPEC statement found nothing dated after the 10 September order. Absence from a news search is weak evidence. The order itself will be on the Committee's Supreme Court Orders page. 15 October 2026: the Supreme Court did hear a separate petition on 9 October (M A Baby v. Union of India, PROC-SC-020), on Metro and train closures and an alternative protest site. That is not the Tripathi batch (W.P.(Crl.) 280/2026), so this question remains open.",
     "lawfulRoute": "The order of 9 October will appear on the Supreme Court's site and, as the two earlier orders did, on the Committee's Supreme Court Orders page (hpec.nic.in/supreme-court-orders). The archive owner can save it from there, the way the earlier two arrived.",
     "state": "UNANSWERED",
     "wants": [
@@ -38584,6 +38892,24 @@ WGO.importedQuestions = [
       "PROC-SC-019"
     ],
     "category": "legal_proceeding"
+  },
+  {
+    "id": "OQ-064",
+    "incidentId": "INC-0001",
+    "text": "The Delhi Police Commissioner's standing order of 11 October 2026 de-notifying Jantar Mantar as a protest site: its text, its date of issue and publication, the legal power it cites, the three replacement venues, and the revised SOP for protests said to follow. And the Ministry of Home Affairs committee on alternative venues that the order is reported to rest on: the order constituting it, its members, its terms of reference, its date and its recommendation.",
+    "priority": "HIGH",
+    "whyItMatters": "A written order from a named office removed the capital's designated protest site, and the police justify it by a Supreme Court order of 9 October that, as reported, only asks authorities to consider a site with basic amenities. Whether the standing order cites the Court's words accurately, under which statute it was made, whether it was published, and when it took effect (11 October, 12 October or 13 October, all of which appear in reporting) cannot be answered from news accounts. The SOP for the three new venues will govern the next protest. ThePrint quotes the standing order as resting on a Home Ministry committee's recommendations, while counsel told the High Court the step followed the Supreme Court's order of 9 October. A committee that recommended removing the capital's main protest site is a body with a constitution order and a report, both of which should exist on paper.",
+    "lawfulRoute": "The order and any SOP should be requested from Delhi Police by RTI through the rtionline.gov.in portal (see the Delhi Police entry in the authority list), and checked against Delhi Police's own website. The Delhi High Court file in the Indian Youth Congress matter (PROC-DEL-005, FQ-023) may carry it as an annexure, and the police are likely to place it before the Supreme Court if the application there is heard. The Home Ministry's committee order and report can be requested from the Ministry of Home Affairs through rtionline.gov.in.",
+    "state": "UNANSWERED",
+    "wants": [
+      "The order and any SOP should be requested from Delhi Police by RTI through the rtionline.gov.in portal (see the Delhi Police entry in the authority list), and checked against Delhi Police's own website. The Delhi High Court file in the Indian Youth Congress matter (PROC-DEL-005, FQ-023) may carry it as an annexure, and the police are likely to place it before the Supreme Court if the application there is heard. The Home Ministry's committee order and report can be requested from the Ministry of Home Affairs through rtionline.gov.in."
+    ],
+    "evidenceIds": [],
+    "blocks": [
+      "PROC-DEL-007",
+      "PROC-SC-021"
+    ],
+    "category": "document_custody"
   }
 ];
 
@@ -39450,6 +39776,7 @@ WGO.importedIncidentFacts = {
       "Jantar Mantar on 2 October 2026. DT Next reports it",
       "an independent journalist accused an Assistant Commissioner of Police of hitting her on the chest while she filmed the detention of a student leader",
       "internet services were suspended in the Jantar Mantar area",
+      "it has taken suo motu cognisance of a media report that three women journalists were subjected to sexual harassment by Delhi Police personnel during a protest at Jantar Mantar, New Delhi",
       "junior personnel were allowed to remove them while most IPS officers kept theirs, and that officials gave the reason as preventing individual officers being identified and targeted",
       "nearly 200 protesters were detained"
     ],
@@ -39473,7 +39800,8 @@ WGO.importedIncidentFacts = {
     "state": [
       "CORROBORATED",
       "DISPUTED",
-      "REPORTED"
+      "REPORTED",
+      "VERIFIED"
     ]
   },
   "INC-0007": {
@@ -41434,6 +41762,7 @@ WGO.importedIncidentFacts = {
   "INC-0068": {
     "dates": [
       "10 September 2024",
+      "12 September 2024",
       "15 September 2024"
     ],
     "places": [
@@ -41451,7 +41780,8 @@ WGO.importedIncidentFacts = {
       "HIST-MANI24-009",
       "HIST-MANI24-010",
       "HIST-MANI24-011",
-      "HIST-MANI24-012"
+      "HIST-MANI24-012",
+      "HIST-MANI24-013"
     ],
     "state": [
       "CORROBORATED",

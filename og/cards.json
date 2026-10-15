@@ -9,8 +9,8 @@
     "state": "UNDER_INVESTIGATION",
     "stateLabel": "under investigation",
     "order": "No order has been found",
-    "count": 26,
-    "hash": "d876ac22c977bc89"
+    "count": 28,
+    "hash": "156ae8f8743675b7"
   },
   {
     "v": 2,
@@ -74,8 +74,8 @@
     "state": "REPORTED",
     "stateLabel": "reported",
     "order": "No order has been found",
-    "count": 17,
-    "hash": "5536f8ed64ddab65"
+    "count": 18,
+    "hash": "926596517c815f8c"
   },
   {
     "v": 2,
@@ -880,8 +880,8 @@
     "state": "CORROBORATED",
     "stateLabel": "corroborated",
     "order": "No order has been found",
-    "count": 12,
-    "hash": "43f373f8b8ead9f7"
+    "count": 13,
+    "hash": "8aadeabf95bbaa21"
   },
   {
     "v": 2,
@@ -984,8 +984,8 @@
     "state": "CORROBORATED",
     "stateLabel": "corroborated",
     "order": "No order has been found",
-    "count": 14,
-    "hash": "bf979fed0601e5ff"
+    "count": 16,
+    "hash": "5e274cf0c171fe98"
   },
   {
     "v": 2,
