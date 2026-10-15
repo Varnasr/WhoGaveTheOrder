@@ -5,6 +5,153 @@ window.WGO = window.WGO || {};
 
 WGO.changes = [
   {
+    "commit": "d31c7e6745",
+    "date": "2026-10-15T16:24:15Z",
+    "subject": "Next round: the 9 October Supreme Court order, the Jantar Mantar denotification and the 13 October Delhi High Court hearing",
+    "added": [
+      {
+        "id": "PROC-SC-020",
+        "kind": "Evidence",
+        "title": "On 9 October 2026 a bench of the Chief Justice Surya Kant and Justices Joymalya Bagchi and V. Mohana heard a plea, reported by SCC Online as M A Baby v. Union o",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=PROC-SC-020"
+      },
+      {
+        "id": "PROC-SC-021",
+        "kind": "Evidence",
+        "title": "PTI reports that an application has been filed in a pending petition in the Supreme Court concerning the protests in Delhi and the police response to them, chal",
+        "state": "REPORTED",
+        "url": "evidence.html?id=PROC-SC-021"
+      },
+      {
+        "id": "PROC-DEL-007",
+        "kind": "Evidence",
+        "title": "PTI reports that a standing order dated 11 October 2026, issued by Delhi Police Commissioner Anurag Kumar, de-notified Jantar Mantar as a designated protest sit",
+        "state": "REPORTED",
+        "url": "evidence.html?id=PROC-DEL-007"
+      },
+      {
+        "id": "PROC-DEL-008",
+        "kind": "Evidence",
+        "title": "On Tuesday 13 October 2026 the Delhi High Court (Justice Amit Mahajan) issued notice on the Indian Youth Congress's plea against the Delhi Police order of 1 Oct",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=PROC-DEL-008"
+      },
+      {
+        "id": "SRC-1093",
+        "kind": "Source",
+        "title": "SCC Online blog, 10 Oct 2026 (updated 15 Oct)",
+        "state": null,
+        "url": "https://www.scconline.com/blog/?p=398367"
+      },
+      {
+        "id": "SRC-1094",
+        "kind": "Source",
+        "title": "ThePrint, 9 Oct 2026",
+        "state": null,
+        "url": "https://theprint.in/india/sc-asks-centre-to-consider-alternative-venue-to-jantar-mantar-for-protests-in-delhi/3066947/"
+      },
+      {
+        "id": "SRC-1095",
+        "kind": "Source",
+        "title": "DT Next, 13 Oct 2026",
+        "state": null,
+        "url": "https://www.dtnext.in/news/national/plea-in-sc-challenges-restrictions-on-protests-at-delhis-jantar-mantar"
+      },
+      {
+        "id": "SRC-1096",
+        "kind": "Source",
+        "title": "The Law Advice, 13 Oct 2026",
+        "state": null,
+        "url": "https://www.thelawadvice.com/news/jantar-mantar-no-longer-a-protest-site-plea-moves-supreme-court-against-delhi-police-order"
+      },
+      {
+        "id": "SRC-1097",
+        "kind": "Source",
+        "title": "Deccan Chronicle, 13 Oct 2026",
+        "state": null,
+        "url": "https://www.deccanchronicle.com/nation/jantar-mantar-removed-as-designated-protest-site-after-sc-order-delhi-police-to-delhi-hc-1995546"
+      },
+      {
+        "id": "SRC-1098",
+        "kind": "Source",
+        "title": "Asianet News Newsable, 13 Oct 2026",
+        "state": null,
+        "url": "https://newsable.asianetnews.com/india/jantar-mantar-protest-row-delhi-hc-seeks-police-response-on-iyc-plea-articleshow-zea87ma"
+      },
+      {
+        "id": "SRC-1099",
+        "kind": "Source",
+        "title": "Bar & Bench, 13 Oct 2026",
+        "state": null,
+        "url": "https://barandbench.com/news/decision-to-de-notify-jantar-mantar-as-protest-site-taken-after-supreme-court-order-delhi-police-to-high-court"
+      },
+      {
+        "id": "OQ-064",
+        "kind": "Question",
+        "title": "The Delhi Police Commissioner's standing order of 11 October 2026 de-notifying Jantar Mantar as a protest site: its text, its date of issue and publication, the legal power it cites, the three replacement venues, and the revised SOP for protests said to follow.",
+        "state": "UNANSWERED",
+        "url": "incident/jantar-mantar.html#OQ-064"
+      }
+    ],
+    "removed": [],
+    "changed": [
+      {
+        "id": "PROC-DEL-005",
+        "kind": "Evidence",
+        "title": "Bar and Bench reports that the president of the Indian Youth Congress moved the Delhi High Court on 3 October 2026 against Delhi Police's order of 1 October 202",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=PROC-DEL-005",
+        "fields": [
+          {
+            "field": "establishes",
+            "from": "Two outlets with different origins report the petition and the order of 1 October. The case number is not reported in either. No order on the merits exists yet. The hearing of 12 October is a date to check. Retrieving the petition and th…",
+            "to": "Two outlets with different origins report the petition and the order of 1 October. The case number is not reported in either. No order on the merits exists yet. The hearing of 12 October is a date to check. Retrieving the petition and th…"
+          }
+        ]
+      },
+      {
+        "id": "PROC-DEL-006",
+        "kind": "Evidence",
+        "title": "On Monday 12 October 2026 the Delhi High Court deferred the Indian Youth Congress's plea against the Delhi Police order of 1 October 2026 refusing permission to",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=PROC-DEL-006",
+        "fields": [
+          {
+            "field": "establishes",
+            "from": "Both articles were read in full on 14 October 2026. The adjournment, the ASG's request and the Tuesday listing agree. The judge's name rests on LawChakra alone, so it is held as that outlet's account; earlier reporting of 9 October had t…",
+            "to": "Both articles were read in full on 14 October 2026. The adjournment, the ASG's request and the Tuesday listing agree. The judge's name rests on LawChakra alone, so it is held as that outlet's account; earlier reporting of 9 October had t…"
+          }
+        ]
+      }
+    ],
+    "summary": "12 records added · 2 records edited"
+  },
+  {
+    "commit": "234cfcf872",
+    "date": "2026-10-15T07:43:17Z",
+    "subject": "Sweep log and archived copies for 2026-10-15 [skip ci]",
+    "added": [],
+    "removed": [],
+    "changed": [
+      {
+        "id": "SRC-0148",
+        "kind": "Source",
+        "title": "LiveLaw, 27 January 2018 (opinion by Manu Sebastian)",
+        "state": null,
+        "url": "https://www.livelaw.in/amp/rule-law-becomes-dead-horse-sc-order-refusing-probe-attack-kanhaiya-kumar-unfortunate",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20261014075310/https://www.livelaw.in/amp/rule-law-becomes-dead-horse-sc-order-refusing-probe-attack-kanhaiya-kumar-unfortunate"
+          }
+        ]
+      }
+    ],
+    "summary": "1 record edited"
+  },
+  {
     "commit": "08424b7b7e",
     "date": "2026-10-14T13:50:56Z",
     "subject": "Next round: Youth Congress plea on 12 October, NHRC journalists notice traced to the NHRC",
