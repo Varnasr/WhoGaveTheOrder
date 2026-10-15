@@ -4268,7 +4268,7 @@
     "incident": "INC-0006",
     "claim": "Bar and Bench reports that the president of the Indian Youth Congress moved the Delhi High Court on 3 October 2026 against Delhi Police's order of 1 October 2026 rejecting the organisation's application for permission to protest against the Chief Election Commissioner at Jantar Mantar. PTI, as carried by Deccan Chronicle, reports that on Friday 9 October 2026 a bench of Acting Chief Justice Nitin Wasudeo Sambre and Justice Sanjay Sharma declined an urgent hearing, with the Acting Chief Justice asking what the urgency was, and said the matter would be listed on Monday 12 October. The same report says the organisation had applied on 25 September for 100 to 150 people from 1 to 25 October, and that the petition asks the Court to quash the police communication of 1 October and direct fresh consideration of the request.",
     "confidence": "CORROBORATED",
-    "notes": "Two outlets with different origins report the petition and the order of 1 October. The case number is not reported in either. No order on the merits exists yet. The hearing of 12 October is a date to check. Retrieving the petition and the order of 1 October is FQ-023. 14 October 2026: the 12 October hearing happened and is recorded at PROC-DEL-006. The matter was deferred to 13 October; that day's outcome is not yet found.",
+    "notes": "Two outlets with different origins report the petition and the order of 1 October. The case number is not reported in either. No order on the merits exists yet. The hearing of 12 October is a date to check. Retrieving the petition and the order of 1 October is FQ-023. 14 October 2026: the 12 October hearing happened and is recorded at PROC-DEL-006. The matter was deferred to 13 October; that day's outcome is not yet found. 15 October 2026: on 13 October the Court issued notice and listed the matter for 17 November; the police say the plea is infructuous after Jantar Mantar was denotified (PROC-DEL-008, PROC-DEL-007).",
     "volatility": "medium",
     "sources": [
       {
@@ -37047,7 +37047,121 @@
         "originates_from": "ANI"
       }
     ],
-    "notes": "Both articles were read in full on 14 October 2026. The adjournment, the ASG's request and the Tuesday listing agree. The judge's name rests on LawChakra alone, so it is held as that outlet's account; earlier reporting of 9 October had the matter before Acting Chief Justice Nitin Wasudeo Sambre and Justice Sanjay Sharma, who said it would be heard on Monday, which fits a transfer to another bench but the archive has no order showing one. The calendar date 13 October is the archive's inference from 'Tuesday'. What happened on 13 October was searched for on 14 October and not found. No order copy is held (FQ-023).",
+    "notes": "Both articles were read in full on 14 October 2026. The adjournment, the ASG's request and the Tuesday listing agree. The judge's name rests on LawChakra alone, so it is held as that outlet's account; earlier reporting of 9 October had the matter before Acting Chief Justice Nitin Wasudeo Sambre and Justice Sanjay Sharma, who said it would be heard on Monday, which fits a transfer to another bench but the archive has no order showing one. The calendar date 13 October is the archive's inference from 'Tuesday'. What happened on 13 October was searched for on 14 October and not found. No order copy is held (FQ-023). 15 October 2026: PTI and ANI report on the 13 October hearing before Justice Amit Mahajan (PROC-DEL-008), which supports the judge's name.",
     "added_on": "2026-10-14"
+  },
+  {
+    "id": "PROC-SC-020",
+    "jurisdiction": "supreme_court",
+    "category": "legal_proceeding",
+    "claim": "On 9 October 2026 a bench of the Chief Justice Surya Kant and Justices Joymalya Bagchi and V. Mohana heard a plea, reported by SCC Online as M A Baby v. Union of India (2026 SCC OnLine SC 2121), against proposed restrictions on Delhi Metro stations and the cancellation of trains into the capital, linked to a protest called by the Cockroach Janta Party and student organisations against the Chief Election Commissioner. SCC Online reports that the bench described the notifications as appearing 'overreaching', said there should be no outright prohibition on the movement of Metro trains, and asked that authorities consider operating Metro and rail services 'in a suitable and regulated manner'. Both SCC Online and PTI report that the bench recorded a suggestion that a site with basic amenities for peaceful protesters be identified and designated, saying 'Let the competent authority consider the suggestion and take an appropriate decision thereon'; Solicitor General Tushar Mehta said the competent authority would consider a location other than Jantar Mantar, and Senior Advocate Kapil Sibal was agreeable. SCC Online adds that DMRC, railway authorities and Delhi Police (Traffic) were to report compliance within four days and that a traffic advisory was to be published.",
+    "confidence": "CORROBORATED",
+    "volatility": "high",
+    "sources": [
+      {
+        "url": "https://www.scconline.com/blog/?p=398367",
+        "source_type": "secondary",
+        "publication": "SCC Online blog, 10 Oct 2026 (updated 15 Oct)",
+        "retrieved_on": "2026-10-15"
+      },
+      {
+        "url": "https://theprint.in/india/sc-asks-centre-to-consider-alternative-venue-to-jantar-mantar-for-protests-in-delhi/3066947/",
+        "source_type": "secondary",
+        "publication": "ThePrint, 9 Oct 2026",
+        "retrieved_on": "2026-10-15",
+        "originates_from": "PTI"
+      }
+    ],
+    "notes": "Both articles were read in full on 15 October 2026. They differ in what they carry: ThePrint (PTI) does not use the word 'overreaching' and reports no formal directions or timelines, while SCC Online reports the four-day compliance direction. The archive attributes each statement to the outlet that carries it. The order itself is not held. This is a different petition from the batch headed Shailendra Mani Tripathi (W.P.(Crl.) 280/2026), so it does not answer OQ-063. It matters for the archive because the Delhi Police later relied on it as the basis for removing Jantar Mantar as a designated protest site (PROC-DEL-007). The order, as reported, asks authorities to consider alternative sites; it does not itself de-notify Jantar Mantar.",
+    "added_on": "2026-10-15"
+  },
+  {
+    "id": "PROC-SC-021",
+    "jurisdiction": "supreme_court",
+    "category": "legal_proceeding",
+    "claim": "PTI reports that an application has been filed in a pending petition in the Supreme Court concerning the protests in Delhi and the police response to them, challenging the removal of Jantar Mantar as a designated protest site and the choice of alternative sites. It argues that the Court had earlier recognised Jantar Mantar as a designated protest site and had found Ramlila Maidan unsuitable, and that some proposed alternatives lie near landfill areas. Former Delhi High Court judge Mukta Gupta is reported as likely to lead the legal team for the applicant. No hearing date and no Supreme Court direction on the application is reported.",
+    "confidence": "REPORTED",
+    "volatility": "high",
+    "sources": [
+      {
+        "url": "https://www.dtnext.in/news/national/plea-in-sc-challenges-restrictions-on-protests-at-delhis-jantar-mantar",
+        "source_type": "secondary",
+        "publication": "DT Next, 13 Oct 2026",
+        "retrieved_on": "2026-10-15",
+        "originates_from": "PTI"
+      },
+      {
+        "url": "https://www.thelawadvice.com/news/jantar-mantar-no-longer-a-protest-site-plea-moves-supreme-court-against-delhi-police-order",
+        "source_type": "secondary",
+        "publication": "The Law Advice, 13 Oct 2026",
+        "retrieved_on": "2026-10-15"
+      }
+    ],
+    "notes": "Both articles were read on 15 October 2026. Neither names the applicant or the pending case. The archive has not tied the application to a particular proceeding and does not guess. The factual claim about what the Court earlier held about Jantar Mantar and Ramlila Maidan is the applicant's argument as reported, not a finding.",
+    "added_on": "2026-10-15"
+  },
+  {
+    "id": "PROC-DEL-007",
+    "jurisdiction": "delhi",
+    "category": "legal_proceeding",
+    "claim": "PTI reports that a standing order dated 11 October 2026, issued by Delhi Police Commissioner Anurag Kumar, de-notified Jantar Mantar as a designated protest site and named Ramlila Ground, Burari Ground and CBD Ground in East Delhi as replacement venues. Other reporting dates the removal to 12 October, and on 13 October Additional Solicitor General Chetan Sharma told the Delhi High Court 'Today, we have denotified Jantar Mantar pursuant to orders of the Supreme Court', saying the police acted on the Supreme Court's order of 9 October 2026. A revised standard operating procedure for protests at the three venues is reported as to be issued separately.",
+    "confidence": "REPORTED",
+    "volatility": "high",
+    "sources": [
+      {
+        "url": "https://www.dtnext.in/news/national/plea-in-sc-challenges-restrictions-on-protests-at-delhis-jantar-mantar",
+        "source_type": "secondary",
+        "publication": "DT Next, 13 Oct 2026",
+        "retrieved_on": "2026-10-15",
+        "originates_from": "PTI"
+      },
+      {
+        "url": "https://www.thelawadvice.com/news/jantar-mantar-no-longer-a-protest-site-plea-moves-supreme-court-against-delhi-police-order",
+        "source_type": "secondary",
+        "publication": "The Law Advice, 13 Oct 2026",
+        "retrieved_on": "2026-10-15"
+      },
+      {
+        "url": "https://www.deccanchronicle.com/nation/jantar-mantar-removed-as-designated-protest-site-after-sc-order-delhi-police-to-delhi-hc-1995546",
+        "source_type": "secondary",
+        "publication": "Deccan Chronicle, 13 Oct 2026",
+        "retrieved_on": "2026-10-15",
+        "originates_from": "PTI"
+      }
+    ],
+    "notes": "The date is not settled: PTI and The Law Advice say 11 October, another report says 12 October, and counsel's 'Today' on 13 October could mean the order was announced or notified that day. The order itself has not been seen and the archive does not hold its text, its legal basis, the SOP or any public notice. The police rely on the Supreme Court's order of 9 October (PROC-SC-020), which as reported asks authorities to consider a site with basic amenities and does not itself name or remove any site. Whether the Court's words bear the weight the police put on them is a question for the order text. This is the kind of document the archive exists to find: a written order with an issuing office. See OQ-064.",
+    "added_on": "2026-10-15"
+  },
+  {
+    "id": "PROC-DEL-008",
+    "jurisdiction": "delhi",
+    "category": "legal_proceeding",
+    "claim": "On Tuesday 13 October 2026 the Delhi High Court (Justice Amit Mahajan) issued notice on the Indian Youth Congress's plea against the Delhi Police order of 1 October 2026 refusing permission to protest against the Chief Election Commissioner at Jantar Mantar, and listed the matter for 17 November 2026. Additional Solicitor General Chetan Sharma, for Delhi Police, argued that the plea had become infructuous because Jantar Mantar had been denotified as a designated protest site, saying 'The Supreme Court had said appropriate sites need to be identified and designated, and we have precisely done that'. The petitioner was reported to need to amend the petition in view of the latest developments. The Court granted no permission for the demonstration and expressed no view on the merits.",
+    "confidence": "CORROBORATED",
+    "volatility": "high",
+    "sources": [
+      {
+        "url": "https://newsable.asianetnews.com/india/jantar-mantar-protest-row-delhi-hc-seeks-police-response-on-iyc-plea-articleshow-zea87ma",
+        "source_type": "secondary",
+        "publication": "Asianet News Newsable, 13 Oct 2026",
+        "retrieved_on": "2026-10-15",
+        "originates_from": "ANI"
+      },
+      {
+        "url": "https://www.deccanchronicle.com/nation/jantar-mantar-removed-as-designated-protest-site-after-sc-order-delhi-police-to-delhi-hc-1995546",
+        "source_type": "secondary",
+        "publication": "Deccan Chronicle, 13 Oct 2026",
+        "retrieved_on": "2026-10-15",
+        "originates_from": "PTI"
+      },
+      {
+        "url": "https://barandbench.com/news/decision-to-de-notify-jantar-mantar-as-protest-site-taken-after-supreme-court-order-delhi-police-to-high-court",
+        "source_type": "secondary",
+        "publication": "Bar & Bench, 13 Oct 2026",
+        "retrieved_on": "2026-10-15"
+      }
+    ],
+    "notes": "Three outlets read in full on 15 October 2026. ANI and PTI are separate agencies and agree on the bench, the police argument and the notice. They differ on the next date: ANI gives 17 November and PTI says only 'in November'. Bar & Bench reports the police statement but names no bench or next date. The 12 October hearing is at PROC-DEL-006, where the judge's name rested on LawChakra alone; ANI's and PTI's naming of Justice Mahajan now supports it. The order of 13 October is not held (FQ-023).",
+    "added_on": "2026-10-15"
   }
 ]
