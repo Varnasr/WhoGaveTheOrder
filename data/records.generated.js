@@ -1429,8 +1429,8 @@ WGO.importedSources = [
     "kind": "PRIMARY",
     "url": "https://indiankanoon.org/doc/40838362/",
     "retrievedOn": "2026-10-10",
-    "archiveUrl": null,
-    "archivedOn": null,
+    "archiveUrl": "http://web.archive.org/web/20261015074147/https://indiankanoon.org/doc/40838362/",
+    "archivedOn": "2026-10-16",
     "sha256": null,
     "originatesFrom": "Supreme Court of India daily orders; the court's own copy was not fetched"
   },
