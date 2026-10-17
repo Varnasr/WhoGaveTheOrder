@@ -1330,8 +1330,8 @@ WGO.importedSources = [
     "kind": "PRIMARY",
     "url": "https://nhrc.nic.in/media/press-release/nhrc-notice-to-the-union-home-secretary-chief-secretary-delhi-police-commisioner-on-allegations-beating-journalist-students-outside-patiala-house-court",
     "retrievedOn": "2026-10-10",
-    "archiveUrl": null,
-    "archivedOn": null,
+    "archiveUrl": "https://web.archive.org/web/20261017070630/https://nhrc.nic.in/media/press-release/nhrc-notice-to-the-union-home-secretary-chief-secretary-delhi-police-commisioner-on-allegations-beating-journalist-students-outside-patiala-house-court",
+    "archivedOn": "2026-10-17",
     "sha256": null,
     "originatesFrom": null
   },
@@ -1473,8 +1473,8 @@ WGO.importedSources = [
     "kind": "SECONDARY",
     "url": "https://m.thewire.in/article/education/an-eyewitness-account-of-the-violence-in-hyderabad-university",
     "retrievedOn": "2026-10-10",
-    "archiveUrl": null,
-    "archivedOn": null,
+    "archiveUrl": "https://web.archive.org/web/20261017071012/https://m.thewire.in/article/education/an-eyewitness-account-of-the-violence-in-hyderabad-university",
+    "archivedOn": "2026-10-17",
     "sha256": null,
     "originatesFrom": null
   },
