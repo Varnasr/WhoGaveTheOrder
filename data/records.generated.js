@@ -1341,8 +1341,8 @@ WGO.importedSources = [
     "kind": "PRIMARY",
     "url": "https://nhrc.nic.in/media/press-release/nhrc-team-visits-central-prison-tihar-to-inquire-into-important-issues-pertaining-to-shri-kanhaiya-kumar-inquiry-report-forwarded-to-commission-police-delhi-director-general-prisons-tihar-jail-for-comments-19-02-2016",
     "retrievedOn": "2026-10-14",
-    "archiveUrl": null,
-    "archivedOn": null,
+    "archiveUrl": "http://web.archive.org/web/20261017070711/https://nhrc.nic.in/media/press-release/nhrc-team-visits-central-prison-tihar-to-inquire-into-important-issues-pertaining-to-shri-kanhaiya-kumar-inquiry-report-forwarded-to-commission-police-delhi-director-general-prisons-tihar-jail-for-comments-19-02-2016",
+    "archivedOn": "2026-10-18",
     "sha256": "bbc4e1cc2910b65fafae4352265d967f242197fbac8ac1c495f88da3fdd5c440",
     "originatesFrom": null
   },
@@ -1462,8 +1462,8 @@ WGO.importedSources = [
     "kind": "SECONDARY",
     "url": "https://www.newslaundry.com/2016/03/26/inside-hyderabad-central-university-its-like-being-in-a-gulag",
     "retrievedOn": "2026-10-10",
-    "archiveUrl": null,
-    "archivedOn": null,
+    "archiveUrl": "http://web.archive.org/web/20160716094940/http://www.newslaundry.com/2016/03/26/inside-hyderabad-central-university-its-like-being-in-a-gulag/",
+    "archivedOn": "2026-10-18",
     "sha256": null,
     "originatesFrom": null
   },
@@ -1484,8 +1484,8 @@ WGO.importedSources = [
     "kind": "SECONDARY",
     "url": "https://sabrangindia.in/bail-granted-students-and-faculty-hcu/",
     "retrievedOn": "2026-10-10",
-    "archiveUrl": null,
-    "archivedOn": null,
+    "archiveUrl": "http://web.archive.org/web/20260309060315/https://sabrangindia.in/bail-granted-students-and-faculty-hcu/",
+    "archivedOn": "2026-10-18",
     "sha256": null,
     "originatesFrom": null
   },
@@ -1495,8 +1495,8 @@ WGO.importedSources = [
     "kind": "SECONDARY",
     "url": "https://www.thenewsminute.com/telangana/hyd-uni-protest-committee-alleges-police-brutality-says-vc-knowingly-caused-law-and-order",
     "retrievedOn": "2026-10-10",
-    "archiveUrl": null,
-    "archivedOn": null,
+    "archiveUrl": "http://web.archive.org/web/20240719084733/https://www.thenewsminute.com/telangana/hyd-uni-protest-committee-alleges-police-brutality-says-vc-knowingly-caused-law-and-order",
+    "archivedOn": "2026-10-18",
     "sha256": null,
     "originatesFrom": null
   },

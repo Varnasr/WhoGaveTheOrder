@@ -4869,7 +4869,9 @@
         "publication": "National Human Rights Commission, press release, New Delhi, 19 February 2016",
         "retrieved_on": "2026-10-14",
         "sha256": "bbc4e1cc2910b65fafae4352265d967f242197fbac8ac1c495f88da3fdd5c440",
-        "note": "The page was fetched directly and the quoted wording matched the page text. The sha256 is of the HTML as served, which also carries site chrome and a changing 'last updated' stamp, so it will not match a later fetch."
+        "note": "The page was fetched directly and the quoted wording matched the page text. The sha256 is of the HTML as served, which also carries site chrome and a changing 'last updated' stamp, so it will not match a later fetch.",
+        "archive_url": "http://web.archive.org/web/20261017070711/https://nhrc.nic.in/media/press-release/nhrc-team-visits-central-prison-tihar-to-inquire-into-important-issues-pertaining-to-shri-kanhaiya-kumar-inquiry-report-forwarded-to-commission-police-delhi-director-general-prisons-tihar-jail-for-comments-19-02-2016",
+        "archived_on": "2026-10-18"
       },
       {
         "url": "https://www.livelaw.in/amp/patiala-house-violence-sc-issues-notice-kamini-jaiswals-plea-sit-contempt-three-lawyers",
@@ -5112,8 +5114,8 @@
         "source_type": "secondary",
         "publication": "Newslaundry (26 March 2016)",
         "retrieved_on": "2026-10-10",
-        "archive_url": null,
-        "archived_on": null
+        "archive_url": "http://web.archive.org/web/20160716094940/http://www.newslaundry.com/2016/03/26/inside-hyderabad-central-university-its-like-being-in-a-gulag/",
+        "archived_on": "2026-10-18"
       },
       {
         "url": "https://m.thewire.in/article/education/an-eyewitness-account-of-the-violence-in-hyderabad-university",
@@ -5128,8 +5130,8 @@
         "source_type": "secondary",
         "publication": "Sabrang India (29 March 2016)",
         "retrieved_on": "2026-10-10",
-        "archive_url": null,
-        "archived_on": null
+        "archive_url": "http://web.archive.org/web/20260309060315/https://sabrangindia.in/bail-granted-students-and-faculty-hcu/",
+        "archived_on": "2026-10-18"
       }
     ],
     "notes": "Four independent accounts agree that police were on campus on 22 March and that students were detained that evening. Accounts differ on force used, numbers and cause. No finding on proportionality.",
@@ -5188,24 +5190,24 @@
         "source_type": "secondary",
         "publication": "Sabrang India (29 March 2016)",
         "retrieved_on": "2026-10-10",
-        "archive_url": null,
-        "archived_on": null
+        "archive_url": "http://web.archive.org/web/20260309060315/https://sabrangindia.in/bail-granted-students-and-faculty-hcu/",
+        "archived_on": "2026-10-18"
       },
       {
         "url": "https://www.newslaundry.com/2016/03/26/inside-hyderabad-central-university-its-like-being-in-a-gulag",
         "source_type": "secondary",
         "publication": "Newslaundry (26 March 2016)",
         "retrieved_on": "2026-10-10",
-        "archive_url": null,
-        "archived_on": null
+        "archive_url": "http://web.archive.org/web/20160716094940/http://www.newslaundry.com/2016/03/26/inside-hyderabad-central-university-its-like-being-in-a-gulag/",
+        "archived_on": "2026-10-18"
       },
       {
         "url": "https://www.thenewsminute.com/telangana/hyd-uni-protest-committee-alleges-police-brutality-says-vc-knowingly-caused-law-and-order",
         "source_type": "secondary",
         "publication": "The News Minute (23 March 2016)",
         "retrieved_on": "2026-10-10",
-        "archive_url": null,
-        "archived_on": null
+        "archive_url": "http://web.archive.org/web/20240719084733/https://www.thenewsminute.com/telangana/hyd-uni-protest-committee-alleges-police-brutality-says-vc-knowingly-caused-law-and-order",
+        "archived_on": "2026-10-18"
       },
       {
         "url": "https://www.roundtableindia.co.in/?p=8521",
@@ -5232,8 +5234,8 @@
         "source_type": "secondary",
         "publication": "The News Minute (23 March 2016)",
         "retrieved_on": "2026-10-10",
-        "archive_url": null,
-        "archived_on": null
+        "archive_url": "http://web.archive.org/web/20240719084733/https://www.thenewsminute.com/telangana/hyd-uni-protest-committee-alleges-police-brutality-says-vc-knowingly-caused-law-and-order",
+        "archived_on": "2026-10-18"
       }
     ],
     "notes": "Unproven allegation by the committee. No police or government response appears in the article.",
@@ -5280,8 +5282,8 @@
         "source_type": "secondary",
         "publication": "Newslaundry (26 March 2016)",
         "retrieved_on": "2026-10-10",
-        "archive_url": null,
-        "archived_on": null
+        "archive_url": "http://web.archive.org/web/20160716094940/http://www.newslaundry.com/2016/03/26/inside-hyderabad-central-university-its-like-being-in-a-gulag/",
+        "archived_on": "2026-10-18"
       },
       {
         "url": "https://www.roundtableindia.co.in/?p=8521",
@@ -5308,8 +5310,8 @@
         "source_type": "secondary",
         "publication": "Newslaundry (26 March 2016)",
         "retrieved_on": "2026-10-10",
-        "archive_url": null,
-        "archived_on": null
+        "archive_url": "http://web.archive.org/web/20160716094940/http://www.newslaundry.com/2016/03/26/inside-hyderabad-central-university-its-like-being-in-a-gulag/",
+        "archived_on": "2026-10-18"
       }
     ],
     "notes": "Attributed in the article to a Madhapur Deputy Commissioner of Police. The statement itself was not read. Opposed by the accounts in HIST-HCU-005, 006, 007 and 019.",
@@ -5328,8 +5330,8 @@
         "source_type": "secondary",
         "publication": "Newslaundry (26 March 2016)",
         "retrieved_on": "2026-10-10",
-        "archive_url": null,
-        "archived_on": null
+        "archive_url": "http://web.archive.org/web/20160716094940/http://www.newslaundry.com/2016/03/26/inside-hyderabad-central-university-its-like-being-in-a-gulag/",
+        "archived_on": "2026-10-18"
       }
     ],
     "notes": "A statement about what happened after arrest. It does not say who ordered the deployment.",
@@ -5348,8 +5350,8 @@
         "source_type": "secondary",
         "publication": "Sabrang India (29 March 2016)",
         "retrieved_on": "2026-10-10",
-        "archive_url": null,
-        "archived_on": null
+        "archive_url": "http://web.archive.org/web/20260309060315/https://sabrangindia.in/bail-granted-students-and-faculty-hcu/",
+        "archived_on": "2026-10-18"
       }
     ],
     "notes": "Sabrang text is internally inconsistent on the surety amount (Rs 5,000 and Rs 50,000) and on 25 versus 27 students. Sections were described only as damage to public property, trespass, obstructing officials 'and other relevant sections of IPC'. The order and FIR were not read. Countercurrents (HIST-HCU-021) reports bail orders were reserved for 27 persons with hearing on 28 March, consistent with this.",
@@ -5368,16 +5370,16 @@
         "source_type": "secondary",
         "publication": "Newslaundry (26 March 2016)",
         "retrieved_on": "2026-10-10",
-        "archive_url": null,
-        "archived_on": null
+        "archive_url": "http://web.archive.org/web/20160716094940/http://www.newslaundry.com/2016/03/26/inside-hyderabad-central-university-its-like-being-in-a-gulag/",
+        "archived_on": "2026-10-18"
       },
       {
         "url": "https://sabrangindia.in/bail-granted-students-and-faculty-hcu/",
         "source_type": "secondary",
         "publication": "Sabrang India (29 March 2016)",
         "retrieved_on": "2026-10-10",
-        "archive_url": null,
-        "archived_on": null
+        "archive_url": "http://web.archive.org/web/20260309060315/https://sabrangindia.in/bail-granted-students-and-faculty-hcu/",
+        "archived_on": "2026-10-18"
       }
     ],
     "notes": "No FIR number, section list or text was found. Search for the FIR and the remand diary is an open task (RTI to Cyberabad Commissionerate, or copy from the Miyapur court).",
@@ -5570,8 +5572,8 @@
         "source_type": "secondary",
         "publication": "The News Minute (23 March 2016)",
         "retrieved_on": "2026-10-10",
-        "archive_url": null,
-        "archived_on": null
+        "archive_url": "http://web.archive.org/web/20240719084733/https://www.thenewsminute.com/telangana/hyd-uni-protest-committee-alleges-police-brutality-says-vc-knowingly-caused-law-and-order",
+        "archived_on": "2026-10-18"
       }
     ],
     "notes": "Allegation without a cited order. The article does not say which media reports. No government response is quoted. The Union government's role is not documented in any source read.",
@@ -5610,8 +5612,8 @@
         "source_type": "secondary",
         "publication": "Newslaundry (26 March 2016)",
         "retrieved_on": "2026-10-10",
-        "archive_url": null,
-        "archived_on": null
+        "archive_url": "http://web.archive.org/web/20160716094940/http://www.newslaundry.com/2016/03/26/inside-hyderabad-central-university-its-like-being-in-a-gulag/",
+        "archived_on": "2026-10-18"
       }
     ],
     "notes": "Newslaundry does not say who signed the letter or whether it was sent before or after police took over the campus. The letter was not seen. This is a request about access by outsiders and is not shown to be a request for police to enter the campus or to detain students.",
@@ -5670,8 +5672,8 @@
         "source_type": "secondary",
         "publication": "Sabrang India (29 March 2016)",
         "retrieved_on": "2026-10-10",
-        "archive_url": null,
-        "archived_on": null
+        "archive_url": "http://web.archive.org/web/20260309060315/https://sabrangindia.in/bail-granted-students-and-faculty-hcu/",
+        "archived_on": "2026-10-18"
       }
     ],
     "notes": "A court-room statement of the prosecution at the bail hearing as reported by Sabrang. It speaks to the purpose of the arrests only.",
@@ -5737,8 +5739,8 @@
         "source_type": "secondary",
         "publication": "Newslaundry (26 March 2016)",
         "retrieved_on": "2026-10-10",
-        "archive_url": null,
-        "archived_on": null
+        "archive_url": "http://web.archive.org/web/20160716094940/http://www.newslaundry.com/2016/03/26/inside-hyderabad-central-university-its-like-being-in-a-gulag/",
+        "archived_on": "2026-10-18"
       }
     ],
     "notes": "The Cyberabad Commissioner is reported as saying the accused were produced at Miyapur court and remanded. Whether production met the 24-hour rule depends on the time of arrest, which sources put at about 17:00 to 18:00 on 22 March, with remand late on 23 March. The remand order and arrest memos were not read.",

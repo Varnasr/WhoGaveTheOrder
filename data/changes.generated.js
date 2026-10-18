@@ -5,6 +5,30 @@ window.WGO = window.WGO || {};
 
 WGO.changes = [
   {
+    "commit": "aea75899eb",
+    "date": "2026-10-16T07:32:00Z",
+    "subject": "Sweep log and archived copies for 2026-10-16 [skip ci]",
+    "added": [],
+    "removed": [],
+    "changed": [
+      {
+        "id": "SRC-0157",
+        "kind": "Source",
+        "title": "Indian Kanoon, reproducing Supreme Court record of proceedings, 4 May 2017",
+        "state": null,
+        "url": "https://indiankanoon.org/doc/40838362/",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20261015074147/https://indiankanoon.org/doc/40838362/"
+          }
+        ]
+      }
+    ],
+    "summary": "1 record edited"
+  },
+  {
     "commit": "44c6b38c7d",
     "date": "2026-10-15T16:25:26Z",
     "subject": "Record the Home Ministry committee behind the Jantar Mantar standing order",

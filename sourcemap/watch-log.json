@@ -547,6 +547,18 @@
         "unreachable": 1,
         "ok": 5
       }
+    },
+    {
+      "date": "2026-10-18",
+      "targets": 9,
+      "findings": 25,
+      "outcomes": {
+        "nothing-published": 1,
+        "changed-no-match": 1,
+        "matched": 1,
+        "unreachable": 1,
+        "ok": 5
+      }
     }
   ],
   "seen": {
@@ -556,21 +568,17 @@
       "method": "pdf-text"
     },
     "delhi-hc-judgments": {
-      "fingerprint": "0450780330358ba5",
-      "lastChecked": "2026-10-17",
+      "fingerprint": "8355ccf9ecf4a0f4",
+      "lastChecked": "2026-10-18",
       "method": "html"
     },
     "nhrc-press": {
       "fingerprint": "8c2ae1a41fbdc6cc",
-      "lastChecked": "2026-10-17",
+      "lastChecked": "2026-10-18",
       "method": "html"
     },
     "barandbench": {
       "items": [
-        "295ab435bbc8786b",
-        "5e6e50e7ef104de5",
-        "db87bda9586f3e2b",
-        "4eec48fc1ea3099d",
         "dab8d41b45c2153a",
         "dc5447c77c2d91c5",
         "945b18da6018e11f",
@@ -1366,34 +1374,16 @@
         "09e93497fde6cafa",
         "9608d2ec06ea14d8",
         "47e9afa4ac924fec",
-        "2e3fccc24d9e4a20"
+        "2e3fccc24d9e4a20",
+        "0e1bbafa45160280",
+        "6186785a20f3fdb4",
+        "e6cc10a659f053b7",
+        "0199dfa9b68bbe51"
       ],
-      "lastChecked": "2026-10-17"
+      "lastChecked": "2026-10-18"
     },
     "news-delhi": {
       "items": [
-        "404c6e9c2471130f",
-        "1d8bb110fdc0df2d",
-        "0764f74aacb9eaef",
-        "619feafae254c6b7",
-        "70130395504e9afa",
-        "4673258a2719b33a",
-        "1b6c40bb74edc54f",
-        "a5124653fe7eb088",
-        "cf10a73f465aeac1",
-        "ee2b29e18e170890",
-        "4a48577a248b05c0",
-        "4b4cf20345a6dbb3",
-        "25cd82f09d7b97e6",
-        "f1bc863488ece388",
-        "c2cad251bc0f7ed7",
-        "d308cb16b121244a",
-        "3dc57c90a9f862e4",
-        "8d0618d8712e1e12",
-        "a699d2d4fd93562d",
-        "d2024a7fbd5683ad",
-        "f65ae6e7ec8bc634",
-        "a5eefb6e5fdea883",
         "c887606b4daeeaa3",
         "f06dbee3eac05057",
         "c6fadbf80d7ac99e",
@@ -2171,9 +2161,31 @@
         "5eaa4206709431db",
         "f1db3adeaddc7763",
         "5ba5839d2e3b9983",
-        "a435c76fd16c9f85"
+        "a435c76fd16c9f85",
+        "f2dad81c0623e0f7",
+        "65922eb80e0dcd9b",
+        "4b529397569d5cfe",
+        "68fbe7cec0efe84b",
+        "12a7645297a2e85b",
+        "631be3de505b0478",
+        "657ec9521767745e",
+        "ad56950bbd5432d0",
+        "7291f30f03884ecc",
+        "67366fb169a3dbd2",
+        "c898f9620070e9b8",
+        "bf7173d4fc715133",
+        "093786a2caecd264",
+        "de50420e2dcd9db3",
+        "3d1d2f317f4e0677",
+        "6e38af6bb7b2f84a",
+        "6dfab2294f43be44",
+        "4fca8980d07d2244",
+        "5fb2d6cf535c393a",
+        "6ad8f0673ff28f96",
+        "4debd08dadc9976d",
+        "47bfc835dc1ad3a6"
       ],
-      "lastChecked": "2026-10-17"
+      "lastChecked": "2026-10-18"
     },
     "news-cases": {
       "items": [
@@ -2358,9 +2370,16 @@
         "aca3b9a91067f95d",
         "72ead13f4dae230a",
         "3d8db7952175b500",
-        "e57364a7d6e5b115"
+        "e57364a7d6e5b115",
+        "ee396a5e4f27f295",
+        "1c3101eaa5df5904",
+        "8bea9976a4333ab2",
+        "049c1c063c13df5f",
+        "d8c5fae26b14009f",
+        "fa688c23269c2b66",
+        "8a66feb8e8e90e0a"
       ],
-      "lastChecked": "2026-10-17"
+      "lastChecked": "2026-10-18"
     },
     "news-frt": {
       "items": [
@@ -2630,9 +2649,11 @@
         "5ba5839d2e3b9983",
         "93a4122aa02b3618",
         "5e10a90b8ab75d39",
-        "2c60ae5da71040f8"
+        "2c60ae5da71040f8",
+        "ac7cbde98ba788f3",
+        "9d0bdfbb0cc7999e"
       ],
-      "lastChecked": "2026-10-17"
+      "lastChecked": "2026-10-18"
     },
     "news-bihar": {
       "items": [
@@ -2976,7 +2997,7 @@
         "31f9edf22985b5e8",
         "fbb1c6711f1a43f3"
       ],
-      "lastChecked": "2026-10-17"
+      "lastChecked": "2026-10-18"
     }
   }
 }
