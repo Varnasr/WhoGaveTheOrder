@@ -5,6 +5,59 @@ window.WGO = window.WGO || {};
 
 WGO.changes = [
   {
+    "commit": "096570cd19",
+    "date": "2026-10-19T14:21:50Z",
+    "subject": "Record the 19 October two-day extension of custody, and queue the order copies",
+    "added": [
+      {
+        "id": "HIST-DEL26-024",
+        "kind": "Evidence",
+        "title": "On Monday 19 October 2026 a Special Executive Magistrate extended the judicial custody of Saurav Das and Ashutosh Ranka by two days; they are to be produced aga",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=HIST-DEL26-024"
+      },
+      {
+        "id": "SRC-1124",
+        "kind": "Source",
+        "title": "LiveLaw, 19 Oct 2026",
+        "state": null,
+        "url": "https://www.livelaw.in/top-stories/executive-magistrate-extends-cjp-leaders-saurav-das-ashutosh-rankas-judicial-custody-by-two-days-555330"
+      },
+      {
+        "id": "SRC-1125",
+        "kind": "Source",
+        "title": "The Tribune, 19 Oct 2026",
+        "state": null,
+        "url": "https://www.tribuneindia.com/news/delhi/cjp-leaders-das-rankas-judicial-custody-extended-by-2-days-party-alleges-delay-in-bail-proceedings"
+      },
+      {
+        "id": "SRC-1126",
+        "kind": "Source",
+        "title": "Scroll.in, 19 Oct 2026",
+        "state": null,
+        "url": "https://scroll.in/latest/1096461/cjp-leaders-ashutosh-ranka-saurav-das-judicial-custody-extended-by-two-days"
+      }
+    ],
+    "removed": [],
+    "changed": [
+      {
+        "id": "OQ-066",
+        "kind": "Question",
+        "title": "The Special Executive Magistrate's order of 19 October 2026 extending the judicial custody of Saurav Das and Ashutosh Ranka by two days: its text, the grounds, the days police asked for, who passed it, and what was decided on Wednesday 21 October, when they are due to be produced again. Were they released, on what bond or surety? And did the magistrate's complaint of threats produce an FIR or only a non-cognisable report?",
+        "state": "UNANSWERED",
+        "url": "incident/jantar-mantar.html#OQ-066",
+        "fields": [
+          {
+            "field": "title",
+            "from": "What happened at the Special Executive Magistrate hearing of 19 October 2026 (2 pm): were Saurav Das and Ashutosh Ranka released, on what bond or surety, and what is the next date in the BNSS s.130 enquiry? And did the magistrate's complaint of threats produce an FIR or only a non-cognisable report?",
+            "to": "The Special Executive Magistrate's order of 19 October 2026 extending the judicial custody of Saurav Das and Ashutosh Ranka by two days: its text, the grounds, the days police asked for, who passed it, and what was decided on Wednesday 21 October, when they are due to be produced again. Were they released, on what bond or surety? And did the magistrate's complaint of threats produce an FIR or only a non-cognisable report?"
+          }
+        ]
+      }
+    ],
+    "summary": "4 records added · 1 record edited"
+  },
+  {
     "commit": "b15fe8269f",
     "date": "2026-10-19T09:22:31Z",
     "subject": "Record the 17 October AISA detentions at Town Hall, Bengaluru",

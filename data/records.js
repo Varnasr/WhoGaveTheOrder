@@ -2658,7 +2658,7 @@ WGO.incidents = [
     forcesInvolved: {"state": "REPORTED", "items": [{"text": "Delhi Police; a Special Executive Magistrate described in reporting as an ACP (HIST-DEL26-018, HIST-DEL26-019)", "state": "REPORTED"}]},
     crowdControl  : {"state": "REPORTED", "items": [{"text": "Preventive arrest on 13 October; notice under BNSS s.130 and remand to five days of judicial custody on 14 October (PROC-DEL-009)", "state": "REPORTED"}]},
     injuries      : {"state": "UNKNOWN", "note": "None reported in the sources read."},
-    detentions    : {"state": "REPORTED", "note": "Saurav Das and Ashutosh Ranka held from 13 October; judicial custody to 18 or 19 October; a hearing on 18 October passed no release order (HIST-DEL26-019). Ajinkya Shinde released on a personal bond on 14 October (PROC-DEL-009). Due before the magistrate again on 19 October at 2 pm; the outcome has not been found (HIST-DEL26-022, OQ-066)."},
+    detentions    : {"state": "REPORTED", "note": "Saurav Das and Ashutosh Ranka held from 13 October; judicial custody to 18 or 19 October; a hearing on 18 October passed no release order (HIST-DEL26-019). Ajinkya Shinde released on a personal bond on 14 October (PROC-DEL-009). Custody extended by two days on 19 October; next production Wednesday 21 October; no release reported (HIST-DEL26-024, OQ-066)."},
     firs          : {"state": "REPORTED", "note": "FIR 128/26 (Parliament Street) and FIR 289/26 (Connaught Place) are cited in the 14 October order as reported (PROC-DEL-009). No FIR text seen."},
     officeIds: [],
     orderTrail: { reached: null, rungs: {}, next: null },

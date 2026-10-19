@@ -355,5 +355,18 @@
     "legal_basis": "Right to Information Act 2005, s.6. The designation is a public notification.",
     "exposure_risk": false,
     "notes": "See OQ-065. The designation is also published in the Gazette, which may answer the question without an RTI."
+  },
+  {
+    "id": "FQ-025",
+    "sequence": 1,
+    "deadline_driven": true,
+    "jurisdiction": "delhi",
+    "action": "Obtain, through the detainees' own counsel, certified copies of the Special Executive Magistrate's orders of 11 October (peace bonds), 14 October (BNSS s.130 notice and remand), 18 October (hearing, no order) and 19 October (two-day extension), with the bond forms and the police application for extension.",
+    "authority": "The Special Executive Magistrate's court at Mandir Marg police station and the detainees' lawyers (the CJP legal team, Ratna Singh named in reports).",
+    "method": "A party to a proceeding can apply for copies of its orders. Ask counsel to apply and to share the orders. No RTI is needed. The next production date is Wednesday 21 October 2026.",
+    "cost": "Copying fee, not established.",
+    "legal_basis": "A party to a proceeding is entitled to a copy of its orders.",
+    "exposure_risk": false,
+    "notes": "Every account of these hearings is secondhand. The orders would settle the grounds, the days sought, the sections invoked and who sat. Requested by a group member who asked for the order copy on 19 October."
   }
 ]

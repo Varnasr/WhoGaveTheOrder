@@ -21302,5 +21302,22 @@
     "sourceIds": [
       "SRC-1123"
     ]
+  },
+  {
+    "id": "HIST-DEL26-024",
+    "kind": "Evidence",
+    "title": "On Monday 19 October 2026 a Special Executive Magistrate extended the judicial custody of Saurav Das and Ashutosh Ranka by two days; they are to be produced aga",
+    "state": "CORROBORATED",
+    "url": "https://www.whogavetheorder.in/evidence.html?id=HIST-DEL26-024",
+    "type": "OTHER_DOCUMENT",
+    "incidentId": "INC-0090",
+    "dateOfItem": null,
+    "establishes": "Three outlets agree on the extension and the two days; they differ on who the magistrate is (LiveLaw's background names Mahesh Kumar Meena for 14 October only; The Tribune says newly appointed). A forwarded WhatsApp message circulating on 19 October says Delhi Police wanted five days 'because of fear of protest call during festive season'. None of the four reports read states the days police sought or a festive-season ground, so that is not recorded as fact. The order has not been seen.",
+    "doesNotEstablish": null,
+    "sourceIds": [
+      "SRC-1124",
+      "SRC-1125",
+      "SRC-1126"
+    ]
   }
 ]

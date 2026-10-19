@@ -11995,6 +11995,39 @@ WGO.importedSources = [
     "originatesFrom": null
   },
   {
+    "id": "SRC-1124",
+    "name": "LiveLaw, 19 Oct 2026",
+    "kind": "SECONDARY",
+    "url": "https://www.livelaw.in/top-stories/executive-magistrate-extends-cjp-leaders-saurav-das-ashutosh-rankas-judicial-custody-by-two-days-555330",
+    "retrievedOn": "2026-10-19",
+    "archiveUrl": null,
+    "archivedOn": null,
+    "sha256": null,
+    "originatesFrom": null
+  },
+  {
+    "id": "SRC-1125",
+    "name": "The Tribune, 19 Oct 2026",
+    "kind": "SECONDARY",
+    "url": "https://www.tribuneindia.com/news/delhi/cjp-leaders-das-rankas-judicial-custody-extended-by-2-days-party-alleges-delay-in-bail-proceedings",
+    "retrievedOn": "2026-10-19",
+    "archiveUrl": null,
+    "archivedOn": null,
+    "sha256": null,
+    "originatesFrom": null
+  },
+  {
+    "id": "SRC-1126",
+    "name": "Scroll.in, 19 Oct 2026",
+    "kind": "SECONDARY",
+    "url": "https://scroll.in/latest/1096461/cjp-leaders-ashutosh-ranka-saurav-das-judicial-custody-extended-by-two-days",
+    "retrievedOn": "2026-10-19",
+    "archiveUrl": null,
+    "archivedOn": null,
+    "sha256": null,
+    "originatesFrom": null
+  },
+  {
     "id": "SRC-0056",
     "name": "India Code",
     "kind": "PRIMARY",
@@ -37674,6 +37707,26 @@ WGO.importedEvidence = [
     "relatedIds": [],
     "accessNote": "",
     "volatility": "medium"
+  },
+  {
+    "id": "HIST-DEL26-024",
+    "title": "On Monday 19 October 2026 a Special Executive Magistrate extended the judicial custody of Saurav Das and Ashutosh Ranka by two days; they are to be produced aga",
+    "type": "OTHER_DOCUMENT",
+    "verification": "CORROBORATED",
+    "incidentId": "INC-0090",
+    "dateOfItem": null,
+    "dateAdded": "2026-10-19",
+    "sourceIds": [
+      "SRC-1124",
+      "SRC-1125",
+      "SRC-1126"
+    ],
+    "origin": "",
+    "establishes": "Three outlets agree on the extension and the two days; they differ on who the magistrate is (LiveLaw's background names Mahesh Kumar Meena for 14 October only; The Tribune says newly appointed). A forwarded WhatsApp message circulating on 19 October says Delhi Police wanted five days 'because of fear of protest call during festive season'. None of the four reports read states the days police sought or a festive-season ground, so that is not recorded as fact. The order has not been seen.",
+    "doesNotEstablish": "",
+    "relatedIds": [],
+    "accessNote": "",
+    "volatility": "high"
   }
 ];
 
@@ -39426,7 +39479,7 @@ WGO.importedQuestions = [
     "incidentId": "INC-0001",
     "text": "Which State Government notification under BNSS s.15 designates the Delhi Police officers (reported as ACP rank) who heard the CJP leaders' preventive cases on 11, 14, 17 and 18 October 2026 as Special Executive Magistrates, and on what basis is an ACP treated as 'Superintendent of Police or equivalent'? Its date, signatory, term and powers conferred.",
     "priority": "HIGH",
-    "whyItMatters": "Read from secondary reproductions, CrPC s.21 had no police-officer clause and BNSS s.15 adds one limited to officers 'not below the rank of Superintendent of Police or equivalent' (LAW-BNSS-007). Reporting calls the Delhi magistrate an ACP (HIST-DEL26-019). In 2018 Delhi ACPs were acting as SEMs under the CrPC and the Delhi Police defended that in the High Court (PROC-DEL-010), and in 2017 the Supreme Court issued notice to all States on misuse of SEM powers (PROC-SC-024). Neither has a ruling in hand. Whether an ACP is 'equivalent' to an SP turns on a notification or a rank-equivalence order that no source read states. The archive does not conclude either way. The claim in circulation that the Supreme Court questioned police SEMs in 2018 is supported only by an unread April 2018 headline. SEARCHED 19 October 2026: no Delhi notification under BNSS s.15, no Gazette entry and no rank-equivalence order for ACPs turned up in any search. The CrPC and BNSS texts are as in LAW-BNSS-007. Absence from a news search is weak evidence.",
+    "whyItMatters": "Read from secondary reproductions, CrPC s.21 had no police-officer clause and BNSS s.15 adds one limited to officers 'not below the rank of Superintendent of Police or equivalent' (LAW-BNSS-007). Reporting calls the Delhi magistrate an ACP (HIST-DEL26-019). In 2018 Delhi ACPs were acting as SEMs under the CrPC and the Delhi Police defended that in the High Court (PROC-DEL-010), and in 2017 the Supreme Court issued notice to all States on misuse of SEM powers (PROC-SC-024). Neither has a ruling in hand. Whether an ACP is 'equivalent' to an SP turns on a notification or a rank-equivalence order that no source read states. The archive does not conclude either way. The claim in circulation that the Supreme Court questioned police SEMs in 2018 is supported only by an unread April 2018 headline. SEARCHED 19 October 2026: no Delhi notification under BNSS s.15, no Gazette entry and no rank-equivalence order for ACPs turned up in any search. The CrPC and BNSS texts are as in LAW-BNSS-007. Absence from a news search is weak evidence. The Tribune (19 Oct) calls the magistrate who extended custody a 'newly appointed Special Executive Magistrate' at Mandir Marg police station (HIST-DEL26-024); a new appointment would have its own notification, which is the document this question asks for.",
     "lawfulRoute": "RTI to the Delhi Government's Home Department and Delhi Police (rtionline.gov.in) for the s.15 notification and any rank-equivalence order; the Delhi Gazette; the Delhi High Court's 2018 PIL file and the Supreme Court's file in Aldanish Rein v. Union of India for orders.",
     "state": "UNANSWERED",
     "wants": [
@@ -39443,9 +39496,9 @@ WGO.importedQuestions = [
   {
     "id": "OQ-066",
     "incidentId": "INC-0001",
-    "text": "What happened at the Special Executive Magistrate hearing of 19 October 2026 (2 pm): were Saurav Das and Ashutosh Ranka released, on what bond or surety, and what is the next date in the BNSS s.130 enquiry? And did the magistrate's complaint of threats produce an FIR or only a non-cognisable report?",
+    "text": "The Special Executive Magistrate's order of 19 October 2026 extending the judicial custody of Saurav Das and Ashutosh Ranka by two days: its text, the grounds, the days police asked for, who passed it, and what was decided on Wednesday 21 October, when they are due to be produced again. Were they released, on what bond or surety? And did the magistrate's complaint of threats produce an FIR or only a non-cognisable report?",
     "priority": "MEDIUM",
-    "whyItMatters": "Reports on 18 October describe a hearing that passed no order and four sureties rejected, which is the CJP's account. A pre-hearing report of 19 October says the two were due before the magistrate at 2 pm. No report of the outcome has been found. The Daily Jagran says a non-cognisable report was registered over the threats and Neo Politico says an FIR was, so the record on that point conflicts (HIST-DEL26-023). SEARCHED 19 October 2026: no report of the 2 pm hearing's outcome, and no report of a release after 11 October other than the first one. Still open.",
+    "whyItMatters": "Reports on 18 October describe a hearing that passed no order and four sureties rejected, which is the CJP's account. A pre-hearing report of 19 October says the two were due before the magistrate at 2 pm. No report of the outcome has been found. The Daily Jagran says a non-cognisable report was registered over the threats and Neo Politico says an FIR was, so the record on that point conflicts (HIST-DEL26-023). SEARCHED 19 October 2026: no report of the 2 pm hearing's outcome, and no report of a release after 11 October other than the first one. Still open. 19 October 2026 UPDATE: custody was extended by two days on 19 October (HIST-DEL26-024) and the next production is Wednesday 21 October. No report gives the grounds or the days police sought. A forwarded message says police wanted five days because of a feared protest call in the festive season; no report read says that, so it stays unrecorded until an order or a report supports it.",
     "lawfulRoute": "The magistrate's orders of 14 and 18 October; Tihar Jail release records; any petition in the Delhi High Court (the CJP is reported to have consulted counsel).",
     "state": "UNANSWERED",
     "wants": [
@@ -39455,7 +39508,8 @@ WGO.importedQuestions = [
     "blocks": [
       "PROC-DEL-009",
       "HIST-DEL26-019",
-      "HIST-DEL26-022"
+      "HIST-DEL26-022",
+      "HIST-DEL26-024"
     ],
     "category": "legal_proceeding"
   }
@@ -39630,6 +39684,21 @@ WGO.importedFilings = [
     "legalBasis": "Right to Information Act 2005, s.6. The designation is a public notification.",
     "exposureRisk": false,
     "notes": "See OQ-065. The designation is also published in the Gazette, which may answer the question without an RTI.",
+    "resolves": []
+  },
+  {
+    "id": "FQ-025",
+    "sequence": 1,
+    "deadlineDriven": true,
+    "incidentId": "INC-0001",
+    "jurisdiction": "delhi",
+    "action": "Obtain, through the detainees' own counsel, certified copies of the Special Executive Magistrate's orders of 11 October (peace bonds), 14 October (BNSS s.130 notice and remand), 18 October (hearing, no order) and 19 October (two-day extension), with the bond forms and the police application for extension.",
+    "authority": "The Special Executive Magistrate's court at Mandir Marg police station and the detainees' lawyers (the CJP legal team, Ratna Singh named in reports).",
+    "method": "A party to a proceeding can apply for copies of its orders. Ask counsel to apply and to share the orders. No RTI is needed. The next production date is Wednesday 21 October 2026.",
+    "cost": "Copying fee, not established.",
+    "legalBasis": "A party to a proceeding is entitled to a copy of its orders.",
+    "exposureRisk": false,
+    "notes": "Every account of these hearings is secondhand. The orders would settle the grounds, the days sought, the sections invoked and who sat. Requested by a group member who asked for the order copy on 19 October.",
     "resolves": []
   },
   {
@@ -42850,15 +42919,18 @@ WGO.importedIncidentFacts = {
     "places": [
       "2 pm as their five-day judicial custody ended, and that their counsel Ratna Singh hoped they would be released. Delhi Police are reported to have said the custody order was based on alleged repeated violations of law and a fear that the two would violate it again and instigate others. In the 10 October matter Ajinkya Shinde is reported to have been released",
       "an FIR was registered in New Delhi district under provisions",
+      "sureties were rejected",
       "the delay is deliberate. Activist Ratna Singh told The Tribune she had been at the police station from 11 am and the ACP/SEM had not arrived by 4.42 pm. Police gave The Tribune no response. The Daily Jagran says a release hearing"
     ],
     "evidenceIds": [
       "HIST-DEL26-018",
       "HIST-DEL26-019",
       "HIST-DEL26-022",
-      "HIST-DEL26-023"
+      "HIST-DEL26-023",
+      "HIST-DEL26-024"
     ],
     "state": [
+      "CORROBORATED",
       "REPORTED"
     ]
   },
