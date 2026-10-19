@@ -5,6 +5,110 @@ window.WGO = window.WGO || {};
 
 WGO.changes = [
   {
+    "commit": "e7992445b2",
+    "date": "2026-10-19T08:04:38Z",
+    "subject": "Sweep log and archived copies for 2026-10-19 [skip ci]",
+    "added": [],
+    "removed": [],
+    "changed": [
+      {
+        "id": "SRC-0164",
+        "kind": "Source",
+        "title": "Round Table India (republishing the Independent Fact Finding Team press statement, 26 March 2016)",
+        "state": null,
+        "url": "https://www.roundtableindia.co.in/?p=8534",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "https://web.archive.org/web/20261019080257/https://www.roundtableindia.co.in/what-kind-of-a-country-treats-its-students-in-this-manner/"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0165",
+        "kind": "Source",
+        "title": "People's Union for Democratic Rights (press statement, 23 March 2016)",
+        "state": null,
+        "url": "https://www.pudr.org/press-statements/condemn-police-brutality-on-students-and-teachers-in-university-of-hyderabad/",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20260419043626/https://www.pudr.org/press-statements/condemn-police-brutality-on-students-and-teachers-in-university-of-hyderabad/"
+          }
+        ]
+      }
+    ],
+    "summary": "2 records edited"
+  },
+  {
+    "commit": "f993898dfc",
+    "date": "2026-10-18T07:24:22Z",
+    "subject": "Sweep log and archived copies for 2026-10-18 [skip ci]",
+    "added": [],
+    "removed": [],
+    "changed": [
+      {
+        "id": "SRC-1085",
+        "kind": "Source",
+        "title": "National Human Rights Commission, press release, New Delhi, 19 February 2016",
+        "state": null,
+        "url": "https://nhrc.nic.in/media/press-release/nhrc-team-visits-central-prison-tihar-to-inquire-into-important-issues-pertaining-to-shri-kanhaiya-kumar-inquiry-report-forwarded-to-commission-police-delhi-director-general-prisons-tihar-jail-for-comments-19-02-2016",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20261017070711/https://nhrc.nic.in/media/press-release/nhrc-team-visits-central-prison-tihar-to-inquire-into-important-issues-pertaining-to-shri-kanhaiya-kumar-inquiry-report-forwarded-to-commission-police-delh…"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0160",
+        "kind": "Source",
+        "title": "Newslaundry (26 March 2016)",
+        "state": null,
+        "url": "https://www.newslaundry.com/2016/03/26/inside-hyderabad-central-university-its-like-being-in-a-gulag",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20160716094940/http://www.newslaundry.com/2016/03/26/inside-hyderabad-central-university-its-like-being-in-a-gulag/"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0162",
+        "kind": "Source",
+        "title": "Sabrang India (29 March 2016)",
+        "state": null,
+        "url": "https://sabrangindia.in/bail-granted-students-and-faculty-hcu/",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20260309060315/https://sabrangindia.in/bail-granted-students-and-faculty-hcu/"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0163",
+        "kind": "Source",
+        "title": "The News Minute (23 March 2016)",
+        "state": null,
+        "url": "https://www.thenewsminute.com/telangana/hyd-uni-protest-committee-alleges-police-brutality-says-vc-knowingly-caused-law-and-order",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20240719084733/https://www.thenewsminute.com/telangana/hyd-uni-protest-committee-alleges-police-brutality-says-vc-knowingly-caused-law-and-order"
+          }
+        ]
+      }
+    ],
+    "summary": "4 records edited"
+  },
+  {
     "commit": "f7456f1232",
     "date": "2026-10-17T07:10:45Z",
     "subject": "Sweep log and archived copies for 2026-10-17 [skip ci]",
