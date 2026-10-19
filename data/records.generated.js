@@ -11786,6 +11786,94 @@ WGO.importedSources = [
     "originatesFrom": null
   },
   {
+    "id": "SRC-1101",
+    "name": "Bar and Bench, 11 Oct 2026",
+    "kind": "SECONDARY",
+    "url": "https://www.barandbench.com/news/cjp-protests-abhijeet-dipke-saurav-das-ashutosh-ranka-released-from-detention-by-executive-magistrate",
+    "retrievedOn": "2026-10-19",
+    "archiveUrl": null,
+    "archivedOn": null,
+    "sha256": null,
+    "originatesFrom": null
+  },
+  {
+    "id": "SRC-1102",
+    "name": "News On AIR, 11 Oct 2026",
+    "kind": "SECONDARY",
+    "url": "https://newsonair.gov.in/cjp-members-abhijeet-dipke-ashutosh-ranka-and-saurav-das-released-by-delhi-court/",
+    "retrievedOn": "2026-10-19",
+    "archiveUrl": null,
+    "archivedOn": null,
+    "sha256": null,
+    "originatesFrom": null
+  },
+  {
+    "id": "SRC-1103",
+    "name": "LiveLaw, 14 Oct 2026",
+    "kind": "SECONDARY",
+    "url": "https://www.livelaw.in/news-updates/delhi-court-remands-cjp-leaders-saurav-das-ashutosh-ranka-to-five-days-judicial-custody-for-trespassing-at-jantar-mantar-554532",
+    "retrievedOn": "2026-10-19",
+    "archiveUrl": null,
+    "archivedOn": null,
+    "sha256": null,
+    "originatesFrom": null
+  },
+  {
+    "id": "SRC-1104",
+    "name": "The Tribune, 18 Oct 2026",
+    "kind": "SECONDARY",
+    "url": "https://www.tribuneindia.com/news/india/cjp-alleges-delay-in-release-of-leaders-saurav-das-ashutosh-ranka-4-sureties-rejected/",
+    "retrievedOn": "2026-10-19",
+    "archiveUrl": null,
+    "archivedOn": null,
+    "sha256": null,
+    "originatesFrom": null
+  },
+  {
+    "id": "SRC-1105",
+    "name": "The Daily Jagran, 19 Oct 2026",
+    "kind": "SECONDARY",
+    "url": "https://www.thedailyjagran.com/india/news/why-were-cjp-leaders-ashutosh-ranka-saurav-das-not-released-from-jail-heres-what-happened-in-court-10333217",
+    "retrievedOn": "2026-10-19",
+    "archiveUrl": null,
+    "archivedOn": null,
+    "sha256": null,
+    "originatesFrom": "PTI"
+  },
+  {
+    "id": "SRC-1106",
+    "name": "Outlook India, 16 Oct 2026",
+    "kind": "SECONDARY",
+    "url": "https://www.outlookindia.com/national/abhijeet-dipke-neha-bora-among-150-detained-what-we-know-about-delhis-lehra-do-tiranga-stir",
+    "retrievedOn": "2026-10-19",
+    "archiveUrl": null,
+    "archivedOn": null,
+    "sha256": null,
+    "originatesFrom": null
+  },
+  {
+    "id": "SRC-1107",
+    "name": "ThePrint, 15 Oct 2026",
+    "kind": "SECONDARY",
+    "url": "https://theprint.in/judiciary/10-oct-protest-home-secy-police-chief-apologise-to-sc-over-delhi-curbs-no-wilful-breach-of-order/3072242/",
+    "retrievedOn": "2026-10-19",
+    "archiveUrl": null,
+    "archivedOn": null,
+    "sha256": null,
+    "originatesFrom": null
+  },
+  {
+    "id": "SRC-1108",
+    "name": "LawBeat, Oct 2026",
+    "kind": "SECONDARY",
+    "url": "https://lawbeat.in/top-stories/apology-in-contempt-affidavits-is-settled-practice-not-admission-sg-tushar-mehta-tells-supreme-court-mha-clarifies-1642321",
+    "retrievedOn": "2026-10-19",
+    "archiveUrl": null,
+    "archivedOn": null,
+    "sha256": null,
+    "originatesFrom": null
+  },
+  {
     "id": "SRC-0056",
     "name": "India Code",
     "kind": "PRIMARY",
@@ -12101,6 +12189,28 @@ WGO.importedSources = [
     "retrievedOn": "2026-09-23",
     "archiveUrl": "http://web.archive.org/web/20260923020120/https://internetfreedom.in/iff-condemns-the-internet-shutdown-in-parts-of-central-delhi-no-suspension-order-has-been-made-public/",
     "archivedOn": "2026-09-23",
+    "sha256": null,
+    "originatesFrom": null
+  },
+  {
+    "id": "SRC-1109",
+    "name": "CourtBook (statute text)",
+    "kind": "SECONDARY",
+    "url": "https://courtbook.in/bnss/section-15",
+    "retrievedOn": "2026-10-19",
+    "archiveUrl": null,
+    "archivedOn": null,
+    "sha256": null,
+    "originatesFrom": null
+  },
+  {
+    "id": "SRC-1110",
+    "name": "Lexibal (commentary)",
+    "kind": "SECONDARY",
+    "url": "https://lexibal.com/bnss-section-15-special-executive-magistrates-police/",
+    "retrievedOn": "2026-10-19",
+    "archiveUrl": null,
+    "archivedOn": null,
     "sha256": null,
     "originatesFrom": null
   }
@@ -37178,6 +37288,118 @@ WGO.importedEvidence = [
     "relatedIds": [],
     "accessNote": "",
     "volatility": "high"
+  },
+  {
+    "id": "HIST-DEL26-017",
+    "title": "On 10 October 2026 Delhi Police detained Abhijeet Dipke, Saurav Das and Ashutosh Ranka after their flight from Mumbai landed in Delhi. On 11 October a Special E",
+    "type": "OTHER_DOCUMENT",
+    "verification": "CORROBORATED",
+    "incidentId": "INC-0081",
+    "dateOfItem": null,
+    "dateAdded": "2026-10-19",
+    "sourceIds": [
+      "SRC-1101",
+      "SRC-1102"
+    ],
+    "origin": "",
+    "establishes": "Bar and Bench gives no amount; News On AIR gives Rs 50,000. LiveLaw (14 Oct) says the action was under BNSS ss.126 and 170 and the bond under s.136. The outlets differ on the magistrate's name and court location. No order has been seen.",
+    "doesNotEstablish": "",
+    "relatedIds": [],
+    "accessNote": "",
+    "volatility": "low"
+  },
+  {
+    "id": "PROC-DEL-009",
+    "title": "LiveLaw reports that on 14 October 2026 a Special Executive Magistrate in Delhi, identified as Mahesh Kumar Meena, issued notice under BNSS s.130 to Saurav Das ",
+    "type": "COURT_DOCUMENT",
+    "verification": "REPORTED",
+    "incidentId": "INC-0090",
+    "dateOfItem": null,
+    "dateAdded": "2026-10-19",
+    "sourceIds": [
+      "SRC-1103"
+    ],
+    "origin": "",
+    "establishes": "Single source; the order has not been seen. The Daily Jagran (19 Oct) calls the magistrate 'Special Executive Magistrate ACP Mahesh Kumar Meena' (HIST-DEL26-019).",
+    "doesNotEstablish": "",
+    "relatedIds": [],
+    "accessNote": "",
+    "volatility": "high"
+  },
+  {
+    "id": "HIST-DEL26-018",
+    "title": "Police say Saurav Das and Ashutosh Ranka were preventively arrested on 13 October 2026 after entering Jantar Mantar, which Delhi Police had de-notified as a pro",
+    "type": "OTHER_DOCUMENT",
+    "verification": "REPORTED",
+    "incidentId": "INC-0090",
+    "dateOfItem": null,
+    "dateAdded": "2026-10-19",
+    "sourceIds": [
+      "SRC-1103",
+      "SRC-1104"
+    ],
+    "origin": "",
+    "establishes": "The two outlets describe the entry differently (gates scaled, or a jump from inside a party office). Both are the police account. No footage seen.",
+    "doesNotEstablish": "",
+    "relatedIds": [],
+    "accessNote": "",
+    "volatility": "medium"
+  },
+  {
+    "id": "HIST-DEL26-019",
+    "title": "On Sunday 18 October 2026, the day the five-day judicial custody of Saurav Das and Ashutosh Ranka ended, the Special Executive Magistrate hearing on their relea",
+    "type": "OTHER_DOCUMENT",
+    "verification": "REPORTED",
+    "incidentId": "INC-0090",
+    "dateOfItem": null,
+    "dateAdded": "2026-10-19",
+    "sourceIds": [
+      "SRC-1105",
+      "SRC-1104"
+    ],
+    "origin": "",
+    "establishes": "The reason for non-release is not established. 'Deliberate delay' is the CJP's characterisation. Whether Das and Ranka were released on or after 19 October has not been found. The magistrate is described as an ACP in both outlets.",
+    "doesNotEstablish": "",
+    "relatedIds": [],
+    "accessNote": "",
+    "volatility": "high"
+  },
+  {
+    "id": "HIST-DEL26-020",
+    "title": "Outlook India reports that on Friday 16 October 2026 about 150 people, including CJP founder Abhijeet Dipke and AISA president Neha Bora, were detained, accordi",
+    "type": "OTHER_DOCUMENT",
+    "verification": "REPORTED",
+    "incidentId": "INC-0091",
+    "dateOfItem": null,
+    "dateAdded": "2026-10-19",
+    "sourceIds": [
+      "SRC-1106"
+    ],
+    "origin": "",
+    "establishes": "Single source, published the evening of the march. 150 is a police figure at that hour. Release times and terms are not given.",
+    "doesNotEstablish": "",
+    "relatedIds": [],
+    "accessNote": "",
+    "volatility": "medium"
+  },
+  {
+    "id": "PROC-SC-022",
+    "title": "ThePrint (15 Oct 2026) reports the affidavits filed in the Supreme Court contempt proceedings over 10 October. Union Home Secretary Govind Mohan offered an unco",
+    "type": "COURT_DOCUMENT",
+    "verification": "REPORTED",
+    "incidentId": "INC-0081",
+    "dateOfItem": null,
+    "dateAdded": "2026-10-19",
+    "sourceIds": [
+      "SRC-1107",
+      "SRC-1108"
+    ],
+    "origin": "",
+    "establishes": "The affidavits have not been seen. The 57 and 45 stations, the four-km radius and the two-to-six-hour release window are the officials' own statements, not findings. Neither report gives the next hearing date or the outcome on the contempt notices. The two-to-six-hour statement sits beside detention figures of 2,000 to 7,000 that remain DISPUTED on INC-0081.",
+    "doesNotEstablish": "",
+    "relatedIds": [],
+    "accessNote": "",
+    "volatility": "high"
   }
 ];
 
@@ -37811,6 +38033,18 @@ WGO.importedFramework = [
     "category": "precedent",
     "jurisdiction": "india",
     "note": "Cited by the Internet Freedom Foundation in its statement of 20 July 2026 alongside the Indian Telegraph Act 1885, the Telecommunications Act 2023 and Articles 19(1)(a) and 19(1)(g). Recorded as REPORTED and not VERIFIED because this archive has not fetched the judgment text itself, only IFF's citation of it. The proposition is well known and that is not a reason to record it as established: the rule in this archive is that a claim carries the state of the evidence actually held for it. Fetching the judgment from an authoritative reporter would move it to VERIFIED and is the cheapest upgrade available here. See FQ-015."
+  },
+  {
+    "id": "LAW-BNSS-007",
+    "text": "BNSS s.15 (corresponding to CrPC s.21) lets the State Government appoint, for such term as it thinks fit, Executive Magistrates or any police officer not below the rank of Superintendent of Police or equivalent as Special Executive Magistrates, for particular areas or particular functions, with such Executive Magistrate powers as it deems fit.",
+    "confidence": "REPORTED",
+    "sourceIds": [
+      "SRC-1109",
+      "SRC-1110"
+    ],
+    "category": "statute",
+    "jurisdiction": "all",
+    "note": "Not verified against India Code, which refused automated access. Commentators disagree on whether the Superintendent-of-Police wording is new to BNSS or already in CrPC s.21; read the official texts before relying on either. The sections used in the Delhi orders (ss.126, 130, 136, 170) come from LiveLaw's report (PROC-DEL-009), not from the statute, and their content must be checked. Lexibal cites Devi v. Executive Magistrate-cum-DCP (Madras HC, 2020), Gulam Abbas v. State of U.P. (SC, 1981) and Hari Singh v. State of Haryana (1993) on police SEMs; none was checked and none is relied on."
   }
 ];
 
@@ -38881,7 +39115,7 @@ WGO.importedQuestions = [
     "incidentId": null,
     "text": "What did the Supreme Court do on 9 October 2026, the date the 10 September order listed W.P.(Crl.) No. 280/2026 and connected matters for further consideration, and has the Committee filed or been asked for a first interim report?",
     "priority": "HIGH",
-    "whyItMatters": "The Committee's first report on issues (i) and (vi) of paragraph 12 was requested 'at the earliest' on 18 August and again on 10 September. The 9 October listing is the next point at which the Court could set a date for it, say anything about the confidential portal, or deal with the Delhi Police status report on the protection of the 14-year-old protester ordered in W.P.(C) No. 324/2026. No order of that date is held and no report of it has been found. SEARCHED 14 October 2026: a general search for the Supreme Court's 9 October hearing, the first interim report or any HPEC statement found nothing dated after the 10 September order. Absence from a news search is weak evidence. The order itself will be on the Committee's Supreme Court Orders page. 15 October 2026: the Supreme Court did hear a separate petition on 9 October (M A Baby v. Union of India, PROC-SC-020), on Metro and train closures and an alternative protest site. That is not the Tripathi batch (W.P.(Crl.) 280/2026), so this question remains open.",
+    "whyItMatters": "The Committee's first report on issues (i) and (vi) of paragraph 12 was requested 'at the earliest' on 18 August and again on 10 September. The 9 October listing is the next point at which the Court could set a date for it, say anything about the confidential portal, or deal with the Delhi Police status report on the protection of the 14-year-old protester ordered in W.P.(C) No. 324/2026. No order of that date is held and no report of it has been found. SEARCHED 14 October 2026: a general search for the Supreme Court's 9 October hearing, the first interim report or any HPEC statement found nothing dated after the 10 September order. Absence from a news search is weak evidence. The order itself will be on the Committee's Supreme Court Orders page. 15 October 2026: the Supreme Court did hear a separate petition on 9 October (M A Baby v. Union of India, PROC-SC-020), on Metro and train closures and an alternative protest site. That is not the Tripathi batch (W.P.(Crl.) 280/2026), so this question remains open. 19 October 2026: the Supreme Court heard the contempt petitions on 11 and 15 October (PROC-SC-022), a different batch; the 9 October listing of W.P.(Crl.) 280/2026 is still not found.",
     "lawfulRoute": "The order of 9 October will appear on the Supreme Court's site and, as the two earlier orders did, on the Committee's Supreme Court Orders page (hpec.nic.in/supreme-court-orders). The archive owner can save it from there, the way the earlier two arrived.",
     "state": "UNANSWERED",
     "wants": [
@@ -38910,6 +39144,41 @@ WGO.importedQuestions = [
       "PROC-SC-021"
     ],
     "category": "document_custody"
+  },
+  {
+    "id": "OQ-065",
+    "incidentId": "INC-0001",
+    "text": "How is a Delhi Police officer made a Special Executive Magistrate, and which notification designates the officers (reported as ACP rank) who heard the CJP leaders' preventive cases on 11, 14 and 18 October 2026? Specifically: the State Government notification under BNSS s.15, its date and signatory, its term, the powers conferred, the areas or functions covered, and how an ACP is treated as 'Superintendent of Police or equivalent' if that is the basis.",
+    "priority": "HIGH",
+    "whyItMatters": "These magistrates released three leaders on a one-year bond (11 Oct), remanded two to judicial custody on a police complaint (14 Oct) and sat on their release (18 Oct). On the face of the statute as quoted by secondary sources, a police officer must be 'not below the rank of Superintendent of Police or equivalent'. Reporting calls the Delhi officer an ACP. Whether that is lawful depends on a notification and on a definition of equivalence that no source read states. The archive does not conclude either way. A social-media post in circulation says the Supreme Court questioned such appointments in 2018 and the Delhi High Court asked how they are made. The archive found only a snippet pointing to a 2018 Delhi High Court PIL and a police affidavit; neither the filing nor an order was read, so it is not recorded as fact.",
+    "lawfulRoute": "RTI to the Delhi Government's Home Department and to Delhi Police (rtionline.gov.in) for the s.15 notification(s) and any CrPC s.21 predecessors; the Delhi Gazette; and the Delhi High Court's records for the 2018 PIL, once its case number is found.",
+    "state": "UNANSWERED",
+    "wants": [
+      "RTI to the Delhi Government's Home Department and to Delhi Police (rtionline.gov.in) for the s.15 notification(s) and any CrPC s.21 predecessors; the Delhi Gazette; and the Delhi High Court's records for the 2018 PIL, once its case number is found."
+    ],
+    "evidenceIds": [],
+    "blocks": [
+      "INC-0090",
+      "INC-0081"
+    ],
+    "category": "document_custody"
+  },
+  {
+    "id": "OQ-066",
+    "incidentId": "INC-0001",
+    "text": "What happened to Saurav Das and Ashutosh Ranka after the 18 October 2026 hearing: was a release order made, on what bond or surety, and what are the next dates in the s.130 BNSS enquiry; and what did the Special Executive Magistrate's complaint about threats lead to?",
+    "priority": "MEDIUM",
+    "whyItMatters": "The five-day judicial custody ended on 18 October. Reports on that date describe a hearing that passed no order and say no release hearing was expected on 19 October. No report dated 19 October or later was found. Reasons for the rejection of four sureties are described only by the CJP.",
+    "lawfulRoute": "The magistrate's orders of 14 and 18 October; Tihar Jail release records; any petition in the Delhi High Court (the CJP is reported to have consulted counsel).",
+    "state": "UNANSWERED",
+    "wants": [
+      "The magistrate's orders of 14 and 18 October; Tihar Jail release records; any petition in the Delhi High Court (the CJP is reported to have consulted counsel)."
+    ],
+    "evidenceIds": [],
+    "blocks": [
+      "INC-0090"
+    ],
+    "category": "legal_proceeding"
   }
 ];
 
@@ -39067,6 +39336,21 @@ WGO.importedFilings = [
     "legalBasis": "Court records are open to the public subject to the Court's rules.",
     "exposureRisk": false,
     "notes": "A court file is the cheapest route to the refusal order, because the petitioner has already put it in front of a judge and no Public Information Officer has to be persuaded.",
+    "resolves": []
+  },
+  {
+    "id": "FQ-024",
+    "sequence": 1,
+    "deadlineDriven": false,
+    "incidentId": "INC-0001",
+    "jurisdiction": "delhi",
+    "action": "Request the State Government notification(s) designating Special Executive Magistrates in Delhi under BNSS s.15 (and CrPC s.21 before it), with the order or orders by which the officers who heard the CJP leaders' cases were designated.",
+    "authority": "Delhi Government Home Department and Delhi Police (Public Information Officers).",
+    "method": "RTI through rtionline.gov.in, as for the Delhi Police entry in the authority list. Ask for the notification, its date, term and powers conferred, and any rank-equivalence order for police officers.",
+    "cost": "Statutory RTI fee; not further established.",
+    "legalBasis": "Right to Information Act 2005, s.6. The designation is a public notification.",
+    "exposureRisk": false,
+    "notes": "See OQ-065. The designation is also published in the Gazette, which may answer the question without an RTI.",
     "resolves": []
   },
   {
@@ -42150,7 +42434,8 @@ WGO.importedIncidentFacts = {
       "HIST-DEL26-013",
       "HIST-DEL26-016",
       "HIST-OCT12-005",
-      "HIST-OCT12-007"
+      "HIST-OCT12-007",
+      "HIST-DEL26-017"
     ],
     "state": [
       "CORROBORATED",
@@ -42277,6 +42562,31 @@ WGO.importedIncidentFacts = {
     ],
     "state": [
       "CORROBORATED"
+    ]
+  },
+  "INC-0090": {
+    "dates": [
+      "13 October 2026"
+    ],
+    "places": [
+      "the delay is deliberate. Activist Ratna Singh told The Tribune she had been at the police station from 11 am and the ACP/SEM had not arrived by 4.42 pm. Police gave The Tribune no response. The Daily Jagran says a release hearing"
+    ],
+    "evidenceIds": [
+      "HIST-DEL26-018",
+      "HIST-DEL26-019"
+    ],
+    "state": [
+      "REPORTED"
+    ]
+  },
+  "INC-0091": {
+    "dates": [],
+    "places": [],
+    "evidenceIds": [
+      "HIST-DEL26-020"
+    ],
+    "state": [
+      "REPORTED"
     ]
   }
 };

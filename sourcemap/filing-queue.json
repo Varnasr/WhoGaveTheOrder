@@ -342,5 +342,18 @@
     "legal_basis": "Court records are open to the public subject to the Court's rules.",
     "exposure_risk": false,
     "notes": "A court file is the cheapest route to the refusal order, because the petitioner has already put it in front of a judge and no Public Information Officer has to be persuaded."
+  },
+  {
+    "id": "FQ-024",
+    "sequence": 1,
+    "deadline_driven": false,
+    "jurisdiction": "delhi",
+    "action": "Request the State Government notification(s) designating Special Executive Magistrates in Delhi under BNSS s.15 (and CrPC s.21 before it), with the order or orders by which the officers who heard the CJP leaders' cases were designated.",
+    "authority": "Delhi Government Home Department and Delhi Police (Public Information Officers).",
+    "method": "RTI through rtionline.gov.in, as for the Delhi Police entry in the authority list. Ask for the notification, its date, term and powers conferred, and any rank-equivalence order for police officers.",
+    "cost": "Statutory RTI fee; not further established.",
+    "legal_basis": "Right to Information Act 2005, s.6. The designation is a public notification.",
+    "exposure_risk": false,
+    "notes": "See OQ-065. The designation is also published in the Gazette, which may answer the question without an RTI."
   }
 ]

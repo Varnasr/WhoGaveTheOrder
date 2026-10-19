@@ -768,7 +768,7 @@
     "category": "legal_proceeding",
     "jurisdiction": "supreme_court",
     "question": "What did the Supreme Court do on 9 October 2026, the date the 10 September order listed W.P.(Crl.) No. 280/2026 and connected matters for further consideration, and has the Committee filed or been asked for a first interim report?",
-    "why_it_matters": "The Committee's first report on issues (i) and (vi) of paragraph 12 was requested 'at the earliest' on 18 August and again on 10 September. The 9 October listing is the next point at which the Court could set a date for it, say anything about the confidential portal, or deal with the Delhi Police status report on the protection of the 14-year-old protester ordered in W.P.(C) No. 324/2026. No order of that date is held and no report of it has been found. SEARCHED 14 October 2026: a general search for the Supreme Court's 9 October hearing, the first interim report or any HPEC statement found nothing dated after the 10 September order. Absence from a news search is weak evidence. The order itself will be on the Committee's Supreme Court Orders page. 15 October 2026: the Supreme Court did hear a separate petition on 9 October (M A Baby v. Union of India, PROC-SC-020), on Metro and train closures and an alternative protest site. That is not the Tripathi batch (W.P.(Crl.) 280/2026), so this question remains open.",
+    "why_it_matters": "The Committee's first report on issues (i) and (vi) of paragraph 12 was requested 'at the earliest' on 18 August and again on 10 September. The 9 October listing is the next point at which the Court could set a date for it, say anything about the confidential portal, or deal with the Delhi Police status report on the protection of the 14-year-old protester ordered in W.P.(C) No. 324/2026. No order of that date is held and no report of it has been found. SEARCHED 14 October 2026: a general search for the Supreme Court's 9 October hearing, the first interim report or any HPEC statement found nothing dated after the 10 September order. Absence from a news search is weak evidence. The order itself will be on the Committee's Supreme Court Orders page. 15 October 2026: the Supreme Court did hear a separate petition on 9 October (M A Baby v. Union of India, PROC-SC-020), on Metro and train closures and an alternative protest site. That is not the Tripathi batch (W.P.(Crl.) 280/2026), so this question remains open. 19 October 2026: the Supreme Court heard the contempt petitions on 11 and 15 October (PROC-SC-022), a different batch; the 9 October listing of W.P.(Crl.) 280/2026 is still not found.",
     "lawful_route": "The order of 9 October will appear on the Supreme Court's site and, as the two earlier orders did, on the Committee's Supreme Court Orders page (hpec.nic.in/supreme-court-orders). The archive owner can save it from there, the way the earlier two arrived.",
     "blocks": [
       "PROC-SC-019"
@@ -785,6 +785,31 @@
     "blocks": [
       "PROC-DEL-007",
       "PROC-SC-021"
+    ]
+  },
+  {
+    "id": "OQ-065",
+    "priority": "high",
+    "category": "document_custody",
+    "jurisdiction": "delhi",
+    "question": "How is a Delhi Police officer made a Special Executive Magistrate, and which notification designates the officers (reported as ACP rank) who heard the CJP leaders' preventive cases on 11, 14 and 18 October 2026? Specifically: the State Government notification under BNSS s.15, its date and signatory, its term, the powers conferred, the areas or functions covered, and how an ACP is treated as 'Superintendent of Police or equivalent' if that is the basis.",
+    "why_it_matters": "These magistrates released three leaders on a one-year bond (11 Oct), remanded two to judicial custody on a police complaint (14 Oct) and sat on their release (18 Oct). On the face of the statute as quoted by secondary sources, a police officer must be 'not below the rank of Superintendent of Police or equivalent'. Reporting calls the Delhi officer an ACP. Whether that is lawful depends on a notification and on a definition of equivalence that no source read states. The archive does not conclude either way. A social-media post in circulation says the Supreme Court questioned such appointments in 2018 and the Delhi High Court asked how they are made. The archive found only a snippet pointing to a 2018 Delhi High Court PIL and a police affidavit; neither the filing nor an order was read, so it is not recorded as fact.",
+    "lawful_route": "RTI to the Delhi Government's Home Department and to Delhi Police (rtionline.gov.in) for the s.15 notification(s) and any CrPC s.21 predecessors; the Delhi Gazette; and the Delhi High Court's records for the 2018 PIL, once its case number is found.",
+    "blocks": [
+      "INC-0090",
+      "INC-0081"
+    ]
+  },
+  {
+    "id": "OQ-066",
+    "priority": "medium",
+    "category": "legal_proceeding",
+    "jurisdiction": "delhi",
+    "question": "What happened to Saurav Das and Ashutosh Ranka after the 18 October 2026 hearing: was a release order made, on what bond or surety, and what are the next dates in the s.130 BNSS enquiry; and what did the Special Executive Magistrate's complaint about threats lead to?",
+    "why_it_matters": "The five-day judicial custody ended on 18 October. Reports on that date describe a hearing that passed no order and say no release hearing was expected on 19 October. No report dated 19 October or later was found. Reasons for the rejection of four sureties are described only by the CJP.",
+    "lawful_route": "The magistrate's orders of 14 and 18 October; Tihar Jail release records; any petition in the Delhi High Court (the CJP is reported to have consulted counsel).",
+    "blocks": [
+      "INC-0090"
     ]
   }
 ]

@@ -37177,5 +37177,168 @@
     ],
     "notes": "Three outlets read in full on 15 October 2026. ANI and PTI are separate agencies and agree on the bench, the police argument and the notice. They differ on the next date: ANI gives 17 November and PTI says only 'in November'. Bar & Bench reports the police statement but names no bench or next date. The 12 October hearing is at PROC-DEL-006, where the judge's name rested on LawChakra alone; ANI's and PTI's naming of Justice Mahajan now supports it. The order of 13 October is not held (FQ-023).",
     "added_on": "2026-10-15"
+  },
+  {
+    "id": "HIST-DEL26-017",
+    "jurisdiction": "delhi",
+    "category": "incident",
+    "claim": "On 10 October 2026 Delhi Police detained Abhijeet Dipke, Saurav Das and Ashutosh Ranka after their flight from Mumbai landed in Delhi. On 11 October a Special Executive Magistrate in Delhi released them after each furnished a bond of Rs 50,000 to keep the peace for one year. Bar and Bench names the magistrate as SEM Sanhamitra and calls the bond order a template order. News On AIR says they were produced before the SEM, Delhi Cantt.",
+    "confidence": "CORROBORATED",
+    "sources": [
+      {
+        "url": "https://www.barandbench.com/news/cjp-protests-abhijeet-dipke-saurav-das-ashutosh-ranka-released-from-detention-by-executive-magistrate",
+        "source_type": "secondary",
+        "publication": "Bar and Bench, 11 Oct 2026",
+        "retrieved_on": "2026-10-19"
+      },
+      {
+        "url": "https://newsonair.gov.in/cjp-members-abhijeet-dipke-ashutosh-ranka-and-saurav-das-released-by-delhi-court/",
+        "source_type": "secondary",
+        "publication": "News On AIR, 11 Oct 2026",
+        "retrieved_on": "2026-10-19"
+      }
+    ],
+    "notes": "Bar and Bench gives no amount; News On AIR gives Rs 50,000. LiveLaw (14 Oct) says the action was under BNSS ss.126 and 170 and the bond under s.136. The outlets differ on the magistrate's name and court location. No order has been seen.",
+    "volatility": "low",
+    "added_on": "2026-10-19",
+    "incident": "INC-0081"
+  },
+  {
+    "id": "PROC-DEL-009",
+    "jurisdiction": "delhi",
+    "category": "legal_proceeding",
+    "claim": "LiveLaw reports that on 14 October 2026 a Special Executive Magistrate in Delhi, identified as Mahesh Kumar Meena, issued notice under BNSS s.130 to Saurav Das and Ashutosh Ranka on the police allegation that they had breached the one-year peace bonds of 11 October, found that no sound surety had been produced, and remanded both to five days of judicial custody, listing the matter for further enquiry on 19 October. Ajinkya Shinde is reported released on a personal bond. The report gives the police version (social media posts, press conferences, calls to assemble, videos on a pen drive) and the magistrate's finding that breach was evident from conduct, posts and the complainant's statement. It reports no defence submissions. It cites FIR 128/26 (Parliament Street) and FIR 289/26 (Connaught Place).",
+    "confidence": "REPORTED",
+    "sources": [
+      {
+        "url": "https://www.livelaw.in/news-updates/delhi-court-remands-cjp-leaders-saurav-das-ashutosh-ranka-to-five-days-judicial-custody-for-trespassing-at-jantar-mantar-554532",
+        "source_type": "secondary",
+        "publication": "LiveLaw, 14 Oct 2026",
+        "retrieved_on": "2026-10-19"
+      }
+    ],
+    "notes": "Single source; the order has not been seen. The Daily Jagran (19 Oct) calls the magistrate 'Special Executive Magistrate ACP Mahesh Kumar Meena' (HIST-DEL26-019).",
+    "volatility": "high",
+    "added_on": "2026-10-19",
+    "incident": "INC-0090"
+  },
+  {
+    "id": "HIST-DEL26-018",
+    "jurisdiction": "delhi",
+    "category": "incident",
+    "claim": "Police say Saurav Das and Ashutosh Ranka were preventively arrested on 13 October 2026 after entering Jantar Mantar, which Delhi Police had de-notified as a protest site, by scaling its locked gates. LiveLaw reports the police allegation that they raised slogans and jumped from inside the JDU office premises. The CJP leaders say they unfurled the national flag and raised slogans.",
+    "confidence": "REPORTED",
+    "sources": [
+      {
+        "url": "https://www.livelaw.in/news-updates/delhi-court-remands-cjp-leaders-saurav-das-ashutosh-ranka-to-five-days-judicial-custody-for-trespassing-at-jantar-mantar-554532",
+        "source_type": "secondary",
+        "publication": "LiveLaw, 14 Oct 2026",
+        "retrieved_on": "2026-10-19"
+      },
+      {
+        "url": "https://www.tribuneindia.com/news/india/cjp-alleges-delay-in-release-of-leaders-saurav-das-ashutosh-ranka-4-sureties-rejected/",
+        "source_type": "secondary",
+        "publication": "The Tribune, 18 Oct 2026",
+        "retrieved_on": "2026-10-19"
+      }
+    ],
+    "notes": "The two outlets describe the entry differently (gates scaled, or a jump from inside a party office). Both are the police account. No footage seen.",
+    "volatility": "medium",
+    "added_on": "2026-10-19",
+    "incident": "INC-0090"
+  },
+  {
+    "id": "HIST-DEL26-019",
+    "jurisdiction": "delhi",
+    "category": "incident",
+    "claim": "On Sunday 18 October 2026, the day the five-day judicial custody of Saurav Das and Ashutosh Ranka ended, the Special Executive Magistrate hearing on their release began around 5.30 pm against a noon listing, lasted 10 to 15 minutes and passed no release order (Daily Jagran, citing PTI). The court discussed threats the magistrate said he had received over the release, and Delhi Police registered a non-cognisable report against unidentified persons on the magistrate's complaint. The public prosecutor said the matter needed proper investigation. The CJP says four sureties were rejected on vague grounds and that the delay is deliberate. Activist Ratna Singh told The Tribune she had been at the police station from 11 am and the ACP/SEM had not arrived by 4.42 pm. Police gave The Tribune no response. The Daily Jagran says a release hearing on 19 October was unlikely and gives no new date.",
+    "confidence": "REPORTED",
+    "sources": [
+      {
+        "url": "https://www.thedailyjagran.com/india/news/why-were-cjp-leaders-ashutosh-ranka-saurav-das-not-released-from-jail-heres-what-happened-in-court-10333217",
+        "source_type": "secondary",
+        "publication": "The Daily Jagran, 19 Oct 2026",
+        "retrieved_on": "2026-10-19",
+        "originates_from": "PTI"
+      },
+      {
+        "url": "https://www.tribuneindia.com/news/india/cjp-alleges-delay-in-release-of-leaders-saurav-das-ashutosh-ranka-4-sureties-rejected/",
+        "source_type": "secondary",
+        "publication": "The Tribune, 18 Oct 2026",
+        "retrieved_on": "2026-10-19"
+      }
+    ],
+    "notes": "The reason for non-release is not established. 'Deliberate delay' is the CJP's characterisation. Whether Das and Ranka were released on or after 19 October has not been found. The magistrate is described as an ACP in both outlets.",
+    "volatility": "high",
+    "added_on": "2026-10-19",
+    "incident": "INC-0090"
+  },
+  {
+    "id": "HIST-DEL26-020",
+    "jurisdiction": "delhi",
+    "category": "incident",
+    "claim": "Outlook India reports that on Friday 16 October 2026 about 150 people, including CJP founder Abhijeet Dipke and AISA president Neha Bora, were detained, according to police, as demonstrations at Central Park, Connaught Place and near Mandi House were stopped. An officer told Dipke he was held as a preventive measure under Section 163 restrictions in Connaught Place, and police served him a separate notice tied to his earlier undertaking to keep the peace. More than 6,000 police and Central Armed Police Forces personnel were reported deployed, and the New Delhi Municipal Council closed Central Park on 16 and 17 October. The report describes removals and jostling and names no baton charge or injury.",
+    "confidence": "REPORTED",
+    "sources": [
+      {
+        "url": "https://www.outlookindia.com/national/abhijeet-dipke-neha-bora-among-150-detained-what-we-know-about-delhis-lehra-do-tiranga-stir",
+        "source_type": "secondary",
+        "publication": "Outlook India, 16 Oct 2026",
+        "retrieved_on": "2026-10-19"
+      }
+    ],
+    "notes": "Single source, published the evening of the march. 150 is a police figure at that hour. Release times and terms are not given.",
+    "volatility": "medium",
+    "added_on": "2026-10-19",
+    "incident": "INC-0091"
+  },
+  {
+    "id": "PROC-SC-022",
+    "jurisdiction": "supreme_court",
+    "category": "legal_proceeding",
+    "claim": "ThePrint (15 Oct 2026) reports the affidavits filed in the Supreme Court contempt proceedings over 10 October. Union Home Secretary Govind Mohan offered an unconditional apology, denied wilful breach, and said Delhi Police asked for cellular internet to be suspended until 10 pm on 10 October within a four-km radius of Raisina Hill, leaving Wi-Fi and broadband on; he asked the Court to modify its 11 October order so suspensions remain possible where necessary. Delhi Police Commissioner Anurag Kumar also apologised, said DMRC was first asked to halt access to 57 stations and then 45, said those detained were released within two to six hours from makeshift centres, and called the CJP's 7 October letter an intimation and not a request for permission. LawBeat reports that at the 15 October hearing before CJI Surya Kant and Justice Joymalya Bagchi the Solicitor General argued the apologies are not an admission of wilful disobedience, and that the Court said it was not taking cognisance of the media reports or of the apologies in isolation. No formal directions are reported.",
+    "confidence": "REPORTED",
+    "sources": [
+      {
+        "url": "https://theprint.in/judiciary/10-oct-protest-home-secy-police-chief-apologise-to-sc-over-delhi-curbs-no-wilful-breach-of-order/3072242/",
+        "source_type": "secondary",
+        "publication": "ThePrint, 15 Oct 2026",
+        "retrieved_on": "2026-10-19"
+      },
+      {
+        "url": "https://lawbeat.in/top-stories/apology-in-contempt-affidavits-is-settled-practice-not-admission-sg-tushar-mehta-tells-supreme-court-mha-clarifies-1642321",
+        "source_type": "secondary",
+        "publication": "LawBeat, Oct 2026",
+        "retrieved_on": "2026-10-19"
+      }
+    ],
+    "notes": "The affidavits have not been seen. The 57 and 45 stations, the four-km radius and the two-to-six-hour release window are the officials' own statements, not findings. Neither report gives the next hearing date or the outcome on the contempt notices. The two-to-six-hour statement sits beside detention figures of 2,000 to 7,000 that remain DISPUTED on INC-0081.",
+    "volatility": "high",
+    "added_on": "2026-10-19",
+    "incident": "INC-0081"
+  },
+  {
+    "id": "LAW-BNSS-007",
+    "jurisdiction": "all",
+    "category": "statute",
+    "claim": "BNSS s.15 (corresponding to CrPC s.21) lets the State Government appoint, for such term as it thinks fit, Executive Magistrates or any police officer not below the rank of Superintendent of Police or equivalent as Special Executive Magistrates, for particular areas or particular functions, with such Executive Magistrate powers as it deems fit.",
+    "confidence": "REPORTED",
+    "sources": [
+      {
+        "url": "https://courtbook.in/bnss/section-15",
+        "source_type": "secondary",
+        "publication": "CourtBook (statute text)",
+        "retrieved_on": "2026-10-19"
+      },
+      {
+        "url": "https://lexibal.com/bnss-section-15-special-executive-magistrates-police/",
+        "source_type": "secondary",
+        "publication": "Lexibal (commentary)",
+        "retrieved_on": "2026-10-19"
+      }
+    ],
+    "notes": "Not verified against India Code, which refused automated access. Commentators disagree on whether the Superintendent-of-Police wording is new to BNSS or already in CrPC s.21; read the official texts before relying on either. The sections used in the Delhi orders (ss.126, 130, 136, 170) come from LiveLaw's report (PROC-DEL-009), not from the statute, and their content must be checked. Lexibal cites Devi v. Executive Magistrate-cum-DCP (Madras HC, 2020), Gulam Abbas v. State of U.P. (SC, 1981) and Hari Singh v. State of Haryana (1993) on police SEMs; none was checked and none is relied on.",
+    "volatility": "low",
+    "added_on": "2026-10-19"
   }
 ]

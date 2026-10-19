@@ -2639,6 +2639,54 @@ WGO.incidents = [
     officeIds: [],
     orderTrail: { reached: null, rungs: {}, next: null },
     openedOn: '2026-10-14'
+  },
+  {
+    id: 'INC-0090',
+    isoDate: '2026-10-13',   /* first day; used only to order the lists */
+    slug: 'jantar-mantar-entry-preventive-arrests-october-2026',
+    kind: 'CASES',
+    title: "Two CJP leaders held after entering Jantar Mantar and sent to judicial custody by a Special Executive Magistrate",
+    place: "Jantar Mantar, New Delhi",
+    state: "Delhi",
+    coords: [28.627, 77.2166],
+    coordsState: 'REPORTED',
+    incidentState: 'REPORTED',
+    dateState: 'REPORTED',
+    date: "13 to 18 October 2026",
+    summaryState: 'UNKNOWN',
+    summary: null,
+    forcesInvolved: {"state": "REPORTED", "items": [{"text": "Delhi Police; a Special Executive Magistrate described in reporting as an ACP (HIST-DEL26-018, HIST-DEL26-019)", "state": "REPORTED"}]},
+    crowdControl  : {"state": "REPORTED", "items": [{"text": "Preventive arrest on 13 October; notice under BNSS s.130 and remand to five days of judicial custody on 14 October (PROC-DEL-009)", "state": "REPORTED"}]},
+    injuries      : {"state": "UNKNOWN", "note": "None reported in the sources read."},
+    detentions    : {"state": "REPORTED", "note": "Saurav Das and Ashutosh Ranka held from 13 October; judicial custody to 18 or 19 October; a hearing on 18 October passed no release order (HIST-DEL26-019). Ajinkya Shinde released on a personal bond on 14 October (PROC-DEL-009). Release after 18 October not found (OQ-066)."},
+    firs          : {"state": "REPORTED", "note": "FIR 128/26 (Parliament Street) and FIR 289/26 (Connaught Place) are cited in the 14 October order as reported (PROC-DEL-009). No FIR text seen."},
+    officeIds: [],
+    orderTrail: { reached: null, rungs: {}, next: null },
+    openedOn: '2026-10-19'
+  },
+  {
+    id: 'INC-0091',
+    isoDate: '2026-10-16',   /* first day; used only to order the lists */
+    slug: 'connaught-place-flag-march-detentions-october-2026',
+    kind: 'DETENTIONS',
+    title: "About 150 detained as a CJP flag march at Connaught Place and a protest at Mandi House are stopped",
+    place: "Central Park, Connaught Place and Mandi House, New Delhi",
+    state: "Delhi",
+    coords: [28.6315, 77.2167],
+    coordsState: 'REPORTED',
+    incidentState: 'REPORTED',
+    dateState: 'REPORTED',
+    date: "16 October 2026",
+    summaryState: 'UNKNOWN',
+    summary: null,
+    forcesInvolved: {"state": "REPORTED", "items": [{"text": "Delhi Police and Central Armed Police Forces, more than 6,000 deployed (HIST-DEL26-020)", "state": "REPORTED"}]},
+    crowdControl  : {"state": "REPORTED", "items": [{"text": "Section 163 restrictions at Connaught Place cited as the basis for preventive detention; Central Park closed on 16 and 17 October (HIST-DEL26-020)", "state": "REPORTED"}]},
+    injuries      : {"state": "UNKNOWN", "note": "None reported by Outlook, which describes removals and jostling (HIST-DEL26-020)."},
+    detentions    : {"state": "REPORTED", "note": "About 150, a police figure on the evening of 16 October, including Abhijeet Dipke and Neha Bora (HIST-DEL26-020). Release terms not reported."},
+    firs          : {"state": "UNKNOWN", "note": "No FIR found. A separate notice tied to Dipke's earlier peace undertaking is reported."},
+    officeIds: [],
+    orderTrail: { reached: null, rungs: {}, next: null },
+    openedOn: '2026-10-19'
   }
 ];
 
