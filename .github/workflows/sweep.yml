@@ -81,6 +81,17 @@ jobs:
             # [skip ci] so a log commit does not re-run the integrity checks on
             # a file no check reads.
             git commit -m "Sweep log and archived copies for $(date -u +%Y-%m-%d) [skip ci]"
+            # build.js derives the change log from commits, so the run above
+            # could not include the commit just made, and feed.xml sits outside
+            # sourcemap/ and data/. Left there, main was one entry behind after
+            # every sweep and the change-log gate failed on every branch cut from
+            # it. A rebuild after the commit catches up; a second rebuild after
+            # that changes nothing (checked 2026-10-19).
+            node tools/build.js
+            if ! git diff --quiet; then
+              git add -A
+              git commit -m "Change log and feed for the $(date -u +%Y-%m-%d) sweep [skip ci]"
+            fi
             git push
           fi
 
