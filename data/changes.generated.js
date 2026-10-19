@@ -5,6 +5,44 @@ window.WGO = window.WGO || {};
 
 WGO.changes = [
   {
+    "commit": "f7456f1232",
+    "date": "2026-10-17T07:10:45Z",
+    "subject": "Sweep log and archived copies for 2026-10-17 [skip ci]",
+    "added": [],
+    "removed": [],
+    "changed": [
+      {
+        "id": "SRC-0149",
+        "kind": "Source",
+        "title": "National Human Rights Commission, press release of 17 February 2016",
+        "state": null,
+        "url": "https://nhrc.nic.in/media/press-release/nhrc-notice-to-the-union-home-secretary-chief-secretary-delhi-police-commisioner-on-allegations-beating-journalist-students-outside-patiala-house-court",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "https://web.archive.org/web/20261017070630/https://nhrc.nic.in/media/press-release/nhrc-notice-to-the-union-home-secretary-chief-secretary-delhi-police-commisioner-on-allegations-beating-journalist-students-outside-patiala-house-court"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0161",
+        "kind": "Source",
+        "title": "The Wire (26 March 2016)",
+        "state": null,
+        "url": "https://m.thewire.in/article/education/an-eyewitness-account-of-the-violence-in-hyderabad-university",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "https://web.archive.org/web/20261017071012/https://m.thewire.in/article/education/an-eyewitness-account-of-the-violence-in-hyderabad-university"
+          }
+        ]
+      }
+    ],
+    "summary": "2 records edited"
+  },
+  {
     "commit": "aea75899eb",
     "date": "2026-10-16T07:32:00Z",
     "subject": "Sweep log and archived copies for 2026-10-16 [skip ci]",

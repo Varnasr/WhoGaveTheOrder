@@ -1506,8 +1506,8 @@ WGO.importedSources = [
     "kind": "PRIMARY",
     "url": "https://www.roundtableindia.co.in/?p=8534",
     "retrievedOn": "2026-10-10",
-    "archiveUrl": null,
-    "archivedOn": null,
+    "archiveUrl": "https://web.archive.org/web/20261019080257/https://www.roundtableindia.co.in/what-kind-of-a-country-treats-its-students-in-this-manner/",
+    "archivedOn": "2026-10-19",
     "sha256": null,
     "originatesFrom": null
   },
@@ -1517,8 +1517,8 @@ WGO.importedSources = [
     "kind": "PRIMARY",
     "url": "https://www.pudr.org/press-statements/condemn-police-brutality-on-students-and-teachers-in-university-of-hyderabad/",
     "retrievedOn": "2026-10-10",
-    "archiveUrl": null,
-    "archivedOn": null,
+    "archiveUrl": "http://web.archive.org/web/20260419043626/https://www.pudr.org/press-statements/condemn-police-brutality-on-students-and-teachers-in-university-of-hyderabad/",
+    "archivedOn": "2026-10-19",
     "sha256": null,
     "originatesFrom": null
   },
