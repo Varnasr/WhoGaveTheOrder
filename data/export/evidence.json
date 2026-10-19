@@ -21098,5 +21098,99 @@
       "SRC-1097",
       "SRC-1099"
     ]
+  },
+  {
+    "id": "HIST-DEL26-017",
+    "kind": "Evidence",
+    "title": "On 10 October 2026 Delhi Police detained Abhijeet Dipke, Saurav Das and Ashutosh Ranka after their flight from Mumbai landed in Delhi. On 11 October a Special E",
+    "state": "CORROBORATED",
+    "url": "https://www.whogavetheorder.in/evidence.html?id=HIST-DEL26-017",
+    "type": "OTHER_DOCUMENT",
+    "incidentId": "INC-0081",
+    "dateOfItem": null,
+    "establishes": "Bar and Bench gives no amount; News On AIR gives Rs 50,000. LiveLaw (14 Oct) says the action was under BNSS ss.126 and 170 and the bond under s.136. The outlets differ on the magistrate's name and court location. No order has been seen.",
+    "doesNotEstablish": null,
+    "sourceIds": [
+      "SRC-1101",
+      "SRC-1102"
+    ]
+  },
+  {
+    "id": "PROC-DEL-009",
+    "kind": "Evidence",
+    "title": "LiveLaw reports that on 14 October 2026 a Special Executive Magistrate in Delhi, identified as Mahesh Kumar Meena, issued notice under BNSS s.130 to Saurav Das ",
+    "state": "REPORTED",
+    "url": "https://www.whogavetheorder.in/evidence.html?id=PROC-DEL-009",
+    "type": "COURT_DOCUMENT",
+    "incidentId": "INC-0090",
+    "dateOfItem": null,
+    "establishes": "Single source; the order has not been seen. The Daily Jagran (19 Oct) calls the magistrate 'Special Executive Magistrate ACP Mahesh Kumar Meena' (HIST-DEL26-019).",
+    "doesNotEstablish": null,
+    "sourceIds": [
+      "SRC-1103"
+    ]
+  },
+  {
+    "id": "HIST-DEL26-018",
+    "kind": "Evidence",
+    "title": "Police say Saurav Das and Ashutosh Ranka were preventively arrested on 13 October 2026 after entering Jantar Mantar, which Delhi Police had de-notified as a pro",
+    "state": "REPORTED",
+    "url": "https://www.whogavetheorder.in/evidence.html?id=HIST-DEL26-018",
+    "type": "OTHER_DOCUMENT",
+    "incidentId": "INC-0090",
+    "dateOfItem": null,
+    "establishes": "The two outlets describe the entry differently (gates scaled, or a jump from inside a party office). Both are the police account. No footage seen.",
+    "doesNotEstablish": null,
+    "sourceIds": [
+      "SRC-1103",
+      "SRC-1104"
+    ]
+  },
+  {
+    "id": "HIST-DEL26-019",
+    "kind": "Evidence",
+    "title": "On Sunday 18 October 2026, the day the five-day judicial custody of Saurav Das and Ashutosh Ranka ended, the Special Executive Magistrate hearing on their relea",
+    "state": "REPORTED",
+    "url": "https://www.whogavetheorder.in/evidence.html?id=HIST-DEL26-019",
+    "type": "OTHER_DOCUMENT",
+    "incidentId": "INC-0090",
+    "dateOfItem": null,
+    "establishes": "The reason for non-release is not established. 'Deliberate delay' is the CJP's characterisation. Whether Das and Ranka were released on or after 19 October has not been found. The magistrate is described as an ACP in both outlets.",
+    "doesNotEstablish": null,
+    "sourceIds": [
+      "SRC-1105",
+      "SRC-1104"
+    ]
+  },
+  {
+    "id": "HIST-DEL26-020",
+    "kind": "Evidence",
+    "title": "Outlook India reports that on Friday 16 October 2026 about 150 people, including CJP founder Abhijeet Dipke and AISA president Neha Bora, were detained, accordi",
+    "state": "REPORTED",
+    "url": "https://www.whogavetheorder.in/evidence.html?id=HIST-DEL26-020",
+    "type": "OTHER_DOCUMENT",
+    "incidentId": "INC-0091",
+    "dateOfItem": null,
+    "establishes": "Single source, published the evening of the march. 150 is a police figure at that hour. Release times and terms are not given.",
+    "doesNotEstablish": null,
+    "sourceIds": [
+      "SRC-1106"
+    ]
+  },
+  {
+    "id": "PROC-SC-022",
+    "kind": "Evidence",
+    "title": "ThePrint (15 Oct 2026) reports the affidavits filed in the Supreme Court contempt proceedings over 10 October. Union Home Secretary Govind Mohan offered an unco",
+    "state": "REPORTED",
+    "url": "https://www.whogavetheorder.in/evidence.html?id=PROC-SC-022",
+    "type": "COURT_DOCUMENT",
+    "incidentId": "INC-0081",
+    "dateOfItem": null,
+    "establishes": "The affidavits have not been seen. The 57 and 45 stations, the four-km radius and the two-to-six-hour release window are the officials' own statements, not findings. Neither report gives the next hearing date or the outcome on the contempt notices. The two-to-six-hour statement sits beside detention figures of 2,000 to 7,000 that remain DISPUTED on INC-0081.",
+    "doesNotEstablish": null,
+    "sourceIds": [
+      "SRC-1107",
+      "SRC-1108"
+    ]
   }
 ]
