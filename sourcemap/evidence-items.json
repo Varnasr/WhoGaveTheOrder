@@ -37514,5 +37514,36 @@
     "notes": "Single source read in full. Deccan Herald also reports it but its page returned 403. A search summary also lists earlier detentions of AISA members at Freedom Park in Bengaluru (10 October) and a joint AISA, SFI, AIDSO and AISF march toward the Election Commission office (a report posted 14 October says 'Saturday'); those pages were not read and are not recorded here. The News Minute notes the Karnataka Chief Minister had sought a report on earlier police action and the Home Minister had said peaceful protests would not be disrupted; the organisers' charge of double standards is theirs.",
     "volatility": "medium",
     "added_on": "2026-10-19"
+  },
+  {
+    "id": "HIST-DEL26-024",
+    "jurisdiction": "delhi",
+    "category": "incident",
+    "incident": "INC-0090",
+    "claim": "On Monday 19 October 2026 a Special Executive Magistrate extended the judicial custody of Saurav Das and Ashutosh Ranka by two days; they are to be produced again on Wednesday 21 October. The Tribune says police sought the extension (citing sources) and describes the magistrate as a newly appointed Special Executive Magistrate at the Mandir Marg police station, without naming them or saying whether they heard the 18 October bail matter. LiveLaw and Scroll report the extension without naming who passed the order, and LiveLaw says details of the order were not immediately available. No report gives the grounds, the number of days police asked for, or any defence submission. The CJP says bail is being deliberately delayed and that sureties were rejected on vague grounds.",
+    "confidence": "CORROBORATED",
+    "volatility": "high",
+    "sources": [
+      {
+        "url": "https://www.livelaw.in/top-stories/executive-magistrate-extends-cjp-leaders-saurav-das-ashutosh-rankas-judicial-custody-by-two-days-555330",
+        "source_type": "secondary",
+        "publication": "LiveLaw, 19 Oct 2026",
+        "retrieved_on": "2026-10-19"
+      },
+      {
+        "url": "https://www.tribuneindia.com/news/delhi/cjp-leaders-das-rankas-judicial-custody-extended-by-2-days-party-alleges-delay-in-bail-proceedings",
+        "source_type": "secondary",
+        "publication": "The Tribune, 19 Oct 2026",
+        "retrieved_on": "2026-10-19"
+      },
+      {
+        "url": "https://scroll.in/latest/1096461/cjp-leaders-ashutosh-ranka-saurav-das-judicial-custody-extended-by-two-days",
+        "source_type": "secondary",
+        "publication": "Scroll.in, 19 Oct 2026",
+        "retrieved_on": "2026-10-19"
+      }
+    ],
+    "notes": "Three outlets agree on the extension and the two days; they differ on who the magistrate is (LiveLaw's background names Mahesh Kumar Meena for 14 October only; The Tribune says newly appointed). A forwarded WhatsApp message circulating on 19 October says Delhi Police wanted five days 'because of fear of protest call during festive season'. None of the four reports read states the days police sought or a festive-season ground, so that is not recorded as fact. The order has not been seen.",
+    "added_on": "2026-10-19"
   }
 ]
