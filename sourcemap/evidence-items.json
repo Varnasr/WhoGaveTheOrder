@@ -37495,5 +37495,24 @@
     "notes": "No outcome of the Rein petition has been found. The claim in circulation that the Supreme Court questioned police SEMs in 2018 is supported only by the April 2018 headline, which cannot be read here; the 2017 notice is verified from LiveLaw. Neither is a ruling.",
     "volatility": "low",
     "added_on": "2026-10-19"
+  },
+  {
+    "id": "HIST-KAR26-001",
+    "jurisdiction": "karnataka",
+    "category": "incident",
+    "incident": "INC-0092",
+    "claim": "The News Minute reports that on Saturday 17 October 2026 about 50 members of the All India Students' Association (AISA) and social activists were detained near Town Hall in Bengaluru while protesting the Special Intensive Revision of electoral rolls and demanding the resignation of the Chief Election Commissioner. SJ Park police had refused the organisers' request, citing Karnataka High Court guidelines limiting protests and rallies to Freedom Park, and a police notice dated 17 October prohibited demonstrations, rallies, placard displays and mock protests elsewhere. The detainees were taken in two buses to the City Armed Reserve grounds on Mysuru Road, held for some time and released. No injury and no force beyond detention is reported. The report cites no statutory section.",
+    "confidence": "REPORTED",
+    "sources": [
+      {
+        "url": "https://www.thenewsminute.com/karnataka/bengaluru-50-detained-during-anti-sir-protest-at-town-hall",
+        "source_type": "secondary",
+        "publication": "The News Minute, 18 Oct 2026",
+        "retrieved_on": "2026-10-19"
+      }
+    ],
+    "notes": "Single source read in full. Deccan Herald also reports it but its page returned 403. A search summary also lists earlier detentions of AISA members at Freedom Park in Bengaluru (10 October) and a joint AISA, SFI, AIDSO and AISF march toward the Election Commission office (a report posted 14 October says 'Saturday'); those pages were not read and are not recorded here. The News Minute notes the Karnataka Chief Minister had sought a report on earlier police action and the Home Minister had said peaceful protests would not be disrupted; the organisers' charge of double standards is theirs.",
+    "volatility": "medium",
+    "added_on": "2026-10-19"
   }
 ]

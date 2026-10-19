@@ -1184,6 +1184,19 @@
   },
   {
     "v": 2,
+    "kind": "incident",
+    "name": "incident-bengaluru-town-hall-aisa-detentions-october-2026",
+    "file": "og/incident-bengaluru-town-hall-aisa-detentions-october-2026.png",
+    "title": "About 50 AISA members and activists detained at Town Hall in Bengaluru",
+    "line": "17 October 2026  |  Town Hall, Bengaluru",
+    "state": "REPORTED",
+    "stateLabel": "reported",
+    "order": "No order has been found",
+    "count": 1,
+    "hash": "f96ec3166531cd06"
+  },
+  {
+    "v": 2,
     "kind": "page",
     "name": "about",
     "file": "og/about.png",

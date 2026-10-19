@@ -2687,6 +2687,30 @@ WGO.incidents = [
     officeIds: [],
     orderTrail: { reached: null, rungs: {}, next: null },
     openedOn: '2026-10-19'
+  },
+  {
+    id: 'INC-0092',
+    isoDate: '2026-10-17',   /* first day; used only to order the lists */
+    slug: 'bengaluru-town-hall-aisa-detentions-october-2026',
+    kind: 'DETENTIONS',
+    title: "About 50 AISA members and activists detained at Town Hall in Bengaluru",
+    place: "Town Hall, Bengaluru",
+    state: "Karnataka",
+    coords: [12.9627, 77.5846],
+    coordsState: 'REPORTED',
+    incidentState: 'REPORTED',
+    dateState: 'REPORTED',
+    date: "17 October 2026",
+    summaryState: 'UNKNOWN',
+    summary: null,
+    forcesInvolved: {"state": "REPORTED", "items": [{"text": "Bengaluru city police, SJ Park station area (HIST-KAR26-001)", "state": "REPORTED"}]},
+    crowdControl  : {"state": "REPORTED", "items": [{"text": "Barricades and extra platoons; a police notice of 17 October citing the Karnataka High Court's Freedom Park guidelines; detainees bussed to the City Armed Reserve grounds (HIST-KAR26-001)", "state": "REPORTED"}]},
+    injuries      : {"state": "UNKNOWN", "note": "None reported (HIST-KAR26-001)."},
+    detentions    : {"state": "REPORTED", "note": "About 50, held for some time and released (HIST-KAR26-001)."},
+    firs          : {"state": "UNKNOWN", "note": "No FIR reported."},
+    officeIds: [],
+    orderTrail: { reached: null, rungs: {}, next: null },
+    openedOn: '2026-10-19'
   }
 ];
 

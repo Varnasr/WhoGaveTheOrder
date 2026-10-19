@@ -11984,6 +11984,17 @@ WGO.importedSources = [
     "originatesFrom": null
   },
   {
+    "id": "SRC-1123",
+    "name": "The News Minute, 18 Oct 2026",
+    "kind": "SECONDARY",
+    "url": "https://www.thenewsminute.com/karnataka/bengaluru-50-detained-during-anti-sir-protest-at-town-hall",
+    "retrievedOn": "2026-10-19",
+    "archiveUrl": null,
+    "archivedOn": null,
+    "sha256": null,
+    "originatesFrom": null
+  },
+  {
     "id": "SRC-0056",
     "name": "India Code",
     "kind": "PRIMARY",
@@ -37645,6 +37656,24 @@ WGO.importedEvidence = [
     "relatedIds": [],
     "accessNote": "",
     "volatility": "low"
+  },
+  {
+    "id": "HIST-KAR26-001",
+    "title": "The News Minute reports that on Saturday 17 October 2026 about 50 members of the All India Students' Association (AISA) and social activists were detained near ",
+    "type": "OTHER_DOCUMENT",
+    "verification": "REPORTED",
+    "incidentId": "INC-0092",
+    "dateOfItem": null,
+    "dateAdded": "2026-10-19",
+    "sourceIds": [
+      "SRC-1123"
+    ],
+    "origin": "",
+    "establishes": "Single source read in full. Deccan Herald also reports it but its page returned 403. A search summary also lists earlier detentions of AISA members at Freedom Park in Bengaluru (10 October) and a joint AISA, SFI, AIDSO and AISF march toward the Election Commission office (a report posted 14 October says 'Saturday'); those pages were not read and are not recorded here. The News Minute notes the Karnataka Chief Minister had sought a report on earlier police action and the Home Minister had said peaceful protests would not be disrupted; the organisers' charge of double standards is theirs.",
+    "doesNotEstablish": "",
+    "relatedIds": [],
+    "accessNote": "",
+    "volatility": "medium"
   }
 ];
 
@@ -42836,6 +42865,16 @@ WGO.importedIncidentFacts = {
     "evidenceIds": [
       "HIST-DEL26-020",
       "HIST-DEL26-021"
+    ],
+    "state": [
+      "REPORTED"
+    ]
+  },
+  "INC-0092": {
+    "dates": [],
+    "places": [],
+    "evidenceIds": [
+      "HIST-KAR26-001"
     ],
     "state": [
       "REPORTED"
