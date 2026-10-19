@@ -9,8 +9,8 @@
     "state": "UNDER_INVESTIGATION",
     "stateLabel": "under investigation",
     "order": "No order has been found",
-    "count": 28,
-    "hash": "156ae8f8743675b7"
+    "count": 29,
+    "hash": "9436c32a12cdbdc1"
   },
   {
     "v": 2,
@@ -1166,8 +1166,8 @@
     "state": "REPORTED",
     "stateLabel": "reported",
     "order": "No order has been found",
-    "count": 3,
-    "hash": "d3a6d932d985a0f4"
+    "count": 6,
+    "hash": "cfdf5a7a264466cb"
   },
   {
     "v": 2,
@@ -1179,8 +1179,8 @@
     "state": "REPORTED",
     "stateLabel": "reported",
     "order": "No order has been found",
-    "count": 1,
-    "hash": "472a2ac13aca0e83"
+    "count": 2,
+    "hash": "13b093f174e2ff0d"
   },
   {
     "v": 2,

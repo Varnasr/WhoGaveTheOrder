@@ -11874,6 +11874,116 @@ WGO.importedSources = [
     "originatesFrom": null
   },
   {
+    "id": "SRC-1111",
+    "name": "LiveLaw, 15 Oct 2026",
+    "kind": "SECONDARY",
+    "url": "https://www.livelaw.in/top-stories/supreme-court-says-it-will-examine-whether-delhi-police-applied-its-mind-while-denotifying-jantar-mantar-as-protest-site-issues-notice-554812",
+    "retrievedOn": "2026-10-19",
+    "archiveUrl": null,
+    "archivedOn": null,
+    "sha256": null,
+    "originatesFrom": null
+  },
+  {
+    "id": "SRC-1112",
+    "name": "Verdictum, 15 Oct 2026",
+    "kind": "SECONDARY",
+    "url": "https://www.verdictum.in/supreme-court/plea-challenging-delhi-police-order-de-notifying-jantar-mantar-as-protest-site-1624038",
+    "retrievedOn": "2026-10-19",
+    "archiveUrl": null,
+    "archivedOn": null,
+    "sha256": null,
+    "originatesFrom": null
+  },
+  {
+    "id": "SRC-1113",
+    "name": "The Morning Voice, 18 Oct 2026",
+    "kind": "SECONDARY",
+    "url": "https://tmv.in/article/dipke-gets-conditional-bail-neha-bora-released-as-delhi-police-plans-firs-over-tiranga-protest",
+    "retrievedOn": "2026-10-19",
+    "archiveUrl": null,
+    "archivedOn": null,
+    "sha256": null,
+    "originatesFrom": null
+  },
+  {
+    "id": "SRC-1114",
+    "name": "NewsDrum",
+    "kind": "SECONDARY",
+    "url": "https://www.newsdrum.in/national/cjp-founder-abhijeet-dipke-granted-conditional-bail-after-delhi-protest-detention-12684989",
+    "retrievedOn": "2026-10-19",
+    "archiveUrl": null,
+    "archivedOn": null,
+    "sha256": null,
+    "originatesFrom": null
+  },
+  {
+    "id": "SRC-1115",
+    "name": "The Hans India",
+    "kind": "SECONDARY",
+    "url": "https://www.thehansindia.com/news/cities/new-delhi/dipke-gets-conditional-bail-asked-to-sign-bond-1133353",
+    "retrievedOn": "2026-10-19",
+    "archiveUrl": null,
+    "archivedOn": null,
+    "sha256": null,
+    "originatesFrom": null
+  },
+  {
+    "id": "SRC-1116",
+    "name": "Punjab Kesari (English), 19 Oct 2026",
+    "kind": "SECONDARY",
+    "url": "https://english.punjabkesari.com/india/cjp-leaders-saurav-das-ashutosh-ranka-to-be-produced-before-new-sem-at-2-pm",
+    "retrievedOn": "2026-10-19",
+    "archiveUrl": null,
+    "archivedOn": null,
+    "sha256": null,
+    "originatesFrom": null
+  },
+  {
+    "id": "SRC-1117",
+    "name": "Neo Politico, 19 Oct 2026",
+    "kind": "SECONDARY",
+    "url": "https://neopolitico.com/india/magistrate-alleges-threats-over-release-of-cjp-leaders-in-custody-fir-registered-in-delhi",
+    "retrievedOn": "2026-10-19",
+    "archiveUrl": null,
+    "archivedOn": null,
+    "sha256": null,
+    "originatesFrom": null
+  },
+  {
+    "id": "SRC-1118",
+    "name": "Business Standard (PTI), 17 Oct 2018",
+    "kind": "SECONDARY",
+    "url": "https://www.business-standard.com/article/pti-stories/special-executive-magistrates-not-abusing-their-powers-delhi-police-to-hc-118101700957_1.html",
+    "retrievedOn": "2026-10-19",
+    "archiveUrl": null,
+    "archivedOn": null,
+    "sha256": null,
+    "originatesFrom": null
+  },
+  {
+    "id": "SRC-1119",
+    "name": "LiveLaw, 8 Nov 2017",
+    "kind": "SECONDARY",
+    "url": "https://www.livelaw.in/amp/misuse-powers-special-executive-magistrates-crpc-sc-issues-notices-chief-secretaries-states-uts",
+    "retrievedOn": "2026-10-19",
+    "archiveUrl": null,
+    "archivedOn": null,
+    "sha256": null,
+    "originatesFrom": null
+  },
+  {
+    "id": "SRC-1120",
+    "name": "Business Standard (PTI), Apr 2018 (headline only)",
+    "kind": "SECONDARY",
+    "url": "https://www.business-standard.com/article/pti-stories/how-police-officers-can-act-as-executive-magistrates-asks-sc-118040501165_1.html",
+    "retrievedOn": "2026-10-19",
+    "archiveUrl": null,
+    "archivedOn": null,
+    "sha256": null,
+    "originatesFrom": null
+  },
+  {
     "id": "SRC-0056",
     "name": "India Code",
     "kind": "PRIMARY",
@@ -12208,6 +12318,28 @@ WGO.importedSources = [
     "name": "Lexibal (commentary)",
     "kind": "SECONDARY",
     "url": "https://lexibal.com/bnss-section-15-special-executive-magistrates-police/",
+    "retrievedOn": "2026-10-19",
+    "archiveUrl": null,
+    "archivedOn": null,
+    "sha256": null,
+    "originatesFrom": null
+  },
+  {
+    "id": "SRC-1121",
+    "name": "devgan.in (CrPC s.21 text)",
+    "kind": "SECONDARY",
+    "url": "https://devgan.in/crpc/section/21/",
+    "retrievedOn": "2026-10-19",
+    "archiveUrl": null,
+    "archivedOn": null,
+    "sha256": null,
+    "originatesFrom": null
+  },
+  {
+    "id": "SRC-1122",
+    "name": "lawx.in (BNSS s.15 text)",
+    "kind": "SECONDARY",
+    "url": "https://lawx.in/acts/section/100/862/7497",
     "retrievedOn": "2026-10-19",
     "archiveUrl": null,
     "archivedOn": null,
@@ -37400,6 +37532,119 @@ WGO.importedEvidence = [
     "relatedIds": [],
     "accessNote": "",
     "volatility": "high"
+  },
+  {
+    "id": "PROC-SC-023",
+    "title": "On 15 October 2026 a Supreme Court bench of CJI Surya Kant and Justice Joymalya Bagchi issued notice on Swaty Singh v. Union of India, W.P.(C) No. 1357/2026, wh",
+    "type": "COURT_DOCUMENT",
+    "verification": "CORROBORATED",
+    "incidentId": "INC-0090",
+    "dateOfItem": null,
+    "dateAdded": "2026-10-19",
+    "sourceIds": [
+      "SRC-1111",
+      "SRC-1112"
+    ],
+    "origin": "",
+    "establishes": "The order itself was not read (a link to the PDF could not be opened). Closes part of OQ-064: the standing order is numbered L&O/48/2026, was issued by the Delhi Police Commissioner, and is reported to rest on a Home Ministry committee's recommendations; the Solicitor General says that committee has a report with recorded reasons. Its text and date of publication are still not held. LiveLaw's listing names the case number W.P.(C) 001357/2026.",
+    "doesNotEstablish": "",
+    "relatedIds": [],
+    "accessNote": "",
+    "volatility": "high"
+  },
+  {
+    "id": "HIST-DEL26-021",
+    "title": "On Saturday 17 October 2026, as reported on 18 October, Abhijeet Dipke was brought before a Special Executive Magistrate at Mandir Marg police station and relea",
+    "type": "OTHER_DOCUMENT",
+    "verification": "REPORTED",
+    "incidentId": "INC-0091",
+    "dateOfItem": null,
+    "dateAdded": "2026-10-19",
+    "sourceIds": [
+      "SRC-1113",
+      "SRC-1114",
+      "SRC-1115"
+    ],
+    "origin": "",
+    "establishes": "The 'more than 100' here differs from Outlook's 'about 150' (HIST-DEL26-020); both are police-attributed figures at different times. The Morning Voice article is dated 18 October though the release is said to be 'Saturday', which is 17 October; the archive uses 17 October. Bora's lawyer-access statement is her own allegation. No FIR text seen.",
+    "doesNotEstablish": "",
+    "relatedIds": [],
+    "accessNote": "",
+    "volatility": "medium"
+  },
+  {
+    "id": "HIST-DEL26-022",
+    "title": "On 19 October 2026 reports say Saurav Das and Ashutosh Ranka were due before the Special Executive Magistrate at 2 pm as their five-day judicial custody ended, ",
+    "type": "OTHER_DOCUMENT",
+    "verification": "REPORTED",
+    "incidentId": "INC-0090",
+    "dateOfItem": null,
+    "dateAdded": "2026-10-19",
+    "sourceIds": [
+      "SRC-1116"
+    ],
+    "origin": "",
+    "establishes": "Single source, written before the hearing. The page URL mentions a 'new SEM' but the text does not explain it; the archive does not report it.",
+    "doesNotEstablish": "",
+    "relatedIds": [],
+    "accessNote": "",
+    "volatility": "high"
+  },
+  {
+    "id": "HIST-DEL26-023",
+    "title": "Neo Politico (19 Oct 2026) says the Special Executive Magistrate hearing the Das and Ranka matter complained of threats from unidentified persons demanding the ",
+    "type": "OTHER_DOCUMENT",
+    "verification": "REPORTED",
+    "incidentId": "INC-0090",
+    "dateOfItem": null,
+    "dateAdded": "2026-10-19",
+    "sourceIds": [
+      "SRC-1117",
+      "SRC-1105"
+    ],
+    "origin": "",
+    "establishes": "The outlets disagree on whether the threat complaint produced an FIR or a non-cognisable report. The archive does not choose. Only the first 100,000 of about 283,000 characters of the Neo Politico page were read. The charges attributed to the Connaught Place case are not tied to a section in the source.",
+    "doesNotEstablish": "",
+    "relatedIds": [],
+    "accessNote": "",
+    "volatility": "high"
+  },
+  {
+    "id": "PROC-DEL-010",
+    "title": "In October 2018 the Delhi Police told the Delhi High Court (Chief Justice Rajendra Menon and Justice V K Rao), in a public interest petition by a Delhi resident",
+    "type": "COURT_DOCUMENT",
+    "verification": "REPORTED",
+    "incidentId": "INC-0001",
+    "dateOfItem": null,
+    "dateAdded": "2026-10-19",
+    "sourceIds": [
+      "SRC-1118"
+    ],
+    "origin": "",
+    "establishes": "Search summary only; the article was not opened, so wording is not checked. It establishes that in 2018 Delhi's ACPs were acting as Special Executive Magistrates under the CrPC and that this was challenged in the Delhi High Court. CrPC s.21 as reproduced by two sites has no police-officer clause (LAW-BNSS-007).",
+    "doesNotEstablish": "",
+    "relatedIds": [],
+    "accessNote": "",
+    "volatility": "low"
+  },
+  {
+    "id": "PROC-SC-024",
+    "title": "On 6 November 2017 a Supreme Court bench of Chief Justice Dipak Misra and Justices A M Khanwilkar and D Y Chandrachud issued notice to the Chief Secretaries of ",
+    "type": "COURT_DOCUMENT",
+    "verification": "REPORTED",
+    "incidentId": null,
+    "dateOfItem": null,
+    "dateAdded": "2026-10-19",
+    "sourceIds": [
+      "SRC-1119",
+      "SRC-1120"
+    ],
+    "origin": "",
+    "establishes": "No outcome of the Rein petition has been found. The claim in circulation that the Supreme Court questioned police SEMs in 2018 is supported only by the April 2018 headline, which cannot be read here; the 2017 notice is verified from LiveLaw. Neither is a ruling.",
+    "doesNotEstablish": "",
+    "relatedIds": [],
+    "accessNote": "",
+    "volatility": "low"
   }
 ];
 
@@ -38036,15 +38281,17 @@ WGO.importedFramework = [
   },
   {
     "id": "LAW-BNSS-007",
-    "text": "BNSS s.15 (corresponding to CrPC s.21) lets the State Government appoint, for such term as it thinks fit, Executive Magistrates or any police officer not below the rank of Superintendent of Police or equivalent as Special Executive Magistrates, for particular areas or particular functions, with such Executive Magistrate powers as it deems fit.",
+    "text": "CrPC s.21 empowered the State Government to appoint Executive Magistrates as Special Executive Magistrates for particular areas or functions; the reproductions read (devgan.in, lawx.in) show no clause about police officers. BNSS s.15 repeats this and adds that the State Government may appoint, for such term as it thinks fit, Executive Magistrates or any police officer not below the rank of Superintendent of Police or equivalent as Special Executive Magistrates, with such Executive Magistrate powers as it deems fit.",
     "confidence": "REPORTED",
     "sourceIds": [
       "SRC-1109",
-      "SRC-1110"
+      "SRC-1110",
+      "SRC-1121",
+      "SRC-1122"
     ],
     "category": "statute",
     "jurisdiction": "all",
-    "note": "Not verified against India Code, which refused automated access. Commentators disagree on whether the Superintendent-of-Police wording is new to BNSS or already in CrPC s.21; read the official texts before relying on either. The sections used in the Delhi orders (ss.126, 130, 136, 170) come from LiveLaw's report (PROC-DEL-009), not from the statute, and their content must be checked. Lexibal cites Devi v. Executive Magistrate-cum-DCP (Madras HC, 2020), Gulam Abbas v. State of U.P. (SC, 1981) and Hari Singh v. State of Haryana (1993) on police SEMs; none was checked and none is relied on."
+    "note": "Four secondary reproductions; India Code refused automated access, so not VERIFIED. Earlier commentary (Lexibal) says the police-rank wording is new to BNSS, which agrees with the CrPC text read. The sections used in the Delhi orders (ss.126, 130, 136, 170) come from news reports (PROC-DEL-009, HIST-DEL26-021), not from the statute. Case law cited by commentators (Devi v. Executive Magistrate-cum-DCP, Madras HC 2020; Gulam Abbas, SC 1981; Hari Singh, 1993) was not checked and is not relied on."
   }
 ];
 
@@ -39132,7 +39379,7 @@ WGO.importedQuestions = [
     "incidentId": "INC-0001",
     "text": "The Delhi Police Commissioner's standing order of 11 October 2026 de-notifying Jantar Mantar as a protest site: its text, its date of issue and publication, the legal power it cites, the three replacement venues, and the revised SOP for protests said to follow. And the Ministry of Home Affairs committee on alternative venues that the order is reported to rest on: the order constituting it, its members, its terms of reference, its date and its recommendation.",
     "priority": "HIGH",
-    "whyItMatters": "A written order from a named office removed the capital's designated protest site, and the police justify it by a Supreme Court order of 9 October that, as reported, only asks authorities to consider a site with basic amenities. Whether the standing order cites the Court's words accurately, under which statute it was made, whether it was published, and when it took effect (11 October, 12 October or 13 October, all of which appear in reporting) cannot be answered from news accounts. The SOP for the three new venues will govern the next protest. ThePrint quotes the standing order as resting on a Home Ministry committee's recommendations, while counsel told the High Court the step followed the Supreme Court's order of 9 October. A committee that recommended removing the capital's main protest site is a body with a constitution order and a report, both of which should exist on paper.",
+    "whyItMatters": "A written order from a named office removed the capital's designated protest site, and the police justify it by a Supreme Court order of 9 October that, as reported, only asks authorities to consider a site with basic amenities. Whether the standing order cites the Court's words accurately, under which statute it was made, whether it was published, and when it took effect (11 October, 12 October or 13 October, all of which appear in reporting) cannot be answered from news accounts. The SOP for the three new venues will govern the next protest. ThePrint quotes the standing order as resting on a Home Ministry committee's recommendations, while counsel told the High Court the step followed the Supreme Court's order of 9 October. A committee that recommended removing the capital's main protest site is a body with a constitution order and a report, both of which should exist on paper. 19 October 2026: the order is numbered L&O/48/2026 and is under challenge in Swaty Singh v. Union of India, W.P.(C) 1357/2026, where the Supreme Court issued notice on 15 October (PROC-SC-023); the Solicitor General told the Court a committee had reported with recorded reasons. The text, publication and committee order are still not held.",
     "lawfulRoute": "The order and any SOP should be requested from Delhi Police by RTI through the rtionline.gov.in portal (see the Delhi Police entry in the authority list), and checked against Delhi Police's own website. The Delhi High Court file in the Indian Youth Congress matter (PROC-DEL-005, FQ-023) may carry it as an annexure, and the police are likely to place it before the Supreme Court if the application there is heard. The Home Ministry's committee order and report can be requested from the Ministry of Home Affairs through rtionline.gov.in.",
     "state": "UNANSWERED",
     "wants": [
@@ -39148,13 +39395,13 @@ WGO.importedQuestions = [
   {
     "id": "OQ-065",
     "incidentId": "INC-0001",
-    "text": "How is a Delhi Police officer made a Special Executive Magistrate, and which notification designates the officers (reported as ACP rank) who heard the CJP leaders' preventive cases on 11, 14 and 18 October 2026? Specifically: the State Government notification under BNSS s.15, its date and signatory, its term, the powers conferred, the areas or functions covered, and how an ACP is treated as 'Superintendent of Police or equivalent' if that is the basis.",
+    "text": "Which State Government notification under BNSS s.15 designates the Delhi Police officers (reported as ACP rank) who heard the CJP leaders' preventive cases on 11, 14, 17 and 18 October 2026 as Special Executive Magistrates, and on what basis is an ACP treated as 'Superintendent of Police or equivalent'? Its date, signatory, term and powers conferred.",
     "priority": "HIGH",
-    "whyItMatters": "These magistrates released three leaders on a one-year bond (11 Oct), remanded two to judicial custody on a police complaint (14 Oct) and sat on their release (18 Oct). On the face of the statute as quoted by secondary sources, a police officer must be 'not below the rank of Superintendent of Police or equivalent'. Reporting calls the Delhi officer an ACP. Whether that is lawful depends on a notification and on a definition of equivalence that no source read states. The archive does not conclude either way. A social-media post in circulation says the Supreme Court questioned such appointments in 2018 and the Delhi High Court asked how they are made. The archive found only a snippet pointing to a 2018 Delhi High Court PIL and a police affidavit; neither the filing nor an order was read, so it is not recorded as fact.",
-    "lawfulRoute": "RTI to the Delhi Government's Home Department and to Delhi Police (rtionline.gov.in) for the s.15 notification(s) and any CrPC s.21 predecessors; the Delhi Gazette; and the Delhi High Court's records for the 2018 PIL, once its case number is found.",
+    "whyItMatters": "Read from secondary reproductions, CrPC s.21 had no police-officer clause and BNSS s.15 adds one limited to officers 'not below the rank of Superintendent of Police or equivalent' (LAW-BNSS-007). Reporting calls the Delhi magistrate an ACP (HIST-DEL26-019). In 2018 Delhi ACPs were acting as SEMs under the CrPC and the Delhi Police defended that in the High Court (PROC-DEL-010), and in 2017 the Supreme Court issued notice to all States on misuse of SEM powers (PROC-SC-024). Neither has a ruling in hand. Whether an ACP is 'equivalent' to an SP turns on a notification or a rank-equivalence order that no source read states. The archive does not conclude either way. The claim in circulation that the Supreme Court questioned police SEMs in 2018 is supported only by an unread April 2018 headline.",
+    "lawfulRoute": "RTI to the Delhi Government's Home Department and Delhi Police (rtionline.gov.in) for the s.15 notification and any rank-equivalence order; the Delhi Gazette; the Delhi High Court's 2018 PIL file and the Supreme Court's file in Aldanish Rein v. Union of India for orders.",
     "state": "UNANSWERED",
     "wants": [
-      "RTI to the Delhi Government's Home Department and to Delhi Police (rtionline.gov.in) for the s.15 notification(s) and any CrPC s.21 predecessors; the Delhi Gazette; and the Delhi High Court's records for the 2018 PIL, once its case number is found."
+      "RTI to the Delhi Government's Home Department and Delhi Police (rtionline.gov.in) for the s.15 notification and any rank-equivalence order; the Delhi Gazette; the Delhi High Court's 2018 PIL file and the Supreme Court's file in Aldanish Rein v. Union of India for orders."
     ],
     "evidenceIds": [],
     "blocks": [
@@ -39166,9 +39413,9 @@ WGO.importedQuestions = [
   {
     "id": "OQ-066",
     "incidentId": "INC-0001",
-    "text": "What happened to Saurav Das and Ashutosh Ranka after the 18 October 2026 hearing: was a release order made, on what bond or surety, and what are the next dates in the s.130 BNSS enquiry; and what did the Special Executive Magistrate's complaint about threats lead to?",
+    "text": "What happened at the Special Executive Magistrate hearing of 19 October 2026 (2 pm): were Saurav Das and Ashutosh Ranka released, on what bond or surety, and what is the next date in the BNSS s.130 enquiry? And did the magistrate's complaint of threats produce an FIR or only a non-cognisable report?",
     "priority": "MEDIUM",
-    "whyItMatters": "The five-day judicial custody ended on 18 October. Reports on that date describe a hearing that passed no order and say no release hearing was expected on 19 October. No report dated 19 October or later was found. Reasons for the rejection of four sureties are described only by the CJP.",
+    "whyItMatters": "Reports on 18 October describe a hearing that passed no order and four sureties rejected, which is the CJP's account. A pre-hearing report of 19 October says the two were due before the magistrate at 2 pm. No report of the outcome has been found. The Daily Jagran says a non-cognisable report was registered over the threats and Neo Politico says an FIR was, so the record on that point conflicts (HIST-DEL26-023).",
     "lawfulRoute": "The magistrate's orders of 14 and 18 October; Tihar Jail release records; any petition in the Delhi High Court (the CJP is reported to have consulted counsel).",
     "state": "UNANSWERED",
     "wants": [
@@ -42569,11 +42816,15 @@ WGO.importedIncidentFacts = {
       "13 October 2026"
     ],
     "places": [
+      "2 pm as their five-day judicial custody ended, and that their counsel Ratna Singh hoped they would be released. Delhi Police are reported to have said the custody order was based on alleged repeated violations of law and a fear that the two would violate it again and instigate others. In the 10 October matter Ajinkya Shinde is reported to have been released",
+      "an FIR was registered in New Delhi district under provisions",
       "the delay is deliberate. Activist Ratna Singh told The Tribune she had been at the police station from 11 am and the ACP/SEM had not arrived by 4.42 pm. Police gave The Tribune no response. The Daily Jagran says a release hearing"
     ],
     "evidenceIds": [
       "HIST-DEL26-018",
-      "HIST-DEL26-019"
+      "HIST-DEL26-019",
+      "HIST-DEL26-022",
+      "HIST-DEL26-023"
     ],
     "state": [
       "REPORTED"
@@ -42583,7 +42834,8 @@ WGO.importedIncidentFacts = {
     "dates": [],
     "places": [],
     "evidenceIds": [
-      "HIST-DEL26-020"
+      "HIST-DEL26-020",
+      "HIST-DEL26-021"
     ],
     "state": [
       "REPORTED"
