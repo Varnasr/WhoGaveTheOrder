@@ -11990,6 +11990,39 @@
     "archiveUrl": null
   },
   {
+    "id": "SRC-1124",
+    "kind": "Source",
+    "title": "LiveLaw, 19 Oct 2026",
+    "state": null,
+    "url": "https://www.livelaw.in/top-stories/executive-magistrate-extends-cjp-leaders-saurav-das-ashutosh-rankas-judicial-custody-by-two-days-555330",
+    "publisher": null,
+    "retrievedOn": "2026-10-19",
+    "sha256": null,
+    "archiveUrl": null
+  },
+  {
+    "id": "SRC-1125",
+    "kind": "Source",
+    "title": "The Tribune, 19 Oct 2026",
+    "state": null,
+    "url": "https://www.tribuneindia.com/news/delhi/cjp-leaders-das-rankas-judicial-custody-extended-by-2-days-party-alleges-delay-in-bail-proceedings",
+    "publisher": null,
+    "retrievedOn": "2026-10-19",
+    "sha256": null,
+    "archiveUrl": null
+  },
+  {
+    "id": "SRC-1126",
+    "kind": "Source",
+    "title": "Scroll.in, 19 Oct 2026",
+    "state": null,
+    "url": "https://scroll.in/latest/1096461/cjp-leaders-ashutosh-ranka-saurav-das-judicial-custody-extended-by-two-days",
+    "publisher": null,
+    "retrievedOn": "2026-10-19",
+    "sha256": null,
+    "archiveUrl": null
+  },
+  {
     "id": "SRC-0056",
     "kind": "Source",
     "title": "India Code",
