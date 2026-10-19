@@ -39434,8 +39434,9 @@ WGO.importedQuestions = [
     ],
     "evidenceIds": [],
     "blocks": [
-      "INC-0090",
-      "INC-0081"
+      "PROC-DEL-009",
+      "HIST-DEL26-019",
+      "LAW-BNSS-007"
     ],
     "category": "document_custody"
   },
@@ -39452,7 +39453,9 @@ WGO.importedQuestions = [
     ],
     "evidenceIds": [],
     "blocks": [
-      "INC-0090"
+      "PROC-DEL-009",
+      "HIST-DEL26-019",
+      "HIST-DEL26-022"
     ],
     "category": "legal_proceeding"
   }
