@@ -3,10 +3,19 @@
   <title>WhoGaveTheOrder.in: changes to the record</title>
   <subtitle>Every record that has been added, moved between states, or edited.</subtitle>
   <id>tag:whogavetheorder.in,2026:feed</id>
-  <updated>2026-10-19T09:16:25Z</updated>
+  <updated>2026-10-19T09:22:31Z</updated>
   <link href="https://www.whogavetheorder.in/"/>
   <link rel="self" href="https://www.whogavetheorder.in/feed.xml"/>
   <rights>Reuse with attribution</rights>
+  <entry>
+    <title>3 records added</title>
+    <id>tag:whogavetheorder.in,2026:change/b15fe8269f</id>
+    <updated>2026-10-19T09:22:31Z</updated>
+    <link href="https://www.whogavetheorder.in/changes.html#b15fe8269f"/>
+    <content type="html">
+      &lt;p&gt;Record the 17 October AISA detentions at Town Hall, Bengaluru&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Added Incident INC-0092: About 50 AISA members and activists detained at Town Hall in Bengaluru&lt;/li&gt;&lt;li&gt;Added Evidence HIST-KAR26-001: The News Minute reports that on Saturday 17 October 2026 about 50 members of the All India Students&apos; Association (AISA) and social activists were detained near &lt;/li&gt;&lt;li&gt;Added Source SRC-1123: The News Minute, 18 Oct 2026&lt;/li&gt;&lt;/ul&gt;
+    </content>
+  </entry>
   <entry>
     <title>1 record edited</title>
     <id>tag:whogavetheorder.in,2026:change/766618422c</id>
@@ -446,15 +455,6 @@
     <link href="https://www.whogavetheorder.in/changes.html#78ce8412a3"/>
     <content type="html">
       &lt;p&gt;Retrieve the Delhi High Court order, which says the opposite of the reporting&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Added Evidence PROC-DEL-004: Delhi High Court order of 22 July 2026 in W.P.(CRL) 2127/2026 with CRL.M.A. 21282/2026 and CRL.M.A. 21283/2026, Shakeel Abbas v. Union of India &amp;amp; Ors., before C&lt;/li&gt;&lt;li&gt;Added Source SRC-0084: High Court of Delhi&lt;/li&gt;&lt;li&gt;Added Question OQ-053: In which proceeding, if any, did the Delhi High Court direct preservation of CCTV footage and videography in relation to the 20 and 21 July 2026 police action, and what does that order say?&lt;/li&gt;&lt;li&gt;Evidence PROC-DEL-001 moved from CORROBORATED to DISPUTED: Delhi High Court issued notice to Delhi Police and the Union on PILs concerning the 20 and 21 July 2026 police action, directed preservation of records includin&lt;/li&gt;&lt;li&gt;Question OQ-004 moved from UNANSWERED to ANSWERED: The text of the Delhi High Court order of 22 July 2026 in W.P.(CRL) 2127/2026, and which petitions were heard with it.&lt;/li&gt;&lt;/ul&gt;
-    </content>
-  </entry>
-  <entry>
-    <title>3 records added</title>
-    <id>tag:whogavetheorder.in,2026:change/2f18ccb4eb</id>
-    <updated>2026-09-18T06:14:43Z</updated>
-    <link href="https://www.whogavetheorder.in/changes.html#2f18ccb4eb"/>
-    <content type="html">
-      &lt;p&gt;Verify the RTI Act against primary text, and stop SRC ids moving&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Added Source SRC-0081: India Code&lt;/li&gt;&lt;li&gt;Added Source SRC-0082: India Code&lt;/li&gt;&lt;li&gt;Added Source SRC-0083: India Code&lt;/li&gt;&lt;/ul&gt;
     </content>
   </entry>
 </feed>

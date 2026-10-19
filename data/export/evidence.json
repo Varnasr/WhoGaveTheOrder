@@ -21287,5 +21287,20 @@
       "SRC-1119",
       "SRC-1120"
     ]
+  },
+  {
+    "id": "HIST-KAR26-001",
+    "kind": "Evidence",
+    "title": "The News Minute reports that on Saturday 17 October 2026 about 50 members of the All India Students' Association (AISA) and social activists were detained near ",
+    "state": "REPORTED",
+    "url": "https://www.whogavetheorder.in/evidence.html?id=HIST-KAR26-001",
+    "type": "OTHER_DOCUMENT",
+    "incidentId": "INC-0092",
+    "dateOfItem": null,
+    "establishes": "Single source read in full. Deccan Herald also reports it but its page returned 403. A search summary also lists earlier detentions of AISA members at Freedom Park in Bengaluru (10 October) and a joint AISA, SFI, AIDSO and AISF march toward the Election Commission office (a report posted 14 October says 'Saturday'); those pages were not read and are not recorded here. The News Minute notes the Karnataka Chief Minister had sought a report on earlier police action and the Home Minister had said peaceful protests would not be disrupted; the organisers' charge of double standards is theirs.",
+    "doesNotEstablish": null,
+    "sourceIds": [
+      "SRC-1123"
+    ]
   }
 ]

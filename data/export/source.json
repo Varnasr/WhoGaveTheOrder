@@ -11979,6 +11979,17 @@
     "archiveUrl": null
   },
   {
+    "id": "SRC-1123",
+    "kind": "Source",
+    "title": "The News Minute, 18 Oct 2026",
+    "state": null,
+    "url": "https://www.thenewsminute.com/karnataka/bengaluru-50-detained-during-anti-sir-protest-at-town-hall",
+    "publisher": null,
+    "retrievedOn": "2026-10-19",
+    "sha256": null,
+    "archiveUrl": null
+  },
+  {
     "id": "SRC-0056",
     "kind": "Source",
     "title": "India Code",

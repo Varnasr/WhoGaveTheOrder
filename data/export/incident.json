@@ -999,5 +999,16 @@
     "date": "16 October 2026",
     "dateState": "REPORTED",
     "summary": null
+  },
+  {
+    "id": "INC-0092",
+    "kind": "Incident",
+    "title": "About 50 AISA members and activists detained at Town Hall in Bengaluru",
+    "state": "REPORTED",
+    "url": "https://www.whogavetheorder.in/incident/bengaluru-town-hall-aisa-detentions-october-2026.html",
+    "place": "Town Hall, Bengaluru",
+    "date": "17 October 2026",
+    "dateState": "REPORTED",
+    "summary": null
   }
 ]

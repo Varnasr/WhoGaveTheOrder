@@ -5,6 +5,37 @@ window.WGO = window.WGO || {};
 
 WGO.changes = [
   {
+    "commit": "b15fe8269f",
+    "date": "2026-10-19T09:22:31Z",
+    "subject": "Record the 17 October AISA detentions at Town Hall, Bengaluru",
+    "added": [
+      {
+        "id": "INC-0092",
+        "kind": "Incident",
+        "title": "About 50 AISA members and activists detained at Town Hall in Bengaluru",
+        "state": "REPORTED",
+        "url": "incident/bengaluru-town-hall-aisa-detentions-october-2026.html"
+      },
+      {
+        "id": "HIST-KAR26-001",
+        "kind": "Evidence",
+        "title": "The News Minute reports that on Saturday 17 October 2026 about 50 members of the All India Students' Association (AISA) and social activists were detained near ",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-KAR26-001"
+      },
+      {
+        "id": "SRC-1123",
+        "kind": "Source",
+        "title": "The News Minute, 18 Oct 2026",
+        "state": null,
+        "url": "https://www.thenewsminute.com/karnataka/bengaluru-50-detained-during-anti-sir-protest-at-town-hall"
+      }
+    ],
+    "removed": [],
+    "changed": [],
+    "summary": "3 records added"
+  },
+  {
     "commit": "766618422c",
     "date": "2026-10-19T09:16:25Z",
     "subject": "Record the 19 October searches for the hearing outcome, returnable date, standing order text and SEM notification",
