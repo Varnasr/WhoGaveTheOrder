@@ -622,5 +622,25 @@
     "incidentId": "INC-0001",
     "level": null,
     "evidenceIds": []
+  },
+  {
+    "id": "OQ-065",
+    "kind": "Question",
+    "title": "Which State Government notification under BNSS s.15 designates the Delhi Police officers (reported as ACP rank) who heard the CJP leaders' preventive cases on 11, 14, 17 and 18 October 2026 as Special Executive Magistrates, and on what basis is an ACP treated as 'Superintendent of Police or equivalent'? Its date, signatory, term and powers conferred.",
+    "state": "UNANSWERED",
+    "url": "https://www.whogavetheorder.in/incident/jantar-mantar.html#OQ-065",
+    "incidentId": "INC-0001",
+    "level": null,
+    "evidenceIds": []
+  },
+  {
+    "id": "OQ-066",
+    "kind": "Question",
+    "title": "What happened at the Special Executive Magistrate hearing of 19 October 2026 (2 pm): were Saurav Das and Ashutosh Ranka released, on what bond or surety, and what is the next date in the BNSS s.130 enquiry? And did the magistrate's complaint of threats produce an FIR or only a non-cognisable report?",
+    "state": "UNANSWERED",
+    "url": "https://www.whogavetheorder.in/incident/jantar-mantar.html#OQ-066",
+    "incidentId": "INC-0001",
+    "level": null,
+    "evidenceIds": []
   }
 ]

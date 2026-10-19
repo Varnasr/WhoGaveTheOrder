@@ -977,5 +977,38 @@
     "date": "25 July 2026",
     "dateState": "CORROBORATED",
     "summary": null
+  },
+  {
+    "id": "INC-0090",
+    "kind": "Incident",
+    "title": "Two CJP leaders held after entering Jantar Mantar and sent to judicial custody by a Special Executive Magistrate",
+    "state": "REPORTED",
+    "url": "https://www.whogavetheorder.in/incident/jantar-mantar-entry-preventive-arrests-october-2026.html",
+    "place": "Jantar Mantar, New Delhi",
+    "date": "13 to 18 October 2026",
+    "dateState": "REPORTED",
+    "summary": null
+  },
+  {
+    "id": "INC-0091",
+    "kind": "Incident",
+    "title": "About 150 detained as a CJP flag march at Connaught Place and a protest at Mandi House are stopped",
+    "state": "REPORTED",
+    "url": "https://www.whogavetheorder.in/incident/connaught-place-flag-march-detentions-october-2026.html",
+    "place": "Central Park, Connaught Place and Mandi House, New Delhi",
+    "date": "16 October 2026",
+    "dateState": "REPORTED",
+    "summary": null
+  },
+  {
+    "id": "INC-0092",
+    "kind": "Incident",
+    "title": "About 50 AISA members and activists detained at Town Hall in Bengaluru",
+    "state": "REPORTED",
+    "url": "https://www.whogavetheorder.in/incident/bengaluru-town-hall-aisa-detentions-october-2026.html",
+    "place": "Town Hall, Bengaluru",
+    "date": "17 October 2026",
+    "dateState": "REPORTED",
+    "summary": null
   }
 ]

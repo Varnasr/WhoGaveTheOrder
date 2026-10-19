@@ -9,8 +9,8 @@
     "state": "UNDER_INVESTIGATION",
     "stateLabel": "under investigation",
     "order": "No order has been found",
-    "count": 28,
-    "hash": "156ae8f8743675b7"
+    "count": 29,
+    "hash": "9436c32a12cdbdc1"
   },
   {
     "v": 2,
@@ -1049,8 +1049,8 @@
     "state": "CORROBORATED",
     "stateLabel": "corroborated",
     "order": "No order has been found",
-    "count": 15,
-    "hash": "574ebe64f570fbd3"
+    "count": 17,
+    "hash": "63ed31354af057c8"
   },
   {
     "v": 2,
@@ -1155,6 +1155,45 @@
     "order": "No order has been found",
     "count": 1,
     "hash": "fbcaa3cb6e9928b6"
+  },
+  {
+    "v": 2,
+    "kind": "incident",
+    "name": "incident-jantar-mantar-entry-preventive-arrests-october-2026",
+    "file": "og/incident-jantar-mantar-entry-preventive-arrests-october-2026.png",
+    "title": "Two CJP leaders held after entering Jantar Mantar and sent to judicial custody by a Special Executive Magistrate",
+    "line": "13 to 18 October 2026  |  Jantar Mantar, New Delhi",
+    "state": "REPORTED",
+    "stateLabel": "reported",
+    "order": "No order has been found",
+    "count": 6,
+    "hash": "cfdf5a7a264466cb"
+  },
+  {
+    "v": 2,
+    "kind": "incident",
+    "name": "incident-connaught-place-flag-march-detentions-october-2026",
+    "file": "og/incident-connaught-place-flag-march-detentions-october-2026.png",
+    "title": "About 150 detained as a CJP flag march at Connaught Place and a protest at Mandi House are stopped",
+    "line": "16 October 2026  |  Central Park, Connaught Place and Mandi House, New Delhi",
+    "state": "REPORTED",
+    "stateLabel": "reported",
+    "order": "No order has been found",
+    "count": 2,
+    "hash": "13b093f174e2ff0d"
+  },
+  {
+    "v": 2,
+    "kind": "incident",
+    "name": "incident-bengaluru-town-hall-aisa-detentions-october-2026",
+    "file": "og/incident-bengaluru-town-hall-aisa-detentions-october-2026.png",
+    "title": "About 50 AISA members and activists detained at Town Hall in Bengaluru",
+    "line": "17 October 2026  |  Town Hall, Bengaluru",
+    "state": "REPORTED",
+    "stateLabel": "reported",
+    "order": "No order has been found",
+    "count": 1,
+    "hash": "f96ec3166531cd06"
   },
   {
     "v": 2,
