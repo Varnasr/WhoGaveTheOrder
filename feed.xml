@@ -3,10 +3,19 @@
   <title>WhoGaveTheOrder.in: changes to the record</title>
   <subtitle>Every record that has been added, moved between states, or edited.</subtitle>
   <id>tag:whogavetheorder.in,2026:feed</id>
-  <updated>2026-10-19T08:21:16Z</updated>
+  <updated>2026-10-19T08:27:56Z</updated>
   <link href="https://www.whogavetheorder.in/"/>
   <link rel="self" href="https://www.whogavetheorder.in/feed.xml"/>
   <rights>Reuse with attribution</rights>
+  <entry>
+    <title>18 records added · 2 records edited</title>
+    <id>tag:whogavetheorder.in,2026:change/d1e013c4e4</id>
+    <updated>2026-10-19T08:27:56Z</updated>
+    <link href="https://www.whogavetheorder.in/changes.html#d1e013c4e4"/>
+    <content type="html">
+      &lt;p&gt;Close gaps: Swaty Singh petition, 2017 and 2018 SEM challenges, CrPC s.21 against BNSS s.15, Dipke and Bora release&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Added Evidence PROC-SC-023: On 15 October 2026 a Supreme Court bench of CJI Surya Kant and Justice Joymalya Bagchi issued notice on Swaty Singh v. Union of India, W.P.(C) No. 1357/2026, wh&lt;/li&gt;&lt;li&gt;Added Evidence HIST-DEL26-021: On Saturday 17 October 2026, as reported on 18 October, Abhijeet Dipke was brought before a Special Executive Magistrate at Mandir Marg police station and relea&lt;/li&gt;&lt;li&gt;Added Evidence HIST-DEL26-022: On 19 October 2026 reports say Saurav Das and Ashutosh Ranka were due before the Special Executive Magistrate at 2 pm as their five-day judicial custody ended, &lt;/li&gt;&lt;li&gt;Added Evidence HIST-DEL26-023: Neo Politico (19 Oct 2026) says the Special Executive Magistrate hearing the Das and Ranka matter complained of threats from unidentified persons demanding the &lt;/li&gt;&lt;li&gt;Added Evidence PROC-DEL-010: In October 2018 the Delhi Police told the Delhi High Court (Chief Justice Rajendra Menon and Justice V K Rao), in a public interest petition by a Delhi resident&lt;/li&gt;&lt;li&gt;Added Evidence PROC-SC-024: On 6 November 2017 a Supreme Court bench of Chief Justice Dipak Misra and Justices A M Khanwilkar and D Y Chandrachud issued notice to the Chief Secretaries of &lt;/li&gt;&lt;li&gt;Added Source SRC-1111: LiveLaw, 15 Oct 2026&lt;/li&gt;&lt;li&gt;Added Source SRC-1112: Verdictum, 15 Oct 2026&lt;/li&gt;&lt;li&gt;Added Source SRC-1113: The Morning Voice, 18 Oct 2026&lt;/li&gt;&lt;li&gt;Added Source SRC-1114: NewsDrum&lt;/li&gt;&lt;li&gt;Added Source SRC-1115: The Hans India&lt;/li&gt;&lt;li&gt;Added Source SRC-1116: Punjab Kesari (English), 19 Oct 2026&lt;/li&gt;&lt;li&gt;Added Source SRC-1117: Neo Politico, 19 Oct 2026&lt;/li&gt;&lt;li&gt;Added Source SRC-1118: Business Standard (PTI), 17 Oct 2018&lt;/li&gt;&lt;li&gt;Added Source SRC-1119: LiveLaw, 8 Nov 2017&lt;/li&gt;&lt;li&gt;Added Source SRC-1120: Business Standard (PTI), Apr 2018 (headline only)&lt;/li&gt;&lt;li&gt;Added Source SRC-1121: devgan.in (CrPC s.21 text)&lt;/li&gt;&lt;li&gt;Added Source SRC-1122: lawx.in (BNSS s.15 text)&lt;/li&gt;&lt;li&gt;Edited Question OQ-065: Which State Government notification under BNSS s.15 designates the Delhi Police officers (reported as ACP rank) who heard the CJP leaders&apos; preventive cases on 11, 14, 17 and 18 October 2026 as Special Executive Magistrates, and on what basis is an ACP treated as &apos;Superintendent of Police or equivalent&apos;? Its date, signatory, term and powers conferred.&lt;/li&gt;&lt;li&gt;Edited Question OQ-066: What happened at the Special Executive Magistrate hearing of 19 October 2026 (2 pm): were Saurav Das and Ashutosh Ranka released, on what bond or surety, and what is the next date in the BNSS s.130 enquiry? And did the magistrate&apos;s complaint of threats produce an FIR or only a non-cognisable report?&lt;/li&gt;&lt;/ul&gt;
+    </content>
+  </entry>
   <entry>
     <title>20 records added</title>
     <id>tag:whogavetheorder.in,2026:change/3264afdf0d</id>
@@ -446,15 +455,6 @@
     <link href="https://www.whogavetheorder.in/changes.html#420f67e688"/>
     <content type="html">
       &lt;p&gt;Sweep log and archived copies for 2026-09-16 [skip ci]&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Edited Source SRC-0080: The Federal&lt;/li&gt;&lt;/ul&gt;
-    </content>
-  </entry>
-  <entry>
-    <title>3 records edited</title>
-    <id>tag:whogavetheorder.in,2026:change/16cbf895fd</id>
-    <updated>2026-09-14T08:01:30Z</updated>
-    <link href="https://www.whogavetheorder.in/changes.html#16cbf895fd"/>
-    <content type="html">
-      &lt;p&gt;Sweep log and archived copies for 2026-09-14 [skip ci]&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Edited Source SRC-0032: ANI&lt;/li&gt;&lt;li&gt;Edited Source SRC-0052: Counterview&lt;/li&gt;&lt;li&gt;Edited Source SRC-0055: LawBeat&lt;/li&gt;&lt;/ul&gt;
     </content>
   </entry>
 </feed>

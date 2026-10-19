@@ -21192,5 +21192,100 @@
       "SRC-1107",
       "SRC-1108"
     ]
+  },
+  {
+    "id": "PROC-SC-023",
+    "kind": "Evidence",
+    "title": "On 15 October 2026 a Supreme Court bench of CJI Surya Kant and Justice Joymalya Bagchi issued notice on Swaty Singh v. Union of India, W.P.(C) No. 1357/2026, wh",
+    "state": "CORROBORATED",
+    "url": "https://www.whogavetheorder.in/evidence.html?id=PROC-SC-023",
+    "type": "COURT_DOCUMENT",
+    "incidentId": "INC-0090",
+    "dateOfItem": null,
+    "establishes": "The order itself was not read (a link to the PDF could not be opened). Closes part of OQ-064: the standing order is numbered L&O/48/2026, was issued by the Delhi Police Commissioner, and is reported to rest on a Home Ministry committee's recommendations; the Solicitor General says that committee has a report with recorded reasons. Its text and date of publication are still not held. LiveLaw's listing names the case number W.P.(C) 001357/2026.",
+    "doesNotEstablish": null,
+    "sourceIds": [
+      "SRC-1111",
+      "SRC-1112"
+    ]
+  },
+  {
+    "id": "HIST-DEL26-021",
+    "kind": "Evidence",
+    "title": "On Saturday 17 October 2026, as reported on 18 October, Abhijeet Dipke was brought before a Special Executive Magistrate at Mandir Marg police station and relea",
+    "state": "REPORTED",
+    "url": "https://www.whogavetheorder.in/evidence.html?id=HIST-DEL26-021",
+    "type": "OTHER_DOCUMENT",
+    "incidentId": "INC-0091",
+    "dateOfItem": null,
+    "establishes": "The 'more than 100' here differs from Outlook's 'about 150' (HIST-DEL26-020); both are police-attributed figures at different times. The Morning Voice article is dated 18 October though the release is said to be 'Saturday', which is 17 October; the archive uses 17 October. Bora's lawyer-access statement is her own allegation. No FIR text seen.",
+    "doesNotEstablish": null,
+    "sourceIds": [
+      "SRC-1113",
+      "SRC-1114",
+      "SRC-1115"
+    ]
+  },
+  {
+    "id": "HIST-DEL26-022",
+    "kind": "Evidence",
+    "title": "On 19 October 2026 reports say Saurav Das and Ashutosh Ranka were due before the Special Executive Magistrate at 2 pm as their five-day judicial custody ended, ",
+    "state": "REPORTED",
+    "url": "https://www.whogavetheorder.in/evidence.html?id=HIST-DEL26-022",
+    "type": "OTHER_DOCUMENT",
+    "incidentId": "INC-0090",
+    "dateOfItem": null,
+    "establishes": "Single source, written before the hearing. The page URL mentions a 'new SEM' but the text does not explain it; the archive does not report it.",
+    "doesNotEstablish": null,
+    "sourceIds": [
+      "SRC-1116"
+    ]
+  },
+  {
+    "id": "HIST-DEL26-023",
+    "kind": "Evidence",
+    "title": "Neo Politico (19 Oct 2026) says the Special Executive Magistrate hearing the Das and Ranka matter complained of threats from unidentified persons demanding the ",
+    "state": "REPORTED",
+    "url": "https://www.whogavetheorder.in/evidence.html?id=HIST-DEL26-023",
+    "type": "OTHER_DOCUMENT",
+    "incidentId": "INC-0090",
+    "dateOfItem": null,
+    "establishes": "The outlets disagree on whether the threat complaint produced an FIR or a non-cognisable report. The archive does not choose. Only the first 100,000 of about 283,000 characters of the Neo Politico page were read. The charges attributed to the Connaught Place case are not tied to a section in the source.",
+    "doesNotEstablish": null,
+    "sourceIds": [
+      "SRC-1117",
+      "SRC-1105"
+    ]
+  },
+  {
+    "id": "PROC-DEL-010",
+    "kind": "Evidence",
+    "title": "In October 2018 the Delhi Police told the Delhi High Court (Chief Justice Rajendra Menon and Justice V K Rao), in a public interest petition by a Delhi resident",
+    "state": "REPORTED",
+    "url": "https://www.whogavetheorder.in/evidence.html?id=PROC-DEL-010",
+    "type": "COURT_DOCUMENT",
+    "incidentId": "INC-0001",
+    "dateOfItem": null,
+    "establishes": "Search summary only; the article was not opened, so wording is not checked. It establishes that in 2018 Delhi's ACPs were acting as Special Executive Magistrates under the CrPC and that this was challenged in the Delhi High Court. CrPC s.21 as reproduced by two sites has no police-officer clause (LAW-BNSS-007).",
+    "doesNotEstablish": null,
+    "sourceIds": [
+      "SRC-1118"
+    ]
+  },
+  {
+    "id": "PROC-SC-024",
+    "kind": "Evidence",
+    "title": "On 6 November 2017 a Supreme Court bench of Chief Justice Dipak Misra and Justices A M Khanwilkar and D Y Chandrachud issued notice to the Chief Secretaries of ",
+    "state": "REPORTED",
+    "url": "https://www.whogavetheorder.in/evidence.html?id=PROC-SC-024",
+    "type": "COURT_DOCUMENT",
+    "incidentId": null,
+    "dateOfItem": null,
+    "establishes": "No outcome of the Rein petition has been found. The claim in circulation that the Supreme Court questioned police SEMs in 2018 is supported only by the April 2018 headline, which cannot be read here; the 2017 notice is verified from LiveLaw. Neither is a ruling.",
+    "doesNotEstablish": null,
+    "sourceIds": [
+      "SRC-1119",
+      "SRC-1120"
+    ]
   }
 ]

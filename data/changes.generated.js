@@ -5,6 +5,171 @@ window.WGO = window.WGO || {};
 
 WGO.changes = [
   {
+    "commit": "d1e013c4e4",
+    "date": "2026-10-19T08:27:56Z",
+    "subject": "Close gaps: Swaty Singh petition, 2017 and 2018 SEM challenges, CrPC s.21 against BNSS s.15, Dipke and Bora release",
+    "added": [
+      {
+        "id": "PROC-SC-023",
+        "kind": "Evidence",
+        "title": "On 15 October 2026 a Supreme Court bench of CJI Surya Kant and Justice Joymalya Bagchi issued notice on Swaty Singh v. Union of India, W.P.(C) No. 1357/2026, wh",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=PROC-SC-023"
+      },
+      {
+        "id": "HIST-DEL26-021",
+        "kind": "Evidence",
+        "title": "On Saturday 17 October 2026, as reported on 18 October, Abhijeet Dipke was brought before a Special Executive Magistrate at Mandir Marg police station and relea",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-DEL26-021"
+      },
+      {
+        "id": "HIST-DEL26-022",
+        "kind": "Evidence",
+        "title": "On 19 October 2026 reports say Saurav Das and Ashutosh Ranka were due before the Special Executive Magistrate at 2 pm as their five-day judicial custody ended, ",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-DEL26-022"
+      },
+      {
+        "id": "HIST-DEL26-023",
+        "kind": "Evidence",
+        "title": "Neo Politico (19 Oct 2026) says the Special Executive Magistrate hearing the Das and Ranka matter complained of threats from unidentified persons demanding the ",
+        "state": "REPORTED",
+        "url": "evidence.html?id=HIST-DEL26-023"
+      },
+      {
+        "id": "PROC-DEL-010",
+        "kind": "Evidence",
+        "title": "In October 2018 the Delhi Police told the Delhi High Court (Chief Justice Rajendra Menon and Justice V K Rao), in a public interest petition by a Delhi resident",
+        "state": "REPORTED",
+        "url": "evidence.html?id=PROC-DEL-010"
+      },
+      {
+        "id": "PROC-SC-024",
+        "kind": "Evidence",
+        "title": "On 6 November 2017 a Supreme Court bench of Chief Justice Dipak Misra and Justices A M Khanwilkar and D Y Chandrachud issued notice to the Chief Secretaries of ",
+        "state": "REPORTED",
+        "url": "evidence.html?id=PROC-SC-024"
+      },
+      {
+        "id": "SRC-1111",
+        "kind": "Source",
+        "title": "LiveLaw, 15 Oct 2026",
+        "state": null,
+        "url": "https://www.livelaw.in/top-stories/supreme-court-says-it-will-examine-whether-delhi-police-applied-its-mind-while-denotifying-jantar-mantar-as-protest-site-issues-notice-554812"
+      },
+      {
+        "id": "SRC-1112",
+        "kind": "Source",
+        "title": "Verdictum, 15 Oct 2026",
+        "state": null,
+        "url": "https://www.verdictum.in/supreme-court/plea-challenging-delhi-police-order-de-notifying-jantar-mantar-as-protest-site-1624038"
+      },
+      {
+        "id": "SRC-1113",
+        "kind": "Source",
+        "title": "The Morning Voice, 18 Oct 2026",
+        "state": null,
+        "url": "https://tmv.in/article/dipke-gets-conditional-bail-neha-bora-released-as-delhi-police-plans-firs-over-tiranga-protest"
+      },
+      {
+        "id": "SRC-1114",
+        "kind": "Source",
+        "title": "NewsDrum",
+        "state": null,
+        "url": "https://www.newsdrum.in/national/cjp-founder-abhijeet-dipke-granted-conditional-bail-after-delhi-protest-detention-12684989"
+      },
+      {
+        "id": "SRC-1115",
+        "kind": "Source",
+        "title": "The Hans India",
+        "state": null,
+        "url": "https://www.thehansindia.com/news/cities/new-delhi/dipke-gets-conditional-bail-asked-to-sign-bond-1133353"
+      },
+      {
+        "id": "SRC-1116",
+        "kind": "Source",
+        "title": "Punjab Kesari (English), 19 Oct 2026",
+        "state": null,
+        "url": "https://english.punjabkesari.com/india/cjp-leaders-saurav-das-ashutosh-ranka-to-be-produced-before-new-sem-at-2-pm"
+      },
+      {
+        "id": "SRC-1117",
+        "kind": "Source",
+        "title": "Neo Politico, 19 Oct 2026",
+        "state": null,
+        "url": "https://neopolitico.com/india/magistrate-alleges-threats-over-release-of-cjp-leaders-in-custody-fir-registered-in-delhi"
+      },
+      {
+        "id": "SRC-1118",
+        "kind": "Source",
+        "title": "Business Standard (PTI), 17 Oct 2018",
+        "state": null,
+        "url": "https://www.business-standard.com/article/pti-stories/special-executive-magistrates-not-abusing-their-powers-delhi-police-to-hc-118101700957_1.html"
+      },
+      {
+        "id": "SRC-1119",
+        "kind": "Source",
+        "title": "LiveLaw, 8 Nov 2017",
+        "state": null,
+        "url": "https://www.livelaw.in/amp/misuse-powers-special-executive-magistrates-crpc-sc-issues-notices-chief-secretaries-states-uts"
+      },
+      {
+        "id": "SRC-1120",
+        "kind": "Source",
+        "title": "Business Standard (PTI), Apr 2018 (headline only)",
+        "state": null,
+        "url": "https://www.business-standard.com/article/pti-stories/how-police-officers-can-act-as-executive-magistrates-asks-sc-118040501165_1.html"
+      },
+      {
+        "id": "SRC-1121",
+        "kind": "Source",
+        "title": "devgan.in (CrPC s.21 text)",
+        "state": null,
+        "url": "https://devgan.in/crpc/section/21/"
+      },
+      {
+        "id": "SRC-1122",
+        "kind": "Source",
+        "title": "lawx.in (BNSS s.15 text)",
+        "state": null,
+        "url": "https://lawx.in/acts/section/100/862/7497"
+      }
+    ],
+    "removed": [],
+    "changed": [
+      {
+        "id": "OQ-065",
+        "kind": "Question",
+        "title": "Which State Government notification under BNSS s.15 designates the Delhi Police officers (reported as ACP rank) who heard the CJP leaders' preventive cases on 11, 14, 17 and 18 October 2026 as Special Executive Magistrates, and on what basis is an ACP treated as 'Superintendent of Police or equivalent'? Its date, signatory, term and powers conferred.",
+        "state": "UNANSWERED",
+        "url": "incident/jantar-mantar.html#OQ-065",
+        "fields": [
+          {
+            "field": "title",
+            "from": "How is a Delhi Police officer made a Special Executive Magistrate, and which notification designates the officers (reported as ACP rank) who heard the CJP leaders' preventive cases on 11, 14 and 18 October 2026? Specifically: the State Government notification under BNSS s.15, its date and signatory, its term, the powers conferred, the areas or functions covered, and how an ACP is treated as 'Superintendent of Police or equivalent' if that is the basis.",
+            "to": "Which State Government notification under BNSS s.15 designates the Delhi Police officers (reported as ACP rank) who heard the CJP leaders' preventive cases on 11, 14, 17 and 18 October 2026 as Special Executive Magistrates, and on what basis is an ACP treated as 'Superintendent of Police or equivalent'? Its date, signatory, term and powers conferred."
+          }
+        ]
+      },
+      {
+        "id": "OQ-066",
+        "kind": "Question",
+        "title": "What happened at the Special Executive Magistrate hearing of 19 October 2026 (2 pm): were Saurav Das and Ashutosh Ranka released, on what bond or surety, and what is the next date in the BNSS s.130 enquiry? And did the magistrate's complaint of threats produce an FIR or only a non-cognisable report?",
+        "state": "UNANSWERED",
+        "url": "incident/jantar-mantar.html#OQ-066",
+        "fields": [
+          {
+            "field": "title",
+            "from": "What happened to Saurav Das and Ashutosh Ranka after the 18 October 2026 hearing: was a release order made, on what bond or surety, and what are the next dates in the s.130 BNSS enquiry; and what did the Special Executive Magistrate's complaint about threats lead to?",
+            "to": "What happened at the Special Executive Magistrate hearing of 19 October 2026 (2 pm): were Saurav Das and Ashutosh Ranka released, on what bond or surety, and what is the next date in the BNSS s.130 enquiry? And did the magistrate's complaint of threats produce an FIR or only a non-cognisable report?"
+          }
+        ]
+      }
+    ],
+    "summary": "18 records added · 2 records edited"
+  },
+  {
     "commit": "3264afdf0d",
     "date": "2026-10-19T08:21:16Z",
     "subject": "Record 13 to 18 Oct 2026 Delhi events: SEM proceedings, Connaught Place detentions, SC affidavits",
