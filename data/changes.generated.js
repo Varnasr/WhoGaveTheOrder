@@ -5,6 +5,30 @@ window.WGO = window.WGO || {};
 
 WGO.changes = [
   {
+    "commit": "766618422c",
+    "date": "2026-10-19T09:16:25Z",
+    "subject": "Record the 19 October searches for the hearing outcome, returnable date, standing order text and SEM notification",
+    "added": [],
+    "removed": [],
+    "changed": [
+      {
+        "id": "PROC-SC-023",
+        "kind": "Evidence",
+        "title": "On 15 October 2026 a Supreme Court bench of CJI Surya Kant and Justice Joymalya Bagchi issued notice on Swaty Singh v. Union of India, W.P.(C) No. 1357/2026, wh",
+        "state": "CORROBORATED",
+        "url": "evidence.html?id=PROC-SC-023",
+        "fields": [
+          {
+            "field": "establishes",
+            "from": "The order itself was not read (a link to the PDF could not be opened). Closes part of OQ-064: the standing order is numbered L&O/48/2026, was issued by the Delhi Police Commissioner, and is reported to rest on a Home Ministry committee's…",
+            "to": "The order itself was not read (a link to the PDF could not be opened). Closes part of OQ-064: the standing order is numbered L&O/48/2026, was issued by the Delhi Police Commissioner, and is reported to rest on a Home Ministry committee's…"
+          }
+        ]
+      }
+    ],
+    "summary": "1 record edited"
+  },
+  {
     "commit": "d1e013c4e4",
     "date": "2026-10-19T08:27:56Z",
     "subject": "Close gaps: Swaty Singh petition, 2017 and 2018 SEM challenges, CrPC s.21 against BNSS s.15, Dipke and Bora release",

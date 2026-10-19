@@ -3,10 +3,19 @@
   <title>WhoGaveTheOrder.in: changes to the record</title>
   <subtitle>Every record that has been added, moved between states, or edited.</subtitle>
   <id>tag:whogavetheorder.in,2026:feed</id>
-  <updated>2026-10-19T08:27:56Z</updated>
+  <updated>2026-10-19T09:16:25Z</updated>
   <link href="https://www.whogavetheorder.in/"/>
   <link rel="self" href="https://www.whogavetheorder.in/feed.xml"/>
   <rights>Reuse with attribution</rights>
+  <entry>
+    <title>1 record edited</title>
+    <id>tag:whogavetheorder.in,2026:change/766618422c</id>
+    <updated>2026-10-19T09:16:25Z</updated>
+    <link href="https://www.whogavetheorder.in/changes.html#766618422c"/>
+    <content type="html">
+      &lt;p&gt;Record the 19 October searches for the hearing outcome, returnable date, standing order text and SEM notification&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Edited Evidence PROC-SC-023: On 15 October 2026 a Supreme Court bench of CJI Surya Kant and Justice Joymalya Bagchi issued notice on Swaty Singh v. Union of India, W.P.(C) No. 1357/2026, wh&lt;/li&gt;&lt;/ul&gt;
+    </content>
+  </entry>
   <entry>
     <title>18 records added · 2 records edited</title>
     <id>tag:whogavetheorder.in,2026:change/d1e013c4e4</id>
@@ -446,15 +455,6 @@
     <link href="https://www.whogavetheorder.in/changes.html#2f18ccb4eb"/>
     <content type="html">
       &lt;p&gt;Verify the RTI Act against primary text, and stop SRC ids moving&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Added Source SRC-0081: India Code&lt;/li&gt;&lt;li&gt;Added Source SRC-0082: India Code&lt;/li&gt;&lt;li&gt;Added Source SRC-0083: India Code&lt;/li&gt;&lt;/ul&gt;
-    </content>
-  </entry>
-  <entry>
-    <title>1 record edited</title>
-    <id>tag:whogavetheorder.in,2026:change/420f67e688</id>
-    <updated>2026-09-16T07:50:53Z</updated>
-    <link href="https://www.whogavetheorder.in/changes.html#420f67e688"/>
-    <content type="html">
-      &lt;p&gt;Sweep log and archived copies for 2026-09-16 [skip ci]&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Edited Source SRC-0080: The Federal&lt;/li&gt;&lt;/ul&gt;
     </content>
   </entry>
 </feed>
