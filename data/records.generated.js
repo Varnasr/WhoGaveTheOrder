@@ -1363,8 +1363,8 @@ WGO.importedSources = [
     "kind": "PRIMARY",
     "url": "https://indiankanoon.org/doc/196436808/",
     "retrievedOn": "2026-10-10",
-    "archiveUrl": null,
-    "archivedOn": null,
+    "archiveUrl": "http://web.archive.org/web/20261019075947/https://indiankanoon.org/doc/196436808/",
+    "archivedOn": "2026-10-20",
     "sha256": null,
     "originatesFrom": "Lok Sabha debates; the Lok Sabha's own copy was not fetched"
   },
@@ -1396,8 +1396,8 @@ WGO.importedSources = [
     "kind": "PRIMARY",
     "url": "https://indiankanoon.org/doc/82485087/",
     "retrievedOn": "2026-10-10",
-    "archiveUrl": null,
-    "archivedOn": null,
+    "archiveUrl": "http://web.archive.org/web/20261016072924/https://indiankanoon.org/doc/82485087/",
+    "archivedOn": "2026-10-20",
     "sha256": null,
     "originatesFrom": "Supreme Court of India; the court's own copy was not fetched"
   },
@@ -1528,8 +1528,8 @@ WGO.importedSources = [
     "kind": "PRIMARY",
     "url": "https://nhrc.nic.in/media/press-release/nhrc-issues-notices-to-union-hrd-secretary-chief-secretary-telangana-police-commissioner-hyderabad-over-reports-emergency-like-situation-in-hyderabad-university-25-3-2016",
     "retrievedOn": "2026-10-10",
-    "archiveUrl": null,
-    "archivedOn": null,
+    "archiveUrl": "http://web.archive.org/web/20261019080330/https://nhrc.nic.in/media/press-release/nhrc-issues-notices-to-union-hrd-secretary-chief-secretary-telangana-police-commissioner-hyderabad-over-reports-emergency-like-situation-in-hyderabad-university-25-3-2016",
+    "archivedOn": "2026-10-20",
     "sha256": null,
     "originatesFrom": null
   },
@@ -1561,8 +1561,8 @@ WGO.importedSources = [
     "kind": "PRIMARY",
     "url": "https://countercurrents.org/thcu260316.htm",
     "retrievedOn": "2026-10-10",
-    "archiveUrl": null,
-    "archivedOn": null,
+    "archiveUrl": "http://web.archive.org/web/20260504162056/https://countercurrents.org/thcu260316.htm",
+    "archivedOn": "2026-10-20",
     "sha256": null,
     "originatesFrom": null
   },
