@@ -1572,8 +1572,8 @@ WGO.importedSources = [
     "kind": "PRIMARY",
     "url": "https://sabrangindia.in/suspend-appa-rao-vc-step-investigations-violations-against-atrocities-act/",
     "retrievedOn": "2026-10-10",
-    "archiveUrl": null,
-    "archivedOn": null,
+    "archiveUrl": "http://web.archive.org/web/20260713130840/https://sabrangindia.in/suspend-appa-rao-vc-step-investigations-violations-against-atrocities-act/",
+    "archivedOn": "2026-10-21",
     "sha256": null,
     "originatesFrom": null
   },
@@ -1583,8 +1583,8 @@ WGO.importedSources = [
     "kind": "SECONDARY",
     "url": "https://kafila.online/2016/03/23/students-testify-to-police-brutality-on-the-hcu-campus-in-hyderabad-guest-post-from-hcu-students/",
     "retrievedOn": "2026-10-10",
-    "archiveUrl": null,
-    "archivedOn": null,
+    "archiveUrl": "http://web.archive.org/web/20251231094647/https://kafila.online/2016/03/23/students-testify-to-police-brutality-on-the-hcu-campus-in-hyderabad-guest-post-from-hcu-students/",
+    "archivedOn": "2026-10-21",
     "sha256": null,
     "originatesFrom": null
   },
