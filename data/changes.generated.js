@@ -5,6 +5,72 @@ window.WGO = window.WGO || {};
 
 WGO.changes = [
   {
+    "commit": "d6150952d9",
+    "date": "2026-10-20T07:52:35Z",
+    "subject": "Sweep log and archived copies for 2026-10-20 [skip ci]",
+    "added": [],
+    "removed": [],
+    "changed": [
+      {
+        "id": "SRC-0151",
+        "kind": "Source",
+        "title": "Indian Kanoon, reproducing Lok Sabha Debates, 24 February 2016",
+        "state": null,
+        "url": "https://indiankanoon.org/doc/196436808/",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20261019075947/https://indiankanoon.org/doc/196436808/"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0154",
+        "kind": "Source",
+        "title": "Indian Kanoon, reproducing Supreme Court order of 14 November 2017",
+        "state": null,
+        "url": "https://indiankanoon.org/doc/82485087/",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20261016072924/https://indiankanoon.org/doc/82485087/"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0166",
+        "kind": "Source",
+        "title": "National Human Rights Commission (press release, 25 March 2016)",
+        "state": null,
+        "url": "https://nhrc.nic.in/media/press-release/nhrc-issues-notices-to-union-hrd-secretary-chief-secretary-telangana-police-commissioner-hyderabad-over-reports-emergency-like-situation-in-hyderabad-university-25-3-2016",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20261019080330/https://nhrc.nic.in/media/press-release/nhrc-issues-notices-to-union-hrd-secretary-chief-secretary-telangana-police-commissioner-hyderabad-over-reports-emergency-like-situation-in-hyderabad-unive…"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0169",
+        "kind": "Source",
+        "title": "Countercurrents.org (statement of SC and ST Faculty Forum and Concerned Teachers, 26 March 2016)",
+        "state": null,
+        "url": "https://countercurrents.org/thcu260316.htm",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20260504162056/https://countercurrents.org/thcu260316.htm"
+          }
+        ]
+      }
+    ],
+    "summary": "4 records edited"
+  },
+  {
     "commit": "096570cd19",
     "date": "2026-10-19T14:21:50Z",
     "subject": "Record the 19 October two-day extension of custody, and queue the order copies",
