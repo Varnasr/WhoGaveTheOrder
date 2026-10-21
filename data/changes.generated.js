@@ -5,6 +5,44 @@ window.WGO = window.WGO || {};
 
 WGO.changes = [
   {
+    "commit": "2e8297450c",
+    "date": "2026-10-21T07:56:41Z",
+    "subject": "Sweep log and archived copies for 2026-10-21 [skip ci]",
+    "added": [],
+    "removed": [],
+    "changed": [
+      {
+        "id": "SRC-0170",
+        "kind": "Source",
+        "title": "Sabrang India (interim fact-finding report, 26 March 2016)",
+        "state": null,
+        "url": "https://sabrangindia.in/suspend-appa-rao-vc-step-investigations-violations-against-atrocities-act/",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20260713130840/https://sabrangindia.in/suspend-appa-rao-vc-step-investigations-violations-against-atrocities-act/"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0171",
+        "kind": "Source",
+        "title": "Kafila (guest post by HCU students, 23 March 2016)",
+        "state": null,
+        "url": "https://kafila.online/2016/03/23/students-testify-to-police-brutality-on-the-hcu-campus-in-hyderabad-guest-post-from-hcu-students/",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20251231094647/https://kafila.online/2016/03/23/students-testify-to-police-brutality-on-the-hcu-campus-in-hyderabad-guest-post-from-hcu-students/"
+          }
+        ]
+      }
+    ],
+    "summary": "2 records edited"
+  },
+  {
     "commit": "d6150952d9",
     "date": "2026-10-20T07:52:35Z",
     "subject": "Sweep log and archived copies for 2026-10-20 [skip ci]",
