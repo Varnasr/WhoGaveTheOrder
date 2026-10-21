@@ -3,10 +3,19 @@
   <title>WhoGaveTheOrder.in: changes to the record</title>
   <subtitle>Every record that has been added, moved between states, or edited.</subtitle>
   <id>tag:whogavetheorder.in,2026:feed</id>
-  <updated>2026-10-19T14:21:50Z</updated>
+  <updated>2026-10-20T07:52:35Z</updated>
   <link href="https://www.whogavetheorder.in/"/>
   <link rel="self" href="https://www.whogavetheorder.in/feed.xml"/>
   <rights>Reuse with attribution</rights>
+  <entry>
+    <title>4 records edited</title>
+    <id>tag:whogavetheorder.in,2026:change/d6150952d9</id>
+    <updated>2026-10-20T07:52:35Z</updated>
+    <link href="https://www.whogavetheorder.in/changes.html#d6150952d9"/>
+    <content type="html">
+      &lt;p&gt;Sweep log and archived copies for 2026-10-20 [skip ci]&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Edited Source SRC-0151: Indian Kanoon, reproducing Lok Sabha Debates, 24 February 2016&lt;/li&gt;&lt;li&gt;Edited Source SRC-0154: Indian Kanoon, reproducing Supreme Court order of 14 November 2017&lt;/li&gt;&lt;li&gt;Edited Source SRC-0166: National Human Rights Commission (press release, 25 March 2016)&lt;/li&gt;&lt;li&gt;Edited Source SRC-0169: Countercurrents.org (statement of SC and ST Faculty Forum and Concerned Teachers, 26 March 2016)&lt;/li&gt;&lt;/ul&gt;
+    </content>
+  </entry>
   <entry>
     <title>4 records added · 1 record edited</title>
     <id>tag:whogavetheorder.in,2026:change/096570cd19</id>
@@ -446,15 +455,6 @@
     <link href="https://www.whogavetheorder.in/changes.html#68cb0fc2c3"/>
     <content type="html">
       &lt;p&gt;Sweep log and archived copies for 2026-09-21 [skip ci]&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Edited Source SRC-0082: India Code&lt;/li&gt;&lt;/ul&gt;
-    </content>
-  </entry>
-  <entry>
-    <title>3 records edited</title>
-    <id>tag:whogavetheorder.in,2026:change/30b4bfa9f5</id>
-    <updated>2026-09-20T07:51:51Z</updated>
-    <link href="https://www.whogavetheorder.in/changes.html#30b4bfa9f5"/>
-    <content type="html">
-      &lt;p&gt;Sweep log and archived copies for 2026-09-20 [skip ci]&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Edited Source SRC-0084: High Court of Delhi&lt;/li&gt;&lt;li&gt;Edited Source SRC-0081: India Code&lt;/li&gt;&lt;li&gt;Edited Source SRC-0083: India Code&lt;/li&gt;&lt;/ul&gt;
     </content>
   </entry>
 </feed>
