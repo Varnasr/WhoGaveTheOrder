@@ -1418,8 +1418,8 @@ WGO.importedSources = [
     "kind": "PRIMARY",
     "url": "https://indiankanoon.org/doc/120612237/",
     "retrievedOn": "2026-10-10",
-    "archiveUrl": null,
-    "archivedOn": null,
+    "archiveUrl": "http://web.archive.org/web/20261021075347/https://indiankanoon.org/doc/120612237/",
+    "archivedOn": "2026-10-22",
     "sha256": null,
     "originatesFrom": "Supreme Court of India daily orders; the court's own copy was not fetched"
   },
@@ -1616,8 +1616,8 @@ WGO.importedSources = [
     "kind": "SECONDARY",
     "url": "https://www.thequint.com/news/india/bhu-lathicharge-protest",
     "retrievedOn": "2026-10-10",
-    "archiveUrl": null,
-    "archivedOn": null,
+    "archiveUrl": "http://web.archive.org/web/20211202041509/https://www.thequint.com/news/india/bhu-lathicharge-protest",
+    "archivedOn": "2026-10-22",
     "sha256": null,
     "originatesFrom": null
   },
