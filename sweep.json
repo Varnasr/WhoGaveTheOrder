@@ -1,0 +1,453 @@
+{
+  "run": {
+    "date": "2026-10-23",
+    "targets": 9,
+    "findings": 31,
+    "outcomes": {
+      "nothing-published": 1,
+      "changed-no-match": 1,
+      "matched": 1,
+      "unreachable": 1,
+      "ok": 5
+    }
+  },
+  "findings": [
+    {
+      "kind": "UNREACHABLE",
+      "target": "eparlib",
+      "label": "Parliamentary library",
+      "url": "https://eparlib.sansad.in/",
+      "detail": "fetch failed",
+      "note": "Recorded rather than retried silently. If this persists the route needs replacing."
+    },
+    {
+      "kind": "NEW_ITEM",
+      "target": "news-delhi",
+      "label": "News: Jantar Mantar and the police action",
+      "title": "CJP Leaders Saurav Das, Ashutosh Ranka Skip Delhi Police Crime Branch Questioning In Jantar Mantar Case,... - LawBeat",
+      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQUEoyd3VvVEFiS0ZuY1JFUlZtaVJ0R0lrUkNQSHZJWmNCOXN4V1ZlQ1djLUlpdkVvNkVRdVRVNzQxNjNwWTRvWmkySFZVWjRYWk1ISmJocmNJdGtSSzFoaE1qUm1PQ3dadXVXNllCTDU1STN4RzBUcjJDT2ktRVNNT1hpakpLTG1SN2xwUXEtYnJZa3Z3OW43UDRLWmxpd2NvNUxOWUw1bEtOTEVLLTI4bk0xS0VWdXhLQUpIS1FVdXRNNVhCYmZtSUhqaEJTLTViQk52eUJiaEM2YVdGWW5aMFA5VnBkLTNkRlNaR1Zn0gHzAUFVX3lxTE41OG4tVEhIVFVuVmUyTlFqRDNNVy1RcnVNMU5PSUkyVkJQTGMyVkN5VnRjR1RTTWs3TTRzZnFSTG1OcVk2YUxpWENkbTFUTUlaZ0dtMjg0aWRNVW5aWDRLUGtkMzdNQV8yWEdCVVpJRHZOVWFaTGdxTk01N2lKTDFWTEVVOENtMEpSczhUeGhZSjZEMnh4ZC13WXVMZkVFdzYtaUs1YnRuQ2dfd3VXSW5SM1hpbThBV0FoYlRMOFBGT1Q4eHppVU5sd0hsSHNTSWhVWWVzVkoxZElneTRyLTNyS2lXdHJ5UEotclppYlhVSU1kSQ?oc=5",
+      "date": "Thu, 22 Oct 2026 10:34:42 GMT",
+      "terms": [
+        "Jantar Mantar"
+      ],
+      "note": "Leads, not evidence. Something reported here is a pointer to a document worth going after."
+    },
+    {
+      "kind": "NEW_ITEM",
+      "target": "news-delhi",
+      "label": "News: Jantar Mantar and the police action",
+      "title": "CJP protest: India 'cockroach' leaders who called on election chief to quit are freed from jail - BBC",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE93Z0ZBZzRfaW9NRVpWc2IweTIydjBfMzdEbndtWVVoRW1nZnhDczgzNzBQc2YzWWk4Y3A4UXVfOVFSc3ZXM1luR0JfeDBnTmJWN1dKaHRBdHNIQXc?oc=5",
+      "date": "Wed, 21 Oct 2026 18:22:28 GMT",
+      "terms": [
+        "CJP protest"
+      ],
+      "note": "Leads, not evidence. Something reported here is a pointer to a document worth going after."
+    },
+    {
+      "kind": "NEW_ITEM",
+      "target": "news-delhi",
+      "label": "News: Jantar Mantar and the police action",
+      "title": "Delhi Traffic Police issues advisory for left-wing protest march from Bangla Sahib to Jantar Mantar - The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxPQndsSHpQOVJZd1JpZnNoUlU0U3pnWi1qcWg3d3JmR2hGSzlFaUNuZTAwb1AwVllEMngxVXdtbmpCd19KUVRsdlZHREVYZVJOSXhqejRIUXFyeHZJR1I4RnJyeXJScUVEZW1nbjgtS1BHeGkxUjg1UmxDY1VyaUl5LTFhRDk1QjB1dWc0M2NKTXQ2MEZFWDZFXzg2VThEb0lTMXdoT1p0WDlHdEZiWThuS2loUGRBMTlQWlg0Q1dlcGV6NlhQQUg1akFMWHZOYm0wTDFXZktidWlHVnAzalI4djh3SWt4b3pyekZrTi15S19PbHVjQmM5blFJbFVmZkpBdVHSAYcCQVVfeXFMTXFhcEtsUE1EQXJYVTlnQkFRb3UxMFItejlib1VpakhDangtNFRWRVJKNWFtVGlUcndnVUlUdU1FeW4yTFMtb3FCbzB2RmU2Nkt3Qzl4eU1VS0IzN1ppLXhMbEk1NFJGLU5MVE50R3l6Tk1KOVVoa2lfTE9HSzRfN3M1RU5QdFN2S3NNbUpORS1tazBySFh4ajJFYmhTR0Fud3NyMGpGWU13LUQzSllNMGJwMG9fSTJCU0JJNkZBUGNRNzROcERJQ2lpS3VsSWk1c1IyNUh5a0NVcTc3SVcyVExxOHJMYnVvRWpSVF9YRWdKMDJIZTRuYUkxRURydjFhS2Jycm9iOFU?oc=5",
+      "date": "Fri, 23 Oct 2026 07:21:00 GMT",
+      "terms": [
+        "Jantar Mantar"
+      ],
+      "note": "Leads, not evidence. Something reported here is a pointer to a document worth going after."
+    },
+    {
+      "kind": "NEW_ITEM",
+      "target": "news-delhi",
+      "label": "News: Jantar Mantar and the police action",
+      "title": "CJP Leaders Seek More Time To Join Jantar Mantar Protest Probe - Kashmir Observer",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOd0hRbXZRa0lxSUhPRmNELVN5LVhlajFzN1ZCZDEzZnQ1VHduV0o3RzlLb3RsSVFGeFFSMHdKWUdUTm5YdzM4WXB5Z0Nnenk3c1JqOTB6M1poVk82Q2RGTEFqckU4ZXZRUHZnY1FNVkR0cjZHc2dSa0NEbm55NjFKY0VkaGJjYnJ5TG5DZEhHaFNCMkQ1UGpRSlNqQlNqREpGZFZzYQ?oc=5",
+      "date": "Fri, 23 Oct 2026 05:41:11 GMT",
+      "terms": [
+        "Jantar Mantar"
+      ],
+      "note": "Leads, not evidence. Something reported here is a pointer to a document worth going after."
+    },
+    {
+      "kind": "NEW_ITEM",
+      "target": "news-delhi",
+      "label": "News: Jantar Mantar and the police action",
+      "title": "Chennai’s Jantar Mantar 2.0: Tamil Nadu Police detain protesters four hours into 24-hour agitation - The South First",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOd09ndlVWUG1oMjRrT2tMRDJ3alhSWHJRbXJFUDJVdjZjdk9jLUxjd0dkNzU3bWlDc2lxSnpfOHk5el9wTkxXemVvUDdqdEg2bDdIUW1kaHpXWHpnQXVkWWdJS2xQUTJiSy10alhUOXlrUTMyTDR0bEhWR2xJSXZPcnBSeG02THZqcVJlV3dBMEN1WmVsM0ZkZFlkeEVwY3hlVlh6RHJkR1lqeVhBSzV5ZVZPRERFX2FpMXY5Zzk2TmRVOUZq?oc=5",
+      "date": "Thu, 22 Oct 2026 16:09:37 GMT",
+      "terms": [
+        "Jantar Mantar",
+        "Chennai"
+      ],
+      "note": "Leads, not evidence. Something reported here is a pointer to a document worth going after."
+    },
+    {
+      "kind": "NEW_ITEM",
+      "target": "news-delhi",
+      "label": "News: Jantar Mantar and the police action",
+      "title": "CJP leaders Saurav Das, Ashutosh Ranka seek more time, skip Delhi Police questioning in Jantar Mantar protest case - Deccan Herald",
+      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQRzFpLWVNV1BjNXJlSUt2X3NkbGlVSzdOZ1N3WFZic3lzY3cwTWRUeVZ3T0Z0UWdTX09fVmxXNXVzUUR2U0pXbE9XSkNrczQ5TnlfdG9hNE03QmlST1hWV212c083cVhFN0Y2QTBHazNTWGlTWnBEQ2JDVzZ0NENLMnZYdDFnSWlCbzFDTlBGZDZPNzZKYXpaTnlncWtlZS1VYjNjeGlibldSdE9RQnhqcF95UFVBcFlBQ0lZTXNBSm9hRmk0dEhQTC0zcE9EVGY0WGJ5TUg5QXpNaGl6NHZCX0R4ZXkxLV9WcGNV?oc=5",
+      "date": "Thu, 22 Oct 2026 12:13:34 GMT",
+      "terms": [
+        "Jantar Mantar"
+      ],
+      "note": "Leads, not evidence. Something reported here is a pointer to a document worth going after."
+    },
+    {
+      "kind": "NEW_ITEM",
+      "target": "news-delhi",
+      "label": "News: Jantar Mantar and the police action",
+      "title": "Explainer: Jantar Mantar and the Right to Protest at a Place Where the State Cant Easily Look Away - TheWire.in",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5sS0VaSnExcEN3SzcyX3hhWjNPY1JrWjVGTWVfNFhuOFVUN2ZjbW9zdzFJejN3cl9JMUQwcWpZN3BaSUdIdGdTMWtrcmtoS0tXenU2N1A1UjdQQ0E0eVZxNUhkd9IBdkFVX3lxTFA5ZFlQMHV6NlFEbXhiMDU2WEJFQldwSHNQOU5MZm5YZmZ2X3JET1pBNDFDNEd4dmh6bVczZl9tLUY0b1Y2d2FlQnZJS1FRRmZZbXFmeXRRWUg3YVBHenA5aW5wMU03enpkOVdGWjNOX1hMakJ3RVE?oc=5",
+      "date": "Tue, 20 Oct 2026 13:04:41 GMT",
+      "terms": [
+        "Jantar Mantar"
+      ],
+      "note": "Leads, not evidence. Something reported here is a pointer to a document worth going after."
+    },
+    {
+      "kind": "NEW_ITEM",
+      "target": "news-delhi",
+      "label": "News: Jantar Mantar and the police action",
+      "title": "CJP leaders seek more time to join Crime Branch probe into Jantar Mantar protest - The New Indian Express",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQSkdWYzlJYm1FanhMNjVwX1VWcGxtcG1pQTZ4T1FtaFVOMmlWQ2ZVZXFsUDlycC1MM201T0VueFpHcUk0cUVFUTlfRlE4eFoyQ0dJM0FRVENwS2lGTDNieklmSVNSQ3lWMmtwd2NGYnRtck8tS2JPV25kb1ozTW1NVmR0dkhFeXF5bVI2OG9WeWpLeHFlNExDOTRBRzVnT3prTzdTVFVNa3V5RXk3V0FMbXJJajBfeWppbGhta0ZGQ2VfWTZKNnZrUzdfUdIB2AFBVV95cUxQeHRtb2RFYXVMSVVydU5xWEU4eWJkSXEtYWRLS2Vxc1ZQMDlQdXlGeUtiUXgxWWg1X1kwWVNNcy1Nb3BZR2hRQjRBdlYzZVpSMktwbkJnVks5amFmUDJBd2FiTnBmVG5SLXpLdklnbkJmeHdsSHl5VDltVldSamV4bEthMldoaWtrZEZCUHFjbWFNOUs4V1pDc1hKVlAzLV9JdmNwdlNUV1MxcVVwbjlzV1dacnpQbThUTnkwbXlmZk5TSVRYQTBhaUw1QjRTUDRWYTB3anVSWjQ?oc=5",
+      "date": "Thu, 22 Oct 2026 10:24:06 GMT",
+      "terms": [
+        "Jantar Mantar"
+      ],
+      "note": "Leads, not evidence. Something reported here is a pointer to a document worth going after."
+    },
+    {
+      "kind": "NEW_ITEM",
+      "target": "news-delhi",
+      "label": "News: Jantar Mantar and the police action",
+      "title": "BREAKING: Delhi SEM Orders Release Of CJP Leaders Saurav Das, Ashutosh Ranka In Jantar Mantar Peace Bond... - LawBeat",
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNOXVqNFMxZ2pMYTZnaWJEMmd5MUxNanpEcEJHUFd5MllUR3dDVEZudG1SRnFydE1uRHhuMUNqTHZNeElDc29VbUxqR2FVdW9vc0IzSXZ3NDR3ZXBOUHVZa3A3SWg1Zko5OTRoSkR3QVVqSEt5c1FoWHkzVjFPb2VMMVRkMFBBTmk5T0E0TldDWERUTV82Y3VzWnEwMmdIRmlrNkdRcF81ak9RVWRRemhsZ3BfVE9ZcGFoMWxyWjJzM1VkS1BpZGRod2VKMVplRjJnd0NidENXUERSNWNCTC1ndFlxcUxhZ9IB5gFBVV95cUxNOXVqNFMxZ2pMYTZnaWJEMmd5MUxNanpEcEJHUFd5MllUR3dDVEZudG1SRnFydE1uRHhuMUNqTHZNeElDc29VbUxqR2FVdW9vc0IzSXZ3NDR3ZXBOUHVZa3A3SWg1Zko5OTRoSkR3QVVqSEt5c1FoWHkzVjFPb2VMMVRkMFBBTmk5T0E0TldDWERUTV82Y3VzWnEwMmdIRmlrNkdRcF81ak9RVWRRemhsZ3BfVE9ZcGFoMWxyWjJzM1VkS1BpZGRod2VKMVplRjJnd0NidENXUERSNWNCTC1ndFlxcUxhZw?oc=5",
+      "date": "Wed, 21 Oct 2026 13:11:11 GMT",
+      "terms": [
+        "Jantar Mantar"
+      ],
+      "note": "Leads, not evidence. Something reported here is a pointer to a document worth going after."
+    },
+    {
+      "kind": "NEW_ITEM",
+      "target": "news-delhi",
+      "label": "News: Jantar Mantar and the police action",
+      "title": "Police summons over Jantar Mantar trespass: CJP leaders Saurav and Ashutosh seek time - The News Minute",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNT1ZVeWUza1BDRkRuX3RDcXF6b3ZWQXg0S0ZaNEREYUZzazh5NmxhTDZpNkpvczE0MWlNbUtzM05CblRjUDN3dElJaEktcEQwampOd25TX1JMS1pmWkpFUGxpOWdqeG1LX3JlTk5WSVFIel9nYnJwektwdFZZX19NRGtpQVhiWDNJM1ItcFFta1VLQWp4ZzZXYlVVMDh1QXRpQmRNVFRuc3NkVlVFeFNoTUtrajlMYVRKeG5Z0gHIAUFVX3lxTFBadVZxMEZ1cnZZM3d5ZEMtRHNCMmFpUjNzV2l4MmRXSVU3b1ZyRUhheWg2cGpmX0pLRk9fZmpBMFRpZGNnR0poZFlrMngwc01pcVhqMXZUbm9KVVRFZjNLSkgxS2t4S2dFcFJYc2pfNTA2LWN2N1NSMUtqbE9nM0xXMS1Tb3RYUXFCVC1WQmFfQ0s5V0RVMkIteWNfbVZXazVmNkpKMnNCdkRPN3FPUlpYM1JCVTI2OHFhYW0yc3BaNThnd0N0MjlD?oc=5",
+      "date": "Thu, 22 Oct 2026 10:01:15 GMT",
+      "terms": [
+        "Jantar Mantar"
+      ],
+      "note": "Leads, not evidence. Something reported here is a pointer to a document worth going after."
+    },
+    {
+      "kind": "NEW_ITEM",
+      "target": "news-delhi",
+      "label": "News: Jantar Mantar and the police action",
+      "title": "'No Jantar Mantar protest call promise': CJP leaders Ashutosh Ranka, Saurav Das let out of Tihar jail - The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPX0o4T19XX2dVWUpMdjdFZFRIZFdqbUhBandnMkRKZ1o5ekRwQVJlcXZDYkkzOTNqZ3J6Q2NtdVNudVZjZFpiQWJSMDRSNFVVRlA3bWRiVEdkUDM3WjVucFhLTjJvMzEyWklmdWxkZmJjNEJCZGtSUkFBclJFRmg1c1JxbEY3bm1aMjdWMExJWHprb1hwakZRdUxFNzJ5YmFHVEljaVRmd3lQdng1SVBXbnFLSS1Zb1l2X1FxelprOG1pMG0xdEFkMUdZNUdYMlU0aktrQlJ6S0FQcHBl0gHiAUFVX3lxTE1JX3I5TGhZUFltSFN6ZmxBQldCd3VXQWM3dEM0ZGxBdHJfVWR3MWtIaHZ3UjJ5dXhFd1YyQklmWG5tSUFlM2pnamV5VFBpOGt6UmViVUUzOGdpcVBxNm82WjRVbl9vZ25lVUlXS1Y3dEdEV3FJOF9zQVBJS2g3UzQ5TUlicmJBeWxWUEFZVEhuWl9DVHhQcHRyakhJQWJ5S0hfaUVRN2JGOUVJV0hfamFhek4waDBqdmpVOW9MeDJnU3k0cmo2R0hHVDJ4anozdzlQaHJYZWlHOThRWlJSMDBvbFE?oc=5",
+      "date": "Thu, 22 Oct 2026 01:35:00 GMT",
+      "terms": [
+        "Jantar Mantar"
+      ],
+      "note": "Leads, not evidence. Something reported here is a pointer to a document worth going after."
+    },
+    {
+      "kind": "NEW_ITEM",
+      "target": "news-delhi",
+      "label": "News: Jantar Mantar and the police action",
+      "title": "Must seek Jantar Mantar protest permission 10 days before event: Delhi Police - The Hindu",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNVDRjbng3MHZGX2R2eERfNEFfR1hPY3BLbm96clByOTNsMlZLQjVOOTdYUXFTaEZtR1IyWDdsVFRjLThsc1BXNG9UM19LMmt0Mmg4ZnpZOVlLSDFTaTFZOTBnaVg1OXVZRzV3SDZhcVF2N3BmVU1yY3VQV3JVMlBHcVlETEFMYmFKUDVwQ2kydHFoYzF1czMxdUdfblcxOGZQNTlkZDNBUGFzQ3QtNkHSAbQBQVVfeXFMUEZxS1FVeEc0MFUzNllzcEVVb05acjdPOEFERUJ0MzFmV1d4bU1JOVNTTlUtaEJHSENUdnRPS0ZveEE0UTM1Nms5UlN5TnlVcXdBanNkN0hHVjVEU0plN2lpT1dnX2JvRmtfWW5MVmdjdjdyT2d2U2xRdTVzc2hYYzRmWE1ubGhHZGw3d3pQU1FTR1h6dEYxQnlXdVFDODZuU1ZXSXRMeVFITGd5aTdRNWFSZnVm?oc=5",
+      "date": "Wed, 07 Oct 2026 07:00:00 GMT",
+      "terms": [
+        "Jantar Mantar"
+      ],
+      "note": "Leads, not evidence. Something reported here is a pointer to a document worth going after."
+    },
+    {
+      "kind": "NEW_ITEM",
+      "target": "news-delhi",
+      "label": "News: Jantar Mantar and the police action",
+      "title": "Jantar Mantar Trespassing Case: Delhi Court Extends CJP Leaders' Judicial Custody - India Today - India Today",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQTFpwbWVacUV1TndMSkpTSzNKbXJmb3FlVzhDQnA2UGVKNnM5SmNkNFcwWVdHeWNfU0ZZTjltZEs0eUx1UVZ5enRDbjBzQks1WnBzWWVsR1FValpjOXotLWlraGRxSk0xLVJxWVpGVVBSMU1NcTE0NjdBbFZIRTE5OG9qTl91ZUVIMjJuakhfM0dJNTZ4QW9LT3ZEenFkMHZ3Z3ZwVVFpT3EtWGU2N2tkYjFkdV9OdGpiUGw2NHJDcDR6NFRhbkx3aFFMcTQ1RzM1RC0wVzluQ2LSAd4BQVVfeXFMUGs0X0k3dDIzV2JmenBmck1jdWNEQkppeXFUQXpjV2loRnZHWVRRVlE4bWYzeFRsMzBhX0E2SXZobVZ5eHpPb1RWTHRoaTZXVEV6WmxLR3JtbW1vaXBYaFRELUwwUDlTY3I0Q0czZDRkLUlNNVI2UmJyTnMtMFEyYjVZYUc0QTFHWXhmUkZyM1pOeHA2TF9sU1FoUDd4MjlqTDVxeHhmby1FYXd3WGs4WmtYTUlYc3hoYk80eHZwSmh3NkZ4QWg2S2xfbWl0R0RJMjVXdGNKdlYtSVo2RzV3?oc=5",
+      "date": "Mon, 19 Oct 2026 17:58:04 GMT",
+      "terms": [
+        "Jantar Mantar"
+      ],
+      "note": "Leads, not evidence. Something reported here is a pointer to a document worth going after."
+    },
+    {
+      "kind": "NEW_ITEM",
+      "target": "news-delhi",
+      "label": "News: Jantar Mantar and the police action",
+      "title": "CJP leaders skip Crime Branch summons a day after release in Jantar Mantar protest case, seek more time - Moneycontrol.com",
+      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPVjlBLVNiaGdzRkZ5T1dZQmtneldGSDd2N0JnZjFsUHBtdmNjTmtRVTEwX2Q1bWNJak94dlJhQ190OHJvMFJEVm8yb1hic3NCVHpfRXpWYkZzc29tX2lsWHRfdnpFcVhBenFvTVFFQkNBT3pNaVhJTVJ0M05DVTBPR2ZZZ0IwMUk5U2NGbTRQVzRTTkZheVhFT253TEdiYW4zVVFtdXlPTEk5Y0Z2S25JQ3JsUWE2cUp6NGFLck9lZ09HZGh0ZFdSNnR4NzhoeW9XWHZhWTlYa2I2dXpXWFRUdnRyTElkQXJqRkQtONIB8gFBVV95cUxNUjFDcFhWY3l2c1lLXzFaaDJPQ0g0bE1TamdfSkZHU0FWVWxZbnZ6b3VJR01nNDJCMEUxc1ZRa0kzcUxjWXhOVTNVZTlibGM3Wk9hQ2xmOEY3a2dTbkxTMkNDa3BEVHJ3UC16bEFTX1VtSjN2UDdFRmhxU25nQjlQZUxMaURpQmdaNDF4Nm5ob3MwUmRVMlJzV3JET2dfRjByVmZmRVdFRWpoXzVveThlWEM0M1QtU1Y5dUJtcC1Oa1AwLUFnaVpGeDIxY2ZzVEktaWxUM3VIQllVaE8zN3VRSmJzbnZRUjN2SHdDVDNkVlRxQQ?oc=5",
+      "date": "Thu, 22 Oct 2026 09:46:35 GMT",
+      "terms": [
+        "Jantar Mantar"
+      ],
+      "note": "Leads, not evidence. Something reported here is a pointer to a document worth going after."
+    },
+    {
+      "kind": "NEW_ITEM",
+      "target": "news-delhi",
+      "label": "News: Jantar Mantar and the police action",
+      "title": "ସିଜେପି ଅଡ଼ୁଆ ବଢ଼ିଲା! CJP Jantar Mantar Case Transferred to Crime Branch | Ashutosh Ranka Update - Kanak News Odisha",
+      "url": "https://news.google.com/rss/articles/CBMirwJBVV95cUxOSnM5NmxqaDdyQ2ZFOHl3Tm5TSDVpWkFRZlhaMjRGaC1tWVdabUtLbGlUQWluX2M3OFpFQm1FMVozdDFLTHBqREduUUplLVdDT0ctSXA5NHNWSi0wNU1Lbl9mcnNJRDRpNy1kd1lvc1g1T29fTG02dGhJa1pBaGtrbk53MjIwUWxrRENPVlFvdjBDbTZWRExsUGhKVkVVbHNnNmJhWXk1Sm9JcXF4dGxCdXBUOWRfNERMYnpBRm01NUlyaDNCOVptWGVrcllLVklPb0VEUmJSOU1zd3FzMkQ2eEV6QlhGQmtZQjNWbjN2Y05uZTc1V0E5SS0yMVRNWHJvY2hlQ2R4Y2ZWVlFMcklNajgwb29LWkZjWDZnS3hCM2VIU2dFeUNlRk5WMmdIQ2vSAa8CQVVfeXFMTkpzOTZsamg3ckNmRTh5d05uU0g1aVpBUWZYWjI0RmgtbVlXWm1LS2xpVEFpbl9jNzhaRUJtRTFaM3QxS0xwakRHblFKZS1XQ09HLUlwOTRzVkotMDVNS25fZnJzSUQ0aTctZHdZb3NYNU9vX0xtNnRoSWtaQWhra25OdzIyMFFsa0RDT1ZRb3YwQ202VkRMbFBoSlZFVWxzZzZiYVl5NUpvSXFxeHRsQnVwVDlkXzRETGJ6QUZtNTVJcmgzQjlabVhla3JZS1ZJT29FRFJiUjlNc3dxczJENnhFekJYRkJrWUIzVm4zdmNObmU3NVdBOUktMjFUTVhyb2NoZUNkeGNmVlZRTHJJTWo4MG9vS1pGY1g2Z0t4QjNlSFNnRXlDZUZOVjJnSENr?oc=5",
+      "date": "Tue, 20 Oct 2026 02:59:35 GMT",
+      "terms": [
+        "Jantar Mantar"
+      ],
+      "note": "Leads, not evidence. Something reported here is a pointer to a document worth going after."
+    },
+    {
+      "kind": "NEW_ITEM",
+      "target": "news-delhi",
+      "label": "News: Jantar Mantar and the police action",
+      "title": "Jantar Mantar protest: CJP leaders seek more time to appear before Delhi Police Crime Branch - Mid-Day",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOMFQ2WjV3NTE4WkZhbng4c1EtMldUM28tckxvWWgxQ0lvdV9TQ3lVZjE5ZkxZTDQxeXo3SlhQQlJPRldnZllTbGdXQ3JZTTZxNzhvZlVKTEI3dHlWY01na2d5VlVrYXJRa2o4NEZNTWRubmd0OEtnbGxoRFBDM2oxaXlRQjFNbXJXMXZxNnhHZll0cG5tVjl5RHp2MVhzTVo3endsSXlUMHpxMVJ3QkZhTGljNk1BSW9KVExOUVlTU0VUSkxGSjRWcm5YWDZlVGxrVVo5WDE5dVpBcXFTS1NPTFJn?oc=5",
+      "date": "Thu, 22 Oct 2026 10:19:00 GMT",
+      "terms": [
+        "Jantar Mantar"
+      ],
+      "note": "Leads, not evidence. Something reported here is a pointer to a document worth going after."
+    },
+    {
+      "kind": "NEW_ITEM",
+      "target": "news-frt",
+      "label": "News: facial recognition and the surveillance question",
+      "title": "Protest venue under a web of cameras and facial recognition systems - The Hindu",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPX21lMlRnZHdpM0M5M1U4dnFIUHdlOUxhdHlWbDVfWnNWeGxZRUpDa2h2U09kNndFU0drczNVdUtsaFZ5dENMbzNSRkdQZ3hPQnpza3d0OTdLZkxJOGRlRHlPcldxZWJKZHIyeXpQZnRybjRiQjUxUmVod0lNNUI4R0wzT2NhQ015Nl9VdXZtbVVwdHY2RG52RU0xSXg0al92VGlfQ2VRS0J4MjczWmsxNmNhOGdhRUdHeDFKS0Vnekk2WnQ0?oc=5",
+      "date": "Fri, 24 Jul 2026 07:00:00 GMT",
+      "terms": [
+        "facial recognition"
+      ],
+      "note": "OQ-034 asks what database was matched against and whether a private company processed the data. Both are live questions before the Supreme Court."
+    },
+    {
+      "kind": "NEW_ITEM",
+      "target": "news-frt",
+      "label": "News: facial recognition and the surveillance question",
+      "title": "Facial recognition: the latest weapon against civil society - civicus lens",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNWG5ZMGl1MEV6Vzk0NlNyelo3aFNDSHl3NVNjOVhXR2tYakhWZWkxU1lqdF95MTRWb20wVkJWWmxTOXNoX19NSEc2Vy04VDJaVS16RmJaUmhaMkVIeFVYdVA4OWJyb3djYVhIRWh5MEp4ZXE4REQtelZnMllVOE4wc0V2TWtUU3R6cktqSw?oc=5",
+      "date": "Fri, 23 May 2025 07:00:00 GMT",
+      "terms": [
+        "facial recognition"
+      ],
+      "note": "OQ-034 asks what database was matched against and whether a private company processed the data. Both are live questions before the Supreme Court."
+    },
+    {
+      "kind": "NEW_ITEM",
+      "target": "news-frt",
+      "label": "News: facial recognition and the surveillance question",
+      "title": "Banning face coverings, expanding facial recognition – how the UK government and police are eroding protest rights - The Conversation",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxONGJYQllPRVFYcWRJYlVNREs2aXpuaGRMb211bXRzOUphYVhMNHRQV2lndXAwdUVYTjhzSTJZOGREVk1QdVVzYTZ3UU5KVm5PUmJ3NXJsQVVNU0gwOEQ3azRCLXBHSXdDUFlKOWdpVm9idE5YMlM0Q3ZKUGRCVFVmMmNHTlNSYTFnQVlsdGJoQXVvcmpJekk3ZnVKZnRFS0xTYkRvamdmY05POEx4QndIWHJjNDR3RjVuMmVDRi0xQXJoLXNuVW9UR190aHo0TnRtelJ4clJYQ0p4WHBwM1Rn?oc=5",
+      "date": "Fri, 28 Mar 2025 07:00:00 GMT",
+      "terms": [
+        "facial recognition"
+      ],
+      "note": "OQ-034 asks what database was matched against and whether a private company processed the data. Both are live questions before the Supreme Court."
+    },
+    {
+      "kind": "NEW_ITEM",
+      "target": "news-frt",
+      "label": "News: facial recognition and the surveillance question",
+      "title": "The Delhi Police must stop it's facial recognition system - Internet Freedom Foundation (IFF)",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPVHlBZTRzb19wdU44RFZiTXdCdXYzSHRQVktSeUdoQnlIRWRWTmdDelI5VHZwQUZORzFfWFJLWlhsUWNzOFZLZFgwRmVRUkthbWZiYUJRNVhxLW92ZDJoZjRJTlplUWY3VVhvSjYyd2syVWhjemFGcFUtNTMtaXdvZzhsNWRMb0JWU2J4ZFBiR0dNNUE?oc=5",
+      "date": "Sun, 29 Dec 2019 08:00:00 GMT",
+      "terms": [
+        "facial recognition"
+      ],
+      "note": "OQ-034 asks what database was matched against and whether a private company processed the data. Both are live questions before the Supreme Court."
+    },
+    {
+      "kind": "NEW_ITEM",
+      "target": "news-frt",
+      "label": "News: facial recognition and the surveillance question",
+      "title": "Is Delhi Police’s Use of Facial Recognition to Screen Protesters ‘Lawful’? - TheWire.in",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5vaWVVQTZ2aWo2VFFrT2JPcmtFdndQY3M2QzJXQURjd2NNNzBQLVFTU0o2Q0xsWUxyY1A4WGJ0Z2hmZ2hHNDByVlJ4Q0NlRGVaMGZGVnh0aEhPRGYyblJTcXh1b2xHLU5VQXhuSkJ30gGAAUFVX3lxTFBTSmRCY25SR1k3VEUybE80U3JxTlRna1g2X3AtbVZyQUhaSEF3ZWc0MkRJMXIyU2w2NVVNTENVVGo1X0VCNnNhSTJpcWNBU29yNlhZNHNJWTVscV83eVJ3NG44azRSRkRPUmFqYllPdWhrVEczLWpiQTZHdWlsUFFB?oc=5",
+      "date": "Mon, 06 Jan 2020 08:00:00 GMT",
+      "terms": [
+        "facial recognition"
+      ],
+      "note": "OQ-034 asks what database was matched against and whether a private company processed the data. Both are live questions before the Supreme Court."
+    },
+    {
+      "kind": "NEW_ITEM",
+      "target": "news-frt",
+      "label": "News: facial recognition and the surveillance question",
+      "title": "Delhi Police using facial recognition system to identify protesters - The Hindu",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOeUlmYll4UkZHc01MUnRTZDlIOEFXeUs2eTZMaEZnZS1Tdm5KYjNEaEhJazVibm9IX2w0QzdaWGNqc3VQeWp6SlRmdFF1bG5TaGFhbmFENGR4SGNkS0lxYU54bmJ3TnFOSHU0T3lmcGhUMFJVWklaV3FKWUt4dThKTlhBX1p0YzhHcFRoNndlUF91Z1BSUUR6UnJKVFUwZ1ppYk5jbFJmT3R5RGdXQ3VhdUVGNm10Z2E3N2JzT2g5YzFUZjh3YWRfdmVn0gHQAUFVX3lxTE1XdVRIWGpGWGZaX3liTjBmYW9FWk0yYTN3Qi1lOTRLYm1SMzA4YUdubzF1eE1IRUJlTF8xU1JXY19uck9MZzRmT29ydERHbk1wajJoTWVXUF9hWWdLQTc3ZjZzY3NMeFljaWw2REJ5czhJTnR2emxBQlJEbjQ1aWJJWnM3cVUtckZ0UDY1ckt6UEg4aVRZZFR1TVV5dzZNZV83S1NfYXVWSmpOZWFtWTA4TFAxOWlvRlI4elQzcnNMaTYwUDRjV1k4NkliV0ZoMGw?oc=5",
+      "date": "Tue, 31 Dec 2019 08:00:00 GMT",
+      "terms": [
+        "facial recognition"
+      ],
+      "note": "OQ-034 asks what database was matched against and whether a private company processed the data. Both are live questions before the Supreme Court."
+    },
+    {
+      "kind": "NEW_ITEM",
+      "target": "news-frt",
+      "label": "News: facial recognition and the surveillance question",
+      "title": "India's use of facial recognition tech during protests causes stir - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPNHdvUnRNUG5DUnVZSlhYanhhblFjSVRfQVo4NlZTVUYzLWxnMjJPaGFaa01hM1J6MTh0SUJTWlZMVVhHYWx1NloxQnJHQkxWS2RfcTZESU53aktSQk9hZzY3aE4zOHdwaFlzaTVyRXU4QlRnRjRwbUxOTE5Zc1ljWkpmRl83eUtreUYtX2tzWUpUOUlSNDNQS2FDaGhsSWFGdG1SZ1RJenhRRG1zUGRzOHp5NHZqWThsR3c?oc=5",
+      "date": "Mon, 17 Feb 2020 08:00:00 GMT",
+      "terms": [
+        "facial recognition"
+      ],
+      "note": "OQ-034 asks what database was matched against and whether a private company processed the data. Both are live questions before the Supreme Court."
+    },
+    {
+      "kind": "NEW_ITEM",
+      "target": "news-frt",
+      "label": "News: facial recognition and the surveillance question",
+      "title": "Ban dangerous facial recognition technology that amplifies racist policing - Amnesty International",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNY0xQdUgyc09MOElZclJlcTMtV0ZEUWwyRmhUQWgtRXlmR0NHdnJwRElWNG00VFVjVW4yR0pKX1ozSlM2cWZIblpjc21Ub3VjZVMxVTRVaFJNM3pmNUpPWnljX21zNjRRVTFLVDZmSDd0VHRmaEExWWZXcDdMTEdiSWFOMC1UTHZHQ21xYjk4QmRyeXZRcVBjRTU4TWtxYi1vVjNfTF96QWpORjBTNGVBWkh1RUFTNmdnSEF3M2duUlJ6b2dEa3B6R2F0UQ?oc=5",
+      "date": "Tue, 26 Jan 2021 08:00:00 GMT",
+      "terms": [
+        "facial recognition"
+      ],
+      "note": "OQ-034 asks what database was matched against and whether a private company processed the data. Both are live questions before the Supreme Court."
+    },
+    {
+      "kind": "NEW_ITEM",
+      "target": "news-frt",
+      "label": "News: facial recognition and the surveillance question",
+      "title": "'Ban this technology': students protest US universities' use of facial recognition - The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOOVllUHhqcGlQYndHUnRJUUF6YnJqVUpIYVQ0Zm1RTm9vUGZsOXZFZjZvbjRPMDBuejc2bG90WWV2TUpYbDVxckNDRVJPNVNXMUprd0ZZcjBjUmZwOUlHVllNejBkVDVLT3BGQk9FVXJkbTdrLVBIWUlaTnNYNXJKUUtaTjNRVDg3MU4wbk51dTc?oc=5",
+      "date": "Mon, 02 Mar 2020 08:00:00 GMT",
+      "terms": [
+        "facial recognition"
+      ],
+      "note": "OQ-034 asks what database was matched against and whether a private company processed the data. Both are live questions before the Supreme Court."
+    },
+    {
+      "kind": "NEW_ITEM",
+      "target": "news-frt",
+      "label": "News: facial recognition and the surveillance question",
+      "title": "Miami Police Used Facial Recognition Technology in Protester's Arrest - NBC 6 South Florida",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNY0dHVGN3VF9uRlBybVg4RVFCcy1uOEl5Z0VvZ2U5c0Y3bWU0UlY5M3BMNWVoQ24wNWc2MXJSOW9aYXpodl9QS0F0SjdPY0VkWExWUG81RHFmYk5JdjB0bnItLTRmbHJDWkJKTzN0ZzFicEtiSVJoTVFPUDVmQjU3b25aU3pqYU9ZQzU2X3gyUHJvTGlWNGg5NGxFa21HNC1BTlpRdC1tU0hYVnZPVVB2Vklrckh5VkFR0gHAAUFVX3lxTE1BeHR6TkZXNkdad0hDdFEzRzhSU3ctdTIzZFoyc1NGZ3FGY25mbzY3VjY1djd2YTN6TGZndUc3YndHRF80T0xVb0ZuSTVjOGFueDMzSEJZSGdfT2xQNTdQZkVQWGFCWC1sVXA2S243SGZ6blJ1NXV3ODNkdkczZUhBckQ5U0tuR1Q2ekhwNE1uOExJR0ZyZVNkcmxQZk5ZdVJVTGprdkR2MUtJeHpPWEJsTXpZa25qWXVwR2NweUhObg?oc=5",
+      "date": "Mon, 17 Aug 2020 07:00:00 GMT",
+      "terms": [
+        "facial recognition"
+      ],
+      "note": "OQ-034 asks what database was matched against and whether a private company processed the data. Both are live questions before the Supreme Court."
+    },
+    {
+      "kind": "NEW_ITEM",
+      "target": "news-frt",
+      "label": "News: facial recognition and the surveillance question",
+      "title": "Delhi Police Scanning Anti-SIR Protest Videos, Using Facial Recognition To Identify Accused - Times Now",
+      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNb2pxV0gxMzlLWWhpTkF5VDJUS1NuQ1ZpQlB1S0Zmc1dHZXdpLXI3RVVIMk9WeVFSWjhScWFhRnhhLUR5MlYyV1BkWTcwT3huS0pKbVZJeTM4c3NKWTZuNDlkTjNoeFNxcG4zbXI4QXJnYTB3UzJyRWw1dE5haTJQQkdNa0xHTDhMNEJtNGhwdmpEb2tSUlZtdDZrQUtuYk1oWl83cU9BTFVpUnZteXhhckpjVnV2NGM4TFVOM05EZ2t0ZGJqMGlpemRMUC1GUnlkWHVFY0FCQmJmOVNUekt5WE84dENqbDRp0gHuAUFVX3lxTE5lSF9VbFd0Rjd6U0YwaUI2bnFOWHFFSU9jaHJRNjgtdTBsVHZpbjdUNFhMLW5TeE9OSmVSejk2T3FxRk1YODZfSUNmOHhORElpS21pNXdLNXJKUHN2V1VnbS1rZVF4Zk5Zb3ZqMlppTGdDazBzZ0NFb3dHOUVpUm12ZkY5Q2duNTR6S2RaTTFmM1VzMlp0R2toNkhFRlBFLTV3endncFBIZk11VUQ4akEwb29kOENZZW9Jdi05TEpSdXM3WnF5UjJvcWdGalpUMy1wQVE1QW42aFNCYVpHT2ZLOXZpZUsxVkEyYnZacFE?oc=5",
+      "date": "Sat, 17 Oct 2026 04:32:13 GMT",
+      "terms": [
+        "facial recognition"
+      ],
+      "note": "OQ-034 asks what database was matched against and whether a private company processed the data. Both are live questions before the Supreme Court."
+    },
+    {
+      "kind": "NEW_ITEM",
+      "target": "news-frt",
+      "label": "News: facial recognition and the surveillance question",
+      "title": "Delhi Police To Spend Rs 15 Cr For Deploying 338 Facial Recognition Cameras - Trak.in",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNZml1UDlpNU11UWFTZ2N4M25vZ1dZS2hITTl3LW1TdkZIQkxSQ2FoNzdjVmx1aEZwT25TWFpJU25KR3FkUEhQWDMtWnF5V05iNlNTTUh2aFhzUUFYblhUbUxNcVhjLWVkbHd4LWRMVFhLV3BnYkVPZEsxX1plSkVRdUdVc25GWHVvV1dhNG5EMjJoSVpJN1F1azRKZW5MSFhVZEE?oc=5",
+      "date": "Thu, 22 Oct 2026 01:37:30 GMT",
+      "terms": [
+        "facial recognition"
+      ],
+      "note": "OQ-034 asks what database was matched against and whether a private company processed the data. Both are live questions before the Supreme Court."
+    },
+    {
+      "kind": "NEW_ITEM",
+      "target": "news-bihar",
+      "label": "News: the Bihar incidents",
+      "title": "Police use lathi charge to disperse protesting BPSC aspirants outside Bihar CM house - The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxPdWhFUTNmZ3FUMjN2ekw3R3Y1cndRRDV0Rmg5MklJbjFNQVRGSFlyNmtxNFVITHNGNEU0SWp4c3ljaWRTTlo1NFROOGN1UGx3TG1FeG1jN0pzWjRuUFBJb09tQVNhY2c3YU5wUlI3X1Q0dUFyc2JPV3JjQVRXa1lOQXBFY0otaHhWRGlzWmJzMll6RndsU0dWbGVZT05vV3ZqMWdyVURXQUVCQjlUSmxTTkh1R29VTkJ2Q21uXzZRdGJHMUhTeHFIUWRXbWlQYV9RQjNSMENTR2Jud2wtZWM0NS1LZnpERXdCMURhQVlqdVFidEFzenBWOFBJdk4yVG9tcGfSAYcCQVVfeXFMTW0yZm5jT1dCSkhNRDdVUi1oRWpXeXIyaHl5b1o0V2JqWWRrd3RSY29BZmROQmpha3VtR2dKNEhhenNkZXM0djJXYjU1Q0RRV2FjeDVic3V1UG9mMlNsU0hvNkZTdm1wcnpfd19wSUJ6NzdQSjJiS1FOai1sYm1uaTItT0RGX3ZGMGg1OGxCcXBzUXNuVmpIT0VGVGhaQ0k0NU0wT0U3RWktXzQ0ZnhpVVFGeGM2M0UxTEw1TklIWk5Yd2huRWhzZDZGUDBDTzR5RVRYMTZBWGU2V05rZ2VlU0NRVTFaQ0lLVVhaeU1rRDdDR3V3UmZvRVVPTTNUbHoxMDZmdXhyT3c?oc=5",
+      "date": "Tue, 06 May 2025 07:00:00 GMT",
+      "terms": [
+        "lathi charge"
+      ],
+      "note": "Bihar is the deadline-critical jurisdiction: no court has ordered preservation there, so nothing is interrupting any retention schedule."
+    },
+    {
+      "kind": "NEW_ITEM",
+      "target": "news-bihar",
+      "label": "News: the Bihar incidents",
+      "title": "TRE-4 aspirants attempt CM house gherao in Patna: Police stop march at JP Golambar, students allege broken ... - Bhaskar English",
+      "url": "https://news.google.com/rss/articles/CBMiowJBVV95cUxOakRZRW50Z2RiTGpmbWZMOEFyWllJX25xQzRxUmc3Zng4dWw1TnpTZjFGeUVjT0hHMkZ2aVRhZE1pdndHM3NCcGVyRE9zR25wb0dMMk5NRmtVMXhjR01wWG1EMEkzMm1vdXhwQ3pCMXZIQnpqTk5PZzBLOFRvUkUwR0dJdUF5WlZpM2FPS3A4RW1VdlNYTmprcVU1SzFrNS11ZWdEU3FfYl9zM1loSDFxVnI4em5mUThyUnphX3RBZ2JXdzZNTTJ5d0Y0aXRmRHA0czdJb2lTMXdTOVhyTDNrcWV0ZW96ZGhTQmJYSk9xbjZYNnZoMk5kejI0MkdpeXFwNnFYZlpzTFVkbGRBX3NCdFBicUpVVWZQaUVrTzBVM3h0UGfSAagCQVVfeXFMTlJ3aXpzdlowUzdMT2x1UTM0a2tkR3JWUW1LWW9aWWM0a3d6WENaUXhoclAzT0ZNY1lhVjlRR1N6WnYxemgwQ1ppdFRfR3cxdkZZWDdjQjNPVmJWdkNhcHBkTVRhSU00NzI2SHQwVWxsZ2Q2MUVVYnI5d0V0VVVxem1lLUg2Zlg5dzBaSHZrOXRmN2JqcHA4VlQ5eE9TbWExRGdJUVJhWmlDUW5mOTFlSHVtUGgyT3BMUmVJellsb0NibWx1WVdzdURPR0s2RmNCc3RPR2dwcHlDcktSelBjZmtGeC0yTWhmTWt3dGQ3Z2l1bXZOTGlDRHlEbm00dkp0WTRXN2IwTmgyVGUwTGp5cEZva01rdERBWE9NZWRqOFhIeXVkT3l5Njc?oc=5",
+      "date": "Fri, 19 Sep 2025 08:01:23 GMT",
+      "terms": [
+        "JP Golambar"
+      ],
+      "note": "Bihar is the deadline-critical jurisdiction: no court has ordered preservation there, so nothing is interrupting any retention schedule."
+    }
+  ],
+  "checked": [
+    {
+      "id": "delhi-hc-causelist",
+      "url": "https://delhihighcourt.nic.in/files/2026-10/cause-list/combined_cause_list_23.10.2026.pdf",
+      "status": 404,
+      "outcome": "nothing-published"
+    },
+    {
+      "id": "delhi-hc-judgments",
+      "url": "https://delhihighcourt.nic.in/web/judgement/fetch-data",
+      "status": 200,
+      "method": "html",
+      "outcome": "changed-no-match"
+    },
+    {
+      "id": "nhrc-press",
+      "url": "https://nhrc.nic.in/media/press-release",
+      "status": 200,
+      "method": "html",
+      "outcome": "matched"
+    },
+    {
+      "id": "eparlib",
+      "url": "https://eparlib.sansad.in/",
+      "status": 0,
+      "outcome": "unreachable"
+    },
+    {
+      "id": "barandbench",
+      "url": "https://www.barandbench.com/feed",
+      "status": 200,
+      "outcome": "ok",
+      "items": 27,
+      "matched": 0
+    },
+    {
+      "id": "news-delhi",
+      "url": "https://news.google.com/rss/search?q=%22Jantar+Mantar%22+(police+OR+court+OR+NHRC+OR+affidavit)&hl=en-IN&gl=IN&ceid=IN:en",
+      "status": 200,
+      "outcome": "ok",
+      "items": 100,
+      "matched": 16
+    },
+    {
+      "id": "news-cases",
+      "url": "https://news.google.com/rss/search?q=%22Shailendra+Mani+Tripathi%22+OR+%22Shakeel+Abbas%22+OR+%22280%2F2026%22&hl=en-IN&gl=IN&ceid=IN:en",
+      "status": 200,
+      "outcome": "ok",
+      "items": 9,
+      "matched": 0
+    },
+    {
+      "id": "news-frt",
+      "url": "https://news.google.com/rss/search?q=(%22facial+recognition%22+OR+%22Crime+Kundli%22)+(%22Delhi+Police%22+OR+protest)&hl=en-IN&gl=IN&ceid=IN:en",
+      "status": 200,
+      "outcome": "ok",
+      "items": 54,
+      "matched": 12
+    },
+    {
+      "id": "news-bihar",
+      "url": "https://news.google.com/rss/search?q=(Patna+OR+Katihar+OR+Munger)+(lathi+OR+police+action+OR+protest)+students&hl=en-IN&gl=IN&ceid=IN:en",
+      "status": 200,
+      "outcome": "ok",
+      "items": 55,
+      "matched": 2
+    }
+  ]
+}

@@ -5,6 +5,44 @@ window.WGO = window.WGO || {};
 
 WGO.changes = [
   {
+    "commit": "b4526b828a",
+    "date": "2026-10-22T07:53:11Z",
+    "subject": "Sweep log and archived copies for 2026-10-22 [skip ci]",
+    "added": [],
+    "removed": [],
+    "changed": [
+      {
+        "id": "SRC-0156",
+        "kind": "Source",
+        "title": "Indian Kanoon, reproducing Supreme Court record of proceedings, 31 August 2016",
+        "state": null,
+        "url": "https://indiankanoon.org/doc/120612237/",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20261021075347/https://indiankanoon.org/doc/120612237/"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0174",
+        "kind": "Source",
+        "title": "The Quint",
+        "state": null,
+        "url": "https://www.thequint.com/news/india/bhu-lathicharge-protest",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20211202041509/https://www.thequint.com/news/india/bhu-lathicharge-protest"
+          }
+        ]
+      }
+    ],
+    "summary": "2 records edited"
+  },
+  {
     "commit": "2e8297450c",
     "date": "2026-10-21T07:56:41Z",
     "subject": "Sweep log and archived copies for 2026-10-21 [skip ci]",
