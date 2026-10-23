@@ -1605,8 +1605,8 @@ WGO.importedSources = [
     "kind": "SECONDARY",
     "url": "https://outlookindia.com/national/bhu-vc-orders-inquiry-into-violence-on-campus-retired-hc-judge-to-head-panel-news-302263",
     "retrievedOn": "2026-10-10",
-    "archiveUrl": null,
-    "archivedOn": null,
+    "archiveUrl": "http://web.archive.org/web/20261022075137/https://www.outlookindia.com/national/bhu-vc-orders-inquiry-into-violence-on-campus-retired-hc-judge-to-head-panel-news-302263",
+    "archivedOn": "2026-10-23",
     "sha256": null,
     "originatesFrom": null
   },
@@ -1627,8 +1627,8 @@ WGO.importedSources = [
     "kind": "SECONDARY",
     "url": "https://morungexpress.com/varanasi-commissioner-submits-report-bhu-violence-blames-varsity-administration",
     "retrievedOn": "2026-10-10",
-    "archiveUrl": null,
-    "archivedOn": null,
+    "archiveUrl": "http://web.archive.org/web/20261022075226/https://morungexpress.com/varanasi-commissioner-submits-report-bhu-violence-blames-varsity-administration",
+    "archivedOn": "2026-10-23",
     "sha256": null,
     "originatesFrom": null
   },
@@ -1638,8 +1638,8 @@ WGO.importedSources = [
     "kind": "SECONDARY",
     "url": "https://www.newslaundry.com/2017/09/24/banaras-hindu-university-molestation-timeline",
     "retrievedOn": "2026-10-10",
-    "archiveUrl": null,
-    "archivedOn": null,
+    "archiveUrl": "http://web.archive.org/web/20170930173624/https://newslaundry.com/2017/09/24/banaras-hindu-university-molestation-timeline",
+    "archivedOn": "2026-10-23",
     "sha256": null,
     "originatesFrom": null
   },
