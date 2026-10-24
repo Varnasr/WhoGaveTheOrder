@@ -1440,8 +1440,8 @@ WGO.importedSources = [
     "kind": "PRIMARY",
     "url": "https://indiankanoon.org/doc/83982682/",
     "retrievedOn": "2026-10-10",
-    "archiveUrl": null,
-    "archivedOn": null,
+    "archiveUrl": "http://web.archive.org/web/20261023074753/https://indiankanoon.org/doc/83982682/",
+    "archivedOn": "2026-10-24",
     "sha256": null,
     "originatesFrom": "Supreme Court of India daily orders; the court's own copy was not fetched"
   },
@@ -1451,8 +1451,8 @@ WGO.importedSources = [
     "kind": "SECONDARY",
     "url": "https://www.roundtableindia.co.in/?p=8521",
     "retrievedOn": "2026-10-10",
-    "archiveUrl": null,
-    "archivedOn": null,
+    "archiveUrl": "https://web.archive.org/web/20261024072948/https://www.roundtableindia.co.in/what-happened-in-university-of-hyderabad-yesterday/",
+    "archivedOn": "2026-10-24",
     "sha256": null,
     "originatesFrom": null
   },
@@ -1539,8 +1539,8 @@ WGO.importedSources = [
     "kind": "SECONDARY",
     "url": "https://www.thenewsminute.com/telangana/hyderabad-hc-asks-kcr-government-explain-police-brutality-hyd-uni-campus-46731",
     "retrievedOn": "2026-10-10",
-    "archiveUrl": null,
-    "archivedOn": null,
+    "archiveUrl": "https://web.archive.org/web/20261024073019/https://www.thenewsminute.com/telangana/hyderabad-hc-asks-kcr-government-explain-police-brutality-hyd-uni-campus-46731",
+    "archivedOn": "2026-10-24",
     "sha256": null,
     "originatesFrom": null
   },
@@ -1682,8 +1682,8 @@ WGO.importedSources = [
     "kind": "SECONDARY",
     "url": "https://www.outlookindia.com/national/firs-against-1000-bhu-students-on-arson-charges-among-others-after-weekend-viole-news-302178",
     "retrievedOn": "2026-10-10",
-    "archiveUrl": null,
-    "archivedOn": null,
+    "archiveUrl": "http://web.archive.org/web/20241108172108/https://www.outlookindia.com/national/firs-against-1000-bhu-students-on-arson-charges-among-others-after-weekend-viole-news-302178",
+    "archivedOn": "2026-10-24",
     "sha256": null,
     "originatesFrom": null
   },

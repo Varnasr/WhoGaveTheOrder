@@ -5,6 +5,58 @@ window.WGO = window.WGO || {};
 
 WGO.changes = [
   {
+    "commit": "09c7f019ec",
+    "date": "2026-10-23T07:50:23Z",
+    "subject": "Sweep log and archived copies for 2026-10-23 [skip ci]",
+    "added": [],
+    "removed": [],
+    "changed": [
+      {
+        "id": "SRC-0173",
+        "kind": "Source",
+        "title": "Outlook",
+        "state": null,
+        "url": "https://outlookindia.com/national/bhu-vc-orders-inquiry-into-violence-on-campus-retired-hc-judge-to-head-panel-news-302263",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20261022075137/https://www.outlookindia.com/national/bhu-vc-orders-inquiry-into-violence-on-campus-retired-hc-judge-to-head-panel-news-302263"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0175",
+        "kind": "Source",
+        "title": "Morung Express (IANS)",
+        "state": null,
+        "url": "https://morungexpress.com/varanasi-commissioner-submits-report-bhu-violence-blames-varsity-administration",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20261022075226/https://morungexpress.com/varanasi-commissioner-submits-report-bhu-violence-blames-varsity-administration"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0176",
+        "kind": "Source",
+        "title": "Newslaundry",
+        "state": null,
+        "url": "https://www.newslaundry.com/2017/09/24/banaras-hindu-university-molestation-timeline",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20170930173624/https://newslaundry.com/2017/09/24/banaras-hindu-university-molestation-timeline"
+          }
+        ]
+      }
+    ],
+    "summary": "3 records edited"
+  },
+  {
     "commit": "b4526b828a",
     "date": "2026-10-22T07:53:11Z",
     "subject": "Sweep log and archived copies for 2026-10-22 [skip ci]",
