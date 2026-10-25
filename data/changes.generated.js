@@ -5,6 +5,72 @@ window.WGO = window.WGO || {};
 
 WGO.changes = [
   {
+    "commit": "858b964048",
+    "date": "2026-10-24T07:33:06Z",
+    "subject": "Sweep log and archived copies for 2026-10-24 [skip ci]",
+    "added": [],
+    "removed": [],
+    "changed": [
+      {
+        "id": "SRC-0158",
+        "kind": "Source",
+        "title": "Indian Kanoon, reproducing Supreme Court record of proceedings, 11 September 2017",
+        "state": null,
+        "url": "https://indiankanoon.org/doc/83982682/",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20261023074753/https://indiankanoon.org/doc/83982682/"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0159",
+        "kind": "Source",
+        "title": "Round Table India (Amar Khade, 23 March 2016)",
+        "state": null,
+        "url": "https://www.roundtableindia.co.in/?p=8521",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "https://web.archive.org/web/20261024072948/https://www.roundtableindia.co.in/what-happened-in-university-of-hyderabad-yesterday/"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0167",
+        "kind": "Source",
+        "title": "The News Minute (19 July 2016)",
+        "state": null,
+        "url": "https://www.thenewsminute.com/telangana/hyderabad-hc-asks-kcr-government-explain-police-brutality-hyd-uni-campus-46731",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "https://web.archive.org/web/20261024073019/https://www.thenewsminute.com/telangana/hyderabad-hc-asks-kcr-government-explain-police-brutality-hyd-uni-campus-46731"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0180",
+        "kind": "Source",
+        "title": "Outlook",
+        "state": null,
+        "url": "https://www.outlookindia.com/national/firs-against-1000-bhu-students-on-arson-charges-among-others-after-weekend-viole-news-302178",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20241108172108/https://www.outlookindia.com/national/firs-against-1000-bhu-students-on-arson-charges-among-others-after-weekend-viole-news-302178"
+          }
+        ]
+      }
+    ],
+    "summary": "4 records edited"
+  },
+  {
     "commit": "09c7f019ec",
     "date": "2026-10-23T07:50:23Z",
     "subject": "Sweep log and archived copies for 2026-10-23 [skip ci]",
