@@ -9,8 +9,8 @@
     "state": "UNDER_INVESTIGATION",
     "stateLabel": "under investigation",
     "order": "No order has been found",
-    "count": 29,
-    "hash": "9436c32a12cdbdc1"
+    "count": 30,
+    "hash": "8bf47424c284c3e8"
   },
   {
     "v": 2,
@@ -1220,6 +1220,19 @@
     "order": "",
     "count": 0,
     "hash": "7b409be010584e84"
+  },
+  {
+    "v": 2,
+    "kind": "page",
+    "name": "events",
+    "file": "og/events.png",
+    "title": "Events",
+    "line": "Court hearings, orders and committee sittings on police use of force, coming up and past, each with the evidence record behind its date.",
+    "state": null,
+    "stateLabel": "",
+    "order": "",
+    "count": 0,
+    "hash": "0586c921c82e8495"
   },
   {
     "v": 2,

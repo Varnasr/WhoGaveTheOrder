@@ -5,6 +5,117 @@ window.WGO = window.WGO || {};
 
 WGO.changes = [
   {
+    "commit": "b29e1fe452",
+    "date": "2026-10-25T05:21:33Z",
+    "subject": "Add an events page for court hearings, orders and committee sittings",
+    "added": [
+      {
+        "id": "PROC-SC-025",
+        "kind": "Evidence",
+        "title": "The High Powered Enquiry Committee will hold a sitting at its office at Shiksha Sadan, 17 Rouse Avenue Institutional Area, New Delhi, on Thursday 29 October 202",
+        "state": "REPORTED",
+        "url": "evidence.html?id=PROC-SC-025"
+      },
+      {
+        "id": "SRC-1127",
+        "kind": "Source",
+        "title": "Rediff (PTI), updated 24 Oct 2026 15:10 IST",
+        "state": null,
+        "url": "https://www.rediff.com/news/report/cjp-protests-sc-panel-to-hear-evidence-on-pellet-gun-use/20261024.htm"
+      },
+      {
+        "id": "SRC-1128",
+        "kind": "Source",
+        "title": "The Tribune (Tribune News Service), updated 25 Oct 2026 00:09 IST",
+        "state": null,
+        "url": "https://www.tribuneindia.com/news/india/jantar-mantar-violence-sc-panel-to-hear-evidence-on-pellet-gun-use-harassment-of-female-protesters/"
+      },
+      {
+        "id": "SRC-1129",
+        "kind": "Source",
+        "title": "India Today, 24 Oct 2026 13:10 IST",
+        "state": null,
+        "url": "https://www.indiatoday.in/india/law-news/story/jantar-mantar-protest-violence-supreme-court-panel-hearing-october-29-30-ptag-3024078-2026-10-24"
+      },
+      {
+        "id": "OQ-067",
+        "kind": "Question",
+        "title": "Does the High Powered Enquiry Committee's own notice give the date, the hours and the venue of its sitting on 29 October 2026, and does it say whether the sitting continues on 30 October?",
+        "state": "UNANSWERED",
+        "url": "incident/jantar-mantar.html#OQ-067"
+      }
+    ],
+    "removed": [],
+    "changed": [],
+    "summary": "5 records added"
+  },
+  {
+    "commit": "858b964048",
+    "date": "2026-10-24T07:33:06Z",
+    "subject": "Sweep log and archived copies for 2026-10-24 [skip ci]",
+    "added": [],
+    "removed": [],
+    "changed": [
+      {
+        "id": "SRC-0158",
+        "kind": "Source",
+        "title": "Indian Kanoon, reproducing Supreme Court record of proceedings, 11 September 2017",
+        "state": null,
+        "url": "https://indiankanoon.org/doc/83982682/",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20261023074753/https://indiankanoon.org/doc/83982682/"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0159",
+        "kind": "Source",
+        "title": "Round Table India (Amar Khade, 23 March 2016)",
+        "state": null,
+        "url": "https://www.roundtableindia.co.in/?p=8521",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "https://web.archive.org/web/20261024072948/https://www.roundtableindia.co.in/what-happened-in-university-of-hyderabad-yesterday/"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0167",
+        "kind": "Source",
+        "title": "The News Minute (19 July 2016)",
+        "state": null,
+        "url": "https://www.thenewsminute.com/telangana/hyderabad-hc-asks-kcr-government-explain-police-brutality-hyd-uni-campus-46731",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "https://web.archive.org/web/20261024073019/https://www.thenewsminute.com/telangana/hyderabad-hc-asks-kcr-government-explain-police-brutality-hyd-uni-campus-46731"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0180",
+        "kind": "Source",
+        "title": "Outlook",
+        "state": null,
+        "url": "https://www.outlookindia.com/national/firs-against-1000-bhu-students-on-arson-charges-among-others-after-weekend-viole-news-302178",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20241108172108/https://www.outlookindia.com/national/firs-against-1000-bhu-students-on-arson-charges-among-others-after-weekend-viole-news-302178"
+          }
+        ]
+      }
+    ],
+    "summary": "4 records edited"
+  },
+  {
     "commit": "09c7f019ec",
     "date": "2026-10-23T07:50:23Z",
     "subject": "Sweep log and archived copies for 2026-10-23 [skip ci]",

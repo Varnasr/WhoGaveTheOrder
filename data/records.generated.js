@@ -12028,6 +12028,39 @@ WGO.importedSources = [
     "originatesFrom": null
   },
   {
+    "id": "SRC-1127",
+    "name": "Rediff (PTI), updated 24 Oct 2026 15:10 IST",
+    "kind": "SECONDARY",
+    "url": "https://www.rediff.com/news/report/cjp-protests-sc-panel-to-hear-evidence-on-pellet-gun-use/20261024.htm",
+    "retrievedOn": "2026-10-25",
+    "archiveUrl": null,
+    "archivedOn": null,
+    "sha256": null,
+    "originatesFrom": "PTI, citing officials"
+  },
+  {
+    "id": "SRC-1128",
+    "name": "The Tribune (Tribune News Service), updated 25 Oct 2026 00:09 IST",
+    "kind": "SECONDARY",
+    "url": "https://www.tribuneindia.com/news/india/jantar-mantar-violence-sc-panel-to-hear-evidence-on-pellet-gun-use-harassment-of-female-protesters/",
+    "retrievedOn": "2026-10-25",
+    "archiveUrl": null,
+    "archivedOn": null,
+    "sha256": null,
+    "originatesFrom": "PTI, citing officials"
+  },
+  {
+    "id": "SRC-1129",
+    "name": "India Today, 24 Oct 2026 13:10 IST",
+    "kind": "SECONDARY",
+    "url": "https://www.indiatoday.in/india/law-news/story/jantar-mantar-protest-violence-supreme-court-panel-hearing-october-29-30-ptag-3024078-2026-10-24",
+    "retrievedOn": "2026-10-25",
+    "archiveUrl": null,
+    "archivedOn": null,
+    "sha256": null,
+    "originatesFrom": "PTI, citing officials"
+  },
+  {
     "id": "SRC-0056",
     "name": "India Code",
     "kind": "PRIMARY",
@@ -37727,6 +37760,26 @@ WGO.importedEvidence = [
     "relatedIds": [],
     "accessNote": "",
     "volatility": "high"
+  },
+  {
+    "id": "PROC-SC-025",
+    "title": "The High Powered Enquiry Committee will hold a sitting at its office at Shiksha Sadan, 17 Rouse Avenue Institutional Area, New Delhi, on Thursday 29 October 202",
+    "type": "COURT_DOCUMENT",
+    "verification": "REPORTED",
+    "incidentId": "INC-0001",
+    "dateOfItem": null,
+    "dateAdded": "2026-10-25",
+    "sourceIds": [
+      "SRC-1127",
+      "SRC-1128",
+      "SRC-1129"
+    ],
+    "origin": "",
+    "establishes": "The date, the venue and the walk-in hours are the same in every version read. The length of the sitting changed. India Today, published 24 October 2026 at 13:10 IST and citing PTI, says a two-day sitting on 29 and 30 October. Rediff's copy of the PTI report, updated 24 October at 15:10 IST, says the officials first gave two days and later clarified that it is a day-long sitting on 29 October. The Tribune, updated 25 October at 00:09 IST, also gives 29 October only. This record follows the corrected version and keeps the earlier one here so that the change is on the record. The three outlets carry one account from officials, so this is one source and the state is REPORTED. The venue is the Committee's own office, whose address PROC-SC-017 holds from the Committee's website. The Committee's own notice of the sitting has not been read, because hpec.nic.in could not be reached from this archive's build environment on 25 October 2026. The upgrade to VERIFIED is that notice (OQ-067). A printed copy of the PTI text supplied by the archive owner, with the newspaper and date of publication not recorded, carries the one-day wording. The reports describe the sitting's purpose and the issues the Committee will examine. They say nothing about who authorised any force, and nothing in this record establishes that anyone did.",
+    "doesNotEstablish": "",
+    "relatedIds": [],
+    "accessNote": "",
+    "volatility": "high"
   }
 ];
 
@@ -39510,6 +39563,23 @@ WGO.importedQuestions = [
       "HIST-DEL26-019",
       "HIST-DEL26-022",
       "HIST-DEL26-024"
+    ],
+    "category": "legal_proceeding"
+  },
+  {
+    "id": "OQ-067",
+    "incidentId": "INC-0001",
+    "text": "Does the High Powered Enquiry Committee's own notice give the date, the hours and the venue of its sitting on 29 October 2026, and does it say whether the sitting continues on 30 October?",
+    "priority": "TIME_CRITICAL",
+    "whyItMatters": "PROC-SC-025 records the sitting from PTI's report of 24 October 2026, which changed from two days to one within hours. The Committee's own notice would settle the length and would lift the item from REPORTED to VERIFIED. It matters now because the report invites affected persons to walk in on the day, and a person deciding whether to go should be told what the Committee itself says. hpec.nic.in could not be reached from this archive's build environment on 25 October 2026, so the notice was not read.",
+    "lawfulRoute": "Read the public notice on hpec.nic.in (Supreme Court Orders and home pages) from an ordinary connection, or ask the Member Secretary through the contact details on the Committee's site (PROC-SC-017).",
+    "state": "UNANSWERED",
+    "wants": [
+      "Read the public notice on hpec.nic.in (Supreme Court Orders and home pages) from an ordinary connection, or ask the Member Secretary through the contact details on the Committee's site (PROC-SC-017)."
+    ],
+    "evidenceIds": [],
+    "blocks": [
+      "PROC-SC-025"
     ],
     "category": "legal_proceeding"
   }

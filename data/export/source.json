@@ -12023,6 +12023,39 @@
     "archiveUrl": null
   },
   {
+    "id": "SRC-1127",
+    "kind": "Source",
+    "title": "Rediff (PTI), updated 24 Oct 2026 15:10 IST",
+    "state": null,
+    "url": "https://www.rediff.com/news/report/cjp-protests-sc-panel-to-hear-evidence-on-pellet-gun-use/20261024.htm",
+    "publisher": null,
+    "retrievedOn": "2026-10-25",
+    "sha256": null,
+    "archiveUrl": null
+  },
+  {
+    "id": "SRC-1128",
+    "kind": "Source",
+    "title": "The Tribune (Tribune News Service), updated 25 Oct 2026 00:09 IST",
+    "state": null,
+    "url": "https://www.tribuneindia.com/news/india/jantar-mantar-violence-sc-panel-to-hear-evidence-on-pellet-gun-use-harassment-of-female-protesters/",
+    "publisher": null,
+    "retrievedOn": "2026-10-25",
+    "sha256": null,
+    "archiveUrl": null
+  },
+  {
+    "id": "SRC-1129",
+    "kind": "Source",
+    "title": "India Today, 24 Oct 2026 13:10 IST",
+    "state": null,
+    "url": "https://www.indiatoday.in/india/law-news/story/jantar-mantar-protest-violence-supreme-court-panel-hearing-october-29-30-ptag-3024078-2026-10-24",
+    "publisher": null,
+    "retrievedOn": "2026-10-25",
+    "sha256": null,
+    "archiveUrl": null
+  },
+  {
     "id": "SRC-0056",
     "kind": "Source",
     "title": "India Code",

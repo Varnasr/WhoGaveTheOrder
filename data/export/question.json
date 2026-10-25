@@ -642,5 +642,15 @@
     "incidentId": "INC-0001",
     "level": null,
     "evidenceIds": []
+  },
+  {
+    "id": "OQ-067",
+    "kind": "Question",
+    "title": "Does the High Powered Enquiry Committee's own notice give the date, the hours and the venue of its sitting on 29 October 2026, and does it say whether the sitting continues on 30 October?",
+    "state": "UNANSWERED",
+    "url": "https://www.whogavetheorder.in/incident/jantar-mantar.html#OQ-067",
+    "incidentId": "INC-0001",
+    "level": null,
+    "evidenceIds": []
   }
 ]

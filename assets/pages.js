@@ -1083,6 +1083,102 @@
   };
 
   /* ======================================================================= *
+     EVENTS
+     -----------------------------------------------------------------------
+     Whether an entry is coming up or past is decided here, in the browser, from
+     the date in India on the day it is read. Nothing stored says "upcoming":
+     a stored flag goes stale the morning after, which is the one thing a
+     calendar of court dates cannot afford. The state chip comes from the
+     evidence record behind the entry, so an entry cannot read stronger than its
+     evidence.
+     ======================================================================= */
+
+  var DAYS = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+  var MONTHS = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August',
+    'September', 'October', 'November', 'December'];
+
+  function longDate(iso) {
+    var d = new Date(iso + 'T00:00:00Z');
+    return DAYS[d.getUTCDay()] + ' ' + d.getUTCDate() + ' ' + MONTHS[d.getUTCMonth()] + ' ' + d.getUTCFullYear();
+  }
+
+  /* The date in India, whatever the reader's own clock says. */
+  function todayInIndia() {
+    return new Date(Date.now() + 330 * 60000).toISOString().slice(0, 10);
+  }
+
+  function calendarItem(c, today) {
+    var last = c.endDate || c.date;
+    var lead = model.evidenceItem((c.evidenceIds || [])[0]);
+    var state = lead ? lead.verification : 'UNKNOWN';
+    var underWay = c.date <= today && today <= last;
+    var when = longDate(c.date) + (c.endDate ? ' to ' + longDate(c.endDate) : '') +
+      (underWay ? ' (today)' : '');
+    var incidents = (c.incidentIds || []).map(function (id) {
+      var inc = model.incident(id);
+      return inc
+        ? '<a class="chip chip--plain" href="incident/' + ui.esc(inc.slug) + '.html">' + ui.esc(inc.id) + '</a>'
+        : ui.plainChip(id);
+    }).join(' ');
+
+    var quotes = (c.quotes || []).length
+      ? ui.explainer('The words of the source',
+          c.quotes.map(function (q) {
+            return '<blockquote class="official">' + ui.esc(q.text) +
+              '<cite>' + ui.esc(q.outlet) + '</cite></blockquote>';
+          }).join(''))
+      : '';
+
+    return '<li data-state="' + ui.esc(state) + '" id="' + ui.esc(c.id) + '">' +
+      '<span class="timeline__time">' + ui.esc(when) + '</span>' +
+      '<p class="timeline__title">' + ui.esc(c.title) + '</p>' +
+      '<div class="row">' +
+        ui.idChip(c.id) +
+        ui.plainChip(WGO.CALENDAR_KINDS[c.kind] || c.kind) +
+        ui.chip(state) + ' ' + incidents +
+      '</div>' +
+      '<p style="margin-top:0.5rem">' + ui.esc(c.what) + '</p>' +
+      (c.time ? '<p class="small"><strong>Hours.</strong> ' + ui.esc(c.time) + '</p>' : '') +
+      '<p class="small"><strong>Place.</strong> ' + ui.esc(c.place) + '</p>' +
+      (c.dateNote ? '<p class="small"><strong>About the date.</strong> ' + ui.esc(c.dateNote) + '</p>' : '') +
+      quotes +
+      '<div class="row" style="margin-top:0.5rem">' + ui.sourceLine(lead ? lead.sourceIds : []) + '</div>' +
+      ui.evidenceLinks(c.evidenceIds, 'No evidence record is attached.') +
+    '</li>';
+  }
+
+  pages.events = function () {
+    var today = todayInIndia();
+    var all = (WGO.calendar || []).slice();
+    var last = function (c) { return c.endDate || c.date; };
+
+    var next = all.filter(function (c) { return last(c) >= today; })
+      .sort(function (a, b) { return a.date < b.date ? -1 : a.date > b.date ? 1 : 0; });
+    var past = all.filter(function (c) { return last(c) < today; })
+      .sort(function (a, b) { return a.date < b.date ? 1 : a.date > b.date ? -1 : 0; });
+    var verified = all.filter(function (c) {
+      var lead = model.evidenceItem((c.evidenceIds || [])[0]);
+      return lead && lead.verification === 'VERIFIED';
+    }).length;
+
+    ui.mount('[data-region="calendar-counts"]',
+      '<div><b>' + next.length + '</b><span>Coming up or under way</span></div>' +
+      '<div><b>' + past.length + '</b><span>Past</span></div>' +
+      '<div><b>' + verified + '</b><span>Held at Verified</span></div>');
+
+    ui.mount('[data-region="calendar-next"]',
+      next.length
+        ? '<ul class="timeline">' + next.map(function (c) { return calendarItem(c, today); }).join('') + '</ul>'
+        : ui.empty('Nothing coming up is on the record',
+            'No sitting, hearing or order date still to come has been found in a source this archive holds. That is a statement about what we have read.'));
+
+    ui.mount('[data-region="calendar-past"]',
+      past.length
+        ? '<ul class="timeline">' + past.map(function (c) { return calendarItem(c, today); }).join('') + '</ul>'
+        : ui.empty('No past entries', 'Nothing dated in the past has been entered yet.'));
+  };
+
+  /* ======================================================================= *
      BOOT
      ======================================================================= */
 

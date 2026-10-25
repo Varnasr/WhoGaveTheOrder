@@ -71,6 +71,7 @@ map tiles and the Netlify Forms submission endpoints.
 | `investigations.html` | Investigation index and the incident map |
 | `incident/<slug>.html` | The five-section incident page: what happened, what evidence exists, has anyone said who authorised it, what remains unknown, what would close the gap |
 | `evidence.html` | Evidence library; `?id=WGO-0001` renders a single evidence record |
+| `events.html` | Events: court hearings, orders and committee sittings on police use of force, coming up and past, from `data/calendar.js`. Each entry takes its state from the evidence record behind it, and coming up or past is decided in the browser from the date in India |
 | `letters.html` | The four Bihar preservation representations, composed and opened in a mail window |
 | `submit.html` | Submission form, the gap list, and the public demand |
 | `others.html` | Index of other people's investigations, credited to them |

@@ -37595,5 +37595,42 @@
     ],
     "notes": "Three outlets agree on the extension and the two days; they differ on who the magistrate is (LiveLaw's background names Mahesh Kumar Meena for 14 October only; The Tribune says newly appointed). A forwarded WhatsApp message circulating on 19 October says Delhi Police wanted five days 'because of fear of protest call during festive season'. None of the four reports read states the days police sought or a festive-season ground, so that is not recorded as fact. The order has not been seen.",
     "added_on": "2026-10-19"
+  },
+  {
+    "id": "PROC-SC-025",
+    "jurisdiction": "supreme_court",
+    "category": "legal_proceeding",
+    "claim": "The High Powered Enquiry Committee will hold a sitting at its office at Shiksha Sadan, 17 Rouse Avenue Institutional Area, New Delhi, on Thursday 29 October 2026, with proceedings from 11 am, to hear affected persons and record evidence on the alleged use of pellet guns and the harassment of female protesters during the July Jantar Mantar protests. Members of the public and anyone affected by the violence can walk in between 11.30 am and 3 pm on 29 October, with valid identity documentation, to submit complaints or representations or to present evidence. PTI reports this on 24 October 2026, citing officials. The Committee will also examine targeted violence, excessive force, and property damage on both sides.",
+    "confidence": "REPORTED",
+    "sources": [
+      {
+        "url": "https://www.rediff.com/news/report/cjp-protests-sc-panel-to-hear-evidence-on-pellet-gun-use/20261024.htm",
+        "source_type": "secondary",
+        "publication": "Rediff (PTI), updated 24 Oct 2026 15:10 IST",
+        "retrieved_on": "2026-10-25",
+        "originates_from": "PTI, citing officials",
+        "note": "Read in full. Carries the correction from two days to one."
+      },
+      {
+        "url": "https://www.tribuneindia.com/news/india/jantar-mantar-violence-sc-panel-to-hear-evidence-on-pellet-gun-use-harassment-of-female-protesters/",
+        "source_type": "secondary",
+        "publication": "The Tribune (Tribune News Service), updated 25 Oct 2026 00:09 IST",
+        "retrieved_on": "2026-10-25",
+        "originates_from": "PTI, citing officials",
+        "note": "Read in full. The body gives 29 October only and says 'sources said'. The page's own metadata description still carries the earlier two-day wording."
+      },
+      {
+        "url": "https://www.indiatoday.in/india/law-news/story/jantar-mantar-protest-violence-supreme-court-panel-hearing-october-29-30-ptag-3024078-2026-10-24",
+        "source_type": "secondary",
+        "publication": "India Today, 24 Oct 2026 13:10 IST",
+        "retrieved_on": "2026-10-25",
+        "originates_from": "PTI, citing officials",
+        "note": "Read in full. Gives the earlier two-day version, 29 and 30 October. Kept as the record of what was first reported."
+      }
+    ],
+    "notes": "The date, the venue and the walk-in hours are the same in every version read. The length of the sitting changed. India Today, published 24 October 2026 at 13:10 IST and citing PTI, says a two-day sitting on 29 and 30 October. Rediff's copy of the PTI report, updated 24 October at 15:10 IST, says the officials first gave two days and later clarified that it is a day-long sitting on 29 October. The Tribune, updated 25 October at 00:09 IST, also gives 29 October only. This record follows the corrected version and keeps the earlier one here so that the change is on the record. The three outlets carry one account from officials, so this is one source and the state is REPORTED. The venue is the Committee's own office, whose address PROC-SC-017 holds from the Committee's website. The Committee's own notice of the sitting has not been read, because hpec.nic.in could not be reached from this archive's build environment on 25 October 2026. The upgrade to VERIFIED is that notice (OQ-067). A printed copy of the PTI text supplied by the archive owner, with the newspaper and date of publication not recorded, carries the one-day wording. The reports describe the sitting's purpose and the issues the Committee will examine. They say nothing about who authorised any force, and nothing in this record establishes that anyone did.",
+    "volatility": "high",
+    "incident": "INC-0001",
+    "added_on": "2026-10-25"
   }
 ]
