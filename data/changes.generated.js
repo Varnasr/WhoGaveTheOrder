@@ -5,6 +5,51 @@ window.WGO = window.WGO || {};
 
 WGO.changes = [
   {
+    "commit": "b29e1fe452",
+    "date": "2026-10-25T05:21:33Z",
+    "subject": "Add an events page for court hearings, orders and committee sittings",
+    "added": [
+      {
+        "id": "PROC-SC-025",
+        "kind": "Evidence",
+        "title": "The High Powered Enquiry Committee will hold a sitting at its office at Shiksha Sadan, 17 Rouse Avenue Institutional Area, New Delhi, on Thursday 29 October 202",
+        "state": "REPORTED",
+        "url": "evidence.html?id=PROC-SC-025"
+      },
+      {
+        "id": "SRC-1127",
+        "kind": "Source",
+        "title": "Rediff (PTI), updated 24 Oct 2026 15:10 IST",
+        "state": null,
+        "url": "https://www.rediff.com/news/report/cjp-protests-sc-panel-to-hear-evidence-on-pellet-gun-use/20261024.htm"
+      },
+      {
+        "id": "SRC-1128",
+        "kind": "Source",
+        "title": "The Tribune (Tribune News Service), updated 25 Oct 2026 00:09 IST",
+        "state": null,
+        "url": "https://www.tribuneindia.com/news/india/jantar-mantar-violence-sc-panel-to-hear-evidence-on-pellet-gun-use-harassment-of-female-protesters/"
+      },
+      {
+        "id": "SRC-1129",
+        "kind": "Source",
+        "title": "India Today, 24 Oct 2026 13:10 IST",
+        "state": null,
+        "url": "https://www.indiatoday.in/india/law-news/story/jantar-mantar-protest-violence-supreme-court-panel-hearing-october-29-30-ptag-3024078-2026-10-24"
+      },
+      {
+        "id": "OQ-067",
+        "kind": "Question",
+        "title": "Does the High Powered Enquiry Committee's own notice give the date, the hours and the venue of its sitting on 29 October 2026, and does it say whether the sitting continues on 30 October?",
+        "state": "UNANSWERED",
+        "url": "incident/jantar-mantar.html#OQ-067"
+      }
+    ],
+    "removed": [],
+    "changed": [],
+    "summary": "5 records added"
+  },
+  {
     "commit": "858b964048",
     "date": "2026-10-24T07:33:06Z",
     "subject": "Sweep log and archived copies for 2026-10-24 [skip ci]",

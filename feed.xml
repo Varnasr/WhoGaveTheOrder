@@ -3,10 +3,19 @@
   <title>WhoGaveTheOrder.in: changes to the record</title>
   <subtitle>Every record that has been added, moved between states, or edited.</subtitle>
   <id>tag:whogavetheorder.in,2026:feed</id>
-  <updated>2026-10-24T07:33:06Z</updated>
+  <updated>2026-10-25T05:21:33Z</updated>
   <link href="https://www.whogavetheorder.in/"/>
   <link rel="self" href="https://www.whogavetheorder.in/feed.xml"/>
   <rights>Reuse with attribution</rights>
+  <entry>
+    <title>5 records added</title>
+    <id>tag:whogavetheorder.in,2026:change/b29e1fe452</id>
+    <updated>2026-10-25T05:21:33Z</updated>
+    <link href="https://www.whogavetheorder.in/changes.html#b29e1fe452"/>
+    <content type="html">
+      &lt;p&gt;Add an events page for court hearings, orders and committee sittings&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Added Evidence PROC-SC-025: The High Powered Enquiry Committee will hold a sitting at its office at Shiksha Sadan, 17 Rouse Avenue Institutional Area, New Delhi, on Thursday 29 October 202&lt;/li&gt;&lt;li&gt;Added Source SRC-1127: Rediff (PTI), updated 24 Oct 2026 15:10 IST&lt;/li&gt;&lt;li&gt;Added Source SRC-1128: The Tribune (Tribune News Service), updated 25 Oct 2026 00:09 IST&lt;/li&gt;&lt;li&gt;Added Source SRC-1129: India Today, 24 Oct 2026 13:10 IST&lt;/li&gt;&lt;li&gt;Added Question OQ-067: Does the High Powered Enquiry Committee&apos;s own notice give the date, the hours and the venue of its sitting on 29 October 2026, and does it say whether the sitting continues on 30 October?&lt;/li&gt;&lt;/ul&gt;
+    </content>
+  </entry>
   <entry>
     <title>4 records edited</title>
     <id>tag:whogavetheorder.in,2026:change/858b964048</id>
@@ -446,15 +455,6 @@
     <link href="https://www.whogavetheorder.in/changes.html#5d97611dc9"/>
     <content type="html">
       &lt;p&gt;Sweep log and archived copies for 2026-09-25 [skip ci]&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Edited Source SRC-0092: The Week&lt;/li&gt;&lt;li&gt;Edited Source SRC-0094: Mumbai Live&lt;/li&gt;&lt;li&gt;Edited Source SRC-0089: LawChakra&lt;/li&gt;&lt;li&gt;Edited Source SRC-0095: The Wire&lt;/li&gt;&lt;li&gt;Edited Source SRC-0097: ThePrint&lt;/li&gt;&lt;li&gt;Edited Source SRC-0098: LiveLaw&lt;/li&gt;&lt;li&gt;Edited Source SRC-0099: The Federal&lt;/li&gt;&lt;li&gt;Edited Source SRC-0100: Internet Freedom Foundation&lt;/li&gt;&lt;li&gt;Edited Source SRC-0101: India TV&lt;/li&gt;&lt;/ul&gt;
-    </content>
-  </entry>
-  <entry>
-    <title>4 records edited</title>
-    <id>tag:whogavetheorder.in,2026:change/3b101acd19</id>
-    <updated>2026-09-24T07:44:49Z</updated>
-    <link href="https://www.whogavetheorder.in/changes.html#3b101acd19"/>
-    <content type="html">
-      &lt;p&gt;Sweep log and archived copies for 2026-09-24 [skip ci]&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Edited Source SRC-0085: Communications Today&lt;/li&gt;&lt;li&gt;Edited Source SRC-0087: National Herald&lt;/li&gt;&lt;li&gt;Edited Source SRC-0088: Free Press Journal&lt;/li&gt;&lt;li&gt;Edited Source SRC-0096: JURIST&lt;/li&gt;&lt;/ul&gt;
     </content>
   </entry>
 </feed>
