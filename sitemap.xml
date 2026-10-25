@@ -469,6 +469,10 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://www.whogavetheorder.in/events.html</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://www.whogavetheorder.in/evidence.html</loc>
     <priority>0.6</priority>
   </url>

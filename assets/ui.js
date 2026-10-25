@@ -513,6 +513,7 @@
             '<div><h4>' + ui.esc(ui.t('footer.investigation', 'The record')) + '</h4><ul>' +
               '<li>' + fl('investigations.html', 'Investigations') + '</li>' +
               '<li>' + fl('evidence.html', 'Evidence library') + '</li>' +
+              '<li>' + fl('events.html', 'Events') + '</li>' +
               '<li>' + fl('others.html', 'Others are investigating') + '</li>' +
             '</ul></div>' +
             '<div><h4>' + ui.esc(ui.t('footer.archive', 'The archive')) + '</h4><ul>' +

@@ -28,6 +28,7 @@ const SCRIPTS = [
   'data/taxonomy.js',
   'data/records.js',
   'data/records.generated.js',
+  'data/calendar.js',
   'data/samples.js',
   'assets/model.js'
 ];

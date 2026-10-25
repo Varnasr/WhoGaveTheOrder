@@ -734,6 +734,55 @@
       }
     });
 
+    /* The calendar lists when a court or a committee sits or ruled, and takes
+       its state from the evidence record behind each entry. An entry with no
+       such record would be a date asserted with nothing under it. */
+    var calendarIds = {};
+    var isoDate = /^\d{4}-\d{2}-\d{2}$/;
+    (WGO.calendar || []).forEach(function (c) {
+      if (!/^CAL-\d{4}$/.test(c.id || '')) {
+        problem('error', c.id || '(no id)', 'id', c.id, 'Calendar ids are CAL-NNNN.');
+      }
+      if (calendarIds[c.id]) {
+        problem('error', c.id, 'id', c.id, 'Duplicate calendar id.');
+      }
+      calendarIds[c.id] = true;
+
+      if (!isoDate.test(c.date || '') || isNaN(new Date(c.date + 'T00:00:00Z').getTime())) {
+        problem('error', c.id, 'date', c.date, 'Not an ISO date.');
+      }
+      if (c.endDate && (!isoDate.test(c.endDate) || c.endDate < c.date)) {
+        problem('error', c.id, 'endDate', c.endDate, 'Not an ISO date on or after the first day.');
+      }
+      if (!(WGO.CALENDAR_KINDS || {})[c.kind]) {
+        problem('error', c.id, 'kind', c.kind, 'Not a key of WGO.CALENDAR_KINDS.');
+      }
+      ['title', 'place', 'what'].forEach(function (field) {
+        if (!c[field] || !String(c[field]).trim()) {
+          problem('error', c.id, field, null, 'Calendar entries need a ' + field + '.');
+        }
+      });
+      if (!(c.evidenceIds || []).length) {
+        problem('error', c.id, 'evidenceIds', null,
+          'A calendar entry with no evidence record behind it is a date with no source.');
+      }
+      (c.evidenceIds || []).forEach(function (id) {
+        if (!model.index.evidence[id]) {
+          problem('error', c.id, 'evidenceIds', id, 'Names an evidence record that does not exist.');
+        }
+      });
+      (c.incidentIds || []).forEach(function (id) {
+        if (!model.index.incident[id]) {
+          problem('error', c.id, 'incidentIds', id, 'Names an incident that does not exist.');
+        }
+      });
+      (c.quotes || []).forEach(function (q) {
+        if (!q || !q.outlet || !q.text) {
+          problem('error', c.id, 'quotes', null, 'A quote needs the outlet and the exact words.');
+        }
+      });
+    });
+
     return problems;
   };
 
