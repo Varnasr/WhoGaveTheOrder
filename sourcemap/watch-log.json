@@ -630,6 +630,17 @@
         "unreachable": 1,
         "ok": 5
       }
+    },
+    {
+      "date": "2026-10-25",
+      "targets": 9,
+      "findings": 9,
+      "outcomes": {
+        "nothing-published": 1,
+        "matched": 2,
+        "unreachable": 1,
+        "ok": 5
+      }
     }
   ],
   "seen": {
@@ -639,13 +650,13 @@
       "method": "pdf-text"
     },
     "delhi-hc-judgments": {
-      "fingerprint": "1e5bbb6c9ee05846",
-      "lastChecked": "2026-10-24",
+      "fingerprint": "3da052cd29134268",
+      "lastChecked": "2026-10-25",
       "method": "html"
     },
     "nhrc-press": {
       "fingerprint": "8c2ae1a41fbdc6cc",
-      "lastChecked": "2026-10-24",
+      "lastChecked": "2026-10-25",
       "method": "html"
     },
     "barandbench": {
@@ -1451,16 +1462,10 @@
         "3fc92f5e6d69e72c",
         "f85bf07a81395482"
       ],
-      "lastChecked": "2026-10-24"
+      "lastChecked": "2026-10-25"
     },
     "news-delhi": {
       "items": [
-        "ff94279bd2b732bd",
-        "6b0c3962d617ae61",
-        "a5994266daac066e",
-        "bafe291af6b84937",
-        "90431310bcd261c3",
-        "762609b116e37f2d",
         "1a6706b6e521aca9",
         "126efce20d799d42",
         "ffcd4b5ac56a3141",
@@ -2254,9 +2259,15 @@
         "020455a8af9727c8",
         "04ffbdb87581c0b0",
         "ef4846406c9281a9",
-        "c0a4f1738ca50589"
+        "c0a4f1738ca50589",
+        "92200ef92128c65e",
+        "ab1506e166855ecf",
+        "e42bc608ac1afbcd",
+        "71e4e7d5d072b7e9",
+        "e0ec98cb8f11d274",
+        "564a536845782c2b"
       ],
-      "lastChecked": "2026-10-24"
+      "lastChecked": "2026-10-25"
     },
     "news-cases": {
       "items": [
@@ -2457,9 +2468,10 @@
         "919adc83fe0147d1",
         "52865d9d0855934b",
         "a22ad858be499d82",
-        "7b16d20ddf6994bd"
+        "7b16d20ddf6994bd",
+        "359f0a073d2ea848"
       ],
-      "lastChecked": "2026-10-24"
+      "lastChecked": "2026-10-25"
     },
     "news-frt": {
       "items": [
@@ -2749,9 +2761,10 @@
         "9fa0a6faa408db88",
         "78ac26d76358d71d",
         "b9ebd73205943974",
-        "a41fdd87315ac797"
+        "a41fdd87315ac797",
+        "6329a048ad8ead44"
       ],
-      "lastChecked": "2026-10-24"
+      "lastChecked": "2026-10-25"
     },
     "news-bihar": {
       "items": [
@@ -3109,9 +3122,10 @@
         "8f886e02ba3f9777",
         "51e84c7f9f1bacb4",
         "80a1e3c2259ad6e3",
-        "411e679b374c3e71"
+        "411e679b374c3e71",
+        "6209cca200fec741"
       ],
-      "lastChecked": "2026-10-24"
+      "lastChecked": "2026-10-25"
     }
   }
 }

@@ -1550,8 +1550,8 @@ WGO.importedSources = [
     "kind": "SECONDARY",
     "url": "https://thequint.com/photos/in-pictures-hyderabad-central-university-students-clash-with-cops",
     "retrievedOn": "2026-10-10",
-    "archiveUrl": null,
-    "archivedOn": null,
+    "archiveUrl": "https://web.archive.org/web/20261025074345/https://www.thequint.com/photos/in-pictures-hyderabad-central-university-students-clash-with-cops",
+    "archivedOn": "2026-10-25",
     "sha256": null,
     "originatesFrom": null
   },
@@ -1693,8 +1693,8 @@ WGO.importedSources = [
     "kind": "SECONDARY",
     "url": "https://www.aajtak.in/india/story/bhu-student-protest-police-lathicharge-probe-yogi-adityanath-congress-student-hostels-464091-2017-09-25",
     "retrievedOn": "2026-10-10",
-    "archiveUrl": null,
-    "archivedOn": null,
+    "archiveUrl": "http://web.archive.org/web/20250515132420/https://www.aajtak.in/india/story/bhu-student-protest-police-lathicharge-probe-yogi-adityanath-congress-student-hostels-464091-2017-09-25",
+    "archivedOn": "2026-10-25",
     "sha256": null,
     "originatesFrom": null
   },
@@ -1726,8 +1726,8 @@ WGO.importedSources = [
     "kind": "SECONDARY",
     "url": "https://www.easternmirrornagaland.com/fir-against-1000-students-for-bhu-violence",
     "retrievedOn": "2026-10-10",
-    "archiveUrl": null,
-    "archivedOn": null,
+    "archiveUrl": "http://web.archive.org/web/20230330143919/https://easternmirrornagaland.com/fir-against-1000-students-for-bhu-violence/",
+    "archivedOn": "2026-10-25",
     "sha256": null,
     "originatesFrom": null
   },
