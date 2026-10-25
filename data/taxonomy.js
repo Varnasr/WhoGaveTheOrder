@@ -343,6 +343,7 @@ WGO.LETTERS_FOR_INCIDENT = {
 WGO.NAV = [
   { href: 'investigations.html', label: 'Incidents' },
   { href: 'evidence.html',       label: 'Documents' },
+  { href: 'events.html',         label: 'Events' },
   { href: 'letters.html',        label: 'Ask for the records' },
   { href: 'submit.html',         label: 'Add a document' },
   { href: 'about.html',          label: 'About' }

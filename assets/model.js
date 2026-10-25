@@ -507,6 +507,18 @@
       });
     });
 
+    /* The calendar, so a reader who searches a court date or a committee name
+       finds the entry. The state is the evidence record's, as on the page. */
+    (WGO.calendar || []).forEach(function (c) {
+      var lead = model.index.evidence[(c.evidenceIds || [])[0]];
+      docs.push({
+        id: c.id, kind: 'Event', title: c.title, subtitle: c.date + ', ' + c.place,
+        state: lead ? lead.verification : 'UNKNOWN',
+        url: 'events.html#' + c.id,
+        text: docText(c.id, c.title, c.what, c.place, c.date, (c.evidenceIds || []).join(' '))
+      });
+    });
+
     model.external.forEach(function (x) {
       docs.push({
         id: x.id, kind: 'External work', title: x.title, subtitle: x.creator, demo: x.demo,
