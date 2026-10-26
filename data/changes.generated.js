@@ -5,6 +5,58 @@ window.WGO = window.WGO || {};
 
 WGO.changes = [
   {
+    "commit": "917ccabc6f",
+    "date": "2026-10-25T07:47:01Z",
+    "subject": "Sweep log and archived copies for 2026-10-25 [skip ci]",
+    "added": [],
+    "removed": [],
+    "changed": [
+      {
+        "id": "SRC-0168",
+        "kind": "Source",
+        "title": "The Quint (25 March 2016)",
+        "state": null,
+        "url": "https://thequint.com/photos/in-pictures-hyderabad-central-university-students-clash-with-cops",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "https://web.archive.org/web/20261025074345/https://www.thequint.com/photos/in-pictures-hyderabad-central-university-students-clash-with-cops"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0181",
+        "kind": "Source",
+        "title": "Aaj Tak",
+        "state": null,
+        "url": "https://www.aajtak.in/india/story/bhu-student-protest-police-lathicharge-probe-yogi-adityanath-congress-student-hostels-464091-2017-09-25",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20250515132420/https://www.aajtak.in/india/story/bhu-student-protest-police-lathicharge-probe-yogi-adityanath-congress-student-hostels-464091-2017-09-25"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0184",
+        "kind": "Source",
+        "title": "Eastern Mirror (PTI)",
+        "state": null,
+        "url": "https://www.easternmirrornagaland.com/fir-against-1000-students-for-bhu-violence",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20230330143919/https://easternmirrornagaland.com/fir-against-1000-students-for-bhu-violence/"
+          }
+        ]
+      }
+    ],
+    "summary": "3 records edited"
+  },
+  {
     "commit": "0858a0e6c2",
     "date": "2026-10-25T05:29:38Z",
     "subject": "Add an events page for court hearings, orders and committee sittings (#93)",

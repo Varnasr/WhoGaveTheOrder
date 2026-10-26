@@ -1594,8 +1594,8 @@ WGO.importedSources = [
     "kind": "SECONDARY",
     "url": "https://www.outlookindia.com/national/yogi-adityanath-orders-probe-into-bhu-violence-news-302168",
     "retrievedOn": "2026-10-10",
-    "archiveUrl": null,
-    "archivedOn": null,
+    "archiveUrl": "http://web.archive.org/web/20261025074425/https://www.outlookindia.com/national/yogi-adityanath-orders-probe-into-bhu-violence-news-302168",
+    "archivedOn": "2026-10-26",
     "sha256": null,
     "originatesFrom": null
   },
@@ -1649,8 +1649,8 @@ WGO.importedSources = [
     "kind": "SECONDARY",
     "url": "https://www.nationalheraldindia.com/amp/story/campus/bhu-vc-tries-to-downplay-the-incident-commissioner-blames-uni-for-mishandling-the-situation",
     "retrievedOn": "2026-10-10",
-    "archiveUrl": null,
-    "archivedOn": null,
+    "archiveUrl": "https://web.archive.org/web/20261026075851/https://www.nationalheraldindia.com/amp/story/campus/bhu-vc-tries-to-downplay-the-incident-commissioner-blames-uni-for-mishandling-the-situation",
+    "archivedOn": "2026-10-26",
     "sha256": null,
     "originatesFrom": null
   },
@@ -1737,8 +1737,8 @@ WGO.importedSources = [
     "kind": "SECONDARY",
     "url": "https://livewire.thewire.in/campus/a-year-ago-bhu-students-protested-against-the-administration-now-theyre-getting-debarred/",
     "retrievedOn": "2026-10-10",
-    "archiveUrl": null,
-    "archivedOn": null,
+    "archiveUrl": "http://web.archive.org/web/20230207213925/https://livewire.thewire.in/campus/a-year-ago-bhu-students-protested-against-the-administration-now-theyre-getting-debarred/",
+    "archivedOn": "2026-10-26",
     "sha256": null,
     "originatesFrom": null
   },
@@ -1759,8 +1759,8 @@ WGO.importedSources = [
     "kind": "SECONDARY",
     "url": "https://scroll.in/latest/956412/jamia-violence-forced-to-enter-university-to-rescue-innocent-students-say-delhi-police",
     "retrievedOn": "2026-10-10",
-    "archiveUrl": null,
-    "archivedOn": null,
+    "archiveUrl": "http://web.archive.org/web/20250126112324/https://scroll.in/latest/956412/jamia-violence-forced-to-enter-university-to-rescue-innocent-students-say-delhi-police",
+    "archivedOn": "2026-10-26",
     "sha256": null,
     "originatesFrom": "Delhi Police action taken report filed in a Delhi magistrate's court, 16 March 2020"
   },
