@@ -1,15 +1,15 @@
-Sweep 2026-10-25: 9 targets, 175 watch terms.
+Sweep 2026-10-26: 9 targets, 175 watch terms.
   nothing-published  delhi-hc-causelist
   matched            delhi-hc-judgments
   matched            nhrc-press
   unreachable        eparlib
-  ok                 barandbench  0 item(s), 0 matched
-  ok                 news-delhi  100 item(s), 6 matched
-  ok                 news-cases  47 item(s), 0 matched
-  ok                 news-frt  100 item(s), 1 matched
+  ok                 barandbench  16 item(s), 1 matched
+  ok                 news-delhi  100 item(s), 4 matched
+  ok                 news-cases  46 item(s), 0 matched
+  ok                 news-frt  51 item(s), 0 matched
   ok                 news-bihar  100 item(s), 0 matched
 
-9 thing(s) to look at:
+7 thing(s) to look at:
 
 · [CHANGED_MATCH] Delhi High Court, latest judgments
   https://delhihighcourt.nic.in/web/judgement/fetch-data
@@ -19,38 +19,28 @@ Sweep 2026-10-25: 9 targets, 175 watch terms.
   https://eparlib.sansad.in/
   fetch failed
 
-· [NEW_ITEM] News: Jantar Mantar and the police action
-  Jantar Mantar protests: SC panel to hear evidence on pellet gun use, harassment of female protesters - The New Indian Express
-  https://news.google.com/rss/articles/CBMioAJBVV95cUxQNmdTQzdYUlhpTmYxTlhhSlRob08zdHdMNnJDeFdOOUdHTTFGSDlTTVNtRF9SMVRtRndseW5jaW1DRDczLTQxTUp1RzVicVp6VUQ0a2RKeko3S3hDUWlWdmIwOU5zQ1A0OElRUmFxUWNDOWhkV1JDOXBYQnUzLWlkckxxSlQtTlRNaWRYLUJhQmVrWTlyT0lQazFEczdBbEQ2SXRYeTBWbkNvMTVxengzLUVaSkN2N2VGek9qcEpVMXVUMFNLRHhXOFBmZzItQWlYeURCcG8xaEtsQlZkcUE2enk5a2JNd2hCZmdfMjN3dlRqc2UzZlNBSm8xb2FpRF9uOWJEa2hpZlRtOFNSaXNNWWMzYlM4ZFpDWXlERVJkR2jSAfABQVVfeXFMTUtnaUJwb0tGY3NaUU0zQ3JzRGVaTEtfYTlRanBHSlp6ZTBZM0R0TDZEVWVNUjlfN19EcTc4aWRkVG1WX2dXQkhIRVM3WjBubFBleUM4cHFKczIzeFFtMUJkYWUyOWlKQlpUZXpNbzdCbmNaQzk2UGxnREdQYU03YjJ6aHFTR0dOelRCbHhCcnhsLTdyWXNaRTVUY0QtV1hnV0ZtZHV0NUgyN1JTalYzQk9GaUJwTDA5SzJpellnOFY2bkN2UTd4MjBCQ1c3R05QaGhhNjRUOV9tb1dzWms1WmI2MmlRWXhXU1VwTmJnWXFp?oc=5
-  matched: Jantar Mantar, pellet gun
+· [NEW_ITEM] Bar & Bench
+  Bengaluru Court orders Kannada news channel to pay ₹1 lakh for defaming Karnataka Bank
+  https://www.barandbench.com/news/litigation/bengaluru-court-orders-kannada-news-channel-to-pay-1-lakh-for-defaming-karnataka-bank
+  matched: Bengaluru
 
 · [NEW_ITEM] News: Jantar Mantar and the police action
-  Supreme Court panel to hear Jantar Mantar violence claims on October 29-30 - India Today
-  https://news.google.com/rss/articles/CBMi2wFBVV95cUxQWE9neHNkcnplQXdSYUlZZDVWTU5GeDV0cEF2T0F5c2xoRVI3djQwWG9YcDJsdjVVQ1NYODlJSl9VSjBucXppenhVRl83UjdZUDg2WEQtUE5ia2wyaW4taWdDREFickJ1RHNib1I1VUt1dFZENEhFUlAydmdHTWNpN1BJbzdpTy1MYTB1OHppaDZiZUx4bTh0UnZ1Y011NXRBZ3c3MXI4MHVJOGREMm9aUEpqamZNWi1rMGxvdXBCTnVUeno1NDVNWnRfOU40dEMxMG94VUNMNUpMa2vSAeABQVVfeXFMTU5iZHB6MjJkTUNPeFh3REpxMkppeFgxTnFRV0ZzNUU4TjlVSXhHMWRtdzNTSlAtZ0kyUGw4X3NXazc1TDJIMk96VUJGcldOb0I4dmFYckRkMFY0cl8wbXRnYjRjWFNVQXZDNGc3ODJCdE1PbzRiNEZRLVNETWFoakZqVFVsc1RYM0sybGtDSE1UZi1JdEgwSUJ1aDRRN1ppWXlHMnlmWkNvN3E4eDR2X1FUa0MydVJEaFNmN1k0VHFGTDVZVG5OVGRzS09YcTRlODBRS205dXkzZ2pudUR2Tmg?oc=5
+  Days after Jantar Mantar denotified, LPG distributors plan protest at CBD Ground today; cops deny nod | Hindustan Times - Hindustan Times
+  https://news.google.com/rss/articles/CBMiwAFBVV95cUxPZWxka0hTOEpITHVhd2pKZjFXdjRVZ3hYUUNLQXI5QzNVb3lCYU45MTJVcnRoQXk3dlVKa0ZQZU5TTUt6NWNvQnZxWmNvRWFETy0tM3JOV1NrZDd5Z3B0VkdSNzVaZWw3YzZFd2FJZ0hUcy11T296XzV3cmVQSG0xdUs1YzF5LUhEeFJ2b2VrZVpvbFN1ZjQ4NXI5QXQ4eG9GV1Z0V2hhbi1xTHpXY1ZZTTVsc0JneldsVjFVYmFMRErSAcYBQVVfeXFMTlZ0YnZUV1RpaFN2QUxmVXN0ZjZhZDlIOXB3YUl0aHpuN1FzT3Vqd1A2am1XTWpMbmVFT2VPWXlqeEpsd2s5elp2bnZMYzZ3dTRpWERLS1FXRFdmX25CQTJ3R0g5SzU0RS04cEdoSDcyN2xBR0dmekVISXNIRVctTURvUVV2MVNGWTliMHdWTUdJRzRCYnJubU94bl9ibjRLMG5EVHpGWlJsQWdKTm01YlpqSmNIa29Dd1JWMEJoc3MzdWJBa3lB?oc=5
   matched: Jantar Mantar
 
 · [NEW_ITEM] News: Jantar Mantar and the police action
-  BREAKING: Delhi SEM Orders Release Of CJP Leaders Saurav Das, Ashutosh Ranka In Jantar Mantar Peace Bond... - LawBeat
-  https://news.google.com/rss/articles/CBMi4AFBVV95cUxQWGtQX1FQMDdqV2ZJODF3MWdPMTh0UWZCUlNPdDRncHVyVXdNVUYzWGs0UGtTNS1NSEhzNkNVd194U3N5MUJKc016OTl2RV92bC1RbW5WSTV6SEdubk9DV3hZcjZhaHNiZzRiSHNOMDVoMlhmYmlEc2M3ZVZ0ay1zTVlhNlZpbWd4RWhxdWFHQm9ObzJBWnV0UTFnLWRRTlhTMWJqNTBqM2RGc3A5RzBKQXo1X1ZxbmdCSGxQN00taVctT0ZNUHlKdU4tWUlOVEszRFRzU0tZX2tzLUs3WlpTadIB5gFBVV95cUxNOXVqNFMxZ2pMYTZnaWJEMmd5MUxNanpEcEJHUFd5MllUR3dDVEZudG1SRnFydE1uRHhuMUNqTHZNeElDc29VbUxqR2FVdW9vc0IzSXZ3NDR3ZXBOUHVZa3A3SWg1Zko5OTRoSkR3QVVqSEt5c1FoWHkzVjFPb2VMMVRkMFBBTmk5T0E0TldDWERUTV82Y3VzWnEwMmdIRmlrNkdRcF81ak9RVWRRemhsZ3BfVE9ZcGFoMWxyWjJzM1VkS1BpZGRod2VKMVplRjJnd0NidENXUERSNWNCTC1ndFlxcUxhZw?oc=5
+  Jantar Mantar, the heartland of dissent in Delhi | In pictures - The Hindu
+  https://news.google.com/rss/articles/CBMiiAJBVV95cUxQSFhkV3RselRIWF9nNGpReUcySm9vOW1yVnd2V2dkNjhxRUwxQkowVktsdUxOT2pia0pUcW9zOEFJZ0xoeXVEa1llM3B0eVUyRzlsVkZCVHpfOWVhYmpEZkhTZXVoX2t0M0kzaHU3RHR5TER2Y0dGbUdzWlJfalU1QXJkZWFvUUUteW9ncXFxMFI4OUktOHhvU2lGeDdUR3dxekxVcXN4eUZacmhNa3JqbTQ1UGhudEFsOE8zaWF2c1JDSU1UX2w4YzdrWGREeEZEUm9yb2czQmVMZV9hRzh6Rjg4eTlmNHc5dVdaLVRkVVZCYmdDZWlnVmJPd0VIQWg4c0FHMTRaQS0?oc=5
   matched: Jantar Mantar
 
 · [NEW_ITEM] News: Jantar Mantar and the police action
-  Jantar Mantar Protest Violence: SC Panel Sets October 29-30 Hearings, Seeks Evidence - NDTV Profit
-  https://news.google.com/rss/articles/CBMiwgFBVV95cUxPazZxRFh4Z3d1UWJIRDIyMTl3dmZsb2pmcE51d0Z1a2ZkbEFVdmFmRkI0MVVMNW1ZdkJWLUg3OWcxY3RIc1pTWmJlWHBfU3dmWUhSNHpnZkNGZF9oVWhQbGp2NXhPVXNBY1I1aklxUENfRGRSeTJ6NHdiRlBrdVNHaGN3aGk3U1NiS0hKUGQ2ckZFZGYtaVd0cEg4dDJ1MUUtYjBYeUo4czJSTGJ6V3BpckFSNUNJVlYyRVNlVXJJXzFXUdIBygFBVV95cUxPZF9kV2N4X01TNWFvTUFVLTFBWTd2R0Fqa05aNHN1aERyOE1kRnl4MGJkQnduV2FlTnJUcDh6SU5tLWtiTXhsZTMwU3ZHd01oR0VweEhQbDR1UXhQOHFoeUtIdTQwamsyeDk3ejYyZlpBa1pvRFFIWTZfUWt3WUNNeEpFTVFwc0hZVU0wLWZUQm10VkEySl9zbEJWNnQ0ZFVBa1ZKbHNscXZDZkdVVUZzMWZ2V2FITlBfMlpwSkVLbWlHamluaG1WcjRn?oc=5
-  matched: Jantar Mantar
+  List of Delhi metro stations to be closed ahead of CJP protest at Jantar Mantar on Oct 10 - The Hindu
+  https://news.google.com/rss/articles/CBMi3wFBVV95cUxQUE1na0pQQ2o2SklHRlhVTWRjN0pzRUlBRWVGV1lhZzVyMEp1NVNoLWtSOTVfbkRPM2Q1MExSMUxIc2ZpNEc3Tlh1ZkZ0OVREM1RoSlFMMDVBMnFxREhPVjl0RGt2dFFUSUpHZFN5NTVmVHJFbmx1ZE1xR29JR21JaGIyMDNBUXIyTkVneXBNWEg3OXBNcTlvN2Nja0JITHhsdUJEUmRFMzJvUTNtSGRxMDBCQ2xqLW05Qk14RzNoa1Z6UGRobkhmRkVqanViTmM2UHBXN29jdVZBTlZhYVVv0gHmAUFVX3lxTFBLTnZWOFNkQ1R2ZS02U2w2Y1Y0NkJyUDRydkNDSEphQkwxY1ROaVRjZ1dHbFpsRTFkX2h6X3hSLWVybm1rZGl3c0hOSzhhQ1pXODFFVzdCWEpXNFcyT3RJRUZlRndMNjI5U0FQTlFCS2Fza1pLSEFnYUI1S2N3d3BGcEdjOXJuWExHRXN6c3FqdUg5aks2T3dfVkl1WjdpWUNsWlJ4WXJiNndaUFN5V1BKdW5OaEk0QXdDRmtXRTZDeWdhM01SU0RWVDZqMlotWUVPVFNvUVNWMDRQVm5CY3NXdkFJSHpB?oc=5
+  matched: Jantar Mantar, CJP protest
 
 · [NEW_ITEM] News: Jantar Mantar and the police action
-  SC-appointed panel to hear public evidence on pellet gun use, harassment of female protesters at Jantar Mantar - Telegraph India
-  https://news.google.com/rss/articles/CBMi_gFBVV95cUxNNGtqYUQ4bWhaRE1FOUM1WVpsOXhsLTFBSWg0bk1xZF9PMGxyNEx2LUVyWWt5N0NzYUNORjE1cmw5T0hoZDVmanVoam5Wc0o3cEdiTlNWcVZqd3FWM2p3WjN4WTNERDJXeXV6cHdTek41YmdES0NiRGFqYWFlRGlQdWszZjgxQWdvb0NVNnV0X3h0clI0b0VCUTVCNzc0R0JaNWo5VkxhVG84dTBRMURrRm83ZmFyUzc0Wmo1TUVtUlE1X0NPbTN5RGNRWHZUMUt6dWNvVVA3NE1hOEU0eWVYX0xtbkVELVdwTlpsWXZKcE1VQ1ltMTFXeHU4cTJpZ9IBgwJBVV95cUxQQUpiT29LTHN6azVjd2x6ZjV1LTlJNGoyTVBvbHg5aUp3SnhEUVF4SVNIVHZLUmZtakJzZVFXaDRlZUw2RWFoUlJvQUtxOUJjWkgtbXpxSjR3Wkl1el9rNXdLT2JyUm9nLUh3bUlVLTNnREhOLTRNYzYxNlNPZHlISzh2YWZQTWlfX3hrNE1GckZYbm9PVGxDS000WW5STjk2NGlLcjhKT3VtNkpDNXJCczh5eVhBbGVwQjBteXJrNGhiaXFSLXV1a0JVeWdPcE1teXBFS3d2Q3BueUdiRkh0UmVFRm5yVldaRl9uWXhZOXhHbFFaa1pGajNHT2JJSDdOT3Iw?oc=5
-  matched: Jantar Mantar, pellet gun
-
-· [NEW_ITEM] News: Jantar Mantar and the police action
-  CJP protests: SC panel to hear evidence on pellet gun use - Rediff
-  https://news.google.com/rss/articles/CBMipwFBVV95cUxQQ1hyME9aSnpEMVh0cGktTXdlUDVoQlBacjdIY2RzOU5TeDZaV2dGQXRuR1F6V3Bka2UwZVdka1VPa29YMzhkRU9Qb3hGbGcweFlNVFRIU25kMFZadE5wRk9XcExrNlBROW1HLVFHMFBORkNCV2JVRVNwZVZrdU16U0JZTU1ycGdPZ3paenZHRklWWU04RjFfXzZhSjc5eUFTVjEwZjR2Z9IBqgFBVV95cUxNTTVLZGhxRWRicU00T3JNOXBVb093c2pPME5haGlXVkd5RGpERC1EOVVyc1dtYmpIUzFJdXI0ejY3OWFOdGs2ZkppRDF5MWs0aWNrb04tRmYtRXZQdVhvY1hFampmZUZmSXB3LUMyN1BtSEdrMi1DSmNRYVljM3RJamxSTVZYTG1fWW9TcXpKdnZWODFLaGJaM1VOLU1GRmxVSHFON002RUx1UQ?oc=5
-  matched: CJP protest, pellet gun
-
-· [NEW_ITEM] News: facial recognition and the surveillance question
-  SC to hear plea against Delhi Police's facial recognition use at protest - Daily Pioneer
-  https://news.google.com/rss/articles/CBMiowFBVV95cUxNRUo2YUtmblN5T0pGaGFtcFM3TS1tZm9vY2FrdFdoMVFoSjlTZktZS1JWci1SUk5qNE1hY2lfRlNhS2pUZVlzTVFSeW1xd0dHVzJJZG9LdVJSVmsxeFNGeXdiaXJLbjJzUUVlRmdYYlZFdE1tMU85Z21aMnBWa3VEWmpGVUs1WG9NR2M1RlNaTkZWTHdaSjFIM2c4MHNTOHpWWW930gG6AUFVX3lxTE1kc2dnTE1fcjVPSjQtNEhfWE5IeXZtU1dTWjhsWldRN2JqclFyZ0xjVnhiSnNUMDdsa05zUjNLVG9WakF0TjdxSy1pUnQxNUs4Tlg4RkJiWjY4ZHNhUEJQY05EYzR5cXFMaHhaY0NLbVluSzdKb3pjRFY2R0lwckcta2w1RFJwLWlJV3ZPYVhsaXJmd2pTVC1mQ0k2RjhldFZXUHN6YjczTjFqek1IaWZBeWh5ZzZOQW9Pdw?oc=5
-  matched: facial recognition
+  SC asks authorities to “regulate” metro, train services ahead of CJP protest - Supreme Court Observer
+  https://news.google.com/rss/articles/CBMirAFBVV95cUxPQk1GRVBVYkVfeGdIWHFoSUVFUElLcVFscmljNnBIdURnb08tY3hlSzhIYi05SXRRcjF0UnJhMnMxLWlRck5NMjBxR0VZcTZRYi1nalZnUlZyQmlROWxaTm9NenVxVmN3X1BLbjlNczIwTEgtOG1lclRxbHlMME1XWFhvLTEzVnFkZmxaNWpmSi1MN1hrWkVranZ5T25wMVNzUU1ObGxwRVNvY2h4?oc=5
+  matched: CJP protest
 
