@@ -1660,8 +1660,8 @@ WGO.importedSources = [
     "kind": "SECONDARY",
     "url": "https://www.tribuneindia.com/news/archive/nation/bhu-violence-vc-orders-judicial-probe-473533/",
     "retrievedOn": "2026-10-10",
-    "archiveUrl": null,
-    "archivedOn": null,
+    "archiveUrl": "http://web.archive.org/web/20261026080050/https://www.tribuneindia.com/news/archive/nation/bhu-violence-vc-orders-judicial-probe-473533/",
+    "archivedOn": "2026-10-27",
     "sha256": null,
     "originatesFrom": null
   },
@@ -1715,8 +1715,8 @@ WGO.importedSources = [
     "kind": "SECONDARY",
     "url": "https://www.tribuneindia.com/news/archive/nation/bhu-chief-proctor-takes-moral-responsibility-quits-474112",
     "retrievedOn": "2026-10-10",
-    "archiveUrl": null,
-    "archivedOn": null,
+    "archiveUrl": "http://web.archive.org/web/20261026080155/https://www.tribuneindia.com/news/archive/nation/bhu-chief-proctor-takes-moral-responsibility-quits-474112",
+    "archivedOn": "2026-10-27",
     "sha256": null,
     "originatesFrom": null
   },
@@ -1770,8 +1770,8 @@ WGO.importedSources = [
     "kind": "SECONDARY",
     "url": "https://www.livelaw.in/amp/top-stories/in-complaints-against-police-violence-in-jamia-nhrc-recommends-sit-probe-158976",
     "retrievedOn": "2026-10-10",
-    "archiveUrl": null,
-    "archivedOn": null,
+    "archiveUrl": "http://web.archive.org/web/20200928071058/https://www.livelaw.in/amp/top-stories/in-complaints-against-police-violence-in-jamia-nhrc-recommends-sit-probe-158976",
+    "archivedOn": "2026-10-27",
     "sha256": null,
     "originatesFrom": "NHRC report, as summarised by LiveLaw on 27 June 2020 (the report itself was not read)"
   },
@@ -1792,8 +1792,8 @@ WGO.importedSources = [
     "kind": "SECONDARY",
     "url": "https://thequint.com/amp/story/news/india/delhi-police-atr-forced-to-enter-jmi-to-save-innocent-students",
     "retrievedOn": "2026-10-10",
-    "archiveUrl": null,
-    "archivedOn": null,
+    "archiveUrl": "http://web.archive.org/web/20200317221057/https://www.thequint.com/amp/story/news%2Findia%2Fdelhi-police-atr-forced-to-enter-jmi-to-save-innocent-students",
+    "archivedOn": "2026-10-27",
     "sha256": null,
     "originatesFrom": "Delhi Police action taken report filed in a Delhi magistrate's court, 16 March 2020"
   },

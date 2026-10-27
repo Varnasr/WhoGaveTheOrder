@@ -5,6 +5,72 @@ window.WGO = window.WGO || {};
 
 WGO.changes = [
   {
+    "commit": "1095ccee72",
+    "date": "2026-10-26T08:03:05Z",
+    "subject": "Sweep log and archived copies for 2026-10-26 [skip ci]",
+    "added": [],
+    "removed": [],
+    "changed": [
+      {
+        "id": "SRC-0172",
+        "kind": "Source",
+        "title": "Outlook (PTI)",
+        "state": null,
+        "url": "https://www.outlookindia.com/national/yogi-adityanath-orders-probe-into-bhu-violence-news-302168",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20261025074425/https://www.outlookindia.com/national/yogi-adityanath-orders-probe-into-bhu-violence-news-302168"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0177",
+        "kind": "Source",
+        "title": "National Herald",
+        "state": null,
+        "url": "https://www.nationalheraldindia.com/amp/story/campus/bhu-vc-tries-to-downplay-the-incident-commissioner-blames-uni-for-mishandling-the-situation",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "https://web.archive.org/web/20261026075851/https://www.nationalheraldindia.com/amp/story/campus/bhu-vc-tries-to-downplay-the-incident-commissioner-blames-uni-for-mishandling-the-situation"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0185",
+        "kind": "Source",
+        "title": "The Wire (LiveWire)",
+        "state": null,
+        "url": "https://livewire.thewire.in/campus/a-year-ago-bhu-students-protested-against-the-administration-now-theyre-getting-debarred/",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20230207213925/https://livewire.thewire.in/campus/a-year-ago-bhu-students-protested-against-the-administration-now-theyre-getting-debarred/"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0187",
+        "kind": "Source",
+        "title": "Scroll.in",
+        "state": null,
+        "url": "https://scroll.in/latest/956412/jamia-violence-forced-to-enter-university-to-rescue-innocent-students-say-delhi-police",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20250126112324/https://scroll.in/latest/956412/jamia-violence-forced-to-enter-university-to-rescue-innocent-students-say-delhi-police"
+          }
+        ]
+      }
+    ],
+    "summary": "4 records edited"
+  },
+  {
     "commit": "917ccabc6f",
     "date": "2026-10-25T07:47:01Z",
     "subject": "Sweep log and archived copies for 2026-10-25 [skip ci]",
