@@ -5,6 +5,96 @@ window.WGO = window.WGO || {};
 
 WGO.changes = [
   {
+    "commit": "9093b81cd5",
+    "date": "2026-10-28T07:46:00Z",
+    "subject": "Note that several outlets still carry the two-day version of the 29 October sitting",
+    "added": [],
+    "removed": [],
+    "changed": [
+      {
+        "id": "PROC-SC-025",
+        "kind": "Evidence",
+        "title": "The High Powered Enquiry Committee will hold a sitting at its office at Shiksha Sadan, 17 Rouse Avenue Institutional Area, New Delhi, on Thursday 29 October 202",
+        "state": "REPORTED",
+        "url": "evidence.html?id=PROC-SC-025",
+        "fields": [
+          {
+            "field": "establishes",
+            "from": "The date, the venue and the walk-in hours are the same in every version read. The length of the sitting changed. India Today, published 24 October 2026 at 13:10 IST and citing PTI, says a two-day sitting on 29 and 30 October. Rediff's co…",
+            "to": "The date, the venue and the walk-in hours are the same in every version read. The length of the sitting changed. India Today, published 24 October 2026 at 13:10 IST and citing PTI, says a two-day sitting on 29 and 30 October. Rediff's co…"
+          }
+        ]
+      }
+    ],
+    "summary": "1 record edited"
+  },
+  {
+    "commit": "09f2f7165a",
+    "date": "2026-10-27T08:11:38Z",
+    "subject": "Sweep log and archived copies for 2026-10-27 [skip ci]",
+    "added": [],
+    "removed": [],
+    "changed": [
+      {
+        "id": "SRC-0178",
+        "kind": "Source",
+        "title": "The Tribune",
+        "state": null,
+        "url": "https://www.tribuneindia.com/news/archive/nation/bhu-violence-vc-orders-judicial-probe-473533/",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20261026080050/https://www.tribuneindia.com/news/archive/nation/bhu-violence-vc-orders-judicial-probe-473533/"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0183",
+        "kind": "Source",
+        "title": "The Tribune",
+        "state": null,
+        "url": "https://www.tribuneindia.com/news/archive/nation/bhu-chief-proctor-takes-moral-responsibility-quits-474112",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20261026080155/https://www.tribuneindia.com/news/archive/nation/bhu-chief-proctor-takes-moral-responsibility-quits-474112"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0188",
+        "kind": "Source",
+        "title": "LiveLaw",
+        "state": null,
+        "url": "https://www.livelaw.in/amp/top-stories/in-complaints-against-police-violence-in-jamia-nhrc-recommends-sit-probe-158976",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20200928071058/https://www.livelaw.in/amp/top-stories/in-complaints-against-police-violence-in-jamia-nhrc-recommends-sit-probe-158976"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0190",
+        "kind": "Source",
+        "title": "The Quint",
+        "state": null,
+        "url": "https://thequint.com/amp/story/news/india/delhi-police-atr-forced-to-enter-jmi-to-save-innocent-students",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20200317221057/https://www.thequint.com/amp/story/news%2Findia%2Fdelhi-police-atr-forced-to-enter-jmi-to-save-innocent-students"
+          }
+        ]
+      }
+    ],
+    "summary": "4 records edited"
+  },
+  {
     "commit": "1095ccee72",
     "date": "2026-10-26T08:03:05Z",
     "subject": "Sweep log and archived copies for 2026-10-26 [skip ci]",
