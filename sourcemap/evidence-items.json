@@ -5468,8 +5468,8 @@
         "source_type": "secondary",
         "publication": "The Quint (25 March 2016)",
         "retrieved_on": "2026-10-10",
-        "archive_url": null,
-        "archived_on": null
+        "archive_url": "https://web.archive.org/web/20261025074345/https://www.thequint.com/photos/in-pictures-hyderabad-central-university-students-clash-with-cops",
+        "archived_on": "2026-10-25"
       },
       {
         "url": "https://countercurrents.org/thcu260316.htm",
@@ -5765,7 +5765,9 @@
         "url": "https://www.outlookindia.com/national/yogi-adityanath-orders-probe-into-bhu-violence-news-302168",
         "source_type": "secondary",
         "publication": "Outlook (PTI)",
-        "retrieved_on": "2026-10-10"
+        "retrieved_on": "2026-10-10",
+        "archive_url": "http://web.archive.org/web/20261025074425/https://www.outlookindia.com/national/yogi-adityanath-orders-probe-into-bhu-violence-news-302168",
+        "archived_on": "2026-10-26"
       },
       {
         "url": "https://outlookindia.com/national/bhu-vc-orders-inquiry-into-violence-on-campus-retired-hc-judge-to-head-panel-news-302263",
@@ -5815,7 +5817,9 @@
         "url": "https://www.outlookindia.com/national/yogi-adityanath-orders-probe-into-bhu-violence-news-302168",
         "source_type": "secondary",
         "publication": "Outlook (PTI)",
-        "retrieved_on": "2026-10-10"
+        "retrieved_on": "2026-10-10",
+        "archive_url": "http://web.archive.org/web/20261025074425/https://www.outlookindia.com/national/yogi-adityanath-orders-probe-into-bhu-violence-news-302168",
+        "archived_on": "2026-10-26"
       }
     ],
     "notes": "Newslaundry gives the 21 September timeline; Outlook describes the harassment allegation. Neither shows a document from the university.",
@@ -5841,13 +5845,17 @@
         "url": "https://www.nationalheraldindia.com/amp/story/campus/bhu-vc-tries-to-downplay-the-incident-commissioner-blames-uni-for-mishandling-the-situation",
         "source_type": "secondary",
         "publication": "National Herald",
-        "retrieved_on": "2026-10-10"
+        "retrieved_on": "2026-10-10",
+        "archive_url": "https://web.archive.org/web/20261026075851/https://www.nationalheraldindia.com/amp/story/campus/bhu-vc-tries-to-downplay-the-incident-commissioner-blames-uni-for-mishandling-the-situation",
+        "archived_on": "2026-10-26"
       },
       {
         "url": "https://www.tribuneindia.com/news/archive/nation/bhu-violence-vc-orders-judicial-probe-473533/",
         "source_type": "secondary",
         "publication": "The Tribune",
-        "retrieved_on": "2026-10-10"
+        "retrieved_on": "2026-10-10",
+        "archive_url": "http://web.archive.org/web/20261026080050/https://www.tribuneindia.com/news/archive/nation/bhu-violence-vc-orders-judicial-probe-473533/",
+        "archived_on": "2026-10-27"
       }
     ],
     "notes": "The report itself was not found or read. The three outlets relay the same findings; IANS appears to be the common origin, so these are not three independent sources. Chief Minister asked for this report on 24 or 25 September (see HIST-BHU-009).",
@@ -5902,7 +5910,9 @@
         "url": "https://www.aajtak.in/india/story/bhu-student-protest-police-lathicharge-probe-yogi-adityanath-congress-student-hostels-464091-2017-09-25",
         "source_type": "secondary",
         "publication": "Aaj Tak",
-        "retrieved_on": "2026-10-10"
+        "retrieved_on": "2026-10-10",
+        "archive_url": "http://web.archive.org/web/20250515132420/https://www.aajtak.in/india/story/bhu-student-protest-police-lathicharge-probe-yogi-adityanath-congress-student-hostels-464091-2017-09-25",
+        "archived_on": "2026-10-25"
       },
       {
         "url": "https://www.dynamitenews.com/story/bhu-protests-sho-circle-officer-additional-city-magistrate-removed",
@@ -5934,13 +5944,17 @@
         "url": "https://www.aajtak.in/india/story/bhu-student-protest-police-lathicharge-probe-yogi-adityanath-congress-student-hostels-464091-2017-09-25",
         "source_type": "secondary",
         "publication": "Aaj Tak",
-        "retrieved_on": "2026-10-10"
+        "retrieved_on": "2026-10-10",
+        "archive_url": "http://web.archive.org/web/20250515132420/https://www.aajtak.in/india/story/bhu-student-protest-police-lathicharge-probe-yogi-adityanath-congress-student-hostels-464091-2017-09-25",
+        "archived_on": "2026-10-25"
       },
       {
         "url": "https://www.tribuneindia.com/news/archive/nation/bhu-chief-proctor-takes-moral-responsibility-quits-474112",
         "source_type": "secondary",
         "publication": "The Tribune",
-        "retrieved_on": "2026-10-10"
+        "retrieved_on": "2026-10-10",
+        "archive_url": "http://web.archive.org/web/20261026080155/https://www.tribuneindia.com/news/archive/nation/bhu-chief-proctor-takes-moral-responsibility-quits-474112",
+        "archived_on": "2026-10-27"
       },
       {
         "url": "https://outlookindia.com/national/bhu-vc-orders-inquiry-into-violence-on-campus-retired-hc-judge-to-head-panel-news-302263",
@@ -5966,7 +5980,9 @@
         "url": "https://www.easternmirrornagaland.com/fir-against-1000-students-for-bhu-violence",
         "source_type": "secondary",
         "publication": "Eastern Mirror (PTI)",
-        "retrieved_on": "2026-10-10"
+        "retrieved_on": "2026-10-10",
+        "archive_url": "http://web.archive.org/web/20230330143919/https://easternmirrornagaland.com/fir-against-1000-students-for-bhu-violence/",
+        "archived_on": "2026-10-25"
       },
       {
         "url": "https://www.outlookindia.com/national/firs-against-1000-bhu-students-on-arson-charges-among-others-after-weekend-viole-news-302178",
@@ -5992,7 +6008,9 @@
         "url": "https://www.easternmirrornagaland.com/fir-against-1000-students-for-bhu-violence",
         "source_type": "secondary",
         "publication": "Eastern Mirror (PTI)",
-        "retrieved_on": "2026-10-10"
+        "retrieved_on": "2026-10-10",
+        "archive_url": "http://web.archive.org/web/20230330143919/https://easternmirrornagaland.com/fir-against-1000-students-for-bhu-violence/",
+        "archived_on": "2026-10-25"
       },
       {
         "url": "https://www.outlookindia.com/national/firs-against-1000-bhu-students-on-arson-charges-among-others-after-weekend-viole-news-302178",
@@ -6006,7 +6024,9 @@
         "url": "https://www.aajtak.in/india/story/bhu-student-protest-police-lathicharge-probe-yogi-adityanath-congress-student-hostels-464091-2017-09-25",
         "source_type": "secondary",
         "publication": "Aaj Tak",
-        "retrieved_on": "2026-10-10"
+        "retrieved_on": "2026-10-10",
+        "archive_url": "http://web.archive.org/web/20250515132420/https://www.aajtak.in/india/story/bhu-student-protest-police-lathicharge-probe-yogi-adityanath-congress-student-hostels-464091-2017-09-25",
+        "archived_on": "2026-10-25"
       }
     ],
     "notes": "Only the FIR would settle the figure.",
@@ -6024,7 +6044,9 @@
         "url": "https://www.outlookindia.com/national/yogi-adityanath-orders-probe-into-bhu-violence-news-302168",
         "source_type": "secondary",
         "publication": "Outlook (PTI)",
-        "retrieved_on": "2026-10-10"
+        "retrieved_on": "2026-10-10",
+        "archive_url": "http://web.archive.org/web/20261025074425/https://www.outlookindia.com/national/yogi-adityanath-orders-probe-into-bhu-violence-news-302168",
+        "archived_on": "2026-10-26"
       }
     ],
     "notes": "Hospital admission and medico-legal figures were not found. Consent and privacy limits apply to individual medical records; aggregate hospital figures could be sought by RTI.",
@@ -6042,7 +6064,9 @@
         "url": "https://www.outlookindia.com/national/yogi-adityanath-orders-probe-into-bhu-violence-news-302168",
         "source_type": "secondary",
         "publication": "Outlook (PTI)",
-        "retrieved_on": "2026-10-10"
+        "retrieved_on": "2026-10-10",
+        "archive_url": "http://web.archive.org/web/20261025074425/https://www.outlookindia.com/national/yogi-adityanath-orders-probe-into-bhu-violence-news-302168",
+        "archived_on": "2026-10-26"
       },
       {
         "url": "https://www.outlookindia.com/national/firs-against-1000-bhu-students-on-arson-charges-among-others-after-weekend-viole-news-302178",
@@ -6056,7 +6080,9 @@
         "url": "https://www.aajtak.in/india/story/bhu-student-protest-police-lathicharge-probe-yogi-adityanath-congress-student-hostels-464091-2017-09-25",
         "source_type": "secondary",
         "publication": "Aaj Tak",
-        "retrieved_on": "2026-10-10"
+        "retrieved_on": "2026-10-10",
+        "archive_url": "http://web.archive.org/web/20250515132420/https://www.aajtak.in/india/story/bhu-student-protest-police-lathicharge-probe-yogi-adityanath-congress-student-hostels-464091-2017-09-25",
+        "archived_on": "2026-10-25"
       }
     ],
     "notes": "Several of these detentions are of political workers on 24 and 25 September.",
@@ -6082,7 +6108,9 @@
         "url": "https://www.nationalheraldindia.com/amp/story/campus/bhu-vc-tries-to-downplay-the-incident-commissioner-blames-uni-for-mishandling-the-situation",
         "source_type": "secondary",
         "publication": "National Herald",
-        "retrieved_on": "2026-10-10"
+        "retrieved_on": "2026-10-10",
+        "archive_url": "https://web.archive.org/web/20261026075851/https://www.nationalheraldindia.com/amp/story/campus/bhu-vc-tries-to-downplay-the-incident-commissioner-blames-uni-for-mishandling-the-situation",
+        "archived_on": "2026-10-26"
       },
       {
         "url": "https://outlookindia.com/national/bhu-vc-orders-inquiry-into-violence-on-campus-retired-hc-judge-to-head-panel-news-302263",
@@ -6108,13 +6136,17 @@
         "url": "https://www.outlookindia.com/national/yogi-adityanath-orders-probe-into-bhu-violence-news-302168",
         "source_type": "secondary",
         "publication": "Outlook (PTI)",
-        "retrieved_on": "2026-10-10"
+        "retrieved_on": "2026-10-10",
+        "archive_url": "http://web.archive.org/web/20261025074425/https://www.outlookindia.com/national/yogi-adityanath-orders-probe-into-bhu-violence-news-302168",
+        "archived_on": "2026-10-26"
       },
       {
         "url": "https://www.nationalheraldindia.com/amp/story/campus/bhu-vc-tries-to-downplay-the-incident-commissioner-blames-uni-for-mishandling-the-situation",
         "source_type": "secondary",
         "publication": "National Herald",
-        "retrieved_on": "2026-10-10"
+        "retrieved_on": "2026-10-10",
+        "archive_url": "https://web.archive.org/web/20261026075851/https://www.nationalheraldindia.com/amp/story/campus/bhu-vc-tries-to-downplay-the-incident-commissioner-blames-uni-for-mishandling-the-situation",
+        "archived_on": "2026-10-26"
       },
       {
         "url": "https://www.thequint.com/news/india/bhu-lathicharge-protest",
@@ -6148,7 +6180,9 @@
         "url": "https://www.tribuneindia.com/news/archive/nation/bhu-violence-vc-orders-judicial-probe-473533/",
         "source_type": "secondary",
         "publication": "The Tribune",
-        "retrieved_on": "2026-10-10"
+        "retrieved_on": "2026-10-10",
+        "archive_url": "http://web.archive.org/web/20261026080050/https://www.tribuneindia.com/news/archive/nation/bhu-violence-vc-orders-judicial-probe-473533/",
+        "archived_on": "2026-10-27"
       },
       {
         "url": "https://morungexpress.com/varanasi-commissioner-submits-report-bhu-violence-blames-varsity-administration",
@@ -6182,7 +6216,9 @@
         "url": "https://livewire.thewire.in/campus/a-year-ago-bhu-students-protested-against-the-administration-now-theyre-getting-debarred/",
         "source_type": "secondary",
         "publication": "The Wire (LiveWire)",
-        "retrieved_on": "2026-10-10"
+        "retrieved_on": "2026-10-10",
+        "archive_url": "http://web.archive.org/web/20230207213925/https://livewire.thewire.in/campus/a-year-ago-bhu-students-protested-against-the-administration-now-theyre-getting-debarred/",
+        "archived_on": "2026-10-26"
       }
     ],
     "notes": "Single source and an opinion-leaning piece. The report text was not found. Not read for what it says about who ordered the police action. Treat as unverified until the report is obtained.",
@@ -6200,7 +6236,9 @@
         "url": "https://www.tribuneindia.com/news/archive/nation/bhu-chief-proctor-takes-moral-responsibility-quits-474112",
         "source_type": "secondary",
         "publication": "The Tribune",
-        "retrieved_on": "2026-10-10"
+        "retrieved_on": "2026-10-10",
+        "archive_url": "http://web.archive.org/web/20261026080155/https://www.tribuneindia.com/news/archive/nation/bhu-chief-proctor-takes-moral-responsibility-quits-474112",
+        "archived_on": "2026-10-27"
       },
       {
         "url": "https://www.thequint.com/news/india/bhu-lathicharge-protest",
@@ -6266,7 +6304,9 @@
         "url": "https://www.aajtak.in/india/story/bhu-student-protest-police-lathicharge-probe-yogi-adityanath-congress-student-hostels-464091-2017-09-25",
         "source_type": "secondary",
         "publication": "Aaj Tak",
-        "retrieved_on": "2026-10-10"
+        "retrieved_on": "2026-10-10",
+        "archive_url": "http://web.archive.org/web/20250515132420/https://www.aajtak.in/india/story/bhu-student-protest-police-lathicharge-probe-yogi-adityanath-congress-student-hostels-464091-2017-09-25",
+        "archived_on": "2026-10-25"
       },
       {
         "url": "https://outlookindia.com/national/bhu-vc-orders-inquiry-into-violence-on-campus-retired-hc-judge-to-head-panel-news-302263",
@@ -6311,7 +6351,9 @@
         "source_type": "secondary",
         "publication": "Scroll.in",
         "retrieved_on": "2026-10-10",
-        "originates_from": "Delhi Police action taken report filed in a Delhi magistrate's court, 16 March 2020"
+        "originates_from": "Delhi Police action taken report filed in a Delhi magistrate's court, 16 March 2020",
+        "archive_url": "http://web.archive.org/web/20250126112324/https://scroll.in/latest/956412/jamia-violence-forced-to-enter-university-to-rescue-innocent-students-say-delhi-police",
+        "archived_on": "2026-10-26"
       }
     ],
     "notes": "The occurrence is established by a court judgment that recites the NHRC's findings and by the police's own account to a magistrate (secondary report of the action taken report). The court makes no finding that any individual officer acted unlawfully and says its conclusion is not an approval of every act attributed to police (para 92). Time of entry is DISPUTED between sources: the petitioners' case in the judgment (para 12) says about 4:00 p.m.; Wikipedia (tertiary and independently unchecked) says 6:46 p.m. The judgment does not fix a time.",
@@ -6336,7 +6378,9 @@
         "url": "https://www.livelaw.in/amp/top-stories/in-complaints-against-police-violence-in-jamia-nhrc-recommends-sit-probe-158976",
         "source_type": "secondary",
         "publication": "LiveLaw",
-        "retrieved_on": "2026-10-10"
+        "retrieved_on": "2026-10-10",
+        "archive_url": "http://web.archive.org/web/20200928071058/https://www.livelaw.in/amp/top-stories/in-complaints-against-police-violence-in-jamia-nhrc-recommends-sit-probe-158976",
+        "archived_on": "2026-10-27"
       },
       {
         "url": "https://en.wikipedia.org/wiki/2019_Jamia_Millia_Islamia_attack",
@@ -6368,14 +6412,18 @@
         "source_type": "secondary",
         "publication": "Scroll.in",
         "retrieved_on": "2026-10-10",
-        "originates_from": "Delhi Police action taken report filed in a Delhi magistrate's court, 16 March 2020"
+        "originates_from": "Delhi Police action taken report filed in a Delhi magistrate's court, 16 March 2020",
+        "archive_url": "http://web.archive.org/web/20250126112324/https://scroll.in/latest/956412/jamia-violence-forced-to-enter-university-to-rescue-innocent-students-say-delhi-police",
+        "archived_on": "2026-10-26"
       },
       {
         "url": "https://thequint.com/amp/story/news/india/delhi-police-atr-forced-to-enter-jmi-to-save-innocent-students",
         "source_type": "secondary",
         "publication": "The Quint",
         "retrieved_on": "2026-10-10",
-        "originates_from": "Delhi Police action taken report filed in a Delhi magistrate's court, 16 March 2020"
+        "originates_from": "Delhi Police action taken report filed in a Delhi magistrate's court, 16 March 2020",
+        "archive_url": "http://web.archive.org/web/20200317221057/https://www.thequint.com/amp/story/news%2Findia%2Fdelhi-police-atr-forced-to-enter-jmi-to-save-innocent-students",
+        "archived_on": "2026-10-27"
       },
       {
         "url": "https://theleaflet.in/governance-and-policy/jamia-violence-a-total-of-15-people-arrested-by-delhi-police",
@@ -6408,7 +6456,9 @@
         "source_type": "secondary",
         "publication": "Scroll.in",
         "retrieved_on": "2026-10-10",
-        "originates_from": "Delhi Police action taken report filed in a Delhi magistrate's court, 16 March 2020"
+        "originates_from": "Delhi Police action taken report filed in a Delhi magistrate's court, 16 March 2020",
+        "archive_url": "http://web.archive.org/web/20250126112324/https://scroll.in/latest/956412/jamia-violence-forced-to-enter-university-to-rescue-innocent-students-say-delhi-police",
+        "archived_on": "2026-10-26"
       },
       {
         "url": "https://m.thewire.in/article/rights/nhrc-blames-jamia-students-for-police-violence-wants-real-motive-of-anti-caa-protest-probed",
@@ -6422,7 +6472,9 @@
         "source_type": "secondary",
         "publication": "LiveLaw",
         "retrieved_on": "2026-10-10",
-        "originates_from": "NHRC report, as summarised by LiveLaw on 27 June 2020 (the report itself was not read)"
+        "originates_from": "NHRC report, as summarised by LiveLaw on 27 June 2020 (the report itself was not read)",
+        "archive_url": "http://web.archive.org/web/20200928071058/https://www.livelaw.in/amp/top-stories/in-complaints-against-police-violence-in-jamia-nhrc-recommends-sit-probe-158976",
+        "archived_on": "2026-10-27"
       }
     ],
     "notes": "The NHRC recommendation of action against personnel who used tear gas in the library is reported by two outlets, but the report itself was not read and no action against any identified officer has been found (see HIST-JMI-018). Whether the tear gas was fired on an order from a supervisor or on individual decision is not stated in any document read.",
@@ -6441,7 +6493,9 @@
         "source_type": "secondary",
         "publication": "The Quint",
         "retrieved_on": "2026-10-10",
-        "originates_from": "Delhi Police action taken report filed in a Delhi magistrate's court, 16 March 2020"
+        "originates_from": "Delhi Police action taken report filed in a Delhi magistrate's court, 16 March 2020",
+        "archive_url": "http://web.archive.org/web/20200317221057/https://www.thequint.com/amp/story/news%2Findia%2Fdelhi-police-atr-forced-to-enter-jmi-to-save-innocent-students",
+        "archived_on": "2026-10-27"
       },
       {
         "url": "https://www.thequint.com/amp/story/news/india/delhi-police-jamia-violence-reply-to-high-court-police-brutality-claims-false",
@@ -6517,7 +6571,9 @@
         "source_type": "secondary",
         "publication": "Scroll.in",
         "retrieved_on": "2026-10-10",
-        "originates_from": "Delhi Police action taken report filed in a Delhi magistrate's court, 16 March 2020"
+        "originates_from": "Delhi Police action taken report filed in a Delhi magistrate's court, 16 March 2020",
+        "archive_url": "http://web.archive.org/web/20250126112324/https://scroll.in/latest/956412/jamia-violence-forced-to-enter-university-to-rescue-innocent-students-say-delhi-police",
+        "archived_on": "2026-10-26"
       },
       {
         "url": "https://www.thequint.com/amp/story/news/india/delhi-police-jamia-violence-reply-to-high-court-police-brutality-claims-false",
@@ -6550,7 +6606,9 @@
         "source_type": "secondary",
         "publication": "The Quint",
         "retrieved_on": "2026-10-10",
-        "originates_from": "Delhi Police action taken report filed in a Delhi magistrate's court, 16 March 2020"
+        "originates_from": "Delhi Police action taken report filed in a Delhi magistrate's court, 16 March 2020",
+        "archive_url": "http://web.archive.org/web/20200317221057/https://www.thequint.com/amp/story/news%2Findia%2Fdelhi-police-atr-forced-to-enter-jmi-to-save-innocent-students",
+        "archived_on": "2026-10-27"
       },
       {
         "url": "https://www.thequint.com/amp/story/news/india/delhi-police-jamia-violence-reply-to-high-court-police-brutality-claims-false",
@@ -6705,7 +6763,9 @@
         "source_type": "secondary",
         "publication": "LiveLaw",
         "retrieved_on": "2026-10-10",
-        "originates_from": "NHRC report, as summarised by LiveLaw on 27 June 2020 (the report itself was not read)"
+        "originates_from": "NHRC report, as summarised by LiveLaw on 27 June 2020 (the report itself was not read)",
+        "archive_url": "http://web.archive.org/web/20200928071058/https://www.livelaw.in/amp/top-stories/in-complaints-against-police-violence-in-jamia-nhrc-recommends-sit-probe-158976",
+        "archived_on": "2026-10-27"
       },
       {
         "url": "https://m.thewire.in/article/rights/nhrc-blames-jamia-students-for-police-violence-wants-real-motive-of-anti-caa-protest-probed",
@@ -6878,7 +6938,9 @@
         "source_type": "secondary",
         "publication": "The Quint",
         "retrieved_on": "2026-10-10",
-        "originates_from": "Delhi Police action taken report filed in a Delhi magistrate's court, 16 March 2020"
+        "originates_from": "Delhi Police action taken report filed in a Delhi magistrate's court, 16 March 2020",
+        "archive_url": "http://web.archive.org/web/20200317221057/https://www.thequint.com/amp/story/news%2Findia%2Fdelhi-police-atr-forced-to-enter-jmi-to-save-innocent-students",
+        "archived_on": "2026-10-27"
       },
       {
         "url": "https://www.thequint.com/amp/story/news/india/delhi-police-jamia-violence-reply-to-high-court-police-brutality-claims-false",
@@ -6975,7 +7037,9 @@
         "url": "https://www.livelaw.in/amp/top-stories/in-complaints-against-police-violence-in-jamia-nhrc-recommends-sit-probe-158976",
         "source_type": "secondary",
         "publication": "LiveLaw",
-        "retrieved_on": "2026-10-10"
+        "retrieved_on": "2026-10-10",
+        "archive_url": "http://web.archive.org/web/20200928071058/https://www.livelaw.in/amp/top-stories/in-complaints-against-police-violence-in-jamia-nhrc-recommends-sit-probe-158976",
+        "archived_on": "2026-10-27"
       },
       {
         "url": "https://www.tribuneindia.com/news/nation/police-entered-campus-without-permission-jamia-vc-11798",
@@ -7013,7 +7077,9 @@
         "source_type": "secondary",
         "publication": "Scroll.in",
         "retrieved_on": "2026-10-10",
-        "originates_from": "Delhi Police action taken report filed in a Delhi magistrate's court, 16 March 2020"
+        "originates_from": "Delhi Police action taken report filed in a Delhi magistrate's court, 16 March 2020",
+        "archive_url": "http://web.archive.org/web/20250126112324/https://scroll.in/latest/956412/jamia-violence-forced-to-enter-university-to-rescue-innocent-students-say-delhi-police",
+        "archived_on": "2026-10-26"
       },
       {
         "url": "https://theleaflet.in/governance-and-policy/jamia-violence-a-total-of-15-people-arrested-by-delhi-police",
