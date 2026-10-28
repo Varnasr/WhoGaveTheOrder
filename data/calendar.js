@@ -51,7 +51,7 @@ WGO.calendar = [
     what: 'The Supreme Court\'s High Powered Enquiry Committee will hear affected persons and record evidence on the alleged use of pellet guns and the harassment of female protesters during the July Jantar Mantar protests. Members of the public and anyone affected by the violence can walk in with valid identity documentation to submit complaints or representations or to present evidence. The reports say the Committee will also examine targeted violence, excessive force, and property damage on both sides.',
     incidentIds: ['INC-0001'],
     evidenceIds: ['PROC-SC-025', 'PROC-SC-017', 'PROC-SC-016'],
-    dateNote: 'PTI reported the sitting on Saturday 24 October 2026. The first version gave two days, 29 and 30 October. The officials then clarified that it is a day-long sitting on 29 October, and that is the version recorded here. The Committee\'s own notice has not been read (OQ-067).',
+    dateNote: 'PTI reported the sitting on Saturday 24 October 2026. The first version gave two days, 29 and 30 October. The officials then clarified that it is a day-long sitting on 29 October, and that is the version recorded here. Several outlets, among them Business Standard, The New Indian Express and Economic Times Legal, still carried the two-day version on 28 October 2026. The Committee\'s own notice has not been read (OQ-067), so anyone planning to attend should check it.',
     quotes: [
       {
         outlet: 'Rediff, carrying PTI',
