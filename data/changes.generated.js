@@ -5,6 +5,30 @@ window.WGO = window.WGO || {};
 
 WGO.changes = [
   {
+    "commit": "9093b81cd5",
+    "date": "2026-10-28T07:46:00Z",
+    "subject": "Note that several outlets still carry the two-day version of the 29 October sitting",
+    "added": [],
+    "removed": [],
+    "changed": [
+      {
+        "id": "PROC-SC-025",
+        "kind": "Evidence",
+        "title": "The High Powered Enquiry Committee will hold a sitting at its office at Shiksha Sadan, 17 Rouse Avenue Institutional Area, New Delhi, on Thursday 29 October 202",
+        "state": "REPORTED",
+        "url": "evidence.html?id=PROC-SC-025",
+        "fields": [
+          {
+            "field": "establishes",
+            "from": "The date, the venue and the walk-in hours are the same in every version read. The length of the sitting changed. India Today, published 24 October 2026 at 13:10 IST and citing PTI, says a two-day sitting on 29 and 30 October. Rediff's co…",
+            "to": "The date, the venue and the walk-in hours are the same in every version read. The length of the sitting changed. India Today, published 24 October 2026 at 13:10 IST and citing PTI, says a two-day sitting on 29 and 30 October. Rediff's co…"
+          }
+        ]
+      }
+    ],
+    "summary": "1 record edited"
+  },
+  {
     "commit": "09f2f7165a",
     "date": "2026-10-27T08:11:38Z",
     "subject": "Sweep log and archived copies for 2026-10-27 [skip ci]",
