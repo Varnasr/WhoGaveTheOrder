@@ -1,75 +1,40 @@
-Sweep 2026-10-28: 9 targets, 175 watch terms.
-  nothing-published  delhi-hc-causelist
+Sweep 2026-10-29: 9 targets, 175 watch terms.
+  matched            delhi-hc-causelist
   matched            delhi-hc-judgments
   matched            nhrc-press
   unreachable        eparlib
-  ok                 barandbench  13 item(s), 0 matched
-  ok                 news-delhi  89 item(s), 7 matched
-  ok                 news-cases  47 item(s), 0 matched
-  ok                 news-frt  100 item(s), 3 matched
-  ok                 news-bihar  100 item(s), 0 matched
+  ok                 barandbench  25 item(s), 0 matched
+  ok                 news-delhi  66 item(s), 3 matched
+  ok                 news-cases  46 item(s), 0 matched
+  ok                 news-frt  100 item(s), 0 matched
+  ok                 news-bihar  55 item(s), 0 matched
 
-13 thing(s) to look at:
+6 thing(s) to look at:
+
+· [CHANGED_MATCH] Delhi High Court cause list for today
+  https://delhihighcourt.nic.in/files/2026-10/cause-list/combined_cause_list_29.10.2026.pdf
+  matched: 917/2026, Mumbai, Hyderabad, Jamia Millia Islamia, Jawaharlal Nehru University, Kolkata, Chennai, Jamia Nagar, Holy Family Hospital, Okhla, Bengaluru, Civil Lines, Harihar, University of Delhi, West Bengal, Ashok Nagar, Ranchi, India Gate
 
 · [CHANGED_MATCH] Delhi High Court, latest judgments
   https://delhihighcourt.nic.in/web/judgement/fetch-data
-  matched: Chandigarh, Okhla, Civil Lines
-
-· [CHANGED_MATCH] NHRC press releases
-  https://nhrc.nic.in/media/press-release
-  matched: Jantar Mantar, Darbhanga
+  matched: Civil Lines
 
 · [UNREACHABLE] Parliamentary library
   https://eparlib.sansad.in/
   fetch failed
 
 · [NEW_ITEM] News: Jantar Mantar and the police action
-  Supreme Court Dismisses Plea Seeking Investigation Of Delhi Police FIRs Over Jantar Mantar Student... - Live Law
-  https://news.google.com/rss/articles/CBMi7gFBVV95cUxOYTBLTXpYemxpaEp5NGdiX2x4MEE4ZUdKWTJvUWNRNEJLdXlyRzlhVnMxaUY0UFU4YllIWmpteFdxaHBUdzBQRXFQd25wX2Y3VGdrSlcyRjF1d0RoeTJnTkNDOHNUdlk3b0U1RkNxSzZaUzljcEFQV0U4Y3JqSE5iX3o2dkFvbTV6NFAzREh6d1lMbkF3OWhTbFhKWEVGTFJMM1BLejFPTld6bkowaVdZZGxkUk9EcG1qaW1JVWpvTVlMZ1VtdERweUFNNEYyWEtyWTM4RWo5dzVCRXlrRW1MY09LeERtM1NxUXVNV2hB0gHzAUFVX3lxTFBtb3NwZFFkaHVPaHEwNEpvd29CMXFzcUJBZHc3RGxDbkhFRkZielMzUVRPaEtITGR6N1Q2MHNLdS10ZTMxR2dSUmNNOHM3U19kUG9BeU9TM08yb2xvcEpRbW13VjctT2M4UHRyT3UzV0gxcVNfREtEMkxhS25TRUxqaTlyTFRrdTJEZWt4QmFmbEM0OVhxOFNiaTJFejVuZlVsTklBRVhnTzN2SDJkdDJmUGszVjlLMGhfWTZIT2l4V1NmR2g3QjVCeTJvTkhYTjdsWTFLMXc3Uk5vT29GYmhWT3FVdWZtMjFLM0k2a2ZNVHNYOA?oc=5
+  Delhi New Protest Sites, Jantar Mantar Replaced by 3 Venues - Vajiram & Ravi
+  https://news.google.com/rss/articles/CBMidkFVX3lxTFBFX3ZFMzdXZ19kMFJLMDRmNi1HSGdFeVAtbXpXemU1aFd1MXZHeFQ2Rk5FcnN3aTR3M0RYZ2QzU1NyaFpkb0FGQldEVDY2aXpJdXdCN2trRWs1YktETnA3VmNadU5Yck9uam9iRjR6OWlkSTc4UVE?oc=5
   matched: Jantar Mantar
 
 · [NEW_ITEM] News: Jantar Mantar and the police action
-  Delhi High Court Keeps Jantar Mantar Probe Against YouTuber Moving - Urban Acres
-  https://news.google.com/rss/articles/CBMikwFBVV95cUxOVjB5bXhVeFNJS0NfM2FjRkhnUnM3aUM1SW9NS09EV0lnWGhHdFczZEMtSzN3QUhMcEpnRG1MUUtueEEwbUw1STI4ckdIQnI1bVcyTHZtaWJUNHQ0LWlmSXZrQndoYk9zWmNUWUlFa1JxeEhsSEtvZG9iMTlpdVBQZXNGVkEzTzB4UXRNMW9zdTBGMG8?oc=5
+  Jantar Mantar Assault Case | Swatantra Bhardwaj Gets Regular Bail After 3-Week Interim Relief - LawBeat
+  https://news.google.com/rss/articles/CBMiywFBVV95cUxNcnNaWnJ0S0pLcmJXSzJtcXM3X1dHU01XX09mY3FyQVpudDVacmJqOGJPSlBlSmNndllHT21vQ3Z5cnZ5TXpmd1YydFRnRG1uR1hJc2htS0d5Y0U5RTZVbkQ2Y25VdXlRbnpUaUJKWHE1WkQ3S3JTdlFCanhpS0NIRlZpWkV1UklKclRRWF91NGpqQXhrRno4eWd6LUJjQXFoME1aMDN6ZXRqWThaTklVVjJGNjRqZjcxV19ITHlZVEp1R0xYanBYTEdJMNIB0AFBVV95cUxQdG9tTFA2M3dLdFFlcWswbmNNZno0NFNXZjliRENYOUVpc1hVLVcyMXkza0xfMC1fNHNwMmxQRVpoa0Z6Y1hVRTFnZ3FfdlJVYkJrNUdfeXFuNWdJalV3b1pFNEJXSzBnN1lHQWxpb1NZWVUyb0xHUzV1eGZZTy02SEZ1cjJPZEwtZ3ZiTUljYWh4ZkdNWldWZXlDLVlGOXJycEJkeEFOWkk0V1hfSjVBVlp3NEhIZUt5Q1lXUGh2ajhzc0xyZmdPaTB4UFBVUGc0?oc=5
   matched: Jantar Mantar
 
 · [NEW_ITEM] News: Jantar Mantar and the police action
-  Jantar Mantar violence: SC panel to hear evidence on pellet gun use, harassment of female protesters - The Economic Times
-  https://news.google.com/rss/articles/CBMi9gFBVV95cUxNVThhYkVpdTNrczZVMFRPZ1VYSVJ5UXFPOVluNlJqcGFQeXhFTjJ0T2Z1aGRvV1JwY2R2WUZiOEI1QmdDZjF5ZmlNOEt3aFpIOHoyZ2kxMkktY2pxOWozVkl6Y0lCX3lJZ0ttTXYxbDVvRzc3RDllUnFwejlmOHVxYzdoZU94Wm91Rnp6aUZ1NW1YWFpvVEJjRkRmd3pBSE9UTU8yWXZVVW1JbXZseWo2Q25raGtlNnB1aWJIVTlyR1Y5V1Z2cDNCeEFxb2pCcndqZ1c2VXBiZlB2aVFQVzRWRmxFNGgzTklheFFHeWE0Qk1zNFpodVHSAfsBQVVfeXFMUGc5c3EwNXZvSzZjR2kxLUZCSlJuOFptNWk4VnUta1Nyc1RmM1l2dVVwMDBUWjg4ZlM1RkFmbUlGQkRBOVZ5VjczVnUyVEtZUEZDM1BMdGxvbnlZRUd6aE05aDVtNW5jaU1PNjdTUlJrdS10VmlNMFVsVkxCak5lUXFkekFjUHI4UXAwZ0hrR1J0c2RlWnkzOGQzSTZ6VXhuQWxpUXY3ZmVmM3RjRk1BQUxqYjFwMHJNSGlSR3RTd1NLOEk5RlA1ekQ0elRaU1h1UUFEd0VfYlBhaUpjRFlYWkRPci16NTd5X0ZCMFJzY293bFVaV1d1UEMwUkE?oc=5
-  matched: Jantar Mantar, pellet gun
-
-· [NEW_ITEM] News: Jantar Mantar and the police action
-  Students return to Jantar Mantar over ‘police crackdown’ - The Hindu
-  https://news.google.com/rss/articles/CBMiuAFBVV95cUxOdHk1ZUpGUGg5Y1NOSkpKM2d0UC1wUDM0RW5SZDdQV3lFVE9SME1mUzhZczVpQXhHU2gyYzcxbmp1eXVEWG0wVnFxNlA4TXlrOFh1Y3EwYmdOaXB5dmVPcURSclk1Ym4tNFNKMzdLYktDQVMzVS0tM3A3VXRsbW01QVlLS2ZxMFF6NnZFVGVnTTlSbjJsR0g1QnBJV0dacVRLOVpQYVNzRzRqV1NGWnBLSlVlNExmbmxz0gG_AUFVX3lxTFA2QlhJMTkwUkU1YUZONEE1dGRXcjcxV20xQ01SdjJUYVh0czk4TGVzSXpOVlNkSG1OS01zMExFT3hfbHkzQ3VpYlhfS1pITkFUVUFWam5zVkNxZUNOSnNNemJZOFB5c1dlS3d4SDhLUHpIaGpQZXk0TVFhOHFvT3FORXZ4azVXRENnbWc2WEZROVJQdk1VOEc5SXJONlROdWlWODVEN2JjZWM4R3lMRGRiYmc2dDg3THNNb0pVS2Zr?oc=5
+  Supreme Court Constitutes High-Powered Committee to Probe Police Action Against Jantar Mantar Protesters - The Leaflet
+  https://news.google.com/rss/articles/CBMi2gFBVV95cUxQQmxuc1ktMERWQWRWNWVzcExuZDRuY3BaV1NLdk1rNDVYWFRPbUkxMU9nZjk4WjJWOGJKQ0FYNE41SWtCbWdWaThPNkZCMXZUa2FEVGJlUjBYS0dXVG1oVkM5aXFkcThnYlhVazZHQS1rOXV4OXQ3OTNaM2xXQzdiNG1BcEQ3bTNKVndNNmd6em45Q09jTFlhTTV1Y0lQMWFQZjZLWDdhVTZxZFlveW15amtCVXpnTXpnNGxUVWtUaVlvb29qZjN6ZzNSSzFEeWxCazJtcGppZHQ4UQ?oc=5
   matched: Jantar Mantar
-
-· [NEW_ITEM] News: Jantar Mantar and the police action
-  Jantar Mantar protest: SC panel to hear police brutality victims - The Siasat Daily
-  https://news.google.com/rss/articles/CBMimwFBVV95cUxOZ2VCZmJGYW1BX1p6b0haTTdMbWU5VUthVFEyNE1OdUhwQ0hVS3I1SVhzSHJVLTR2cWtWV1Y3aDBtdjFDU1pjNGVpMmdjSWZvT1Q4Z0xSRHBRLUlmNEVwQy0ycC1FM0dFdnlMclRtX2Ztak5OMWl5VVhubFBJM01wRVpmM3pnM1BYSTFGZlhDUUdlbWNRUFc2NEhUZ9IBoAFBVV95cUxQbllCLUNMOHNQMWFudzlMMktDNE9BZVdldEprcEl1dEpnZUFGOXZmN2t2OTI5aTBReGl1bVJ6Q2JXYlZNaXl0X3FxazJuT1drS2g3a0RSQlBjOExJejQzYndOV0tkUTV3YVVhR1NtbmF2WElQVkE4bWpFT0R1cWs1X2toUHFSSHlIeTVSekdsTlhXdmtqLTBtV1NIOXFLZkk3?oc=5
-  matched: Jantar Mantar
-
-· [NEW_ITEM] News: Jantar Mantar and the police action
-  CPI(M) Condemns Detention of Youth, Student Protesters at Jantar Mantar - Kashmir Despatch
-  https://news.google.com/rss/articles/CBMingFBVV95cUxPcFdINmdCeTZsQ1lYamtsakJGaGpHN01Eb0RpZlNWQzRhUVE3bkJSRXRyRVpVTV9ldU5DcnZJZmc5Um8xVUI5RU5hWTRPTWRQRlI4aW10bFdnMkhqbXlUODZMeUF0ckpDb2c2dkREU2tKWVlvUTNfTm5wdmVkbU5UaS1wcmwtZ2Y2T1p6ZGNjaXZLRE01dDNWSVJYcDYwUQ?oc=5
-  matched: Jantar Mantar
-
-· [NEW_ITEM] News: Jantar Mantar and the police action
-  Jantar Mantar: India police arrest six over anti-Muslim rally - BBC
-  https://news.google.com/rss/articles/CBMiX0FVX3lxTE9iaFlENkZOUm9aZFR0amFmaGE3RlVYaTRXSERYdlpINElVSXRGSkFCVEpnMzRWS2NJWURLSFkxdURnZlh5enNha0tDOHp4UW9BcXZyckRNazdBdW5OMWEw?oc=5
-  matched: Jantar Mantar
-
-· [NEW_ITEM] News: facial recognition and the surveillance question
-  Cops say facial recognition camera plan predates protests; report flags surveillance gaps - The Times of India
-  https://news.google.com/rss/articles/CBMi8wFBVV95cUxNcEd2YXkwd1FLUGNpbHZlVDlJTjVCQzhVQm1RZVRhTDZNczRtUGtCYU5XeXduNU04eUltdE96WU9PekoyeWF0WHNWTXY4SmpBdGt1LXp6QXZ3b2ltaFVCaU5kUVZ1dUdfcWNpOWhwby1SLXFEcTVRVkpFc0laczJTZ1BZYTc0SkRtczB6V2MzTWR6bEdPckRzVTBiODhLNUlTb0o3VDVJcTdVODcwSThnSGNDa24wSXpYN0ZfSHN1TlkyVTlCdXdiSVRiejhpRkFYZndFbzRjTWVpRUtLWnFYSWFpTm80cWhibHVNRGtpRGhvdVnSAfgBQVVfeXFMT0x6R2tabGRpNTdzLWk0b3lqcExGVDhwYmpfb1hUZWRYZTBBX2tyV1dHWUJHTE5rY0hmdkVFODQtTVNqckR1cTJPeVhKbmNKZXJYX1JrNkloa2Q0ZHJiVENXOF92UEFsaHpQVGtxM3h6TVBYYm9WcHBJel9aeF9xUFBHeWF4NTNpZlN3a0RsckN5d0xaZFVYcUdpUjJiRVBtV19kZUc0ZDRRLVRJSGQyUmRpLXA4LVlIWVIwTnNXa3hLQWxMYl9SdXQzZXFWbmtlOTdoYlNRa09JT1BzZFZpNkp1ZFJ1N2ctNEwtMkc1UlEzLWFtaEdjU2o?oc=5
-  matched: facial recognition
-
-· [NEW_ITEM] News: facial recognition and the surveillance question
-  At Jantar Matar, facial recognition ‘spotted’ 25 persons who police say were in jail: Report - Scroll.in
-  https://news.google.com/rss/articles/CBMixAFBVV95cUxNQUVKeGp1anIwa1VpTnViSi1xUmJXVk5DSlRqcGJhOUpfekROaXlMZTNrWnRFNU94MXo3eGRsbC0zQUZmY01VZHB4WG9qVG15S2htYlN0WXBPaHhzTkxJTm1qWUxfNkV5aWFFdmxabWZpTTU2d1BiRXUwRnd1U0FkTXdrRlFiRUpXM1ZUOTVMcGZmQkVHUGcxdnI5eUc3U1N1SVNFMVp3TkhmWVdReW5zdFQ5OWF4VlBHalRaQnJuX3V5U3Zh?oc=5
-  matched: facial recognition
-
-· [NEW_ITEM] News: facial recognition and the surveillance question
-  Protest Photography and Facial Recognition - Baaz.nl
-  https://news.google.com/rss/articles/CBMib0FVX3lxTE9STGNfUXc3Z1NZOTQ2RFlVbFJYUFotRy1GMGVxdDVFX1VqRmpVWkNRZGY1SFgxUkJ5d2VaRmFQVHlwbWp4Y0NWSFM5b3VpcERxTEdZYjdTX0FOQUIxcUtZQjZ1VWd0X21LbjFabDdTRQ?oc=5
-  matched: facial recognition
 

@@ -3,10 +3,19 @@
   <title>WhoGaveTheOrder.in: changes to the record</title>
   <subtitle>Every record that has been added, moved between states, or edited.</subtitle>
   <id>tag:whogavetheorder.in,2026:feed</id>
-  <updated>2026-10-28T07:50:36Z</updated>
+  <updated>2026-10-28T08:49:23Z</updated>
   <link href="https://www.whogavetheorder.in/"/>
   <link rel="self" href="https://www.whogavetheorder.in/feed.xml"/>
   <rights>Reuse with attribution</rights>
+  <entry>
+    <title>7 records edited</title>
+    <id>tag:whogavetheorder.in,2026:change/fbc94225d2</id>
+    <updated>2026-10-28T08:49:23Z</updated>
+    <link href="https://www.whogavetheorder.in/changes.html#fbc94225d2"/>
+    <content type="html">
+      &lt;p&gt;Sweep log and archived copies for 2026-10-28 [skip ci]&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Edited Source SRC-0179: Indian Awaaz&lt;/li&gt;&lt;li&gt;Edited Source SRC-0182: Dynamite News&lt;/li&gt;&lt;li&gt;Edited Source SRC-0189: Wikipedia&lt;/li&gt;&lt;li&gt;Edited Source SRC-0192: The Wire&lt;/li&gt;&lt;li&gt;Edited Source SRC-0193: The Quint&lt;/li&gt;&lt;li&gt;Edited Source SRC-0194: Scroll.in&lt;/li&gt;&lt;li&gt;Edited Source SRC-0195: The Tribune (PTI)&lt;/li&gt;&lt;/ul&gt;
+    </content>
+  </entry>
   <entry>
     <title>1 record edited</title>
     <id>tag:whogavetheorder.in,2026:change/bd71309f59</id>
@@ -446,15 +455,6 @@
     <link href="https://www.whogavetheorder.in/changes.html#c7d542dbf5"/>
     <content type="html">
       &lt;p&gt;Sweep log and archived copies for 2026-10-06 [skip ci]&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Edited Source SRC-0118: The Tribune&lt;/li&gt;&lt;li&gt;Edited Source SRC-0123: The News Mill&lt;/li&gt;&lt;li&gt;Edited Source SRC-0124: DT Next&lt;/li&gt;&lt;li&gt;Edited Source SRC-0125: Bar and Bench&lt;/li&gt;&lt;/ul&gt;
-    </content>
-  </entry>
-  <entry>
-    <title>20 records added · 1 state changed · 6 records edited</title>
-    <id>tag:whogavetheorder.in,2026:change/729dafabb3</id>
-    <updated>2026-10-05T13:49:06Z</updated>
-    <link href="https://www.whogavetheorder.in/changes.html#729dafabb3"/>
-    <content type="html">
-      &lt;p&gt;Process sweep issues 45 to 48: three days of the Jantar Mantar protests (#50)&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Added Evidence INC-DEL-017: Three FIRs were registered on 3 October 2026 over the protest of 2 October at Jantar Mantar, at Parliament Street and Connaught Place police stations. Outlook, &lt;/li&gt;&lt;li&gt;Added Evidence INC-DEL-018: ThePrint, citing PTI and Delhi Police officials, reports that nearly 200 protesters were detained on Saturday 3 October 2026 as AISA and others returned to Jant&lt;/li&gt;&lt;li&gt;Added Evidence INC-DEL-019: The News Mill reports, on police sources, that around 15 Delhi Police personnel were injured, some women personnel reportedly by bites, and around 110 people we&lt;/li&gt;&lt;li&gt;Added Evidence INC-DEL-020: Delhi Police refused permission for the protest planned at Jantar Mantar on 2 October 2026. DT Next reports it on unnamed police sources and says the protest wa&lt;/li&gt;&lt;li&gt;Added Evidence INC-DEL-021: IBTimes India reports that Delhi Police personnel at the Jantar Mantar protests did not wear name tags, that junior personnel were allowed to remove them while &lt;/li&gt;&lt;li&gt;Added Evidence INC-DEL-022: PTI and Deccan Chronicle report that three women journalists alleged sexual harassment by police personnel during the Jantar Mantar protest of 3 October 2026, t&lt;/li&gt;&lt;li&gt;Added Evidence PROC-DEL-005: Bar and Bench reports that the president of the Indian Youth Congress moved the Delhi High Court on 3 October 2026 against Delhi Police&apos;s order of 1 October 202&lt;/li&gt;&lt;li&gt;Added Evidence PROC-SC-015: LiveLaw reports that on 5 October 2026 a bench headed by the Chief Justice of India, Surya Kant, agreed to list a plea seeking directions to Delhi Police to per&lt;/li&gt;&lt;li&gt;Added Source SRC-0119: Deccan Chronicle&lt;/li&gt;&lt;li&gt;Added Source SRC-0120: ThePrint&lt;/li&gt;&lt;li&gt;Added Source SRC-0121: Outlook (second report)&lt;/li&gt;&lt;li&gt;Added Source SRC-0122: tob.news&lt;/li&gt;&lt;li&gt;Added Source SRC-0123: The News Mill&lt;/li&gt;&lt;li&gt;Added Source SRC-0124: DT Next&lt;/li&gt;&lt;li&gt;Added Source SRC-0125: Bar and Bench&lt;/li&gt;&lt;li&gt;Added Source SRC-0126: IBTimes India&lt;/li&gt;&lt;li&gt;Added Source SRC-0127: ThePrint&lt;/li&gt;&lt;li&gt;Added Source SRC-0128: Deccan Chronicle&lt;/li&gt;&lt;li&gt;Added Source SRC-0129: LiveLaw&lt;/li&gt;&lt;li&gt;Added Question OQ-061: Who signed the Delhi Police order of 1 October 2026 refusing the Indian Youth Congress permission to demonstrate at Jantar Mantar, and what ground does it state?&lt;/li&gt;&lt;li&gt;Edited Incident INC-0006: Mass detentions at Jantar Mantar under a prohibitory order&lt;/li&gt;&lt;li&gt;Edited Evidence INC-DEL-011: On Friday 2 October 2026 Delhi Police detained several hundred people who were trying to reach Jantar Mantar to demand the resignation of the Chief Election Com&lt;/li&gt;&lt;li&gt;Edited Evidence INC-DEL-013: The sources disagree on which office issued the section 163 order of 2 October 2026. Al Jazeera, citing The Times of India, says Delhi Police imposed it. Outloo&lt;/li&gt;&lt;li&gt;Evidence INC-DEL-015 moved from REPORTED to CORROBORATED: Outlook, Deccan Chronicle and India TV (as carried by tob.news) report that internet services were suspended in the Jantar Mantar area on 2 October 2026. Outloo&lt;/li&gt;&lt;li&gt;Edited Evidence INC-DEL-016: The Week reports that an independent journalist accused an Assistant Commissioner of Police of hitting her on the chest while she filmed the detention of a stud&lt;/li&gt;&lt;li&gt;Edited Source SRC-0112: Al Jazeera&lt;/li&gt;&lt;li&gt;Edited Source SRC-0117: Asianet News&lt;/li&gt;&lt;/ul&gt;
     </content>
   </entry>
 </feed>
