@@ -5,6 +5,114 @@ window.WGO = window.WGO || {};
 
 WGO.changes = [
   {
+    "commit": "fbc94225d2",
+    "date": "2026-10-28T08:49:23Z",
+    "subject": "Sweep log and archived copies for 2026-10-28 [skip ci]",
+    "added": [],
+    "removed": [],
+    "changed": [
+      {
+        "id": "SRC-0179",
+        "kind": "Source",
+        "title": "Indian Awaaz",
+        "state": null,
+        "url": "https://theindianawaaz.com/?p=99217",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "https://web.archive.org/web/20261028084720/https://theindianawaaz.com/bhu-violence-cm-yogi-orders-probe/"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0182",
+        "kind": "Source",
+        "title": "Dynamite News",
+        "state": null,
+        "url": "https://www.dynamitenews.com/story/bhu-protests-sho-circle-officer-additional-city-magistrate-removed",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "https://web.archive.org/web/20261028084800/https://www.dynamitenews.com/story/bhu-protests-sho-circle-officer-additional-city-magistrate-removed"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0189",
+        "kind": "Source",
+        "title": "Wikipedia",
+        "state": null,
+        "url": "https://en.wikipedia.org/wiki/2019_Jamia_Millia_Islamia_attack",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20260901075915/https://en.wikipedia.org/wiki/2019_Jamia_Millia_Islamia_attack"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0192",
+        "kind": "Source",
+        "title": "The Wire",
+        "state": null,
+        "url": "https://m.thewire.in/article/rights/nhrc-blames-jamia-students-for-police-violence-wants-real-motive-of-anti-caa-protest-probed",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20211221033209/https://m.thewire.in/article/rights/nhrc-blames-jamia-students-for-police-violence-wants-real-motive-of-anti-caa-protest-probed"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0193",
+        "kind": "Source",
+        "title": "The Quint",
+        "state": null,
+        "url": "https://www.thequint.com/amp/story/news/india/delhi-police-jamia-violence-reply-to-high-court-police-brutality-claims-false",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20201004045040/https://www.thequint.com/amp/story/news/india/delhi-police-jamia-violence-reply-to-high-court-police-brutality-claims-false"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0194",
+        "kind": "Source",
+        "title": "Scroll.in",
+        "state": null,
+        "url": "https://scroll.in/latest/948825/jamia-violence-two-delhi-police-officers-fired-guns-during-caa-protests-reveals-internal-inquiry",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20250718202253/https://scroll.in/latest/948825/jamia-violence-two-delhi-police-officers-fired-guns-during-caa-protests-reveals-internal-inquiry"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0195",
+        "kind": "Source",
+        "title": "The Tribune (PTI)",
+        "state": null,
+        "url": "https://www.tribuneindia.com/news/nation/police-entered-campus-without-permission-jamia-vc-11798",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20200927013408/https://www.tribuneindia.com/news/nation/police-entered-campus-without-permission-jamia-vc-11798"
+          }
+        ]
+      }
+    ],
+    "summary": "7 records edited"
+  },
+  {
     "commit": "bd71309f59",
     "date": "2026-10-28T07:50:36Z",
     "subject": "Note that several outlets still carry the two-day version of the 29 October sitting (#98)",
