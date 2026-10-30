@@ -5,6 +5,114 @@ window.WGO = window.WGO || {};
 
 WGO.changes = [
   {
+    "commit": "4c90fb9f08",
+    "date": "2026-10-30T09:03:05Z",
+    "subject": "Sweep log and archived copies for 2026-10-30 [skip ci]",
+    "added": [],
+    "removed": [],
+    "changed": [
+      {
+        "id": "SRC-0191",
+        "kind": "Source",
+        "title": "The Leaflet",
+        "state": null,
+        "url": "https://theleaflet.in/governance-and-policy/jamia-violence-a-total-of-15-people-arrested-by-delhi-police",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20261029084610/https://theleaflet.in/governance-and-policy/jamia-violence-a-total-of-15-people-arrested-by-delhi-police"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0203",
+        "kind": "Source",
+        "title": "SCC Online Times",
+        "state": null,
+        "url": "https://www.scconline.com/blog/post/2020/01/07/all-hc-nhrc-to-conduct-inquiry-on-alleged-violation-of-human-rights-negligence-in-prevention-of-same-by-police-officials-during-caa-protests-at-amu/",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20260618081259/https://www.scconline.com/blog/post/2020/01/07/all-hc-nhrc-to-conduct-inquiry-on-alleged-violation-of-human-rights-negligence-in-prevention-of-same-by-police-officials-during-caa-protests-at-amu/"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0204",
+        "kind": "Source",
+        "title": "The Caravan",
+        "state": null,
+        "url": "https://caravanmagazine.in/politics/aligarh-muslim-university-students-union-president",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20260511180937/https://caravanmagazine.in/politics/aligarh-muslim-university-students-union-president"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0205",
+        "kind": "Source",
+        "title": "ETV Bharat",
+        "state": null,
+        "url": "https://etvbharat.com/english/state/delhi/internet-services-suspended-in-aligarh-meerut/na20191216061906247",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "https://web.archive.org/web/20261030090219/https://www.etvbharat.com/english/state/delhi/internet-services-suspended-in-aligarh-meerut/na20191216061906247"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0206",
+        "kind": "Source",
+        "title": "WION",
+        "state": null,
+        "url": "https://www.wionews.com/india-news/uttar-pradesh-internet-services-resumed-in-aligarh-269540",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20220528083402/https://www.wionews.com/india-news/uttar-pradesh-internet-services-resumed-in-aligarh-269540"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0207",
+        "kind": "Source",
+        "title": "Sabrang India",
+        "state": null,
+        "url": "https://sabrangindia.in/allahabad-hc-nhrc-directed-probe-amu-police-excess/",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20251008064602/https://sabrangindia.in/allahabad-hc-nhrc-directed-probe-amu-police-excess/"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0208",
+        "kind": "Source",
+        "title": "The Quint",
+        "state": null,
+        "url": "https://www.thequint.com/amp/story/news/india/aligarh-december-now-all-you-need-to-know-about-amu-anti-citizenship-amendment-act-protests-students-police-teachers",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20200215225421/https://www.thequint.com/amp/story/news%2Findia%2Faligarh-december-now-all-you-need-to-know-about-amu-anti-citizenship-amendment-act-protests-students-police-teachers"
+          }
+        ]
+      }
+    ],
+    "summary": "7 records edited"
+  },
+  {
     "commit": "1d2b6c01fc",
     "date": "2026-10-29T08:49:08Z",
     "subject": "Sweep log and archived copies for 2026-10-29 [skip ci]",
