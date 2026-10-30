@@ -1,40 +1,50 @@
-Sweep 2026-10-29: 9 targets, 175 watch terms.
-  matched            delhi-hc-causelist
+Sweep 2026-10-30: 9 targets, 175 watch terms.
+  nothing-published  delhi-hc-causelist
   matched            delhi-hc-judgments
   matched            nhrc-press
   unreachable        eparlib
-  ok                 barandbench  25 item(s), 0 matched
-  ok                 news-delhi  66 item(s), 3 matched
+  ok                 barandbench  28 item(s), 1 matched
+  ok                 news-delhi  68 item(s), 3 matched
   ok                 news-cases  46 item(s), 0 matched
-  ok                 news-frt  100 item(s), 0 matched
-  ok                 news-bihar  55 item(s), 0 matched
+  ok                 news-frt  51 item(s), 1 matched
+  ok                 news-bihar  100 item(s), 0 matched
 
-6 thing(s) to look at:
-
-· [CHANGED_MATCH] Delhi High Court cause list for today
-  https://delhihighcourt.nic.in/files/2026-10/cause-list/combined_cause_list_29.10.2026.pdf
-  matched: 917/2026, Mumbai, Hyderabad, Jamia Millia Islamia, Jawaharlal Nehru University, Kolkata, Chennai, Jamia Nagar, Holy Family Hospital, Okhla, Bengaluru, Civil Lines, Harihar, University of Delhi, West Bengal, Ashok Nagar, Ranchi, India Gate
+8 thing(s) to look at:
 
 · [CHANGED_MATCH] Delhi High Court, latest judgments
   https://delhihighcourt.nic.in/web/judgement/fetch-data
   matched: Civil Lines
 
+· [CHANGED_MATCH] NHRC press releases
+  https://nhrc.nic.in/media/press-release
+  matched: Jantar Mantar, Kolkata, West Bengal, Darbhanga
+
 · [UNREACHABLE] Parliamentary library
   https://eparlib.sansad.in/
   fetch failed
 
+· [NEW_ITEM] Bar & Bench
+  Calcutta High Court refuses to stay delimitation of Kolkata Municipal Wards
+  https://www.barandbench.com/news/litigation/calcutta-high-court-refuses-to-stay-delimitation-of-kolkata-municipal-wards
+  matched: Kolkata
+
 · [NEW_ITEM] News: Jantar Mantar and the police action
-  Delhi New Protest Sites, Jantar Mantar Replaced by 3 Venues - Vajiram & Ravi
-  https://news.google.com/rss/articles/CBMidkFVX3lxTFBFX3ZFMzdXZ19kMFJLMDRmNi1HSGdFeVAtbXpXemU1aFd1MXZHeFQ2Rk5FcnN3aTR3M0RYZ2QzU1NyaFpkb0FGQldEVDY2aXpJdXdCN2trRWs1YktETnA3VmNadU5Yck9uam9iRjR6OWlkSTc4UVE?oc=5
+  Row Over Protest Rights: Rijiju Targets Sibal With 2011 Video, Jantar Mantar De-notification Debated - India Today - India Today
+  https://news.google.com/rss/articles/CBMi8gFBVV95cUxNVkZTcGtBcGpncWtaU0hkeVRtdk55Ty1hM0hJeTFFS21kV3pyOW54REdwWkZ5SlRCcUdCdzF1SFIxeXNSMDFYeHk5VEh0dGdBSXJGZkIxOWRzRE53bGtaeFFrcDVuM3IwNndCYTE2VVZHU0ZEaVZGMVRhR285c21YWTZMR09JV09wRTA4TzBNZ2xUbm9YMGhTZkRKM0tkNzBLRnpXMUhwNm9PVVFrYi0xQ0pFMWJpMFF2OEVwYl9GT2stZTFOTHJ0YzNOZDJIQ0w0RHB2TGhWZ3BOOG9zTjJDWUdOY2pEOHFQME1kX1pDRVpGZ9IB9wFBVV95cUxQeFk2empkdE9qN0ZhZVRjcUtvejBPLUdaUjJZSHlXRm45bzVzb25xLXpTUTFxY3dDUnhmRHJ5RVJGV1dWNE9iejNReE5ld3B0R3dMVElmWndvREFKN2IzNFZrRHBzeEhsTEd6TGJ2V3FkWHh0N0h0YnpkXzdSVWczQ1RXdXhmU3FuUVZuQ0Q0QjZVQzIxWXZIR0JLc3BqUEV2YjJIbGgzeDY1SS1jM2djcG90VmNlcGxVZ3FoSl9VQ0YzUHJ1SDhwaUJfU3lFWGUydUJHekJEMXpsbS1fNHdPbmFKUVFnbHhYWEI4N0doMnVUWWpRSHA4?oc=5
   matched: Jantar Mantar
 
 · [NEW_ITEM] News: Jantar Mantar and the police action
-  Jantar Mantar Assault Case | Swatantra Bhardwaj Gets Regular Bail After 3-Week Interim Relief - LawBeat
-  https://news.google.com/rss/articles/CBMiywFBVV95cUxNcnNaWnJ0S0pLcmJXSzJtcXM3X1dHU01XX09mY3FyQVpudDVacmJqOGJPSlBlSmNndllHT21vQ3Z5cnZ5TXpmd1YydFRnRG1uR1hJc2htS0d5Y0U5RTZVbkQ2Y25VdXlRbnpUaUJKWHE1WkQ3S3JTdlFCanhpS0NIRlZpWkV1UklKclRRWF91NGpqQXhrRno4eWd6LUJjQXFoME1aMDN6ZXRqWThaTklVVjJGNjRqZjcxV19ITHlZVEp1R0xYanBYTEdJMNIB0AFBVV95cUxQdG9tTFA2M3dLdFFlcWswbmNNZno0NFNXZjliRENYOUVpc1hVLVcyMXkza0xfMC1fNHNwMmxQRVpoa0Z6Y1hVRTFnZ3FfdlJVYkJrNUdfeXFuNWdJalV3b1pFNEJXSzBnN1lHQWxpb1NZWVUyb0xHUzV1eGZZTy02SEZ1cjJPZEwtZ3ZiTUljYWh4ZkdNWldWZXlDLVlGOXJycEJkeEFOWkk0V1hfSjVBVlp3NEhIZUt5Q1lXUGh2ajhzc0xyZmdPaTB4UFBVUGc0?oc=5
+  Days After Denotification As Protest Site, Jantar Mantar To Host India Biennale 2026 - Outlook India
+  https://news.google.com/rss/articles/CBMivgFBVV95cUxNVjFjdjJ1SGQ3SlZkRTBsUzU2ZTBLWldxWVUwWklLbFVqYS11RVRGdUdhUjNhQkJJV1lHMXU5ZWtUbTNpakd2cHlYT1NTRl9BV0FqWk1UbG9DUXlrRjNXdXNQWnB0NkZaZGZNZHk3ZV8tSERiQlVaVVFFSmRkWWJHclpkaWxTcjhsNXdmWFlIb3U5NWFHMVFIZnJFVFJVM1BURm1nV0wtOW14V29iMTRoYVBIWkZqaFhpcFlJb3d30gHLAUFVX3lxTE1fUG4xUzJJbjZQNFJ0RnRxNk5LOEY0UHZCSWEydUp6ZEFGWDdTblNXcURQZmJqanJLRHFsaG5uT3V4alpSQlplQnR3YUN5S2phbHZjSUpjbXVpZHZ5b09iN3FNOG4yazdPbkcyVFo3WkJSRnBDR2RoX2xZMUktWDRwa01zb09tODd2eFNIS0trSk5saGhHYVREVVdKRlRXN3Jmd1FjeFdWV1ZVeFkwbWV2UXdWcnlPVW1fWWNyZ1FYNUYwSTdNaU9UNVFZ?oc=5
   matched: Jantar Mantar
 
 · [NEW_ITEM] News: Jantar Mantar and the police action
-  Supreme Court Constitutes High-Powered Committee to Probe Police Action Against Jantar Mantar Protesters - The Leaflet
-  https://news.google.com/rss/articles/CBMi2gFBVV95cUxQQmxuc1ktMERWQWRWNWVzcExuZDRuY3BaV1NLdk1rNDVYWFRPbUkxMU9nZjk4WjJWOGJKQ0FYNE41SWtCbWdWaThPNkZCMXZUa2FEVGJlUjBYS0dXVG1oVkM5aXFkcThnYlhVazZHQS1rOXV4OXQ3OTNaM2xXQzdiNG1BcEQ3bTNKVndNNmd6em45Q09jTFlhTTV1Y0lQMWFQZjZLWDdhVTZxZFlveW15amtCVXpnTXpnNGxUVWtUaVlvb29qZjN6ZzNSSzFEeWxCazJtcGppZHQ4UQ?oc=5
+  Delhi’s Jantar Mantar Named Official Venue for India Biennale 2026 - Pragativadi
+  https://news.google.com/rss/articles/CBMifkFVX3lxTFBQY3otbzd6N2VCb3MzZkxkQVQ1WHFIUG1SVnBiVTIwbzJVNER2X0JyREstdWtkYmd4RWxlZnlnczJYNmhHWVlSZnpONnVoeEkzRk4wMFFGbDNhRm41aVlEbGJOZHZSLU5BNWduckRTOHIzOVV4emk1Ulo5OUhIQQ?oc=5
   matched: Jantar Mantar
+
+· [NEW_ITEM] News: facial recognition and the surveillance question
+  Government Facial Recognition Threatens Our Rights to Free Speech and Protest - ASIS International
+  https://news.google.com/rss/articles/CBMimwJBVV95cUxPQ0hqZkk1cmRBM3hQQ1lZdmF3eGo0RGFZLTJ1MFlteDYxUU9pNHg2azR1OG5HOW0tNy04b1F0Wm11NkxvRnZNYUJFSk5yb1hSM2xGOHRXQUVwX1VZVTR4eVBWY2hudWR3WTNlY1JNSHE4bnI1WVdXVENEcEJFajVtRmtEOWs4MGREZWJPWC1yaWkxeDlKaU1pR3lIWWQxMlF2OW44MWp2T3NpWWw4MjNpNzhuMWREVUo4cDVubFI4SzUwVlp5SExSWG5FRTh6VG40TkZ0WWNHU0ZCYndlMXc3LUdwcE9WRTktalQwUnhmYUVFbm5tVGtMaDlwZklFcnhOVmdYQjQ3a2RiaC1SLTZCYlN5U1VMOHFSQ0x3?oc=5
+  matched: facial recognition
 
