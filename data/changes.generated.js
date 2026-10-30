@@ -5,6 +5,100 @@ window.WGO = window.WGO || {};
 
 WGO.changes = [
   {
+    "commit": "1d2b6c01fc",
+    "date": "2026-10-29T08:49:08Z",
+    "subject": "Sweep log and archived copies for 2026-10-29 [skip ci]",
+    "added": [],
+    "removed": [],
+    "changed": [
+      {
+        "id": "SRC-0186",
+        "kind": "Source",
+        "title": "Delhi High Court judgment of 5 October 2026 in W.P.(C) 13468/2019 and connected matters, copy hosted by Verdictum (not the court's own site)",
+        "state": null,
+        "url": "https://www.verdictum.in/pdf_upload/2026/10/06/74905102026cw134682019155525watermark-1785722.pdf",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "https://web.archive.org/web/20261029084439/https://www.verdictum.in/pdf_upload/2026/10/06/74905102026cw134682019155525watermark-1785722.pdf"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0197",
+        "kind": "Source",
+        "title": "Maktoob",
+        "state": null,
+        "url": "https://maktoobmedia.com/india/in-jamia-on-15-dec-2019-police-was-acting-to-prevent-violence-court/",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20231202175125/https://maktoobmedia.com/india/in-jamia-on-15-dec-2019-police-was-acting-to-prevent-violence-court/"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0199",
+        "kind": "Source",
+        "title": "The Leaflet",
+        "state": null,
+        "url": "https://theleaflet.in/delhi-hc-hears-petition-seeking-court-monitored-probe-on-2019-jamia-police-attack",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20240529095221/https://theleaflet.in/delhi-hc-hears-petition-seeking-court-monitored-probe-on-2019-jamia-police-attack/"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0200",
+        "kind": "Source",
+        "title": "Scroll.in",
+        "state": null,
+        "url": "https://scroll.in/latest/953747/jamia-video-controversy-sit-asks-for-duty-roster-of-policemen-on-day-of-violence-says-report",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20250327105639/https://scroll.in/latest/953747/jamia-video-controversy-sit-asks-for-duty-roster-of-policemen-on-day-of-violence-says-report"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0201",
+        "kind": "Source",
+        "title": "The Wire",
+        "state": null,
+        "url": "https://m.thewire.in/article_pdf/communalism/jamia-police-attack-report",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "https://web.archive.org/web/20261029084833/https://m.thewire.in/article_pdf/communalism/jamia-police-attack-report"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0202",
+        "kind": "Source",
+        "title": "The Leaflet",
+        "state": null,
+        "url": "https://theleaflet.in/allahabad-hc-asks-nhrc-to-probe-into-police-action-against-amu-students-amidst-anti-caa-agitation",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20230505092743/https://theleaflet.in/allahabad-hc-asks-nhrc-to-probe-into-police-action-against-amu-students-amidst-anti-caa-agitation/"
+          }
+        ]
+      }
+    ],
+    "summary": "6 records edited"
+  },
+  {
     "commit": "fbc94225d2",
     "date": "2026-10-28T08:49:23Z",
     "subject": "Sweep log and archived copies for 2026-10-28 [skip ci]",

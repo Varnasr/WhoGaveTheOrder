@@ -683,6 +683,17 @@
         "unreachable": 1,
         "ok": 5
       }
+    },
+    {
+      "date": "2026-10-30",
+      "targets": 9,
+      "findings": 8,
+      "outcomes": {
+        "nothing-published": 1,
+        "matched": 2,
+        "unreachable": 1,
+        "ok": 5
+      }
     }
   ],
   "seen": {
@@ -692,43 +703,17 @@
       "method": "pdf-text"
     },
     "delhi-hc-judgments": {
-      "fingerprint": "dc3eed0b71bdd1bb",
-      "lastChecked": "2026-10-29",
+      "fingerprint": "68bc66de592172db",
+      "lastChecked": "2026-10-30",
       "method": "html"
     },
     "nhrc-press": {
-      "fingerprint": "0c6dd8a5f97db279",
-      "lastChecked": "2026-10-29",
+      "fingerprint": "49d91e07ffbd33f3",
+      "lastChecked": "2026-10-30",
       "method": "html"
     },
     "barandbench": {
       "items": [
-        "104904e3f5c26301",
-        "c1468b64a734dfb0",
-        "1653020018865fda",
-        "2b7db1f7f09f7581",
-        "b551d626c9af155f",
-        "be268407919874f7",
-        "a019d8f7a091c630",
-        "1d11c1b6fbddd8e1",
-        "e6710584ab5464c9",
-        "a0a6214d4634f6d1",
-        "546df2d4a862ff93",
-        "6b67f69a05b33bc8",
-        "4f203f12251cf248",
-        "57f4154f425043d1",
-        "44e16cb43ce1244e",
-        "2e82876a57b37715",
-        "7c9a5f67e8c025fb",
-        "a1bd4611be8297e4",
-        "4becca23a3677901",
-        "fbaf7b1b0b558b90",
-        "f48b1b9551beb26f",
-        "7b673b0f1141063c",
-        "21f1021fc36003cb",
-        "102762513fc07bc6",
-        "11f5057ca8dd18a5",
-        "611d9db28cda5204",
         "ded686624bfd2e9a",
         "9f67050d20c3fbec",
         "bd7503f195bef56d",
@@ -1502,15 +1487,38 @@
         "a7276acf4c493890",
         "d9b9543360a38377",
         "699abfacaf1040a8",
-        "131b15163f9e7686"
+        "131b15163f9e7686",
+        "556e8000694f8c9f",
+        "a0dac7756eef9bc1",
+        "33c53d8c4595a0fa",
+        "b00f03deef8107bd",
+        "be97dd6c227cd84f",
+        "99eef41ee5583cd6",
+        "f3f8f4d11450f120",
+        "6be027aa5f2b8cfe",
+        "4f027df2e142b666",
+        "14ffb64611085355",
+        "e5b5eec5867a9d68",
+        "dc02b8053cd9d9dc",
+        "edb7c7a9da65ba4a",
+        "fd7f050cc5864ac1",
+        "adccf3a1384d84d2",
+        "4604cd9105b78d50",
+        "cff6226277ed995b",
+        "41f94d48cb28c762",
+        "08f31938c5c8d74a",
+        "f7a73805fea23a5d",
+        "16a429b23a6979bb",
+        "6afb2065f719dd6f",
+        "3933cbba50b0d539",
+        "40cfa4fb6a41639b",
+        "95da3185f65998ae",
+        "2d0e2570a18ee9d1"
       ],
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "news-delhi": {
       "items": [
-        "b302febefac2844e",
-        "d19ed7ebd74fae14",
-        "43bbd3bdcaa6a1bb",
         "d40b3d92f5f76ed5",
         "24ab210e40c94a7c",
         "86992ab2123ee512",
@@ -2307,9 +2315,12 @@
         "19cc60bc4ec8ce94",
         "52083824b59dda52",
         "52b2425e3446f3c2",
-        "c7a317f4ce995ebd"
+        "c7a317f4ce995ebd",
+        "c9efadd6d3d9203f",
+        "b116cffb119a2b3e",
+        "8d168f8bad6ed2c4"
       ],
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "news-cases": {
       "items": [
@@ -2514,9 +2525,10 @@
         "359f0a073d2ea848",
         "8abe73d04b03a792",
         "6558d188ee4699b0",
-        "c81a75d27ca2301a"
+        "c81a75d27ca2301a",
+        "11c1447711414055"
       ],
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "news-frt": {
       "items": [
@@ -2811,9 +2823,10 @@
         "c21c8ea4fa85ac7c",
         "3fe62ed26a2f49f7",
         "d1919b0689c4509d",
-        "b760bcae39818f5c"
+        "b760bcae39818f5c",
+        "18bb19f98ed650f3"
       ],
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     },
     "news-bihar": {
       "items": [
@@ -3177,7 +3190,7 @@
         "0e5ef7c2acfb63bc",
         "ed86c4ec19240e31"
       ],
-      "lastChecked": "2026-10-29"
+      "lastChecked": "2026-10-30"
     }
   }
 }
