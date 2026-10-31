@@ -5,6 +5,114 @@ window.WGO = window.WGO || {};
 
 WGO.changes = [
   {
+    "commit": "070ca54f91",
+    "date": "2026-10-31T08:40:44Z",
+    "subject": "Sweep log and archived copies for 2026-10-31 [skip ci]",
+    "added": [],
+    "removed": [],
+    "changed": [
+      {
+        "id": "SRC-0209",
+        "kind": "Source",
+        "title": "Sabrang India",
+        "state": null,
+        "url": "https://sabrangindia.in/article/aftermath-clashes-amu",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20220627092825/https://www.sabrangindia.in/article/aftermath-clashes-amu"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0210",
+        "kind": "Source",
+        "title": "Indian Cultural Forum (Karwan e Mohabbat report)",
+        "state": null,
+        "url": "https://indianculturalforum.in/2019/12/24/the-siege-of-aligarh-muslim-university-a-fact-finding-report/",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20241212002716/https://indianculturalforum.in/2019/12/24/the-siege-of-aligarh-muslim-university-a-fact-finding-report/"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0211",
+        "kind": "Source",
+        "title": "SCC Online Times",
+        "state": null,
+        "url": "https://www.scconline.com/blog/post/2020/02/24/all-hc-caa-protests-amu-nhrc-recommends-compensation-to-6-students-action-to-be-taken-against-policemen-involved-in-unnecessarily-caning-apprehended-students",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20241207205110/https://www.scconline.com/blog/post/2020/02/24/all-hc-caa-protests-amu-nhrc-recommends-compensation-to-6-students-action-to-be-taken-against-policemen-involved-in-unnecessarily-caning-apprehended…"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0212",
+        "kind": "Source",
+        "title": "SCC Online Times",
+        "state": null,
+        "url": "https://www.scconline.com/blog/post/2020/01/04/all-hc-caa-protests-up-governments-reply-sought-on-alleged-acts-of-violence-and-arbitrary-detention-of-amu-students/",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20260509201913/https://www.scconline.com/blog/post/2020/01/04/all-hc-caa-protests-up-governments-reply-sought-on-alleged-acts-of-violence-and-arbitrary-detention-of-amu-students/"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0213",
+        "kind": "Source",
+        "title": "The Leaflet",
+        "state": null,
+        "url": "https://theleaflet.in/amu-protest-allahabad-high-court-directs-medical-assistance-to-the-injured-students-puts-up-government-and-amu-admin-on-notice",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20250825004536/https://theleaflet.in/amu-protest-allahabad-high-court-directs-medical-assistance-to-the-injured-students-puts-up-government-and-amu-admin-on-notice"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0214",
+        "kind": "Source",
+        "title": "Scroll.in",
+        "state": null,
+        "url": "https://scroll.in/latest/954191/amu-violence-court-orders-up-police-chief-to-act-against-police-officials-who-attacked-students",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20250207012154/https://scroll.in/latest/954191/amu-violence-court-orders-up-police-chief-to-act-against-police-officials-who-attacked-students"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0215",
+        "kind": "Source",
+        "title": "NDTV",
+        "state": null,
+        "url": "https://www.ndtv.com/india-news/on-campus-but-cops-did-nothing-unanswered-questions-after-jnu-attack-2159313",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20251208190309/https://www.ndtv.com/india-news/on-campus-but-cops-did-nothing-unanswered-questions-after-jnu-attack-2159313"
+          }
+        ]
+      }
+    ],
+    "summary": "7 records edited"
+  },
+  {
     "commit": "4c90fb9f08",
     "date": "2026-10-30T09:03:05Z",
     "subject": "Sweep log and archived copies for 2026-10-30 [skip ci]",

@@ -3,10 +3,19 @@
   <title>WhoGaveTheOrder.in: changes to the record</title>
   <subtitle>Every record that has been added, moved between states, or edited.</subtitle>
   <id>tag:whogavetheorder.in,2026:feed</id>
-  <updated>2026-10-30T09:03:05Z</updated>
+  <updated>2026-10-31T08:40:44Z</updated>
   <link href="https://www.whogavetheorder.in/"/>
   <link rel="self" href="https://www.whogavetheorder.in/feed.xml"/>
   <rights>Reuse with attribution</rights>
+  <entry>
+    <title>7 records edited</title>
+    <id>tag:whogavetheorder.in,2026:change/070ca54f91</id>
+    <updated>2026-10-31T08:40:44Z</updated>
+    <link href="https://www.whogavetheorder.in/changes.html#070ca54f91"/>
+    <content type="html">
+      &lt;p&gt;Sweep log and archived copies for 2026-10-31 [skip ci]&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Edited Source SRC-0209: Sabrang India&lt;/li&gt;&lt;li&gt;Edited Source SRC-0210: Indian Cultural Forum (Karwan e Mohabbat report)&lt;/li&gt;&lt;li&gt;Edited Source SRC-0211: SCC Online Times&lt;/li&gt;&lt;li&gt;Edited Source SRC-0212: SCC Online Times&lt;/li&gt;&lt;li&gt;Edited Source SRC-0213: The Leaflet&lt;/li&gt;&lt;li&gt;Edited Source SRC-0214: Scroll.in&lt;/li&gt;&lt;li&gt;Edited Source SRC-0215: NDTV&lt;/li&gt;&lt;/ul&gt;
+    </content>
+  </entry>
   <entry>
     <title>7 records edited</title>
     <id>tag:whogavetheorder.in,2026:change/4c90fb9f08</id>
@@ -446,15 +455,6 @@
     <link href="https://www.whogavetheorder.in/changes.html#514b7a0008"/>
     <content type="html">
       &lt;p&gt;Sweep log and archived copies for 2026-10-09 [skip ci]&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Edited Source SRC-0127: ThePrint&lt;/li&gt;&lt;/ul&gt;
-    </content>
-  </entry>
-  <entry>
-    <title>1 record edited</title>
-    <id>tag:whogavetheorder.in,2026:change/af27248192</id>
-    <updated>2026-10-08T09:15:39Z</updated>
-    <link href="https://www.whogavetheorder.in/changes.html#af27248192"/>
-    <content type="html">
-      &lt;p&gt;Sweep log and archived copies for 2026-10-08 [skip ci]&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Edited Source SRC-0129: LiveLaw&lt;/li&gt;&lt;/ul&gt;
     </content>
   </entry>
 </feed>
