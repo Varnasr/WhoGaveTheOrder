@@ -37874,5 +37874,36 @@
     "volatility": "high",
     "incident": "INC-0001",
     "added_on": "2026-10-25"
+  },
+  {
+    "id": "PUB-WB-001",
+    "jurisdiction": "west_bengal",
+    "category": "existing_documentation",
+    "claim": "Published item: an opinion column by Jhuma Sen, an advocate at the Calcutta High Court, in The Indian Express on 30 October 2026, titled \"What happens when the state kills in the name of protection?\". It argues that police \"encounter\" killings in West Bengal have become a routine practice, and cites PUCL v State of Maharashtra (2014), Jwadder v State of Assam (2025) and section 196 of the BNSS on the inquiries the law requires.",
+    "confidence": "REPORTED",
+    "sources": [
+      {
+        "url": "https://indianexpress.com/article/opinion/columns/state-kills-protection-encounter-west-bengal-10943869/",
+        "source_type": "secondary",
+        "publication": "The Indian Express (opinion), 30 Oct 2026",
+        "retrieved_on": "2026-10-31",
+        "note": "Read in full. Byline and time read from the page: Jhuma Sen, first published 30 October 2026, 7:18 pm IST."
+      },
+      {
+        "url": "https://courtinglaw.substack.com/p/what-happens-when-the-state-kills",
+        "source_type": "secondary",
+        "publication": "Jhuma Sen on Substack (the author's repost)",
+        "retrieved_on": "2026-10-31",
+        "originates_from": "The Indian Express column of 30 October 2026",
+        "note": "Read in full. The same text, marked 'First published by Indian Express'."
+      }
+    ],
+    "notes": "An argument, indexed under its author's name. The column's account of the killings of two men in police custody in West Bengal, and of the police parading of three men at Sarsuna, is the author's, and this archive has not checked it against reporting of those events. It names the dead; this record does not repeat the names. It attributes statements to the Chief Minister of West Bengal that this archive has not seen in any other source. It does not say who authorised any killing, and nothing in this record establishes that anyone did. These events are outside the July 2026 protest incidents that the archive's incident pages cover, and no incident record is opened for them.",
+    "volatility": "low",
+    "published_on": "2026-10-30",
+    "kind": "Opinion column",
+    "added_on": "2026-10-31",
+    "title": "What happens when the state kills in the name of protection?",
+    "creator": "Jhuma Sen, an advocate at the Calcutta High Court, in The Indian Express"
   }
 ]
