@@ -5,9 +5,319 @@ window.WGO = window.WGO || {};
 
 WGO.changes = [
   {
-    "commit": "9093b81cd5",
-    "date": "2026-10-28T07:46:00Z",
-    "subject": "Note that several outlets still carry the two-day version of the 29 October sitting",
+    "commit": "4c90fb9f08",
+    "date": "2026-10-30T09:03:05Z",
+    "subject": "Sweep log and archived copies for 2026-10-30 [skip ci]",
+    "added": [],
+    "removed": [],
+    "changed": [
+      {
+        "id": "SRC-0191",
+        "kind": "Source",
+        "title": "The Leaflet",
+        "state": null,
+        "url": "https://theleaflet.in/governance-and-policy/jamia-violence-a-total-of-15-people-arrested-by-delhi-police",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20261029084610/https://theleaflet.in/governance-and-policy/jamia-violence-a-total-of-15-people-arrested-by-delhi-police"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0203",
+        "kind": "Source",
+        "title": "SCC Online Times",
+        "state": null,
+        "url": "https://www.scconline.com/blog/post/2020/01/07/all-hc-nhrc-to-conduct-inquiry-on-alleged-violation-of-human-rights-negligence-in-prevention-of-same-by-police-officials-during-caa-protests-at-amu/",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20260618081259/https://www.scconline.com/blog/post/2020/01/07/all-hc-nhrc-to-conduct-inquiry-on-alleged-violation-of-human-rights-negligence-in-prevention-of-same-by-police-officials-during-caa-protests-at-amu/"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0204",
+        "kind": "Source",
+        "title": "The Caravan",
+        "state": null,
+        "url": "https://caravanmagazine.in/politics/aligarh-muslim-university-students-union-president",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20260511180937/https://caravanmagazine.in/politics/aligarh-muslim-university-students-union-president"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0205",
+        "kind": "Source",
+        "title": "ETV Bharat",
+        "state": null,
+        "url": "https://etvbharat.com/english/state/delhi/internet-services-suspended-in-aligarh-meerut/na20191216061906247",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "https://web.archive.org/web/20261030090219/https://www.etvbharat.com/english/state/delhi/internet-services-suspended-in-aligarh-meerut/na20191216061906247"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0206",
+        "kind": "Source",
+        "title": "WION",
+        "state": null,
+        "url": "https://www.wionews.com/india-news/uttar-pradesh-internet-services-resumed-in-aligarh-269540",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20220528083402/https://www.wionews.com/india-news/uttar-pradesh-internet-services-resumed-in-aligarh-269540"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0207",
+        "kind": "Source",
+        "title": "Sabrang India",
+        "state": null,
+        "url": "https://sabrangindia.in/allahabad-hc-nhrc-directed-probe-amu-police-excess/",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20251008064602/https://sabrangindia.in/allahabad-hc-nhrc-directed-probe-amu-police-excess/"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0208",
+        "kind": "Source",
+        "title": "The Quint",
+        "state": null,
+        "url": "https://www.thequint.com/amp/story/news/india/aligarh-december-now-all-you-need-to-know-about-amu-anti-citizenship-amendment-act-protests-students-police-teachers",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20200215225421/https://www.thequint.com/amp/story/news%2Findia%2Faligarh-december-now-all-you-need-to-know-about-amu-anti-citizenship-amendment-act-protests-students-police-teachers"
+          }
+        ]
+      }
+    ],
+    "summary": "7 records edited"
+  },
+  {
+    "commit": "1d2b6c01fc",
+    "date": "2026-10-29T08:49:08Z",
+    "subject": "Sweep log and archived copies for 2026-10-29 [skip ci]",
+    "added": [],
+    "removed": [],
+    "changed": [
+      {
+        "id": "SRC-0186",
+        "kind": "Source",
+        "title": "Delhi High Court judgment of 5 October 2026 in W.P.(C) 13468/2019 and connected matters, copy hosted by Verdictum (not the court's own site)",
+        "state": null,
+        "url": "https://www.verdictum.in/pdf_upload/2026/10/06/74905102026cw134682019155525watermark-1785722.pdf",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "https://web.archive.org/web/20261029084439/https://www.verdictum.in/pdf_upload/2026/10/06/74905102026cw134682019155525watermark-1785722.pdf"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0197",
+        "kind": "Source",
+        "title": "Maktoob",
+        "state": null,
+        "url": "https://maktoobmedia.com/india/in-jamia-on-15-dec-2019-police-was-acting-to-prevent-violence-court/",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20231202175125/https://maktoobmedia.com/india/in-jamia-on-15-dec-2019-police-was-acting-to-prevent-violence-court/"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0199",
+        "kind": "Source",
+        "title": "The Leaflet",
+        "state": null,
+        "url": "https://theleaflet.in/delhi-hc-hears-petition-seeking-court-monitored-probe-on-2019-jamia-police-attack",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20240529095221/https://theleaflet.in/delhi-hc-hears-petition-seeking-court-monitored-probe-on-2019-jamia-police-attack/"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0200",
+        "kind": "Source",
+        "title": "Scroll.in",
+        "state": null,
+        "url": "https://scroll.in/latest/953747/jamia-video-controversy-sit-asks-for-duty-roster-of-policemen-on-day-of-violence-says-report",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20250327105639/https://scroll.in/latest/953747/jamia-video-controversy-sit-asks-for-duty-roster-of-policemen-on-day-of-violence-says-report"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0201",
+        "kind": "Source",
+        "title": "The Wire",
+        "state": null,
+        "url": "https://m.thewire.in/article_pdf/communalism/jamia-police-attack-report",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "https://web.archive.org/web/20261029084833/https://m.thewire.in/article_pdf/communalism/jamia-police-attack-report"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0202",
+        "kind": "Source",
+        "title": "The Leaflet",
+        "state": null,
+        "url": "https://theleaflet.in/allahabad-hc-asks-nhrc-to-probe-into-police-action-against-amu-students-amidst-anti-caa-agitation",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20230505092743/https://theleaflet.in/allahabad-hc-asks-nhrc-to-probe-into-police-action-against-amu-students-amidst-anti-caa-agitation/"
+          }
+        ]
+      }
+    ],
+    "summary": "6 records edited"
+  },
+  {
+    "commit": "fbc94225d2",
+    "date": "2026-10-28T08:49:23Z",
+    "subject": "Sweep log and archived copies for 2026-10-28 [skip ci]",
+    "added": [],
+    "removed": [],
+    "changed": [
+      {
+        "id": "SRC-0179",
+        "kind": "Source",
+        "title": "Indian Awaaz",
+        "state": null,
+        "url": "https://theindianawaaz.com/?p=99217",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "https://web.archive.org/web/20261028084720/https://theindianawaaz.com/bhu-violence-cm-yogi-orders-probe/"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0182",
+        "kind": "Source",
+        "title": "Dynamite News",
+        "state": null,
+        "url": "https://www.dynamitenews.com/story/bhu-protests-sho-circle-officer-additional-city-magistrate-removed",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "https://web.archive.org/web/20261028084800/https://www.dynamitenews.com/story/bhu-protests-sho-circle-officer-additional-city-magistrate-removed"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0189",
+        "kind": "Source",
+        "title": "Wikipedia",
+        "state": null,
+        "url": "https://en.wikipedia.org/wiki/2019_Jamia_Millia_Islamia_attack",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20260901075915/https://en.wikipedia.org/wiki/2019_Jamia_Millia_Islamia_attack"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0192",
+        "kind": "Source",
+        "title": "The Wire",
+        "state": null,
+        "url": "https://m.thewire.in/article/rights/nhrc-blames-jamia-students-for-police-violence-wants-real-motive-of-anti-caa-protest-probed",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20211221033209/https://m.thewire.in/article/rights/nhrc-blames-jamia-students-for-police-violence-wants-real-motive-of-anti-caa-protest-probed"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0193",
+        "kind": "Source",
+        "title": "The Quint",
+        "state": null,
+        "url": "https://www.thequint.com/amp/story/news/india/delhi-police-jamia-violence-reply-to-high-court-police-brutality-claims-false",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20201004045040/https://www.thequint.com/amp/story/news/india/delhi-police-jamia-violence-reply-to-high-court-police-brutality-claims-false"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0194",
+        "kind": "Source",
+        "title": "Scroll.in",
+        "state": null,
+        "url": "https://scroll.in/latest/948825/jamia-violence-two-delhi-police-officers-fired-guns-during-caa-protests-reveals-internal-inquiry",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20250718202253/https://scroll.in/latest/948825/jamia-violence-two-delhi-police-officers-fired-guns-during-caa-protests-reveals-internal-inquiry"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0195",
+        "kind": "Source",
+        "title": "The Tribune (PTI)",
+        "state": null,
+        "url": "https://www.tribuneindia.com/news/nation/police-entered-campus-without-permission-jamia-vc-11798",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20200927013408/https://www.tribuneindia.com/news/nation/police-entered-campus-without-permission-jamia-vc-11798"
+          }
+        ]
+      }
+    ],
+    "summary": "7 records edited"
+  },
+  {
+    "commit": "bd71309f59",
+    "date": "2026-10-28T07:50:36Z",
+    "subject": "Note that several outlets still carry the two-day version of the 29 October sitting (#98)",
     "added": [],
     "removed": [],
     "changed": [

@@ -1,75 +1,51 @@
-Sweep 2026-10-27: 9 targets, 175 watch terms.
-  matched            delhi-hc-causelist
+Sweep 2026-10-31: 9 targets, 175 watch terms.
+  nothing-published  delhi-hc-causelist
   matched            delhi-hc-judgments
   matched            nhrc-press
   unreachable        eparlib
-  ok                 barandbench  17 item(s), 1 matched
-  ok                 news-delhi  100 item(s), 8 matched
-  ok                 news-cases  47 item(s), 0 matched
-  ok                 news-frt  52 item(s), 1 matched
-  ok                 news-bihar  100 item(s), 0 matched
+  ok                 barandbench  45 item(s), 3 matched
+  ok                 news-delhi  63 item(s), 2 matched
+  ok                 news-cases  46 item(s), 0 matched
+  ok                 news-frt  50 item(s), 1 matched
+  ok                 news-bihar  56 item(s), 0 matched
 
-13 thing(s) to look at:
+8 thing(s) to look at:
 
-· [CHANGED_MATCH] Delhi High Court cause list for today
-  https://delhihighcourt.nic.in/files/2026-10/cause-list/combined_cause_list_27.10.2026.pdf
-  matched: 2127/2026, 917/2026, Mumbai, Varanasi, Jamia Millia Islamia, Jawaharlal Nehru University, Kolkata, Chennai, Jamia Nagar, Okhla, Bengaluru, Lucknow, Civil Lines, Delhi University, Srinagar, University of Delhi, Ashok Nagar, Prayagraj, Madhya Pradesh
-
-· [CHANGED_MATCH] NHRC press releases
-  https://nhrc.nic.in/media/press-release
-  matched: Jantar Mantar, Ballia, West Bengal, Darbhanga
+· [CHANGED_MATCH] Delhi High Court, latest judgments
+  https://delhihighcourt.nic.in/web/judgement/fetch-data
+  matched: Civil Lines
 
 · [UNREACHABLE] Parliamentary library
   https://eparlib.sansad.in/
   fetch failed
 
 · [NEW_ITEM] Bar & Bench
-  Company directors not personally liable for unpaid legal fees: Bengaluru Court
-  https://www.barandbench.com/news/litigation/company-directors-not-personally-liable-for-unpaid-legal-fees-bengaluru-court
+  Collegium recommends appointment of 5 judicial officers as Madhya Pradesh High Court judges
+  https://www.barandbench.com/news/collegium-recommends-appointment-of-5-judicial-officers-as-madhya-pradesh-high-court-judges
+  matched: Madhya Pradesh
+
+· [NEW_ITEM] Bar & Bench
+  Bengaluru court grants relief to 3 JD(S) functionaries booked for fake sting video of Siddaramaiah
+  https://www.barandbench.com/news/litigation/bengaluru-court-grants-relief-to-3-jds-functionaries-booked-for-fake-sting-video-of-siddaramaiah
   matched: Bengaluru
 
+· [NEW_ITEM] Bar & Bench
+  Bombay High Court grants ₹2 lakh compensation to Arun Ferreira for illegal arrest outside Nagpur jail in 2011
+  https://www.barandbench.com/news/bombay-high-court-grants-2-lakh-compensation-to-arun-ferreira-for-illegal-arrest-outside-nagpur-jail-in-2011
+  matched: Nagpur
+
 · [NEW_ITEM] News: Jantar Mantar and the police action
-  First protest since Jantar Mantar denotification at CBD ground - The New Indian Express
-  https://news.google.com/rss/articles/CBMivAFBVV95cUxNR1JIS25zcDlFVXhkMHVhWDBDMWJEcFgwRDVWVG9Nb2E4WUtwUWNKenJhTUYycVJ5NXRfQVYwT2JDYUp2WWlSYVJCVV9xbXRqbk1TeWZ3UHlhRVRjbkZhZ3AxRUJ0MkZKemp4b1lQckRlMXVVVkVVWDRvNmZWVXdRU0FldEIydnBMVk03QWVsbi1MMEFOcGFLWG45M3hhU2JoOUIxWVVzWU5WOTl2UVRYQ1JtT2U3bjR1eHRaedIBygFBVV95cUxQVGIxNlZIQ0Q1eTgxUEJWa0U2RjhTQ2NjUDZPMlR0ZG5UdkhFRHBsaVpNdFFSWk92Und3VHhKRmFUblpITTZEYjlxWmZnQW1iUnliNjFvbjBBaVZPUDJ2ZVZqWk92VVNvcF9Da19rdGc3ZnR6U2p4SVlwLUJLZEtWQkdkSVZRTnNIckhNZnJKV2dpaGZwY1d5WWsyNE4yVDZFRENLOTV1NXFwZkNEMG1scTZhYjlXWFg4OTBEQnN0NG5NVEVsRUI2NHhB?oc=5
+  Jantar Mantar to be prime venue for India Biennale - The Times of India
+  https://news.google.com/rss/articles/CBMiwAFBVV95cUxNVE9YcFp2ekhnYmxSU1RUbXFqNFJkdnJ2UWUtcV81bzY0S1RnZElUYTlreWJYX25NWnhSU3VLYkUtZlNoWkEwaE0xMFVfdThVSkpSS1VpeGNVc2xhdTEwZFBiRXB3NGRNdVRRM0NFc2RvdG55U1hZNHBkM2JWRUFiQ1g0SlhBMDU0VTF6SFdpdVRFRGMyRXZ1aWt3QVZpTUlIWm9VLXFfRnlwSEtqaWwtX3ZaOThtQmV1bUNpOUp3SmvSAcYBQVVfeXFMTmN0MmhFYkZaUExQdVFhdkY4NV9YRU9nNVJuQ3FKSGp6X2NlS3Y3OFRlaWo0YU9lTnBrNUItWmhtemQ4dlozeEN2cVFDR2Y3Q0hCamtaaEJXUUh3dV85T0VYUGpXYUwwdktRVU9wcm5YelZzUmxPTllVN3JvLXRjdzlTejlhcVhwRE9EQ2ltS1NLRVQ5ZVFMNlc1dFlVVl9Vc3JDTDg2RnlwSlhpb0tQaWhEbVdIdFVTSFJVanlON2VuMnVOWXdR?oc=5
   matched: Jantar Mantar
 
 · [NEW_ITEM] News: Jantar Mantar and the police action
-  CJP Protests: Centre Cracks Down Over Demand for CEC’s Resignation - Frontline Magazine
-  https://news.google.com/rss/articles/CBMitwFBVV95cUxOZXRnbDNJVXNJNFpfSm8xMmVYQmpTeHFZSklObTJYZkFGRzZLT2FyTVFOOTRTTE12enF6MjY4dWJnaEVPNTZnWGVWZ0JjWFhEWVZKV05oUUVDMTlzeU01d2ZnWmlEd0V0ZUlucHhITFpxNDRCNFk4ZkFld2QtLUJJcnVrekUyUngxeG85d0Eyb1VkVjkzaGN0dGNXazFmTEJLelNpN0MwQ2FLUS1YUl82ekdsTmhkVmfSAb4BQVVfeXFMUGt0YWhfcXd3d3JseVphNUEzOWNMMjlJQy1EN3BKWjFLRWM1MDVyeXp3NHNyczRiVHRFQ0xBcDVuWUhUU1A5eVlndHhDSzZ0NTcyc2lGZjFGUmNYeFdqS29SaFFUY1NCVE5FblEtVkdVLVVURG9fSHd0WjZ3RDZwTEVLNERFakRNQUdpUFdIM3c0TmEyeUxtb0kzV2RiRnM3UXBGVm1qaTE1MTFGUDM4Z2xIcm9xVGRNQUJuV1N4Zw?oc=5
-  matched: CJP protest
-
-· [NEW_ITEM] News: Jantar Mantar and the police action
-  Saurav Das, Ashutosh Ranka Join Crime Branch Questioning In Jantar Mantar Case A Day After Skipping... - LawBeat
-  https://news.google.com/rss/articles/CBMi3gFBVV95cUxPSndyZWlBMkQ0MXJwdUliLVIzM0NFZXRXVENiYnBIc0N5b2ZyLUJJMzVJU0hXeF9MRWJCUlFxTk90VVlVMjNFMWt5ZXhlc0Zoa2JscEc4SzRqMDFodEpMLVp4SVo0OHJkQlpNRmg2ZnVhdnRzQmZzN1JrNHFfb2p0YmxMc28zWDYtQkVxWUpRNVh6UXh6VlRLRl9McTBWemlKRFNiVFhSYnNlOEtCUVo1YVlUaU8tcnFOeHlXWlJKTzdPMmdyVmNFOHhRR3hfLTlmQnpRVF9XNVZ5RXA3V1HSAeMBQVVfeXFMTU5wZl9MNmxtcDZqNjRBUkxiTlJ4aU1uSFFtVlVqVGNkN3hPc0txMk5haWw2ektFeUQ0WDU4ZUVlN1B3OFFDSXUzQjVnaUtWeERyblhPLUJQZGdTdVlRcy1YWW9yUHhWQ3ROeGdiXzVzZGc2ejhIS0w2TGMtRWxpYTZwNHRuMHh6cHlOV2VwTGxmWUdLLWVYVVM0SlNVNk5uU2lwNERoZGNabDBDZWowUTU0eTdydk00XzBfb2hoTFY1ckRnZHpIT19HVUN5QTNiQ0dSRWs2N08yUGJwRW1IS05xMlU?oc=5
-  matched: Jantar Mantar
-
-· [NEW_ITEM] News: Jantar Mantar and the police action
-  Jantar Mantar protests: SC panel to hear evidence on pellet gun use, harassment of female protesters - The New Indian Express
-  https://news.google.com/rss/articles/CBMi4wFBVV95cUxOSEh4UV85Q043VVRWR2E4aU9UZ1Nuc2VBWWtBWVl0NDFLem1GN3l2LW5EcHFsRm5XbUtCN0l0cVhCQUpReUpUbVBaSjhLUkhfVGVwNzlsNWRacUlHYkt5amZ3VUQxZVpoZUg2RXZqaWh4bTlaMm9pazZaaUtZUlM2NGkwaTBQQk9KNzIzS0t0M2gzTEtVYWRLRndtcmZidE5QbnhLdEdvRk80cmJkd3Z6V21PazhMNTg0VzN2Xzh0QlI4cldYbTBjaVI5M1RialREWFJqNmNzMUE3UEduTk0tM1JQd9IB8AFBVV95cUxNS2dpQnBvS0Zjc1pRTTNDcnNEZVpMS19hOVFqcEdKWnplMFkzRHRMNkRVZU1SOV83X0RxNzhpZGRUbVZfZ1dCSEhFUzdaMG5sUGV5QzhwcUpzMjN4UW0xQmRhZTI5aUpCWlRlek1vN0JuY1pDOTZQbGdER1BhTTdiMnpocVNHR056VEJseEJyeGwtN3JZc1pFNVRjRC1XWGdXRm1kdXQ1SDI3UlNqVjNCT0ZpQnBMMDlLMml6WWc4VjZuQ3ZRN3gyMEJDVzdHTlBoaGE2NFQ5X21vV3NaazVaYjYyaVFZeFdTVXBOYmdZcWk?oc=5
-  matched: Jantar Mantar, pellet gun
-
-· [NEW_ITEM] News: Jantar Mantar and the police action
-  Tensions escalated as the police stopped the Opposition’s march to Jantar Mantar - Brut
-  https://news.google.com/rss/articles/CBMixwFBVV95cUxPa3l2ZXU5dDl0Wng0RTBGY2pXT0NlUDZNeGlRclZFa2pmQjYxUEVTNjM0QmFVNENmal81c3lVcEc2RGUzU3hteEdVeEowLWhUVE9PLTZFQ3hqbDNhcmhkMzhhQlNmcmhmSmcwWGc4VkJmZVNuQUc0V0VCV2xqQUVkZ3lSWXF0U1p6czhWVU5QQjZnaXJ1RnF6aFUzbmlReXhnZmNnR0QyUlBFWTZySUhiN3Z0MVVnajNOU1pxYUFyZTg0M2U3cmVF?oc=5
-  matched: Jantar Mantar
-
-· [NEW_ITEM] News: Jantar Mantar and the police action
-  Jantar Mantar Protest: Delhi Police Denies Allegations Of Women Protesters Being Manhandled - Brut
-  https://news.google.com/rss/articles/CBMi0wFBVV95cUxQem41TnVaR0hsSG1tLWtTeUwxRXJFSjN1bGJieTE3a3NRNHBnYXpheGtqRERjZnZWUG9xb3hFX1lxQktTVTdJQWdRalp5TjlMMElJZVRfa2pER3otR3IyR2QydGJJTUUxS2F6U2tiUnk3T0NRTTRpaHNvYmZ0aHREYmxoY2ZTVFBmdUE3UVRQeF9qd2lHWTRfb0t3SVg2YjJwSm5ZTFdGcnhxYnNFWUlSRHFmUFAwcERyQmxTTjFVV2RldEFxOGRfOF9IMGM1YzdxN3pz?oc=5
-  matched: Jantar Mantar
-
-· [NEW_ITEM] News: Jantar Mantar and the police action
-  Ahead of Jantar Mantar 2.0 call, Delhi police file new FIR to see if 20 July violence was ‘premeditated’ - ThePrint
-  https://news.google.com/rss/articles/CBMi0gFBVV95cUxPaVZhZk9udm1sb2VackltWlJCV1Nzb1A0SURNVkRDam9DWHdRLUVkREVka1FOQjZ1VFNkZGF5UWxtbXNxZ0dGTHZNTUFVcXdGcWV3QTAwTE9CRDVJUXk1YXp0dU5wRDhSaWhDZUNvSkJfbExvUVZvV1V5Y3otNmpNU1RqZzlNbjd4YlBKSEw1VkVGYzRiZ1pLS2w1ZUxlTnpMUEVnT2tKX2RMR2FaWVgzUVEtVjhCOW1pOVdkdTRpczBrNmNHNGNqRE96UXdJNFExQnfSAdcBQVVfeXFMTUNNY3d4Ul9mR0doZUtYQWJuV3pfMHZPanZ6bFlfNGtreG5ySDEzRUFvaHZya0NtdWtsbjl2X0c2dW4xUkRZMkpJRnA5Rnl4TTJvN2tsZG0xRllvOGFMVnFlNWd0NEhNY0s3QzQzTElqWE5MQUVUdTB3aWRBM1JDWjBvN1AxbHVabDdxZHBHYkw1NTFSNGxMcV9pQlh1VkpkQVlaQ19CZmhzdGh6eUxScnM1WUZZVDk4YlV3dnJGZDNWSGREeU5vT3g0Snhjd2t4R01vdUZXck0?oc=5
-  matched: Jantar Mantar
-
-· [NEW_ITEM] News: Jantar Mantar and the police action
-  Bracing for Jantar Mantar 2.0, Delhi to deploy 23,000 CAPF personnel. Forces pulled from J&K, Naxal ops - ThePrint
-  https://news.google.com/rss/articles/CBMizgFBVV95cUxQalRTWkptMHlDazhsVi1LeFF6b1JxQTZyVFpVUWdoa3RBOFd2eFRuN0g4aGI4b1FXejBseUNWRFhCX3NFMk01U3lSdlhUYmFSR2JaenM1U2JsV21JdXdzS2c5bmRvMjA1RlpEZkdaNzNxeFVfTEVxMVNYZHJJdGFwamVGNjhpTVRzR3o1czdJQlQwLUMyZkdpeWhzVHR5WDd5amhnejdIT2JpaldZMzNrMUJLVG4tdTRFZDB2ZUREcGp1ZXRuQnhqemZlOUpZUdIB0wFBVV95cUxOYTExdlRYbUdmdWZBeWwxSkNhUnA2RG5yZkR6ZF9pTVlMZkVXeExnejJheXR1SkRXc1RvOFRKemtjUXMxRk14UHpla0wzdXJJY3ZPcHozMC0yeVZsQ292YlZZck5Za1FSRTVhbnFOaDdJajNVeERVRUM4R09QV05FT3NoeEdOUnhwVnFoS3Q5ZEExd05MaWYxal83QjlCVjFmU3cwS3ZHZ093c1k5Nm1YZkZ4aFdtZkgzSnllM3p1dk5idklrOTRRZGhJU2JUSm40RnNn?oc=5
+  In Photos | Jantar Mantar Teems With Activity Day After Delhi Police Action Against Historic Protest - TheWire.in
+  https://news.google.com/rss/articles/CBMinwFBVV95cUxOSXZETmcyZVFyMU5fbV9sRm1vX2VacFhOZ1htMmY4UEdYbVEycW9IcmJib1JwUDlLQm1XS2JPRjN4T0M1ZU1TZUp1V29NcllqbW5Vc181aVBlTkZEYWcxYnZ3T2dXZmFvTkdpQVhVdjc0aTFEWlFQYTNNdjU4c2w0REV5UUtyODBFa2VwbTRYUVpROXZIdDRkNndrU01BRGvSAbIBQVVfeXFMTXRQcXRMU0NiYXhHMzJxS1RtNGxuTVB3Qno5MWdQRGlqMzlwMk9felRhXzZmOW5CYk9DeFNVMEhvNnJ1bUZWMGJpcVBqMHBXdUllZnhYVW51d3lHbW5PSS1JMUxlZjVLZTBSUEgzd183NkdvOWhEVTVxYmctTy1INGVTVmJUZFFyTFNNamo3TXBBVjVZbTAyem9xaTVkNkVMT2tpXzhLcjZaTWkxcWxoRjhDQQ?oc=5
   matched: Jantar Mantar
 
 · [NEW_ITEM] News: facial recognition and the surveillance question
-  French police to use facial recognition to identify suspects in protest related violence - Digital Watch Observatory
-  https://news.google.com/rss/articles/CBMif0FVX3lxTE9ra3FSQ0RQMkVoTEp5UVloYVFzUW5tczcxOV82MzgxNkp4d3NqS3ZRVk1QY2h3NmpJeHVUV04yeUZScjlDQVpPNGtsTFoxQWtQX1JlSFNJZnhjWlJLVEpDVkJ4S2t5elhCcUV6eDQ4Unh0SlRMY1ZNa2V2dDEzeXc?oc=5
-  matched: facial recognition
+  Delhi Police deploy facial recognition system at Jantar Mantar to identify ‘wanted criminals’ - Daily Pioneer
+  https://news.google.com/rss/articles/CBMivwFBVV95cUxNa1F5ak85LTFJcm5hVHZkbVRJVjZwVV92VTJsTWl6NktjaVFvWUVIZTlwMlhoNGJPN0lhYkU3VWFBM1BZWFplSE9Cb2lWOTU4MGFybW5MMTJ2TUVSNWFTdkR5Y0hjMnhYd1o2TXZQY3hKWG8tRkdWVjhIYWFLMTl4OTl0NmFxbDRnRklySi1TVFk1SVNwR2I1YThEUWxIckpPRmZzYVozMmYteE9FSVdBdGZtN1poaUNuR2QtY1ZMa9IBzAFBVV95cUxPTWlhT1NyMDllOXFoLUsyY081NGdyeld2NTYxaXd3aVpPTkJfMEg0djlUYnluZkZ2S0cyZmxKcVk4WU55amFSeUJPcnpHRVViTTBQUnd5Mm5OVVFNMGMyVmZ4UDVCVjVJcW9xSDBzNlppOWNHdlhMWUd5b1NoZGhOZU1Lbzhabmxxa1RxV1RaT0gwczQzWG9GUnlPcWQtaEtLN2RNM0c4OWZWblczTnh1Q2pWXzA5M0FXNXZFS1YtMEFXSDBUSGJvZ0FDOE4?oc=5
+  matched: Jantar Mantar, facial recognition
 
