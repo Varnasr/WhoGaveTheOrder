@@ -231,10 +231,12 @@ for i in ev:
     url = i['sources'][0].get('url') if i['sources'] else None
     external_records.append({
         'id': i['id'],
-        'title': re.sub(r'^Published item documenting the \w+ incident: ', '', i['claim'])[:160],
-        'creator': pub or 'Creator not recorded',
-        'kind': 'Report',
-        'date': None,
+        'title': i.get('title') or re.sub(r'^Published item documenting the \w+ incident: ', '', i['claim'])[:160],
+        'creator': i.get('creator') or pub or 'Creator not recorded',
+        # An item may name its own title, creator, kind and publication date;
+        # the defaults are what every earlier item carried.
+        'kind': i.get('kind', 'Report'),
+        'date': i.get('published_on'),
         'url': url,
         'incidentIds': [incident_for(i)] if incident_for(i) else [],
         'note': i.get('notes') or '',

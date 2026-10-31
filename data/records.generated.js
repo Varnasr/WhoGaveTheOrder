@@ -38069,6 +38069,17 @@ WGO.importedExternal = [
     ],
     "note": "Answered 23 September 2026. Was: the only pointer is a Supreme Court petition recording disturbances spreading to Maharashtra, without city, date or described police action. See INC-MAH-002.",
     "confidence": "REPORTED"
+  },
+  {
+    "id": "PUB-WB-001",
+    "title": "What happens when the state kills in the name of protection?",
+    "creator": "Jhuma Sen, an advocate at the Calcutta High Court, in The Indian Express",
+    "kind": "Opinion column",
+    "date": "2026-10-30",
+    "url": "https://indianexpress.com/article/opinion/columns/state-kills-protection-encounter-west-bengal-10943869/",
+    "incidentIds": [],
+    "note": "An argument, indexed under its author's name. The column's account of the killings of two men in police custody in West Bengal, and of the police parading of three men at Sarsuna, is the author's, and this archive has not checked it against reporting of those events. It names the dead; this record does not repeat the names. It attributes statements to the Chief Minister of West Bengal that this archive has not seen in any other source. It does not say who authorised any killing, and nothing in this record establishes that anyone did. These events are outside the July 2026 protest incidents that the archive's incident pages cover, and no incident record is opened for them.",
+    "confidence": "REPORTED"
   }
 ];
 
