@@ -978,6 +978,8 @@ blockquote.official cite { display: block; margin-top: 0.4rem; font-family: var(
   border-top: 1px dotted var(--rule);
   font-size: 0.8125rem;
 }
+.footer-credit { margin-top: 0.5rem; font-size: 0.8125rem; }
+.footer-credit a { text-decoration: underline; }
 
 /* ==========================================================================
    Brand application
