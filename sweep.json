@@ -1,6 +1,6 @@
 {
   "run": {
-    "date": "2026-10-30",
+    "date": "2026-10-31",
     "targets": 9,
     "findings": 8,
     "outcomes": {
@@ -20,30 +20,10 @@
         "Civil Lines"
       ],
       "snippets": [
-        "d 168 W.P.(C) - 2157/2020 13 Oct 2026 POOJA JAIN AND ORS. DIRECTORATE OF EDUCATION OLD SECRETARIAT, CIVIL LINES AND ORS. Download 169 RC.REV. - 277/2026 13 Oct 2026 PRAMOD KUMAR RAKESH KUMAR SHARMA Download 170 RC.REV. - 390/2024 13 Oct 2026 G.SELVI &amp; ORS. RAMESH CHA"
+        "d 172 W.P.(C) - 2157/2020 13 Oct 2026 POOJA JAIN AND ORS. DIRECTORATE OF EDUCATION OLD SECRETARIAT, CIVIL LINES AND ORS. Download 173 ARB. A. (COMM.) - 74/2026 13 Oct 2026 GENERAL MANAGER TELECOM DISTRICT BHARAT SANCHAR NIGAM LTD VICHITRA CONSTRUCTIONS PVT LTD Download 1"
       ],
       "method": "html",
       "note": "Orders appear here before the case-status search, which is behind a captcha. An order in W.P.(CRL) 2127/2026 would close OQ-004."
-    },
-    {
-      "kind": "CHANGED_MATCH",
-      "target": "nhrc-press",
-      "label": "NHRC press releases",
-      "url": "https://nhrc.nic.in/media/press-release",
-      "terms": [
-        "Jantar Mantar",
-        "Kolkata",
-        "West Bengal",
-        "Darbhanga"
-      ],
-      "snippets": [
-        "f the reported sexual harassment of three journalists by Delhi Police personnel during a protest at Jantar Mantar, New Delhi on 3rd October 2026 --> Article ID 6378 --> Release Date 08-Oct-2026 Entry Date 2026-10-08 15:33:00 --> NHRC, India takes suo motu cognizance of the",
-        "suo motu cognizance of the reported parading of three persons in a semi-nude condition by police in Kolkata, West Bengal --> Article ID 6400 --> Release Date 28-Oct-2026 Entry Date 2026-10-28 11:00:00 --> The NHRC, India issues an Advisory on the ‘Protection of Human",
-        "cognizance of the reported parading of three persons in a semi-nude condition by police in Kolkata, West Bengal --> Article ID 6400 --> Release Date 28-Oct-2026 Entry Date 2026-10-28 11:00:00 --> The NHRC, India issues an Advisory on the ‘Protection of Human Rights of Fe",
-        "rnment Primary School roof supported on benches after the collapse of the main pillar holding it in Darbhanga, Bihar --> Article ID 6376 --> Release Date 05-Oct-2026 Entry Date 2026-10-05 16:48:00 --> NHRC, India to hold 'Open Hearing and Camp Sitting' at Patna to hear"
-      ],
-      "method": "html",
-      "note": "The Commission has not announced the suo motu proceeding on its own page. If it does, or if it reports on the Delhi Police response, it appears here first."
     },
     {
       "kind": "UNREACHABLE",
@@ -57,11 +37,35 @@
       "kind": "NEW_ITEM",
       "target": "barandbench",
       "label": "Bar & Bench",
-      "title": "Calcutta High Court refuses to stay delimitation of Kolkata Municipal Wards",
-      "url": "https://www.barandbench.com/news/litigation/calcutta-high-court-refuses-to-stay-delimitation-of-kolkata-municipal-wards",
-      "date": "Thu, 29 Oct 2026 16:22:54 +0530",
+      "title": "Collegium recommends appointment of 5 judicial officers as Madhya Pradesh High Court judges",
+      "url": "https://www.barandbench.com/news/collegium-recommends-appointment-of-5-judicial-officers-as-madhya-pradesh-high-court-judges",
+      "date": "Fri, 30 Oct 2026 19:16:44 +0530",
       "terms": [
-        "Kolkata"
+        "Madhya Pradesh"
+      ],
+      "note": "Legal reporting carries hearings on the day they happen, usually before anything reaches a court website."
+    },
+    {
+      "kind": "NEW_ITEM",
+      "target": "barandbench",
+      "label": "Bar & Bench",
+      "title": "Bengaluru court grants relief to 3 JD(S) functionaries booked for fake sting video of Siddaramaiah",
+      "url": "https://www.barandbench.com/news/litigation/bengaluru-court-grants-relief-to-3-jds-functionaries-booked-for-fake-sting-video-of-siddaramaiah",
+      "date": "Fri, 30 Oct 2026 17:13:34 +0530",
+      "terms": [
+        "Bengaluru"
+      ],
+      "note": "Legal reporting carries hearings on the day they happen, usually before anything reaches a court website."
+    },
+    {
+      "kind": "NEW_ITEM",
+      "target": "barandbench",
+      "label": "Bar & Bench",
+      "title": "Bombay High Court grants ₹2 lakh compensation to Arun Ferreira for illegal arrest outside Nagpur jail in 2011",
+      "url": "https://www.barandbench.com/news/bombay-high-court-grants-2-lakh-compensation-to-arun-ferreira-for-illegal-arrest-outside-nagpur-jail-in-2011",
+      "date": "Fri, 30 Oct 2026 09:38:14 +0530",
+      "terms": [
+        "Nagpur"
       ],
       "note": "Legal reporting carries hearings on the day they happen, usually before anything reaches a court website."
     },
@@ -69,9 +73,9 @@
       "kind": "NEW_ITEM",
       "target": "news-delhi",
       "label": "News: Jantar Mantar and the police action",
-      "title": "Row Over Protest Rights: Rijiju Targets Sibal With 2011 Video, Jantar Mantar De-notification Debated - India Today - India Today",
-      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNVkZTcGtBcGpncWtaU0hkeVRtdk55Ty1hM0hJeTFFS21kV3pyOW54REdwWkZ5SlRCcUdCdzF1SFIxeXNSMDFYeHk5VEh0dGdBSXJGZkIxOWRzRE53bGtaeFFrcDVuM3IwNndCYTE2VVZHU0ZEaVZGMVRhR285c21YWTZMR09JV09wRTA4TzBNZ2xUbm9YMGhTZkRKM0tkNzBLRnpXMUhwNm9PVVFrYi0xQ0pFMWJpMFF2OEVwYl9GT2stZTFOTHJ0YzNOZDJIQ0w0RHB2TGhWZ3BOOG9zTjJDWUdOY2pEOHFQME1kX1pDRVpGZ9IB9wFBVV95cUxQeFk2empkdE9qN0ZhZVRjcUtvejBPLUdaUjJZSHlXRm45bzVzb25xLXpTUTFxY3dDUnhmRHJ5RVJGV1dWNE9iejNReE5ld3B0R3dMVElmWndvREFKN2IzNFZrRHBzeEhsTEd6TGJ2V3FkWHh0N0h0YnpkXzdSVWczQ1RXdXhmU3FuUVZuQ0Q0QjZVQzIxWXZIR0JLc3BqUEV2YjJIbGgzeDY1SS1jM2djcG90VmNlcGxVZ3FoSl9VQ0YzUHJ1SDhwaUJfU3lFWGUydUJHekJEMXpsbS1fNHdPbmFKUVFnbHhYWEI4N0doMnVUWWpRSHA4?oc=5",
-      "date": "Fri, 30 Oct 2026 02:59:59 GMT",
+      "title": "Jantar Mantar to be prime venue for India Biennale - The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNVE9YcFp2ekhnYmxSU1RUbXFqNFJkdnJ2UWUtcV81bzY0S1RnZElUYTlreWJYX25NWnhSU3VLYkUtZlNoWkEwaE0xMFVfdThVSkpSS1VpeGNVc2xhdTEwZFBiRXB3NGRNdVRRM0NFc2RvdG55U1hZNHBkM2JWRUFiQ1g0SlhBMDU0VTF6SFdpdVRFRGMyRXZ1aWt3QVZpTUlIWm9VLXFfRnlwSEtqaWwtX3ZaOThtQmV1bUNpOUp3SmvSAcYBQVVfeXFMTmN0MmhFYkZaUExQdVFhdkY4NV9YRU9nNVJuQ3FKSGp6X2NlS3Y3OFRlaWo0YU9lTnBrNUItWmhtemQ4dlozeEN2cVFDR2Y3Q0hCamtaaEJXUUh3dV85T0VYUGpXYUwwdktRVU9wcm5YelZzUmxPTllVN3JvLXRjdzlTejlhcVhwRE9EQ2ltS1NLRVQ5ZVFMNlc1dFlVVl9Vc3JDTDg2RnlwSlhpb0tQaWhEbVdIdFVTSFJVanlON2VuMnVOWXdR?oc=5",
+      "date": "Thu, 29 Oct 2026 01:19:00 GMT",
       "terms": [
         "Jantar Mantar"
       ],
@@ -81,21 +85,9 @@
       "kind": "NEW_ITEM",
       "target": "news-delhi",
       "label": "News: Jantar Mantar and the police action",
-      "title": "Days After Denotification As Protest Site, Jantar Mantar To Host India Biennale 2026 - Outlook India",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNVjFjdjJ1SGQ3SlZkRTBsUzU2ZTBLWldxWVUwWklLbFVqYS11RVRGdUdhUjNhQkJJV1lHMXU5ZWtUbTNpakd2cHlYT1NTRl9BV0FqWk1UbG9DUXlrRjNXdXNQWnB0NkZaZGZNZHk3ZV8tSERiQlVaVVFFSmRkWWJHclpkaWxTcjhsNXdmWFlIb3U5NWFHMVFIZnJFVFJVM1BURm1nV0wtOW14V29iMTRoYVBIWkZqaFhpcFlJb3d30gHLAUFVX3lxTE1fUG4xUzJJbjZQNFJ0RnRxNk5LOEY0UHZCSWEydUp6ZEFGWDdTblNXcURQZmJqanJLRHFsaG5uT3V4alpSQlplQnR3YUN5S2phbHZjSUpjbXVpZHZ5b09iN3FNOG4yazdPbkcyVFo3WkJSRnBDR2RoX2xZMUktWDRwa01zb09tODd2eFNIS0trSk5saGhHYVREVVdKRlRXN3Jmd1FjeFdWV1ZVeFkwbWV2UXdWcnlPVW1fWWNyZ1FYNUYwSTdNaU9UNVFZ?oc=5",
-      "date": "Thu, 29 Oct 2026 09:15:42 GMT",
-      "terms": [
-        "Jantar Mantar"
-      ],
-      "note": "Leads, not evidence. Something reported here is a pointer to a document worth going after."
-    },
-    {
-      "kind": "NEW_ITEM",
-      "target": "news-delhi",
-      "label": "News: Jantar Mantar and the police action",
-      "title": "Delhi’s Jantar Mantar Named Official Venue for India Biennale 2026 - Pragativadi",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBQY3otbzd6N2VCb3MzZkxkQVQ1WHFIUG1SVnBiVTIwbzJVNER2X0JyREstdWtkYmd4RWxlZnlnczJYNmhHWVlSZnpONnVoeEkzRk4wMFFGbDNhRm41aVlEbGJOZHZSLU5BNWduckRTOHIzOVV4emk1Ulo5OUhIQQ?oc=5",
-      "date": "Thu, 29 Oct 2026 14:12:01 GMT",
+      "title": "In Photos | Jantar Mantar Teems With Activity Day After Delhi Police Action Against Historic Protest - TheWire.in",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOSXZETmcyZVFyMU5fbV9sRm1vX2VacFhOZ1htMmY4UEdYbVEycW9IcmJib1JwUDlLQm1XS2JPRjN4T0M1ZU1TZUp1V29NcllqbW5Vc181aVBlTkZEYWcxYnZ3T2dXZmFvTkdpQVhVdjc0aTFEWlFQYTNNdjU4c2w0REV5UUtyODBFa2VwbTRYUVpROXZIdDRkNndrU01BRGvSAbIBQVVfeXFMTXRQcXRMU0NiYXhHMzJxS1RtNGxuTVB3Qno5MWdQRGlqMzlwMk9felRhXzZmOW5CYk9DeFNVMEhvNnJ1bUZWMGJpcVBqMHBXdUllZnhYVW51d3lHbW5PSS1JMUxlZjVLZTBSUEgzd183NkdvOWhEVTVxYmctTy1INGVTVmJUZFFyTFNNamo3TXBBVjVZbTAyem9xaTVkNkVMT2tpXzhLcjZaTWkxcWxoRjhDQQ?oc=5",
+      "date": "Tue, 21 Jul 2026 07:00:00 GMT",
       "terms": [
         "Jantar Mantar"
       ],
@@ -105,10 +97,11 @@
       "kind": "NEW_ITEM",
       "target": "news-frt",
       "label": "News: facial recognition and the surveillance question",
-      "title": "Government Facial Recognition Threatens Our Rights to Free Speech and Protest - ASIS International",
-      "url": "https://news.google.com/rss/articles/CBMimwJBVV95cUxPQ0hqZkk1cmRBM3hQQ1lZdmF3eGo0RGFZLTJ1MFlteDYxUU9pNHg2azR1OG5HOW0tNy04b1F0Wm11NkxvRnZNYUJFSk5yb1hSM2xGOHRXQUVwX1VZVTR4eVBWY2hudWR3WTNlY1JNSHE4bnI1WVdXVENEcEJFajVtRmtEOWs4MGREZWJPWC1yaWkxeDlKaU1pR3lIWWQxMlF2OW44MWp2T3NpWWw4MjNpNzhuMWREVUo4cDVubFI4SzUwVlp5SExSWG5FRTh6VG40TkZ0WWNHU0ZCYndlMXc3LUdwcE9WRTktalQwUnhmYUVFbm5tVGtMaDlwZklFcnhOVmdYQjQ3a2RiaC1SLTZCYlN5U1VMOHFSQ0x3?oc=5",
-      "date": "Wed, 01 Dec 2021 08:00:00 GMT",
+      "title": "Delhi Police deploy facial recognition system at Jantar Mantar to identify ‘wanted criminals’ - Daily Pioneer",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNa1F5ak85LTFJcm5hVHZkbVRJVjZwVV92VTJsTWl6NktjaVFvWUVIZTlwMlhoNGJPN0lhYkU3VWFBM1BZWFplSE9Cb2lWOTU4MGFybW5MMTJ2TUVSNWFTdkR5Y0hjMnhYd1o2TXZQY3hKWG8tRkdWVjhIYWFLMTl4OTl0NmFxbDRnRklySi1TVFk1SVNwR2I1YThEUWxIckpPRmZzYVozMmYteE9FSVdBdGZtN1poaUNuR2QtY1ZMa9IBzAFBVV95cUxPTWlhT1NyMDllOXFoLUsyY081NGdyeld2NTYxaXd3aVpPTkJfMEg0djlUYnluZkZ2S0cyZmxKcVk4WU55amFSeUJPcnpHRVViTTBQUnd5Mm5OVVFNMGMyVmZ4UDVCVjVJcW9xSDBzNlppOWNHdlhMWUd5b1NoZGhOZU1Lbzhabmxxa1RxV1RaT0gwczQzWG9GUnlPcWQtaEtLN2RNM0c4OWZWblczTnh1Q2pWXzA5M0FXNXZFS1YtMEFXSDBUSGJvZ0FDOE4?oc=5",
+      "date": "Fri, 24 Jul 2026 07:00:00 GMT",
       "terms": [
+        "Jantar Mantar",
         "facial recognition"
       ],
       "note": "OQ-034 asks what database was matched against and whether a private company processed the data. Both are live questions before the Supreme Court."
@@ -117,7 +110,7 @@
   "checked": [
     {
       "id": "delhi-hc-causelist",
-      "url": "https://delhihighcourt.nic.in/files/2026-10/cause-list/combined_cause_list_30.10.2026.pdf",
+      "url": "https://delhihighcourt.nic.in/files/2026-10/cause-list/combined_cause_list_31.10.2026.pdf",
       "status": 404,
       "outcome": "nothing-published"
     },
@@ -146,16 +139,16 @@
       "url": "https://www.barandbench.com/feed",
       "status": 200,
       "outcome": "ok",
-      "items": 28,
-      "matched": 1
+      "items": 45,
+      "matched": 3
     },
     {
       "id": "news-delhi",
       "url": "https://news.google.com/rss/search?q=%22Jantar+Mantar%22+(police+OR+court+OR+NHRC+OR+affidavit)&hl=en-IN&gl=IN&ceid=IN:en",
       "status": 200,
       "outcome": "ok",
-      "items": 68,
-      "matched": 3
+      "items": 63,
+      "matched": 2
     },
     {
       "id": "news-cases",
@@ -170,7 +163,7 @@
       "url": "https://news.google.com/rss/search?q=(%22facial+recognition%22+OR+%22Crime+Kundli%22)+(%22Delhi+Police%22+OR+protest)&hl=en-IN&gl=IN&ceid=IN:en",
       "status": 200,
       "outcome": "ok",
-      "items": 51,
+      "items": 50,
       "matched": 1
     },
     {
@@ -178,7 +171,7 @@
       "url": "https://news.google.com/rss/search?q=(Patna+OR+Katihar+OR+Munger)+(lathi+OR+police+action+OR+protest)+students&hl=en-IN&gl=IN&ceid=IN:en",
       "status": 200,
       "outcome": "ok",
-      "items": 100,
+      "items": 56,
       "matched": 0
     }
   ]
