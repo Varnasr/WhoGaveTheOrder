@@ -5,6 +5,23 @@ window.WGO = window.WGO || {};
 
 WGO.changes = [
   {
+    "commit": "ce3a8149a4",
+    "date": "2026-10-31T09:00:55Z",
+    "subject": "Index Jhuma Sen's Indian Express column on West Bengal encounter killings under Others",
+    "added": [
+      {
+        "id": "PUB-WB-001",
+        "kind": "External work",
+        "title": "What happens when the state kills in the name of protection?",
+        "state": null,
+        "url": "others.html#PUB-WB-001"
+      }
+    ],
+    "removed": [],
+    "changed": [],
+    "summary": "1 record added"
+  },
+  {
     "commit": "070ca54f91",
     "date": "2026-10-31T08:40:44Z",
     "subject": "Sweep log and archived copies for 2026-10-31 [skip ci]",

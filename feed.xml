@@ -3,10 +3,19 @@
   <title>WhoGaveTheOrder.in: changes to the record</title>
   <subtitle>Every record that has been added, moved between states, or edited.</subtitle>
   <id>tag:whogavetheorder.in,2026:feed</id>
-  <updated>2026-10-31T08:40:44Z</updated>
+  <updated>2026-10-31T09:00:55Z</updated>
   <link href="https://www.whogavetheorder.in/"/>
   <link rel="self" href="https://www.whogavetheorder.in/feed.xml"/>
   <rights>Reuse with attribution</rights>
+  <entry>
+    <title>1 record added</title>
+    <id>tag:whogavetheorder.in,2026:change/ce3a8149a4</id>
+    <updated>2026-10-31T09:00:55Z</updated>
+    <link href="https://www.whogavetheorder.in/changes.html#ce3a8149a4"/>
+    <content type="html">
+      &lt;p&gt;Index Jhuma Sen&apos;s Indian Express column on West Bengal encounter killings under Others&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Added External work PUB-WB-001: What happens when the state kills in the name of protection?&lt;/li&gt;&lt;/ul&gt;
+    </content>
+  </entry>
   <entry>
     <title>7 records edited</title>
     <id>tag:whogavetheorder.in,2026:change/070ca54f91</id>
@@ -446,15 +455,6 @@
     <link href="https://www.whogavetheorder.in/changes.html#dbc9db7fbb"/>
     <content type="html">
       &lt;p&gt;Record the INDIA bloc march of 6 and 7 October as INC-0008&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Added Incident INC-0008: Opposition MPs detained during the INDIA bloc march to the Election Commission&lt;/li&gt;&lt;li&gt;Added Evidence INC-DEL-023: The Tribune reports that on Tuesday 6 October 2026 about 300 opposition MPs marched from Parliament towards the Election Commission headquarters, that police st&lt;/li&gt;&lt;li&gt;Added Evidence INC-DEL-024: On Wednesday 7 October 2026 Delhi Police detained opposition leaders near Jantar Mantar, among them Rahul Gandhi and Priyanka Gandhi Vadra. The Tribune and Sias&lt;/li&gt;&lt;li&gt;Added Evidence INC-DEL-025: The Tribune reports that Priyanka Gandhi Vadra said police assaulted protesters and that she had been scratched and thrown to the ground, that Mahua Moitra alle&lt;/li&gt;&lt;li&gt;Added Evidence INC-DEL-026: Siasat, with PTI inputs, refers to an FIR registered against Rahul Gandhi, which Akhilesh Yadav is reported to have tied to the protest of Tuesday 6 October 202&lt;/li&gt;&lt;li&gt;Added Source SRC-0130: Deccan Chronicle&lt;/li&gt;&lt;li&gt;Added Source SRC-0131: The Tribune&lt;/li&gt;&lt;li&gt;Added Source SRC-0132: Siasat&lt;/li&gt;&lt;li&gt;Added Question OQ-062: Was an FIR registered against Rahul Gandhi over the protest of 6 October 2026, at which police station, under which sections, and on whose complaint?&lt;/li&gt;&lt;li&gt;Evidence PROC-DEL-005 moved from REPORTED to CORROBORATED: Bar and Bench reports that the president of the Indian Youth Congress moved the Delhi High Court on 3 October 2026 against Delhi Police&apos;s order of 1 October 202&lt;/li&gt;&lt;li&gt;Edited Office OFC-0001: Union Ministry of Home Affairs&lt;/li&gt;&lt;li&gt;Edited Office OFC-0004: Commissioner of Police&lt;/li&gt;&lt;li&gt;Edited Office OFC-0006: Superintendent of Police / Deputy Commissioner of Police (District)&lt;/li&gt;&lt;li&gt;Edited Office OFC-0007: Officer commanding the deployment on site&lt;/li&gt;&lt;li&gt;Edited Office OFC-0008: Field personnel and units deployed&lt;/li&gt;&lt;/ul&gt;
-    </content>
-  </entry>
-  <entry>
-    <title>1 record edited</title>
-    <id>tag:whogavetheorder.in,2026:change/514b7a0008</id>
-    <updated>2026-10-09T09:24:03Z</updated>
-    <link href="https://www.whogavetheorder.in/changes.html#514b7a0008"/>
-    <content type="html">
-      &lt;p&gt;Sweep log and archived copies for 2026-10-09 [skip ci]&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Edited Source SRC-0127: ThePrint&lt;/li&gt;&lt;/ul&gt;
     </content>
   </entry>
 </feed>
