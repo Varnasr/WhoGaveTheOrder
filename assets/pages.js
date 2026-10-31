@@ -987,7 +987,6 @@
         '<span class="small">' + ui.esc(String(entry.date).slice(0, 10)) + '</span>' +
       '</div>' +
       '<h3>' + ui.esc(entry.summary) + '</h3>' +
-      '<p class="small">' + ui.esc(entry.subject) + '</p>' +
       changeGroup(changed, 'Changed', changedRecord) +
       changeGroup(entry.added, 'Added', function (r) { return changeLine(r, 'Added'); }) +
       changeGroup(entry.removed, 'Removed', function (r) { return changeLine(r, 'Removed'); }) +
@@ -1072,14 +1071,14 @@
       'states, an edit to what a document establishes. Changes to the site\'s wording or design ' +
       'are in the repository but are not listed here, because they do not change what the archive ' +
       'says.</p>' +
-      '<p style="margin-top:0.5rem">Each entry names the commit it came from. The commit is the ' +
-      'authoritative version; this page is derived from it.</p>'));
+      '<p style="margin-top:0.5rem">Each entry names the commit it came from, which holds the ' +
+      'authoritative version of the record.</p>'));
 
     ui.mount('[data-region="changes-list"]',
       history.length
         ? history.map(changeEntry).join('')
         : ui.empty('No changes recorded yet',
-            'The change log is derived from the history of the record store. It fills up as records are added and states move.'));
+            'Changes appear here as records are added and states move.'));
   };
 
   /* ======================================================================= *

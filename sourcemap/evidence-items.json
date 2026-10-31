@@ -1512,7 +1512,7 @@
         "archived_on": "2026-08-19"
       }
     ],
-    "notes": "Retrieved via a translation proxy; confirm the direct URL resolves.",
+    "notes": "Read from a translated copy; the direct URL is not yet confirmed.",
     "volatility": "medium"
   },
   {
@@ -1626,7 +1626,7 @@
     "claim": "Whether any question on these incidents has already been tabled or answered in any of the four houses.",
     "confidence": "UNKNOWN",
     "sources": [],
-    "notes": "Searched 18 August 2026, nothing found, and the absence is dated. A search of sansad.in for these incidents returns only unrelated Ministry of Home Affairs questions about Delhi Police: recruitment, verification, traffic. No tabled or answered question on the police action of 20 July 2026 at Jantar Mantar, or on the Bihar incidents, is indexed. That is consistent with the reported course of the session: both Houses were repeatedly adjourned over this in the week of 23 July, leaving it untaken as a question, and answers reach the library weeks after they are given. The finding is that nothing is on the record yet. It says nothing about whether anything was asked. Route, confirmed as far as this environment allows: answered questions are published as PDFs at eparlib.sansad.in/bitstream/123456789/<id>/1/<file>.pdf, and the search index carries many Ministry of Home Affairs answers in exactly that form. Eparlib.sansad.in could not be fetched from the machine this search was run on (every request reset the connection), so the route is recorded on the strength of the index and needs a retrieval before it is relied on. The Q&A search at sansad.in/rs/questions/questions-and-answers and its Lok Sabha equivalent is a JavaScript form with no linkable result URL. Why this matters here: Delhi Police reports to the Ministry of Home Affairs and has no reporting line to the Delhi government (LAW-DEL-001), so a Home Ministry answer would be the Union speaking on its own record about the force it controls, which is the strongest kind of document this archive can hold short of the order itself. Re-run at the start of the next session.",
+    "notes": "Searched 18 August 2026, nothing found, and the absence is dated. A search of sansad.in for these incidents returns only unrelated Ministry of Home Affairs questions about Delhi Police: recruitment, verification, traffic. No tabled or answered question on the police action of 20 July 2026 at Jantar Mantar, or on the Bihar incidents, is indexed. That is consistent with the reported course of the session: both Houses were repeatedly adjourned over this in the week of 23 July, leaving it untaken as a question, and answers reach the library weeks after they are given. The finding is that nothing is on the record yet. It says nothing about whether anything was asked. Route, as far as it could be confirmed: answered questions are published as PDFs at eparlib.sansad.in/bitstream/123456789/<id>/1/<file>.pdf, and the search index carries many Ministry of Home Affairs answers in exactly that form. Eparlib.sansad.in could not be fetched (every request reset the connection), so the route is recorded on the strength of the index and needs a retrieval before it is relied on. The Q&A search at sansad.in/rs/questions/questions-and-answers and its Lok Sabha equivalent is a JavaScript form with no linkable result URL. Why this matters here: Delhi Police reports to the Ministry of Home Affairs and has no reporting line to the Delhi government (LAW-DEL-001), so a Home Ministry answer would be the Union speaking on its own record about the force it controls, which is the strongest kind of document this archive can hold short of the order itself. Re-run at the start of the next session.",
     "volatility": "high"
   },
   {
@@ -3968,7 +3968,7 @@
     "incident": "INC-0006",
     "claim": "Outlook, Deccan Chronicle and India TV (as carried by tob.news) report that internet services were suspended in the Jantar Mantar area on 2 October 2026. Outlook says for several hours. None of the three gives the hours, the area or the issuing office.",
     "confidence": "CORROBORATED",
-    "notes": "Three outlets report the suspension; none quotes an order. One headline in the 3 October sweep reports the cut ran until 9 pm, but the page was not retrieved and the figure is not recorded here. The July order recorded at INC-DEL-007 shows the form such an order takes and which office signs it, and a suspension order is the kind of instrument the Supreme Court has said must be published (see PREC-SHUT-001). Whether a separate order was made on 2 October, and by whom, is OQ-056. India TV is the origin of the tob.news report and is not independent of it.",
+    "notes": "Three outlets report the suspension; none quotes an order. One headline on 3 October reports the cut ran until 9 pm, but the page was not retrieved and the figure is not recorded here. The July order recorded at INC-DEL-007 shows the form such an order takes and which office signs it, and a suspension order is the kind of instrument the Supreme Court has said must be published (see PREC-SHUT-001). Whether a separate order was made on 2 October, and by whom, is OQ-056. India TV is the origin of the tob.news report and is not independent of it.",
     "volatility": "medium",
     "sources": [
       {
@@ -4217,7 +4217,7 @@
     "incident": "INC-0006",
     "claim": "IBTimes India reports that Delhi Police personnel at the Jantar Mantar protests did not wear name tags, that junior personnel were allowed to remove them while most IPS officers kept theirs, and that officials gave the reason as preventing individual officers being identified and targeted on social media after the protest of 20 July, with junior personnel assured that no action would follow if they acted within the law.",
     "confidence": "REPORTED",
-    "notes": "One outlet. Hindustan Times and The Times of India headlines in the 5 October sweep carry the same story and were not retrieved. The record matters to this archive for a plain reason: an officer who cannot be identified cannot be asked who gave an order, and the explanation offered concerns harassment of officers and their families, which is a real harm and is recorded as the police's stated reason and not as the archive's view.",
+    "notes": "One outlet. Hindustan Times and The Times of India headlines on 5 October carry the same story and were not retrieved. The record matters to this archive for a plain reason: an officer who cannot be identified cannot be asked who gave an order, and the explanation offered concerns harassment of officers and their families, which is a real harm and is recorded as the police's stated reason and not as the archive's view.",
     "volatility": "medium",
     "sources": [
       {
@@ -7490,7 +7490,7 @@
         "archived_on": "2026-10-31"
       }
     ],
-    "notes": "Case: Mohd. Aman Khan v. Union of India, Criminal Misc. PIL No. 26085 of 2019 (SCC Online cite 2019 SCC OnLine All 5343). The order PDF is linked by The Leaflet at cdn.theleaflet.in; the host did not resolve from this environment, so the order itself was NOT read. Upgrade to VERIFIED needs the order text from the High Court or a legal database.",
+    "notes": "Case: Mohd. Aman Khan v. Union of India, Criminal Misc. PIL No. 26085 of 2019 (SCC Online cite 2019 SCC OnLine All 5343). The order PDF is linked by The Leaflet at cdn.theleaflet.in; the host did not resolve, so the order itself was NOT read. Upgrade to VERIFIED needs the order text from the High Court or a legal database.",
     "volatility": "low"
   },
   {
@@ -7748,7 +7748,7 @@
         "originates_from": "Delhi Police spokesperson statement of 6 January 2020, as reported by TNN on 7 January 2020"
       }
     ],
-    "notes": "This is the police account, attributed to the force's spokesperson at office level. Contested by the VC's statement in HIST-JNU20-006. The Times of India article was retrieved through a scraping service; the page and quotes were read in full. No police order, GD entry or the registrar's letter has been seen.",
+    "notes": "This is the police account, attributed to the force's spokesperson at office level. Contested by the VC's statement in HIST-JNU20-006. The Times of India article and its quotes were read in full. No police order, GD entry or the registrar's letter has been seen.",
     "volatility": "low"
   },
   {
@@ -12959,7 +12959,7 @@
         "retrieved_on": "2026-10-10"
       }
     ],
-    "notes": "Four outlets agree on the date, the place, the water cannon and the lathicharge. Scroll's account of the DM's statement comes from PTI; the others report on their own. No primary document (order, report, court record) was read. One source (Drishti IAS, summarising a complaint) dates the lathi charge to 28 December 2024; the four above and the other outlets read say Sunday, which is 29 December 2024. The pages were read through a summarising fetch tool with no files saved, so no sha256 is recorded.",
+    "notes": "Four outlets agree on the date, the place, the water cannon and the lathicharge. Scroll's account of the DM's statement comes from PTI; the others report on their own. No primary document (order, report, court record) was read. One source (Drishti IAS, summarising a complaint) dates the lathi charge to 28 December 2024; the four above and the other outlets read say Sunday, which is 29 December 2024. The pages were read as summaries and no copies were saved, so no sha256 is recorded.",
     "volatility": "low",
     "incident": "INC-0026"
   },
@@ -14933,7 +14933,7 @@
         "retrieved_on": "2026-10-10"
       }
     ],
-    "notes": "Quotes marked from The Indian Express were read in full text. Quotes from Newslaundry, Onmanorama, The Wire and Scroll.in were returned by a summarising fetch tool and should be rechecked against the pages before publication. The police statement itself (a press note) was not found.",
+    "notes": "Quotes marked from The Indian Express were read in full text. Quotes from Newslaundry, Onmanorama, The Wire and Scroll.in were read as summaries and should be rechecked against the pages. The police statement itself (a press note) was not found.",
     "volatility": "medium",
     "incident": "INC-0031"
   },
@@ -17288,7 +17288,7 @@
     "claim": "Any FIR, complaint, court petition, commission inquiry, parliamentary question or departmental action about police conduct on 10 February 2020: NONE FOUND. Searches of news from 10 February to 31 December 2020 and of the Scholars at Risk page found no such step. The students said at the 12 February 2020 press conference that they could identify the policemen involved if asked.",
     "confidence": "UNKNOWN",
     "sources": [],
-    "notes": "This is the absence of a finding. The searches were made in English through a general search engine and the Firecrawl index, and cannot reach eCourts, NHRC or sansad.in case or question records directly, so they establish nothing about whether such records exist. The Delhi High Court judgment of 5 October 2026 on the December 2019 Jamia events (HIST-JMI-016) was not found to mention the 10 February march in the text previously saved by the archive; that was a keyword search for 'Holy Family', '10.02.2020' and 'Badarpur' and is not a reading of the whole judgment. Filing suggestions are at HIST-JMA-022.",
+    "notes": "This is the absence of a finding. The searches were made in English through general web search, and cannot reach eCourts, NHRC or sansad.in case or question records directly, so they establish nothing about whether such records exist. The Delhi High Court judgment of 5 October 2026 on the December 2019 Jamia events (HIST-JMI-016) was not found to mention the 10 February march in the text previously saved by the archive; that was a keyword search for 'Holy Family', '10.02.2020' and 'Badarpur' and is not a reading of the whole judgment. Filing suggestions are at HIST-JMA-022.",
     "volatility": "medium",
     "incident": "INC-0035"
   },
@@ -17432,7 +17432,7 @@
       {
         "url": "https://www.deccanherald.com/india/karnataka/bengaluru/police-use-lathi-charge-to-break-up-students-protest-against-nep-1030476.html",
         "source_type": "secondary",
-        "publication": "Deccan Herald (DHNS), published 14 September 2021, 15:26 IST; read via Firecrawl because a direct fetch returned HTTP 403",
+        "publication": "Deccan Herald (DHNS), published 14 September 2021, 15:26 IST",
         "retrieved_on": "2026-10-10"
       },
       {
@@ -17468,7 +17468,7 @@
       {
         "url": "https://www.deccanherald.com/india/karnataka/bengaluru/police-use-lathi-charge-to-break-up-students-protest-against-nep-1030476.html",
         "source_type": "secondary",
-        "publication": "Deccan Herald (DHNS), published 14 September 2021, 15:26 IST; read via Firecrawl because a direct fetch returned HTTP 403",
+        "publication": "Deccan Herald (DHNS), published 14 September 2021, 15:26 IST",
         "retrieved_on": "2026-10-10"
       },
       {
@@ -17504,7 +17504,7 @@
       {
         "url": "https://www.deccanherald.com/india/karnataka/bengaluru/police-use-lathi-charge-to-break-up-students-protest-against-nep-1030476.html",
         "source_type": "secondary",
-        "publication": "Deccan Herald (DHNS), published 14 September 2021, 15:26 IST; read via Firecrawl because a direct fetch returned HTTP 403",
+        "publication": "Deccan Herald (DHNS), published 14 September 2021, 15:26 IST",
         "retrieved_on": "2026-10-10"
       },
       {
@@ -17546,7 +17546,7 @@
       {
         "url": "https://www.deccanherald.com/india/karnataka/bengaluru/police-use-lathi-charge-to-break-up-students-protest-against-nep-1030476.html",
         "source_type": "secondary",
-        "publication": "Deccan Herald (DHNS), published 14 September 2021, 15:26 IST; read via Firecrawl because a direct fetch returned HTTP 403",
+        "publication": "Deccan Herald (DHNS), published 14 September 2021, 15:26 IST",
         "retrieved_on": "2026-10-10"
       },
       {
@@ -17582,7 +17582,7 @@
       {
         "url": "https://www.deccanherald.com/india/karnataka/bengaluru/police-use-lathi-charge-to-break-up-students-protest-against-nep-1030476.html",
         "source_type": "secondary",
-        "publication": "Deccan Herald (DHNS), published 14 September 2021, 15:26 IST; read via Firecrawl because a direct fetch returned HTTP 403",
+        "publication": "Deccan Herald (DHNS), published 14 September 2021, 15:26 IST",
         "retrieved_on": "2026-10-10"
       },
       {
@@ -17618,7 +17618,7 @@
       {
         "url": "https://www.deccanherald.com/india/karnataka/bengaluru/police-use-lathi-charge-to-break-up-students-protest-against-nep-1030476.html",
         "source_type": "secondary",
-        "publication": "Deccan Herald (DHNS), published 14 September 2021, 15:26 IST; read via Firecrawl because a direct fetch returned HTTP 403",
+        "publication": "Deccan Herald (DHNS), published 14 September 2021, 15:26 IST",
         "retrieved_on": "2026-10-10"
       }
     ],
@@ -17642,7 +17642,7 @@
       {
         "url": "https://www.deccanherald.com/india/karnataka/bengaluru/police-use-lathi-charge-to-break-up-students-protest-against-nep-1030476.html",
         "source_type": "secondary",
-        "publication": "Deccan Herald (DHNS), published 14 September 2021, 15:26 IST; read via Firecrawl because a direct fetch returned HTTP 403",
+        "publication": "Deccan Herald (DHNS), published 14 September 2021, 15:26 IST",
         "retrieved_on": "2026-10-10"
       },
       {
@@ -17690,7 +17690,7 @@
       {
         "url": "https://www.deccanherald.com/india/karnataka/bengaluru/police-use-lathi-charge-to-break-up-students-protest-against-nep-1030476.html",
         "source_type": "secondary",
-        "publication": "Deccan Herald (DHNS), published 14 September 2021, 15:26 IST; read via Firecrawl because a direct fetch returned HTTP 403",
+        "publication": "Deccan Herald (DHNS), published 14 September 2021, 15:26 IST",
         "retrieved_on": "2026-10-10"
       },
       {
@@ -17738,7 +17738,7 @@
       {
         "url": "https://www.deccanherald.com/india/karnataka/bengaluru/police-use-lathi-charge-to-break-up-students-protest-against-nep-1030476.html",
         "source_type": "secondary",
-        "publication": "Deccan Herald (DHNS), published 14 September 2021, 15:26 IST; read via Firecrawl because a direct fetch returned HTTP 403",
+        "publication": "Deccan Herald (DHNS), published 14 September 2021, 15:26 IST",
         "retrieved_on": "2026-10-10"
       }
     ],
@@ -17785,7 +17785,7 @@
       {
         "url": "https://www.deccanherald.com/india/karnataka/bengaluru/police-use-lathi-charge-to-break-up-students-protest-against-nep-1030476.html",
         "source_type": "secondary",
-        "publication": "Deccan Herald (DHNS), published 14 September 2021, 15:26 IST; read via Firecrawl because a direct fetch returned HTTP 403",
+        "publication": "Deccan Herald (DHNS), published 14 September 2021, 15:26 IST",
         "retrieved_on": "2026-10-10"
       },
       {
@@ -17958,7 +17958,7 @@
         "retrieved_on": "2026-10-10"
       }
     ],
-    "notes": "All secondary reports; no order, deployment record, station diary entry or enquiry finding was read. Several attributions are allegations by named political figures (a BJP MLA, the BJP spokesperson who asked for an FIR against the officer, a BJP district office-bearer) and are not findings. The archive does not repeat an individual's name here; the officer is named in the cited articles, and no primary document read names or confirms the person. Panchjanya was read only through an automated page summary. Dainik Jagran also reports that injured girls told the enquiry team the lathi charge was done at the officer's word, and that the team declined to comment officially (see HIST-DHN-010).",
+    "notes": "All secondary reports; no order, deployment record, station diary entry or enquiry finding was read. Several attributions are allegations by named political figures (a BJP MLA, the BJP spokesperson who asked for an FIR against the officer, a BJP district office-bearer) and are not findings. The archive does not repeat an individual's name here; the officer is named in the cited articles, and no primary document read names or confirms the person. Panchjanya was read only as a page summary. Dainik Jagran also reports that injured girls told the enquiry team the lathi charge was done at the officer's word, and that the team declined to comment officially (see HIST-DHN-010).",
     "volatility": "medium",
     "incident": "INC-0037"
   },
@@ -18150,7 +18150,7 @@
         "retrieved_on": "2026-10-10"
       }
     ],
-    "notes": "Single secondary source, read only through an automated page summary. The lawyer's statement is an allegation. Whether a complaint was registered, a diary number assigned, or a report called from the Dhanbad authorities: UNKNOWN, see HIST-DHN-012.",
+    "notes": "Single secondary source, read only as a page summary. The lawyer's statement is an allegation. Whether a complaint was registered, a diary number assigned, or a report called from the Dhanbad authorities: UNKNOWN, see HIST-DHN-012.",
     "volatility": "medium",
     "incident": "INC-0037"
   },
@@ -18305,13 +18305,13 @@
       {
         "url": "https://www.deccanherald.com/national/north-and-central/opposition-attacks-yogi-as-up-police-cane-aspirants-protesting-irregularities-in-teachers-recruitment-1057831.html",
         "source_type": "secondary",
-        "publication": "Deccan Herald, by Sanjay Pandey, published 5 December 2021, 04:23 IST (fetched through Firecrawl; a direct fetch returned HTTP 403)",
+        "publication": "Deccan Herald, by Sanjay Pandey, published 5 December 2021, 04:23 IST",
         "retrieved_on": "2026-10-10"
       },
       {
         "url": "https://www.newsclick.in/node/43942",
         "source_type": "secondary",
-        "publication": "NewsClick, by Abdul Alim Jafri, 6 December 2021 (fetched through Firecrawl; a direct fetch returned HTTP 403)",
+        "publication": "NewsClick, by Abdul Alim Jafri, 6 December 2021",
         "retrieved_on": "2026-10-10"
       }
     ],
@@ -18355,13 +18355,13 @@
       {
         "url": "https://www.deccanherald.com/national/north-and-central/opposition-attacks-yogi-as-up-police-cane-aspirants-protesting-irregularities-in-teachers-recruitment-1057831.html",
         "source_type": "secondary",
-        "publication": "Deccan Herald, by Sanjay Pandey, published 5 December 2021, 04:23 IST (fetched through Firecrawl; a direct fetch returned HTTP 403)",
+        "publication": "Deccan Herald, by Sanjay Pandey, published 5 December 2021, 04:23 IST",
         "retrieved_on": "2026-10-10"
       },
       {
         "url": "https://www.newsclick.in/node/43942",
         "source_type": "secondary",
-        "publication": "NewsClick, by Abdul Alim Jafri, 6 December 2021 (fetched through Firecrawl; a direct fetch returned HTTP 403)",
+        "publication": "NewsClick, by Abdul Alim Jafri, 6 December 2021",
         "retrieved_on": "2026-10-10"
       },
       {
@@ -18407,7 +18407,7 @@
       {
         "url": "https://www.newsclick.in/node/43942",
         "source_type": "secondary",
-        "publication": "NewsClick, by Abdul Alim Jafri, 6 December 2021 (fetched through Firecrawl; a direct fetch returned HTTP 403)",
+        "publication": "NewsClick, by Abdul Alim Jafri, 6 December 2021",
         "retrieved_on": "2026-10-10"
       },
       {
@@ -18426,7 +18426,7 @@
       {
         "url": "https://www.deccanherald.com/national/north-and-central/opposition-attacks-yogi-as-up-police-cane-aspirants-protesting-irregularities-in-teachers-recruitment-1057831.html",
         "source_type": "secondary",
-        "publication": "Deccan Herald, by Sanjay Pandey, published 5 December 2021, 04:23 IST (fetched through Firecrawl; a direct fetch returned HTTP 403)",
+        "publication": "Deccan Herald, by Sanjay Pandey, published 5 December 2021, 04:23 IST",
         "retrieved_on": "2026-10-10"
       },
       {
@@ -18523,7 +18523,7 @@
       {
         "url": "https://www.deccanherald.com/national/north-and-central/opposition-attacks-yogi-as-up-police-cane-aspirants-protesting-irregularities-in-teachers-recruitment-1057831.html",
         "source_type": "secondary",
-        "publication": "Deccan Herald, by Sanjay Pandey, published 5 December 2021, 04:23 IST (fetched through Firecrawl; a direct fetch returned HTTP 403)",
+        "publication": "Deccan Herald, by Sanjay Pandey, published 5 December 2021, 04:23 IST",
         "retrieved_on": "2026-10-10"
       },
       {
@@ -18536,7 +18536,7 @@
       {
         "url": "https://www.newsclick.in/node/43942",
         "source_type": "secondary",
-        "publication": "NewsClick, by Abdul Alim Jafri, 6 December 2021 (fetched through Firecrawl; a direct fetch returned HTTP 403)",
+        "publication": "NewsClick, by Abdul Alim Jafri, 6 December 2021",
         "retrieved_on": "2026-10-10"
       },
       {
@@ -18617,7 +18617,7 @@
       {
         "url": "https://www.deccanherald.com/national/north-and-central/opposition-attacks-yogi-as-up-police-cane-aspirants-protesting-irregularities-in-teachers-recruitment-1057831.html",
         "source_type": "secondary",
-        "publication": "Deccan Herald, by Sanjay Pandey, published 5 December 2021, 04:23 IST (fetched through Firecrawl; a direct fetch returned HTTP 403)",
+        "publication": "Deccan Herald, by Sanjay Pandey, published 5 December 2021, 04:23 IST",
         "retrieved_on": "2026-10-10"
       },
       {
@@ -18629,7 +18629,7 @@
       {
         "url": "https://www.newsclick.in/node/43942",
         "source_type": "secondary",
-        "publication": "NewsClick, by Abdul Alim Jafri, 6 December 2021 (fetched through Firecrawl; a direct fetch returned HTTP 403)",
+        "publication": "NewsClick, by Abdul Alim Jafri, 6 December 2021",
         "retrieved_on": "2026-10-10"
       },
       {
@@ -20765,7 +20765,7 @@
         "retrieved_on": "2026-10-10"
       }
     ],
-    "notes": "Version A: over 36 detained (IANS via LatestLY, no attribution to an official). Version B: around 20 detained (the SSP, as quoted by TOI). Version C: no figure given (DSP, as quoted by The Hindu and The Indian Express). The SSP's figure is the only one attributed to a named office-holder, but it is also second-hand through a newspaper, and the report does not say at what hour it was given. The user-supplied figure of 'over 36' comes only from the IANS copy, which was readable through a scraping service although a direct fetch returned HTTP 403. Bail records or the lock-up register of the two police stations would settle it.",
+    "notes": "Version A: over 36 detained (IANS via LatestLY, no attribution to an official). Version B: around 20 detained (the SSP, as quoted by TOI). Version C: no figure given (DSP, as quoted by The Hindu and The Indian Express). The SSP's figure is the only one attributed to a named office-holder, but it is also second-hand through a newspaper, and the report does not say at what hour it was given. The figure of 'over 36' comes only from the IANS copy. Bail records or the lock-up register of the two police stations would settle it.",
     "volatility": "medium",
     "incident": "INC-0042"
   },
@@ -21085,7 +21085,7 @@
         "originates_from": "Statements and social media posts by student organisations, and a statement by the JNU Students' Union president"
       }
     ],
-    "notes": "Level of office: the institution all accounts name is Delhi Police, which reports to the Union Home Ministry and has no reporting line to the Government of NCT of Delhi (see sourcemap/CLAUDE.md). Whether the decision was taken at station, district (the embassy area is in New Delhi district, which this research did not confirm from a document), range or headquarters level is unknown, and the same goes for who commanded the barricade line. No individual is named because no primary document names one.",
+    "notes": "Level of office: the institution all accounts name is Delhi Police, which reports to the Union Home Ministry and has no reporting line to the Government of NCT of Delhi. Whether the decision was taken at station, district (the embassy area is in New Delhi district, which this research did not confirm from a document), range or headquarters level is unknown, and the same goes for who commanded the barricade line. No individual is named because no primary document names one.",
     "volatility": "medium",
     "incident": "INC-0043"
   },
@@ -21183,7 +21183,7 @@
         "originates_from": "PTI wire copy"
       }
     ],
-    "notes": "Delhi Police is a Union authority for RTI purposes, so requests go through the Union portal (see sourcemap/CLAUDE.md). Retention schedules may already have destroyed some of these three years on, and a reply saying so is itself a record. An RTI applicant's name can be disclosed under section 11 where third-party information is involved, so any task here carries exposure_risk. Note that at the 2023 date the CrPC provisions apply to the order's legal basis, and the BNSS does not.",
+    "notes": "Delhi Police is a Union authority for RTI purposes, so requests go through the Union portal. Retention schedules may already have destroyed some of these three years on, and a reply saying so is itself a record. An RTI applicant's name can be disclosed under section 11 where third-party information is involved, so any task here carries exposure_risk. Note that at the 2023 date the CrPC provisions apply to the order's legal basis, and the BNSS does not.",
     "volatility": "high",
     "incident": "INC-0043"
   },
@@ -21242,7 +21242,7 @@
       {
         "url": "https://www.thequint.com/news/education/ip-college-aisa-sfi-students-protest-detained-day-after-scaled-walls-harassment",
         "source_type": "secondary",
-        "publication": "The Quint, 29 March 2023 (read through the fetch tool's summary, not verbatim)",
+        "publication": "The Quint, 29 March 2023 (read as a summary only)",
         "retrieved_on": "2026-10-10"
       }
     ],
@@ -21267,7 +21267,7 @@
       {
         "url": "https://www.thequint.com/news/education/ip-college-aisa-sfi-students-protest-detained-day-after-scaled-walls-harassment",
         "source_type": "secondary",
-        "publication": "The Quint, 29 March 2023 (read through the fetch tool's summary, not verbatim)",
+        "publication": "The Quint, 29 March 2023 (read as a summary only)",
         "retrieved_on": "2026-10-10"
       },
       {
@@ -21286,7 +21286,7 @@
       {
         "url": "https://dubeat.com/2023/03/31/student-protesters-at-arts-faculty-brutally-detained-by-delhi-police/",
         "source_type": "secondary",
-        "publication": "DU Beat, 31 March 2023 (read through the fetch tool's summary, not verbatim)",
+        "publication": "DU Beat, 31 March 2023 (read as a summary only)",
         "retrieved_on": "2026-10-10",
         "originates_from": "Reproduces an AISA DU release of 31 March 2023 and statements by a DU Beat photographer and an SFI DU co-convener"
       }
@@ -21312,7 +21312,7 @@
       {
         "url": "https://www.thequint.com/news/education/ip-college-aisa-sfi-students-protest-detained-day-after-scaled-walls-harassment",
         "source_type": "secondary",
-        "publication": "The Quint, 29 March 2023 (read through the fetch tool's summary, not verbatim)",
+        "publication": "The Quint, 29 March 2023 (read as a summary only)",
         "retrieved_on": "2026-10-10"
       },
       {
@@ -21356,7 +21356,7 @@
       {
         "url": "https://www.thequint.com/news/education/ip-college-aisa-sfi-students-protest-detained-day-after-scaled-walls-harassment",
         "source_type": "secondary",
-        "publication": "The Quint, 29 March 2023 (read through the fetch tool's summary, not verbatim)",
+        "publication": "The Quint, 29 March 2023 (read as a summary only)",
         "retrieved_on": "2026-10-10"
       }
     ],
@@ -21381,21 +21381,21 @@
       {
         "url": "https://dubeat.com/2023/03/31/student-protesters-at-arts-faculty-brutally-detained-by-delhi-police/",
         "source_type": "secondary",
-        "publication": "DU Beat, 31 March 2023 (read through the fetch tool's summary, not verbatim)",
+        "publication": "DU Beat, 31 March 2023 (read as a summary only)",
         "retrieved_on": "2026-10-10",
         "originates_from": "Reproduces an AISA DU release of 31 March 2023 and statements by a DU Beat photographer and an SFI DU co-convener"
       },
       {
         "url": "https://theprint.in/india/campus-harassment-human-chain-marches-as-students-demand-ipcw-principals-resignation/1487473/",
         "source_type": "secondary",
-        "publication": "ThePrint (PTI feed), 31 March 2023 (read through the fetch tool's summary, not verbatim)",
+        "publication": "ThePrint (PTI feed), 31 March 2023 (read as a summary only)",
         "retrieved_on": "2026-10-10",
         "originates_from": "PTI"
       },
       {
         "url": "https://www.outlookindia.com/national/delhi-students-protest-against-harassment-at-du-women-college-fest-call-for-principal-resignation-news-275106",
         "source_type": "secondary",
-        "publication": "Outlook India, Outlook News Desk, 31 March 2023 (updated 18 January 2024) (read through the fetch tool's summary, not verbatim)",
+        "publication": "Outlook India, Outlook News Desk, 31 March 2023 (updated 18 January 2024) (read as a summary only)",
         "retrieved_on": "2026-10-10"
       }
     ],
@@ -21420,7 +21420,7 @@
       {
         "url": "https://dubeat.com/2023/03/31/student-protesters-at-arts-faculty-brutally-detained-by-delhi-police/",
         "source_type": "secondary",
-        "publication": "DU Beat, 31 March 2023 (read through the fetch tool's summary, not verbatim)",
+        "publication": "DU Beat, 31 March 2023 (read as a summary only)",
         "retrieved_on": "2026-10-10",
         "originates_from": "Reproduces an AISA DU release of 31 March 2023 and statements by a DU Beat photographer and an SFI DU co-convener"
       }
@@ -21439,21 +21439,21 @@
       {
         "url": "https://dubeat.com/2023/03/31/student-protesters-at-arts-faculty-brutally-detained-by-delhi-police/",
         "source_type": "secondary",
-        "publication": "DU Beat, 31 March 2023 (read through the fetch tool's summary, not verbatim)",
+        "publication": "DU Beat, 31 March 2023 (read as a summary only)",
         "retrieved_on": "2026-10-10",
         "originates_from": "Reproduces an AISA DU release of 31 March 2023 and statements by a DU Beat photographer and an SFI DU co-convener"
       },
       {
         "url": "https://theprint.in/india/campus-harassment-human-chain-marches-as-students-demand-ipcw-principals-resignation/1487473/",
         "source_type": "secondary",
-        "publication": "ThePrint (PTI feed), 31 March 2023 (read through the fetch tool's summary, not verbatim)",
+        "publication": "ThePrint (PTI feed), 31 March 2023 (read as a summary only)",
         "retrieved_on": "2026-10-10",
         "originates_from": "PTI"
       },
       {
         "url": "https://en.themooknayak.com/education/campus-harassment-delhi-police-thrashes-du-students-as-they-protest-demanding-ipcw-principals-resignation",
         "source_type": "secondary",
-        "publication": "The Mooknayak, by Kashish Singh, 1 April 2023 (read through the fetch tool's summary, not verbatim)",
+        "publication": "The Mooknayak, by Kashish Singh, 1 April 2023 (read as a summary only)",
         "retrieved_on": "2026-10-10",
         "originates_from": "Reports PTI and IANS police statements second-hand and AISA statements"
       }
@@ -21479,14 +21479,14 @@
       {
         "url": "https://en.themooknayak.com/education/campus-harassment-delhi-police-thrashes-du-students-as-they-protest-demanding-ipcw-principals-resignation",
         "source_type": "secondary",
-        "publication": "The Mooknayak, by Kashish Singh, 1 April 2023 (read through the fetch tool's summary, not verbatim)",
+        "publication": "The Mooknayak, by Kashish Singh, 1 April 2023 (read as a summary only)",
         "retrieved_on": "2026-10-10",
         "originates_from": "Reports PTI and IANS police statements second-hand and AISA statements"
       },
       {
         "url": "https://news.careers360.com/bbc-documentary-delhi-police-detains-24-students-from-du-arts-faculty-for-planning-screen-film/amp",
         "source_type": "secondary",
-        "publication": "Careers360 (PTI), 27 January 2023 (read through the fetch tool's summary, not verbatim)",
+        "publication": "Careers360 (PTI), 27 January 2023 (read as a summary only)",
         "retrieved_on": "2026-10-10",
         "originates_from": "PTI"
       }
@@ -21578,13 +21578,13 @@
       {
         "url": "https://theprint.in/india/education/why-students-of-dus-ip-college-for-women-are-protesting-men-barged-in-during-fest-harassed-girls-for-2-hrs/1498585/",
         "source_type": "secondary",
-        "publication": "ThePrint, by Debdutta Chakraborty, 5 April 2023 (read through the fetch tool's summary, not verbatim)",
+        "publication": "ThePrint, by Debdutta Chakraborty, 5 April 2023 (read as a summary only)",
         "retrieved_on": "2026-10-10"
       },
       {
         "url": "https://m.thewire.in/article/education/indraprastha-college-for-women-delhi-harassment",
         "source_type": "secondary",
-        "publication": "The Wire, by Sagarika Chaudhary, 5 April 2023 (read through the fetch tool's summary, not verbatim)",
+        "publication": "The Wire, by Sagarika Chaudhary, 5 April 2023 (read as a summary only)",
         "retrieved_on": "2026-10-10"
       }
     ],
@@ -21602,19 +21602,19 @@
       {
         "url": "https://www.thequint.com/news/education/ip-college-aisa-sfi-students-protest-detained-day-after-scaled-walls-harassment",
         "source_type": "secondary",
-        "publication": "The Quint, 29 March 2023 (read through the fetch tool's summary, not verbatim)",
+        "publication": "The Quint, 29 March 2023 (read as a summary only)",
         "retrieved_on": "2026-10-10"
       },
       {
         "url": "https://www.outlookindia.com/national/delhi-students-protest-against-harassment-at-du-women-college-fest-call-for-principal-resignation-news-275106",
         "source_type": "secondary",
-        "publication": "Outlook India, Outlook News Desk, 31 March 2023 (updated 18 January 2024) (read through the fetch tool's summary, not verbatim)",
+        "publication": "Outlook India, Outlook News Desk, 31 March 2023 (updated 18 January 2024) (read as a summary only)",
         "retrieved_on": "2026-10-10"
       },
       {
         "url": "https://theprint.in/india/education/why-students-of-dus-ip-college-for-women-are-protesting-men-barged-in-during-fest-harassed-girls-for-2-hrs/1498585/",
         "source_type": "secondary",
-        "publication": "ThePrint, by Debdutta Chakraborty, 5 April 2023 (read through the fetch tool's summary, not verbatim)",
+        "publication": "ThePrint, by Debdutta Chakraborty, 5 April 2023 (read as a summary only)",
         "retrieved_on": "2026-10-10"
       },
       {
@@ -21670,7 +21670,7 @@
       {
         "url": "https://www.thequint.com/news/education/ip-college-aisa-sfi-students-protest-detained-day-after-scaled-walls-harassment",
         "source_type": "secondary",
-        "publication": "The Quint, 29 March 2023 (read through the fetch tool's summary, not verbatim)",
+        "publication": "The Quint, 29 March 2023 (read as a summary only)",
         "retrieved_on": "2026-10-10"
       }
     ],
@@ -21688,7 +21688,7 @@
       {
         "url": "https://www.nationalheraldindia.com/national/ipcw-row-du-committee-misses-deadline-for-first-report-yet-to-meet-students",
         "source_type": "secondary",
-        "publication": "National Herald (PTI), 12 April 2023 (read through the fetch tool's summary, not verbatim)",
+        "publication": "National Herald (PTI), 12 April 2023 (read as a summary only)",
         "retrieved_on": "2026-10-10",
         "originates_from": "PTI"
       }
@@ -21707,20 +21707,20 @@
       {
         "url": "https://www.thequint.com/gender/indraprastha-college-for-women-harassment-allegations-fest-delhi-university-enquiry",
         "source_type": "secondary",
-        "publication": "The Quint, 3 April 2023 (read through the fetch tool's summary, not verbatim)",
+        "publication": "The Quint, 3 April 2023 (read as a summary only)",
         "retrieved_on": "2026-10-10",
         "originates_from": "PTI"
       },
       {
         "url": "https://theprint.in/india/education/why-students-of-dus-ip-college-for-women-are-protesting-men-barged-in-during-fest-harassed-girls-for-2-hrs/1498585/",
         "source_type": "secondary",
-        "publication": "ThePrint, by Debdutta Chakraborty, 5 April 2023 (read through the fetch tool's summary, not verbatim)",
+        "publication": "ThePrint, by Debdutta Chakraborty, 5 April 2023 (read as a summary only)",
         "retrieved_on": "2026-10-10"
       },
       {
         "url": "https://www.nationalheraldindia.com/national/ipcw-row-du-committee-misses-deadline-for-first-report-yet-to-meet-students",
         "source_type": "secondary",
-        "publication": "National Herald (PTI), 12 April 2023 (read through the fetch tool's summary, not verbatim)",
+        "publication": "National Herald (PTI), 12 April 2023 (read as a summary only)",
         "retrieved_on": "2026-10-10",
         "originates_from": "PTI"
       }
@@ -21823,7 +21823,7 @@
       {
         "url": "https://www.scholarsatrisk.org/report/2025-03-30-university-of-hyderabad/",
         "source_type": "secondary",
-        "publication": "Scholars at Risk, Academic Freedom Monitoring Project report dated 30 March 2025 (its page says it was drafted in part with AI tools and reviewed by staff; fetched through Firecrawl because the publisher refused a direct request)",
+        "publication": "Scholars at Risk, Academic Freedom Monitoring Project report dated 30 March 2025 (its page says it was drafted in part with AI tools and reviewed by staff)",
         "retrieved_on": "2026-10-10"
       },
       {
@@ -22097,7 +22097,7 @@
       {
         "url": "https://www.scholarsatrisk.org/report/2025-03-30-university-of-hyderabad/",
         "source_type": "secondary",
-        "publication": "Scholars at Risk, Academic Freedom Monitoring Project report dated 30 March 2025 (its page says it was drafted in part with AI tools and reviewed by staff; fetched through Firecrawl because the publisher refused a direct request)",
+        "publication": "Scholars at Risk, Academic Freedom Monitoring Project report dated 30 March 2025 (its page says it was drafted in part with AI tools and reviewed by staff)",
         "retrieved_on": "2026-10-10"
       },
       {
@@ -22149,7 +22149,7 @@
       {
         "url": "https://www.scholarsatrisk.org/report/2025-04-02-university-of-hyderabad/",
         "source_type": "secondary",
-        "publication": "Scholars at Risk, Academic Freedom Monitoring Project report dated 2 April 2025 (fetched through Firecrawl because the publisher refused a direct request)",
+        "publication": "Scholars at Risk, Academic Freedom Monitoring Project report dated 2 April 2025",
         "retrieved_on": "2026-10-10"
       },
       {
@@ -22196,7 +22196,7 @@
       {
         "url": "https://www.scholarsatrisk.org/report/2025-04-02-university-of-hyderabad/",
         "source_type": "secondary",
-        "publication": "Scholars at Risk, Academic Freedom Monitoring Project report dated 2 April 2025 (fetched through Firecrawl because the publisher refused a direct request)",
+        "publication": "Scholars at Risk, Academic Freedom Monitoring Project report dated 2 April 2025",
         "retrieved_on": "2026-10-10"
       }
     ],
@@ -22521,7 +22521,7 @@
         "originates_from": "TGIIC complaint as quoted"
       }
     ],
-    "notes": "ORDER QUESTION, land. This is an order of land alienation, at the level of the Revenue Department's Principal Secretary, with TGIIC as recipient. It is not an order to fell trees, to start work on 30 March 2025 or to deploy police. The Government Order text was not read. TGIIC's website carries files that a search excerpt linked to the Government Order, but the host did not answer from this environment, so they are not cited.",
+    "notes": "ORDER QUESTION, land. This is an order of land alienation, at the level of the Revenue Department's Principal Secretary, with TGIIC as recipient. It is not an order to fell trees, to start work on 30 March 2025 or to deploy police. The Government Order text was not read. TGIIC's website carries files that a search excerpt linked to the Government Order, but the host did not answer, so they are not cited.",
     "volatility": "medium",
     "incident": "INC-0045"
   },
@@ -24258,7 +24258,7 @@
         "retrieved_on": "2026-10-10"
       }
     ],
-    "notes": "Occurrence corroborated by four outlets. No primary document (police report, university statement, court order) was read. The force is described as 'mild' by PTI, the Tribune and the police-attributed accounts; no source read gives an independent measure of it. Tribune pages were read through a summarising fetch tool and not verbatim; quotations in this file come only from the Hindu, Indian Express, Hindustan Times and Times of India pages, which were read in full.",
+    "notes": "Occurrence corroborated by four outlets. No primary document (police report, university statement, court order) was read. The force is described as 'mild' by PTI, the Tribune and the police-attributed accounts; no source read gives an independent measure of it. Tribune pages were read as summaries only; quotations in this file come only from the Hindu, Indian Express, Hindustan Times and Times of India pages, which were read in full.",
     "volatility": "low",
     "incident": "INC-0048"
   },
@@ -24481,7 +24481,7 @@
     "id": "HIST-PU25-010",
     "jurisdiction": "chandigarh",
     "category": "incident",
-    "claim": "Who requested or ordered the 10 November 2025 police deployment, and whether Panjab University's administration asked for police: no page read says. Hindustan Herald says the administration's response included 'summon[ing] police' without naming who or when; this is a summary-tool paraphrase of an unattributed sentence and is not relied on.",
+    "claim": "Who requested or ordered the 10 November 2025 police deployment, and whether Panjab University's administration asked for police: no page read says. Hindustan Herald says the administration's response included 'summon[ing] police' without naming who or when; this is a paraphrase of an unattributed sentence and is not relied on.",
     "confidence": "UNKNOWN",
     "sources": [],
     "notes": "Not established. What is reported: the university announced holidays on 10 and 11 November and restricted entry to ID holders (record 12); the Vice-Chancellor appealed for restraint (Tribune); the university filed a police complaint on 15 November 2025 (record 11). None of these is a request for police deployment on 10 November.",
@@ -25177,7 +25177,7 @@
         "sha256": "b208ccdbf20fbbb7706ede0ef263a2705f01f0440bd975ede81df919c7944eda"
       }
     ],
-    "notes": "The allegations of lathi charge, tear gas, rubber bullets and pellets are the petitioner's averments as the order recites them ('As per the averments'); the court made no finding. The order names no officer and says nothing about who authorised entry. It describes the force as 'Para Military Force and the State Police' and the petition as concerning 12 to 15 December 2019. The order of 7 January 2020 (NHRC to inquire) and of 24 February 2020 (compliance with NHRC recommendations) were not obtained: the copy linked from The Leaflet is on cdn.theleaflet.in, which this environment's proxy refused, and no other full copy was found. Those two remain REPORTED.",
+    "notes": "The allegations of lathi charge, tear gas, rubber bullets and pellets are the petitioner's averments as the order recites them ('As per the averments'); the court made no finding. The order names no officer and says nothing about who authorised entry. It describes the force as 'Para Military Force and the State Police' and the petition as concerning 12 to 15 December 2019. The order of 7 January 2020 (NHRC to inquire) and of 24 February 2020 (compliance with NHRC recommendations) were not obtained: the copy linked from The Leaflet is on cdn.theleaflet.in, which could not be retrieved, and no other full copy was found. Those two remain REPORTED.",
     "volatility": "low",
     "incident": "INC-0013",
     "added_on": "2026-10-10"
@@ -29953,7 +29953,7 @@
     "id": "HIST-BURD16-013",
     "jurisdiction": "west-bengal",
     "category": "incident",
-    "claim": "Records still to request for Burdwan University, 23 February 2016: the police daily diary and wireless log for Burdwan police station and the Rajbati campus; the university's call or letter to police and any registrar or Vice-Chancellor communication; the force deployed and the duty roster; any FIR, complaint or arrest memo; medical records for the injured; any State Human Rights Commission complaint; and any Assembly question on the incident. A Lok Sabha or Rajya Sabha PDF (eparlib.nic.in/bitstream/123456789/747984/1/3264.pdf) was named as a lead but could not be fetched through the proxy, so nothing from it is used.",
+    "claim": "Records still to request for Burdwan University, 23 February 2016: the police daily diary and wireless log for Burdwan police station and the Rajbati campus; the university's call or letter to police and any registrar or Vice-Chancellor communication; the force deployed and the duty roster; any FIR, complaint or arrest memo; medical records for the injured; any State Human Rights Commission complaint; and any Assembly question on the incident. A Lok Sabha or Rajya Sabha PDF (eparlib.nic.in/bitstream/123456789/747984/1/3264.pdf) was named as a lead but could not be fetched, so nothing from it is used.",
     "confidence": "UNKNOWN",
     "sources": [],
     "notes": "No RTI has been filed by this archive. West Bengal, Union and university routes are in the archive's sourcing notes, which were not rechecked here.",
@@ -30769,7 +30769,7 @@
         "originates_from": "PTI"
       }
     ],
-    "notes": "Source is PTI (National Herald credits PTI, published 31 Jul 2024 3:21 PM). The text says 'Wednesday, 30 July', but 31 July 2024 was the Wednesday and the item is dated 31 July; the date slip is in the source. The Careers360 PTI copy fetched covers the MCD meeting but omits the removal sentence, so it is a copy of the same wire. The Week also carries the PTI item but blocked direct fetch, so it is not cited. The police officer is unnamed. How the people were identified and where they were taken is not stated.",
+    "notes": "Source is PTI (National Herald credits PTI, published 31 Jul 2024 3:21 PM). The text says 'Wednesday, 30 July', but 31 July 2024 was the Wednesday and the item is dated 31 July; the date slip is in the source. The Careers360 PTI copy fetched covers the MCD meeting but omits the removal sentence, so it is a copy of the same wire. The Week also carries the PTI item but could not be read, so it is not cited. The police officer is unnamed. How the people were identified and where they were taken is not stated.",
     "volatility": "medium",
     "incident": "INC-0067"
   },
@@ -32022,7 +32022,7 @@
     "id": "HIST-UPPS24-014",
     "jurisdiction": "uttar-pradesh",
     "category": "incident",
-    "claim": "No court order, NHRC record, assembly question or inquiry on the police action at the UPPSC office on 11-14 November 2024 was found in this session.",
+    "claim": "No court order, NHRC record, assembly question or inquiry on the police action at the UPPSC office on 11-14 November 2024 was found.",
     "confidence": "UNKNOWN",
     "sources": [],
     "notes": "Not searched exhaustively. Leads: UP Legislative Assembly question lists for the winter 2024 session, Allahabad High Court listings, NHRC/UPHRC complaint registers, Indian Express and Amar Ujala/Dainik Jagran/Hindustan coverage (not fetched).",
@@ -36655,7 +36655,7 @@
         "sha256": "9ef00200122961fe9c1a9b9a62de9cdaa99d4cf965fd822bcaa4e80283d82632"
       }
     ],
-    "notes": "Extends INC-0002 and INC-BIH-004 (The Week, which returned 403 to this session and was not read). Patna Press is explicit about a lathi-charge and injuries; the PTI copy on Siasat says only that students were detained after stone-pelting and attempts to break the barricade, without using the word lathi-charge. Corroborated for force and detentions at Dak Bungalow; the lathi-charge itself rests on Patna Press in the pages read. The Patna SSP quote is at HIST-BIHJ26-020.",
+    "notes": "Extends INC-0002 and INC-BIH-004 (The Week, which could not be read). Patna Press is explicit about a lathi-charge and injuries; the PTI copy on Siasat says only that students were detained after stone-pelting and attempts to break the barricade, without using the word lathi-charge. Corroborated for force and detentions at Dak Bungalow; the lathi-charge itself rests on Patna Press in the pages read. The Patna SSP quote is at HIST-BIHJ26-020.",
     "volatility": "medium",
     "incident": "INC-0002"
   },
@@ -37001,7 +37001,7 @@
         "originates_from": "PTI"
       }
     ],
-    "notes": "One outlet, relaying PTI. The statement says the order was in force and does not say who issued it. Fetched and checked on raw text by the 12 October developments sweep.",
+    "notes": "One outlet, relaying PTI. The statement says the order was in force and does not say who issued it. Read in its raw text on 12 October.",
     "volatility": "medium",
     "incident": "INC-0008"
   },
@@ -37065,7 +37065,7 @@
         "source_type": "primary",
         "publication": "High Powered Enquiry Committee (hpec.nic.in), home page",
         "retrieved_on": "2026-10-14",
-        "note": "Read from a browser snapshot (Chromium, saved 14 October 2026 04:44 GMT) supplied by the archive owner. The site could not be fetched from this archive's build environment. The snapshot was not hashed at capture and is not republished here."
+        "note": "Read from a browser snapshot (Chromium, saved 14 October 2026 04:44 GMT) supplied by the archive owner. The site could not be fetched directly. The snapshot was not hashed at capture and is not republished here."
       }
     ],
     "notes": "This is the Committee's own statement of its mandate, and it is the first primary document the archive holds on the Committee. VERIFIED here means only that the home page says this. It does not stand in for the orders. The paragraph text quoted on the page is a summary of paragraphs 12 and 13, and the page links to the order of 18 August and the order of 10 September under its Supreme Court Orders page (https://hpec.nic.in/supreme-court-orders); neither order has been opened by this archive, so OQ-045 is only partly answered and FQ-016 is still open. The home page shows the five paragraphs the Committee chose to quote, not all of paragraphs 12 and 13. The snapshot's browser tab title reads 'HPEC: Admin Console Sign In', which does not match the page content; the archive records that and draws nothing from it.",
@@ -37084,7 +37084,7 @@
         "source_type": "primary",
         "publication": "High Powered Enquiry Committee (hpec.nic.in), home page",
         "retrieved_on": "2026-10-14",
-        "note": "Read from a browser snapshot (Chromium, saved 14 October 2026 04:44 GMT) supplied by the archive owner. The site could not be fetched from this archive's build environment. The snapshot was not hashed at capture and is not republished here."
+        "note": "Read from a browser snapshot (Chromium, saved 14 October 2026 04:44 GMT) supplied by the archive owner. The site could not be fetched directly. The snapshot was not hashed at capture and is not republished here."
       }
     ],
     "notes": "This answers the second half of OQ-054 in part. PROC-SC-011 recorded a direction that the Court wanted a separate online portal for vulnerable witnesses and that the Committee appoint a member secretary; the Committee's own site now advertises a confidential route and names a Member Secretary. What this archive has not done is use the form, so it cannot say that the confidential route works, how a submission is stored, or who can read it. The archive does not run, endorse or relay these submissions and is independent of the Committee. The telephone number, postal address and generic email address are published by the Committee for the public; the archive reproduces them for that reason only. Whether the confidential route is the portal the Court directed on 10 September is an inference from the matching description and is not stated on the page.",
@@ -37870,7 +37870,7 @@
         "note": "Read in full. Gives the earlier two-day version, 29 and 30 October. Kept as the record of what was first reported."
       }
     ],
-    "notes": "The date, the venue and the walk-in hours are the same in every version read. The length of the sitting changed. India Today, published 24 October 2026 at 13:10 IST and citing PTI, says a two-day sitting on 29 and 30 October. Rediff's copy of the PTI report, updated 24 October at 15:10 IST, says the officials first gave two days and later clarified that it is a day-long sitting on 29 October. The Tribune, updated 25 October at 00:09 IST, also gives 29 October only. This record follows the corrected version and keeps the earlier one here so that the change is on the record. The three outlets carry one account from officials, so this is one source and the state is REPORTED. The venue is the Committee's own office, whose address PROC-SC-017 holds from the Committee's website. The Committee's own notice of the sitting has not been read, because hpec.nic.in could not be reached from this archive's build environment on 25 October 2026. The upgrade to VERIFIED is that notice (OQ-067). A printed copy of the PTI text supplied by the archive owner, with the newspaper and date of publication not recorded, carries the one-day wording. The reports describe the sitting's purpose and the issues the Committee will examine. They say nothing about who authorised any force, and nothing in this record establishes that anyone did. SEARCHED 28 October 2026: Business Standard, The New Indian Express and Economic Times Legal were seen only as search excerpts, and each still gave the two-day version, 29 and 30 October. They are not cited here because they were not read in full. No report of the Committee's own notice, and no later change to the sitting, was found.",
+    "notes": "The date, the venue and the walk-in hours are the same in every version read. The length of the sitting changed. India Today, published 24 October 2026 at 13:10 IST and citing PTI, says a two-day sitting on 29 and 30 October. Rediff's copy of the PTI report, updated 24 October at 15:10 IST, says the officials first gave two days and later clarified that it is a day-long sitting on 29 October. The Tribune, updated 25 October at 00:09 IST, also gives 29 October only. This record follows the corrected version and keeps the earlier one here so that the change is on the record. The three outlets carry one account from officials, so this is one source and the state is REPORTED. The venue is the Committee's own office, whose address PROC-SC-017 holds from the Committee's website. The Committee's own notice of the sitting has not been read, because hpec.nic.in could not be reached on 25 October 2026. The upgrade to VERIFIED is that notice (OQ-067). A printed copy of the PTI text supplied by the archive owner, with the newspaper and date of publication not recorded, carries the one-day wording. The reports describe the sitting's purpose and the issues the Committee will examine. They say nothing about who authorised any force, and nothing in this record establishes that anyone did. SEARCHED 28 October 2026: Business Standard, The New Indian Express and Economic Times Legal were seen only as search excerpts, and each still gave the two-day version, 29 and 30 October. They are not cited here because they were not read in full. No report of the Committee's own notice, and no later change to the sitting, was found.",
     "volatility": "high",
     "incident": "INC-0001",
     "added_on": "2026-10-25"

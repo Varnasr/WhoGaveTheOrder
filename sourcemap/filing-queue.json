@@ -337,7 +337,7 @@
     "jurisdiction": "delhi",
     "action": "Obtain the Indian Youth Congress petition in the Delhi High Court recorded at PROC-DEL-005 and its annexure, the Delhi Police order of 1 October 2026 refusing permission, with any order the Court has made on it.",
     "authority": "Delhi High Court registry and the Court's own published orders. The case number is not reported in the source read.",
-    "method": "Find the case number from the Court's cause list or order search, as the sweep does for W.P.(CRL.) 2127/2026 (FQ-004), then retrieve the petition and annexures through the Court's own route. The case-status search is behind a captcha.",
+    "method": "Find the case number from the Court's cause list or order search, as was done for W.P.(CRL.) 2127/2026 (FQ-004), then retrieve the petition and annexures through the Court's own route. The case-status search is behind a captcha.",
     "cost": "Not established for a certified copy. Published orders are free.",
     "legal_basis": "Court records are open to the public subject to the Court's rules.",
     "exposure_risk": false,

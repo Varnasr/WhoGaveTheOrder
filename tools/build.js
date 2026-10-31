@@ -275,7 +275,7 @@ function writeFeed(history, siteUrl, config) {
       `    <updated>${xml(entry.date)}</updated>`,
       `    <link href="${xml(siteUrl)}/changes.html#${xml(entry.commit)}"/>`,
       '    <content type="html">',
-      `      ${xml('<p>' + escapeHtml(entry.subject) + '</p><ul>' +
+      `      ${xml('<ul>' +
         lines.map(l => '<li>' + escapeHtml(l) + '</li>').join('') + '</ul>')}`,
       '    </content>',
       '  </entry>'
