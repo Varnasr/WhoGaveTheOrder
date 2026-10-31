@@ -5,6 +5,23 @@ window.WGO = window.WGO || {};
 
 WGO.changes = [
   {
+    "commit": "c2a78ee601",
+    "date": "2026-10-31T09:36:42Z",
+    "subject": "Index Jhuma Sen's Indian Express column on West Bengal encounter killings under Others (#104)",
+    "added": [
+      {
+        "id": "PUB-WB-001",
+        "kind": "External work",
+        "title": "What happens when the state kills in the name of protection?",
+        "state": null,
+        "url": "others.html#PUB-WB-001"
+      }
+    ],
+    "removed": [],
+    "changed": [],
+    "summary": "1 record added"
+  },
+  {
     "commit": "11061642f1",
     "date": "2026-10-31T09:24:16Z",
     "subject": "Fix: keep build, sweep and research-tool narration off reader pages",
