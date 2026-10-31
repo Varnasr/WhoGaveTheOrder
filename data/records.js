@@ -377,7 +377,7 @@ WGO.updates = [
   {
     date: '2026-08-19',
     title: 'A fourth incident is open: Siwan',
-    body: 'The daily sweep found the State of Bihar telling the Supreme Court that police discharged firearms at a student protest at Siwan on 25 July: four rounds from an AK-47 and two from a pistol, with three protesters injured. Siwan was not on this archive before today and has been opened as its own record, separate from the Bihar one: a different town, a different date and a different weapon is a different incident. These are the first firearms in the archive.',
+    body: 'The State of Bihar has told the Supreme Court that police discharged firearms at a student protest at Siwan on 25 July: four rounds from an AK-47 and two from a pistol, with three protesters injured. Siwan was not on this archive before today and has been opened as its own record, separate from the Bihar one: a different town, a different date and a different weapon is a different incident. These are the first firearms in the archive.',
     recordId: 'INC-SIW-001'
   },
   {

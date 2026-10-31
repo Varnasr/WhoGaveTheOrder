@@ -5183,7 +5183,7 @@
   {
     "id": "SRC-0499",
     "kind": "Source",
-    "title": "Deccan Herald (DHNS), published 14 September 2021, 15:26 IST; read via Firecrawl because a direct fetch returned HTTP 403",
+    "title": "Deccan Herald (DHNS), published 14 September 2021, 15:26 IST",
     "state": null,
     "url": "https://www.deccanherald.com/india/karnataka/bengaluru/police-use-lathi-charge-to-break-up-students-protest-against-nep-1030476.html",
     "publisher": null,
@@ -5414,7 +5414,7 @@
   {
     "id": "SRC-0520",
     "kind": "Source",
-    "title": "Deccan Herald, by Sanjay Pandey, published 5 December 2021, 04:23 IST (fetched through Firecrawl; a direct fetch returned HTTP 403)",
+    "title": "Deccan Herald, by Sanjay Pandey, published 5 December 2021, 04:23 IST",
     "state": null,
     "url": "https://www.deccanherald.com/national/north-and-central/opposition-attacks-yogi-as-up-police-cane-aspirants-protesting-irregularities-in-teachers-recruitment-1057831.html",
     "publisher": null,
@@ -5425,7 +5425,7 @@
   {
     "id": "SRC-0521",
     "kind": "Source",
-    "title": "NewsClick, by Abdul Alim Jafri, 6 December 2021 (fetched through Firecrawl; a direct fetch returned HTTP 403)",
+    "title": "NewsClick, by Abdul Alim Jafri, 6 December 2021",
     "state": null,
     "url": "https://www.newsclick.in/node/43942",
     "publisher": null,
@@ -6327,7 +6327,7 @@
   {
     "id": "SRC-0603",
     "kind": "Source",
-    "title": "The Quint, 29 March 2023 (read through the fetch tool's summary, not verbatim)",
+    "title": "The Quint, 29 March 2023 (read as a summary only)",
     "state": null,
     "url": "https://www.thequint.com/news/education/ip-college-aisa-sfi-students-protest-detained-day-after-scaled-walls-harassment",
     "publisher": null,
@@ -6349,7 +6349,7 @@
   {
     "id": "SRC-0605",
     "kind": "Source",
-    "title": "DU Beat, 31 March 2023 (read through the fetch tool's summary, not verbatim)",
+    "title": "DU Beat, 31 March 2023 (read as a summary only)",
     "state": null,
     "url": "https://dubeat.com/2023/03/31/student-protesters-at-arts-faculty-brutally-detained-by-delhi-police/",
     "publisher": null,
@@ -6371,7 +6371,7 @@
   {
     "id": "SRC-0607",
     "kind": "Source",
-    "title": "ThePrint (PTI feed), 31 March 2023 (read through the fetch tool's summary, not verbatim)",
+    "title": "ThePrint (PTI feed), 31 March 2023 (read as a summary only)",
     "state": null,
     "url": "https://theprint.in/india/campus-harassment-human-chain-marches-as-students-demand-ipcw-principals-resignation/1487473/",
     "publisher": null,
@@ -6382,7 +6382,7 @@
   {
     "id": "SRC-0608",
     "kind": "Source",
-    "title": "Outlook India, Outlook News Desk, 31 March 2023 (updated 18 January 2024) (read through the fetch tool's summary, not verbatim)",
+    "title": "Outlook India, Outlook News Desk, 31 March 2023 (updated 18 January 2024) (read as a summary only)",
     "state": null,
     "url": "https://www.outlookindia.com/national/delhi-students-protest-against-harassment-at-du-women-college-fest-call-for-principal-resignation-news-275106",
     "publisher": null,
@@ -6393,7 +6393,7 @@
   {
     "id": "SRC-0609",
     "kind": "Source",
-    "title": "The Mooknayak, by Kashish Singh, 1 April 2023 (read through the fetch tool's summary, not verbatim)",
+    "title": "The Mooknayak, by Kashish Singh, 1 April 2023 (read as a summary only)",
     "state": null,
     "url": "https://en.themooknayak.com/education/campus-harassment-delhi-police-thrashes-du-students-as-they-protest-demanding-ipcw-principals-resignation",
     "publisher": null,
@@ -6404,7 +6404,7 @@
   {
     "id": "SRC-0610",
     "kind": "Source",
-    "title": "Careers360 (PTI), 27 January 2023 (read through the fetch tool's summary, not verbatim)",
+    "title": "Careers360 (PTI), 27 January 2023 (read as a summary only)",
     "state": null,
     "url": "https://news.careers360.com/bbc-documentary-delhi-police-detains-24-students-from-du-arts-faculty-for-planning-screen-film/amp",
     "publisher": null,
@@ -6459,7 +6459,7 @@
   {
     "id": "SRC-0615",
     "kind": "Source",
-    "title": "ThePrint, by Debdutta Chakraborty, 5 April 2023 (read through the fetch tool's summary, not verbatim)",
+    "title": "ThePrint, by Debdutta Chakraborty, 5 April 2023 (read as a summary only)",
     "state": null,
     "url": "https://theprint.in/india/education/why-students-of-dus-ip-college-for-women-are-protesting-men-barged-in-during-fest-harassed-girls-for-2-hrs/1498585/",
     "publisher": null,
@@ -6470,7 +6470,7 @@
   {
     "id": "SRC-0616",
     "kind": "Source",
-    "title": "The Wire, by Sagarika Chaudhary, 5 April 2023 (read through the fetch tool's summary, not verbatim)",
+    "title": "The Wire, by Sagarika Chaudhary, 5 April 2023 (read as a summary only)",
     "state": null,
     "url": "https://m.thewire.in/article/education/indraprastha-college-for-women-delhi-harassment",
     "publisher": null,
@@ -6481,7 +6481,7 @@
   {
     "id": "SRC-0617",
     "kind": "Source",
-    "title": "National Herald (PTI), 12 April 2023 (read through the fetch tool's summary, not verbatim)",
+    "title": "National Herald (PTI), 12 April 2023 (read as a summary only)",
     "state": null,
     "url": "https://www.nationalheraldindia.com/national/ipcw-row-du-committee-misses-deadline-for-first-report-yet-to-meet-students",
     "publisher": null,
@@ -6492,7 +6492,7 @@
   {
     "id": "SRC-0618",
     "kind": "Source",
-    "title": "The Quint, 3 April 2023 (read through the fetch tool's summary, not verbatim)",
+    "title": "The Quint, 3 April 2023 (read as a summary only)",
     "state": null,
     "url": "https://www.thequint.com/gender/indraprastha-college-for-women-harassment-allegations-fest-delhi-university-enquiry",
     "publisher": null,
@@ -6547,7 +6547,7 @@
   {
     "id": "SRC-0623",
     "kind": "Source",
-    "title": "Scholars at Risk, Academic Freedom Monitoring Project report dated 30 March 2025 (its page says it was drafted in part with AI tools and reviewed by staff; fetched through Firecrawl because the publisher refused a direct request)",
+    "title": "Scholars at Risk, Academic Freedom Monitoring Project report dated 30 March 2025 (its page says it was drafted in part with AI tools and reviewed by staff)",
     "state": null,
     "url": "https://www.scholarsatrisk.org/report/2025-03-30-university-of-hyderabad/",
     "publisher": null,
@@ -6668,7 +6668,7 @@
   {
     "id": "SRC-0634",
     "kind": "Source",
-    "title": "Scholars at Risk, Academic Freedom Monitoring Project report dated 2 April 2025 (fetched through Firecrawl because the publisher refused a direct request)",
+    "title": "Scholars at Risk, Academic Freedom Monitoring Project report dated 2 April 2025",
     "state": null,
     "url": "https://www.scholarsatrisk.org/report/2025-04-02-university-of-hyderabad/",
     "publisher": null,
