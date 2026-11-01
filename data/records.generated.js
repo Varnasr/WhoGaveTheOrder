@@ -1858,8 +1858,8 @@ WGO.importedSources = [
     "kind": "SECONDARY",
     "url": "https://barandbench.com/jamia-violence-live-updates-from-the-hearing-in-delhi-high-court/",
     "retrievedOn": "2026-10-10",
-    "archiveUrl": null,
-    "archivedOn": null,
+    "archiveUrl": "https://web.archive.org/web/20261101092829/https://www.barandbench.com/jamia-violence-live-updates-from-the-hearing-in-delhi-high-court",
+    "archivedOn": "2026-11-01",
     "sha256": null,
     "originatesFrom": null
   },
@@ -2078,8 +2078,8 @@ WGO.importedSources = [
     "kind": "SECONDARY",
     "url": "https://www.aljazeera.com/news/2020/1/7/jnu-attack-india-police-file-case-against-injured-student-leader",
     "retrievedOn": "2026-10-10",
-    "archiveUrl": null,
-    "archivedOn": null,
+    "archiveUrl": "http://web.archive.org/web/20260824154231/https://www.aljazeera.com/news/2020/1/7/jnu-attack-india-police-file-case-against-injured-student-leader",
+    "archivedOn": "2026-11-01",
     "sha256": null,
     "originatesFrom": null
   },
@@ -2122,8 +2122,8 @@ WGO.importedSources = [
     "kind": "SECONDARY",
     "url": "https://sabrangindia.in/18-months-no-arrests-jnu-violence-case/",
     "retrievedOn": "2026-10-10",
-    "archiveUrl": null,
-    "archivedOn": null,
+    "archiveUrl": "http://web.archive.org/web/20260307120629/https://sabrangindia.in/18-months-no-arrests-jnu-violence-case/",
+    "archivedOn": "2026-11-01",
     "sha256": null,
     "originatesFrom": "Lok Sabha written reply, 3 August 2021"
   },
@@ -2144,8 +2144,8 @@ WGO.importedSources = [
     "kind": "SECONDARY",
     "url": "https://timesofindia.indiatimes.com/india/goons-ran-riot-as-cops-awaited-jnu-nod/articleshow/73130234.cms",
     "retrievedOn": "2026-10-10",
-    "archiveUrl": null,
-    "archivedOn": null,
+    "archiveUrl": "http://web.archive.org/web/20250804105539/https://timesofindia.indiatimes.com/india/goons-ran-riot-as-cops-awaited-jnu-nod/articleshow/73130234.cms",
+    "archivedOn": "2026-11-01",
     "sha256": null,
     "originatesFrom": "Delhi Police spokesperson statement of 6 January 2020, as reported by TNN on 7 January 2020"
   },
