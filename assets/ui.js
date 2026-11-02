@@ -550,6 +550,8 @@
               '<a href="' + ui.esc(ui.withLang('about.html#privacy')) + '">Full privacy note &rarr;</a></p>' +
             '<p style="margin-top:0.5rem">' + ui.esc(ui.t('chrome.lastReviewed', 'Record last reviewed')) + ' ' +
               ui.esc(WGO.config.lastReviewed) + '.</p>' +
+            '<p class="footer-credit">Website developed by Varna Sri Raman at ' +
+              '<a href="https://www.pinpointventures.in" target="_blank" rel="noopener">Pinpoint Ventures</a>.</p>' +
           '</div>' +
         '</div></footer>';
     }
