@@ -5,6 +5,72 @@ window.WGO = window.WGO || {};
 
 WGO.changes = [
   {
+    "commit": "b85b96f5f2",
+    "date": "2026-11-01T09:31:43Z",
+    "subject": "Sweep log and archived copies for 2026-11-01 [skip ci]",
+    "added": [],
+    "removed": [],
+    "changed": [
+      {
+        "id": "SRC-0196",
+        "kind": "Source",
+        "title": "Bar & Bench",
+        "state": null,
+        "url": "https://barandbench.com/jamia-violence-live-updates-from-the-hearing-in-delhi-high-court/",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "https://web.archive.org/web/20261101092829/https://www.barandbench.com/jamia-violence-live-updates-from-the-hearing-in-delhi-high-court"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0216",
+        "kind": "Source",
+        "title": "Al Jazeera",
+        "state": null,
+        "url": "https://www.aljazeera.com/news/2020/1/7/jnu-attack-india-police-file-case-against-injured-student-leader",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20260824154231/https://www.aljazeera.com/news/2020/1/7/jnu-attack-india-police-file-case-against-injured-student-leader"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0220",
+        "kind": "Source",
+        "title": "SabrangIndia",
+        "state": null,
+        "url": "https://sabrangindia.in/18-months-no-arrests-jnu-violence-case/",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20260307120629/https://sabrangindia.in/18-months-no-arrests-jnu-violence-case/"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0222",
+        "kind": "Source",
+        "title": "Times of India",
+        "state": null,
+        "url": "https://timesofindia.indiatimes.com/india/goons-ran-riot-as-cops-awaited-jnu-nod/articleshow/73130234.cms",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20250804105539/https://timesofindia.indiatimes.com/india/goons-ran-riot-as-cops-awaited-jnu-nod/articleshow/73130234.cms"
+          }
+        ]
+      }
+    ],
+    "summary": "4 records edited"
+  },
+  {
     "commit": "28514bfc0b",
     "date": "2026-10-31T09:55:23Z",
     "subject": "Fix: keep build, sweep and research-tool narration off reader pages (#105)",
