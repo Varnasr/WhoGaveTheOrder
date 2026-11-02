@@ -1,8 +1,8 @@
 {
   "run": {
-    "date": "2026-11-01",
+    "date": "2026-11-02",
     "targets": 9,
-    "findings": 5,
+    "findings": 4,
     "outcomes": {
       "nothing-published": 1,
       "matched": 2,
@@ -20,7 +20,7 @@
         "Civil Lines"
       ],
       "snippets": [
-        "d 203 W.P.(C) - 2157/2020 13 Oct 2026 POOJA JAIN AND ORS. DIRECTORATE OF EDUCATION OLD SECRETARIAT, CIVIL LINES AND ORS. Download 204 O.M.P.(I) (COMM.) - 479/2026 13 Oct 2026 M/S GLOBAL ENTERPRISES THROUGH ITS PARTNER PUBLIC WORK DEPARTMENT THROUGH EXECUTIVE ENGINEER(E)"
+        "d 182 W.P.(C) - 2157/2020 13 Oct 2026 POOJA JAIN AND ORS. DIRECTORATE OF EDUCATION OLD SECRETARIAT, CIVIL LINES AND ORS. Download 183 CRL.M.C. - 6216/2026 13 Oct 2026 VISHAL SHARMA &amp; ORS. THE STATE THROUGH SHO &amp; ANR. Download 184 ARB. A. (COMM.) - 31/2026 13 Oct"
       ],
       "method": "html",
       "note": "Orders appear here before the case-status search, which is behind a captcha. An order in W.P.(CRL) 2127/2026 would close OQ-004."
@@ -35,35 +35,23 @@
     },
     {
       "kind": "NEW_ITEM",
-      "target": "news-delhi",
-      "label": "News: Jantar Mantar and the police action",
-      "title": "‘Out of Sight, Out of Mind’: Jantar Mantar and Democracy - Supreme Court Observer",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQS0pTOW9nZ052cGxBd1B6Y2E1VHNiZFVhOHFRa0pSNE1KUXhEUktkQ3MtZWdfOGRiMFlvMlktMnB6T2xmY0Z0OVIweFNWTTBtVnZLWGxTekZfWVFZdW00UmQ2TVM2eG11OWVLRmZ3LUNxazR0MzZGbDNIRVh2aC02TWVQMnFtUFJmR0FZT1Y5S0c?oc=5",
-      "date": "Sun, 01 Nov 2026 08:28:20 GMT",
+      "target": "barandbench",
+      "label": "Bar & Bench",
+      "title": "CCCJFS at MNLU Nagpur organises National Conference on Reimagining the Organ Transplantation Regime in India",
+      "url": "https://www.barandbench.com/Law-School/cccjfs-at-mnlu-nagpur-organises-national-conference-on-reimagining-the-organ-transplantation-regime-in-india",
+      "date": "Mon, 02 Nov 2026 13:32:50 +0530",
       "terms": [
-        "Jantar Mantar"
+        "Nagpur"
       ],
-      "note": "Leads, not evidence. Something reported here is a pointer to a document worth going after."
+      "note": "Legal reporting carries hearings on the day they happen, usually before anything reaches a court website."
     },
     {
       "kind": "NEW_ITEM",
       "target": "news-delhi",
       "label": "News: Jantar Mantar and the police action",
-      "title": "CEC row: CJP’s Saurav Das submits ‘intimation letter’ for October 10 Jantar Mantar protest, police takes ‘undertaking’ from organisers - The Hindu",
-      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOX1c0VUtIbUFnUmlCTWg4WjYxeWNmQTZoQVk1OURfWlZITG9FYjhuRF9Da3QxOGU3NmdzUE9YUWxKalZhdlVheWx2cGZTUGN1ZmoteXl1aU9nREdXTjhHQnU4aWppN0xkeGZxNktjTV8zVU1UNHd2Q2UxaUJEbVJvZ3lWZGxpX1QydUhNOEJ4bDFGVUF6VVJFUzJPcHdGdTJvaUtSSDR3RWM0ZkxaUWFBVEgzMWJsZF9UcFhneWp3dFU4bERxZmx4MVZWR2hnUENHaktJQ2had1ZjNzTSAeIBQVVfeXFMTS1vY21uNkt6Vmk1SXdNV2VSVC1GUHZHUk1QVWZmNjFPT3JTaXVIWDdfM244bE9kWUt4WjZHRjNLMXZvM2JmajR3UDNiTU8yN25IRlpQQ01CN3AwSmpQRVdTV3FrYmw3MGVWVGdfZVJ4VUZnaUNSUzl3b2dCcXI3TlRPVWI5aFlLRVoxSzJlT1AyWkc1YlVZWnhvRllyQzBmeGQxeTVyc2J1M2J5MjktT0tnZUFSMWJQeWJhemlIaTRDVkFEUjFqbFkzM3BDUDdkU0pETFpRQVI1cTlSZEwwZDhQdw?oc=5",
-      "date": "Wed, 07 Oct 2026 07:00:00 GMT",
-      "terms": [
-        "Jantar Mantar"
-      ],
-      "note": "Leads, not evidence. Something reported here is a pointer to a document worth going after."
-    },
-    {
-      "kind": "NEW_ITEM",
-      "target": "news-delhi",
-      "label": "News: Jantar Mantar and the police action",
-      "title": "Jantar Mantar Protests : PIL In Supreme Court Seeks Proper Investigation Of Delhi Police FIRs - Live Law",
-      "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxNc2J3ODNreDJ5N0d2TDlNamg2YWp6eVhWOWRyeExIelVhSkRxZS1JWTRvcmFqMm9zMkV4WHJ2cmtUNXVQeTJmUy1RUmhxeXFjVVVRV0M0UnlfTjd1RFJyaVBpM3k0Zk43c2VjbU9FRm9lZmJ3S2E3dVBSMXl4REVuZThfUWd1OVFRSVpqTHNxRkZDLU9KZXNOenhxVkw3NWlTVVVQMjhXMmVoaXl4SDI5SUFZZGZiM1p4US1jRHVLYVNpc0Z0Ym5UOGIyNVY1dUNvTEFZMFBNRDFWSFJ4U3VseXVXRkNyOEo3STFTRTFuUkxqd1JHcDVXeDNDUE1WMnJS?oc=5",
-      "date": "Sun, 16 Aug 2026 07:00:00 GMT",
+      "title": "Jantar Mantar assault row: Delhi police add attempt-to-murder, SC/ST charges; assure Swatantra Bhardwaj’s arrest within 72 hours, says CJP - The Hindu",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNQ1p0OTVzcVo5dlNnZEwtd0JQWUVkN0lFY3dMOU9MWUJlZWFWaW1lRVhJNkVqQjgxbDk5T19Mb2tCODRQY2EwWV9UeVFZYWN5c2duWkR5NnJGY1VmTFVxajRTV1AwMzBSRWlVT3BoU2JsNkFpTXlaMXZHRVM3cjI5TjMxampHNHptMHNsRDNDSnFUQ2JCYnZCTC0td1FPWTBzcVhKdTA0bXdnQ0hnMlhDc0g5ODhRU3pPazlOUEg0ZXVNMThvbUptTUhLWmVCN0MzVVVyX2hmY3RIRzFXUFHSAeQBQVVfeXFMUHFnRW1KQ1dXLXoxd24ycmxtVW1xMkZoNERZSlRWaDNNUGM4Zl9BYkV5VHhacVlHRF9nODhFbXp4Mi1scUFWR2Rhdm9qQVZrc3BKbGdCNkNDcGFER1FoNjhCWTZEdHdubHFwYXlyRzFFbEs1NmdSamgwMmtkcWVwa0FQZTNzTVlPUWJKMzhORzNZUTVtV1ZHRW1LZnpVaFE5SXpaMnYzbnY4NGFlY0p4SUVxcnBOMzM3ek9LQmVGZW84Ui1pdXgwYU1zZjNZQVBmQzdVT1NrTkNTVE4yLXppSkp2OGVB?oc=5",
+      "date": "Fri, 04 Sep 2026 07:00:00 GMT",
       "terms": [
         "Jantar Mantar"
       ],
@@ -73,7 +61,7 @@
   "checked": [
     {
       "id": "delhi-hc-causelist",
-      "url": "https://delhihighcourt.nic.in/files/2026-11/cause-list/combined_cause_list_01.11.2026.pdf",
+      "url": "https://delhihighcourt.nic.in/files/2026-11/cause-list/combined_cause_list_02.11.2026.pdf",
       "status": 404,
       "outcome": "nothing-published"
     },
@@ -102,16 +90,16 @@
       "url": "https://www.barandbench.com/feed",
       "status": 200,
       "outcome": "ok",
-      "items": 2,
-      "matched": 0
+      "items": 38,
+      "matched": 1
     },
     {
       "id": "news-delhi",
       "url": "https://news.google.com/rss/search?q=%22Jantar+Mantar%22+(police+OR+court+OR+NHRC+OR+affidavit)&hl=en-IN&gl=IN&ceid=IN:en",
       "status": 200,
       "outcome": "ok",
-      "items": 62,
-      "matched": 3
+      "items": 61,
+      "matched": 1
     },
     {
       "id": "news-cases",
@@ -126,7 +114,7 @@
       "url": "https://news.google.com/rss/search?q=(%22facial+recognition%22+OR+%22Crime+Kundli%22)+(%22Delhi+Police%22+OR+protest)&hl=en-IN&gl=IN&ceid=IN:en",
       "status": 200,
       "outcome": "ok",
-      "items": 100,
+      "items": 50,
       "matched": 0
     },
     {
@@ -134,7 +122,7 @@
       "url": "https://news.google.com/rss/search?q=(Patna+OR+Katihar+OR+Munger)+(lathi+OR+police+action+OR+protest)+students&hl=en-IN&gl=IN&ceid=IN:en",
       "status": 200,
       "outcome": "ok",
-      "items": 57,
+      "items": 56,
       "matched": 0
     }
   ]

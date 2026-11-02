@@ -1,15 +1,15 @@
-Sweep 2026-11-01: 9 targets, 175 watch terms.
+Sweep 2026-11-02: 9 targets, 175 watch terms.
   nothing-published  delhi-hc-causelist
   matched            delhi-hc-judgments
   matched            nhrc-press
   unreachable        eparlib
-  ok                 barandbench  2 item(s), 0 matched
-  ok                 news-delhi  62 item(s), 3 matched
+  ok                 barandbench  38 item(s), 1 matched
+  ok                 news-delhi  61 item(s), 1 matched
   ok                 news-cases  46 item(s), 0 matched
-  ok                 news-frt  100 item(s), 0 matched
-  ok                 news-bihar  57 item(s), 0 matched
+  ok                 news-frt  50 item(s), 0 matched
+  ok                 news-bihar  56 item(s), 0 matched
 
-5 thing(s) to look at:
+4 thing(s) to look at:
 
 · [CHANGED_MATCH] Delhi High Court, latest judgments
   https://delhihighcourt.nic.in/web/judgement/fetch-data
@@ -19,18 +19,13 @@ Sweep 2026-11-01: 9 targets, 175 watch terms.
   https://eparlib.sansad.in/
   fetch failed
 
-· [NEW_ITEM] News: Jantar Mantar and the police action
-  ‘Out of Sight, Out of Mind’: Jantar Mantar and Democracy - Supreme Court Observer
-  https://news.google.com/rss/articles/CBMikAFBVV95cUxQS0pTOW9nZ052cGxBd1B6Y2E1VHNiZFVhOHFRa0pSNE1KUXhEUktkQ3MtZWdfOGRiMFlvMlktMnB6T2xmY0Z0OVIweFNWTTBtVnZLWGxTekZfWVFZdW00UmQ2TVM2eG11OWVLRmZ3LUNxazR0MzZGbDNIRVh2aC02TWVQMnFtUFJmR0FZT1Y5S0c?oc=5
-  matched: Jantar Mantar
+· [NEW_ITEM] Bar & Bench
+  CCCJFS at MNLU Nagpur organises National Conference on Reimagining the Organ Transplantation Regime in India
+  https://www.barandbench.com/Law-School/cccjfs-at-mnlu-nagpur-organises-national-conference-on-reimagining-the-organ-transplantation-regime-in-india
+  matched: Nagpur
 
 · [NEW_ITEM] News: Jantar Mantar and the police action
-  CEC row: CJP’s Saurav Das submits ‘intimation letter’ for October 10 Jantar Mantar protest, police takes ‘undertaking’ from organisers - The Hindu
-  https://news.google.com/rss/articles/CBMi2wFBVV95cUxOX1c0VUtIbUFnUmlCTWg4WjYxeWNmQTZoQVk1OURfWlZITG9FYjhuRF9Da3QxOGU3NmdzUE9YUWxKalZhdlVheWx2cGZTUGN1ZmoteXl1aU9nREdXTjhHQnU4aWppN0xkeGZxNktjTV8zVU1UNHd2Q2UxaUJEbVJvZ3lWZGxpX1QydUhNOEJ4bDFGVUF6VVJFUzJPcHdGdTJvaUtSSDR3RWM0ZkxaUWFBVEgzMWJsZF9UcFhneWp3dFU4bERxZmx4MVZWR2hnUENHaktJQ2had1ZjNzTSAeIBQVVfeXFMTS1vY21uNkt6Vmk1SXdNV2VSVC1GUHZHUk1QVWZmNjFPT3JTaXVIWDdfM244bE9kWUt4WjZHRjNLMXZvM2JmajR3UDNiTU8yN25IRlpQQ01CN3AwSmpQRVdTV3FrYmw3MGVWVGdfZVJ4VUZnaUNSUzl3b2dCcXI3TlRPVWI5aFlLRVoxSzJlT1AyWkc1YlVZWnhvRllyQzBmeGQxeTVyc2J1M2J5MjktT0tnZUFSMWJQeWJhemlIaTRDVkFEUjFqbFkzM3BDUDdkU0pETFpRQVI1cTlSZEwwZDhQdw?oc=5
-  matched: Jantar Mantar
-
-· [NEW_ITEM] News: Jantar Mantar and the police action
-  Jantar Mantar Protests : PIL In Supreme Court Seeks Proper Investigation Of Delhi Police FIRs - Live Law
-  https://news.google.com/rss/articles/CBMigAJBVV95cUxNc2J3ODNreDJ5N0d2TDlNamg2YWp6eVhWOWRyeExIelVhSkRxZS1JWTRvcmFqMm9zMkV4WHJ2cmtUNXVQeTJmUy1RUmhxeXFjVVVRV0M0UnlfTjd1RFJyaVBpM3k0Zk43c2VjbU9FRm9lZmJ3S2E3dVBSMXl4REVuZThfUWd1OVFRSVpqTHNxRkZDLU9KZXNOenhxVkw3NWlTVVVQMjhXMmVoaXl4SDI5SUFZZGZiM1p4US1jRHVLYVNpc0Z0Ym5UOGIyNVY1dUNvTEFZMFBNRDFWSFJ4U3VseXVXRkNyOEo3STFTRTFuUkxqd1JHcDVXeDNDUE1WMnJS?oc=5
+  Jantar Mantar assault row: Delhi police add attempt-to-murder, SC/ST charges; assure Swatantra Bhardwaj’s arrest within 72 hours, says CJP - The Hindu
+  https://news.google.com/rss/articles/CBMi3gFBVV95cUxNQ1p0OTVzcVo5dlNnZEwtd0JQWUVkN0lFY3dMOU9MWUJlZWFWaW1lRVhJNkVqQjgxbDk5T19Mb2tCODRQY2EwWV9UeVFZYWN5c2duWkR5NnJGY1VmTFVxajRTV1AwMzBSRWlVT3BoU2JsNkFpTXlaMXZHRVM3cjI5TjMxampHNHptMHNsRDNDSnFUQ2JCYnZCTC0td1FPWTBzcVhKdTA0bXdnQ0hnMlhDc0g5ODhRU3pPazlOUEg0ZXVNMThvbUptTUhLWmVCN0MzVVVyX2hmY3RIRzFXUFHSAeQBQVVfeXFMUHFnRW1KQ1dXLXoxd24ycmxtVW1xMkZoNERZSlRWaDNNUGM4Zl9BYkV5VHhacVlHRF9nODhFbXp4Mi1scUFWR2Rhdm9qQVZrc3BKbGdCNkNDcGFER1FoNjhCWTZEdHdubHFwYXlyRzFFbEs1NmdSamgwMmtkcWVwa0FQZTNzTVlPUWJKMzhORzNZUTVtV1ZHRW1LZnpVaFE5SXpaMnYzbnY4NGFlY0p4SUVxcnBOMzM3ek9LQmVGZW84Ui1pdXgwYU1zZjNZQVBmQzdVT1NrTkNTVE4yLXppSkp2OGVB?oc=5
   matched: Jantar Mantar
 
