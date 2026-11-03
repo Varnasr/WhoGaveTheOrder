@@ -1,12 +1,12 @@
 {
   "run": {
-    "date": "2026-11-02",
+    "date": "2026-11-03",
     "targets": 9,
-    "findings": 4,
+    "findings": 9,
     "outcomes": {
       "nothing-published": 1,
-      "matched": 2,
-      "unreachable": 1,
+      "matched": 1,
+      "unreachable": 2,
       "ok": 5
     }
   },
@@ -20,10 +20,18 @@
         "Civil Lines"
       ],
       "snippets": [
-        "d 182 W.P.(C) - 2157/2020 13 Oct 2026 POOJA JAIN AND ORS. DIRECTORATE OF EDUCATION OLD SECRETARIAT, CIVIL LINES AND ORS. Download 183 CRL.M.C. - 6216/2026 13 Oct 2026 VISHAL SHARMA &amp; ORS. THE STATE THROUGH SHO &amp; ANR. Download 184 ARB. A. (COMM.) - 31/2026 13 Oct"
+        "d 231 W.P.(C) - 2157/2020 13 Oct 2026 POOJA JAIN AND ORS. DIRECTORATE OF EDUCATION OLD SECRETARIAT, CIVIL LINES AND ORS. Download 232 W.P.(C) - 1101/2018 13 Oct 2026 HEMNANI PUBLIC SCHOOL IPSA GURNANI &amp; ANR Download 233 O.M.P.(I) (COMM.) - 370/2026 13 Oct 2026 SK ENM"
       ],
       "method": "html",
       "note": "Orders appear here before the case-status search, which is behind a captcha. An order in W.P.(CRL) 2127/2026 would close OQ-004."
+    },
+    {
+      "kind": "UNREACHABLE",
+      "target": "nhrc-press",
+      "label": "NHRC press releases",
+      "url": "https://nhrc.nic.in/media/press-release",
+      "detail": "HTTP 500",
+      "note": "Recorded rather than retried silently. If this persists the route needs replacing."
     },
     {
       "kind": "UNREACHABLE",
@@ -37,11 +45,11 @@
       "kind": "NEW_ITEM",
       "target": "barandbench",
       "label": "Bar & Bench",
-      "title": "CCCJFS at MNLU Nagpur organises National Conference on Reimagining the Organ Transplantation Regime in India",
-      "url": "https://www.barandbench.com/Law-School/cccjfs-at-mnlu-nagpur-organises-national-conference-on-reimagining-the-organ-transplantation-regime-in-india",
-      "date": "Mon, 02 Nov 2026 13:32:50 +0530",
+      "title": "Madhya Pradesh High Court quashes FIR against journalist over report on Ganesh Visarjan procession violence",
+      "url": "https://www.barandbench.com/news/madhya-pradesh-high-court-quashes-fir-against-journalist-over-report-on-ganesh-visarjan-procession-violence",
+      "date": "Tue, 03 Nov 2026 12:44:48 +0530",
       "terms": [
-        "Nagpur"
+        "Madhya Pradesh"
       ],
       "note": "Legal reporting carries hearings on the day they happen, usually before anything reaches a court website."
     },
@@ -49,9 +57,57 @@
       "kind": "NEW_ITEM",
       "target": "news-delhi",
       "label": "News: Jantar Mantar and the police action",
-      "title": "Jantar Mantar assault row: Delhi police add attempt-to-murder, SC/ST charges; assure Swatantra Bhardwaj’s arrest within 72 hours, says CJP - The Hindu",
-      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNQ1p0OTVzcVo5dlNnZEwtd0JQWUVkN0lFY3dMOU9MWUJlZWFWaW1lRVhJNkVqQjgxbDk5T19Mb2tCODRQY2EwWV9UeVFZYWN5c2duWkR5NnJGY1VmTFVxajRTV1AwMzBSRWlVT3BoU2JsNkFpTXlaMXZHRVM3cjI5TjMxampHNHptMHNsRDNDSnFUQ2JCYnZCTC0td1FPWTBzcVhKdTA0bXdnQ0hnMlhDc0g5ODhRU3pPazlOUEg0ZXVNMThvbUptTUhLWmVCN0MzVVVyX2hmY3RIRzFXUFHSAeQBQVVfeXFMUHFnRW1KQ1dXLXoxd24ycmxtVW1xMkZoNERZSlRWaDNNUGM4Zl9BYkV5VHhacVlHRF9nODhFbXp4Mi1scUFWR2Rhdm9qQVZrc3BKbGdCNkNDcGFER1FoNjhCWTZEdHdubHFwYXlyRzFFbEs1NmdSamgwMmtkcWVwa0FQZTNzTVlPUWJKMzhORzNZUTVtV1ZHRW1LZnpVaFE5SXpaMnYzbnY4NGFlY0p4SUVxcnBOMzM3ek9LQmVGZW84Ui1pdXgwYU1zZjNZQVBmQzdVT1NrTkNTVE4yLXppSkp2OGVB?oc=5",
-      "date": "Fri, 04 Sep 2026 07:00:00 GMT",
+      "title": "‘Out of Sight, Out of Mind’: Jantar Mantar and Democracy - Supreme Court Observer",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQdDhqZlFEcGZMeGd0Sk1WLXNjcWo0VUF0MmFTc3phdERhejMzc3p6eGtFZDRUeUJxSFJsNUdOMzllMlBaejI4ejhtZjZkSDR4eS1nRW8xSTFpUmRjZGtaUl9xNWc0SXZjNHNWWVgyVXNEMmtOYlltS05GTWhZdnphVHB4Y19VcGZqUXJxNHNfQkZzNVlIT2c?oc=5",
+      "date": "Sun, 01 Nov 2026 08:39:25 GMT",
+      "terms": [
+        "Jantar Mantar"
+      ],
+      "note": "Leads, not evidence. Something reported here is a pointer to a document worth going after."
+    },
+    {
+      "kind": "NEW_ITEM",
+      "target": "news-delhi",
+      "label": "News: Jantar Mantar and the police action",
+      "title": "Delhi Police register FIR against 22 protesters detained during rally towards Jantar Mantar - The Hindu",
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQRlpjZk1ZMmJ0Z212dUU4TnV1cFB0OUg0Sm4xMmxEYjR2THg5bEVoR2FTYjlEWlJsMVhzNzh5QlM0U0g3NE93a2FCQVVLcFNJbmxrRG40ZEUzYVU5NGlodGh4VENqdGVidjBNVjNHeDF4d2R4OGcwNDFpYUxoaFR1R1JfVXoyRE5KYS1DNE10amxvU1ZLT1FZLXRSNHZhRU9FNVQ2N1ZhZFJQRG5PR1V6eHpOTWpLRV83VG9pZk1oZXNXd2tkYmw5SkU2YjVzSTUzTXpITkpvczRudklnVENhc3B0T2ZFV2dna0HSAfABQVVfeXFMTk5VYkhqQURuNDA1V24xS2lsREpvWnhTNDdQY1hBVzZialFTWUk1ZVZxMGJTVmVGOURNZ3h1aGk4YVJabnFZRnBCTk1JM3ZtblJIMkFudjl0UU8yY09pV0NnNHhQQTBzTFRvQUkxQnItUTlwRUpWSC1ZT0R3T20waGdYN21RVWk1Q0ZjVnpWM25CaFVjeUtOOTNLNnNPOUExb25QREt0Q3pCVXk0Z1RjSEpNakxhSmx5Z1NmOV94NnRmcHVnMGVrbjlkUzh4Z3ZnV2RLTzNqdGY5STVkbFh5LTBzckRVQTZtU0h1WE5xbGlG?oc=5",
+      "date": "Mon, 02 Nov 2026 16:49:13 GMT",
+      "terms": [
+        "Jantar Mantar"
+      ],
+      "note": "Leads, not evidence. Something reported here is a pointer to a document worth going after."
+    },
+    {
+      "kind": "NEW_ITEM",
+      "target": "news-delhi",
+      "label": "News: Jantar Mantar and the police action",
+      "title": "Delhi police files FIR against 22 people from INDIA bloc rally who went near Jantar Mantar | India News - Hindustan Times",
+      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPUVNJWGJSeVkxQ25qRExkNm1BQWxoajZkUElkUUhBbTZuZFA2bjVubmRyWHI0RFZqeUVzZy00QTlPQzBHTEtvVjNaS0RDTUt3U0VGUk1mdldDRnVxMmRFM3gwa0xTOVlpUXJacXhhQVIyNlE1X2s3b1lXM1ZqaTZBdC11QmlXWTNKWWdMVE94LTEyWTBGSlFIajlzS2trRlFVT0N2bEVRRk51NVVqbWttS1hCVWxpWHB6cEJ3NWlqM25aT3YxeFU3M2NUNWkxTDBkVGZoZ3pIdTM4dXBuUUw1bk52dlp5MHRO0gHuAUFVX3lxTFA3T1JqRmhHWnBUNExPVGZ5NFJ0SUNMWkJMRWFfQ0ZzaDI3ZEIxX282U1Z2cDFMQVVpZlZJb0JMZ0tiUk54M1FkN2tpUUtTWUF1M1BaR3dVUXkyODhhR1RjakFIN09GdkJZT0xPX3kxdGgzOWxiWkZXQlBqTGdhWTFMTHdYa2t5NVJPT3hwbG1VLVIyVGJlTFNrX0lYbjRJb25zSDJXY0loaUFSeDVlbXNEMlR1b1BFWVBtSlB4ZVlIZ0FDa3BJUlg1YmpDV1lzbWxwaE1Ja29OQnExMnBNeHFURmtzMFFOX0hRU1JSc1E?oc=5",
+      "date": "Tue, 03 Nov 2026 07:58:15 GMT",
+      "terms": [
+        "Jantar Mantar"
+      ],
+      "note": "Leads, not evidence. Something reported here is a pointer to a document worth going after."
+    },
+    {
+      "kind": "NEW_ITEM",
+      "target": "news-delhi",
+      "label": "News: Jantar Mantar and the police action",
+      "title": "Watch | Jantar Mantar protest: Marchers allege Delhi police brutality after detention - The Federal",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNRGxFZ0twQlBsbGpEcWVqNW9HTDBGSldjVnZhVkY0YzNXLWo3LXVYM05qUlpJU2ZfV3B1TGJ2dmdFbkItLTBQaGhoTHowLVkzQktuRE1SWTg3UWVnWnpZX21DUTBQTTdKckc5TDNoQmRPZkh6OFY2eG1wZ29XLXlYMGp2ZjlQcXRkSmgxM1RZejRBMmo4Y01CY2ozYkNVWkx4eF9KQllYMi1oVmxxcHFCTm9oSHJ5SkpualVXQ1piU1ZqcHdaZU9xYmNDSHk3X3VrMWRtbklZYw?oc=5",
+      "date": "Tue, 03 Nov 2026 08:53:22 GMT",
+      "terms": [
+        "Jantar Mantar"
+      ],
+      "note": "Leads, not evidence. Something reported here is a pointer to a document worth going after."
+    },
+    {
+      "kind": "NEW_ITEM",
+      "target": "news-delhi",
+      "label": "News: Jantar Mantar and the police action",
+      "title": "'No site can be occupied indefinitely': Supreme Court on Jantar Mantar protest - Moneycontrol.com",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNU2JMS3VvOXpHV1ZWQ3czWE40eVFsbG56LXFldmJxQjZTQTBlcUNlRXlkXzNYazJzd0JPTG5lNlBGdDZ2ZFRPMjg4ZVV2QWl3MzRCVEZOQUNQalRuQTJPdlBYMTVQU2xIUkdtUEFmNHZZNFN1bTBPQUdieDIybnFoVW9VV3oyUnd2UWZyREw0Q3RSUG9FSC1uVEVGdWFndVplZkYtOWlMX1Vqc0Fma3pzeWlSQ09SYWFGdjBMZXhKb0ZyOFptQkhtTtIBzgFBVV95cUxORnVvOXJrOHZsbEFMLS1scnNfWEtHMXhJdXJKVklublNLTlRDYnZaRGt2NmNBcXBOSXpLc19Oc0h1bWhSd2NXZll3OFN3SlhlUWhlaU4zWGxvRkNCb2V0ZG9BVHZXeUgtT0liSkdhSXBzaWk5WXFBREpkSnYwUFBIcHBFMEUzcWZGdF9XSkdsSFFudTkxMDZaRFc1LUp2ejdsSzZqNXg0UDN2a0VsNlFwTmE1LWFXc1owRjZ6N3hFclBkR1l1QzdYV1lMemhmUQ?oc=5",
+      "date": "Tue, 03 Nov 2026 07:34:23 GMT",
       "terms": [
         "Jantar Mantar"
       ],
@@ -61,7 +117,7 @@
   "checked": [
     {
       "id": "delhi-hc-causelist",
-      "url": "https://delhihighcourt.nic.in/files/2026-11/cause-list/combined_cause_list_02.11.2026.pdf",
+      "url": "https://delhihighcourt.nic.in/files/2026-11/cause-list/combined_cause_list_03.11.2026.pdf",
       "status": 404,
       "outcome": "nothing-published"
     },
@@ -75,9 +131,8 @@
     {
       "id": "nhrc-press",
       "url": "https://nhrc.nic.in/media/press-release",
-      "status": 200,
-      "method": "html",
-      "outcome": "matched"
+      "status": 500,
+      "outcome": "unreachable"
     },
     {
       "id": "eparlib",
@@ -90,7 +145,7 @@
       "url": "https://www.barandbench.com/feed",
       "status": 200,
       "outcome": "ok",
-      "items": 38,
+      "items": 18,
       "matched": 1
     },
     {
@@ -98,15 +153,15 @@
       "url": "https://news.google.com/rss/search?q=%22Jantar+Mantar%22+(police+OR+court+OR+NHRC+OR+affidavit)&hl=en-IN&gl=IN&ceid=IN:en",
       "status": 200,
       "outcome": "ok",
-      "items": 61,
-      "matched": 1
+      "items": 66,
+      "matched": 5
     },
     {
       "id": "news-cases",
       "url": "https://news.google.com/rss/search?q=%22Shailendra+Mani+Tripathi%22+OR+%22Shakeel+Abbas%22+OR+%22280%2F2026%22&hl=en-IN&gl=IN&ceid=IN:en",
       "status": 200,
       "outcome": "ok",
-      "items": 46,
+      "items": 9,
       "matched": 0
     },
     {
@@ -114,7 +169,7 @@
       "url": "https://news.google.com/rss/search?q=(%22facial+recognition%22+OR+%22Crime+Kundli%22)+(%22Delhi+Police%22+OR+protest)&hl=en-IN&gl=IN&ceid=IN:en",
       "status": 200,
       "outcome": "ok",
-      "items": 50,
+      "items": 100,
       "matched": 0
     },
     {
@@ -122,7 +177,7 @@
       "url": "https://news.google.com/rss/search?q=(Patna+OR+Katihar+OR+Munger)+(lathi+OR+police+action+OR+protest)+students&hl=en-IN&gl=IN&ceid=IN:en",
       "status": 200,
       "outcome": "ok",
-      "items": 56,
+      "items": 100,
       "matched": 0
     }
   ]

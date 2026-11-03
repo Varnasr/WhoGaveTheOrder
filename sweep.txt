@@ -1,31 +1,55 @@
-Sweep 2026-11-02: 9 targets, 175 watch terms.
+Sweep 2026-11-03: 9 targets, 175 watch terms.
   nothing-published  delhi-hc-causelist
   matched            delhi-hc-judgments
-  matched            nhrc-press
+  unreachable        nhrc-press
   unreachable        eparlib
-  ok                 barandbench  38 item(s), 1 matched
-  ok                 news-delhi  61 item(s), 1 matched
-  ok                 news-cases  46 item(s), 0 matched
-  ok                 news-frt  50 item(s), 0 matched
-  ok                 news-bihar  56 item(s), 0 matched
+  ok                 barandbench  18 item(s), 1 matched
+  ok                 news-delhi  66 item(s), 5 matched
+  ok                 news-cases  9 item(s), 0 matched
+  ok                 news-frt  100 item(s), 0 matched
+  ok                 news-bihar  100 item(s), 0 matched
 
-4 thing(s) to look at:
+9 thing(s) to look at:
 
 · [CHANGED_MATCH] Delhi High Court, latest judgments
   https://delhihighcourt.nic.in/web/judgement/fetch-data
   matched: Civil Lines
+
+· [UNREACHABLE] NHRC press releases
+  https://nhrc.nic.in/media/press-release
+  HTTP 500
 
 · [UNREACHABLE] Parliamentary library
   https://eparlib.sansad.in/
   fetch failed
 
 · [NEW_ITEM] Bar & Bench
-  CCCJFS at MNLU Nagpur organises National Conference on Reimagining the Organ Transplantation Regime in India
-  https://www.barandbench.com/Law-School/cccjfs-at-mnlu-nagpur-organises-national-conference-on-reimagining-the-organ-transplantation-regime-in-india
-  matched: Nagpur
+  Madhya Pradesh High Court quashes FIR against journalist over report on Ganesh Visarjan procession violence
+  https://www.barandbench.com/news/madhya-pradesh-high-court-quashes-fir-against-journalist-over-report-on-ganesh-visarjan-procession-violence
+  matched: Madhya Pradesh
 
 · [NEW_ITEM] News: Jantar Mantar and the police action
-  Jantar Mantar assault row: Delhi police add attempt-to-murder, SC/ST charges; assure Swatantra Bhardwaj’s arrest within 72 hours, says CJP - The Hindu
-  https://news.google.com/rss/articles/CBMi3gFBVV95cUxNQ1p0OTVzcVo5dlNnZEwtd0JQWUVkN0lFY3dMOU9MWUJlZWFWaW1lRVhJNkVqQjgxbDk5T19Mb2tCODRQY2EwWV9UeVFZYWN5c2duWkR5NnJGY1VmTFVxajRTV1AwMzBSRWlVT3BoU2JsNkFpTXlaMXZHRVM3cjI5TjMxampHNHptMHNsRDNDSnFUQ2JCYnZCTC0td1FPWTBzcVhKdTA0bXdnQ0hnMlhDc0g5ODhRU3pPazlOUEg0ZXVNMThvbUptTUhLWmVCN0MzVVVyX2hmY3RIRzFXUFHSAeQBQVVfeXFMUHFnRW1KQ1dXLXoxd24ycmxtVW1xMkZoNERZSlRWaDNNUGM4Zl9BYkV5VHhacVlHRF9nODhFbXp4Mi1scUFWR2Rhdm9qQVZrc3BKbGdCNkNDcGFER1FoNjhCWTZEdHdubHFwYXlyRzFFbEs1NmdSamgwMmtkcWVwa0FQZTNzTVlPUWJKMzhORzNZUTVtV1ZHRW1LZnpVaFE5SXpaMnYzbnY4NGFlY0p4SUVxcnBOMzM3ek9LQmVGZW84Ui1pdXgwYU1zZjNZQVBmQzdVT1NrTkNTVE4yLXppSkp2OGVB?oc=5
+  ‘Out of Sight, Out of Mind’: Jantar Mantar and Democracy - Supreme Court Observer
+  https://news.google.com/rss/articles/CBMilgFBVV95cUxQdDhqZlFEcGZMeGd0Sk1WLXNjcWo0VUF0MmFTc3phdERhejMzc3p6eGtFZDRUeUJxSFJsNUdOMzllMlBaejI4ejhtZjZkSDR4eS1nRW8xSTFpUmRjZGtaUl9xNWc0SXZjNHNWWVgyVXNEMmtOYlltS05GTWhZdnphVHB4Y19VcGZqUXJxNHNfQkZzNVlIT2c?oc=5
+  matched: Jantar Mantar
+
+· [NEW_ITEM] News: Jantar Mantar and the police action
+  Delhi Police register FIR against 22 protesters detained during rally towards Jantar Mantar - The Hindu
+  https://news.google.com/rss/articles/CBMi6gFBVV95cUxQRlpjZk1ZMmJ0Z212dUU4TnV1cFB0OUg0Sm4xMmxEYjR2THg5bEVoR2FTYjlEWlJsMVhzNzh5QlM0U0g3NE93a2FCQVVLcFNJbmxrRG40ZEUzYVU5NGlodGh4VENqdGVidjBNVjNHeDF4d2R4OGcwNDFpYUxoaFR1R1JfVXoyRE5KYS1DNE10amxvU1ZLT1FZLXRSNHZhRU9FNVQ2N1ZhZFJQRG5PR1V6eHpOTWpLRV83VG9pZk1oZXNXd2tkYmw5SkU2YjVzSTUzTXpITkpvczRudklnVENhc3B0T2ZFV2dna0HSAfABQVVfeXFMTk5VYkhqQURuNDA1V24xS2lsREpvWnhTNDdQY1hBVzZialFTWUk1ZVZxMGJTVmVGOURNZ3h1aGk4YVJabnFZRnBCTk1JM3ZtblJIMkFudjl0UU8yY09pV0NnNHhQQTBzTFRvQUkxQnItUTlwRUpWSC1ZT0R3T20waGdYN21RVWk1Q0ZjVnpWM25CaFVjeUtOOTNLNnNPOUExb25QREt0Q3pCVXk0Z1RjSEpNakxhSmx5Z1NmOV94NnRmcHVnMGVrbjlkUzh4Z3ZnV2RLTzNqdGY5STVkbFh5LTBzckRVQTZtU0h1WE5xbGlG?oc=5
+  matched: Jantar Mantar
+
+· [NEW_ITEM] News: Jantar Mantar and the police action
+  Delhi police files FIR against 22 people from INDIA bloc rally who went near Jantar Mantar | India News - Hindustan Times
+  https://news.google.com/rss/articles/CBMi6AFBVV95cUxPUVNJWGJSeVkxQ25qRExkNm1BQWxoajZkUElkUUhBbTZuZFA2bjVubmRyWHI0RFZqeUVzZy00QTlPQzBHTEtvVjNaS0RDTUt3U0VGUk1mdldDRnVxMmRFM3gwa0xTOVlpUXJacXhhQVIyNlE1X2s3b1lXM1ZqaTZBdC11QmlXWTNKWWdMVE94LTEyWTBGSlFIajlzS2trRlFVT0N2bEVRRk51NVVqbWttS1hCVWxpWHB6cEJ3NWlqM25aT3YxeFU3M2NUNWkxTDBkVGZoZ3pIdTM4dXBuUUw1bk52dlp5MHRO0gHuAUFVX3lxTFA3T1JqRmhHWnBUNExPVGZ5NFJ0SUNMWkJMRWFfQ0ZzaDI3ZEIxX282U1Z2cDFMQVVpZlZJb0JMZ0tiUk54M1FkN2tpUUtTWUF1M1BaR3dVUXkyODhhR1RjakFIN09GdkJZT0xPX3kxdGgzOWxiWkZXQlBqTGdhWTFMTHdYa2t5NVJPT3hwbG1VLVIyVGJlTFNrX0lYbjRJb25zSDJXY0loaUFSeDVlbXNEMlR1b1BFWVBtSlB4ZVlIZ0FDa3BJUlg1YmpDV1lzbWxwaE1Ja29OQnExMnBNeHFURmtzMFFOX0hRU1JSc1E?oc=5
+  matched: Jantar Mantar
+
+· [NEW_ITEM] News: Jantar Mantar and the police action
+  Watch | Jantar Mantar protest: Marchers allege Delhi police brutality after detention - The Federal
+  https://news.google.com/rss/articles/CBMi1wFBVV95cUxNRGxFZ0twQlBsbGpEcWVqNW9HTDBGSldjVnZhVkY0YzNXLWo3LXVYM05qUlpJU2ZfV3B1TGJ2dmdFbkItLTBQaGhoTHowLVkzQktuRE1SWTg3UWVnWnpZX21DUTBQTTdKckc5TDNoQmRPZkh6OFY2eG1wZ29XLXlYMGp2ZjlQcXRkSmgxM1RZejRBMmo4Y01CY2ozYkNVWkx4eF9KQllYMi1oVmxxcHFCTm9oSHJ5SkpualVXQ1piU1ZqcHdaZU9xYmNDSHk3X3VrMWRtbklZYw?oc=5
+  matched: Jantar Mantar
+
+· [NEW_ITEM] News: Jantar Mantar and the police action
+  'No site can be occupied indefinitely': Supreme Court on Jantar Mantar protest - Moneycontrol.com
+  https://news.google.com/rss/articles/CBMiyAFBVV95cUxNU2JMS3VvOXpHV1ZWQ3czWE40eVFsbG56LXFldmJxQjZTQTBlcUNlRXlkXzNYazJzd0JPTG5lNlBGdDZ2ZFRPMjg4ZVV2QWl3MzRCVEZOQUNQalRuQTJPdlBYMTVQU2xIUkdtUEFmNHZZNFN1bTBPQUdieDIybnFoVW9VV3oyUnd2UWZyREw0Q3RSUG9FSC1uVEVGdWFndVplZkYtOWlMX1Vqc0Fma3pzeWlSQ09SYWFGdjBMZXhKb0ZyOFptQkhtTtIBzgFBVV95cUxORnVvOXJrOHZsbEFMLS1scnNfWEtHMXhJdXJKVklublNLTlRDYnZaRGt2NmNBcXBOSXpLc19Oc0h1bWhSd2NXZll3OFN3SlhlUWhlaU4zWGxvRkNCb2V0ZG9BVHZXeUgtT0liSkdhSXBzaWk5WXFBREpkSnYwUFBIcHBFMEUzcWZGdF9XSkdsSFFudTkxMDZaRFc1LUp2ejdsSzZqNXg0UDN2a0VsNlFwTmE1LWFXc1owRjZ6N3hFclBkR1l1QzdYV1lMemhmUQ?oc=5
   matched: Jantar Mantar
 
