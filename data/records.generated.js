@@ -1880,8 +1880,8 @@ WGO.importedSources = [
     "kind": "PRIMARY",
     "url": "https://nhrc.nic.in/media/press-release/nhrc-deputes-a-fact-finding-team-to-know-whether-incidents-in-jamia-millia-islamia-involved-violation-human-rights-20-12-2019",
     "retrievedOn": "2026-10-10",
-    "archiveUrl": null,
-    "archivedOn": null,
+    "archiveUrl": "http://web.archive.org/web/20261101092918/https://nhrc.nic.in/media/press-release/nhrc-deputes-a-fact-finding-team-to-know-whether-incidents-in-jamia-millia-islamia-involved-violation-human-rights-20-12-2019",
+    "archivedOn": "2026-11-03",
     "sha256": "0e34bdf60e1b4773fea49efee7c7b1ef78f46e39cae69b3db2e797d46318ef51",
     "originatesFrom": null
   },
@@ -2089,8 +2089,8 @@ WGO.importedSources = [
     "kind": "SECONDARY",
     "url": "https://www.tribuneindia.com/news/jnu-violence-case-transferred-to-dp-crime-branch-registrar-pro-vc-meet-l-g-22291",
     "retrievedOn": "2026-10-10",
-    "archiveUrl": null,
-    "archivedOn": null,
+    "archiveUrl": "https://web.archive.org/web/20261103094738/https://www.tribuneindia.com/news/jnu-violence-case-transferred-to-dp-crime-branch-registrar-pro-vc-meet-l-g-22291",
+    "archivedOn": "2026-11-03",
     "sha256": null,
     "originatesFrom": "Home Ministry official quoted 6 January 2020"
   },
@@ -2155,8 +2155,8 @@ WGO.importedSources = [
     "kind": "SECONDARY",
     "url": "https://sabrangindia.in/jnu-violence-delhi-police-probes-negligence-accusations-gives-itself-clean-chit",
     "retrievedOn": "2026-10-10",
-    "archiveUrl": null,
-    "archivedOn": null,
+    "archiveUrl": "http://web.archive.org/web/20260307122204/https://sabrangindia.in/jnu-violence-delhi-police-probes-negligence-accusations-gives-itself-clean-chit/",
+    "archivedOn": "2026-11-03",
     "sha256": null,
     "originatesFrom": "The Indian Express report on the committee's findings, cited by SabrangIndia on 19 November 2020"
   },
@@ -2166,8 +2166,8 @@ WGO.importedSources = [
     "kind": "SECONDARY",
     "url": "https://thelogicalindian.com/delhi-police-jnu-attack-24935/",
     "retrievedOn": "2026-10-10",
-    "archiveUrl": null,
-    "archivedOn": null,
+    "archiveUrl": "http://web.archive.org/web/20260210050946/https://thelogicalindian.com/delhi-police-jnu-attack-24935/",
+    "archivedOn": "2026-11-03",
     "sha256": null,
     "originatesFrom": "The Indian Express report on the committee's findings, cited on 19 November 2020"
   },

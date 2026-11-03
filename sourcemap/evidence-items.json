@@ -6791,7 +6791,9 @@
         "url": "https://nhrc.nic.in/media/press-release/nhrc-deputes-a-fact-finding-team-to-know-whether-incidents-in-jamia-millia-islamia-involved-violation-human-rights-20-12-2019",
         "source_type": "primary",
         "publication": "National Human Rights Commission press release, 20 December 2019",
-        "retrieved_on": "2026-10-10"
+        "retrieved_on": "2026-10-10",
+        "archive_url": "http://web.archive.org/web/20261101092918/https://nhrc.nic.in/media/press-release/nhrc-deputes-a-fact-finding-team-to-know-whether-incidents-in-jamia-millia-islamia-involved-violation-human-rights-20-12-2019",
+        "archived_on": "2026-11-03"
       },
       {
         "url": "https://www.verdictum.in/pdf_upload/2026/10/06/74905102026cw134682019155525watermark-1785722.pdf",
@@ -7099,7 +7101,9 @@
         "url": "https://nhrc.nic.in/media/press-release/nhrc-deputes-a-fact-finding-team-to-know-whether-incidents-in-jamia-millia-islamia-involved-violation-human-rights-20-12-2019",
         "source_type": "primary",
         "publication": "National Human Rights Commission press release, 20 December 2019",
-        "retrieved_on": "2026-10-10"
+        "retrieved_on": "2026-10-10",
+        "archive_url": "http://web.archive.org/web/20261101092918/https://nhrc.nic.in/media/press-release/nhrc-deputes-a-fact-finding-team-to-know-whether-incidents-in-jamia-millia-islamia-involved-violation-human-rights-20-12-2019",
+        "archived_on": "2026-11-03"
       },
       {
         "url": "https://www.verdictum.in/pdf_upload/2026/10/06/74905102026cw134682019155525watermark-1785722.pdf",
@@ -7683,7 +7687,9 @@
         "url": "https://www.tribuneindia.com/news/jnu-violence-case-transferred-to-dp-crime-branch-registrar-pro-vc-meet-l-g-22291",
         "source_type": "secondary",
         "publication": "The Tribune",
-        "retrieved_on": "2026-10-10"
+        "retrieved_on": "2026-10-10",
+        "archive_url": "https://web.archive.org/web/20261103094738/https://www.tribuneindia.com/news/jnu-violence-case-transferred-to-dp-crime-branch-registrar-pro-vc-meet-l-g-22291",
+        "archived_on": "2026-11-03"
       }
     ],
     "notes": "Occurrence corroborated. Duration differs by source (nearly two hours in the Tribune report of 6 January 2020, three hours in NDTV's). No finding on who the attackers were; attributions in the press are allegations by students, the ABVP and others and are not recorded here.",
@@ -7778,14 +7784,18 @@
         "source_type": "secondary",
         "publication": "SabrangIndia",
         "retrieved_on": "2026-10-10",
-        "originates_from": "The Indian Express report on the committee's findings, cited by SabrangIndia on 19 November 2020"
+        "originates_from": "The Indian Express report on the committee's findings, cited by SabrangIndia on 19 November 2020",
+        "archive_url": "http://web.archive.org/web/20260307122204/https://sabrangindia.in/jnu-violence-delhi-police-probes-negligence-accusations-gives-itself-clean-chit/",
+        "archived_on": "2026-11-03"
       },
       {
         "url": "https://thelogicalindian.com/delhi-police-jnu-attack-24935/",
         "source_type": "secondary",
         "publication": "The Logical Indian",
         "retrieved_on": "2026-10-10",
-        "originates_from": "The Indian Express report on the committee's findings, cited on 19 November 2020"
+        "originates_from": "The Indian Express report on the committee's findings, cited on 19 November 2020",
+        "archive_url": "http://web.archive.org/web/20260210050946/https://thelogicalindian.com/delhi-police-jnu-attack-24935/",
+        "archived_on": "2026-11-03"
       }
     ],
     "notes": "One origin (the Indian Express, which the archive has not retrieved), relayed by two outlets, so REPORTED and not CORROBORATED. Named officials appear because the relayed report names them as witnesses to the committee. The report itself is not public so far as the archive knows. File an RTI for it. The committee was a self-review by the force and its clean chit is an internal finding.",
@@ -7923,7 +7933,9 @@
         "source_type": "secondary",
         "publication": "The Tribune",
         "retrieved_on": "2026-10-10",
-        "originates_from": "Home Ministry official quoted 6 January 2020"
+        "originates_from": "Home Ministry official quoted 6 January 2020",
+        "archive_url": "https://web.archive.org/web/20261103094738/https://www.tribuneindia.com/news/jnu-violence-case-transferred-to-dp-crime-branch-registrar-pro-vc-meet-l-g-22291",
+        "archived_on": "2026-11-03"
       },
       {
         "url": "https://timesofindia.indiatimes.com/india/goons-ran-riot-as-cops-awaited-jnu-nod/articleshow/73130234.cms",
@@ -8107,7 +8119,9 @@
         "source_type": "secondary",
         "publication": "SabrangIndia",
         "retrieved_on": "2026-10-10",
-        "originates_from": "The Indian Express, November 2020"
+        "originates_from": "The Indian Express, November 2020",
+        "archive_url": "http://web.archive.org/web/20260307122204/https://sabrangindia.in/jnu-violence-delhi-police-probes-negligence-accusations-gives-itself-clean-chit/",
+        "archived_on": "2026-11-03"
       }
     ],
     "notes": "Formation is reported by the Tribune; the clean chit is one Indian Express origin. The committee is internal to the force. The Commonwealth Human Rights Initiative argued such inquiries lack legitimacy for this task and called for a judicial inquiry (HIST-JNU20-019).",
@@ -8182,7 +8196,9 @@
         "source_type": "secondary",
         "publication": "SabrangIndia",
         "retrieved_on": "2026-10-10",
-        "originates_from": "Indian Express report of the Delhi Police committee"
+        "originates_from": "Indian Express report of the Delhi Police committee",
+        "archive_url": "http://web.archive.org/web/20260307122204/https://sabrangindia.in/jnu-violence-delhi-police-probes-negligence-accusations-gives-itself-clean-chit/",
+        "archived_on": "2026-11-03"
       },
       {
         "url": "https://timesofindia.indiatimes.com/india/goons-ran-riot-as-cops-awaited-jnu-nod/articleshow/73130234.cms",
@@ -8216,7 +8232,9 @@
         "url": "https://sabrangindia.in/jnu-violence-delhi-police-probes-negligence-accusations-gives-itself-clean-chit",
         "source_type": "secondary",
         "publication": "SabrangIndia",
-        "retrieved_on": "2026-10-10"
+        "retrieved_on": "2026-10-10",
+        "archive_url": "http://web.archive.org/web/20260307122204/https://sabrangindia.in/jnu-violence-delhi-police-probes-negligence-accusations-gives-itself-clean-chit/",
+        "archived_on": "2026-11-03"
       },
       {
         "url": "https://www.nationalheraldindia.com/amp/story/india/no-inciting-slogans-violence-at-jnu-gate-on-january-5-govt",
@@ -24801,7 +24819,9 @@
         "source_type": "primary",
         "publication": "NHRC press release 20 December 2019",
         "retrieved_on": "2026-10-10",
-        "sha256": "0e34bdf60e1b4773fea49efee7c7b1ef78f46e39cae69b3db2e797d46318ef51"
+        "sha256": "0e34bdf60e1b4773fea49efee7c7b1ef78f46e39cae69b3db2e797d46318ef51",
+        "archive_url": "http://web.archive.org/web/20261101092918/https://nhrc.nic.in/media/press-release/nhrc-deputes-a-fact-finding-team-to-know-whether-incidents-in-jamia-millia-islamia-involved-violation-human-rights-20-12-2019",
+        "archived_on": "2026-11-03"
       }
     ],
     "notes": "Fills the case number HIST-JMI-013 and HIST-JMI-022 said was missing. The NHRC spot-enquiry page prints the visit as '14-Jan-2019 - 17-Jan-2019' which is an evident typo for 2020 (the February 2020 newsletter gives 14.01.2020 to 17.01.2020 and 22.01.2020 to 24.01.2020). The page entry is recorded as printed. Complaint 14926/IN/2019 is the HRD complaint and is a different number from the case number.",
