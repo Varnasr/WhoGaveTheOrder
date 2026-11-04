@@ -2100,8 +2100,8 @@ WGO.importedSources = [
     "kind": "SECONDARY",
     "url": "https://www.etvbharat.com/amp/english/bharat/bharat-news/jnu-forms-panel-to-probe-jan-5-violence-on-campus-vc/na20200109143830667",
     "retrievedOn": "2026-10-10",
-    "archiveUrl": null,
-    "archivedOn": null,
+    "archiveUrl": "http://web.archive.org/web/20261103094858/https://www.etvbharat.com/amp/english/bharat/bharat-news/jnu-forms-panel-to-probe-jan-5-violence-on-campus-vc/na20200109143830667",
+    "archivedOn": "2026-11-04",
     "sha256": null,
     "originatesFrom": null
   },
@@ -2199,8 +2199,8 @@ WGO.importedSources = [
     "kind": "SECONDARY",
     "url": "https://sabrangindia.in/congs-fact-finding-report-questions-role-jnu-admin-right-wing-groups/",
     "retrievedOn": "2026-10-10",
-    "archiveUrl": null,
-    "archivedOn": null,
+    "archiveUrl": "http://web.archive.org/web/20250815091323/https://sabrangindia.in/congs-fact-finding-report-questions-role-jnu-admin-right-wing-groups/",
+    "archivedOn": "2026-11-04",
     "sha256": null,
     "originatesFrom": "Congress fact-finding committee report (Sushmita Dev, Syed Nasir Hussain, Hibi Eden, Amrita Dhawan), 13 January 2020; the VC press release itself was not retrieved"
   },
@@ -2221,8 +2221,8 @@ WGO.importedSources = [
     "kind": "SECONDARY",
     "url": "https://www.livelaw.in/news-updates/patiala-house-court-allows-early-hearing-of-plea-seeking-investigation-into-jnu-violence-156295",
     "retrievedOn": "2026-10-10",
-    "archiveUrl": null,
-    "archivedOn": null,
+    "archiveUrl": "http://web.archive.org/web/20260210113909/https://www.livelaw.in/news-updates/patiala-house-court-allows-early-hearing-of-plea-seeking-investigation-into-jnu-violence-156295",
+    "archivedOn": "2026-11-04",
     "sha256": null,
     "originatesFrom": "Order of Duty Metropolitan Magistrate Vipul Sandwar, Patiala House Courts, reported 6 May 2020"
   },
@@ -2232,8 +2232,8 @@ WGO.importedSources = [
     "kind": "SECONDARY",
     "url": "https://www.nationalheraldindia.com/amp/story/india/jnu-violence-delhi-court-calls-for-status-report-from-police-on-action-taken-on-fir",
     "retrievedOn": "2026-10-10",
-    "archiveUrl": null,
-    "archivedOn": null,
+    "archiveUrl": "http://web.archive.org/web/20200520230329/https://www.nationalheraldindia.com/amp/story/india%2Fjnu-violence-delhi-court-calls-for-status-report-from-police-on-action-taken-on-fir",
+    "archivedOn": "2026-11-04",
     "sha256": null,
     "originatesFrom": "Same order, reported by National Herald"
   },

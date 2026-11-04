@@ -5,6 +5,72 @@ window.WGO = window.WGO || {};
 
 WGO.changes = [
   {
+    "commit": "cd19563fb8",
+    "date": "2026-11-03T09:51:23Z",
+    "subject": "Sweep log and archived copies for 2026-11-03 [skip ci]",
+    "added": [],
+    "removed": [],
+    "changed": [
+      {
+        "id": "SRC-0198",
+        "kind": "Source",
+        "title": "National Human Rights Commission press release, 20 December 2019",
+        "state": null,
+        "url": "https://nhrc.nic.in/media/press-release/nhrc-deputes-a-fact-finding-team-to-know-whether-incidents-in-jamia-millia-islamia-involved-violation-human-rights-20-12-2019",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20261101092918/https://nhrc.nic.in/media/press-release/nhrc-deputes-a-fact-finding-team-to-know-whether-incidents-in-jamia-millia-islamia-involved-violation-human-rights-20-12-2019"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0217",
+        "kind": "Source",
+        "title": "The Tribune",
+        "state": null,
+        "url": "https://www.tribuneindia.com/news/jnu-violence-case-transferred-to-dp-crime-branch-registrar-pro-vc-meet-l-g-22291",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "https://web.archive.org/web/20261103094738/https://www.tribuneindia.com/news/jnu-violence-case-transferred-to-dp-crime-branch-registrar-pro-vc-meet-l-g-22291"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0223",
+        "kind": "Source",
+        "title": "SabrangIndia",
+        "state": null,
+        "url": "https://sabrangindia.in/jnu-violence-delhi-police-probes-negligence-accusations-gives-itself-clean-chit",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20260307122204/https://sabrangindia.in/jnu-violence-delhi-police-probes-negligence-accusations-gives-itself-clean-chit/"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0224",
+        "kind": "Source",
+        "title": "The Logical Indian",
+        "state": null,
+        "url": "https://thelogicalindian.com/delhi-police-jnu-attack-24935/",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20260210050946/https://thelogicalindian.com/delhi-police-jnu-attack-24935/"
+          }
+        ]
+      }
+    ],
+    "summary": "4 records edited"
+  },
+  {
     "commit": "b85b96f5f2",
     "date": "2026-11-01T09:31:43Z",
     "subject": "Sweep log and archived copies for 2026-11-01 [skip ci]",

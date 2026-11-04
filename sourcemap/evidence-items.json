@@ -7715,7 +7715,9 @@
         "url": "https://www.etvbharat.com/amp/english/bharat/bharat-news/jnu-forms-panel-to-probe-jan-5-violence-on-campus-vc/na20200109143830667",
         "source_type": "secondary",
         "publication": "ETV Bharat",
-        "retrieved_on": "2026-10-10"
+        "retrieved_on": "2026-10-10",
+        "archive_url": "http://web.archive.org/web/20261103094858/https://www.etvbharat.com/amp/english/bharat/bharat-news/jnu-forms-panel-to-probe-jan-5-violence-on-campus-vc/na20200109143830667",
+        "archived_on": "2026-11-04"
       },
       {
         "url": "https://www.aljazeera.com/news/2020/1/7/jnu-attack-india-police-file-case-against-injured-student-leader",
@@ -7847,7 +7849,9 @@
         "source_type": "secondary",
         "publication": "SabrangIndia",
         "retrieved_on": "2026-10-10",
-        "originates_from": "Congress fact-finding committee report (Sushmita Dev, Syed Nasir Hussain, Hibi Eden, Amrita Dhawan), 13 January 2020; the VC press release itself was not retrieved"
+        "originates_from": "Congress fact-finding committee report (Sushmita Dev, Syed Nasir Hussain, Hibi Eden, Amrita Dhawan), 13 January 2020; the VC press release itself was not retrieved",
+        "archive_url": "http://web.archive.org/web/20250815091323/https://sabrangindia.in/congs-fact-finding-report-questions-role-jnu-admin-right-wing-groups/",
+        "archived_on": "2026-11-04"
       }
     ],
     "notes": "Both versions kept, with no attempt to choose. Times: police 7 pm at admin block or gates, 7.45 pm written permission; National Herald: about 9 pm entry; VC: called at about 4.30 pm. The Congress report is a party document and its characterisation of the Vice-Chancellor is its own allegation. Neither the VC press release nor the registrar's letter was seen. Documents that would settle it: the registrar's letter, the VC's WhatsApp message, the PCR log, the control-room and GD entries for Vasant Kunj (North).",
@@ -7969,14 +7973,18 @@
         "source_type": "secondary",
         "publication": "LiveLaw",
         "retrieved_on": "2026-10-10",
-        "originates_from": "Order of Duty Metropolitan Magistrate Vipul Sandwar, Patiala House Courts, reported 6 May 2020"
+        "originates_from": "Order of Duty Metropolitan Magistrate Vipul Sandwar, Patiala House Courts, reported 6 May 2020",
+        "archive_url": "http://web.archive.org/web/20260210113909/https://www.livelaw.in/news-updates/patiala-house-court-allows-early-hearing-of-plea-seeking-investigation-into-jnu-violence-156295",
+        "archived_on": "2026-11-04"
       },
       {
         "url": "https://www.nationalheraldindia.com/amp/story/india/jnu-violence-delhi-court-calls-for-status-report-from-police-on-action-taken-on-fir",
         "source_type": "secondary",
         "publication": "National Herald",
         "retrieved_on": "2026-10-10",
-        "originates_from": "Same order, reported by National Herald"
+        "originates_from": "Same order, reported by National Herald",
+        "archive_url": "http://web.archive.org/web/20200520230329/https://www.nationalheraldindia.com/amp/story/india%2Fjnu-violence-delhi-court-calls-for-status-report-from-police-on-action-taken-on-fir",
+        "archived_on": "2026-11-04"
       }
     ],
     "notes": "Two outlets on one order. The order date is not given in either; LiveLaw published on 6 May 2020. The statute named 'DPDP Act' is quoted as the outlets wrote it and is presumably the Prevention of Damage to Public Property Act, which neither says; do not expand it without the order. National Herald's separate report says a magistrate sought an action taken report on 3 February 2020, returnable 25 March 2020 (Metropolitan Magistrate Ankita Lal, per that article). Two orders are therefore reported, and the archive has seen neither.",
@@ -8093,7 +8101,9 @@
         "url": "https://www.etvbharat.com/amp/english/bharat/bharat-news/jnu-forms-panel-to-probe-jan-5-violence-on-campus-vc/na20200109143830667",
         "source_type": "secondary",
         "publication": "ETV Bharat",
-        "retrieved_on": "2026-10-10"
+        "retrieved_on": "2026-10-10",
+        "archive_url": "http://web.archive.org/web/20261103094858/https://www.etvbharat.com/amp/english/bharat/bharat-news/jnu-forms-panel-to-probe-jan-5-violence-on-campus-vc/na20200109143830667",
+        "archived_on": "2026-11-04"
       }
     ],
     "notes": "Single source, 9 January 2020. A Deccan Herald item listed in search results said the probe was delayed by COVID-19, but that page returned HTTP 403 and was not read, so no delay is recorded. Findings of this committee: not found.",
@@ -8140,7 +8150,9 @@
         "source_type": "secondary",
         "publication": "SabrangIndia",
         "retrieved_on": "2026-10-10",
-        "originates_from": "Congress fact-finding committee report"
+        "originates_from": "Congress fact-finding committee report",
+        "archive_url": "http://web.archive.org/web/20250815091323/https://sabrangindia.in/congs-fact-finding-report-questions-role-jnu-admin-right-wing-groups/",
+        "archived_on": "2026-11-04"
       }
     ],
     "notes": "This is an allegation by a political party's committee. The archive makes no finding on it. The Vice-Chancellor's reply to the specific allegation was not found.",
