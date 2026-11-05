@@ -5,6 +5,72 @@ window.WGO = window.WGO || {};
 
 WGO.changes = [
   {
+    "commit": "e22547c026",
+    "date": "2026-11-04T09:37:38Z",
+    "subject": "Sweep log and archived copies for 2026-11-04 [skip ci]",
+    "added": [],
+    "removed": [],
+    "changed": [
+      {
+        "id": "SRC-0218",
+        "kind": "Source",
+        "title": "ETV Bharat",
+        "state": null,
+        "url": "https://www.etvbharat.com/amp/english/bharat/bharat-news/jnu-forms-panel-to-probe-jan-5-violence-on-campus-vc/na20200109143830667",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20261103094858/https://www.etvbharat.com/amp/english/bharat/bharat-news/jnu-forms-panel-to-probe-jan-5-violence-on-campus-vc/na20200109143830667"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0227",
+        "kind": "Source",
+        "title": "SabrangIndia",
+        "state": null,
+        "url": "https://sabrangindia.in/congs-fact-finding-report-questions-role-jnu-admin-right-wing-groups/",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20250815091323/https://sabrangindia.in/congs-fact-finding-report-questions-role-jnu-admin-right-wing-groups/"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0229",
+        "kind": "Source",
+        "title": "LiveLaw",
+        "state": null,
+        "url": "https://www.livelaw.in/news-updates/patiala-house-court-allows-early-hearing-of-plea-seeking-investigation-into-jnu-violence-156295",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20260210113909/https://www.livelaw.in/news-updates/patiala-house-court-allows-early-hearing-of-plea-seeking-investigation-into-jnu-violence-156295"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0230",
+        "kind": "Source",
+        "title": "National Herald",
+        "state": null,
+        "url": "https://www.nationalheraldindia.com/amp/story/india/jnu-violence-delhi-court-calls-for-status-report-from-police-on-action-taken-on-fir",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20200520230329/https://www.nationalheraldindia.com/amp/story/india%2Fjnu-violence-delhi-court-calls-for-status-report-from-police-on-action-taken-on-fir"
+          }
+        ]
+      }
+    ],
+    "summary": "4 records edited"
+  },
+  {
     "commit": "cd19563fb8",
     "date": "2026-11-03T09:51:23Z",
     "subject": "Sweep log and archived copies for 2026-11-03 [skip ci]",
