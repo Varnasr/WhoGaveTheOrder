@@ -2320,8 +2320,8 @@ WGO.importedSources = [
     "kind": "SECONDARY",
     "url": "https://www.tribuneindia.com/news/india/nabanna-abhijan-protest-turns-violent-kolkota-police-lathi-charge-protestors/amp",
     "retrievedOn": "2026-10-10",
-    "archiveUrl": null,
-    "archivedOn": null,
+    "archiveUrl": "http://web.archive.org/web/20240827112412/https://www.tribuneindia.com/news/india/nabanna-abhijan-protest-turns-violent-kolkota-police-lathi-charge-protestors/amp",
+    "archivedOn": "2026-11-06",
     "sha256": null,
     "originatesFrom": "PTI"
   },
@@ -2331,8 +2331,8 @@ WGO.importedSources = [
     "kind": "SECONDARY",
     "url": "https://www.businesstoday.in/amp/india/story/kolkata-rape-murder-march-to-nabanna-turns-ugly-near-howrah-as-protestors-break-barricades-police-fires-tear-gas-shells-443160-2024-08-27",
     "retrievedOn": "2026-10-10",
-    "archiveUrl": null,
-    "archivedOn": null,
+    "archiveUrl": "http://web.archive.org/web/20240913235230/https://www.businesstoday.in/amp/india/story/kolkata-rape-murder-march-to-nabanna-turns-ugly-near-howrah-as-protestors-break-barricades-police-fires-tear-gas-shells-443160-2024-08-27",
+    "archivedOn": "2026-11-06",
     "sha256": null,
     "originatesFrom": null
   },
@@ -2342,8 +2342,8 @@ WGO.importedSources = [
     "kind": "SECONDARY",
     "url": "https://www.newsonair.gov.in/student-groups-in-kolkata-set-to-hold-rally-despite-police-denial",
     "retrievedOn": "2026-10-10",
-    "archiveUrl": null,
-    "archivedOn": null,
+    "archiveUrl": "http://web.archive.org/web/20250521080846/https://www.newsonair.gov.in/student-groups-in-kolkata-set-to-hold-rally-despite-police-denial/",
+    "archivedOn": "2026-11-06",
     "sha256": null,
     "originatesFrom": null
   },

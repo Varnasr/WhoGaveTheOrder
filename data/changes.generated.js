@@ -5,6 +5,100 @@ window.WGO = window.WGO || {};
 
 WGO.changes = [
   {
+    "commit": "eff0d4a857",
+    "date": "2026-11-05T09:45:43Z",
+    "subject": "Sweep log and archived copies for 2026-11-05 [skip ci]",
+    "added": [],
+    "removed": [],
+    "changed": [
+      {
+        "id": "SRC-0219",
+        "kind": "Source",
+        "title": "National Herald",
+        "state": null,
+        "url": "https://www.nationalheraldindia.com/amp/story/india/no-inciting-slogans-violence-at-jnu-gate-on-january-5-govt",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20261104093509/https://www.nationalheraldindia.com/amp/story/india/no-inciting-slogans-violence-at-jnu-gate-on-january-5-govt"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0226",
+        "kind": "Source",
+        "title": "National Herald",
+        "state": null,
+        "url": "https://www.nationalheraldindia.com/amp/story/india/jnu-masked-goons-attack-students-and-teachers-police-wait-for-vcs-permission-to-enter-campus",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20261104093630/https://www.nationalheraldindia.com/amp/story/india/jnu-masked-goons-attack-students-and-teachers-police-wait-for-vcs-permission-to-enter-campus"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0231",
+        "kind": "Source",
+        "title": "The Quint",
+        "state": null,
+        "url": "https://thequint.com/news/india/jnu-police-name-9-suspects-skip-affiliation-of-2-abvp-students",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20241006063637/https://www.thequint.com/news/india/jnu-police-name-9-suspects-skip-affiliation-of-2-abvp-students"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0232",
+        "kind": "Source",
+        "title": "Wikipedia",
+        "state": null,
+        "url": "https://en.wikipedia.org/wiki/2020_Jawaharlal_Nehru_University_attack",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20261022035220/https://en.wikipedia.org/wiki/2020_Jawaharlal_Nehru_University_attack"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0233",
+        "kind": "Source",
+        "title": "LiveLaw",
+        "state": null,
+        "url": "https://www.livelaw.in/amp/news-updates/jnu-violence-delhi-hc-issues-notices-to-whatsapp-apple-and-google-in-a-plea-seeking-preservation-of-evidence-151566",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20200527035143/https://www.livelaw.in/amp/news-updates/jnu-violence-delhi-hc-issues-notices-to-whatsapp-apple-and-google-in-a-plea-seeking-preservation-of-evidence-151566"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0234",
+        "kind": "Source",
+        "title": "The Hindu",
+        "state": null,
+        "url": "https://www.thehindu.com/news/cities/Delhi/jnu-violence-delhi-hc-directs-police-to-seize-phones-of-members-of-two-whatsapp-groups/article30565507.ece",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20251116123146/https://www.thehindu.com/news/cities/Delhi/jnu-violence-delhi-hc-directs-police-to-seize-phones-of-members-of-two-whatsapp-groups/article30565507.ece"
+          }
+        ]
+      }
+    ],
+    "summary": "6 records edited"
+  },
+  {
     "commit": "e22547c026",
     "date": "2026-11-04T09:37:38Z",
     "subject": "Sweep log and archived copies for 2026-11-04 [skip ci]",
