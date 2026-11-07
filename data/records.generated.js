@@ -2133,8 +2133,8 @@ WGO.importedSources = [
     "kind": "SECONDARY",
     "url": "https://www.nationalheraldindia.com/amp/story/india/a-month-passes-after-masked-goons-injured-51-students-teachers-no-fir-no-arrest-yet",
     "retrievedOn": "2026-10-10",
-    "archiveUrl": null,
-    "archivedOn": null,
+    "archiveUrl": "http://web.archive.org/web/20261106093653/https://www.nationalheraldindia.com/amp/story/india/a-month-passes-after-masked-goons-injured-51-students-teachers-no-fir-no-arrest-yet",
+    "archivedOn": "2026-11-07",
     "sha256": null,
     "originatesFrom": "Lok Sabha written reply by MoS Home G. Kishan Reddy, reported by National Herald; the reply itself was not retrieved"
   },
@@ -2298,8 +2298,8 @@ WGO.importedSources = [
     "kind": "SECONDARY",
     "url": "https://humanrightsinitiative.org/press-releases/police-inaction-at-jnu-is-complicity-chri-calls-for-a-judicial-inquiry.html",
     "retrievedOn": "2026-10-10",
-    "archiveUrl": null,
-    "archivedOn": null,
+    "archiveUrl": "http://web.archive.org/web/20261106093856/https://humanrightsinitiative.org/press-releases/police-inaction-at-jnu-is-complicity-chri-calls-for-a-judicial-inquiry.html",
+    "archivedOn": "2026-11-07",
     "sha256": null,
     "originatesFrom": null
   },
@@ -2364,8 +2364,8 @@ WGO.importedSources = [
     "kind": "SECONDARY",
     "url": "https://www.republicworld.com/india/breaking-lathicharge-and-water-cannon-used-against-protesters-in-kolkata-during-march-to-nabanna",
     "retrievedOn": "2026-10-10",
-    "archiveUrl": null,
-    "archivedOn": null,
+    "archiveUrl": "http://web.archive.org/web/20250911220741/https://www.republicworld.com/india/breaking-lathicharge-and-water-cannon-used-against-protesters-in-kolkata-during-march-to-nabanna",
+    "archivedOn": "2026-11-07",
     "sha256": null,
     "originatesFrom": null
   },
@@ -2375,8 +2375,8 @@ WGO.importedSources = [
     "kind": "SECONDARY",
     "url": "https://www.onmanorama.com/news/india/2024/08/27/kolkata-student-march-clash-injury.html",
     "retrievedOn": "2026-10-10",
-    "archiveUrl": null,
-    "archivedOn": null,
+    "archiveUrl": "http://web.archive.org/web/20250805164556/https://www.onmanorama.com/news/india/2024/08/27/kolkata-student-march-clash-injury.html",
+    "archivedOn": "2026-11-07",
     "sha256": null,
     "originatesFrom": "PTI"
   },
