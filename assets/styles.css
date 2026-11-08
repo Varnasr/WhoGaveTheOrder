@@ -226,6 +226,15 @@ section + section { border-top: 1px solid var(--rule); }
 
 /* --- Site chrome ---------------------------------------------------------- */
 
+/* The masthead is written by assets/ui.js after first paint. Without a reserved
+   height everything under it was pushed down at once (layout shift 1.0). These
+   are the filled heights measured at each width; the notice bar wraps, so they
+   are a floor that is close rather than exact. */
+[data-chrome="masthead"] { min-height: 180px; }
+@media (min-width: 420px) { [data-chrome="masthead"] { min-height: 165px; } }
+@media (min-width: 560px) { [data-chrome="masthead"] { min-height: 109px; } }
+@media (min-width: 900px) { [data-chrome="masthead"] { min-height: 136px; } }
+
 .masthead {
   position: sticky; top: 0; z-index: 50;
   background: var(--paper);
