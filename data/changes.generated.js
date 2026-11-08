@@ -5,6 +5,72 @@ window.WGO = window.WGO || {};
 
 WGO.changes = [
   {
+    "commit": "ca9c226125",
+    "date": "2026-11-07T09:03:34Z",
+    "subject": "Sweep log and archived copies for 2026-11-07 [skip ci]",
+    "added": [],
+    "removed": [],
+    "changed": [
+      {
+        "id": "SRC-0221",
+        "kind": "Source",
+        "title": "National Herald",
+        "state": null,
+        "url": "https://www.nationalheraldindia.com/amp/story/india/a-month-passes-after-masked-goons-injured-51-students-teachers-no-fir-no-arrest-yet",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20261106093653/https://www.nationalheraldindia.com/amp/story/india/a-month-passes-after-masked-goons-injured-51-students-teachers-no-fir-no-arrest-yet"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0236",
+        "kind": "Source",
+        "title": "Commonwealth Human Rights Initiative",
+        "state": null,
+        "url": "https://humanrightsinitiative.org/press-releases/police-inaction-at-jnu-is-complicity-chri-calls-for-a-judicial-inquiry.html",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20261106093856/https://humanrightsinitiative.org/press-releases/police-inaction-at-jnu-is-complicity-chri-calls-for-a-judicial-inquiry.html"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0242",
+        "kind": "Source",
+        "title": "Republic World",
+        "state": null,
+        "url": "https://www.republicworld.com/india/breaking-lathicharge-and-water-cannon-used-against-protesters-in-kolkata-during-march-to-nabanna",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20250911220741/https://www.republicworld.com/india/breaking-lathicharge-and-water-cannon-used-against-protesters-in-kolkata-during-march-to-nabanna"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0243",
+        "kind": "Source",
+        "title": "Onmanorama",
+        "state": null,
+        "url": "https://www.onmanorama.com/news/india/2024/08/27/kolkata-student-march-clash-injury.html",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20250805164556/https://www.onmanorama.com/news/india/2024/08/27/kolkata-student-march-clash-injury.html"
+          }
+        ]
+      }
+    ],
+    "summary": "4 records edited"
+  },
+  {
     "commit": "1b28c3a7b3",
     "date": "2026-11-06T09:40:17Z",
     "subject": "Sweep log and archived copies for 2026-11-06 [skip ci]",
