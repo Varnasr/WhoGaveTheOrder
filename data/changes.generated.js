@@ -5,6 +5,58 @@ window.WGO = window.WGO || {};
 
 WGO.changes = [
   {
+    "commit": "1b28c3a7b3",
+    "date": "2026-11-06T09:40:17Z",
+    "subject": "Sweep log and archived copies for 2026-11-06 [skip ci]",
+    "added": [],
+    "removed": [],
+    "changed": [
+      {
+        "id": "SRC-0238",
+        "kind": "Source",
+        "title": "The Tribune (PTI report)",
+        "state": null,
+        "url": "https://www.tribuneindia.com/news/india/nabanna-abhijan-protest-turns-violent-kolkota-police-lathi-charge-protestors/amp",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20240827112412/https://www.tribuneindia.com/news/india/nabanna-abhijan-protest-turns-violent-kolkota-police-lathi-charge-protestors/amp"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0239",
+        "kind": "Source",
+        "title": "Business Today",
+        "state": null,
+        "url": "https://www.businesstoday.in/amp/india/story/kolkata-rape-murder-march-to-nabanna-turns-ugly-near-howrah-as-protestors-break-barricades-police-fires-tear-gas-shells-443160-2024-08-27",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20240913235230/https://www.businesstoday.in/amp/india/story/kolkata-rape-murder-march-to-nabanna-turns-ugly-near-howrah-as-protestors-break-barricades-police-fires-tear-gas-shells-443160-2024-08-27"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0240",
+        "kind": "Source",
+        "title": "News On AIR (All India Radio)",
+        "state": null,
+        "url": "https://www.newsonair.gov.in/student-groups-in-kolkata-set-to-hold-rally-despite-police-denial",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20250521080846/https://www.newsonair.gov.in/student-groups-in-kolkata-set-to-hold-rally-despite-police-denial/"
+          }
+        ]
+      }
+    ],
+    "summary": "3 records edited"
+  },
+  {
     "commit": "eff0d4a857",
     "date": "2026-11-05T09:45:43Z",
     "subject": "Sweep log and archived copies for 2026-11-05 [skip ci]",
