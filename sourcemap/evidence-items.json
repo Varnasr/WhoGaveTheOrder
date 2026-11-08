@@ -7820,7 +7820,9 @@
         "source_type": "secondary",
         "publication": "The Tribune",
         "retrieved_on": "2026-10-10",
-        "originates_from": "PTI report of a Delhi Police press conference, 6 January 2020"
+        "originates_from": "PTI report of a Delhi Police press conference, 6 January 2020",
+        "archive_url": "http://web.archive.org/web/20261107090120/https://www.tribuneindia.com/news/nation/jnu-violence-delhi-police-set-up-fact-finding-committee-say-they-have-vital-links-22319",
+        "archived_on": "2026-11-08"
       }
     ],
     "notes": "Single source. Names the spokesperson as the article does. The article gives no arrival times.",
@@ -7917,7 +7919,9 @@
         "source_type": "secondary",
         "publication": "ETV Bharat",
         "retrieved_on": "2026-10-10",
-        "originates_from": "PTI report of Lok Sabha written reply, 3 August 2021"
+        "originates_from": "PTI report of Lok Sabha written reply, 3 August 2021",
+        "archive_url": "https://web.archive.org/web/20261108091728/https://www.etvbharat.com/english/bharat/no-one-arrested-for-2020-violence-at-jnu-govt-in-lok-sabha/na20210803155113922",
+        "archived_on": "2026-11-08"
       },
       {
         "url": "https://sabrangindia.in/18-months-no-arrests-jnu-violence-case/",
@@ -8144,7 +8148,9 @@
         "source_type": "secondary",
         "publication": "The Tribune",
         "retrieved_on": "2026-10-10",
-        "originates_from": "PTI, 6 January 2020"
+        "originates_from": "PTI, 6 January 2020",
+        "archive_url": "http://web.archive.org/web/20261107090120/https://www.tribuneindia.com/news/nation/jnu-violence-delhi-police-set-up-fact-finding-committee-say-they-have-vital-links-22319",
+        "archived_on": "2026-11-08"
       },
       {
         "url": "https://sabrangindia.in/jnu-violence-delhi-police-probes-negligence-accusations-gives-itself-clean-chit",
@@ -8296,7 +8302,9 @@
         "url": "https://etvbharat.com/english/bharat/no-one-arrested-for-2020-violence-at-jnu-govt-in-lok-sabha/na20210803155113922",
         "source_type": "secondary",
         "publication": "ETV Bharat",
-        "retrieved_on": "2026-10-10"
+        "retrieved_on": "2026-10-10",
+        "archive_url": "https://web.archive.org/web/20261108091728/https://www.etvbharat.com/english/bharat/no-one-arrested-for-2020-violence-at-jnu-govt-in-lok-sabha/na20210803155113922",
+        "archived_on": "2026-11-08"
       }
     ],
     "notes": "Searches for later coverage and court records found nothing after mid-2020 other than the 2021 reply. File an RTI with the Crime Branch and check the Patiala House eCourts record.",
@@ -8433,14 +8441,18 @@
         "url": "https://www.orissapost.com/march-to-state-secretariat-illegal-no-permission-given-bengal-police/amp/",
         "source_type": "secondary",
         "publication": "Orissa Post",
-        "retrieved_on": "2026-10-10"
+        "retrieved_on": "2026-10-10",
+        "archive_url": "http://web.archive.org/web/20241105202708/https://www.orissapost.com/march-to-state-secretariat-illegal-no-permission-given-bengal-police/amp/",
+        "archived_on": "2026-11-08"
       },
       {
         "url": "https://www.tribuneindia.com/news/india/kolkata-horror-students-firm-on-march-to-nabanna-police-call-it-illegal-and-potentially-disruptive-deploy-6000-cops/amp",
         "source_type": "secondary",
         "publication": "The Tribune",
         "retrieved_on": "2026-10-10",
-        "originates_from": "Not stated on the page"
+        "originates_from": "Not stated on the page",
+        "archive_url": "http://web.archive.org/web/20240827060900/https://www.tribuneindia.com/news/india/kolkata-horror-students-firm-on-march-to-nabanna-police-call-it-illegal-and-potentially-disruptive-deploy-6000-cops/amp",
+        "archived_on": "2026-11-08"
       }
     ],
     "notes": "Attributed to the ADG (Law and Order), West Bengal Police, as reported. Statement made before the march. The reports do not say which office issued the Section 163 order.",
@@ -8458,7 +8470,9 @@
         "url": "https://www.orissapost.com/march-to-state-secretariat-illegal-no-permission-given-bengal-police/amp/",
         "source_type": "secondary",
         "publication": "Orissa Post",
-        "retrieved_on": "2026-10-10"
+        "retrieved_on": "2026-10-10",
+        "archive_url": "http://web.archive.org/web/20241105202708/https://www.orissapost.com/march-to-state-secretariat-illegal-no-permission-given-bengal-police/amp/",
+        "archived_on": "2026-11-08"
       },
       {
         "url": "https://www.newsonair.gov.in/student-groups-in-kolkata-set-to-hold-rally-despite-police-denial",
@@ -8473,7 +8487,9 @@
         "source_type": "secondary",
         "publication": "The Tribune",
         "retrieved_on": "2026-10-10",
-        "originates_from": "Not stated on the page"
+        "originates_from": "Not stated on the page",
+        "archive_url": "http://web.archive.org/web/20240827060900/https://www.tribuneindia.com/news/india/kolkata-horror-students-firm-on-march-to-nabanna-police-call-it-illegal-and-potentially-disruptive-deploy-6000-cops/amp",
+        "archived_on": "2026-11-08"
       }
     ],
     "notes": "Section 163 BNSS orders are made by authorised executive magistrates, which is a statutory point to be checked against the current text and implies nothing about this order. Nabanna is in Howrah district, so the Howrah Police Commissionerate area is the likelier jurisdiction, but that is inference and no document was read. Lawful routes: RTI to the Howrah Police Commissionerate and Kolkata Police, and to the Home and Hill Affairs Department, asking for the order, its date and the issuing authority; the same question at each office.",
@@ -8491,13 +8507,17 @@
         "url": "https://www.etvbharat.com/en/!state/kolkata-doctor-rape-murder-chhatra-samaj-students-march-to-nabanna-today-enn24082608055",
         "source_type": "secondary",
         "publication": "ETV Bharat",
-        "retrieved_on": "2026-10-10"
+        "retrieved_on": "2026-10-10",
+        "archive_url": "http://web.archive.org/web/20240827050011/https://www.etvbharat.com/en/!state/kolkata-doctor-rape-murder-chhatra-samaj-students-march-to-nabanna-today-enn24082608055",
+        "archived_on": "2026-11-08"
       },
       {
         "url": "https://www.orissapost.com/march-to-state-secretariat-illegal-no-permission-given-bengal-police/amp/",
         "source_type": "secondary",
         "publication": "Orissa Post",
-        "retrieved_on": "2026-10-10"
+        "retrieved_on": "2026-10-10",
+        "archive_url": "http://web.archive.org/web/20241105202708/https://www.orissapost.com/march-to-state-secretariat-illegal-no-permission-given-bengal-police/amp/",
+        "archived_on": "2026-11-08"
       }
     ],
     "notes": "DISPUTED between the ADG (South Bengal), who says no valid application, and the organisers' spokesperson, who says police were informed. The Orissa Post report has the ADG saying permission was denied to both organisations; ETV Bharat has him saying applications were rejected. No application or rejection letter was found.",
@@ -8535,7 +8555,9 @@
         "source_type": "secondary",
         "publication": "The Tribune",
         "retrieved_on": "2026-10-10",
-        "originates_from": "Not stated on the page"
+        "originates_from": "Not stated on the page",
+        "archive_url": "http://web.archive.org/web/20240827060900/https://www.tribuneindia.com/news/india/kolkata-horror-students-firm-on-march-to-nabanna-police-call-it-illegal-and-potentially-disruptive-deploy-6000-cops/amp",
+        "archived_on": "2026-11-08"
       },
       {
         "url": "https://www.newsonair.gov.in/student-groups-in-kolkata-set-to-hold-rally-despite-police-denial",
@@ -8549,7 +8571,9 @@
         "url": "https://www.etvbharat.com/en/!state/kolkata-doctor-rape-murder-chhatra-samaj-students-march-to-nabanna-today-enn24082608055",
         "source_type": "secondary",
         "publication": "ETV Bharat",
-        "retrieved_on": "2026-10-10"
+        "retrieved_on": "2026-10-10",
+        "archive_url": "http://web.archive.org/web/20240827050011/https://www.etvbharat.com/en/!state/kolkata-doctor-rape-murder-chhatra-samaj-students-march-to-nabanna-today-enn24082608055",
+        "archived_on": "2026-11-08"
       }
     ],
     "notes": "Descriptions differ in detail and none names who ordered the barricading. A BJP leader, Amit Malviya, alleged the Chief Minister ordered the containers placed; that is an allegation by a party spokesperson reported by Business Today, with no document behind it.",
@@ -8568,7 +8592,9 @@
         "source_type": "secondary",
         "publication": "The Tribune",
         "retrieved_on": "2026-10-10",
-        "originates_from": "Not stated on the page"
+        "originates_from": "Not stated on the page",
+        "archive_url": "http://web.archive.org/web/20240827060900/https://www.tribuneindia.com/news/india/kolkata-horror-students-firm-on-march-to-nabanna-police-call-it-illegal-and-potentially-disruptive-deploy-6000-cops/amp",
+        "archived_on": "2026-11-08"
       },
       {
         "url": "https://www.newsonair.gov.in/student-groups-in-kolkata-set-to-hold-rally-despite-police-denial",
@@ -8640,7 +8666,9 @@
         "url": "https://www.etvbharat.com/en/!state/kolkata-doctor-rape-murder-chhatra-samaj-students-march-to-nabanna-today-enn24082608055",
         "source_type": "secondary",
         "publication": "ETV Bharat",
-        "retrieved_on": "2026-10-10"
+        "retrieved_on": "2026-10-10",
+        "archive_url": "http://web.archive.org/web/20240827050011/https://www.etvbharat.com/en/!state/kolkata-doctor-rape-murder-chhatra-samaj-students-march-to-nabanna-today-enn24082608055",
+        "archived_on": "2026-11-08"
       }
     ],
     "notes": "DISPUTED on the count: 220 plus 25 preventive (245 in total) is consistent with ETV Bharat's 245 but the sources do not say which police force made which arrests. No FIR numbers or arrest memos found.",
