@@ -5,6 +5,86 @@ window.WGO = window.WGO || {};
 
 WGO.changes = [
   {
+    "commit": "e3058bbc74",
+    "date": "2026-11-08T09:20:09Z",
+    "subject": "Sweep log and archived copies for 2026-11-08 [skip ci]",
+    "added": [],
+    "removed": [],
+    "changed": [
+      {
+        "id": "SRC-0225",
+        "kind": "Source",
+        "title": "The Tribune",
+        "state": null,
+        "url": "https://www.tribuneindia.com/news/nation/jnu-violence-delhi-police-set-up-fact-finding-committee-say-they-have-vital-links-22319",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20261107090120/https://www.tribuneindia.com/news/nation/jnu-violence-delhi-police-set-up-fact-finding-committee-say-they-have-vital-links-22319"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0228",
+        "kind": "Source",
+        "title": "ETV Bharat",
+        "state": null,
+        "url": "https://etvbharat.com/english/bharat/no-one-arrested-for-2020-violence-at-jnu-govt-in-lok-sabha/na20210803155113922",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "https://web.archive.org/web/20261108091728/https://www.etvbharat.com/english/bharat/no-one-arrested-for-2020-violence-at-jnu-govt-in-lok-sabha/na20210803155113922"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0244",
+        "kind": "Source",
+        "title": "Orissa Post",
+        "state": null,
+        "url": "https://www.orissapost.com/march-to-state-secretariat-illegal-no-permission-given-bengal-police/amp/",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20241105202708/https://www.orissapost.com/march-to-state-secretariat-illegal-no-permission-given-bengal-police/amp/"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0245",
+        "kind": "Source",
+        "title": "The Tribune",
+        "state": null,
+        "url": "https://www.tribuneindia.com/news/india/kolkata-horror-students-firm-on-march-to-nabanna-police-call-it-illegal-and-potentially-disruptive-deploy-6000-cops/amp",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20240827060900/https://www.tribuneindia.com/news/india/kolkata-horror-students-firm-on-march-to-nabanna-police-call-it-illegal-and-potentially-disruptive-deploy-6000-cops/amp"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0246",
+        "kind": "Source",
+        "title": "ETV Bharat",
+        "state": null,
+        "url": "https://www.etvbharat.com/en/!state/kolkata-doctor-rape-murder-chhatra-samaj-students-march-to-nabanna-today-enn24082608055",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20240827050011/https://www.etvbharat.com/en/!state/kolkata-doctor-rape-murder-chhatra-samaj-students-march-to-nabanna-today-enn24082608055"
+          }
+        ]
+      }
+    ],
+    "summary": "5 records edited"
+  },
+  {
     "commit": "ca9c226125",
     "date": "2026-11-07T09:03:34Z",
     "subject": "Sweep log and archived copies for 2026-11-07 [skip ci]",
