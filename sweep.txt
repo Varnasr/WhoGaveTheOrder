@@ -1,15 +1,15 @@
-Sweep 2026-11-08: 9 targets, 175 watch terms.
+Sweep 2026-11-09: 9 targets, 175 watch terms.
   nothing-published  delhi-hc-causelist
   matched            delhi-hc-judgments
   matched            nhrc-press
   unreachable        eparlib
-  ok                 barandbench  0 item(s), 0 matched
-  ok                 news-delhi  100 item(s), 4 matched
+  ok                 barandbench  9 item(s), 0 matched
+  ok                 news-delhi  100 item(s), 1 matched
   ok                 news-cases  9 item(s), 0 matched
   ok                 news-frt  51 item(s), 0 matched
-  ok                 news-bihar  55 item(s), 0 matched
+  ok                 news-bihar  54 item(s), 0 matched
 
-6 thing(s) to look at:
+3 thing(s) to look at:
 
 · [CHANGED_MATCH] Delhi High Court, latest judgments
   https://delhihighcourt.nic.in/web/judgement/fetch-data
@@ -20,22 +20,7 @@ Sweep 2026-11-08: 9 targets, 175 watch terms.
   fetch failed
 
 · [NEW_ITEM] News: Jantar Mantar and the police action
-  Jantar Mantar @ Kochi: CJP stages anti-SIR protest, Prakash Raj leads march - The Week
-  https://news.google.com/rss/articles/CBMijwFBVV95cUxQZ2FLTTFXVkd6ZzBoRmlNNzJTMFFXTGRNTlYyOU9YUHlEeWJjbWU0a3p2QW5HeHpmTkowY0hqdGNZSUVPQUVLM2c2RmxUd1F0VHpTcmtlWkZ1TC1fRWFXN2ZicElIVUJjZVNFV1VWQzltcHZ5S2Z4RExkMThTMjVIdV9nZ3VlRUpEamJJQWUyUdIBlAFBVV95cUxQWXhlSFFLQjNSMTBDRkJKNGxPSy16QXpXR1dMcE8tbWd1aklNeHRadG5mMG04dW1fMjk4Qlk5X3lXV0VNMXVoek5fY01hR2xILTg0amk5a2lWQkZ3Y0MwVnNCbjM5aDY2RGExYXZwZG1LV3dLaW9XbWctMFdHZFpxWWpVZXRHRkRmenNyRmxOT2FVaEM0?oc=5
-  matched: Jantar Mantar, Kochi
-
-· [NEW_ITEM] News: Jantar Mantar and the police action
-  'Jantar Mantar At Kochi' Demands SIR Rollback, CEC Gyanesh's Sacking - Deccan Chronicle
-  https://news.google.com/rss/articles/CBMixgFBVV95cUxNcmxSSENIZDZRN2pobzNQTjgzWVdUMWUySTdBcFVaYXBYcVFRaWdrV2M4Wmg1NFBadlRQV0dRa2VUUkVnNi1YX0dlbVRHMWRkX1VUTlMtSkFzTWdmamM1cFNTbDl5dXg4RERDd29qZFNCUTZnX0hTZ25GVmRUQThEbExMYTRVbXZySXdTM2FieGVfV0pWRmN1Y0xIMXZUd2lZSmhYN3pGQV91VHh6Wm1xNVJLOVZsc3prNzd5aFZnNkppWlNoRVHSAcsBQVVfeXFMTmNsdlFsLU9DNGY3cnh1T2xIRFNrQ3dyM3BoallLQjYwdVY3TkFMYUJaNDhXb1VWWFF3S0RQMGV6akxHcVpXTVF1SzFBYmtXY0dvMWlaXzEyVU1lX1JnRkNPVVVvVkduSk9DdVA5a0JHVTFsSS1kWl8wMGZzRGVsLVZyNlF3UE1oUkl2bjRNN3Q2N3BPemxfUkpZeUs5dWFHal9LUGlIdno4SzUwRUI4NzFPdlZZd241NmNPY1otcFc5dC1FMHo2cE5CTlE?oc=5
-  matched: Jantar Mantar, Kochi
-
-· [NEW_ITEM] News: Jantar Mantar and the police action
-  CJP Holds 'Jantar Mantar At Kochi' Rally, Demands Scrapping Of SIR - Outlook India
-  https://news.google.com/rss/articles/CBMiowFBVV95cUxNSlN5SFoydi1ZMjdGeU1hY2JjWWc0MkFETFVZTkxiOFUzSW1sczFmbm55QkxXU2U5bWQzanBRdFNZdFBjVmh3blZVTEx3a25oT1dkTzZxY2xfQl9HXzctZnV3dVEwWVpScGZRREIyeTRVam02SS1wU01IOThxTWxpNmNKejFqazJRbDAzZmh2Q1hSWWpfcUItUDF5RmdRTlZzbGo40gGwAUFVX3lxTE5lY3d3VVBXMGtVTGpLQ3FTU3hlVzQ0V054S281NFBsQVRCQll6V1VUUzVvVEtGRUdRclk0eno4R3VMZmRLbnhaV2I1MlNGUGJTRUktUHdzSGloWFR2Rlo0YzJUVEV3c2FyNV9hRHROQnNvZWI4TmRWbGFPOVNXQ2x4ajVvemFYbzliU0ltQVFVMXVVX3hwRVJKRXNGc1ZoUU9CeHBvb0tGTzJla0JDdkhF?oc=5
-  matched: Jantar Mantar, Kochi
-
-· [NEW_ITEM] News: Jantar Mantar and the police action
-  Cockroach Janta Party To Hold Anti-SIR Protest In Kochi On Nov 7 - Outlook India
-  https://news.google.com/rss/articles/CBMilAFBVV95cUxNTzNMR21ZRkJXRkVMN3hUUHJfNS14SjJ3Zm01RW1fOTkyT0NZQmxDUXNfZER6Z0R5aW0wXzZzQUNjZ0YwNHZRWVBvRHRWaDNSS1FSU2JwT25FZndiaUh1NmJTRlhGYk5wUU02dlpDbVg5d2t1Y3g0M2d3WlNJRVozOGdObmhYUFB5MlV0bVIteWRqWmJm0gGiAUFVX3lxTE01NjhkSUY5cXVKUS1OMkZZWHYtNEgyVjR5RzN5OVFHOG1IRDFBQkM4UEVya0dZYlZMZkh3MDVTdXYtSlQ3Tk9WVmxRUTh5Qm1FeXdQck9FdXhIWXJ6OTVqZTczVTZINFh6Q29yOS1Ba09JLTFNTEZhWTIxWnQyajFwcEZVRTBEdmEtWnVrR3NleUtRX2xfTlM3Y1o0anV2VldkUQ?oc=5
-  matched: Cockroach Janta Party, Kochi
+  Police visit mosques, ask people to avoid going to Jantar Mantar - The Hindu
+  https://news.google.com/rss/articles/CBMixAFBVV95cUxNamd1LTBhRHc5c3hnZWh0OFpTQmp5MG95VGhLTmhiODZPUFdEbEtCU3lvSkpIaVAyTkhHWnAzVjZYWWZ0MVhYTGMxRXBXajRROHFiUW1PYWphR3FUZHEwSXF6aUZrME83YXJXUl9xNnlnMWFtXzJobTJySlIzY3VhSm5IU05yMmhGeWp6OTh5Q3M1UzVsdEZaZE5ELUo2dXVuLVBESTVrMVN0QTRxbHZtaTdNa1c0c3hKRzZFS1FNX3JiRzdy0gHLAUFVX3lxTFBRY0hUNVZJZmF5cUFDZnpXVEJYdm9SWGNQNjBTOHotWllMeFlVcTFXa3VRc3BKVk5fQmdXeUZDZjdpR3J5LUxnY1BwZDQwTVREXzlUODBNVmUzMGMzdEV0RGdoNFpIdFEzMnlyR2c0SThNTWNiZlRoRHI0ZzlQVi1PaXd4cWNxWlhuWkRRNUxkdTdQc1B4NzZMbEtUcnI4SkoySG41NlB0Mjh4a2VmdWtpWEo5Ny1MdThIUDZmd3FxYVBQTTdUZ2lNX0pj?oc=5
+  matched: Jantar Mantar
 
