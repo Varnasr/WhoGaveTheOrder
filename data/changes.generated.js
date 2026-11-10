@@ -5,6 +5,86 @@ window.WGO = window.WGO || {};
 
 WGO.changes = [
   {
+    "commit": "43b05bcc3a",
+    "date": "2026-11-09T10:03:18Z",
+    "subject": "Sweep log and archived copies for 2026-11-09 [skip ci]",
+    "added": [],
+    "removed": [],
+    "changed": [
+      {
+        "id": "SRC-0235",
+        "kind": "Source",
+        "title": "Bar & Bench",
+        "state": null,
+        "url": "https://barandbench.com/news/litigation/jnu-violence-seize-mobile-phones-of-members-of-whatsapp-groups-delhi-hc-directs-police",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "https://web.archive.org/web/20261109100027/https://www.barandbench.com/news/litigation/jnu-violence-seize-mobile-phones-of-members-of-whatsapp-groups-delhi-hc-directs-police"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0237",
+        "kind": "Source",
+        "title": "Devdiscourse",
+        "state": null,
+        "url": "https://www.devdiscourse.com/article/education/840588-before-jnu-violence-wrote-4-letters-urging-admin-to-hold-talks-with-students-delhi-police",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "https://web.archive.org/web/20261109100106/https://www.devdiscourse.com/article/education/840588-before-jnu-violence-wrote-4-letters-urging-admin-to-hold-talks-with-students-delhi-police"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0248",
+        "kind": "Source",
+        "title": "The Hitavada",
+        "state": null,
+        "url": "https://www.thehitavada.com/Encyc/2024/8/28/Nabanna-Abhijan-Rally.html",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20250723161042/https://www.thehitavada.com/Encyc/2024/8/28/Nabanna-Abhijan-Rally.html"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0251",
+        "kind": "Source",
+        "title": "Orissa Post",
+        "state": null,
+        "url": "https://www.orissapost.com/nabanna-abhijan-bengal-lop-approaches-calcutta-hc-on-four-missing-students-cops-confirm-arrests/amp/",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20240831232546/https://www.orissapost.com/nabanna-abhijan-bengal-lop-approaches-calcutta-hc-on-four-missing-students-cops-confirm-arrests/amp/"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0252",
+        "kind": "Source",
+        "title": "LawTrend",
+        "state": null,
+        "url": "https://lawtrend.in/calcutta-high-court-grants-bail-to-student-leader-involved-in-nabanna-abhijan",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20250419105534/https://lawtrend.in/calcutta-high-court-grants-bail-to-student-leader-involved-in-nabanna-abhijan/"
+          }
+        ]
+      }
+    ],
+    "summary": "5 records edited"
+  },
+  {
     "commit": "e3058bbc74",
     "date": "2026-11-08T09:20:09Z",
     "subject": "Sweep log and archived copies for 2026-11-08 [skip ci]",

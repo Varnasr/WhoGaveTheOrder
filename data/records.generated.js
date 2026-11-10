@@ -2353,8 +2353,8 @@ WGO.importedSources = [
     "kind": "SECONDARY",
     "url": "https://ianslive.in/calcutta-hc-directs-immediate-release-of-convenor-of-nabanna-abhijan--20240830210306",
     "retrievedOn": "2026-10-10",
-    "archiveUrl": null,
-    "archivedOn": null,
+    "archiveUrl": "https://web.archive.org/web/20261110100914/https://ianslive.in/calcutta-hc-directs-immediate-release-of-convenor-of-nabanna-abhijan--20240830210306",
+    "archivedOn": "2026-11-10",
     "sha256": null,
     "originatesFrom": "IANS"
   },
@@ -2496,8 +2496,8 @@ WGO.importedSources = [
     "kind": "SECONDARY",
     "url": "https://www.livelaw.in/amp/top-stories/pil-in-calcutta-high-court-challenges-12-hour-bandh-called-by-bjp-to-protest-police-action-during-nabanna-march-over-rg-kar-incident-267832",
     "retrievedOn": "2026-10-10",
-    "archiveUrl": null,
-    "archivedOn": null,
+    "archiveUrl": "http://web.archive.org/web/20240827215638/https://www.livelaw.in/amp/top-stories/pil-in-calcutta-high-court-challenges-12-hour-bandh-called-by-bjp-to-protest-police-action-during-nabanna-march-over-rg-kar-incident-267832",
+    "archivedOn": "2026-11-10",
     "sha256": null,
     "originatesFrom": null
   },
@@ -2507,8 +2507,8 @@ WGO.importedSources = [
     "kind": "SECONDARY",
     "url": "http://www.dnaindia.com/india/report-jadavpur-university-molestation-case-protesting-students-beaten-up-by-police-and-outsiders-2-critically-injured-2019279",
     "retrievedOn": "2026-10-10",
-    "archiveUrl": null,
-    "archivedOn": null,
+    "archiveUrl": "http://web.archive.org/web/20231120090102/https://www.dnaindia.com/india/report-jadavpur-university-molestation-case-protesting-students-beaten-up-by-police-and-outsiders-2-critically-injured-2019279",
+    "archivedOn": "2026-11-10",
     "sha256": null,
     "originatesFrom": null
   },
@@ -2518,8 +2518,8 @@ WGO.importedSources = [
     "kind": "SECONDARY",
     "url": "https://globalvoices.org/2014/10/10/hokkolorob-a-student-movement-against-a-mishandled-rape-investigation-rocks-west-bengal/",
     "retrievedOn": "2026-10-10",
-    "archiveUrl": null,
-    "archivedOn": null,
+    "archiveUrl": "http://web.archive.org/web/20260411075019/https://globalvoices.org/2014/10/10/hokkolorob-a-student-movement-against-a-mishandled-rape-investigation-rocks-west-bengal/",
+    "archivedOn": "2026-11-10",
     "sha256": null,
     "originatesFrom": null
   },
