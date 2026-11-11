@@ -1,6 +1,6 @@
 {
   "run": {
-    "date": "2026-11-10",
+    "date": "2026-11-11",
     "targets": 9,
     "findings": 7,
     "outcomes": {
@@ -20,7 +20,7 @@
         "Civil Lines"
       ],
       "snippets": [
-        "d 325 W.P.(C) - 2157/2020 13 Oct 2026 POOJA JAIN AND ORS. DIRECTORATE OF EDUCATION OLD SECRETARIAT, CIVIL LINES AND ORS. Download 326 W.P.(C) - 1101/2018 13 Oct 2026 HEMNANI PUBLIC SCHOOL IPSA GURNANI &amp; ANR Download 327 CRL.M.C. - 2977/2026 13 Oct 2026 RUPESH SAINI T"
+        "d 334 W.P.(C) - 2157/2020 13 Oct 2026 POOJA JAIN AND ORS. DIRECTORATE OF EDUCATION OLD SECRETARIAT, CIVIL LINES AND ORS. Download 335 W.P.(C) - 1101/2018 13 Oct 2026 HEMNANI PUBLIC SCHOOL IPSA GURNANI &amp; ANR Download 336 O.M.P.(I) (COMM.) - 479/2026 13 Oct 2026 M/S GL"
       ],
       "method": "html",
       "note": "Orders appear here before the case-status search, which is behind a captcha. An order in W.P.(CRL) 2127/2026 would close OQ-004."
@@ -35,11 +35,35 @@
     },
     {
       "kind": "NEW_ITEM",
+      "target": "barandbench",
+      "label": "Bar & Bench",
+      "title": "Aadhaar card not conclusive proof of age; postmortem report more reliable: Madhya Pradesh High Court",
+      "url": "https://www.barandbench.com/news/litigation/aadhaar-card-not-conclusive-proof-of-age-postmortem-report-more-reliable-madhya-pradesh-high-court",
+      "date": "Wed, 11 Nov 2026 13:18:32 +0530",
+      "terms": [
+        "Madhya Pradesh"
+      ],
+      "note": "Legal reporting carries hearings on the day they happen, usually before anything reaches a court website."
+    },
+    {
+      "kind": "NEW_ITEM",
+      "target": "barandbench",
+      "label": "Bar & Bench",
+      "title": "CMS INDUSLAW advises Focus Prime on securing ₹145 crore investment; acquiring Foodexo Chennai",
+      "url": "https://www.barandbench.com/law-firms/dealstreet/cms-induslaw-advises-focus-prime-on-securing-145-crore-investment-acquiring-foodexo-chennai",
+      "date": "Wed, 11 Nov 2026 11:13:42 +0530",
+      "terms": [
+        "Chennai"
+      ],
+      "note": "Legal reporting carries hearings on the day they happen, usually before anything reaches a court website."
+    },
+    {
+      "kind": "NEW_ITEM",
       "target": "news-delhi",
       "label": "News: Jantar Mantar and the police action",
-      "title": "Jantar Mantar off map, Delhi’s other protests have nowhere to go - The Indian Express",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQdmM1Zm1Cb1FHTm00VWNjaUIzVXduLS1lMVgwUDNveHBHQy1UNm9vYmZlME91b0pJOHRBWndZR3RQOC1sb3BTRTVaWTlYZTYtejlpLV9nRTA4RUZ6bFJteVhjYVNBZHBJdnNEUHRGbEtqTW8wM1lpSG1BejFocXNtWE8yRzVFeUVVN0c3NWR0VTRHR1hVM0JvS2hJaFg2RmZkUGNMbk1fLUHSAa8BQVVfeXFMUElhRU9wYkJXNWdIMGFXQjVaQTdwdDJZcTdrQzBRemctcS1mQzRtdDhReHp6V2RvQml0S1g3RFBGdGxxY0RqWXE0MVVaejBDRHlFa3BXNDcydjBYODdvWGgybjJFTnNfR1JoMlhsQUhhdVA4dWhiUHJNVEw0b09Camw5MERlRGhIeTVNRjh2Y2g5bXNreGZRcEtnN1EzNksxbE1tZHQ5ZnktdWQwclVVYw?oc=5",
-      "date": "Sat, 07 Nov 2026 22:58:13 GMT",
+      "title": "Jantar Mantar Protests: HPEC Received Hardly Any Complaints, SC Told - Deccan Chronicle",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPSkRjdHozZDN1TFd3TERla295MUVySjVuckd5YTM5VUpuNGVKcjRyU2I0MV9leHlmcjYyZzJQb2RNWE5raDduOVVvcE12NUp5SVJVaXlHUExtMFNIZXBWM3dvTHB2SkJZc2FGLWE3Nl91c0FUMUthVW41Rnp5eV85OTlJaDFvSzF0aFVlX2JmSGk1QjlKdFRZeVlpNDBfQXhsQURoUTJCUi1MVUlFQnI4d2hhMNIBuAFBVV95cUxPZmJxUWNRMEVyTmhpMUh3TnFWcVgwWkw2aUs2ZDBZbVZlQkVFeDBqTk9STVVfWWxiQzE3TmNxVjFRMmdqTFNJNTNhYlJNd1VFV2FETEpERVVTY3Y5enU3NmUyY1JhYjNfclIzVUNvX01ncDF4LXd0MEp0ZVBObE44RkdvYjdTTEFhejhPa1N3Z3FHc2NzTURlc3NpTHV2XzhjTXlMWDFTZnhDMHhDXzhPaDEtRXdRUkFt?oc=5",
+      "date": "Thu, 05 Nov 2026 09:49:21 GMT",
       "terms": [
         "Jantar Mantar"
       ],
@@ -49,9 +73,9 @@
       "kind": "NEW_ITEM",
       "target": "news-delhi",
       "label": "News: Jantar Mantar and the police action",
-      "title": "CJP leaders face 70 questions in 4-hour Jantar Mantar protest probe - OrissaPOST",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQZ2N5R0Rfbi0wMVRVT01NRkktSWpNUnJPbWVJZHdfc2prd1FTTmx2RjFocXl4bzkyVXZpQkZiVUo3Znp1QVZDX0dJUDVZWFV4S3pFWGxpc1EtblY4RUY3UGw4M2dRQ1o5SkpnX1pGbG5IM3BnLXNzSVBDVUo1MUFBeUpiY2Y3RmlQYlExYklac1J2ZGlaalBDeXFyb9IBmwFBVV95cUxQZ2N5R0Rfbi0wMVRVT01NRkktSWpNUnJPbWVJZHdfc2prd1FTTmx2RjFocXl4bzkyVXZpQkZiVUo3Znp1QVZDX0dJUDVZWFV4S3pFWGxpc1EtblY4RUY3UGw4M2dRQ1o5SkpnX1pGbG5IM3BnLXNzSVBDVUo1MUFBeUpiY2Y3RmlQYlExYklac1J2ZGlaalBDeXFybw?oc=5",
-      "date": "Thu, 05 Nov 2026 13:21:58 GMT",
+      "title": "CJP leaders questioned for 4 hours, asked around 70 questions over Jantar Mantar protest - ThePrint",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNRjVlN3lMZ244NXZVakxiNWtBMmhUc2RiZjduZHN0V1J5MXV2a2lmdUJIR05hLWF5MjNWbmlCUkc2WHRhdHdqTk05MFYyQVRFUXhSeWtrNDgwWWpIcW9hdThNN3J1N2hVZk5XRlJIN09la21zYmJqeU5vMEltWkJwZ1R5T2MzUUJkY0x2TThXS2RCcHZTSVdyLUp6elc1cDdfN1VSNGRROFFqSi1YTmtaQmY4Xy1BZUxxbV9BczJVVdIBxAFBVV95cUxNcTdvbHNYT3Z4S1ZKQTM2MXBQT1ZRT3doZmpyMExRMGRpSFYtLUpGcXc5ZVp4UHpEOTVySS1KUE9IUllHTVp6QlRoZ0Rod3FSVjBaTUJjSVVDSU1aQTVvNkhVb2FIMUdkSzVoODltaHd2WTd5TDdmLXB2LWNXUEx0X1ZHVnBjcDJZLWVYMlpLWTUwZUM4WTd1QkF5TkpVM0FWdDVZZnl4QXItdjhYV091UE9KN1lDUFFNTWJfclJ6Skw5MWx5?oc=5",
+      "date": "Thu, 05 Nov 2026 12:45:23 GMT",
       "terms": [
         "Jantar Mantar"
       ],
@@ -61,36 +85,11 @@
       "kind": "NEW_ITEM",
       "target": "news-delhi",
       "label": "News: Jantar Mantar and the police action",
-      "title": "Jantar Mantar ban pushes smaller protest groups in permission maze - The Siasat Daily",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQYjhWZHRpTGIwdmctcUVmY1V0UjhDcGdnZWNMZmZBRENBUUMxYTFFYW44V3B5Yk0wRGtENl9RT3NsZW5GVnJWclphZGlYZVo5dS0tRVFIcVE0c3BNU2hkVUl5dXpjVncyd0VLVDBad2V1RDNFYnd5YmNBQVBBTjY4a045QnRSNWpGZ3RVemhaYnhtb2NQVFNPbDFUQTYya3fSAaQBQVVfeXFMTnZmM1d2b2lQVnRNOVBnRnJFOFZSalNqSTZUV0NfUlQ5V2hLQ2pxRWtXakJvcVA5dHJSZ0ZnY1gwSFJiTTJTOXpESm9RcG14TGJkRFRLS1Mzb3E2S0w1SDhSZF9fdm84OThTQVJyUzFkcjBBQnI2YWxrTlZGWGhEbHFsdUh5U2hERVhvN3pnWTBtczNHTXhrQ0JuZWJfU1ZOc3BUQUw?oc=5",
-      "date": "Sun, 08 Nov 2026 12:29:04 GMT",
+      "title": "Delhi: CJP activists Saurabh Das, Ashutosh Ranka leave Crime Branch office after Jantar Mantar probe - ANI News",
+      "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNSGFlWHF5UkNpVXZrSHdKTTZfYW1jSlhXeGcwU3Q3elJYbDU4SjYxOXpRLXVpbjg1N1RjTUJ6VDR2RHNzS3h6aVExQXlwb0wzcFRkZFpmMEozUHFORnRhRDczQ0ZDR2ZycUtmeUhnM2Z3NVo4ZDZIQ3dFUzdWc280dWl0RzBHX1d5cXVvUHdxVUYwTVRpd1A3cV9EVGtHS1VTNW9vNEdZV3hVRjkxNVhuRGl5d2IxeDB5UzBnX0hQYTBMYVdHV3Q5ck5oajJnMHQyNTJjNmZQQkJjRG9lVmJUQ25kMlU3bEZOZ2kwQ2JxTTR3MXlI?oc=5",
+      "date": "Thu, 05 Nov 2026 12:36:00 GMT",
       "terms": [
         "Jantar Mantar"
-      ],
-      "note": "Leads, not evidence. Something reported here is a pointer to a document worth going after."
-    },
-    {
-      "kind": "NEW_ITEM",
-      "target": "news-delhi",
-      "label": "News: Jantar Mantar and the police action",
-      "title": "Jantar Mantar Barricades Removed After Protest Site De-Notification - Asianet Newsable",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNeXRVWFFIb3c2M29yU21KWGRNZ1QzUWRtOGlFSXV6cXZaX2ZZVVlmZTNENHBnVlplUmpGTDBwMnZwSW93VHA5TGdKaWNzOWRPZFdZaUNrdlMxZy1TbEZGb1pBUUFMVGI5NjVsdzR1Y0wxeC10aUxQX1FzN2dmQmJPamhMNWhoOGpHc0F0cE1RYXhjNHRFeHh5QnBQQXYyN19tRG9fNE4yUjM2R3R3VVdLS3EyTHFIV1haWmxLcHVJd3BjRzlE0gHKAUFVX3lxTE9GR1hlM1ZxLTh6cDJLR013TEFKR1Z4MEZxX2YzQ18xNE1CQzZfbEpqTmVYdGVpOVRWLTJ0SFlKNTlna3FaSnVNQTFKYkZGM0FwSHMtZUhEZVBPRE9vOUwwT0gxNjhHMkxjWThWakpkT2tocER5Mk5zZXF1RFRKeXptckh0czAwOXp5eFFfbHJJU2w0UmUxNGNNY1lDMXRXOTNnRlNndWd0VmZnU3R5S0k2MUdTQ2lGYUpEc1FJcC13SjRTSEJZaTl2WUE?oc=5",
-      "date": "Thu, 05 Nov 2026 04:01:45 GMT",
-      "terms": [
-        "Jantar Mantar"
-      ],
-      "note": "Leads, not evidence. Something reported here is a pointer to a document worth going after."
-    },
-    {
-      "kind": "NEW_ITEM",
-      "target": "news-delhi",
-      "label": "News: Jantar Mantar and the police action",
-      "title": "\"Save Democracy! Cancel SIR\": Abhijeet Dipke to join 'Jantar Mantar at Kochi' protest against CEC Kumar - India's News.Net",
-      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOUlIxcWd4RllENXJvQU9ERllCQnFwbEhROEw4VzZDLWNfV1BNVmk3QkwyRVp6TWljWkxMZkZjQVQ5ZFN1dGhhUV8wV0d2NDBaU1RRaTc2d3BkNVRrOVlnQVVObFYwa0J0Slc3WU9GQzVTNm9mUzFFSnBwWEhJTzRuZVNEdHA0YXRaYzhUdm1WMHpxUGFZcmR0aHlhUG5CdGdQcmZ4OEF1R1d4Q2p3NnpWV2xYVGUySjFSbUdRZWJoek1WTk0wMndLZnZkR1pWQVdmbjg2cEpR?oc=5",
-      "date": "Sat, 07 Nov 2026 18:33:00 GMT",
-      "terms": [
-        "Jantar Mantar",
-        "Kochi"
       ],
       "note": "Leads, not evidence. Something reported here is a pointer to a document worth going after."
     }
@@ -98,7 +97,7 @@
   "checked": [
     {
       "id": "delhi-hc-causelist",
-      "url": "https://delhihighcourt.nic.in/files/2026-11/cause-list/combined_cause_list_10.11.2026.pdf",
+      "url": "https://delhihighcourt.nic.in/files/2026-11/cause-list/combined_cause_list_11.11.2026.pdf",
       "status": 404,
       "outcome": "nothing-published"
     },
@@ -127,8 +126,8 @@
       "url": "https://www.barandbench.com/feed",
       "status": 200,
       "outcome": "ok",
-      "items": 11,
-      "matched": 0
+      "items": 16,
+      "matched": 2
     },
     {
       "id": "news-delhi",
@@ -136,14 +135,14 @@
       "status": 200,
       "outcome": "ok",
       "items": 100,
-      "matched": 5
+      "matched": 3
     },
     {
       "id": "news-cases",
       "url": "https://news.google.com/rss/search?q=%22Shailendra+Mani+Tripathi%22+OR+%22Shakeel+Abbas%22+OR+%22280%2F2026%22&hl=en-IN&gl=IN&ceid=IN:en",
       "status": 200,
       "outcome": "ok",
-      "items": 9,
+      "items": 8,
       "matched": 0
     },
     {
@@ -151,7 +150,7 @@
       "url": "https://news.google.com/rss/search?q=(%22facial+recognition%22+OR+%22Crime+Kundli%22)+(%22Delhi+Police%22+OR+protest)&hl=en-IN&gl=IN&ceid=IN:en",
       "status": 200,
       "outcome": "ok",
-      "items": 52,
+      "items": 51,
       "matched": 0
     },
     {

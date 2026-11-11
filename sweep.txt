@@ -1,12 +1,12 @@
-Sweep 2026-11-10: 9 targets, 175 watch terms.
+Sweep 2026-11-11: 9 targets, 175 watch terms.
   nothing-published  delhi-hc-causelist
   matched            delhi-hc-judgments
   matched            nhrc-press
   unreachable        eparlib
-  ok                 barandbench  11 item(s), 0 matched
-  ok                 news-delhi  100 item(s), 5 matched
-  ok                 news-cases  9 item(s), 0 matched
-  ok                 news-frt  52 item(s), 0 matched
+  ok                 barandbench  16 item(s), 2 matched
+  ok                 news-delhi  100 item(s), 3 matched
+  ok                 news-cases  8 item(s), 0 matched
+  ok                 news-frt  51 item(s), 0 matched
   ok                 news-bihar  51 item(s), 0 matched
 
 7 thing(s) to look at:
@@ -19,28 +19,28 @@ Sweep 2026-11-10: 9 targets, 175 watch terms.
   https://eparlib.sansad.in/
   fetch failed
 
+· [NEW_ITEM] Bar & Bench
+  Aadhaar card not conclusive proof of age; postmortem report more reliable: Madhya Pradesh High Court
+  https://www.barandbench.com/news/litigation/aadhaar-card-not-conclusive-proof-of-age-postmortem-report-more-reliable-madhya-pradesh-high-court
+  matched: Madhya Pradesh
+
+· [NEW_ITEM] Bar & Bench
+  CMS INDUSLAW advises Focus Prime on securing ₹145 crore investment; acquiring Foodexo Chennai
+  https://www.barandbench.com/law-firms/dealstreet/cms-induslaw-advises-focus-prime-on-securing-145-crore-investment-acquiring-foodexo-chennai
+  matched: Chennai
+
 · [NEW_ITEM] News: Jantar Mantar and the police action
-  Jantar Mantar off map, Delhi’s other protests have nowhere to go - The Indian Express
-  https://news.google.com/rss/articles/CBMiqAFBVV95cUxQdmM1Zm1Cb1FHTm00VWNjaUIzVXduLS1lMVgwUDNveHBHQy1UNm9vYmZlME91b0pJOHRBWndZR3RQOC1sb3BTRTVaWTlYZTYtejlpLV9nRTA4RUZ6bFJteVhjYVNBZHBJdnNEUHRGbEtqTW8wM1lpSG1BejFocXNtWE8yRzVFeUVVN0c3NWR0VTRHR1hVM0JvS2hJaFg2RmZkUGNMbk1fLUHSAa8BQVVfeXFMUElhRU9wYkJXNWdIMGFXQjVaQTdwdDJZcTdrQzBRemctcS1mQzRtdDhReHp6V2RvQml0S1g3RFBGdGxxY0RqWXE0MVVaejBDRHlFa3BXNDcydjBYODdvWGgybjJFTnNfR1JoMlhsQUhhdVA4dWhiUHJNVEw0b09Camw5MERlRGhIeTVNRjh2Y2g5bXNreGZRcEtnN1EzNksxbE1tZHQ5ZnktdWQwclVVYw?oc=5
+  Jantar Mantar Protests: HPEC Received Hardly Any Complaints, SC Told - Deccan Chronicle
+  https://news.google.com/rss/articles/CBMiswFBVV95cUxPSkRjdHozZDN1TFd3TERla295MUVySjVuckd5YTM5VUpuNGVKcjRyU2I0MV9leHlmcjYyZzJQb2RNWE5raDduOVVvcE12NUp5SVJVaXlHUExtMFNIZXBWM3dvTHB2SkJZc2FGLWE3Nl91c0FUMUthVW41Rnp5eV85OTlJaDFvSzF0aFVlX2JmSGk1QjlKdFRZeVlpNDBfQXhsQURoUTJCUi1MVUlFQnI4d2hhMNIBuAFBVV95cUxPZmJxUWNRMEVyTmhpMUh3TnFWcVgwWkw2aUs2ZDBZbVZlQkVFeDBqTk9STVVfWWxiQzE3TmNxVjFRMmdqTFNJNTNhYlJNd1VFV2FETEpERVVTY3Y5enU3NmUyY1JhYjNfclIzVUNvX01ncDF4LXd0MEp0ZVBObE44RkdvYjdTTEFhejhPa1N3Z3FHc2NzTURlc3NpTHV2XzhjTXlMWDFTZnhDMHhDXzhPaDEtRXdRUkFt?oc=5
   matched: Jantar Mantar
 
 · [NEW_ITEM] News: Jantar Mantar and the police action
-  CJP leaders face 70 questions in 4-hour Jantar Mantar protest probe - OrissaPOST
-  https://news.google.com/rss/articles/CBMimwFBVV95cUxQZ2N5R0Rfbi0wMVRVT01NRkktSWpNUnJPbWVJZHdfc2prd1FTTmx2RjFocXl4bzkyVXZpQkZiVUo3Znp1QVZDX0dJUDVZWFV4S3pFWGxpc1EtblY4RUY3UGw4M2dRQ1o5SkpnX1pGbG5IM3BnLXNzSVBDVUo1MUFBeUpiY2Y3RmlQYlExYklac1J2ZGlaalBDeXFyb9IBmwFBVV95cUxQZ2N5R0Rfbi0wMVRVT01NRkktSWpNUnJPbWVJZHdfc2prd1FTTmx2RjFocXl4bzkyVXZpQkZiVUo3Znp1QVZDX0dJUDVZWFV4S3pFWGxpc1EtblY4RUY3UGw4M2dRQ1o5SkpnX1pGbG5IM3BnLXNzSVBDVUo1MUFBeUpiY2Y3RmlQYlExYklac1J2ZGlaalBDeXFybw?oc=5
+  CJP leaders questioned for 4 hours, asked around 70 questions over Jantar Mantar protest - ThePrint
+  https://news.google.com/rss/articles/CBMivwFBVV95cUxNRjVlN3lMZ244NXZVakxiNWtBMmhUc2RiZjduZHN0V1J5MXV2a2lmdUJIR05hLWF5MjNWbmlCUkc2WHRhdHdqTk05MFYyQVRFUXhSeWtrNDgwWWpIcW9hdThNN3J1N2hVZk5XRlJIN09la21zYmJqeU5vMEltWkJwZ1R5T2MzUUJkY0x2TThXS2RCcHZTSVdyLUp6elc1cDdfN1VSNGRROFFqSi1YTmtaQmY4Xy1BZUxxbV9BczJVVdIBxAFBVV95cUxNcTdvbHNYT3Z4S1ZKQTM2MXBQT1ZRT3doZmpyMExRMGRpSFYtLUpGcXc5ZVp4UHpEOTVySS1KUE9IUllHTVp6QlRoZ0Rod3FSVjBaTUJjSVVDSU1aQTVvNkhVb2FIMUdkSzVoODltaHd2WTd5TDdmLXB2LWNXUEx0X1ZHVnBjcDJZLWVYMlpLWTUwZUM4WTd1QkF5TkpVM0FWdDVZZnl4QXItdjhYV091UE9KN1lDUFFNTWJfclJ6Skw5MWx5?oc=5
   matched: Jantar Mantar
 
 · [NEW_ITEM] News: Jantar Mantar and the police action
-  Jantar Mantar ban pushes smaller protest groups in permission maze - The Siasat Daily
-  https://news.google.com/rss/articles/CBMinwFBVV95cUxQYjhWZHRpTGIwdmctcUVmY1V0UjhDcGdnZWNMZmZBRENBUUMxYTFFYW44V3B5Yk0wRGtENl9RT3NsZW5GVnJWclphZGlYZVo5dS0tRVFIcVE0c3BNU2hkVUl5dXpjVncyd0VLVDBad2V1RDNFYnd5YmNBQVBBTjY4a045QnRSNWpGZ3RVemhaYnhtb2NQVFNPbDFUQTYya3fSAaQBQVVfeXFMTnZmM1d2b2lQVnRNOVBnRnJFOFZSalNqSTZUV0NfUlQ5V2hLQ2pxRWtXakJvcVA5dHJSZ0ZnY1gwSFJiTTJTOXpESm9RcG14TGJkRFRLS1Mzb3E2S0w1SDhSZF9fdm84OThTQVJyUzFkcjBBQnI2YWxrTlZGWGhEbHFsdUh5U2hERVhvN3pnWTBtczNHTXhrQ0JuZWJfU1ZOc3BUQUw?oc=5
+  Delhi: CJP activists Saurabh Das, Ashutosh Ranka leave Crime Branch office after Jantar Mantar probe - ANI News
+  https://news.google.com/rss/articles/CBMi9AFBVV95cUxNSGFlWHF5UkNpVXZrSHdKTTZfYW1jSlhXeGcwU3Q3elJYbDU4SjYxOXpRLXVpbjg1N1RjTUJ6VDR2RHNzS3h6aVExQXlwb0wzcFRkZFpmMEozUHFORnRhRDczQ0ZDR2ZycUtmeUhnM2Z3NVo4ZDZIQ3dFUzdWc280dWl0RzBHX1d5cXVvUHdxVUYwTVRpd1A3cV9EVGtHS1VTNW9vNEdZV3hVRjkxNVhuRGl5d2IxeDB5UzBnX0hQYTBMYVdHV3Q5ck5oajJnMHQyNTJjNmZQQkJjRG9lVmJUQ25kMlU3bEZOZ2kwQ2JxTTR3MXlI?oc=5
   matched: Jantar Mantar
-
-· [NEW_ITEM] News: Jantar Mantar and the police action
-  Jantar Mantar Barricades Removed After Protest Site De-Notification - Asianet Newsable
-  https://news.google.com/rss/articles/CBMixAFBVV95cUxNeXRVWFFIb3c2M29yU21KWGRNZ1QzUWRtOGlFSXV6cXZaX2ZZVVlmZTNENHBnVlplUmpGTDBwMnZwSW93VHA5TGdKaWNzOWRPZFdZaUNrdlMxZy1TbEZGb1pBUUFMVGI5NjVsdzR1Y0wxeC10aUxQX1FzN2dmQmJPamhMNWhoOGpHc0F0cE1RYXhjNHRFeHh5QnBQQXYyN19tRG9fNE4yUjM2R3R3VVdLS3EyTHFIV1haWmxLcHVJd3BjRzlE0gHKAUFVX3lxTE9GR1hlM1ZxLTh6cDJLR013TEFKR1Z4MEZxX2YzQ18xNE1CQzZfbEpqTmVYdGVpOVRWLTJ0SFlKNTlna3FaSnVNQTFKYkZGM0FwSHMtZUhEZVBPRE9vOUwwT0gxNjhHMkxjWThWakpkT2tocER5Mk5zZXF1RFRKeXptckh0czAwOXp5eFFfbHJJU2w0UmUxNGNNY1lDMXRXOTNnRlNndWd0VmZnU3R5S0k2MUdTQ2lGYUpEc1FJcC13SjRTSEJZaTl2WUE?oc=5
-  matched: Jantar Mantar
-
-· [NEW_ITEM] News: Jantar Mantar and the police action
-  "Save Democracy! Cancel SIR": Abhijeet Dipke to join 'Jantar Mantar at Kochi' protest against CEC Kumar - India's News.Net
-  https://news.google.com/rss/articles/CBMi1gFBVV95cUxOUlIxcWd4RllENXJvQU9ERllCQnFwbEhROEw4VzZDLWNfV1BNVmk3QkwyRVp6TWljWkxMZkZjQVQ5ZFN1dGhhUV8wV0d2NDBaU1RRaTc2d3BkNVRrOVlnQVVObFYwa0J0Slc3WU9GQzVTNm9mUzFFSnBwWEhJTzRuZVNEdHA0YXRaYzhUdm1WMHpxUGFZcmR0aHlhUG5CdGdQcmZ4OEF1R1d4Q2p3NnpWV2xYVGUySjFSbUdRZWJoek1WTk0wMndLZnZkR1pWQVdmbjg2cEpR?oc=5
-  matched: Jantar Mantar, Kochi
 
