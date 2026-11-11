@@ -8542,7 +8542,9 @@
         "source_type": "secondary",
         "publication": "Sakshi Post",
         "retrieved_on": "2026-10-10",
-        "originates_from": "IANS"
+        "originates_from": "IANS",
+        "archive_url": "http://web.archive.org/web/20261110101000/https://www.sakshipost.com/news/calcutta-hc-rejects-bengal-govt-s-plea-ban-march-secretariat-326096",
+        "archived_on": "2026-11-11"
       }
     ],
     "notes": "Corrected 10 October 2026 against the order itself (HIST-CRT-004). An earlier version of this item, built on a news report, said the court refused the State's plea for a ban. The order shows the petitioner was a private litigant who sought the ban and that the State argued against the rally. Single report read (IANS via Sakshi Post). Second judge's name inconsistent across search snippets. Order text not read. Directly bears on the 'permission' question: the court declined to ban, which is not the same as granting permission. Primary source: Calcutta High Court order of 23 August 2024, to be obtained via the High Court website or Indian Kanoon.",
@@ -8662,7 +8664,9 @@
         "source_type": "secondary",
         "publication": "Morung Express",
         "retrieved_on": "2026-10-10",
-        "originates_from": "IANS"
+        "originates_from": "IANS",
+        "archive_url": "https://web.archive.org/web/20261111094313/https://mail.morungexpress.com/nabanna-abhijan-nhrc-issues-notice-to-kolkata-police",
+        "archived_on": "2026-11-11"
       },
       {
         "url": "https://www.thehitavada.com/Encyc/2024/8/28/Nabanna-Abhijan-Rally.html",
@@ -8783,7 +8787,9 @@
         "source_type": "secondary",
         "publication": "Morung Express",
         "retrieved_on": "2026-10-10",
-        "originates_from": "IANS"
+        "originates_from": "IANS",
+        "archive_url": "https://web.archive.org/web/20261111094313/https://mail.morungexpress.com/nabanna-abhijan-nhrc-issues-notice-to-kolkata-police",
+        "archived_on": "2026-11-11"
       }
     ],
     "notes": "Two reports read. Exact notice date not stated: 'Thursday' (ETV Bharat, i.e. likely 29 August 2024) while IANS dated its story 30 August. The complaint is the complainant's allegation. Kolkata Police reply not found. NHRC case number not found.",
@@ -8918,7 +8924,9 @@
         "url": "http://zeenews.india.com/news/west-bengal/intellectuals-condemn-police-action-in-jadavpur-university_1475155.html",
         "source_type": "secondary",
         "publication": "Zee News, 24 September 2014",
-        "retrieved_on": "2026-10-10"
+        "retrieved_on": "2026-10-10",
+        "archive_url": "http://web.archive.org/web/20250123054854/https://zeenews.india.com/news/west-bengal/intellectuals-condemn-police-action-in-jadavpur-university_1475155.html",
+        "archived_on": "2026-11-11"
       }
     ],
     "notes": "Four news outlets agree on the occurrence. None is a primary document. Time of entry: DNA says about 2:00 a.m.; Gulf News (PTI) says 'early hours of Wednesday'. Wikipedia (not relied on) says police arrived about 8 p.m. on 16 September and the action came about 2 a.m. No finding on the lawfulness or proportionality of the entry or of any force. Incident id left blank for the editor to assign.",
@@ -8993,13 +9001,17 @@
         "url": "https://www.change.org/p/the-honourable-governor-condemn-the-police-brutality-against-the-students-in-jadavpur-university-kolkata-india",
         "source_type": "secondary",
         "publication": "Change.org petition by the Rationalists and Humanists' Forum of India, dated 19 September 2014 (advocacy, not independent reporting)",
-        "retrieved_on": "2026-10-10"
+        "retrieved_on": "2026-10-10",
+        "archive_url": "http://web.archive.org/web/20141219092456/https://www.change.org/p/the-honourable-governor-condemn-the-police-brutality-against-the-students-in-jadavpur-university-kolkata-india",
+        "archived_on": "2026-11-11"
       },
       {
         "url": "https://en.wikipedia.org/wiki/2014_Jadavpur_University_protests",
         "source_type": "tertiary",
         "publication": "Wikipedia, '2014 Jadavpur University protests' (tertiary; the news articles it cites from timesofindia, thehindu, business-standard and telegraphindia could not be fetched, so it is not used to raise confidence)",
-        "retrieved_on": "2026-10-10"
+        "retrieved_on": "2026-10-10",
+        "archive_url": "http://web.archive.org/web/20261009164151/https://en.wikipedia.org/wiki/2014_Jadavpur_University_protests",
+        "archived_on": "2026-11-11"
       }
     ],
     "notes": "Version (b) is not necessarily a denial of 16 and 17 September: the quoted sentence is undated and its context in the article is not given beyond the sentence. It is recorded as a conflict because on its face it sits against (a). Version (c) rests only on Wikipedia, whose cited Hindu article could not be fetched. Version (d) is an advocacy petition. Not resolved. What would resolve it: the written requisition or the police station diary entry recording who asked for entry, the Executive Council minutes, and any affidavit.",
@@ -9028,7 +9040,9 @@
         "url": "https://www.change.org/p/the-honourable-governor-condemn-the-police-brutality-against-the-students-in-jadavpur-university-kolkata-india",
         "source_type": "secondary",
         "publication": "Change.org petition by the Rationalists and Humanists' Forum of India, dated 19 September 2014 (advocacy, not independent reporting)",
-        "retrieved_on": "2026-10-10"
+        "retrieved_on": "2026-10-10",
+        "archive_url": "http://web.archive.org/web/20141219092456/https://www.change.org/p/the-honourable-governor-condemn-the-police-brutality-against-the-students-in-jadavpur-university-kolkata-india",
+        "archived_on": "2026-11-11"
       },
       {
         "url": "https://www.thenewsminute.com/news/bengal-government-backs-police-says-no-baton-charge-jadavpur-students-21339",
@@ -9072,13 +9086,17 @@
         "url": "https://en.wikipedia.org/wiki/2014_Jadavpur_University_protests",
         "source_type": "tertiary",
         "publication": "Wikipedia, '2014 Jadavpur University protests' (tertiary; the news articles it cites from timesofindia, thehindu, business-standard and telegraphindia could not be fetched, so it is not used to raise confidence)",
-        "retrieved_on": "2026-10-10"
+        "retrieved_on": "2026-10-10",
+        "archive_url": "http://web.archive.org/web/20261009164151/https://en.wikipedia.org/wiki/2014_Jadavpur_University_protests",
+        "archived_on": "2026-11-11"
       },
       {
         "url": "https://www.change.org/p/the-honourable-governor-condemn-the-police-brutality-against-the-students-in-jadavpur-university-kolkata-india",
         "source_type": "secondary",
         "publication": "Change.org petition by the Rationalists and Humanists' Forum of India, dated 19 September 2014 (advocacy, not independent reporting)",
-        "retrieved_on": "2026-10-10"
+        "retrieved_on": "2026-10-10",
+        "archive_url": "http://web.archive.org/web/20141219092456/https://www.change.org/p/the-honourable-governor-condemn-the-police-brutality-against-the-students-in-jadavpur-university-kolkata-india",
+        "archived_on": "2026-11-11"
       },
       {
         "url": "https://globalvoices.org/2014/10/10/hokkolorob-a-student-movement-against-a-mishandled-rape-investigation-rocks-west-bengal/",
@@ -9127,13 +9145,17 @@
         "url": "https://www.change.org/p/the-honourable-governor-condemn-the-police-brutality-against-the-students-in-jadavpur-university-kolkata-india",
         "source_type": "secondary",
         "publication": "Change.org petition by the Rationalists and Humanists' Forum of India, dated 19 September 2014 (advocacy, not independent reporting)",
-        "retrieved_on": "2026-10-10"
+        "retrieved_on": "2026-10-10",
+        "archive_url": "http://web.archive.org/web/20141219092456/https://www.change.org/p/the-honourable-governor-condemn-the-police-brutality-against-the-students-in-jadavpur-university-kolkata-india",
+        "archived_on": "2026-11-11"
       },
       {
         "url": "https://en.wikipedia.org/wiki/2014_Jadavpur_University_protests",
         "source_type": "tertiary",
         "publication": "Wikipedia, '2014 Jadavpur University protests' (tertiary; the news articles it cites from timesofindia, thehindu, business-standard and telegraphindia could not be fetched, so it is not used to raise confidence)",
-        "retrieved_on": "2026-10-10"
+        "retrieved_on": "2026-10-10",
+        "archive_url": "http://web.archive.org/web/20261009164151/https://en.wikipedia.org/wiki/2014_Jadavpur_University_protests",
+        "archived_on": "2026-11-11"
       }
     ],
     "notes": "Counts differ between and inside sources. No arrest memo, FIR or court remand order was read, so the true figure and the sections charged are not established. Gulf News adds that police said the blockade at Jadavpur Police Station was lifted on the condition of an independent probe into the alleged harassment.",
@@ -9167,13 +9189,17 @@
         "url": "https://www.change.org/p/the-honourable-governor-condemn-the-police-brutality-against-the-students-in-jadavpur-university-kolkata-india",
         "source_type": "secondary",
         "publication": "Change.org petition by the Rationalists and Humanists' Forum of India, dated 19 September 2014 (advocacy, not independent reporting)",
-        "retrieved_on": "2026-10-10"
+        "retrieved_on": "2026-10-10",
+        "archive_url": "http://web.archive.org/web/20141219092456/https://www.change.org/p/the-honourable-governor-condemn-the-police-brutality-against-the-students-in-jadavpur-university-kolkata-india",
+        "archived_on": "2026-11-11"
       },
       {
         "url": "https://en.wikipedia.org/wiki/2014_Jadavpur_University_protests",
         "source_type": "tertiary",
         "publication": "Wikipedia, '2014 Jadavpur University protests' (tertiary; the news articles it cites from timesofindia, thehindu, business-standard and telegraphindia could not be fetched, so it is not used to raise confidence)",
-        "retrieved_on": "2026-10-10"
+        "retrieved_on": "2026-10-10",
+        "archive_url": "http://web.archive.org/web/20261009164151/https://en.wikipedia.org/wiki/2014_Jadavpur_University_protests",
+        "archived_on": "2026-11-11"
       }
     ],
     "notes": "No hospital record, medico-legal certificate or official count was read. The 40 figure is unsourced and should not be repeated. Medico-legal records need the consent of the persons concerned.",
@@ -9191,7 +9217,9 @@
         "url": "https://en.wikipedia.org/wiki/2014_Jadavpur_University_protests",
         "source_type": "tertiary",
         "publication": "Wikipedia, '2014 Jadavpur University protests' (tertiary; the news articles it cites from timesofindia, thehindu, business-standard and telegraphindia could not be fetched, so it is not used to raise confidence)",
-        "retrieved_on": "2026-10-10"
+        "retrieved_on": "2026-10-10",
+        "archive_url": "http://web.archive.org/web/20261009164151/https://en.wikipedia.org/wiki/2014_Jadavpur_University_protests",
+        "archived_on": "2026-11-11"
       }
     ],
     "notes": "Dates rest on Wikipedia alone; its cited Times of India, Telegraph and Ei Samay pieces were not fetched. The existence of a molestation complaint as the cause of the protest is reported by the other sources in HIST-JU14-001 without those dates. Records to request: the FIR or complaint registered, the general diary entry, and the case file status.",

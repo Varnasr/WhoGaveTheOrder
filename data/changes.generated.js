@@ -5,6 +5,72 @@ window.WGO = window.WGO || {};
 
 WGO.changes = [
   {
+    "commit": "356446b76a",
+    "date": "2026-11-10T10:12:22Z",
+    "subject": "Sweep log and archived copies for 2026-11-10 [skip ci]",
+    "added": [],
+    "removed": [],
+    "changed": [
+      {
+        "id": "SRC-0241",
+        "kind": "Source",
+        "title": "IANS",
+        "state": null,
+        "url": "https://ianslive.in/calcutta-hc-directs-immediate-release-of-convenor-of-nabanna-abhijan--20240830210306",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "https://web.archive.org/web/20261110100914/https://ianslive.in/calcutta-hc-directs-immediate-release-of-convenor-of-nabanna-abhijan--20240830210306"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0254",
+        "kind": "Source",
+        "title": "LiveLaw",
+        "state": null,
+        "url": "https://www.livelaw.in/amp/top-stories/pil-in-calcutta-high-court-challenges-12-hour-bandh-called-by-bjp-to-protest-police-action-during-nabanna-march-over-rg-kar-incident-267832",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20240827215638/https://www.livelaw.in/amp/top-stories/pil-in-calcutta-high-court-challenges-12-hour-bandh-called-by-bjp-to-protest-police-action-during-nabanna-march-over-rg-kar-incident-267832"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0255",
+        "kind": "Source",
+        "title": "DNA India, 17 September 2014",
+        "state": null,
+        "url": "http://www.dnaindia.com/india/report-jadavpur-university-molestation-case-protesting-students-beaten-up-by-police-and-outsiders-2-critically-injured-2019279",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20231120090102/https://www.dnaindia.com/india/report-jadavpur-university-molestation-case-protesting-students-beaten-up-by-police-and-outsiders-2-critically-injured-2019279"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0256",
+        "kind": "Source",
+        "title": "Global Voices, 10 October 2014",
+        "state": null,
+        "url": "https://globalvoices.org/2014/10/10/hokkolorob-a-student-movement-against-a-mishandled-rape-investigation-rocks-west-bengal/",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20260411075019/https://globalvoices.org/2014/10/10/hokkolorob-a-student-movement-against-a-mishandled-rape-investigation-rocks-west-bengal/"
+          }
+        ]
+      }
+    ],
+    "summary": "4 records edited"
+  },
+  {
     "commit": "43b05bcc3a",
     "date": "2026-11-09T10:03:18Z",
     "subject": "Sweep log and archived copies for 2026-11-09 [skip ci]",
