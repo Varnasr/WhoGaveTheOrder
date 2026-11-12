@@ -1,15 +1,15 @@
-Sweep 2026-11-11: 9 targets, 175 watch terms.
+Sweep 2026-11-12: 9 targets, 175 watch terms.
   nothing-published  delhi-hc-causelist
   matched            delhi-hc-judgments
   matched            nhrc-press
   unreachable        eparlib
-  ok                 barandbench  16 item(s), 2 matched
-  ok                 news-delhi  100 item(s), 3 matched
-  ok                 news-cases  8 item(s), 0 matched
-  ok                 news-frt  51 item(s), 0 matched
-  ok                 news-bihar  51 item(s), 0 matched
+  ok                 barandbench  23 item(s), 1 matched
+  ok                 news-delhi  85 item(s), 4 matched
+  ok                 news-cases  9 item(s), 0 matched
+  ok                 news-frt  51 item(s), 1 matched
+  ok                 news-bihar  54 item(s), 0 matched
 
-7 thing(s) to look at:
+8 thing(s) to look at:
 
 · [CHANGED_MATCH] Delhi High Court, latest judgments
   https://delhihighcourt.nic.in/web/judgement/fetch-data
@@ -20,27 +20,32 @@ Sweep 2026-11-11: 9 targets, 175 watch terms.
   fetch failed
 
 · [NEW_ITEM] Bar & Bench
-  Aadhaar card not conclusive proof of age; postmortem report more reliable: Madhya Pradesh High Court
-  https://www.barandbench.com/news/litigation/aadhaar-card-not-conclusive-proof-of-age-postmortem-report-more-reliable-madhya-pradesh-high-court
-  matched: Madhya Pradesh
-
-· [NEW_ITEM] Bar & Bench
-  CMS INDUSLAW advises Focus Prime on securing ₹145 crore investment; acquiring Foodexo Chennai
-  https://www.barandbench.com/law-firms/dealstreet/cms-induslaw-advises-focus-prime-on-securing-145-crore-investment-acquiring-foodexo-chennai
+  Chambers of K Sumathi is looking to hire Junior Litigation Associates in Chennai
+  https://www.barandbench.com/legal-jobs/chambers-of-k-sumathi-is-looking-to-hire-junior-litigation-associates-in-chennai
   matched: Chennai
 
 · [NEW_ITEM] News: Jantar Mantar and the police action
-  Jantar Mantar Protests: HPEC Received Hardly Any Complaints, SC Told - Deccan Chronicle
-  https://news.google.com/rss/articles/CBMiswFBVV95cUxPSkRjdHozZDN1TFd3TERla295MUVySjVuckd5YTM5VUpuNGVKcjRyU2I0MV9leHlmcjYyZzJQb2RNWE5raDduOVVvcE12NUp5SVJVaXlHUExtMFNIZXBWM3dvTHB2SkJZc2FGLWE3Nl91c0FUMUthVW41Rnp5eV85OTlJaDFvSzF0aFVlX2JmSGk1QjlKdFRZeVlpNDBfQXhsQURoUTJCUi1MVUlFQnI4d2hhMNIBuAFBVV95cUxPZmJxUWNRMEVyTmhpMUh3TnFWcVgwWkw2aUs2ZDBZbVZlQkVFeDBqTk9STVVfWWxiQzE3TmNxVjFRMmdqTFNJNTNhYlJNd1VFV2FETEpERVVTY3Y5enU3NmUyY1JhYjNfclIzVUNvX01ncDF4LXd0MEp0ZVBObE44RkdvYjdTTEFhejhPa1N3Z3FHc2NzTURlc3NpTHV2XzhjTXlMWDFTZnhDMHhDXzhPaDEtRXdRUkFt?oc=5
+  Jantar Mantar barricades removed after denotification - Rediff
+  https://news.google.com/rss/articles/CBMiowFBVV95cUxNUW5Td0RJVjlUVUhicVJiUS1zbHVoeUp4eW9xUkJvRnY2VlR2SmJaUjl1dV9ZRGpiNktZUk9lZGprdEZ6eFpuaDZ1NW02MnpCLVpTMXBtZnUtLUVvLV90TFdlSTg2S2U5QWZ1X0xyV0gtbE1HM3RRMngyVkZhNWNhZEYxc29LZHJ2SUs1TGJHS1VKR1hUaWNBbDBkTFMzbldqVjE00gGmAUFVX3lxTE5wamE4dHhJSWJXWHVMRUJ2V1V0TUhycFZnN0lwazc5dU9PM2RLeVM5b0dhbEVwUDNJMEpFQnQ5WlU4YUNvWUNxckNHMTNiV05mai1meDY1am1FX21KZzFqVzcxUVE3U3RraFpnbVZENFFoNXJFTE9IZlB2dWM1LUdfcm94cWR0WDdzUUVRMkg1VEN2dmFOTmlGSU56QW9HTkNtVTZoSlE?oc=5
   matched: Jantar Mantar
 
 · [NEW_ITEM] News: Jantar Mantar and the police action
-  CJP leaders questioned for 4 hours, asked around 70 questions over Jantar Mantar protest - ThePrint
-  https://news.google.com/rss/articles/CBMivwFBVV95cUxNRjVlN3lMZ244NXZVakxiNWtBMmhUc2RiZjduZHN0V1J5MXV2a2lmdUJIR05hLWF5MjNWbmlCUkc2WHRhdHdqTk05MFYyQVRFUXhSeWtrNDgwWWpIcW9hdThNN3J1N2hVZk5XRlJIN09la21zYmJqeU5vMEltWkJwZ1R5T2MzUUJkY0x2TThXS2RCcHZTSVdyLUp6elc1cDdfN1VSNGRROFFqSi1YTmtaQmY4Xy1BZUxxbV9BczJVVdIBxAFBVV95cUxNcTdvbHNYT3Z4S1ZKQTM2MXBQT1ZRT3doZmpyMExRMGRpSFYtLUpGcXc5ZVp4UHpEOTVySS1KUE9IUllHTVp6QlRoZ0Rod3FSVjBaTUJjSVVDSU1aQTVvNkhVb2FIMUdkSzVoODltaHd2WTd5TDdmLXB2LWNXUEx0X1ZHVnBjcDJZLWVYMlpLWTUwZUM4WTd1QkF5TkpVM0FWdDVZZnl4QXItdjhYV091UE9KN1lDUFFNTWJfclJ6Skw5MWx5?oc=5
+  Jantar Mantar 2.0 Updates: Detained in Unmarked Car, Neha Bora Released Without Bag, Phone - TheWire.in
+  https://news.google.com/rss/articles/CBMi1AFBVV95cUxOaTFlVm1ab3hNemVrOHF6SHNnZnhoZVVaUWNQWkV3WkkxWEJ6OXl2Q1d3Q2gtZGZaUDQ0MW5OczhjSDNfd19xVC02Q0p2NzR0M01kczVGRjlVT3R3RUlYZFRKRW4yTEhoSEN5QTYtMVIyQzJIaW51M0M2dmN3R0ZpbElSNmg4RWZuUlE4TVZVTlpRRWlYZjcwVWVTTkY3WllBUVVueHg1R05FMVFhU2s5UEt2bllCaElFNTVpeFp3aUlfbTNGM25qR0tWaXRqVF9nVkY3M9IB5AFBVV95cUxQZ2dMUHI1OVdXbV9jTkluTDBLLWJSMmpiRzNFLTJnUWJvQkNScl81X2J5azVQMXB3M3EwQ0xvendnWnhsbTJFU0M1SFI0RjZSUzRSNzhWM0czdlAycjNkYTYzZXFtcGxUcTA0VnhFV09WY3NYZDh6OE8zODFSQWlFVlpHcEtPUkZuZVRpZkRMdEpJRUZ4dXZBTXpmMEJUUHc3TnQwTnNwM2JkVExCeUpYTXdnMEEtQXItakVmbTNHVzdBTDRuaEdjWU4xM3NuQzdyUktJSWdsTjNaQ3ZaejNJSmhJRXA?oc=5
   matched: Jantar Mantar
 
 · [NEW_ITEM] News: Jantar Mantar and the police action
-  Delhi: CJP activists Saurabh Das, Ashutosh Ranka leave Crime Branch office after Jantar Mantar probe - ANI News
-  https://news.google.com/rss/articles/CBMi9AFBVV95cUxNSGFlWHF5UkNpVXZrSHdKTTZfYW1jSlhXeGcwU3Q3elJYbDU4SjYxOXpRLXVpbjg1N1RjTUJ6VDR2RHNzS3h6aVExQXlwb0wzcFRkZFpmMEozUHFORnRhRDczQ0ZDR2ZycUtmeUhnM2Z3NVo4ZDZIQ3dFUzdWc280dWl0RzBHX1d5cXVvUHdxVUYwTVRpd1A3cV9EVGtHS1VTNW9vNEdZV3hVRjkxNVhuRGl5d2IxeDB5UzBnX0hQYTBMYVdHV3Q5ck5oajJnMHQyNTJjNmZQQkJjRG9lVmJUQ25kMlU3bEZOZ2kwQ2JxTTR3MXlI?oc=5
+  Jantar Mantar protests: HPEC received hardly any complaints, SC told | Latest News Delhi - Hindustan Times
+  https://news.google.com/rss/articles/CBMi0gFBVV95cUxPYS04aXRQSV9ucTRtUXlhcDRuYnZ3aTBrUm52ZzBHc2R6Q2taZ0lmT2Nhak1Td3NlU1FYdmlhbjVJWG9lZldDb0Y4OFNDREJraDhVNTAzaGQwVERoemZ3MEZoeC1BWHJoYXFVQlNsd1BtS1JuQTRtRDBySGhFOUUwZDJaR0NGYllfTUpuZ1B1eU5ibUdRVTRsWFVQREdaczdUTVg1cDNaWlNzRm41alZGMHhWN0JBU1ROWmo3cGw1N0xWdnlGQUR4S05BOGo1Qm11VnfSAdcBQVVfeXFMTmh0OFljM3hHSlVXeGNTeDRuNExUOFJxZFIzdFVBUGdmOUZoUDJvb3FpeVV2VHRxaFEyWF9Gd0R6Mnc0NjQ2VlB4SVNqcGlSOHh5c1RJOXN4azdkSHFZRkpiYVJYUE8xeGdjU2JjR2kzSlIwWDdwT3BhaURfdGtEOElCOWotbW8zRmhqSnRld0t0OVVjZEdkd19LT2NIOFNlczRKUmtqRzlGY1pjWXNucEM0M2htR0lrMENnVnRZQmFkVnEwRk5td0JHclhxSllMdzNiYnJMNkk?oc=5
   matched: Jantar Mantar
+
+· [NEW_ITEM] News: Jantar Mantar and the police action
+  Jantar Mantar at Kochi: CJP to hold anti-SIR protest on Nov 7 - The Siasat Daily
+  https://news.google.com/rss/articles/CBMilwFBVV95cUxNbTlJWDRqSVdGajhBazJIeVFmdkZ5eDdqT2xNbGt4SWlWdFZZUXJiQ0Z1MGJpeTN4b1Jic0VIQU40VWFYODJrQjV3eHU2ME1GX0dOX25Md3d4a3BaQWVRVVpwb3BsUnM3Wm5iV09GeURIQ01laUhKNG9lT3YxTmJFOXpIbjIwR2dsSVJwYUF4YzQtR2N6NWNr0gGcAUFVX3lxTFA3SlNFdXZWZ1VRaTdSUnB3aVZzY3pSX0hNNDJOczJxaTEtVzlxdU9zQmVRUFFOQkR2VC1ydVRwaUJWQXNxazJHS0l0X0hhTDE2eFZBMUZETWQxSzgzVjNLUVNjc1lUcVB1ZGNXZkNqeEotcHBXbHo5alRjelgxZEd1cnBXQVNRaTRsTUgtNWc1RUVuSXlsZEt1Qnl3MQ?oc=5
+  matched: Jantar Mantar, Kochi
+
+· [NEW_ITEM] News: facial recognition and the surveillance question
+  AI-powered facial recognition cameras, 5,000 personnel to secure Delhi trade fair - The New Indian Express
+  https://news.google.com/rss/articles/CBMi0wFBVV95cUxPUlpsemhCSTFyd1pSQ0JTeXAyV3NLS194SG9Ca01rUk9yUXlWc3lRSFpzSWxrOWEtU0c5YnZ2T1diOUZpR1dqSFlPdTgxS3JKcWpiZ2pZbWV4Nkd2MEZQeGxQX1FrdW0wdjZGdUMwVHNZZUVBeGdMY2pvb1VMSkRmalBYN0NmRXVmeWgzQ3Q1dGFNVVZZVmpqUnZYRkRCX1NKLTNYaU1YV0NPSnlhT1BfQ3JfQjZiazl5MUh4T0xGTVM2RVBVaEQtWHcwMVhucmg1dGJv0gHgAUFVX3lxTE9feUhLaXJQWEQxR0JiOVdlckZDUXN1WVhTTkxfOWcyUlFSUVNnZDRpd0ZtVlAtajg0aHl4WWotelI4bEZZMGlMdjQ0QmoxQnVoTUNfMmFlSTNBNWZEOTJEa2pubEFtTl9qaWxzOUtyUmhSRmQtbi05b2lGY1otM0ZySy1WSWhtQ2gzYllQY3RNN19BR2VILVd0RnR5enBxaDNmREpSRHY2LXZvcGV6M3J4X0tjMUF0bjMyWVZJdDFnSUdqYkdIckVoMGFUb2l6UE9JTm5TbWo2U2hOZ3ZFWU9q?oc=5
+  matched: facial recognition
 
