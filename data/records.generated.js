@@ -2441,8 +2441,8 @@ WGO.importedSources = [
     "kind": "SECONDARY",
     "url": "https://www.etvbharat.com/amp/en/!state/nhrc-issues-notice-to-kolkata-police-chief-over-brutal-force-used-during-protests-enn24083100217",
     "retrievedOn": "2026-10-10",
-    "archiveUrl": null,
-    "archivedOn": null,
+    "archiveUrl": "http://web.archive.org/web/20261111094236/https://www.etvbharat.com/amp/en/!state/nhrc-issues-notice-to-kolkata-police-chief-over-brutal-force-used-during-protests-enn24083100217",
+    "archivedOn": "2026-11-12",
     "sha256": null,
     "originatesFrom": null
   },
@@ -2485,8 +2485,8 @@ WGO.importedSources = [
     "kind": "SECONDARY",
     "url": "https://swarajyamag.com/amp/story/news-brief/mamata-banerjee-praises-kolkata-police-for-suppressing-nabanna-march-claims-bjp-defaming-west-bengal-in-rg-kar-case",
     "retrievedOn": "2026-10-10",
-    "archiveUrl": null,
-    "archivedOn": null,
+    "archiveUrl": "https://web.archive.org/web/20261112100103/https://swarajyamag.com/amp/story/news-brief/mamata-banerjee-praises-kolkata-police-for-suppressing-nabanna-march-claims-bjp-defaming-west-bengal-in-rg-kar-case",
+    "archivedOn": "2026-11-12",
     "sha256": null,
     "originatesFrom": null
   },
@@ -2617,8 +2617,8 @@ WGO.importedSources = [
     "kind": "SECONDARY",
     "url": "https://ummid.com/news/2015/August/19.08.2015/outrage-against-ftii-students-arrest.html",
     "retrievedOn": "2026-10-10",
-    "archiveUrl": null,
-    "archivedOn": null,
+    "archiveUrl": "http://web.archive.org/web/20250512081959/https://ummid.com/news/2015/August/19.08.2015/outrage-against-ftii-students-arrest.html",
+    "archivedOn": "2026-11-12",
     "sha256": null,
     "originatesFrom": "IANS"
   },

@@ -5,6 +5,86 @@ window.WGO = window.WGO || {};
 
 WGO.changes = [
   {
+    "commit": "0e04939763",
+    "date": "2026-11-11T09:45:19Z",
+    "subject": "Sweep log and archived copies for 2026-11-11 [skip ci]",
+    "added": [],
+    "removed": [],
+    "changed": [
+      {
+        "id": "SRC-0247",
+        "kind": "Source",
+        "title": "Sakshi Post",
+        "state": null,
+        "url": "https://www.sakshipost.com/news/calcutta-hc-rejects-bengal-govt-s-plea-ban-march-secretariat-326096",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20261110101000/https://www.sakshipost.com/news/calcutta-hc-rejects-bengal-govt-s-plea-ban-march-secretariat-326096"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0250",
+        "kind": "Source",
+        "title": "Morung Express",
+        "state": null,
+        "url": "https://mail.morungexpress.com/nabanna-abhijan-nhrc-issues-notice-to-kolkata-police",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "https://web.archive.org/web/20261111094313/https://mail.morungexpress.com/nabanna-abhijan-nhrc-issues-notice-to-kolkata-police"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0258",
+        "kind": "Source",
+        "title": "Zee News, 24 September 2014",
+        "state": null,
+        "url": "http://zeenews.india.com/news/west-bengal/intellectuals-condemn-police-action-in-jadavpur-university_1475155.html",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20250123054854/https://zeenews.india.com/news/west-bengal/intellectuals-condemn-police-action-in-jadavpur-university_1475155.html"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0260",
+        "kind": "Source",
+        "title": "Change.org petition by the Rationalists and Humanists' Forum of India, dated 19 September 2014 (advocacy, not independent reporting)",
+        "state": null,
+        "url": "https://www.change.org/p/the-honourable-governor-condemn-the-police-brutality-against-the-students-in-jadavpur-university-kolkata-india",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20141219092456/https://www.change.org/p/the-honourable-governor-condemn-the-police-brutality-against-the-students-in-jadavpur-university-kolkata-india"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0261",
+        "kind": "Source",
+        "title": "Wikipedia, '2014 Jadavpur University protests' (tertiary; the news articles it cites from timesofindia, thehindu, business-standard and telegraphindia could not be fetched, so it is not used to raise confidence)",
+        "state": null,
+        "url": "https://en.wikipedia.org/wiki/2014_Jadavpur_University_protests",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20261009164151/https://en.wikipedia.org/wiki/2014_Jadavpur_University_protests"
+          }
+        ]
+      }
+    ],
+    "summary": "5 records edited"
+  },
+  {
     "commit": "356446b76a",
     "date": "2026-11-10T10:12:22Z",
     "subject": "Sweep log and archived copies for 2026-11-10 [skip ci]",
