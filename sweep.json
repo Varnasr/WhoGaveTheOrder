@@ -1,30 +1,17 @@
 {
   "run": {
-    "date": "2026-11-12",
+    "date": "2026-11-13",
     "targets": 9,
-    "findings": 8,
+    "findings": 4,
     "outcomes": {
       "nothing-published": 1,
-      "matched": 2,
+      "changed-no-match": 1,
+      "matched": 1,
       "unreachable": 1,
       "ok": 5
     }
   },
   "findings": [
-    {
-      "kind": "CHANGED_MATCH",
-      "target": "delhi-hc-judgments",
-      "label": "Delhi High Court, latest judgments",
-      "url": "https://delhihighcourt.nic.in/web/judgement/fetch-data",
-      "terms": [
-        "Civil Lines"
-      ],
-      "snippets": [
-        "d 333 W.P.(C) - 2157/2020 13 Oct 2026 POOJA JAIN AND ORS. DIRECTORATE OF EDUCATION OLD SECRETARIAT, CIVIL LINES AND ORS. Download 334 W.P.(C) - 15262/2026 13 Oct 2026 NK DAYA RAM UNION OF INDIA &amp; ORS. Download 335 W.P.(CRL) - 2716/2026 13 Oct 2026 DHARMENDER KUMAR TA"
-      ],
-      "method": "html",
-      "note": "Orders appear here before the case-status search, which is behind a captcha. An order in W.P.(CRL) 2127/2026 would close OQ-004."
-    },
     {
       "kind": "UNREACHABLE",
       "target": "eparlib",
@@ -37,11 +24,11 @@
       "kind": "NEW_ITEM",
       "target": "barandbench",
       "label": "Bar & Bench",
-      "title": "Chambers of K Sumathi is looking to hire Junior Litigation Associates in Chennai",
-      "url": "https://www.barandbench.com/legal-jobs/chambers-of-k-sumathi-is-looking-to-hire-junior-litigation-associates-in-chennai",
-      "date": "Thu, 12 Nov 2026 13:20:33 +0530",
+      "title": "Lakshmi Venu, TAFE move Bengaluru court for gag order against media",
+      "url": "https://www.barandbench.com/news/litigation/lakshmi-venu-tafe-move-bengaluru-court-for-gag-order-against-media",
+      "date": "Thu, 12 Nov 2026 10:27:09 +0530",
       "terms": [
-        "Chennai"
+        "Bengaluru"
       ],
       "note": "Legal reporting carries hearings on the day they happen, usually before anything reaches a court website."
     },
@@ -49,9 +36,9 @@
       "kind": "NEW_ITEM",
       "target": "news-delhi",
       "label": "News: Jantar Mantar and the police action",
-      "title": "Jantar Mantar barricades removed after denotification - Rediff",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNUW5Td0RJVjlUVUhicVJiUS1zbHVoeUp4eW9xUkJvRnY2VlR2SmJaUjl1dV9ZRGpiNktZUk9lZGprdEZ6eFpuaDZ1NW02MnpCLVpTMXBtZnUtLUVvLV90TFdlSTg2S2U5QWZ1X0xyV0gtbE1HM3RRMngyVkZhNWNhZEYxc29LZHJ2SUs1TGJHS1VKR1hUaWNBbDBkTFMzbldqVjE00gGmAUFVX3lxTE5wamE4dHhJSWJXWHVMRUJ2V1V0TUhycFZnN0lwazc5dU9PM2RLeVM5b0dhbEVwUDNJMEpFQnQ5WlU4YUNvWUNxckNHMTNiV05mai1meDY1am1FX21KZzFqVzcxUVE3U3RraFpnbVZENFFoNXJFTE9IZlB2dWM1LUdfcm94cWR0WDdzUUVRMkg1VEN2dmFOTmlGSU56QW9HTkNtVTZoSlE?oc=5",
-      "date": "Thu, 05 Nov 2026 05:23:59 GMT",
+      "title": "SC quashes Jantar Mantar protest FIRs across India, permits fresh FIR against 2873 - Supreme Court Observer",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQZTBwbUhvWklJdEs2TUZpWU5icDF5dGdNb09UNWVBNC1ENS1JbGRmNFBBb2o5NnJxdm5OSmhCLUhuYVhMMHF0OGxuRmRfdmN2LTJ0XzNIUXhSbDh5YXRSYVlhbzNRRmRfaW52cHVQZ08tRURsNlM2RWpuLVRjbmtmZWdDbWlTSmdYa1ZoLXB4dkhpdVdraUljc3RtRm4zNllVSU5HTjJKb1lUT1lSNmsyWldHTjc5ZDA?oc=5",
+      "date": "Tue, 01 Sep 2026 11:14:50 GMT",
       "terms": [
         "Jantar Mantar"
       ],
@@ -61,56 +48,19 @@
       "kind": "NEW_ITEM",
       "target": "news-delhi",
       "label": "News: Jantar Mantar and the police action",
-      "title": "Jantar Mantar 2.0 Updates: Detained in Unmarked Car, Neha Bora Released Without Bag, Phone - TheWire.in",
-      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOaTFlVm1ab3hNemVrOHF6SHNnZnhoZVVaUWNQWkV3WkkxWEJ6OXl2Q1d3Q2gtZGZaUDQ0MW5OczhjSDNfd19xVC02Q0p2NzR0M01kczVGRjlVT3R3RUlYZFRKRW4yTEhoSEN5QTYtMVIyQzJIaW51M0M2dmN3R0ZpbElSNmg4RWZuUlE4TVZVTlpRRWlYZjcwVWVTTkY3WllBUVVueHg1R05FMVFhU2s5UEt2bllCaElFNTVpeFp3aUlfbTNGM25qR0tWaXRqVF9nVkY3M9IB5AFBVV95cUxQZ2dMUHI1OVdXbV9jTkluTDBLLWJSMmpiRzNFLTJnUWJvQkNScl81X2J5azVQMXB3M3EwQ0xvendnWnhsbTJFU0M1SFI0RjZSUzRSNzhWM0czdlAycjNkYTYzZXFtcGxUcTA0VnhFV09WY3NYZDh6OE8zODFSQWlFVlpHcEtPUkZuZVRpZkRMdEpJRUZ4dXZBTXpmMEJUUHc3TnQwTnNwM2JkVExCeUpYTXdnMEEtQXItakVmbTNHVzdBTDRuaEdjWU4xM3NuQzdyUktJSWdsTjNaQ3ZaejNJSmhJRXA?oc=5",
-      "date": "Sun, 04 Oct 2026 06:14:12 GMT",
+      "title": "Delhi High Court hears multiple PILs on Jantar Mantar protests, declines NIA probe plea - The Hindu",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPX2RUalRvbjN2bTVFMWZHeV9xZUpmSGFkek9VT0NCc251UUdsSUgwT0s5RUNvY2wwREYzdlhZMmFkQ2tETmJYYzJ3dFpjZVlxZzg0SjlOaU1JU09IOU1vV2xaSThtZkdFWjFyeklGeVdwekRISkV4Ty1JckNpbTdNNnFHS0R6OTJKckJrTzBhUktQckxYeFZ2bkdobmg4TFhacGUtSjYxMjl5dDBubGNINE44MjI3X09UUUw1X09NblFCU3VIZGxsbW9sbXJaZVM1bm5TX0Z0NDEwTjgyS0HSAeQBQVVfeXFMTXFkQzI3TW80WWd1dTlBZk1GaWNYeFNpMjFnQVpTQ29DaGdESG5FeXN5QmUwYjRGbHloczdzZjZFYjhBamRlYjlwTVkzVWlvdl9xRzJVQ185VE8tV0pTS3BPSVZkbWhMMDVIN0NMMUVobVhXbkoxZXFmRUdVVkU4bmh2aUdJczd3S0cyM2YtUDE1bGU2RWZFZHdoLVNXOUVhV2ZiVUpET3ZsRVFJdjNEM19PRmNMMXgxb2pHU2s2dTM2MVdCYmRxejVzcFlDTTFSQ1Z3MGwwRFExQkF4dk9zcWtyTjg2?oc=5",
+      "date": "Sat, 25 Jul 2026 07:00:00 GMT",
       "terms": [
         "Jantar Mantar"
       ],
       "note": "Leads, not evidence. Something reported here is a pointer to a document worth going after."
-    },
-    {
-      "kind": "NEW_ITEM",
-      "target": "news-delhi",
-      "label": "News: Jantar Mantar and the police action",
-      "title": "Jantar Mantar protests: HPEC received hardly any complaints, SC told | Latest News Delhi - Hindustan Times",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPYS04aXRQSV9ucTRtUXlhcDRuYnZ3aTBrUm52ZzBHc2R6Q2taZ0lmT2Nhak1Td3NlU1FYdmlhbjVJWG9lZldDb0Y4OFNDREJraDhVNTAzaGQwVERoemZ3MEZoeC1BWHJoYXFVQlNsd1BtS1JuQTRtRDBySGhFOUUwZDJaR0NGYllfTUpuZ1B1eU5ibUdRVTRsWFVQREdaczdUTVg1cDNaWlNzRm41alZGMHhWN0JBU1ROWmo3cGw1N0xWdnlGQUR4S05BOGo1Qm11VnfSAdcBQVVfeXFMTmh0OFljM3hHSlVXeGNTeDRuNExUOFJxZFIzdFVBUGdmOUZoUDJvb3FpeVV2VHRxaFEyWF9Gd0R6Mnc0NjQ2VlB4SVNqcGlSOHh5c1RJOXN4azdkSHFZRkpiYVJYUE8xeGdjU2JjR2kzSlIwWDdwT3BhaURfdGtEOElCOWotbW8zRmhqSnRld0t0OVVjZEdkd19LT2NIOFNlczRKUmtqRzlGY1pjWXNucEM0M2htR0lrMENnVnRZQmFkVnEwRk5td0JHclhxSllMdzNiYnJMNkk?oc=5",
-      "date": "Thu, 05 Nov 2026 09:36:55 GMT",
-      "terms": [
-        "Jantar Mantar"
-      ],
-      "note": "Leads, not evidence. Something reported here is a pointer to a document worth going after."
-    },
-    {
-      "kind": "NEW_ITEM",
-      "target": "news-delhi",
-      "label": "News: Jantar Mantar and the police action",
-      "title": "Jantar Mantar at Kochi: CJP to hold anti-SIR protest on Nov 7 - The Siasat Daily",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNbTlJWDRqSVdGajhBazJIeVFmdkZ5eDdqT2xNbGt4SWlWdFZZUXJiQ0Z1MGJpeTN4b1Jic0VIQU40VWFYODJrQjV3eHU2ME1GX0dOX25Md3d4a3BaQWVRVVpwb3BsUnM3Wm5iV09GeURIQ01laUhKNG9lT3YxTmJFOXpIbjIwR2dsSVJwYUF4YzQtR2N6NWNr0gGcAUFVX3lxTFA3SlNFdXZWZ1VRaTdSUnB3aVZzY3pSX0hNNDJOczJxaTEtVzlxdU9zQmVRUFFOQkR2VC1ydVRwaUJWQXNxazJHS0l0X0hhTDE2eFZBMUZETWQxSzgzVjNLUVNjc1lUcVB1ZGNXZkNqeEotcHBXbHo5alRjelgxZEd1cnBXQVNRaTRsTUgtNWc1RUVuSXlsZEt1Qnl3MQ?oc=5",
-      "date": "Thu, 05 Nov 2026 13:27:53 GMT",
-      "terms": [
-        "Jantar Mantar",
-        "Kochi"
-      ],
-      "note": "Leads, not evidence. Something reported here is a pointer to a document worth going after."
-    },
-    {
-      "kind": "NEW_ITEM",
-      "target": "news-frt",
-      "label": "News: facial recognition and the surveillance question",
-      "title": "AI-powered facial recognition cameras, 5,000 personnel to secure Delhi trade fair - The New Indian Express",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPUlpsemhCSTFyd1pSQ0JTeXAyV3NLS194SG9Ca01rUk9yUXlWc3lRSFpzSWxrOWEtU0c5YnZ2T1diOUZpR1dqSFlPdTgxS3JKcWpiZ2pZbWV4Nkd2MEZQeGxQX1FrdW0wdjZGdUMwVHNZZUVBeGdMY2pvb1VMSkRmalBYN0NmRXVmeWgzQ3Q1dGFNVVZZVmpqUnZYRkRCX1NKLTNYaU1YV0NPSnlhT1BfQ3JfQjZiazl5MUh4T0xGTVM2RVBVaEQtWHcwMVhucmg1dGJv0gHgAUFVX3lxTE9feUhLaXJQWEQxR0JiOVdlckZDUXN1WVhTTkxfOWcyUlFSUVNnZDRpd0ZtVlAtajg0aHl4WWotelI4bEZZMGlMdjQ0QmoxQnVoTUNfMmFlSTNBNWZEOTJEa2pubEFtTl9qaWxzOUtyUmhSRmQtbi05b2lGY1otM0ZySy1WSWhtQ2gzYllQY3RNN19BR2VILVd0RnR5enBxaDNmREpSRHY2LXZvcGV6M3J4X0tjMUF0bjMyWVZJdDFnSUdqYkdIckVoMGFUb2l6UE9JTm5TbWo2U2hOZ3ZFWU9q?oc=5",
-      "date": "Wed, 11 Nov 2026 02:20:42 GMT",
-      "terms": [
-        "facial recognition"
-      ],
-      "note": "OQ-034 asks what database was matched against and whether a private company processed the data. Both are live questions before the Supreme Court."
     }
   ],
   "checked": [
     {
       "id": "delhi-hc-causelist",
-      "url": "https://delhihighcourt.nic.in/files/2026-11/cause-list/combined_cause_list_12.11.2026.pdf",
+      "url": "https://delhihighcourt.nic.in/files/2026-11/cause-list/combined_cause_list_13.11.2026.pdf",
       "status": 404,
       "outcome": "nothing-published"
     },
@@ -119,7 +69,7 @@
       "url": "https://delhihighcourt.nic.in/web/judgement/fetch-data",
       "status": 200,
       "method": "html",
-      "outcome": "matched"
+      "outcome": "changed-no-match"
     },
     {
       "id": "nhrc-press",
@@ -139,7 +89,7 @@
       "url": "https://www.barandbench.com/feed",
       "status": 200,
       "outcome": "ok",
-      "items": 23,
+      "items": 27,
       "matched": 1
     },
     {
@@ -147,8 +97,8 @@
       "url": "https://news.google.com/rss/search?q=%22Jantar+Mantar%22+(police+OR+court+OR+NHRC+OR+affidavit)&hl=en-IN&gl=IN&ceid=IN:en",
       "status": 200,
       "outcome": "ok",
-      "items": 85,
-      "matched": 4
+      "items": 75,
+      "matched": 2
     },
     {
       "id": "news-cases",
@@ -164,14 +114,14 @@
       "status": 200,
       "outcome": "ok",
       "items": 51,
-      "matched": 1
+      "matched": 0
     },
     {
       "id": "news-bihar",
       "url": "https://news.google.com/rss/search?q=(Patna+OR+Katihar+OR+Munger)+(lathi+OR+police+action+OR+protest)+students&hl=en-IN&gl=IN&ceid=IN:en",
       "status": 200,
       "outcome": "ok",
-      "items": 54,
+      "items": 52,
       "matched": 0
     }
   ]

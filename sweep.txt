@@ -1,51 +1,32 @@
-Sweep 2026-11-12: 9 targets, 175 watch terms.
+Sweep 2026-11-13: 9 targets, 175 watch terms.
   nothing-published  delhi-hc-causelist
-  matched            delhi-hc-judgments
+  changed-no-match   delhi-hc-judgments
   matched            nhrc-press
   unreachable        eparlib
-  ok                 barandbench  23 item(s), 1 matched
-  ok                 news-delhi  85 item(s), 4 matched
+  ok                 barandbench  27 item(s), 1 matched
+  ok                 news-delhi  75 item(s), 2 matched
   ok                 news-cases  9 item(s), 0 matched
-  ok                 news-frt  51 item(s), 1 matched
-  ok                 news-bihar  54 item(s), 0 matched
+  ok                 news-frt  51 item(s), 0 matched
+  ok                 news-bihar  52 item(s), 0 matched
 
-8 thing(s) to look at:
-
-· [CHANGED_MATCH] Delhi High Court, latest judgments
-  https://delhihighcourt.nic.in/web/judgement/fetch-data
-  matched: Civil Lines
+4 thing(s) to look at:
 
 · [UNREACHABLE] Parliamentary library
   https://eparlib.sansad.in/
   fetch failed
 
 · [NEW_ITEM] Bar & Bench
-  Chambers of K Sumathi is looking to hire Junior Litigation Associates in Chennai
-  https://www.barandbench.com/legal-jobs/chambers-of-k-sumathi-is-looking-to-hire-junior-litigation-associates-in-chennai
-  matched: Chennai
+  Lakshmi Venu, TAFE move Bengaluru court for gag order against media
+  https://www.barandbench.com/news/litigation/lakshmi-venu-tafe-move-bengaluru-court-for-gag-order-against-media
+  matched: Bengaluru
 
 · [NEW_ITEM] News: Jantar Mantar and the police action
-  Jantar Mantar barricades removed after denotification - Rediff
-  https://news.google.com/rss/articles/CBMiowFBVV95cUxNUW5Td0RJVjlUVUhicVJiUS1zbHVoeUp4eW9xUkJvRnY2VlR2SmJaUjl1dV9ZRGpiNktZUk9lZGprdEZ6eFpuaDZ1NW02MnpCLVpTMXBtZnUtLUVvLV90TFdlSTg2S2U5QWZ1X0xyV0gtbE1HM3RRMngyVkZhNWNhZEYxc29LZHJ2SUs1TGJHS1VKR1hUaWNBbDBkTFMzbldqVjE00gGmAUFVX3lxTE5wamE4dHhJSWJXWHVMRUJ2V1V0TUhycFZnN0lwazc5dU9PM2RLeVM5b0dhbEVwUDNJMEpFQnQ5WlU4YUNvWUNxckNHMTNiV05mai1meDY1am1FX21KZzFqVzcxUVE3U3RraFpnbVZENFFoNXJFTE9IZlB2dWM1LUdfcm94cWR0WDdzUUVRMkg1VEN2dmFOTmlGSU56QW9HTkNtVTZoSlE?oc=5
+  SC quashes Jantar Mantar protest FIRs across India, permits fresh FIR against 2873 - Supreme Court Observer
+  https://news.google.com/rss/articles/CBMitwFBVV95cUxQZTBwbUhvWklJdEs2TUZpWU5icDF5dGdNb09UNWVBNC1ENS1JbGRmNFBBb2o5NnJxdm5OSmhCLUhuYVhMMHF0OGxuRmRfdmN2LTJ0XzNIUXhSbDh5YXRSYVlhbzNRRmRfaW52cHVQZ08tRURsNlM2RWpuLVRjbmtmZWdDbWlTSmdYa1ZoLXB4dkhpdVdraUljc3RtRm4zNllVSU5HTjJKb1lUT1lSNmsyWldHTjc5ZDA?oc=5
   matched: Jantar Mantar
 
 · [NEW_ITEM] News: Jantar Mantar and the police action
-  Jantar Mantar 2.0 Updates: Detained in Unmarked Car, Neha Bora Released Without Bag, Phone - TheWire.in
-  https://news.google.com/rss/articles/CBMi1AFBVV95cUxOaTFlVm1ab3hNemVrOHF6SHNnZnhoZVVaUWNQWkV3WkkxWEJ6OXl2Q1d3Q2gtZGZaUDQ0MW5OczhjSDNfd19xVC02Q0p2NzR0M01kczVGRjlVT3R3RUlYZFRKRW4yTEhoSEN5QTYtMVIyQzJIaW51M0M2dmN3R0ZpbElSNmg4RWZuUlE4TVZVTlpRRWlYZjcwVWVTTkY3WllBUVVueHg1R05FMVFhU2s5UEt2bllCaElFNTVpeFp3aUlfbTNGM25qR0tWaXRqVF9nVkY3M9IB5AFBVV95cUxQZ2dMUHI1OVdXbV9jTkluTDBLLWJSMmpiRzNFLTJnUWJvQkNScl81X2J5azVQMXB3M3EwQ0xvendnWnhsbTJFU0M1SFI0RjZSUzRSNzhWM0czdlAycjNkYTYzZXFtcGxUcTA0VnhFV09WY3NYZDh6OE8zODFSQWlFVlpHcEtPUkZuZVRpZkRMdEpJRUZ4dXZBTXpmMEJUUHc3TnQwTnNwM2JkVExCeUpYTXdnMEEtQXItakVmbTNHVzdBTDRuaEdjWU4xM3NuQzdyUktJSWdsTjNaQ3ZaejNJSmhJRXA?oc=5
+  Delhi High Court hears multiple PILs on Jantar Mantar protests, declines NIA probe plea - The Hindu
+  https://news.google.com/rss/articles/CBMi3gFBVV95cUxPX2RUalRvbjN2bTVFMWZHeV9xZUpmSGFkek9VT0NCc251UUdsSUgwT0s5RUNvY2wwREYzdlhZMmFkQ2tETmJYYzJ3dFpjZVlxZzg0SjlOaU1JU09IOU1vV2xaSThtZkdFWjFyeklGeVdwekRISkV4Ty1JckNpbTdNNnFHS0R6OTJKckJrTzBhUktQckxYeFZ2bkdobmg4TFhacGUtSjYxMjl5dDBubGNINE44MjI3X09UUUw1X09NblFCU3VIZGxsbW9sbXJaZVM1bm5TX0Z0NDEwTjgyS0HSAeQBQVVfeXFMTXFkQzI3TW80WWd1dTlBZk1GaWNYeFNpMjFnQVpTQ29DaGdESG5FeXN5QmUwYjRGbHloczdzZjZFYjhBamRlYjlwTVkzVWlvdl9xRzJVQ185VE8tV0pTS3BPSVZkbWhMMDVIN0NMMUVobVhXbkoxZXFmRUdVVkU4bmh2aUdJczd3S0cyM2YtUDE1bGU2RWZFZHdoLVNXOUVhV2ZiVUpET3ZsRVFJdjNEM19PRmNMMXgxb2pHU2s2dTM2MVdCYmRxejVzcFlDTTFSQ1Z3MGwwRFExQkF4dk9zcWtyTjg2?oc=5
   matched: Jantar Mantar
-
-· [NEW_ITEM] News: Jantar Mantar and the police action
-  Jantar Mantar protests: HPEC received hardly any complaints, SC told | Latest News Delhi - Hindustan Times
-  https://news.google.com/rss/articles/CBMi0gFBVV95cUxPYS04aXRQSV9ucTRtUXlhcDRuYnZ3aTBrUm52ZzBHc2R6Q2taZ0lmT2Nhak1Td3NlU1FYdmlhbjVJWG9lZldDb0Y4OFNDREJraDhVNTAzaGQwVERoemZ3MEZoeC1BWHJoYXFVQlNsd1BtS1JuQTRtRDBySGhFOUUwZDJaR0NGYllfTUpuZ1B1eU5ibUdRVTRsWFVQREdaczdUTVg1cDNaWlNzRm41alZGMHhWN0JBU1ROWmo3cGw1N0xWdnlGQUR4S05BOGo1Qm11VnfSAdcBQVVfeXFMTmh0OFljM3hHSlVXeGNTeDRuNExUOFJxZFIzdFVBUGdmOUZoUDJvb3FpeVV2VHRxaFEyWF9Gd0R6Mnc0NjQ2VlB4SVNqcGlSOHh5c1RJOXN4azdkSHFZRkpiYVJYUE8xeGdjU2JjR2kzSlIwWDdwT3BhaURfdGtEOElCOWotbW8zRmhqSnRld0t0OVVjZEdkd19LT2NIOFNlczRKUmtqRzlGY1pjWXNucEM0M2htR0lrMENnVnRZQmFkVnEwRk5td0JHclhxSllMdzNiYnJMNkk?oc=5
-  matched: Jantar Mantar
-
-· [NEW_ITEM] News: Jantar Mantar and the police action
-  Jantar Mantar at Kochi: CJP to hold anti-SIR protest on Nov 7 - The Siasat Daily
-  https://news.google.com/rss/articles/CBMilwFBVV95cUxNbTlJWDRqSVdGajhBazJIeVFmdkZ5eDdqT2xNbGt4SWlWdFZZUXJiQ0Z1MGJpeTN4b1Jic0VIQU40VWFYODJrQjV3eHU2ME1GX0dOX25Md3d4a3BaQWVRVVpwb3BsUnM3Wm5iV09GeURIQ01laUhKNG9lT3YxTmJFOXpIbjIwR2dsSVJwYUF4YzQtR2N6NWNr0gGcAUFVX3lxTFA3SlNFdXZWZ1VRaTdSUnB3aVZzY3pSX0hNNDJOczJxaTEtVzlxdU9zQmVRUFFOQkR2VC1ydVRwaUJWQXNxazJHS0l0X0hhTDE2eFZBMUZETWQxSzgzVjNLUVNjc1lUcVB1ZGNXZkNqeEotcHBXbHo5alRjelgxZEd1cnBXQVNRaTRsTUgtNWc1RUVuSXlsZEt1Qnl3MQ?oc=5
-  matched: Jantar Mantar, Kochi
-
-· [NEW_ITEM] News: facial recognition and the surveillance question
-  AI-powered facial recognition cameras, 5,000 personnel to secure Delhi trade fair - The New Indian Express
-  https://news.google.com/rss/articles/CBMi0wFBVV95cUxPUlpsemhCSTFyd1pSQ0JTeXAyV3NLS194SG9Ca01rUk9yUXlWc3lRSFpzSWxrOWEtU0c5YnZ2T1diOUZpR1dqSFlPdTgxS3JKcWpiZ2pZbWV4Nkd2MEZQeGxQX1FrdW0wdjZGdUMwVHNZZUVBeGdMY2pvb1VMSkRmalBYN0NmRXVmeWgzQ3Q1dGFNVVZZVmpqUnZYRkRCX1NKLTNYaU1YV0NPSnlhT1BfQ3JfQjZiazl5MUh4T0xGTVM2RVBVaEQtWHcwMVhucmg1dGJv0gHgAUFVX3lxTE9feUhLaXJQWEQxR0JiOVdlckZDUXN1WVhTTkxfOWcyUlFSUVNnZDRpd0ZtVlAtajg0aHl4WWotelI4bEZZMGlMdjQ0QmoxQnVoTUNfMmFlSTNBNWZEOTJEa2pubEFtTl9qaWxzOUtyUmhSRmQtbi05b2lGY1otM0ZySy1WSWhtQ2gzYllQY3RNN19BR2VILVd0RnR5enBxaDNmREpSRHY2LXZvcGV6M3J4X0tjMUF0bjMyWVZJdDFnSUdqYkdIckVoMGFUb2l6UE9JTm5TbWo2U2hOZ3ZFWU9q?oc=5
-  matched: facial recognition
 
