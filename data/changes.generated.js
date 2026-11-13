@@ -5,6 +5,58 @@ window.WGO = window.WGO || {};
 
 WGO.changes = [
   {
+    "commit": "e9a8f7c973",
+    "date": "2026-11-12T10:04:48Z",
+    "subject": "Sweep log and archived copies for 2026-11-12 [skip ci]",
+    "added": [],
+    "removed": [],
+    "changed": [
+      {
+        "id": "SRC-0249",
+        "kind": "Source",
+        "title": "ETV Bharat",
+        "state": null,
+        "url": "https://www.etvbharat.com/amp/en/!state/nhrc-issues-notice-to-kolkata-police-chief-over-brutal-force-used-during-protests-enn24083100217",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20261111094236/https://www.etvbharat.com/amp/en/!state/nhrc-issues-notice-to-kolkata-police-chief-over-brutal-force-used-during-protests-enn24083100217"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0253",
+        "kind": "Source",
+        "title": "Swarajya",
+        "state": null,
+        "url": "https://swarajyamag.com/amp/story/news-brief/mamata-banerjee-praises-kolkata-police-for-suppressing-nabanna-march-claims-bjp-defaming-west-bengal-in-rg-kar-case",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "https://web.archive.org/web/20261112100103/https://swarajyamag.com/amp/story/news-brief/mamata-banerjee-praises-kolkata-police-for-suppressing-nabanna-march-claims-bjp-defaming-west-bengal-in-rg-kar-case"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0265",
+        "kind": "Source",
+        "title": "Ummid.com (IANS, 19 August 2015)",
+        "state": null,
+        "url": "https://ummid.com/news/2015/August/19.08.2015/outrage-against-ftii-students-arrest.html",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20250512081959/https://ummid.com/news/2015/August/19.08.2015/outrage-against-ftii-students-arrest.html"
+          }
+        ]
+      }
+    ],
+    "summary": "3 records edited"
+  },
+  {
     "commit": "0e04939763",
     "date": "2026-11-11T09:45:19Z",
     "subject": "Sweep log and archived copies for 2026-11-11 [skip ci]",
