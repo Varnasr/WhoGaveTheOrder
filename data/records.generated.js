@@ -2595,8 +2595,8 @@ WGO.importedSources = [
     "kind": "SECONDARY",
     "url": "https://www.tribuneindia.com/news/archive/nation/midnight-crackdown-5-ftii-students-held-for-rioting-121632",
     "retrievedOn": "2026-10-10",
-    "archiveUrl": null,
-    "archivedOn": null,
+    "archiveUrl": "https://web.archive.org/web/20261114091113/https://www.tribuneindia.com/news/archive/nation/midnight-crackdown-5-ftii-students-held-for-rioting-121632",
+    "archivedOn": "2026-11-14",
     "sha256": null,
     "originatesFrom": "PTI, as quoted in the article (DCP T Tushar Doshi)"
   },
@@ -2672,8 +2672,8 @@ WGO.importedSources = [
     "kind": "SECONDARY",
     "url": "https://ummid.com/news/2015/August/21.08.2015/central-team-visits-ftii.html",
     "retrievedOn": "2026-10-10",
-    "archiveUrl": null,
-    "archivedOn": null,
+    "archiveUrl": "http://web.archive.org/web/20250524160407/https://ummid.com/news/2015/August/21.08.2015/central-team-visits-ftii.html",
+    "archivedOn": "2026-11-14",
     "sha256": null,
     "originatesFrom": "IANS"
   },

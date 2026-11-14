@@ -5,6 +5,86 @@ window.WGO = window.WGO || {};
 
 WGO.changes = [
   {
+    "commit": "4001076b01",
+    "date": "2026-11-13T09:51:36Z",
+    "subject": "Sweep log and archived copies for 2026-11-13 [skip ci]",
+    "added": [],
+    "removed": [],
+    "changed": [
+      {
+        "id": "SRC-0257",
+        "kind": "Source",
+        "title": "Gulf News (PTI copy; page shows a 2018 re-publication stamp, text describes the early hours of Wednesday 17 September 2014)",
+        "state": null,
+        "url": "https://gulfnews.com/world/asia/india/police-free-besieged-jadavpur-vice-chancellor-1.1386483",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20261112100136/https://gulfnews.com/world/asia/india/police-free-besieged-jadavpur-vice-chancellor-1.1386483"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0259",
+        "kind": "Source",
+        "title": "The News Minute, 14 January 2015",
+        "state": null,
+        "url": "https://www.thenewsminute.com/news/resigned-protest-anarchism-politicisation-outgoing-jadavpur-vc-22712",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "https://web.archive.org/web/20261113094852/https://www.thenewsminute.com/news/resigned-protest-anarchism-politicisation-outgoing-jadavpur-vc-22712"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0262",
+        "kind": "Source",
+        "title": "The News Minute, 26 September 2014 (page metadata shows 25 February 2015; dateline in text says 26 September 2014)",
+        "state": null,
+        "url": "https://www.thenewsminute.com/news/bengal-government-backs-police-says-no-baton-charge-jadavpur-students-21339",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "https://web.archive.org/web/20261113094925/https://www.thenewsminute.com/news/bengal-government-backs-police-says-no-baton-charge-jadavpur-students-21339"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0267",
+        "kind": "Source",
+        "title": "The Wire (19 August 2015)",
+        "state": null,
+        "url": "https://m.thewire.in/article/education/arrested-ftii-students-granted-bail-protests-continue",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20260607174537/https://m.thewire.in/article/education/arrested-ftii-students-granted-bail-protests-continue"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0269",
+        "kind": "Source",
+        "title": "Free Press Journal (FPJ Bureau; page shows an update stamp of 31 May 2019, article text is from August 2015)",
+        "state": null,
+        "url": "https://www.freepressjournal.in/headlines/five-ftii-students-held-for-rioting",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20201020064606/https://www.freepressjournal.in/headlines/five-ftii-students-held-for-rioting"
+          }
+        ]
+      }
+    ],
+    "summary": "5 records edited"
+  },
+  {
     "commit": "e9a8f7c973",
     "date": "2026-11-12T10:04:48Z",
     "subject": "Sweep log and archived copies for 2026-11-12 [skip ci]",
