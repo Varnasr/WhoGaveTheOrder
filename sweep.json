@@ -1,8 +1,8 @@
 {
   "run": {
-    "date": "2026-11-13",
+    "date": "2026-11-14",
     "targets": 9,
-    "findings": 4,
+    "findings": 3,
     "outcomes": {
       "nothing-published": 1,
       "changed-no-match": 1,
@@ -24,11 +24,11 @@
       "kind": "NEW_ITEM",
       "target": "barandbench",
       "label": "Bar & Bench",
-      "title": "Lakshmi Venu, TAFE move Bengaluru court for gag order against media",
-      "url": "https://www.barandbench.com/news/litigation/lakshmi-venu-tafe-move-bengaluru-court-for-gag-order-against-media",
-      "date": "Thu, 12 Nov 2026 10:27:09 +0530",
+      "title": "Chandigarh to host India International Disputes Week 2027 in January",
+      "url": "https://www.barandbench.com/news/chandigarh-to-host-india-international-disputes-week-2027-in-january",
+      "date": "Fri, 13 Nov 2026 15:45:21 +0530",
       "terms": [
-        "Bengaluru"
+        "Chandigarh"
       ],
       "note": "Legal reporting carries hearings on the day they happen, usually before anything reaches a court website."
     },
@@ -36,23 +36,11 @@
       "kind": "NEW_ITEM",
       "target": "news-delhi",
       "label": "News: Jantar Mantar and the police action",
-      "title": "SC quashes Jantar Mantar protest FIRs across India, permits fresh FIR against 2873 - Supreme Court Observer",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQZTBwbUhvWklJdEs2TUZpWU5icDF5dGdNb09UNWVBNC1ENS1JbGRmNFBBb2o5NnJxdm5OSmhCLUhuYVhMMHF0OGxuRmRfdmN2LTJ0XzNIUXhSbDh5YXRSYVlhbzNRRmRfaW52cHVQZ08tRURsNlM2RWpuLVRjbmtmZWdDbWlTSmdYa1ZoLXB4dkhpdVdraUljc3RtRm4zNllVSU5HTjJKb1lUT1lSNmsyWldHTjc5ZDA?oc=5",
-      "date": "Tue, 01 Sep 2026 11:14:50 GMT",
+      "title": "Delhi Police proposes 50,000-person cap, 10 am to 5 pm window for gatherings at Ramlila Maidan - The New Indian Express",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPUnZJcTByc0toTnl6d21ESHAtcC03SHNadndSd0IzeWFzbEYtelo5VmFmbE8zOGxGWVAzaktURTI1azM1RWdaWk5GRXZIY05WdFdPOE9pQXlTMEVrY2Q5NkQwSjBtMmJfcnAtQm5qWjdDU1RSNEhoNlp2VGJJRGh3QWVSa2xRQ0t1RzdtaWN2NUJUa1dnNXZIQTliWVIyVE5HaTN0QmhGV3pMRFk2TmRfOG5jWTlBREhYWi1hYTlKTUVmTXNYQ19BOS1iaWM0YndxeTVrVHdyWEwwUFnSAegBQVVfeXFMTkVYc296T2RsbWtfTjJEX01LUTdRVFc0QTFZNkp1clNualZNM09KSk5HUXJWVFJKWVU0N25qZ2ViRlZWbVUtUnhHNTJzUmZaUHlEMzlOWEpDRmQ2d2JhZERYUVo0d3B2Q2ludWQ3bHppOU9SMFMtSnIwU2JvSWhZZGRoMXBoWlJWYmx0TG1rRmRWSTc2TFZwaFBMLVVhUlNiWDJYUVJtWjI5STlqSmxSdWNuaFUtV2Y1QkNYbk51enBVbUpHOWJJaGtwOHV1VGJjLUh1S0RfVHlJSGNwamwyckIzVXBxSFpPQw?oc=5",
+      "date": "Sat, 14 Nov 2026 05:48:21 GMT",
       "terms": [
-        "Jantar Mantar"
-      ],
-      "note": "Leads, not evidence. Something reported here is a pointer to a document worth going after."
-    },
-    {
-      "kind": "NEW_ITEM",
-      "target": "news-delhi",
-      "label": "News: Jantar Mantar and the police action",
-      "title": "Delhi High Court hears multiple PILs on Jantar Mantar protests, declines NIA probe plea - The Hindu",
-      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPX2RUalRvbjN2bTVFMWZHeV9xZUpmSGFkek9VT0NCc251UUdsSUgwT0s5RUNvY2wwREYzdlhZMmFkQ2tETmJYYzJ3dFpjZVlxZzg0SjlOaU1JU09IOU1vV2xaSThtZkdFWjFyeklGeVdwekRISkV4Ty1JckNpbTdNNnFHS0R6OTJKckJrTzBhUktQckxYeFZ2bkdobmg4TFhacGUtSjYxMjl5dDBubGNINE44MjI3X09UUUw1X09NblFCU3VIZGxsbW9sbXJaZVM1bm5TX0Z0NDEwTjgyS0HSAeQBQVVfeXFMTXFkQzI3TW80WWd1dTlBZk1GaWNYeFNpMjFnQVpTQ29DaGdESG5FeXN5QmUwYjRGbHloczdzZjZFYjhBamRlYjlwTVkzVWlvdl9xRzJVQ185VE8tV0pTS3BPSVZkbWhMMDVIN0NMMUVobVhXbkoxZXFmRUdVVkU4bmh2aUdJczd3S0cyM2YtUDE1bGU2RWZFZHdoLVNXOUVhV2ZiVUpET3ZsRVFJdjNEM19PRmNMMXgxb2pHU2s2dTM2MVdCYmRxejVzcFlDTTFSQ1Z3MGwwRFExQkF4dk9zcWtyTjg2?oc=5",
-      "date": "Sat, 25 Jul 2026 07:00:00 GMT",
-      "terms": [
-        "Jantar Mantar"
+        "Ramlila Maidan"
       ],
       "note": "Leads, not evidence. Something reported here is a pointer to a document worth going after."
     }
@@ -60,7 +48,7 @@
   "checked": [
     {
       "id": "delhi-hc-causelist",
-      "url": "https://delhihighcourt.nic.in/files/2026-11/cause-list/combined_cause_list_13.11.2026.pdf",
+      "url": "https://delhihighcourt.nic.in/files/2026-11/cause-list/combined_cause_list_14.11.2026.pdf",
       "status": 404,
       "outcome": "nothing-published"
     },
@@ -89,7 +77,7 @@
       "url": "https://www.barandbench.com/feed",
       "status": 200,
       "outcome": "ok",
-      "items": 27,
+      "items": 29,
       "matched": 1
     },
     {
@@ -97,8 +85,8 @@
       "url": "https://news.google.com/rss/search?q=%22Jantar+Mantar%22+(police+OR+court+OR+NHRC+OR+affidavit)&hl=en-IN&gl=IN&ceid=IN:en",
       "status": 200,
       "outcome": "ok",
-      "items": 75,
-      "matched": 2
+      "items": 67,
+      "matched": 1
     },
     {
       "id": "news-cases",
@@ -121,7 +109,7 @@
       "url": "https://news.google.com/rss/search?q=(Patna+OR+Katihar+OR+Munger)+(lathi+OR+police+action+OR+protest)+students&hl=en-IN&gl=IN&ceid=IN:en",
       "status": 200,
       "outcome": "ok",
-      "items": 52,
+      "items": 53,
       "matched": 0
     }
   ]
