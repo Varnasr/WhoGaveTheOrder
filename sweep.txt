@@ -1,27 +1,52 @@
-Sweep 2026-11-14: 9 targets, 175 watch terms.
+Sweep 2026-11-15: 9 targets, 175 watch terms.
   nothing-published  delhi-hc-causelist
   changed-no-match   delhi-hc-judgments
   matched            nhrc-press
   unreachable        eparlib
-  ok                 barandbench  29 item(s), 1 matched
-  ok                 news-delhi  67 item(s), 1 matched
-  ok                 news-cases  9 item(s), 0 matched
-  ok                 news-frt  51 item(s), 0 matched
+  ok                 barandbench  1 item(s), 0 matched
+  ok                 news-delhi  83 item(s), 6 matched
+  ok                 news-cases  8 item(s), 0 matched
+  ok                 news-frt  51 item(s), 1 matched
   ok                 news-bihar  53 item(s), 0 matched
 
-3 thing(s) to look at:
+8 thing(s) to look at:
 
 · [UNREACHABLE] Parliamentary library
   https://eparlib.sansad.in/
   fetch failed
 
-· [NEW_ITEM] Bar & Bench
-  Chandigarh to host India International Disputes Week 2027 in January
-  https://www.barandbench.com/news/chandigarh-to-host-india-international-disputes-week-2027-in-january
-  matched: Chandigarh
+· [NEW_ITEM] News: Jantar Mantar and the police action
+  ‘A compelling case for an independent and impartial investigation’: Supreme Court to order probe into police excesses against Jantar Mantar protesters - The Leaflet
+  https://news.google.com/rss/articles/CBMikAJBVV95cUxOcDFmSWF6SzRxWkdBdGFuTjh6NHNCLXBCdVNCb01jMXpCX01XbExJWFpRR1lpaGo3UXNFQTVGVE11Um5pR0dCN01wZ3pONjVRd3RIM3Q0b3pfT2daZTNGX3prQ3RxaEJ5b213bXZEVzduRm5kQmZ2Z1J3YUZmYjRYVHlpTDZHZC1xRlhyaFhKblRRdWhvdlRXVG94SnR1dVVmMjhwQlhpa3R4aGlmSWxvWS1SWkN2TDJpOU9oTUFGOURTOFJtNUdXazdkRTV4dFFYZHRpcnFPUjJCRGZod0s4WExuQllhM1ZoREV2bktCQ0NXZ3dhaUZxbG5lODVIMTdfY3U5VGlPay1ZRTBOV0ljcw?oc=5
+  matched: Jantar Mantar
 
 · [NEW_ITEM] News: Jantar Mantar and the police action
-  Delhi Police proposes 50,000-person cap, 10 am to 5 pm window for gatherings at Ramlila Maidan - The New Indian Express
-  https://news.google.com/rss/articles/CBMi2wFBVV95cUxPUnZJcTByc0toTnl6d21ESHAtcC03SHNadndSd0IzeWFzbEYtelo5VmFmbE8zOGxGWVAzaktURTI1azM1RWdaWk5GRXZIY05WdFdPOE9pQXlTMEVrY2Q5NkQwSjBtMmJfcnAtQm5qWjdDU1RSNEhoNlp2VGJJRGh3QWVSa2xRQ0t1RzdtaWN2NUJUa1dnNXZIQTliWVIyVE5HaTN0QmhGV3pMRFk2TmRfOG5jWTlBREhYWi1hYTlKTUVmTXNYQ19BOS1iaWM0YndxeTVrVHdyWEwwUFnSAegBQVVfeXFMTkVYc296T2RsbWtfTjJEX01LUTdRVFc0QTFZNkp1clNualZNM09KSk5HUXJWVFJKWVU0N25qZ2ViRlZWbVUtUnhHNTJzUmZaUHlEMzlOWEpDRmQ2d2JhZERYUVo0d3B2Q2ludWQ3bHppOU9SMFMtSnIwU2JvSWhZZGRoMXBoWlJWYmx0TG1rRmRWSTc2TFZwaFBMLVVhUlNiWDJYUVJtWjI5STlqSmxSdWNuaFUtV2Y1QkNYbk51enBVbUpHOWJJaGtwOHV1VGJjLUh1S0RfVHlJSGNwamwyckIzVXBxSFpPQw?oc=5
-  matched: Ramlila Maidan
+  Delhi: CJP activists Saurav Das, Ashutosh Ranka appear before Crime Branch in Jantar Mantar trespassing case - ANI News
+  https://news.google.com/rss/articles/CBMi_wFBVV95cUxQQy1rQUYyay1IMzNHdmdvLUY2ck5ycHU5WElBdXBoQnFGMzh2XzhmTU1TVkU1SzNlUVRZMXlwcWNhZW1VV1ViYVlqMzFGSy1VcHlzSVJlczFoN1NaRm1vLVVmMmEtQXVfUmhlcXRSVEVVVVkzRGpOeXN5TlVGVFFjTURKU0dTVVhOdmxZcG9tS3ljdDZmRzRlYzlLS0RGZ1lnVUd5bFJkZDBXZ2xHLVNxaUNmMHVKQmJEbUl3WmdGTGdSWlAxSDg1anJXWmtBQjYxaUdpRDBqY2JaMWdjamxtejhpY3JQTVJmMGRLWnV3THBjY1dPRjBxVmFvZ3RyYTA?oc=5
+  matched: Jantar Mantar
+
+· [NEW_ITEM] News: Jantar Mantar and the police action
+  Delhi Police questions CJP leaders Saurav Das, Ashutosh Ranka for 4 hours over Jantar Mantar protest - Moneycontrol.com
+  https://news.google.com/rss/articles/CBMi6AFBVV95cUxOUGdzMEpLSzVDSEhLMEEtU1pOc3pQOUdQM3ZxN3VRcEg2QmRqVU1Na1dhcXhFcHlnQXJRZHQ2SXpvZllaVE5wRGRtcTBwZS1YaXpUZWU4ZF9FSzNCdlQ2NzBOeVo4RHFYck9zWW1JOXk4bEh3RjhwejlyazMxdGk4NlE4N1BNcEduOUJkRnVwZWJHYWZ3bXBjWmIzY005RUtvQkpDYnMtV2FDLUdQUk1pWUZZVHdEOTNlejJCQkc1Y0U5Wmc2MUlqSW1jYU9tVElTQ2ZrMkNyMjk5dG5kelJvUXh3YVVFQk1R0gHuAUFVX3lxTE1xZlpXekJOZm1SNEp3MHkwcGdSc0NzSlVnMFBjTDlMOUdUbWQzS3VRMXM4cmRQYlhxc0doRDFWZkk4OXJaTEk5b1BhVndLbGFfMDVHSlF0VHM4Nm5aVDcwN3R1YThHcHJnOHJwZDlJYXFOTzBhc1NlUVlYVVZvNGRvN0t5LU0xQjRSeTV2UnZIMlJYOTRUQjNRMmlPd255bVEybjhXeDBBbVYtSVZ6RjY3RjhtY081eWFhS2tlMDFoYXhQWjNLUzU4YjVkYkpsWVJDR0VYMHdWanRPaE8xQWpXaWF6YVRad3pIdDdUT2c?oc=5
+  matched: Jantar Mantar
+
+· [NEW_ITEM] News: Jantar Mantar and the police action
+  Delhi police detains over 500 ahead of CJP protest at Jantar Mantar, deploys 35000 personnel - India Today NE
+  https://news.google.com/rss/articles/CBMi6AFBVV95cUxQajI4Z0haS0xpYzYweEptMFVxUXZkMTlrUXFWb0RVWGdlM1hHSFg5ZnRpMHF1Mk1VLVRmaXNwdjBUdExIZE1Ka2E0S1BUUmdXUUhreWFaaWlxR3Q1T2hfQzg2YTIxYmhUSW04eEtxX3FkU2pkWEFSY3g4RklsUDF0T0hwNG9GZHZpbjFmNUZhVGlEd3BteWNCVUpFeUhLdnZTRjhmVEdkZ3duSnBXRWNIbmF4b0lrdXJERzB1VU9ZZWF6V2pCT1RTSVVVclMwd1BmWjMxazFKVGZfek9Ub0xucFFHaUFWcFlk0gHuAUFVX3lxTE1OQjNoakw3WFk0Q3pzZDNxRnpzS01DWE03eGgxcEVDS0ZfLVk1dnZjLWpHU2dlSEhGY2xpLThKdzNISmFvbG9pTEpQWTVGSDZxSW5DQVY4TXNhZnFXVXlCcS02RXNsQmlRZm5ZYzVEVjVweGZOSFMyVlBDUE14ZTBiNVJtRmpZSHZDUjNpNnBGY0FiYlpLT3J1SjVtRzZvTHBpZW55azNWVnlXU00zbFJmYTN5VHJtQnFCRjFJMk9sUEc3TTBjczFaVnpNUzd5YU1BOHF0RVJfcTJ6al9WNk1zeDgyNzJHM1lnb3BSaVE?oc=5
+  matched: Jantar Mantar, CJP protest
+
+· [NEW_ITEM] News: Jantar Mantar and the police action
+  Rain, rubble & resolve: CJP protesters rebuild tattered camps in Jantar Mantar after police action - ThePrint
+  https://news.google.com/rss/articles/CBMiyAFBVV95cUxNWFJMTmNUQ3Q4VUJtZ29odGJaNzV3bFNqOEY3QzlFcHMyV3FpS2tYTjdGWFVKWjdrbl9LQXNLaktCSjF4R3pXRDZUYWdibDJ0cElzWFIzVVZjSDUzbk0wRzl4cXJ1ZE1YNzdnRUZoVzFDNkhCM25odUM2RVVROFh5aF9JMGJZQ3NWNGRoVTJmcEpab25NNFA1ay1LaTNXT1pvaTI2Tjg5a29aQ2E5WklqckFNUEtDcXRySDQ5Rm1MdHE1SWZpczlYMdIBzgFBVV95cUxPdVR1TXFqcEt5cnRreUxVU1FaOGZOcDlnRWJ6MmZzcGxpaTJpMmtMMUxKd1c5a1pRUTIyanRvZHgxa0RaTWlNYmQteE1MdU52OVBJNzVLaGxoTm9raGtWQ2xtV1FTS3pOVy1qenYtTGRwbk9PdllMZ3RiMVh6VE05LVVZRmZKS3Nkam4xQjhQbmtPRThRUlVMc3FVa200OEl0c0UzMGMyaG1kTUNZcFhsRlRxcGJwZ3BFQ0poUXhqVXBmVDBlemQwcWxIRkZmUQ?oc=5
+  matched: Jantar Mantar, CJP protest
+
+· [NEW_ITEM] News: Jantar Mantar and the police action
+  Women Journalists Allege Sexual Harassment By Delhi Cops During Jantar Mantar Protests, Probe Launched - News18
+  https://news.google.com/rss/articles/CBMi5AFBVV95cUxNSlFOazFkVURQTFFyRDFIclJaRExjT3lhUHY3aGpfQVgwYXV6S1FOUnF1TzZYdVNndW9yVTQ2U0hCRkhWVkJNRzFLaVFqSjhLamFQVDhpYzUtVjM3TGM4WU9rS2JGY3B3dE9OekRLaGZMcVRfWXp1LUczaHViLWtVRFljclh3WWZRVU9sQW9ibGVCa2RXMlZKTG4xUzFGZFQ1cXdFY2kzT2VydndxdU5rVnItNVJ0LWp3aXpBYmtCVmNMNUhwcWh2SHByWGp4TWw0VmpkMVAya1BoSUs0U3ZuUS1ieUrSAeoBQVVfeXFMTk9uVlVQWWxTOWNaWHF1eEpuTUpLb01XbkJKSWJvVUNnNDlTak1xaUVfQ1VlS0Q5eTJNVV9oX0o1emh2VVFYeTBsdkZZZmwzYmc0bFRQYm9oUVdJY0MyalgyaUtlQW1XaklQQ0UyajJieHpjMzY3OV9lWFktRGN1cUpxdEV2cGFwbUJFMW03Q1M2c0JaTDAxVXJ6ck1fQlQ3TVBfamJWNnhpMFAxTjRIcl95SlpVNlZwTnJQdkF2SWFRYTZuVFA4NWV4MVlBZXM5ZFFGQXN6bG5zYU84WjdtUHdheGgtMHk5enRB?oc=5
+  matched: Jantar Mantar
+
+· [NEW_ITEM] News: facial recognition and the surveillance question
+  The right to protest: challenging facial recognition technology - Peace Pledge Union |
+  https://news.google.com/rss/articles/CBMilwFBVV95cUxOQkNTWWRqQnlKVW5GT2dnNUN5SURRbnZLNHpPTjNIQnk4WC14eDlWWUFndGoxYU9ZTWNZVUtfcjZlVUVIOXlvVkV3TGJEYzIxMEJjUDZQTnU5OWZENzRPcm5TQW5MRHNTcnRXUDcxeTFYZDBUQmFnRDdtcmJieEM0VFNXWG4yZXlPWGh0ejcxRUQyV1QwRmFr?oc=5
+  matched: facial recognition
 
