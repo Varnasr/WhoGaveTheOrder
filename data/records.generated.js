@@ -2606,8 +2606,8 @@ WGO.importedSources = [
     "kind": "SECONDARY",
     "url": "https://thequint.com/amp/story/news/hot-news/ftii-row-fresh-notice-to-18-students-for-confinement-of-director",
     "retrievedOn": "2026-10-10",
-    "archiveUrl": null,
-    "archivedOn": null,
+    "archiveUrl": "http://web.archive.org/web/20261114091152/https://www.thequint.com/amp/story/news/hot-news/ftii-row-fresh-notice-to-18-students-for-confinement-of-director",
+    "archivedOn": "2026-11-15",
     "sha256": null,
     "originatesFrom": "PTI; quotes Inspector Pravin Chaugule, Deccan Gymkhana Police"
   },
@@ -2628,8 +2628,8 @@ WGO.importedSources = [
     "kind": "SECONDARY",
     "url": "https://thepeninsulaqatar.com/article/19/08/2015/Midnight-swoop-Five-agitating-FTII-students-arrested",
     "retrievedOn": "2026-10-10",
-    "archiveUrl": null,
-    "archivedOn": null,
+    "archiveUrl": "https://web.archive.org/web/20261115094215/https://thepeninsulaqatar.com/article/19/08/2015/Midnight-swoop-Five-agitating-FTII-students-arrested",
+    "archivedOn": "2026-11-15",
     "sha256": null,
     "originatesFrom": null
   },
@@ -2727,8 +2727,8 @@ WGO.importedSources = [
     "kind": "SECONDARY",
     "url": "https://thelogicalindian.com/news/the-strike-at-ftii-continues-for-7th-month-even-as-gajendra-chauhan-assumes-office",
     "retrievedOn": "2026-10-10",
-    "archiveUrl": null,
-    "archivedOn": null,
+    "archiveUrl": "http://web.archive.org/web/20221126095111/https://thelogicalindian.com/news/the-strike-at-ftii-continues-for-7th-month-even-as-gajendra-chauhan-assumes-office/",
+    "archivedOn": "2026-11-15",
     "sha256": null,
     "originatesFrom": null
   },
@@ -2738,8 +2738,8 @@ WGO.importedSources = [
     "kind": "SECONDARY",
     "url": "https://assamtribune.com/gajendra-chauhan-takes-charge-at-ftii",
     "retrievedOn": "2026-10-10",
-    "archiveUrl": null,
-    "archivedOn": null,
+    "archiveUrl": "http://web.archive.org/web/20250208093050/https://assamtribune.com/gajendra-chauhan-takes-charge-at-ftii",
+    "archivedOn": "2026-11-15",
     "sha256": null,
     "originatesFrom": "IANS"
   },

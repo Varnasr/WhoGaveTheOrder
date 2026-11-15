@@ -5,6 +5,44 @@ window.WGO = window.WGO || {};
 
 WGO.changes = [
   {
+    "commit": "55fbd26600",
+    "date": "2026-11-14T09:15:02Z",
+    "subject": "Sweep log and archived copies for 2026-11-14 [skip ci]",
+    "added": [],
+    "removed": [],
+    "changed": [
+      {
+        "id": "SRC-0263",
+        "kind": "Source",
+        "title": "The Tribune (Pune/Mumbai/New Delhi dateline, 19 August 2015, updated 20 August 2015)",
+        "state": null,
+        "url": "https://www.tribuneindia.com/news/archive/nation/midnight-crackdown-5-ftii-students-held-for-rioting-121632",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "https://web.archive.org/web/20261114091113/https://www.tribuneindia.com/news/archive/nation/midnight-crackdown-5-ftii-students-held-for-rioting-121632"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0270",
+        "kind": "Source",
+        "title": "Ummid.com (IANS, 21 August 2015)",
+        "state": null,
+        "url": "https://ummid.com/news/2015/August/21.08.2015/central-team-visits-ftii.html",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20250524160407/https://ummid.com/news/2015/August/21.08.2015/central-team-visits-ftii.html"
+          }
+        ]
+      }
+    ],
+    "summary": "2 records edited"
+  },
+  {
     "commit": "4001076b01",
     "date": "2026-11-13T09:51:36Z",
     "subject": "Sweep log and archived copies for 2026-11-13 [skip ci]",
