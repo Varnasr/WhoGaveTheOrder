@@ -9773,7 +9773,9 @@
         "url": "https://amp.scroll.in/latest/801498/scroll_in",
         "source_type": "secondary",
         "publication": "Scroll.in (7 January 2016)",
-        "retrieved_on": "2026-10-10"
+        "retrieved_on": "2026-10-10",
+        "archive_url": "http://web.archive.org/web/20261114091418/https://amp.scroll.in/latest/801498/scroll_in",
+        "archived_on": "2026-11-16"
       },
       {
         "url": "https://thelogicalindian.com/news/the-strike-at-ftii-continues-for-7th-month-even-as-gajendra-chauhan-assumes-office",
@@ -9808,7 +9810,9 @@
         "url": "https://amp.scroll.in/latest/801498/scroll_in",
         "source_type": "secondary",
         "publication": "Scroll.in (7 January 2016)",
-        "retrieved_on": "2026-10-10"
+        "retrieved_on": "2026-10-10",
+        "archive_url": "http://web.archive.org/web/20261114091418/https://amp.scroll.in/latest/801498/scroll_in",
+        "archived_on": "2026-11-16"
       },
       {
         "url": "https://thelogicalindian.com/news/the-strike-at-ftii-continues-for-7th-month-even-as-gajendra-chauhan-assumes-office",
@@ -9853,21 +9857,27 @@
         "source_type": "secondary",
         "publication": "The Wire, 'What Lies Behind the Occupy UGC Protest', 24 November 2015",
         "retrieved_on": "2026-10-10",
-        "originates_from": "Student and JNUSU president quotes to The Wire correspondent"
+        "originates_from": "Student and JNUSU president quotes to The Wire correspondent",
+        "archive_url": "http://web.archive.org/web/20260811170545/https://thewire.in/education/what-lies-behind-the-occupy-ugc-protest",
+        "archived_on": "2026-11-16"
       },
       {
         "url": "https://kafila.online/2015/10/23/students-occupy-ugc-to-defend-the-right-to-research-in-universities-across-india-sucheta-de/",
         "source_type": "secondary",
         "publication": "Kafila, guest post by the national president of AISA, 23 October 2015",
         "retrieved_on": "2026-10-10",
-        "originates_from": "AISA national president, a participant"
+        "originates_from": "AISA national president, a participant",
+        "archive_url": "http://web.archive.org/web/20251207010335/https://kafila.online/2015/10/23/students-occupy-ugc-to-defend-the-right-to-research-in-universities-across-india-sucheta-de/",
+        "archived_on": "2026-11-16"
       },
       {
         "url": "https://countercurrents.org/pudr021115.htm",
         "source_type": "secondary",
         "publication": "PUDR statement dated 2 November 2015, as published on Countercurrents",
         "retrieved_on": "2026-10-10",
-        "originates_from": "People's Union for Democratic Rights, signed by its two secretaries (an advocacy group, not an official record)"
+        "originates_from": "People's Union for Democratic Rights, signed by its two secretaries (an advocacy group, not an official record)",
+        "archive_url": "http://web.archive.org/web/20260504161121/https://countercurrents.org/pudr021115.htm",
+        "archived_on": "2026-11-16"
       }
     ],
     "notes": "Two accounts written independently of each other agree on the start date, and the PUDR statement agrees. Two of the three are written by people in the protest. The Wire and Kafila place the office 'near ITO'; no source read gives the street name Bahadur Shah Zafar Marg, so that detail is not carried here. Non-NET fellowships were Rs 8,000 a month for PhD and Rs 5,000 for MPhil students (The Wire).",
@@ -9886,14 +9896,18 @@
         "source_type": "secondary",
         "publication": "PUDR statement dated 2 November 2015, as published on Countercurrents",
         "retrieved_on": "2026-10-10",
-        "originates_from": "People's Union for Democratic Rights, signed by its two secretaries (an advocacy group, not an official record)"
+        "originates_from": "People's Union for Democratic Rights, signed by its two secretaries (an advocacy group, not an official record)",
+        "archive_url": "http://web.archive.org/web/20260504161121/https://countercurrents.org/pudr021115.htm",
+        "archived_on": "2026-11-16"
       },
       {
         "url": "https://thewire.in/education/what-lies-behind-the-occupy-ugc-protest",
         "source_type": "secondary",
         "publication": "The Wire, 'What Lies Behind the Occupy UGC Protest', 24 November 2015",
         "retrieved_on": "2026-10-10",
-        "originates_from": "Student and JNUSU president quotes to The Wire correspondent"
+        "originates_from": "Student and JNUSU president quotes to The Wire correspondent",
+        "archive_url": "http://web.archive.org/web/20260811170545/https://thewire.in/education/what-lies-behind-the-occupy-ugc-protest",
+        "archived_on": "2026-11-16"
       },
       {
         "url": "https://countercurrents.org/dsg271015.htm",
@@ -9907,7 +9921,9 @@
         "source_type": "secondary",
         "publication": "Kafila, guest post by the national president of AISA, 23 October 2015",
         "retrieved_on": "2026-10-10",
-        "originates_from": "AISA national president, a participant"
+        "originates_from": "AISA national president, a participant",
+        "archive_url": "http://web.archive.org/web/20251207010335/https://kafila.online/2015/10/23/students-occupy-ugc-to-defend-the-right-to-research-in-universities-across-india-sucheta-de/",
+        "archived_on": "2026-11-16"
       }
     ],
     "notes": "The incident as described to the archive ('detentions on 21 October') is not confirmed as stated. PUDR's 4:30 am on 21 October sits before the afternoon start of the occupation reported by the AISA leader and The Wire, so that time looks mistaken, but no document settles it. The 22 or 23 October dating is more consistent with the AISA account, the Amar Ujala report of a lathi charge on 23 October, and the Delhi Solidarity Group. No police record, FIR or official detainee list was found. All four sources are protest-side or advocacy accounts or quote protest participants; no police account of this detention was found.",
@@ -9958,7 +9974,9 @@
         "source_type": "secondary",
         "publication": "PUDR statement dated 2 November 2015, as published on Countercurrents",
         "retrieved_on": "2026-10-10",
-        "originates_from": "People's Union for Democratic Rights, signed by its two secretaries (an advocacy group, not an official record)"
+        "originates_from": "People's Union for Democratic Rights, signed by its two secretaries (an advocacy group, not an official record)",
+        "archive_url": "http://web.archive.org/web/20260504161121/https://countercurrents.org/pudr021115.htm",
+        "archived_on": "2026-11-16"
       },
       {
         "url": "https://kafila.online/2015/10/28/delhi-police-tells-lies-about-attacks-on-protesting-students-occupyugc/",
@@ -10016,14 +10034,18 @@
         "source_type": "secondary",
         "publication": "Kafila, guest post by the national president of AISA, 23 October 2015",
         "retrieved_on": "2026-10-10",
-        "originates_from": "AISA national president, a participant"
+        "originates_from": "AISA national president, a participant",
+        "archive_url": "http://web.archive.org/web/20251207010335/https://kafila.online/2015/10/23/students-occupy-ugc-to-defend-the-right-to-research-in-universities-across-india-sucheta-de/",
+        "archived_on": "2026-11-16"
       },
       {
         "url": "https://thewire.in/education/what-lies-behind-the-occupy-ugc-protest",
         "source_type": "secondary",
         "publication": "The Wire, 'What Lies Behind the Occupy UGC Protest', 24 November 2015",
         "retrieved_on": "2026-10-10",
-        "originates_from": "Student and JNUSU president quotes to The Wire correspondent"
+        "originates_from": "Student and JNUSU president quotes to The Wire correspondent",
+        "archive_url": "http://web.archive.org/web/20260811170545/https://thewire.in/education/what-lies-behind-the-occupy-ugc-protest",
+        "archived_on": "2026-11-16"
       }
     ],
     "notes": "Both are participant accounts. No order, notification or deployment record was found for the cordon, and no document says which office directed it.",
@@ -10049,7 +10071,9 @@
         "source_type": "secondary",
         "publication": "The Wire, 'What Lies Behind the Occupy UGC Protest', 24 November 2015",
         "retrieved_on": "2026-10-10",
-        "originates_from": "Student and JNUSU president quotes to The Wire correspondent"
+        "originates_from": "Student and JNUSU president quotes to The Wire correspondent",
+        "archive_url": "http://web.archive.org/web/20260811170545/https://thewire.in/education/what-lies-behind-the-occupy-ugc-protest",
+        "archived_on": "2026-11-16"
       }
     ],
     "notes": "Outcome of the policy demand only. The orders themselves were not read. The dates differ in how the two sources frame the sequence, and the HRD Minister's earlier tweet of 26 October is described by The Wire.",

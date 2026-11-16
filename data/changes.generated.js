@@ -5,6 +5,72 @@ window.WGO = window.WGO || {};
 
 WGO.changes = [
   {
+    "commit": "fb978451e2",
+    "date": "2026-11-15T09:44:46Z",
+    "subject": "Sweep log and archived copies for 2026-11-15 [skip ci]",
+    "added": [],
+    "removed": [],
+    "changed": [
+      {
+        "id": "SRC-0264",
+        "kind": "Source",
+        "title": "The Quint (PTI, 11 March 2016)",
+        "state": null,
+        "url": "https://thequint.com/amp/story/news/hot-news/ftii-row-fresh-notice-to-18-students-for-confinement-of-director",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20261114091152/https://www.thequint.com/amp/story/news/hot-news/ftii-row-fresh-notice-to-18-students-for-confinement-of-director"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0266",
+        "kind": "Source",
+        "title": "The Peninsula, Qatar (Pune dateline, 19 August 2015)",
+        "state": null,
+        "url": "https://thepeninsulaqatar.com/article/19/08/2015/Midnight-swoop-Five-agitating-FTII-students-arrested",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "https://web.archive.org/web/20261115094215/https://thepeninsulaqatar.com/article/19/08/2015/Midnight-swoop-Five-agitating-FTII-students-arrested"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0275",
+        "kind": "Source",
+        "title": "The Logical Indian (16 January 2016)",
+        "state": null,
+        "url": "https://thelogicalindian.com/news/the-strike-at-ftii-continues-for-7th-month-even-as-gajendra-chauhan-assumes-office",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20221126095111/https://thelogicalindian.com/news/the-strike-at-ftii-continues-for-7th-month-even-as-gajendra-chauhan-assumes-office/"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0276",
+        "kind": "Source",
+        "title": "Assam Tribune (IANS, datelined 7 January 2016; page header shows an unrelated date)",
+        "state": null,
+        "url": "https://assamtribune.com/gajendra-chauhan-takes-charge-at-ftii",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20250208093050/https://assamtribune.com/gajendra-chauhan-takes-charge-at-ftii"
+          }
+        ]
+      }
+    ],
+    "summary": "4 records edited"
+  },
+  {
     "commit": "55fbd26600",
     "date": "2026-11-14T09:15:02Z",
     "subject": "Sweep log and archived copies for 2026-11-14 [skip ci]",

@@ -2716,8 +2716,8 @@ WGO.importedSources = [
     "kind": "SECONDARY",
     "url": "https://amp.scroll.in/latest/801498/scroll_in",
     "retrievedOn": "2026-10-10",
-    "archiveUrl": null,
-    "archivedOn": null,
+    "archiveUrl": "http://web.archive.org/web/20261114091418/https://amp.scroll.in/latest/801498/scroll_in",
+    "archivedOn": "2026-11-16",
     "sha256": null,
     "originatesFrom": null
   },
@@ -2760,8 +2760,8 @@ WGO.importedSources = [
     "kind": "SECONDARY",
     "url": "https://thewire.in/education/what-lies-behind-the-occupy-ugc-protest",
     "retrievedOn": "2026-10-10",
-    "archiveUrl": null,
-    "archivedOn": null,
+    "archiveUrl": "http://web.archive.org/web/20260811170545/https://thewire.in/education/what-lies-behind-the-occupy-ugc-protest",
+    "archivedOn": "2026-11-16",
     "sha256": null,
     "originatesFrom": "Student and JNUSU president quotes to The Wire correspondent"
   },
@@ -2771,8 +2771,8 @@ WGO.importedSources = [
     "kind": "SECONDARY",
     "url": "https://kafila.online/2015/10/23/students-occupy-ugc-to-defend-the-right-to-research-in-universities-across-india-sucheta-de/",
     "retrievedOn": "2026-10-10",
-    "archiveUrl": null,
-    "archivedOn": null,
+    "archiveUrl": "http://web.archive.org/web/20251207010335/https://kafila.online/2015/10/23/students-occupy-ugc-to-defend-the-right-to-research-in-universities-across-india-sucheta-de/",
+    "archivedOn": "2026-11-16",
     "sha256": null,
     "originatesFrom": "AISA national president, a participant"
   },
@@ -2782,8 +2782,8 @@ WGO.importedSources = [
     "kind": "SECONDARY",
     "url": "https://countercurrents.org/pudr021115.htm",
     "retrievedOn": "2026-10-10",
-    "archiveUrl": null,
-    "archivedOn": null,
+    "archiveUrl": "http://web.archive.org/web/20260504161121/https://countercurrents.org/pudr021115.htm",
+    "archivedOn": "2026-11-16",
     "sha256": null,
     "originatesFrom": "People's Union for Democratic Rights, signed by its two secretaries (an advocacy group, not an official record)"
   },
