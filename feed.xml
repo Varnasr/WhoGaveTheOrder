@@ -3,10 +3,19 @@
   <title>WhoGaveTheOrder.in: changes to the record</title>
   <subtitle>Every record that has been added, moved between states, or edited.</subtitle>
   <id>tag:whogavetheorder.in,2026:feed</id>
-  <updated>2026-11-14T09:15:02Z</updated>
+  <updated>2026-11-15T09:44:46Z</updated>
   <link href="https://www.whogavetheorder.in/"/>
   <link rel="self" href="https://www.whogavetheorder.in/feed.xml"/>
   <rights>Reuse with attribution</rights>
+  <entry>
+    <title>4 records edited</title>
+    <id>tag:whogavetheorder.in,2026:change/fb978451e2</id>
+    <updated>2026-11-15T09:44:46Z</updated>
+    <link href="https://www.whogavetheorder.in/changes.html#fb978451e2"/>
+    <content type="html">
+      &lt;ul&gt;&lt;li&gt;Edited Source SRC-0264: The Quint (PTI, 11 March 2016)&lt;/li&gt;&lt;li&gt;Edited Source SRC-0266: The Peninsula, Qatar (Pune dateline, 19 August 2015)&lt;/li&gt;&lt;li&gt;Edited Source SRC-0275: The Logical Indian (16 January 2016)&lt;/li&gt;&lt;li&gt;Edited Source SRC-0276: Assam Tribune (IANS, datelined 7 January 2016; page header shows an unrelated date)&lt;/li&gt;&lt;/ul&gt;
+    </content>
+  </entry>
   <entry>
     <title>2 records edited</title>
     <id>tag:whogavetheorder.in,2026:change/55fbd26600</id>
@@ -446,15 +455,6 @@
     <link href="https://www.whogavetheorder.in/changes.html#233d35bb12"/>
     <content type="html">
       &lt;ul&gt;&lt;li&gt;Added Evidence PROC-SC-016: The High Powered Enquiry Committee has a website at hpec.nic.in, with a home page, an About The Committee page, a Supreme Court Orders page, a Submit Informatio&lt;/li&gt;&lt;li&gt;Added Evidence PROC-SC-017: The Committee&apos;s home page lists four ways to give it information. (A) Affected persons, including police personnel, may submit information or a complaint on the&lt;/li&gt;&lt;li&gt;Added Source SRC-1078: High Powered Enquiry Committee (hpec.nic.in), home page&lt;/li&gt;&lt;/ul&gt;
-    </content>
-  </entry>
-  <entry>
-    <title>5 records edited</title>
-    <id>tag:whogavetheorder.in,2026:change/6ccfbeb981</id>
-    <updated>2026-10-13T09:41:54Z</updated>
-    <link href="https://www.whogavetheorder.in/changes.html#6ccfbeb981"/>
-    <content type="html">
-      &lt;ul&gt;&lt;li&gt;Edited Source SRC-0139: Onmanorama, 15 February 2016&lt;/li&gt;&lt;li&gt;Edited Source SRC-0140: The Quint live blog, 22 February 2016&lt;/li&gt;&lt;li&gt;Edited Source SRC-0141: ummid.com, 22 February 2016 (IANS)&lt;/li&gt;&lt;li&gt;Edited Source SRC-0145: Indian Kanoon, reproducing Supreme Court record of proceedings, 18 February 2016&lt;/li&gt;&lt;li&gt;Edited Source SRC-0147: India.com, 17 February 2016 (PTI)&lt;/li&gt;&lt;/ul&gt;
     </content>
   </entry>
 </feed>
