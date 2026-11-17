@@ -1,8 +1,8 @@
 {
   "run": {
-    "date": "2026-11-16",
+    "date": "2026-11-17",
     "targets": 9,
-    "findings": 8,
+    "findings": 7,
     "outcomes": {
       "nothing-published": 1,
       "changed-no-match": 1,
@@ -22,11 +22,35 @@
     },
     {
       "kind": "NEW_ITEM",
+      "target": "barandbench",
+      "label": "Bar & Bench",
+      "title": "Kanga & Co advises Anand Rathi Towers on ₹145 crore land acquisition in Worli, Mumbai",
+      "url": "https://www.barandbench.com/law-firms/dealstreet/kanga-co-advises-anand-rathi-towers-on-145-crore-land-acquisition-in-worli-mumbai",
+      "date": "Tue, 17 Nov 2026 15:49:53 +0530",
+      "terms": [
+        "Mumbai"
+      ],
+      "note": "Legal reporting carries hearings on the day they happen, usually before anything reaches a court website."
+    },
+    {
+      "kind": "NEW_ITEM",
+      "target": "barandbench",
+      "label": "Bar & Bench",
+      "title": "West Bengal moves Supreme Court against Calcutta HC order barring KMC elections based on redrawn wards",
+      "url": "https://www.barandbench.com/news/litigation/west-bengal-moves-supreme-court-against-calcutta-hc-order-barring-kmc-elections-based-on-redrawn-wards",
+      "date": "Mon, 16 Nov 2026 19:26:49 +0530",
+      "terms": [
+        "West Bengal"
+      ],
+      "note": "Legal reporting carries hearings on the day they happen, usually before anything reaches a court website."
+    },
+    {
+      "kind": "NEW_ITEM",
       "target": "news-delhi",
       "label": "News: Jantar Mantar and the police action",
-      "title": "Govt Employees Union Seeks Reopening Of Jantar Mantar - BW People",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQRHI1NXUyQnpEeE5ITGxBSDIwX01GRmRDcEJzM0lzeVNabncyOThGZjJxWVh4WUw1MFhtMVgxajRMOEMzS1E5cmNRZmVYbEdvbmtvbXZRQ1lTNGlYOTZlWDBNZ3FoU3ROZkw5VktzbUd0Ym5lV3BfeGc5cE5sZmprMFR6NmczYVQ3V2VkbnJ4SWl3UjV6bVU0?oc=5",
-      "date": "Sun, 15 Nov 2026 19:06:52 GMT",
+      "title": "Jantar Mantar trespassing case: CJP leaders Das, Ranka to appear before SEM in Delhi - The Hindu",
+      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNb2pERWJYc295eU1odXpzLUdjZkFtSWRhNktlRy1VWTltcWtZUFBIUmctaUxvS0pZY2liel8tMHNleElJSFJuQ0xLNkFLbmRoWTN5RGJSZHduWFZ1b1Q5aEYxdHZKTXZRN2RFX2FMVkpLd1EyLU5lcUJhRnFBSklnLXJpYUZ3RkpGdmtKaElVaDdSbjlfbk9vLThwUWQ3R2FkWGxVa3VRVXUxd1pNLUdhRDYxVy10aHF5aGR2bXJMMjVTWDRQdXVvNkZQNTRaOEJQdExUT1o2b3dzYktjWDFsV3p6WnRQMVZDS2tYaDJYUdIB9gFBVV95cUxPZm9OTzRNbUpLeEc0ZTdZeEkxTXdaNm5hYUJseGRRUktVMll1SElMdU0ydk42WjJCNk45X0VqOWdrLUtzTWFCdXZxQUFnLUwwbFl5dDhnR2tlRXFpSHpEdk5YLXVXTVJncU4tcEM1QVdkazRnUkVFT1FtaFFBVVZHT3BXY3RZZzVOeG1VSVViT1J1dXFFNVJ3TTMtcWxHSmliODg4TThVN2s1ZGJQaHY1el9DSExqZ2s4YTRpdGJucWFCM1JQT19RX0Y0VExmYUtUZGhfbFFuZ0lZZnk0SGlOdjVlRWhTNERxU3doVEYzazBSNkRja0E?oc=5",
+      "date": "Tue, 17 Nov 2026 04:35:13 GMT",
       "terms": [
         "Jantar Mantar"
       ],
@@ -36,9 +60,9 @@
       "kind": "NEW_ITEM",
       "target": "news-delhi",
       "label": "News: Jantar Mantar and the police action",
-      "title": "Jantar Mantar पर महिला को घसीटकर ले गई Delhi Police? VIDEO हुआ Viral | Gyanesh Kumar Protest - प्रभात खबर - Prabhat Khabar",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBKemlhbUpfOFo3VnE5N2FYamkxSnJleEYxdENReXkxNzZodWdxVFlUMkpJQW13dXJKeGJnTmxReDJvdEFjVVhDWVJER0lURnA5Tlc1TTZkNEtuUEdSbW5CNV8weGZscVFscmc?oc=5",
-      "date": "Fri, 02 Oct 2026 07:00:00 GMT",
+      "title": "Distressing: What Supreme Courts Justice Ujjal Bhuyan Said on Jantar Mantar Police Brutality - TheWire.in",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOVHdSdHZaT3VpQlA4UXVMNUQ1QTJxMEJhZ2ZTQThJY1BjeWZLYThuT1liRXUxTFhsanpIZjVxVWJlam1iaU50WC1OSldhQ0NFelFGbTZUVVdHLUw1SmVYTWRjN05hVGFSSVFGM3VXemdpVDR5UFl3VUhoeHptcUFwRFhEUzFDalZQcEdER21pTFhqMVBoaE1GdmpZNXh6QmpLZUltZW9QSmhCa0MwM3pyYU1YejR4MTU3NW5HT0owWTZqd9IBxwFBVV95cUxOYngzU0tJQVdSbXlqeXl1TVF0RnZVMFRMVU9XcThKbHJwd09pTUk4dWMtV2JFTXg5MWx3dFpWZTVrd0Z3ZDJ5c0NxQ3R1YndxbTlxUDVIX0hRa3l1ZVNWMVRCZ3BFZ2x0bVVJZVBvUzQ2QUJWU3FnN0M2d29rSktSTVhmRmhMWF9wWWI4Qk9OYjNKS2o2d2JtV0dHZFBjRVFPRk1udTFueTBnUzkzdXZzemJCSTBod0poSWF4MkNkYmlOMmNudng4?oc=5",
+      "date": "Sat, 05 Sep 2026 07:00:00 GMT",
       "terms": [
         "Jantar Mantar"
       ],
@@ -48,57 +72,21 @@
       "kind": "NEW_ITEM",
       "target": "news-delhi",
       "label": "News: Jantar Mantar and the police action",
-      "title": "Delhi traffic alert: Avoid these roads near Jantar Mantar as AAP protest triggers diversions today - Moneycontrol.com",
-      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQRWxaUHlzVGRoMzhCLTA3eVJmYnBPWFBWMGtZVWZ4by04cDluRTVnLXlCczMwdFlNRjMweGtES3I3T19CeDJod1pMeEktTGRlQkZfT2ttYUVFcmtPXzZPbHY0Wkd3djJhT09YVElLbUdwX3dVVzV2TU8ydEJUcGlncUI5RUlSWE5GV2JfeGtGU01OOXRqOUFXSkF4OXBZYnVFZVR4VGYteUh4WlEyb09kcnI5R3BPNnpHZHBVblh5TElDb1cxWm81RHdoTXQ0V2dkQVlpY2hkRVhYdnM4S3VKRkZnZWtPX29Q0gHuAUFVX3lxTFBOWlF3TU9BVEhWcWpVZFItU2RFYWk1X1lfclZGMTdnbFp4Mkg1UTNwZnJlYkc0eEM4eVNVQUJwU1NWclI0Q2NyTXJmYWdMS2xpN0tydmZTMlFNVFlNM3hrLTVWX2JNb1cwT3FsdEpxMFBGYVpTby0wc3Q1SUhtVGtybnlyZWc4bDJURVZUTVc5bzRDcFdTOURXcUt4RVp3dDNKUVUtYmdjNWRocHlramRSRG05dklaSXRTQmY4VFVydW9Cd2dNUm40cmZNZlpHRGRnMFpoZzM2T2FYdEdPY3JmNkZ3V2dLT3JFZkdSNlE?oc=5",
-      "date": "Fri, 02 Oct 2026 07:00:00 GMT",
+      "title": "Delhi HC Questions Maintainability Of Congress Plea Over Jantar Mantar Bungalow Sale Deed - LawBeat",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPZ2dBWkljQWowM3RmMURoeThYbEJoMXRVX2Nvb205RUYxNWJtZnhkb2VEN1plaEcxVnIyc0FEUnNvQl8zTUFRQy1nNGRSRVdlZjZOXzdreVRjRFEwTEtKOFlDMzc2bERvdHB1d0tUaFRydmpiSy1HYWpRYzI5NG5JWndpSC1Ha3hzWlF1Q1RqVFBObXF4VkhJVEYzc3hwX3RFdWxCdG10Q1ZQM0szMG9ZUW1zQUdaTWlrdUpialFmT2RoOWtESlE0R9IBzgFBVV95cUxQeHFwZGJueDhQLUpJWmpRZ0xDN1poVjJQZDEtNGdVVGZoaXFYTzgwRlJCSk10WWxCTkQ4dFNwd3FNV1N4OFMwRnJ6TVRPcV9qdzJGMXA5VWJ0V24yT0RGMVo2eFdiN1B0YWNmLXpGRW9LN05BVTJzWEdVT1I1VUNzZXdjOEZmYl80UF9uaXFzRzRyNUZVSnU4aklBX0pYSW5YRXJWcFlia1JIQ1piMzlpdk9FX0RFQTN6RnFQTGplbUZWMlZxZU15ZHJjakVqUQ?oc=5",
+      "date": "Thu, 14 May 2026 07:00:00 GMT",
       "terms": [
         "Jantar Mantar"
       ],
       "note": "Leads, not evidence. Something reported here is a pointer to a document worth going after."
-    },
-    {
-      "kind": "NEW_ITEM",
-      "target": "news-delhi",
-      "label": "News: Jantar Mantar and the police action",
-      "title": "Reservation Hatao Andolan: UGC Norms, RAF Deployed, Protesters Detained At Jantar Mantar As Stir Continues - Oneindia",
-      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOZ0J3V0dQUDFjNmdOSllMTGJPN0Q5cVFLSDI5T2lGMUxFUkdJV2hNdU1Ua3lsWmZIVHg0RU5yWFVWanJJdUtVOTE0TGdtTmVuLXlqZXVEajRWZEk0R2xCOUhiNENrYktHeEpwcnpkNlZDZVh0OElId2xyMlhkcl9FSHhEV0Q2MEN5OGh0UERuNktLVDhZVkdEM2NhRHV0YmxwS0h3YW9BUXUxUml6TWx5UW9BdDU1akJIdUU5Y1RHYnNhaHZQMmczd3lwVGJDM3E4OUtkQmZEQnUzSXY3a0E?oc=5",
-      "date": "Sat, 22 Aug 2026 07:00:00 GMT",
-      "terms": [
-        "Jantar Mantar"
-      ],
-      "note": "Leads, not evidence. Something reported here is a pointer to a document worth going after."
-    },
-    {
-      "kind": "NEW_ITEM",
-      "target": "news-cases",
-      "label": "News: the two proceedings by name",
-      "title": "Shakeel Abbas i hath napkin menu chhodana hai steel badshah song naya/ #motivation - YouTube",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9ub214TzVkMGhDdkdhOU9iS2E4MjNtME5BYlV6dXNjRTU5b19SdUY5akM1UTZfZGJ6QUxOV1hTUFFPeEVLRGRLRWxnTmJXQmdaenpNRi1CWGZwNmJy?oc=5",
-      "date": "Sat, 11 Jul 2026 07:00:00 GMT",
-      "terms": [
-        "Shakeel Abbas"
-      ],
-      "note": "Named-case reporting is the earliest signal that an order has been passed."
     },
     {
       "kind": "NEW_ITEM",
       "target": "news-frt",
       "label": "News: facial recognition and the surveillance question",
-      "title": "Delhi police deploy 3,000 personnel and AI facial recognition for IITF - The News Mill",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUFk1ZWNuc1dnUEthOUxtZ3l1Q044MDROQWRtaEx3TFAxSmdKbUJ3RGlWWlEzS3U2ZExmR0dNT1UxbVNQSkNnTkR3NHRya0ZjVjBwMFJOREFlQ2VGVFMzbUZ3enV0emZtOTVkVi0waEJTTkdTNUJpQ1RvX1NQS2N5VUxDV2JnTmY3RFZNc3ZLNXlPZ1UxbTlPN3hKYUZCNWVZLTBncQ?oc=5",
-      "date": "Sun, 15 Nov 2026 14:37:22 GMT",
-      "terms": [
-        "facial recognition"
-      ],
-      "note": "OQ-034 asks what database was matched against and whether a private company processed the data. Both are live questions before the Supreme Court."
-    },
-    {
-      "kind": "NEW_ITEM",
-      "target": "news-frt",
-      "label": "News: facial recognition and the surveillance question",
-      "title": "Delhi Police deploys 3,000 personnel, AI-based facial recognition for IITF at Bharat Mandapam - Big News Network.com",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPLWtXTk43MUE4cWxLTndSdndMRVdjaGZaSllSQ01Ha0NJVVFVRG11V3VUVXlSaERqN0ZzeEVqaUtXcWxmMFRWNmJ5dnNwMGdycnVHMDJSVWk3bXJvN08zUU4yRFl2bFpOOXNsTnVNWENETS1mRkhuNFE5aUFONjhpWmhJdl9FTkh0bmVfNGpnV21EeExjNHVCd3pnR000YW5rMjd2aFVydmdLeDBMUThUajJNak1WaWxSRUEzQW85SXZicTA1dVRuYTRWdFNCejNNTzFn?oc=5",
-      "date": "Sun, 15 Nov 2026 17:02:00 GMT",
+      "title": "Delhi police’s facial recognition tech could make Muslims likelier targets - Scroll.in",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxONkZNYnJHWnFfN3J2bW9wYjkzSW1maEZRdE1VTDdBOU44RGd3VHQ3WDRMMUltSVVNc1ZfODgtMXlzMjVMWVFPWll5NUxtU3FrNkFveXBXUThUYmJETzQyWVJRSGYtVzI5QUtKdTVMejNIT3h1VGZ2c1pTLVJaaVRSWktvZE9LWEtWbW5GX09tX05PQUZrREdhWmJycFVkYUVrSVIzVUNDZmtNTE3SAbABQVVfeXFMTWN6NFJocFJZV2lKSmh0RldrRlRQRHg2dEZGWDFsSWpraEpOWnBCTzZyWk0xdFc5SWtqbzBoZmQwcU5NTFl2TXRvVUpJSjlRRFpWaVA4YnRja1lKb05zc3JwLXVpemo0ODRvQUpjdlBWWmVYaDhCYjZtbFkweTMtWFJBVkhUSE5ab1dHaWl4eFhKb1ZueUJfYzJTcGcwOHczT2hzVEc5dExpeDhzLURINjU?oc=5",
+      "date": "Wed, 25 Aug 2021 07:00:00 GMT",
       "terms": [
         "facial recognition"
       ],
@@ -108,7 +96,7 @@
   "checked": [
     {
       "id": "delhi-hc-causelist",
-      "url": "https://delhihighcourt.nic.in/files/2026-11/cause-list/combined_cause_list_16.11.2026.pdf",
+      "url": "https://delhihighcourt.nic.in/files/2026-11/cause-list/combined_cause_list_17.11.2026.pdf",
       "status": 404,
       "outcome": "nothing-published"
     },
@@ -137,16 +125,16 @@
       "url": "https://www.barandbench.com/feed",
       "status": 200,
       "outcome": "ok",
-      "items": 33,
-      "matched": 0
+      "items": 40,
+      "matched": 2
     },
     {
       "id": "news-delhi",
       "url": "https://news.google.com/rss/search?q=%22Jantar+Mantar%22+(police+OR+court+OR+NHRC+OR+affidavit)&hl=en-IN&gl=IN&ceid=IN:en",
       "status": 200,
       "outcome": "ok",
-      "items": 76,
-      "matched": 4
+      "items": 71,
+      "matched": 3
     },
     {
       "id": "news-cases",
@@ -154,15 +142,15 @@
       "status": 200,
       "outcome": "ok",
       "items": 8,
-      "matched": 1
+      "matched": 0
     },
     {
       "id": "news-frt",
       "url": "https://news.google.com/rss/search?q=(%22facial+recognition%22+OR+%22Crime+Kundli%22)+(%22Delhi+Police%22+OR+protest)&hl=en-IN&gl=IN&ceid=IN:en",
       "status": 200,
       "outcome": "ok",
-      "items": 52,
-      "matched": 2
+      "items": 55,
+      "matched": 1
     },
     {
       "id": "news-bihar",

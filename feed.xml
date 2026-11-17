@@ -3,10 +3,19 @@
   <title>WhoGaveTheOrder.in: changes to the record</title>
   <subtitle>Every record that has been added, moved between states, or edited.</subtitle>
   <id>tag:whogavetheorder.in,2026:feed</id>
-  <updated>2026-11-15T09:44:46Z</updated>
+  <updated>2026-11-16T10:04:14Z</updated>
   <link href="https://www.whogavetheorder.in/"/>
   <link rel="self" href="https://www.whogavetheorder.in/feed.xml"/>
   <rights>Reuse with attribution</rights>
+  <entry>
+    <title>4 records edited</title>
+    <id>tag:whogavetheorder.in,2026:change/586888a5a6</id>
+    <updated>2026-11-16T10:04:14Z</updated>
+    <link href="https://www.whogavetheorder.in/changes.html#586888a5a6"/>
+    <content type="html">
+      &lt;ul&gt;&lt;li&gt;Edited Source SRC-0274: Scroll.in (7 January 2016)&lt;/li&gt;&lt;li&gt;Edited Source SRC-0278: The Wire, &apos;What Lies Behind the Occupy UGC Protest&apos;, 24 November 2015&lt;/li&gt;&lt;li&gt;Edited Source SRC-0279: Kafila, guest post by the national president of AISA, 23 October 2015&lt;/li&gt;&lt;li&gt;Edited Source SRC-0280: PUDR statement dated 2 November 2015, as published on Countercurrents&lt;/li&gt;&lt;/ul&gt;
+    </content>
+  </entry>
   <entry>
     <title>4 records edited</title>
     <id>tag:whogavetheorder.in,2026:change/fb978451e2</id>
@@ -446,15 +455,6 @@
     <link href="https://www.whogavetheorder.in/changes.html#d71c9f510f"/>
     <content type="html">
       &lt;ul&gt;&lt;li&gt;Added Evidence PROC-SC-018: By its order of 18 August 2026 in W.P.(Crl.) No. 280/2026 (Shailendra Mani Tripathi v. Union of India and Ors.) and connected matters, a bench of the Chief Just&lt;/li&gt;&lt;li&gt;Added Evidence PROC-SC-019: By its order of 10 September 2026 in the same batch, the Court recorded that the Union had complied with paragraph 24 of the 18 August order (infrastructure and&lt;/li&gt;&lt;li&gt;Added Source SRC-1079: Supreme Court of India, Record of Proceedings of 10 September 2026, W.P.(Crl.) No. 280/2026 and connected matters (PDF)&lt;/li&gt;&lt;li&gt;Added Question OQ-063: What did the Supreme Court do on 9 October 2026, the date the 10 September order listed W.P.(Crl.) No. 280/2026 and connected matters for further consideration, and has the Committee filed or been asked for a first interim report?&lt;/li&gt;&lt;li&gt;Edited Evidence PROC-SC-001: Supreme Court proceedings on petitions concerning police action at Jantar Mantar and elsewhere; petitions allege lathi charge, pellet guns, rubber bullets, tear&lt;/li&gt;&lt;li&gt;Edited Evidence PROC-SC-002: Delhi Police stated on affidavit before the Supreme Court, at a hearing on 18 August 2026 in Shailendra Mani Tripathi v. Union of India and Ors., W.P.(Crl.) 280&lt;/li&gt;&lt;li&gt;Edited Evidence PROC-SC-006: The Supreme Court constituted a five-member High Powered Enquiry Committee by order reported dated 18 August 2026 to inquire into the police action against the &lt;/li&gt;&lt;li&gt;Evidence PROC-SC-011 moved from REPORTED to VERIFIED: By an order dated 10 September 2026, a three-judge bench of the Chief Justice of India Surya Kant, Justice Joymalya Bagchi and Justice V. Mohana declined to rec&lt;/li&gt;&lt;li&gt;Edited Question OQ-033: The Delhi Police affidavit filed in W.P.(Crl.) 280/2026 concerning the use of facial recognition technology at the Jantar Mantar protest.&lt;/li&gt;&lt;li&gt;Question OQ-045 moved from UNANSWERED to ANSWERED: The Supreme Court&apos;s order of 18 August 2026 constituting the High Powered Enquiry Committee, and the committee&apos;s terms of reference as issued.&lt;/li&gt;&lt;/ul&gt;
-    </content>
-  </entry>
-  <entry>
-    <title>3 records added</title>
-    <id>tag:whogavetheorder.in,2026:change/233d35bb12</id>
-    <updated>2026-10-14T04:48:52Z</updated>
-    <link href="https://www.whogavetheorder.in/changes.html#233d35bb12"/>
-    <content type="html">
-      &lt;ul&gt;&lt;li&gt;Added Evidence PROC-SC-016: The High Powered Enquiry Committee has a website at hpec.nic.in, with a home page, an About The Committee page, a Supreme Court Orders page, a Submit Informatio&lt;/li&gt;&lt;li&gt;Added Evidence PROC-SC-017: The Committee&apos;s home page lists four ways to give it information. (A) Affected persons, including police personnel, may submit information or a complaint on the&lt;/li&gt;&lt;li&gt;Added Source SRC-1078: High Powered Enquiry Committee (hpec.nic.in), home page&lt;/li&gt;&lt;/ul&gt;
     </content>
   </entry>
 </feed>
