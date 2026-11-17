@@ -5,6 +5,72 @@ window.WGO = window.WGO || {};
 
 WGO.changes = [
   {
+    "commit": "586888a5a6",
+    "date": "2026-11-16T10:04:14Z",
+    "subject": "Sweep log and archived copies for 2026-11-16 [skip ci]",
+    "added": [],
+    "removed": [],
+    "changed": [
+      {
+        "id": "SRC-0274",
+        "kind": "Source",
+        "title": "Scroll.in (7 January 2016)",
+        "state": null,
+        "url": "https://amp.scroll.in/latest/801498/scroll_in",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20261114091418/https://amp.scroll.in/latest/801498/scroll_in"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0278",
+        "kind": "Source",
+        "title": "The Wire, 'What Lies Behind the Occupy UGC Protest', 24 November 2015",
+        "state": null,
+        "url": "https://thewire.in/education/what-lies-behind-the-occupy-ugc-protest",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20260811170545/https://thewire.in/education/what-lies-behind-the-occupy-ugc-protest"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0279",
+        "kind": "Source",
+        "title": "Kafila, guest post by the national president of AISA, 23 October 2015",
+        "state": null,
+        "url": "https://kafila.online/2015/10/23/students-occupy-ugc-to-defend-the-right-to-research-in-universities-across-india-sucheta-de/",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20251207010335/https://kafila.online/2015/10/23/students-occupy-ugc-to-defend-the-right-to-research-in-universities-across-india-sucheta-de/"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0280",
+        "kind": "Source",
+        "title": "PUDR statement dated 2 November 2015, as published on Countercurrents",
+        "state": null,
+        "url": "https://countercurrents.org/pudr021115.htm",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20260504161121/https://countercurrents.org/pudr021115.htm"
+          }
+        ]
+      }
+    ],
+    "summary": "4 records edited"
+  },
+  {
     "commit": "fb978451e2",
     "date": "2026-11-15T09:44:46Z",
     "subject": "Sweep log and archived copies for 2026-11-15 [skip ci]",
