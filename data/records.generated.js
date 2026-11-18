@@ -2837,8 +2837,8 @@ WGO.importedSources = [
     "kind": "SECONDARY",
     "url": "https://feminisminindia.com/2015/11/04/occupyugc-struggle-intensifies-after-delhi-police-lathi-charges/",
     "retrievedOn": "2026-10-10",
-    "archiveUrl": null,
-    "archivedOn": null,
+    "archiveUrl": "http://web.archive.org/web/20260810053955/https://feminisminindia.com/2015/11/04/occupyugc-struggle-intensifies-after-delhi-police-lathi-charges/",
+    "archivedOn": "2026-11-18",
     "sha256": null,
     "originatesFrom": null
   },
@@ -2848,8 +2848,8 @@ WGO.importedSources = [
     "kind": "SECONDARY",
     "url": "https://caravanmagazine.in/vantage/loose-cannons-student-protestors-attacked-detained-police-central-delhi",
     "retrievedOn": "2026-10-10",
-    "archiveUrl": null,
-    "archivedOn": null,
+    "archiveUrl": "http://web.archive.org/web/20260710231708/https://caravanmagazine.in/vantage/loose-cannons-student-protestors-attacked-detained-police-central-delhi",
+    "archivedOn": "2026-11-18",
     "sha256": null,
     "originatesFrom": "Reporter who was himself detained"
   },
@@ -2881,8 +2881,8 @@ WGO.importedSources = [
     "kind": "SECONDARY",
     "url": "https://sabrangindia.in/where-news-peaceful-students-protest-faces-police-brutality-delhi/",
     "retrievedOn": "2026-10-10",
-    "archiveUrl": null,
-    "archivedOn": null,
+    "archiveUrl": "http://web.archive.org/web/20260720102129/https://sabrangindia.in/where-news-peaceful-students-protest-faces-police-brutality-delhi/",
+    "archivedOn": "2026-11-18",
     "sha256": null,
     "originatesFrom": null
   },
@@ -2892,8 +2892,8 @@ WGO.importedSources = [
     "kind": "PRIMARY",
     "url": "https://www.pudr.org/letters/request-for-inquiry-into-allegation-of-molestation-and-sexual-assault-by-delhi-police-on-women-students-of-occupy-ugc-protest-on-9th-december-2015/",
     "retrievedOn": "2026-10-10",
-    "archiveUrl": null,
-    "archivedOn": null,
+    "archiveUrl": "http://web.archive.org/web/20260613125409/https://www.pudr.org/letters/request-for-inquiry-into-allegation-of-molestation-and-sexual-assault-by-delhi-police-on-women-students-of-occupy-ugc-protest-on-9th-december-2015/",
+    "archivedOn": "2026-11-18",
     "sha256": null,
     "originatesFrom": "PUDR's own letter; it proves what PUDR asked for, not that the allegations are true"
   },

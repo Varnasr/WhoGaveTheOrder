@@ -5,6 +5,100 @@ window.WGO = window.WGO || {};
 
 WGO.changes = [
   {
+    "commit": "45e9a9f7c3",
+    "date": "2026-11-17T10:58:40Z",
+    "subject": "Sweep log and archived copies for 2026-11-17 [skip ci]",
+    "added": [],
+    "removed": [],
+    "changed": [
+      {
+        "id": "SRC-0268",
+        "kind": "Source",
+        "title": "Gulf News (IANS; page is stamped 15 September 2018 but the body describes events of August 2015)",
+        "state": null,
+        "url": "https://gulfnews.com/entertainment/bollywood/ftii-director-students-unlawfully-confined-tortured-me-1.1569632",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20261116100147/https://gulfnews.com/entertainment/bollywood/ftii-director-students-unlawfully-confined-tortured-me-1.1569632"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0277",
+        "kind": "Source",
+        "title": "LiveLaw (2 September 2015; partly paywalled)",
+        "state": null,
+        "url": "https://livelaw.in/pil-filed-for-supreme-courts-intervention-in-ftii-row",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20260713221645/https://www.livelaw.in/pil-filed-for-supreme-courts-intervention-in-ftii-row"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0281",
+        "kind": "Source",
+        "title": "Delhi Solidarity Group statement and JNUSU statement, 27 October 2015, on Countercurrents",
+        "state": null,
+        "url": "https://countercurrents.org/dsg271015.htm",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20260504180844/https://countercurrents.org/dsg271015.htm"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0282",
+        "kind": "Source",
+        "title": "Amar Ujala photo gallery, 23 October 2015 (Hindi)",
+        "state": null,
+        "url": "https://www.amarujala.com/photo-gallery/delhi-ncr/photos-students-protest-outside-ugc-police-fired-on-staves",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20180211191705/https://www.amarujala.com/photo-gallery/delhi-ncr/photos-students-protest-outside-ugc-police-fired-on-staves"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0283",
+        "kind": "Source",
+        "title": "PUDR, 'Condemn Delhi Police brutality on protesting students', 2 November 2015",
+        "state": null,
+        "url": "https://www.pudr.org/press-statements/condemn-delhi-police-brutality-on-protesting-students/",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20260511111904/https://www.pudr.org/press-statements/condemn-delhi-police-brutality-on-protesting-students/"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0284",
+        "kind": "Source",
+        "title": "Kafila, post by Shuddhabrata Sengupta, 28 October 2015",
+        "state": null,
+        "url": "https://kafila.online/2015/10/28/delhi-police-tells-lies-about-attacks-on-protesting-students-occupyugc/",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20260716130201/https://kafila.online/2015/10/28/delhi-police-tells-lies-about-attacks-on-protesting-students-occupyugc/"
+          }
+        ]
+      }
+    ],
+    "summary": "6 records edited"
+  },
+  {
     "commit": "586888a5a6",
     "date": "2026-11-16T10:04:14Z",
     "subject": "Sweep log and archived copies for 2026-11-16 [skip ci]",
