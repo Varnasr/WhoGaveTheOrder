@@ -1,47 +1,56 @@
-Sweep 2026-11-17: 9 targets, 175 watch terms.
-  nothing-published  delhi-hc-causelist
+Sweep 2026-11-18: 9 targets, 175 watch terms.
+  matched            delhi-hc-causelist
   changed-no-match   delhi-hc-judgments
   matched            nhrc-press
   unreachable        eparlib
-  ok                 barandbench  40 item(s), 2 matched
-  ok                 news-delhi  71 item(s), 3 matched
+  ok                 barandbench  51 item(s), 0 matched
+  ok                 news-delhi  66 item(s), 7 matched
   ok                 news-cases  8 item(s), 0 matched
-  ok                 news-frt  55 item(s), 1 matched
+  ok                 news-frt  53 item(s), 0 matched
   ok                 news-bihar  54 item(s), 0 matched
 
-7 thing(s) to look at:
+9 thing(s) to look at:
+
+· [CHANGED_MATCH] Delhi High Court cause list for today
+  https://delhihighcourt.nic.in/files/2026-11/cause-list/combined_cause_list_18.11.2026.pdf
+  matched: Shakeel Abbas, 917/2026, Mumbai, Kochi, Hyderabad, Jamia Millia Islamia, Jawaharlal Nehru University, Kolkata, Jamia Nagar, Okhla, Bengaluru, Civil Lines, Harihar, University of Delhi, Ashok Nagar, Ranchi
 
 · [UNREACHABLE] Parliamentary library
   https://eparlib.sansad.in/
   fetch failed
 
-· [NEW_ITEM] Bar & Bench
-  Kanga & Co advises Anand Rathi Towers on ₹145 crore land acquisition in Worli, Mumbai
-  https://www.barandbench.com/law-firms/dealstreet/kanga-co-advises-anand-rathi-towers-on-145-crore-land-acquisition-in-worli-mumbai
-  matched: Mumbai
-
-· [NEW_ITEM] Bar & Bench
-  West Bengal moves Supreme Court against Calcutta HC order barring KMC elections based on redrawn wards
-  https://www.barandbench.com/news/litigation/west-bengal-moves-supreme-court-against-calcutta-hc-order-barring-kmc-elections-based-on-redrawn-wards
-  matched: West Bengal
-
 · [NEW_ITEM] News: Jantar Mantar and the police action
-  Jantar Mantar trespassing case: CJP leaders Das, Ranka to appear before SEM in Delhi - The Hindu
-  https://news.google.com/rss/articles/CBMi7wFBVV95cUxNb2pERWJYc295eU1odXpzLUdjZkFtSWRhNktlRy1VWTltcWtZUFBIUmctaUxvS0pZY2liel8tMHNleElJSFJuQ0xLNkFLbmRoWTN5RGJSZHduWFZ1b1Q5aEYxdHZKTXZRN2RFX2FMVkpLd1EyLU5lcUJhRnFBSklnLXJpYUZ3RkpGdmtKaElVaDdSbjlfbk9vLThwUWQ3R2FkWGxVa3VRVXUxd1pNLUdhRDYxVy10aHF5aGR2bXJMMjVTWDRQdXVvNkZQNTRaOEJQdExUT1o2b3dzYktjWDFsV3p6WnRQMVZDS2tYaDJYUdIB9gFBVV95cUxPZm9OTzRNbUpLeEc0ZTdZeEkxTXdaNm5hYUJseGRRUktVMll1SElMdU0ydk42WjJCNk45X0VqOWdrLUtzTWFCdXZxQUFnLUwwbFl5dDhnR2tlRXFpSHpEdk5YLXVXTVJncU4tcEM1QVdkazRnUkVFT1FtaFFBVVZHT3BXY3RZZzVOeG1VSVViT1J1dXFFNVJ3TTMtcWxHSmliODg4TThVN2s1ZGJQaHY1el9DSExqZ2s4YTRpdGJucWFCM1JQT19RX0Y0VExmYUtUZGhfbFFuZ0lZZnk0SGlOdjVlRWhTNERxU3doVEYzazBSNkRja0E?oc=5
+  Jantar Mantar protest nod denied due to CJP past conduct: Cops in SC - The Times of India
+  https://news.google.com/rss/articles/CBMi0AFBVV95cUxOVlRtSzFFMDFPYllYdnZpbjVkNy1OWm5aMi1aa2dMQ0g5YXBKYjV4TXJBdVFseWd5MXI0RG1lZ1pyQnp4bkl4cFF3TzcybkF4UUFtLUk3SS1pWWhNb0tGbjc1OU9hSjZ5MUVaNzMxY0h6Rm1qTVlCd1J0TVpzcUZ0eFhaWVloLVNLS3pFMHo2cS05ZEJIbGJXSGtvbF9EN3ktZEtCU1YyYl9fbTQxVHh1WmlTZkNIOGJvUW9PdFhNRHJEQTYwcV9HWG5fSzBoOWFQ0gHWAUFVX3lxTE1yY1R3anRIbFJyc25xZm9vb08wZ0VpYnVMbjV5UHRadTdlSDktWkgxSTNudzd3WEhFZUV6WGFkOHZBczdLMHdFRVVyZGRVOEk2Q2l1Y1NHSXdUQ2lma0pqeUJNd09Lb01jZGdnOXFWSld4Vkl1M2VTaEpOVE1fRkJIaFB3TnpaLWFhSlE0dW94VThiekVUbkFmVEZxZVFtbTkxQ1Z0NVFZM19VeG9WeGJXSmtmSlpER2gwNGFac21IbGZQWkZ2Rk5HN1d3SXlQSF9DdGpnd0E?oc=5
   matched: Jantar Mantar
 
 · [NEW_ITEM] News: Jantar Mantar and the police action
-  Distressing: What Supreme Courts Justice Ujjal Bhuyan Said on Jantar Mantar Police Brutality - TheWire.in
-  https://news.google.com/rss/articles/CBMiwgFBVV95cUxOVHdSdHZaT3VpQlA4UXVMNUQ1QTJxMEJhZ2ZTQThJY1BjeWZLYThuT1liRXUxTFhsanpIZjVxVWJlam1iaU50WC1OSldhQ0NFelFGbTZUVVdHLUw1SmVYTWRjN05hVGFSSVFGM3VXemdpVDR5UFl3VUhoeHptcUFwRFhEUzFDalZQcEdER21pTFhqMVBoaE1GdmpZNXh6QmpLZUltZW9QSmhCa0MwM3pyYU1YejR4MTU3NW5HT0owWTZqd9IBxwFBVV95cUxOYngzU0tJQVdSbXlqeXl1TVF0RnZVMFRMVU9XcThKbHJwd09pTUk4dWMtV2JFTXg5MWx3dFpWZTVrd0Z3ZDJ5c0NxQ3R1YndxbTlxUDVIX0hRa3l1ZVNWMVRCZ3BFZ2x0bVVJZVBvUzQ2QUJWU3FnN0M2d29rSktSTVhmRmhMWF9wWWI4Qk9OYjNKS2o2d2JtV0dHZFBjRVFPRk1udTFueTBnUzkzdXZzemJCSTBod0poSWF4MkNkYmlOMmNudng4?oc=5
+  Delhi Police declines permission for protest at Jantar Mantar tomorrow; 57 Metro stations in Delhi to remain closed till tomorrow | Akashvani News - News On AIR
+  https://news.google.com/rss/articles/CBMinAFBVV95cUxPRjFzSzlzM0pvZEdiNk9aN0o4cEVjcVMtaXI4X19BUUZ4TFg4RlhjdmNPMUVmSl9CRFpEbEFqNDhJUVJ2UWdEdFhtc2xDVFJqMzJvU3U2UTRhbXg5ajdiWm43WnUzVzNyVXhXZ0JsZjRSWGVKdERORS1yeGZpYU1IQTZqNjhEZ1FHbldyMVBLV1FlbFp1dnZncTdRZ0U?oc=5
   matched: Jantar Mantar
 
 · [NEW_ITEM] News: Jantar Mantar and the police action
-  Delhi HC Questions Maintainability Of Congress Plea Over Jantar Mantar Bungalow Sale Deed - LawBeat
-  https://news.google.com/rss/articles/CBMiyAFBVV95cUxPZ2dBWkljQWowM3RmMURoeThYbEJoMXRVX2Nvb205RUYxNWJtZnhkb2VEN1plaEcxVnIyc0FEUnNvQl8zTUFRQy1nNGRSRVdlZjZOXzdreVRjRFEwTEtKOFlDMzc2bERvdHB1d0tUaFRydmpiSy1HYWpRYzI5NG5JWndpSC1Ha3hzWlF1Q1RqVFBObXF4VkhJVEYzc3hwX3RFdWxCdG10Q1ZQM0szMG9ZUW1zQUdaTWlrdUpialFmT2RoOWtESlE0R9IBzgFBVV95cUxQeHFwZGJueDhQLUpJWmpRZ0xDN1poVjJQZDEtNGdVVGZoaXFYTzgwRlJCSk10WWxCTkQ4dFNwd3FNV1N4OFMwRnJ6TVRPcV9qdzJGMXA5VWJ0V24yT0RGMVo2eFdiN1B0YWNmLXpGRW9LN05BVTJzWEdVT1I1VUNzZXdjOEZmYl80UF9uaXFzRzRyNUZVSnU4aklBX0pYSW5YRXJWcFlia1JIQ1piMzlpdk9FX0RFQTN6RnFQTGplbUZWMlZxZU15ZHJjakVqUQ?oc=5
+  Reel Makers Are Not Journalists, Delhi Police Tell Supreme Court in Jantar Mantar Affidavit - theopenpress.in
+  https://news.google.com/rss/articles/CBMinwFBVV95cUxPRE9BSC1WS1ZEMHdkd2NvNzk3TE9lNVFGZk1WRFY0UTYxTlE0b1E4OFlELXNVbTJKNHB5N1ZoZjJCdzlkWUt5NVlWdjEzNnN1NWxlRWFocDl2LTJuNGVqeFBNWGJYZm5nM3NBRXkwZVlLbGcxaHlReUVKby1rU2tOXzMwRF9OTzV6X0VwUmJHY0VMTDJ6bC1vMElnaDViVzQ?oc=5
   matched: Jantar Mantar
 
-· [NEW_ITEM] News: facial recognition and the surveillance question
-  Delhi police’s facial recognition tech could make Muslims likelier targets - Scroll.in
-  https://news.google.com/rss/articles/CBMiqwFBVV95cUxONkZNYnJHWnFfN3J2bW9wYjkzSW1maEZRdE1VTDdBOU44RGd3VHQ3WDRMMUltSVVNc1ZfODgtMXlzMjVMWVFPWll5NUxtU3FrNkFveXBXUThUYmJETzQyWVJRSGYtVzI5QUtKdTVMejNIT3h1VGZ2c1pTLVJaaVRSWktvZE9LWEtWbW5GX09tX05PQUZrREdhWmJycFVkYUVrSVIzVUNDZmtNTE3SAbABQVVfeXFMTWN6NFJocFJZV2lKSmh0RldrRlRQRHg2dEZGWDFsSWpraEpOWnBCTzZyWk0xdFc5SWtqbzBoZmQwcU5NTFl2TXRvVUpJSjlRRFpWaVA4YnRja1lKb05zc3JwLXVpemo0ODRvQUpjdlBWWmVYaDhCYjZtbFkweTMtWFJBVkhUSE5ab1dHaWl4eFhKb1ZueUJfYzJTcGcwOHczT2hzVEc5dExpeDhzLURINjU?oc=5
-  matched: facial recognition
+· [NEW_ITEM] News: Jantar Mantar and the police action
+  Major Public Order Crisis Averted: Why Delhi Police Denied CJP Jantar Mantar Protest Permission - ABP Live English
+  https://news.google.com/rss/articles/CBMi4wFBVV95cUxPc1lXU09tajl6WUxXMnNuemp1RjB5RWsyWE1FSGZsNTFqMHFid2R2YjUyU1BZR3N2WlRzaEdnbFpoOC1BRVk2UEhHdjdmdjZHcl9pSnloczRZV3hDVjBrQWtkbG05MkJ4TER1aVhnX1Z2NnJOLUZac1Bwa3BGZDFBaG1lank5eXBHY0lMa3RoM3I4TnhzM0VBUHFZRlRrMDVpUjZ4NW5McEdVeTJnQ2ZRUkFBYUFzVDNDSkhLSnpfTXFibllONUNwREExSkplRE9LZC1ibkZQblUwME9adlY3N044d9IB6AFBVV95cUxOZTAzam14U0syendYYmw2bVEzZ0hHN3IxZERTWW5RWWVhMWJKOG9oOEd0NTFtRGZ4RFRYYllmbWZzc0J1ZGVkSEtCSEFDd3lxNzdUUmlZbVJ2T3dZdENjSUpzWkd0MmUxdjNBdFROV3dYZkI3eXlGNnZ0SjhEUndNZ1RsenFlSklfZ25kSUpjWVNwRjhmQm5GVGdaaG1zZ3VXUDhjV1pkWThkczRjcUdWS2pkVmpKWGtGWFIxRTFta0ZIMzVUbkJpVU1BR3M1VjdrYnlUcExOOFFJai0xcUVGWXl3RjFyTlI1?oc=5
+  matched: Jantar Mantar
+
+· [NEW_ITEM] News: Jantar Mantar and the police action
+  Jantar Mantar Protest Row Exposes Delhi’s Public-Order Test - Urban Acres
+  https://news.google.com/rss/articles/CBMiiAFBVV95cUxPcHdlTFBYNVZlS2V4X1N1YzNHWlVYYTFPTjJxalp4eUIzZ0s4VkI4elRUM0ZaWUhTWlNlR2k0ZFVfMUdsSGJqUUN6QjRlZUxta0NaVW9IeF9ON28wenRWZC1lVHo5NmJoSzlwdE5SdXlPZ0dTemQ4bERsdXVBLUFJV1FUOUlpSmV4?oc=5
+  matched: Jantar Mantar
+
+· [NEW_ITEM] News: Jantar Mantar and the police action
+  Delhi Police blocked Cockroach Janta Party protest at Jantar Mantar - NewsBytes
+  https://news.google.com/rss/articles/CBMisgFBVV95cUxOWXMtUTMydjZNc0pHbG9GMUQwalRKQWxCU2ttS2tmVFdZNEtQZG5OcmhfdzZrWjA4cXhHTHZudHR5T1F4M29fWENQbXdGSnJ2a1QyNVRsaEpNdDVqUlV6Tjg2NTNQaVE3cVk0OWc5bjBiQ3ZKbnpURmVfYnR5cEpWWWdlZXl6TldYVEdydjVZQk5TTGdYaFdOLXpBRF96Z1VGWnJmSU4xRVBCcjlwRlYzMEVn?oc=5
+  matched: Jantar Mantar, Cockroach Janta Party
+
+· [NEW_ITEM] News: Jantar Mantar and the police action
+  Supreme Court asks parties to respond over Jantar Mantar protests - NewsBytes
+  https://news.google.com/rss/articles/CBMirwFBVV95cUxPa1VfMDhESVQyMHRkR3ZWQ0daM2RNVTV2UFpSb3U3QlZxVnROalRjSEFjY25ELVo3UVdqWnBxVFhDTlRBVEVMbW9zakRvZkJCUlZ1c1VqOGl2TlpGaHdSekxwaFIwbDUyV21POFJ1bG9zMTJRTHdpcWpjWVI2ZnBtRE53aEdWRjE4V3dNdHgxazRrUTU0dGM0djZ3ZXFWZGNSajJfX1hRQ1FHaVZVNWFn?oc=5
+  matched: Jantar Mantar
 
