@@ -57,6 +57,12 @@
     "Corrections": "Corrections",
     "Reuse & licence": "Reuse and licence"
   },
+  "meta": {
+    "state": "State",
+    "date": "Date",
+    "sources": "Sources",
+    "noSource": "None on record"
+  },
   "explain": {
     "statesSummary": "What do these labels mean?",
     "statesBody": "Every statement on this site carries one of six states. A claim cannot appear without one, and moving a claim between them requires a document.",

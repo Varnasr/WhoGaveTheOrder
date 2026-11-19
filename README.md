@@ -221,8 +221,8 @@ python3 sourcemap/import.py
 
 `tools/sweep.js` goes to the places a document about these incidents could appear (the Delhi High
 Court cause list and judgments page, the NHRC press releases, the parliamentary library, Bar & Bench,
-and four news queries) and reports what is new since yesterday. It runs at 02:30 UTC and opens an
-issue when there is something to look at.
+and four news queries) and reports what is new since yesterday. It runs at 02:30 UTC and, when
+there is something to look at, updates one standing issue and adds the day to it as a dated comment.
 
 **It never writes a record.** It writes candidates and a dated log, and a person decides what becomes
 evidence and at what confidence. Assigning a state means judging whether two sources are actually

@@ -67,9 +67,9 @@
         </div>
       </div>
 
-      <!-- The counts sit beside the claim, not under it. On a wide screen
-           the right half was empty, which read as unfinished; and these three
-           numbers are the strongest thing the front page has to say. -->
+      <!-- The counts sit beside the claim, in one ruled grid of four cells, so
+           the four figures read as one statement and the zero is on the first
+           screen of a phone. -->
       <div class="stat-row" data-region="hero-stats"></div>
     </div>
   </div>
@@ -83,10 +83,28 @@
           This list covers what has been done on the archive and what a deadline has done. What happened at an incident lives in the records, with a document behind it.
         </p>
       </div>
-      <div data-region="updates"></div>
-      <p class="small" style="margin-top:1.25rem">
-        <a href="changes.html">Every record change, with the commit it landed in &rarr;</a>
-      </p>
+      <div class="home-split">
+        <div>
+          <div data-region="updates"></div>
+          <p class="small" style="margin-top:1.25rem">
+            <a href="changes.html">Every record change, with the commit it landed in &rarr;</a>
+          </p>
+        </div>
+        <!-- Court and committee dates, read from data/calendar.js by the same
+             code as events.html. Beside the list on a wide screen, under it on
+             a phone. -->
+        <aside class="rail" aria-labelledby="home-calendar-head">
+          <h2 class="rail__head" id="home-calendar-head">Hearings and sittings</h2>
+          <p class="small">
+            When a court or a committee sits or rules on police use of force. Each date carries
+            the state of the evidence record behind it.
+          </p>
+          <div data-region="home-calendar"></div>
+          <p class="small" style="margin-top:0.25rem">
+            <a href="events.html">Every hearing, order and sitting &rarr;</a>
+          </p>
+        </aside>
+      </div>
     </div>
   </section>
 
@@ -251,6 +269,7 @@
 <script src="data/i18n.generated.js"></script>
 <script src="data/records.js"></script>
 <script src="data/records.generated.js"></script>
+<script src="data/calendar.js"></script>
 <script src="data/samples.js"></script>
 <script src="assets/model.js"></script>
 <script src="assets/ui.js"></script>

@@ -694,17 +694,57 @@
 
   /* --- record cards ------------------------------------------------------ */
 
+  /* The same three lines under every record, in the same order: how far the
+     record is established, the date it carries, and how many sources stand
+     behind it. A reader comparing two cards compares like with like. Only
+     fields the record already holds are read. A missing state or date reads
+     Unknown, and a record with no source says so. */
+  ui.metaStack = function (o) {
+    var unknown = ui.esc((ui.stateDef('UNKNOWN') || { label: 'Unknown' }).label);
+    var count = o.sources;
+    var sources = (count === null || count === undefined)
+      ? unknown
+      : (count === 0 ? ui.esc(ui.t('meta.noSource', 'None on record')) : String(count));
+    function line(label, valueHtml) {
+      return '<div><dt>' + ui.esc(label) + '</dt><dd>' + valueHtml + '</dd></div>';
+    }
+    return '<dl class="meta-stack">' +
+      line(ui.t('meta.state', 'State'), ui.chip(o.state || 'UNKNOWN')) +
+      line(ui.t('meta.date', 'Date'), o.date ? ui.esc(o.date) : unknown) +
+      line(ui.t('meta.sources', 'Sources'), sources) +
+    '</dl>';
+  };
+
+  ui.evidenceMeta = function (item) {
+    return ui.metaStack({
+      state: item.verification,
+      date: item.dateOfItem,
+      sources: (item.sourceIds || []).length
+    });
+  };
+
+  /* An incident's sources are the distinct sources behind its evidence
+     records. Sample records are layout only and are not counted. */
+  ui.incidentMeta = function (incident) {
+    var seen = {};
+    WGO.model.evidenceFor(incident.id).forEach(function (e) {
+      if (e.demo) { return; }
+      (e.sourceIds || []).forEach(function (id) { seen[id] = true; });
+    });
+    return ui.metaStack({
+      state: incident.incidentState,
+      date: (incident.dateState === 'UNKNOWN' || !incident.date) ? '' : incident.date,
+      sources: Object.keys(seen).length
+    });
+  };
+
   ui.evidenceCard = function (item) {
     return '<a class="card' + (item.demo ? ' card--sample' : '') + '" href="evidence.html?id=' + ui.esc(item.id) + '">' +
       (item.demo ? ui.sampleRibbon() : '') +
-      '<div class="row">' + ui.idChip(item.id) + ui.chip(item.verification) + '</div>' +
+      '<div class="row">' + ui.idChip(item.id) + ui.plainChip(WGO.model.typeLabel(item.type)) + '</div>' +
       '<h3>' + ui.esc(item.title) + '</h3>' +
+      ui.evidenceMeta(item) +
       '<p>' + ui.esc(item.establishes || '') + '</p>' +
-      '<div class="card__meta row small">' +
-        '<span>' + ui.esc(WGO.model.typeLabel(item.type)) + '</span>' +
-        '<span aria-hidden="true">·</span>' +
-        '<span>' + ui.esc(item.dateOfItem || 'Date unknown') + '</span>' +
-      '</div>' +
     '</a>';
   };
 
@@ -714,15 +754,14 @@
     var evidence = WGO.model.evidenceFor(incident.id).filter(function (e) { return !e.demo; }).length;
 
     return '<a class="card" href="incident/' + ui.esc(incident.slug + '.html') + '">' +
-      '<div class="row">' + ui.idChip(incident.id) + ui.chip(incident.incidentState) + '</div>' +
+      '<div class="row">' + ui.idChip(incident.id) + '</div>' +
       '<h3>' + ui.esc(incident.title) + '</h3>' +
+      ui.incidentMeta(incident) +
       '<p>' + ui.esc(incident.place) + '</p>' +
       '<div class="card__meta row small">' +
         '<span><strong>' + open + '</strong> open questions</span>' +
         '<span aria-hidden="true">·</span>' +
         '<span><strong>' + evidence + '</strong> evidence items</span>' +
-        '<span aria-hidden="true">·</span>' +
-        '<span>Date ' + (incident.date ? ui.esc(incident.date) : 'unknown') + '</span>' +
       '</div>' +
     '</a>';
   };
