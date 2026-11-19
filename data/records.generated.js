@@ -2936,8 +2936,8 @@ WGO.importedSources = [
     "kind": "TERTIARY",
     "url": "https://en.wikipedia.org/wiki/2017_pro-jallikattu_protests",
     "retrievedOn": "2026-10-10",
-    "archiveUrl": null,
-    "archivedOn": null,
+    "archiveUrl": "http://web.archive.org/web/20260107125627/https://en.wikipedia.org/wiki/2017_pro-jallikattu_protests",
+    "archivedOn": "2026-11-19",
     "sha256": null,
     "originatesFrom": null
   },

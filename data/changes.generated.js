@@ -5,6 +5,72 @@ window.WGO = window.WGO || {};
 
 WGO.changes = [
   {
+    "commit": "a8f18083ad",
+    "date": "2026-11-18T10:31:36Z",
+    "subject": "Sweep log and archived copies for 2026-11-18 [skip ci]",
+    "added": [],
+    "removed": [],
+    "changed": [
+      {
+        "id": "SRC-0285",
+        "kind": "Source",
+        "title": "Feminism in India, Nikita Azad, 4 November 2015",
+        "state": null,
+        "url": "https://feminisminindia.com/2015/11/04/occupyugc-struggle-intensifies-after-delhi-police-lathi-charges/",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20260810053955/https://feminisminindia.com/2015/11/04/occupyugc-struggle-intensifies-after-delhi-police-lathi-charges/"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0286",
+        "kind": "Source",
+        "title": "The Caravan, Rahul M, 10 December 2015",
+        "state": null,
+        "url": "https://caravanmagazine.in/vantage/loose-cannons-student-protestors-attacked-detained-police-central-delhi",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20260710231708/https://caravanmagazine.in/vantage/loose-cannons-student-protestors-attacked-detained-police-central-delhi"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0289",
+        "kind": "Source",
+        "title": "SabrangIndia, 11 December 2015",
+        "state": null,
+        "url": "https://sabrangindia.in/where-news-peaceful-students-protest-faces-police-brutality-delhi/",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20260720102129/https://sabrangindia.in/where-news-peaceful-students-protest-faces-police-brutality-delhi/"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0290",
+        "kind": "Source",
+        "title": "PUDR letter to the Delhi Commission for Women, 14 December 2015",
+        "state": null,
+        "url": "https://www.pudr.org/letters/request-for-inquiry-into-allegation-of-molestation-and-sexual-assault-by-delhi-police-on-women-students-of-occupy-ugc-protest-on-9th-december-2015/",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20260613125409/https://www.pudr.org/letters/request-for-inquiry-into-allegation-of-molestation-and-sexual-assault-by-delhi-police-on-women-students-of-occupy-ugc-protest-on-9th-december-2015/"
+          }
+        ]
+      }
+    ],
+    "summary": "4 records edited"
+  },
+  {
     "commit": "45e9a9f7c3",
     "date": "2026-11-17T10:58:40Z",
     "subject": "Sweep log and archived copies for 2026-11-17 [skip ci]",
