@@ -620,6 +620,39 @@
     }).join('') + '</ol>';
   }
 
+  /* The home page's form of the same list: date and headline only, with a
+     hairline between items. The note and the pointer to the record sit under a
+     native details element, so nothing is lost and no script is needed to read
+     it. changes.html keeps every note open. */
+  function recordPointer(u) {
+    if (!u.recordId) { return ''; }
+    var record = WGO.model.evidenceItem(u.recordId);
+    return '<p class="update__record">' +
+      '<a href="' + ui.esc(ui.withLang('evidence.html?id=' + u.recordId)) + '">' +
+      ui.esc(u.recordId) +
+      (record ? ': ' + ui.esc(record.title.length > 64
+        ? record.title.slice(0, 61).replace(/[\s,;:]+$/, '') + '…'
+        : record.title) : '') +
+      ' &rarr;</a></p>';
+  }
+
+  ui.updateBrief = function (limit) {
+    var updates = sortedUpdates(false);
+    if (limit) { updates = updates.slice(0, limit); }
+    if (!updates.length) { return ui.updateList(limit); }
+    return '<ol class="latest">' + updates.map(function (u) {
+      return '<li class="latest__item">' +
+        '<p class="update__date mono">' + ui.esc(u.date) + '</p>' +
+        '<h3 class="latest__title">' + ui.esc(u.title) + '</h3>' +
+        '<details class="latest__more">' +
+          '<summary>Read the note</summary>' +
+          '<p class="update__body">' + ui.esc(u.body) + '</p>' +
+          recordPointer(u) +
+        '</details>' +
+      '</li>';
+    }).join('') + '</ol>';
+  };
+
   ui.updateList = function (limit) {
     var updates = sortedUpdates(false);
     if (limit) { updates = updates.slice(0, limit); }

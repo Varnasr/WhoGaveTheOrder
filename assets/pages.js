@@ -82,9 +82,9 @@
 
     if (WGO.calendar) { homeCalendar(); }
 
-    /* The notice board, newest first. Three on the front page; the rest are on
-       the change log, which is the full record. */
-    ui.mount('[data-region="updates"]', ui.updateList(3));
+    /* The notice board, newest first, as headlines: five on the front page,
+       each with its note folded under it. The change log has them all in full. */
+    ui.mount('[data-region="updates"]', ui.updateBrief(5));
 
     ui.mount('[data-region="wanted"]',
       WGO.WANTED.map(function (w) { return '<li>' + ui.plainChip(w) + '</li>'; }).join(''));
@@ -1120,13 +1120,6 @@
     };
   }
 
-  function calendarWhen(c, today) {
-    var last = c.endDate || c.date;
-    var underWay = c.date <= today && today <= last;
-    return longDate(c.date) + (c.endDate ? ' to ' + longDate(c.endDate) : '') +
-      (underWay ? ' (today)' : '');
-  }
-
   /* Coming up (soonest first) and past (latest first), worked out from the
      date in India on the day the page is read. */
   function calendarSplit(today) {
@@ -1141,17 +1134,38 @@
     };
   }
 
+  /* The head of a dated entry: the day as a large numeral, the month and year
+     beside it, the weekday under them, and the kind of event opposite. The
+     `time` element carries the whole date, so the numeral is never the only
+     place the date is stated. Both the home page block and the events page
+     use it. */
+  function calendarHead(c, today) {
+    var d = new Date(c.date + 'T00:00:00Z');
+    var last = c.endDate || c.date;
+    var underWay = c.date <= today && today <= last;
+    var note = DAYS[d.getUTCDay()] +
+      (c.endDate ? ' to ' + longDate(c.endDate) : '') +
+      (underWay ? ' (today)' : '');
+    return '<div class="dated__head">' +
+      '<time class="dated__date" datetime="' + ui.esc(c.date) + '">' +
+        '<b>' + d.getUTCDate() + '</b>' +
+        '<span class="dated__rest">' +
+          '<span class="dated__month">' + MONTHS[d.getUTCMonth()] + ' ' + d.getUTCFullYear() + '</span>' +
+          '<span class="dated__day">' + ui.esc(note) + '</span>' +
+        '</span>' +
+      '</time>' +
+      '<span class="dated__kind">' + ui.esc(WGO.CALENDAR_KINDS[c.kind] || c.kind) + '</span>' +
+    '</div>';
+  }
+
   /* The short form for the home page: when, what, the state of the record
      behind it and that record's sources. The full entry is on events.html. */
   function calendarBrief(c, today) {
     var lead = calendarLead(c);
-    return '<li data-state="' + ui.esc(lead.state) + '">' +
-      '<span class="timeline__time">' + ui.esc(calendarWhen(c, today)) + '</span>' +
-      '<p class="timeline__title"><a href="events.html#' + ui.esc(c.id) + '">' + ui.esc(c.title) + '</a></p>' +
-      '<div class="row">' +
-        ui.plainChip(WGO.CALENDAR_KINDS[c.kind] || c.kind) +
-        ui.chip(lead.state) +
-      '</div>' +
+    return '<li class="dated" data-state="' + ui.esc(lead.state) + '">' +
+      calendarHead(c, today) +
+      '<p class="dated__title"><a href="events.html#' + ui.esc(c.id) + '">' + ui.esc(c.title) + '</a></p>' +
+      '<div class="row">' + ui.chip(lead.state) + '</div>' +
       '<div class="row" style="margin-top:0.4rem">' + ui.sourceLine(lead.sourceIds) + '</div>' +
     '</li>';
   }
@@ -1160,14 +1174,14 @@
     var today = todayInIndia();
     var split = calendarSplit(today);
     var list = function (items) {
-      return '<ul class="timeline">' +
+      return '<ul class="dated-list">' +
         items.map(function (c) { return calendarBrief(c, today); }).join('') + '</ul>';
     };
     var html;
     if (split.next.length) {
       html = '<p class="kicker">Coming up and under way</p>' + list(split.next.slice(0, 3));
     } else if (split.past.length) {
-      html = '<p class="rail__none">No hearing, order date or sitting still to come has been found ' +
+      html = '<p class="rail__notice">No hearing, order date or sitting still to come has been found ' +
         'in a source this archive holds. The most recent are listed here.</p>' +
         '<p class="kicker">Most recent</p>' + list(split.past.slice(0, 3));
     } else {
@@ -1180,7 +1194,6 @@
   function calendarItem(c, today) {
     var lead = calendarLead(c);
     var state = lead.state;
-    var when = calendarWhen(c, today);
     var incidents = (c.incidentIds || []).map(function (id) {
       var inc = model.incident(id);
       return inc
@@ -1196,12 +1209,11 @@
           }).join(''))
       : '';
 
-    return '<li data-state="' + ui.esc(state) + '" id="' + ui.esc(c.id) + '">' +
-      '<span class="timeline__time">' + ui.esc(when) + '</span>' +
-      '<p class="timeline__title">' + ui.esc(c.title) + '</p>' +
+    return '<li class="dated" data-state="' + ui.esc(state) + '" id="' + ui.esc(c.id) + '">' +
+      calendarHead(c, today) +
+      '<p class="dated__title">' + ui.esc(c.title) + '</p>' +
       '<div class="row">' +
         ui.idChip(c.id) +
-        ui.plainChip(WGO.CALENDAR_KINDS[c.kind] || c.kind) +
         ui.chip(state) + ' ' + incidents +
       '</div>' +
       '<p style="margin-top:0.5rem">' + ui.esc(c.what) + '</p>' +
@@ -1232,13 +1244,13 @@
 
     ui.mount('[data-region="calendar-next"]',
       next.length
-        ? '<ul class="timeline">' + next.map(function (c) { return calendarItem(c, today); }).join('') + '</ul>'
+        ? '<ul class="dated-list">' + next.map(function (c) { return calendarItem(c, today); }).join('') + '</ul>'
         : ui.empty('Nothing coming up is on the record',
             'No sitting, hearing or order date still to come has been found in a source this archive holds. That is a statement about what we have read.'));
 
     ui.mount('[data-region="calendar-past"]',
       past.length
-        ? '<ul class="timeline">' + past.map(function (c) { return calendarItem(c, today); }).join('') + '</ul>'
+        ? '<ul class="dated-list">' + past.map(function (c) { return calendarItem(c, today); }).join('') + '</ul>'
         : ui.empty('No past entries', 'Nothing dated in the past has been entered yet.'));
   };
 
