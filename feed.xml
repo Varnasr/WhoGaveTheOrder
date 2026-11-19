@@ -3,10 +3,19 @@
   <title>WhoGaveTheOrder.in: changes to the record</title>
   <subtitle>Every record that has been added, moved between states, or edited.</subtitle>
   <id>tag:whogavetheorder.in,2026:feed</id>
-  <updated>2026-11-17T10:58:40Z</updated>
+  <updated>2026-11-18T10:31:36Z</updated>
   <link href="https://www.whogavetheorder.in/"/>
   <link rel="self" href="https://www.whogavetheorder.in/feed.xml"/>
   <rights>Reuse with attribution</rights>
+  <entry>
+    <title>4 records edited</title>
+    <id>tag:whogavetheorder.in,2026:change/a8f18083ad</id>
+    <updated>2026-11-18T10:31:36Z</updated>
+    <link href="https://www.whogavetheorder.in/changes.html#a8f18083ad"/>
+    <content type="html">
+      &lt;ul&gt;&lt;li&gt;Edited Source SRC-0285: Feminism in India, Nikita Azad, 4 November 2015&lt;/li&gt;&lt;li&gt;Edited Source SRC-0286: The Caravan, Rahul M, 10 December 2015&lt;/li&gt;&lt;li&gt;Edited Source SRC-0289: SabrangIndia, 11 December 2015&lt;/li&gt;&lt;li&gt;Edited Source SRC-0290: PUDR letter to the Delhi Commission for Women, 14 December 2015&lt;/li&gt;&lt;/ul&gt;
+    </content>
+  </entry>
   <entry>
     <title>6 records edited</title>
     <id>tag:whogavetheorder.in,2026:change/45e9a9f7c3</id>
@@ -446,15 +455,6 @@
     <link href="https://www.whogavetheorder.in/changes.html#a342ac934e"/>
     <content type="html">
       &lt;ul&gt;&lt;li&gt;Added Source SRC-1085: National Human Rights Commission, press release, New Delhi, 19 February 2016&lt;/li&gt;&lt;li&gt;Evidence HIST-JNU16-020 moved from UNVERIFIED to VERIFIED: The National Human Rights Commission&apos;s press release of 19 February 2016 states that its inquiry team found that the physical assault on Kanhaiya Kumar in the P&lt;/li&gt;&lt;li&gt;Edited Evidence HIST-PDM-008: The Education Department of Bihar is reported by Organiser to have issued a notice warning of strict action against candidates taking part in the protest, citin&lt;/li&gt;&lt;li&gt;Edited Evidence HIST-BURD16-008: A university complaint against the protesters was announced. The text carried by the Free Press Journal says the Vice-Chancellor said that &apos;the authorities will&lt;/li&gt;&lt;/ul&gt;
-    </content>
-  </entry>
-  <entry>
-    <title>11 records added</title>
-    <id>tag:whogavetheorder.in,2026:change/0dcd15b37c</id>
-    <updated>2026-10-14T05:05:44Z</updated>
-    <link href="https://www.whogavetheorder.in/changes.html#0dcd15b37c"/>
-    <content type="html">
-      &lt;ul&gt;&lt;li&gt;Added Incident INC-0087: Delhi Police detain Jamia students protesting disciplinary notices&lt;/li&gt;&lt;li&gt;Added Incident INC-0088: Police clear students at Himachal Pradesh University, Shimla&lt;/li&gt;&lt;li&gt;Added Evidence HIST-JMI25-001: Early on Thursday 13 February 2025, Delhi Police removed and detained Jamia Millia Islamia students who had been protesting on campus since 10 February against &lt;/li&gt;&lt;li&gt;Added Evidence HIST-JMI25-002: The number detained, the time and the length of detention are reported differently. PTI and a police official say &apos;over 10 students&apos; were removed at about 4 am.&lt;/li&gt;&lt;li&gt;Added Evidence HIST-HPU14-001: The Tribune, Shimla, 19 September 2014, headlined &apos;Students lathicharged, 220 rounded up&apos;, reported that police allegedly lathicharged students at Himachal Prad&lt;/li&gt;&lt;li&gt;Added Evidence HIST-HPU14-002: The Tribune, Shimla, 10 October 2014, reported that over 70 students, including 19 girls, were arrested at Himachal Pradesh University for defying prohibitory o&lt;/li&gt;&lt;li&gt;Added Source SRC-1080: Careers360, 13 Feb 2025&lt;/li&gt;&lt;li&gt;Added Source SRC-1081: Scroll, 13 Feb 2025&lt;/li&gt;&lt;li&gt;Added Source SRC-1082: SabrangIndia, 14 Feb 2025&lt;/li&gt;&lt;li&gt;Added Source SRC-1083: The Tribune, 20 Sept 2014 (dateline 19 Sept)&lt;/li&gt;&lt;li&gt;Added Source SRC-1084: The Tribune, 11 Oct 2014 (dateline 10 Oct)&lt;/li&gt;&lt;/ul&gt;
     </content>
   </entry>
 </feed>
