@@ -5,6 +5,30 @@ window.WGO = window.WGO || {};
 
 WGO.changes = [
   {
+    "commit": "34421b36c8",
+    "date": "2026-11-19T10:38:30Z",
+    "subject": "Sweep log and archived copies for 2026-11-19 [skip ci]",
+    "added": [],
+    "removed": [],
+    "changed": [
+      {
+        "id": "SRC-0294",
+        "kind": "Source",
+        "title": "Wikipedia, '2017 pro-jallikattu protests'",
+        "state": null,
+        "url": "https://en.wikipedia.org/wiki/2017_pro-jallikattu_protests",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20260107125627/https://en.wikipedia.org/wiki/2017_pro-jallikattu_protests"
+          }
+        ]
+      }
+    ],
+    "summary": "1 record edited"
+  },
+  {
     "commit": "a8f18083ad",
     "date": "2026-11-18T10:31:36Z",
     "subject": "Sweep log and archived copies for 2026-11-18 [skip ci]",

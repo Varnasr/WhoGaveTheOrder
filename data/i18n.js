@@ -161,6 +161,15 @@ WGO.I18N = {
     },
 
     /* --- the inline explainers ------------------------------------------ */
+    /* The three labels of the stack under every record title. Written here
+       by hand and not yet read by a Hindi-speaking editor, like the rest. */
+    meta: {
+      state: 'स्थिति',
+      date: 'तारीख',
+      sources: 'स्रोत',
+      noSource: 'अभिलेख में कोई नहीं'
+    },
+
     explain: {
       statesSummary: 'इन लेबल का क्या अर्थ है?',
       statesBody: 'इस साइट पर हर कथन छह में से एक स्थिति के साथ आता है। कोई दावा इसके बिना प्रकट नहीं हो सकता, और किसी दावे को एक स्थिति से दूसरी में ले जाने के लिए दस्तावेज़ चाहिए।',

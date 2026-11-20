@@ -443,10 +443,21 @@
             ui.t('chrome.onRecord', 'on the record.') + ' ' +
             '<strong>' + counts.open + '</strong> ' + ui.t('chrome.questionsOpen', 'questions still open.') + ' ' +
             '<strong>' + counts.orders + '</strong> ' + ui.t('chrome.ordersFound', 'orders found.')
-          : '<strong>' + counts.evidence + '</strong> document' + (counts.evidence === 1 ? '' : 's') +
-            ' from <strong>' + counts.sources + '</strong> sources on the record. ' +
-            '<strong>' + counts.open + '</strong> questions still open. ' +
-            '<strong>' + counts.orders + '</strong> orders found.')
+          /* Two wordings of the same three counts. The sentence shows from 560px;
+             below that the short form shows, so the counts and the language
+             switch share one row on a phone. CSS hides one of the two with
+             display: none, so a screen reader meets the counts once. */
+          : '<span class="notice-bar__full">' +
+              '<strong>' + counts.evidence + '</strong> document' + (counts.evidence === 1 ? '' : 's') +
+              ' from <strong>' + counts.sources + '</strong> sources on the record. ' +
+              '<strong>' + counts.open + '</strong> questions still open. ' +
+              '<strong>' + counts.orders + '</strong> orders found.' +
+            '</span>' +
+            '<span class="notice-bar__brief">' +
+              '<strong>' + counts.evidence + '</strong> document' + (counts.evidence === 1 ? '' : 's') +
+              ' <span aria-hidden="true">·</span> <strong>' + counts.open + '</strong> open' +
+              ' <span aria-hidden="true">·</span> <strong>' + counts.orders + '</strong> order' + (counts.orders === 1 ? '' : 's') + ' found' +
+            '</span>')
       : ui.t('chrome.empty', 'No documents have been published to this archive yet.');
 
     var notice =
@@ -620,6 +631,39 @@
     }).join('') + '</ol>';
   }
 
+  /* The home page's form of the same list: date and headline only, with a
+     hairline between items. The note and the pointer to the record sit under a
+     native details element, so nothing is lost and no script is needed to read
+     it. changes.html keeps every note open. */
+  function recordPointer(u) {
+    if (!u.recordId) { return ''; }
+    var record = WGO.model.evidenceItem(u.recordId);
+    return '<p class="update__record">' +
+      '<a href="' + ui.esc(ui.withLang('evidence.html?id=' + u.recordId)) + '">' +
+      ui.esc(u.recordId) +
+      (record ? ': ' + ui.esc(record.title.length > 64
+        ? record.title.slice(0, 61).replace(/[\s,;:]+$/, '') + '…'
+        : record.title) : '') +
+      ' &rarr;</a></p>';
+  }
+
+  ui.updateBrief = function (limit) {
+    var updates = sortedUpdates(false);
+    if (limit) { updates = updates.slice(0, limit); }
+    if (!updates.length) { return ui.updateList(limit); }
+    return '<ol class="latest">' + updates.map(function (u) {
+      return '<li class="latest__item">' +
+        '<p class="update__date mono">' + ui.esc(u.date) + '</p>' +
+        '<h3 class="latest__title">' + ui.esc(u.title) + '</h3>' +
+        '<details class="latest__more">' +
+          '<summary>Read the note</summary>' +
+          '<p class="update__body">' + ui.esc(u.body) + '</p>' +
+          recordPointer(u) +
+        '</details>' +
+      '</li>';
+    }).join('') + '</ol>';
+  };
+
   ui.updateList = function (limit) {
     var updates = sortedUpdates(false);
     if (limit) { updates = updates.slice(0, limit); }
@@ -694,17 +738,57 @@
 
   /* --- record cards ------------------------------------------------------ */
 
+  /* The same three lines under every record, in the same order: how far the
+     record is established, the date it carries, and how many sources stand
+     behind it. A reader comparing two cards compares like with like. Only
+     fields the record already holds are read. A missing state or date reads
+     Unknown, and a record with no source says so. */
+  ui.metaStack = function (o) {
+    var unknown = ui.esc((ui.stateDef('UNKNOWN') || { label: 'Unknown' }).label);
+    var count = o.sources;
+    var sources = (count === null || count === undefined)
+      ? unknown
+      : (count === 0 ? ui.esc(ui.t('meta.noSource', 'None on record')) : String(count));
+    function line(label, valueHtml) {
+      return '<div><dt>' + ui.esc(label) + '</dt><dd>' + valueHtml + '</dd></div>';
+    }
+    return '<dl class="meta-stack">' +
+      line(ui.t('meta.state', 'State'), ui.chip(o.state || 'UNKNOWN')) +
+      line(ui.t('meta.date', 'Date'), o.date ? ui.esc(o.date) : unknown) +
+      line(ui.t('meta.sources', 'Sources'), sources) +
+    '</dl>';
+  };
+
+  ui.evidenceMeta = function (item) {
+    return ui.metaStack({
+      state: item.verification,
+      date: item.dateOfItem,
+      sources: (item.sourceIds || []).length
+    });
+  };
+
+  /* An incident's sources are the distinct sources behind its evidence
+     records. Sample records are layout only and are not counted. */
+  ui.incidentMeta = function (incident) {
+    var seen = {};
+    WGO.model.evidenceFor(incident.id).forEach(function (e) {
+      if (e.demo) { return; }
+      (e.sourceIds || []).forEach(function (id) { seen[id] = true; });
+    });
+    return ui.metaStack({
+      state: incident.incidentState,
+      date: (incident.dateState === 'UNKNOWN' || !incident.date) ? '' : incident.date,
+      sources: Object.keys(seen).length
+    });
+  };
+
   ui.evidenceCard = function (item) {
     return '<a class="card' + (item.demo ? ' card--sample' : '') + '" href="evidence.html?id=' + ui.esc(item.id) + '">' +
       (item.demo ? ui.sampleRibbon() : '') +
-      '<div class="row">' + ui.idChip(item.id) + ui.chip(item.verification) + '</div>' +
+      '<div class="row">' + ui.idChip(item.id) + ui.plainChip(WGO.model.typeLabel(item.type)) + '</div>' +
       '<h3>' + ui.esc(item.title) + '</h3>' +
+      ui.evidenceMeta(item) +
       '<p>' + ui.esc(item.establishes || '') + '</p>' +
-      '<div class="card__meta row small">' +
-        '<span>' + ui.esc(WGO.model.typeLabel(item.type)) + '</span>' +
-        '<span aria-hidden="true">·</span>' +
-        '<span>' + ui.esc(item.dateOfItem || 'Date unknown') + '</span>' +
-      '</div>' +
     '</a>';
   };
 
@@ -714,15 +798,14 @@
     var evidence = WGO.model.evidenceFor(incident.id).filter(function (e) { return !e.demo; }).length;
 
     return '<a class="card" href="incident/' + ui.esc(incident.slug + '.html') + '">' +
-      '<div class="row">' + ui.idChip(incident.id) + ui.chip(incident.incidentState) + '</div>' +
+      '<div class="row">' + ui.idChip(incident.id) + '</div>' +
       '<h3>' + ui.esc(incident.title) + '</h3>' +
+      ui.incidentMeta(incident) +
       '<p>' + ui.esc(incident.place) + '</p>' +
       '<div class="card__meta row small">' +
         '<span><strong>' + open + '</strong> open questions</span>' +
         '<span aria-hidden="true">·</span>' +
         '<span><strong>' + evidence + '</strong> evidence items</span>' +
-        '<span aria-hidden="true">·</span>' +
-        '<span>Date ' + (incident.date ? ui.esc(incident.date) : 'unknown') + '</span>' +
       '</div>' +
     '</a>';
   };

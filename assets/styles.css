@@ -230,7 +230,7 @@ section + section { border-top: 1px solid var(--rule); }
    height everything under it was pushed down at once (layout shift 1.0). These
    are the filled heights measured at each width; the notice bar wraps, so they
    are a floor that is close rather than exact. */
-[data-chrome="masthead"] { min-height: 180px; }
+[data-chrome="masthead"] { min-height: 127px; }
 @media (min-width: 420px) { [data-chrome="masthead"] { min-height: 165px; } }
 @media (min-width: 560px) { [data-chrome="masthead"] { min-height: 109px; } }
 @media (min-width: 900px) { [data-chrome="masthead"] { min-height: 136px; } }
@@ -800,26 +800,27 @@ blockquote.official cite { display: block; margin-top: 0.4rem; font-family: var(
     gap: 3.5rem;
     align-items: start;
   }
-  .hero__grid .stat-row {
-    margin-top: 0.5rem;
-    padding-top: 1.25rem;
-    flex-direction: column;
-    gap: 1.5rem;
-  }
-  .hero__grid .stat { width: 100%; }
-  /* A rule down the left of the column, so the counts read as a panel attached
-     to the claim rather than as three orphaned figures. */
-  .hero__grid .stat-row {
-    border-top: 0;
-    border-left: 3px solid var(--brand-blue-ink);
-    padding-left: 1.5rem;
-  }
+  .hero__grid .stat-row { margin-top: 0.5rem; }
 }
 
+/* Four figures in one ruled grid: two by two on a phone and in the hero's side
+   column, four across where the row has the full width of a tablet. The frame
+   draws the top and left edges and each cell its right and bottom, so every
+   line between two figures is one hairline and none is doubled. */
 .stat-row {
-  display: flex; flex-wrap: wrap; gap: 1.75rem;
-  margin-top: 2rem; padding-top: 1.25rem;
-  border-top: 1px solid var(--rule);
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  margin-top: 1.1rem;
+  border-top: 3px solid var(--brand-blue-ink);
+  border-left: 1px solid var(--rule-strong);
+}
+.stat {
+  padding: 0.6rem 0.7rem 0.65rem;
+  border-right: 1px solid var(--rule-strong);
+  border-bottom: 1px solid var(--rule-strong);
+}
+@media (min-width: 600px) and (max-width: 959px) {
+  .stat-row { grid-template-columns: repeat(4, minmax(0, 1fr)); }
 }
 .stat b {
   display: block;
@@ -827,14 +828,17 @@ blockquote.official cite { display: block; margin-top: 0.4rem; font-family: var(
   font-size: clamp(2rem, 7vw, 2.75rem); line-height: 1;
 }
 .stat span {
-  display: block; margin-top: 0.2rem;
-  font-size: 0.75rem; letter-spacing: 0.04em; color: var(--ink-3);
+  display: block; margin-top: 0.3rem;
+  font-size: 0.75rem; line-height: 1.3; letter-spacing: 0.02em; color: var(--ink-3);
 }
 /* The count that is zero is the point of the project, not a missing value. */
 .stat--zero b { color: var(--ink); }
 .stat--zero span { color: var(--ink-2); font-weight: 700; }
 
-.hero .display { font-size: clamp(1.9rem, 8vw, 4rem); }
+/* The owner's headline, four lines as written in index.html. The size is set so
+   that at 390x844 and 360x800 the two actions and all four figures are on the
+   first screen (measured 20 November 2026). */
+.hero .display { font-size: clamp(1.5rem, 6.9vw, 3.3rem); }
 
 /* --- Language switch ------------------------------------------------------ *
    Sits in the status bar rather than the navigation: it is a property of how
@@ -1177,3 +1181,130 @@ blockquote.official { border-left: 4px solid var(--brand-blue); }
 /* --- share bar -------------------------------------------------------------- */
 .share { display: flex; flex-wrap: wrap; gap: 0.5rem; align-items: center; margin-top: 1rem; }
 .share__label { font-family: var(--mono); font-size: 0.6875rem; letter-spacing: 0.06em; text-transform: uppercase; color: var(--ink-3); margin-right: 0.25rem; }
+
+/* --- Record metadata stack ------------------------------------------------ *
+   State, date and number of sources, in that order, under every record title.
+   The labels are the kicker's type so they read as labels and never as part of
+   the record. */
+.meta-stack {
+  margin: 0.55rem 0 0.7rem;
+  border-top: 1px solid var(--rule);
+  max-width: 24rem;
+}
+.meta-stack div {
+  display: flex; align-items: baseline; gap: 0.75rem;
+  padding: 0.3rem 0;
+  border-bottom: 1px solid var(--rule);
+}
+.meta-stack dt {
+  flex: 0 0 4.75rem;
+  font-family: var(--sans); font-size: 0.6875rem; font-weight: 700;
+  letter-spacing: 0.14em; text-transform: uppercase; color: var(--ink-3);
+}
+.meta-stack dd {
+  margin: 0; min-width: 0;
+  font-family: var(--mono); font-size: 0.8125rem; color: var(--ink-2);
+}
+.row > .meta-stack { flex: 1 0 100%; }
+.record__title + .meta-stack { margin-top: 0.75rem; margin-bottom: 1.25rem; }
+
+/* --- Home page: the list and the calendar rail ---------------------------- */
+.home-split { display: grid; gap: 2.5rem; }
+.home-split > * { min-width: 0; }
+@media (min-width: 960px) {
+  .home-split { grid-template-columns: minmax(0, 1.35fr) minmax(16rem, 0.65fr); gap: 3.5rem; align-items: start; }
+}
+.rail {
+  border-top: 3px solid var(--brand-blue-ink);
+  padding-top: 1rem;
+}
+.rail__head { font-size: 1.35rem; margin-bottom: 0.4rem; }
+.rail .kicker { margin: 1rem 0 0.75rem; }
+/* When nothing is coming up, that is a notice and reads as one: a ruled block
+   on the grey surface, apart from the list under it. */
+.rail__notice {
+  margin-top: 0.9rem; padding: 0.8rem 0.9rem;
+  border: 1px solid var(--rule-strong); border-left: 3px solid var(--brand-blue-ink);
+  background: var(--paper-3);
+  font-size: 0.875rem; line-height: 1.45; color: var(--ink);
+}
+
+/* --- Dated entries -------------------------------------------------------- *
+   A hearing, an order or a sitting is first of all a date. The day leads as a
+   large numeral in the serif, the month, year and weekday sit beside it, and
+   the kind of event is opposite in small capitals. A hairline closes the head,
+   then the title, then the state of the record and its sources. The idea is
+   the Gosteli-Archiv agenda's; the palette and faces are this site's. */
+.dated-list { list-style: none; }
+.dated { padding: 0 0 1.5rem; }
+.dated + .dated { border-top: 3px solid var(--rule); padding-top: 0.9rem; }
+.dated__head {
+  display: flex; align-items: flex-end; justify-content: space-between; gap: 0.75rem;
+  padding-bottom: 0.5rem; margin-bottom: 0.6rem;
+  border-bottom: 1px solid var(--rule-strong);
+}
+.dated__date { display: flex; align-items: flex-end; gap: 0.55rem; min-width: 0; }
+.dated__date b {
+  font-family: var(--serif); font-weight: 700;
+  font-size: clamp(2.5rem, 9vw, 3.25rem); line-height: 0.82; letter-spacing: -0.03em;
+  color: var(--brand-blue-ink); font-variant-numeric: lining-nums;
+}
+.dated__rest { display: flex; flex-direction: column; min-width: 0; }
+.dated__month { font-family: var(--serif); font-weight: 700; font-size: 1rem; line-height: 1.2; color: var(--ink); }
+.dated__day { font-family: var(--mono); font-size: 0.75rem; line-height: 1.35; color: var(--ink-3); }
+.dated__kind {
+  flex: 0 1 auto; max-width: 45%; text-align: right;
+  font-family: var(--sans); font-size: 0.6875rem; font-weight: 700; line-height: 1.3;
+  letter-spacing: 0.12em; text-transform: uppercase; color: var(--ink-2);
+}
+.dated__title { font-family: var(--serif); font-size: 1.0625rem; font-weight: 700; line-height: 1.25; margin: 0 0 0.45rem; color: var(--ink); }
+.dated__title a { color: inherit; }
+.dated p { font-size: 0.875rem; color: var(--ink-2); }
+.dated p.dated__title { font-size: 1.0625rem; color: var(--ink); }
+.dated:target { outline: 3px solid var(--brand-yellow); outline-offset: 6px; }
+
+/* --- Latest, as headlines ------------------------------------------------- *
+   Text only: a date, a headline and a hairline, the way a newspaper sets its
+   "Latest" column. The note is one tap away under each headline and in full
+   on the change log. */
+.latest { list-style: none; border-top: 1px solid var(--rule-strong); }
+.latest__item { padding: 0.8rem 0 0.75rem; border-bottom: 1px solid var(--rule-strong); }
+.latest__title { font-size: 1.0625rem; line-height: 1.25; margin: 0.25rem 0 0.35rem; }
+.latest__more summary {
+  cursor: pointer; width: fit-content; padding: 0.35rem 0;
+  font-size: 0.8125rem; color: var(--brand-blue-ink); text-decoration: underline; text-underline-offset: 0.15em;
+}
+.latest__more[open] summary { margin-bottom: 0.35rem; }
+.latest__more .update__body { font-size: 0.9375rem; }
+
+/* --- The opening line ----------------------------------------------------- *
+   What the site is, in one sentence, between two hairlines and ahead of the
+   headline. */
+.hero__is {
+  max-width: 46ch; margin-bottom: 1.1rem; padding: 0.6rem 0;
+  border-top: 1px solid var(--rule-strong); border-bottom: 1px solid var(--rule-strong);
+  font-size: clamp(0.9375rem, 3.4vw, 1.0625rem); line-height: 1.4; color: var(--ink);
+}
+
+
+/* --- The top of the page on a phone --------------------------------------- *
+   Measured on 20 November 2026 at 390px: the counts sentence wrapped to two
+   lines over the language switch, the wordmark took a row and the controls
+   another, and 181px went by before the page began. Below 560px the counts
+   are now the short form beside the language switch on one row, and the
+   masthead rows sit closer. From 560px the full sentence shows, as before. */
+.notice-bar__brief { display: none; }
+@media (max-width: 559px) {
+  .notice-bar__full { display: none; }
+  .notice-bar__brief { display: inline; }
+  .notice-bar { padding: 0.4rem 0; font-size: 0.6875rem; }
+  .notice-bar__inner { flex-wrap: nowrap; gap: 0.6rem; }
+  .notice-bar__inner > span:first-child { min-width: 0; }
+  .notice-bar__brief { white-space: nowrap; }
+  .hero { padding-top: 1.6rem; }
+  .hero__is { margin-bottom: 0.9rem; }
+  .hero__actions { margin-top: 1.4rem; }
+  .lang-switch { font-size: 0.6875rem; }
+  .masthead__bar { padding: 0.5rem 0 0.55rem; gap: 0.35rem 0.75rem; }
+}
+@media (max-width: 359px) { .notice-bar__brief { white-space: normal; } }
