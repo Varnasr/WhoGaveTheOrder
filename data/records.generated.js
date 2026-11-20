@@ -2683,8 +2683,8 @@ WGO.importedSources = [
     "kind": "SECONDARY",
     "url": "https://www.tribuneindia.com/news/archive/nation/ftii-stir-200-detained-at-students-protest-in-delhi-101862",
     "retrievedOn": "2026-10-10",
-    "archiveUrl": null,
-    "archivedOn": null,
+    "archiveUrl": "http://web.archive.org/web/20261119103427/https://www.tribuneindia.com/news/archive/nation/ftii-stir-200-detained-at-students-protest-in-delhi-101862",
+    "archivedOn": "2026-11-20",
     "sha256": null,
     "originatesFrom": null
   },
@@ -2903,8 +2903,8 @@ WGO.importedSources = [
     "kind": "SECONDARY",
     "url": "https://www.tribuneindia.com/news/archive/nation/jallikattu-stir-turns-violent-bill-passed-354570",
     "retrievedOn": "2026-10-10",
-    "archiveUrl": null,
-    "archivedOn": null,
+    "archiveUrl": "http://web.archive.org/web/20261119103648/https://www.tribuneindia.com/news/archive/nation/jallikattu-stir-turns-violent-bill-passed-354570",
+    "archivedOn": "2026-11-20",
     "sha256": null,
     "originatesFrom": null
   },
@@ -2925,8 +2925,8 @@ WGO.importedSources = [
     "kind": "SECONDARY",
     "url": "https://thefederal.com/states/south/tamil-nadu/jallikattu-goes-on-as-usual-but-life-stalled-for-booked-protesters",
     "retrievedOn": "2026-10-10",
-    "archiveUrl": null,
-    "archivedOn": null,
+    "archiveUrl": "http://web.archive.org/web/20250709014230/https://thefederal.com/states/south/tamil-nadu/jallikattu-goes-on-as-usual-but-life-stalled-for-booked-protesters",
+    "archivedOn": "2026-11-20",
     "sha256": null,
     "originatesFrom": "Own reporting; says police 'forcibly evicted protesters from agitation sites across the state' on 23 January 2017"
   },
@@ -2947,8 +2947,8 @@ WGO.importedSources = [
     "kind": "SECONDARY",
     "url": "https://www.deccanchronicle.com/nation/current-affairs/170217/jallikattu-protest-justice-rajeswaran-begins-probe.html",
     "retrievedOn": "2026-10-10",
-    "archiveUrl": null,
-    "archivedOn": null,
+    "archiveUrl": "http://web.archive.org/web/20250426214629/https://www.deccanchronicle.com/nation/current-affairs/170217/jallikattu-protest-justice-rajeswaran-begins-probe.html",
+    "archivedOn": "2026-11-20",
     "sha256": null,
     "originatesFrom": null
   },
