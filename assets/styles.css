@@ -703,6 +703,12 @@ blockquote.official cite { display: block; margin-top: 0.4rem; font-family: var(
 
 .hero { padding: 2.75rem 0 2.25rem; }
 @media (min-width: 800px) { .hero { padding: 4.5rem 0 3.5rem; } }
+/* From 960px the hero keeps the spacing of every other section, and the first
+   section after it is ruled off like the rest. */
+@media (min-width: 960px) {
+  .hero { padding: 3.5rem 0; }
+  .hero + section { border-top: 1px solid var(--rule); }
+}
 .hero__claim { margin-top: 1.25rem; max-width: 30ch; font-family: var(--serif); font-size: clamp(1.15rem, 4.2vw, 1.6rem); line-height: 1.3; }
 .hero__actions { margin-top: 1.75rem; display: flex; flex-wrap: wrap; gap: 0.6rem; }
 
@@ -786,25 +792,35 @@ blockquote.official cite { display: block; margin-top: 0.4rem; font-family: var(
 .hero__what strong { color: var(--ink); }
 
 /* --- Hero layout ---------------------------------------------------------- *
-   Below 960px the hero is one column, as it always was. Above it, the claim
-   takes the left and the three counts take the right: the page had a narrow
-   column of type against an empty half-page, which reads as unfinished rather
-   than as space, and these three numbers are the strongest thing the front page
-   has to say. They are given their own column rather than a wider row so the
-   zero keeps a line to itself. */
+   Below 960px the hero is one column, as it always was. From 960px the
+   headline takes the left and the paragraph and the two actions sit beside it,
+   ending level with its last line, and the four figures run in one ruled row
+   across the full width under both. Until 20 November 2026 the figures had a
+   side column of their own: a small grid at the top right with about 300px of
+   nothing under it and an empty band between it and the headline. */
 
 @media (min-width: 960px) {
-  .hero__grid {
+  .hero__say {
     display: grid;
-    grid-template-columns: minmax(0, 1.35fr) minmax(16rem, 0.65fr);
-    gap: 3.5rem;
-    align-items: start;
+    grid-template-columns: minmax(0, 1.15fr) minmax(0, 0.85fr);
+    grid-template-rows: auto 1fr auto;
+    column-gap: 3.5rem;
   }
-  .hero__grid .stat-row { margin-top: 0.5rem; }
+  .hero__is { grid-column: 1; grid-row: 1; }
+  .hero .display { grid-column: 1; grid-row: 2 / span 2; align-self: start; }
+  .hero__what { grid-column: 2; grid-row: 2; align-self: end; margin-top: 0; max-width: 52ch; }
+  .hero__actions { grid-column: 2; grid-row: 3; }
+  .hero__grid .stat-row { margin-top: 2.5rem; }
+  .hero__grid .stat { padding: 0.9rem 1.1rem 1rem; }
+  .hero__grid .stat span { font-size: 0.8125rem; }
+}
+/* Just above 960px the headline needs more of the row to keep its four lines. */
+@media (min-width: 960px) and (max-width: 1139px) {
+  .hero__say { grid-template-columns: minmax(0, 1.35fr) minmax(0, 0.65fr); column-gap: 2.5rem; }
 }
 
-/* Four figures in one ruled grid: two by two on a phone and in the hero's side
-   column, four across where the row has the full width of a tablet. The frame
+/* Four figures in one ruled grid: two by two on a phone, four across from
+   600px, where the row has the full width of the page. The frame
    draws the top and left edges and each cell its right and bottom, so every
    line between two figures is one hairline and none is doubled. */
 .stat-row {
@@ -819,7 +835,7 @@ blockquote.official cite { display: block; margin-top: 0.4rem; font-family: var(
   border-right: 1px solid var(--rule-strong);
   border-bottom: 1px solid var(--rule-strong);
 }
-@media (min-width: 600px) and (max-width: 959px) {
+@media (min-width: 600px) {
   .stat-row { grid-template-columns: repeat(4, minmax(0, 1fr)); }
 }
 .stat b {
@@ -1269,6 +1285,9 @@ blockquote.official { border-left: 4px solid var(--brand-blue); }
    on the change log. */
 .latest { list-style: none; border-top: 1px solid var(--rule-strong); }
 .latest__item { padding: 0.8rem 0 0.75rem; border-bottom: 1px solid var(--rule-strong); }
+/* Six headlines are written; a phone and a tablet show five, and from 960px
+   the sixth shows so the list ends near the foot of the calendar beside it. */
+@media (max-width: 959px) { .latest__item:nth-child(n+6) { display: none; } }
 .latest__title { font-size: 1.0625rem; line-height: 1.25; margin: 0.25rem 0 0.35rem; }
 .latest__more summary {
   cursor: pointer; width: fit-content; padding: 0.35rem 0;

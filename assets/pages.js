@@ -82,9 +82,10 @@
 
     if (WGO.calendar) { homeCalendar(); }
 
-    /* The notice board, newest first, as headlines: five on the front page,
-       each with its note folded under it. The change log has them all in full. */
-    ui.mount('[data-region="updates"]', ui.updateBrief(5));
+    /* The notice board, newest first, as headlines, each with its note folded
+       under it: six are written, and the stylesheet shows five below 960px.
+       The change log has them all in full. */
+    ui.mount('[data-region="updates"]', ui.updateBrief(6));
 
     ui.mount('[data-region="wanted"]',
       WGO.WANTED.map(function (w) { return '<li>' + ui.plainChip(w) + '</li>'; }).join(''));

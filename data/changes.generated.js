@@ -5,6 +5,72 @@ window.WGO = window.WGO || {};
 
 WGO.changes = [
   {
+    "commit": "064912a2b1",
+    "date": "2026-11-20T10:19:29Z",
+    "subject": "Sweep log and archived copies for 2026-11-20 [skip ci]",
+    "added": [],
+    "removed": [],
+    "changed": [
+      {
+        "id": "SRC-0271",
+        "kind": "Source",
+        "title": "The Tribune (3 July 2015; headline says 200 detained, body says more than 100)",
+        "state": null,
+        "url": "https://www.tribuneindia.com/news/archive/nation/ftii-stir-200-detained-at-students-protest-in-delhi-101862",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20261119103427/https://www.tribuneindia.com/news/archive/nation/ftii-stir-200-detained-at-students-protest-in-delhi-101862"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0291",
+        "kind": "Source",
+        "title": "The Tribune (archive), dateline Chennai, 23 January 2017",
+        "state": null,
+        "url": "https://www.tribuneindia.com/news/archive/nation/jallikattu-stir-turns-violent-bill-passed-354570",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20261119103648/https://www.tribuneindia.com/news/archive/nation/jallikattu-stir-turns-violent-bill-passed-354570"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0293",
+        "kind": "Source",
+        "title": "The Federal, 14 January 2021",
+        "state": null,
+        "url": "https://thefederal.com/states/south/tamil-nadu/jallikattu-goes-on-as-usual-but-life-stalled-for-booked-protesters",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20250709014230/https://thefederal.com/states/south/tamil-nadu/jallikattu-goes-on-as-usual-but-life-stalled-for-booked-protesters"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0295",
+        "kind": "Source",
+        "title": "Deccan Chronicle, 17 February 2017",
+        "state": null,
+        "url": "https://www.deccanchronicle.com/nation/current-affairs/170217/jallikattu-protest-justice-rajeswaran-begins-probe.html",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20250426214629/https://www.deccanchronicle.com/nation/current-affairs/170217/jallikattu-protest-justice-rajeswaran-begins-probe.html"
+          }
+        ]
+      }
+    ],
+    "summary": "4 records edited"
+  },
+  {
     "commit": "34421b36c8",
     "date": "2026-11-19T10:38:30Z",
     "subject": "Sweep log and archived copies for 2026-11-19 [skip ci]",
@@ -35942,379 +36008,5 @@ WGO.changes = [
       }
     ],
     "summary": "94 records added · 2 states changed · 1 record edited · 38 records removed"
-  },
-  {
-    "commit": "c0a116378a",
-    "date": "2026-08-15T19:40:27Z",
-    "subject": "WhoGaveTheOrder.in — a public accountability archive, seeded empty on purpose (#38)",
-    "added": [
-      {
-        "id": "INC-0001",
-        "kind": "Incident",
-        "title": "Police action against students at Jantar Mantar",
-        "state": "UNDER_INVESTIGATION",
-        "url": "incident/jantar-mantar.html"
-      },
-      {
-        "id": "INC-0002",
-        "kind": "Incident",
-        "title": "Police action against students in Bihar",
-        "state": "UNDER_INVESTIGATION",
-        "url": "incident/bihar.html"
-      },
-      {
-        "id": "INC-0003",
-        "kind": "Incident",
-        "title": "Police action against students in Maharashtra",
-        "state": "UNDER_INVESTIGATION",
-        "url": "incident/maharashtra.html"
-      },
-      {
-        "id": "QST-0001-01",
-        "kind": "Question",
-        "title": "Who authorised the deployment?",
-        "state": "UNANSWERED",
-        "url": "incident/jantar-mantar.html#QST-0001-01"
-      },
-      {
-        "id": "QST-0001-02",
-        "kind": "Question",
-        "title": "Who authorised the use of tear gas, if its use is established?",
-        "state": "UNANSWERED",
-        "url": "incident/jantar-mantar.html#QST-0001-02"
-      },
-      {
-        "id": "QST-0001-03",
-        "kind": "Question",
-        "title": "Who authorised the use of pellet-firing weapons, if their use is established?",
-        "state": "UNANSWERED",
-        "url": "incident/jantar-mantar.html#QST-0001-03"
-      },
-      {
-        "id": "QST-0001-04",
-        "kind": "Question",
-        "title": "Was written authorisation required for the force used?",
-        "state": "UNANSWERED",
-        "url": "incident/jantar-mantar.html#QST-0001-04"
-      },
-      {
-        "id": "QST-0001-05",
-        "kind": "Question",
-        "title": "Was a written order issued?",
-        "state": "UNANSWERED",
-        "url": "incident/jantar-mantar.html#QST-0001-05"
-      },
-      {
-        "id": "QST-0001-06",
-        "kind": "Question",
-        "title": "If not, was an oral order given?",
-        "state": "UNANSWERED",
-        "url": "incident/jantar-mantar.html#QST-0001-06"
-      },
-      {
-        "id": "QST-0001-07",
-        "kind": "Question",
-        "title": "Who issued it?",
-        "state": "UNANSWERED",
-        "url": "incident/jantar-mantar.html#QST-0001-07"
-      },
-      {
-        "id": "QST-0001-08",
-        "kind": "Question",
-        "title": "What instructions were given to field personnel?",
-        "state": "UNANSWERED",
-        "url": "incident/jantar-mantar.html#QST-0001-08"
-      },
-      {
-        "id": "QST-0001-09",
-        "kind": "Question",
-        "title": "What reports were submitted after the incident?",
-        "state": "UNANSWERED",
-        "url": "incident/jantar-mantar.html#QST-0001-09"
-      },
-      {
-        "id": "QST-0001-10",
-        "kind": "Question",
-        "title": "Who received those reports?",
-        "state": "UNANSWERED",
-        "url": "incident/jantar-mantar.html#QST-0001-10"
-      },
-      {
-        "id": "QST-0001-11",
-        "kind": "Question",
-        "title": "Was an inquiry ordered?",
-        "state": "UNANSWERED",
-        "url": "incident/jantar-mantar.html#QST-0001-11"
-      },
-      {
-        "id": "QST-0001-12",
-        "kind": "Question",
-        "title": "What action followed?",
-        "state": "UNANSWERED",
-        "url": "incident/jantar-mantar.html#QST-0001-12"
-      },
-      {
-        "id": "QST-0002-01",
-        "kind": "Question",
-        "title": "Who authorised the deployment?",
-        "state": "UNANSWERED",
-        "url": "incident/bihar.html#QST-0002-01"
-      },
-      {
-        "id": "QST-0002-02",
-        "kind": "Question",
-        "title": "Who authorised the use of tear gas, if its use is established?",
-        "state": "UNANSWERED",
-        "url": "incident/bihar.html#QST-0002-02"
-      },
-      {
-        "id": "QST-0002-03",
-        "kind": "Question",
-        "title": "Who authorised the use of pellet-firing weapons, if their use is established?",
-        "state": "UNANSWERED",
-        "url": "incident/bihar.html#QST-0002-03"
-      },
-      {
-        "id": "QST-0002-04",
-        "kind": "Question",
-        "title": "Was written authorisation required for the force used?",
-        "state": "UNANSWERED",
-        "url": "incident/bihar.html#QST-0002-04"
-      },
-      {
-        "id": "QST-0002-05",
-        "kind": "Question",
-        "title": "Was a written order issued?",
-        "state": "UNANSWERED",
-        "url": "incident/bihar.html#QST-0002-05"
-      },
-      {
-        "id": "QST-0002-06",
-        "kind": "Question",
-        "title": "If not, was an oral order given?",
-        "state": "UNANSWERED",
-        "url": "incident/bihar.html#QST-0002-06"
-      },
-      {
-        "id": "QST-0002-07",
-        "kind": "Question",
-        "title": "Who issued it?",
-        "state": "UNANSWERED",
-        "url": "incident/bihar.html#QST-0002-07"
-      },
-      {
-        "id": "QST-0002-08",
-        "kind": "Question",
-        "title": "What instructions were given to field personnel?",
-        "state": "UNANSWERED",
-        "url": "incident/bihar.html#QST-0002-08"
-      },
-      {
-        "id": "QST-0002-09",
-        "kind": "Question",
-        "title": "What reports were submitted after the incident?",
-        "state": "UNANSWERED",
-        "url": "incident/bihar.html#QST-0002-09"
-      },
-      {
-        "id": "QST-0002-10",
-        "kind": "Question",
-        "title": "Who received those reports?",
-        "state": "UNANSWERED",
-        "url": "incident/bihar.html#QST-0002-10"
-      },
-      {
-        "id": "QST-0002-11",
-        "kind": "Question",
-        "title": "Was an inquiry ordered?",
-        "state": "UNANSWERED",
-        "url": "incident/bihar.html#QST-0002-11"
-      },
-      {
-        "id": "QST-0002-12",
-        "kind": "Question",
-        "title": "What action followed?",
-        "state": "UNANSWERED",
-        "url": "incident/bihar.html#QST-0002-12"
-      },
-      {
-        "id": "QST-0003-01",
-        "kind": "Question",
-        "title": "Who authorised the deployment?",
-        "state": "UNANSWERED",
-        "url": "incident/maharashtra.html#QST-0003-01"
-      },
-      {
-        "id": "QST-0003-02",
-        "kind": "Question",
-        "title": "Who authorised the use of tear gas, if its use is established?",
-        "state": "UNANSWERED",
-        "url": "incident/maharashtra.html#QST-0003-02"
-      },
-      {
-        "id": "QST-0003-03",
-        "kind": "Question",
-        "title": "Who authorised the use of pellet-firing weapons, if their use is established?",
-        "state": "UNANSWERED",
-        "url": "incident/maharashtra.html#QST-0003-03"
-      },
-      {
-        "id": "QST-0003-04",
-        "kind": "Question",
-        "title": "Was written authorisation required for the force used?",
-        "state": "UNANSWERED",
-        "url": "incident/maharashtra.html#QST-0003-04"
-      },
-      {
-        "id": "QST-0003-05",
-        "kind": "Question",
-        "title": "Was a written order issued?",
-        "state": "UNANSWERED",
-        "url": "incident/maharashtra.html#QST-0003-05"
-      },
-      {
-        "id": "QST-0003-06",
-        "kind": "Question",
-        "title": "If not, was an oral order given?",
-        "state": "UNANSWERED",
-        "url": "incident/maharashtra.html#QST-0003-06"
-      },
-      {
-        "id": "QST-0003-07",
-        "kind": "Question",
-        "title": "Who issued it?",
-        "state": "UNANSWERED",
-        "url": "incident/maharashtra.html#QST-0003-07"
-      },
-      {
-        "id": "QST-0003-08",
-        "kind": "Question",
-        "title": "What instructions were given to field personnel?",
-        "state": "UNANSWERED",
-        "url": "incident/maharashtra.html#QST-0003-08"
-      },
-      {
-        "id": "QST-0003-09",
-        "kind": "Question",
-        "title": "What reports were submitted after the incident?",
-        "state": "UNANSWERED",
-        "url": "incident/maharashtra.html#QST-0003-09"
-      },
-      {
-        "id": "QST-0003-10",
-        "kind": "Question",
-        "title": "Who received those reports?",
-        "state": "UNANSWERED",
-        "url": "incident/maharashtra.html#QST-0003-10"
-      },
-      {
-        "id": "QST-0003-11",
-        "kind": "Question",
-        "title": "Was an inquiry ordered?",
-        "state": "UNANSWERED",
-        "url": "incident/maharashtra.html#QST-0003-11"
-      },
-      {
-        "id": "QST-0003-12",
-        "kind": "Question",
-        "title": "What action followed?",
-        "state": "UNANSWERED",
-        "url": "incident/maharashtra.html#QST-0003-12"
-      },
-      {
-        "id": "QST-X001",
-        "kind": "Question",
-        "title": "Was any prohibitory order in force at the site at the time, and when was it promulgated?",
-        "state": "UNANSWERED",
-        "url": "incident/jantar-mantar.html#QST-X001"
-      },
-      {
-        "id": "QST-X002",
-        "kind": "Question",
-        "title": "Were any central armed police units deployed alongside the city police, and under whose direction?",
-        "state": "UNANSWERED",
-        "url": "incident/jantar-mantar.html#QST-X002"
-      },
-      {
-        "id": "OFC-0001",
-        "kind": "Office",
-        "title": "Union Ministry of Home Affairs",
-        "state": null,
-        "url": null
-      },
-      {
-        "id": "OFC-0002",
-        "kind": "Office",
-        "title": "State Home Department",
-        "state": null,
-        "url": null
-      },
-      {
-        "id": "OFC-0003",
-        "kind": "Office",
-        "title": "Director General of Police (State)",
-        "state": null,
-        "url": null
-      },
-      {
-        "id": "OFC-0004",
-        "kind": "Office",
-        "title": "Commissioner of Police",
-        "state": null,
-        "url": null
-      },
-      {
-        "id": "OFC-0005",
-        "kind": "Office",
-        "title": "District Magistrate",
-        "state": null,
-        "url": null
-      },
-      {
-        "id": "OFC-0006",
-        "kind": "Office",
-        "title": "Superintendent of Police / Deputy Commissioner of Police (District)",
-        "state": null,
-        "url": null
-      },
-      {
-        "id": "OFC-0007",
-        "kind": "Office",
-        "title": "Officer commanding the deployment on site",
-        "state": null,
-        "url": null
-      },
-      {
-        "id": "OFC-0008",
-        "kind": "Office",
-        "title": "Field personnel and units deployed",
-        "state": null,
-        "url": null
-      },
-      {
-        "id": "CLM-0001",
-        "kind": "Claim",
-        "title": "Police used force against students at Jantar Mantar.",
-        "state": "UNVERIFIED",
-        "url": "incident/jantar-mantar.html#what-happened"
-      },
-      {
-        "id": "CLM-0002",
-        "kind": "Claim",
-        "title": "Police used force against students in Bihar.",
-        "state": "UNVERIFIED",
-        "url": "incident/bihar.html#what-happened"
-      },
-      {
-        "id": "CLM-0003",
-        "kind": "Claim",
-        "title": "Police used force against students in Maharashtra.",
-        "state": "UNVERIFIED",
-        "url": "incident/maharashtra.html#what-happened"
-      }
-    ],
-    "removed": [],
-    "changed": [],
-    "summary": "52 records added"
   }
 ];

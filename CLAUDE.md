@@ -37,7 +37,7 @@ The hero opens with one sentence saying what the site covers, between two hairli
 
 Below 560px the status bar shows the short form of the counts (`.notice-bar__brief`: documents, open questions, orders found) on one row with the language switch, and the masthead rows sit closer. From 560px it shows the full sentence (`.notice-bar__full`). Both are written by `ui.renderChrome()` from `model.counts()`, and CSS hides one with `display: none`, so a screen reader meets the counts once. At 390px the bottom of the masthead moved from 181px to 125px and the first line of the home page from 225px to 153px. `[data-chrome="masthead"]` reserves 127px below 420px to match; change the two together. The Hindi status line has no short form and stays two lines (masthead 143px), because a short form needs a Hindi string nobody has written. Below 360px the short form may wrap to two lines.
 
-Latest on the home page is `ui.updateBrief(5)`: date and headline, a hairline between items, and the note with its pointer to the record under a native `details` element. `changes.html` still uses `ui.updateList()` and shows every note in full. The home page went from 9,181px to 8,475px tall at 390px wide with five items where it had three.
+Latest on the home page is `ui.updateBrief(6)` (five shown below 960px): date and headline, a hairline between items, and the note with its pointer to the record under a native `details` element. `changes.html` still uses `ui.updateList()` and shows every note in full. The home page went from 9,181px to 8,475px tall at 390px wide with five items where it had three.
 
 ## The stack under every record title
 
@@ -45,7 +45,13 @@ Latest on the home page is `ui.updateBrief(5)`: date and headline, a hairline be
 
 ## The four figures on the home page
 
-`.stat-row` is a ruled grid: two by two on a phone and in the hero's side column from 960px, four across between 600px and 959px. Measured on 19 November 2026 at 390x844, the bottom of the fourth cell moved from 854px to 832px, so the zero and its label are on the first screen. A longer label, or more padding in `.stat`, pushes it back under the fold: measure after changing either.
+`.stat-row` is a ruled grid: two by two on a phone, four across from 600px. Measured on 19 November 2026 at 390x844, the bottom of the fourth cell moved from 854px to 832px, so the zero and its label are on the first screen. A longer label, or more padding in `.stat`, pushes it back under the fold: measure after changing either.
+
+## The home page on a wide screen
+
+From 960px the hero is the headline on the left with the paragraph and the two actions beside it, ending level with the headline's last line (`.hero__say` is a grid), and the four figures in one ruled row across the full width under both. Until 20 November 2026 the figures sat in a side column of their own, which left 299px of nothing under them at 1280px and an empty band between them and the headline. The headline keeps its four lines at every width from 960px to 1920px; between 960px and 1139px the headline column is wider to hold them. The hero has the same padding as every other section there and the section after it is ruled off like the rest.
+
+"Latest" and "Hearings and sittings" start level: the heading and its sentence sit inside the left column of `.home-split`. `ui.updateBrief(6)` writes six headlines; the stylesheet shows five below 960px and the sixth from 960px, so the two columns end close together (35px apart at 1280px and wider, 93px at 960px, measured 20 November 2026). When the calendar gains or loses an entry the columns drift apart again: measure, and change the six. Nothing below 600px changed in this work, and the phone measurements above were taken again and match.
 
 ## Scheduled jobs
 
