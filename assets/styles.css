@@ -230,7 +230,7 @@ section + section { border-top: 1px solid var(--rule); }
    height everything under it was pushed down at once (layout shift 1.0). These
    are the filled heights measured at each width; the notice bar wraps, so they
    are a floor that is close rather than exact. */
-[data-chrome="masthead"] { min-height: 180px; }
+[data-chrome="masthead"] { min-height: 127px; }
 @media (min-width: 420px) { [data-chrome="masthead"] { min-height: 165px; } }
 @media (min-width: 560px) { [data-chrome="masthead"] { min-height: 109px; } }
 @media (min-width: 900px) { [data-chrome="masthead"] { min-height: 136px; } }
@@ -835,10 +835,10 @@ blockquote.official cite { display: block; margin-top: 0.4rem; font-family: var(
 .stat--zero b { color: var(--ink); }
 .stat--zero span { color: var(--ink-2); font-weight: 700; }
 
-/* Two sentences, one to a line. The ceiling is the size at which the longer one
-   still fits the hero's left column at 960px and up; balance keeps a single
-   word from falling to a line by itself at the widths between. */
-.hero .display { font-size: clamp(1.65rem, 7.4vw, 3.3rem); text-wrap: balance; }
+/* The owner's headline, four lines as written in index.html. The size is set so
+   that at 390x844 and 360x800 the two actions and all four figures are on the
+   first screen (measured 20 November 2026). */
+.hero .display { font-size: clamp(1.5rem, 6.9vw, 3.3rem); }
 
 /* --- Language switch ------------------------------------------------------ *
    Sits in the status bar rather than the navigation: it is a property of how
@@ -1285,3 +1285,26 @@ blockquote.official { border-left: 4px solid var(--brand-blue); }
   border-top: 1px solid var(--rule-strong); border-bottom: 1px solid var(--rule-strong);
   font-size: clamp(0.9375rem, 3.4vw, 1.0625rem); line-height: 1.4; color: var(--ink);
 }
+
+
+/* --- The top of the page on a phone --------------------------------------- *
+   Measured on 20 November 2026 at 390px: the counts sentence wrapped to two
+   lines over the language switch, the wordmark took a row and the controls
+   another, and 181px went by before the page began. Below 560px the counts
+   are now the short form beside the language switch on one row, and the
+   masthead rows sit closer. From 560px the full sentence shows, as before. */
+.notice-bar__brief { display: none; }
+@media (max-width: 559px) {
+  .notice-bar__full { display: none; }
+  .notice-bar__brief { display: inline; }
+  .notice-bar { padding: 0.4rem 0; font-size: 0.6875rem; }
+  .notice-bar__inner { flex-wrap: nowrap; gap: 0.6rem; }
+  .notice-bar__inner > span:first-child { min-width: 0; }
+  .notice-bar__brief { white-space: nowrap; }
+  .hero { padding-top: 1.6rem; }
+  .hero__is { margin-bottom: 0.9rem; }
+  .hero__actions { margin-top: 1.4rem; }
+  .lang-switch { font-size: 0.6875rem; }
+  .masthead__bar { padding: 0.5rem 0 0.55rem; gap: 0.35rem 0.75rem; }
+}
+@media (max-width: 359px) { .notice-bar__brief { white-space: normal; } }

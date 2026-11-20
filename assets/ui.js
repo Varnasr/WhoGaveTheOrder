@@ -443,10 +443,21 @@
             ui.t('chrome.onRecord', 'on the record.') + ' ' +
             '<strong>' + counts.open + '</strong> ' + ui.t('chrome.questionsOpen', 'questions still open.') + ' ' +
             '<strong>' + counts.orders + '</strong> ' + ui.t('chrome.ordersFound', 'orders found.')
-          : '<strong>' + counts.evidence + '</strong> document' + (counts.evidence === 1 ? '' : 's') +
-            ' from <strong>' + counts.sources + '</strong> sources on the record. ' +
-            '<strong>' + counts.open + '</strong> questions still open. ' +
-            '<strong>' + counts.orders + '</strong> orders found.')
+          /* Two wordings of the same three counts. The sentence shows from 560px;
+             below that the short form shows, so the counts and the language
+             switch share one row on a phone. CSS hides one of the two with
+             display: none, so a screen reader meets the counts once. */
+          : '<span class="notice-bar__full">' +
+              '<strong>' + counts.evidence + '</strong> document' + (counts.evidence === 1 ? '' : 's') +
+              ' from <strong>' + counts.sources + '</strong> sources on the record. ' +
+              '<strong>' + counts.open + '</strong> questions still open. ' +
+              '<strong>' + counts.orders + '</strong> orders found.' +
+            '</span>' +
+            '<span class="notice-bar__brief">' +
+              '<strong>' + counts.evidence + '</strong> document' + (counts.evidence === 1 ? '' : 's') +
+              ' <span aria-hidden="true">·</span> <strong>' + counts.open + '</strong> open' +
+              ' <span aria-hidden="true">·</span> <strong>' + counts.orders + '</strong> order' + (counts.orders === 1 ? '' : 's') + ' found' +
+            '</span>')
       : ui.t('chrome.empty', 'No documents have been published to this archive yet.');
 
     var notice =
