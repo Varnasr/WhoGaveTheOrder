@@ -418,6 +418,45 @@
     }).join('<span aria-hidden="true"> · </span>') + '</span>';
   }
 
+  /* Colour theme. The site follows the device unless the reader picks light or
+     dark with the button in the status bar; the choice is kept on the device
+     under wgo.theme. The stylesheet reads data-theme on <html>. */
+  var THEMES = ['system', 'light', 'dark'];
+  var THEME_ICON = {
+    system: '<rect x="3" y="4" width="18" height="12" rx="2"/><path d="M8 20h8M12 16v4"/>',
+    light: '<circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M2 12h2M20 12h2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/>',
+    dark: '<path d="M20 14.5A8 8 0 1 1 9.5 4a6.5 6.5 0 0 0 10.5 10.5Z"/>'
+  };
+  var THEME_NAME = { system: 'Device setting', light: 'Light', dark: 'Dark' };
+  ui.theme = function () {
+    var v = null;
+    try { v = window.localStorage.getItem('wgo.theme'); } catch (e) {}
+    return THEMES.indexOf(v) > 0 ? v : 'system';
+  };
+  ui.applyTheme = function (mode) {
+    var root = document.documentElement;
+    if (mode === 'light' || mode === 'dark') { root.setAttribute('data-theme', mode); }
+    else { root.removeAttribute('data-theme'); }
+    var b = document.querySelector('[data-wgo-theme]');
+    if (!b) { return; }
+    var next = THEMES[(THEMES.indexOf(mode) + 1) % 3];
+    b.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">' + THEME_ICON[mode] + '</svg>';
+    b.setAttribute('aria-label', 'Colour theme: ' + THEME_NAME[mode] + '. Switch to ' + THEME_NAME[next].toLowerCase());
+    b.title = 'Colour theme: ' + THEME_NAME[mode];
+    b.setAttribute('data-next', next);
+  };
+  ui.applyTheme(ui.theme());
+  document.addEventListener('click', function (e) {
+    var b = e.target.closest && e.target.closest('[data-wgo-theme]');
+    if (!b) { return; }
+    var next = b.getAttribute('data-next') || 'light';
+    try {
+      if (next === 'system') { window.localStorage.removeItem('wgo.theme'); }
+      else { window.localStorage.setItem('wgo.theme', next); }
+    } catch (err) {}
+    ui.applyTheme(next);
+  });
+
   ui.renderChrome = function () {
     var current = window.location.pathname.split('/').pop() || 'index.html';
     var cfg = WGO.config;
@@ -467,7 +506,8 @@
           status +
           (cfg.demoMode ? ' Records marked <em>sample</em> show the layout only.' : '') +
         '</span>' +
-        languageHtml() +
+        '<span class="notice-bar__tools">' + languageHtml() +
+          '<button type="button" class="wgo-theme" data-wgo-theme></button></span>' +
       '</div></div>';
 
     var header = document.querySelector('[data-chrome="masthead"]');
@@ -485,6 +525,7 @@
           '</div>' +
           '<nav class="nav" id="primary-nav" aria-label="Primary">' + navHtml(current) + '</nav>' +
         '</div></header>';
+      ui.applyTheme(ui.theme());
 
       var toggle = header.querySelector('.nav-toggle');
       var nav = header.querySelector('#primary-nav');

@@ -68,8 +68,11 @@
   --radius:  3px;   /* archival, not app-like */
 }
 
+/* Dark values are written twice: once for a device set to dark (unless the
+   reader chose light with the switch in the status bar) and once for a reader
+   who chose dark. Nothing compares the two blocks: change both together. */
 @media (prefers-color-scheme: dark) {
-  :root {
+  :root:not([data-theme="light"]) {
     --paper:       #0f1720;
     --paper-2:     #16202b;
     --paper-3:     #1c2833;
@@ -104,6 +107,40 @@
     --focus:       var(--brand-blue-ink);
   }
 }
+:root[data-theme="dark"] {
+  --paper:       #0f1720;
+  --paper-2:     #16202b;
+  --paper-3:     #1c2833;
+  --ink:         #eef3f7;
+  --ink-2:       #c6d2dc;
+  --ink-3:       #93a1ab;
+  --ink-4:       #8E9CA8;   /* dark: was #6b7a86, 4.08:1 */
+  --rule:        #263340;
+  --rule-strong: #3d4d5c;
+
+  --brand-blue:        #6cb2e0;
+  --brand-blue-ink:    #a8d4f0;
+  --brand-blue-soft:   #17303f;
+  --brand-blue-line:   #4a89b8;
+  --brand-yellow:      #f2c94c;
+  --brand-yellow-ink:  #f5da8f;
+  --brand-yellow-soft: #2f2814;
+  --brand-grey:        #1c2833;
+
+  /* The block is light-on-dark-page here, so the kicker takes a dark amber. */
+  --gap-kicker:        #654B00;   /* was #7a5b00, 4.14:1 on the block */
+
+  --verified-fg:     #79d3a3;  --verified-bg:     #10261c;  --verified-br:     #2c5a41;
+  --corroborated-fg: #7cc4e6;  --corroborated-bg: #0e2430;  --corroborated-br: #285b73;
+  --reported-fg:     #e8bd6a;  --reported-bg:     #2a2113;  --reported-br:     #6b5426;
+  --disputed-fg:     #ef9d78;  --disputed-bg:     #2c1710;  --disputed-br:     #713923;
+  --unverified-fg:   #a8a8ae;  --unverified-bg:   #212126;  --unverified-br:   #3b3b42;
+  --unknown-fg:      #101012;  --unknown-bg:      #f2f1ee;  --unknown-br:      #f2f1ee;
+
+  --accent:      var(--brand-blue-ink);
+  --accent-soft: var(--brand-blue-soft);
+  --focus:       var(--brand-blue-ink);
+  }
 
 /* --- Reset ---------------------------------------------------------------- */
 
@@ -865,6 +902,15 @@ blockquote.official cite { display: block; margin-top: 0.4rem; font-family: var(
   align-items: baseline; justify-content: space-between;
 }
 .lang-switch { flex: none; font-size: 0.75rem; white-space: nowrap; }
+.notice-bar__tools { flex: none; display: flex; align-items: center; gap: 0.6rem; }
+.wgo-theme { flex: none; display: inline-flex; align-items: center; justify-content: center; width: 28px; height: 28px; padding: 0;
+  border: 1px solid var(--rule-strong); border-radius: var(--radius); background: transparent; color: var(--ink-2); cursor: pointer; }
+.wgo-theme:hover { color: var(--ink); border-color: var(--ink-3); }
+.wgo-theme:focus-visible { outline: 2px solid var(--brand-blue); outline-offset: 2px; }
+.wgo-theme svg { width: 15px; height: 15px; }
+/* The button must not make the status bar taller: the masthead height is
+   reserved and the phone's first screen is measured to the pixel. */
+.wgo-theme { margin-block: -7px; }
 .lang-switch a { color: var(--brand-blue-ink); }
 .lang-switch__on { font-weight: 700; color: var(--ink); }
 
@@ -1145,7 +1191,8 @@ blockquote.official { border-left: 4px solid var(--brand-blue); }
    Its kicker is the one place yellow is asked to carry text, and it earns it:
    9.8:1 on the dark ground. */
 .gap-block { background: #16232e; }
-@media (prefers-color-scheme: dark) { .gap-block { background: #eef3f7; } }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .gap-block { background: #eef3f7; } }
+:root[data-theme="dark"] .gap-block { background: #eef3f7; }
 .gap-block .kicker { color: var(--gap-kicker); }
 
 /* Explainer question-mark bubble picks up the blue. */

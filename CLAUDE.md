@@ -53,6 +53,10 @@ From 960px the hero is the headline on the left with the paragraph and the two a
 
 "Latest" and "Hearings and sittings" start level: the heading and its sentence sit inside the left column of `.home-split`. `ui.updateBrief(6)` writes six headlines; the stylesheet shows five below 960px and the sixth from 960px, so the two columns end close together (35px apart at 1280px and wider, 93px at 960px, measured 20 November 2026). When the calendar gains or loses an entry the columns drift apart again: measure, and change the six. Nothing below 600px changed in this work, and the phone measurements above were taken again and match.
 
+## The colour theme switch
+
+Until 21 November 2026 the site had no theme control: it followed the device and nothing else. The status bar now carries one button (`[data-wgo-theme]`, written by `ui.renderChrome()`) that moves from the device setting to light to dark. The choice is kept on the device under `wgo.theme`, and `ui.applyTheme()` sets `data-theme` on `<html>`. `assets/styles.css` therefore holds the dark values twice: inside `@media (prefers-color-scheme: dark)` for `:root:not([data-theme="light"])`, and again for `:root[data-theme="dark"]`. Nothing compares the two blocks, so change both together; a dark rule written only inside the media query will not apply for a reader who chose dark on a light device. The scripts load at the end of `<body>`, so a reader whose choice differs from the device can see the other palette for an instant on load. The button has a negative block margin so the status bar keeps its height: the masthead measured the same before and after at 320, 360, 390 and 1280px.
+
 ## Scheduled jobs
 
 The sweep keeps one open issue titled "Sweep: candidates to look at". Each run with something to report replaces its body and adds the day as a dated comment; it opens a new issue only when none with that title is open. The dated "Sweep YYYY-MM-DD" issues opened before 19 November 2026 were left as they were. The issue step was run against a mock client in six cases before it was committed, and the first run of that test caught a duplicate variable name that would have failed every sweep.
