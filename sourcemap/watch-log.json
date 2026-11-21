@@ -930,43 +930,37 @@
         "unreachable": 1,
         "ok": 5
       }
+    },
+    {
+      "date": "2026-11-21",
+      "targets": 9,
+      "findings": 17,
+      "outcomes": {
+        "changed-no-match": 2,
+        "matched": 1,
+        "unreachable": 1,
+        "ok": 5
+      }
     }
   ],
   "seen": {
     "delhi-hc-causelist": {
-      "fingerprint": "298bcd0fe613b13e",
-      "lastChecked": "2026-11-20",
+      "fingerprint": "a46566076466ac96",
+      "lastChecked": "2026-11-21",
       "method": "pdf-text"
     },
     "delhi-hc-judgments": {
-      "fingerprint": "2108c59579cce743",
-      "lastChecked": "2026-11-20",
+      "fingerprint": "d986aba408d56a10",
+      "lastChecked": "2026-11-21",
       "method": "html"
     },
     "nhrc-press": {
       "fingerprint": "fcae07716df1c046",
-      "lastChecked": "2026-11-20",
+      "lastChecked": "2026-11-21",
       "method": "html"
     },
     "barandbench": {
       "items": [
-        "570b94f68fb58eb1",
-        "48e3703fc0a778dc",
-        "db8d6a90a7158fb4",
-        "bb2c6fb8b9edd518",
-        "3da1106095581e43",
-        "c1971fa711cbf3c9",
-        "7e7838854f47e77d",
-        "3a06c14f2b696d36",
-        "c9977b64c0e12858",
-        "25c9de40b00c14f9",
-        "ff8373a7824466fb",
-        "b0b2486024bc088b",
-        "fb2c17693173f2b6",
-        "9d1ec5a12f951236",
-        "e93cb653cf4addc5",
-        "7fb33e3e3642a502",
-        "4b72cb1f4d18c82c",
         "f15093aa2f1fc9a3",
         "661b877039fccb88",
         "4cc4cfc1dd1aebf7",
@@ -1749,18 +1743,29 @@
         "e520514f55c4ecf8",
         "27165760518a5b6a",
         "22f9e4eb5d304ab2",
-        "a36b3bcf938b104c"
+        "a36b3bcf938b104c",
+        "591c960ca45496bf",
+        "35a204a5d8b4489e",
+        "4443ff4aaddfa8ea",
+        "2ad93d680d1bbf54",
+        "32032a2fe95036e5",
+        "ef29914690304abe",
+        "61cc261c99e380fd",
+        "99dd799dd7c27660",
+        "6db33648df7bed7b",
+        "75d96057e65bbaed",
+        "2ca95d24ae792e1f",
+        "328f9b03c4ea60c5",
+        "f700b90213e0e4c9",
+        "6f392240d4410c60",
+        "680cffd00da2ce2f",
+        "bf8b31e6d9873da7",
+        "81da6bb00aa40f15"
       ],
-      "lastChecked": "2026-11-20"
+      "lastChecked": "2026-11-21"
     },
     "news-delhi": {
       "items": [
-        "6662b0dfca2c1668",
-        "5cdb05d9fe90c037",
-        "949c0009dd07aefc",
-        "5b4bf27abfd70550",
-        "0fc93b744e66304b",
-        "4d40cde7e763c3c1",
         "96de3e1035cba54a",
         "06a1edb89a77a7ec",
         "88ad1869115d2660",
@@ -2554,9 +2559,15 @@
         "9b5cf866b83cd943",
         "671be071a2de5217",
         "3d52c38f7df7032d",
-        "fd44f083f0bdc7a6"
+        "fd44f083f0bdc7a6",
+        "81ec03c532a80d97",
+        "5af71312465aa2f6",
+        "0747d0b0232b8655",
+        "c48e1a578d6a5c02",
+        "27e8b4e21c7706bf",
+        "ad103caf9316f913"
       ],
-      "lastChecked": "2026-11-20"
+      "lastChecked": "2026-11-21"
     },
     "news-cases": {
       "items": [
@@ -2765,9 +2776,10 @@
         "11c1447711414055",
         "0f6972c7f3004037",
         "add8635fec2f4071",
-        "83ddcbfbc468336c"
+        "83ddcbfbc468336c",
+        "1e7cdd93c79f9287"
       ],
-      "lastChecked": "2026-11-20"
+      "lastChecked": "2026-11-21"
     },
     "news-frt": {
       "items": [
@@ -3076,9 +3088,16 @@
         "7c52e4270391cbf3",
         "696b80a252fac152",
         "5c03e5ffc52aaa4a",
-        "0b2b7df32f2f5b29"
+        "0b2b7df32f2f5b29",
+        "806c366b52cc0ba1",
+        "7a41166e88fd1830",
+        "4e34602921ae4a69",
+        "08c3e193edf25438",
+        "2590c13281ae9d5c",
+        "d20943e1358d34aa",
+        "6dcb548d6ce1fdb2"
       ],
-      "lastChecked": "2026-11-20"
+      "lastChecked": "2026-11-21"
     },
     "news-bihar": {
       "items": [
@@ -3453,9 +3472,10 @@
         "d8efb114d7188ad1",
         "f5234b05d9d8b36e",
         "821c38a8fa498526",
-        "83deeeb8197237e4"
+        "83deeeb8197237e4",
+        "825c52082f59d7e4"
       ],
-      "lastChecked": "2026-11-20"
+      "lastChecked": "2026-11-21"
     }
   }
 }
