@@ -1,49 +1,16 @@
 {
   "run": {
-    "date": "2026-11-20",
+    "date": "2026-11-21",
     "targets": 9,
-    "findings": 7,
+    "findings": 17,
     "outcomes": {
-      "matched": 2,
-      "changed-no-match": 1,
+      "changed-no-match": 2,
+      "matched": 1,
       "unreachable": 1,
       "ok": 5
     }
   },
   "findings": [
-    {
-      "kind": "CHANGED_MATCH",
-      "target": "delhi-hc-causelist",
-      "label": "Delhi High Court cause list for today",
-      "url": "https://delhihighcourt.nic.in/files/2026-11/cause-list/combined_cause_list_20.11.2026.pdf",
-      "terms": [
-        "2127/2026",
-        "917/2026",
-        "Mumbai",
-        "Varanasi",
-        "Jawaharlal Nehru University",
-        "Kolkata",
-        "Chandigarh",
-        "Jamia Nagar",
-        "Okhla",
-        "Bengaluru",
-        "Indraprastha College for Women",
-        "Civil Lines",
-        "Shimla",
-        "University of Delhi",
-        "West Bengal",
-        "Ashok Nagar",
-        "Ranchi"
-      ],
-      "snippets": [
-        "RTIPJHAWAR@GMAIL.COM,RICEMBA17@GMAIL.COM)(0)(RESP ONDENT) 20.11.2026 ADVANCE CAUSE LIST 223 6 CM(M)-2127/2026 CM APPL. 66107/2026 CM APPL. 66108/2026 VINOD KUMAR DANG V/s DROPTI SHARMA & ORS. & ORS. VIERAT K. ANAND OTHER DETAILS OF ADVOCATES: CSK PARTNERS(VIERAT@CSKPAR",
-        "NCHARGE.LIT@GOV.IN)(0)(RESPONDENT) FOR ADMISSION 3 W.P.(C)-7810/2026 CM APPL. 37916/2026 CM APPL. 37917/2026 WITH W.P.(C) 7811/2026 M/S ALM INDUSTRIES LTD & ORS. V/s CENTRAL BANK OF INDIA AMIT AGRAWAL, RAJESH SHARMA, VIVEK MALIK OTHER DETAILS OF ADVOCATES: AMIT AGRAWA",
-        "NT) ()()(RESPONDENT) 11 FAO(OS) (COMM)-276/2024 CM APPL. 69040/2024 AIRPORTS AUTHORITY OF INDIA V/s MUMBAI INTERNATIONAL AIRPORT LIMITED KARAN LAHIRI, SAKET SIKRI OTHER DETAILS OF ADVOCATES: KARAN LAHIRI(PRATEEKARORA@LAWCHAMBERS.EMAIL)(9818289607)(PETITIONER) JAY AM",
-        "ILS OF ADVOCATES: P.S.-FIR NO. :(SAKET-192/2012) 53 CRL.M.A. 33630/2026 In CRL.REV.P.-463/2026 RAVI VARANASI V/s CENTRAL BUREAU OF INVESTIGATION MRINAL BHARTI OTHER DETAILS OF ADVOCATES: MZM LEGAL LLP(SWAPNIL.SRIVASTAVA@MZMLEGAL.COM)(9953189351)(PETITIONER) CBI(DLACBI"
-      ],
-      "method": "pdf-text",
-      "note": "The listing carries the cause title, the connected matters and the bench. This is how PROC-DEL-002 was established, and it is where the 11 September 2026 hearing will appear."
-    },
     {
       "kind": "UNREACHABLE",
       "target": "eparlib",
@@ -54,11 +21,47 @@
     },
     {
       "kind": "NEW_ITEM",
+      "target": "barandbench",
+      "label": "Bar & Bench",
+      "title": "Bengaluru court denies anticipatory bail to expelled Congress leader, others in Siddaramaiah sting video case",
+      "url": "https://www.barandbench.com/news/litigation/bengaluru-court-denies-anticipatory-bail-to-expelled-congress-leader-others-in-siddaramaiah-sting-video-case",
+      "date": "Sat, 21 Nov 2026 12:54:53 +0530",
+      "terms": [
+        "Bengaluru"
+      ],
+      "note": "Legal reporting carries hearings on the day they happen, usually before anything reaches a court website."
+    },
+    {
+      "kind": "NEW_ITEM",
+      "target": "barandbench",
+      "label": "Bar & Bench",
+      "title": "MZM Legal hires two new partners in Bengaluru office",
+      "url": "https://www.barandbench.com/law-firms/corporate/mzm-legal-hires-two-new-partners-in-bengaluru-office",
+      "date": "Sat, 21 Nov 2026 12:37:08 +0530",
+      "terms": [
+        "Bengaluru"
+      ],
+      "note": "Legal reporting carries hearings on the day they happen, usually before anything reaches a court website."
+    },
+    {
+      "kind": "NEW_ITEM",
+      "target": "barandbench",
+      "label": "Bar & Bench",
+      "title": "Mumbai court rejects convicted stockbroker Ketan Parekh’s plea to travel to 9 countries for 3-month vacation",
+      "url": "https://www.barandbench.com/news/mumbai-court-rejects-convicted-stockbroker-ketan-parekhs-plea-to-travel-to-9-countries-for-3-month-vacation",
+      "date": "Sat, 21 Nov 2026 11:13:32 +0530",
+      "terms": [
+        "Mumbai"
+      ],
+      "note": "Legal reporting carries hearings on the day they happen, usually before anything reaches a court website."
+    },
+    {
+      "kind": "NEW_ITEM",
       "target": "news-delhi",
       "label": "News: Jantar Mantar and the police action",
-      "title": "Jantar Mantar De-Notification Challenge: Supreme Court Asks Petitioner To Back Factual Assertions With... - LawBeat",
-      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQQTdRdWN6TjFMZldpaUJLQVBweTVhYlI5SWI1emdRUTl5Q19GNlBld0o3NkRPTTlGOE13RFowbWlWQmJXVnFtck1jVVA2ZUxydVR1aHhGYWtYSVY4NVZKZ0JrVEJTV0VfQlB1R0FmWjh2SDlhamwzRkRFY0NFOWNMaXZnQi1yelRnWmdCUE1rT3d4bm1TRHJNeXJHMFV0WHhpazY0bnFQZHdlaWkzcmU1MFRhWFlHZkZSZUNKS1ZoRy14d2hjaWg3UXhBeVhNUWpiNlV0cldGaGlnb05yaEZ2OFRvUWbSAeoBQVVfeXFMTms3MmZoQzM4SnhEY2dvbGVKV1RIX0FXUnI0cmdjTndwWDEybnd6d3U4dXlmMDlxUWc5TVUwQ1pFT1EwTGlSdzJZZWRBd1ZrVXVzQkNRX3ltOHd4aFVPQTZzWGk1NzN6cWZLbF8zUzdrVFZzUjU2a1JaZ25OVERibUlKWFJ4MEs5NGVyVFo0UHI3M0NiM0x6YkZ1RlRkd0Z2Ykx4TXRwa1dnWDJHWTZlRVIwc2R4OWRMajVYczEtNldxX3BkTGFXcl9OaFpKMll3Z2pYa1V0V1U3RENTdV9VcFlGU3ZiSm9FNm5B?oc=5",
-      "date": "Fri, 20 Nov 2026 08:46:51 GMT",
+      "title": "Supreme Court gives petitioner a week to file rejoinder in Jantar Mantar protest site case - Telegraph India",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNeVU5SmtrRmJld1ZsYWF4UlIwemlkU3ZYVXhzYnZnSnJBSVBIRTdXMUU5dXM5VmFvOVVlVG8tcjN6dUpZUHdDd1hIbjc3d2hJLTJkU2NNVm9WZDR2clFjX1BKTUI2eFU2Z2hRM09lZHJzOEVWVkZqeUxJY0gyazVMSzJjZUwyWjRtbmloNGhVMW94ZHgwNExKREJLS2FuNlFEeHFiME9mZ2FHYWtpV2I0Mm5uRTBsd01xcW9lR3FhRWFVR2diaG1xQW9EWDNqbE9raHpCbUtn0gHbAUFVX3lxTE8tMjBabjkwdVltVGt4X0IzTnZFTjAtVzdPZVk2TFNVQXBhSWtvTml3Q1lmckUtQk1rN2diQ1VpdXRHRVpxMkNhRDRBaGpHdTBGVVdfMDdRNW5nLTBGTGRVX0NZdXViZjRlMkhxOHdhanZLejJHM3N3ZTRpRjFHb3RSWmYtcFhZVk9pWmtvb0xMdDNmWlQwSHdlWU51WFRSZjBRUlctd1J0TzJhNFlJcVNNZ2QyTXJNcEptTW1NM0ZrTmxPeWh3TjJOY1lhN3E2eDJfR3B3SjIxU1dsQQ?oc=5",
+      "date": "Fri, 20 Nov 2026 10:15:49 GMT",
       "terms": [
         "Jantar Mantar"
       ],
@@ -68,9 +71,9 @@
       "kind": "NEW_ITEM",
       "target": "news-delhi",
       "label": "News: Jantar Mantar and the police action",
-      "title": "Supreme Court Quashes FIRs Against Jantar Mantar Protesters Demanding Education Minister’s Resignation Over NEET Paper Leaks - The Leaflet",
-      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOQkNiVEZKeDgxSHFfWHNSUUR6TUItRVF3WFhsR0U1LUdhaWpVaVdlTy1BblA3OVJ6RzE1aFdEUnc3cXgwRWRCZk1NYUEzbFhtNnpqZjJuU0xxVm9Xa2VETEN2LUg0T2FnTUZ0YVFfOFhxNFpjM1lrWDZ5dVNTcWpMLVB5QnNBNnNZTzNYNVhBSkk3c24yQ1BXOTNvWWxGMWx3czNaOER2X0h2ZHRzWUQ3dmhsQkl6SS11Zl8tdjdxbkZoZ1VpdTFTLTFLd0ZCS1A2Uk9wY0ZNZjMzY0JsakJZWVBLdkVVZVFmaVpPVDFjTFdNQTA?oc=5",
-      "date": "Tue, 01 Sep 2026 07:00:00 GMT",
+      "title": "SC gives petitioner a week to file rejoinder in plea challenging Jantar Mantar de-notification - The New Indian Express",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOa3RjVkt4TEZTYVNMSFNFZWFDaV9xbWZjM3FlMi12Z1JQZWtueDdzU2lMRHJHdnAzeWJSR0tLMFVjQ01UUVVOMFNzYUhVd3E2QXdldGUwNl9lVVNDeUFUNTd4anc4dEFzX0trT3NSQmxLZE5QTEo3NklidzZyekc4VGIxWDFGbGE5QnpxaFdfcGxZYTc5N2dvR2tuclVLUGlpakp1RHlCSGRhcjhhMjJYYk56cEVneFIwTzd4blZIR2F0OTFwRjljM0JzWWhzd3lGUjViUTBZQU9uYkFuQUHSAesBQVVfeXFMT0RBSTRoQTNaenJSeTdtdkxKb0pxRW5VajJYVVVOUXNrMVMtUDdJOUkzOEh0aXUwYm5raUNXUXpjcHFpc3k2dzZodXBKRU56NE1rRjVHLV9UM3ppVU9uYXlhZjVuME83UU5ReThZaGMwbWNySGhEdnhPM05wbUxVN1dqX1JmSjdrSVpIMVZOS2tvWmp0UXQ5RklUbnJIaC1CS3RHOHBZVXBIRzQ2cTZ3dHdEZ3c0ZjNfckQyYjBKN3NXVWs4TXJRd1lMVG1IUUFQdEpUSEFvSlRpNGRRQTJZemoyTk1hcHYtcVpsaw?oc=5",
+      "date": "Fri, 20 Nov 2026 10:44:03 GMT",
       "terms": [
         "Jantar Mantar"
       ],
@@ -80,47 +83,145 @@
       "kind": "NEW_ITEM",
       "target": "news-delhi",
       "label": "News: Jantar Mantar and the police action",
-      "title": "‘Excessive and disproportionate force’: SCBA and SCAORA condemn Jantar Mantar lathi charge as Supreme Court declines to intervene - The Leaflet",
-      "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOVnRwV1ItT3JqTUVpazZETzRLRlo5N3VYNndzLXJkTVN6SXBvN1h3RkVqRGhBb1REM0hsRFhjZzRWdWtoMXpqM2NCMzcydjNlaFNfZ0EwSmVLRlJoOUY2OG84MXk2TGVTVmZpY2Q5QW5KcEpObnJtR0VsLUhBc0V1NWlLS1VKRVB1TXFiNEFnRFFQRWR6MndQUTRkTVVTLTAwenh6YlVZMEt1enVwRFc3Q3dlZGlkWjVTb25wZVZDRGoyS3FLaEQ0LVdmaGFIRVBrQnhjTVNxUGlraVBWMGJDX09COHJmWm5iZ1Q2azRjRnhGMUNoRlF3?oc=5",
-      "date": "Wed, 22 Jul 2026 07:00:00 GMT",
+      "title": "SC Gives Petitioner One Week to File Rejoinder in Jantar Mantar Protest Case - Deccan Chronicle",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPQi1yMFYwUUdHWG5tRjdWWFA5VW9jTWowd3FHWkhaYUo3dTM2U0pySHFXUDRsbXY2ZnI4Y2s3OUNGTTZibWtjb3hQZDBrbTBJV194MkpsRUlZaTVIbnROWXg3ZGRCcDZvQTA5QjdVc0l2OGh1ZTMyaEFmcy1qVS1CbUpOTFhNTm5tbVQ1OW5adTlsS2RWOF9yUnNUR1ZpRGNEVUZqUGk0OWdJbjhTeXg3bGFVTkxUWmNCcHQ2bG1pZVLSAcYBQVVfeXFMUHZ6TTRpbGFaTUN3OTFsYTVRbkZMaV9JbWh5NU9TZlljbFZXMGk4S2xzbGpBYV9weTQzbkFTZTQ3b2Y5cmFUcmNPV3BLZzVfM3ZYQWdRd3d3bnVPUnM4WFNuU1Uzam10WDU0OGtGanJCcThwOFZhNXM1emNrZm9NdjVkakZCRm5sZWk5eEZQbkJqbE1BUlQzMHhkRTJacjNiRW9zMUM5N0NEZ1FxVE1wbkJ2THFCc1FwYmwxRVFZRXY5RE1yLWRR?oc=5",
+      "date": "Fri, 20 Nov 2026 10:20:45 GMT",
+      "terms": [
+        "Jantar Mantar"
+      ],
+      "note": "Leads, not evidence. Something reported here is a pointer to a document worth going after."
+    },
+    {
+      "kind": "NEW_ITEM",
+      "target": "news-delhi",
+      "label": "News: Jantar Mantar and the police action",
+      "title": "Supreme Court Gives Petitioner One Week to File Rejoinder in Challenge to Jantar Mantar Protest Site De-Notification - Law Trend",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPXzFfXzRMbkZ4SkphWmNqSGZrUE5fZ2Qwek9Nb1VzY3RxN0JNVXRuQWctWkJ4a0d6SVEzSk5vN1U3QzhFLVJDUjJwaVlPM0RYZzVwd3hleHg2ckNJeG5SZncyRko0YTJvUkpVbG50OGV2VHNtaVd6MU1jT2Z4Z3dxOUVWOVdaa3g4QVdiZHF5S1lFZDlUVlZDSjRZQTFmTUN2ZkVqemVKLTdQZFNiRU91ZGFBdzBpTjIzMnNqM0VkbTRmdmRYN0p5TTVlb0c0RlBGbUt3?oc=5",
+      "date": "Fri, 20 Nov 2026 10:19:01 GMT",
+      "terms": [
+        "Jantar Mantar"
+      ],
+      "note": "Leads, not evidence. Something reported here is a pointer to a document worth going after."
+    },
+    {
+      "kind": "NEW_ITEM",
+      "target": "news-delhi",
+      "label": "News: Jantar Mantar and the police action",
+      "title": "Jantar Mantar protest site case: SC grants one week to petitioner to file rejoinder - The Tribune",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNRVY2LXd5dUxac2RvV2U0anFjNmNSbnVRelM1ZFBQd1NJa051Y25ndUtaeVJfRlhwV3NVZkhQM3BJdkNSamwxYTZyX3BhTFZ0TG5VdEdNREJfMW4zSjZwWk5Hamo4dEhfTG1XYUhGVUZpWlNRZm04dmJHODRWQnR5UlpwaWtkVDFVdF80MERNdmRfeVVhMzI4WEREclZyX0NSRUFZNlZ3WmhSWEZhZU5aWGRQVWRad3lPekdpNnJ6ZUjSAcQBQVVfeXFMTUE4WC1xcFZWUXg1NmNQSUdRTXItUkVuVmhlVWc3TklDeXN1UUJSNGZNZEx1dzN4YWd6VzAxdGVRWGdYZjVZSGtCbHZqZk85dnFNVW1zeHg4bnV3bWpGWktZVlFSenI4MnBreWNYQml0T2xtM3NQUG9RU3hUa0pfTTRwNXRvNnRxQW9UZXVPeFpBV2xENEp1a3JIamp3SGsySE54M2tVT3NaQnB2Z2JGdS1fSmlxNXFKLVdieW5wZ3BHTGxaZQ?oc=5",
+      "date": "Sat, 21 Nov 2026 00:26:16 GMT",
+      "terms": [
+        "Jantar Mantar"
+      ],
+      "note": "Leads, not evidence. Something reported here is a pointer to a document worth going after."
+    },
+    {
+      "kind": "NEW_ITEM",
+      "target": "news-delhi",
+      "label": "News: Jantar Mantar and the police action",
+      "title": "SC grants one week to petitioner to file rejoinder in Jantar Mantar protest site case - Hindustan Times",
+      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQOG5lWFJ5V1NRWVZBYlFtU0UyUXRnc1hkcHA5UkhqUG02eU9rbzRLM1pPUURhUHNic25pbTRSUzN5c2lYUWQzbTE0Sk5teGZ2elAwbEotaWxHZXZVTVJlbkUtYkpILWFJMG1Ybmlva01saEY5ZkNkUkM1S3dQNjd4VGpFWHUwbWVqQTVKSGhXeFNPSTVFTkhuNVp5bVlQV29zOVppNG5zdlRWSnRJR2VWQU5YNjhxc044Sm1rOC1OclZkVWM4WGRtQTE4UUVObFplOG9ZbEV4ZmQxdy1HakZVNDVGMTZSdUNtaE9J?oc=5",
+      "date": "Fri, 20 Nov 2026 10:07:28 GMT",
+      "terms": [
+        "Jantar Mantar"
+      ],
+      "note": "Leads, not evidence. Something reported here is a pointer to a document worth going after."
+    },
+    {
+      "kind": "NEW_ITEM",
+      "target": "news-frt",
+      "label": "News: facial recognition and the surveillance question",
+      "title": "Delhi Police is using facial recognition. Where is the law governing it? - Deccan Herald",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOdlhUUlR3cmxmMnRrLTc1X0dYRXJxVWRQaGp0Nk5QTmpENjdKWXhYeEJETE5LQVc4MW5OR2dGX2hPb2pqeVZydzBsRlpwelRWcjlnMVUycEpHMlRZWFFicUk0SlFiTkxXZXhpQ0wxOGlGb3VvZXBlbjlIc05LS2RxSE5OUUwwUVd6YTBFVXlFNW1HaDBBV2tEeXRXUFRWSTR1NDFBMlA5b1dtX3F5LXhzYTRhVmZCUdIBwwFBVV95cUxNUk0tTlZsM21DZm51cTRnTWhVS1JjRVdFVHJpbmhqYk9rbEx0cFQ3dVEyU1JXNVBndVI4VlBxVzN5b3FSZFRfQmRCVUFTa2pvZWdUV2lGSkdRRGJ4d051TWZ2eGVCX0N3bDhUcF9wX0Y4aVJtbFlfVVVRV2J5cWtpN0xvYmRzYzFqdko5U3FmYUZRRFNGTDl3YWJnTi1hZFZCQ0M3WXNKdjV3UE1PMVd4ZkFpNWxYVXdGRTdOV0hLUjhhYjg?oc=5",
+      "date": "Fri, 21 Aug 2026 07:00:00 GMT",
+      "terms": [
+        "facial recognition"
+      ],
+      "note": "OQ-034 asks what database was matched against and whether a private company processed the data. Both are live questions before the Supreme Court."
+    },
+    {
+      "kind": "NEW_ITEM",
+      "target": "news-frt",
+      "label": "News: facial recognition and the surveillance question",
+      "title": "Kerala MP moves SC over Delhi Police's facial recognition, surveillance at Jantar Mantar - The News Minute",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPZG91R2k5YXNFNTc3X0xyRWpxbjhocE02MG9fNnBvcS1DQXJWTUJnMmxyeWJLTV85WGlpTFYyVlhJN1pKeEhyekt3S3RqR3NjZU5tSlozR3BPOEVoTFRfQ3ZkMHQ0OGxLUm5Hdnh2MnlVb1VrbzVucGFBLUFJYVVhczM1Vy1uTmZ5eFJRMnBqQ0lIYlIzTlJPOEF6TGM4ZV9pT1Q4MXhxalpnaXRmeUtlbmJTWXFFVmtZY0VTOWVMcjM?oc=5",
+      "date": "Wed, 29 Jul 2026 07:00:00 GMT",
       "terms": [
         "Jantar Mantar",
-        "lathi charge"
+        "facial recognition"
       ],
-      "note": "Leads, not evidence. Something reported here is a pointer to a document worth going after."
+      "note": "OQ-034 asks what database was matched against and whether a private company processed the data. Both are live questions before the Supreme Court."
     },
     {
       "kind": "NEW_ITEM",
-      "target": "news-delhi",
-      "label": "News: Jantar Mantar and the police action",
-      "title": "From Protesting at Jantar Mantar to an ICU: What Happened? - TheWire.in",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQbHJQY2tpeWFlMUc5N25ZVjRfUXJOU2V6OHE1cW5YSkFab19oMVhfTlJUQUxvMUdzcGNXeEt3MUZrZzJNZ0ZxbFBTUFp1MTZaZ0M0M3A0cHB6TURaR3ZVY1dyaEgzZmNIOHprMU1BRzlsdTBEd2Z5ZjRaUFR5UDFqMkJld0lpcWpZQVHSAZwBQVVfeXFMTVBrX2VRVlFxbDdpMVVtYU9KSTItUGJ5S2d0N2hSRHhhYzg4WnNPRmVvZXhnb0IySzF5NjJFMjZHYnZYbnk2NVVZVlRPN01PdnZXQ0xiX25uRkFqVDNnRWtlQlBkcFhzdU5zSGdCVVRBVHJENENIQ0tlWl8ySUxnT1F6RVd3T1lFa000ME94WVFmb2tfcjZSYWhaVzgz?oc=5",
-      "date": "Wed, 22 Jul 2026 07:00:00 GMT",
+      "target": "news-frt",
+      "label": "News: facial recognition and the surveillance question",
+      "title": "SC to hear plea against Delhi Police’s use of ‘facial recognition’ at CJP protest - The Federal",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQWHhYems0MGlQRk5lY2s3THVNQ052dnpXRmNoV3hSblR2aVJkUEdxZGs5MU1vRHptM05Mdl96NVVmRk5ZYUltQ19nSVVGQXZLVmlSaDFtM2FSTS1WdkFydm41MF9aQ1QzdWdwWkdQWlAtdnVod3lhcEF3NWVnMEoyY2hIRXZLYnZreURad2ZWbE9IdGtPQjF2cGI5aGZCNjdqTGVlR0hrX09HNm84SXFfYkNUbk83VWZLWXBWZk92OA?oc=5",
+      "date": "Wed, 12 Aug 2026 07:00:00 GMT",
       "terms": [
-        "Jantar Mantar"
+        "CJP protest",
+        "facial recognition"
       ],
-      "note": "Leads, not evidence. Something reported here is a pointer to a document worth going after."
+      "note": "OQ-034 asks what database was matched against and whether a private company processed the data. Both are live questions before the Supreme Court."
     },
     {
       "kind": "NEW_ITEM",
-      "target": "news-bihar",
-      "label": "News: the Bihar incidents",
-      "title": "Students protest in Patna, Katihar; Bihar Police detain demonstrators, use mild force to clear sit-ins - tennews.in",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNNFJxWEdkZjhKNWs1N2VxWmE3SlFuQlZTSHVBTUlHLTdvYUdWQ1FNVG1haXpyTzlIemxXdlppSmJtLVJjR0JONUlaRVJfbGExNzZNaURGRTc3MUpsb1c1dExGcUtnMFczTEptMFVuUFo2MUpJblRMaHZ0a0xQUC1jVzVoT0tfRUV4OV9sczlpYmlTT3JhQUdsQ0pUZnJBMmJSX2FPSWo0ZVB5WlpvM01YY05JMHRJVGxQLU00?oc=5",
-      "date": "Thu, 23 Jul 2026 07:00:00 GMT",
+      "target": "news-frt",
+      "label": "News: facial recognition and the surveillance question",
+      "title": "Delhi Police Enhances Independence Day Security with Facial Recognition and Fingerprint Screening - The Chenab Times",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOSUxOcHdSckpKd2ozNk84cV90Z3ZEUFVIV2dSMEJuUWZsb2xBcG16M2tXOXJhU0JtUjgzYWd0MDdBVW9Yc1pWcUNIaXZxYUlFVGNoejJYWEptek5ZZEVpLUpkUXhXbnZDbGFZQjhYRU1laUNneUlkSDBUQ3VXOWZFVGpkSnRYS3hJeDNyT3A4aG55cG1WUUp4TVNtRk5lSDBtUnBOZmljMi1fQWxRdnZvZmhqTS1sMGx4TlFMMWw0d3BvUDlyMTJUSURYV2g5S0VZelE?oc=5",
+      "date": "Sun, 09 Aug 2026 07:00:00 GMT",
       "terms": [
-        "Katihar"
+        "facial recognition"
       ],
-      "note": "Bihar is the deadline-critical jurisdiction: no court has ordered preservation there, so nothing is interrupting any retention schedule."
+      "note": "OQ-034 asks what database was matched against and whether a private company processed the data. Both are live questions before the Supreme Court."
+    },
+    {
+      "kind": "NEW_ITEM",
+      "target": "news-frt",
+      "label": "News: facial recognition and the surveillance question",
+      "title": "SC to hear plea against Delhi Police's facial recognition use at protest - Daily Pioneer",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQSUQ4aUUzZGs3WHpYNmoyRGZ3R0FxNnV2NTNPVTItZ1ctNVQ5Q1hkRnRaYXVGeTN6ZHJxWWxDcGFZRzVlS2NOVGlhOTQzMzZFcWNGdkJlTmp5bVBsbGhXcjZ1ekhFdEdDZmFreEFJeWJUQ3JHclVRcEo2SGtWakRkS1hQeVZTdmdVZnFyMGQzODZHU0w3emhlbkdIT3JCYV83OXVrMnFXcGM4WWNO0gG6AUFVX3lxTE1kc2dnTE1fcjVPSjQtNEhfWE5IeXZtU1dTWjhsWldRN2JqclFyZ0xjVnhiSnNUMDdsa05zUjNLVG9WakF0TjdxSy1pUnQxNUs4Tlg4RkJiWjY4ZHNhUEJQY05EYzR5cXFMaHhaY0NLbVluSzdKb3pjRFY2R0lwckcta2w1RFJwLWlJV3ZPYVhsaXJmd2pTVC1mQ0k2RjhldFZXUHN6YjczTjFqek1IaWZBeWh5ZzZOQW9Pdw?oc=5",
+      "date": "Thu, 13 Aug 2026 07:00:00 GMT",
+      "terms": [
+        "facial recognition"
+      ],
+      "note": "OQ-034 asks what database was matched against and whether a private company processed the data. Both are live questions before the Supreme Court."
+    },
+    {
+      "kind": "NEW_ITEM",
+      "target": "news-frt",
+      "label": "News: facial recognition and the surveillance question",
+      "title": "Supreme Court agrees to hear plea challenging facial recognition, biometric surveillance at protest sites - Babushahi.com",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE4zNXJUczZ5UFZkVmU2cU5qNG81dFp5U3VpRVBtLUNjN0VzaXR4MnlnWnEzVUxEVmptdVZQY1N2T1FBMGV0aWg1QXdoQlhUcENDVHAwRDVVZ0VfS0VTa2c?oc=5",
+      "date": "Thu, 13 Aug 2026 07:00:00 GMT",
+      "terms": [
+        "facial recognition"
+      ],
+      "note": "OQ-034 asks what database was matched against and whether a private company processed the data. Both are live questions before the Supreme Court."
+    },
+    {
+      "kind": "NEW_ITEM",
+      "target": "news-frt",
+      "label": "News: facial recognition and the surveillance question",
+      "title": "Plea in SC against Delhi Police's facial recognition usage at Jantar Mantar protest - Daily Pioneer",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPZFRqQktyMENMZVRIQ21qV0RZVXpDbXBiRmZmQnllQmxwOXJ1WldrVlh1RGMwX29QQjMyckMwMXZ5WG5XMk9RVG45SkZoX2J1bXlzRVdoLU9UZ2FLeURnRVZmN0tpaDMzNmpFbDZCTTBYMTh1bVhUWElPczRVMEZkOVlkbDN2SDE3enJGdUExWnlWUHZhYmZNaXdqSWx0cHdqZlhfd1Z1dzYtejRSMEE1QVJHR2Y0SmlzUlhRODI1UlZEak3SAdABQVVfeXFMTTJOWTduUEdrbGsweUwtd3N6OGctRV9TV3FlVmFNemo5RVhTTHEwVTNEdHE4amRac3JrMnRDbUdQbFZLcy05ZVpxSXhUd3BSSE8zODdZZHE4Rk9tRlRMRnI0TzA2b3RaZFNvakFfRm05cUxRTEk0enFjeUVQY2t2SjZQcTJnOGxvN1pHVkdTa1Zwa3JvcGdPMUwwX2JIUkVkUjJrd2VqVnhzM3k1MEhOTnZxT2drQVZ3bG1TcmJTX2lJbExGdFJGS0pkQkVidFB5LQ?oc=5",
+      "date": "Tue, 28 Jul 2026 07:00:00 GMT",
+      "terms": [
+        "Jantar Mantar",
+        "facial recognition"
+      ],
+      "note": "OQ-034 asks what database was matched against and whether a private company processed the data. Both are live questions before the Supreme Court."
     }
   ],
   "checked": [
     {
       "id": "delhi-hc-causelist",
-      "url": "https://delhihighcourt.nic.in/files/2026-11/cause-list/combined_cause_list_20.11.2026.pdf",
+      "url": "https://delhihighcourt.nic.in/files/2026-11/cause-list/combined_cause_list_21.11.2026.pdf",
       "status": 200,
       "method": "pdf-text",
-      "outcome": "matched"
+      "outcome": "changed-no-match"
     },
     {
       "id": "delhi-hc-judgments",
@@ -147,23 +248,23 @@
       "url": "https://www.barandbench.com/feed",
       "status": 200,
       "outcome": "ok",
-      "items": 33,
-      "matched": 0
+      "items": 31,
+      "matched": 3
     },
     {
       "id": "news-delhi",
       "url": "https://news.google.com/rss/search?q=%22Jantar+Mantar%22+(police+OR+court+OR+NHRC+OR+affidavit)&hl=en-IN&gl=IN&ceid=IN:en",
       "status": 200,
       "outcome": "ok",
-      "items": 64,
-      "matched": 4
+      "items": 69,
+      "matched": 6
     },
     {
       "id": "news-cases",
       "url": "https://news.google.com/rss/search?q=%22Shailendra+Mani+Tripathi%22+OR+%22Shakeel+Abbas%22+OR+%22280%2F2026%22&hl=en-IN&gl=IN&ceid=IN:en",
       "status": 200,
       "outcome": "ok",
-      "items": 8,
+      "items": 9,
       "matched": 0
     },
     {
@@ -171,16 +272,16 @@
       "url": "https://news.google.com/rss/search?q=(%22facial+recognition%22+OR+%22Crime+Kundli%22)+(%22Delhi+Police%22+OR+protest)&hl=en-IN&gl=IN&ceid=IN:en",
       "status": 200,
       "outcome": "ok",
-      "items": 51,
-      "matched": 0
+      "items": 100,
+      "matched": 7
     },
     {
       "id": "news-bihar",
       "url": "https://news.google.com/rss/search?q=(Patna+OR+Katihar+OR+Munger)+(lathi+OR+police+action+OR+protest)+students&hl=en-IN&gl=IN&ceid=IN:en",
       "status": 200,
       "outcome": "ok",
-      "items": 100,
-      "matched": 1
+      "items": 53,
+      "matched": 0
     }
   ]
 }
