@@ -5,6 +5,86 @@ window.WGO = window.WGO || {};
 
 WGO.changes = [
   {
+    "commit": "0f236263af",
+    "date": "2026-11-21T10:03:50Z",
+    "subject": "Sweep log and archived copies for 2026-11-21 [skip ci]",
+    "added": [],
+    "removed": [],
+    "changed": [
+      {
+        "id": "SRC-0272",
+        "kind": "Source",
+        "title": "Moneylife (IANS, 3 July 2015)",
+        "state": null,
+        "url": "https://moneylife.in/article/ftii-stir-students-protest-gajendra-chauhans-appointment/42590.html",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20261120101710/https://www.moneylife.in/article/ftii-stir-students-protest-gajendra-chauhans-appointment/42590.html"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0273",
+        "kind": "Source",
+        "title": "Gulf Times (dated 3 July 2015, refers to detentions 'yesterday')",
+        "state": null,
+        "url": "https://www.gulf-times.com/story/445727/jaitley-mum-on-ftii-chiefs-appointment",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "https://web.archive.org/web/20261121100118/https://www.gulf-times.com/story/445727/jaitley-mum-on-ftii-chiefs-appointment"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0296",
+        "kind": "Source",
+        "title": "Sri Lanka Guardian, 22 January 2025",
+        "state": null,
+        "url": "https://slguardian.org/tamil-nadu-commission-justifies-police-actions-in-2017-jallikattu-protests/",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20250201102023/https://slguardian.org/tamil-nadu-commission-justifies-police-actions-in-2017-jallikattu-protests/"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0298",
+        "kind": "Source",
+        "title": "Deccan Chronicle, 25 January 2017",
+        "state": null,
+        "url": "https://www.deccanchronicle.com/nation/current-affairs/250117/nhrc-asks-govt-to-explain-police-excess.html",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20170126103932/http://www.deccanchronicle.com/nation/current-affairs/250117/nhrc-asks-govt-to-explain-police-excess.html"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0299",
+        "kind": "Source",
+        "title": "Eastern Mirror (IANS), 1 February 2017",
+        "state": null,
+        "url": "https://www.easternmirrornagaland.com/commission-to-probe-jallikattu-violence",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20170131234520/http://www.easternmirrornagaland.com/commission-to-probe-jallikattu-violence/"
+          }
+        ]
+      }
+    ],
+    "summary": "5 records edited"
+  },
+  {
     "commit": "064912a2b1",
     "date": "2026-11-20T10:19:29Z",
     "subject": "Sweep log and archived copies for 2026-11-20 [skip ci]",

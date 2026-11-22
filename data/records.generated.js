@@ -2859,8 +2859,8 @@ WGO.importedSources = [
     "kind": "SECONDARY",
     "url": "https://www.thenewsminute.com/amp/story/news/occupy-ugc-protesters-accuse-cops-manhandling-and-sexual-harassing-them-36699",
     "retrievedOn": "2026-10-10",
-    "archiveUrl": null,
-    "archivedOn": null,
+    "archiveUrl": "https://web.archive.org/web/20261122100004/https://www.thenewsminute.com/news/occupy-ugc-protesters-accuse-cops-manhandling-and-sexual-harassing-them-36699",
+    "archivedOn": "2026-11-22",
     "sha256": null,
     "originatesFrom": "Quotes Deputy Commissioner of Police (New Delhi) as reported by the Indian Express; that report was not itself read"
   },
@@ -3013,8 +3013,8 @@ WGO.importedSources = [
     "kind": "SECONDARY",
     "url": "https://www.thenewsminute.com/tamil-nadu/2017-jallikattu-protest-tn-govt-issues-order-withdraw-cases-against-26460-persons-143848",
     "retrievedOn": "2026-10-10",
-    "archiveUrl": null,
-    "archivedOn": null,
+    "archiveUrl": "http://web.archive.org/web/20251206050910/https://www.thenewsminute.com/tamil-nadu/2017-jallikattu-protest-tn-govt-issues-order-withdraw-cases-against-26460-persons-143848",
+    "archivedOn": "2026-11-22",
     "sha256": null,
     "originatesFrom": null
   },
@@ -3035,8 +3035,8 @@ WGO.importedSources = [
     "kind": "SECONDARY",
     "url": "https://peopleswatch.org/node/110",
     "retrievedOn": "2026-10-10",
-    "archiveUrl": null,
-    "archivedOn": null,
+    "archiveUrl": "http://web.archive.org/web/20220404043314/http://www.peopleswatch.org/node/110",
+    "archivedOn": "2026-11-22",
     "sha256": null,
     "originatesFrom": "Organisation's own summary page; interim report PDF linked but not fetched"
   },
@@ -3046,8 +3046,8 @@ WGO.importedSources = [
     "kind": "SECONDARY",
     "url": "https://www.newslaundry.com/amp/story/2017%2F02%2F22%2Framjas-after-a-day-of-riot-north-campus-is-tense",
     "retrievedOn": "2026-10-10",
-    "archiveUrl": null,
-    "archivedOn": null,
+    "archiveUrl": "http://web.archive.org/web/20201212195123/https://www.newslaundry.com/amp/story/2017%2F02%2F22%2Framjas-after-a-day-of-riot-north-campus-is-tense",
+    "archivedOn": "2026-11-22",
     "sha256": null,
     "originatesFrom": null
   },
