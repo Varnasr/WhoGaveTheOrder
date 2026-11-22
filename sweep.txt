@@ -1,97 +1,32 @@
-Sweep 2026-11-21: 9 targets, 175 watch terms.
-  changed-no-match   delhi-hc-causelist
+Sweep 2026-11-22: 9 targets, 175 watch terms.
+  nothing-published  delhi-hc-causelist
   changed-no-match   delhi-hc-judgments
   matched            nhrc-press
   unreachable        eparlib
-  ok                 barandbench  31 item(s), 3 matched
-  ok                 news-delhi  69 item(s), 6 matched
+  ok                 barandbench  1 item(s), 0 matched
+  ok                 news-delhi  63 item(s), 3 matched
   ok                 news-cases  9 item(s), 0 matched
-  ok                 news-frt  100 item(s), 7 matched
-  ok                 news-bihar  53 item(s), 0 matched
+  ok                 news-frt  52 item(s), 0 matched
+  ok                 news-bihar  54 item(s), 0 matched
 
-17 thing(s) to look at:
+4 thing(s) to look at:
 
 · [UNREACHABLE] Parliamentary library
   https://eparlib.sansad.in/
   fetch failed
 
-· [NEW_ITEM] Bar & Bench
-  Bengaluru court denies anticipatory bail to expelled Congress leader, others in Siddaramaiah sting video case
-  https://www.barandbench.com/news/litigation/bengaluru-court-denies-anticipatory-bail-to-expelled-congress-leader-others-in-siddaramaiah-sting-video-case
-  matched: Bengaluru
-
-· [NEW_ITEM] Bar & Bench
-  MZM Legal hires two new partners in Bengaluru office
-  https://www.barandbench.com/law-firms/corporate/mzm-legal-hires-two-new-partners-in-bengaluru-office
-  matched: Bengaluru
-
-· [NEW_ITEM] Bar & Bench
-  Mumbai court rejects convicted stockbroker Ketan Parekh’s plea to travel to 9 countries for 3-month vacation
-  https://www.barandbench.com/news/mumbai-court-rejects-convicted-stockbroker-ketan-parekhs-plea-to-travel-to-9-countries-for-3-month-vacation
-  matched: Mumbai
-
 · [NEW_ITEM] News: Jantar Mantar and the police action
-  Supreme Court gives petitioner a week to file rejoinder in Jantar Mantar protest site case - Telegraph India
-  https://news.google.com/rss/articles/CBMi1gFBVV95cUxNeVU5SmtrRmJld1ZsYWF4UlIwemlkU3ZYVXhzYnZnSnJBSVBIRTdXMUU5dXM5VmFvOVVlVG8tcjN6dUpZUHdDd1hIbjc3d2hJLTJkU2NNVm9WZDR2clFjX1BKTUI2eFU2Z2hRM09lZHJzOEVWVkZqeUxJY0gyazVMSzJjZUwyWjRtbmloNGhVMW94ZHgwNExKREJLS2FuNlFEeHFiME9mZ2FHYWtpV2I0Mm5uRTBsd01xcW9lR3FhRWFVR2diaG1xQW9EWDNqbE9raHpCbUtn0gHbAUFVX3lxTE8tMjBabjkwdVltVGt4X0IzTnZFTjAtVzdPZVk2TFNVQXBhSWtvTml3Q1lmckUtQk1rN2diQ1VpdXRHRVpxMkNhRDRBaGpHdTBGVVdfMDdRNW5nLTBGTGRVX0NZdXViZjRlMkhxOHdhanZLejJHM3N3ZTRpRjFHb3RSWmYtcFhZVk9pWmtvb0xMdDNmWlQwSHdlWU51WFRSZjBRUlctd1J0TzJhNFlJcVNNZ2QyTXJNcEptTW1NM0ZrTmxPeWh3TjJOY1lhN3E2eDJfR3B3SjIxU1dsQQ?oc=5
+  Supreme Court to list plea to allow peaceful protests to Jantar Mantar - The Hindu
+  https://news.google.com/rss/articles/CBMiyAFBVV95cUxPdEtWZDVSOERqMHdJMk0wZjFMRnRSX3JQSlNmTVJsSFZvdUxkNWZyNG1IanloODgwTS1tc2hUVVlrSjdUNTlQckdrU3RzU3R0RXJYSTdFal9hODk0NVk0RWY4Q2tiOXp2LXhzX251OU1nMnl1cWMyLWU1QW01QTFJX0JHSHNLNElOeUNNT0N0UUhYdFJqbWlDTmhWc2xyeFlWZENpTnJjMlRrUFdQbTJtNGVvelVMSmtaMkl3WVFIT0Zac0x6RHhYQw?oc=5
   matched: Jantar Mantar
 
 · [NEW_ITEM] News: Jantar Mantar and the police action
-  SC gives petitioner a week to file rejoinder in plea challenging Jantar Mantar de-notification - The New Indian Express
-  https://news.google.com/rss/articles/CBMi3gFBVV95cUxOa3RjVkt4TEZTYVNMSFNFZWFDaV9xbWZjM3FlMi12Z1JQZWtueDdzU2lMRHJHdnAzeWJSR0tLMFVjQ01UUVVOMFNzYUhVd3E2QXdldGUwNl9lVVNDeUFUNTd4anc4dEFzX0trT3NSQmxLZE5QTEo3NklidzZyekc4VGIxWDFGbGE5QnpxaFdfcGxZYTc5N2dvR2tuclVLUGlpakp1RHlCSGRhcjhhMjJYYk56cEVneFIwTzd4blZIR2F0OTFwRjljM0JzWWhzd3lGUjViUTBZQU9uYkFuQUHSAesBQVVfeXFMT0RBSTRoQTNaenJSeTdtdkxKb0pxRW5VajJYVVVOUXNrMVMtUDdJOUkzOEh0aXUwYm5raUNXUXpjcHFpc3k2dzZodXBKRU56NE1rRjVHLV9UM3ppVU9uYXlhZjVuME83UU5ReThZaGMwbWNySGhEdnhPM05wbUxVN1dqX1JmSjdrSVpIMVZOS2tvWmp0UXQ5RklUbnJIaC1CS3RHOHBZVXBIRzQ2cTZ3dHdEZ3c0ZjNfckQyYjBKN3NXVWs4TXJRd1lMVG1IUUFQdEpUSEFvSlRpNGRRQTJZemoyTk1hcHYtcVpsaw?oc=5
+  SC to hear plea challenging composition of Jantar Mantar protest inquiry committee - Supreme Court Observer
+  https://news.google.com/rss/articles/CBMiuAFBVV95cUxQZVMycHVUZ1BQRW9ZbW9ZZTliSHVRWlhDQlFyYzZHNEQxLVdmS19vdTNhZW9vaUJpVmtGNS05WGhMRk90OWw0eFMxSm82OXIxQ1RsdFpBeWhMWUdYbDk5UEFUdTJENGJzR0g0cUJBckFERGhaVW5WQXRVOVhVenpweEJ0dWhsdTVhNDI0WHV5RTNpTExPY2Qtb1pkXzVfWjFXZjhfbG95YnF4eF9PTnJKdWJlalJxcXpM?oc=5
   matched: Jantar Mantar
 
 · [NEW_ITEM] News: Jantar Mantar and the police action
-  SC Gives Petitioner One Week to File Rejoinder in Jantar Mantar Protest Case - Deccan Chronicle
-  https://news.google.com/rss/articles/CBMiwAFBVV95cUxPQi1yMFYwUUdHWG5tRjdWWFA5VW9jTWowd3FHWkhaYUo3dTM2U0pySHFXUDRsbXY2ZnI4Y2s3OUNGTTZibWtjb3hQZDBrbTBJV194MkpsRUlZaTVIbnROWXg3ZGRCcDZvQTA5QjdVc0l2OGh1ZTMyaEFmcy1qVS1CbUpOTFhNTm5tbVQ1OW5adTlsS2RWOF9yUnNUR1ZpRGNEVUZqUGk0OWdJbjhTeXg3bGFVTkxUWmNCcHQ2bG1pZVLSAcYBQVVfeXFMUHZ6TTRpbGFaTUN3OTFsYTVRbkZMaV9JbWh5NU9TZlljbFZXMGk4S2xzbGpBYV9weTQzbkFTZTQ3b2Y5cmFUcmNPV3BLZzVfM3ZYQWdRd3d3bnVPUnM4WFNuU1Uzam10WDU0OGtGanJCcThwOFZhNXM1emNrZm9NdjVkakZCRm5sZWk5eEZQbkJqbE1BUlQzMHhkRTJacjNiRW9zMUM5N0NEZ1FxVE1wbkJ2THFCc1FwYmwxRVFZRXY5RE1yLWRR?oc=5
+  SC grants one week to petitioner to file rejoinder in Jantar Mantar protest site case | Latest News Delhi - Hindustan Times
+  https://news.google.com/rss/articles/CBMi6wFBVV95cUxQOG5lWFJ5V1NRWVZBYlFtU0UyUXRnc1hkcHA5UkhqUG02eU9rbzRLM1pPUURhUHNic25pbTRSUzN5c2lYUWQzbTE0Sk5teGZ2elAwbEotaWxHZXZVTVJlbkUtYkpILWFJMG1Ybmlva01saEY5ZkNkUkM1S3dQNjd4VGpFWHUwbWVqQTVKSGhXeFNPSTVFTkhuNVp5bVlQV29zOVppNG5zdlRWSnRJR2VWQU5YNjhxc044Sm1rOC1OclZkVWM4WGRtQTE4UUVObFplOG9ZbEV4ZmQxdy1HakZVNDVGMTZSdUNtaE9J0gHwAUFVX3lxTE1rRVFIUmdENUZGOENLa2Vwc3d1RFdwMFBha0VmM3NaU3NmM3dFa0VWT18zejFPb0tiLTdtTUpjMHBxTkpqbHZ5dzJvUFl1NEpOLVoxZEM5eVdDU2pqb3lsMXZvTHVoNkI2NU9IN0dTUmVLUnpSSWZSR3NCLVd0eTNVNy1vQzV5anVldDhOZHdPb1lFVDdGbzVIY1NqS05TTHgxbGNVTTdsUHE2WHdBbjNySUR6cV96a3JHNnplcWFwdmN5TG4yX1hMX2JDWk5LM0ZzU3ZuMllqT21tMktZSFBxSmtIVC1QTjNQdDlpU2RCbQ?oc=5
   matched: Jantar Mantar
-
-· [NEW_ITEM] News: Jantar Mantar and the police action
-  Supreme Court Gives Petitioner One Week to File Rejoinder in Challenge to Jantar Mantar Protest Site De-Notification - Law Trend
-  https://news.google.com/rss/articles/CBMi0wFBVV95cUxPXzFfXzRMbkZ4SkphWmNqSGZrUE5fZ2Qwek9Nb1VzY3RxN0JNVXRuQWctWkJ4a0d6SVEzSk5vN1U3QzhFLVJDUjJwaVlPM0RYZzVwd3hleHg2ckNJeG5SZncyRko0YTJvUkpVbG50OGV2VHNtaVd6MU1jT2Z4Z3dxOUVWOVdaa3g4QVdiZHF5S1lFZDlUVlZDSjRZQTFmTUN2ZkVqemVKLTdQZFNiRU91ZGFBdzBpTjIzMnNqM0VkbTRmdmRYN0p5TTVlb0c0RlBGbUt3?oc=5
-  matched: Jantar Mantar
-
-· [NEW_ITEM] News: Jantar Mantar and the police action
-  Jantar Mantar protest site case: SC grants one week to petitioner to file rejoinder - The Tribune
-  https://news.google.com/rss/articles/CBMiwAFBVV95cUxNRVY2LXd5dUxac2RvV2U0anFjNmNSbnVRelM1ZFBQd1NJa051Y25ndUtaeVJfRlhwV3NVZkhQM3BJdkNSamwxYTZyX3BhTFZ0TG5VdEdNREJfMW4zSjZwWk5Hamo4dEhfTG1XYUhGVUZpWlNRZm04dmJHODRWQnR5UlpwaWtkVDFVdF80MERNdmRfeVVhMzI4WEREclZyX0NSRUFZNlZ3WmhSWEZhZU5aWGRQVWRad3lPekdpNnJ6ZUjSAcQBQVVfeXFMTUE4WC1xcFZWUXg1NmNQSUdRTXItUkVuVmhlVWc3TklDeXN1UUJSNGZNZEx1dzN4YWd6VzAxdGVRWGdYZjVZSGtCbHZqZk85dnFNVW1zeHg4bnV3bWpGWktZVlFSenI4MnBreWNYQml0T2xtM3NQUG9RU3hUa0pfTTRwNXRvNnRxQW9UZXVPeFpBV2xENEp1a3JIamp3SGsySE54M2tVT3NaQnB2Z2JGdS1fSmlxNXFKLVdieW5wZ3BHTGxaZQ?oc=5
-  matched: Jantar Mantar
-
-· [NEW_ITEM] News: Jantar Mantar and the police action
-  SC grants one week to petitioner to file rejoinder in Jantar Mantar protest site case - Hindustan Times
-  https://news.google.com/rss/articles/CBMi6wFBVV95cUxQOG5lWFJ5V1NRWVZBYlFtU0UyUXRnc1hkcHA5UkhqUG02eU9rbzRLM1pPUURhUHNic25pbTRSUzN5c2lYUWQzbTE0Sk5teGZ2elAwbEotaWxHZXZVTVJlbkUtYkpILWFJMG1Ybmlva01saEY5ZkNkUkM1S3dQNjd4VGpFWHUwbWVqQTVKSGhXeFNPSTVFTkhuNVp5bVlQV29zOVppNG5zdlRWSnRJR2VWQU5YNjhxc044Sm1rOC1OclZkVWM4WGRtQTE4UUVObFplOG9ZbEV4ZmQxdy1HakZVNDVGMTZSdUNtaE9J?oc=5
-  matched: Jantar Mantar
-
-· [NEW_ITEM] News: facial recognition and the surveillance question
-  Delhi Police is using facial recognition. Where is the law governing it? - Deccan Herald
-  https://news.google.com/rss/articles/CBMitgFBVV95cUxOdlhUUlR3cmxmMnRrLTc1X0dYRXJxVWRQaGp0Nk5QTmpENjdKWXhYeEJETE5LQVc4MW5OR2dGX2hPb2pqeVZydzBsRlpwelRWcjlnMVUycEpHMlRZWFFicUk0SlFiTkxXZXhpQ0wxOGlGb3VvZXBlbjlIc05LS2RxSE5OUUwwUVd6YTBFVXlFNW1HaDBBV2tEeXRXUFRWSTR1NDFBMlA5b1dtX3F5LXhzYTRhVmZCUdIBwwFBVV95cUxNUk0tTlZsM21DZm51cTRnTWhVS1JjRVdFVHJpbmhqYk9rbEx0cFQ3dVEyU1JXNVBndVI4VlBxVzN5b3FSZFRfQmRCVUFTa2pvZWdUV2lGSkdRRGJ4d051TWZ2eGVCX0N3bDhUcF9wX0Y4aVJtbFlfVVVRV2J5cWtpN0xvYmRzYzFqdko5U3FmYUZRRFNGTDl3YWJnTi1hZFZCQ0M3WXNKdjV3UE1PMVd4ZkFpNWxYVXdGRTdOV0hLUjhhYjg?oc=5
-  matched: facial recognition
-
-· [NEW_ITEM] News: facial recognition and the surveillance question
-  Kerala MP moves SC over Delhi Police's facial recognition, surveillance at Jantar Mantar - The News Minute
-  https://news.google.com/rss/articles/CBMiwAFBVV95cUxPZG91R2k5YXNFNTc3X0xyRWpxbjhocE02MG9fNnBvcS1DQXJWTUJnMmxyeWJLTV85WGlpTFYyVlhJN1pKeEhyekt3S3RqR3NjZU5tSlozR3BPOEVoTFRfQ3ZkMHQ0OGxLUm5Hdnh2MnlVb1VrbzVucGFBLUFJYVVhczM1Vy1uTmZ5eFJRMnBqQ0lIYlIzTlJPOEF6TGM4ZV9pT1Q4MXhxalpnaXRmeUtlbmJTWXFFVmtZY0VTOWVMcjM?oc=5
-  matched: Jantar Mantar, facial recognition
-
-· [NEW_ITEM] News: facial recognition and the surveillance question
-  SC to hear plea against Delhi Police’s use of ‘facial recognition’ at CJP protest - The Federal
-  https://news.google.com/rss/articles/CBMivwFBVV95cUxQWHhYems0MGlQRk5lY2s3THVNQ052dnpXRmNoV3hSblR2aVJkUEdxZGs5MU1vRHptM05Mdl96NVVmRk5ZYUltQ19nSVVGQXZLVmlSaDFtM2FSTS1WdkFydm41MF9aQ1QzdWdwWkdQWlAtdnVod3lhcEF3NWVnMEoyY2hIRXZLYnZreURad2ZWbE9IdGtPQjF2cGI5aGZCNjdqTGVlR0hrX09HNm84SXFfYkNUbk83VWZLWXBWZk92OA?oc=5
-  matched: CJP protest, facial recognition
-
-· [NEW_ITEM] News: facial recognition and the surveillance question
-  Delhi Police Enhances Independence Day Security with Facial Recognition and Fingerprint Screening - The Chenab Times
-  https://news.google.com/rss/articles/CBMi0gFBVV95cUxOSUxOcHdSckpKd2ozNk84cV90Z3ZEUFVIV2dSMEJuUWZsb2xBcG16M2tXOXJhU0JtUjgzYWd0MDdBVW9Yc1pWcUNIaXZxYUlFVGNoejJYWEptek5ZZEVpLUpkUXhXbnZDbGFZQjhYRU1laUNneUlkSDBUQ3VXOWZFVGpkSnRYS3hJeDNyT3A4aG55cG1WUUp4TVNtRk5lSDBtUnBOZmljMi1fQWxRdnZvZmhqTS1sMGx4TlFMMWw0d3BvUDlyMTJUSURYV2g5S0VZelE?oc=5
-  matched: facial recognition
-
-· [NEW_ITEM] News: facial recognition and the surveillance question
-  SC to hear plea against Delhi Police's facial recognition use at protest - Daily Pioneer
-  https://news.google.com/rss/articles/CBMirAFBVV95cUxQSUQ4aUUzZGs3WHpYNmoyRGZ3R0FxNnV2NTNPVTItZ1ctNVQ5Q1hkRnRaYXVGeTN6ZHJxWWxDcGFZRzVlS2NOVGlhOTQzMzZFcWNGdkJlTmp5bVBsbGhXcjZ1ekhFdEdDZmFreEFJeWJUQ3JHclVRcEo2SGtWakRkS1hQeVZTdmdVZnFyMGQzODZHU0w3emhlbkdIT3JCYV83OXVrMnFXcGM4WWNO0gG6AUFVX3lxTE1kc2dnTE1fcjVPSjQtNEhfWE5IeXZtU1dTWjhsWldRN2JqclFyZ0xjVnhiSnNUMDdsa05zUjNLVG9WakF0TjdxSy1pUnQxNUs4Tlg4RkJiWjY4ZHNhUEJQY05EYzR5cXFMaHhaY0NLbVluSzdKb3pjRFY2R0lwckcta2w1RFJwLWlJV3ZPYVhsaXJmd2pTVC1mQ0k2RjhldFZXUHN6YjczTjFqek1IaWZBeWh5ZzZOQW9Pdw?oc=5
-  matched: facial recognition
-
-· [NEW_ITEM] News: facial recognition and the surveillance question
-  Supreme Court agrees to hear plea challenging facial recognition, biometric surveillance at protest sites - Babushahi.com
-  https://news.google.com/rss/articles/CBMiXkFVX3lxTE4zNXJUczZ5UFZkVmU2cU5qNG81dFp5U3VpRVBtLUNjN0VzaXR4MnlnWnEzVUxEVmptdVZQY1N2T1FBMGV0aWg1QXdoQlhUcENDVHAwRDVVZ0VfS0VTa2c?oc=5
-  matched: facial recognition
-
-· [NEW_ITEM] News: facial recognition and the surveillance question
-  Plea in SC against Delhi Police's facial recognition usage at Jantar Mantar protest - Daily Pioneer
-  https://news.google.com/rss/articles/CBMiwwFBVV95cUxPZFRqQktyMENMZVRIQ21qV0RZVXpDbXBiRmZmQnllQmxwOXJ1WldrVlh1RGMwX29QQjMyckMwMXZ5WG5XMk9RVG45SkZoX2J1bXlzRVdoLU9UZ2FLeURnRVZmN0tpaDMzNmpFbDZCTTBYMTh1bVhUWElPczRVMEZkOVlkbDN2SDE3enJGdUExWnlWUHZhYmZNaXdqSWx0cHdqZlhfd1Z1dzYtejRSMEE1QVJHR2Y0SmlzUlhRODI1UlZEak3SAdABQVVfeXFMTTJOWTduUEdrbGsweUwtd3N6OGctRV9TV3FlVmFNemo5RVhTTHEwVTNEdHE4amRac3JrMnRDbUdQbFZLcy05ZVpxSXhUd3BSSE8zODdZZHE4Rk9tRlRMRnI0TzA2b3RaZFNvakFfRm05cUxRTEk0enFjeUVQY2t2SjZQcTJnOGxvN1pHVkdTa1Zwa3JvcGdPMUwwX2JIUkVkUjJrd2VqVnhzM3k1MEhOTnZxT2drQVZ3bG1TcmJTX2lJbExGdFJGS0pkQkVidFB5LQ?oc=5
-  matched: Jantar Mantar, facial recognition
 
