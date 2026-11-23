@@ -1,12 +1,12 @@
-Sweep 2026-11-22: 9 targets, 175 watch terms.
+Sweep 2026-11-23: 9 targets, 175 watch terms.
   nothing-published  delhi-hc-causelist
   changed-no-match   delhi-hc-judgments
   matched            nhrc-press
   unreachable        eparlib
-  ok                 barandbench  1 item(s), 0 matched
-  ok                 news-delhi  63 item(s), 3 matched
+  ok                 barandbench  21 item(s), 2 matched
+  ok                 news-delhi  65 item(s), 1 matched
   ok                 news-cases  9 item(s), 0 matched
-  ok                 news-frt  52 item(s), 0 matched
+  ok                 news-frt  50 item(s), 0 matched
   ok                 news-bihar  54 item(s), 0 matched
 
 4 thing(s) to look at:
@@ -15,18 +15,18 @@ Sweep 2026-11-22: 9 targets, 175 watch terms.
   https://eparlib.sansad.in/
   fetch failed
 
-· [NEW_ITEM] News: Jantar Mantar and the police action
-  Supreme Court to list plea to allow peaceful protests to Jantar Mantar - The Hindu
-  https://news.google.com/rss/articles/CBMiyAFBVV95cUxPdEtWZDVSOERqMHdJMk0wZjFMRnRSX3JQSlNmTVJsSFZvdUxkNWZyNG1IanloODgwTS1tc2hUVVlrSjdUNTlQckdrU3RzU3R0RXJYSTdFal9hODk0NVk0RWY4Q2tiOXp2LXhzX251OU1nMnl1cWMyLWU1QW01QTFJX0JHSHNLNElOeUNNT0N0UUhYdFJqbWlDTmhWc2xyeFlWZENpTnJjMlRrUFdQbTJtNGVvelVMSmtaMkl3WVFIT0Zac0x6RHhYQw?oc=5
-  matched: Jantar Mantar
+· [NEW_ITEM] Bar & Bench
+  West Bengal SIR: Supreme Court orders priority hearing of appeals for inclusion in voters list, increase in appellate tribunals
+  https://www.barandbench.com/news/west-bengal-sir-supreme-court-orders-priority-hearing-of-appeals-for-inclusion-in-voters-list-increase-in-appellate-tribunals
+  matched: West Bengal
+
+· [NEW_ITEM] Bar & Bench
+  Resolüt Partners is looking to hire a Senior Associate in Delhi/Mumbai
+  https://www.barandbench.com/legal-jobs/resolt-partners-is-looking-to-hire-a-senior-associate-in-delhimumbai
+  matched: Mumbai
 
 · [NEW_ITEM] News: Jantar Mantar and the police action
-  SC to hear plea challenging composition of Jantar Mantar protest inquiry committee - Supreme Court Observer
-  https://news.google.com/rss/articles/CBMiuAFBVV95cUxQZVMycHVUZ1BQRW9ZbW9ZZTliSHVRWlhDQlFyYzZHNEQxLVdmS19vdTNhZW9vaUJpVmtGNS05WGhMRk90OWw0eFMxSm82OXIxQ1RsdFpBeWhMWUdYbDk5UEFUdTJENGJzR0g0cUJBckFERGhaVW5WQXRVOVhVenpweEJ0dWhsdTVhNDI0WHV5RTNpTExPY2Qtb1pkXzVfWjFXZjhfbG95YnF4eF9PTnJKdWJlalJxcXpM?oc=5
-  matched: Jantar Mantar
-
-· [NEW_ITEM] News: Jantar Mantar and the police action
-  SC grants one week to petitioner to file rejoinder in Jantar Mantar protest site case | Latest News Delhi - Hindustan Times
-  https://news.google.com/rss/articles/CBMi6wFBVV95cUxQOG5lWFJ5V1NRWVZBYlFtU0UyUXRnc1hkcHA5UkhqUG02eU9rbzRLM1pPUURhUHNic25pbTRSUzN5c2lYUWQzbTE0Sk5teGZ2elAwbEotaWxHZXZVTVJlbkUtYkpILWFJMG1Ybmlva01saEY5ZkNkUkM1S3dQNjd4VGpFWHUwbWVqQTVKSGhXeFNPSTVFTkhuNVp5bVlQV29zOVppNG5zdlRWSnRJR2VWQU5YNjhxc044Sm1rOC1OclZkVWM4WGRtQTE4UUVObFplOG9ZbEV4ZmQxdy1HakZVNDVGMTZSdUNtaE9J0gHwAUFVX3lxTE1rRVFIUmdENUZGOENLa2Vwc3d1RFdwMFBha0VmM3NaU3NmM3dFa0VWT18zejFPb0tiLTdtTUpjMHBxTkpqbHZ5dzJvUFl1NEpOLVoxZEM5eVdDU2pqb3lsMXZvTHVoNkI2NU9IN0dTUmVLUnpSSWZSR3NCLVd0eTNVNy1vQzV5anVldDhOZHdPb1lFVDdGbzVIY1NqS05TTHgxbGNVTTdsUHE2WHdBbjNySUR6cV96a3JHNnplcWFwdmN5TG4yX1hMX2JDWk5LM0ZzU3ZuMllqT21tMktZSFBxSmtIVC1QTjNQdDlpU2RCbQ?oc=5
+  Jantar Mantar returns to normalcy as protests move out; vendors, visitors welcome quieter surroundings - The Statesman
+  https://news.google.com/rss/articles/CBMi7wFBVV95cUxOTURrQm9hbFJvSEZJU0VrdTd4akZ3OEUtQVhnODNEMFY0UVhBY1dvbHp2cTZQdXY2ZnBzTWFVd0ZlWXFXanBMbnBfOGVKZi1kWkI0cE5wN3NhY2hEYWVGU3JkQlFsR0FLY2taWGdITnJObEU5eEREWjkyc05RalpaTE1Vc0tEdUtxQmFEeVVLTFQzUmlqaTkxV2F1QlhRSVBvMjdkdXpnVVZnYzBvRW5jSlhnbS1kRWVIbmtaTTY3MW1vRlNlWXJnTjlHcnNoZFlYaHh3OWtpTTlUeW91ZFdYb0E2cWhyOEVUTE0ycXN6c9IB9AFBVV95cUxPRnhvbTRTOXZ5bmc2NjB1Z1VzUS15dW4wUno4UFU4ZTB0Wnhpc28tS29yQU50NTM4a3RDZE1SRW1MbzJlb2VWdHluVjlIUUVaby1oTjNDUDJlWkx3YXEwUGExZGxnWUJYbEExVDNiZkhOckE4MVM5RmFLX3J2cmNnUWotc0x3OG1MMkxXSTF6S2ZpRS1RQTFpNUl5c2JtREV0OUlJWnVMNk8zUTJFeUdxNG54MnRzYmplakNheXVuU3IwaVdtYUszdGdvSGRHRXVRY0VKRUFmdWVfSG5jZjY5d3E2SmJvejRZSWlaeEVXTWttVmN0?oc=5
   matched: Jantar Mantar
 
