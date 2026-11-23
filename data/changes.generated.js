@@ -5,6 +5,72 @@ window.WGO = window.WGO || {};
 
 WGO.changes = [
   {
+    "commit": "e74e2c785e",
+    "date": "2026-11-22T10:03:49Z",
+    "subject": "Sweep log and archived copies for 2026-11-22 [skip ci]",
+    "added": [],
+    "removed": [],
+    "changed": [
+      {
+        "id": "SRC-0287",
+        "kind": "Source",
+        "title": "The News Minute, 10 December 2015",
+        "state": null,
+        "url": "https://www.thenewsminute.com/amp/story/news/occupy-ugc-protesters-accuse-cops-manhandling-and-sexual-harassing-them-36699",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "https://web.archive.org/web/20261122100004/https://www.thenewsminute.com/news/occupy-ugc-protesters-accuse-cops-manhandling-and-sexual-harassing-them-36699"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0301",
+        "kind": "Source",
+        "title": "The News Minute, 20 February 2021",
+        "state": null,
+        "url": "https://www.thenewsminute.com/tamil-nadu/2017-jallikattu-protest-tn-govt-issues-order-withdraw-cases-against-26460-persons-143848",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20251206050910/https://www.thenewsminute.com/tamil-nadu/2017-jallikattu-protest-tn-govt-issues-order-withdraw-cases-against-26460-persons-143848"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0303",
+        "kind": "Source",
+        "title": "People's Watch (peopleswatch.org)",
+        "state": null,
+        "url": "https://peopleswatch.org/node/110",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20220404043314/http://www.peopleswatch.org/node/110"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0304",
+        "kind": "Source",
+        "title": "Newslaundry, live account dated 22 February 2017 with updates to 9:27 p.m.",
+        "state": null,
+        "url": "https://www.newslaundry.com/amp/story/2017%2F02%2F22%2Framjas-after-a-day-of-riot-north-campus-is-tense",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20201212195123/https://www.newslaundry.com/amp/story/2017%2F02%2F22%2Framjas-after-a-day-of-riot-north-campus-is-tense"
+          }
+        ]
+      }
+    ],
+    "summary": "4 records edited"
+  },
+  {
     "commit": "0f236263af",
     "date": "2026-11-21T10:03:50Z",
     "subject": "Sweep log and archived copies for 2026-11-21 [skip ci]",
