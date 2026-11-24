@@ -3101,8 +3101,8 @@ WGO.importedSources = [
     "kind": "SECONDARY",
     "url": "https://thepeninsulaqatar.com/article/24/02/2017/Three-policemen-suspended-over-Ramjas-violence",
     "retrievedOn": "2026-10-10",
-    "archiveUrl": null,
-    "archivedOn": null,
+    "archiveUrl": "http://web.archive.org/web/20250722063538/https://thepeninsulaqatar.com/article/24/02/2017/Three-policemen-suspended-over-Ramjas-violence",
+    "archivedOn": "2026-11-24",
     "sha256": null,
     "originatesFrom": "IANS wire copy; statements of Joint Commissioner Dependra Pathak and Special Commissioner S.B.K. Singh made on 23 February 2017"
   },
@@ -3112,8 +3112,8 @@ WGO.importedSources = [
     "kind": "SECONDARY",
     "url": "https://cpj.org/2017/02/delhi-police-student-activists-beat-journalists/",
     "retrievedOn": "2026-10-10",
-    "archiveUrl": null,
-    "archivedOn": null,
+    "archiveUrl": "http://web.archive.org/web/20260813095127/https://cpj.org/2017/02/delhi-police-student-activists-beat-journalists/",
+    "archivedOn": "2026-11-24",
     "sha256": null,
     "originatesFrom": null
   },
@@ -3123,8 +3123,8 @@ WGO.importedSources = [
     "kind": "SECONDARY",
     "url": "https://www.tribuneindia.com/news/archive/nation/du-clash-over-seminar-invite-368249",
     "retrievedOn": "2026-10-10",
-    "archiveUrl": null,
-    "archivedOn": null,
+    "archiveUrl": "http://web.archive.org/web/20240324092610/https://www.tribuneindia.com/news/archive/nation/du-clash-over-seminar-invite-368249",
+    "archivedOn": "2026-11-24",
     "sha256": null,
     "originatesFrom": "PTI wire copy, 22 February 2017"
   },
@@ -3134,8 +3134,8 @@ WGO.importedSources = [
     "kind": "SECONDARY",
     "url": "https://www.governancenow.com/news/regular-story/ramjas-violence-nhrc-notice-delhi-police-chief",
     "retrievedOn": "2026-10-10",
-    "archiveUrl": null,
-    "archivedOn": null,
+    "archiveUrl": "http://web.archive.org/web/20260722112823/http://www.governancenow.com/news/regular-story/ramjas-violence-nhrc-notice-delhi-police-chief",
+    "archivedOn": "2026-11-24",
     "sha256": null,
     "originatesFrom": null
   },

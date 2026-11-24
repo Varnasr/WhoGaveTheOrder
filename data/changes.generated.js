@@ -5,6 +5,86 @@ window.WGO = window.WGO || {};
 
 WGO.changes = [
   {
+    "commit": "1d1471b369",
+    "date": "2026-11-23T11:01:50Z",
+    "subject": "Sweep log and archived copies for 2026-11-23 [skip ci]",
+    "added": [],
+    "removed": [],
+    "changed": [
+      {
+        "id": "SRC-0288",
+        "kind": "Source",
+        "title": "Scroll.in, Shubhra Dixit, 11 December 2015",
+        "state": null,
+        "url": "https://amp.scroll.in/video/800648/scroll_in",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20261122100127/https://amp.scroll.in/video/800648/scroll_in"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0292",
+        "kind": "Source",
+        "title": "Gulf News (PTI report; page last updated 1 November 2018)",
+        "state": null,
+        "url": "https://gulfnews.com/amp/story/world%2Fasia%2Findia%2Fprotests-take-violent-turn-in-chennai-1.1966684",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "https://web.archive.org/web/20261123105919/https://gulfnews.com/amp/story/world/asia/india/protests-take-violent-turn-in-chennai-1.1966684"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0297",
+        "kind": "Source",
+        "title": "Madras High Court, P. Ayyakannu v. Government of Tamil Nadu, W.P. No. 8652 of 2018, judgment of 28 April 2018 (T. Raja J.), copy on Indian Kanoon (not the court's own site)",
+        "state": null,
+        "url": "https://indiankanoon.org/doc/80182795/?type=print",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "https://web.archive.org/web/20261123105948/https://indiankanoon.org/doc/80182795/?type=print"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0306",
+        "kind": "Source",
+        "title": "The Quint (daily bulletin)",
+        "state": null,
+        "url": "https://thequint.com/news/india/qbullet-journos-teachers-beaten-in-ramjas-nasa-finds-7-planets",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20240619051004/https://www.thequint.com/news/india/qbullet-journos-teachers-beaten-in-ramjas-nasa-finds-7-planets"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0307",
+        "kind": "Source",
+        "title": "The Asian Age, 24 February 2017",
+        "state": null,
+        "url": "https://www.asianage.com/metros/delhi/240217/du-tense-as-abvp-aisa-members-protest.html",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20250213024442/https://www.asianage.com/metros/delhi/240217/du-tense-as-abvp-aisa-members-protest.html"
+          }
+        ]
+      }
+    ],
+    "summary": "5 records edited"
+  },
+  {
     "commit": "e74e2c785e",
     "date": "2026-11-22T10:03:49Z",
     "subject": "Sweep log and archived copies for 2026-11-22 [skip ci]",
