@@ -1,6 +1,6 @@
 {
   "run": {
-    "date": "2026-11-23",
+    "date": "2026-11-24",
     "targets": 9,
     "findings": 4,
     "outcomes": {
@@ -24,23 +24,11 @@
       "kind": "NEW_ITEM",
       "target": "barandbench",
       "label": "Bar & Bench",
-      "title": "West Bengal SIR: Supreme Court orders priority hearing of appeals for inclusion in voters list, increase in appellate tribunals",
-      "url": "https://www.barandbench.com/news/west-bengal-sir-supreme-court-orders-priority-hearing-of-appeals-for-inclusion-in-voters-list-increase-in-appellate-tribunals",
-      "date": "Mon, 23 Nov 2026 15:18:47 +0530",
+      "title": "Housekeeping staff at MNLU Nagpur end protest after contractor agrees to ESI cover, minimum wages",
+      "url": "https://www.barandbench.com/Law-School/housekeeping-staff-at-mnlu-nagpur-end-protest-after-contractor-agrees-to-esi-cover-minimum-wages",
+      "date": "Tue, 24 Nov 2026 16:12:20 +0530",
       "terms": [
-        "West Bengal"
-      ],
-      "note": "Legal reporting carries hearings on the day they happen, usually before anything reaches a court website."
-    },
-    {
-      "kind": "NEW_ITEM",
-      "target": "barandbench",
-      "label": "Bar & Bench",
-      "title": "Resolüt Partners is looking to hire a Senior Associate in Delhi/Mumbai",
-      "url": "https://www.barandbench.com/legal-jobs/resolt-partners-is-looking-to-hire-a-senior-associate-in-delhimumbai",
-      "date": "Mon, 23 Nov 2026 13:09:33 +0530",
-      "terms": [
-        "Mumbai"
+        "Nagpur"
       ],
       "note": "Legal reporting carries hearings on the day they happen, usually before anything reaches a court website."
     },
@@ -48,9 +36,21 @@
       "kind": "NEW_ITEM",
       "target": "news-delhi",
       "label": "News: Jantar Mantar and the police action",
-      "title": "Jantar Mantar returns to normalcy as protests move out; vendors, visitors welcome quieter surroundings - The Statesman",
-      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOTURrQm9hbFJvSEZJU0VrdTd4akZ3OEUtQVhnODNEMFY0UVhBY1dvbHp2cTZQdXY2ZnBzTWFVd0ZlWXFXanBMbnBfOGVKZi1kWkI0cE5wN3NhY2hEYWVGU3JkQlFsR0FLY2taWGdITnJObEU5eEREWjkyc05RalpaTE1Vc0tEdUtxQmFEeVVLTFQzUmlqaTkxV2F1QlhRSVBvMjdkdXpnVVZnYzBvRW5jSlhnbS1kRWVIbmtaTTY3MW1vRlNlWXJnTjlHcnNoZFlYaHh3OWtpTTlUeW91ZFdYb0E2cWhyOEVUTE0ycXN6c9IB9AFBVV95cUxPRnhvbTRTOXZ5bmc2NjB1Z1VzUS15dW4wUno4UFU4ZTB0Wnhpc28tS29yQU50NTM4a3RDZE1SRW1MbzJlb2VWdHluVjlIUUVaby1oTjNDUDJlWkx3YXEwUGExZGxnWUJYbEExVDNiZkhOckE4MVM5RmFLX3J2cmNnUWotc0x3OG1MMkxXSTF6S2ZpRS1RQTFpNUl5c2JtREV0OUlJWnVMNk8zUTJFeUdxNG54MnRzYmplakNheXVuU3IwaVdtYUszdGdvSGRHRXVRY0VKRUFmdWVfSG5jZjY5d3E2SmJvejRZSWlaeEVXTWttVmN0?oc=5",
-      "date": "Sun, 22 Nov 2026 14:41:00 GMT",
+      "title": "CJP at Jantar Mantar: Delhi sees more protests as freed 'cockroach' group's leaders vow to continue fight - BBC",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBKVWpyNVd2VWVNQVJWMl9MdW9MTXRlVGNtbFFZSW1hSnhBWWtwYkZSb29ldHBrVG9GVVQwendYR05UWmp2ZXVoMzBBQ3Y4dG9JME94bENrLXM1dTA?oc=5",
+      "date": "Sun, 11 Oct 2026 07:00:00 GMT",
+      "terms": [
+        "Jantar Mantar"
+      ],
+      "note": "Leads, not evidence. Something reported here is a pointer to a document worth going after."
+    },
+    {
+      "kind": "NEW_ITEM",
+      "target": "news-delhi",
+      "label": "News: Jantar Mantar and the police action",
+      "title": "SC grants one week to petitioner to file rejoinder in Jantar Mantar protest site case - Udayavani",
+      "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNLWZwbHdKMWItbjB0WnY3dGpSV04yY0JqZjNsdDJEOHUxbEx4WHdYTXJtcHVFc2xzTTVGa2Rzc1hfSnV3aWdfR2RPTlFKUTJ5RWNsZnkxWGZtQkNaRDI1cXByR0JaWm9CNEpQbUtWc3NMc0tzQWFTLV92UGxHd1JsNUtOQmZ0UGJjcFl3bEtqZW01NEUxU2x6aFhERHBMUGdaSm1CWHI5RTVkMjYza3Boa19SNEhFSGplOUc4ejI4UV9YWm5TazBjdkxRdWRXSnhzV3ltczg2a3RMR0Z3anp5U1d2OThvZ3F4V3p2YVBucUViNDhuX1hJalZUaw?oc=5",
+      "date": "Fri, 20 Nov 2026 12:50:39 GMT",
       "terms": [
         "Jantar Mantar"
       ],
@@ -60,7 +60,7 @@
   "checked": [
     {
       "id": "delhi-hc-causelist",
-      "url": "https://delhihighcourt.nic.in/files/2026-11/cause-list/combined_cause_list_23.11.2026.pdf",
+      "url": "https://delhihighcourt.nic.in/files/2026-11/cause-list/combined_cause_list_24.11.2026.pdf",
       "status": 404,
       "outcome": "nothing-published"
     },
@@ -89,23 +89,23 @@
       "url": "https://www.barandbench.com/feed",
       "status": 200,
       "outcome": "ok",
-      "items": 21,
-      "matched": 2
+      "items": 43,
+      "matched": 1
     },
     {
       "id": "news-delhi",
       "url": "https://news.google.com/rss/search?q=%22Jantar+Mantar%22+(police+OR+court+OR+NHRC+OR+affidavit)&hl=en-IN&gl=IN&ceid=IN:en",
       "status": 200,
       "outcome": "ok",
-      "items": 65,
-      "matched": 1
+      "items": 64,
+      "matched": 2
     },
     {
       "id": "news-cases",
       "url": "https://news.google.com/rss/search?q=%22Shailendra+Mani+Tripathi%22+OR+%22Shakeel+Abbas%22+OR+%22280%2F2026%22&hl=en-IN&gl=IN&ceid=IN:en",
       "status": 200,
       "outcome": "ok",
-      "items": 9,
+      "items": 47,
       "matched": 0
     },
     {
@@ -113,7 +113,7 @@
       "url": "https://news.google.com/rss/search?q=(%22facial+recognition%22+OR+%22Crime+Kundli%22)+(%22Delhi+Police%22+OR+protest)&hl=en-IN&gl=IN&ceid=IN:en",
       "status": 200,
       "outcome": "ok",
-      "items": 50,
+      "items": 49,
       "matched": 0
     },
     {
@@ -121,7 +121,7 @@
       "url": "https://news.google.com/rss/search?q=(Patna+OR+Katihar+OR+Munger)+(lathi+OR+police+action+OR+protest)+students&hl=en-IN&gl=IN&ceid=IN:en",
       "status": 200,
       "outcome": "ok",
-      "items": 54,
+      "items": 100,
       "matched": 0
     }
   ]

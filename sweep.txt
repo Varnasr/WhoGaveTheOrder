@@ -1,13 +1,13 @@
-Sweep 2026-11-23: 9 targets, 175 watch terms.
+Sweep 2026-11-24: 9 targets, 175 watch terms.
   nothing-published  delhi-hc-causelist
   changed-no-match   delhi-hc-judgments
   matched            nhrc-press
   unreachable        eparlib
-  ok                 barandbench  21 item(s), 2 matched
-  ok                 news-delhi  65 item(s), 1 matched
-  ok                 news-cases  9 item(s), 0 matched
-  ok                 news-frt  50 item(s), 0 matched
-  ok                 news-bihar  54 item(s), 0 matched
+  ok                 barandbench  43 item(s), 1 matched
+  ok                 news-delhi  64 item(s), 2 matched
+  ok                 news-cases  47 item(s), 0 matched
+  ok                 news-frt  49 item(s), 0 matched
+  ok                 news-bihar  100 item(s), 0 matched
 
 4 thing(s) to look at:
 
@@ -16,17 +16,17 @@ Sweep 2026-11-23: 9 targets, 175 watch terms.
   fetch failed
 
 · [NEW_ITEM] Bar & Bench
-  West Bengal SIR: Supreme Court orders priority hearing of appeals for inclusion in voters list, increase in appellate tribunals
-  https://www.barandbench.com/news/west-bengal-sir-supreme-court-orders-priority-hearing-of-appeals-for-inclusion-in-voters-list-increase-in-appellate-tribunals
-  matched: West Bengal
-
-· [NEW_ITEM] Bar & Bench
-  Resolüt Partners is looking to hire a Senior Associate in Delhi/Mumbai
-  https://www.barandbench.com/legal-jobs/resolt-partners-is-looking-to-hire-a-senior-associate-in-delhimumbai
-  matched: Mumbai
+  Housekeeping staff at MNLU Nagpur end protest after contractor agrees to ESI cover, minimum wages
+  https://www.barandbench.com/Law-School/housekeeping-staff-at-mnlu-nagpur-end-protest-after-contractor-agrees-to-esi-cover-minimum-wages
+  matched: Nagpur
 
 · [NEW_ITEM] News: Jantar Mantar and the police action
-  Jantar Mantar returns to normalcy as protests move out; vendors, visitors welcome quieter surroundings - The Statesman
-  https://news.google.com/rss/articles/CBMi7wFBVV95cUxOTURrQm9hbFJvSEZJU0VrdTd4akZ3OEUtQVhnODNEMFY0UVhBY1dvbHp2cTZQdXY2ZnBzTWFVd0ZlWXFXanBMbnBfOGVKZi1kWkI0cE5wN3NhY2hEYWVGU3JkQlFsR0FLY2taWGdITnJObEU5eEREWjkyc05RalpaTE1Vc0tEdUtxQmFEeVVLTFQzUmlqaTkxV2F1QlhRSVBvMjdkdXpnVVZnYzBvRW5jSlhnbS1kRWVIbmtaTTY3MW1vRlNlWXJnTjlHcnNoZFlYaHh3OWtpTTlUeW91ZFdYb0E2cWhyOEVUTE0ycXN6c9IB9AFBVV95cUxPRnhvbTRTOXZ5bmc2NjB1Z1VzUS15dW4wUno4UFU4ZTB0Wnhpc28tS29yQU50NTM4a3RDZE1SRW1MbzJlb2VWdHluVjlIUUVaby1oTjNDUDJlWkx3YXEwUGExZGxnWUJYbEExVDNiZkhOckE4MVM5RmFLX3J2cmNnUWotc0x3OG1MMkxXSTF6S2ZpRS1RQTFpNUl5c2JtREV0OUlJWnVMNk8zUTJFeUdxNG54MnRzYmplakNheXVuU3IwaVdtYUszdGdvSGRHRXVRY0VKRUFmdWVfSG5jZjY5d3E2SmJvejRZSWlaeEVXTWttVmN0?oc=5
+  CJP at Jantar Mantar: Delhi sees more protests as freed 'cockroach' group's leaders vow to continue fight - BBC
+  https://news.google.com/rss/articles/CBMiW0FVX3lxTFBKVWpyNVd2VWVNQVJWMl9MdW9MTXRlVGNtbFFZSW1hSnhBWWtwYkZSb29ldHBrVG9GVVQwendYR05UWmp2ZXVoMzBBQ3Y4dG9JME94bENrLXM1dTA?oc=5
+  matched: Jantar Mantar
+
+· [NEW_ITEM] News: Jantar Mantar and the police action
+  SC grants one week to petitioner to file rejoinder in Jantar Mantar protest site case - Udayavani
+  https://news.google.com/rss/articles/CBMi-wFBVV95cUxNLWZwbHdKMWItbjB0WnY3dGpSV04yY0JqZjNsdDJEOHUxbEx4WHdYTXJtcHVFc2xzTTVGa2Rzc1hfSnV3aWdfR2RPTlFKUTJ5RWNsZnkxWGZtQkNaRDI1cXByR0JaWm9CNEpQbUtWc3NMc0tzQWFTLV92UGxHd1JsNUtOQmZ0UGJjcFl3bEtqZW01NEUxU2x6aFhERHBMUGdaSm1CWHI5RTVkMjYza3Boa19SNEhFSGplOUc4ejI4UV9YWm5TazBjdkxRdWRXSnhzV3ltczg2a3RMR0Z3anp5U1d2OThvZ3F4V3p2YVBucUViNDhuX1hJalZUaw?oc=5
   matched: Jantar Mantar
 
