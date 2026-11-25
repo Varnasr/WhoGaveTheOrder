@@ -5,6 +5,72 @@ window.WGO = window.WGO || {};
 
 WGO.changes = [
   {
+    "commit": "0f4a85a7f9",
+    "date": "2026-11-24T12:48:50Z",
+    "subject": "Sweep log and archived copies for 2026-11-24 [skip ci]",
+    "added": [],
+    "removed": [],
+    "changed": [
+      {
+        "id": "SRC-0309",
+        "kind": "Source",
+        "title": "The Peninsula (Qatar), 24 February 2017",
+        "state": null,
+        "url": "https://thepeninsulaqatar.com/article/24/02/2017/Three-policemen-suspended-over-Ramjas-violence",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20250722063538/https://thepeninsulaqatar.com/article/24/02/2017/Three-policemen-suspended-over-Ramjas-violence"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0310",
+        "kind": "Source",
+        "title": "Committee to Protect Journalists",
+        "state": null,
+        "url": "https://cpj.org/2017/02/delhi-police-student-activists-beat-journalists/",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20260813095127/https://cpj.org/2017/02/delhi-police-student-activists-beat-journalists/"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0311",
+        "kind": "Source",
+        "title": "The Tribune",
+        "state": null,
+        "url": "https://www.tribuneindia.com/news/archive/nation/du-clash-over-seminar-invite-368249",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20240324092610/https://www.tribuneindia.com/news/archive/nation/du-clash-over-seminar-invite-368249"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0312",
+        "kind": "Source",
+        "title": "Governance Now, 28 February 2017",
+        "state": null,
+        "url": "https://www.governancenow.com/news/regular-story/ramjas-violence-nhrc-notice-delhi-police-chief",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20260722112823/http://www.governancenow.com/news/regular-story/ramjas-violence-nhrc-notice-delhi-police-chief"
+          }
+        ]
+      }
+    ],
+    "summary": "4 records edited"
+  },
+  {
     "commit": "1d1471b369",
     "date": "2026-11-23T11:01:50Z",
     "subject": "Sweep log and archived copies for 2026-11-23 [skip ci]",

@@ -3002,8 +3002,8 @@ WGO.importedSources = [
     "kind": "SECONDARY",
     "url": "https://www.dtnext.in/news/tamilnadu/panel-submits-report-on-jallikattu-violence",
     "retrievedOn": "2026-10-10",
-    "archiveUrl": null,
-    "archivedOn": null,
+    "archiveUrl": "http://web.archive.org/web/20261124124631/https://www.dtnext.in/news/tamilnadu/panel-submits-report-on-jallikattu-violence",
+    "archivedOn": "2026-11-25",
     "sha256": null,
     "originatesFrom": "Secretariat sources, as reported"
   },
