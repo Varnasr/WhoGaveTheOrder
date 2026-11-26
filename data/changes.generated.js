@@ -5,6 +5,30 @@ window.WGO = window.WGO || {};
 
 WGO.changes = [
   {
+    "commit": "60d1d2a8d5",
+    "date": "2026-11-25T11:36:38Z",
+    "subject": "Sweep log and archived copies for 2026-11-25 [skip ci]",
+    "added": [],
+    "removed": [],
+    "changed": [
+      {
+        "id": "SRC-0300",
+        "kind": "Source",
+        "title": "DT Next, 20 January 2020",
+        "state": null,
+        "url": "https://www.dtnext.in/news/tamilnadu/panel-submits-report-on-jallikattu-violence",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20261124124631/https://www.dtnext.in/news/tamilnadu/panel-submits-report-on-jallikattu-violence"
+          }
+        ]
+      }
+    ],
+    "summary": "1 record edited"
+  },
+  {
     "commit": "0f4a85a7f9",
     "date": "2026-11-24T12:48:50Z",
     "subject": "Sweep log and archived copies for 2026-11-24 [skip ci]",
