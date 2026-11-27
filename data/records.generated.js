@@ -3167,8 +3167,8 @@ WGO.importedSources = [
     "kind": "SECONDARY",
     "url": "https://www.socialnews.xyz/2017/11/07/court-junks-plea-to-file-another-fir-over-ramjas-incident/",
     "retrievedOn": "2026-10-10",
-    "archiveUrl": null,
-    "archivedOn": null,
+    "archiveUrl": "http://web.archive.org/web/20261126112003/https://www.socialnews.xyz/2017/11/07/court-junks-plea-to-file-another-fir-over-ramjas-incident/",
+    "archivedOn": "2026-11-27",
     "sha256": null,
     "originatesFrom": "IANS syndicated feed, auto-generated and not edited by the publisher"
   },
@@ -3178,8 +3178,8 @@ WGO.importedSources = [
     "kind": "SECONDARY",
     "url": "https://www.asianage.com/metros/delhi/130317/police-probe-to-be-over-by-month-end.html",
     "retrievedOn": "2026-10-10",
-    "archiveUrl": null,
-    "archivedOn": null,
+    "archiveUrl": "https://web.archive.org/web/20261127111001/https://www.asianage.com/metros/delhi/130317/police-probe-to-be-over-by-month-end.html",
+    "archivedOn": "2026-11-27",
     "sha256": null,
     "originatesFrom": null
   },
