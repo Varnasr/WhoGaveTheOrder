@@ -1,66 +1,62 @@
-Sweep 2026-11-26: 9 targets, 175 watch terms.
-  matched            delhi-hc-causelist
+Sweep 2026-11-27: 9 targets, 175 watch terms.
+  nothing-published  delhi-hc-causelist
   changed-no-match   delhi-hc-judgments
   matched            nhrc-press
   unreachable        eparlib
-  ok                 barandbench  29 item(s), 0 matched
-  ok                 news-delhi  100 item(s), 9 matched
-  ok                 news-cases  46 item(s), 0 matched
+  ok                 barandbench  16 item(s), 1 matched
+  ok                 news-delhi  74 item(s), 7 matched
+  ok                 news-cases  9 item(s), 0 matched
   ok                 news-frt  48 item(s), 0 matched
-  ok                 news-bihar  54 item(s), 0 matched
+  ok                 news-bihar  100 item(s), 1 matched
 
-11 thing(s) to look at:
-
-· [CHANGED_MATCH] Delhi High Court cause list for today
-  https://delhihighcourt.nic.in/files/2026-11/cause-list/combined_cause_list_26.11.2026.pdf
-  matched: 2127/2026, 917/2026, Mumbai, Kochi, Hyderabad, Varanasi, Jamia Millia Islamia, Aligarh, Jawaharlal Nehru University, Kolkata, Chennai, Chandigarh, Jamia Nagar, Okhla, Bengaluru, Lucknow, Civil Lines, Nagpur, Harihar, University of Delhi, Mohali, Jhandewalan, Ashok Nagar, Prayagraj, Ranchi, Madhya Pradesh, Central Park
+10 thing(s) to look at:
 
 · [UNREACHABLE] Parliamentary library
   https://eparlib.sansad.in/
   fetch failed
 
-· [NEW_ITEM] News: Jantar Mantar and the police action
-  Delhi Police denies permission for SKM's proposed march to Jantar Mantar - The New Indian Express
-  https://news.google.com/rss/articles/CBMiyAFBVV95cUxNYjlzRDhfV2xFNDVlcWllMnRsSUVqd29HWktQcTB3SnpKVWdQd014WERGMVdtcEVQZ3p3XzlDTkdsRG0waTV1TW5VUzNubVdoU2ZXLXpRRDY0VktRQTZnOFhFSGp6bFZURTJpVEhuQzZDUUtjZDdvNUxRZ3B4clRLMEluSmt6bGI3emhhT25FaGdEYnhNZGhLb2oyRzk1Sy1RaWgtVkI0a0dyNWJDeHZGM0tSeEttckxJdjVuY0pCTWRCd3ljTUJCWtIB1gFBVV95cUxNYkYydUtseFg1bzlLS2RoZ3RtRmJNVUg0eWlNWWhfOTFGY3ZMSmNSb0tNNVlGTFZLcS1RVmxhVWQwa1JvUFZnVlJYakxUVEJ5UU9FVXk0VlhRZ18xOGR5Ukg3bk9NYXg5bFA2dUMySklUV0w3QWsyb1Vwa2Y0dlZlbjFyeGRvTDZoWldZcUVHeGNsWWJwWWZIdE5VRmhxQWpoanRzNXNfVmZETnI5aTNwb1NuNUp3aENUS2pzeHUwZDhHOEVtYloya0EtcGREZ0Y2U294OFJR?oc=5
-  matched: Jantar Mantar
-
-· [NEW_ITEM] News: Jantar Mantar and the police action
-  Delhi Police Deny Permission for SKM Protest at Jantar Mantar - The Hindustan Gazette
-  https://news.google.com/rss/articles/CBMirAFBVV95cUxOOXJiMDZTWlZrY0p1S3R0MFlsd1NVY25SbmNua0dLWFhhNjJnNTVMdUJwdDh1ME11dnpRMGQ3MkRVd2QxT2p3RTJGdVE2ajVQQ2lSVDhiZl9lWmVsTXJiVDFpYWlzUGJMb2V0aVVkNG9pbV82d09pUnNtVG96UHJlY0c1b0JqNTIzZE1YRGdoZnpqaHBHR3hUMzdMb0loZHpYN3ZzeVpVZG11Tmxk?oc=5
-  matched: Jantar Mantar
-
-· [NEW_ITEM] News: Jantar Mantar and the police action
-  Delhi Police issues public notice ahead of proposed SKM march to Jantar Mantar - The Times of India
-  https://news.google.com/rss/articles/CBMi5gFBVV95cUxPeG0xZnBSMGlpdjE0RUtBMnU1dkZPbmNXRi1hS0xhVzBLOGVZVlNqUjdaZ0FsQXBtNnpyVUR1LVpjUElvYzR4V1dDZjAwWGo2dmYxUUlfOHo0TG9YaGtJeU9TNU55R3lhYWxyampaVnVFRl9qWUtueVRFa2xBNWdyNzNVUXBELVVEZ3lubG9tamxMcHVuMWVPQUt5WWVQUWVMUGpRc0laM21KQzBQMy1fNmhxaGE5Sm9BMXpmb0p4NkxMV1RETnVTTU8xUDJtaFFoc0Y4eWRjdV9DX1R5MVJzNHFmSHgzd9IB6wFBVV95cUxPa0txVVlib0hLbjRqRFVHelpMMUlxa1lCN0pKR042bnNselgxR054dkZpU1lwZkFDZUdyZnR1akh0cmh2R3lDREJjb01RSDVRRjRpVndVMEU5ZHZUVlE4UzlqZjBXXzRRSWlVbXc0aHhwT2dDVlJSb1dwZ2JtN2FiSlhBUzZjU0xhb3FKNWdtc3VUR0pjWEUzejdPdkt1M0JrZFZFYzRwUU9yRkNMSmppNG51Z1RLRFYxRGtSYVpZU0FZSC1CRnBXUHFTaUdZbVpjcnlhYzY0YnFfbWY1eVpjVUxqYWFVVkpHQXRj?oc=5
-  matched: Jantar Mantar
-
-· [NEW_ITEM] News: Jantar Mantar and the police action
-  Delhi Police deny permission for farmers’ march to Jantar Mantar; prohibitory orders in force - Mangalore Today
-  https://news.google.com/rss/articles/CBMi2wFBVV95cUxQMHN0TVpGMVB2bHdZbXN3RWVsaS12czlEdE9QTUctMmFRekN1TVNiQks4ci1YWENWaXRPa3hONTlXME5DZWw0X2poTXdqX0x4UDN4OGdfMTdPRm8xREZBUVJ6WTNac0R2VEpIUkpMd0tvSGNkWE82dEFnaEI5SHlkT3hSeE0zbEhCcUNKM1pya0R6TjNhMjIzVmh0ekV2MUQxZFAzYjFfeWY5UEtPYmxpM2ZUcXpNV0lZcW9QaHFJcXhOR1NNRFhDcV9JSmU0alpwSlV6Rzg2WjZYaFk?oc=5
-  matched: Jantar Mantar, prohibitory order
+· [NEW_ITEM] Bar & Bench
+  Calcutta High Court sets aside appointment of Ritabrata Banerjee as West Bengal Leader of Opposition, orders fresh decision
+  https://www.barandbench.com/news/litigation/calcutta-high-court-sets-aside-appointment-of-ritabrata-banerjee-as-west-bengal-leader-of-opposition-orders-fresh-decision
+  matched: West Bengal
 
 · [NEW_ITEM] News: Jantar Mantar and the police action
   Delhi Police says no permission for SKM’s protest march to Jantar Mantar - ThePrint
-  https://news.google.com/rss/articles/CBMirwFBVV95cUxOVTZXV3BUQ056RWhqa0ZfNFFmMXVJeHViWWpEakdnbG9nZDB1RUFXRUlBR3AtbW04b29TQVV6dUVnczlLR3ItazdzbU1URWd5Q3dyQWVHY2Qtd0JDdGo0UHVnNVFMYndQbHY3QktsUmRZQ21LRENrT1RhNHoxXzN3VS1jRmRuMEp0N3lPZlMtUTQxaHRYU2tFM1UtbnVkRTQ5SER1NXdCWGJqX21Mc1Jv0gGvAUFVX3lxTE5VNldXcFRDTnpFaGprRl80UWYxdUl4dWJZakRqR2dsb2dkMHVFQVdFSUFHcC1tbThvb1NBVXp1RWdzOUtHci1rN3NtTVRFZ3lDd3JBZUdjZC13QkN0ajRQdWc1UUxid1BsdjdCS2xSZFlDbUtEQ2tPVGE0ejFfM3dVLWNGZG4wSnQ3eU9mUy1RNDFodFhTa0UzVS1udWRFNDlIRHU1d0JYYmpfbUxzUm8?oc=5
+  https://news.google.com/rss/articles/CBMiqgFBVV95cUxNbVQwNjduVnJOTG9UR1dZZVVIMkdVNWRRS0lqNFJaQ1FLSUxzem1zb2ZmZUJTLXBMVnBIX0pLUjRGaUNmNkkweXdLUFFXMzludS1Xb3l1STAtbG1NbUhzMUZjal9jb2MwWTAxcDhaOVZ0eG96cmhXLVNjOFkweW94SzhndzBfb3NmWGJXWm5xb3AzblUxQTZnRjRZLVRRNHRxc0VUOVAtZ0JHd9IBrwFBVV95cUxOVTZXV3BUQ056RWhqa0ZfNFFmMXVJeHViWWpEakdnbG9nZDB1RUFXRUlBR3AtbW04b29TQVV6dUVnczlLR3ItazdzbU1URWd5Q3dyQWVHY2Qtd0JDdGo0UHVnNVFMYndQbHY3QktsUmRZQ21LRENrT1RhNHoxXzN3VS1jRmRuMEp0N3lPZlMtUTQxaHRYU2tFM1UtbnVkRTQ5SER1NXdCWGJqX21Mc1Jv?oc=5
   matched: Jantar Mantar
 
 · [NEW_ITEM] News: Jantar Mantar and the police action
-  Farmers march: Delhi Police deny permission, impose prohibitory orders - Deccan Herald
-  https://news.google.com/rss/articles/CBMi_AFBVV95cUxQQ1BmLVFMRkV0RHFJU0EtenNtN0hNUU94RnY0eVA3YVNwTGp0RmJrbHE2Y1pmR0NxV1c2VFM3OHRoSVlXbVJZbVdoUEZzM3NJcG1icWpCV0NrZzNBWmd0aFoxMlBmSlFSYU41WmE5dy10T1J1SWZDZWQxbjlCQV9PSE5RMGU0UmlJZkU0N2N2azJVYWtXejdNSWJSVml3UnI4ekVzXzFHTEtFRHFFWlJCY1N4cVZQNHBSYlNlaXpXMXYxdVVLOUFXSi1oT0hjaFVBcjVROXIxSi1rNFY3UldMRW1vLThqTlJrUXBPQWN2RVZUUXRVaHpCb1BZbmw?oc=5
-  matched: prohibitory order
-
-· [NEW_ITEM] News: Jantar Mantar and the police action
-  How a security blanket across Delhi took fizz out of CJP's Jantar Mantar 2.0 - India Today
-  https://news.google.com/rss/articles/CBMizwFBVV95cUxPSUV1T1l2S0ZmRkVZemFQQlBKbjMzYUpLc0NLRm1ZVVN2LWZpZVBMVkttZEdpdFZ4aFhwSnVFWEVmUG1JNnFDNWZmRWZObmlIcWU1ME9mNVUtVVAxZUJVdzExdVQyMk9DRHZZUHVsZjllNWI5MkhlZG9MNG9jTVFWcGJTNmpDV2lMdnRmY19oaTRHWFRjMnduSUNZWGZ1X20wSldkZHB4NnBDSjlvMXlBV3hWdGJwQkRQbmF0bFZzbTFtZThRd2c3ZUhsSG9Kb03SAdQBQVVfeXFMUHNiNUFYX1hXSW1TR3BKZlN0cVdUQ2U2Mjc2WjhaZFltbkc4eGtoMmR4VTFnSkhRMkZ1MTNxT0NWVHd0UkFwalNuSVNKeUE2VDg4V1M2S0ZvaVBITV9PcHRqS1VOZGRra21lbldsM19yWXVER180dnlzSDRMcml4NmVSVXJSbWxvVHdNamM3UkVjTnRlbzhlU3o5QXlFTVE5d1RKeTJEYU1RRWlSRkx6b3FiVlllNmJjNVlUdmZEUzRCM3ZkVUFLTjlUODloTFJTQUp0SWs?oc=5
+  Delhi Police says no permission for SKM's protest march to Jantar Mantar | India News - Hindustan Times
+  https://news.google.com/rss/articles/CBMizwFBVV95cUxPRzBVeC16R0dEeFV3emdKLTgzR1dGbW5TcVYxTTAtNDBvU3dTSUg0Nk5vRXZxTl9LcHVybGhqUEJJLXBiT2U0RUx0WXBUcGs0YjNBdWI4NTF5bFJwNGxGaDJpU0JGSTRIYWE4S0xGVHdQVl80eG11Z3g1WTFHc1U0S3FTSld0THljV3BNMEw0WWFEOS1EQThRdXFKcTItd1pBUTIwV0h4c19LS25YN0tLSmM1Z2ZqRXA2Nm9MRmFKSWJhVlJ1RUR1b3o2QlozUVnSAdQBQVVfeXFMUEdaUWh3Q3dBTkJveGVWUFRFSTdUMFgtUlFzWDRzY1Rrb3NPVXlLdjk1S2h3MVZUa21MWjBpU3A3TW05VllQY1dMRFpSYzc3d01PMnpCcW9laUdqYTFjbWQzY2s1Yzg4V2E1d0JGcjhucVlDUG1rcExucjBlT1ZlUHJLR1lMdDMzZ3dBMEJtVnAxdFR0bUtvS1RFZGZtVE9DeEV0VGJxT2tsSUFhdG5WWWE5a2lMVmhLMXJqVE5sZFRiV0hTVFJpZU55QmJ3TldZQlJ2OWo?oc=5
   matched: Jantar Mantar
 
 · [NEW_ITEM] News: Jantar Mantar and the police action
-  Police sealed Jantar Mantar. The protest moved to the streets - Newslaundry
-  https://news.google.com/rss/articles/CBMioAFBVV95cUxOTU5mZWdLdldUa29icmoxRmV6RFBfNXFjal9teXg1dUtnZExrSjVlQzBfQjF1UVFOMUs4VG81Q3VpTGNRUmY4NEpJc2k0R3psZXVOTVFReHcxaWJxWlJRUVNMeFJiZE9wSzFiS1U2Z1BPUlExaklkaGlPa2p1VmZhbmEtYy1kb0c1UGdDMW9qUUhKYUhuQXZtMVBoVG15S0xm?oc=5
+  Delhi Police denies permission for SKM's march to Jantar Mantar on farmers' protest anniversary | India News - Hindustan Times
+  https://news.google.com/rss/articles/CBMi7AFBVV95cUxQeVU2U1JUZjNwQ0pZcXBrbi1GaFkzYjgxZHIydXQyYWpDUUllLTJvZDktZmh2cWtIdlRwUkw4RlJCOVMxTzVnMDNjY3Y0TlE5SFRlX3ZpZlRDNkhKdi12WVlpMFVPYjY2RWNuR01XZ0VjWGtVNDJDMVJ0eV85aHZ0WDY4QzM1VXl6OVNVMklLc3lxejRnT0xjejhMZE1jZHJpWldOMDRVZEJseEhxLUcwNkV6dmdMUm1yb1lMM2Q1d0dmMTBpaEF5MThJMkc0NzFBMWVDQXJGQURtc2JzNVNlVF9hTWRERk5zYTBsUNIB8gFBVV95cUxQQ1NIS0tRMjJoU1oxZjM2WlplT0x5akFjdTRkTXpGVzQzTW52NElJNHZzLU03QmdDR1JWVzdfZGN3N01aazlVSzZUdnowUHkwWmY5MUlab2Y5VUVjVl9SazNyaV9rSGlmclc5QVFxMkFaMVJhTjJ0NnU0bjI3MS02Q29EblEyaFdqREdoMHB6Umk5eUVheTlQOUNNRGJfVWFvbUVFOUhraGRvbWxZWkhCc1ZGdlZwU2pFdHpXdE9WTTBPWFJtZm5yRURXVndjS2Z2U3pmOTJHYThyVFJGbkJaYjJqWGtZMmtNa2hya1hPR2pJZw?oc=5
   matched: Jantar Mantar
 
 · [NEW_ITEM] News: Jantar Mantar and the police action
-  With Jantar Mantar out of reach, Delhi streets become scattered stages for CJP protest - The New Indian Express
-  https://news.google.com/rss/articles/CBMi3gFBVV95cUxONUJnVjFka2hNUWhWbGwyT29fRVgyTXAxRE5MMVpIVnp0LWJkYVM4NEtxUHhXWjJxdm1oV0V6RWhsTWRVVVlnRGhuLUVhUFpmOU5JRUlrcTZ6VTNEb1V3Z0FKOXNwYVhvVi1zMnkzbTZaNWJHb3dwOVFsMXJhSDh4WDFwSkRWRmtjQjIxQlVESXZrMDVWWFFzdGVVQ3oxb0tGM184djN2dW9wN2xkU1dLVVphcHktOU1ITXpsMFZkSEJRNkdxUUxCcmNSSlBxTHV2UVRBbm9RbGVzZVJla2fSAesBQVVfeXFMT0UzOGVpYlZNOEJKR1B6VjlNLUlfS0I1UUp2cHZ5TUw5YTFEODRYcjZaMnN1X18tY0dUcGtROUU4SDdMMWx1bExEZXdpVFFZWkpKUENuT2pCNDRDejloTVRSUWFDMWR3bXMtSUV5SlFmbTMybVhmMFNDdzJmQ1Flc3A0REpySU45bk96OXItT3doSmlnTXc2RGNyTF9RWEZuN0s2ZVA5NFpnNWxjZm9xRzBOVTZxTVZycDFBSm94eEQtOHplOFEtekFxR0RaZGFjSG9xNV9DMTJHNk1KaTV4c1NCYmFzXzI1YjVXRQ?oc=5
-  matched: Jantar Mantar, CJP protest
+  Delhi Police denies permission for SKM's proposed march to Jantar Mantar today, warns of legal action - India TV News
+  https://news.google.com/rss/articles/CBMi5AFBVV95cUxOTmdaZjBNWG9zVVpvX0lzMklUZ0E0NW1VaTliY2pwOGNQRkJ6R25YNjZLYUpwalpPbTVQenAtVE02UnplWkxBZWxib3d1X1JMTF83X2hxZjc4UlJiQWRDWlRUWW5ZN2RqdEppTVFmbkUyc3pVa2R5Y0Z5NHFjSmREdktGam1VZ0NORnk3dlRaWS1Ma1FKdEpVYktfSTBVMUU2TXE3ekF2b295M2RWNlduRkdtaEtmQWlBZ3BQTEkxVFFuTTg0NG9NeWZuR1VvTl9yYTgzX0JyRm5ZTXNrSl9kLW13TUnSAeoBQVVfeXFMTUpBQndvSUR1aTFEUEdqam5Za0R1VmxnYzMwQVpVQXR5dU1DS2lsWkZ5TkJDYXhXMW5QZWhNc05aWDRJRjFXZTcwczUteVR2M0NwdU1WV0NBeHpJU0lhWkoxd1h1cU0yU3BLMXAtak05VHB1aTFITzl0akphTVRDaFhLVnFVazN0M3JZQWpKM0lWVmFOQVhWWEt6VFpPTkxNdTN6NXdSS2dlZUNicDZiQS1EQ1FVaEZQOXdJemtpQVV6Wlp6eHo3QVZ3amtDOXNyaU9NbzFiMEFRTWE5dS1reFQ1LVU4LWNkWGN3?oc=5
+  matched: Jantar Mantar
+
+· [NEW_ITEM] News: Jantar Mantar and the police action
+  Delhi Police denies permission for SKM's march to Jantar Mantar - Daijiworld
+  https://news.google.com/rss/articles/CBMiakFVX3lxTFBsR2FTdFFvXzUtbGt0SjdYZkF0UFBuVDd1RXpfVGRRSG1haXpJNnd5QjUteDNiTHhsbGNaS3psZ1p0bWozTnhMc3gyY3VvWC1wcjhudlNTWWNtMm16R2psV0ZlS3B5QlNjMHc?oc=5
+  matched: Jantar Mantar
+
+· [NEW_ITEM] News: Jantar Mantar and the police action
+  Delhi Police reject SKM Jantar Mantar march citing no application - NewsBytes
+  https://news.google.com/rss/articles/CBMirwFBVV95cUxPaWpsc3d6bjJfYk93TVBUTjFESk9SY3R6c2Z0d1poTnhoMEc2d050RXRyNGNuRVJRczB3RGpoMl9qUlVaNDlIYk91MGZYTFBhSzBiVWNlb1phX1AtREd1T3FuNE50eDI3Z29fSm1WSUotX3prcGluWkljYjh3b2ltNFJ3RTd6Y3NMN3FHaWFkMFNyVDEtT0trMmtoRnFhMlJ1YjlLaks2eFFQRDVCZkM4?oc=5
+  matched: Jantar Mantar
+
+· [NEW_ITEM] News: Jantar Mantar and the police action
+  Fraudsters Of Highest Order: Saurabh Das Slams Centre Over Denial Of Information On Jantar Mantar - Free Press Journal
+  https://news.google.com/rss/articles/CBMi5AFBVV95cUxPUkVPYjVja3M3U0s1ZjlyVU5vZGVxZnJFU0lBZ3lOS2tuelZvX3l1TklvWEo0M09oWkNuT05TaUtCdjBMREJuUUZ0aGZVZzdFTzZBWUl1czNVVzkwRzc3WTVHeFg0OHNYazBsczE4SjBXV0J0S1NGQ2pZRlBCejZjSDlJSHZpdmlWWmlDMEhqVW9Icks4bldqRDZneVd5TWlJNTA3Q2hjbDMyeWstb3hwbmt1SDVRSHN0LWo3dVBCSWtmb2xvME5KbkxiTE1rSm1OTmkyQVBOSXAxVU83dU1jRE1WZ1bSAeoBQVVfeXFMUFJUMERBTDFqZlFKdkhhVldTUTVvNXY2SGtFZEo3NXVPNjhMVmpiQjNySVNvdGxONnZMd2lFUG9XMHp3QURPUDFQV1J1Ykl5N2lKclJiZFNIMVFNR2ZIejlNeVVoM1QzQzZpNmczeFhHdUhmSHpMekUwR2oxZ1lMNjBTellFQ2lZZ0p5RXk1aUY2MDctTWdsSmpMMjNpMjFET0UzbFpPT3dyZWZ6WjFJZjZ3MlNDWTNUejBJRnRLdDFTbklHMWRIbHRiN21ndkhsRUpwWHFXQ2NrVjZSX1dHZ2o1TGkwSElOT0dB?oc=5
+  matched: Jantar Mantar
+
+· [NEW_ITEM] News: the Bihar incidents
+  Bihar withdraws 64 FIRs against NEET protesters but cases against 21 in Siwan remain - The Indian Express
+  https://news.google.com/rss/articles/CBMivAFBVV95cUxQTnpUdFNfNkdON2I5WUFMN0xQM2I2N0kxX2draHY2b2dTUnVkVWoxb0lmRVRZYWFYMHAtZTZVeFpJOGhFbEd4NUozMmJDY2p0bWM0STFRTHQxRHJacWZESV9CNkt3NmNEMjV6ZXNfOTk0YlRiOEdmNWo1aVdTaGtiRlFfbjVWVHVGQWtwdzVFc1RqOWhQUnRKa0JNYVNOU2N5RGZ2VUZnd2FVZUlDOTRUVjZjX2txNzAyVlBJWdIBwwFBVV95cUxOYVAzWHdKeUVzNmhfRldIekRsV3VBUUg1R1BXWDRpUjFGYXkzYkVlNWtDN25kcGZ4S3pGWEoxamJTTE9PUXF3cFVKN1duRUhWZmxOeTBQaVFCS2JSOWo4TGl2M3UwT1ZONjlfaWdXSDlESVVDY3NZcG95SDNZWWdwN29iZlhnYzlKTDNXckpPSjVLVkFqSWdBdm80WlQ1M0Z4V1VMRjBtQXp2TjJNb2kwR3VzQ0RfOUZVVHcwSURWa0E1c1E?oc=5
+  matched: Siwan
 
