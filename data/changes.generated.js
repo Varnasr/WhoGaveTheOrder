@@ -5,6 +5,44 @@ window.WGO = window.WGO || {};
 
 WGO.changes = [
   {
+    "commit": "3b718afa72",
+    "date": "2026-11-27T11:11:24Z",
+    "subject": "Sweep log and archived copies for 2026-11-27 [skip ci]",
+    "added": [],
+    "removed": [],
+    "changed": [
+      {
+        "id": "SRC-0315",
+        "kind": "Source",
+        "title": "SocialNews.XYZ, 7 November 2017",
+        "state": null,
+        "url": "https://www.socialnews.xyz/2017/11/07/court-junks-plea-to-file-another-fir-over-ramjas-incident/",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "http://web.archive.org/web/20261126112003/https://www.socialnews.xyz/2017/11/07/court-junks-plea-to-file-another-fir-over-ramjas-incident/"
+          }
+        ]
+      },
+      {
+        "id": "SRC-0316",
+        "kind": "Source",
+        "title": "The Asian Age, 13 March 2017",
+        "state": null,
+        "url": "https://www.asianage.com/metros/delhi/130317/police-probe-to-be-over-by-month-end.html",
+        "fields": [
+          {
+            "field": "archiveUrl",
+            "from": null,
+            "to": "https://web.archive.org/web/20261127111001/https://www.asianage.com/metros/delhi/130317/police-probe-to-be-over-by-month-end.html"
+          }
+        ]
+      }
+    ],
+    "summary": "2 records edited"
+  },
+  {
     "commit": "60d1d2a8d5",
     "date": "2026-11-25T11:36:38Z",
     "subject": "Sweep log and archived copies for 2026-11-25 [skip ci]",

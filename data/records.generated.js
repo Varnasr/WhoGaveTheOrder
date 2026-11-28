@@ -3024,8 +3024,8 @@ WGO.importedSources = [
     "kind": "SECONDARY",
     "url": "https://www.thequint.com/amp/story/news/india/tamil-nadu-government-withdraws-2017-jallikattu-protest-cases",
     "retrievedOn": "2026-10-10",
-    "archiveUrl": null,
-    "archivedOn": null,
+    "archiveUrl": "http://web.archive.org/web/20261127110630/https://www.thequint.com/amp/story/news/india/tamil-nadu-government-withdraws-2017-jallikattu-protest-cases",
+    "archivedOn": "2026-11-28",
     "sha256": null,
     "originatesFrom": "Republished from The News Minute"
   },
@@ -3200,8 +3200,8 @@ WGO.importedSources = [
     "kind": "SECONDARY",
     "url": "https://newslaundry.com/amp/story/2017%2F08%2F04%2Fanti-national-sloganeering-video-at-ramjas-incident-doctored-says-delhi-police",
     "retrievedOn": "2026-10-10",
-    "archiveUrl": null,
-    "archivedOn": null,
+    "archiveUrl": "https://web.archive.org/web/20261128104712/https://www.newslaundry.com/2017/08/04/anti-national-sloganeering-video-at-ramjas-incident-doctored-says-delhi-police",
+    "archivedOn": "2026-11-28",
     "sha256": null,
     "originatesFrom": "Delhi Police action taken report filed in court, 3 August 2017 (as reported)"
   },
@@ -3211,8 +3211,8 @@ WGO.importedSources = [
     "kind": "SECONDARY",
     "url": "https://caravanmagazine.in/vantage/ramjas-professors-concern-crime-branch",
     "retrievedOn": "2026-10-10",
-    "archiveUrl": null,
-    "archivedOn": null,
+    "archiveUrl": "http://web.archive.org/web/20260518084231/https://caravanmagazine.in/vantage/ramjas-professors-concern-crime-branch",
+    "archivedOn": "2026-11-28",
     "sha256": null,
     "originatesFrom": "Delhi Police Crime Branch action taken report of 3 August 2017 (as reported)"
   },
@@ -3222,8 +3222,8 @@ WGO.importedSources = [
     "kind": "SECONDARY",
     "url": "https://www.newslaundry.com/2017/04/11/as-protests-at-panjab-university-heats-up-the-police-response-escalates",
     "retrievedOn": "2026-10-10",
-    "archiveUrl": null,
-    "archivedOn": null,
+    "archiveUrl": "http://web.archive.org/web/20210410210555/https://www.newslaundry.com/2017/04/11/as-protests-at-panjab-university-heats-up-the-police-response-escalates",
+    "archivedOn": "2026-11-28",
     "sha256": null,
     "originatesFrom": "Student council president, as quoted"
   },
